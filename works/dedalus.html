@@ -28,315 +28,266 @@
 				<!-- One -->
                     <section>
                         <h4>Dedalus大陆地区的安装</h4>
-                        <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-                        This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-                        This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-                        <hr />
-                        <header>
-                            <h4>Heading with a Subtitle</h4>
-                            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                        </header>
-                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                        <header>
-                            <h5>Heading with a Subtitle</h5>
-                            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                        </header>
-                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                        <hr />
-                        <h2>Heading Level 2</h2>
-                        <h3>Heading Level 3</h3>
-                        <h4>Heading Level 4</h4>
-                        <h5>Heading Level 5</h5>
-                        <h6>Heading Level 6</h6>
-                        <hr />
-                        <h5>Blockquote</h5>
-                        <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-                        <h5>Preformatted</h5>
-                        <pre><code>i = 0;
+                        <p>
+                            <a href="https://dedalus-project.readthedocs.io/en/latest/pages/installation.html">Dedalus</a>的开发小组给出了清晰的安装方法，
+                            其中<a href="https://dedalus-project.readthedocs.io/en/v2_master/pages/installation.html">Dedalus V2</a>的推荐安装方式需要通过conda-forge源进行下载安装，
+                            而<a href="https://dedalus-project.readthedocs.io/en/latest/pages/installation.html">Dedalus V3</a>的推荐安装方式是在V2的基础上通过pip升级。
+                            更实用的，官方给出了在conda环境下安装dedalus V3的可运行脚本。对于大陆地区无法正常访问github的情况，需要借助工具，或通过其他途径下载到zip压缩包后，将脚本中对应的在线安装代码更换为本地安装命令即可。
+                        </p>
+                        <h4></h4>
+                        <p>
+                            <h5>conda_install_dedalus3.sh</h5>
+                        <pre><code>
+#!/usr/bin/env bash
 
-        while (!deck.isInOrder()) {
-        print 'Iteration ' + i;
-        deck.shuffle();
-        i++;
-        }
+# Dedalus stack builder using conda, with options for custom MPI/FFTW/HDF5.
+# Run this file after installing conda and activating the base environment.
 
-        print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+#############
+## Options ##
+#############
+
+# Conda environment name
+CONDA_ENV="dedalus3"
+
+# Skip conda prompts
+CONDA_YES=1
+
+# Quiet conda output
+CONDA_QUIET=1
+
+# Install OpenMPI from conda, otherwise MPI_PATH must be set to your custom MPI prefix
+INSTALL_MPI=1
+#export MPI_PATH=
+
+# Install FFTW from conda, otherwise FFTW_PATH must be set to your custom FFTW prefix
+# Note: FFTW from conda will likely only work with custom MPIs that are OpenMPI
+INSTALL_FFTW=1
+#export FFTW_PATH=
+
+# Install HDF5 from conda, otherwise HDF5_DIR must be set to your custom HDF5 prefix
+# Note: HDF5 from conda will only be built with parallel support if MPI is installed from conda
+# Note: If your custom HDF5 is built with parallel support, HDF5_MPI must be set to "ON"
+INSTALL_HDF5=1
+#export HDF5_DIR=
+#export HDF5_MPI="ON"
+
+# BLAS options for numpy/scipy: "openblas" or "mkl"
+BLAS="openblas"
+
+# Python version
+PYTHON_VERSION="3.10"
+
+# Install native arm64 build on Apple Silicon
+# Note: Only relevent on Apple Silicon machines, where native arm64 builds may exhibit errors
+APPLE_SILICON_BUILD_ARM=0
+
+############
+## Script ##
+############
+
+prompt_to_proceed () {
+    while true; do
+        read -p "Proceed ([y]/n)? " proceed
+        case "${proceed}" in
+            "y" | "") break ;;
+            "n") exit 1 ;;
+            *) ;;
+        esac
+    done
+}
+
+# Check requirements
+if [ "${CONDA_DEFAULT_ENV}" != "base" ]
+then
+    >&2 echo "ERROR: Conda base environment must be activated"
+    exit 1
+fi
+
+if [ ${INSTALL_MPI} -ne 1 ]
+then
+    if [ -z ${MPI_PATH} ]
+    then
+        >&2 echo "ERROR: MPI_PATH must be set"
+        exit 1
+    else
+        echo "MPI_PATH set to '${MPI_PATH}'"
+    fi
+fi
+
+if [ ${INSTALL_FFTW} -ne 1 ]
+then
+    if [ -z ${FFTW_PATH} ]
+    then
+        >&2 echo "ERROR: FFTW_PATH must be set"
+        exit 1
+    else
+        echo "FFTW_PATH set to '${FFTW_PATH}'"
+    fi
+fi
+
+if [ ${INSTALL_HDF5} -ne 1 ]
+then
+    if [ -z ${HDF5_DIR} ]
+    then
+        >&2 echo "ERROR: HDF5_DIR must be set"
+        exit 1
+    else
+        echo "HDF5_DIR set to '${HDF5_DIR}'"
+        echo "HDF5_MPI set to '${HDF5_MPI}'"
+    fi
+fi
+
+# Unset arm build flag unless on Apple Silicon
+if [ $(uname -s) == "Darwin" ] && [ $(uname -m) == "arm64" ]
+then
+    ON_APPLE_SILICON=1
+else
+    ON_APPLE_SILICON=0
+    APPLE_SILICON_BUILD_ARM=0
+fi
+
+# Set conda flags
+CARGS=(-n ${CONDA_ENV})
+if [ ${CONDA_YES} -eq 1 ]
+then
+    CARGS+=(-y)
+fi
+if [ ${CONDA_QUIET} -eq 1 ]
+then
+    CARGS+=(-q)
+fi
+
+echo "Setting up conda with 'source ${CONDA_PREFIX}/etc/profile.d/conda.sh'"
+source ${CONDA_PREFIX}/etc/profile.d/conda.sh
+
+echo "Preventing conda from looking in ~/.local with 'export PYTHONNOUSERSITE=1'"
+export PYTHONNOUSERSITE=1
+
+echo "Preventing conda from looking in PYTHONPATH with 'unset PYTHONPATH'"
+unset PYTHONPATH
+
+# Check if conda environment exists
+conda activate ${CONDA_ENV} >&/dev/null
+if [ $? -eq 0 ]
+then
+    echo "WARNING: Conda environment '${CONDA_ENV}' already exists"
+    prompt_to_proceed
+else
+    echo "Building new conda environment '${CONDA_ENV}'"
+    if [ ${ON_APPLE_SILICON} -eq 1 ] && [ ${APPLE_SILICON_BUILD_ARM} -eq 0 ]
+    then
+        CONDA_SUBDIR=osx-64 conda create "${CARGS[@]}"
+        conda activate ${CONDA_ENV}
+        conda config --env --set subdir osx-64
+    else
+        conda create "${CARGS[@]}"
+        conda activate ${CONDA_ENV}
+    fi
+fi
+
+echo "Setting conda-forge as strict priority channel"
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+
+echo "Installing conda-forge python, pip, wheel, setuptools, cython"
+conda install "${CARGS[@]}" "python=${PYTHON_VERSION}" pip wheel setuptools cython
+
+case "${BLAS}" in
+"openblas")
+    echo "Installing conda-forge openblas, numpy, scipy"
+    # Pin openblas on apple silicon since 0.3.20 causes ggev errors
+    if [ ${APPLE_SILICON_BUILD_ARM} -eq 1 ]
+    then
+        conda install "${CARGS[@]}" "libopenblas<0.3.20"
+    fi
+    conda install "${CARGS[@]}" "libblas=*=*openblas" numpy scipy
+    # Dynamically link FFTW
+    export FFTW_STATIC=0
+    ;;
+"mkl")
+    echo "Installing conda-forge mkl, numpy, scipy"
+    conda install "${CARGS[@]}" "libblas=*=*mkl" numpy scipy
+    # Statically link FFTW to avoid MKL symbols
+    export FFTW_STATIC=1
+    ;;
+*)
+    >&2 echo "ERROR: BLAS must be 'openblas' or 'mkl'"
+    exit 1
+    ;;
+esac
+
+if [ ${INSTALL_MPI} -eq 1 ]
+then
+    echo "Installing conda-forge compilers, openmpi, mpi4py"
+    conda install "${CARGS[@]}" compilers openmpi openmpi-mpicc mpi4py
+else
+    echo "Not installing openmpi"
+    echo "Installing mpi4py with pip"
+    # Make sure mpicc will appear on path
+    export PATH=${MPI_PATH}/bin:${PATH}
+    echo "which mpicc: `which mpicc`"
+    # no-cache to avoid wheels from previous pip installs
+    python3 -m pip install --no-cache mpi4py
+fi
+
+if [ ${INSTALL_FFTW} -eq 1 ]
+then
+    echo "Installing conda-forge fftw"
+    # no-deps to avoid pulling openmpi
+    conda install "${CARGS[@]}" --no-deps "fftw=*=*openmpi*"
+else
+    echo "Not installing fftw"
+fi
+
+if [ ${INSTALL_HDF5} -eq 1 ]
+then
+    if [ ${INSTALL_MPI} -eq 1 ]
+    then
+        echo "Installing parallel conda-forge hdf5, h5py"
+        conda install "${CARGS[@]}" "hdf5=*=mpi*" "h5py=*=mpi*"
+    else
+        echo "Installing serial conda-forge hdf5, h5py"
+        conda install "${CARGS[@]}" "hdf5=*=nompi*" "h5py=*=nompi*"
+    fi
+else
+    echo "Not installing hdf5"
+    if [ ${HDF5_MPI} == "ON" ]
+    then
+        echo "Installing parallel h5py with pip"
+        # CC=mpicc to build with parallel support
+        # no-cache to avoid wheels from previous pip installs
+        # no-binary to build against linked hdf5
+        CC=mpicc python3 -m pip install --no-cache --no-binary=h5py h5py
+    else
+        echo "Installing serial h5py with pip"
+        # no-cache to avoid wheels from previous pip installs
+        # no-binary to build against linked hdf5
+        python3 -m pip install --no-cache --no-binary=h5py h5py
+    fi
+fi
+
+echo "Installing conda-forge docopt, matplotlib"
+conda install "${CARGS[@]}" docopt matplotlib
+
+echo "Installing dedalus with pip"
+# CC=mpicc to ensure proper MPI linking
+# no-cache to avoid wheels from previous pip installs
+CC=mpicc python3 -m pip install --no-cache http://github.com/dedalusproject/dedalus/zipball/master/
+
+echo "Disabled threading by default in the environment"
+conda env config vars set OMP_NUM_THREADS=1
+conda env config vars set NUMEXPR_MAX_THREADS=1
+
+echo
+echo "Installation complete in conda environment '${CONDA_ENV}'"
+echo
+conda deactivate
+                        </code></pre>
                     </section>
 
-                    <section>
-                        <h4>Lists</h4>
-                        <div class="row">
-                            <div class="col-6 col-12-xsmall">
-                                <h5>Unordered</h5>
-                                <ul>
-                                    <li>Dolor pulvinar etiam magna etiam.</li>
-                                    <li>Sagittis adipiscing lorem eleifend.</li>
-                                    <li>Felis enim feugiat dolore viverra.</li>
-                                </ul>
-                                <h5>Alternate</h5>
-                                <ul class="alt">
-                                    <li>Dolor pulvinar etiam magna etiam.</li>
-                                    <li>Sagittis adipiscing lorem eleifend.</li>
-                                    <li>Felis enim feugiat dolore viverra.</li>
-                                </ul>
-                            </div>
-                            <div class="col-6 col-12-xsmall">
-                                <h5>Ordered</h5>
-                                <ol>
-                                    <li>Dolor pulvinar etiam magna etiam.</li>
-                                    <li>Etiam vel felis at lorem sed viverra.</li>
-                                    <li>Felis enim feugiat dolore viverra.</li>
-                                    <li>Dolor pulvinar etiam magna etiam.</li>
-                                    <li>Etiam vel felis at lorem sed viverra.</li>
-                                    <li>Felis enim feugiat dolore viverra.</li>
-                                </ol>
-                                <h5>Icons</h5>
-                                <ul class="icons">
-                                    <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-                                    <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                                    <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-                                    <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                                    <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                    <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <h5>Actions</h5>
-                        <ul class="actions">
-                            <li><a href="#" class="button primary">Default</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                        </ul>
-                        <ul class="actions small">
-                            <li><a href="#" class="button primary small">Small</a></li>
-                            <li><a href="#" class="button small">Small</a></li>
-                        </ul>
-                        <div class="row">
-                            <div class="col-6 col-12-small">
-                                <ul class="actions stacked">
-                                    <li><a href="#" class="button primary">Default</a></li>
-                                    <li><a href="#" class="button">Default</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-6 col-12-small">
-                                <ul class="actions stacked">
-                                    <li><a href="#" class="button primary small">Small</a></li>
-                                    <li><a href="#" class="button small">Small</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-6 col-12-small">
-                                <ul class="actions stacked">
-                                    <li><a href="#" class="button primary fit">Default</a></li>
-                                    <li><a href="#" class="button fit">Default</a></li>
-                                </ul>
-                            </div>
-                            <div class="col-6 col-12-small">
-                                <ul class="actions stacked">
-                                    <li><a href="#" class="button primary small fit">Small</a></li>
-                                    <li><a href="#" class="button small fit">Small</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                        </p>  
                     </section>
-
-                    <section>
-                        <h4>Table</h4>
-                        <h5>Default</h5>
-                        <div class="table-wrapper">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Item One</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Two</td>
-                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Three</td>
-                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Four</td>
-                                        <td>Vitae integer tempus condimentum.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Five</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td colspan="2"></td>
-                                        <td>100.00</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-
-                        <h5>Alternate</h5>
-                        <div class="table-wrapper">
-                            <table class="alt">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Item One</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Two</td>
-                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Three</td>
-                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Four</td>
-                                        <td>Vitae integer tempus condimentum.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Five</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td colspan="2"></td>
-                                        <td>100.00</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-                    </section>
-
-                    <section>
-                        <h4>Buttons</h4>
-                        <ul class="actions">
-                            <li><a href="#" class="button primary">Primary</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                        </ul>
-                        <ul class="actions">
-                            <li><a href="#" class="button large">Large</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                            <li><a href="#" class="button small">Small</a></li>
-                        </ul>
-                        <ul class="actions fit">
-                            <li><a href="#" class="button primary fit">Fit</a></li>
-                            <li><a href="#" class="button fit">Fit</a></li>
-                        </ul>
-                        <ul class="actions fit small">
-                            <li><a href="#" class="button primary fit small">Fit + Small</a></li>
-                            <li><a href="#" class="button fit small">Fit + Small</a></li>
-                        </ul>
-                        <ul class="actions">
-                            <li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-                            <li><a href="#" class="button icon solid fa-download">Icon</a></li>
-                        </ul>
-                        <ul class="actions">
-                            <li><span class="button primary disabled">Primary</span></li>
-                            <li><span class="button disabled">Default</span></li>
-                        </ul>
-                    </section>
-
-                    <section>
-                        <h4>Form</h4>
-                        <form method="post" action="#">
-                            <div class="row gtr-uniform gtr-50">
-                                <div class="col-6 col-12-xsmall">
-                                    <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-                                </div>
-                                <div class="col-6 col-12-xsmall">
-                                    <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-                                </div>
-                                <div class="col-12">
-                                    <select name="demo-category" id="demo-category">
-                                        <option value="">- Category -</option>
-                                        <option value="1">Manufacturing</option>
-                                        <option value="1">Shipping</option>
-                                        <option value="1">Administration</option>
-                                        <option value="1">Human Resources</option>
-                                    </select>
-                                </div>
-                                <div class="col-4 col-12-small">
-                                    <input type="radio" id="demo-priority-low" name="demo-priority" checked>
-                                    <label for="demo-priority-low">Low Priority</label>
-                                </div>
-                                <div class="col-4 col-12-small">
-                                    <input type="radio" id="demo-priority-normal" name="demo-priority">
-                                    <label for="demo-priority-normal">Normal Priority</label>
-                                </div>
-                                <div class="col-4 col-12-small">
-                                    <input type="radio" id="demo-priority-high" name="demo-priority">
-                                    <label for="demo-priority-high">High Priority</label>
-                                </div>
-                                <div class="col-6 col-12-small">
-                                    <input type="checkbox" id="demo-copy" name="demo-copy">
-                                    <label for="demo-copy">Email me a copy of this message</label>
-                                </div>
-                                <div class="col-6 col-12-small">
-                                    <input type="checkbox" id="demo-human" name="demo-human" checked>
-                                    <label for="demo-human">I am a human and not a robot</label>
-                                </div>
-                                <div class="col-12">
-                                    <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <ul class="actions">
-                                        <li><input type="submit" value="Send Message" class="primary" /></li>
-                                        <li><input type="reset" value="Reset" /></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </form>
-                    </section>
-
-                    <section>
-                        <h4>Image</h4>
-                        <h5>Fit</h5>
-                        <div class="box alt">
-                            <div class="row gtr-50 gtr-uniform">
-                                <div class="col-12"><span class="image fit"><img src="../images/fulls/05.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/01.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/02.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/03.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/04.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/05.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/06.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/03.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/02.jpg" alt="" /></span></div>
-                                <div class="col-4"><span class="image fit"><img src="../images/thumbs/01.jpg" alt="" /></span></div>
-                            </div>
-                        </div>
-                        <h5>Left &amp; Right</h5>
-                        <p><span class="image left"><img src="../images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                        <p><span class="image right"><img src="../images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                    </section>
-
-                </section>
     
 
             </div>
