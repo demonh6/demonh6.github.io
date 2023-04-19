@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Demonh6的个人博客</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="images/pics/xiaohonghua.jpg" class="image avatar"><img src="images/pics/xiaohonghua.jpg" alt="" /></a>
+				<h1><strong>Demonh6</strong><br />
+				</h1>
+			</div>
+		</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+                    <section>
+                        <h4>FLASH Code的安装说明</h4>
+                        <ol>
+                            <li>
+<p><h5>解压源码压缩包FLASHX.Y.tar，例如FLASH4.7.tar</h5></li>
+<pre><code>tar -xvf FLASHX.Y.tar</code></pre>
+<li><p><h5>进入解压好的文件夹，通过<i>setup.sh</i>脚本来配置一个示例问题，如二维Sedov内爆，而后会生成一个<i>object</i>文件夹，里面包含了需要调用的待编译的各种<i>.f90</i>文件，以及相应的<i></i>Makefile</i>。</h5></li>
+<pre><code>cd FLASHX.Y/ 
+./setup Sedov -auto</code></pre>
+<li><p><h5>进入object文件夹进行make，在此之前需要安装<i>Fortran</i>、<i>C</i>的编译器，以及<i>mpi</i>库。可以安装gcc、gfortran、mpich等。特定模块还需要其他库，可参见说明书。遇到问题根据报错逐一解决即可，以路径问题为主。make时建议并行操作。</h5></li>
+<pre><code>cd object
+make -j4</code></pre>
+<li><p><h5>hdf5安装命令示例: 将下载的hdf5压缩包解压后，配置(configure)、编译(make)、安装(make install)到/usr/local/下。mpi及其他库同理，安装好后通过<code>mpif90 -v</code>可以查看版本</h5></li>
+<pre><code>tar -xvf hdf5-1.14.0.tar
+cd hdf5-1.14.0/
+./configure --prefix=/usr/local/
+make -j4
+make install</code></pre>
+<li><p><h5>路径配置示例(./FLASHX.Y/object/Makefile.h)</h5></li>
+<pre><code>MPI_PATH   = /usr
+HDF5_PATH  = /usr/local/hdf5
+</code></pre>
+<p><h5>注意到这样设置是因为后面的编译器和各类库的路径，往往是如下定义的(节取自多行)</h5></li>
+<pre><code>FCOMP   = ${MPI_PATH}/bin/mpif90
+CCOMP   = ${MPI_PATH}/bin/mpicc
+CPPCOMP = ${MPI_PATH}/bin/mpicxx
+LINK    = ${MPI_PATH}/bin/mpif90
+# if we are using HDF5, we need to specify the path to the include files
+CFLAGS_HDF5 = -I${HDF5_PATH}/include -DH5_USE_16_API
+LIB_HDF5  = -L ${HDF5_PATH}/lib -lhdf5 -lz
+</code></pre>
+<li><p><h5>如果出现动态链接库找不到的情况，可以通过以下命令来确认本地是否有该链接</h5></li>
+<pre><code>sudo find /usr/ -name libhdf5.so.310</code></pre>
+<p><h5>确认本地链接完好，即上述配置编译安装第三方库的过程执行完好，可将下面这行添加到<code>~/.bashrc</code>的最后一行，然后执行<code>source ~/.bashrc</code>，这样就可以解决找不到链接库的问题了。</h5>
+<pre><code>export LD_LIBRARY_PATH="/usr/local/hdf5/lib/:$LD_LIBRARY_PATH"</code></pre>
+</ol>
+
+
+                    </section>
+
+                        </p>
+                    </section>
+    
+
+            </div>
+		<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="icons">
+                    
+                    <li><a href="#" class="icon brands fa fa-weixin"><span class="label">微信/Wechat</span></a></li>
+                    <li><a href="https://github.com/demonh6" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; 个人博客</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
