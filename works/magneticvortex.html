@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Demonh6的个人博客</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="../images/pics/xiaohonghua.jpg" class="image avatar"><img src="images/pics/xiaohonghua.jpg" alt="" /></a>
+				<h1><strong>Demonh6</strong><br />
+				</h1>
+			</div>
+		</header>
+
+		<!-- Main -->
+			<div id="main">
+                <section>
+					<h4>
+						利用Adobe Photoshop (PS) 将图片序列合成为动图
+					</h4>
+					<p>
+						这里以Exasim开源代码中的样板案例“Magnetic Vortex”模拟结果可视化为例，
+						在得到输出数据并利用Paraview等软件进行可视化及导出每一帧的流场图后，
+						往往需要将时序图片拼接成动图/视频，这一步也可以通过Python脚本来实现。
+						这里示意通过Adobe Photoshop来实现将一系列.png文件合成动图的过程。
+						<ol>
+							<li>
+								打开PS后，点击【文件】-【脚本】-【将脚本载入堆栈】，然后选中存放图片的文件夹，或者手动选中所有需要合成的图片，然后会经历漫长的导入过程，点击确认后逐张加载也会比较耗时。
+							</li>
+							<li>
+								点击【创建帧动画】（与【创建视频时间轴】的按钮可互相切换）-【从图层建立帧】-【反向帧】（确保没有倒放）-【转换为视频时间轴】-【导出】-【储存为Web所用格式（旧版）】-【杂边】选择“无”-【循环选项】选择“永远”-【储存】。
+							</li>
+						</ol>
+					</p>
+				</section>
+            </div>
+
+		<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="icons">
+                    
+                    <li><a href="#" class="icon brands fa fa-weixin"><span class="label">微信/Wechat</span></a></li>
+                    <li><a href="https://github.com/demonh6" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; 个人博客</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
