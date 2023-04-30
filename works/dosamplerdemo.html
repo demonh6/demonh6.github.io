@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Demonh6的个人博客</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML" async></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="../images/pics/xiaohonghua.jpg" class="image avatar"><img src="images/pics/xiaohonghua.jpg" alt="" /></a>
+				<h1><strong>Demonh6</strong><br />
+				</h1>
+			</div>
+		</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+                    <section>
+                        <h4>Do-sampler 导论 （来自<a href="https://causalinference.gitlab.io/kdd-tutorial/">Microsoft因果推理框架do-why</a>）</h4>
+                        <ol>do-sampler是do-why中的一个新功能。
+							虽然大多数面向潜在结果的估计器侧重于估计特定的对比$E[Y_0 - Y_1]$，
+							但Pearlian推理侧重于更基本的量，如一组结果Y的联合分布$P(Y)$，
+							可用于派生其他感兴趣的统计量。<br>
+
+							一般来说，用非参数表示概率分布是很困难的。即使可以，您也不会想要掩盖用于生成它的数据的有限样本问题。考虑到这些问题，我们决定用一个名为“do-sampler”的对象从它们中抽样来表示介入分布。有了这些样本，我们可以希望计算我们的干预数据的有限样本统计。如果我们引导许多这样的样本，我们甚至可以希望得到这些统计量的良好抽样分布。
+                            <li>
+<p><h5>首先，让我们生成一些数据和一个因果模型。这里，Z混淆了因果状态D和结果Y。</h5></li>
+<pre><code>import os, sys
+sys.path.append(os.path.abspath("../../../"))
+import numpy as np
+import pandas as pd
+import dowhy.api</code></pre>
+<li><p><h5>这里Z是[0,1]之间的均匀分布，D是概率介于[0.5,1]并依赖于Z的二项分布。$$Y=2Z+D+noise$$作为结果，其中噪声满足正态分布且峰值为0.1。</h5>
+<pre><code>N = 5000
+z = np.random.uniform(size=N)
+d = np.random.binomial(1., p=1./(1. + np.exp(-5. * z)))
+y = 2. * z + d + 0.1 * np.random.normal(size=N)
+df = pd.DataFrame({'Z': z, 'D': d, 'Y': y})
+# 计算E(Y_1)-E(Y_0)，其中E(Y_1)为D==1时Y的期望
+(df[df.D == 1].mean() - df[df.D == 0].mean())['Y']</code></pre>
+结果得到1.63372186174148，很明显这不是我们想要的结果。因为我们知道D是一个{0,1}的二项分布，取1的概率由Z决定并且总是大于等于0.5，对Y的贡献应为1才对。</li>
+<li><p><h5>现在让我们来为这个数据集构建一个因果模型</h5></li>
+<pre><code>from dowhy import CausalModel
+causes = ['D']
+outcomes = ['Y']
+common_causes = ['Z']
+
+model = CausalModel(df,causes,outcomes,common_causes=common_causes)</code></pre>
+<li><p><h5>我们试着找出因果效应</h5></li>
+<pre><code>identification = model.identify_effect(proceed_when_unidentifiable=True)</code></pre>
+<li><p><h5>构建采样器（这个过程发生在dowhy里）</h5></li>
+<pre><code>from dowhy.do_samplers.weighting_sampler import WeightingSampler
+
+sampler = WeightingSampler(
+	df,
+	causal_model=model,
+	keep_original_treatment=True,
+	variable_types={'D': 'b', 'Z': 'c', 'Y': 'c'}
+	)
+</code></pre>
+
+<li><p><h5>在干预后的分布中进行采样，这里没有进行传递</h5></li>
+<pre><code>interventional_df = sampler.do_sample(None)
+(interventional_df[interventional_df.D == 1].mean() - interventional_df[interventional_df.D == 0].mean())['Y']
+</code></pre>
+得到的结果是0.996838144917264，非常接近于1，即非常接近真实的“D等于1时对Y的值产生的效果，即增加1”。
+                    </section>
+
+    
+
+            </div>
+		<!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <ul class="icons">
+                    
+                    <li><a href="#" class="icon brands fa fa-weixin"><span class="label">微信/Wechat</span></a></li>
+                    <li><a href="https://github.com/demonh6" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                </ul>
+                <ul class="copyright">
+                    <li>&copy; 个人博客</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+            </div>
+        </footer>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
