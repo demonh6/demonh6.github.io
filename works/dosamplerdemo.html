@@ -51,7 +51,7 @@ y = 2. * z + d + 0.1 * np.random.normal(size=N)
 df = pd.DataFrame({'Z': z, 'D': d, 'Y': y})
 # 计算E(Y_1)-E(Y_0)，其中E(Y_1)为D==1时Y的期望
 (df[df.D == 1].mean() - df[df.D == 0].mean())['Y']</code></pre>
-结果得到1.63372186174148，很明显这不是我们想要的结果。因为我们知道D是一个{0,1}的二项分布，取1的概率由Z决定并且总是大于等于0.5，对Y的贡献应为1才对。</li>
+结果得到<b>1.63372186174148</b>，很明显这不是我们想要的结果。因为我们知道D是一个{0,1}的二项分布，取1的概率由Z决定并且总是大于等于0.5，对Y的贡献应为1才对。</li>
 <li><p><h5>现在让我们来为这个数据集构建一个因果模型</h5></li>
 <pre><code>from dowhy import CausalModel
 causes = ['D']
@@ -76,7 +76,7 @@ sampler = WeightingSampler(
 <pre><code>interventional_df = sampler.do_sample(None)
 (interventional_df[interventional_df.D == 1].mean() - interventional_df[interventional_df.D == 0].mean())['Y']
 </code></pre>
-得到的结果是0.996838144917264，非常接近于1，即非常接近真实的“D等于1时对Y的值产生的效果，即增加1”。
+得到的结果是<b>0.996838144917264</b>，非常接近于1，即非常接近真实的“D等于1时对Y的值产生的效果，即增加1”。
                     </section>
 
     
