@@ -1,0 +1,121 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Demonh6的个人博客</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS_HTML" async></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="../images/pics/xiaohonghua.jpg" class="image avatar"><img src="../images/pics/xiaohonghua.jpg" alt="" /></a>
+				<h1><strong>Demonh6</strong><br />
+				</h1>
+			</div>
+		</header>
+
+		<!-- Main -->
+			<div id="main">
+                <section>
+                    <h4>漫射光层析成像技术（DOT）的模拟 （以<a href="https://link.springer.com/article/10.1140/epjp/i2016-16439-1">与S. M. Motevalli et al. 2016年发表在The European Physical Journal Plus 的一篇论文所用到的模拟类似</a>）</h4>
+                    <ol>正问题模拟的简单代码<br>
+                        <pre><code>%% 利用Matlab中的Pde modeler进行有限元求解二维辐射输运方程的稳态解
+clc; clear; close all
+model = createpde();
+R1 = [3,4,0.3,-0.1,-0.1,0.2,0.15,0.05,-0.05,-0.05]';
+C1 = [1,0,0,0.5]';
+C1 = [C1;zeros(length(R1) - length(C1),1)];
+gm = [C1,R1];
+sf = 'C1+R1';
+ns = char('C1','R1');
+ns = ns';
+g = decsg(gm,sf,ns);
+geometryFromEdges(model,g);
+figure;
+subplot(221)
+pdegplot(model,"EdgeLabels","on","FaceLabels","on")
+axis equal
+
+%%
+applyBoundaryCondition(model,'dirichlet','Edge',[5,6,7,8],'u',1);
+% applyBoundaryCondition(model,'neumann','Edge',[5,6,7,8],'g',-1,'q',-1);
+specifyCoefficients(model,'m',0,'d',0,'c',@dfun,'a',@mufun,'f',@sfun);
+generateMesh(model,'Hmax',0.01,"Hedge",{[1,2,3,4],0.001})
+% generateMesh(model,'Hmax',0.01);
+subplot(222)
+pdeplot(model)
+
+%%
+results = solvepde(model);
+u = results.NodalSolution;
+subplot(223)
+pdeplot(model,'XYData',u,"Contour","on");
+axis equal
+
+function d = dfun(location,state)
+nr = numel(location.x);
+switch max(location.subdomain)
+    case 2
+        d = 0.165*ones(1,nr);
+    case 1
+        d = 0.109*ones(1,nr);
+end
+end
+
+function mu = mufun(location,state)
+nr = numel(location.x);
+switch max(location.subdomain)
+    case 2
+        mu = 0.025*ones(1,nr);
+    case 1
+        mu = 0.05*ones(1,nr);
+end
+end
+
+function s = sfun(location,state)
+nr = numel(location.x);
+switch max(location.subdomain)
+    case 2
+        s = sqrt(location.x.^2 + location.y.^2);
+    case 1
+        s = 0*ones(1,nr);
+end
+end
+                        </code>
+                    </section>
+                    <h5>代码运行后其结果如图所示，其中图1是几何构型，图2是局部网格示意，图3是周围一圈光源照射下的光场强分布。目的是通过探测到的光场逆向估计出定义域内的物性参数的分布（即吸收系数）。</h5>
+                        <img src="../images/pics/dot_step1.png" alt="Matlab脚本运行后的结果图">
+            </div>
+            <!-- Footer -->
+                <footer id="footer">
+                    <div class="inner">
+                        <ul class="icons">
+                            <li><a href="images/pics/QRcode.jpg" class="icon brands fa fa-weixin"><span class="label">微信/Wechat</span></a></li>
+                            <li><a href="https://github.com/demonh6" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                        </ul>
+                        <ul class="copyright">
+                            <li>&copy; 个人博客</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </div>
+                </footer>
+    
+            <!-- Scripts -->
+                <script src="../assets/js/jquery.min.js"></script>
+                <script src="../assets/js/jquery.poptrox.min.js"></script>
+                <script src="../assets/js/browser.min.js"></script>
+                <script src="../assets/js/breakpoints.min.js"></script>
+                <script src="../assets/js/util.js"></script>
+                <script src="../assets/js/main.js"></script>
+    
+        </body>
+    </html>
