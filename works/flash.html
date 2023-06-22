@@ -61,11 +61,14 @@ LIB_HDF5  = -L ${HDF5_PATH}/lib -lhdf5 -lz
 <pre><code>sudo find /usr/ -name libhdf5.so.310</code></pre>
 <p><h5>确认本地链接完好，即上述配置编译安装第三方库的过程执行完好，可将下面这行添加到<code>~/.bashrc</code>的最后一行，然后执行<code>source ~/.bashrc</code>，这样就可以解决找不到链接库的问题了。</h5>
 <pre><code>export LD_LIBRARY_PATH="/usr/local/hdf5/lib/:$LD_LIBRARY_PATH"</code></pre>
-<li><p><h5>准备就绪后可运行示例算例（Sedov内爆），在/object文件夹下输入</h5></li>
-<pre><code>mpirun -np 4 flash4</code></pre>
-就可以得到相应的log文件和输出文件。
+<li><p><h5>准备就绪后可运行示例算例（Sedov内爆），在/object文件夹下输入下行命令即完成了User guide中的Quick start</h5></li>
+<pre><code>mpirun -np 4 ./flash4</code></pre>
+<li><p><h5>更一般地，我们通常希望建立一个单独的文件夹来存放每次的算例，因此可以新建一个名为simulatins的文件夹在FLASH4.6文件夹内，然后运行</h5></li>
+<pre><code>./setup -auto -2d Sedov -objdir=simulation/Sedov
+cd simulation/Sedov/
+make -j4
+mpirun -np 4 ./flash4</code></pre>
 </ol>
-
 
                     </section>
 
