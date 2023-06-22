@@ -63,8 +63,8 @@ LIB_HDF5  = -L ${HDF5_PATH}/lib -lhdf5 -lz
 <pre><code>export LD_LIBRARY_PATH="/usr/local/hdf5/lib/:$LD_LIBRARY_PATH"</code></pre>
 <li><p><h5>准备就绪后可运行示例算例（Sedov内爆），在/object文件夹下输入下行命令即完成了User guide中的Quick start</h5></li>
 <pre><code>mpirun -np 4 ./flash4</code></pre>
-<li><p><h5>更一般地，我们通常希望建立一个单独的文件夹来存放每次的算例，因此可以新建一个名为simulatins的文件夹在FLASH4.6文件夹内，然后运行</h5></li>
-<pre><code>./setup -auto -2d Sedov -objdir=simulation/Sedov
+<li><p><h5>更一般地，我们通常希望建立一个单独的文件夹来存放每次的算例，因此可以新建一个名为simulations的文件夹在FLASH4.6文件夹内，然后运行</h5></li>
+<pre><code>./setup -auto -2d Sedov -objdir=simulations/Sedov
 cd simulation/Sedov/
 make -j4
 mpirun -np 4 ./flash4</code></pre>
