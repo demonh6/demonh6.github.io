@@ -68,7 +68,7 @@ LIB_HDF5  = -L ${HDF5_PATH}/lib -lhdf5 -lz
 cd simulation/Sedov/
 make -j4
 mpirun -np 4 ./flash4</code></pre>
-<p><h5>一个可用的<a href="Dockerfile">Dockerfile</a>在此。</h5>
+<p><h5>一个可用的<a href="Dockerfile">Dockerfile</a>在此，联合<a href="Makefile">Makefile</a>可以直接部署在Docker中。任务脚本文件<a href="jobs.sh">job.sh</a>可以一键执行若干个自带算例。</h5>
 </ol>
 
                     </section>
