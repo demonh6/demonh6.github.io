@@ -38,7 +38,7 @@
 <li><p><h5>进入object文件夹进行make，在此之前需要安装<i>Fortran</i>、<i>C</i>的编译器，以及<i>mpi</i>库。可以安装gcc、gfortran、mpich等。特定模块还需要其他库，可参见说明书。遇到问题根据报错逐一解决即可，以路径问题为主。make时建议并行操作。</h5></li>
 <pre><code>cd object
 make -j4</code></pre>
-<li><p><h5>hdf5安装命令示例: 将下载的hdf5<a href="https://support.hdfgroup.org/ftp/HDF5/prev-releases/hdf5-1.14/hdf5-1.14.3/bin/unix/">hdf5</a>压缩包解压后，配置(configure)、编译(make)、安装(make install)到/usr/local/下。mpi及其他库同理，安装好后通过<code>mpif90 -v</code>可以查看版本</h5></li>
+<li><p><h5>hdf5安装命令示例: 将下载的<a href="https://support.hdfgroup.org/ftp/HDF5/prev-releases/hdf5-1.14/hdf5-1.14.3/bin/unix/">hdf5</a>压缩包解压后，配置(configure)、编译(make)、安装(make install)到/usr/local/下。mpi及其他库同理，安装好后通过<code>mpif90 -v</code>可以查看版本</h5></li>
 <pre><code>tar -xvf hdf5-1.14.0.tar
 cd hdf5-1.14.0/
 ./configure --prefix=/usr/local/
