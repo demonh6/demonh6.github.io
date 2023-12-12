@@ -58,7 +58,7 @@ CFLAGS_HDF5 = -I${HDF5_PATH}/include -DH5_USE_16_API
 LIB_HDF5  = -L ${HDF5_PATH}/lib -lhdf5 -lz
 </code></pre>
 注意如果出现了<a href="https://github.com/GlobalArrays/ga/issues/157">Error: Type mismatch between actual argument at (1) and actual argument at (2).</a>类似的报错，说明mpif90在编译时出现问题，可以通过增加编译选项解决，即修改如下一行解决问题：
-<pre><code></code>F90FLAGS = -fallow-argument-mismatch
+<pre><code>F90FLAGS = -fallow-argument-mismatch
 </code></pre>
 <li><p><h5>如果出现动态链接库找不到的情况，可以通过以下命令来确认本地是否有该链接</h5></li>
 <pre><code>sudo find /usr/ -name libhdf5.so.310</code></pre>
