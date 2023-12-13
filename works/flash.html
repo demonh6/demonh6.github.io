@@ -71,7 +71,7 @@ LIB_HDF5  = -L ${HDF5_PATH}/lib -lhdf5 -lz
 cd simulations/Sedov/
 make -j 4
 mpirun -np 4 ./flash4</code></pre>
-<p><h5>一个可用的<a href="Dockerfile">Dockerfile</a>在此，根据这个文件可以直接配置所需要的第三方工具，联合<a href="Makefile">Makefile</a>可以直接部署在Docker中。任务脚本文件<a href="jobs.sh">job.sh</a>可以一键执行若干个自带算例。</h5>
+<p><h5>一个可用的<a href="Dockerfile">Dockerfile</a>在此，根据这个文件可以直接配置所需要的第三方工具，联合<a href="Makefile">Makefile</a>可以直接部署在Docker中。任务脚本文件<a href="jobs.sh">job.sh</a>可以一键执行若干个自带算例。下载LANL开发的可视化软件<a href="https://sd.llnl.gov/simulation/computer-codes/visit/executables">visIT</a>即可进行后处理。</h5>
 </ol>
 
                     </section>
