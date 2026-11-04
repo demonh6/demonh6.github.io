@@ -63,6 +63,21 @@ def _df_to_records(df):
     return df.to_dict(orient="records") if df is not None and len(df) else []
 
 
+def _last_valid_rows(df, n=2):
+    """从末尾取最近 n 个 close>0 的有效行（跳过当日未更新的坏行）。"""
+    rows = []
+    for i in range(len(df) - 1, -1, -1):
+        try:
+            c = float(df.iloc[i].get("close"))
+        except (TypeError, ValueError):
+            continue
+        if c > 0:
+            rows.append(df.iloc[i])
+            if len(rows) >= n:
+                break
+    return list(reversed(rows))
+
+
 def fetch_a_indices():
     """A股主要指数（新浪源）。"""
     import akshare as ak
@@ -132,8 +147,11 @@ def fetch_us_indices():
         df = ak.index_us_stock_sina(symbol=symbol)
         if df is None or df.empty:
             continue
-        last = df.iloc[-1]
-        prev = df.iloc[-2] if len(df) >= 2 else None
+        valid = _last_valid_rows(df, 2)
+        if not valid:
+            continue
+        last = valid[-1]
+        prev = valid[-2] if len(valid) >= 2 else None
         price = to_float(last.get("close"))
         change, change_pct = None, None
         if prev is not None and price is not None:
@@ -156,29 +174,70 @@ def fetch_us_indices():
 
 
 def fetch_global_indices():
-    """其他全球指数（东财源：亚太/欧洲）。"""
+    """其他全球指数（亚太/欧洲）：东财实时快照优先，新浪历史序列降级。
+
+    targets: (新浪名称, 展示名, 东财名称)；东财名称为 None 表示东财源无此指数。
+    """
     import akshare as ak
 
-    wanted = [
-        "日经225", "韩国KOSPI", "新加坡海峡指数", "印度SENSEX",
-        "德国DAX", "英国富时100", "法国CAC40", "欧洲斯托克50", "俄罗斯MOEX",
+    targets = [
+        ("日经225指数", "日经225", "日经225"),
+        ("首尔综合指数", "韩国KOSPI", "韩国KOSPI"),
+        ("印度孟买SENSEX指数", "印度SENSEX", "印度SENSEX"),
+        ("中国台湾加权指数", "台湾加权", None),
+        ("德国DAX 30种股价指数", "德国DAX", "德国DAX"),
+        ("英国富时100指数", "英国富时100", "英国富时100"),
+        ("法CAC40指数", "法国CAC40", "法国CAC40"),
+        ("欧洲Stoxx50指数", "欧洲斯托克50", "欧洲斯托克50"),
+        ("俄罗斯MICEX指数", "俄罗斯MOEX", "俄罗斯MOEX"),
     ]
-    df = ak.index_global_spot_em()
-    records = _df_to_records(df)
+
+    def make(name, price, change, change_pct):
+        return {"name": name, "price": to_float(price), "change": to_float(change),
+                "change_pct": pct(change_pct)}
+
+    # 1) 东财实时快照（一次请求覆盖多个指数）
+    try:
+        df = ak.index_global_spot_em()
+        by_name = {str(r.get("名称", "")).strip(): r for r in _df_to_records(df)}
+        result = []
+        for _, display, em_name in targets:
+            if em_name and em_name in by_name:
+                r = by_name[em_name]
+                result.append(make(display, r.get("最新价"), r.get("涨跌额"), r.get("涨跌幅")))
+        if result:
+            order = {display: i for i, (_, display, _) in enumerate(targets)}
+            result.sort(key=lambda x: order.get(x["name"], 99))
+            return result
+    except Exception as e:  # noqa: BLE001 - 降级到新浪源
+        log(f"东财全球指数不可用，降级新浪历史序列: {type(e).__name__}")
+
+    # 2) 新浪历史序列（逐个指数，末行为最新，末两行算涨跌幅）
     result = []
-    for r in records:
-        name = str(r.get("名称", "")).strip()
-        if name in wanted:
-            result.append({
-                "name": name,
-                "price": to_float(r.get("最新价")),
-                "change": to_float(r.get("涨跌额")),
-                "change_pct": pct(r.get("涨跌幅")),
-            })
+    for sina_name, display, _ in targets:
+        try:
+            df = ak.index_global_hist_sina(symbol=sina_name)
+            if df is None or df.empty:
+                continue
+            valid = _last_valid_rows(df, 2)
+            if not valid:
+                continue
+            last = valid[-1]
+            prev = valid[-2] if len(valid) >= 2 else None
+            price = to_float(last.get("close"))
+            change, change_pct = None, None
+            if prev is not None and price is not None:
+                prev_close = to_float(prev.get("close"))
+                if prev_close:
+                    change = round(price - prev_close, 2)
+                    change_pct = round((price - prev_close) / prev_close * 100, 2)
+            result.append(make(display, price, change, change_pct))
+        except Exception as e:  # noqa: BLE001 - 单个指数失败跳过
+            log(f"新浪全球指数 {display} 失败: {type(e).__name__}")
+        time.sleep(0.5)
     if not result:
-        raise RuntimeError("东财全球指数接口未命中目标指数")
-    # 按期望顺序输出
-    order = {n: i for i, n in enumerate(wanted)}
+        raise RuntimeError("东财与新浪全球指数源均不可用")
+    order = {display: i for i, (_, display, _) in enumerate(targets)}
     result.sort(key=lambda x: order.get(x["name"], 99))
     return result
 
