@@ -3,21 +3,22 @@ name: Update Dashboard Data
 # ============================================================
 # 数据更新频率
 # ------------------------------------------------------------
-# 当前：每日一次（UTC 23:30 = 北京时间次日 07:30，可覆盖美股收盘）
-# 【切换为每小时更新】将下方 schedule.cron 改为 "0 * * * *" 即可，
-#   页面会自动显示"每小时更新"（读取 data/dashboard.json 的 interval 字段）。
-#   注意：每小时更新会显著增加 Actions 运行次数（公共仓库免费额度 2000 分钟/月）。
+# 当前：每小时一次（整点触发，UTC 0 * * * * = 北京时间每小时整点）
+# 【切换回每日更新】将下方 schedule.cron 改为 "30 23 * * *"
+#   （UTC 23:30 = 北京时间次日 07:30，可覆盖美股收盘），
+#   同时把 env.DASHBOARD_INTERVAL 的默认值改回 'daily'。
+# 页面文案自动随 data/dashboard.json 的 interval 字段切换。
 # ============================================================
 
 on:
   schedule:
-    - cron: "30 23 * * *"   # 每日一次（北京时间 07:30）；每小时更新改为 "0 * * * *"
+    - cron: "0 * * * *"     # 每小时整点（北京时间每小时整点自动拉取）；每日更新改为 "30 23 * * *"
   workflow_dispatch:          # 支持手动触发
     inputs:
       interval:
-        description: "更新频率标识（写入 JSON，daily / hourly）"
+        description: "更新频率标识（写入 JSON，hourly / daily）"
         required: false
-        default: "daily"
+        default: "hourly"
 
 permissions:
   contents: write
@@ -31,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      DASHBOARD_INTERVAL: ${{ github.event.inputs.interval || 'daily' }}
+      DASHBOARD_INTERVAL: ${{ github.event.inputs.interval || 'hourly' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,7 +59,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/dashboard.json
-            git commit -m "chore(data): 每日仪表盘数据更新 ${{ github.event.inputs.interval || 'daily' }} [skip ci]"
+            git commit -m "chore(data): 每小时仪表盘数据更新 ${{ github.event.inputs.interval || 'hourly' }} [skip ci]"
             git push
             echo "dashboard.json 已提交推送"
           else

@@ -404,13 +404,16 @@ def main():
     wuxing, errors["今日五行"] = safe(fetch_wuxing, "今日五行")
 
     now = datetime.now(CST)
+    freq_note = {
+        "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
+    }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
         "schema_version": 2,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
-        "interval": INTERVAL,  # daily | hourly（预留接口，由环境变量/调度控制）
-        "update_frequency_note": "当前每日更新一次；切换每小时更新仅需修改 GitHub Actions cron。",
+        "interval": INTERVAL,  # hourly | daily（由环境变量/调度控制）
+        "update_frequency_note": freq_note,
         "markets": {
             "a_share": a_idx,
             "hk": hk_idx,
