@@ -507,14 +507,14 @@ def _threshold_alert(name, change_pct, kind, direction_hint):
     w, d = ALERT_THRESHOLDS[kind]
     v = abs(change_pct)
     if v >= d:
-        level = "danger"
+        level, level_name = "danger", "高危"
     elif v >= w:
-        level = "warning"
+        level, level_name = "warning", "警戒"
     else:
         return None
     return _mk_alert(
         level, name,
-        f"{name}单日{'涨' if change_pct > 0 else '跌'}{v:.2f}%，超过{level}阈值"
+        f"{name}单日{'涨' if change_pct > 0 else '跌'}{v:.2f}%，达到{level_name}阈值"
         f"（{d if level == 'danger' else w:.1f}%），{direction_hint}")
 
 
@@ -558,10 +558,11 @@ def compute_alerts(markets, key_assets):
         else:
             level = None
         if level:
+            level_name = "高危" if level == "danger" else "警戒"
             alerts.append(_mk_alert(
                 level, bond["name"],
-                f"{bond['name']}单日变动 {bond['change_bp']:+.1f}bp（阈值 {d:.0f}bp），"
-                "美债利率剧烈波动将影响全球风险资产定价。"))
+                f"{bond['name']}单日变动 {bond['change_bp']:+.1f}bp，达到{level_name}阈值"
+                f"（{d:.0f}bp），美债利率剧烈波动将影响全球风险资产定价。"))
 
     # 联动规则 1：≥2 个主要股指同向波动超 2.5% → 共振提示
     up = [it["name"] for it in index_items if (it.get("change_pct") or 0) >= 2.5]
