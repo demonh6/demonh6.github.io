@@ -19,6 +19,12 @@ on:
         description: "更新频率标识（写入 JSON，hourly / daily）"
         required: false
         default: "hourly"
+  push:                       # 脚本/数据变更时立即刷新一次（数据提交自带 [skip ci] 不会递归）
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/**"
+      - ".github/workflows/**"
 
 permissions:
   contents: write
