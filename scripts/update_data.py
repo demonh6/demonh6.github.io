@@ -1251,10 +1251,28 @@ def fetch_news():
     if not deduped:
         raise RuntimeError("；".join(f"{k}:{v}" for k, v in source_status.items()) or "全部新闻源失败")
 
+    # 按源轮询取条目（每源最新条优先），避免单一高频源霸屏、早报类沉底
+    by_src = {}
+    for n in deduped:
+        by_src.setdefault(n.get("source", "?"), []).append(n)
+    balanced = []
+    round_i = 0
+    while len(balanced) < NEWS_LIMIT * 2:
+        added = False
+        for items in by_src.values():
+            if round_i < len(items):
+                balanced.append(items[round_i])
+                added = True
+                if len(balanced) >= NEWS_LIMIT * 2:
+                    break
+        if not added:
+            break
+        round_i += 1
+
     source_counts = {}
-    for n in deduped[:NEWS_LIMIT * 2]:
+    for n in balanced:
         source_counts[n.get("source", "?")] = source_counts.get(n.get("source", "?"), 0) + 1
-    return deduped[:NEWS_LIMIT], {"sources": source_status, "counts": source_counts}
+    return balanced[:NEWS_LIMIT], {"sources": source_status, "counts": source_counts}
 
 
 # --------------------------------------------------------------------------
