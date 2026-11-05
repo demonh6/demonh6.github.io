@@ -862,37 +862,161 @@ def _dedup_news(items):
     return out
 
 
-def fetch_news():
-    """全球财经要闻：东财 + 新浪 + 富途 三源聚合，标题去重、时间倒序。
+KEY_FIGURES = [
+    # 国际政治/监管
+    ("特朗普", "特朗普", "特朗普的言论对全球风险资产影响显著"),
+    ("拜登", "拜登", "美国政府的政策与外交表态"),
+    ("美联储", "美联储", "FOMC政策决定与官员讲话是全球利率锚"),
+    ("鲍威尔", "鲍威尔", "美联储主席，其讲话直接影响美债与美元"),
+    ("欧洲央行", "欧洲央行", "欧央行政策影响欧元区与全球流动性"),
+    ("欧盟", "欧盟", "欧盟层面的政策与制裁影响市场"),
+    # 中国监管
+    ("证监会", "证监会", "A股核心监管机构的政策直接影响市场情绪"),
+    ("央行", "央行", "中国人民银行的货币政策决定影响流动性"),
+    ("国务院", "国务院", "国务院级经济政策影响宏观环境"),
+    ("财政部", "财政部", "财政政策与税收改革影响板块"),
+    ("发改委", "发改委", "产业政策与价格调控影响行业"),
+    # 科技/企业家
+    ("马斯克", "马斯克", "特斯拉、SpaceX、X等科技动向影响纳指与加密"),
+    # 财经名人
+    ("李大霄", "李大霄", "国内知名股评人，言论常引发A股讨论"),
+]
 
-    消息面不依赖单一来源；任一源失败不影响其余源的聚合结果。
-    """
+NEWS_SOURCE_LIMIT = 30  # 每个新闻源的截取条数
+
+# 情绪仪表配置：alternative.me 恐惧贪婪指数分档 → 中文描述
+FEAR_GREED_BUCKETS = [
+    (25, "极度恐惧", "#f04a3d"),
+    (45, "恐惧", "#f58a3d"),
+    (55, "中性", "#d9b23c"),
+    (75, "贪婪", "#8ac96f"),
+    (101, "极度贪婪", "#26a56b"),
+]
+
+
+def _fg_bucket(val):
+    for upper, label, color in FEAR_GREED_BUCKETS:
+        if val < upper:
+            return label, color
+    return "极度贪婪", "#26a56b"
+
+
+def fetch_sentiment():
+    """情绪仪表：alternative.me 恐惧贪婪指数 + 东方财富 A股广度（涨跌家数）。"""
+    sentiment = {}
+    try:
+        r = requests.get("https://api.alternative.me/fng/",
+                         params={"limit": 1, "format": "json"},
+                         timeout=HTTP_TIMEOUT)
+        r.raise_for_status()
+        d = r.json()["data"][0]
+        v = int(d["value"])
+        label, color = _fg_bucket(v)
+        sentiment["fear_greed"] = {
+            "value": v, "classification": d["value_classification"],
+            "label": label, "color": color,
+            "timestamp": datetime.fromtimestamp(int(d["timestamp"]), CST).strftime("%Y-%m-%d"),
+            "source": "alternative.me",
+        }
+        log(f"OK   恐惧贪婪指数 {v}({label})")
+    except Exception as e:  # noqa: BLE001
+        log(f"FAIL 恐惧贪婪指数: {type(e).__name__}")
+
+    try:
+        import akshare as ak
+        df = ak.stock_zh_a_spot_em()
+        up = int((df["涨跌幅"] > 0).sum())
+        down = int((df["涨跌幅"] < 0).sum())
+        flat = int((df["涨跌幅"] == 0).sum())
+        total = up + down + flat
+        breadth = round(up / total * 100, 1) if total else None
+        breadth_score = round(min(100, 50 + (breadth - 50) * 2), 1) if breadth else None
+        sentiment["a_share_breadth"] = {
+            "up": up, "down": down, "flat": flat, "total": total,
+            "breadth_pct": breadth, "score": breadth_score,
+            "source": "东财A股实时",
+        }
+        log(f"OK   A股广度 涨{up} 跌{down} 广度{breadth}% 情绪分{breadth_score}")
+    except Exception as e:  # noqa: BLE001
+        log(f"FAIL A股广度: {type(e).__name__}")
+
+    scores = []
+    if "fear_greed" in sentiment:
+        scores.append(sentiment["fear_greed"]["value"])
+    if "a_share_breadth" in sentiment:
+        scores.append(sentiment["a_share_breadth"]["score"])
+    if scores:
+        avg = round(sum(scores) / len(scores), 1)
+        sentiment["composite"] = {
+            "score": avg, "label": _fg_bucket(int(avg))[0],
+            "color": _fg_bucket(int(avg))[1],
+        }
+    return sentiment
+
+
+def fetch_speakers(news_pool):
+    """从新闻池中按关键词提取关键人物/机构发言。"""
+    speakers = []
+    for keyword, label, hint in KEY_FIGURES:
+        matched = []
+        for n in news_pool or []:
+            blob = (n.get("title", "") + " " + n.get("summary", "")).lower()
+            if keyword.lower() in blob:
+                matched.append(n)
+        if matched:
+            matched.sort(key=lambda x: x.get("time", ""), reverse=True)
+            top = matched[0]
+            speakers.append({
+                "keyword": keyword, "label": label, "hint": hint,
+                "title": top["title"], "summary": top.get("summary", ""),
+                "time": top.get("time", ""), "url": top.get("url", ""),
+                "source": top.get("source", ""), "mentions": len(matched),
+            })
+    speakers.sort(key=lambda x: x.get("time", ""), reverse=True)
+    return speakers
+
+
+def fetch_news():
+    """六源聚合：东财国际 + 新浪 + 富途 + 同花顺 + 财新 + 百度财经。"""
     import akshare as ak
 
-    errors = []
+    source_status = {}
     pool = []
-    for fn, kw, tag in (
-        (ak.stock_info_global_em, {}, "东财"),
-        (ak.stock_info_global_sina, {}, "新浪"),
-        (ak.stock_info_global_futu, {}, "富途"),
-    ):
+
+    def collect(fn, kwargs, tag, norm_fn=_norm_news):
         try:
-            records = _df_to_records(fn(**kw))
-            news = _norm_news(records)
+            records = _df_to_records(fn(**kwargs))
+            news = norm_fn(records)[:NEWS_SOURCE_LIMIT]
             if news:
                 for n in news:
                     n["source"] = tag
                 pool.extend(news)
+                source_status[tag] = f"ok({len(news)})"
                 log(f"OK   要闻-{tag}（{len(news)} 条）")
             else:
-                errors.append(f"{fn.__name__}: 空数据")
-        except Exception as e:  # noqa: BLE001 - 单源失败不聚合中断
-            errors.append(f"{fn.__name__}: {type(e).__name__} {e}")
-        time.sleep(1)
+                source_status[tag] = "empty"
+        except Exception as e:  # noqa: BLE001
+            source_status[tag] = f"FAIL:{type(e).__name__}"
+            log(f"FAIL 要闻-{tag}: {type(e).__name__}")
 
-    if not pool:
-        raise RuntimeError("；".join(errors) or "全部新闻源失败")
-    return _dedup_news(pool)[:NEWS_LIMIT]
+    collect(ak.stock_info_global_em, {}, "东财国际")
+    collect(ak.stock_info_global_sina, {}, "新浪财经")
+    collect(ak.stock_info_global_futu, {}, "富途")
+    collect(ak.stock_info_global_ths, {}, "同花顺")
+    collect(ak.stock_news_main_cx, {}, "财新",
+            lambda rs: _norm_news(rs, title_key="summary", link_key="url"))
+    collect(ak.news_economic_baidu, {}, "百度财经",
+            lambda rs: _norm_news(rs, title_key="事件", summary_key="公布", time_key="日期"))
+    time.sleep(0.3)
+
+    deduped = _dedup_news(pool)
+    if not deduped:
+        raise RuntimeError("；".join(f"{k}:{v}" for k, v in source_status.items()) or "全部新闻源失败")
+
+    source_counts = {}
+    for n in deduped[:NEWS_LIMIT * 2]:
+        source_counts[n.get("source", "?")] = source_counts.get(n.get("source", "?"), 0) + 1
+    return deduped[:NEWS_LIMIT], {"sources": source_status, "counts": source_counts}
 
 
 # --------------------------------------------------------------------------
@@ -1013,7 +1137,18 @@ def main():
     global_idx, errors["全球指数"] = safe(fetch_global_indices, "全球指数(亚太/欧洲)")
     key_assets, key_errors = fetch_key_assets()
     errors.update(key_errors)
-    news, errors["全球要闻"] = safe(fetch_news, "全球要闻")
+
+    sentiment, errors["情绪仪表"] = safe(fetch_sentiment, "情绪仪表")
+
+    news, news_err = safe(fetch_news, "全球要闻(6源聚合)")
+    if news is None:
+        errors["全球要闻"] = news_err
+        news, news_meta = [], {}
+    else:
+        news, news_meta = news
+
+    speakers, errors["关键人物"] = safe(lambda: fetch_speakers(news), "关键人物发言")
+
     wuxing, errors["今日五行"] = safe(fetch_wuxing, "今日五行")
 
     markets = {
@@ -1030,19 +1165,22 @@ def main():
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 5,
+        "schema_version": 6,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
-        "interval": INTERVAL,  # hourly | daily（由环境变量/调度控制）
+        "interval": INTERVAL,
         "update_frequency_note": freq_note,
         "markets": markets,
         "key_assets": key_assets,
+        "sentiment": sentiment or {},
+        "speakers": speakers or [],
         "alerts": alerts,
         "news": news,
+        "news_meta": news_meta,
         "wuxing": wuxing,
         "errors": {k: v for k, v in errors.items() if v},
-        "disclaimer": "行情与新闻数据来自公开来源，仅供研究参考，不构成投资建议；接口可能因上游网站变化而失效。告警基于各标的20日历史波动率（σ）倍数（2σ警戒/3σ高危），传导路径为程序化生成的机制示意，不构成投资建议。",
+        "disclaimer": "行情与新闻数据来自公开来源（新浪/东财/富途/同花顺/财新/百度/alternative.me），仅供研究参考，不构成投资建议；接口可能因上游网站变化而失效。情绪仪表：恐惧贪婪指数(alternative.me) + A股广度(东财实时)；关键人物发言由新闻关键词匹配生成；告警基于20日历史波动率σ倍数，传导路径为机制示意。",
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)

@@ -290,7 +290,114 @@
   .chip.bad  { background: rgba(38, 165, 107, 0.12); color: #5fe0a8; border: 1px solid rgba(38, 165, 107, 0.25); }
   .chip.watch { background: rgba(217, 178, 60, 0.10); color: #e6c968; border: 1px solid rgba(217, 178, 60, 0.25); }
 
-  /* ---------- 其他（折叠） ---------- */
+  /* ---------- 情绪仪表 ---------- */
+  .sent-row { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 14px; margin-bottom: 28px; }
+  .sent-card {
+    background: var(--card); border: 1px solid var(--card-border);
+    border-radius: var(--radius); padding: 16px 18px;
+    transition: border-color 0.25s;
+  }
+  .sent-card:hover { border-color: rgba(255, 255, 255, 0.13); }
+  .sent-card .sc-head {
+    display: flex; align-items: baseline; gap: 8px; margin-bottom: 10px;
+    font-size: 11.5px; color: var(--text-faint); letter-spacing: 1.5px;
+  }
+  .sent-card .sc-head .src { margin-left: auto; font-size: 10px; letter-spacing: 0; }
+  .fg-wrap { display: grid; grid-template-columns: 120px 1fr; align-items: center; gap: 14px; }
+  .fg-ring { position: relative; width: 120px; height: 120px; }
+  .fg-ring svg { display: block; width: 100%; height: 100%; transform: rotate(-90deg); }
+  .fg-ring .fg-bg { stroke: rgba(255, 255, 255, 0.08); stroke-width: 8; fill: none; }
+  .fg-ring .fg-fg { stroke-width: 8; fill: none; stroke-linecap: round;
+    transition: stroke-dashoffset 0.9s ease-out; filter: drop-shadow(0 0 6px currentColor); }
+  .fg-ring .fg-center {
+    position: absolute; inset: 0; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; transform: rotate(0);
+  }
+  .fg-ring .fg-val { font-size: 26px; font-weight: 800; line-height: 1; }
+  .fg-ring .fg-lbl { font-size: 10px; color: var(--text-dim); margin-top: 2px; }
+  .fg-info .bar-segs {
+    display: flex; height: 6px; border-radius: 3px; overflow: hidden; margin-bottom: 10px;
+  }
+  .fg-info .bar-segs .seg { height: 100%; transition: flex-basis 0.8s ease-out; }
+  .fg-info .bar-legend {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 4px 10px;
+    font-size: 11px; color: var(--text-dim);
+  }
+  .fg-info .bar-legend .k { color: var(--text-faint); margin-right: 3px; }
+  .fg-info .bar-legend .v { color: var(--text); }
+  .fg-info .composite-big {
+    display: flex; flex-direction: column; align-items: center;
+    padding-top: 6px; border-top: 1px solid var(--card-border); margin-top: 10px;
+  }
+  .fg-info .composite-big .num { font-size: 30px; font-weight: 800; }
+  .fg-info .composite-big .lbl { font-size: 12px; margin-top: 2px; }
+  .bread-col { display: grid; gap: 8px; }
+  .bread-row { display: flex; justify-content: space-between; font-size: 12px; }
+  .bread-row .lbl { color: var(--text-dim); }
+  .bread-row .num { color: var(--text); font-weight: 600; }
+  .bread-bar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; margin: 4px 0 2px; }
+  .bread-bar .up-seg { background: rgba(240, 74, 61, 0.85); }
+  .bread-bar .down-seg { background: rgba(38, 165, 107, 0.85); }
+  .bread-bar .flat-seg { background: rgba(217, 178, 60, 0.55); }
+  .bread-score {
+    display: flex; align-items: baseline; gap: 6px; margin-top: 2px;
+    font-size: 12px; color: var(--text-dim);
+  }
+  .bread-score .s { font-size: 22px; font-weight: 800; color: var(--text); }
+  .bread-score .tag {
+    font-size: 10px; padding: 1px 8px; border-radius: 999px;
+    border: 1px solid var(--card-border);
+  }
+
+  /* ---------- 关键人物 ---------- */
+  .speakers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+  .speaker {
+    border: 1px solid var(--card-border); border-radius: 10px;
+    background: rgba(255, 255, 255, 0.025); padding: 10px 12px;
+    display: flex; flex-direction: column; gap: 4px;
+    transition: border-color 0.2s, background 0.2s;
+  }
+  .speaker:hover { border-color: rgba(79, 156, 249, 0.35); background: rgba(79, 156, 249, 0.04); }
+  .speaker .s-head {
+    display: flex; align-items: center; gap: 6px; font-size: 12px;
+  }
+  .speaker .avatar {
+    width: 22px; height: 22px; border-radius: 50%;
+    background: linear-gradient(135deg, #4f9cf9, #2a6dbf);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 11px; font-weight: 800; color: #fff; flex: none;
+  }
+  .speaker .s-name { color: var(--text); font-weight: 700; }
+  .speaker .s-kw { font-size: 10px; color: var(--text-faint); margin-left: auto; }
+  .speaker .s-quote {
+    font-size: 12.5px; line-height: 1.4; color: var(--text);
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .speaker .s-foot {
+    font-size: 10.5px; color: var(--text-faint); display: flex; justify-content: space-between;
+  }
+  .speaker a { text-decoration: none; color: inherit; }
+  .speaker a:hover .s-quote { color: var(--accent); }
+  .speakers-empty { color: var(--text-faint); font-size: 13px; padding: 14px 0; text-align: center; }
+
+  /* ---------- 新闻源标签 ---------- */
+  .src-pills {
+    display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px;
+  }
+  .src-pills .pill {
+    font-size: 10.5px; padding: 1px 7px; border-radius: 999px;
+    background: rgba(255, 255, 255, 0.04); border: 1px solid var(--card-border);
+    color: var(--text-dim);
+  }
+  .src-pills .pill .c { color: var(--text); font-weight: 700; margin-left: 2px; }
+
+  @media (max-width: 900px) {
+    .sent-row { grid-template-columns: 1fr; }
+    .speakers-grid { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 600px) {
+    .speakers-grid { grid-template-columns: 1fr; }
+  }
   details.other { border: 1px dashed var(--card-border); border-radius: var(--radius); overflow: hidden; }
   details.other summary {
     cursor: pointer; list-style: none;
@@ -365,6 +472,56 @@
   <!-- ============ 波动告警 ============ -->
   <div id="alerts-box"></div>
 
+  <!-- ============ 情绪仪表（恐惧贪婪 + A股广度 + 综合） ============ -->
+  <section id="sentiment">
+    <div class="sec-head">
+      <h2>市场情绪仪表</h2>
+      <span class="tag">恐惧贪婪指数 · A股涨跌家数 · 综合情绪分</span>
+    </div>
+    <div class="sent-row" id="sent-body">
+      <div class="sent-card" id="sent-composite">
+        <div class="sc-head"><span>综合情绪</span><span class="src">恐惧贪婪 × A股广度</span></div>
+        <div class="composite-big" id="comp-big" style="text-align:center;padding-top:14px;">
+          <div class="num num" id="comp-num">—</div>
+          <div class="lbl" id="comp-lbl">加载中…</div>
+        </div>
+      </div>
+      <div class="sent-card" id="sent-fg">
+        <div class="sc-head"><span>全球恐惧贪婪指数</span><span class="src">alternative.me</span></div>
+        <div class="fg-wrap">
+          <div class="fg-ring">
+            <svg viewBox="0 0 120 120"><circle class="fg-bg" cx="60" cy="60" r="52"/><circle class="fg-fg" id="fg-fg" cx="60" cy="60" r="52" stroke="#d9b23c"/></svg>
+            <div class="fg-center">
+              <div class="fg-val num" id="fg-val">—</div>
+              <div class="fg-lbl" id="fg-lbl">恐惧贪婪</div>
+            </div>
+          </div>
+          <div class="fg-info">
+            <div class="bar-segs" id="fg-bars"></div>
+            <div class="bar-legend">
+              <div><span class="k">极度恐惧</span><span class="v">0–24</span></div>
+              <div><span class="k">恐惧</span><span class="v">25–44</span></div>
+              <div><span class="k">中性</span><span class="v">45–54</span></div>
+              <div><span class="k">贪婪</span><span class="v">55–74</span></div>
+              <div><span class="k">极度贪婪</span><span class="v">75–100</span></div>
+              <div><span class="k">日期</span><span class="v" id="fg-date">—</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sent-card" id="sent-breadth">
+        <div class="sc-head"><span>A股广度（涨跌家数）</span><span class="src">东财实时</span></div>
+        <div class="bread-col" id="bread-body">
+          <div class="bread-row"><span class="lbl">上涨</span><span class="num" id="bread-up">—</span></div>
+          <div class="bread-bar"><span class="up-seg" id="bread-up-seg"></span><span class="down-seg" id="bread-down-seg"></span><span class="flat-seg" id="bread-flat-seg"></span></div>
+          <div class="bread-row"><span class="lbl">下跌</span><span class="num" id="bread-down">—</span></div>
+          <div class="bread-row"><span class="lbl">平盘</span><span class="num" id="bread-flat">—</span></div>
+          <div class="bread-score">情绪分<span class="s num" id="bread-score">—</span><span class="tag" id="bread-tag">—</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ 全球主要股市速览 ============ -->
   <section id="markets">
     <div class="sec-head">
@@ -379,14 +536,26 @@
     </div>
   </section>
 
+  <!-- ============ 关键人物 / 机构发言 ============ -->
+  <section id="speakers">
+    <div class="sec-head">
+      <h2>关键人物 / 机构发言</h2>
+      <span class="tag">按关键词从新闻池中匹配</span>
+    </div>
+    <div class="card">
+      <div class="speakers-grid" id="speakers-body"></div>
+    </div>
+  </section>
+
   <!-- ============ 要闻 + 五行 ============ -->
   <div class="two-col">
     <section id="news">
       <div class="sec-head">
         <h2>全球要闻</h2>
-        <span class="tag">财经快讯</span>
+        <span class="tag">财经快讯 · 六源聚合</span>
       </div>
       <div class="card">
+        <div class="src-pills" id="src-pills"></div>
         <div class="boot" id="news-boot"><span class="spin">◐</span> 正在加载要闻…</div>
         <div class="news-list" id="news-body" hidden></div>
         <div class="err-note" id="news-err"></div>
@@ -656,9 +825,19 @@
     el.setAttribute("aria-expanded", open ? "true" : "false");
   }
 
-  function renderNews(items) {
+  function renderNews(items, meta) {
     hide($("news-boot"));
     var body = $("news-body");
+    // 源标签条
+    var pills = "";
+    if (meta && meta.counts) {
+      pills = Object.keys(meta.counts).map(function (src) {
+        var n = meta.counts[src];
+        return '<span class="pill">' + src + '<span class="c">' + n + '</span></span>';
+      }).join("");
+    }
+    $("src-pills").innerHTML = pills;
+
     if (!items || !items.length) {
       body.outerHTML = '<div class="missing">要闻数据暂缺，请稍后刷新</div>';
       return;
@@ -726,8 +905,108 @@
     }
   }
 
+  /* ---------- 情绪仪表 ---------- */
+  var FG_COLORS = [
+    {max: 25, c: "#f04a3d"}, {max: 45, c: "#f58a3d"},
+    {max: 55, c: "#d9b23c"}, {max: 75, c: "#8ac96f"},
+    {max: 101, c: "#26a56b"},
+  ];
+  function _fgColor(v) { for (var i=0; i<FG_COLORS.length; i++) if (v < FG_COLORS[i].max) return FG_COLORS[i].c; return "#26a56b"; }
+
+  function renderSentiment(sentiment) {
+    var s = sentiment || {};
+
+    // 综合分
+    var comp = s.composite || null;
+    if (comp) {
+      $("comp-num").textContent = comp.score;
+      $("comp-num").style.color = comp.color;
+      $("comp-lbl").textContent = comp.label;
+      $("comp-lbl").style.color = comp.color;
+    } else {
+      $("comp-num").textContent = "—";
+      $("comp-lbl").textContent = "数据源暂缺";
+    }
+
+    // 恐惧贪婪环形图
+    var fg = s.fear_greed || null;
+    if (fg) {
+      var v = fg.value;
+      var color = _fgColor(v);
+      var circ = 2 * Math.PI * 52;
+      var offset = circ - (v / 100) * circ;
+      var ring = $("fg-fg");
+      ring.setAttribute("stroke", color);
+      ring.setAttribute("stroke-dasharray", circ);
+      // 动画：先隐藏再设置目标 offset 触发过渡
+      ring.setAttribute("stroke-dashoffset", circ);
+      requestAnimationFrame(function () {
+        ring.setAttribute("stroke-dashoffset", offset);
+      });
+      $("fg-val").textContent = v;
+      $("fg-val").style.color = color;
+      $("fg-lbl").textContent = fg.label + (fg.classification && fg.classification !== fg.label ? " · " + fg.classification : "");
+      $("fg-date").textContent = fg.timestamp || fg.source;
+      // 区间渐变条（纯装饰）
+      $("fg-bars").innerHTML =
+        '<div class="seg" style="flex:25;background:#f04a3d"></div>' +
+        '<div class="seg" style="flex:20;background:#f58a3d"></div>' +
+        '<div class="seg" style="flex:10;background:#d9b23c"></div>' +
+        '<div class="seg" style="flex:20;background:#8ac96f"></div>' +
+        '<div class="seg" style="flex:25;background:#26a56b"></div>';
+    } else {
+      $("fg-val").textContent = "—";
+      $("fg-lbl").textContent = "alternative.me 暂不可达";
+      $("fg-date").textContent = "—";
+      $("fg-bars").innerHTML = '<div class="seg" style="flex:1;background:rgba(255,255,255,0.05)"></div>';
+    }
+
+    // A股广度
+    var br = s.a_share_breadth || null;
+    if (br) {
+      $("bread-up").textContent = br.up;
+      $("bread-down").textContent = br.down;
+      $("bread-flat").textContent = br.flat;
+      var t = br.total || (br.up + br.down + br.flat) || 1;
+      $("bread-up-seg").style.flexBasis = (br.up / t * 100) + "%";
+      $("bread-down-seg").style.flexBasis = (br.down / t * 100) + "%";
+      $("bread-flat-seg").style.flexBasis = ((br.flat || 0) / t * 100) + "%";
+      var score = br.score;
+      $("bread-score").textContent = score !== null && score !== undefined ? score.toFixed(1) : "—";
+      $("bread-tag").textContent = br.breadth_pct !== null ? "广度 " + br.breadth_pct + "%" : "—";
+    } else {
+      $("bread-up").textContent = "—";
+      $("bread-down").textContent = "—";
+      $("bread-flat").textContent = "—";
+      $("bread-up-seg").style.flexBasis = "33%";
+      $("bread-down-seg").style.flexBasis = "33%";
+      $("bread-flat-seg").style.flexBasis = "33%";
+      $("bread-score").textContent = "—";
+      $("bread-tag").textContent = "东财Push2限流";
+    }
+  }
+
+  /* ---------- 关键人物 ---------- */
+  function renderSpeakers(list) {
+    var box = $("speakers-body");
+    if (!list || !list.length) {
+      box.innerHTML = '<div class="speakers-empty">本轮新闻池未匹配到关键人物/机构关键词</div>';
+      return;
+    }
+    box.innerHTML = list.map(function (sp) {
+      var initial = (sp.label || sp.keyword || "?").charAt(0);
+      var url = sp.url || "javascript:void(0)";
+      return '<a class="speaker" href="' + url + '" target="_blank" rel="noopener">' +
+        '<div class="s-head"><div class="avatar">' + initial + '</div>' +
+        '<span class="s-name">' + (sp.label || sp.keyword) + '</span>' +
+        '<span class="s-kw">提及 ' + (sp.mentions || 1) + ' 条</span></div>' +
+        '<div class="s-quote">' + sp.title + '</div>' +
+        '<div class="s-foot"><span>' + (sp.source || "") + '</span><span>' + (sp.time || "") + '</span></div>' +
+      '</a>';
+    }).join("");
+  }
+
   function load() {
-    // 加时间戳参数穿透 GitHub Pages 的 CDN 缓存
     fetch("data/dashboard.json?t=" + Date.now(), { cache: "no-store" })
       .then(function (r) {
         if (!r.ok) throw new Error("HTTP " + r.status);
@@ -736,8 +1015,10 @@
       .then(function (d) {
         renderMeta(d);
         renderAlerts(d.alerts);
+        renderSentiment(d.sentiment || {});
         renderMarkets(d.markets || {}, d.key_assets);
-        renderNews(d.news);
+        renderSpeakers(d.speakers || []);
+        renderNews(d.news, d.news_meta);
         renderWuxing(d.wuxing);
       })
       .catch(function (e) {
