@@ -418,6 +418,35 @@ def fetch_global_indices():
 # 关键标的采集（美债 / 贵金属 / 能源 / 加密货币）
 # --------------------------------------------------------------------------
 
+def _us10y_from_treasury():
+    """美国财政部官方日频收益率曲线 CSV（home.treasury.gov），权威且对数据中心友好。"""
+    r = requests.get("https://home.treasury.gov/resource-center/data-chart-center/"
+                     "interest-rates/daily-treasury-rates.csv/2026/all",
+                     params={"type": "daily_treasury_yield_curve",
+                             "field_tdr_date_value": "2026", "page": "_format"},
+                     headers=_UA_HEADERS, timeout=HTTP_TIMEOUT + 6)
+    r.raise_for_status()
+    import csv as _csv
+    import io as _io
+    from datetime import datetime as _dt
+    pairs = []
+    for row in _csv.DictReader(_io.StringIO(r.text)):
+        try:
+            d = _dt.strptime(row["Date"], "%m/%d/%Y").strftime("%Y-%m-%d")
+            v = to_float(row.get("10 Yr"))
+            if v and v > 0:
+                pairs.append((d, v))
+        except (KeyError, ValueError):
+            continue
+    pairs.sort()
+    if len(pairs) < 2:
+        raise ValueError("Treasury 有效行不足")
+    (d1, v1), (d2, v2) = pairs[-1], pairs[-2]
+    return {"value": v1, "change_bp": round((v1 - v2) * 100, 1),
+            "date": d1, "source": "美财政部",
+            "hist": [v for _, v in pairs[-HIST_DAYS:]]}
+
+
 def _us10y_from_fred():
     """FRED（美联储圣路易斯分行）官方 DGS10 日频 CSV，最权威且 T+1 更新。"""
     r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv",
@@ -462,12 +491,12 @@ def _us10y_from_sina_daily():
 
 
 def fetch_us10y():
-    """美国 10 年期国债收益率：FRED官方 → 新浪日线 → 中债(bond_zh_us_rate) 三级降级。
+    """美国 10 年期国债收益率：美财政部 → FRED → 新浪日线 → 中债 四级降级。
 
-    中债源曾出现连续多日停更（date 滞后），故优先使用美国官方 FRED。
+    中债/新浪源曾连续停更（date 滞后至 11-04），优先美国官方数据。
     """
     errors = []
-    for fn in (_us10y_from_fred, _us10y_from_sina_daily):
+    for fn in (_us10y_from_treasury, _us10y_from_fred, _us10y_from_sina_daily):
         try:
             out = fn()
             log(f"OK   美债10Y({out['source']}) {out['value']}% @ {out['date']}")
