@@ -46,6 +46,13 @@ SINA_HQ_URL = "https://hq.sinajs.cn/list={symbols}"
 SINA_HQ_HEADERS = {"Referer": "https://finance.sina.com.cn"}
 HTTP_TIMEOUT = 12
 
+# 加密货币监控目标（OKX instId / Binance & Bitstamp 交易对 / CoinGecko id）
+CRYPTO_TARGETS = (
+    ("BTC", "比特币"),
+    ("ETH", "以太坊"),
+    ("SOL", "Solana"),
+)
+
 # 波动告警阈值（单日涨跌幅 %）：(warning, danger)
 ALERT_THRESHOLDS = {
     "index": (3.0, 5.0),
@@ -377,35 +384,41 @@ def fetch_commodities():
 
 
 def _crypto_via_okx():
+    # 注意：tickers 端点会忽略 instId 参数返回全部现货交易对，必须本地按目标过滤
     r = requests.get("https://www.okx.com/api/v5/market/tickers",
-                     params={"instType": "SPOT", "instId": "BTC-USDT"},
-                     timeout=HTTP_TIMEOUT)
+                     params={"instType": "SPOT"}, timeout=HTTP_TIMEOUT)
     r.raise_for_status()
     data = r.json().get("data") or []
+    by_inst = {d.get("instId"): d for d in data}
     out = []
-    for d in data:
+    for code, name in CRYPTO_TARGETS:
+        d = by_inst.get(f"{code}-USDT")
+        if not d:
+            continue
         last = to_float(d.get("last"))
         open24 = to_float(d.get("open24h"))
         if not last or not open24:
             continue
-        out.append({"name": d.get("instId", "").replace("-", ""),
+        out.append({"name": name, "code": code,
                     "price": last,
                     "change": round(last - open24, 2),
                     "change_pct": round((last - open24) / open24 * 100, 2)})
+    if not out:
+        raise RuntimeError("OKX 未返回目标币种")
     return out
 
 
 def _crypto_via_binance():
     out = []
-    for sym, name in (("BTCUSDT", "BTCUSDT"), ("ETHUSDT", "ETHUSDT")):
+    for code, name in CRYPTO_TARGETS:
         r = requests.get("https://api.binance.com/api/v3/ticker/24hr",
-                         params={"symbol": sym}, timeout=HTTP_TIMEOUT)
+                         params={"symbol": f"{code}USDT"}, timeout=HTTP_TIMEOUT)
         r.raise_for_status()
         d = r.json()
         last = to_float(d.get("lastPrice"))
         chg = pct(d.get("priceChangePercent"))
         if last and chg is not None:
-            out.append({"name": name, "price": last,
+            out.append({"name": name, "code": code, "price": last,
                         "change": to_float(d.get("priceChange")),
                         "change_pct": chg})
     return out
@@ -413,18 +426,19 @@ def _crypto_via_binance():
 
 def _crypto_via_coingecko():
     r = requests.get("https://api.coingecko.com/api/v3/simple/price",
-                     params={"ids": "bitcoin,ethereum", "vs_currencies": "usd",
+                     params={"ids": "bitcoin,ethereum,solana", "vs_currencies": "usd",
                              "include_24hr_change": "true"},
                      timeout=HTTP_TIMEOUT)
     r.raise_for_status()
     d = r.json()
+    id_map = {"BTC": "bitcoin", "ETH": "ethereum", "SOL": "solana"}
     out = []
-    for key, name in (("bitcoin", "BTCUSDT"), ("ethereum", "ETHUSDT")):
-        v = d.get(key, {})
+    for code, name in CRYPTO_TARGETS:
+        v = d.get(id_map[code], {})
         price = to_float(v.get("usd"))
         chg24 = pct(v.get("usd_24h_change"))
         if price and chg24 is not None:
-            out.append({"name": name, "price": price,
+            out.append({"name": name, "code": code, "price": price,
                         "change": round(price - price / (1 + chg24 / 100), 2),
                         "change_pct": chg24})
     return out
@@ -432,15 +446,15 @@ def _crypto_via_coingecko():
 
 def _crypto_via_bitstamp():
     out = []
-    for pair, name in (("btcusd", "BTCUSDT"), ("ethusd", "ETHUSDT")):
-        r = requests.get(f"https://www.bitstamp.net/api/v2/ticker_hour/{pair}/",
+    for code, name in CRYPTO_TARGETS:
+        r = requests.get(f"https://www.bitstamp.net/api/v2/ticker_hour/{code.lower()}usd/",
                          timeout=HTTP_TIMEOUT)
         r.raise_for_status()
         d = r.json()
         last = to_float(d.get("last"))
         open24 = to_float(d.get("open"))
         if last and open24:
-            out.append({"name": name, "price": last,
+            out.append({"name": name, "code": code, "price": last,
                         "change": round(last - open24, 2),
                         "change_pct": round((last - open24) / open24 * 100, 2)})
     return out
