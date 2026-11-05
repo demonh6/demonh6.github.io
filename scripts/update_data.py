@@ -53,14 +53,18 @@ CRYPTO_TARGETS = (
     ("SOL", "Solana"),
 )
 
-# 波动告警阈值（单日涨跌幅 %）：(warning, danger)
-ALERT_THRESHOLDS = {
-    "index": (3.0, 5.0),
-    "commodity": (2.5, 4.0),
-    "crypto": (5.0, 8.0),
-}
-# 10 年期美债收益率单日变动告警阈值（基点 bp）
-BOND_ALERT_BP = (8.0, 15.0)
+# ----------------------------------------------------------------------
+# 告警阈值：基于 20 日历史波动率（σ）的倍数 —— 机构风控通用口径
+# 单日波动 ≥2σ 视为警戒（历史分布约前 5% 分位），≥3σ 视为高危（约前 0.3% 分位），
+# 取代拍脑袋的固定百分比阈值，使不同波动特性的标的（股指/商品/加密/利率）可比。
+# ----------------------------------------------------------------------
+ALERT_SIGMA = (2.0, 3.0)       # (warning, danger) σ 倍数
+VOL_WINDOW = 20                # 波动率窗口（交易日）
+HIST_DAYS = 30                 # 前端走势图展示天数
+# 历史数据缺失时使用的长期日均波动率经验值（%）：
+# 全球主要股指长期日 σ ≈1%~1.5%，商品 ≈1.5%~2%，主流加密 ≈3%~4%，美债10Y ≈5~8bp
+FALLBACK_SIGMA = {"index": 1.2, "commodity": 1.8, "crypto": 3.5}
+FALLBACK_SIGMA_BP = 6.0        # 美债收益率日变动 σ 经验值（bp）
 
 
 def log(msg: str) -> None:
@@ -78,6 +82,45 @@ def to_float(v):
 def pct(v):
     f = to_float(v)
     return round(f, 2) if f is not None else None
+
+
+def _closes(df, col="close", n=None):
+    """从日线 DataFrame 取最近 n 个有效收盘价（>0），时间正序。"""
+    n = n or (HIST_DAYS + VOL_WINDOW + 2)
+    vals = []
+    for i in range(len(df) - 1, -1, -1):
+        v = to_float(df.iloc[i].get(col))
+        if v is not None and v > 0:
+            vals.append(v)
+            if len(vals) >= n:
+                break
+    vals.reverse()
+    return vals
+
+
+def _sigma20(closes, window=VOL_WINDOW):
+    """最近 window 个交易日的日收益率标准差（%）；样本不足返回 None。"""
+    if not closes or len(closes) < window + 1:
+        return None
+    rets = []
+    for i in range(len(closes) - window, len(closes)):
+        prev = closes[i - 1]
+        if prev:
+            rets.append((closes[i] - prev) / prev * 100)
+    if len(rets) < window * 0.8:
+        return None
+    mean = sum(rets) / len(rets)
+    var = sum((r - mean) ** 2 for r in rets) / len(rets)
+    return round(var ** 0.5, 3)
+
+
+def _attach(item, closes):
+    """给标的补充 hist（最近30日收盘序列）与 sigma（20日波动率%）字段。"""
+    if closes:
+        item["hist"] = [round(c, 4) for c in closes[-HIST_DAYS:]]
+        s = _sigma20(closes)
+        if s:
+            item["sigma"] = s
 
 
 # --------------------------------------------------------------------------
@@ -508,6 +551,108 @@ def fetch_key_assets():
 
 
 # --------------------------------------------------------------------------
+# 历史序列与波动率（走势图数据 + σ 告警基准）
+# --------------------------------------------------------------------------
+
+# 全球指数：展示名 → 新浪历史接口名称
+GLOBAL_HIST_NAMES = {
+    "日经225": "日经225指数", "韩国KOSPI": "首尔综合指数", "印度SENSEX": "印度孟买SENSEX指数",
+    "台湾加权": "中国台湾加权指数", "德国DAX": "德国DAX 30种股价指数", "英国富时100": "英国富时100指数",
+    "法国CAC40": "法CAC40指数", "欧洲斯托克50": "欧洲Stoxx50指数", "俄罗斯MOEX": "俄罗斯MICEX指数",
+}
+US_HIST_SYMBOLS = {"道琼斯": ".DJI", "纳斯达克": ".IXIC", "标普500": ".INX"}
+
+
+def _crypto_hist_okx(code):
+    r = requests.get("https://www.okx.com/api/v5/market/candles",
+                     params={"instId": f"{code}-USDT", "bar": "1D", "limit": "60"},
+                     timeout=HTTP_TIMEOUT)
+    r.raise_for_status()
+    data = r.json().get("data") or []          # 最新在前：[ts,o,h,l,c,...]
+    closes = [to_float(row[4]) for row in reversed(data) if len(row) > 4]
+    return [c for c in closes if c and c > 0]
+
+
+def _crypto_hist_binance(code):
+    r = requests.get("https://api.binance.com/api/v3/klines",
+                     params={"symbol": f"{code}USDT", "interval": "1d", "limit": "60"},
+                     timeout=HTTP_TIMEOUT)
+    r.raise_for_status()
+    closes = [to_float(row[4]) for row in r.json() if len(row) > 4]
+    return [c for c in closes if c and c > 0]
+
+
+def attach_histories(markets, key_assets):
+    """为每个标的补充 hist（30日走势）与 sigma（20日波动率）；单标的失败仅跳过。"""
+    import akshare as ak
+
+    def job(label, fn):
+        try:
+            return fn()
+        except Exception as e:  # noqa: BLE001
+            log(f"历史序列 {label} 失败: {type(e).__name__}")
+            return None
+
+    for it in markets.get("a_share") or []:
+        df = job(f"A股 {it['name']}", lambda c=it["code"]: ak.stock_zh_index_daily(symbol=c))
+        if df is not None:
+            _attach(it, _closes(df))
+        time.sleep(0.3)
+
+    for it in markets.get("hk") or []:
+        df = job(f"港股 {it['name']}", lambda c=it["code"]: ak.stock_hk_index_daily_sina(symbol=c))
+        if df is not None:
+            _attach(it, _closes(df))
+        time.sleep(0.3)
+
+    for it in markets.get("us") or []:
+        sym = US_HIST_SYMBOLS.get(it["name"])
+        if sym:
+            df = job(f"美股 {it['name']}", lambda s=sym: ak.index_us_stock_sina(symbol=s))
+            if df is not None:
+                _attach(it, _closes(df))
+            time.sleep(0.3)
+
+    for it in markets.get("global") or []:
+        sname = GLOBAL_HIST_NAMES.get(it["name"])
+        if sname:
+            df = job(f"全球 {it['name']}", lambda s=sname: ak.index_global_hist_sina(symbol=s))
+            if df is not None:
+                _attach(it, _closes(df))
+            time.sleep(0.3)
+
+    for it in key_assets.get("commodities") or []:
+        fsym = (it.get("code") or "").replace("hf_", "")
+        if fsym:
+            df = job(f"商品 {it['name']}", lambda s=fsym: ak.futures_foreign_hist(symbol=s))
+            if df is not None:
+                _attach(it, _closes(df))
+            time.sleep(0.3)
+
+    for it in key_assets.get("crypto") or []:
+        code = it.get("code")
+        closes = job(f"加密 {code}(OKX)", lambda c=code: _crypto_hist_okx(c))
+        if not closes:
+            closes = job(f"加密 {code}(Binance)", lambda c=code: _crypto_hist_binance(c))
+        _attach(it, closes or [])
+        time.sleep(0.3)
+
+    bond = key_assets.get("bond")
+    if bond:
+        df = job("美债10Y", ak.bond_zh_us_rate)
+        if df is not None:
+            yields = _closes(df, col="美国国债收益率10年")
+            if yields:
+                bond["hist"] = [round(y, 4) for y in yields[-HIST_DAYS:]]
+                chg_bp = [(yields[i] - yields[i - 1]) * 100
+                          for i in range(max(1, len(yields) - VOL_WINDOW), len(yields))]
+                if len(chg_bp) >= VOL_WINDOW * 0.8:
+                    mean = sum(chg_bp) / len(chg_bp)
+                    var = sum((c - mean) ** 2 for c in chg_bp) / len(chg_bp)
+                    bond["sigma_bp"] = round(var ** 0.5, 2)
+
+
+# --------------------------------------------------------------------------
 # 波动告警
 # --------------------------------------------------------------------------
 
@@ -516,91 +661,108 @@ def _mk_alert(level, asset, message):
             "time": datetime.now(CST).strftime("%Y-%m-%d %H:%M")}
 
 
-def _threshold_alert(name, change_pct, kind, direction_hint):
-    """单标的阈值告警：返回 alert 或 None。"""
-    w, d = ALERT_THRESHOLDS[kind]
-    v = abs(change_pct)
-    if v >= d:
+def _sigma_alert(name, change_pct, sigma, kind, direction_hint):
+    """σ 倍数告警：单日波动 ≥2σ 警戒、≥3σ 高危（σ=该标的20日历史波动率）。"""
+    if change_pct is None:
+        return None
+    s = sigma or FALLBACK_SIGMA.get(kind)
+    approx = "" if sigma else "，σ按长期均值估算"
+    if not s or s <= 0:
+        return None
+    mult = abs(change_pct) / s
+    w, d = ALERT_SIGMA
+    if mult >= d:
         level, level_name = "danger", "高危"
-    elif v >= w:
+    elif mult >= w:
         level, level_name = "warning", "警戒"
     else:
         return None
+    line = d if level == "danger" else w
     return _mk_alert(
         level, name,
-        f"{name}单日{'涨' if change_pct > 0 else '跌'}{v:.2f}%，达到{level_name}阈值"
-        f"（{d if level == 'danger' else w:.1f}%），{direction_hint}")
+        f"{name}单日{'涨' if change_pct > 0 else '跌'}{abs(change_pct):.2f}%，"
+        f"达20日历史波动率的 {mult:.1f} 倍（σ={s:.2f}%，突破 {line:.0f}σ {level_name}线{approx}），"
+        f"{direction_hint}")
 
 
 def compute_alerts(markets, key_assets):
-    """单标的阈值告警 + 跨资产联动提示。"""
+    """单标的 σ 倍数告警 + 跨资产联动提示。"""
     alerts = []
 
     index_items = []
-    for group, kind in (("a_share", "index"), ("hk", "index"), ("us", "index"),
-                        ("global", "index")):
+    for group in ("a_share", "hk", "us", "global"):
         for it in markets.get(group) or []:
             if it.get("change_pct") is not None:
                 index_items.append(it)
 
+    def mult_of(it, kind):
+        s = it.get("sigma") or FALLBACK_SIGMA.get(kind) or 0
+        return abs(it.get("change_pct") or 0) / s if s > 0 else 0
+
     for it in index_items:
-        a = _threshold_alert(it["name"], it["change_pct"], "index",
-                             "需警惕资金连锁调仓与跨市场传导。")
+        a = _sigma_alert(it["name"], it["change_pct"], it.get("sigma"), "index",
+                         "需警惕资金连锁调仓与跨市场传导。")
         if a:
             alerts.append(a)
 
     for it in key_assets.get("commodities") or []:
-        a = _threshold_alert(it["name"], it.get("change_pct"), "commodity",
-                             "商品波动可能向相关板块与通胀预期传导。")
+        a = _sigma_alert(it["name"], it.get("change_pct"), it.get("sigma"), "commodity",
+                         "商品波动可能向相关板块与通胀预期传导。")
         if a:
             alerts.append(a)
 
     for it in key_assets.get("crypto") or []:
-        a = _threshold_alert(it["name"], it.get("change_pct"), "crypto",
-                             "加密资产高波动期常伴随风险偏好急变。")
+        a = _sigma_alert(it["name"], it.get("change_pct"), it.get("sigma"), "crypto",
+                         "加密资产高波动期常伴随风险偏好急变。")
         if a:
             alerts.append(a)
 
     bond = key_assets.get("bond")
     if bond and bond.get("change_bp") is not None:
-        w, d = BOND_ALERT_BP
-        v = abs(bond["change_bp"])
-        if v >= d:
-            level = "danger"
-        elif v >= w:
-            level = "warning"
+        s_bp = bond.get("sigma_bp") or FALLBACK_SIGMA_BP
+        approx = "" if bond.get("sigma_bp") else "，σ按长期均值估算"
+        mult = abs(bond["change_bp"]) / s_bp if s_bp > 0 else 0
+        w, d = ALERT_SIGMA
+        if mult >= d:
+            level, level_name = "danger", "高危"
+        elif mult >= w:
+            level, level_name = "warning", "警戒"
         else:
             level = None
         if level:
-            level_name = "高危" if level == "danger" else "警戒"
+            line = d if level == "danger" else w
             alerts.append(_mk_alert(
                 level, bond["name"],
-                f"{bond['name']}单日变动 {bond['change_bp']:+.1f}bp，达到{level_name}阈值"
-                f"（{d:.0f}bp），美债利率剧烈波动将影响全球风险资产定价。"))
+                f"{bond['name']}单日变动 {bond['change_bp']:+.1f}bp，"
+                f"达20日历史波动率的 {mult:.1f} 倍（σ={s_bp:.1f}bp，突破 {line:.0f}σ {level_name}线{approx}），"
+                "美债利率剧烈波动将影响全球风险资产定价。"))
 
-    # 联动规则 1：≥2 个主要股指同向波动超 2.5% → 共振提示
-    up = [it["name"] for it in index_items if (it.get("change_pct") or 0) >= 2.5]
-    down = [it["name"] for it in index_items if (it.get("change_pct") or 0) <= -2.5]
-    if len(up) >= 2:
+    # 联动规则 1：≥3 个主要股指同向出现 ≥1.5σ 波动 → 共振提示
+    up = [it["name"] for it in index_items
+          if (it.get("change_pct") or 0) > 0 and mult_of(it, "index") >= 1.5]
+    down = [it["name"] for it in index_items
+            if (it.get("change_pct") or 0) < 0 and mult_of(it, "index") >= 1.5]
+    if len(up) >= 3:
         alerts.append(_mk_alert("warning", "全球股指",
-                                f"{'、'.join(up[:3])}等 {len(up)} 个主要股指单日齐涨超2.5%，"
+                                f"{'、'.join(up[:3])}等 {len(up)} 个主要股指单日齐涨且均超1.5倍σ，"
                                 "风险偏好显著升温，注意追高风险。"))
-    if len(down) >= 2:
-        alerts.append(_mk_alert("danger" if len(down) >= 3 else "warning", "全球股指",
-                                f"{'、'.join(down[:3])}等 {len(down)} 个主要股指单日齐跌超2.5%，"
+    if len(down) >= 3:
+        alerts.append(_mk_alert("danger" if len(down) >= 4 else "warning", "全球股指",
+                                f"{'、'.join(down[:3])}等 {len(down)} 个主要股指单日齐跌且均超1.5倍σ，"
                                 "全球风险资产共振走弱，警惕连锁抛售。"))
 
-    # 联动规则 2：避险资产与风险资产同动 → 避险情绪提示
+    # 联动规则 2：避险资产与风险资产背离 → 避险情绪提示
     gold = next((g for g in key_assets.get("commodities") or []
                  if "黄金" in g["name"] and g.get("change_pct") is not None), None)
     if gold:
-        if gold["change_pct"] >= 1.5 and down:
+        g_mult = mult_of(gold, "commodity")
+        if gold["change_pct"] > 0 and g_mult >= 1.5 and down:
             alerts.append(_mk_alert("warning", "避险情绪",
-                                    f"黄金单日上涨 {gold['change_pct']:.2f}%，"
+                                    f"黄金单日上涨 {gold['change_pct']:.2f}%（{g_mult:.1f}倍σ），"
                                     f"同时{'、'.join(down[:2])}走跌，避险情绪与风险资产分化。"))
-        elif gold["change_pct"] <= -1.5 and up:
+        elif gold["change_pct"] < 0 and g_mult >= 1.5 and up:
             alerts.append(_mk_alert("warning", "风险偏好",
-                                    f"黄金单日下跌 {abs(gold['change_pct']):.2f}%，"
+                                    f"黄金单日下跌 {abs(gold['change_pct']):.2f}%（{g_mult:.1f}倍σ），"
                                     f"同时{'、'.join(up[:2])}走强，资金流向风险资产。"))
 
     # 排序：danger 优先，再按时间
@@ -802,6 +964,7 @@ def main():
         "us": us_idx,
         "global": global_idx,
     }
+    attach_histories(markets, key_assets)   # 补充30日走势与20日σ（告警基准）
     alerts = compute_alerts(markets, key_assets)
 
     now = datetime.now(CST)
@@ -809,7 +972,7 @@ def main():
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 3,
+        "schema_version": 4,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
@@ -821,7 +984,7 @@ def main():
         "news": news,
         "wuxing": wuxing,
         "errors": {k: v for k, v in errors.items() if v},
-        "disclaimer": "行情与新闻数据来自公开来源，仅供研究参考，不构成投资建议；接口可能因上游网站变化而失效。告警为程序化阈值提示，不构成投资建议。",
+        "disclaimer": "行情与新闻数据来自公开来源，仅供研究参考，不构成投资建议；接口可能因上游网站变化而失效。告警基于各标的20日历史波动率（σ）倍数（2σ警戒/3σ高危），为程序化提示，不构成投资建议。",
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
