@@ -39,6 +39,7 @@ warnings.filterwarnings('ignore')
 | A股/港股/美股指数日线+量能 | akshare 新浪系（stock_zh_index_daily / stock_hk_index_daily_sina / index_us_stock_sina） | 均含 volume |
 | 商品日线+量能 | ak.futures_foreign_hist | volume 列全 0，量能需跳过 |
 | VIX/VIX9D/VIX3M/VIX6M 实时+历史 | cdn.cboe.com/api/global/delayed_quotes/{quotes,charts/historical}/_VIX.json | CBOE 官方，稳定；期限结构替代不可达的 TACO |
+| 美债10Y | **美财政部官方CSV** home.treasury.gov/.../daily-treasury-rates.csv/{年}/all（MM/DD/YYYY，"10 Yr"列，倒序） | 首选；FRED(fred.stlouisfed.org) 沙箱+Actions 双环境 ReadTimeout 勿依赖；中债 bond_zh_us_rate 与新浪 bond_gb_us_sina 会连续停更（date 滞后），仅作末级降级 |
 | 恐惧贪婪 | api.alternative.me/fng/ | 稳定 |
 | A股广度 | push2.eastmoney.com ulist.np get f104/f105/f106, secids=1.000001,0.399106 | 海外偶发 Push2RateLimitError，clist 全表降级也会限流 |
 | 华尔街见闻快讯 | api-one-wscn.awtmt.com/apiv1/content/lives | JSON，title/content_text/display_time/uri |
