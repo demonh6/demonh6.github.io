@@ -1050,7 +1050,8 @@ def fetch_sentiment():
         if up + down + flat <= 0:
             raise ValueError("ulist 返回空广度")
         log("OK   A股广度(push2轻量)")
-    except Exception:  # noqa: BLE001 - 降级到 clist 全表
+    except Exception as e:  # noqa: BLE001 - 降级到 clist 全表
+        log(f"降级 A股广度(ulist不可达: {type(e).__name__})，尝试clist")
         try:
             import akshare as ak
             df = ak.stock_zh_a_spot_em()
@@ -1139,7 +1140,7 @@ def fetch_speakers(news_pool):
     return speakers
 
 
-def _news_wscn(_kwargs):
+def _news_wscn(_kwargs=None):
     """华尔街见闻快讯（api-one-wscn.awtmt.com，公开JSON）。"""
     r = requests.get("https://api-one-wscn.awtmt.com/apiv1/content/lives",
                      params={"channel": "global-channel", "limit": NEWS_SOURCE_LIMIT},
@@ -1159,7 +1160,7 @@ def _news_wscn(_kwargs):
     return out
 
 
-def _news_gnews_trump(_kwargs):
+def _news_gnews_trump(_kwargs=None):
     """谷歌新闻 RSS：大国政要/央行国际英文报道（hl=zh-CN 优先中文版面）。
 
     覆盖 X/Truth Social 类发言的二手权威报道；上游被墙时优雅失败。
