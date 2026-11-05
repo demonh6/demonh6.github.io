@@ -38,24 +38,30 @@ warnings.filterwarnings('ignore')
 |---|---|---|
 | A股/港股/美股指数日线+量能 | akshare 新浪系（stock_zh_index_daily / stock_hk_index_daily_sina / index_us_stock_sina） | 均含 volume |
 | 商品日线+量能 | ak.futures_foreign_hist | volume 列全 0，量能需跳过 |
-| VIX/VIX3M 实时+历史 | cdn.cboe.com/api/global/delayed_quotes/{quotes,charts/historical}/_VIX.json | CBOE 官方，稳定 |
+| VIX/VIX9D/VIX3M/VIX6M 实时+历史 | cdn.cboe.com/api/global/delayed_quotes/{quotes,charts/historical}/_VIX.json | CBOE 官方，稳定；期限结构替代不可达的 TACO |
 | 恐惧贪婪 | api.alternative.me/fng/ | 稳定 |
 | A股广度 | push2.eastmoney.com ulist.np get f104/f105/f106, secids=1.000001,0.399106 | 海外偶发 Push2RateLimitError，clist 全表降级也会限流 |
 | 华尔街见闻快讯 | api-one-wscn.awtmt.com/apiv1/content/lives | JSON，title/content_text/display_time/uri |
 | 谷歌新闻RSS | news.google.com/rss/search?q=…&hl=zh-CN | 沙箱墙外，Actions 可达 |
-| TACO | numerco.com | **数据中心 IP 被拒，双环境均不通，保持优雅缺省** |
+| ~~新浪财经~~ → 东财早报 | ak.stock_info_cjzc_em | stock_info_global_sina 已失效返回空；早报发布时间早会被时间排序沉底 |
+| TACO | numerco.com | **数据中心 IP 被拒，双环境均不通，已改用 CBOE 期限结构** |
 | 加密实时/历史 | OKX→Binance→CoinGecko→Bitstamp 四级 | tickers 端点返回全量，必须按目标本地过滤 |
 | 中国波指 QVIX | ak.index_option_300index_qvix | 数据全 NaN，勿用 |
 | Stooq | stooq.com/q/d/l | JS 防护页，勿用 |
+| 金十数据 | flash-api.jin10.com | 沙箱被墙，未验证 Actions，勿依赖 |
 | Yahoo chart | query1.finance.yahoo.com | 沙箱被拦；Actions 未验证，勿依赖 |
 
 **坑位清单（历次踩过）**：
 1. 自定义源函数必须给默认参数 `def _src(_kwargs=None)`——collect 用 `fn(**{})` 调用，
    必需参数会在 Actions 上炸 TypeError（akshare 函数自带默认参所以平时看不出来）。
-2. 自定义源返回 `list[dict]` 时 collect 需 isinstance 分流，勿再过 _df_to_records。
-3. 量能统计前检查 `max(vols) > 0`，全零列（商品）放弃。
+2. 多源新闻聚合必须**按源轮询**取条目（每源最新条优先）——纯时间排序会让高频源霸屏、
+   早报类（清晨发布）全部沉底被挤出。
+3. GitHub schedule 高峰期会整点跳过（曾连续 5 小时全跳）：加错峰第二 cron "33 * * * *" 翻倍机会；
+   push 事件偶发被吞，重推小改动即可恢复；workflow_dispatch 需要 workflow 权限的 token（默认 403）。
 4. OKX `tickers` 忽略 instId 参数返回全市场 → 拉全量后按目标集合本地过滤。
 5. 告警阈值用 20日σ 倍数（2σ警戒/3σ高危），别用拍脑袋的固定百分比。
+6. 沙箱与 Actions 网络环境不同：东财 push2 沙箱常限流、Actions 偶发；谷歌新闻/numerco 沙箱墙外。
+   每个源必须在目标环境（Actions 日志）确认，沙箱结论不算数。
 
 ## 第二步：脚本集成
 
