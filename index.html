@@ -548,11 +548,12 @@
           <div class="vix-spark" id="vix-spark"></div>
         </div>
       </div>
-      <div class="sent-card" id="sent-taco">
-        <div class="sc-head"><span>TACO 指数</span><span class="src">Numerco</span></div>
-        <div id="taco-body">
-          <div class="vix-big"><span class="num" id="taco-val">—</span></div>
-          <div class="tac-note">Trump Always Chickens Out——度量特朗普关税/政策威胁引发的市场冲击幅度与随后回摆力度。<span class="miss" id="taco-miss" hidden>本轮源不可达，暂缺。</span></div>
+      <div class="sent-card" id="sent-term">
+        <div class="sc-head"><span>波动率期限结构</span><span class="src">CBOE</span></div>
+        <div id="term-body">
+          <div class="vix-big"><span class="num" id="term-shape" style="font-size:15px;">加载中…</span></div>
+          <svg id="term-svg" viewBox="0 0 260 90" style="width:100%;height:90px;display:block;"></svg>
+          <div class="tac-note">VIX9D → VIX → VIX3M → VIX6M。近端高于远端（backwardation）＝短期恐慌升温；远端高于近端（contango）＝市场平静。</div>
         </div>
       </div>
     </div>
@@ -1096,13 +1097,38 @@
       $("vix-term").textContent = "CBOE 源暂不可达";
     }
 
-    // TACO（Numerco）
-    var tc = s.taco || null;
-    if (tc && tc.value != null) {
-      $("taco-val").textContent = tc.value.toFixed(2);
-      $("taco-val").style.color = "var(--gold)";
+    // 波动率期限结构（CBOE 全家桶）
+    var ts = s.term_structure || null;
+    var termSvg = $("term-svg"), shapeEl = $("term-shape");
+    if (ts && ts.points && ts.points.length >= 3) {
+      var pts = ts.points, n = pts.length;
+      var W = 260, H = 90, pad = 18;
+      var vals = pts.map(function (p) { return p.value; });
+      var mn = Math.min.apply(null, vals), mx = Math.max.apply(null, vals);
+      var span = (mx - mn) || 1;
+      var xy = pts.map(function (p, i) {
+        return [pad + i * (W - pad * 2) / (n - 1), H - 22 - (p.value - mn) / span * (H - 44)];
+      });
+      var isBack = ts.shape && ts.shape.indexOf("backwardation") === 0;
+      var lineCol = isBack ? "#f58a3d" : "#43d69c";
+      var svg = '<polyline points="' + xy.map(function (q) { return q[0].toFixed(1) + "," + q[1].toFixed(1); }).join(" ") +
+        '" fill="none" stroke="' + lineCol + '" stroke-width="2" style="filter:drop-shadow(0 0 4px ' + lineCol + '55)"/>';
+      pts.forEach(function (p, i) {
+        var c = i === 0 ? "#f04a3d" : (i === n - 1 ? "#43d69c" : lineCol);
+        svg += '<circle cx="' + xy[i][0].toFixed(1) + '" cy="' + xy[i][1].toFixed(1) + '" r="3.2" fill="' + c + '"/>' +
+          '<text x="' + xy[i][0].toFixed(1) + '" y="' + (xy[i][1] - 8).toFixed(1) + '" font-size="10" font-weight="700" fill="' + c + '" text-anchor="middle">' + p.value.toFixed(1) + '</text>' +
+          '<text x="' + xy[i][0].toFixed(1) + '" y="' + (H - 6) + '" font-size="9" fill="#8b98a9" text-anchor="middle">' + p.t.replace("VIX", "") + '</text>';
+      });
+      termSvg.innerHTML = svg;
+      shapeEl.textContent = ts.shape || "";
+      shapeEl.style.color = isBack ? "#f58a3d" : "#43d69c";
+      if (ts.ratio_9d_3m) {
+        shapeEl.textContent += " · 9D/3M " + ts.ratio_9d_3m;
+      }
     } else {
-      $("taco-miss").hidden = false;
+      termSvg.innerHTML = '<text x="130" y="45" font-size="11" fill="#59647a" text-anchor="middle">CBOE 源暂不可达</text>';
+      shapeEl.textContent = "暂缺";
+      shapeEl.style.color = "var(--text-faint)";
     }
   }
 

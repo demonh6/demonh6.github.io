@@ -995,25 +995,8 @@ def _cboe_hist(ticker, n=30):
     return closes[-n:]
 
 
-def fetch_taco():
-    """TACO 指数（Numerco，Trump Always Chickens Out）：关税威胁冲击→回摆度量。
-
-    Numerco 页面为 JS 渲染，尝试从内嵌 JSON/文本抓取；不可达则由调用方优雅降级。
-    """
-    url = "https://www.numerco.com/taco-index/"
-    r = requests.get(url, headers=_UA_HEADERS, timeout=HTTP_TIMEOUT)
-    r.raise_for_status()
-    # 页面里通常有 "value": xx.xx 或 TACO Index 数值文本
-    m = re.search(r'"value"\s*:\s*([0-9]+\.?[0-9]*)', r.text)
-    if not m:
-        m = re.search(r'TACO[^0-9]{0,80}([0-9]{2}\.[0-9]+)', r.text)
-    if not m:
-        raise ValueError("页面中未找到 TACO 数值")
-    return {"value": to_float(m.group(1)), "source": "Numerco"}
-
-
 def fetch_sentiment():
-    """情绪与风险仪表：恐惧贪婪 + A股广度 + VIX(含期限结构) + TACO。"""
+    """情绪与风险仪表：恐惧贪婪 + A股广度 + VIX + 波动率期限结构。"""
     sentiment = {}
 
     # 1. 恐惧贪婪指数（alternative.me 第三方）
@@ -1096,12 +1079,34 @@ def fetch_sentiment():
     except Exception as e:  # noqa: BLE001
         log(f"FAIL VIX: {type(e).__name__}")
 
-    # 4. TACO 指数（Numerco；不可达则优雅缺省）
+    # 4. 波动率期限结构（CBOE 全家桶，替代不可达的 TACO）
+    #    VIX9D > VIX > VIX3M → backwardation（恐慌升温）；VIX9D << VIX3M → contango（平静）
     try:
-        sentiment["taco"] = fetch_taco()
-        log(f"OK   TACO {sentiment['taco']['value']}")
+        term = []
+        for t in ("VIX9D", "VIX", "VIX3M", "VIX6M"):
+            try:
+                q = _cboe_quote(t)
+                if q["value"]:
+                    term.append({"t": t, "value": q["value"],
+                                 "change_pct": q["change_pct"]})
+            except Exception:  # noqa: BLE001
+                pass
+        if len(term) >= 3:
+            v9 = next((x["value"] for x in term if x["t"] == "VIX9D"), None)
+            v3 = next((x["value"] for x in term if x["t"] == "VIX3M"), None)
+            if v9 and v3:
+                ratio = round(v9 / v3, 3)
+                shape = ("backwardation(短期恐慌升温)" if v9 > v3 * 1.02
+                         else "contango(平静期)" if v9 < v3 * 0.92 else "平坦")
+            else:
+                ratio, shape = None, ""
+            sentiment["term_structure"] = {
+                "points": term, "ratio_9d_3m": ratio, "shape": shape,
+                "source": "CBOE",
+            }
+            log(f"OK   波动率期限结构 {shape or '数据不全'}")
     except Exception as e:  # noqa: BLE001
-        log(f"FAIL TACO: {type(e).__name__}")
+        log(f"FAIL 波动率期限结构: {type(e).__name__}")
 
     # 5. 综合情绪（恐惧贪婪 + A股广度分）
     scores = []
@@ -1138,6 +1143,16 @@ def fetch_speakers(news_pool):
             })
     speakers.sort(key=lambda x: x.get("time", ""), reverse=True)
     return speakers
+
+
+def _ths_with_retry(_kwargs=None):
+    """同花顺全球财经，带一次重试（该源偶发 ReadTimeout）。"""
+    import akshare as ak
+    try:
+        return ak.stock_info_global_ths()
+    except Exception:  # noqa: BLE001
+        time.sleep(3)
+        return ak.stock_info_global_ths()
 
 
 def _news_wscn(_kwargs=None):
@@ -1221,9 +1236,9 @@ def fetch_news():
             log(f"FAIL 要闻-{tag}: {type(e).__name__}")
 
     collect(ak.stock_info_global_em, {}, "东财国际")
-    collect(ak.stock_info_global_sina, {}, "新浪财经")
+    collect(ak.stock_info_cjzc_em, {}, "东财早报")   # 替换失效的新浪全球财经
     collect(ak.stock_info_global_futu, {}, "富途")
-    collect(ak.stock_info_global_ths, {}, "同花顺")
+    collect(_ths_with_retry, {}, "同花顺")
     collect(ak.stock_news_main_cx, {}, "财新",
             lambda rs: _norm_news(rs, title_key="summary", link_key="url"))
     collect(ak.news_economic_baidu, {}, "百度财经",
@@ -1394,7 +1409,7 @@ def main():
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 7,
+        "schema_version": 8,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
@@ -1409,7 +1424,7 @@ def main():
         "news_meta": news_meta,
         "wuxing": wuxing,
         "errors": {k: v for k, v in errors.items() if v},
-        "disclaimer": "行情与新闻数据来自公开来源（新浪/东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/alternative.me），仅供研究参考，不构成投资建议。风险仪表：VIX及期限结构(CBOE官方)、恐惧贪婪指数(alternative.me)、A股广度(东财)；TACO指数(Numerco)不可达时缺省。量能分位为近250个交易日统计；关键人物发言由大国政要/央行/科技巨头关键词从新闻池匹配；告警基于20日历史波动率σ倍数，传导路径为机制示意。",
+        "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/alternative.me），仅供研究参考，不构成投资建议。风险仪表：VIX及期限结构VIX9D/1M/3M/6M(CBOE官方)、恐惧贪婪指数(alternative.me)、A股广度(东财)。量能分位为近250个交易日统计；关键人物发言由大国政要/央行/科技巨头关键词从新闻池匹配；告警基于20日历史波动率σ倍数，传导路径为机制示意。",
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)

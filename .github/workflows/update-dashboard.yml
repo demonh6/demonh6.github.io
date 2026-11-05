@@ -12,7 +12,8 @@ name: Update Dashboard Data
 
 on:
   schedule:
-    - cron: "0 * * * *"     # 每小时整点（北京时间每小时整点自动拉取）；每日更新改为 "30 23 * * *"
+    - cron: "0 * * * *"      # 每小时整点（北京时间每小时整点自动拉取）；每日更新改为 "30 23 * * *"
+    - cron: "33 * * * *"     # 错峰补跑：GitHub 调度在高峰期常跳过整点任务，33分再给一次机会（数据提交带 [skip ci] 不会递归）
   workflow_dispatch:          # 支持手动触发
     inputs:
       interval:
