@@ -1,6 +1,6 @@
 ---
 name: finance-dashboard-ops
-description: demonh6.github.io 财经监控台的迭代运维技能——新增行情/情绪/新闻数据源、扩展前端仪表、推送上线并完成线上验证的完整流水线。触发词：给仪表盘加数据源/加指标/改面板、update_data.py、dashboard.json、风险仪表、量化监控台。
+description: 财经监控台迭代运维流水线。Invoke when 用户要给 demonh6.github.io 仪表盘新增/替换数据源、加行情/情绪/风险指标、改前端面板，或提到 update_data.py、dashboard.json、量化监控台、VIX/量能/告警——按"探测数据源→脚本集成→前端渲染→Actions上线→线上验证"五步执行。
 ---
 
 # 财经监控台迭代运维
