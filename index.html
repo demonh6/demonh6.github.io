@@ -135,13 +135,14 @@
   .asset:focus-visible { border-color: var(--accent); }
   .asset .row {
     display: grid;
-    grid-template-columns: minmax(0, 1.1fr) auto auto auto 16px;
+    grid-template-columns: minmax(0, 1.1fr) auto auto auto auto 16px;
     align-items: center;
     gap: 10px;
     padding: 9px 12px;
     cursor: pointer;
     user-select: none;
   }
+  .asset .row .vol-chip:empty { display: none; }
   .asset .nm { min-width: 0; display: flex; flex-direction: column; line-height: 1.35; }
   .asset .nm .t { font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .asset .nm .cd {
@@ -291,7 +292,7 @@
   .chip.watch { background: rgba(217, 178, 60, 0.10); color: #e6c968; border: 1px solid rgba(217, 178, 60, 0.25); }
 
   /* ---------- 情绪仪表 ---------- */
-  .sent-row { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 14px; margin-bottom: 28px; }
+  .sent-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; margin-bottom: 28px; }
   .sent-card {
     background: var(--card); border: 1px solid var(--card-border);
     border-radius: var(--radius); padding: 16px 18px;
@@ -348,6 +349,26 @@
     font-size: 10px; padding: 1px 8px; border-radius: 999px;
     border: 1px solid var(--card-border);
   }
+  .vix-big { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+  .vix-big .num { font-size: 34px; font-weight: 800; line-height: 1; }
+  .vix-big .lbl { font-size: 12px; padding: 2px 9px; border-radius: 999px; border: 1px solid currentColor; }
+  .vix-term { font-size: 11px; color: var(--text-dim); margin-bottom: 8px; }
+  .vix-term b { color: var(--text); }
+  .vix-spark { margin-top: 6px; }
+  .vix-spark svg { width: 100%; height: 34px; display: block; }
+  .tac-note { font-size: 11px; color: var(--text-dim); line-height: 1.55; }
+  .tac-note .miss { color: var(--text-faint); display: block; margin-top: 6px; }
+  /* 量能 */
+  .vol-chip {
+    font-size: 10px; padding: 1px 6px; border-radius: 999px; white-space: nowrap;
+    border: 1px solid var(--card-border); color: var(--text-dim);
+    align-self: center;
+  }
+  .vol-chip b { font-weight: 700; }
+  .vol-chip.hot { border-color: rgba(240, 74, 61, 0.4); color: var(--up-soft); }
+  .vol-chip.cold { border-color: rgba(38, 165, 107, 0.4); color: var(--down-soft); }
+  .vol-line { font-size: 11.5px; color: var(--text-dim); margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px 12px; }
+  .vol-line b { color: var(--text); font-weight: 700; }
 
   /* ---------- 关键人物 ---------- */
   .speakers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
@@ -450,7 +471,7 @@
     .asset .nm .t { white-space: normal; font-size: 14px; }
     .asset .px { grid-area: px; text-align: left; min-width: 0; }
     .asset .badge { grid-area: badge; align-self: center; min-width: 72px; }
-    .asset .spark, .asset .chev { display: none; }
+    .asset .spark, .asset .chev, .asset .vol-chip { display: none; }
   }
   @media (prefers-reduced-motion: reduce) {
     body::after, .alert.danger .ico, #alerts-box .alert, section { animation: none; }
@@ -472,17 +493,17 @@
   <!-- ============ 波动告警 ============ -->
   <div id="alerts-box"></div>
 
-  <!-- ============ 情绪仪表（恐惧贪婪 + A股广度 + 综合） ============ -->
+  <!-- ============ 风险与情绪仪表 ============ -->
   <section id="sentiment">
     <div class="sec-head">
-      <h2>市场情绪仪表</h2>
-      <span class="tag">恐惧贪婪指数 · A股涨跌家数 · 综合情绪分</span>
+      <h2>风险与情绪仪表</h2>
+      <span class="tag">VIX · 恐惧贪婪 · A股广度 · TACO · 综合情绪分</span>
     </div>
     <div class="sent-row" id="sent-body">
       <div class="sent-card" id="sent-composite">
         <div class="sc-head"><span>综合情绪</span><span class="src">恐惧贪婪 × A股广度</span></div>
         <div class="composite-big" id="comp-big" style="text-align:center;padding-top:14px;">
-          <div class="num num" id="comp-num">—</div>
+          <div class="num" id="comp-num">—</div>
           <div class="lbl" id="comp-lbl">加载中…</div>
         </div>
       </div>
@@ -510,13 +531,28 @@
         </div>
       </div>
       <div class="sent-card" id="sent-breadth">
-        <div class="sc-head"><span>A股广度（涨跌家数）</span><span class="src">东财实时</span></div>
+        <div class="sc-head"><span>A股广度（涨跌家数）</span><span class="src">东财</span></div>
         <div class="bread-col" id="bread-body">
           <div class="bread-row"><span class="lbl">上涨</span><span class="num" id="bread-up">—</span></div>
           <div class="bread-bar"><span class="up-seg" id="bread-up-seg"></span><span class="down-seg" id="bread-down-seg"></span><span class="flat-seg" id="bread-flat-seg"></span></div>
           <div class="bread-row"><span class="lbl">下跌</span><span class="num" id="bread-down">—</span></div>
           <div class="bread-row"><span class="lbl">平盘</span><span class="num" id="bread-flat">—</span></div>
           <div class="bread-score">情绪分<span class="s num" id="bread-score">—</span><span class="tag" id="bread-tag">—</span></div>
+        </div>
+      </div>
+      <div class="sent-card" id="sent-vix">
+        <div class="sc-head"><span>VIX 恐慌指数</span><span class="src">CBOE 官方</span></div>
+        <div id="vix-body">
+          <div class="vix-big"><span class="num" id="vix-val">—</span><span class="lbl" id="vix-lbl">—</span></div>
+          <div class="vix-term" id="vix-term">加载中…</div>
+          <div class="vix-spark" id="vix-spark"></div>
+        </div>
+      </div>
+      <div class="sent-card" id="sent-taco">
+        <div class="sc-head"><span>TACO 指数</span><span class="src">Numerco</span></div>
+        <div id="taco-body">
+          <div class="vix-big"><span class="num" id="taco-val">—</span></div>
+          <div class="tac-note">Trump Always Chickens Out——度量特朗普关税/政策威胁引发的市场冲击幅度与随后回摆力度。<span class="miss" id="taco-miss" hidden>本轮源不可达，暂缺。</span></div>
         </div>
       </div>
     </div>
@@ -540,7 +576,7 @@
   <section id="speakers">
     <div class="sec-head">
       <h2>关键人物 / 机构发言</h2>
-      <span class="tag">按关键词从新闻池中匹配</span>
+      <span class="tag">大国政要 · 央行 · 科技巨头（含 X/Truth Social 报道）</span>
     </div>
     <div class="card">
       <div class="speakers-grid" id="speakers-body"></div>
@@ -645,19 +681,34 @@
     });
   }
 
-  function sparkSVG(hist) {
+  function sparkSVG(hist, w, h, color) {
+    w = w || 56; h = h || 18;
     if (!hist || hist.length < 2) return '<span class="spark empty"></span>';
-    var p = chartPts(hist, 56, 18, 1.5);
+    var p = chartPts(hist, w, h, 1.5);
     var d = p.map(function (q, i) { return (i ? "L" : "M") + q[0].toFixed(1) + "," + q[1].toFixed(1); }).join("");
-    var upCls = hist[hist.length - 1] >= hist[0] ? "ln-up" : "ln-down";
-    return '<svg class="spark" viewBox="0 0 56 18" width="56" height="18" aria-hidden="true">' +
-      '<path d="' + d + '" fill="none" stroke-width="1.4" class="' + upCls + '"/></svg>';
+    var upCls = color ? "" : (hist[hist.length - 1] >= hist[0] ? "ln-up" : "ln-down");
+    var stroke = color || "";
+    return '<svg class="spark" viewBox="0 0 ' + w + ' ' + h + '" width="' + w + '" height="' + h + '" aria-hidden="true">' +
+      '<path d="' + d + '" fill="none" stroke-width="1.4" class="' + upCls + '"' +
+      (stroke ? ' stroke="' + stroke + '"' : '') + '/></svg>';
   }
 
-  function bigChartSVG(hist, unit) {
+  function fmtVol(v) {
+    if (v === null || v === undefined || isNaN(v)) return "—";
+    if (v >= 1e8) return (v / 1e8).toFixed(2) + "亿";
+    if (v >= 1e4) return (v / 1e4).toFixed(1) + "万";
+    return String(Math.round(v));
+  }
+
+  function bigChartSVG(it) {
+    var hist = it.hist, unit = it.unit;
     if (!hist || hist.length < 2) return '<div class="no-hist">暂无走势数据</div>';
     gid += 1;
     var W = 560, H = 170, pad = 8;
+    // 量能柱区（与 hist 等长的 vol_hist 才绘制）
+    var vh = (it.vol_hist && it.vol_hist.length === hist.length) ? it.vol_hist : null;
+    var volZone = vh ? 34 : 0;
+    var H2 = H + volZone;
     var min = Math.min.apply(null, hist), max = Math.max.apply(null, hist);
     var p = chartPts(hist, W, H, pad);
     var line = p.map(function (q, i) { return (i ? "L" : "M") + q[0].toFixed(1) + "," + q[1].toFixed(1); }).join("");
@@ -669,7 +720,7 @@
     var y0 = p[0][1].toFixed(1);
     var last = p[p.length - 1];
     var fmt = function (v) { return v.toLocaleString("zh-CN", { maximumFractionDigits: 2 }) + (unit || ""); };
-    return '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="30日走势图">' +
+    var svg = '<svg viewBox="0 0 ' + W + ' ' + H2 + '" role="img" aria-label="30日走势图">' +
       '<defs><linearGradient id="' + id + '" x1="0" y1="0" x2="0" y2="1">' +
       '<stop offset="0%" stop-color="' + col + '" stop-opacity="0.28"/>' +
       '<stop offset="100%" stop-color="' + col + '" stop-opacity="0.02"/></linearGradient></defs>' +
@@ -679,8 +730,26 @@
       '<circle cx="' + last[0].toFixed(1) + '" cy="' + last[1].toFixed(1) + '" r="3" fill="' + col + '"/>' +
       '<text x="' + (pad + 2) + '" y="' + (pad + 9) + '" font-size="10" fill="#8b98a9">高 ' + fmt(max) + '</text>' +
       '<text x="' + (pad + 2) + '" y="' + (H - 2) + '" font-size="10" fill="#8b98a9">低 ' + fmt(min) + '</text>' +
-      '<text x="' + (W - pad - 2) + '" y="' + Math.max(12, last[1] - 7).toFixed(1) + '" font-size="10.5" font-weight="700" fill="' + col + '" text-anchor="end">' + fmt(hist[hist.length - 1]) + '</text>' +
-      '</svg>';
+      '<text x="' + (W - pad - 2) + '" y="' + Math.max(12, last[1] - 7).toFixed(1) + '" font-size="10.5" font-weight="700" fill="' + col + '" text-anchor="end">' + fmt(hist[hist.length - 1]) + '</text>';
+    if (vh) {
+      var maxV = Math.max.apply(null, vh);
+      var n = vh.length, step = (W - pad * 2) / n, bw = Math.max(1.5, step * 0.62);
+      var bars = "";
+      for (var i = 0; i < n; i++) {
+        var v = vh[i] || 0;
+        if (maxV <= 0) break;
+        var bh = (v / maxV) * (volZone - 8);
+        if (bh < 0.5) bh = 0.5;
+        var bx = (pad + i * step + (step - bw) / 2).toFixed(1);
+        var by = (H2 - 2 - bh).toFixed(1);
+        var bcol = (i > 0 ? hist[i] >= hist[i - 1] : true) ? "rgba(240,74,61,0.55)" : "rgba(38,165,107,0.55)";
+        bars += '<rect x="' + bx + '" y="' + by + '" width="' + bw.toFixed(1) + '" height="' + bh.toFixed(1) + '" fill="' + bcol + '" rx="0.5"/>';
+      }
+      svg += '<line x1="' + pad + '" y1="' + (H + 5) + '" x2="' + (W - pad) + '" y2="' + (H + 5) + '" stroke="rgba(255,255,255,0.07)"/>' +
+        '<text x="' + (pad + 2) + '" y="' + (H2 - 4) + '" font-size="9" fill="#59647a">量</text>' + bars;
+    }
+    svg += '</svg>';
+    return svg;
   }
 
   /* ---------- 标的行（点击展开走势图） ---------- */
@@ -717,6 +786,26 @@
     if (it.quote_time) meta.push('<span><span class="k">时间</span>' + it.quote_time + '</span>');
     if (it.source) meta.push('<span><span class="k">源</span>' + it.source + '</span>');
     if (it.date) meta.push('<span><span class="k">日期</span>' + it.date + '</span>');
+    if (it.volume !== null && it.volume !== undefined) {
+      var vparts = ['<span><span class="k">今日量</span>' + fmtVol(it.volume) + '</span>'];
+      if (it.vol_chg_pct !== null && it.vol_chg_pct !== undefined) {
+        var vc = cls(it.vol_chg_pct);
+        vparts.push('<span><span class="k">较5日均量</span><b class="' + vc + '">' +
+          (it.vol_chg_pct >= 0 ? "+" : "") + it.vol_chg_pct.toFixed(1) + '%</b></span>');
+      }
+      if (it.vol_pctile !== null && it.vol_pctile !== undefined) {
+        vparts.push('<span><span class="k">近1年分位</span>' + it.vol_pctile.toFixed(1) + '%</span>');
+      }
+      meta.push('<span class="vol-line">' + vparts.join("") + '</span>');
+    }
+
+    // 行内量能变动 chip（仅桌面端显示，移动端隐藏）
+    var volChip = "";
+    if (it.vol_chg_pct !== null && it.vol_chg_pct !== undefined) {
+      var vcls = it.vol_chg_pct >= 15 ? "hot" : (it.vol_chg_pct <= -15 ? "cold" : "");
+      volChip = '<span class="vol-chip ' + vcls + '">量<b>' +
+        (it.vol_chg_pct >= 0 ? "+" : "") + it.vol_chg_pct.toFixed(0) + '%</b></span>';
+    }
 
     return '<div class="asset' + (hasHist ? '' : ' nohist') + '" tabindex="0" role="button" aria-expanded="false">' +
       '<div class="row">' +
@@ -725,11 +814,12 @@
         sparkSVG(it.hist) +
         '<span class="px num">' + px + chgHtml + '</span>' +
         '<span class="badge num ' + c + '">' + badge + '</span>' +
+        volChip +
         '<span class="chev">' + (hasHist ? "▾" : "") + '</span>' +
       '</div>' +
       (hasHist
         ? '<div class="detail"><div class="detail-inner"><div class="detail-body">' +
-          '<div class="chart-box">' + bigChartSVG(it.hist, it.unit) + '</div>' +
+          '<div class="chart-box">' + bigChartSVG(it) + '</div>' +
           (meta.length ? '<div class="chart-meta">' + meta.join("") + '</div>' : '') +
           '</div></div></div>'
         : "") +
@@ -982,7 +1072,37 @@
       $("bread-down-seg").style.flexBasis = "33%";
       $("bread-flat-seg").style.flexBasis = "33%";
       $("bread-score").textContent = "—";
-      $("bread-tag").textContent = "东财Push2限流";
+      $("bread-tag").textContent = "源限流";
+    }
+
+    // VIX（CBOE）
+    var vx = s.vix || null;
+    if (vx && vx.value != null) {
+      var vEl = $("vix-val");
+      vEl.textContent = vx.value.toFixed(2);
+      vEl.style.color = vx.color;
+      var lEl = $("vix-lbl");
+      lEl.textContent = vx.label;
+      lEl.style.color = vx.color;
+      var termEl = $("vix-term");
+      var dir = vx.change >= 0 ? "+" : "";
+      termEl.innerHTML = "日变动 <b>" + dir + (vx.change || 0).toFixed(2) + "</b>" +
+        (vx.vix3m != null ? " · VIX3M <b>" + vx.vix3m.toFixed(2) + "</b> · " + (vx.term || "") : "");
+      if (vx.spark && vx.spark.length > 3) {
+        $("vix-spark").innerHTML = sparkSVG(vx.spark, vx.color, 100, 34);
+      }
+    } else {
+      $("vix-val").textContent = "—";
+      $("vix-term").textContent = "CBOE 源暂不可达";
+    }
+
+    // TACO（Numerco）
+    var tc = s.taco || null;
+    if (tc && tc.value != null) {
+      $("taco-val").textContent = tc.value.toFixed(2);
+      $("taco-val").style.color = "var(--gold)";
+    } else {
+      $("taco-miss").hidden = false;
     }
   }
 

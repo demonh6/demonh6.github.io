@@ -125,13 +125,61 @@ def _sigma20(closes, window=VOL_WINDOW):
     return round(var ** 0.5, 3)
 
 
-def _attach(item, closes):
-    """给标的补充 hist（最近30日收盘序列）与 sigma（20日波动率%）字段。"""
+def _attach(item, closes, vols=None):
+    """给标的补充 hist（最近30日收盘序列）与 sigma（20日波动率%）字段。
+
+    vols 传入日线成交量序列（可选），暂存于 item["_vols"]，
+    由 _finalize_volumes 统一计算量能统计并在落盘前剥离。
+    """
     if closes:
         item["hist"] = [round(c, 4) for c in closes[-HIST_DAYS:]]
         s = _sigma20(closes)
         if s:
             item["sigma"] = s
+    if vols:
+        item["_vols"] = [v for v in vols[-260:] if v is not None]
+
+
+def _vols_of(df, n=260):
+    """从日线 DataFrame 取最近 n 个有效成交量（>=0），时间正序。"""
+    if df is None or not len(df) or "volume" not in df.columns:
+        return None
+    vals = []
+    for i in range(len(df) - 1, -1, -1):
+        v = to_float(df.iloc[i].get("volume"))
+        if v is None or v < 0:
+            continue
+        vals.append(v)
+        if len(vals) >= n:
+            break
+    vals.reverse()
+    return vals or None
+
+
+def _finalize_volumes(items):
+    """把 item["_vols"] 换算成量能统计：今日量 / 较5日均量 / 近1年分位 / 30日序列。"""
+    import bisect
+
+    for it in items:
+        vols = (it or {}).pop("_vols", None)
+        if not vols or len(vols) < 10:
+            continue
+        # 数据源整列无效（如商品期货接口 volume 全 0）时放弃量能统计
+        if max(vols) <= 0:
+            continue
+        vol_today = vols[-1]
+        prev5 = vols[-6:-1]
+        base5 = sum(prev5) / len(prev5) if prev5 else None
+        stats = {"volume": round(vol_today, 2)}
+        if base5 and base5 > 0:
+            stats["vol_chg_pct"] = round((vol_today / base5 - 1) * 100, 1)
+        window = vols[-250:]
+        if len(window) >= 30:
+            sorted_w = sorted(window)
+            rank = bisect.bisect_right(sorted_w, vol_today)
+            stats["vol_pctile"] = round(rank / len(sorted_w) * 100, 1)
+        stats["vol_hist"] = [round(v, 2) for v in vols[-30:]]
+        it.update(stats)
 
 
 # --------------------------------------------------------------------------
@@ -619,13 +667,13 @@ def attach_histories(markets, key_assets):
     for it in markets.get("a_share") or []:
         df = job(f"A股 {it['name']}", lambda c=it["code"]: ak.stock_zh_index_daily(symbol=c))
         if df is not None:
-            _attach(it, _closes(df))
+            _attach(it, _closes(df), _vols_of(df))
         time.sleep(0.3)
 
     for it in markets.get("hk") or []:
         df = job(f"港股 {it['name']}", lambda c=it["code"]: ak.stock_hk_index_daily_sina(symbol=c))
         if df is not None:
-            _attach(it, _closes(df))
+            _attach(it, _closes(df), _vols_of(df))
         time.sleep(0.3)
 
     for it in markets.get("us") or []:
@@ -633,7 +681,7 @@ def attach_histories(markets, key_assets):
         if sym:
             df = job(f"美股 {it['name']}", lambda s=sym: ak.index_us_stock_sina(symbol=s))
             if df is not None:
-                _attach(it, _closes(df))
+                _attach(it, _closes(df), _vols_of(df))
             time.sleep(0.3)
 
     for it in markets.get("global") or []:
@@ -641,7 +689,7 @@ def attach_histories(markets, key_assets):
         if sname:
             df = job(f"全球 {it['name']}", lambda s=sname: ak.index_global_hist_sina(symbol=s))
             if df is not None:
-                _attach(it, _closes(df))
+                _attach(it, _closes(df), _vols_of(df))
             time.sleep(0.3)
 
     for it in key_assets.get("commodities") or []:
@@ -649,7 +697,7 @@ def attach_histories(markets, key_assets):
         if fsym:
             df = job(f"商品 {it['name']}", lambda s=fsym: ak.futures_foreign_hist(symbol=s))
             if df is not None:
-                _attach(it, _closes(df))
+                _attach(it, _closes(df), _vols_of(df))
             time.sleep(0.3)
 
     for it in key_assets.get("crypto") or []:
@@ -863,24 +911,28 @@ def _dedup_news(items):
 
 
 KEY_FIGURES = [
-    # 国际政治/监管
-    ("特朗普", "特朗普", "特朗普的言论对全球风险资产影响显著"),
-    ("拜登", "拜登", "美国政府的政策与外交表态"),
-    ("美联储", "美联储", "FOMC政策决定与官员讲话是全球利率锚"),
+    # 美国政要与央行
+    ("特朗普", "特朗普", "白宫言论（含Truth Social）对全球风险资产冲击最大"),
+    ("白宫", "白宫", "美国官方政策表态的权威渠道"),
+    ("贝森特", "贝森特", "美国财长，关税与财政政策的关键传声筒"),
+    ("美联储", "美联储", "FOMC决定与官员讲话是全球利率锚"),
     ("鲍威尔", "鲍威尔", "美联储主席，其讲话直接影响美债与美元"),
     ("欧洲央行", "欧洲央行", "欧央行政策影响欧元区与全球流动性"),
-    ("欧盟", "欧盟", "欧盟层面的政策与制裁影响市场"),
-    # 中国监管
+    ("拉加德", "拉加德", "欧央行行长"),
+    ("日本央行", "日本央行", "日元利率走向影响全球套息交易"),
+    # 中国政要、监管与部委
+    ("中国央行", "中国央行", "货币政策工具（降准/MLF/LPR）决定A股流动性"),
+    ("人民银行", "人民银行", "货币政策工具（降准/MLF/LPR）决定A股流动性"),
     ("证监会", "证监会", "A股核心监管机构的政策直接影响市场情绪"),
-    ("央行", "央行", "中国人民银行的货币政策决定影响流动性"),
     ("国务院", "国务院", "国务院级经济政策影响宏观环境"),
-    ("财政部", "财政部", "财政政策与税收改革影响板块"),
     ("发改委", "发改委", "产业政策与价格调控影响行业"),
-    # 科技/企业家
-    ("马斯克", "马斯克", "特斯拉、SpaceX、X等科技动向影响纳指与加密"),
-    # 财经名人
-    ("李大霄", "李大霄", "国内知名股评人，言论常引发A股讨论"),
+    ("商务部", "商务部", "中美贸易与出口管制的对口部门"),
+    ("外交部", "外交部", "地缘政治表态影响风险偏好"),
+    # 科技巨头与市场人物
+    ("马斯克", "马斯克", "特斯拉/SpaceX/X发言影响纳指与加密情绪"),
+    ("黄仁勋", "黄仁勋", "英伟达动向是全球AI行情的风向标"),
 ]
+# 大国聚焦：发言人/机构命中后仅保留上述名单（自动过滤挪威央行等小经济体噪音）
 
 NEWS_SOURCE_LIMIT = 30  # 每个新闻源的截取条数
 
@@ -901,9 +953,70 @@ def _fg_bucket(val):
     return "极度贪婪", "#26a56b"
 
 
+# VIX 分档（CBOE 口径经验区间）
+VIX_BUCKETS = [
+    (15, "低位", "#26a56b"),
+    (20, "正常", "#8ac96f"),
+    (25, "升高", "#d9b23c"),
+    (30, "高波动", "#f58a3d"),
+    (10**9, "恐慌", "#f04a3d"),
+]
+_UA_HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                            "(KHTML, like Gecko) Chrome/120.0 Safari/537.36"}
+
+
+def _vix_bucket(val):
+    for upper, label, color in VIX_BUCKETS:
+        if val < upper:
+            return label, color
+    return "恐慌", "#f04a3d"
+
+
+def _cboe_quote(ticker):
+    """CBOE 官方实时报价：_VIX / _VIX3M。"""
+    url = f"https://cdn.cboe.com/api/global/delayed_quotes/quotes/_{ticker}.json"
+    r = requests.get(url, headers=_UA_HEADERS, timeout=HTTP_TIMEOUT)
+    r.raise_for_status()
+    d = r.json()["data"]
+    return {
+        "value": to_float(d.get("current_price")),
+        "change": to_float(d.get("price_change")),
+        "change_pct": to_float(d.get("price_change_percent")),
+    }
+
+
+def _cboe_hist(ticker, n=30):
+    """CBOE 官方历史日线（1990年至今），取最近 n 个收盘价。"""
+    url = f"https://cdn.cboe.com/api/global/delayed_quotes/charts/historical/_{ticker}.json"
+    r = requests.get(url, headers=_UA_HEADERS, timeout=HTTP_TIMEOUT)
+    r.raise_for_status()
+    rows = r.json()["data"]
+    closes = [to_float(x.get("close")) for x in rows if x.get("close") is not None]
+    return closes[-n:]
+
+
+def fetch_taco():
+    """TACO 指数（Numerco，Trump Always Chickens Out）：关税威胁冲击→回摆度量。
+
+    Numerco 页面为 JS 渲染，尝试从内嵌 JSON/文本抓取；不可达则由调用方优雅降级。
+    """
+    url = "https://www.numerco.com/taco-index/"
+    r = requests.get(url, headers=_UA_HEADERS, timeout=HTTP_TIMEOUT)
+    r.raise_for_status()
+    # 页面里通常有 "value": xx.xx 或 TACO Index 数值文本
+    m = re.search(r'"value"\s*:\s*([0-9]+\.?[0-9]*)', r.text)
+    if not m:
+        m = re.search(r'TACO[^0-9]{0,80}([0-9]{2}\.[0-9]+)', r.text)
+    if not m:
+        raise ValueError("页面中未找到 TACO 数值")
+    return {"value": to_float(m.group(1)), "source": "Numerco"}
+
+
 def fetch_sentiment():
-    """情绪仪表：alternative.me 恐惧贪婪指数 + 东方财富 A股广度（涨跌家数）。"""
+    """情绪与风险仪表：恐惧贪婪 + A股广度 + VIX(含期限结构) + TACO。"""
     sentiment = {}
+
+    # 1. 恐惧贪婪指数（alternative.me 第三方）
     try:
         r = requests.get("https://api.alternative.me/fng/",
                          params={"limit": 1, "format": "json"},
@@ -922,24 +1035,74 @@ def fetch_sentiment():
     except Exception as e:  # noqa: BLE001
         log(f"FAIL 恐惧贪婪指数: {type(e).__name__}")
 
+    # 2. A股广度：push2 轻量接口（沪+深 涨跌家数），clist 全表降级
     try:
-        import akshare as ak
-        df = ak.stock_zh_a_spot_em()
-        up = int((df["涨跌幅"] > 0).sum())
-        down = int((df["涨跌幅"] < 0).sum())
-        flat = int((df["涨跌幅"] == 0).sum())
-        total = up + down + flat
-        breadth = round(up / total * 100, 1) if total else None
-        breadth_score = round(min(100, 50 + (breadth - 50) * 2), 1) if breadth else None
+        r = requests.get("https://push2.eastmoney.com/api/qt/ulist.np/get",
+                         params={"fltt": "2", "fields": "f12,f14,f104,f105,f106",
+                                 "secids": "1.000001,0.399106"},
+                         headers={**_UA_HEADERS, "Referer": "https://quote.eastmoney.com"},
+                         timeout=HTTP_TIMEOUT)
+        r.raise_for_status()
+        diff = (r.json().get("data") or {}).get("diff") or []
+        up = sum(int(x.get("f104") or 0) for x in diff)
+        down = sum(int(x.get("f105") or 0) for x in diff)
+        flat = sum(int(x.get("f106") or 0) for x in diff)
+        if up + down + flat <= 0:
+            raise ValueError("ulist 返回空广度")
+        log("OK   A股广度(push2轻量)")
+    except Exception:  # noqa: BLE001 - 降级到 clist 全表
+        try:
+            import akshare as ak
+            df = ak.stock_zh_a_spot_em()
+            up = int((df["涨跌幅"] > 0).sum())
+            down = int((df["涨跌幅"] < 0).sum())
+            flat = int((df["涨跌幅"] == 0).sum())
+            log("OK   A股广度(clist降级)")
+        except Exception as e:  # noqa: BLE001
+            up = down = flat = 0
+            log(f"FAIL A股广度: {type(e).__name__}")
+    total = up + down + flat
+    if total:
+        breadth = round(up / total * 100, 1)
+        breadth_score = round(min(100, 50 + (breadth - 50) * 2), 1)
         sentiment["a_share_breadth"] = {
             "up": up, "down": down, "flat": flat, "total": total,
             "breadth_pct": breadth, "score": breadth_score,
-            "source": "东财A股实时",
+            "source": "东财",
         }
-        log(f"OK   A股广度 涨{up} 跌{down} 广度{breadth}% 情绪分{breadth_score}")
-    except Exception as e:  # noqa: BLE001
-        log(f"FAIL A股广度: {type(e).__name__}")
 
+    # 3. VIX（CBOE 官方）+ 期限结构 + 30日走势
+    try:
+        q = _cboe_quote("VIX")
+        label, color = _vix_bucket(q["value"])
+        vix = {
+            "value": q["value"], "change": q["change"], "change_pct": q["change_pct"],
+            "label": label, "color": color, "source": "CBOE",
+        }
+        try:
+            vix["spark"] = _cboe_hist("VIX", 30)
+        except Exception:  # noqa: BLE001
+            pass
+        try:
+            q3 = _cboe_quote("VIX3M")
+            vix["vix3m"] = q3["value"]
+            vix["term"] = "backwardation(恐慌加剧)" if q["value"] > q3["value"] \
+                else "contango(正常)" if q["value"] < q3["value"] * 0.97 else "持平"
+        except Exception:  # noqa: BLE001
+            pass
+        sentiment["vix"] = vix
+        log(f"OK   VIX {q['value']}({label})")
+    except Exception as e:  # noqa: BLE001
+        log(f"FAIL VIX: {type(e).__name__}")
+
+    # 4. TACO 指数（Numerco；不可达则优雅缺省）
+    try:
+        sentiment["taco"] = fetch_taco()
+        log(f"OK   TACO {sentiment['taco']['value']}")
+    except Exception as e:  # noqa: BLE001
+        log(f"FAIL TACO: {type(e).__name__}")
+
+    # 5. 综合情绪（恐惧贪婪 + A股广度分）
     scores = []
     if "fear_greed" in sentiment:
         scores.append(sentiment["fear_greed"]["value"])
@@ -976,8 +1139,61 @@ def fetch_speakers(news_pool):
     return speakers
 
 
+def _news_wscn(_kwargs):
+    """华尔街见闻快讯（api-one-wscn.awtmt.com，公开JSON）。"""
+    r = requests.get("https://api-one-wscn.awtmt.com/apiv1/content/lives",
+                     params={"channel": "global-channel", "limit": NEWS_SOURCE_LIMIT},
+                     headers=_UA_HEADERS, timeout=HTTP_TIMEOUT)
+    r.raise_for_status()
+    items = (r.json().get("data") or {}).get("items") or []
+    from datetime import datetime as _dt
+    out = []
+    for it in items:
+        title = str(it.get("title") or it.get("content_text") or "").strip()
+        if not title:
+            continue
+        ts = it.get("display_time")
+        tm = _dt.fromtimestamp(int(ts), CST).strftime("%Y-%m-%d %H:%M") if ts else ""
+        out.append({"title": title[:120], "summary": str(it.get("content_text") or "")[:200],
+                    "time": tm, "url": str(it.get("uri") or "")})
+    return out
+
+
+def _news_gnews_trump(_kwargs):
+    """谷歌新闻 RSS：大国政要/央行国际英文报道（hl=zh-CN 优先中文版面）。
+
+    覆盖 X/Truth Social 类发言的二手权威报道；上游被墙时优雅失败。
+    """
+    r = requests.get("https://news.google.com/rss/search",
+                     params={"q": '(特朗普 OR Trump OR 美联储 OR "Truth Social") when:2d',
+                             "hl": "zh-CN", "gl": "CN", "ceid": "CN:zh-Hans"},
+                     headers=_UA_HEADERS, timeout=HTTP_TIMEOUT + 6)
+    r.raise_for_status()
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(r.content)
+    out = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = (item.findtext("pubDate") or "").strip()
+        if not title:
+            continue
+        tm = ""
+        if pub:
+            try:
+                from email.utils import parsedate_to_datetime
+                tm = parsedate_to_datetime(pub).astimezone(CST).strftime("%Y-%m-%d %H:%M")
+            except Exception:  # noqa: BLE001
+                pass
+        # 谷歌新闻标题带" - 媒体名"后缀，保留（媒体名即来源标识）
+        out.append({"title": title[:160], "summary": "", "time": tm, "url": link})
+        if len(out) >= NEWS_SOURCE_LIMIT:
+            break
+    return out
+
+
 def fetch_news():
-    """六源聚合：东财国际 + 新浪 + 富途 + 同花顺 + 财新 + 百度财经。"""
+    """八源聚合：东财国际 + 新浪 + 富途 + 同花顺 + 财新 + 百度财经 + 华尔街见闻 + 谷歌新闻。"""
     import akshare as ak
 
     source_status = {}
@@ -985,8 +1201,12 @@ def fetch_news():
 
     def collect(fn, kwargs, tag, norm_fn=_norm_news):
         try:
-            records = _df_to_records(fn(**kwargs))
-            news = norm_fn(records)[:NEWS_SOURCE_LIMIT]
+            res = fn(**kwargs)
+            if isinstance(res, list):
+                # 自定义源（华尔街见闻/谷歌新闻）已返回标准化列表
+                news = res[:NEWS_SOURCE_LIMIT]
+            else:
+                news = norm_fn(_df_to_records(res))[:NEWS_SOURCE_LIMIT]
             if news:
                 for n in news:
                     n["source"] = tag
@@ -1007,6 +1227,8 @@ def fetch_news():
             lambda rs: _norm_news(rs, title_key="summary", link_key="url"))
     collect(ak.news_economic_baidu, {}, "百度财经",
             lambda rs: _norm_news(rs, title_key="事件", summary_key="公布", time_key="日期"))
+    collect(_news_wscn, {}, "华尔街见闻")
+    collect(_news_gnews_trump, {}, "谷歌新闻·国际")
     time.sleep(0.3)
 
     deduped = _dedup_news(pool)
@@ -1158,6 +1380,12 @@ def main():
         "global": global_idx,
     }
     attach_histories(markets, key_assets)   # 补充30日走势与20日σ（告警基准）
+
+    # 量能统计：今日量/较5日均量/近1年分位/30日序列
+    for group in (markets.get("a_share"), markets.get("hk"), markets.get("us"),
+                  markets.get("global"), key_assets.get("commodities")):
+        _finalize_volumes(group or [])
+
     alerts = compute_alerts(markets, key_assets)
 
     now = datetime.now(CST)
@@ -1165,7 +1393,7 @@ def main():
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 6,
+        "schema_version": 7,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
@@ -1180,7 +1408,7 @@ def main():
         "news_meta": news_meta,
         "wuxing": wuxing,
         "errors": {k: v for k, v in errors.items() if v},
-        "disclaimer": "行情与新闻数据来自公开来源（新浪/东财/富途/同花顺/财新/百度/alternative.me），仅供研究参考，不构成投资建议；接口可能因上游网站变化而失效。情绪仪表：恐惧贪婪指数(alternative.me) + A股广度(东财实时)；关键人物发言由新闻关键词匹配生成；告警基于20日历史波动率σ倍数，传导路径为机制示意。",
+        "disclaimer": "行情与新闻数据来自公开来源（新浪/东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/alternative.me），仅供研究参考，不构成投资建议。风险仪表：VIX及期限结构(CBOE官方)、恐惧贪婪指数(alternative.me)、A股广度(东财)；TACO指数(Numerco)不可达时缺省。量能分位为近250个交易日统计；关键人物发言由大国政要/央行/科技巨头关键词从新闻池匹配；告警基于20日历史波动率σ倍数，传导路径为机制示意。",
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
