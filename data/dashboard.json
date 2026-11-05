@@ -1,7 +1,7 @@
 {
  "schema_version": 8,
- "generated_at": "2026-11-06 00:11:27 CST",
- "generated_at_iso": "2026-11-06T00:11:27+08:00",
+ "generated_at": "2026-11-06 01:00:48 CST",
+ "generated_at_iso": "2026-11-06T01:00:48+08:00",
  "date": "2026-11-06",
  "interval": "hourly",
  "update_frequency_note": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52136.7695,
-    "change": -1219.35,
-    "change_pct": -2.29,
-    "quote_time": "2026-11-06 00:09:49",
+    "price": 52085.6484,
+    "change": -1270.47,
+    "change_pct": -2.38,
+    "quote_time": "2026-11-06 00:59:26",
     "hist": [
      51349.9805,
      51828.6211,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24495.4844,
-    "change": -1241.029,
-    "change_pct": -4.82,
-    "quote_time": "2026-11-06 00:10:00",
+    "price": 24623.3175,
+    "change": -1113.1959,
+    "change_pct": -4.33,
+    "quote_time": "2026-11-06 00:59:30",
     "hist": [
      26939.373,
      27068.7168,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7437.71,
-    "change": -250.91,
-    "change_pct": -3.26,
-    "quote_time": "2026-11-06 00:09:46",
+    "price": 7444.5898,
+    "change": -244.03,
+    "change_pct": -3.17,
+    "quote_time": "2026-11-06 00:59:31",
     "hist": [
      7704.1299,
      7743.4102,
@@ -1157,11 +1157,10 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10781.03,
-    "change": -48.18,
-    "change_pct": -0.44,
+    "price": 10782.66,
+    "change": -46.55,
+    "change_pct": -0.43,
     "hist": [
-     10679.99,
      10695.25,
      10684.88,
      10636.71,
@@ -1190,11 +1189,12 @@
      10729.78,
      10761.33,
      10638.43,
-     10829.21
+     10829.21,
+     10782.93
     ],
-    "sigma": 0.725,
+    "sigma": 0.733,
     "volume": 0.0,
-    "vol_pctile": 97.2,
+    "vol_pctile": 97.6,
     "vol_hist": [
      0.0,
      0.0,
@@ -1231,9 +1231,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8188.33,
-    "change": 10.44,
-    "change_pct": 0.13,
+    "price": 8205.37,
+    "change": 27.48,
+    "change_pct": 0.34,
     "hist": [
      8077.8,
      8078.48,
@@ -1305,11 +1305,10 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6202.41,
-    "change": -63.3,
-    "change_pct": -1.01,
+    "price": 6228.29,
+    "change": -37.42,
+    "change_pct": -0.6,
     "hist": [
-     6272.51,
      6302.83,
      6301.29,
      6320.27,
@@ -1338,9 +1337,10 @@
      6131.32,
      6176.07,
      6144.57,
-     6265.72
+     6265.72,
+     6227.43
     ],
-    "sigma": 0.924
+    "sigma": 0.912
    }
   ]
  },
@@ -1391,10 +1391,10 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4098.773,
-    "change": 25.773,
-    "change_pct": 0.63,
-    "quote_time": "00:10:16 2026-11-06",
+    "price": 4139.691,
+    "change": 66.691,
+    "change_pct": 1.64,
+    "quote_time": "00:59:44 2026-11-06",
     "hist": [
      4320.3,
      4148.4,
@@ -1425,18 +1425,18 @@
      3956.4,
      3940.0,
      4072.0,
-     4093.8
+     4129.9
     ],
-    "sigma": 1.55
+    "sigma": 1.579
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.883,
-    "change": -0.399,
-    "change_pct": -0.76,
-    "quote_time": "00:10:14 2026-11-06",
+    "price": 53.037,
+    "change": 0.755,
+    "change_pct": 1.44,
+    "quote_time": "00:59:45 2026-11-06",
     "hist": [
      64.71,
      61.025,
@@ -1467,18 +1467,18 @@
      50.705,
      49.81,
      52.325,
-     51.785
+     52.73
     ],
-    "sigma": 3.0
+    "sigma": 3.014
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 90.504,
-    "change": 2.384,
-    "change_pct": 2.71,
-    "quote_time": "00:10:16 2026-11-06",
+    "price": 90.242,
+    "change": 2.122,
+    "change_pct": 2.41,
+    "quote_time": "00:59:49 2026-11-06",
     "hist": [
      92.43,
      93.28,
@@ -1509,18 +1509,18 @@
      96.25,
      96.75,
      88.03,
-     90.07
+     90.12
     ],
-    "sigma": 2.963
+    "sigma": 2.965
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 97.069,
-    "change": 2.449,
-    "change_pct": 2.59,
-    "quote_time": "00:10:15 2026-11-06",
+    "price": 96.847,
+    "change": 2.227,
+    "change_pct": 2.35,
+    "quote_time": "00:59:44 2026-11-06",
     "hist": [
      97.43,
      98.63,
@@ -1551,12 +1551,12 @@
      104.17,
      104.23,
      94.55,
-     96.77
+     96.79
     ],
-    "sigma": 3.083,
-    "volume": 257722.0,
-    "vol_chg_pct": -46.1,
-    "vol_pctile": 12.8,
+    "sigma": 3.084,
+    "volume": 310296.0,
+    "vol_chg_pct": -35.0,
+    "vol_pctile": 31.6,
     "vol_hist": [
      503890.0,
      521490.0,
@@ -1587,7 +1587,7 @@
      526554.0,
      499677.0,
      604736.0,
-     257722.0
+     310296.0
     ]
    }
   ],
@@ -1596,9 +1596,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75876.3,
-    "change": -4740.1,
-    "change_pct": -5.88,
+    "price": 76394.9,
+    "change": -4139.8,
+    "change_pct": -5.14,
     "source": "okx",
     "hist": [
      81031.3,
@@ -1630,17 +1630,17 @@
      77698.6,
      80299.9,
      76038.5,
-     75954.6
+     76370.0
     ],
-    "sigma": 2.139
+    "sigma": 2.145
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2248.86,
-    "change": -193.6,
-    "change_pct": -7.93,
+    "price": 2266.17,
+    "change": -168.73,
+    "change_pct": -6.93,
     "source": "okx",
     "hist": [
      2435.63,
@@ -1672,17 +1672,17 @@
      2299.61,
      2426.44,
      2252.59,
-     2251.07
+     2265.44
     ],
-    "sigma": 2.982
+    "sigma": 2.988
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 90.47,
-    "change": -6.65,
-    "change_pct": -6.85,
+    "price": 90.36,
+    "change": -6.33,
+    "change_pct": -6.55,
     "source": "okx",
     "hist": [
      108.56,
@@ -1714,9 +1714,9 @@
      93.76,
      96.7,
      90.21,
-     90.54
+     90.34
     ],
-    "sigma": 2.878
+    "sigma": 2.875
    }
   ]
  },
@@ -1739,11 +1739,11 @@
    "source": "东财"
   },
   "vix": {
-   "value": 27.82,
-   "change": 11.21,
-   "change_pct": 67.4895,
-   "label": "高波动",
-   "color": "#f58a3d",
+   "value": 23.55,
+   "change": 6.94,
+   "change_pct": 41.7821,
+   "label": "升高",
+   "color": "#d9b23c",
    "source": "CBOE",
    "spark": [
     15.67,
@@ -1777,33 +1777,33 @@
     20.83,
     16.61
    ],
-   "vix3m": 25.12,
+   "vix3m": 22.84,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 32.2,
-     "change_pct": 111.9816
+     "value": 26.06,
+     "change_pct": 71.5602
     },
     {
      "t": "VIX",
-     "value": 27.82,
-     "change_pct": 67.4895
+     "value": 23.55,
+     "change_pct": 41.7821
     },
     {
      "t": "VIX3M",
-     "value": 25.12,
-     "change_pct": 33.617
+     "value": 22.84,
+     "change_pct": 21.4894
     },
     {
      "t": "VIX6M",
-     "value": 24.91,
-     "change_pct": 20.4545
+     "value": 23.43,
+     "change_pct": 13.2979
     }
    ],
-   "ratio_9d_3m": 1.282,
+   "ratio_9d_3m": 1.141,
    "shape": "backwardation(短期恐慌升温)",
    "source": "CBOE"
   },
@@ -1815,13 +1815,35 @@
  },
  "speakers": [
   {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "【美股史诗级抛售，前五大富豪的财富蒸发1500亿美元，马斯克一人损失近1000亿美元】美股遭遇大幅抛售，科技股成为重灾区。福布斯实时亿万富豪排行榜显示，美股下跌令全球多位科技富豪身价大幅缩水。埃隆·马斯克单日身价减少912亿美元，跌幅10.",
+   "summary": "【美股史诗级抛售，前五大富豪的财富蒸发1500亿美元，马斯克一人损失近1000亿美元】美股遭遇大幅抛售，科技股成为重灾区。福布斯实时亿万富豪排行榜显示，美股下跌令全球多位科技富豪身价大幅缩水。埃隆·马斯克单日身价减少912亿美元，跌幅10.50%；戴尔科技创始人迈克尔·戴尔减少205亿美元，跌幅9.60%；英伟达CEO黄仁勋减少151亿美元，跌幅8.70%；甲骨文创始人拉里·埃里森减少132亿美元",
+   "time": "2026-11-06 00:47",
+   "url": "https://wallstreetcn.com/livenews/3195260",
+   "source": "华尔街见闻",
+   "mentions": 2
+  },
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "【美股史诗级抛售，前五大富豪的财富蒸发1500亿美元，马斯克一人损失近1000亿美元】美股遭遇大幅抛售，科技股成为重灾区。福布斯实时亿万富豪排行榜显示，美股下跌令全球多位科技富豪身价大幅缩水。埃隆·马斯克单日身价减少912亿美元，跌幅10.",
+   "summary": "【美股史诗级抛售，前五大富豪的财富蒸发1500亿美元，马斯克一人损失近1000亿美元】美股遭遇大幅抛售，科技股成为重灾区。福布斯实时亿万富豪排行榜显示，美股下跌令全球多位科技富豪身价大幅缩水。埃隆·马斯克单日身价减少912亿美元，跌幅10.50%；戴尔科技创始人迈克尔·戴尔减少205亿美元，跌幅9.60%；英伟达CEO黄仁勋减少151亿美元，跌幅8.70%；甲骨文创始人拉里·埃里森减少132亿美元",
+   "time": "2026-11-06 00:47",
+   "url": "https://wallstreetcn.com/livenews/3195260",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普承认伊战是中期选举惨败原因 波斯湾国家忧伊朗比美以更危险 - 联合早报",
+   "title": "特朗普中期选举政治挫败让中国短期获益，但长期受损？ - RFI",
    "summary": "",
-   "time": "2026-11-05 23:42",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zS2UtMElQajRralh6Rk9ZbGs5SGlGSlJuN25kMkVoZ0V4WkR2Nl8yX2NSUExGdldMaVpfZTJUVDF5Vm9xV1dOX1NEaDg3cHd2TTZaTGZsdzk1ekJvYXZMYzlhWGZXbWtVVHc?oc=5",
+   "time": "2026-11-06 00:36",
+   "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPQl9PV2FQNmJocDlDQ1pGQkcxMWF6Tmdia1d1TjdFeVltaTdCOEN5Y01QR3M3OEtZUTRWQXFSYzE2ZGJka2ZkOWZ2Y1VRWnJiRkxNYVZLNS1hZzhYakZSRVpmX3gxT2Z5NkxzRVJ3djhpTmVnNUI0TGJpV0d6QlNZVjBzTlVsaHJ4b2dhdjlWRVVVYS1sbVZxNG9CcktnelVJZFFhbC03djVuNG92OFJUanFNUWs1ZUgxZlJOU3V1QnNTMUhZV19MajNWb1Q1aXBXY2VDNzl1UFdGQWJMcFVINzIyVFJxUVBVSk1lYjNBRE5CZ2t2ZVNqRHdxaEtUVTFkUUJnYzhUT0F0YUFIUDNZTVZxYndkWG1BZlY1N2phZVdNWThncTZvalEwS3hsX1pSLWYwdTRKLXN2SFFEeGo2Z1BFU1lhT0VOT1lNbVM5QmdPN0dZWk5BX2htSEttbDljUzl1d0pHdHR2anlFSWlvRVFsSFRfXzlUVkNSandIRQ?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
   },
@@ -1834,7 +1856,7 @@
    "time": "2026-11-05 23:32",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1temJIdXdkbnB5QUlzRWdMYmpScE01RFgzUXdFUTQ0U1hRZDhtZGhBZGNYajg5VGxXTFpmQzdmUzBLYjFubkdVRGJsNlhpRXZqUHp5VmU4dWpfV0VPMlpMRjc0MXZZZw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 2
   },
   {
    "keyword": "外交部",
@@ -1874,116 +1896,116 @@
   {
    "level": "danger",
    "asset": "纳斯达克",
-   "message": "纳斯达克单日跌4.82%，达20日历史波动率的 3.7 倍（σ=1.29%，突破 3σ 高危线）",
-   "time": "2026-11-06 00:11",
+   "message": "纳斯达克单日跌4.33%，达20日历史波动率的 3.4 倍（σ=1.29%，突破 3σ 高危线）",
+   "time": "2026-11-06 01:00",
    "chain": "美股估值重定价 → 全球股票ETF再平衡 → 亚太市场次日开盘联动 → 北向资金流向变化"
   },
   {
    "level": "danger",
    "asset": "标普500",
-   "message": "标普500单日跌3.26%，达20日历史波动率的 4.1 倍（σ=0.79%，突破 3σ 高危线）",
-   "time": "2026-11-06 00:11",
+   "message": "标普500单日跌3.17%，达20日历史波动率的 4.0 倍（σ=0.79%，突破 3σ 高危线）",
+   "time": "2026-11-06 01:00",
    "chain": "美股估值重定价 → 全球股票ETF再平衡 → 亚太市场次日开盘联动 → 北向资金流向变化"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "道琼斯、纳斯达克、标普500等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-06 00:11",
+   "time": "2026-11-06 01:00",
    "chain": "多市场共振下跌 → VIX隐含波动率飙升 → 风险平价/杠杆策略强制减仓 → 同向抛售螺旋与流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "恒生指数",
    "message": "恒生指数单日涨3.68%，达20日历史波动率的 2.6 倍（σ=1.39%，突破 2σ 警戒线）",
-   "time": "2026-11-06 00:11",
+   "time": "2026-11-06 01:00",
    "chain": "恒指系异动 → 股指期货/期权对冲盘增加 → 南向资金流向变化 → A/H溢价联动A股"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨5.50%，达20日历史波动率的 2.3 倍（σ=2.38%，突破 2σ 警戒线）",
-   "time": "2026-11-06 00:11",
+   "time": "2026-11-06 01:00",
    "chain": "恒指系异动 → 股指期货/期权对冲盘增加 → 南向资金流向变化 → A/H溢价联动A股"
   },
   {
    "level": "warning",
    "asset": "恒生中国企业指数",
    "message": "恒生中国企业指数单日涨3.82%，达20日历史波动率的 2.8 倍（σ=1.38%，突破 2σ 警戒线）",
-   "time": "2026-11-06 00:11",
+   "time": "2026-11-06 01:00",
    "chain": "恒指系异动 → 股指期货/期权对冲盘增加 → 南向资金流向变化 → A/H溢价联动A股"
   },
   {
    "level": "warning",
    "asset": "道琼斯",
-   "message": "道琼斯单日跌2.29%，达20日历史波动率的 2.6 倍（σ=0.87%，突破 2σ 警戒线）",
-   "time": "2026-11-06 00:11",
+   "message": "道琼斯单日跌2.38%，达20日历史波动率的 2.7 倍（σ=0.87%，突破 2σ 警戒线）",
+   "time": "2026-11-06 01:00",
    "chain": "美股估值重定价 → 全球股票ETF再平衡 → 亚太市场次日开盘联动 → 北向资金流向变化"
   },
   {
    "level": "warning",
    "asset": "比特币",
-   "message": "比特币单日跌5.88%，达20日历史波动率的 2.7 倍（σ=2.14%，突破 2σ 警戒线）",
-   "time": "2026-11-06 00:11",
+   "message": "比特币单日跌5.14%，达20日历史波动率的 2.4 倍（σ=2.15%，突破 2σ 警戒线）",
+   "time": "2026-11-06 01:00",
    "chain": "币价急波动 → 高杠杆头寸连环清算 → 稳定币与链上流动性收缩 → 纳指等科技股风险偏好联动"
   },
   {
    "level": "warning",
    "asset": "以太坊",
-   "message": "以太坊单日跌7.93%，达20日历史波动率的 2.7 倍（σ=2.98%，突破 2σ 警戒线）",
-   "time": "2026-11-06 00:11",
+   "message": "以太坊单日跌6.93%，达20日历史波动率的 2.3 倍（σ=2.99%，突破 2σ 警戒线）",
+   "time": "2026-11-06 01:00",
    "chain": "币价急波动 → 高杠杆头寸连环清算 → 稳定币与链上流动性收缩 → 纳指等科技股风险偏好联动"
   },
   {
    "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌6.85%，达20日历史波动率的 2.4 倍（σ=2.88%，突破 2σ 警戒线）",
-   "time": "2026-11-06 00:11",
+   "message": "Solana单日跌6.55%，达20日历史波动率的 2.3 倍（σ=2.88%，突破 2σ 警戒线）",
+   "time": "2026-11-06 01:00",
    "chain": "币价急波动 → 高杠杆头寸连环清算 → 稳定币与链上流动性收缩 → 纳指等科技股风险偏好联动"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "恒生指数、恒生科技指数、恒生中国企业指数等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-06 00:11",
+   "time": "2026-11-06 01:00",
    "chain": "多市场共振上涨 → 隐含波动率回落 → 杠杆与趋势策略加仓 → 回撤时同向抛售风险积聚"
   }
  ],
  "news": [
   {
-   "title": "欧洲芯片股跌幅扩大，目前下跌4.35%，芯片抛售加速，有望创下2025年4月以来最大单日跌幅。",
-   "summary": "欧洲芯片股跌幅扩大，目前下跌4.35%，芯片抛售加速，有望创下2025年4月以来最大单日跌幅。",
-   "time": "2026-11-06 00:10",
-   "url": "https://wallstreetcn.com/livenews/3195246",
+   "title": "周四（11月5日）欧市尾盘，ICE英国天然气期货涨2.37%，报223.580便士/千卡，北京时间15:10刷新日低至207.870便士，随后持续走高。\n\nTTF基准荷兰天然气期货涨6.12%，报89.741欧元/兆瓦时，15:10刷题日低",
+   "summary": "周四（11月5日）欧市尾盘，ICE英国天然气期货涨2.37%，报223.580便士/千卡，北京时间15:10刷新日低至207.870便士，随后持续走高。\n\nTTF基准荷兰天然气期货涨6.12%，报89.741欧元/兆瓦时，15:10刷题日低至83.625欧元，之后也持续上扬。\n\nICE欧盟碳排放交易许可（期货价格）跌1.1%。",
+   "time": "2026-11-06 00:57",
+   "url": "https://wallstreetcn.com/livenews/3195265",
    "source": "华尔街见闻"
   },
   {
-   "title": "智新电子：取得一项发明专利证书",
-   "summary": "【智新电子：取得一项发明专利证书】智新电子公告，公司近日收到国家知识产权局颁发的发明专利证书，发明名称为“一种USB线束自动焊接设备”。",
-   "time": "2026-11-06 00:05:09",
-   "url": "https://finance.eastmoney.com/a/202611063923908395.html",
+   "title": "美股史诗级抛售 前五大身价缩水富豪财富单日蒸发1500亿美元 马斯克一人损失近1000亿美元",
+   "summary": "【美股史诗级抛售 前五大身价缩水富豪财富单日蒸发1500亿美元 马斯克一人损失近1000亿美元】美股周四遭遇大幅抛售，科技股成为重灾区。盘中，道指、标普500指数和纳斯达克综合指数最大跌幅一度分别达到2.38%、3.57%和5.35%，费城半导体指数跌幅一度扩大至11.6%，AI硬件产业链遭遇集中抛售。英伟达一度大跌9%，台积电、SpaceX、特斯拉一度大跌11%。",
+   "time": "2026-11-06 00:45:26",
+   "url": "https://finance.eastmoney.com/a/202611063923916850.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普承认伊战是中期选举惨败原因 波斯湾国家忧伊朗比美以更危险 - 联合早报",
+   "title": "特朗普中期选举政治挫败让中国短期获益，但长期受损？ - RFI",
    "summary": "",
-   "time": "2026-11-05 23:42",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zS2UtMElQajRralh6Rk9ZbGs5SGlGSlJuN25kMkVoZ0V4WkR2Nl8yX2NSUExGdldMaVpfZTJUVDF5Vm9xV1dOX1NEaDg3cHd2TTZaTGZsdzk1ekJvYXZMYzlhWGZXbWtVVHc?oc=5",
+   "time": "2026-11-06 00:36",
+   "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPQl9PV2FQNmJocDlDQ1pGQkcxMWF6Tmdia1d1TjdFeVltaTdCOEN5Y01QR3M3OEtZUTRWQXFSYzE2ZGJka2ZkOWZ2Y1VRWnJiRkxNYVZLNS1hZzhYakZSRVpmX3gxT2Z5NkxzRVJ3djhpTmVnNUI0TGJpV0d6QlNZVjBzTlVsaHJ4b2dhdjlWRVVVYS1sbVZxNG9CcktnelVJZFFhbC03djVuNG92OFJUanFNUWs1ZUgxZlJOU3V1QnNTMUhZV19MajNWb1Q1aXBXY2VDNzl1UFdGQWJMcFVINzIyVFJxUVBVSk1lYjNBRE5CZ2t2ZVNqRHdxaEtUVTFkUUJnYzhUT0F0YUFIUDNZTVZxYndkWG1BZlY1N2phZVdNWThncTZvalEwS3hsX1pSLWYwdTRKLXN2SFFEeGo2Z1BFU1lhT0VOT1lNbVM5QmdPN0dZWk5BX2htSEttbDljUzl1d0pHdHR2anlFSWlvRVFsSFRfXzlUVkNSandIRQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "苏丹武装部队称夺回中部三座城市控制权",
+   "title": "数据中心建设放缓预期支撑科技巨头表现 微软、亚马逊表现相对抗跌",
    "summary": "",
-   "time": "2026-11-05 16:10:01",
-   "url": "https://news.10jqka.com.cn/20261106/c681524350.shtml",
-   "source": "同花顺"
+   "time": "2026-11-05 16:58:52",
+   "url": "https://news.futunn.com/flash/1003594631/expectations-of-a-slowdown-in-data-center-construction-support-the",
+   "source": "富途"
   },
   {
-   "title": "盘中期权异动：甲骨文盘中下跌8.1%，现最高成交额的看跌期权涨跌幅为+40%，成交量达到641张",
+   "title": "美国总统夫人在白宫会晤俄乌代表呼吁持久和平",
    "summary": "",
-   "time": "2026-11-05 15:51:06",
-   "url": "https://news.futunn.com/flash/1003589119/unusual-options-activity-oracle-down-8-1-the-most-active",
-   "source": "富途"
+   "time": "2026-11-05 16:57:04",
+   "url": "https://news.10jqka.com.cn/20261106/c681524493.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月5日周四",
@@ -2007,17 +2029,17 @@
    "source": "财新"
   },
   {
-   "title": "【英伟达提出AI内存全栈协同设计方案，Vera Rubin平台每GPU内存容量仅增约3%推理吞吐量提升最高30倍】英伟达称，随着AI模型规模扩大、上下文窗口延长以及智能体应用普及，GPU内存压力持续上升，HBM供应趋紧、价格上涨。英伟达提出",
-   "summary": "【英伟达提出AI内存全栈协同设计方案，Vera Rubin平台每GPU内存容量仅增约3%推理吞吐量提升最高30倍】英伟达称，随着AI模型规模扩大、上下文窗口延长以及智能体应用普及，GPU内存压力持续上升，HBM供应趋紧、价格上涨。英伟达提出通过GPU、CPU、网络、存储及软件协同设计，提高内存使用效率，而非单纯增加GPU内存容量。\n\n具体来看，英伟达通过NVFP4低精度格式压缩模型权重和KV Ca",
-   "time": "2026-11-06 00:07",
-   "url": "https://wallstreetcn.com/livenews/3195245",
+   "title": "法意希主权债收益率涨约2个基点",
+   "summary": "周四（11月5日）欧市尾盘，法国10年期国债收益率涨2.3个基点，报4.797%，整体呈现出V形反转，北京时间18:35刷新日低至4.709%。\n\n两年期法债收益率涨0.2个基点，报3.515%，欧股开盘之前跳空上扬至3.581%，早盘快速下挫，整体一半的时间大致持平；30年期法债收益率涨1.1个基点，报5.337%。\n\n意大利10年期国债收益率涨2个基点，报4.333%；两年期意债收益率涨1.4",
+   "time": "2026-11-06 00:51",
+   "url": "https://wallstreetcn.com/livenews/3195262",
    "source": "华尔街见闻"
   },
   {
-   "title": "广脉科技：41,921股限制性股票解除限售",
-   "summary": "【广脉科技：41,921股限制性股票解除限售】广脉科技公告，本次股票解除限售数量总额为41,921股，占公司总股本0.04%，可交易时间为2026年11月10日。",
-   "time": "2026-11-06 00:05:06",
-   "url": "https://finance.eastmoney.com/a/202611063923908169.html",
+   "title": "标普500等权重指数跌幅达2%",
+   "summary": "标普500等权重指数跌幅达2%。",
+   "time": "2026-11-06 00:41:34",
+   "url": "https://finance.eastmoney.com/a/202611063923916513.html",
    "source": "东财国际"
   },
   {
@@ -2028,18 +2050,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "土耳其西部发生枪击事件 已致8人死亡",
+   "title": "盘中期权异动：甲骨文盘中下跌8.1%，现最高成交额的看跌期权涨跌幅为+40%，成交量达到641张",
    "summary": "",
-   "time": "2026-11-05 16:06:19",
-   "url": "https://news.10jqka.com.cn/20261106/c681524336.shtml",
-   "source": "同花顺"
+   "time": "2026-11-05 15:51:06",
+   "url": "https://news.futunn.com/flash/1003589119/unusual-options-activity-oracle-down-8-1-the-most-active",
+   "source": "富途"
   },
   {
-   "title": "纽约时报：美军数千名空军和海军人员待命 对伊朗军事行动计划已就绪",
+   "title": "我国建成全球海拔最高的并网光热电站",
    "summary": "",
-   "time": "2026-11-05 15:50:00",
-   "url": "https://news.futunn.com/flash/1003588897/the-new-york-times-thousands-of-us-air-force-and",
-   "source": "富途"
+   "time": "2026-11-05 16:46:39",
+   "url": "https://news.10jqka.com.cn/20261106/c681524480.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月4日周三",
@@ -2063,17 +2085,17 @@
    "source": "财新"
   },
   {
-   "title": "美股两房（房利美、房地美）自从美国中期选举以来的累计跌幅扩大至25%。",
-   "summary": "美股两房（房利美、房地美）自从美国中期选举以来的累计跌幅扩大至25%。",
-   "time": "2026-11-06 00:01",
-   "url": "https://wallstreetcn.com/livenews/3195243",
+   "title": "【美股史诗级抛售，前五大富豪的财富蒸发1500亿美元，马斯克一人损失近1000亿美元】美股遭遇大幅抛售，科技股成为重灾区。福布斯实时亿万富豪排行榜显示，美股下跌令全球多位科技富豪身价大幅缩水。埃隆·马斯克单日身价减少912亿美元，跌幅10.",
+   "summary": "【美股史诗级抛售，前五大富豪的财富蒸发1500亿美元，马斯克一人损失近1000亿美元】美股遭遇大幅抛售，科技股成为重灾区。福布斯实时亿万富豪排行榜显示，美股下跌令全球多位科技富豪身价大幅缩水。埃隆·马斯克单日身价减少912亿美元，跌幅10.50%；戴尔科技创始人迈克尔·戴尔减少205亿美元，跌幅9.60%；英伟达CEO黄仁勋减少151亿美元，跌幅8.70%；甲骨文创始人拉里·埃里森减少132亿美元",
+   "time": "2026-11-06 00:47",
+   "url": "https://wallstreetcn.com/livenews/3195260",
    "source": "华尔街见闻"
   },
   {
-   "title": "夜光明：四季度业绩存在不确定性",
-   "summary": "【夜光明：四季度业绩存在不确定性】夜光明发布投资者关系活动记录表，公司2026年前三季度业绩同比大幅增长，主要得益于产品结构持续优化，高毛利反光制品收入占比提升并带动整体毛利率上行，同时产能利用率提升、精益生产和费用管控使成本端得到有效优化，叠加海外客户预收款增加、订单储备相对充足，第三季度利润释放尤为明显。关于第四季度业绩增长的可持续性，公司认为高毛利产品放量和海外订单交付仍有一定支撑，产能建设也在匹配后续需求；但四季度业绩仍受核心客户订单节奏、传统反光布及反光服装业务修复程度、汇率波动和去年基数较高等因素影响，存在不确定性。公司将继续聚焦高附加值产品、深化核心客户合作、推进降本增效并加强风险管控，力争保持盈利质量稳定。具体经营数据请以公司后续披露的定期报告为准，敬请投资者注意投资风险。",
-   "time": "2026-11-06 00:05:02",
-   "url": "https://finance.eastmoney.com/a/202611063923908844.html",
+   "title": "我国成功发射遥感五十一号07-09星",
+   "summary": "【我国成功发射遥感五十一号07-09星】北京时间2026年11月5日23时58分，我国在西昌卫星发射中心使用长征二号丙运载火箭，成功将遥感五十一号07-09星发射升空，卫星顺利进入预定轨道，发射任务取得圆满成功。该卫星主要用于科学试验、电磁环境探测等领域。",
+   "time": "2026-11-06 00:37:16",
+   "url": "https://finance.eastmoney.com/a/202611063923917726.html",
    "source": "东财国际"
   },
   {
@@ -2084,18 +2106,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "现货白银跌超1%",
+   "title": "纽约时报：美军数千名空军和海军人员待命 对伊朗军事行动计划已就绪",
    "summary": "",
-   "time": "2026-11-05 15:54:46",
-   "url": "https://news.10jqka.com.cn/20261105/c681524220.shtml",
-   "source": "同花顺"
+   "time": "2026-11-05 15:50:00",
+   "url": "https://news.futunn.com/flash/1003588897/the-new-york-times-thousands-of-us-air-force-and",
+   "source": "富途"
   },
   {
-   "title": "盘中期权异动：英伟达盘中下跌8.1%，现最高成交额的看跌期权涨跌幅为+415%，成交量达到14,174张",
+   "title": "伊朗称两艘油轮在霍尔木兹海峡触雷起火",
    "summary": "",
-   "time": "2026-11-05 15:47:02",
-   "url": "https://news.futunn.com/flash/1003588550/unusual-options-activity-nvidia-down-8-1-the-most-active",
-   "source": "富途"
+   "time": "2026-11-05 16:42:12",
+   "url": "https://news.10jqka.com.cn/20261106/c681524460.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月3日周二",
@@ -2123,7 +2145,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(5)",
+   "富途": "ok(4)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2132,10 +2154,10 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "东财国际": 6,
+   "东财国际": 7,
    "谷歌新闻·国际": 6,
+   "富途": 4,
    "同花顺": 6,
-   "富途": 5,
    "东财早报": 6,
    "百度财经": 6,
    "财新": 6
