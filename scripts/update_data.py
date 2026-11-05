@@ -84,6 +84,17 @@ def pct(v):
     return round(f, 2) if f is not None else None
 
 
+def _sym_a(code):
+    """A股新浪代码 → 交易所标准代码：sh000001 → 000001.SH。"""
+    code = (code or "").strip().lower()
+    suf = {"sh": "SH", "sz": "SZ", "bj": "BJ"}.get(code[:2])
+    return f"{code[2:]}.{suf}" if suf and len(code) > 2 else code.upper()
+
+
+def _sym_us(name):
+    return US_HIST_SYMBOLS.get(name, name)
+
+
 def _closes(df, col="close", n=None):
     """从日线 DataFrame 取最近 n 个有效收盘价（>0），时间正序。"""
     n = n or (HIST_DAYS + VOL_WINDOW + 2)
@@ -184,6 +195,7 @@ def fetch_a_indices():
         result.append({
             "name": name,
             "code": code,
+            "sym": _sym_a(code),
             "price": to_float(r.get("最新价")),
             "change": to_float(r.get("涨跌额")),
             "change_pct": pct(r.get("涨跌幅")),
@@ -206,6 +218,7 @@ def fetch_hk_indices():
             by_name[name] = {
                 "name": name,
                 "code": str(r.get("代码", "")).strip(),
+                "sym": str(r.get("代码", "")).strip(),
                 "price": to_float(r.get("最新价")),
                 "change": to_float(r.get("涨跌额")),
                 "change_pct": pct(r.get("涨跌幅")),
@@ -240,6 +253,7 @@ def fetch_us_indices():
             result.append({
                 "name": name,
                 "code": sym,
+                "sym": _sym_us(name),
                 "price": to_float(f[1]),
                 "change": to_float(f[4]) if len(f) > 4 else None,
                 "change_pct": pct(f[2]),
@@ -268,7 +282,7 @@ def fetch_us_indices():
                         change = round(price - prev_close, 2)
                         change_pct = round((price - prev_close) / prev_close * 100, 2)
                 result.append({
-                    "name": name, "code": legacy, "price": price,
+                    "name": name, "code": legacy, "sym": _sym_us(name), "price": price,
                     "change": change, "change_pct": change_pct,
                     "quote_time": str(last.get("date", "")),
                 })
@@ -303,8 +317,8 @@ def fetch_global_indices():
     ]
 
     def make(name, price, change, change_pct):
-        return {"name": name, "price": to_float(price), "change": to_float(change),
-                "change_pct": pct(change_pct)}
+        return {"name": name, "sym": GLOBAL_SYMS.get(name, ""), "price": to_float(price),
+                "change": to_float(change), "change_pct": pct(change_pct)}
 
     # 1) 东财实时快照（一次请求覆盖多个指数）
     try:
@@ -383,6 +397,7 @@ def fetch_us10y():
             change_bp = round((value - prev_v) * 100, 1)
     return {
         "name": "美国10年期国债收益率",
+        "sym": "US10Y",
         "value": value,
         "unit": "%",
         "change_bp": change_bp,
@@ -393,14 +408,14 @@ def fetch_us10y():
 def fetch_commodities():
     """贵金属与能源（新浪 hf_ 外盘实时，涨跌基准=昨结算价）。"""
     targets = [
-        ("hf_GC", "COMEX黄金", "commodity"),
-        ("hf_SI", "COMEX白银", "commodity"),
-        ("hf_CL", "WTI原油", "commodity"),
-        ("hf_OIL", "布伦特原油", "commodity"),
+        ("hf_GC", "COMEX黄金", "GC"),
+        ("hf_SI", "COMEX白银", "SI"),
+        ("hf_CL", "WTI原油", "CL"),
+        ("hf_OIL", "布伦特原油", "BRN"),
     ]
     hq = _sina_hq([t[0] for t in targets])
     result = []
-    for sym, name, _ in targets:
+    for sym, name, disp in targets:
         f = hq.get(sym)
         # hf_ 字段：0=最新 2=买 3=卖 4=最高 5=最低 6=时间 7=昨结算 12=日期 13=中文名
         if not f or len(f) < 8:
@@ -416,6 +431,7 @@ def fetch_commodities():
         result.append({
             "name": name,
             "code": sym,
+            "sym": disp,
             "price": price,
             "change": change,
             "change_pct": change_pct,
@@ -442,7 +458,7 @@ def _crypto_via_okx():
         open24 = to_float(d.get("open24h"))
         if not last or not open24:
             continue
-        out.append({"name": name, "code": code,
+        out.append({"name": name, "code": code, "sym": code,
                     "price": last,
                     "change": round(last - open24, 2),
                     "change_pct": round((last - open24) / open24 * 100, 2)})
@@ -461,7 +477,7 @@ def _crypto_via_binance():
         last = to_float(d.get("lastPrice"))
         chg = pct(d.get("priceChangePercent"))
         if last and chg is not None:
-            out.append({"name": name, "code": code, "price": last,
+            out.append({"name": name, "code": code, "sym": code, "price": last,
                         "change": to_float(d.get("priceChange")),
                         "change_pct": chg})
     return out
@@ -481,7 +497,7 @@ def _crypto_via_coingecko():
         price = to_float(v.get("usd"))
         chg24 = pct(v.get("usd_24h_change"))
         if price and chg24 is not None:
-            out.append({"name": name, "code": code, "price": price,
+            out.append({"name": name, "code": code, "sym": code, "price": price,
                         "change": round(price - price / (1 + chg24 / 100), 2),
                         "change_pct": chg24})
     return out
@@ -497,7 +513,7 @@ def _crypto_via_bitstamp():
         last = to_float(d.get("last"))
         open24 = to_float(d.get("open"))
         if last and open24:
-            out.append({"name": name, "code": code, "price": last,
+            out.append({"name": name, "code": code, "sym": code, "price": last,
                         "change": round(last - open24, 2),
                         "change_pct": round((last - open24) / open24 * 100, 2)})
     return out
@@ -561,6 +577,13 @@ GLOBAL_HIST_NAMES = {
     "法国CAC40": "法CAC40指数", "欧洲斯托克50": "欧洲Stoxx50指数", "俄罗斯MOEX": "俄罗斯MICEX指数",
 }
 US_HIST_SYMBOLS = {"道琼斯": ".DJI", "纳斯达克": ".IXIC", "标普500": ".INX"}
+
+# 全球指数：展示名 → 国际通用代码（前端展示用）
+GLOBAL_SYMS = {
+    "日经225": "N225", "韩国KOSPI": "KS11", "印度SENSEX": "BSESN", "台湾加权": "TWII",
+    "德国DAX": "DAX", "英国富时100": "FTSE", "法国CAC40": "CAC40",
+    "欧洲斯托克50": "SX5E", "俄罗斯MOEX": "MOEX",
+}
 
 
 def _crypto_hist_okx(code):
@@ -656,12 +679,34 @@ def attach_histories(markets, key_assets):
 # 波动告警
 # --------------------------------------------------------------------------
 
-def _mk_alert(level, asset, message):
-    return {"level": level, "asset": asset, "message": message,
-            "time": datetime.now(CST).strftime("%Y-%m-%d %H:%M")}
+# 具体传导路径（" → " 分隔，前端渲染为链式流程图）：
+# 参考宏观对冲基金风险传导框架与风险平价/CTA/波动率策略的常见联动机制。
+ALERT_CHAINS = {
+    "a_share": "权重板块异动 → 两融与量化策略调仓 → 行业ETF资金申赎 → 中小盘流动性传导",
+    "hk": "恒指系异动 → 股指期货/期权对冲盘增加 → 南向资金流向变化 → A/H溢价联动A股",
+    "us": "美股估值重定价 → 全球股票ETF再平衡 → 亚太市场次日开盘联动 → 北向资金流向变化",
+    "global": "欧/亚股指异动 → 跨市场风险偏好重定价 → 全球ETF资金再平衡 → 美股时段联动放大",
+    "gold": "避险资金涌入黄金 → 实际利率与美元指数波动 → 贵金属板块与黄金股联动 → 通胀对冲需求上升",
+    "silver": "白银急波动 → 贵金属与工业双重属性定价 → 金银比价波动 → 光伏/电子产业链成本传导",
+    "oil": "油价急变 → 通胀预期重定价 → 债券收益率与商品货币波动 → 能源/航空/化工板块分化",
+    "crypto": "币价急波动 → 高杠杆头寸连环清算 → 稳定币与链上流动性收缩 → 纳指等科技股风险偏好联动",
+    "bond": "美债收益率急变 → 全球资产定价锚移动 → 成长股估值与美元流动性重定价 → 新兴市场资金流向逆转",
+    "resonance_up": "多市场共振上涨 → 隐含波动率回落 → 杠杆与趋势策略加仓 → 回撤时同向抛售风险积聚",
+    "resonance_down": "多市场共振下跌 → VIX隐含波动率飙升 → 风险平价/杠杆策略强制减仓 → 同向抛售螺旋与流动性挤兑",
+    "hedge": "黄金与股指走势背离 → 资金在避险与风险资产间再平衡 → 防御/成长板块分化 → 行业轮动加速",
+    "risk_on": "黄金回落与股指同强 → 资金从避险资产流出 → 风险偏好回升 → 成长/周期板块受益",
+}
 
 
-def _sigma_alert(name, change_pct, sigma, kind, direction_hint):
+def _mk_alert(level, asset, message, chain=None):
+    a = {"level": level, "asset": asset, "message": message,
+         "time": datetime.now(CST).strftime("%Y-%m-%d %H:%M")}
+    if chain:
+        a["chain"] = chain
+    return a
+
+
+def _sigma_alert(name, change_pct, sigma, kind, chain):
     """σ 倍数告警：单日波动 ≥2σ 警戒、≥3σ 高危（σ=该标的20日历史波动率）。"""
     if change_pct is None:
         return None
@@ -681,39 +726,48 @@ def _sigma_alert(name, change_pct, sigma, kind, direction_hint):
     return _mk_alert(
         level, name,
         f"{name}单日{'涨' if change_pct > 0 else '跌'}{abs(change_pct):.2f}%，"
-        f"达20日历史波动率的 {mult:.1f} 倍（σ={s:.2f}%，突破 {line:.0f}σ {level_name}线{approx}），"
-        f"{direction_hint}")
+        f"达20日历史波动率的 {mult:.1f} 倍（σ={s:.2f}%，突破 {line:.0f}σ {level_name}线{approx}）",
+        chain)
 
 
 def compute_alerts(markets, key_assets):
-    """单标的 σ 倍数告警 + 跨资产联动提示。"""
+    """单标的 σ 倍数告警 + 跨资产联动提示，附具体传导路径。"""
     alerts = []
 
-    index_items = []
+    index_items = []   # (group, item)
     for group in ("a_share", "hk", "us", "global"):
         for it in markets.get(group) or []:
             if it.get("change_pct") is not None:
-                index_items.append(it)
+                index_items.append((group, it))
 
     def mult_of(it, kind):
         s = it.get("sigma") or FALLBACK_SIGMA.get(kind) or 0
         return abs(it.get("change_pct") or 0) / s if s > 0 else 0
 
-    for it in index_items:
+    for group, it in index_items:
         a = _sigma_alert(it["name"], it["change_pct"], it.get("sigma"), "index",
-                         "需警惕资金连锁调仓与跨市场传导。")
+                         ALERT_CHAINS.get(group, ALERT_CHAINS["global"]))
         if a:
             alerts.append(a)
 
     for it in key_assets.get("commodities") or []:
-        a = _sigma_alert(it["name"], it.get("change_pct"), it.get("sigma"), "commodity",
-                         "商品波动可能向相关板块与通胀预期传导。")
+        cname = it["name"]
+        if "黄金" in cname:
+            ck = "gold"
+        elif "白银" in cname:
+            ck = "silver"
+        elif "原油" in cname:
+            ck = "oil"
+        else:
+            ck = "oil"
+        a = _sigma_alert(cname, it.get("change_pct"), it.get("sigma"), "commodity",
+                         ALERT_CHAINS[ck])
         if a:
             alerts.append(a)
 
     for it in key_assets.get("crypto") or []:
         a = _sigma_alert(it["name"], it.get("change_pct"), it.get("sigma"), "crypto",
-                         "加密资产高波动期常伴随风险偏好急变。")
+                         ALERT_CHAINS["crypto"])
         if a:
             alerts.append(a)
 
@@ -734,22 +788,24 @@ def compute_alerts(markets, key_assets):
             alerts.append(_mk_alert(
                 level, bond["name"],
                 f"{bond['name']}单日变动 {bond['change_bp']:+.1f}bp，"
-                f"达20日历史波动率的 {mult:.1f} 倍（σ={s_bp:.1f}bp，突破 {line:.0f}σ {level_name}线{approx}），"
-                "美债利率剧烈波动将影响全球风险资产定价。"))
+                f"达20日历史波动率的 {mult:.1f} 倍（σ={s_bp:.1f}bp，突破 {line:.0f}σ {level_name}线{approx}）",
+                ALERT_CHAINS["bond"]))
 
     # 联动规则 1：≥3 个主要股指同向出现 ≥1.5σ 波动 → 共振提示
-    up = [it["name"] for it in index_items
+    up = [it["name"] for _, it in index_items
           if (it.get("change_pct") or 0) > 0 and mult_of(it, "index") >= 1.5]
-    down = [it["name"] for it in index_items
+    down = [it["name"] for _, it in index_items
             if (it.get("change_pct") or 0) < 0 and mult_of(it, "index") >= 1.5]
     if len(up) >= 3:
         alerts.append(_mk_alert("warning", "全球股指",
                                 f"{'、'.join(up[:3])}等 {len(up)} 个主要股指单日齐涨且均超1.5倍σ，"
-                                "风险偏好显著升温，注意追高风险。"))
+                                "风险偏好显著升温，注意追高风险。",
+                                ALERT_CHAINS["resonance_up"]))
     if len(down) >= 3:
         alerts.append(_mk_alert("danger" if len(down) >= 4 else "warning", "全球股指",
                                 f"{'、'.join(down[:3])}等 {len(down)} 个主要股指单日齐跌且均超1.5倍σ，"
-                                "全球风险资产共振走弱，警惕连锁抛售。"))
+                                "全球风险资产共振走弱，警惕连锁抛售。",
+                                ALERT_CHAINS["resonance_down"]))
 
     # 联动规则 2：避险资产与风险资产背离 → 避险情绪提示
     gold = next((g for g in key_assets.get("commodities") or []
@@ -759,11 +815,13 @@ def compute_alerts(markets, key_assets):
         if gold["change_pct"] > 0 and g_mult >= 1.5 and down:
             alerts.append(_mk_alert("warning", "避险情绪",
                                     f"黄金单日上涨 {gold['change_pct']:.2f}%（{g_mult:.1f}倍σ），"
-                                    f"同时{'、'.join(down[:2])}走跌，避险情绪与风险资产分化。"))
+                                    f"同时{'、'.join(down[:2])}走跌，避险情绪与风险资产分化。",
+                                    ALERT_CHAINS["hedge"]))
         elif gold["change_pct"] < 0 and g_mult >= 1.5 and up:
             alerts.append(_mk_alert("warning", "风险偏好",
                                     f"黄金单日下跌 {abs(gold['change_pct']):.2f}%（{g_mult:.1f}倍σ），"
-                                    f"同时{'、'.join(up[:2])}走强，资金流向风险资产。"))
+                                    f"同时{'、'.join(up[:2])}走强，资金流向风险资产。",
+                                    ALERT_CHAINS["risk_on"]))
 
     # 排序：danger 优先，再按时间
     alerts.sort(key=lambda a: 0 if a["level"] == "danger" else 1)
@@ -972,7 +1030,7 @@ def main():
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 4,
+        "schema_version": 5,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
@@ -984,7 +1042,7 @@ def main():
         "news": news,
         "wuxing": wuxing,
         "errors": {k: v for k, v in errors.items() if v},
-        "disclaimer": "行情与新闻数据来自公开来源，仅供研究参考，不构成投资建议；接口可能因上游网站变化而失效。告警基于各标的20日历史波动率（σ）倍数（2σ警戒/3σ高危），为程序化提示，不构成投资建议。",
+        "disclaimer": "行情与新闻数据来自公开来源，仅供研究参考，不构成投资建议；接口可能因上游网站变化而失效。告警基于各标的20日历史波动率（σ）倍数（2σ警戒/3σ高危），传导路径为程序化生成的机制示意，不构成投资建议。",
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)

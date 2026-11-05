@@ -36,6 +36,27 @@
     line-height: 1.6;
     min-height: 100vh;
   }
+  /* 科技感背景层：淡网格 + 漂移光晕（纯CSS，不影响交互） */
+  body::before {
+    content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+    background-image:
+      linear-gradient(rgba(79, 156, 249, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(79, 156, 249, 0.05) 1px, transparent 1px);
+    background-size: 44px 44px;
+    -webkit-mask-image: radial-gradient(950px 620px at 50% 0%, #000 25%, transparent 72%);
+    mask-image: radial-gradient(950px 620px at 50% 0%, #000 25%, transparent 72%);
+  }
+  body::after {
+    content: ""; position: fixed; z-index: -1; pointer-events: none;
+    width: 560px; height: 560px; border-radius: 50%;
+    background: radial-gradient(circle, rgba(79, 156, 249, 0.10), transparent 62%);
+    top: -140px; right: -100px;
+    animation: drift 18s ease-in-out infinite alternate;
+  }
+  @keyframes drift {
+    from { transform: translate(0, 0) scale(1); }
+    to   { transform: translate(-200px, 140px) scale(1.3); }
+  }
   .num { font-variant-numeric: tabular-nums; font-family: "SF Mono", ui-monospace, Menlo, Consolas, monospace; }
 
   .wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px 64px; }
@@ -63,11 +84,17 @@
   .topline { height: 1px; background: linear-gradient(90deg, transparent, var(--card-border), transparent); margin: 18px 0 24px; }
 
   /* ---------- section 通用 ---------- */
-  section { margin-bottom: 40px; }
+  section { margin-bottom: 40px; animation: fadeUp 0.5s ease both; }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: none; }
+  }
   .sec-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 14px; }
   .sec-head h2 {
     font-size: 18px; font-weight: 800; letter-spacing: 0.5px;
-    border-left: 3px solid var(--gold); padding-left: 10px; line-height: 1.3;
+    border-left: 3px solid;
+    border-image: linear-gradient(180deg, var(--gold), rgba(217, 178, 60, 0.15)) 1;
+    padding-left: 10px; line-height: 1.3;
   }
   .sec-head .tag { font-size: 11px; color: var(--text-faint); border: 1px solid var(--card-border); padding: 1px 8px; border-radius: 999px; }
   .sec-head .more { margin-left: auto; font-size: 12.5px; color: var(--text-dim); text-decoration: none; }
@@ -78,6 +105,11 @@
     border: 1px solid var(--card-border);
     border-radius: var(--radius);
     padding: 18px 20px;
+    transition: border-color 0.25s, box-shadow 0.25s;
+  }
+  .card:hover {
+    border-color: rgba(255, 255, 255, 0.13);
+    box-shadow: 0 0 0 1px rgba(79, 156, 249, 0.06), 0 8px 30px rgba(0, 0, 0, 0.25);
   }
   .missing { color: var(--text-faint); font-size: 13.5px; padding: 14px 0; text-align: center; }
   .err-note { color: var(--text-faint); font-size: 11.5px; margin-top: 10px; }
@@ -110,11 +142,18 @@
     cursor: pointer;
     user-select: none;
   }
-  .asset .nm { font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .asset .nm { min-width: 0; display: flex; flex-direction: column; line-height: 1.35; }
+  .asset .nm .t { font-size: 13.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .asset .nm .cd {
+    font-size: 9.5px; color: var(--text-faint); letter-spacing: 0.4px; margin-top: 1px;
+    font-family: "SF Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
   .asset .px { font-size: 14px; text-align: right; min-width: 86px; }
   .asset .px .chg { font-size: 11px; margin-left: 5px; }
   .spark { display: block; width: 56px; height: 18px; opacity: 0.9; }
   .spark.empty { width: 56px; height: 18px; border-bottom: 1px dashed var(--card-border); opacity: 0.4; }
+  .spark .ln-up { filter: drop-shadow(0 0 2.5px rgba(255, 123, 111, 0.55)); }
+  .spark .ln-down { filter: drop-shadow(0 0 2.5px rgba(67, 214, 156, 0.55)); }
   .ln-up { stroke: var(--up-soft); }
   .ln-down { stroke: var(--down-soft); }
   .badge { font-size: 12px; padding: 2px 8px; border-radius: 6px; min-width: 76px; text-align: center; }
@@ -169,8 +208,35 @@
     border-left-color: var(--gold); color: #e8cd7a;
   }
   .alert .ico { flex: none; margin-top: 1px; }
+  .alert.danger .ico { animation: warnPulse 1.6s ease-in-out infinite; }
+  @keyframes warnPulse {
+    0%, 100% { opacity: 1; text-shadow: 0 0 8px rgba(240, 74, 61, 0.65); }
+    50% { opacity: 0.55; text-shadow: none; }
+  }
+  #alerts-box .alert { animation: fadeUp 0.4s ease both; }
+  #alerts-box .alert:nth-child(2) { animation-delay: 0.05s; }
+  #alerts-box .alert:nth-child(3) { animation-delay: 0.1s; }
+  #alerts-box .alert:nth-child(4) { animation-delay: 0.15s; }
+  #alerts-box .alert:nth-child(5) { animation-delay: 0.2s; }
+  #alerts-box .alert:nth-child(n+6) { animation-delay: 0.25s; }
   .alert b { color: inherit; margin-right: 2px; }
   .alert .at { color: var(--text-faint); font-size: 11px; margin-left: 8px; white-space: nowrap; }
+  /* 传导路径链式流程 */
+  .alert .chain {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 3px 6px;
+    margin-top: 7px; font-size: 11px; color: var(--text-dim);
+  }
+  .alert .chain .step {
+    border: 1px solid var(--card-border); border-radius: 5px;
+    padding: 1px 7px; background: rgba(255, 255, 255, 0.03); white-space: nowrap;
+  }
+  .alert.danger .chain .step { border-color: rgba(240, 74, 61, 0.28); background: rgba(240, 74, 61, 0.06); }
+  .alert.warning .chain .step { border-color: rgba(217, 178, 60, 0.24); background: rgba(217, 178, 60, 0.05); }
+  .alert .chain .lbl {
+    flex: none; color: var(--text-faint); letter-spacing: 1px;
+    font-size: 10px; margin-right: 2px; padding-top: 1px;
+  }
+  .alert .chain .arw { color: var(--gold); font-style: normal; font-size: 10px; }
 
   .gnote { font-size: 10px; color: var(--text-faint); font-weight: 400; letter-spacing: 0; }
   .news-item .src {
@@ -262,7 +328,25 @@
     .market-groups, .two-col, .wx-cols, .legacy-grid { grid-template-columns: 1fr; }
     header.site .right { margin-left: 0; text-align: left; width: 100%; }
     .news-list { max-height: none; }
-    .asset .px { min-width: 74px; }
+  }
+  /* 移动端：隐藏迷你走势与箭头，名称+代码占满首行，价格换行显示，徽章右侧居中 */
+  @media (max-width: 640px) {
+    .asset .row {
+      grid-template-columns: minmax(0, 1fr) auto;
+      grid-template-areas:
+        "nm badge"
+        "px badge";
+      row-gap: 3px;
+      padding: 10px 12px;
+    }
+    .asset .nm { grid-area: nm; }
+    .asset .nm .t { white-space: normal; font-size: 14px; }
+    .asset .px { grid-area: px; text-align: left; min-width: 0; }
+    .asset .badge { grid-area: badge; align-self: center; min-width: 72px; }
+    .asset .spark, .asset .chev { display: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    body::after, .alert.danger .ico, #alerts-box .alert, section { animation: none; }
   }
 </style>
 </head>
@@ -350,7 +434,7 @@
   </section>
 
   <footer class="site">
-    <span>© Demonh6 · 数据来自公开来源（新浪财经 / 东方财富 / OKX / akshare），仅供研究参考，不构成投资建议 · 告警基于20日历史波动率σ倍数（2σ警戒 / 3σ高危）</span>
+    <span>© Demonh6 · 数据来自公开来源（新浪财经 / 东方财富 / OKX / akshare），仅供研究参考，不构成投资建议 · 告警基于20日历史波动率σ倍数（2σ警戒 / 3σ高危）· 传导路径为机制示意</span>
     <span style="margin-left:auto;"><a href="https://github.com/demonh6" target="_blank" rel="noopener">GitHub ↗</a></span>
   </footer>
 
@@ -422,7 +506,7 @@
       '<stop offset="100%" stop-color="' + col + '" stop-opacity="0.02"/></linearGradient></defs>' +
       '<line x1="' + pad + '" y1="' + y0 + '" x2="' + (W - pad) + '" y2="' + y0 + '" stroke="rgba(255,255,255,0.18)" stroke-dasharray="3,3"/>' +
       '<path d="' + area + '" fill="url(#' + id + ')"/>' +
-      '<path d="' + line + '" fill="none" stroke="' + col + '" stroke-width="1.6"/>' +
+      '<path d="' + line + '" fill="none" stroke="' + col + '" stroke-width="1.6" style="filter:drop-shadow(0 0 5px ' + col + '55)"/>' +
       '<circle cx="' + last[0].toFixed(1) + '" cy="' + last[1].toFixed(1) + '" r="3" fill="' + col + '"/>' +
       '<text x="' + (pad + 2) + '" y="' + (pad + 9) + '" font-size="10" fill="#8b98a9">高 ' + fmt(max) + '</text>' +
       '<text x="' + (pad + 2) + '" y="' + (H - 2) + '" font-size="10" fill="#8b98a9">低 ' + fmt(min) + '</text>' +
@@ -467,7 +551,8 @@
 
     return '<div class="asset' + (hasHist ? '' : ' nohist') + '" tabindex="0" role="button" aria-expanded="false">' +
       '<div class="row">' +
-        '<span class="nm">' + it.name + '</span>' +
+        '<span class="nm"><span class="t">' + it.name + '</span>' +
+          (it.sym ? '<span class="cd">' + it.sym + '</span>' : '') + '</span>' +
         sparkSVG(it.hist) +
         '<span class="px num">' + px + chgHtml + '</span>' +
         '<span class="badge num ' + c + '">' + badge + '</span>' +
@@ -487,10 +572,17 @@
     if (!alerts || !alerts.length) { box.innerHTML = ""; return; }
     var icons = { danger: "⚠", warning: "⚡" };
     box.innerHTML = alerts.map(function (a) {
+      var chain = "";
+      if (a.chain) {
+        var steps = a.chain.split(" → ").map(function (s) {
+          return '<span class="step">' + s + '</span>';
+        }).join('<i class="arw">→</i>');
+        chain = '<div class="chain"><span class="lbl">传导路径</span>' + steps + '</div>';
+      }
       return '<div class="alert ' + a.level + '">' +
         '<span class="ico">' + (icons[a.level] || "•") + '</span>' +
         '<div><b>' + a.asset + '</b> ' + a.message +
-          '<span class="at">' + (a.time || "") + '</span></div>' +
+          '<span class="at">' + (a.time || "") + '</span>' + chain + '</div>' +
         '</div>';
     }).join("");
   }
@@ -510,7 +602,7 @@
       var keys = [];
       if (ka.bond) {
         keys.push({
-          name: ka.bond.name, price: ka.bond.value, unit: "%",
+          name: ka.bond.name, sym: ka.bond.sym || "US10Y", price: ka.bond.value, unit: "%",
           change_pct: null, change_bp: ka.bond.change_bp,
           hist: ka.bond.hist, sigma_bp: ka.bond.sigma_bp, date: ka.bond.date,
         });
