@@ -61,7 +61,7 @@ CRYPTO_TARGETS = (
 ALERT_SIGMA = (2.0, 3.0)       # (warning, danger) σ 倍数
 VOL_WINDOW = 20                # 波动率窗口（交易日）
 HIST_DAYS = 30                 # 前端走势图展示天数
-# 历史数据缺失时使用的长期日均波动率经验值（%）：
+# 历史数据缺失时的长期日均波动率经验值（%，用于σ告警兜底）：
 # 全球主要股指长期日 σ ≈1%~1.5%，商品 ≈1.5%~2%，主流加密 ≈3%~4%，美债10Y ≈5~8bp
 FALLBACK_SIGMA = {"index": 1.2, "commodity": 1.8, "crypto": 3.5}
 FALLBACK_SIGMA_BP = 6.0        # 美债收益率日变动 σ 经验值（bp）
