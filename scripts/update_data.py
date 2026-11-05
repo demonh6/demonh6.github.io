@@ -418,13 +418,68 @@ def fetch_global_indices():
 # 关键标的采集（美债 / 贵金属 / 能源 / 加密货币）
 # --------------------------------------------------------------------------
 
-def fetch_us10y():
-    """美国 10 年期国债收益率（bond_zh_us_rate，取末两个有效值算日变动 bp）。"""
-    import akshare as ak
+def _us10y_from_fred():
+    """FRED（美联储圣路易斯分行）官方 DGS10 日频 CSV，最权威且 T+1 更新。"""
+    r = requests.get("https://fred.stlouisfed.org/graph/fredgraph.csv",
+                     params={"id": "DGS10", "cosd": "2026-01-01"},
+                     headers=_UA_HEADERS, timeout=HTTP_TIMEOUT + 8)
+    r.raise_for_status()
+    rows = []
+    for line in r.text.strip().split("\n")[1:]:
+        parts = line.split(",")
+        if len(parts) >= 2 and parts[1] not in (".", ""):
+            rows.append((parts[0], to_float(parts[1])))
+    rows = [(d, v) for d, v in rows if v and v > 0]
+    if len(rows) < 2:
+        raise ValueError("FRED 有效行不足")
+    (d1, v1), (d2, v2) = rows[-1], rows[-2]
+    return {"value": v1, "change_bp": round((v1 - v2) * 100, 1),
+            "date": d1, "source": "FRED(美联储)",
+            "hist": [v for _, v in rows[-HIST_DAYS:]]}
 
+
+def _us10y_from_sina_daily():
+    """新浪全球债券日线（bond_gb_us_sina）。"""
+    import akshare as ak
+    df = ak.bond_gb_us_sina()
+    if df is None or df.empty:
+        raise RuntimeError("新浪美债日线为空")
+    valid = []
+    for i in range(len(df) - 1, -1, -1):
+        v = to_float(df.iloc[i].get("close"))
+        if v is not None and v > 0:
+            valid.append((str(df.iloc[i].get("date", ""))[:10], v))
+            if len(valid) >= 2:
+                break
+    if not valid:
+        raise RuntimeError("新浪美债日线无有效值")
+    (d1, v1), (d2, v2) = valid[0], (valid[1] if len(valid) > 1 else (None, None))
+    all_closes = [to_float(df.iloc[i].get("close")) for i in range(len(df))]
+    return {"value": v1,
+            "change_bp": round((v1 - v2) * 100, 1) if v2 else None,
+            "date": d1, "source": "新浪债券",
+            "hist": [v for v in all_closes if v and v > 0][-HIST_DAYS:]}
+
+
+def fetch_us10y():
+    """美国 10 年期国债收益率：FRED官方 → 新浪日线 → 中债(bond_zh_us_rate) 三级降级。
+
+    中债源曾出现连续多日停更（date 滞后），故优先使用美国官方 FRED。
+    """
+    errors = []
+    for fn in (_us10y_from_fred, _us10y_from_sina_daily):
+        try:
+            out = fn()
+            log(f"OK   美债10Y({out['source']}) {out['value']}% @ {out['date']}")
+            return _us10y_finalize(out)
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{fn.__name__}: {type(e).__name__}")
+            log(f"降级 美债10Y {fn.__name__}: {type(e).__name__}")
+    # 末级：中债（可能滞后但聊胜于无），保留原有逻辑
+    import akshare as ak
     df = ak.bond_zh_us_rate()
     if df is None or df.empty:
-        raise RuntimeError("美债收益率接口返回为空")
+        raise RuntimeError("；".join(errors) or "美债收益率接口返回为空")
     valid = []
     for i in range(len(df) - 1, -1, -1):
         row = df.iloc[i]
@@ -434,7 +489,7 @@ def fetch_us10y():
             if len(valid) >= 2:
                 break
     if not valid:
-        raise RuntimeError("美债收益率末行无有效值")
+        raise RuntimeError("；".join(errors) or "美债收益率末行无有效值")
     last = valid[0]
     prev = valid[1] if len(valid) >= 2 else None
     value = to_float(last.get("美国国债收益率10年"))
@@ -443,14 +498,34 @@ def fetch_us10y():
         prev_v = to_float(prev.get("美国国债收益率10年"))
         if prev_v is not None:
             change_bp = round((value - prev_v) * 100, 1)
-    return {
+    log(f"OK   美债10Y(中债,可能滞后) {value}% @ {last.get('日期')}")
+    return _us10y_finalize({
+        "value": value, "change_bp": change_bp,
+        "date": str(last.get("日期", "")), "source": "中债信息网",
+        "hist": None,
+    })
+
+
+def _us10y_finalize(out):
+    """统一美债返回结构，hist/sigma 由 attach_histories 补充或此处直填。"""
+    item = {
         "name": "美国10年期国债收益率",
         "sym": "US10Y",
-        "value": value,
+        "value": out["value"],
         "unit": "%",
-        "change_bp": change_bp,
-        "date": str(last.get("日期", "")),
+        "change_bp": out.get("change_bp"),
+        "date": out.get("date", ""),
+        "source": out.get("source", ""),
     }
+    if out.get("hist"):
+        item["hist"] = [round(v, 4) for v in out["hist"][-HIST_DAYS:]]
+        chg_bp = [(out["hist"][i] - out["hist"][i - 1]) * 100
+                  for i in range(max(1, len(out["hist"]) - VOL_WINDOW), len(out["hist"]))]
+        if len(chg_bp) >= VOL_WINDOW * 0.8:
+            mean = sum(chg_bp) / len(chg_bp)
+            var = sum((c - mean) ** 2 for c in chg_bp) / len(chg_bp)
+            item["sigma_bp"] = round(var ** 0.5, 2)
+    return item
 
 
 def fetch_commodities():
@@ -709,7 +784,8 @@ def attach_histories(markets, key_assets):
         time.sleep(0.3)
 
     bond = key_assets.get("bond")
-    if bond:
+    if bond and not bond.get("hist"):
+        # FRED/新浪主源已填 hist 时跳过（避免中债滞后数据覆盖）
         df = job("美债10Y", ak.bond_zh_us_rate)
         if df is not None:
             yields = _closes(df, col="美国国债收益率10年")
@@ -727,23 +803,58 @@ def attach_histories(markets, key_assets):
 # 波动告警
 # --------------------------------------------------------------------------
 
-# 具体传导路径（" → " 分隔，前端渲染为链式流程图）：
-# 参考宏观对冲基金风险传导框架与风险平价/CTA/波动率策略的常见联动机制。
+# 具体传导路径：按资产与涨跌方向区分（" → " 分隔，前端渲染为链式流程图）。
+# 每一步都写明"主体+动作+对象"，描述资金/机制的流动方向，而非抽象概念。
 ALERT_CHAINS = {
-    "a_share": "权重板块异动 → 两融与量化策略调仓 → 行业ETF资金申赎 → 中小盘流动性传导",
-    "hk": "恒指系异动 → 股指期货/期权对冲盘增加 → 南向资金流向变化 → A/H溢价联动A股",
-    "us": "美股估值重定价 → 全球股票ETF再平衡 → 亚太市场次日开盘联动 → 北向资金流向变化",
-    "global": "欧/亚股指异动 → 跨市场风险偏好重定价 → 全球ETF资金再平衡 → 美股时段联动放大",
-    "gold": "避险资金涌入黄金 → 实际利率与美元指数波动 → 贵金属板块与黄金股联动 → 通胀对冲需求上升",
-    "silver": "白银急波动 → 贵金属与工业双重属性定价 → 金银比价波动 → 光伏/电子产业链成本传导",
-    "oil": "油价急变 → 通胀预期重定价 → 债券收益率与商品货币波动 → 能源/航空/化工板块分化",
-    "crypto": "币价急波动 → 高杠杆头寸连环清算 → 稳定币与链上流动性收缩 → 纳指等科技股风险偏好联动",
-    "bond": "美债收益率急变 → 全球资产定价锚移动 → 成长股估值与美元流动性重定价 → 新兴市场资金流向逆转",
-    "resonance_up": "多市场共振上涨 → 隐含波动率回落 → 杠杆与趋势策略加仓 → 回撤时同向抛售风险积聚",
-    "resonance_down": "多市场共振下跌 → VIX隐含波动率飙升 → 风险平价/杠杆策略强制减仓 → 同向抛售螺旋与流动性挤兑",
-    "hedge": "黄金与股指走势背离 → 资金在避险与风险资产间再平衡 → 防御/成长板块分化 → 行业轮动加速",
-    "risk_on": "黄金回落与股指同强 → 资金从避险资产流出 → 风险偏好回升 → 成长/周期板块受益",
+    "a_share": {
+        "up": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现",
+        "down": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化",
+    },
+    "hk": {
+        "up": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强",
+        "down": "恒指急跌使牛熊证批量打靶回收 → 发行商对冲抛售正股加深跌势 → 恒科杠杆产品强制减仓 → 南向资金转向观望 → AH溢价走阔，拖累A股情绪",
+    },
+    "us": {
+        "up": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随",
+        "down": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开",
+    },
+    "global": {
+        "up": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅",
+        "down": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫",
+    },
+    "gold": {
+        "up": "避险资金涌入黄金ETF与期货 → 金价上行压低实际利率预期 → 美元信用担忧升温 → 黄金股/贵金属板块联动走强 → 通胀对冲需求进一步放大涨幅",
+        "down": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场",
+    },
+    "silver": {
+        "up": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导",
+        "down": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善",
+    },
+    "oil": {
+        "up": "油价急涨 → 通胀预期抬升推高美债收益率 → 商品货币(加元/澳元)走强 → 航空/物流成本承压、能源股受益 → 央行紧缩预期升温压制成长股",
+        "down": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头",
+    },
+    "crypto": {
+        "up": "币价急涨 → 空头杠杆被连环强平(轧空) → 强平买单进一步推高价格 → 稳定币加速流入加密市场 → 与纳指联动的高风险偏好扩散",
+        "down": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累",
+    },
+    "bond": {
+        "up": "收益率上行 → 持有美债的银行/基金出现浮亏、被迫减持 → 贴现率抬升压制成长股估值(纳指首当其冲) → 美元走强抽离新兴市场流动性 → 北向资金流入A股放缓",
+        "down": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股",
+    },
+    "resonance_up": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升",
+    "resonance_down": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑",
+    "hedge": "黄金与股指走势背离 → 避险资金从股票流出转向黄金/美债 → 防御板块(公用事业/医药)与成长板块分化 → 行业轮动加速",
+    "risk_on": "黄金回落与股指同强 → 避险盘撤出、资金回流股市 → 风险偏好回升 → 成长/周期板块受益",
 }
+
+
+def _chain_for(key, change):
+    """按涨跌方向取传导链；change>0 取 up，<0 取 down，None 兜底 up。"""
+    sub = ALERT_CHAINS.get(key)
+    if isinstance(sub, dict):
+        return sub.get("up" if (change or 0) >= 0 else "down")
+    return sub
 
 
 def _mk_alert(level, asset, message, chain=None):
@@ -794,7 +905,7 @@ def compute_alerts(markets, key_assets):
 
     for group, it in index_items:
         a = _sigma_alert(it["name"], it["change_pct"], it.get("sigma"), "index",
-                         ALERT_CHAINS.get(group, ALERT_CHAINS["global"]))
+                         _chain_for(group, it.get("change_pct")))
         if a:
             alerts.append(a)
 
@@ -804,18 +915,16 @@ def compute_alerts(markets, key_assets):
             ck = "gold"
         elif "白银" in cname:
             ck = "silver"
-        elif "原油" in cname:
-            ck = "oil"
         else:
             ck = "oil"
         a = _sigma_alert(cname, it.get("change_pct"), it.get("sigma"), "commodity",
-                         ALERT_CHAINS[ck])
+                         _chain_for(ck, it.get("change_pct")))
         if a:
             alerts.append(a)
 
     for it in key_assets.get("crypto") or []:
         a = _sigma_alert(it["name"], it.get("change_pct"), it.get("sigma"), "crypto",
-                         ALERT_CHAINS["crypto"])
+                         _chain_for("crypto", it.get("change_pct")))
         if a:
             alerts.append(a)
 
@@ -833,11 +942,12 @@ def compute_alerts(markets, key_assets):
             level = None
         if level:
             line = d if level == "danger" else w
+            direction = "收益率上行" if bond["change_bp"] > 0 else "收益率下行"
             alerts.append(_mk_alert(
                 level, bond["name"],
-                f"{bond['name']}单日变动 {bond['change_bp']:+.1f}bp，"
+                f"{bond['name']}单日变动 {bond['change_bp']:+.1f}bp（{direction}），"
                 f"达20日历史波动率的 {mult:.1f} 倍（σ={s_bp:.1f}bp，突破 {line:.0f}σ {level_name}线{approx}）",
-                ALERT_CHAINS["bond"]))
+                _chain_for("bond", bond["change_bp"])))
 
     # 联动规则 1：≥3 个主要股指同向出现 ≥1.5σ 波动 → 共振提示
     up = [it["name"] for _, it in index_items
@@ -1427,7 +1537,7 @@ def main():
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 8,
+        "schema_version": 9,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
@@ -1442,7 +1552,7 @@ def main():
         "news_meta": news_meta,
         "wuxing": wuxing,
         "errors": {k: v for k, v in errors.items() if v},
-        "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/alternative.me），仅供研究参考，不构成投资建议。风险仪表：VIX及期限结构VIX9D/1M/3M/6M(CBOE官方)、恐惧贪婪指数(alternative.me)、A股广度(东财)。量能分位为近250个交易日统计；关键人物发言由大国政要/央行/科技巨头关键词从新闻池匹配；告警基于20日历史波动率σ倍数，传导路径为机制示意。",
+        "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/FRED/alternative.me），仅供研究参考，不构成投资建议。美债10Y优先FRED官方日频数据（中债源滞后时自动降级）。传导路径按资产与涨跌方向生成，描述资金/机制的具体流动方向，为程序化示意，不构成投资建议。",
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
