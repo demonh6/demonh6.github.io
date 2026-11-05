@@ -96,6 +96,31 @@
   .flat { color: var(--text-dim); }
   .flat.badge { background: rgba(255, 255, 255, 0.06); }
 
+  /* ---------- 告警横幅 ---------- */
+  #alerts-box { display: grid; gap: 8px; margin-bottom: 26px; }
+  .alert {
+    display: flex; gap: 10px; align-items: flex-start;
+    padding: 10px 14px; border-radius: 10px; font-size: 13px;
+    border: 1px solid;
+  }
+  .alert.danger {
+    background: rgba(240, 74, 61, 0.10); border-color: rgba(240, 74, 61, 0.35);
+    color: #ffb0a8;
+  }
+  .alert.warning {
+    background: rgba(217, 178, 60, 0.09); border-color: rgba(217, 178, 60, 0.32);
+    color: #e8cd7a;
+  }
+  .alert .ico { flex: none; margin-top: 1px; }
+  .alert b { color: inherit; margin-right: 2px; }
+  .alert .at { color: var(--text-faint); font-size: 11px; margin-left: 8px; }
+
+  .gnote { font-size: 10px; color: var(--text-faint); font-weight: 400; margin-left: 6px; letter-spacing: 0; }
+  .news-item .src {
+    font-size: 10px; color: var(--text-faint); border: 1px solid var(--card-border);
+    border-radius: 4px; padding: 0 4px; margin-left: 6px; vertical-align: 1px;
+  }
+
   /* ---------- 要闻 + 五行 双列 ---------- */
   .two-col { display: grid; grid-template-columns: 1.15fr 1fr; gap: 14px; align-items: start; }
 
@@ -194,6 +219,9 @@
     </div>
   </header>
   <div class="topline"></div>
+
+  <!-- ============ 波动告警 ============ -->
+  <div id="alerts-box"></div>
 
   <!-- ============ 全球主要股市速览 ============ -->
   <section id="markets">
@@ -305,22 +333,73 @@
       '</div>';
   }
 
-  function renderMarkets(m) {
+  function keyRow(it) {
+    var c = cls(it.change_pct);
+    var px = fmtPx(it.price) + (it.unit || "");
+    var badge = fmtPct(it.change_pct);
+    var sub = "";
+    if (it.change_bp !== null && it.change_bp !== undefined) {
+      badge = arrow(it.change_bp) + " " + Math.abs(it.change_bp).toFixed(1) + "bp";
+      sub = "";
+    }
+    return '<div class="idx">' +
+      '<span class="nm">' + it.name + (sub ? ' <span style="font-size:10px;color:var(--text-faint);">' + sub + '</span>' : '') + '</span>' +
+      '<span class="px num">' + px + '</span>' +
+      '<span class="badge num ' + c + '">' + badge + '</span>' +
+      '</div>';
+  }
+
+  function renderAlerts(alerts) {
+    var box = $("alerts-box");
+    if (!alerts || !alerts.length) { box.innerHTML = ""; return; }
+    var icons = { danger: "⚠", warning: "⚡" };
+    box.innerHTML = alerts.map(function (a) {
+      return '<div class="alert ' + a.level + '">' +
+        '<span class="ico">' + (icons[a.level] || "•") + '</span>' +
+        '<div><b>' + a.asset + '</b> ' + a.message +
+          '<span class="at">' + (a.time || "") + '</span></div>' +
+        '</div>';
+    }).join("");
+  }
+
+  function renderMarkets(m, ka) {
     hide($("markets-boot"));
     var body = $("markets-body");
     var groups = [];
-    if (m.a_share && m.a_share.length) groups.push(["A 股", m.a_share]);
-    if (m.hk && m.hk.length) groups.push(["港 股", m.hk]);
-    if (m.us && m.us.length) groups.push(["美 股", m.us]);
-    if (m.global && m.global.length) groups.push(["亚太 · 欧洲", m.global]);
+    if (m.a_share && m.a_share.length) groups.push(["A 股", m.a_share, idxRow]);
+    if (m.hk && m.hk.length) groups.push(["港 股", m.hk, idxRow]);
+    if (m.us && m.us.length) {
+      groups.push(["美 股", m.us, idxRow,
+        (m.us[0] && m.us[0].quote_time) ? "行情时间 " + m.us[0].quote_time : ""]);
+    }
+    if (m.global && m.global.length) groups.push(["亚太 · 欧洲", m.global, idxRow]);
+    if (ka) {
+      var keys = [];
+      if (ka.bond) {
+        keys.push({
+          name: ka.bond.name, price: ka.bond.value, unit: "%",
+          change_pct: ka.bond.change_bp, change_bp: ka.bond.change_bp,
+        });
+      }
+      (ka.commodities || []).forEach(function (x) { keys.push(x); });
+      (ka.crypto || []).forEach(function (x) {
+        keys.push({ name: x.name, price: x.price, change: x.change, change_pct: x.change_pct });
+      });
+      if (keys.length) {
+        var note = "";
+        if (ka.crypto && ka.crypto.length && ka.crypto[0].source) note = "加密源: " + ka.crypto[0].source;
+        groups.push(["债 · 商品 · 加密", keys, keyRow, note]);
+      }
+    }
 
     if (!groups.length) {
       body.outerHTML = '<div class="missing">行情数据暂缺，请稍后刷新</div>';
       return;
     }
     var html = groups.map(function (g) {
-      return '<div class="mgroup"><h3>' + g[0] + '</h3><div class="idx-list">' +
-        g[1].map(idxRow).join("") + "</div></div>";
+      var note = g[3] ? ' <span class="gnote">' + g[3] + '</span>' : "";
+      return '<div class="mgroup"><h3>' + g[0] + note + '</h3><div class="idx-list">' +
+        g[1].map(g[2]).join("") + "</div></div>";
     }).join("");
     body.innerHTML = html;
     show(body);
@@ -329,6 +408,9 @@
     if (!m.hk) errs.push("港股");
     if (!m.us) errs.push("美股");
     if (!m.global) errs.push("亚太/欧洲指数");
+    if (ka && !ka.bond) errs.push("美债");
+    if (ka && !(ka.commodities || []).length) errs.push("贵金属/能源");
+    if (ka && !(ka.crypto || []).length) errs.push("加密货币");
     if (errs.length) $("markets-err").textContent = "以下分组暂缺：" + errs.join("、") + "（数据源临时不可用）";
   }
 
@@ -342,9 +424,10 @@
     body.innerHTML = items.map(function (n) {
       var t = (n.time || "").replace(/^\d{4}-\d{2}-\d{2}\s*/, "");
       var href = n.url || "javascript:void(0)";
+      var src = n.source ? ' <span class="src">' + n.source + '</span>' : "";
       return '<a class="news-item" href="' + href + '" target="_blank" rel="noopener">' +
         '<span class="t num">' + t + '</span>' +
-        '<span class="h clamp">' + n.title + '</span>' +
+        '<span class="h clamp">' + n.title + src + '</span>' +
         '</a>';
     }).join("");
     show(body);
@@ -410,7 +493,8 @@
       })
       .then(function (d) {
         renderMeta(d);
-        renderMarkets(d.markets || {});
+        renderAlerts(d.alerts);
+        renderMarkets(d.markets || {}, d.key_assets);
         renderNews(d.news);
         renderWuxing(d.wuxing);
       })
