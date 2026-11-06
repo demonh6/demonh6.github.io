@@ -1,7 +1,7 @@
 {
  "schema_version": 9,
- "generated_at": "2026-11-06 07:56:19 CST",
- "generated_at_iso": "2026-11-06T07:56:19+08:00",
+ "generated_at": "2026-11-06 08:29:34 CST",
+ "generated_at_iso": "2026-11-06T08:29:34+08:00",
  "date": "2026-11-06",
  "interval": "hourly",
  "update_frequency_note": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
@@ -934,7 +934,6 @@
     "change_pct": -4.36,
     "quote_time": "2026-11-06 05:34:24",
     "hist": [
-     7704.1299,
      7743.4102,
      7683.6899,
      7670.8398,
@@ -963,14 +962,14 @@
      7580.0698,
      7541.3999,
      7568.9199,
-     7688.6201
+     7688.6201,
+     7353.73
     ],
-    "sigma": 0.791,
-    "volume": 4562882370.0,
-    "vol_chg_pct": 31.7,
-    "vol_pctile": 96.8,
+    "sigma": 1.224,
+    "volume": 5039705072.0,
+    "vol_chg_pct": 34.1,
+    "vol_pctile": 97.2,
     "vol_hist": [
-     2911730778.0,
      2644756076.0,
      2909239042.0,
      2775639595.0,
@@ -999,7 +998,8 @@
      4268617866.0,
      3558585949.0,
      3106803544.0,
-     4562882370.0
+     4562882370.0,
+     5039705072.0
     ]
    }
   ],
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 61077.9,
-    "change": -1110.73,
-    "change_pct": -1.79,
+    "price": 57352.36,
+    "change": -3725.54,
+    "change_pct": -6.1,
     "hist": [
      65018.95,
      65513.99,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5383.8,
-    "change": -300.0,
-    "change_pct": -5.28,
+    "price": 4923.47,
+    "change": -460.33,
+    "change_pct": -8.55,
     "hist": [
      7007.72,
      7017.91,
@@ -1392,52 +1392,19 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4095.55,
-    "change": -17.95,
-    "change_pct": -0.44,
-    "quote_time": "07:55:26 2026-11-06",
-    "hist": [
-     4148.4,
-     4214.8,
-     4188.9,
-     4207.4,
-     4171.7,
-     4167.3,
-     4192.7,
-     4136.6,
-     4158.1,
-     4220.0,
-     4195.7,
-     4184.2,
-     4127.0,
-     4192.5,
-     4186.5,
-     4160.2,
-     4142.6,
-     4159.3,
-     4039.8,
-     4009.5,
-     4030.8,
-     4073.1,
-     4081.1,
-     4033.2,
-     3884.4,
-     3956.4,
-     3940.0,
-     4072.0,
-     4097.8,
-     4099.3
-    ],
-    "sigma": 1.511
+    "price": 4112.51,
+    "change": -0.99,
+    "change_pct": -0.02,
+    "quote_time": "08:28:45 2026-11-06"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.701,
-    "change": -0.675,
-    "change_pct": -1.29,
-    "quote_time": "07:55:23 2026-11-06",
+    "price": 52.04,
+    "change": -0.336,
+    "change_pct": -0.64,
+    "quote_time": "08:28:22 2026-11-06",
     "hist": [
      61.025,
      61.84,
@@ -1468,18 +1435,18 @@
      49.81,
      52.325,
      51.82,
-     51.735
+     51.995
     ],
-    "sigma": 2.896
+    "sigma": 2.904
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 91.304,
-    "change": 0.784,
-    "change_pct": 0.87,
-    "quote_time": "07:55:00 2026-11-06",
+    "price": 91.024,
+    "change": 0.504,
+    "change_pct": 0.56,
+    "quote_time": "08:28:43 2026-11-06",
     "hist": [
      93.28,
      88.93,
@@ -1510,7 +1477,7 @@
      96.75,
      88.03,
      91.2,
-     91.25
+     90.94
     ],
     "sigma": 3.024
    },
@@ -1597,9 +1564,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75951.1,
-    "change": -4594.7,
-    "change_pct": -5.7,
+    "price": 76228.5,
+    "change": -4454.8,
+    "change_pct": -5.52,
     "source": "okx",
     "hist": [
      81031.3,
@@ -1631,17 +1598,17 @@
      77698.6,
      80299.9,
      76038.5,
-     76002.4
+     76216.6
     ],
-    "sigma": 2.139
+    "sigma": 2.142
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2234.25,
-    "change": -192.03,
-    "change_pct": -7.91,
+    "price": 2244.11,
+    "change": -182.34,
+    "change_pct": -7.51,
     "source": "okx",
     "hist": [
      2435.63,
@@ -1673,17 +1640,17 @@
      2299.61,
      2426.44,
      2252.59,
-     2236.81
+     2243.08
     ],
-    "sigma": 2.983
+    "sigma": 2.982
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.19,
-    "change": -6.4,
-    "change_pct": -6.7,
+    "price": 90.07,
+    "change": -5.69,
+    "change_pct": -5.94,
     "source": "okx",
     "hist": [
      108.56,
@@ -1715,19 +1682,19 @@
      93.76,
      96.7,
      90.21,
-     89.32
+     90.03
     ],
-    "sigma": 2.87
+    "sigma": 2.871
    }
   ]
  },
  "sentiment": {
   "fear_greed": {
-   "value": 50,
-   "classification": "Neutral",
-   "label": "中性",
-   "color": "#d9b23c",
-   "timestamp": "2026-11-05",
+   "value": 28,
+   "classification": "Fear",
+   "label": "恐惧",
+   "color": "#f58a3d",
+   "timestamp": "2026-11-06",
    "source": "alternative.me"
   },
   "a_share_breadth": {
@@ -1809,33 +1776,33 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 75.0,
-   "label": "极度贪婪",
-   "color": "#26a56b"
+   "score": 64.0,
+   "label": "贪婪",
+   "color": "#8ac96f"
   }
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储两官员释放鹰派信号，哈马克支持渐进式加息 - ThePaper.cn",
+   "summary": "",
+   "time": "2026-11-06 08:18",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Gd3FPMWpSTmYwMWFFeFBIQUlSbVBGUWhNaEdheEt1bUk4SFlKUDVLTi1UYmwxXzBjSjVseXdFZDZFMWh5TDRma2N6cGphSllTQ1NfUW9WMmY5SUlXUVZYTQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "美国中期选举民主党大胜后美股暴跌 纳指跌5.52% 特朗普归咎民主党 - 凤凰网",
+   "title": "特朗普突发重磅！特朗普会见国家安全团队 将“很快”决定是否重启对伊战争 - 金融界",
    "summary": "",
-   "time": "2026-11-06 07:41",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UYVBGcEVVLVNZQ2NNYzY3dmE4bWcxNTRXRmlHZmJrYmVLUUlCbTBaTHpQdG1HSVJKeEI4RTBMSHpkc3dfOU9PbnNxc195SDAyOUE?oc=5",
+   "time": "2026-11-06 08:16",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OUXVhX3o3Vm5OdG5NaTlXNldDUlF4eHd1QnlmaU9IT0Q2ZUp3S2J0QVdHX3RvNlozRTkxYVJXMU5qSHpua2F0MWgyaWFidDh4LUR1LUxjb1pVWlRUOHlBWldEQ2VvSTVqbjhPU2VzZEdsQ1JI?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
-  },
-  {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "美国会变天，特朗普特赦令能保住马斯克吗？ - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-06 07:39",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10c1dKdGsydUtTVFgteTNLckJtUFl2ZUhfZ1VjdzVTbzJyRVU1RDctcHZOZXVkNkhaQllVV2c0YURNWkwzbnRGMWJkcjd6WFFGNlpHNjl5QXh6LWVqMUpFZHN1Tzg3aS14TVAxelVlZXNLZw?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 1
   },
   {
    "keyword": "商务部",
@@ -1876,100 +1843,114 @@
    "level": "danger",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.52%，达20日历史波动率的 3.2 倍（σ=1.71%，突破 3σ 高危线）",
-   "time": "2026-11-06 07:56",
+   "time": "2026-11-06 08:29",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "danger",
    "asset": "标普500",
-   "message": "标普500单日跌4.36%，达20日历史波动率的 5.5 倍（σ=0.79%，突破 3σ 高危线）",
-   "time": "2026-11-06 07:56",
+   "message": "标普500单日跌4.36%，达20日历史波动率的 3.6 倍（σ=1.22%，突破 3σ 高危线）",
+   "time": "2026-11-06 08:29",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "danger",
+   "asset": "日经225",
+   "message": "日经225单日跌6.10%，达20日历史波动率的 4.0 倍（σ=1.54%，突破 3σ 高危线）",
+   "time": "2026-11-06 08:29",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "全球股指",
-   "message": "道琼斯、纳斯达克、标普500等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-06 07:56",
+   "message": "道琼斯、纳斯达克、标普500等 5 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-06 08:29",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "恒生指数",
    "message": "恒生指数单日涨3.68%，达20日历史波动率的 2.6 倍（σ=1.39%，突破 2σ 警戒线）",
-   "time": "2026-11-06 07:56",
+   "time": "2026-11-06 08:29",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨5.50%，达20日历史波动率的 2.3 倍（σ=2.38%，突破 2σ 警戒线）",
-   "time": "2026-11-06 07:56",
+   "time": "2026-11-06 08:29",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "恒生中国企业指数",
    "message": "恒生中国企业指数单日涨3.82%，达20日历史波动率的 2.8 倍（σ=1.38%，突破 2σ 警戒线）",
-   "time": "2026-11-06 07:56",
+   "time": "2026-11-06 08:29",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "道琼斯",
    "message": "道琼斯单日跌3.44%，达20日历史波动率的 2.9 倍（σ=1.18%，突破 2σ 警戒线）",
-   "time": "2026-11-06 07:56",
+   "time": "2026-11-06 08:29",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
+   "asset": "韩国KOSPI",
+   "message": "韩国KOSPI单日跌8.55%，达20日历史波动率的 2.5 倍（σ=3.49%，突破 2σ 警戒线）",
+   "time": "2026-11-06 08:29",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
    "asset": "比特币",
-   "message": "比特币单日跌5.70%，达20日历史波动率的 2.7 倍（σ=2.14%，突破 2σ 警戒线）",
-   "time": "2026-11-06 07:56",
+   "message": "比特币单日跌5.52%，达20日历史波动率的 2.6 倍（σ=2.14%，突破 2σ 警戒线）",
+   "time": "2026-11-06 08:29",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "warning",
    "asset": "以太坊",
-   "message": "以太坊单日跌7.91%，达20日历史波动率的 2.7 倍（σ=2.98%，突破 2σ 警戒线）",
-   "time": "2026-11-06 07:56",
+   "message": "以太坊单日跌7.51%，达20日历史波动率的 2.5 倍（σ=2.98%，突破 2σ 警戒线）",
+   "time": "2026-11-06 08:29",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌6.70%，达20日历史波动率的 2.3 倍（σ=2.87%，突破 2σ 警戒线）",
-   "time": "2026-11-06 07:56",
+   "message": "Solana单日跌5.94%，达20日历史波动率的 2.1 倍（σ=2.87%，突破 2σ 警戒线）",
+   "time": "2026-11-06 08:29",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "恒生指数、恒生科技指数、恒生中国企业指数等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-06 07:56",
+   "time": "2026-11-06 08:29",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "消费基建积极回应多元需求",
-   "summary": "【消费基建积极回应多元需求】消费基础设施建设是在公共投资层面推动“人、货、场”关系升级。要补上短板，让消费环境更“优”；融合创新，让消费场景更“新”；良性互动，让经济循环更“畅”。",
-   "time": "2026-11-06 07:53:21",
-   "url": "https://finance.eastmoney.com/a/202611063923952667.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "日本经济产业大臣赤泽亮正：美国的选举不会立即影响到关税协议。",
-   "summary": "日本经济产业大臣赤泽亮正：美国的选举不会立即影响到关税协议。",
-   "time": "2026-11-06 07:53",
-   "url": "https://wallstreetcn.com/livenews/3195412",
+   "title": "软银集团股价跌幅扩大至16%，创2024年8月来最大单日跌幅。",
+   "summary": "软银集团股价跌幅扩大至16%，创2024年8月来最大单日跌幅。",
+   "time": "2026-11-06 08:28",
+   "url": "https://wallstreetcn.com/livenews/3195437",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国中期选举民主党大胜后美股暴跌 纳指跌5.52% 特朗普归咎民主党 - 凤凰网",
+   "title": "日经225指数跌幅扩大至6%",
+   "summary": "日经225指数跌幅扩大至6%，现报57328.67点。",
+   "time": "2026-11-06 08:22:13",
+   "url": "https://finance.eastmoney.com/a/202611063924190482.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美联储两官员释放鹰派信号，哈马克支持渐进式加息 - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-06 07:41",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9UYVBGcEVVLVNZQ2NNYzY3dmE4bWcxNTRXRmlHZmJrYmVLUUlCbTBaTHpQdG1HSVJKeEI4RTBMSHpkc3dfOU9PbnNxc195SDAyOUE?oc=5",
+   "time": "2026-11-06 08:18",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Gd3FPMWpSTmYwMWFFeFBIQUlSbVBGUWhNaEdheEt1bUk4SFlKUDVLTi1UYmwxXzBjSjVseXdFZDZFMWh5TDRma2N6cGphSllTQ1NfUW9WMmY5SUlXUVZYTQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1980,17 +1961,17 @@
    "source": "东财早报"
   },
   {
-   "title": "得克萨斯州候任州长：在出台保护德州民众的相关举措前，我们必须叫停当前的数据中心项目",
+   "title": "中信证券：2027年黄金珠宝行业闭店或将进入尾声，供给质量有效改善",
    "summary": "",
-   "time": "2026-11-05 23:54:40",
-   "url": "https://news.10jqka.com.cn/20261106/c681527079.shtml",
+   "time": "2026-11-06 00:27:10",
+   "url": "https://news.10jqka.com.cn/20261106/c681529990.shtml",
    "source": "同花顺"
   },
   {
-   "title": "得州当选州长：可与马斯克合作，但必须先停止数据中心建设",
+   "title": "日本股指跌近7% 科技股重挫",
    "summary": "",
-   "time": "2026-11-05 23:45:00",
-   "url": "https://news.futunn.com/flash/1003628400/texas-governor-elect-open-to-collaboration-with-musk-but-data",
+   "time": "2026-11-06 00:27:04",
+   "url": "https://news.futunn.com/flash/1003631997/japanese-stock-indices-fall-nearly-7-tech-stocks-suffer-heavy",
    "source": "富途"
   },
   {
@@ -2008,24 +1989,24 @@
    "source": "财新"
   },
   {
-   "title": "华为朱懂东：鸿蒙电脑累计发货量破100万 首款鸿蒙台式机亮相",
-   "summary": "【华为朱懂东：鸿蒙电脑累计发货量破100万 首款鸿蒙台式机亮相】国产电脑正处在从“可用”走向“好用”的转折期。过去几年，围绕自主操作系统的终端完成了从无到有的布局；如今更关键的考验转向市场端——产品能否被政企客户真正接受，生态能否支撑起日常办公与专业生产，正成为检验国产商用电脑成色的标尺。",
-   "time": "2026-11-06 07:53:03",
-   "url": "https://finance.eastmoney.com/a/202611053923811034.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "日本10月30日当周外资净买进日本股票 11293亿日元，前值 11809亿日元。",
-   "summary": "日本10月30日当周外资净买进日本股票 11293亿日元，前值 11809亿日元。",
-   "time": "2026-11-06 07:50",
-   "url": "https://wallstreetcn.com/livenews/3195410",
+   "title": "纳斯达克100指数期货日内涨幅扩大至0.6%。",
+   "summary": "纳斯达克100指数期货日内涨幅扩大至0.6%。",
+   "time": "2026-11-06 08:27",
+   "url": "https://wallstreetcn.com/livenews/3195436",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国会变天，特朗普特赦令能保住马斯克吗？ - 手机新浪网",
+   "title": "日东纺再度上修财测 加码扩产T-Glass",
+   "summary": "【日东纺再度上修财测 加码扩产T-Glass】日东纺5日盘后公布财报新闻稿指出，因AI相关投资持续活络，特殊玻璃（包含T-Glass、NE-Glass、NER-Glass等产品）需求旺盛，且积极扩增特殊玻璃产能，今年度（2026年度、2026年4月-2027年3月）合并营收目标自8月预估的1410亿日元上修至1430亿日元、合并营业利润目标自300亿日元上修至340亿日元、合并净利润目标自200亿日元上修至240亿日元。此为日东纺继8月份之后、二度上修今年度财测预估。",
+   "time": "2026-11-06 08:21:13",
+   "url": "https://finance.eastmoney.com/a/202611063924190845.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普突发重磅！特朗普会见国家安全团队 将“很快”决定是否重启对伊战争 - 金融界",
    "summary": "",
-   "time": "2026-11-06 07:39",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10c1dKdGsydUtTVFgteTNLckJtUFl2ZUhfZ1VjdzVTbzJyRVU1RDctcHZOZXVkNkhaQllVV2c0YURNWkwzbnRGMWJkcjd6WFFGNlpHNjl5QXh6LWVqMUpFZHN1Tzg3aS14TVAxelVlZXNLZw?oc=5",
+   "time": "2026-11-06 08:16",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5OUXVhX3o3Vm5OdG5NaTlXNldDUlF4eHd1QnlmaU9IT0Q2ZUp3S2J0QVdHX3RvNlozRTkxYVJXMU5qSHpua2F0MWgyaWFidDh4LUR1LUxjb1pVWlRUOHlBWldEQ2VvSTVqbjhPU2VzZEdsQ1JI?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -2036,17 +2017,17 @@
    "source": "东财早报"
   },
   {
-   "title": "大疆发布轻型旗舰无人机Matrice 5T",
+   "title": "日经225指数跌破57000点，为自4月13日以来首次",
    "summary": "",
-   "time": "2026-11-05 23:44:13",
-   "url": "https://news.10jqka.com.cn/20261106/c681526801.shtml",
+   "time": "2026-11-06 00:26:57",
+   "url": "https://news.10jqka.com.cn/20261106/c681529985.shtml",
    "source": "同花顺"
   },
   {
-   "title": "全球首富马斯克身家缩水超千亿美元",
+   "title": "日本9月实质薪资连续第九个月上涨，支撑央行继续加息",
    "summary": "",
-   "time": "2026-11-05 23:43:23",
-   "url": "https://news.futunn.com/flash/1003628330/elon-musk-the-world-s-richest-person-sees-net-worth",
+   "time": "2026-11-06 00:24:39",
+   "url": "https://news.futunn.com/flash/1003631777/japan-s-real-wages-rose-for-the-ninth-consecutive-month",
    "source": "富途"
   },
   {
@@ -2064,24 +2045,24 @@
    "source": "财新"
   },
   {
-   "title": "电视剧业有望打破“三分格局”",
-   "summary": "【电视剧业有望打破“三分格局”】近来，《小城良方》《伟大的长征》《兰香如故》等电视剧在央视平台接连播出，剧集题材横跨现实疗愈、重大革命历史与古装社会家庭，汇聚起可观的受众规模，并在播出期内位居同时段前列。在影视业生态重塑的当下，电视剧作为传统常规业态依然拥有广泛的观众基础。然而，这些剧集的热播并不能代表我国剧集生态的全貌，电视剧产业正在发生结构性变化。",
-   "time": "2026-11-06 07:52:23",
-   "url": "https://finance.eastmoney.com/a/202611063923952768.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "日本10月30日当周净买进国外股票 10777亿日元，前值 2881亿日元。",
-   "summary": "日本10月30日当周净买进国外股票 10777亿日元，前值 2881亿日元。",
-   "time": "2026-11-06 07:50",
-   "url": "https://wallstreetcn.com/livenews/3195409",
+   "title": "软银集团股价跌幅扩大至14%。",
+   "summary": "软银集团股价跌幅扩大至14%。",
+   "time": "2026-11-06 08:25",
+   "url": "https://wallstreetcn.com/livenews/3195435",
    "source": "华尔街见闻"
   },
   {
-   "title": "万斯“与特朗普切割” 特朗普回应 伊朗战事成焦点 - 中华网",
+   "title": "日月光计划投资1237亿新台币扩产高阶封测产品",
+   "summary": "【日月光计划投资1237亿新台币扩产高阶封测产品】半导体封测龙头日月光计划投资1237亿新台币，扩充高阶封测产能，以应对AI与高效能运算（HPC）浪潮，日月光将于楠梓科技园区、南科高雄园区及台南园区等厂区增设智能化产线。本次投资将全面导入AI与大数据分析技术，整合自动化、高异质性机器设备及微系统封装，推动工厂智能化数字转型；同时设置太阳能发电设备实践绿色制造目标。",
+   "time": "2026-11-06 08:21:13",
+   "url": "https://finance.eastmoney.com/a/202611063924190685.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "加息大消息！美联储，突传重磅 - 新湖南",
    "summary": "",
-   "time": "2026-11-06 07:37",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YUE5DTXdBd2pDRm1HXzgyd1k2MjZXZjRaX3ZLRlNLRUwyUlJ3VzBwZkpaQXh6eHFOXzh0SGRJckJWTGdqWXdlU3RUa0plTUNXa0w5SVFnMVlsVmN4T0U2ZDF6Z281SGR6WFBUUEpEcnY?oc=5",
+   "time": "2026-11-06 07:49",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wQUk2Q1NrczRhTXdwbTd0QVRHTkFHQ0t1azdqLVQxN25pNkQ1THMzM0ZvS1pxOEJacG4tWTl3eUpOaUIxdHpZNkwtRWU4aUZXbnRvZjZQZm5yMndtc0pj?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -2092,17 +2073,17 @@
    "source": "东财早报"
   },
   {
-   "title": "韩国财政部称，将采取必要措施，避免股市脱离基本面过度波动",
+   "title": "以色列反对派正直党拒绝与内塔尼亚胡“联合执政”",
    "summary": "",
-   "time": "2026-11-05 23:39:58",
-   "url": "https://news.10jqka.com.cn/20261106/c681526690.shtml",
+   "time": "2026-11-06 00:22:30",
+   "url": "https://news.10jqka.com.cn/20261106/c681529917.shtml",
    "source": "同花顺"
   },
   {
-   "title": "特朗普：股市因选举结果遭遇历史上最糟糕的交易日之一",
+   "title": "黄金在风险偏好改善之际继续上涨",
    "summary": "",
-   "time": "2026-11-05 23:35:00",
-   "url": "https://news.futunn.com/flash/1003626527/trump-the-stock-market-experienced-one-of-its-worst-trading",
+   "time": "2026-11-06 00:24:33",
+   "url": "https://news.futunn.com/flash/1003631778/gold-continues-to-rise-amid-improving-risk-appetite",
    "source": "富途"
   },
   {
@@ -2124,7 +2105,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(15)",
+   "富途": "ok(17)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2132,8 +2113,8 @@
    "谷歌新闻·国际": "ok(30)"
   },
   "counts": {
-   "东财国际": 6,
    "华尔街见闻": 6,
+   "东财国际": 6,
    "谷歌新闻·国际": 6,
    "东财早报": 6,
    "同花顺": 6,
