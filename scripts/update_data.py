@@ -1347,6 +1347,149 @@ def _news_gnews_trump(_kwargs=None):
     return out
 
 
+# --------------------------------------------------------------------------
+# 券商研报观点（微信点睛精读 + 东财研报速览）
+# --------------------------------------------------------------------------
+
+HEAD_BROKERS = ("中金", "中信", "国泰海通", "国泰君安", "华泰", "申万宏源",
+                "高盛", "摩根", "摩根士丹利", "大摩", "瑞银", "广发", "海通")
+WEIXIN_NOISE = re.compile(r"资料来源|图表|点击小程序|扫码|报告原文|免责声明|风险提示$|中金公司研究部|广告")
+
+
+def _weixin_extract(url):
+    """抓取并解析一篇微信公众号文章（中金点睛等），规则提炼关键结论。
+
+    返回 {title, account, time, url, conclusions: [{section, text}]}。
+    """
+    UA = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) "
+                        "AppleWebKit/605.1.15 Mobile MicroMessenger/8.0.40",
+          "Referer": "https://mp.weixin.qq.com/"}
+    r = requests.get(url, headers=UA, timeout=HTTP_TIMEOUT + 8)
+    r.raise_for_status()
+    html = r.text
+    tm = re.search(r"var createTime = ['\"]([^'\"]+)", html)
+    pub_time = tm.group(1).strip()[:16] if tm else ""
+
+    body_m = re.search(r'<div[^>]*id="js_content"[^>]*>(.*)</div>\s*<script', html, re.S)
+    if not body_m:
+        raise ValueError("未找到微信正文（可能触发验证）")
+    text = re.sub(r"<style.*?</style>|<script.*?</script>", "", body_m.group(1), flags=re.S)
+    text = re.sub(r"<[^>]+>", "\n", text)
+    text = text.replace("&nbsp;", " ").replace("&amp;", "&").replace("&lt;", "<").replace("&gt;", ">")
+    lines = [re.sub(r"\s+", " ", l).strip() for l in text.split("\n")]
+    lines = [l for l in lines if l]
+
+    # 拼句：碎片行（微信富文本被拆行）合并回完整句子，短行(<16字)视为小节标题
+    sections = []          # [(section_title, sentence, ...) ]
+    cur_section = "核心观点"
+    buf = ""
+    for line in lines:
+        if WEIXIN_NOISE.search(line):
+            buf = ""
+            continue
+        if len(line) <= 16 and len(line) >= 3 and not re.search(r'[。；，！？、]$', line) \
+                and not re.search(r'[a-zA-Z]{2,}', line) and len(buf) < 4:
+            if buf.strip():
+                pass
+            cur_section = line[:30]
+            sections.append({"section": cur_section, "text": None})
+            continue
+        buf += line
+        # 按句切分
+        while True:
+            m = re.search(r"^(.{24,}?[。！？])", buf)
+            if not m:
+                break
+            sent = m.group(1).strip()
+            buf = buf[m.end():]
+            if WEIXIN_NOISE.search(sent) or len(sent) > 160:
+                continue
+            sections.append({"section": cur_section, "text": sent})
+    if buf.strip() and len(buf.strip()) >= 24:
+        sections.append({"section": cur_section, "text": buf.strip()[:160]})
+
+    conclusions, seen = [], set()
+    for s in sections:
+        if not s["text"]:
+            continue
+        key = s["text"][:18]
+        if key in seen:
+            continue
+        seen.add(key)
+        conclusions.append(s)
+        if len(conclusions) >= 12:
+            break
+
+    title_m = re.search(r'id="activity-name"[^>]*>(.*?)</h1>', html, re.S) or \
+              re.search(r'<span class="js_title_inner">(.*?)</span>', html, re.S)
+    acc_m = re.search(r'id="js_name"[^>]*>(.*?)</a>', html, re.S)
+    title = re.sub(r"<[^>]+>", "", title_m.group(1)) if title_m else "微信研报精读"
+    title = re.sub(r"\s+", " ", title).strip()[:80]
+    account = re.sub(r"<[^>]+>", "", acc_m.group(1)).strip()[:20] if acc_m else ""
+    if not conclusions:
+        raise ValueError("未提炼到有效结论")
+    return {"title": title[:80], "account": account, "time": pub_time,
+            "url": url, "conclusions": conclusions}
+
+
+def fetch_research():
+    """研报观点：微信点睛精读（URL 由 data/research_urls.json 配置）+ 东财研报速览。"""
+    import json as _json
+    import os as _os
+
+    out = {"digest": [], "reports": []}
+    # 1. 微信精读：抓配置列表中的每一篇（最新在前），逐篇提炼，全部失败不阻塞
+    urls_path = _os.path.join(REPO_ROOT, "data", "research_urls.json")
+    urls = []
+    if _os.path.exists(urls_path):
+        try:
+            cfg = _json.load(open(urls_path, encoding="utf-8"))
+            urls = cfg if isinstance(cfg, list) else cfg.get("urls", [])
+        except Exception as e:  # noqa: BLE001
+            log(f"研报URL配置解析失败: {type(e).__name__}")
+    for u in urls[:3]:
+        try:
+            art = _weixin_extract(str(u).strip())
+            out["digest"].append(art)
+            log(f"OK   微信精读《{art['title'][:24]}》结论{len(art['conclusions'])}条")
+        except Exception as e:  # noqa: BLE001
+            log(f"FAIL 微信精读 {str(u)[:50]}: {type(e).__name__}")
+        time.sleep(1)
+
+    # 2. 东财研报速览：头部机构最新研报，报告名称即浓缩结论
+    try:
+        import akshare as ak
+        df = ak.stock_research_report_em()
+        # 最新日期优先（同日内头部机构靠前）——时效性高于机构名气
+        df["_head"] = df["机构"].apply(lambda o: any(h in o for h in HEAD_BROKERS))
+        df = df.sort_values(["日期", "_head"], ascending=[False, False])
+        picked, seen_titles = [], set()
+        for _, row in df.iterrows():
+            org = str(row.get("机构", ""))
+            name = str(row.get("报告名称", "")).strip()
+            if len(name) < 10 or name[:14] in seen_titles:
+                continue
+            seen_titles.add(name[:14])
+            picked.append({
+                "title": name[:80],
+                "org": org[:12],
+                "rating": str(row.get("东财评级", ""))[:6],
+                "stock": str(row.get("股票简称", ""))[:12],
+                "industry": str(row.get("行业", ""))[:10],
+                "date": str(row.get("日期", ""))[:10],
+            })
+            if len(picked) >= 8:
+                break
+        out["reports"] = picked
+        log(f"OK   东财研报速览 {len(picked)} 条")
+    except Exception as e:  # noqa: BLE001
+        log(f"FAIL 东财研报速览: {type(e).__name__}")
+
+    if not out["digest"] and not out["reports"]:
+        raise RuntimeError("研报观点全部源失败")
+    return out
+
+
 def fetch_news():
     """八源聚合：东财国际 + 新浪 + 富途 + 同花顺 + 财新 + 百度财经 + 华尔街见闻 + 谷歌新闻。"""
     import akshare as ak
@@ -1544,6 +1687,8 @@ def main():
 
     speakers, errors["关键人物"] = safe(lambda: fetch_speakers(news), "关键人物发言")
 
+    research, errors["研报观点"] = safe(fetch_research, "研报观点")
+
     wuxing, errors["今日五行"] = safe(fetch_wuxing, "今日五行")
 
     markets = {
@@ -1566,7 +1711,7 @@ def main():
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 9,
+        "schema_version": 10,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
@@ -1576,12 +1721,13 @@ def main():
         "key_assets": key_assets,
         "sentiment": sentiment or {},
         "speakers": speakers or [],
+        "research": research or {"digest": [], "reports": []},
         "alerts": alerts,
         "news": news,
         "news_meta": news_meta,
         "wuxing": wuxing,
         "errors": {k: v for k, v in errors.items() if v},
-        "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/FRED/alternative.me），仅供研究参考，不构成投资建议。美债10Y优先FRED官方日频数据（中债源滞后时自动降级）。传导路径按资产与涨跌方向生成，描述资金/机制的具体流动方向，为程序化示意，不构成投资建议。",
+        "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/FRED/alternative.me），仅供研究参考，不构成投资建议。研报观点：微信精读由规则提炼原文关键句（版权归原公众号），券商速览来自东财研报标题；均不构成投资建议。美债10Y优先FRED官方日频数据（中债源滞后时自动降级）。传导路径按资产与涨跌方向生成，为程序化示意。",
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)

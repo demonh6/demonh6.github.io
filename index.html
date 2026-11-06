@@ -245,6 +245,44 @@
     border-radius: 4px; padding: 0 4px; margin-left: 6px; vertical-align: 1px;
   }
 
+  /* ---------- 研报观点 ---------- */
+  .research-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: 18px; align-items: start; }
+  .digest-art { border: 1px solid var(--card-border); border-radius: 10px; padding: 12px 14px; background: rgba(255, 255, 255, 0.025); text-decoration: none; display: block; color: inherit; transition: border-color 0.2s; }
+  .digest-art + .digest-art { margin-top: 12px; }
+  .digest-art:hover { border-color: rgba(79, 156, 249, 0.4); }
+  .digest-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 8px; }
+  .digest-head .t { font-size: 14.5px; font-weight: 700; color: var(--text); }
+  .digest-head .meta { font-size: 11px; color: var(--text-faint); margin-left: auto; white-space: nowrap; }
+  .digest-head .acc {
+    font-size: 10.5px; color: var(--gold); border: 1px solid rgba(217,178,60,0.3);
+    border-radius: 999px; padding: 0 8px; white-space: nowrap;
+  }
+  .concl-list { display: grid; gap: 7px; }
+  .concl-item { display: grid; grid-template-columns: auto 1fr; gap: 8px; font-size: 12.5px; line-height: 1.55; color: var(--text-dim); }
+  .concl-item .sec {
+    color: var(--accent); font-size: 11px; white-space: nowrap; padding-top: 2px;
+    max-width: 88px; overflow: hidden; text-overflow: ellipsis;
+  }
+  .concl-item .txt { color: var(--text); }
+  .rpt-list { display: grid; gap: 8px; }
+  .rpt-item {
+    border: 1px solid var(--card-border); border-radius: 10px;
+    background: rgba(255, 255, 255, 0.025); padding: 10px 12px;
+    display: grid; gap: 3px; text-decoration: none; color: inherit;
+    transition: border-color 0.2s;
+  }
+  .rpt-item:hover { border-color: rgba(79, 156, 249, 0.35); }
+  .rpt-item .r-head { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+  .rpt-item .org { color: var(--accent); font-weight: 700; }
+  .rpt-item .rate { padding: 0 6px; border-radius: 999px; border: 1px solid var(--card-border); color: var(--text-dim); font-size: 10px; }
+  .rpt-item .rate.buy { color: var(--up-soft); border-color: rgba(240,74,61,0.35); }
+  .rpt-item .rate.sell { color: var(--down-soft); border-color: rgba(38,165,107,0.35); }
+  .rpt-item .dt { margin-left: auto; color: var(--text-faint); }
+  .rpt-item .r-title { font-size: 12.5px; color: var(--text); line-height: 1.45; }
+  .rpt-item .r-stock { font-size: 10.5px; color: var(--text-faint); }
+  .research-empty { color: var(--text-faint); font-size: 13px; padding: 14px 0; text-align: center; }
+  .research-note { font-size: 10.5px; color: var(--text-faint); margin-top: 10px; }
+
   /* ---------- 要闻 + 五行 双列 ---------- */
   .two-col { display: grid; grid-template-columns: 1.15fr 1fr; gap: 18px; align-items: start; }
 
@@ -454,6 +492,7 @@
 
   @media (max-width: 800px) {
     .market-groups, .two-col, .wx-cols, .legacy-grid { grid-template-columns: 1fr; }
+    .research-grid { grid-template-columns: 1fr; }
     header.site .right { margin-left: 0; text-align: left; width: 100%; }
     .news-list { max-height: none; }
   }
@@ -581,6 +620,21 @@
     </div>
     <div class="card">
       <div class="speakers-grid" id="speakers-body"></div>
+    </div>
+  </section>
+
+  <!-- ============ 研报观点 ============ -->
+  <section id="research">
+    <div class="sec-head">
+      <h2>研报观点</h2>
+      <span class="tag">中金点睛等精读 · 券商研报速览</span>
+    </div>
+    <div class="card">
+      <div class="research-grid">
+        <div id="digest-body"></div>
+        <div id="rpt-body"></div>
+      </div>
+      <div class="research-note">提炼由规则完成、保留原文关键句，版权归原机构/公众号；仅供研究参考，不构成投资建议。</div>
     </div>
   </section>
 
@@ -1152,6 +1206,49 @@
     }).join("");
   }
 
+  /* ---------- 研报观点 ---------- */
+  function renderResearch(research) {
+    var r = research || {};
+    var dBox = $("digest-body"), rBox = $("rpt-body");
+
+    // 微信精读
+    var digest = r.digest || [];
+    if (!digest.length) {
+      dBox.innerHTML = '<div class="research-empty">点睛精读暂缺（可将公众号文章链接贴入 data/research_urls.json）</div>';
+    } else {
+      dBox.innerHTML = digest.map(function (art) {
+        var items = (art.conclusions || []).map(function (c) {
+          return '<div class="concl-item"><span class="sec">' + (c.section || "观点") +
+            '</span><span class="txt">' + c.text + '</span></div>';
+        }).join("");
+        return '<a class="digest-art" href="' + (art.url || "javascript:void(0)") + '" target="_blank" rel="noopener">' +
+          '<div class="digest-head"><span class="acc">' + (art.account || "研报精读") + '</span>' +
+          '<span class="t">' + art.title + '</span>' +
+          '<span class="meta">' + (art.time || "") + '</span></div>' +
+          '<div class="concl-list">' + items + '</div></a>';
+      }).join("");
+    }
+
+    // 券商速览
+    var reports = r.reports || [];
+    if (!reports.length) {
+      rBox.innerHTML = '<div class="research-empty">券商研报速览暂缺</div>';
+    } else {
+      rBox.innerHTML = '<div class="rpt-list">' + reports.map(function (rp) {
+        var rateCls = /买入|增持|推荐|跑赢/.test(rp.rating || "") ? "buy" :
+                      (/卖出|减持|回避|跑输/.test(rp.rating || "") ? "sell" : "");
+        return '<a class="rpt-item" href="https://data.eastmoney.com/report/" target="_blank" rel="noopener">' +
+          '<div class="r-head"><span class="org">' + (rp.org || "") + '</span>' +
+          (rp.rating ? '<span class="rate ' + rateCls + '">' + rp.rating + '</span>' : "") +
+          (rp.industry ? '<span>' + rp.industry + '</span>' : "") +
+          '<span class="dt">' + (rp.date || "") + '</span></div>' +
+          '<div class="r-title">' + rp.title + '</div>' +
+          (rp.stock ? '<div class="r-stock">' + rp.stock + '</div>' : "") +
+          '</a>';
+      }).join("") + "</div>";
+    }
+  }
+
   function load() {
     fetch("data/dashboard.json?t=" + Date.now(), { cache: "no-store" })
       .then(function (r) {
@@ -1164,6 +1261,7 @@
         renderSentiment(d.sentiment || {});
         renderMarkets(d.markets || {}, d.key_assets);
         renderSpeakers(d.speakers || []);
+        renderResearch(d.research);
         renderNews(d.news, d.news_meta);
         renderWuxing(d.wuxing);
       })
