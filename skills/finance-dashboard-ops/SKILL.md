@@ -59,11 +59,20 @@ warnings.filterwarnings('ignore')
    必需参数会在 Actions 上炸 TypeError（akshare 函数自带默认参所以平时看不出来）。
 2. 多源新闻聚合必须**按源轮询**取条目（每源最新条优先）——纯时间排序会让高频源霸屏、
    早报类（清晨发布）全部沉底被挤出。
-3. GitHub schedule 高峰期会整点跳过（曾连续 5 小时全跳）：加错峰第二 cron "33 * * * *" 翻倍机会；
-   push 事件偶发被吞，重推小改动即可恢复；workflow_dispatch 需要 workflow 权限的 token（默认 403）。
-4. OKX `tickers` 忽略 instId 参数返回全市场 → 拉全量后按目标集合本地过滤。
-5. 告警阈值用 20日σ 倍数（2σ警戒/3σ高危），别用拍脑袋的固定百分比。
-6. 沙箱与 Actions 网络环境不同：东财 push2 沙箱常限流、Actions 偶发；谷歌新闻/numerco 沙箱墙外。
+3. **GitHub 调度平台限制（重要）**：
+   - 分钟级 schedule（*/10）被静默丢弃（连续数小时零触发），整点 schedule 也常被跳过；
+   - GITHUB_TOKEN 的 push **永远不会**触发新 workflow run（官方防递归，硬限制）；
+   - rerun 一个"运行中"的 run 报 403 already running（rerun 只能针对空闲/已完成 run）。
+   解法：**A/B 双工作流交替接力**——update-dashboard.yml 与 update-beat.yml 互相 rerun
+   对方的最近 run（gh run list 拿 run_id → gh api POST .../runs/{id}/rerun），
+   每环 sleep 480s 后接力，数据点间隔 ≈10 分钟；A/B 的 concurrency 组必须不同。
+   链条断点由 schedule/人工 push 兜底。
+4. 分级降频：脚本 main() 按分钟窗口跳过低频模块（t2=30min 东财全球指数/美债/恐惧贪婪/新闻、
+   t3=60min akshare 日线批量/研报、t4=2h 微信精读），未到期模块从上一轮 dashboard.json
+   合并继承（_merge_market_group 保留 hist/sigma/量能等派生字段，实时价用新数据）。
+5. OKX `tickers` 忽略 instId 参数返回全市场 → 拉全量后按目标集合本地过滤。
+6. 告警阈值用 20日σ 倍数（2σ警戒/3σ高危），别用拍脑袋的固定百分比。
+7. 沙箱与 Actions 网络环境不同：东财 push2 沙箱常限流、Actions 偶发；谷歌新闻/numerco 沙箱墙外。
    每个源必须在目标环境（Actions 日志）确认，沙箱结论不算数。
 
 ## 第二步：脚本集成
