@@ -1,30 +1,32 @@
 name: Update Dashboard Data
 
 # ============================================================
-# 数据更新频率
+# 数据更新机制（自续链 + schedule 兜底）
 # ------------------------------------------------------------
-# 当前：每小时一次（整点触发，UTC 0 * * * * = 北京时间每小时整点）
-# 【切换回每日更新】将下方 schedule.cron 改为 "30 23 * * *"
-#   （UTC 23:30 = 北京时间次日 07:30，可覆盖美股收盘），
-#   同时把 env.DASHBOARD_INTERVAL 的默认值改回 'daily'。
-# 页面文案自动随 data/dashboard.json 的 interval 字段切换。
+# GitHub 平台对分钟级 schedule 会静默丢弃（实测 */10 连续数小时零触发），
+# 因此采用"自续链"：每次数据提交（不带 [skip ci]）触发下一轮 run，
+# run 开头等待至 10 分钟节拍再采集 → 提交 → 再触发……链条自续。
+# schedule 保留作为链条断点时的兜底；concurrency 串行防堆积。
+# 节拍下限 8 分钟（BEAT_SECS），实测数据点间隔约 10 分钟。
+# 【切换回每日更新】cron 改 "30 23 * * *" 且数据提交加回 [skip ci]。
 # ============================================================
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # 每10分钟一次；脚本内按信源分级降频（30分钟/1小时/2小时），数据提交带 [skip ci] 不会递归
+    - cron: "*/10 * * * *"   # 兜底：平台若恢复调度可补链
   workflow_dispatch:          # 支持手动触发
     inputs:
       interval:
         description: "更新频率标识（写入 JSON，10min / hourly / daily）"
         required: false
         default: "10min"
-  push:                       # 脚本/数据变更时立即刷新一次（数据提交自带 [skip ci] 不会递归）
+  push:                       # 数据/代码提交触发下一轮（自续链的驱动源）
     branches: [main]
     paths:
       - "scripts/**"
       - "data/**"
       - ".github/workflows/**"
+      - "index.html"
 
 permissions:
   contents: write
@@ -33,10 +35,13 @@ concurrency:
   group: update-dashboard
   cancel-in-progress: false
 
+env:
+  BEAT_SECS: "480"            # 节拍下限 8 分钟：距上次数据提交不足 8 分钟则等待对齐
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     env:
       DASHBOARD_INTERVAL: ${{ github.event.inputs.interval || '10min' }}
     steps:
@@ -53,6 +58,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install akshare lunar-python
 
+      - name: 等待至节拍（距上次数据提交不足8分钟则对齐10分钟槽位）
+        run: |
+          LAST=$(git log -1 --format=%ct -- data/dashboard.json 2>/dev/null || echo 0)
+          NOW=$(date +%s)
+          ELAPSED=$(( NOW - LAST ))
+          WAIT=$(( BEAT_SECS - ELAPSED ))
+          if [ $WAIT -gt 0 ] && [ $WAIT -lt 600 ]; then
+            echo "距上次数据 ${ELAPSED}s，等待 ${WAIT}s 对齐节拍"
+            sleep $WAIT
+          else
+            echo "距上次数据 ${ELAPSED}s，立即采集"
+          fi
+
       - name: Collect data (markets / news / wuxing)
         id: collect
         continue-on-error: true   # 部分数据源失败仍提交已有结果，页面会显示对应模块"暂缺"
@@ -65,9 +83,9 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/dashboard.json
-            git commit -m "chore(data): 仪表盘数据更新 ${{ github.event.inputs.interval || '10min' }} [skip ci]"
+            git commit -m "chore(data): 仪表盘数据更新 ${{ github.event.inputs.interval || '10min' }}"
             git push
-            echo "dashboard.json 已提交推送"
+            echo "dashboard.json 已提交推送（将触发下一轮自续）"
           else
             echo "数据无变化，跳过提交"
           fi
