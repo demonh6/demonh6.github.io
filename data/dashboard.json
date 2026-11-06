@@ -1,7 +1,7 @@
 {
  "schema_version": 11,
- "generated_at": "2026-11-06 20:26:34 CST",
- "generated_at_iso": "2026-11-06T20:26:34+08:00",
+ "generated_at": "2026-11-06 20:35:07 CST",
+ "generated_at_iso": "2026-11-06T20:35:07+08:00",
  "date": "2026-11-06",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1082,7 +1082,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5059.69,
+    "price": 5059.6899,
     "change": -324.11,
     "change_pct": -6.02,
     "hist": [
@@ -1155,11 +1155,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81028.0234,
+    "change": 1718.02,
+    "change_pct": 2.17
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 41574.72,
+    "change": -1374.19,
+    "change_pct": -3.2
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26325.01,
+    "change": -112.66,
+    "change_pct": -0.43
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10549.84,
-    "change": -232.82,
-    "change_pct": -2.16,
+    "price": 10782.66,
+    "change": -46.55,
+    "change_pct": -0.43,
     "hist": [
      10695.25,
      10684.88,
@@ -1231,9 +1252,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8059.99,
-    "change": -145.38,
-    "change_pct": -1.77,
+    "price": 8205.37,
+    "change": 27.48,
+    "change_pct": 0.34,
     "hist": [
      8077.8,
      8078.48,
@@ -1305,9 +1326,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6139.75,
-    "change": -91.79,
-    "change_pct": -1.47,
+    "price": 6231.55,
+    "change": -34.17,
+    "change_pct": -0.55,
     "hist": [
      6302.83,
      6301.29,
@@ -1341,6 +1362,13 @@
      6231.55
     ],
     "sigma": 0.91
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2458.46,
+    "change": 16.36,
+    "change_pct": 0.67
    }
   ]
  },
@@ -1392,37 +1420,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4077.252,
-    "change": -36.248,
-    "change_pct": -0.88,
-    "quote_time": "20:26:30 2026-11-06"
+    "price": 4071.527,
+    "change": -41.973,
+    "change_pct": -1.02,
+    "quote_time": "20:35:19 2026-11-06"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.193,
-    "change": -0.183,
-    "change_pct": -0.35,
-    "quote_time": "20:26:14 2026-11-06"
+    "price": 52.043,
+    "change": -0.333,
+    "change_pct": -0.64,
+    "quote_time": "20:35:12 2026-11-06"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 90.396,
-    "change": -0.124,
-    "change_pct": -0.14,
-    "quote_time": "20:26:39 2026-11-06"
+    "price": 90.597,
+    "change": 0.077,
+    "change_pct": 0.09,
+    "quote_time": "20:35:20 2026-11-06"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 98.059,
-    "change": -0.231,
-    "change_pct": -0.24,
-    "quote_time": "20:26:34 2026-11-06"
+    "price": 98.142,
+    "change": -0.148,
+    "change_pct": -0.15,
+    "quote_time": "20:35:17 2026-11-06"
    }
   ],
   "crypto": [
@@ -1430,17 +1458,17 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 76348.7,
-    "change": -3768.4,
-    "change_pct": -4.7,
+    "price": 76174.1,
+    "change": -3714.0,
+    "change_pct": -4.65,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2249.76,
-    "change": -160.6,
+    "price": 2243.38,
+    "change": -160.17,
     "change_pct": -6.66,
     "source": "okx"
    },
@@ -1448,9 +1476,9 @@
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 90.83,
-    "change": -5.04,
-    "change_pct": -5.26,
+    "price": 90.66,
+    "change": -4.65,
+    "change_pct": -4.88,
     "source": "okx"
    }
   ]
@@ -1474,9 +1502,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 26.47,
-   "change": -1.71,
-   "change_pct": -6.0681,
+   "value": 26.97,
+   "change": -1.21,
+   "change_pct": -4.2938,
    "label": "高波动",
    "color": "#f58a3d",
    "source": "CBOE",
@@ -1524,8 +1552,8 @@
     },
     {
      "t": "VIX",
-     "value": 26.47,
-     "change_pct": -6.0681
+     "value": 26.97,
+     "change_pct": -4.2938
     },
     {
      "t": "VIX3M",
@@ -1550,37 +1578,26 @@
  },
  "speakers": [
   {
-   "keyword": "国务院",
-   "label": "国务院",
-   "hint": "国务院级经济政策影响宏观环境",
-   "title": "李强同奥地利总理施托克尔会谈",
-   "summary": "11月6日上午，国务院总理李强在北京人民大会堂同来华进行正式访问的奥地利总理施托克尔举行会谈。",
-   "time": "2026-11-06 20:06",
-   "url": "https://wallstreetcn.com/livenews/3195982",
+   "keyword": "商务部",
+   "label": "商务部",
+   "hint": "中美贸易与出口管制的对口部门",
+   "title": "中国与加蓬签署结束共同发展经济伙伴关系协定早期收获安排谈判的谅解备忘录",
+   "summary": "11月6日，在习近平主席和加蓬总统恩圭马共同见证下，中国商务部部长王文涛与加蓬外交、合作、一体化和海外侨民部部长塔西拉共同签署《中华人民共和国商务部和加蓬共和国经济、财政、债务、股权及打击高物价部关于结束〈中国和加蓬共同发展经济伙伴关系协定早期收获安排〉谈判的谅解备忘录》。",
+   "time": "2026-11-06 20:25",
+   "url": "https://wallstreetcn.com/livenews/3195990",
    "source": "华尔街见闻",
-   "mentions": 3
+   "mentions": 2
   },
   {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：100%支持人工智能",
-   "summary": "【特朗普：100%支持人工智能】特朗普称，100%支持人工智能，将与那些希望通过发展人工智能而致富的美国多州合作。",
-   "time": "2026-11-06 20:03:09",
-   "url": "https://finance.eastmoney.com/a/202611063924998275.html",
-   "source": "东财国际",
-   "mentions": 5
-  },
-  {
-   "keyword": "商务部",
-   "label": "商务部",
-   "hint": "中美贸易与出口管制的对口部门",
-   "title": "东方财富财经早餐 11月6日周五",
-   "summary": "【东方财富财经早餐 11月6日周五】1、调休减少，2027年放假安排来了！9天超长春节假期再次回归。2、商务部回应扩大自美采购农产品：持开放态度，对等降税落地是前提。3、上交所召开并购重组专题座谈会，汇聚市场合力助推上市公司提质增效。",
-   "time": "2026-11-06 06:00:27",
-   "url": "http://finance.eastmoney.com/a/202611053923871240.html",
-   "source": "东财早报",
-   "mentions": 1
+   "title": "民主党还没动手，特朗普先留后路！准备效仿拜登提前赦免盟友 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-06 20:06",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TdWxpYXRuVTB1cDJYRFBIOXhIU2dmN2JhS0FiUnRRTlR2enc3R3pVamdfRXk1NXczNG5nUXFwcjZqWGNpbENHUV9TbUh1TkN6amN0WUVENlBXcThLeHdaN0VJSFVvVEkxeDlUdTZTdzhuZw?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
   },
   {
    "keyword": "外交部",
@@ -1592,6 +1609,17 @@
    "url": "http://finance.eastmoney.com/a/202611043922310815.html",
    "source": "东财早报",
    "mentions": 2
+  },
+  {
+   "keyword": "国务院",
+   "label": "国务院",
+   "hint": "国务院级经济政策影响宏观环境",
+   "title": "东方财富财经早餐 11月4日周三",
+   "summary": "【东方财富财经早餐 11月4日周三】1、潘功胜：维护股票、债券、外汇等金融市场平稳运行，守住不发生系统性金融风险底线。2、国务院关于金融工作情况的报告提出我国金融工作下一步5方面考虑。3、外交部回应“英伟达要求其合作伙伴必须将至少51％的服务提供给非中国企业”有关报道。",
+   "time": "2026-11-04 06:00:00",
+   "url": "http://finance.eastmoney.com/a/202611043920704417.html",
+   "source": "东财早报",
+   "mentions": 1
   },
   {
    "keyword": "美联储",
@@ -1736,86 +1764,79 @@
    "level": "danger",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.52%，达20日历史波动率的 3.2 倍（σ=1.71%，突破 3σ 高危线）",
-   "time": "2026-11-06 20:26",
+   "time": "2026-11-06 20:36",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "danger",
    "asset": "标普500",
    "message": "标普500单日跌4.36%，达20日历史波动率的 3.6 倍（σ=1.22%，突破 3σ 高危线）",
-   "time": "2026-11-06 20:26",
+   "time": "2026-11-06 20:36",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-06 20:26",
+   "time": "2026-11-06 20:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "道琼斯、纳斯达克、标普500等 8 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-06 20:26",
+   "message": "道琼斯、纳斯达克、标普500等 6 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-06 20:36",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "道琼斯",
    "message": "道琼斯单日跌3.44%，达20日历史波动率的 2.9 倍（σ=1.18%，突破 2σ 警戒线）",
-   "time": "2026-11-06 20:26",
+   "time": "2026-11-06 20:36",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
-   "asset": "英国富时100",
-   "message": "英国富时100单日跌2.16%，达20日历史波动率的 2.9 倍（σ=0.73%，突破 2σ 警戒线）",
-   "time": "2026-11-06 20:26",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "warning",
-   "asset": "法国CAC40",
-   "message": "法国CAC40单日跌1.77%，达20日历史波动率的 2.3 倍（σ=0.77%，突破 2σ 警戒线）",
-   "time": "2026-11-06 20:26",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌3.20%，达20日历史波动率的 2.7 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-06 20:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "2026年10月电视剧侵权传播治理成果公布",
-   "summary": "记者今天从国家广播电视总局获悉，2026年10月，广电总局会同重点省局，组织行业相关主体各司其职，及时响应，对《伟大的长征》等热播剧片和电视剧版权保护预警名单剧目进行重点监测，本月共清理侵权链接271万条，处理侵权账号175个。",
-   "time": "2026-11-06 20:07",
-   "url": "https://wallstreetcn.com/livenews/3195983",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "美国运动品牌安德玛股价盘前下跌12%",
-   "summary": "美国运动品牌安德玛股价盘前下跌12%。",
-   "time": "2026-11-06 20:03:25",
-   "url": "https://finance.eastmoney.com/a/202611063924997794.html",
+   "title": "中国能建与中国黄金集团签署战略合作协议",
+   "summary": "【中国能建与中国黄金集团签署战略合作协议】中国能建消息，11月6日，中国能建党委书记、董事长倪真在公司总部与中国黄金集团党委书记、董事长周洲会谈。双方就深化矿能融合、绿色智能爆破、智能矿山、生态环保、国际业务等领域合作进行深入交流，并共同见证签署战略合作协议。",
+   "time": "2026-11-06 20:31:00",
+   "url": "https://finance.eastmoney.com/a/202611063925035389.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普为椭圆形办公室签总统令：不准改成正方形 - 手机新浪网",
+   "title": "中国与加蓬签署结束共同发展经济伙伴关系协定早期收获安排谈判的谅解备忘录",
+   "summary": "11月6日，在习近平主席和加蓬总统恩圭马共同见证下，中国商务部部长王文涛与加蓬外交、合作、一体化和海外侨民部部长塔西拉共同签署《中华人民共和国商务部和加蓬共和国经济、财政、债务、股权及打击高物价部关于结束〈中国和加蓬共同发展经济伙伴关系协定早期收获安排〉谈判的谅解备忘录》。",
+   "time": "2026-11-06 20:25",
+   "url": "https://wallstreetcn.com/livenews/3195990",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "民主党还没动手，特朗普先留后路！准备效仿拜登提前赦免盟友 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-06 19:23",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLURIMThCU1hLUWJiN1BDN0hncy1RaGk5b2J5WlFVbk9sT2hZRElLcmxBNWw4TXY3ZXh1M2ZsY2ZNaHdfcDJJWGQ2cF8zSmhmck9ncGYzMFV3WTBkQ3NmWWRtSGkwYnVjM3dJU2ZGaGMxV3otRGpnYWViR25TQ2ljbg?oc=5",
+   "time": "2026-11-06 20:06",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TdWxpYXRuVTB1cDJYRFBIOXhIU2dmN2JhS0FiUnRRTlR2enc3R3pVamdfRXk1NXczNG5nUXFwcjZqWGNpbENHUV9TbUh1TkN6amN0WUVENlBXcThLeHdaN0VJSFVvVEkxeDlUdTZTdzhuZw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "新亚制程：公司生产经营基本面未发生重大变化",
+   "title": "爱尔兰多家媒体遭炸弹威胁",
    "summary": "",
-   "time": "2026-11-06 12:07:45",
-   "url": "https://news.10jqka.com.cn/20261106/c681567618.shtml",
+   "time": "2026-11-06 12:33:55",
+   "url": "https://news.10jqka.com.cn/20261106/c681568779.shtml",
    "source": "同花顺"
   },
   {
-   "title": "民主党提前布局2028年大选 十余名潜在候选人或参与角逐",
+   "title": "智利通胀持续高于目标 央行基准利率或迎来调整",
    "summary": "",
-   "time": "2026-11-06 12:02:07",
-   "url": "https://news.futunn.com/flash/1003720108/democrats-begin-early-preparations-for-2028-election-more-than-a",
+   "time": "2026-11-06 12:32:39",
+   "url": "https://news.futunn.com/flash/1003723578/chile-s-inflation-remains-above-target-central-bank-benchmark-rate",
    "source": "富途"
   },
   {
@@ -1840,38 +1861,38 @@
    "source": "财新"
   },
   {
-   "title": "李强同奥地利总理施托克尔会谈",
-   "summary": "11月6日上午，国务院总理李强在北京人民大会堂同来华进行正式访问的奥地利总理施托克尔举行会谈。",
-   "time": "2026-11-06 20:06",
-   "url": "https://wallstreetcn.com/livenews/3195982",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "特朗普：100%支持人工智能",
-   "summary": "【特朗普：100%支持人工智能】特朗普称，100%支持人工智能，将与那些希望通过发展人工智能而致富的美国多州合作。",
-   "time": "2026-11-06 20:03:09",
-   "url": "https://finance.eastmoney.com/a/202611063924998275.html",
+   "title": "国际海事组织呼吁保障重要国际航道安全",
+   "summary": "【国际海事组织呼吁保障重要国际航道安全】当地时间11月6日，国际海事组织第138届理事会会议在英国伦敦闭幕。会议重申，重要国际海峡和航运通道必须保持开放与安全，所有船员无论国籍都应受到保护。",
+   "time": "2026-11-06 20:29:33",
+   "url": "https://finance.eastmoney.com/a/202611063925031958.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普签发中期选举后首份公告：禁止擅改总统办公室 - 凤凰网",
+   "title": "伊比利亚美洲国家首脑会议宣言重申多边主义共识",
+   "summary": "在西班牙首都马德里举行的第30届伊比利亚美洲国家首脑会议11月5日通过《马德里宣言》，重申对多边主义的承诺。伊比利亚美洲国家包括拉丁美洲19个以西班牙语和葡萄牙语为母语的国家，以及欧洲伊比利亚半岛的西班牙、葡萄牙、安道尔三国。（新华社）",
+   "time": "2026-11-06 20:16",
+   "url": "https://wallstreetcn.com/livenews/3195987",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普为椭圆形办公室签总统令：不准改成正方形 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-06 18:27",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1wQVRkRV9QUmVGbW40WlNicVhBa0tSMGw1ejNIZzBVM3RIYWtyb2dndjNHekpnVmlOZmZ1RTh0OXdXWDItWERrd3h5M3I?oc=5",
+   "time": "2026-11-06 19:23",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPLURIMThCU1hLUWJiN1BDN0hncy1RaGk5b2J5WlFVbk9sT2hZRElLcmxBNWw4TXY3ZXh1M2ZsY2ZNaHdfcDJJWGQ2cF8zSmhmck9ncGYzMFV3WTBkQ3NmWWRtSGkwYnVjM3dJU2ZGaGMxV3otRGpnYWViR25TQ2ljbg?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "TCL中环：筹划发行股份购买资产事项继续停牌",
+   "title": "一艘油轮在霍尔木兹海峡附近发生爆炸",
    "summary": "",
-   "time": "2026-11-06 12:07:12",
-   "url": "https://news.10jqka.com.cn/20261106/c681567603.shtml",
+   "time": "2026-11-06 12:31:29",
+   "url": "https://news.10jqka.com.cn/20261106/c681568222.shtml",
    "source": "同花顺"
   },
   {
-   "title": "特朗普：我百分之百支持“超级智能”（SI）",
+   "title": "美银：AI股抛售后 韩元出现买入机会",
    "summary": "",
-   "time": "2026-11-06 12:02:00",
-   "url": "https://news.futunn.com/flash/1003720233/trump-i-am-100-in-favor-of-superintelligence-si",
+   "time": "2026-11-06 12:21:46",
+   "url": "https://news.futunn.com/flash/1003722231/bank-of-america-buying-opportunity-emerges-for-korean-won-after",
    "source": "富途"
   },
   {
@@ -1896,38 +1917,38 @@
    "source": "财新"
   },
   {
-   "title": "李强会见加蓬总统恩圭马",
-   "summary": "国务院总理李强在北京人民大会堂会见来华进行国事访问的加蓬总统恩圭马。",
-   "time": "2026-11-06 20:04",
-   "url": "https://wallstreetcn.com/livenews/3195981",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "智光电气：控股子公司签订1.14亿元储能系统设备买卖合同",
-   "summary": "【智光电气：控股子公司签订1.14亿元储能系统设备买卖合同】智光电气(002169.SZ)公告称，公司控股子公司智光储能与某公司签订《某县智慧共享独立储能电站项目储能系统设备买卖合同》，合同金额合计1.14亿元，买方向智光储能购买储能系统成套设备。",
-   "time": "2026-11-06 20:01:42",
-   "url": "https://finance.eastmoney.com/a/202611063925008226.html",
+   "title": "印度食品部称将增加大米公开市场销售",
+   "summary": "【印度食品部称将增加大米公开市场销售】印度食品部称将增加大米公开市场销售，以平抑国内米价。",
+   "time": "2026-11-06 20:24:05",
+   "url": "https://finance.eastmoney.com/a/202611063925031560.html",
    "source": "东财国际"
   },
   {
-   "title": "当特朗普说“拥有”格陵兰时，格陵兰正用跑道连接世界 - 观察者网",
+   "title": "莫德纳盘前股价涨幅扩大至12%。",
+   "summary": "莫德纳盘前股价涨幅扩大至12%。",
+   "time": "2026-11-06 20:10",
+   "url": "https://wallstreetcn.com/livenews/3195984",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普宣布终止对以军援 内塔尼亚胡办公室回应称体现美以关系成熟 - 凤凰网",
    "summary": "",
-   "time": "2026-11-06 18:27",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Mam91b3V2VzFPcm9aQThJZW40T2tjWkp4eWJrMTViZk1GMGlfcmdZLUFFbDM5OWZhaGRXZGYwZk1lNWVNSk1kdkpRdVZSVEo5SjBUZ3lJSE1HdTdBWU9abzFn?oc=5",
+   "time": "2026-11-06 18:31",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zajdCT1MyMlpyNldVRTZvY2RydDZYTk96N0oweFpGdk83T0Uzb1RhVnE4Y1ZjSnhlT1F0cGp0Y1NBeHNxUks5eWVsOXNBUEFMeXc?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "联泰环保：拟以16.11亿元出售两家公司100%股权，交易尚需审批",
+   "title": "东山精密：完成收购江苏华存73.4393%股权，总代价最高5.81亿元",
    "summary": "",
-   "time": "2026-11-06 12:04:31",
-   "url": "https://news.10jqka.com.cn/20261106/c681567547.shtml",
+   "time": "2026-11-06 12:28:27",
+   "url": "https://news.10jqka.com.cn/20261106/c681568029.shtml",
    "source": "同花顺"
   },
   {
-   "title": "莫德纳上调全年营收指引 第三季度实现2024年以来首次盈利",
+   "title": "分析：科技股恐慌拖累风险偏好，美元重获避险买盘支持",
    "summary": "",
-   "time": "2026-11-06 12:00:29",
-   "url": "https://news.futunn.com/flash/1003719663/moderna-raises-full-year-revenue-guidance-reports-first-profit-since",
+   "time": "2026-11-06 12:18:59",
+   "url": "https://news.futunn.com/flash/1003721864/analysis-tech-stock-selloff-drags-down-risk-appetite-us-dollar",
    "source": "富途"
   },
   {
@@ -1956,7 +1977,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(20)",
+   "富途": "ok(23)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1964,8 +1985,8 @@
    "谷歌新闻·国际": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 6,
    "东财国际": 6,
+   "华尔街见闻": 6,
    "谷歌新闻·国际": 6,
    "同花顺": 6,
    "富途": 6,
