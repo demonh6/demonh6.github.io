@@ -1,14 +1,13 @@
 name: Update Dashboard Data
 
 # ============================================================
-# 数据更新机制（自续链 + schedule 兜底）
+# 数据更新机制（rerun 自续链 + schedule 兜底）
 # ------------------------------------------------------------
-# GitHub 平台对分钟级 schedule 会静默丢弃（实测 */10 连续数小时零触发），
-# 因此采用"自续链"：每次数据提交（不带 [skip ci]）触发下一轮 run，
-# run 开头等待至 10 分钟节拍再采集 → 提交 → 再触发……链条自续。
-# schedule 保留作为链条断点时的兜底；concurrency 串行防堆积。
-# 节拍下限 8 分钟（BEAT_SECS），实测数据点间隔约 10 分钟。
-# 【切换回每日更新】cron 改 "30 23 * * *" 且数据提交加回 [skip ci]。
+# 平台限制：GITHUB_TOKEN 的 push 永远不会触发新 workflow（防递归），
+# 分钟级 schedule 又被 GitHub 静默丢弃（实测 */10 连续数小时零触发）。
+# 因此采用 rerun 自续：每轮 run 末尾等待节拍后用 API rerun 自身——
+# rerun 属于直接 API 调用，不受"事件不触发"限制，且历史里聚合为一个 run。
+# 数据点间隔 = sleep(480s) + 排队 + 采集 ≈ 10 分钟。
 # ============================================================
 
 on:
@@ -20,7 +19,7 @@ on:
         description: "更新频率标识（写入 JSON，10min / hourly / daily）"
         required: false
         default: "10min"
-  push:                       # 数据/代码提交触发下一轮（自续链的驱动源）
+  push:                       # 代码/数据变更立即刷新一轮
     branches: [main]
     paths:
       - "scripts/**"
@@ -30,13 +29,14 @@ on:
 
 permissions:
   contents: write
+  actions: write              # 允许 rerun API 自续链条
 
 concurrency:
   group: update-dashboard
   cancel-in-progress: false
 
 env:
-  BEAT_SECS: "480"            # 节拍下限 8 分钟：距上次数据提交不足 8 分钟则等待对齐
+  BEAT_SECS: "480"            # 节拍：8 分钟 sleep + 采集 ≈ 每 10 分钟一个数据点
 
 jobs:
   update:
@@ -45,8 +45,10 @@ jobs:
     env:
       DASHBOARD_INTERVAL: ${{ github.event.inputs.interval || '10min' }}
     steps:
-      - name: Checkout
+      - name: Checkout (main，rerun 时取最新代码)
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -57,19 +59,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install akshare lunar-python
-
-      - name: 等待至节拍（距上次数据提交不足8分钟则对齐10分钟槽位）
-        run: |
-          LAST=$(git log -1 --format=%ct -- data/dashboard.json 2>/dev/null || echo 0)
-          NOW=$(date +%s)
-          ELAPSED=$(( NOW - LAST ))
-          WAIT=$(( BEAT_SECS - ELAPSED ))
-          if [ $WAIT -gt 0 ] && [ $WAIT -lt 600 ]; then
-            echo "距上次数据 ${ELAPSED}s，等待 ${WAIT}s 对齐节拍"
-            sleep $WAIT
-          else
-            echo "距上次数据 ${ELAPSED}s，立即采集"
-          fi
 
       - name: Collect data (markets / news / wuxing)
         id: collect
@@ -85,7 +74,17 @@ jobs:
             git add data/dashboard.json
             git commit -m "chore(data): 仪表盘数据更新 ${{ github.event.inputs.interval || '10min' }}"
             git push
-            echo "dashboard.json 已提交推送（将触发下一轮自续）"
+            echo "dashboard.json 已提交推送"
           else
             echo "数据无变化，跳过提交"
           fi
+
+      - name: 自续链条（等待节拍后 rerun 自身，形成每10分钟节奏）
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "等待 ${BEAT_SECS}s 后 rerun 进入下一节拍……"
+          sleep $BEAT_SECS
+          gh api -X POST repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/rerun \
+            && echo "已调度下一节拍" || echo "rerun 调度失败（链条断，等待 schedule/下次 push 兜底）"
