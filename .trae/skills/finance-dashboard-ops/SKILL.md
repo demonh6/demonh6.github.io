@@ -51,6 +51,8 @@ warnings.filterwarnings('ignore')
 | Stooq | stooq.com/q/d/l | JS 防护页，勿用 |
 | 金十数据 | flash-api.jin10.com | 沙箱被墙，未验证 Actions，勿依赖 |
 | Yahoo chart | query1.finance.yahoo.com | 沙箱被拦；Actions 未验证，勿依赖 |
+| 微信公众号文章 | mp.weixin.qq.com/s/<hash>，iPhone UA | 单篇可直接抓（正文在 #js_content）；无公开列表 API，新文章 URL 需人工贴入 data/research_urls.json（最多取前3篇）；连续抓取会触发限流，失败属间歇性，降级不阻塞 |
+| 券商研报列表 | ak.stock_research_report_em() | 东财个股研报，"报告名称"即浓缩结论；池内头部券商少、日期可能滞后数月，排序必须最新日期优先 |
 
 **坑位清单（历次踩过）**：
 1. 自定义源函数必须给默认参数 `def _src(_kwargs=None)`——collect 用 `fn(**{})` 调用，
