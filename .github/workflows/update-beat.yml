@@ -1,0 +1,74 @@
+name: Update Beat B
+
+# 接力链 B 环：由 A 环（update-dashboard.yml）rerun 本工作流的最近 run 触发，
+# 采集完成后 rerun A 环，形成 A/B 交替的每10分钟节拍。
+# rerun 属于直接 API 调用，不受 GITHUB_TOKEN 事件防递归限制。
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/update-beat.yml"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: update-beat
+  cancel-in-progress: false
+
+env:
+  BEAT_SECS: "480"
+
+jobs:
+  beat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DASHBOARD_INTERVAL: "10min"
+    steps:
+      - name: Checkout (main)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install akshare lunar-python
+
+      - name: Collect data
+        continue-on-error: true
+        run: python scripts/update_data.py
+
+      - name: Commit & Push
+        if: always()
+        run: |
+          if [ -f data/dashboard.json ] && ! git diff --quiet HEAD -- data/dashboard.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/dashboard.json
+            git commit -m "chore(data): 仪表盘数据更新 10min（B环）"
+            git push
+          else
+            echo "数据无变化，跳过提交"
+          fi
+
+      - name: 接力回 A 环（等待节拍后 rerun A 的最近 run）
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "等待 ${BEAT_SECS}s 后接力回 A 环……"
+          sleep $BEAT_SECS
+          A_RUN_ID=$(gh run list --workflow update-dashboard.yml --limit 1 --json databaseId --jq '.[0].databaseId')
+          echo "A 环最近 run: $A_RUN_ID"
+          gh api -X POST "repos/${{ github.repository }}/actions/runs/${A_RUN_ID}/rerun" \
+            && echo "已接力到 A 环" || echo "接力失败（等待下次 push/schedule 兜底）"

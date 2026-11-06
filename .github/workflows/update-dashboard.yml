@@ -79,12 +79,14 @@ jobs:
             echo "数据无变化，跳过提交"
           fi
 
-      - name: 自续链条（等待节拍后 rerun 自身，形成每10分钟节奏）
+      - name: 接力到 B 环（等待节拍后 rerun B 的最近 run）
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          echo "等待 ${BEAT_SECS}s 后 rerun 进入下一节拍……"
+          echo "等待 ${BEAT_SECS}s 后接力到 B 环……"
           sleep $BEAT_SECS
-          gh api -X POST repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/rerun \
-            && echo "已调度下一节拍" || echo "rerun 调度失败（链条断，等待 schedule/下次 push 兜底）"
+          B_RUN_ID=$(gh run list --workflow update-beat.yml --limit 1 --json databaseId --jq '.[0].databaseId')
+          echo "B 环最近 run: $B_RUN_ID"
+          gh api -X POST "repos/${{ github.repository }}/actions/runs/${B_RUN_ID}/rerun" \
+            && echo "已接力到 B 环" || echo "接力失败（等待下次 push/schedule 兜底）"
