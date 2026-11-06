@@ -53,6 +53,7 @@ warnings.filterwarnings('ignore')
 | Yahoo chart | query1.finance.yahoo.com | 沙箱被拦；Actions 未验证，勿依赖 |
 | 微信公众号文章 | mp.weixin.qq.com/s/<hash>，iPhone UA | 单篇可直接抓（正文在 #js_content）；无公开列表 API，新文章 URL 需人工贴入 data/research_urls.json（最多取前3篇）；连续抓取会触发限流，失败属间歇性，降级不阻塞 |
 | 券商研报列表 | ak.stock_research_report_em() | 东财个股研报，"报告名称"即浓缩结论；池内头部券商少、日期可能滞后数月，排序必须最新日期优先 |
+| 旧页面主题 | assets/css/dark-theme.css | Strata 旧页（legacy/essays/works 共13页）统一在 main.css 后引用此覆盖层即得首页深色科技风；header 内含 .home-link 返回链接。新增旧页面时照此注入 |
 
 **坑位清单（历次踩过）**：
 1. 自定义源函数必须给默认参数 `def _src(_kwargs=None)`——collect 用 `fn(**{})` 调用，
