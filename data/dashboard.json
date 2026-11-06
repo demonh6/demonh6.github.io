@@ -1,7 +1,7 @@
 {
  "schema_version": 11,
- "generated_at": "2026-11-06 22:39:55 CST",
- "generated_at_iso": "2026-11-06T22:39:55+08:00",
+ "generated_at": "2026-11-06 22:48:57 CST",
+ "generated_at_iso": "2026-11-06T22:48:57+08:00",
  "date": "2026-11-06",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 51164.2891,
-    "change": -358.77,
-    "change_pct": -0.7,
-    "quote_time": "2026-11-06 22:39:54",
+    "price": 51405.4805,
+    "change": -117.58,
+    "change_pct": -0.23,
+    "quote_time": "2026-11-06 22:48:54",
     "hist": [
      51828.6211,
      51481.5117,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24701.8653,
-    "change": 386.868,
-    "change_pct": 1.59,
-    "quote_time": "2026-11-06 22:39:54",
+    "price": 24781.2533,
+    "change": 466.256,
+    "change_pct": 1.92,
+    "quote_time": "2026-11-06 22:48:59",
     "hist": [
      27068.7168,
      26820.3809,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7398.73,
-    "change": 45.0,
-    "change_pct": 0.61,
-    "quote_time": "2026-11-06 22:39:46",
+    "price": 7430.46,
+    "change": 76.73,
+    "change_pct": 1.04,
+    "quote_time": "2026-11-06 22:48:48",
     "hist": [
      7743.4102,
      7683.6899,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4047.25,
-    "change": -66.25,
-    "change_pct": -1.61,
-    "quote_time": "22:40:01 2026-11-06"
+    "price": 4051.568,
+    "change": -61.932,
+    "change_pct": -1.51,
+    "quote_time": "22:49:05 2026-11-06"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.709,
-    "change": -0.667,
-    "change_pct": -1.27,
-    "quote_time": "22:40:01 2026-11-06"
+    "price": 51.997,
+    "change": -0.379,
+    "change_pct": -0.72,
+    "quote_time": "22:49:06 2026-11-06"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 90.114,
-    "change": -0.406,
-    "change_pct": -0.45,
-    "quote_time": "22:40:01 2026-11-06"
+    "price": 91.027,
+    "change": 0.507,
+    "change_pct": 0.56,
+    "quote_time": "22:49:06 2026-11-06"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 97.75,
-    "change": -0.54,
-    "change_pct": -0.55,
-    "quote_time": "22:39:54 2026-11-06"
+    "price": 97.926,
+    "change": -0.364,
+    "change_pct": -0.37,
+    "quote_time": "22:49:00 2026-11-06"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75767.9,
-    "change": -3136.2,
-    "change_pct": -3.97,
+    "price": 75926.6,
+    "change": -2855.9,
+    "change_pct": -3.63,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2236.9,
-    "change": -125.6,
-    "change_pct": -5.32,
+    "price": 2241.35,
+    "change": -121.56,
+    "change_pct": -5.14,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 90.79,
-    "change": -3.39,
-    "change_pct": -3.6,
+    "price": 91.28,
+    "change": -2.45,
+    "change_pct": -2.61,
     "source": "okx"
    }
   ]
@@ -1758,28 +1758,28 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-06 22:40",
+   "time": "2026-11-06 22:49",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "日经225、韩国KOSPI、英国富时100等 5 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-06 22:40",
+   "time": "2026-11-06 22:49",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.80%，达20日历史波动率的 2.5 倍（σ=0.73%，突破 2σ 警戒线）",
-   "time": "2026-11-06 22:40",
+   "time": "2026-11-06 22:49",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.85%，达20日历史波动率的 2.4 倍（σ=0.77%，突破 2σ 警戒线）",
-   "time": "2026-11-06 22:40",
+   "time": "2026-11-06 22:49",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
