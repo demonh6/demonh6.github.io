@@ -1045,7 +1045,9 @@
 
   function renderMeta(d) {
     $("updated-at").textContent = d.generated_at || d.date || "--";
-    if (d.interval === "hourly") {
+    if (d.interval === "10min") {
+      $("freq-note").textContent = "每10分钟更新 · 实时行情即时刷新，低频信源分级降频";
+    } else if (d.interval === "hourly") {
       $("freq-note").textContent = "每小时更新 · 整点后自动拉取";
     }
   }

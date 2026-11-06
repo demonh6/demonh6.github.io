@@ -39,7 +39,7 @@ OUT_PATH = os.path.join(REPO_ROOT, "data", "dashboard.json")
 CST = timezone(timedelta(hours=8))  # 北京时间
 
 # GitHub Actions 可通过环境变量切换更新频率标识（daily / hourly）
-INTERVAL = os.environ.get("DASHBOARD_INTERVAL", "daily")
+INTERVAL = os.environ.get("DASHBOARD_INTERVAL", "10min")
 NEWS_LIMIT = int(os.environ.get("DASHBOARD_NEWS_LIMIT", "24"))
 
 SINA_HQ_URL = "https://hq.sinajs.cn/list={symbols}"
@@ -689,17 +689,21 @@ def fetch_crypto():
     raise RuntimeError("；".join(errors) or "全部加密源失败")
 
 
-def fetch_key_assets():
-    """关键标的聚合：美债10Y、贵金属、能源、加密货币（各自独立容错）。"""
-    assets = {"bond": None, "commodities": [], "crypto": []}
+def fetch_key_assets(bond_due=True, prev_bond=None):
+    """关键标的聚合：贵金属/能源(每次)、加密(每次)、美债(降频，日频数据)。
+
+    bond_due=False 时直接沿用 prev_bond（财政部 CSV 为日频，10分钟粒度无新数据）。
+    """
+    assets = {"bond": prev_bond, "commodities": [], "crypto": []}
     errors = {}
 
-    try:
-        assets["bond"] = fetch_us10y()
-        log("OK   美债10Y")
-    except Exception as e:  # noqa: BLE001
-        errors["美债10Y"] = f"{type(e).__name__}: {e}"
-        log(f"FAIL 美债10Y: {e}")
+    if bond_due:
+        try:
+            assets["bond"] = fetch_us10y()
+            log("OK   美债10Y")
+        except Exception as e:  # noqa: BLE001
+            errors["美债10Y"] = f"{type(e).__name__}: {e}"
+            log(f"FAIL 美债10Y: {e}")
 
     try:
         assets["commodities"] = fetch_commodities()
@@ -1134,28 +1138,31 @@ def _cboe_hist(ticker, n=30):
     return closes[-n:]
 
 
-def fetch_sentiment():
-    """情绪与风险仪表：恐惧贪婪 + A股广度 + VIX + 波动率期限结构。"""
+def fetch_sentiment(fg_due=True, prev_fg=None):
+    """情绪与风险仪表：恐惧贪婪(降频,日频数据) + A股广度 + VIX + 波动率期限结构。"""
     sentiment = {}
+    if prev_fg:
+        sentiment["fear_greed"] = prev_fg
 
-    # 1. 恐惧贪婪指数（alternative.me 第三方）
-    try:
-        r = requests.get("https://api.alternative.me/fng/",
-                         params={"limit": 1, "format": "json"},
-                         timeout=HTTP_TIMEOUT)
-        r.raise_for_status()
-        d = r.json()["data"][0]
-        v = int(d["value"])
-        label, color = _fg_bucket(v)
-        sentiment["fear_greed"] = {
-            "value": v, "classification": d["value_classification"],
-            "label": label, "color": color,
-            "timestamp": datetime.fromtimestamp(int(d["timestamp"]), CST).strftime("%Y-%m-%d"),
-            "source": "alternative.me",
-        }
-        log(f"OK   恐惧贪婪指数 {v}({label})")
-    except Exception as e:  # noqa: BLE001
-        log(f"FAIL 恐惧贪婪指数: {type(e).__name__}")
+    # 1. 恐惧贪婪指数（alternative.me 第三方，日频数据，降频采集）
+    if fg_due:
+        try:
+            r = requests.get("https://api.alternative.me/fng/",
+                             params={"limit": 1, "format": "json"},
+                             timeout=HTTP_TIMEOUT)
+            r.raise_for_status()
+            d = r.json()["data"][0]
+            v = int(d["value"])
+            label, color = _fg_bucket(v)
+            sentiment["fear_greed"] = {
+                "value": v, "classification": d["value_classification"],
+                "label": label, "color": color,
+                "timestamp": datetime.fromtimestamp(int(d["timestamp"]), CST).strftime("%Y-%m-%d"),
+                "source": "alternative.me",
+            }
+            log(f"OK   恐惧贪婪指数 {v}({label})")
+        except Exception as e:  # noqa: BLE001
+            log(f"FAIL 恐惧贪婪指数: {type(e).__name__}")
 
     # 2. A股广度：push2 轻量接口（沪+深 涨跌家数），clist 全表降级
     try:
@@ -1432,58 +1439,69 @@ def _weixin_extract(url):
             "url": url, "conclusions": conclusions}
 
 
-def fetch_research():
-    """研报观点：微信点睛精读（URL 由 data/research_urls.json 配置）+ 东财研报速览。"""
-    import json as _json
-    import os as _os
+def fetch_research(digest_due=True, reports_due=True, prev=None):
+    """研报观点：微信点睛精读(降频,日更内容) + 东财研报速览(降频)。
 
+    降频窗口未到期时沿用 prev 对应部分（微信内容一天一篇、研报列表日频）。
+    """
+    prev = prev or {}
     out = {"digest": [], "reports": []}
-    # 1. 微信精读：抓配置列表中的每一篇（最新在前），逐篇提炼，全部失败不阻塞
-    urls_path = _os.path.join(REPO_ROOT, "data", "research_urls.json")
-    urls = []
-    if _os.path.exists(urls_path):
-        try:
-            cfg = _json.load(open(urls_path, encoding="utf-8"))
-            urls = cfg if isinstance(cfg, list) else cfg.get("urls", [])
-        except Exception as e:  # noqa: BLE001
-            log(f"研报URL配置解析失败: {type(e).__name__}")
-    for u in urls[:3]:
-        try:
-            art = _weixin_extract(str(u).strip())
-            out["digest"].append(art)
-            log(f"OK   微信精读《{art['title'][:24]}》结论{len(art['conclusions'])}条")
-        except Exception as e:  # noqa: BLE001
-            log(f"FAIL 微信精读 {str(u)[:50]}: {type(e).__name__}")
-        time.sleep(1)
+    if not digest_due and prev.get("digest"):
+        out["digest"] = prev["digest"]
+    if not reports_due and prev.get("reports"):
+        out["reports"] = prev["reports"]
 
-    # 2. 东财研报速览：头部机构最新研报，报告名称即浓缩结论
-    try:
-        import akshare as ak
-        df = ak.stock_research_report_em()
-        # 最新日期优先（同日内头部机构靠前）——时效性高于机构名气
-        df["_head"] = df["机构"].apply(lambda o: any(h in o for h in HEAD_BROKERS))
-        df = df.sort_values(["日期", "_head"], ascending=[False, False])
-        picked, seen_titles = [], set()
-        for _, row in df.iterrows():
-            org = str(row.get("机构", ""))
-            name = str(row.get("报告名称", "")).strip()
-            if len(name) < 10 or name[:14] in seen_titles:
-                continue
-            seen_titles.add(name[:14])
-            picked.append({
-                "title": name[:80],
-                "org": org[:12],
-                "rating": str(row.get("东财评级", ""))[:6],
-                "stock": str(row.get("股票简称", ""))[:12],
-                "industry": str(row.get("行业", ""))[:10],
-                "date": str(row.get("日期", ""))[:10],
-            })
-            if len(picked) >= 8:
-                break
-        out["reports"] = picked
-        log(f"OK   东财研报速览 {len(picked)} 条")
-    except Exception as e:  # noqa: BLE001
-        log(f"FAIL 东财研报速览: {type(e).__name__}")
+    # 1. 微信精读：抓配置列表中的每一篇（最新在前），逐篇提炼，全部失败不阻塞
+    if digest_due:
+        import json as _json
+        import os as _os
+        urls_path = _os.path.join(REPO_ROOT, "data", "research_urls.json")
+        urls = []
+        if _os.path.exists(urls_path):
+            try:
+                cfg = _json.load(open(urls_path, encoding="utf-8"))
+                urls = cfg if isinstance(cfg, list) else cfg.get("urls", [])
+            except Exception as e:  # noqa: BLE001
+                log(f"研报URL配置解析失败: {type(e).__name__}")
+        for u in urls[:3]:
+            try:
+                art = _weixin_extract(str(u).strip())
+                out["digest"].append(art)
+                log(f"OK   微信精读《{art['title'][:24]}》结论{len(art['conclusions'])}条")
+            except Exception as e:  # noqa: BLE001
+                log(f"FAIL 微信精读 {str(u)[:50]}: {type(e).__name__}")
+            time.sleep(1)
+
+    # 2. 东财研报速览：最新研报，报告名称即浓缩结论
+    if reports_due:
+        try:
+            import akshare as ak
+            df = ak.stock_research_report_em()
+            # 最新日期优先（同日内头部机构靠前）——时效性高于机构名气
+            df["_head"] = df["机构"].apply(lambda o: any(h in o for h in HEAD_BROKERS))
+            df = df.sort_values(["日期", "_head"], ascending=[False, False])
+            picked, seen_titles = [], set()
+            for _, row in df.iterrows():
+                org = str(row.get("机构", ""))
+                name = str(row.get("报告名称", "")).strip()
+                if len(name) < 10 or name[:14] in seen_titles:
+                    continue
+                seen_titles.add(name[:14])
+                picked.append({
+                    "title": name[:80],
+                    "org": org[:12],
+                    "rating": str(row.get("东财评级", ""))[:6],
+                    "stock": str(row.get("股票简称", ""))[:12],
+                    "industry": str(row.get("行业", ""))[:10],
+                    "date": str(row.get("日期", ""))[:10],
+                })
+                if len(picked) >= 8:
+                    break
+            if picked:
+                out["reports"] = picked
+            log(f"OK   东财研报速览 {len(picked)} 条")
+        except Exception as e:  # noqa: BLE001
+            log(f"FAIL 东财研报速览: {type(e).__name__}")
 
     if not out["digest"] and not out["reports"]:
         raise RuntimeError("研报观点全部源失败")
@@ -1665,53 +1683,135 @@ def safe(collect, label):
         return None, f"{type(e).__name__}: {e}"
 
 
+# --------------------------------------------------------------------------
+# 分级调度：cron 每 10 分钟触发一次，限流敏感/低频变化的信源按窗口降频。
+#   t1(每次)   实时行情类：新浪A股/港股/美股/商品、加密、VIX实时、广度、五行(本地)
+#   t2(30分钟) 全球指数(东财)、美债(财政部日频)、恐惧贪婪(日频)、新闻八源
+#   t3(60分钟) akshare 日线历史批量(十几个请求)、东财研报列表
+#   t4(2小时)  微信精读(一天一篇)
+# 未到窗口的模块沿用上一轮 JSON 数据（增量合并），不重复请求。
+# --------------------------------------------------------------------------
+TIER_WINDOWS = {"t2": 30, "t3": 60, "t4": 120}
+FRESH_WINDOW = 10  # 每级窗口的前 10 分钟内采集（cron 每 10 分钟跑一次，窗口首跳即到点）
+
+
+def _tier_due(tier, minute):
+    if tier not in TIER_WINDOWS:
+        return True
+    return minute % TIER_WINDOWS[tier] < FRESH_WINDOW
+
+
+def _load_prev():
+    """读取上一轮 dashboard.json 作为降频模块的数据底座。"""
+    try:
+        with open(OUT_PATH, encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:  # noqa: BLE001
+        return {}
+
+
+def _merge_market_group(prev_items, new_items):
+    """实时价用新数据，hist/sigma/量能等派生字段从旧数据继承（t3 未跑时）。"""
+    if not new_items:
+        return prev_items or []
+    if not prev_items:
+        return new_items
+    old_by = {i.get("name"): i for i in prev_items if isinstance(i, dict)}
+    for it in new_items:
+        old = old_by.get(it.get("name"))
+        if old:
+            for k in ("hist", "sigma", "sigma_bp", "volume", "vol_chg_pct",
+                      "vol_pctile", "vol_hist"):
+                if k in old and k not in it:
+                    it[k] = old[k]
+    return new_items
+
+
 def main():
-    log(f"开始更新 dashboard 数据（interval={INTERVAL}）")
+    now = datetime.now(CST)
+    minute = now.minute
+    prev = _load_prev()
+    p_markets = prev.get("markets") or {}
+    p_ka = prev.get("key_assets") or {}
+    p_sent = prev.get("sentiment") or {}
+    p_research = prev.get("research") or {}
+
+    log(f"开始更新 dashboard 数据（interval={INTERVAL}，minute={minute}，"
+        f"t2={'✓' if _tier_due('t2', minute) else '×'} t3={'✓' if _tier_due('t3', minute) else '×'} "
+        f"t4={'✓' if _tier_due('t4', minute) else '×'}）")
     errors = {}
 
+    # ---- t1：实时行情（每次必跑）----
     a_idx, errors["A股指数"] = safe(fetch_a_indices, "A股指数")
     hk_idx, errors["港股指数"] = safe(fetch_hk_indices, "港股指数")
     us_idx, errors["美股指数"] = safe(fetch_us_indices, "美股指数")
-    global_idx, errors["全球指数"] = safe(fetch_global_indices, "全球指数(亚太/欧洲)")
-    key_assets, key_errors = fetch_key_assets()
+
+    key_assets, key_errors = fetch_key_assets(
+        bond_due=_tier_due("t2", minute), prev_bond=p_ka.get("bond"))
     errors.update(key_errors)
 
-    sentiment, errors["情绪仪表"] = safe(fetch_sentiment, "情绪仪表")
+    wuxing, errors["今日五行"] = safe(fetch_wuxing, "今日五行")   # 纯本地计算，零成本
 
-    news, news_err = safe(fetch_news, "全球要闻(6源聚合)")
-    if news is None:
-        errors["全球要闻"] = news_err
-        news, news_meta = [], {}
+    # ---- t2：东财全球指数 / 美债(已在上方) / 新闻 ----
+    if _tier_due("t2", minute):
+        global_idx, errors["全球指数"] = safe(fetch_global_indices, "全球指数(亚太/欧洲)")
+        sentiment, errors["情绪仪表"] = safe(
+            lambda: fetch_sentiment(fg_due=_tier_due("t2", minute),
+                                    prev_fg=p_sent.get("fear_greed")),
+            "情绪仪表")
+        news, news_err = safe(fetch_news, "全球要闻(8源聚合)")
+        if news is None:
+            errors["全球要闻"] = news_err
+            news, news_meta = prev.get("news") or [], prev.get("news_meta") or {}
+        else:
+            news, news_meta = news
     else:
-        news, news_meta = news
+        log("跳过 t2 模块（全球指数/情绪/新闻沿用上轮）")
+        global_idx = p_markets.get("global") or None
+        errors["全球指数"] = None
+        sentiment = p_sent
+        news, news_meta = prev.get("news") or [], prev.get("news_meta") or {}
 
     speakers, errors["关键人物"] = safe(lambda: fetch_speakers(news), "关键人物发言")
 
-    research, errors["研报观点"] = safe(fetch_research, "研报观点")
-
-    wuxing, errors["今日五行"] = safe(fetch_wuxing, "今日五行")
+    # ---- t3/t4：日线历史批量 / 研报 ----
+    if _tier_due("t3", minute):
+        research, errors["研报观点"] = safe(
+            lambda: fetch_research(digest_due=_tier_due("t4", minute),
+                                   reports_due=True, prev=p_research),
+            "研报观点")
+    else:
+        log("跳过 t3 模块（研报沿用上轮）")
+        research = p_research or {"digest": [], "reports": []}
+        errors["研报观点"] = None
 
     markets = {
-        "a_share": a_idx,
-        "hk": hk_idx,
-        "us": us_idx,
-        "global": global_idx,
+        "a_share": _merge_market_group(p_markets.get("a_share"), a_idx),
+        "hk": _merge_market_group(p_markets.get("hk"), hk_idx),
+        "us": _merge_market_group(p_markets.get("us"), us_idx),
+        "global": _merge_market_group(p_markets.get("global"), global_idx),
     }
-    attach_histories(markets, key_assets)   # 补充30日走势与20日σ（告警基准）
 
-    # 量能统计：今日量/较5日均量/近1年分位/30日序列
-    for group in (markets.get("a_share"), markets.get("hk"), markets.get("us"),
-                  markets.get("global"), key_assets.get("commodities")):
-        _finalize_volumes(group or [])
+    # 日线历史批量（t3）：每次全量补充会打十几个 akshare 请求，降到每小时
+    hist_fresh = _tier_due("t3", minute)
+    if hist_fresh:
+        attach_histories(markets, key_assets)   # 补充30日走势与20日σ（告警基准）
+        # 量能统计：今日量/较5日均量/近1年分位/30日序列
+        for group in (markets.get("a_share"), markets.get("hk"), markets.get("us"),
+                      markets.get("global"), key_assets.get("commodities")):
+            _finalize_volumes(group or [])
+    else:
+        log("跳过 t3 模块（日线历史/量能沿用上轮）")
+        # _merge_market_group 已从 prev 继承 hist/sigma/量能字段
 
     alerts = compute_alerts(markets, key_assets)
 
-    now = datetime.now(CST)
     freq_note = {
+        "10min": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 10,
+        "schema_version": 11,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),

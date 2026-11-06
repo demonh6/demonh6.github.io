@@ -12,14 +12,13 @@ name: Update Dashboard Data
 
 on:
   schedule:
-    - cron: "0 * * * *"      # 每小时整点（北京时间每小时整点自动拉取）；每日更新改为 "30 23 * * *"
-    - cron: "33 * * * *"     # 错峰补跑：GitHub 调度在高峰期常跳过整点任务，33分再给一次机会（数据提交带 [skip ci] 不会递归）
+    - cron: "*/10 * * * *"   # 每10分钟一次；脚本内按信源分级降频（30分钟/1小时/2小时），数据提交带 [skip ci] 不会递归
   workflow_dispatch:          # 支持手动触发
     inputs:
       interval:
-        description: "更新频率标识（写入 JSON，hourly / daily）"
+        description: "更新频率标识（写入 JSON，10min / hourly / daily）"
         required: false
-        default: "hourly"
+        default: "10min"
   push:                       # 脚本/数据变更时立即刷新一次（数据提交自带 [skip ci] 不会递归）
     branches: [main]
     paths:
@@ -39,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     env:
-      DASHBOARD_INTERVAL: ${{ github.event.inputs.interval || 'hourly' }}
+      DASHBOARD_INTERVAL: ${{ github.event.inputs.interval || '10min' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -66,7 +65,7 @@ jobs:
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/dashboard.json
-            git commit -m "chore(data): 每小时仪表盘数据更新 ${{ github.event.inputs.interval || 'hourly' }} [skip ci]"
+            git commit -m "chore(data): 仪表盘数据更新 ${{ github.event.inputs.interval || '10min' }} [skip ci]"
             git push
             echo "dashboard.json 已提交推送"
           else
