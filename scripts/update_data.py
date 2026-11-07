@@ -1475,23 +1475,21 @@ def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None)
     # 2. 东财研报速览：最新研报，报告名称即浓缩结论
     if reports_due:
         picked = []
-        # 2a. 机构观点：从近 2 天新闻池提取权威机构的明确观点（国内外多面）
+        # 2a. 机构观点：从近 2 天新闻池提取权威机构相关报道（标题即观点，国内外多面）
         try:
             if news_pool:
                 org_pat = re.compile(
                     r"(高盛|摩根士丹利|摩根大通|大摩|小摩|瑞银|花旗|巴克莱|贝莱德|桥水|"
-                    r"汇丰|德意志银行|德银|野村|瑞穗|贝莱德|贝恩|麦肯锡|景林|高瓴|红杉|"
+                    r"汇丰|德意志银行|德银|野村|瑞穗|贝恩|麦肯锡|景林|高瓴|红杉|"
                     r"中金|中信证券|中信建投|国泰海通|国泰君安|华泰|申万宏源|兴业证券|广发|"
                     r"招商证券|光大证券|安信|天风|民生证券|东吴|浙商|国盛|开源证券|"
                     r"中银证券|国信证券|方正|华西|国金|财通|东兴|太平洋证券|"
                     r"路透|彭博|彭博社|CNBC|金融时报|华尔街日报|经济学人)")
-                verb_pat = re.compile(r"(预计|认为|看好|看空|上调|下调|预警|警告|目标价|评级|"
-                                      r"削减|增持|减持|预测|展望|预期|判断|指出|提示|研报|分析|维持)")
                 seen_t = set()
                 for n in news_pool:
                     blob = n.get("title", "") + " " + n.get("summary", "")
                     mo = org_pat.search(blob)
-                    if not mo or not verb_pat.search(blob):
+                    if not mo:
                         continue
                     key = n.get("title", "")[:14]
                     if key in seen_t:
@@ -1559,6 +1557,35 @@ def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None)
     return out
 
 
+def _news_gnews_research(_kwargs=None):
+    """谷歌新闻 RSS·研报观点：评级/目标价/投行观点类报道（国内外权威机构）。"""
+    r = requests.get("https://news.google.com/rss/search",
+                     params={"q": '(研报 OR 评级 OR "目标价" OR 投行 OR 券商观点 OR "price target") when:2d',
+                             "hl": "zh-CN", "gl": "CN", "ceid": "CN:zh-Hans"},
+                     headers=_UA_HEADERS, timeout=HTTP_TIMEOUT + 6)
+    r.raise_for_status()
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(r.content)
+    out = []
+    for item in root.iter("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub = (item.findtext("pubDate") or "").strip()
+        if not title:
+            continue
+        tm = ""
+        if pub:
+            try:
+                from email.utils import parsedate_to_datetime
+                tm = parsedate_to_datetime(pub).astimezone(CST).strftime("%Y-%m-%d %H:%M")
+            except Exception:  # noqa: BLE001
+                pass
+        out.append({"title": title[:160], "summary": "", "time": tm, "url": link})
+        if len(out) >= NEWS_SOURCE_LIMIT:
+            break
+    return out
+
+
 def fetch_news():
     """八源聚合：东财国际 + 新浪 + 富途 + 同花顺 + 财新 + 百度财经 + 华尔街见闻 + 谷歌新闻。"""
     import akshare as ak
@@ -1596,6 +1623,7 @@ def fetch_news():
             lambda rs: _norm_news(rs, title_key="事件", summary_key="公布", time_key="日期"))
     collect(_news_wscn, {}, "华尔街见闻")
     collect(_news_gnews_trump, {}, "谷歌新闻·国际")
+    collect(_news_gnews_research, {}, "谷歌新闻·研报")
     time.sleep(0.3)
 
     deduped = _dedup_news(pool)
