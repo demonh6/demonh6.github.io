@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-07 21:56:22 CST",
- "generated_at_iso": "2026-11-07T21:56:22+08:00",
+ "generated_at": "2026-11-07 22:04:33 CST",
+ "generated_at_iso": "2026-11-07T22:04:33+08:00",
  "date": "2026-11-07",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1395,7 +1395,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1404,7 +1437,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1413,7 +1479,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1422,7 +1521,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75939.6,
-    "change": 66.2,
-    "change_pct": 0.09,
-    "source": "okx"
+    "price": 75944.9,
+    "change": 237.4,
+    "change_pct": 0.31,
+    "source": "okx",
+    "hist": [
+     82872.4,
+     83057.6,
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75943.8
+    ],
+    "sigma": 2.14
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2245.2,
-    "change": 8.56,
-    "change_pct": 0.38,
-    "source": "okx"
+    "price": 2245.11,
+    "change": 16.98,
+    "change_pct": 0.76,
+    "source": "okx",
+    "hist": [
+     2488.81,
+     2511.87,
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2245.16
+    ],
+    "sigma": 2.984
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.98,
-    "change": -0.4,
-    "change_pct": -0.44,
-    "source": "okx"
+    "price": 90.0,
+    "change": 0.08,
+    "change_pct": 0.09,
+    "source": "okx",
+    "hist": [
+     109.72,
+     110.49,
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.95
+    ],
+    "sigma": 2.879
    }
   ]
  },
@@ -1465,12 +1731,12 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 725,
-   "down": 4483,
-   "flat": 87,
-   "total": 5295,
-   "breadth_pct": 13.7,
-   "score": -22.6,
+   "up": 758,
+   "down": 4741,
+   "flat": 76,
+   "total": 5575,
+   "breadth_pct": 13.6,
+   "score": -22.8,
    "source": "东财"
   },
   "vix": {
@@ -1543,12 +1809,34 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 1.2,
+   "score": 1.1,
    "label": "极度恐惧",
    "color": "#f04a3d"
   }
  },
  "speakers": [
+  {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车",
+   "summary": "【特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车】美国电动汽车制造商特斯拉首席执行官埃隆·马斯克6日在社交媒体平台宣布，将于2027年年中前后逐步停止生产赛博越野旅行车（Cybertruck），把产能用于增产赛博出租车（Cybercab）。",
+   "time": "2026-11-07 22:04:07",
+   "url": "https://finance.eastmoney.com/a/202611073925550576.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "观天下·人物丨白宫幕僚长换人，谁是斯蒂芬·米勒 - 新华网客户端",
+   "summary": "",
+   "time": "2026-11-07 22:03",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZFJtRU1tbWFhMnZ6V05GcGhQYXFXR09DQ21QaHRQMG1HdGUwYk45Q29nZDM2cDFOYmJycVV1cUJlRjUxUC1nYm1JOUFGdEQxWXdlQUUyWlA1QmZ5N1V3UkFscWlDdUpkV1pkMGRfRTJaZE90T0FmSFM1MVc2SlJXNFh2ejZRYkZOTUJndXpPbXBfZnRRY29uLUx3?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
   {
    "keyword": "特朗普",
    "label": "特朗普",
@@ -1559,28 +1847,6 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQ19GZ244T095MEc2ZWxXamV1aGphT1hDQzR6NVg1a2FRV2NHcTFDOGxPUmFneFBkQllhMllpWEF3T3ZiWDh1OXJLUy1LcUFjZjY3REFXUDR4cnJFcUdyd2tyTGZfNHZHcnc?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
-  },
-  {
-   "keyword": "白宫",
-   "label": "白宫",
-   "hint": "美国官方政策表态的权威渠道",
-   "title": "白宫首席顾问：特朗普不会因选举失利而调整经济政策 - 联合早报",
-   "summary": "",
-   "time": "2026-11-07 21:26",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQ19GZ244T095MEc2ZWxXamV1aGphT1hDQzR6NVg1a2FRV2NHcTFDOGxPUmFneFBkQllhMllpWEF3T3ZiWDh1OXJLUy1LcUFjZjY3REFXUDR4cnJFcUdyd2tyTGZfNHZHcnc?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储宣战，黄金一夜生变 - 凤凰网财经",
-   "summary": "",
-   "time": "2026-11-07 21:13",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45VWg0WVQ4ZXNIOWVvT3NsM0lDS1FlUlhrdEpTWFZEbmRZZjFxS3FfbDZjMTROck1YWXhlR2RHUk5ZaDhYYVJSUWcyTHpFN2Y1?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
   },
   {
    "keyword": "商务部",
@@ -1666,6 +1932,26 @@
   ],
   "reports": [
    {
+    "title": "国金证券：核心蓝筹股的估值水平已经处于历史偏低水平",
+    "org": "国金",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-07",
+    "url": "https://wallstreetcn.com/livenews/3196430",
+    "source": "机构观点"
+   },
+   {
+    "title": "美国将成立工作组限制伊朗使用陆路通道和里海。（路透）",
+    "org": "路透",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-07",
+    "url": "https://wallstreetcn.com/livenews/3196429",
+    "source": "机构观点"
+   },
+   {
     "title": "开源证券：给予行动教育买入评级_券商研报_数据解析 - 证券之星",
     "org": "开源证券",
     "rating": "",
@@ -1682,17 +1968,24 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-07 21:56",
+   "time": "2026-11-07 22:11",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "金价回撤超30%",
-   "summary": "【金价回撤超30%】11月7日消息，2026年以来，金价行情持续波动。今年1月29日，伦敦现货黄金盘中逼近5600美元/盎司，创下新高。此后金价一路震荡下行，10月单月下跌6.8%，自峰值最大回撤超30%。在C端交易中，金价波动推动了回收与零售两端形成“反向接力”：金价上行时变现需求集中释放，金价下行时买入需求明显升温。《中国市场黄金需求趋势报告》显示，2026年三季度金饰消费量季节性环比回升30%至66吨。转转数据显示，10月金价急跌6.8%，零售订单环比增长26%，创下年内单月新高。",
-   "time": "2026-11-07 21:33:51",
-   "url": "https://finance.eastmoney.com/a/202611073925545533.html",
+   "title": "特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车",
+   "summary": "【特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车】美国电动汽车制造商特斯拉首席执行官埃隆·马斯克6日在社交媒体平台宣布，将于2027年年中前后逐步停止生产赛博越野旅行车（Cybertruck），把产能用于增产赛博出租车（Cybercab）。",
+   "time": "2026-11-07 22:04:07",
+   "url": "https://finance.eastmoney.com/a/202611073925550576.html",
    "source": "东财国际"
+  },
+  {
+   "title": "观天下·人物丨白宫幕僚长换人，谁是斯蒂芬·米勒 - 新华网客户端",
+   "summary": "",
+   "time": "2026-11-07 22:03",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZFJtRU1tbWFhMnZ6V05GcGhQYXFXR09DQ21QaHRQMG1HdGUwYk45Q29nZDM2cDFOYmJycVV1cUJlRjUxUC1nYm1JOUFGdEQxWXdlQUUyWlA1QmZ5N1V3UkFscWlDdUpkV1pkMGRfRTJaZE90T0FmSFM1MVc2SlJXNFh2ejZRYkZOTUJndXpPbXBfZnRRY29uLUx3?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "国金证券：核心蓝筹股的估值水平已经处于历史偏低水平",
@@ -1702,13 +1995,6 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "白宫首席顾问：特朗普不会因选举失利而调整经济政策 - 联合早报",
-   "summary": "",
-   "time": "2026-11-07 21:26",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQ19GZ244T095MEc2ZWxXamV1aGphT1hDQzR6NVg1a2FRV2NHcTFDOGxPUmFneFBkQllhMllpWEF3T3ZiWDh1OXJLUy1LcUFjZjY3REFXUDR4cnJFcUdyd2tyTGZfNHZHcnc?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "标普将波兰评级展望下调至负面，财长将矛头指向总统否决权 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
    "time": "2026-11-07 21:08",
@@ -1716,18 +2002,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "泽连斯基：乌仍严重缺乏“爱国者”防空系统拦截弹",
+   "summary": "",
+   "time": "2026-11-07 14:10:11",
+   "url": "https://news.10jqka.com.cn/20261107/c681579748.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "美军方：成立特遣队，旨在切断伊朗用于支持非法运输的陆路运输路线",
    "summary": "",
    "time": "2026-11-07 13:35:07",
    "url": "https://news.futunn.com/flash/1003807115/us-military-establishes-task-force-aimed-at-cutting-off-overland",
    "source": "富途"
-  },
-  {
-   "title": "伯克希尔哈撒韦第三季度营业利润为127.1亿美元，同比下降5.8%",
-   "summary": "",
-   "time": "2026-11-07 12:58:29",
-   "url": "https://news.10jqka.com.cn/20261107/c681579184.shtml",
-   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月6日周五",
@@ -1744,11 +2030,18 @@
    "source": "财新"
   },
   {
-   "title": "国金证券牟一凌：核心蓝筹股的估值水平已经处于历史偏低水平",
-   "summary": "【国金证券牟一凌：核心蓝筹股的估值水平已经处于历史偏低水平】国金证券首席策略官、副所长牟一凌接受券商中国记者采访时表示，9月中下旬以来，A股市场表现承压，外部不确定性加剧是本轮回调的核心扰动。当前核心蓝筹股的估值水平已经处于历史偏低水平，尤其成长类大盘蓝筹性价比凸显。",
-   "time": "2026-11-07 21:30:00",
-   "url": "https://finance.eastmoney.com/a/202611073925545938.html",
+   "title": "美中央司令部成立特遣队 阻止伊朗通过陆路运输先进武器",
+   "summary": "【美中央司令部成立特遣队 阻止伊朗通过陆路运输先进武器】当地时间11月7日，美国中央司令部司令库珀下令成立一支名为“铁门”（Task Force Iron Gate）的特遣队，旨在配合美国政府正在开展的相关行动，阻止伊朗通过陆路运输先进武器及其他物资。",
+   "time": "2026-11-07 21:52:19",
+   "url": "https://finance.eastmoney.com/a/202611073925548095.html",
    "source": "东财国际"
+  },
+  {
+   "title": "白宫首席顾问：特朗普不会因选举失利而调整经济政策 - 联合早报",
+   "summary": "",
+   "time": "2026-11-07 21:26",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQ19GZ244T095MEc2ZWxXamV1aGphT1hDQzR6NVg1a2FRV2NHcTFDOGxPUmFneFBkQllhMllpWEF3T3ZiWDh1OXJLUy1LcUFjZjY3REFXUDR4cnJFcUdyd2tyTGZfNHZHcnc?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "美国将成立工作组限制伊朗使用陆路通道和里海。（路透）",
@@ -1758,13 +2051,6 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普委任新幕僚长 司法部高层纷离职 - 联合早报",
-   "summary": "",
-   "time": "2026-11-07 21:18",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DS2FvRTRpaWxGZ0x4Z1FMY25wNll6cmxWRm4tQ3hRcTZzTDBoeEdweWNsdlJyb3ZhYl8xeFZDdVFGc3ZLM1dOeUMzMWh1SGJZWHFOMV9PR0ZXTWZCRWRQY3ZWSXVhWGI1d3c?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "喜获5A评级！凝心聚力，助力山东足球高质量发展_综合体育_体育 - 齐鲁网",
    "summary": "",
    "time": "2026-11-07 20:53",
@@ -1772,18 +2058,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "七天内近五千移民抵西属加那利群岛",
+   "summary": "",
+   "time": "2026-11-07 14:03:17",
+   "url": "https://news.10jqka.com.cn/20261107/c681579732.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "伯克希尔哈撒韦加快股票回购步伐，营业利润下滑",
    "summary": "",
    "time": "2026-11-07 13:16:07",
    "url": "https://news.futunn.com/flash/1003806564/berkshire-hathaway-accelerates-share-buybacks-as-operating-profit-declines",
    "source": "富途"
-  },
-  {
-   "title": "中国国新，严正声明",
-   "summary": "",
-   "time": "2026-11-07 12:52:45",
-   "url": "https://news.10jqka.com.cn/20261107/c681579128.shtml",
-   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月5日周四",
@@ -1800,11 +2086,18 @@
    "source": "财新"
   },
   {
-   "title": "伯克希尔哈撒韦：公司股权投资总公允价值的65%集中于Alphabet、美国运通、苹果、美国银行和可口可乐",
-   "summary": "伯克希尔哈撒韦称，截至9月30日，公司股权投资总公允价值的65%集中于Alphabet、美国运通、苹果、美国银行和可口可乐。",
-   "time": "2026-11-07 21:24:02",
-   "url": "https://finance.eastmoney.com/a/202611073925544655.html",
+   "title": "伊拉克石油部：将遵守OPEC+431万桶/日的产量水平",
+   "summary": "【伊拉克石油部：将遵守OPEC+431万桶/日的产量水平】伊拉克石油部称，将遵守OPEC+431万桶/日的产量水平，提高产量上限需经OPEC+一致同意，将继续努力争取明年提高产量。",
+   "time": "2026-11-07 21:48:32",
+   "url": "https://finance.eastmoney.com/a/202611073925547953.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普委任新幕僚长 司法部高层纷离职 - 联合早报",
+   "summary": "",
+   "time": "2026-11-07 21:18",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DS2FvRTRpaWxGZ0x4Z1FMY25wNll6cmxWRm4tQ3hRcTZzTDBoeEdweWNsdlJyb3ZhYl8xeFZDdVFGc3ZLM1dOeUMzMWh1SGJZWHFOMV9PR0ZXTWZCRWRQY3ZWSXVhWGI1d3c?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "英伟达CEO女儿取消原定访韩计划。（韩联社）",
@@ -1814,18 +2107,18 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "美联储宣战，黄金一夜生变 - 凤凰网财经",
-   "summary": "",
-   "time": "2026-11-07 21:13",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45VWg0WVQ4ZXNIOWVvT3NsM0lDS1FlUlhrdEpTWFZEbmRZZjFxS3FfbDZjMTROck1YWXhlR2RHUk5ZaDhYYVJSUWcyTHpFN2Y1?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "开源证券：给予行动教育买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
    "time": "2026-11-07 20:01",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2bGg1bjFKN0pEZkVOZXpyMDE4cTRyb213RkVsbDZYTUM3LVp1SW53WmxaZ2FWZUxOOHNaSWtmbVl0ZHVOaC04UUx2c0w4aWlfb1NGMHpObG5nSWU3ckxmbXBn?oc=5",
    "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "伯克希尔哈撒韦第三季度营业利润为127.1亿美元，同比下降5.8%",
+   "summary": "",
+   "time": "2026-11-07 12:58:29",
+   "url": "https://news.10jqka.com.cn/20261107/c681579184.shtml",
+   "source": "同花顺"
   },
   {
    "title": "伯克希尔：Q3总营收为1056.47亿美元，净利润为221.12亿美元",
@@ -1835,13 +2128,6 @@
    "source": "富途"
   },
   {
-   "title": "10月以来市场震荡调整，基金投顾逆势加仓A股",
-   "summary": "",
-   "time": "2026-11-07 12:26:05",
-   "url": "https://news.10jqka.com.cn/20261107/c681578899.shtml",
-   "source": "同花顺"
-  },
-  {
    "title": "【本文系数据通用户提前专享】现阶段工业机器人无法做到的事，人形机器人也解决不了",
    "summary": "",
    "time": "",
@@ -1849,10 +2135,10 @@
    "source": "财新"
   },
   {
-   "title": "也门胡塞武装称萨那周边遭沙特空袭 至少11人死亡",
-   "summary": "【也门胡塞武装称萨那周边遭沙特空袭 至少11人死亡】萨那消息：也门胡塞武装控制的马西拉电视台7日报道，也门首都萨那周边一座村庄当天遭到沙特阿拉伯战机空袭，造成至少11人死亡。报道说，空袭摧毁了萨那以东的贝尼·胡谢什地区舍尔耶村的5栋民宅，死者包括妇女和儿童。",
-   "time": "2026-11-07 21:16:55",
-   "url": "https://finance.eastmoney.com/a/202611073925542960.html",
+   "title": "伊拉克外长警告称中东地区或再陷战火",
+   "summary": "【伊拉克外长警告称中东地区或再陷战火】当地时间7日，伊拉克外长侯赛因在接受媒体采访时表示，当前局势表明中东地区或将重新爆发战争。侯赛因指出，伊拉克由于霍尔木兹海峡石油出口停滞已损失了约600亿美元，在与美国和伊朗达成协议后，伊拉克恢复通过霍尔木兹海峡出口石油。他表示，美国已正式要求关闭除两个口岸外伊拉克与伊朗的所有边境口岸。伊拉克也已通知伊朗，接受与其发展联盟友好关系，但拒绝其干涉伊拉克事务，有迹象表明，存在外部势力利用伊拉克领土攻击邻国。",
+   "time": "2026-11-07 21:46:05",
+   "url": "https://finance.eastmoney.com/a/202611073925547738.html",
    "source": "东财国际"
   }
  ],
@@ -1860,7 +2146,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(24)",
+   "富途": "ok(25)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1870,11 +2156,11 @@
   },
   "counts": {
    "东财国际": 7,
-   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
-   "富途": 6,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
    "财新": 6
   }
