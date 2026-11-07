@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 05:52:50 CST",
- "generated_at_iso": "2026-11-08T05:52:50+08:00",
+ "generated_at": "2026-11-08 06:01:00 CST",
+ "generated_at_iso": "2026-11-08T06:01:00+08:00",
  "date": "2026-11-08",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1395,7 +1395,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1404,7 +1437,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1413,7 +1479,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1422,7 +1521,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75712.0,
-    "change": -118.1,
-    "change_pct": -0.16,
-    "source": "okx"
+    "price": 75762.9,
+    "change": -243.2,
+    "change_pct": -0.32,
+    "source": "okx",
+    "hist": [
+     83057.6,
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     75776.0
+    ],
+    "sigma": 2.121
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2229.88,
-    "change": -0.82,
-    "change_pct": -0.04,
-    "source": "okx"
+    "price": 2233.07,
+    "change": -12.66,
+    "change_pct": -0.56,
+    "source": "okx",
+    "hist": [
+     2511.87,
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2232.66
+    ],
+    "sigma": 2.973
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.11,
-    "change": -1.02,
-    "change_pct": -1.13,
-    "source": "okx"
+    "price": 89.24,
+    "change": -1.26,
+    "change_pct": -1.39,
+    "source": "okx",
+    "hist": [
+     110.49,
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.22
+    ],
+    "sigma": 2.826
    }
   ]
  },
@@ -1553,34 +1819,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普公开邀请UFC总裁出任白宫新闻发言人 - RFI",
+   "title": "局面棘手！亚特兰大 G20 乱象显现 特朗普政府操盘 峰会能否顺利？ - 手机新浪网",
    "summary": "",
-   "time": "2026-11-08 04:35",
-   "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNWW03Z0xzNUppaXdwdENKdFRCOC1IcnQ5WEZNOEdvY3otcnF6WkVoRW1RZ1RyR3ZCaWs0Z2lWUENVamhxZEhicEw1MWVrTm4tdWg1VzF4bGhhNjVHdmJXZ1JfTFVadUVfTi1KQmZpMlZuR0ZqejFpZmtOYW41cXJKNl9pMFRvcFh5dS1WWmNlS19PUnJNQWNLM2pqSUplMTNCZ2doczFlaFkxVTcxanVySTgwVTBWU0tZU1dpbXJuSERpc0dQTzBlTkhHaElVNmtXaFZjQ0dsQTBkcVlNU01Pak01YmY5RDUxS0tCUXNyYXBHdGxGLXpteUt5MGI2MGdyYUt0aUdCOVpITlliRXVXbmRZS1lnLUlwYUFZTGdhRUZJd0VWOHVGVk1TTFpXWWhyQWFhTURhcjNTZW8?oc=5",
+   "time": "2026-11-08 05:55",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGR3FiU01tWEwzX0tmbld4RHh0NTZoNmZoV0phTmh6Uld4NFV6REZjcFlQa2lWdkQzaXVQZjBxSF8zbU5JbUJWaW1pQ0pQel9PUW8wbHlCTjM3RHBvQ2FWc29rTk41SjVQZ1ZpM2tQS2F4UQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 5
+   "mentions": 7
   },
   {
    "keyword": "白宫",
    "label": "白宫",
    "hint": "美国官方政策表态的权威渠道",
-   "title": "特朗普公开邀请UFC总裁出任白宫新闻发言人 - RFI",
-   "summary": "",
-   "time": "2026-11-08 04:35",
-   "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNWW03Z0xzNUppaXdwdENKdFRCOC1IcnQ5WEZNOEdvY3otcnF6WkVoRW1RZ1RyR3ZCaWs0Z2lWUENVamhxZEhicEw1MWVrTm4tdWg1VzF4bGhhNjVHdmJXZ1JfTFVadUVfTi1KQmZpMlZuR0ZqejFpZmtOYW41cXJKNl9pMFRvcFh5dS1WWmNlS19PUnJNQWNLM2pqSUplMTNCZ2doczFlaFkxVTcxanVySTgwVTBWU0tZU1dpbXJuSERpc0dQTzBlTkhHaElVNmtXaFZjQ0dsQTBkcVlNU01Pak01YmY5RDUxS0tCUXNyYXBHdGxGLXpteUt5MGI2MGdyYUt0aUdCOVpITlliRXVXbmRZS1lnLUlwYUFZTGdhRUZJd0VWOHVGVk1TTFpXWWhyQWFhTURhcjNTZW8?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "一张表看懂！华尔街“彻底信了”：美联储本周加息 - 财联社",
-   "summary": "",
-   "time": "2026-11-08 02:26",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwcWs3b3ppTWlqZWdHRDRMbkJUeEtkeTN1bXFuLVhLMjY1MUxwdE9RWkJiWGE3bk5QWHVRZkE0UVNoUFlUZERhRw?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
+   "title": "特朗普邀UFC总裁任新闻秘书遭拒",
+   "summary": "【特朗普邀UFC总裁任新闻秘书遭拒】美国总统特朗普当地时间11月7日下午在社交媒体发帖称，已邀请终极格斗冠军赛（UFC）总裁达纳·怀特出任白宫新闻秘书一职 。不过据美国媒体援引消息人士报道，怀特已拒绝了这一邀请。",
+   "time": "2026-11-08 05:51:55",
+   "url": "https://finance.eastmoney.com/a/202611083925568710.html",
+   "source": "东财国际",
+   "mentions": 4
   },
   {
    "keyword": "商务部",
@@ -1655,16 +1910,6 @@
   ],
   "reports": [
    {
-    "title": "国金证券：核心蓝筹股的估值水平已经处于历史偏低水平",
-    "org": "国金",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-07",
-    "url": "https://wallstreetcn.com/livenews/3196430",
-    "source": "机构观点"
-   },
-   {
     "title": "西南证券：首次覆盖九州一轨给予买入评级，目标价93.1元_券商研报_数据解析 - 证券之星",
     "org": "西南证券",
     "rating": "",
@@ -1672,6 +1917,16 @@
     "industry": "",
     "date": "2026-11-07",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1LThJTmdDNnNBd0RWZ1R1Yl9hemM1bWlzcUF3VjAtRHRuN3NDajNFaFNRUDVYSE5iTWZUMlQzTlVGd0RPXzYzSHNXUXZxcmRscWhacnJiTUdjcjVaWHR5SUFR?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "国金证券：核心蓝筹股的估值水平已经处于历史偏低水平",
+    "org": "国金",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-07",
+    "url": "https://wallstreetcn.com/livenews/3196430",
     "source": "机构观点"
    },
    {
@@ -1683,16 +1938,6 @@
     "date": "2026-11-07",
     "url": "https://wallstreetcn.com/livenews/3196429",
     "source": "机构观点"
-   },
-   {
-    "title": "国金证券牟一凌：核心蓝筹股的估值水平已经处于历史偏低水平",
-    "org": "国金",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-07",
-    "url": "https://news.10jqka.com.cn/20261107/c681579497.shtml",
-    "source": "机构观点"
    }
   ]
  },
@@ -1701,23 +1946,23 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 05:52",
+   "time": "2026-11-08 06:02",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "特朗普公开邀请UFC总裁出任白宫新闻发言人 - RFI",
+   "title": "局面棘手！亚特兰大 G20 乱象显现 特朗普政府操盘 峰会能否顺利？ - 手机新浪网",
    "summary": "",
-   "time": "2026-11-08 04:35",
-   "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNWW03Z0xzNUppaXdwdENKdFRCOC1IcnQ5WEZNOEdvY3otcnF6WkVoRW1RZ1RyR3ZCaWs0Z2lWUENVamhxZEhicEw1MWVrTm4tdWg1VzF4bGhhNjVHdmJXZ1JfTFVadUVfTi1KQmZpMlZuR0ZqejFpZmtOYW41cXJKNl9pMFRvcFh5dS1WWmNlS19PUnJNQWNLM2pqSUplMTNCZ2doczFlaFkxVTcxanVySTgwVTBWU0tZU1dpbXJuSERpc0dQTzBlTkhHaElVNmtXaFZjQ0dsQTBkcVlNU01Pak01YmY5RDUxS0tCUXNyYXBHdGxGLXpteUt5MGI2MGdyYUt0aUdCOVpITlliRXVXbmRZS1lnLUlwYUFZTGdhRUZJd0VWOHVGVk1TTFpXWWhyQWFhTURhcjNTZW8?oc=5",
+   "time": "2026-11-08 05:55",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGR3FiU01tWEwzX0tmbld4RHh0NTZoNmZoV0phTmh6Uld4NFV6REZjcFlQa2lWdkQzaXVQZjBxSF8zbU5JbUJWaW1pQ0pQel9PUW8wbHlCTjM3RHBvQ2FWc29rTk41SjVQZ1ZpM2tQS2F4UQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "伊朗格什姆岛传出爆炸声",
-   "summary": "伊朗格什姆岛传出爆炸声。",
-   "time": "2026-11-08 04:21:35",
-   "url": "https://finance.eastmoney.com/a/202611083925564056.html",
+   "title": "特朗普邀UFC总裁任新闻秘书遭拒",
+   "summary": "【特朗普邀UFC总裁任新闻秘书遭拒】美国总统特朗普当地时间11月7日下午在社交媒体发帖称，已邀请终极格斗冠军赛（UFC）总裁达纳·怀特出任白宫新闻秘书一职 。不过据美国媒体援引消息人士报道，怀特已拒绝了这一邀请。",
+   "time": "2026-11-08 05:51:55",
+   "url": "https://finance.eastmoney.com/a/202611083925568710.html",
    "source": "东财国际"
   },
   {
@@ -1728,24 +1973,24 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "国金证券：核心蓝筹股的估值水平已经处于历史偏低水平",
-   "summary": "国金证券首席策略官、副所长牟一凌接受券商中国记者采访时表示，9月中下旬以来，A股市场表现承压，外部不确定性加剧是本轮回调的核心扰动。当前核心蓝筹股的估值水平已经处于历史偏低水平，尤其成长类大盘蓝筹性价比凸显。",
-   "time": "2026-11-07 21:31",
-   "url": "https://wallstreetcn.com/livenews/3196430",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "哥伦比亚北部一军事营区遭无人机袭击 致3死8伤",
+   "title": "消息人士：达纳·怀特拒绝特朗普邀请其出任白宫新闻秘书",
    "summary": "",
-   "time": "2026-11-07 21:24:41",
-   "url": "https://news.futunn.com/flash/1003813100/drone-attack-on-military-camp-in-northern-colombia-leaves-3",
+   "time": "2026-11-07 21:47:54",
+   "url": "https://news.futunn.com/flash/1003813233/source-dana-white-declines-trump-s-invitation-to-serve-as",
    "source": "富途"
   },
   {
-   "title": "七天内近五千移民抵西属加那利群岛",
+   "title": "伊拉克石油部：将遵守OPEC+431万桶/日的产量水平。\n\n提高产量上限需经OPEC+一致同意。\n\n将继续努力争取明年提高产量。",
+   "summary": "伊拉克石油部：将遵守OPEC+431万桶/日的产量水平。\n\n提高产量上限需经OPEC+一致同意。\n\n将继续努力争取明年提高产量。",
+   "time": "2026-11-07 21:47",
+   "url": "https://wallstreetcn.com/livenews/3196431",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "泽连斯基：乌仍严重缺乏“爱国者”防空系统拦截弹",
    "summary": "",
-   "time": "2026-11-07 14:03:17",
-   "url": "https://news.10jqka.com.cn/20261107/c681579732.shtml",
+   "time": "2026-11-07 14:10:11",
+   "url": "https://news.10jqka.com.cn/20261107/c681579748.shtml",
    "source": "同花顺"
   },
   {
@@ -1763,17 +2008,17 @@
    "source": "财新"
   },
   {
-   "title": "特朗普：民主党人在威胁很多人，这是敲诈勒索。 - 新浪网",
+   "title": "特朗普说已邀请达纳·怀特担任白宫新闻秘书 - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-08 03:58",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9TMUp2YUpaMTVhWEZrTHI5eXNBbk5IeTBuQlpGUnBXTHlzX2d5ZWhwUS1KX05tY0RzMUVBcVRfWndQWk15RFhfTTYwaw?oc=5",
+   "time": "2026-11-08 05:34",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MSTQtM1p1ZmlTdjJtVWU5MHQzSHZfZnJlN0hHTnRHVWdpMzFpSkJWSWJvQzRiMDkxV3Uxc2NtLXBPY1MxblJDOW40djh0NWstRzdUbXhackgwYWVUX1RSbA?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "特朗普宣布邀请达纳·怀特担任白宫新闻秘书",
-   "summary": "【特朗普宣布邀请达纳·怀特担任白宫新闻秘书】当地时间11月7日，美国总统特朗普在社交媒体平台“真实社交”上发文称，他已邀请美国终极格斗冠军赛总裁达纳·怀特担任白宫新闻秘书一职。他称怀特将会是一名“与众不同”的新闻秘书。",
-   "time": "2026-11-08 04:09:54",
-   "url": "https://finance.eastmoney.com/a/202611083925563884.html",
+   "title": "伊朗称两艘油轮在霍尔木兹海峡触雷起火",
+   "summary": "【伊朗称两艘油轮在霍尔木兹海峡触雷起火】当地时间8日凌晨，伊朗伊斯兰革命卫队海军表示，两艘“违规油轮”稍早前发生触雷起火，其中一艘位于霍尔木兹海峡东部，另一艘位于霍尔木兹海峡中部。这两艘油轮试图通过未经伊朗授权的航道，结果触雷。革命卫队海军警告称，任何与美国合作、违反伊朗在霍尔木兹海峡规定的船只都“必将触雷”。",
+   "time": "2026-11-08 05:38:42",
+   "url": "https://finance.eastmoney.com/a/202611083925567295.html",
    "source": "东财国际"
   },
   {
@@ -1784,24 +2029,24 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国将成立工作组限制伊朗使用陆路通道和里海。（路透）",
-   "summary": "美国将成立工作组限制伊朗使用陆路通道和里海。（路透）",
-   "time": "2026-11-07 21:28",
-   "url": "https://wallstreetcn.com/livenews/3196429",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "CoreWeave致信得州候任州长，寻求数据中心项目合作",
+   "title": "美媒：斯洛特金不排除竞选美国参议院领导层",
    "summary": "",
-   "time": "2026-11-07 21:17:41",
-   "url": "https://news.futunn.com/flash/1003813055/coreweave-writes-to-texas-governor-elect-seeking-collaboration-on-data",
+   "time": "2026-11-07 21:45:04",
+   "url": "https://news.futunn.com/flash/1003813210/us-media-slotkin-does-not-rule-out-bid-for-us",
    "source": "富途"
   },
   {
-   "title": "国金证券牟一凌：核心蓝筹股的估值水平已经处于历史偏低水平",
+   "title": "国金证券：核心蓝筹股的估值水平已经处于历史偏低水平",
+   "summary": "国金证券首席策略官、副所长牟一凌接受券商中国记者采访时表示，9月中下旬以来，A股市场表现承压，外部不确定性加剧是本轮回调的核心扰动。当前核心蓝筹股的估值水平已经处于历史偏低水平，尤其成长类大盘蓝筹性价比凸显。",
+   "time": "2026-11-07 21:31",
+   "url": "https://wallstreetcn.com/livenews/3196430",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "七天内近五千移民抵西属加那利群岛",
    "summary": "",
-   "time": "2026-11-07 13:31:12",
-   "url": "https://news.10jqka.com.cn/20261107/c681579497.shtml",
+   "time": "2026-11-07 14:03:17",
+   "url": "https://news.10jqka.com.cn/20261107/c681579732.shtml",
    "source": "同花顺"
   },
   {
@@ -1812,17 +2057,17 @@
    "source": "财新"
   },
   {
-   "title": "特朗普邀格斗界大佬出任白宫新闻秘书 - 凤凰网",
+   "title": "特朗普公开邀请UFC总裁出任白宫新闻发言人 - RFI",
    "summary": "",
-   "time": "2026-11-08 03:35",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9fU3RpUzBBTjdscElBQWQ2N3NTWTFWRHhYd3hmM3IwZ0RvLWNzRFVxczZaTGNkdHhHNVdhbWlQejNub0o3YXRmc3Z6dFg?oc=5",
+   "time": "2026-11-08 04:35",
+   "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNWW03Z0xzNUppaXdwdENKdFRCOC1IcnQ5WEZNOEdvY3otcnF6WkVoRW1RZ1RyR3ZCaWs0Z2lWUENVamhxZEhicEw1MWVrTm4tdWg1VzF4bGhhNjVHdmJXZ1JfTFVadUVfTi1KQmZpMlZuR0ZqejFpZmtOYW41cXJKNl9pMFRvcFh5dS1WWmNlS19PUnJNQWNLM2pqSUplMTNCZ2doczFlaFkxVTcxanVySTgwVTBWU0tZU1dpbXJuSERpc0dQTzBlTkhHaElVNmtXaFZjQ0dsQTBkcVlNU01Pak01YmY5RDUxS0tCUXNyYXBHdGxGLXpteUt5MGI2MGdyYUt0aUdCOVpITlliRXVXbmRZS1lnLUlwYUFZTGdhRUZJd0VWOHVGVk1TTFpXWWhyQWFhTURhcjNTZW8?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "以色列总统宣布将正式授权埃森科特组建新一届政府",
-   "summary": "【以色列总统宣布将正式授权埃森科特组建新一届政府】当地时间7日晚间，以色列总统赫尔佐格发表声明，称其已正式通知正直党领导人、以军前总参谋长埃森科特，决定于8日授权其组建新一届政府。声明指出，赫尔佐格已邀请埃森科特当地时间8日前往总统官邸，并定于当天17时正式履行授权组阁程序。声明强调，根据以色列基本法相关规定，被授权组阁的议会议员将拥有28天时间来组建新政府。若在法律规定期限内需要更多时间，总统依法有权将组阁期限最多延长14天。",
-   "time": "2026-11-08 03:57:55",
-   "url": "https://finance.eastmoney.com/a/202611083925563721.html",
+   "title": "哥伦比亚北部一军事营区遭无人机袭击 致3死8伤",
+   "summary": "【哥伦比亚北部一军事营区遭无人机袭击 致3死8伤】当地时间11月7日中午，哥伦比亚玻利瓦尔省南部圣罗莎德尔苏尔市一处军事营区遭携带爆炸物的无人机袭击。据哥伦比亚陆军通报消息，袭击已造成3名军人死亡、8名军人受伤。",
+   "time": "2026-11-08 05:23:52",
+   "url": "https://finance.eastmoney.com/a/202611083925567148.html",
    "source": "东财国际"
   },
   {
@@ -1833,24 +2078,24 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英伟达CEO女儿取消原定访韩计划。（韩联社）",
-   "summary": "英伟达CEO女儿取消原定访韩计划。（韩联社）",
-   "time": "2026-11-07 21:25",
-   "url": "https://wallstreetcn.com/livenews/3196428",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "伊朗称两艘油轮在霍尔木兹海峡触雷起火",
+   "title": "CoreWeave致信得州候任州长，寻求数据中心项目合作",
    "summary": "",
-   "time": "2026-11-07 21:12:19",
-   "url": "https://news.futunn.com/flash/1003813010/iran-claims-two-oil-tankers-struck-mines-and-caught-fire",
+   "time": "2026-11-07 21:17:41",
+   "url": "https://news.futunn.com/flash/1003813055/coreweave-writes-to-texas-governor-elect-seeking-collaboration-on-data",
    "source": "富途"
   },
   {
-   "title": "伯克希尔哈撒韦第三季度营业利润为127.1亿美元，同比下降5.8%",
+   "title": "美国将成立工作组限制伊朗使用陆路通道和里海。（路透）",
+   "summary": "美国将成立工作组限制伊朗使用陆路通道和里海。（路透）",
+   "time": "2026-11-07 21:28",
+   "url": "https://wallstreetcn.com/livenews/3196429",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车",
    "summary": "",
-   "time": "2026-11-07 12:58:29",
-   "url": "https://news.10jqka.com.cn/20261107/c681579184.shtml",
+   "time": "2026-11-07 14:00:24",
+   "url": "https://news.10jqka.com.cn/20261107/c681579727.shtml",
    "source": "同花顺"
   },
   {
@@ -1861,17 +2106,17 @@
    "source": "财新"
   },
   {
-   "title": "一张表看懂！华尔街“彻底信了”：美联储本周加息 - 财联社",
+   "title": "特朗普：民主党人在威胁很多人，这是敲诈勒索。 - 新浪网",
    "summary": "",
-   "time": "2026-11-08 02:26",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwcWs3b3ppTWlqZWdHRDRMbkJUeEtkeTN1bXFuLVhLMjY1MUxwdE9RWkJiWGE3bk5QWHVRZkE0UVNoUFlUZERhRw?oc=5",
+   "time": "2026-11-08 03:58",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9TMUp2YUpaMTVhWEZrTHI5eXNBbk5IeTBuQlpGUnBXTHlzX2d5ZWhwUS1KX05tY0RzMUVBcVRfWndQWk15RFhfTTYwaw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "巴方机构称以方近期在约旦河西岸发动六百多起袭击",
-   "summary": "【巴方机构称以方近期在约旦河西岸发动六百多起袭击】当地时间7日，巴勒斯坦“隔离墙和定居点抵抗委员会”发表声明称，在过去30余天中，以军和以色列犹太人定居者在约旦河西岸发动了674次袭击，袭击针对采摘橄榄的巴勒斯坦农民及巴方财产。该委员会通报称，2026年10月1日至11月6日期间，以色列犹太人定居者共实施袭击520次，以军实施袭击154次。根据声明，袭击主要集中在约旦河西岸北部和中部的农业带。",
-   "time": "2026-11-08 03:38:54",
-   "url": "https://finance.eastmoney.com/a/202611083925563651.html",
+   "title": "美军称在阿曼湾使一艘商船丧失航行能力",
+   "summary": "【美军称在阿曼湾使一艘商船丧失航行能力】美国中央司令部当地时间11月7日在社交媒体发布声明称，美军在阿曼湾截停一艘曾停靠伊朗港口的商船，使其丧失航行能力。",
+   "time": "2026-11-08 05:00:58",
+   "url": "https://finance.eastmoney.com/a/202611083925567049.html",
    "source": "东财国际"
   }
  ],
@@ -1891,8 +2136,8 @@
    "谷歌新闻·国际": 7,
    "东财国际": 7,
    "谷歌新闻·研报": 7,
-   "华尔街见闻": 7,
    "富途": 7,
+   "华尔街见闻": 7,
    "同花顺": 6,
    "东财早报": 1,
    "财新": 6
