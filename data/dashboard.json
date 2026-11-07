@@ -1,7 +1,7 @@
 {
  "schema_version": 11,
- "generated_at": "2026-11-07 12:28:19 CST",
- "generated_at_iso": "2026-11-07T12:28:19+08:00",
+ "generated_at": "2026-11-07 12:36:27 CST",
+ "generated_at_iso": "2026-11-07T12:36:27+08:00",
  "date": "2026-11-07",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1082,7 +1082,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5059.69,
+    "price": 5059.6899,
     "change": -324.11,
     "change_pct": -6.02,
     "hist": [
@@ -1153,6 +1153,27 @@
      277300.0,
      323300.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81028.0234,
+    "change": 1718.02,
+    "change_pct": 2.17
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39701.64,
+    "change": -1873.08,
+    "change_pct": -4.51
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25820.36,
+    "change": -504.65,
+    "change_pct": -1.92
    },
    {
     "name": "英国富时100",
@@ -1305,7 +1326,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6170.49,
+    "price": 6170.5,
     "change": -61.05,
     "change_pct": -0.98,
     "hist": [
@@ -1341,6 +1362,13 @@
      6170.5
     ],
     "sigma": 0.925
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2476.7,
+    "change": 18.24,
+    "change_pct": 0.74
    }
   ]
  },
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75867.0,
-    "change": 218.0,
-    "change_pct": 0.29,
+    "price": 75916.0,
+    "change": 111.2,
+    "change_pct": 0.15,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2244.09,
-    "change": 14.07,
-    "change_pct": 0.63,
+    "price": 2246.23,
+    "change": 13.69,
+    "change_pct": 0.61,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.99,
-    "change": 0.65,
-    "change_pct": 0.73,
+    "price": 90.1,
+    "change": 0.54,
+    "change_pct": 0.6,
     "source": "okx"
    }
   ]
@@ -1463,15 +1491,6 @@
    "color": "#f58a3d",
    "timestamp": "2026-11-07",
    "source": "alternative.me"
-  },
-  "a_share_breadth": {
-   "up": 725,
-   "down": 4483,
-   "flat": 87,
-   "total": 5295,
-   "breadth_pct": 13.7,
-   "score": -22.6,
-   "source": "东财"
   },
   "vix": {
    "value": 25.64,
@@ -1543,9 +1562,9 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 1.2,
-   "label": "极度恐惧",
-   "color": "#f04a3d"
+   "score": 25.0,
+   "label": "恐惧",
+   "color": "#f58a3d"
   }
  },
  "speakers": [
@@ -1553,12 +1572,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普单方面宣布把太空开放给美国移民 - 凤凰网",
+   "title": "特朗普宣布椭圆办公室为国家纪念物 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-07 11:05",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9pYTc2a2dTTzNJTE9FZUFQODRsYVlMMnZGS2ZXU3UwS21Ud3ZLQXJMUGJ2a0hRdTVXaWhlREtpTlN1QWNScTE2aEdGd1M?oc=5",
+   "time": "2026-11-07 12:21",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wTlBBWnpjRWFjVzBLUG1XaFB0aFFGY2pYWXBtQ1dVWENKSjBZVmg3bmFZVEI4S2luM2U4b21uUXlpWDl2NVJCOXNPdzR2WU4ycGRXb2VBdHVuS2hTV3R6eFB5X21tUTh3YmJrQ2s1WEU?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 4
   },
   {
    "keyword": "白宫",
@@ -1569,17 +1588,6 @@
    "time": "2026-11-07 10:37",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TQXV4cEVqRkFpUThQbjBTVjNCVVdHVnpXOEpBejcxVkI4QmNGT0EyRlQyRFBMdG13T1lMNEdHa0VreW5JUjB1WTBUWEprWU9DTFZEdmxsbTN4ZUUzaEE?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "马斯克在得州投资2.25亿美元 多个项目或被民主党叫停",
-   "summary": "",
-   "time": "2026-11-07 03:19:06",
-   "url": "https://news.10jqka.com.cn/20261107/c681576566.shtml",
-   "source": "同花顺",
    "mentions": 1
   },
   {
@@ -1747,45 +1755,59 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-07 12:28",
+   "time": "2026-11-07 12:39",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌4.51%，达20日历史波动率的 3.8 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-07 12:39",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "全球股指",
+   "message": "日经225、韩国KOSPI、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-07 12:39",
+   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "全国碳市场2027年度重点排放单位名录公布 共纳入3746家",
-   "summary": "【全国碳市场2027年度重点排放单位名录公布 共纳入3746家】生态环境部近日公布全国碳排放权交易市场2027年度重点排放单位名录，共纳入重点排放单位3746家，数量与2026年度相比总体保持稳定。据了解，名录覆盖发电、钢铁、水泥、铝冶炼四个重点行业，将年度温室气体排放量达到2.6万吨二氧化碳当量的单位纳入管理，其中发电行业2500家、钢铁行业229家、水泥行业917家、铝冶炼行业100家。重点排放单位须依法报送排放报告、参与碳排放权交易并清缴碳配额。",
-   "time": "2026-11-07 12:02:29",
-   "url": "https://finance.eastmoney.com/a/202611073925477796.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "前三季度广告业头部企事业单位收入同比增长8.5%",
-   "summary": "据市说新语公众号，数据显示，前三季度全国从事广告业务的头部企事业单位共实现收入16008.3亿元，同比增长8.5%。前三季度，互联网广告收入9568.9亿元，同比增长17.5%，其中，移动互联网广告发布收入8125亿元，同比增长14%，广告业数智化转型加速推进。主流媒体广告业务平稳增长，积极发挥品牌传播重要作用，以电视台为代表的事业单位广告业务收入345.7亿元，同比增长3.3%。",
-   "time": "2026-11-07 11:28",
-   "url": "https://wallstreetcn.com/livenews/3196347",
+   "title": "太古可口可乐中国发布“致胜2035”十年战略",
+   "summary": "11月6日，太古可口可乐中国在第九届进博会上发布面向中国市场的“致胜2035”十年战略，以“创新行稳”为核心主张，围绕消费者驱动、以客户为中心、以人为本、扎根社区四大举措布局未来十年。太古可口可乐大中华区首席执行官金忆表示，公司在中国市场跑通的有效做法，未来均有机会为中国饮料行业提供借鉴样本。",
+   "time": "2026-11-07 12:35",
+   "url": "https://wallstreetcn.com/livenews/3196356",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普单方面宣布把太空开放给美国移民 - 凤凰网",
+   "title": "成都局集团公司年度旅客发送量突破4亿人次大关",
+   "summary": "【成都局集团公司年度旅客发送量突破4亿人次大关】据成都发布，截至11月6日成都局集团公司年度旅客发送量突破4亿人次大关，较去年11月14日年度旅客发送量突破4亿人次的时间节点提前8天。",
+   "time": "2026-11-07 12:28:00",
+   "url": "https://finance.eastmoney.com/a/202611073925482518.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普宣布椭圆办公室为国家纪念物 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-07 11:05",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9pYTc2a2dTTzNJTE9FZUFQODRsYVlMMnZGS2ZXU3UwS21Ud3ZLQXJMUGJ2a0hRdTVXaWhlREtpTlN1QWNScTE2aEdGd1M?oc=5",
+   "time": "2026-11-07 12:21",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wTlBBWnpjRWFjVzBLUG1XaFB0aFFGY2pYWXBtQ1dVWENKSjBZVmg3bmFZVEI4S2luM2U4b21uUXlpWDl2NVJCOXNPdzR2WU4ycGRXb2VBdHVuS2hTV3R6eFB5X21tUTh3YmJrQ2s1WEU?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美参议员桑德斯呼吁民主党在新一届国会削减对伊战争拨款",
+   "title": "上海交易团国资分团第九届进博会已达成意向采购金额28.62亿美元",
    "summary": "",
-   "time": "2026-11-07 03:44:59",
-   "url": "https://news.futunn.com/flash/1003785187/us-senator-sanders-calls-on-democrats-to-cut-funding-for",
-   "source": "富途"
+   "time": "2026-11-07 04:39:03",
+   "url": "https://news.10jqka.com.cn/20261107/c681576997.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "马斯克在得州投资2.25亿美元 多个项目或被民主党叫停",
+   "title": "法农信贷：加元仍受经济疲软拖累，就业数据或决定下一步方向",
    "summary": "",
-   "time": "2026-11-07 03:19:06",
-   "url": "https://news.10jqka.com.cn/20261107/c681576566.shtml",
-   "source": "同花顺"
+   "time": "2026-11-07 04:12:41",
+   "url": "https://news.futunn.com/flash/1003786971/cr-dit-agricole-canadian-dollar-still-weighed-down-by-economic",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月6日周五",
@@ -1809,39 +1831,39 @@
    "source": "财新"
   },
   {
-   "title": "加拿大被曝拟扩大海外情报收集能力",
-   "summary": "【加拿大被曝拟扩大海外情报收集能力】据加拿大方面6日消息，加拿大联邦政府计划给予加拿大安全情报局更大的海外情报工作权力，最终可能会建成一个类似美国中央情报局或英国军情六处的独立海外情报机构。消息称，加拿大内阁国家安全与情报秘书多米尼克·罗雄6日在渥太华举行的一场安全研讨会上表示，总理卡尼非常希望获取独立的外国情报以辅助决策。",
-   "time": "2026-11-07 12:01:16",
-   "url": "https://finance.eastmoney.com/a/202611073925477591.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "卡塔尔首相：调解努力仍在继续，以防止局势失控。即便在中期选举之后，美国政府仍愿意寻求解决方案。（半岛电视台）",
-   "summary": "卡塔尔首相：调解努力仍在继续，以防止局势失控。即便在中期选举之后，美国政府仍愿意寻求解决方案。（半岛电视台）",
-   "time": "2026-11-07 11:13",
-   "url": "https://wallstreetcn.com/livenews/3196343",
+   "title": "前三季度广告业头部企事业单位收入同比增长8.5%",
+   "summary": "据市说新语公众号，数据显示，前三季度全国从事广告业务的头部企事业单位共实现收入16008.3亿元，同比增长8.5%。前三季度，互联网广告收入9568.9亿元，同比增长17.5%，其中，移动互联网广告发布收入8125亿元，同比增长14%，广告业数智化转型加速推进。主流媒体广告业务平稳增长，积极发挥品牌传播重要作用，以电视台为代表的事业单位广告业务收入345.7亿元，同比增长3.3%。",
+   "time": "2026-11-07 11:28",
+   "url": "https://wallstreetcn.com/livenews/3196347",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普任命新白宫幕僚长，怀尔斯将调至政治运营团队 - 京报网",
+   "title": "“以钼代钨”刚性切换开启钼前驱体新赛道——访先导科技集团有限公司联席总裁侯振富",
+   "summary": "【“以钼代钨”刚性切换开启钼前驱体新赛道——访先导科技集团有限公司联席总裁侯振富】近两年，全球存储芯片行业正经历一场材料革命：三星在286层3DNAND上率先完成钨到钼的切换，SK海力士在375层节点上紧密跟进——半导体存储芯片巨头的“以钼代钨”，是指在半导体制造，特别是3DNAND闪存工艺中，利用金属钼替代传统金属钨作为字线互连材料的技术变革。",
+   "time": "2026-11-07 12:25:03",
+   "url": "https://finance.eastmoney.com/a/202611073925479215.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普单方面宣布把太空开放给美国移民 - 凤凰网",
    "summary": "",
-   "time": "2026-11-07 10:37",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TQXV4cEVqRkFpUThQbjBTVjNCVVdHVnpXOEpBejcxVkI4QmNGT0EyRlQyRFBMdG13T1lMNEdHa0VreW5JUjB1WTBUWEprWU9DTFZEdmxsbTN4ZUUzaEE?oc=5",
+   "time": "2026-11-07 11:05",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9pYTc2a2dTTzNJTE9FZUFQODRsYVlMMnZGS2ZXU3UwS21Ud3ZLQXJMUGJ2a0hRdTVXaWhlREtpTlN1QWNScTE2aEdGd1M?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "财政扩张遇上货币收紧，加拿大政策组合引发分歧",
+   "title": "沃伦将执掌美国参议院银行委员会 华尔街迎来强硬监管者",
    "summary": "",
-   "time": "2026-11-07 03:36:48",
-   "url": "https://news.futunn.com/flash/1003784781/fiscal-expansion-meets-monetary-tightening-canada-s-policy-mix-sparks",
-   "source": "富途"
+   "time": "2026-11-07 04:27:04",
+   "url": "https://news.10jqka.com.cn/20261107/c681576967.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "韩正会见格鲁吉亚总理科巴希泽",
+   "title": "美参议员桑德斯呼吁民主党在新一届国会削减对伊战争拨款",
    "summary": "",
-   "time": "2026-11-07 02:49:07",
-   "url": "https://news.10jqka.com.cn/20261107/c681576430.shtml",
-   "source": "同花顺"
+   "time": "2026-11-07 03:44:59",
+   "url": "https://news.futunn.com/flash/1003785187/us-senator-sanders-calls-on-democrats-to-cut-funding-for",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月5日周四",
@@ -1865,39 +1887,39 @@
    "source": "财新"
   },
   {
-   "title": "中国移动发布中资出海“通算智”一体化服务升级",
-   "summary": "【中国移动发布中资出海“通算智”一体化服务升级】11月6日，在2026移动网络大会期间，中国移动发布中资出海通算智一体化服务升级，为中资企业高质量数智出海夯实能力底座。",
-   "time": "2026-11-07 11:58:00",
-   "url": "https://finance.eastmoney.com/a/202611073925477661.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "韩正会见格鲁吉亚总统卡韦拉什维利",
-   "summary": "11月6日，国家副主席韩正在第比利斯会见格鲁吉亚总统卡韦拉什维利。韩正表示，巩固好、发展好中格关系，符合两国人民的根本利益和共同期待。双方要继续在涉及彼此核心利益问题上坚定相互支持。双方要加强发展战略对接，以高质量共建“一带一路”合作为引领，促进各领域互利合作。积极开展人文交流，不断促进民心相通。（新华社）",
-   "time": "2026-11-07 10:52",
-   "url": "https://wallstreetcn.com/livenews/3196339",
+   "title": "卡塔尔首相：调解努力仍在继续，以防止局势失控。即便在中期选举之后，美国政府仍愿意寻求解决方案。（半岛电视台）",
+   "summary": "卡塔尔首相：调解努力仍在继续，以防止局势失控。即便在中期选举之后，美国政府仍愿意寻求解决方案。（半岛电视台）",
+   "time": "2026-11-07 11:13",
+   "url": "https://wallstreetcn.com/livenews/3196343",
    "source": "华尔街见闻"
   },
   {
-   "title": "中期选举失利未改变美国总统作出重大外交决策 - 美国之音",
+   "title": "卡特彼勒“算力标签”带到进博：从工程机械巨头到AI电力供应商",
+   "summary": "【卡特彼勒“算力标签”带到进博：从工程机械巨头到AI电力供应商】第九届进博会上，卡特彼勒展台最显眼的位置留给了一台柴油发电机组。FGWilson（威尔信）5000系列PE2500-2在进博会全球首发，官方定位很明确：专为数据中心快速增长的电力需求打造。",
+   "time": "2026-11-07 12:20:00",
+   "url": "https://finance.eastmoney.com/a/202611073925478121.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普任命新白宫幕僚长，怀尔斯将调至政治运营团队 - 京报网",
    "summary": "",
-   "time": "2026-11-07 09:40",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWjlQQXlMQjUycnU5ai1VOExHRmdUNTJFcUxFTEZEczA3YXJCNjJGRlF3anNYTlZhdVRGeGd0dG9PZEJrSnJuckFHTi1yRmFSNjczZU9ZNzFyM2h1QUtISHFqc1FIVFFDVW5nSi1TVHJSTVhrTmplOE9zREJqQ2VfdE8zX2dpUExaWmg0dU130gGQAUFVX3lxTE0zYUVkNk5waDJ3S0tQYzdhd2FKaEp3VlhTSzhpeWxwSThvd0xqeTM4VUtPckFnYWlMcFdJRU9YeU53NFFnZzUyM1VEZkJXSmZJTEo2Sko2cDR4Q0h4NENkVG5uazNmZU1uR3FSaDBiUHRERFlFMkhtM1pVS0lEZTZiLTNVVnJBQVZpQlFtYVZTVg?oc=5",
+   "time": "2026-11-07 10:37",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TQXV4cEVqRkFpUThQbjBTVjNCVVdHVnpXOEpBejcxVkI4QmNGT0EyRlQyRFBMdG13T1lMNEdHa0VreW5JUjB1WTBUWEprWU9DTFZEdmxsbTN4ZUUzaEE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "针对食品非法添加新型衍生物 市场监管总局发布两项补充检验方法",
+   "title": "央行连续24个月增持黄金 专家：持续增持有助于增强国际储备多元化程度",
    "summary": "",
-   "time": "2026-11-07 02:38:41",
-   "url": "https://news.futunn.com/flash/1003782112/state-administration-for-market-regulation-issues-two-supplementary-testing-methods",
-   "source": "富途"
+   "time": "2026-11-07 04:22:05",
+   "url": "https://news.10jqka.com.cn/20261107/c681576956.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "北京：持续推动市区政府引导基金和市场化基金赋能信息技术产业领域企业发展",
+   "title": "财政扩张遇上货币收紧，加拿大政策组合引发分歧",
    "summary": "",
-   "time": "2026-11-07 02:19:08",
-   "url": "https://news.10jqka.com.cn/20261107/c681576280.shtml",
-   "source": "同花顺"
+   "time": "2026-11-07 03:36:48",
+   "url": "https://news.futunn.com/flash/1003784781/fiscal-expansion-meets-monetary-tightening-canada-s-policy-mix-sparks",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月4日周三",
@@ -1925,7 +1947,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(29)",
+   "富途": "ok(30)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1933,11 +1955,11 @@
    "谷歌新闻·国际": "ok(30)"
   },
   "counts": {
-   "东财国际": 6,
    "华尔街见闻": 6,
+   "东财国际": 6,
    "谷歌新闻·国际": 6,
-   "富途": 6,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 6,
    "百度财经": 6,
    "财新": 6
