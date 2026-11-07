@@ -1230,18 +1230,20 @@
     // 券商速览
     var reports = r.reports || [];
     if (!reports.length) {
-      rBox.innerHTML = '<div class="research-empty">券商研报速览暂缺</div>';
+      rBox.innerHTML = '<div class="research-empty">近1月暂无符合条件的研报</div>';
     } else {
       rBox.innerHTML = '<div class="rpt-list">' + reports.map(function (rp) {
         var rateCls = /买入|增持|推荐|跑赢/.test(rp.rating || "") ? "buy" :
                       (/卖出|减持|回避|跑输/.test(rp.rating || "") ? "sell" : "");
-        return '<a class="rpt-item" href="https://data.eastmoney.com/report/" target="_blank" rel="noopener">' +
+        var href = rp.url || "https://data.eastmoney.com/report/";
+        var srcTag = rp.source ? '<span class="rate">' + rp.source + '</span>' : "";
+        return '<a class="rpt-item" href="' + href + '" target="_blank" rel="noopener">' +
           '<div class="r-head"><span class="org">' + (rp.org || "") + '</span>' +
           (rp.rating ? '<span class="rate ' + rateCls + '">' + rp.rating + '</span>' : "") +
-          (rp.industry ? '<span>' + rp.industry + '</span>' : "") +
+          srcTag +
           '<span class="dt">' + (rp.date || "") + '</span></div>' +
           '<div class="r-title">' + rp.title + '</div>' +
-          (rp.stock ? '<div class="r-stock">' + rp.stock + '</div>' : "") +
+          (rp.stock ? '<div class="r-stock">' + rp.stock + (rp.industry ? ' · ' + rp.industry : '') + '</div>' : "") +
           '</a>';
       }).join("") + "</div>";
     }

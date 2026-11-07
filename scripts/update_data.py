@@ -1439,10 +1439,10 @@ def _weixin_extract(url):
             "url": url, "conclusions": conclusions}
 
 
-def fetch_research(digest_due=True, reports_due=True, prev=None):
-    """研报观点：微信点睛精读(降频,日更内容) + 东财研报速览(降频)。
+def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None):
+    """研报观点：微信点睛精读(降频) + 东财研报速览(近1月) + 国际投行观点(来自新闻池)。
 
-    降频窗口未到期时沿用 prev 对应部分（微信内容一天一篇、研报列表日频）。
+    降频窗口未到期时沿用 prev 对应部分；研报只保留近 1 月，国际投行观点取自近 2 天新闻。
     """
     prev = prev or {}
     out = {"digest": [], "reports": []}
@@ -1474,34 +1474,78 @@ def fetch_research(digest_due=True, reports_due=True, prev=None):
 
     # 2. 东财研报速览：最新研报，报告名称即浓缩结论
     if reports_due:
+        picked = []
+        # 2a. 国际投行观点：从近 2 天新闻池提取头部机构的明确观点（国内外多面）
+        try:
+            if news_pool:
+                org_pat = re.compile(
+                    r"(高盛|摩根士丹利|摩根大通|大摩|小摩|瑞银|花旗|巴克莱|贝莱德|桥水|"
+                    r"汇丰|德银|野村|瑞穗|贝恩|麦肯锡|景林|高瓴|红杉)")
+                verb_pat = re.compile(r"(预计|认为|看好|看空|上调|下调|预警|警告|目标价|评级|削减|增持|减持)")
+                seen_t = set()
+                for n in news_pool:
+                    blob = n.get("title", "") + " " + n.get("summary", "")
+                    mo = org_pat.search(blob)
+                    if not mo or not verb_pat.search(blob):
+                        continue
+                    key = n.get("title", "")[:14]
+                    if key in seen_t:
+                        continue
+                    seen_t.add(key)
+                    picked.append({
+                        "title": (n.get("title") or "")[:80],
+                        "org": mo.group(1),
+                        "rating": "",
+                        "stock": "",
+                        "industry": "",
+                        "date": (n.get("time") or "")[:10],
+                        "url": n.get("url", ""),
+                        "source": "国际投行观点",
+                    })
+                    if len(picked) >= 5:
+                        break
+                log(f"OK   国际投行观点 {len(picked)} 条")
+        except Exception as e:  # noqa: BLE001
+            log(f"FAIL 国际投行观点: {type(e).__name__}")
+
+        # 2b. 东财研报速览：仅近 1 月，报告名称即浓缩结论
         try:
             import akshare as ak
+            from datetime import timedelta as _td
+            cutoff = (datetime.now(CST) - _td(days=30)).strftime("%Y-%m-%d")
             df = ak.stock_research_report_em()
-            # 最新日期优先（同日内头部机构靠前）——时效性高于机构名气
+            # 最新日期优先（同日内头部机构靠前）
             df["_head"] = df["机构"].apply(lambda o: any(h in o for h in HEAD_BROKERS))
             df = df.sort_values(["日期", "_head"], ascending=[False, False])
-            picked, seen_titles = [], set()
+            picked_dom, seen_titles = [], set()
             for _, row in df.iterrows():
+                d = str(row.get("日期", ""))[:10]
+                if d < cutoff:                      # 近 1 月过滤（已按日期倒序，可提前退出）
+                    break
                 org = str(row.get("机构", ""))
                 name = str(row.get("报告名称", "")).strip()
                 if len(name) < 10 or name[:14] in seen_titles:
                     continue
                 seen_titles.add(name[:14])
-                picked.append({
+                picked_dom.append({
                     "title": name[:80],
                     "org": org[:12],
                     "rating": str(row.get("东财评级", ""))[:6],
                     "stock": str(row.get("股票简称", ""))[:12],
                     "industry": str(row.get("行业", ""))[:10],
-                    "date": str(row.get("日期", ""))[:10],
+                    "date": d,
+                    "url": str(row.get("报告PDF链接", "") or ""),
+                    "source": "券商研报",
                 })
-                if len(picked) >= 8:
+                if len(picked_dom) >= 5:
                     break
-            if picked:
-                out["reports"] = picked
-            log(f"OK   东财研报速览 {len(picked)} 条")
+            picked.extend(picked_dom)
+            log(f"OK   东财研报速览(近1月) {len(picked_dom)} 条")
         except Exception as e:  # noqa: BLE001
             log(f"FAIL 东财研报速览: {type(e).__name__}")
+
+        if picked:
+            out["reports"] = picked
 
     if not out["digest"] and not out["reports"]:
         raise RuntimeError("研报观点全部源失败")
@@ -1550,6 +1594,15 @@ def fetch_news():
     deduped = _dedup_news(pool)
     if not deduped:
         raise RuntimeError("；".join(f"{k}:{v}" for k, v in source_status.items()) or "全部新闻源失败")
+
+    # 只保留近 2 天的新闻（time 为空则保留，避免误杀无时间戳的源）
+    cutoff = (datetime.now(CST) - timedelta(days=2)).strftime("%Y-%m-%d")
+    recent = []
+    for n in deduped:
+        t = (n.get("time") or "")[:10]
+        if not t or t >= cutoff:
+            recent.append(n)
+    deduped = recent if recent else deduped
 
     # 按源轮询取条目（每源最新条优先），避免单一高频源霸屏、早报类沉底
     by_src = {}
@@ -1778,7 +1831,7 @@ def main():
     if _tier_due("t3", minute):
         research, errors["研报观点"] = safe(
             lambda: fetch_research(digest_due=_tier_due("t4", minute),
-                                   reports_due=True, prev=p_research),
+                                   reports_due=True, prev=p_research, news_pool=news),
             "研报观点")
     else:
         log("跳过 t3 模块（研报沿用上轮）")
@@ -1811,7 +1864,7 @@ def main():
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 11,
+        "schema_version": 12,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
@@ -1827,7 +1880,7 @@ def main():
         "news_meta": news_meta,
         "wuxing": wuxing,
         "errors": {k: v for k, v in errors.items() if v},
-        "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/FRED/alternative.me），仅供研究参考，不构成投资建议。研报观点：微信精读由规则提炼原文关键句（版权归原公众号），券商速览来自东财研报标题；均不构成投资建议。美债10Y优先FRED官方日频数据（中债源滞后时自动降级）。传导路径按资产与涨跌方向生成，为程序化示意。",
+        "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。",
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
