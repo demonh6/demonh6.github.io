@@ -102,11 +102,15 @@ jobs:
             echo "未配置 Secrets.DASH_PAT，跳过接力（schedule 兜底，约数小时一拍）"
             exit 0
           fi
-          echo "推送节拍提交触发下一轮（新 run，无 attempt 累积）……"
-          git config user.name "dashboard-beat-bot"
-          git config user.email "beat@users.noreply.github.com"
-          echo "beat $(date -u +%FT%TZ)" > .github/.beat
-          git add .github/.beat
-          git commit -m "chore: beat tick" -q
-          git push "https://x-access-token:${PAT}@github.com/${REPO}.git" main \
-            && echo "已触发下一拍" || echo "接力推送失败（schedule 兜底）"
+          echo "dispatch API 触发下一轮（全新 run，无 attempt 累积）……"
+          export GH_TOKEN="$PAT"
+          ok=0
+          for i in 1 2 3; do
+            if gh api -X POST "repos/${REPO}/actions/workflows/update-dashboard.yml/dispatches" \
+                 -f ref=main -f 'inputs[interval]=10min'; then
+              ok=1; echo "已触发下一拍（第 ${i} 次尝试成功）"; break
+            fi
+            echo "第 ${i} 次触发失败，60s 后重试"
+            sleep 60
+          done
+          [ $ok -eq 1 ] || echo "接力失败（schedule 兜底）"
