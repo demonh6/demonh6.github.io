@@ -1,25 +1,30 @@
 name: Update Dashboard Data
 
 # ============================================================
-# 数据更新机制（rerun 自续链 + schedule 兜底）
+# 数据更新机制（workflow_run 链 + schedule 兜底）
 # ------------------------------------------------------------
-# 平台限制：GITHUB_TOKEN 的 push 永远不会触发新 workflow（防递归），
-# 分钟级 schedule 又被 GitHub 静默丢弃（实测 */10 连续数小时零触发）。
-# 因此采用 rerun 自续：每轮 run 末尾等待节拍后用 API rerun 自身——
-# rerun 属于直接 API 调用，不受"事件不触发"限制，且历史里聚合为一个 run。
-# 数据点间隔 = sleep(480s) + 排队 + 采集 ≈ 10 分钟。
+# 平台限制回顾：分钟级 schedule 被静默丢弃；GITHUB_TOKEN 的 push 不触发
+# workflow；rerun 同一 run 约 50 次后失效（"No jobs were run"）且产生噪音邮件。
+#
+# 现行机制：数据提交 → GitHub Pages 自动构建（pages build and deployment）
+# → 本 workflow 通过 workflow_run 监听该构建完成 → 触发新一轮采集 →
+# 数据有变再次提交 → Pages 再次构建 → ……链条自续，每轮都是全新 run
+# （无 attempt 累积、无 rerun 邮件）。BEAT 步骤把节拍对齐到 ~10 分钟。
 # ============================================================
 
 on:
+  workflow_run:
+    workflows: ["pages build and deployment"]   # 链条驱动：Pages 部署完成即采集
+    types: [completed]
   schedule:
-    - cron: "*/10 * * * *"   # 兜底：平台若恢复调度可补链
-  workflow_dispatch:          # 支持手动触发
+    - cron: "*/10 * * * *"   # 兜底：链条意外断开时补链
+  workflow_dispatch:
     inputs:
       interval:
         description: "更新频率标识（写入 JSON，10min / hourly / daily）"
         required: false
         default: "10min"
-  push:                       # 代码/数据变更立即刷新一轮
+  push:
     branches: [main]
     paths:
       - "scripts/**"
@@ -29,23 +34,26 @@ on:
 
 permissions:
   contents: write
-  actions: write              # 允许 rerun API 自续链条
+  actions: write
 
 concurrency:
   group: update-dashboard
   cancel-in-progress: false
 
 env:
-  BEAT_SECS: "480"            # 节拍：8 分钟 sleep + 采集 ≈ 每 10 分钟一个数据点
+  BEAT_SECS: "480"            # 节拍下限 8 分钟：距上次数据提交不足 8 分钟则等待对齐（≈10 分钟/拍）
 
 jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    if: >
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.head_branch == 'main'
     env:
       DASHBOARD_INTERVAL: ${{ github.event.inputs.interval || '10min' }}
     steps:
-      - name: Checkout (main，rerun 时取最新代码)
+      - name: Checkout (main)
         uses: actions/checkout@v4
         with:
           ref: main
@@ -60,9 +68,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install akshare lunar-python
 
+      - name: 等待至节拍（距上次数据提交不足8分钟则对齐）
+        run: |
+          LAST=$(git log -1 --format=%ct -- data/dashboard.json 2>/dev/null || echo 0)
+          NOW=$(date +%s)
+          ELAPSED=$(( NOW - LAST ))
+          WAIT=$(( BEAT_SECS - ELAPSED ))
+          if [ $WAIT -gt 0 ] && [ $WAIT -lt 600 ]; then
+            echo "距上次数据 ${ELAPSED}s，等待 ${WAIT}s 对齐节拍"
+            sleep $WAIT
+          else
+            echo "距上次数据 ${ELAPSED}s，立即采集"
+          fi
+
       - name: Collect data (markets / news / wuxing)
         id: collect
-        continue-on-error: true   # 部分数据源失败仍提交已有结果，页面会显示对应模块"暂缺"
+        continue-on-error: true
         run: python scripts/update_data.py
 
       - name: Commit & Push
@@ -74,19 +95,7 @@ jobs:
             git add data/dashboard.json
             git commit -m "chore(data): 仪表盘数据更新 ${{ github.event.inputs.interval || '10min' }}"
             git push
-            echo "dashboard.json 已提交推送"
+            echo "dashboard.json 已提交推送（Pages 构建后将触发下一轮）"
           else
             echo "数据无变化，跳过提交"
           fi
-
-      - name: 接力到 B 环（等待节拍后 rerun B 的最近 run）
-        if: always()
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          echo "等待 ${BEAT_SECS}s 后接力到 B 环……"
-          sleep $BEAT_SECS
-          B_RUN_ID=$(gh run list --workflow update-beat.yml --limit 1 --json databaseId --jq '.[0].databaseId')
-          echo "B 环最近 run: $B_RUN_ID"
-          gh api -X POST "repos/${{ github.repository }}/actions/runs/${B_RUN_ID}/rerun" \
-            && echo "已接力到 B 环" || echo "接力失败（等待下次 push/schedule 兜底）"
