@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-07 16:54:32 CST",
- "generated_at_iso": "2026-11-07T16:54:32+08:00",
+ "generated_at": "2026-11-07 17:02:40 CST",
+ "generated_at_iso": "2026-11-07T17:02:40+08:00",
  "date": "2026-11-07",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1395,7 +1395,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1404,7 +1437,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1413,7 +1479,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1422,7 +1521,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 76177.5,
-    "change": 445.1,
-    "change_pct": 0.59,
-    "source": "okx"
+    "price": 76166.0,
+    "change": 342.0,
+    "change_pct": 0.45,
+    "source": "okx",
+    "hist": [
+     82872.4,
+     83057.6,
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     76173.8
+    ],
+    "sigma": 2.144
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2249.54,
-    "change": 21.22,
-    "change_pct": 0.95,
-    "source": "okx"
+    "price": 2248.74,
+    "change": 17.16,
+    "change_pct": 0.77,
+    "source": "okx",
+    "hist": [
+     2488.81,
+     2511.87,
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2249.23
+    ],
+    "sigma": 2.987
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 90.3,
-    "change": 0.59,
-    "change_pct": 0.66,
-    "source": "okx"
+    "price": 90.24,
+    "change": 0.45,
+    "change_pct": 0.5,
+    "source": "okx",
+    "hist": [
+     109.72,
+     110.49,
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     90.26
+    ],
+    "sigma": 2.878
    }
   ]
  },
@@ -1553,34 +1819,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "美国中期选举日！特朗普最后挣扎无果，府院之争即将开场 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-07 14:53",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oSHNjcVFSZXBqNlo3SzZad2FpaFBuMmN4MGFNQmw1WGtoTFNuTUpuZjliNEZFUlU4S25VUlBRcjVXQnIwYThiUWJ2Wi00RzlJbm51RzFRYWNZRVdIWXZPdnBFZmRqV3hzNDJfTkpLZzZuQQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 4
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "加息大消息！美联储官员，最新发声！ - 证券之星",
-   "summary": "",
-   "time": "2026-11-07 14:04",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FdkZDUkJ4S3FOLXR1RjlFajVwSkNYMWNJb1c2aHcwckxqRzZPVFZnbmFNQm5RU0JSUTROQVkyVVl3b1dwRVF4X1dJN0trM1lmQTdYWmo0SkxWLTdfTThjcw?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
+   "title": "白宫在争议声中公布拟建“凯旋门”新方案",
+   "summary": "【白宫在争议声中公布拟建“凯旋门”新方案】美国白宫6日公布总统特朗普计划修建的巨型“凯旋门”新设计方案，并将其定位为纪念美国军事历史的建筑。此前一天，美国一名联邦法官下令暂缓“凯旋门”项目施工。根据白宫推介新网站公布的方案，这座凯旋门正式名称拟定为“美国军事凯旋门”，高约76米，计划建在林肯纪念堂与阿灵顿国家公墓之间。",
+   "time": "2026-11-07 16:41:10",
+   "url": "https://finance.eastmoney.com/a/202611073925508512.html",
+   "source": "东财国际",
+   "mentions": 5
   },
   {
    "keyword": "白宫",
    "label": "白宫",
    "hint": "美国官方政策表态的权威渠道",
-   "title": "特朗普开始洗牌白宫高层，未来两年或走更激进对抗路线 - Jiemian.com",
-   "summary": "",
-   "time": "2026-11-07 14:01",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00M3pVbjB3NVoxb004SnMwOUNOc1c2S3AxUUd3aG5qVXBxdGZLc2lJamNmN2dCQjVPZHBqVUNrUEFDb3Z2ejM2UzEwb3ZYcnFuSlphV0R1NC0?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
+   "title": "白宫在争议声中公布拟建“凯旋门”新方案",
+   "summary": "【白宫在争议声中公布拟建“凯旋门”新方案】美国白宫6日公布总统特朗普计划修建的巨型“凯旋门”新设计方案，并将其定位为纪念美国军事历史的建筑。此前一天，美国一名联邦法官下令暂缓“凯旋门”项目施工。根据白宫推介新网站公布的方案，这座凯旋门正式名称拟定为“美国军事凯旋门”，高约76米，计划建在林肯纪念堂与阿灵顿国家公墓之间。",
+   "time": "2026-11-07 16:41:10",
+   "url": "https://finance.eastmoney.com/a/202611073925508512.html",
+   "source": "东财国际",
+   "mentions": 3
   },
   {
    "keyword": "马斯克",
@@ -1685,16 +1940,6 @@
     "date": "2026-11-07",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aUFViUkQ5Qi1ER3UxY3Nacy1acTZLWVl5T3F4ZVhON0RHMFNBM1U3dkhuWlR4V1MtajhOdHJlSXFoNUhqdEN6QXhWT3REclY1dUZKbG9RMUU3ek82TThIemFR?oc=5",
     "source": "机构观点"
-   },
-   {
-    "title": "开源证券：给予能之光增持评级_券商研报_数据解析 - 证券之星",
-    "org": "开源证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-07",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zb2ttU3Q1RVRfSEJqZjlXRlhlRkMyQnhIdTBUb2Vmc19TUm92ZGhESmxHNjMzWFpjVkc5VFNSUFFoaTNrOFg1RHQ0cF85c0ZHcFRqT1llNmlxcGZZODIzVmFn?oc=5",
-    "source": "机构观点"
    }
   ]
  },
@@ -1703,16 +1948,79 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-07 16:54",
+   "time": "2026-11-07 17:03",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "伊朗外长48小时与12国通话",
-   "summary": "【伊朗外长48小时与12国通话】伊朗外长阿拉格齐今天（11月7日）表示，过去48小时内，他分别与阿曼、埃及、约旦、沙特、卡塔尔、巴基斯坦等12个国家外长通电话，回顾并交换了对最新地区和国际局势发展以及美以不断升级其行动所带来的后果的意见。",
-   "time": "2026-11-07 16:34:51",
-   "url": "https://finance.eastmoney.com/a/202611073925507956.html",
+   "title": "SK集团携全栈解决方案亮相进博会",
+   "summary": "在第九届进博会上，SK集团携旗下SK海力士、SK电讯等成员公司，集中展示覆盖AI硬件与软件的全栈解决方案，展现面向未来的AI技术愿景。\n\n其中，SK海力士在展会上集中呈现了覆盖AI数据中心到PC、移动终端的全场景面向AI的存储器解决方案。",
+   "time": "2026-11-07 17:00",
+   "url": "https://wallstreetcn.com/livenews/3196391",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "印尼杜科诺火山再喷发 火山灰柱高约2000米",
+   "summary": "【印尼杜科诺火山再喷发 火山灰柱高约2000米】据印尼火山地质减灾中心消息，当地时间11月7日17时02分，位于印尼北马鲁古省的杜科诺火山发生喷发，火山灰柱高约2000米，喷发目前仍在持续。印尼火山地质减灾中心提醒当地居民和游客不要在火山口周边4公里半径范围内活动、攀登或靠近，并建议周边民众备好口罩以防范火山灰对呼吸系统造成危害。",
+   "time": "2026-11-07 16:52:30",
+   "url": "https://finance.eastmoney.com/a/202611073925512832.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "46股获买入评级 最新:厦钨新能 - 中财网",
+   "summary": "",
+   "time": "2026-11-07 16:01",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1RDZZZXFLOE9aQ0dpTDFsNVA0N0YzQnR4dUx2aXluNTV1VV9nWm5hTDcyMW1mV3FuSVN4LTlLcDNfNFpTcWxGWkxYVHdqNjBrVklVY2dR?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普任命斯蒂芬·米勒为白宫办公厅主任 - 新华网",
+   "summary": "",
+   "time": "2026-11-07 15:08",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYUlESTRZN3c1MVlON0hobWc1Q0JmMXJBOWlVb2Vvc3JpZkZTNlNUWFZYNlVkSGdlSUlRYzJsNThQUmNQdUNCWmFXV1JjSUdfelV6cE5qMW0yWUlTLW9SbWc1dVFQRDBTNG5pc2h2cUFEXzZfOFhTbHpPekNnd0thN0YtTWt4QQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "欧洲多国媒体收到炸弹威胁",
+   "summary": "",
+   "time": "2026-11-07 09:01:43",
+   "url": "https://news.futunn.com/flash/1003798313/multiple-media-outlets-across-europe-receive-bomb-threats",
+   "source": "富途"
+  },
+  {
+   "title": "第七届世界媒体峰会在北京举办 李书磊出席开幕式并发表主旨演讲",
+   "summary": "",
+   "time": "2026-11-07 08:34:09",
+   "url": "https://news.10jqka.com.cn/20261107/c681577751.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "东方财富财经早餐 11月6日周五",
+   "summary": "【东方财富财经早餐 11月6日周五】1、调休减少，2027年放假安排来了！9天超长春节假期再次回归。2、商务部回应扩大自美采购农产品：持开放态度，对等降税落地是前提。3、上交所召开并购重组专题座谈会，汇聚市场合力助推上市公司提质增效。",
+   "time": "2026-11-06 06:00:27",
+   "url": "http://finance.eastmoney.com/a/202611053923871240.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "【本文系数据通用户提前专享】美国中期选举成为对特朗普的公投，共和党大败 动摇其权力根基，任期进入更难预测的下半场",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-07/102502053.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "伊朗伊斯兰革命卫队称提升导弹射程的工作仍在继续",
+   "summary": "据伊朗半官方的法尔斯通讯社报道，伊朗伊斯兰革命卫队一名发言人表示，伊朗继续致力于提升导弹射程，没有停止这项工作的计划。  重申如果伊朗的“敌人”犯错，伊朗的回应将更加“猛烈”。如果伊朗决定重新审视核政策，将做好必要的准备工作。",
+   "time": "2026-11-07 16:28",
+   "url": "https://wallstreetcn.com/livenews/3196383",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "新宝股份：广交会期间公司移动空调等新品类受到海外采购商关注",
+   "summary": "【新宝股份：广交会期间公司移动空调等新品类受到海外采购商关注】新宝股份在互动平台表示，本届广交会期间，公司移动空调等新品类受到海外采购商的广泛关注，公司将持续关注欧洲能源形势与市场需求变化，优化产品布局，积极响应市场需求。",
+   "time": "2026-11-07 16:47:06",
+   "url": "https://finance.eastmoney.com/a/202611073925511225.html",
    "source": "东财国际"
   },
   {
@@ -1730,67 +2038,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "白宫在争议声中公布拟建“凯旋门”新方案",
+   "title": "我国自主研制的新型模块化“移动暖屋”将登陆南极",
    "summary": "",
-   "time": "2026-11-07 08:36:57",
-   "url": "https://news.10jqka.com.cn/20261107/c681577762.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "DeepSeek网页及API部分中断",
-   "summary": "",
-   "time": "2026-11-07 07:52:08",
-   "url": "https://news.futunn.com/flash/1003795749/partial-outage-of-deepseek-website-and-api",
+   "time": "2026-11-07 08:51:46",
+   "url": "https://news.futunn.com/flash/1003797949/china-s-independently-developed-new-modular-mobile-warm-house-set",
    "source": "富途"
   },
   {
-   "title": "东方财富财经早餐 11月6日周五",
-   "summary": "【东方财富财经早餐 11月6日周五】1、调休减少，2027年放假安排来了！9天超长春节假期再次回归。2、商务部回应扩大自美采购农产品：持开放态度，对等降税落地是前提。3、上交所召开并购重组专题座谈会，汇聚市场合力助推上市公司提质增效。",
-   "time": "2026-11-06 06:00:27",
-   "url": "http://finance.eastmoney.com/a/202611053923871240.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "【本文系数据通用户提前专享】美国中期选举成为对特朗普的公投，共和党大败 动摇其权力根基，任期进入更难预测的下半场",
+   "title": "美国多名国会议员称将推动撤销不合理关税政策",
    "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-07/102502053.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "印度旁遮普邦客运列车起火 暂无人员伤亡报告",
-   "summary": "【印度旁遮普邦客运列车起火 暂无人员伤亡报告】据多方消息，6日，印度旁遮普邦发生客运列车起火事件。据悉，这起事件发生在旁遮普邦一个火车站附近，一趟列车在行驶过程中起火，现场冒出大量黑色浓烟。有关部门人员赶往现场并扑灭大火，目前暂无人员伤亡报告。有官员表示，火灾由车厢风扇短路引发。",
-   "time": "2026-11-07 16:27:09",
-   "url": "https://finance.eastmoney.com/a/202611073925507628.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "开源证券：给予纳科诺尔增持评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-07 15:55",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aUFViUkQ5Qi1ER3UxY3Nacy1acTZLWVl5T3F4ZVhON0RHMFNBM1U3dkhuWlR4V1MtajhOdHJlSXFoNUhqdEN6QXhWT3REclY1dUZKbG9RMUU3ek82TThIemFR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "加息大消息！美联储官员，最新发声！ - 证券之星",
-   "summary": "",
-   "time": "2026-11-07 14:04",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FdkZDUkJ4S3FOLXR1RjlFajVwSkNYMWNJb1c2aHcwckxqRzZPVFZnbmFNQm5RU0JSUTROQVkyVVl3b1dwRVF4X1dJN0trM1lmQTdYWmo0SkxWLTdfTThjcw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "第七届世界媒体峰会在北京举办 李书磊出席开幕式并发表主旨演讲",
-   "summary": "",
-   "time": "2026-11-07 08:34:09",
-   "url": "https://news.10jqka.com.cn/20261107/c681577751.shtml",
+   "time": "2026-11-07 08:04:09",
+   "url": "https://news.10jqka.com.cn/20261107/c681577646.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "美国最繁忙港口劳资谈判延至11月20日，安保人员罢工风险仍存",
-   "summary": "",
-   "time": "2026-11-07 07:23:28",
-   "url": "https://news.futunn.com/flash/1003794511/labor-negotiations-at-the-busiest-us-ports-extended-to-november",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月5日周四",
@@ -1807,39 +2066,46 @@
    "source": "财新"
   },
   {
-   "title": "IMF总裁：各国央行需考量AI驱动增长或放缓",
-   "summary": "【IMF总裁：各国央行需考量AI驱动增长或放缓】国际货币基金组织（IMF）总裁格奥尔基耶娃6日表示，各国央行在评估抗击通胀的举措时，需要将人工智能（AI）驱动的增长可能出现放缓纳入考量。格奥尔基耶娃当天在IMF位于美国首都华盛顿的总部表示，人们对于经济过度依赖AI投资热潮以及资产估值过高的担忧，正对全球市场产生影响。",
-   "time": "2026-11-07 16:27:05",
-   "url": "https://finance.eastmoney.com/a/202611073925507282.html",
+   "title": "伊朗伊斯兰革命卫队称昨晚在霍尔木兹海峡向美军开火",
+   "summary": "据伊朗半官方的伊朗学生通讯社(ISNA)报道，伊朗伊斯兰革命卫队称，昨晚在霍尔木兹海峡向美军“开火”。防空部队还在霍尔木兹海峡对一架美军飞机进行了攻击。听到的大部分爆炸声与防空火力有关。",
+   "time": "2026-11-07 16:07",
+   "url": "https://wallstreetcn.com/livenews/3196381",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "白宫在争议声中公布拟建“凯旋门”新方案",
+   "summary": "【白宫在争议声中公布拟建“凯旋门”新方案】美国白宫6日公布总统特朗普计划修建的巨型“凯旋门”新设计方案，并将其定位为纪念美国军事历史的建筑。此前一天，美国一名联邦法官下令暂缓“凯旋门”项目施工。根据白宫推介新网站公布的方案，这座凯旋门正式名称拟定为“美国军事凯旋门”，高约76米，计划建在林肯纪念堂与阿灵顿国家公墓之间。",
+   "time": "2026-11-07 16:41:10",
+   "url": "https://finance.eastmoney.com/a/202611073925508512.html",
    "source": "东财国际"
   },
   {
-   "title": "开源证券：给予能之光增持评级_券商研报_数据解析 - 证券之星",
+   "title": "开源证券：给予纳科诺尔增持评级_券商研报_数据解析 - 证券之星",
    "summary": "",
    "time": "2026-11-07 15:55",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zb2ttU3Q1RVRfSEJqZjlXRlhlRkMyQnhIdTBUb2Vmc19TUm92ZGhESmxHNjMzWFpjVkc5VFNSUFFoaTNrOFg1RHQ0cF85c0ZHcFRqT1llNmlxcGZZODIzVmFn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aUFViUkQ5Qi1ER3UxY3Nacy1acTZLWVl5T3F4ZVhON0RHMFNBM1U3dkhuWlR4V1MtajhOdHJlSXFoNUhqdEN6QXhWT3REclY1dUZKbG9RMUU3ek82TThIemFR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普开始洗牌白宫高层，未来两年或走更激进对抗路线 - Jiemian.com",
+   "title": "委内瑞拉移民称听到声音让他杀特朗普，带3把枪在白宫附近被捕 - 凤凰网",
    "summary": "",
-   "time": "2026-11-07 14:01",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE00M3pVbjB3NVoxb004SnMwOUNOc1c2S3AxUUd3aG5qVXBxdGZLc2lJamNmN2dCQjVPZHBqVUNrUEFDb3Z2ejM2UzEwb3ZYcnFuSlphV0R1NC0?oc=5",
+   "time": "2026-11-07 14:33",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CSHVTUE5EUmRZWmNteW5nZ1h0ckZjbUV5Z2RyNmJuYkhCSHhnQjJkM0N0WG53T2c2RFA2amp3YjJ2VWFXSHl2MkhYRTc3eUpva2c?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美国多名国会议员称将推动撤销不合理关税政策",
+   "title": "俄称对乌实施大规模打击 乌称基辅能源供应受影响",
    "summary": "",
-   "time": "2026-11-07 08:04:09",
-   "url": "https://news.10jqka.com.cn/20261107/c681577646.shtml",
-   "source": "同花顺"
+   "time": "2026-11-07 08:45:53",
+   "url": "https://news.futunn.com/flash/1003797778/russia-claims-large-scale-strikes-on-ukraine-ukraine-reports-impact",
+   "source": "富途"
   },
   {
-   "title": "中期选举失利后，特朗普加速推进华盛顿建筑计划",
+   "title": "马斯克：我们还需要8到9个月的时间来制造赛博卡车，但之后特斯拉需要专注于扩大赛博卡车的生产规模。",
    "summary": "",
-   "time": "2026-11-07 05:47:10",
-   "url": "https://news.futunn.com/flash/1003790784/trump-accelerates-washington-construction-plans-after-midterm-election-loss",
-   "source": "富途"
+   "time": "2026-11-07 06:18:18",
+   "url": "https://news.10jqka.com.cn/20261107/c681577325.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】现阶段工业机器人无法做到的事，人形机器人也解决不了",
@@ -1849,32 +2115,11 @@
    "source": "财新"
   },
   {
-   "title": "伊朗伊斯兰革命卫队：昨晚在霍尔木兹海峡向美方开火",
-   "summary": "据报道，伊朗伊斯兰革命卫队称，昨晚在霍尔木兹海峡向美方开火。",
-   "time": "2026-11-07 16:16:29",
-   "url": "https://finance.eastmoney.com/a/202611073925506658.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "开源证券：给予广信科技增持评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-07 15:50",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qeWEzLU4zZmtyOWhRRnJLY3FmQTZ4MUJCTzk0VXNLcFdSeEZySE1GRkdqaVFiMk1VaHBOWmk2dUpkeU9hcnUxRVpucXZYUGVuUW5PTFlwZUR5U0lmcUtsRmVn?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "突然，净空头持仓暴增24.6万手！美联储，加息生变？ - 金融界",
-   "summary": "",
-   "time": "2026-11-07 13:17",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52Y3Z0clJNbG1aaElpTnllMFdIME1BZG1RWGVZX0RJVmgxYlRCeWIyTGVxQ1c2R3FOckNsRVZoTXZYQ1B4MDUtSVNQMmI3ZnZNWEExUnE1RENLMlQ0aHJKa0JpZzJpRzlzcFJSQjlDQjJrT1Yw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "马斯克：我们还需要8到9个月的时间来制造赛博卡车，但之后特斯拉需要专注于扩大赛博卡车的生产规模。",
-   "summary": "",
-   "time": "2026-11-07 06:18:18",
-   "url": "https://news.10jqka.com.cn/20261107/c681577325.shtml",
-   "source": "同花顺"
+   "title": "新西兰议会选举开始正式投票",
+   "summary": "新西兰议会选举11月7日开始正式投票。民调显示，国家党领导的执政联盟与工党主导的反对阵营选情胶着。（新华社）",
+   "time": "2026-11-07 16:01",
+   "url": "https://wallstreetcn.com/livenews/3196380",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
@@ -1885,18 +2130,19 @@
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
-   "华尔街见闻": "FAIL:ReadTimeout",
+   "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 8,
-   "谷歌新闻·研报": 8,
-   "谷歌新闻·国际": 8,
-   "同花顺": 6,
-   "富途": 8,
+   "华尔街见闻": 8,
+   "东财国际": 7,
+   "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 7,
+   "富途": 7,
+   "同花顺": 3,
    "东财早报": 2,
-   "财新": 8
+   "财新": 7
   }
  },
  "wuxing": {
