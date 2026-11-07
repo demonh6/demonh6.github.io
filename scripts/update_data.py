@@ -1827,14 +1827,15 @@ def _merge_market_group(prev_items, new_items):
 
 def main():
     now = datetime.now(CST)
-    minute = now.minute
+    # 纪元分钟：t4(120min) 窗口跨小时正确对齐（now.minute∈[0,59] 会让 120 窗口退化为每小时）
+    minute = int(now.timestamp() // 60)
     prev = _load_prev()
     p_markets = prev.get("markets") or {}
     p_ka = prev.get("key_assets") or {}
     p_sent = prev.get("sentiment") or {}
     p_research = prev.get("research") or {}
 
-    log(f"开始更新 dashboard 数据（interval={INTERVAL}，minute={minute}，"
+    log(f"开始更新 dashboard 数据（interval={INTERVAL}，wall_minute={now.minute}，"
         f"t2={'✓' if _tier_due('t2', minute) else '×'} t3={'✓' if _tier_due('t3', minute) else '×'} "
         f"t4={'✓' if _tier_due('t4', minute) else '×'}）")
     errors = {}
