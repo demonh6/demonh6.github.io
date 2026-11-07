@@ -1475,13 +1475,18 @@ def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None)
     # 2. 东财研报速览：最新研报，报告名称即浓缩结论
     if reports_due:
         picked = []
-        # 2a. 国际投行观点：从近 2 天新闻池提取头部机构的明确观点（国内外多面）
+        # 2a. 机构观点：从近 2 天新闻池提取权威机构的明确观点（国内外多面）
         try:
             if news_pool:
                 org_pat = re.compile(
                     r"(高盛|摩根士丹利|摩根大通|大摩|小摩|瑞银|花旗|巴克莱|贝莱德|桥水|"
-                    r"汇丰|德银|野村|瑞穗|贝恩|麦肯锡|景林|高瓴|红杉)")
-                verb_pat = re.compile(r"(预计|认为|看好|看空|上调|下调|预警|警告|目标价|评级|削减|增持|减持)")
+                    r"汇丰|德意志银行|德银|野村|瑞穗|贝莱德|贝恩|麦肯锡|景林|高瓴|红杉|"
+                    r"中金|中信证券|中信建投|国泰海通|国泰君安|华泰|申万宏源|兴业证券|广发|"
+                    r"招商证券|光大证券|安信|天风|民生证券|东吴|浙商|国盛|开源证券|"
+                    r"中银证券|国信证券|方正|华西|国金|财通|东兴|太平洋证券|"
+                    r"路透|彭博|彭博社|CNBC|金融时报|华尔街日报|经济学人)")
+                verb_pat = re.compile(r"(预计|认为|看好|看空|上调|下调|预警|警告|目标价|评级|"
+                                      r"削减|增持|减持|预测|展望|预期|判断|指出|提示|研报|分析|维持)")
                 seen_t = set()
                 for n in news_pool:
                     blob = n.get("title", "") + " " + n.get("summary", "")
@@ -1500,11 +1505,11 @@ def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None)
                         "industry": "",
                         "date": (n.get("time") or "")[:10],
                         "url": n.get("url", ""),
-                        "source": "国际投行观点",
+                        "source": "机构观点",
                     })
-                    if len(picked) >= 5:
+                    if len(picked) >= 6:
                         break
-                log(f"OK   国际投行观点 {len(picked)} 条")
+                log(f"OK   机构观点 {len(picked)} 条")
         except Exception as e:  # noqa: BLE001
             log(f"FAIL 国际投行观点: {type(e).__name__}")
 
@@ -1546,6 +1551,8 @@ def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None)
 
         if picked:
             out["reports"] = picked
+        else:
+            log("机构观点与近1月研报均无命中（前端显示空状态）")
 
     if not out["digest"] and not out["reports"]:
         raise RuntimeError("研报观点全部源失败")
