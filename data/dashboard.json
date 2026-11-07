@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-07 22:27:19 CST",
- "generated_at_iso": "2026-11-07T22:27:19+08:00",
+ "generated_at": "2026-11-07 22:35:30 CST",
+ "generated_at_iso": "2026-11-07T22:35:30+08:00",
  "date": "2026-11-07",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75948.6,
-    "change": 257.2,
-    "change_pct": 0.34,
+    "price": 75962.3,
+    "change": 528.5,
+    "change_pct": 0.7,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2245.54,
-    "change": 10.75,
-    "change_pct": 0.48,
+    "price": 2246.37,
+    "change": 21.17,
+    "change_pct": 0.95,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.95,
-    "change": -0.4,
-    "change_pct": -0.44,
+    "price": 90.05,
+    "change": 0.05,
+    "change_pct": 0.06,
     "source": "okx"
    }
   ]
@@ -1465,12 +1465,12 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 758,
-   "down": 4741,
-   "flat": 76,
-   "total": 5575,
-   "breadth_pct": 13.6,
-   "score": -22.8,
+   "up": 725,
+   "down": 4483,
+   "flat": 87,
+   "total": 5295,
+   "breadth_pct": 13.7,
+   "score": -22.6,
    "source": "东财"
   },
   "vix": {
@@ -1543,7 +1543,7 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 1.1,
+   "score": 1.2,
    "label": "极度恐惧",
    "color": "#f04a3d"
   }
@@ -1561,17 +1561,6 @@
    "mentions": 1
   },
   {
-   "keyword": "白宫",
-   "label": "白宫",
-   "hint": "美国官方政策表态的权威渠道",
-   "title": "观天下·人物丨白宫幕僚长换人，谁是斯蒂芬·米勒 - 新华网客户端",
-   "summary": "",
-   "time": "2026-11-07 22:03",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZFJtRU1tbWFhMnZ6V05GcGhQYXFXR09DQ21QaHRQMG1HdGUwYk45Q29nZDM2cDFOYmJycVV1cUJlRjUxUC1nYm1JOUFGdEQxWXdlQUUyWlA1QmZ5N1V3UkFscWlDdUpkV1pkMGRfRTJaZE90T0FmSFM1MVc2SlJXNFh2ejZRYkZOTUJndXpPbXBfZnRRY29uLUx3?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1581,6 +1570,50 @@
    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQ19GZ244T095MEc2ZWxXamV1aGphT1hDQzR6NVg1a2FRV2NHcTFDOGxPUmFneFBkQllhMllpWEF3T3ZiWDh1OXJLUy1LcUFjZjY3REFXUDR4cnJFcUdyd2tyTGZfNHZHcnc?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
+  },
+  {
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "白宫首席顾问：特朗普不会因选举失利而调整经济政策 - 联合早报",
+   "summary": "",
+   "time": "2026-11-07 21:26",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQ19GZ244T095MEc2ZWxXamV1aGphT1hDQzR6NVg1a2FRV2NHcTFDOGxPUmFneFBkQllhMllpWEF3T3ZiWDh1OXJLUy1LcUFjZjY3REFXUDR4cnJFcUdyd2tyTGZfNHZHcnc?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储宣战，黄金一夜生变 - 凤凰网财经",
+   "summary": "",
+   "time": "2026-11-07 21:13",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45VWg0WVQ4ZXNIOWVvT3NsM0lDS1FlUlhrdEpTWFZEbmRZZjFxS3FfbDZjMTROck1YWXhlR2RHUk5ZaDhYYVJSUWcyTHpFN2Y1?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行行长拉加德：不能保证12月一定行动 但当前事态仍与预期一致",
+   "summary": "",
+   "time": "2026-11-07 14:30:38",
+   "url": "https://news.futunn.com/flash/1003808476/ecb-president-lagarde-cannot-guarantee-action-in-december-but-current",
+   "source": "富途",
+   "mentions": 2
+  },
+  {
+   "keyword": "拉加德",
+   "label": "拉加德",
+   "hint": "欧央行行长",
+   "title": "欧洲央行行长拉加德：不能保证12月一定行动 但当前事态仍与预期一致",
+   "summary": "",
+   "time": "2026-11-07 14:30:38",
+   "url": "https://news.futunn.com/flash/1003808476/ecb-president-lagarde-cannot-guarantee-action-in-december-but-current",
+   "source": "富途",
+   "mentions": 2
   },
   {
    "keyword": "商务部",
@@ -1702,24 +1735,24 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-07 22:27",
+   "time": "2026-11-07 22:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车",
-   "summary": "【特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车】美国电动汽车制造商特斯拉首席执行官埃隆·马斯克6日在社交媒体平台宣布，将于2027年年中前后逐步停止生产赛博越野旅行车（Cybertruck），把产能用于增产赛博出租车（Cybercab）。",
-   "time": "2026-11-07 22:04:07",
-   "url": "https://finance.eastmoney.com/a/202611073925550576.html",
-   "source": "东财国际"
+   "title": "太平洋：给予招商蛇口买入评级_券商研报_数据解析 - 证券之星",
+   "summary": "",
+   "time": "2026-11-07 22:25",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40U2wwdFE0QndJUGJHYkxSY0VTRDJQaDM0UjhCblJ4U0M2WkluWklTMWFnd3E0d0xfZmNkb3dzWXNvNTJ3LVlYcS1wS0drcFllZExxRDk3dzEteWhYZ2dWZmdR?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "观天下·人物丨白宫幕僚长换人，谁是斯蒂芬·米勒 - 新华网客户端",
-   "summary": "",
-   "time": "2026-11-07 22:03",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZFJtRU1tbWFhMnZ6V05GcGhQYXFXR09DQ21QaHRQMG1HdGUwYk45Q29nZDM2cDFOYmJycVV1cUJlRjUxUC1nYm1JOUFGdEQxWXdlQUUyWlA1QmZ5N1V3UkFscWlDdUpkV1pkMGRfRTJaZE90T0FmSFM1MVc2SlJXNFh2ejZRYkZOTUJndXpPbXBfZnRRY29uLUx3?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "显卡价格连涨11个交易日后急跌 华强北显卡半天一个价",
+   "summary": "【显卡价格连涨11个交易日后急跌 华强北显卡半天一个价】显卡是主要用于图形渲染的硬件，如今也广泛用于AI算力运算。此前受海外停产传闻刺激，RTX 50系列显卡开启连续上涨，一口气连涨11个交易日。从10月28日开始，行情突然掉头向下。RTX 5080从最高近2万元，跌到1.6万元，价格回调两成。有商户告诉记者：“代理商、商户提前囤货，导致价格发生了很大浮动，甚至早上跟下午价格都变动很大。”尽管价格有所回落，但目前主流显卡RTX 50系列均价仍是建议零售价的1.7倍，之前较大的价格涨幅仍未消化。华强北市场硬件价格的走向，也吸引着海外采购商的目光。记者走访发现，近期海外客商密集到店询价，显卡、内存等硬件跨境采购热度明显提升。有商户称，“10月份外国客户销售额占了50%以上。”",
+   "time": "2026-11-07 22:19:24",
+   "url": "https://finance.eastmoney.com/a/202611073925550783.html",
+   "source": "东财国际"
   },
   {
    "title": "国金证券：核心蓝筹股的估值水平已经处于历史偏低水平",
@@ -1729,25 +1762,25 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "标普将波兰评级展望下调至负面，财长将矛头指向总统否决权 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "白宫首席顾问：特朗普不会因选举失利而调整经济政策 - 联合早报",
    "summary": "",
-   "time": "2026-11-07 21:08",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NZG4zTWxYYndETkZBY3FCVVpZU0xaaG54UHVsc0hucEJFdFVpb0NFbzJSQ28taW5IaGNTcEVDUzdqSWNsZkg1bjNqR25jazM3OFJMdm5fbFFEcmhObDhaYVJ2UmVVamhrN2c?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-07 21:26",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQ19GZ244T095MEc2ZWxXamV1aGphT1hDQzR6NVg1a2FRV2NHcTFDOGxPUmFneFBkQllhMllpWEF3T3ZiWDh1OXJLUy1LcUFjZjY3REFXUDR4cnJFcUdyd2tyTGZfNHZHcnc?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "泽连斯基：乌仍严重缺乏“爱国者”防空系统拦截弹",
+   "title": "欧洲央行行长拉加德：不能保证12月一定行动 但当前事态仍与预期一致",
    "summary": "",
-   "time": "2026-11-07 14:10:11",
-   "url": "https://news.10jqka.com.cn/20261107/c681579748.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "美军方：成立特遣队，旨在切断伊朗用于支持非法运输的陆路运输路线",
-   "summary": "",
-   "time": "2026-11-07 13:35:07",
-   "url": "https://news.futunn.com/flash/1003807115/us-military-establishes-task-force-aimed-at-cutting-off-overland",
+   "time": "2026-11-07 14:30:38",
+   "url": "https://news.futunn.com/flash/1003808476/ecb-president-lagarde-cannot-guarantee-action-in-december-but-current",
    "source": "富途"
+  },
+  {
+   "title": "七天内近五千移民抵西属加那利群岛",
+   "summary": "",
+   "time": "2026-11-07 14:03:17",
+   "url": "https://news.10jqka.com.cn/20261107/c681579732.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月6日周五",
@@ -1764,18 +1797,18 @@
    "source": "财新"
   },
   {
-   "title": "美中央司令部成立特遣队 阻止伊朗通过陆路运输先进武器",
-   "summary": "【美中央司令部成立特遣队 阻止伊朗通过陆路运输先进武器】当地时间11月7日，美国中央司令部司令库珀下令成立一支名为“铁门”（Task Force Iron Gate）的特遣队，旨在配合美国政府正在开展的相关行动，阻止伊朗通过陆路运输先进武器及其他物资。",
-   "time": "2026-11-07 21:52:19",
-   "url": "https://finance.eastmoney.com/a/202611073925548095.html",
-   "source": "东财国际"
+   "title": "西南证券：首次覆盖九州一轨给予买入评级，目标价93.1元_券商研报_数据解析 - 证券之星",
+   "summary": "",
+   "time": "2026-11-07 22:25",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1LThJTmdDNnNBd0RWZ1R1Yl9hemM1bWlzcUF3VjAtRHRuN3NDajNFaFNRUDVYSE5iTWZUMlQzTlVGd0RPXzYzSHNXUXZxcmRscWhacnJiTUdjcjVaWHR5SUFR?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "白宫首席顾问：特朗普不会因选举失利而调整经济政策 - 联合早报",
-   "summary": "",
-   "time": "2026-11-07 21:26",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMQ19GZ244T095MEc2ZWxXamV1aGphT1hDQzR6NVg1a2FRV2NHcTFDOGxPUmFneFBkQllhMllpWEF3T3ZiWDh1OXJLUy1LcUFjZjY3REFXUDR4cnJFcUdyd2tyTGZfNHZHcnc?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "泽连斯基：乌仍严重缺乏“爱国者”防空系统拦截弹",
+   "summary": "【泽连斯基：乌仍严重缺乏“爱国者”防空系统拦截弹】乌克兰总统泽连斯基7日表示，俄军在当天的袭击中发射36枚导弹，乌方仅成功拦截4枚。乌方目前仍严重缺乏“爱国者”防空系统拦截弹。泽连斯基表示，乌方正在各个层面寻求加快拦截弹交付，并向美方传递相关信息。",
+   "time": "2026-11-07 22:12:47",
+   "url": "https://finance.eastmoney.com/a/202611073925550696.html",
+   "source": "东财国际"
   },
   {
    "title": "美国将成立工作组限制伊朗使用陆路通道和里海。（路透）",
@@ -1785,25 +1818,25 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "喜获5A评级！凝心聚力，助力山东足球高质量发展_综合体育_体育 - 齐鲁网",
+   "title": "特朗普委任新幕僚长 司法部高层纷离职 - 联合早报",
    "summary": "",
-   "time": "2026-11-07 20:53",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50a3dPem9FUDNXcjd4VDl5ZDVfSl96d1dKVEE3SWNWaHptMG9yZEtZLVhsdVE3TkVuZ1JKQVN3a01Sd2hjZ25zeEQtc0tLM3lYb3ZoRE1YVWxqRVdGMnkzelFTaw?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-07 21:18",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DS2FvRTRpaWxGZ0x4Z1FMY25wNll6cmxWRm4tQ3hRcTZzTDBoeEdweWNsdlJyb3ZhYl8xeFZDdVFGc3ZLM1dOeUMzMWh1SGJZWHFOMV9PR0ZXTWZCRWRQY3ZWSXVhWGI1d3c?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "七天内近五千移民抵西属加那利群岛",
+   "title": "欧洲央行行长拉加德：尚未发现预测之外的第二轮效应迹象",
    "summary": "",
-   "time": "2026-11-07 14:03:17",
-   "url": "https://news.10jqka.com.cn/20261107/c681579732.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "伯克希尔哈撒韦加快股票回购步伐，营业利润下滑",
-   "summary": "",
-   "time": "2026-11-07 13:16:07",
-   "url": "https://news.futunn.com/flash/1003806564/berkshire-hathaway-accelerates-share-buybacks-as-operating-profit-declines",
+   "time": "2026-11-07 14:13:28",
+   "url": "https://news.futunn.com/flash/1003808107/ecb-president-lagarde-no-signs-of-second-round-effects-beyond",
    "source": "富途"
+  },
+  {
+   "title": "伯克希尔哈撒韦第三季度营业利润为127.1亿美元，同比下降5.8%",
+   "summary": "",
+   "time": "2026-11-07 12:58:29",
+   "url": "https://news.10jqka.com.cn/20261107/c681579184.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月5日周四",
@@ -1820,18 +1853,18 @@
    "source": "财新"
   },
   {
-   "title": "伊拉克石油部：将遵守OPEC+431万桶/日的产量水平",
-   "summary": "【伊拉克石油部：将遵守OPEC+431万桶/日的产量水平】伊拉克石油部称，将遵守OPEC+431万桶/日的产量水平，提高产量上限需经OPEC+一致同意，将继续努力争取明年提高产量。",
-   "time": "2026-11-07 21:48:32",
-   "url": "https://finance.eastmoney.com/a/202611073925547953.html",
-   "source": "东财国际"
+   "title": "标普将波兰评级展望下调至负面，财长将矛头指向总统否决权 提供者 Investing.com - 英为财情 Investing.com",
+   "summary": "",
+   "time": "2026-11-07 21:08",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NZG4zTWxYYndETkZBY3FCVVpZU0xaaG54UHVsc0hucEJFdFVpb0NFbzJSQ28taW5IaGNTcEVDUzdqSWNsZkg1bjNqR25jazM3OFJMdm5fbFFEcmhObDhaYVJ2UmVVamhrN2c?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普委任新幕僚长 司法部高层纷离职 - 联合早报",
-   "summary": "",
-   "time": "2026-11-07 21:18",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DS2FvRTRpaWxGZ0x4Z1FMY25wNll6cmxWRm4tQ3hRcTZzTDBoeEdweWNsdlJyb3ZhYl8xeFZDdVFGc3ZLM1dOeUMzMWh1SGJZWHFOMV9PR0ZXTWZCRWRQY3ZWSXVhWGI1d3c?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车",
+   "summary": "【特斯拉赛博越野旅行车将逐步停产 特斯拉将增产赛博出租车】美国电动汽车制造商特斯拉首席执行官埃隆·马斯克6日在社交媒体平台宣布，将于2027年年中前后逐步停止生产赛博越野旅行车（Cybertruck），把产能用于增产赛博出租车（Cybercab）。",
+   "time": "2026-11-07 22:04:07",
+   "url": "https://finance.eastmoney.com/a/202611073925550576.html",
+   "source": "东财国际"
   },
   {
    "title": "英伟达CEO女儿取消原定访韩计划。（韩联社）",
@@ -1841,25 +1874,25 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "开源证券：给予行动教育买入评级_券商研报_数据解析 - 证券之星",
+   "title": "美联储宣战，黄金一夜生变 - 凤凰网财经",
    "summary": "",
-   "time": "2026-11-07 20:01",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB2bGg1bjFKN0pEZkVOZXpyMDE4cTRyb213RkVsbDZYTUM3LVp1SW53WmxaZ2FWZUxOOHNaSWtmbVl0ZHVOaC04UUx2c0w4aWlfb1NGMHpObG5nSWU3ckxmbXBn?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-07 21:13",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45VWg0WVQ4ZXNIOWVvT3NsM0lDS1FlUlhrdEpTWFZEbmRZZjFxS3FfbDZjMTROck1YWXhlR2RHUk5ZaDhYYVJSUWcyTHpFN2Y1?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "伯克希尔哈撒韦第三季度营业利润为127.1亿美元，同比下降5.8%",
+   "title": "美军方：成立特遣队，旨在切断伊朗用于支持非法运输的陆路运输路线",
    "summary": "",
-   "time": "2026-11-07 12:58:29",
-   "url": "https://news.10jqka.com.cn/20261107/c681579184.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "伯克希尔：Q3总营收为1056.47亿美元，净利润为221.12亿美元",
-   "summary": "",
-   "time": "2026-11-07 13:13:00",
-   "url": "https://news.futunn.com/flash/1003806511/berkshire-total-revenue-for-q3-was-105-647-billion-with",
+   "time": "2026-11-07 13:35:07",
+   "url": "https://news.futunn.com/flash/1003807115/us-military-establishes-task-force-aimed-at-cutting-off-overland",
    "source": "富途"
+  },
+  {
+   "title": "中国国新，严正声明",
+   "summary": "",
+   "time": "2026-11-07 12:52:45",
+   "url": "https://news.10jqka.com.cn/20261107/c681579128.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】现阶段工业机器人无法做到的事，人形机器人也解决不了",
@@ -1869,11 +1902,11 @@
    "source": "财新"
   },
   {
-   "title": "伊拉克外长警告称中东地区或再陷战火",
-   "summary": "【伊拉克外长警告称中东地区或再陷战火】当地时间7日，伊拉克外长侯赛因在接受媒体采访时表示，当前局势表明中东地区或将重新爆发战争。侯赛因指出，伊拉克由于霍尔木兹海峡石油出口停滞已损失了约600亿美元，在与美国和伊朗达成协议后，伊拉克恢复通过霍尔木兹海峡出口石油。他表示，美国已正式要求关闭除两个口岸外伊拉克与伊朗的所有边境口岸。伊拉克也已通知伊朗，接受与其发展联盟友好关系，但拒绝其干涉伊拉克事务，有迹象表明，存在外部势力利用伊拉克领土攻击邻国。",
-   "time": "2026-11-07 21:46:05",
-   "url": "https://finance.eastmoney.com/a/202611073925547738.html",
-   "source": "东财国际"
+   "title": "喜获5A评级！凝心聚力，助力山东足球高质量发展_综合体育_体育 - 齐鲁网",
+   "summary": "",
+   "time": "2026-11-07 20:53",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50a3dPem9FUDNXcjd4VDl5ZDVfSl96d1dKVEE3SWNWaHptMG9yZEtZLVhsdVE3TkVuZ1JKQVN3a01Sd2hjZ25zeEQtc0tLM3lYb3ZoRE1YVWxqRVdGMnkzelFTaw?oc=5",
+   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
@@ -1889,12 +1922,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
-   "谷歌新闻·国际": 7,
-   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 6,
+   "东财国际": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
