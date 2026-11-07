@@ -1480,24 +1480,34 @@ def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None)
             if news_pool:
                 org_pat = re.compile(
                     r"(高盛|摩根士丹利|摩根大通|大摩|小摩|瑞银|花旗|巴克莱|贝莱德|桥水|"
-                    r"汇丰|德意志银行|德银|野村|瑞穗|贝恩|麦肯锡|景林|高瓴|红杉|"
+                    r"汇丰|德意志银行|德银|野村|瑞穗|大和证券|三菱日联|渣打|星展|"
+                    r"法农信贷|法国巴黎银行|法巴|桑坦德|荷兰国际|道明证券|加拿大皇家银行|"
+                    r"蒙特利尔银行|澳新银行|西太平洋银行|麦格理|贝恩|麦肯锡|景林|高瓴|红杉|"
                     r"中金|中信证券|中信建投|国泰海通|国泰君安|华泰|申万宏源|兴业证券|广发|"
                     r"招商证券|光大证券|安信|天风|民生证券|东吴|浙商|国盛|开源证券|"
                     r"中银证券|国信证券|方正|华西|国金|财通|东兴|太平洋证券|"
-                    r"路透|彭博|彭博社|CNBC|金融时报|华尔街日报|经济学人)")
-                seen_t = set()
+                    r"惠誉|穆迪|标普全球|"
+                    r"路透|彭博|彭博社|CNBC|金融时报|华尔街日报|经济学人|日经)")
+                # 兜底：常见"机构名：观点"句式（如"法农信贷：英国央行偏鹰派……"）
+                generic_pat = re.compile(
+                    r"([\u4e00-\u9fa5A-Za-z]{2,10}(?:银行|证券|资管|基金|研究院|保险|期货))\s*[：:]")
+                seen_t, org_cnt = set(), {}
                 for n in news_pool:
                     blob = n.get("title", "") + " " + n.get("summary", "")
-                    mo = org_pat.search(blob)
+                    mo = org_pat.search(blob) or generic_pat.search(blob)
                     if not mo:
                         continue
                     key = n.get("title", "")[:14]
                     if key in seen_t:
                         continue
+                    org = mo.group(1)
+                    if org_cnt.get(org, 0) >= 2:      # 同一机构最多收录 2 条，保证观点多面
+                        continue
                     seen_t.add(key)
+                    org_cnt[org] = org_cnt.get(org, 0) + 1
                     picked.append({
                         "title": (n.get("title") or "")[:80],
-                        "org": mo.group(1),
+                        "org": org,
                         "rating": "",
                         "stock": "",
                         "industry": "",
@@ -1505,7 +1515,7 @@ def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None)
                         "url": n.get("url", ""),
                         "source": "机构观点",
                     })
-                    if len(picked) >= 6:
+                    if len(picked) >= 8:
                         break
                 log(f"OK   机构观点 {len(picked)} 条")
         except Exception as e:  # noqa: BLE001
