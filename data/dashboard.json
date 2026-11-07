@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-07 13:57:51 CST",
- "generated_at_iso": "2026-11-07T13:57:51+08:00",
+ "generated_at": "2026-11-07 14:05:57 CST",
+ "generated_at_iso": "2026-11-07T14:05:57+08:00",
  "date": "2026-11-07",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1157,8 +1157,8 @@
    {
     "name": "印度SENSEX",
     "sym": "BSESN",
-    "price": 81028.0234,
-    "change": 1718.02,
+    "price": 81028.02,
+    "change": 1718.01,
     "change_pct": 2.17,
     "hist": [
      73580.54,
@@ -1658,7 +1658,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1667,7 +1700,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1676,7 +1742,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1685,7 +1784,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1693,28 +1860,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 76030.3,
-    "change": 351.3,
-    "change_pct": 0.46,
-    "source": "okx"
+    "price": 76033.9,
+    "change": 442.4,
+    "change_pct": 0.59,
+    "source": "okx",
+    "hist": [
+     82872.4,
+     83057.6,
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     76035.1
+    ],
+    "sigma": 2.142
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2249.46,
-    "change": 24.47,
-    "change_pct": 1.1,
-    "source": "okx"
+    "price": 2248.09,
+    "change": 25.97,
+    "change_pct": 1.17,
+    "source": "okx",
+    "hist": [
+     2488.81,
+     2511.87,
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2247.93
+    ],
+    "sigma": 2.986
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
     "price": 90.3,
-    "change": 0.89,
-    "change_pct": 1.0,
-    "source": "okx"
+    "change": 0.94,
+    "change_pct": 1.05,
+    "source": "okx",
+    "hist": [
+     109.72,
+     110.49,
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     90.29
+    ],
+    "sigma": 2.878
    }
   ]
  },
@@ -1813,6 +2079,17 @@
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "突然，净空头持仓暴增24.6万手！美联储，加息生变？ - 金融界",
+   "summary": "",
+   "time": "2026-11-07 13:17",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52Y3Z0clJNbG1aaElpTnllMFdIME1BZG1RWGVZX0RJVmgxYlRCeWIyTGVxQ1c2R3FOckNsRVZoTXZYQ1B4MDUtSVNQMmI3ZnZNWEExUnE1RENLMlQ0aHJKa0JpZzJpRzlzcFJSQjlDQjJrT1Yw?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1821,17 +2098,17 @@
    "time": "2026-11-07 12:21",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wTlBBWnpjRWFjVzBLUG1XaFB0aFFGY2pYWXBtQ1dVWENKSjBZVmg3bmFZVEI4S2luM2U4b21uUXlpWDl2NVJCOXNPdzR2WU4ycGRXb2VBdHVuS2hTV3R6eFB5X21tUTh3YmJrQ2s1WEU?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
+   "mentions": 3
   },
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储12月大概率加息25个基点 概率近七成 - 中华网",
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "马斯克：Optimus机器人或只租不卖",
    "summary": "",
-   "time": "2026-11-07 11:10",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11SGhibHpSYlZYek1SNXBWTjNHNmNwNk5ibXVLWldBWW1MR3YyNWZ2NjdVTFdyYTVSNnF3NEZxN05BODhSZi1YOEk1cy10bGZMcjBNS19BTm9IS0tWaVJuTXFsY05DY2dqbHJCRHc5MXI?oc=5",
-   "source": "谷歌新闻·国际",
+   "time": "2026-11-07 05:46:17",
+   "url": "https://news.10jqka.com.cn/20261107/c681577226.shtml",
+   "source": "同花顺",
    "mentions": 1
   },
   {
@@ -1923,32 +2200,46 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-07 13:57",
+   "time": "2026-11-07 14:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "日经225、韩国KOSPI、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-07 13:57",
+   "time": "2026-11-07 14:07",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "印度SENSEX",
    "message": "印度SENSEX单日涨2.17%，达20日历史波动率的 2.0 倍（σ=1.07%，突破 2σ 警戒线）",
-   "time": "2026-11-07 13:57",
+   "time": "2026-11-07 14:07",
    "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
   },
   {
    "level": "warning",
    "asset": "台湾加权",
    "message": "台湾加权单日跌4.51%，达20日历史波动率的 2.7 倍（σ=1.67%，突破 2σ 警戒线）",
-   "time": "2026-11-07 13:57",
+   "time": "2026-11-07 14:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
+  {
+   "title": "2.2亿元！去进博会上帮消费者大采购 盒马签约12家海外品牌和IP",
+   "summary": "【2.2亿元！去进博会上帮消费者大采购 盒马签约12家海外品牌和IP】11月7日，在第九届中国国际进口博览会上，盒马与12个海外品牌、IP达成合作，签约总金额超2.2亿元。与以往不同的是，此次盒马不仅引入海外优质商品，更以“链接平台”身份，为英国V&A博物馆、丹麦安徒生博物馆、澳大利亚Bluey等海外IP与国内企业搭建起共创商品的合作桥梁。",
+   "time": "2026-11-07 13:58:00",
+   "url": "https://finance.eastmoney.com/a/202611073925494420.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "突然，净空头持仓暴增24.6万手！美联储，加息生变？ - 金融界",
+   "summary": "",
+   "time": "2026-11-07 13:17",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE52Y3Z0clJNbG1aaElpTnllMFdIME1BZG1RWGVZX0RJVmgxYlRCeWIyTGVxQ1c2R3FOckNsRVZoTXZYQ1B4MDUtSVNQMmI3ZnZNWEExUnE1RENLMlQ0aHJKa0JpZzJpRzlzcFJSQjlDQjJrT1Yw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
   {
    "title": "沙特领导的联军：拦截了瞄准利雅得的导弹。",
    "summary": "沙特领导的联军：拦截了瞄准利雅得的导弹。",
@@ -1957,32 +2248,25 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "603595，被港股芯片公司斥资4亿元举牌",
-   "summary": "【603595，被港股芯片公司斥资4亿元举牌】ST东尼(603595)11月6日晚间披露，公司控股股东兼实际控制人沈新芳与广东天域半导体股份有限公司签署《股份转让协议》，拟以24.59元/股向天域半导体转让1627.0963万股ST东尼股份，占公司总股本的7%，转让总价款（含税）为4.001亿元。交易完成后，ST东尼控制权不变，天域半导体将成为持股7%的重要股东，触及举牌披露线。",
-   "time": "2026-11-07 13:04:00",
-   "url": "https://finance.eastmoney.com/a/202611073925487686.html",
-   "source": "东财国际"
+   "title": "星展集团控股被下调评级至持有？ - Moomoo",
+   "summary": "",
+   "time": "2026-11-07 11:37",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVDZFZHdwSzJxVFNKcWtKUW5zWGhGQk5TYWM3b2RQak1jd3FGM3BHb2d5Qm9XdllxRGNNWGNwbko5VC0tSzJhT0xCQTcxdGo4YzM1aFFKWGJraEN1RWowZk9TUF9EX3R3NkxkbTdjOVY3T1FLNS1ZOXZfOTFSQkJHZzlMcWJMX29n?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普宣布椭圆办公室为国家纪念物 - 手机新浪网",
+   "title": "韩股下跌 韩国散户狂买美股 5日净买入规模超8月全月",
    "summary": "",
-   "time": "2026-11-07 12:21",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wTlBBWnpjRWFjVzBLUG1XaFB0aFFGY2pYWXBtQ1dVWENKSjBZVmg3bmFZVEI4S2luM2U4b21uUXlpWDl2NVJCOXNPdzR2WU4ycGRXb2VBdHVuS2hTV3R6eFB5X21tUTh3YmJrQ2s1WEU?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "法农信贷：英国央行偏鹰派立场支撑英镑，但进一步走强空间受限",
-   "summary": "",
-   "time": "2026-11-07 04:56:01",
-   "url": "https://news.futunn.com/flash/1003788617/cr-dit-agricole-the-bank-of-england-s-hawkish-stance",
-   "source": "富途"
-  },
-  {
-   "title": "民主党能源叙事重心转向电价 新能源与天然气并行推进",
-   "summary": "",
-   "time": "2026-11-07 04:52:24",
-   "url": "https://news.10jqka.com.cn/20261107/c681577047.shtml",
+   "time": "2026-11-07 06:03:38",
+   "url": "https://news.10jqka.com.cn/20261107/c681577272.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "中期选举失利后，特朗普加速推进华盛顿建筑计划",
+   "summary": "",
+   "time": "2026-11-07 05:47:10",
+   "url": "https://news.futunn.com/flash/1003790784/trump-accelerates-washington-construction-plans-after-midterm-election-loss",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月6日周五",
@@ -1999,6 +2283,20 @@
    "source": "财新"
   },
   {
+   "title": "国内首个科技法学院在雄安新区成立",
+   "summary": "【国内首个科技法学院在雄安新区成立】今天（11月7日），国内首个科技法学院——北京科技大学科技法学院在雄安新区成立。学院内设知识产权、科技法、科技政策、法学基础4个教学科研机构，与研究生招生分步推进。初期设置工法复合知识产权本科专业，专业硕士培养也将逐步布局雄安。",
+   "time": "2026-11-07 13:47:59",
+   "url": "https://finance.eastmoney.com/a/202611073925493875.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美国10月非农录得16.5万人远超预期 美联储12月加息押注升至近八成 - 东方财富",
+   "summary": "",
+   "time": "2026-11-07 13:16",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xWjVWd05jX2EwQV85Z2JLRmxkRTRsa3NYOWMtR3VyRU5BbEZlZzZHdFQxVkRKUTM2RlEzenplMkhwWXF6VklJVllOXzdHUFc4cElsS3dVdVFBX1pjbUxUZ3RYTmRlZw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
    "title": "太古可口可乐中国发布“致胜2035”十年战略",
    "summary": "11月6日，太古可口可乐中国在第九届进博会上发布面向中国市场的“致胜2035”十年战略，以“创新行稳”为核心主张，围绕消费者驱动、以客户为中心、以人为本、扎根社区四大举措布局未来十年。太古可口可乐大中华区首席执行官金忆表示，公司在中国市场跑通的有效做法，未来均有机会为中国饮料行业提供借鉴样本。",
    "time": "2026-11-07 12:35",
@@ -2006,32 +2304,25 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "科创板AI企业加快构建“国模国芯”自主生态",
-   "summary": "【科创板AI企业加快构建“国模国芯”自主生态】随着全球科技供应链格局调整，AI核心技术自主可控已成为国家战略方向。当前，国产算力芯片企业营收快速增长，部分新一代大模型发布当日即完成国产芯片适配，相关产品在智算集群、政企算力等场景加快应用……近期披露的三季报和企业业务进展显示，科创板AI企业正加快推动国产芯片与国产大模型协同发展，“国模国芯”自主生态的技术适配能力和商业化应用水平持续提升。",
-   "time": "2026-11-07 12:49:27",
-   "url": "https://finance.eastmoney.com/a/202611073925487489.html",
-   "source": "东财国际"
+   "title": "6股获买入评级 最新:华丰科技 - 中财网",
+   "summary": "",
+   "time": "2026-11-07 10:36",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1RDZZZXFLOE9aQ0dpTDFsNVA0N0YzQnR4dUx2aXluNTV1VV9nWm5hTDcyMW1mV3FuSVN4LTlLcDNfNFpTcWxGWkxYVHdqNjBrVklVY2dR?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "道指下跌1833点特朗普将美股暴跌归咎于民主党 - 手机新浪网",
+   "title": "马斯克：Optimus机器人或只租不卖",
    "summary": "",
-   "time": "2026-11-07 11:25",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMHJ6LVRjVFNydEFWSzd2TDloTDl3Um1Qd2RHaWozWEFuVFN0cU1QTVZpWV9lUzhvLXhqMDRxb2pHeWcxd3JBU19SY3FnN0lDZW4xN3hoQ25VNXk4amRiVUdpSjc0R0ZjbFU1TzlqRFN1aWEwb1kxRmxRMGJMR2RKYnNjb2s?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "法农信贷：加元仍受经济疲软拖累，就业数据或决定下一步方向",
-   "summary": "",
-   "time": "2026-11-07 04:12:41",
-   "url": "https://news.futunn.com/flash/1003786971/cr-dit-agricole-canadian-dollar-still-weighed-down-by-economic",
-   "source": "富途"
-  },
-  {
-   "title": "沃伦将执掌美国参议院银行委员会 华尔街迎来强硬监管者",
-   "summary": "",
-   "time": "2026-11-07 04:27:04",
-   "url": "https://news.10jqka.com.cn/20261107/c681576967.shtml",
+   "time": "2026-11-07 05:46:17",
+   "url": "https://news.10jqka.com.cn/20261107/c681577226.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "英媒：英国正筹备2027年接待泽连斯基进行国事访问",
+   "summary": "",
+   "time": "2026-11-07 05:14:34",
+   "url": "https://news.futunn.com/flash/1003789462/uk-media-britain-preparing-to-host-zelenskyy-for-state-visit",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月5日周四",
@@ -2048,6 +2339,20 @@
    "source": "财新"
   },
   {
+   "title": "美国今年麻疹确诊超5000例 多州报告死亡病例",
+   "summary": "【美国今年麻疹确诊超5000例 多州报告死亡病例】美国疾病控制和预防中心6日公布的最新数据显示，截至5日，美国今年已累计报告5182例麻疹确诊病例，波及美国47个州和地区，且病例数仍在持续增加。据美国媒体报道，美国已连续13周每周新增麻疹病例超过100例。",
+   "time": "2026-11-07 13:35:42",
+   "url": "https://finance.eastmoney.com/a/202611073925492274.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普宣布椭圆办公室为国家纪念物 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-07 12:21",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0wTlBBWnpjRWFjVzBLUG1XaFB0aFFGY2pYWXBtQ1dVWENKSjBZVmg3bmFZVEI4S2luM2U4b21uUXlpWDl2NVJCOXNPdzR2WU4ycGRXb2VBdHVuS2hTV3R6eFB5X21tUTh3YmJrQ2s1WEU?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
    "title": "前三季度广告业头部企事业单位收入同比增长8.5%",
    "summary": "据市说新语公众号，数据显示，前三季度全国从事广告业务的头部企事业单位共实现收入16008.3亿元，同比增长8.5%。前三季度，互联网广告收入9568.9亿元，同比增长17.5%，其中，移动互联网广告发布收入8125亿元，同比增长14%，广告业数智化转型加速推进。主流媒体广告业务平稳增长，积极发挥品牌传播重要作用，以电视台为代表的事业单位广告业务收入345.7亿元，同比增长3.3%。",
    "time": "2026-11-07 11:28",
@@ -2055,32 +2360,25 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "智能体终端准入新规落地 端侧AI迈入全链条合规时代",
-   "summary": "【智能体终端准入新规落地 端侧AI迈入全链条合规时代】工业和信息化部近日发布《关于加强智能体终端设备进网管理的通知》，首次将预置智能体的手机、平板、可穿戴设备等终端，纳入标准化、体系化的电信设备进网监管范畴。新规补齐终端AI监管空白，围绕适配验证、进网检测、现网升级、分发管理四大核心环节，搭建起智能体终端从上市准入到日常运行的全链条治理体系。",
-   "time": "2026-11-07 12:39:20",
-   "url": "https://finance.eastmoney.com/a/202611073925481932.html",
-   "source": "东财国际"
+   "title": "东海证券：给予邮储银行增持评级_券商研报_数据解析 - 证券之星",
+   "summary": "",
+   "time": "2026-11-07 10:07",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1URWhMeEgtMGVjV0EzUGNIWXUzcGhXNWZ0dXk2NWYzTlh4RmNONnBqaUVvaUdocENxem1yWDBJMUdBNVB6djdHOGp4eFhTdUlfeHFNdzQxSGR4endiYjRRNTNn?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储12月大概率加息25个基点 概率近七成 - 中华网",
+   "title": "2026全国“丝路云品”电商月在上海启动",
    "summary": "",
-   "time": "2026-11-07 11:10",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11SGhibHpSYlZYek1SNXBWTjNHNmNwNk5ibXVLWldBWW1MR3YyNWZ2NjdVTFdyYTVSNnF3NEZxN05BODhSZi1YOEk1cy10bGZMcjBNS19BTm9IS0tWaVJuTXFsY05DY2dqbHJCRHc5MXI?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "美参议员桑德斯呼吁民主党在新一届国会削减对伊战争拨款",
-   "summary": "",
-   "time": "2026-11-07 03:44:59",
-   "url": "https://news.futunn.com/flash/1003785187/us-senator-sanders-calls-on-democrats-to-cut-funding-for",
-   "source": "富途"
-  },
-  {
-   "title": "央行连续24个月增持黄金 专家：持续增持有助于增强国际储备多元化程度",
-   "summary": "",
-   "time": "2026-11-07 04:22:05",
-   "url": "https://news.10jqka.com.cn/20261107/c681576956.shtml",
+   "time": "2026-11-07 05:22:27",
+   "url": "https://news.10jqka.com.cn/20261107/c681577134.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "法农信贷：英国央行偏鹰派立场支撑英镑，但进一步走强空间受限",
+   "summary": "",
+   "time": "2026-11-07 04:56:01",
+   "url": "https://news.futunn.com/flash/1003788617/cr-dit-agricole-the-bank-of-england-s-hawkish-stance",
+   "source": "富途"
   },
   {
    "title": "【本文系数据通用户提前专享】现阶段工业机器人无法做到的事，人形机器人也解决不了",
@@ -2090,32 +2388,11 @@
    "source": "财新"
   },
   {
-   "title": "卡塔尔首相：调解努力仍在继续，以防止局势失控。即便在中期选举之后，美国政府仍愿意寻求解决方案。（半岛电视台）",
-   "summary": "卡塔尔首相：调解努力仍在继续，以防止局势失控。即便在中期选举之后，美国政府仍愿意寻求解决方案。（半岛电视台）",
-   "time": "2026-11-07 11:13",
-   "url": "https://wallstreetcn.com/livenews/3196343",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "上海交易团国资分团第九届进博会已达成意向采购金额28.62亿美元",
-   "summary": "【上海交易团国资分团第九届进博会已达成意向采购金额28.62亿美元】11月7日，证券时报记者从第九届进博会上海交易团国资分团集中签约仪式上获悉，截至目前，上海交易团国资分团在大宗商品、医疗器械、农食产品等领域已达成意向采购订单137笔，意向采购金额28.62亿美元，同比增长3.1%。",
-   "time": "2026-11-07 12:38:00",
-   "url": "https://finance.eastmoney.com/a/202611073925486463.html",
+   "title": "意总理：黑客攻击等事件凸显安全投入必要性",
+   "summary": "【意总理：黑客攻击等事件凸显安全投入必要性】意大利总理梅洛尼6日表示，近期欧洲多地发生的黑客攻击事件令人担忧，这与欧洲多架客机近日收到炸弹威胁等事件一起凸显安全投入的必要性。",
+   "time": "2026-11-07 13:33:41",
+   "url": "https://finance.eastmoney.com/a/202611073925491860.html",
    "source": "东财国际"
-  },
-  {
-   "title": "特朗普单方面宣布把太空开放给美国移民 - 凤凰网",
-   "summary": "",
-   "time": "2026-11-07 11:05",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9pYTc2a2dTTzNJTE9FZUFQODRsYVlMMnZGS2ZXU3UwS21Ud3ZLQXJMUGJ2a0hRdTVXaWhlREtpTlN1QWNScTE2aEdGd1M?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "财政扩张遇上货币收紧，加拿大政策组合引发分歧",
-   "summary": "",
-   "time": "2026-11-07 03:36:48",
-   "url": "https://news.futunn.com/flash/1003784781/fiscal-expansion-meets-monetary-tightening-canada-s-policy-mix-sparks",
-   "source": "富途"
   }
  ],
  "news_meta": {
@@ -2127,16 +2404,18 @@
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "ok(30)"
+   "谷歌新闻·国际": "ok(30)",
+   "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 8,
-   "东财国际": 8,
-   "谷歌新闻·国际": 8,
-   "富途": 8,
-   "同花顺": 7,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·研报": 7,
+   "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
-   "财新": 7
+   "财新": 6
   }
  },
  "wuxing": {
