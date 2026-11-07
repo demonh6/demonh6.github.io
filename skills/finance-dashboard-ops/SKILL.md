@@ -60,14 +60,17 @@ warnings.filterwarnings('ignore')
    必需参数会在 Actions 上炸 TypeError（akshare 函数自带默认参所以平时看不出来）。
 2. 多源新闻聚合必须**按源轮询**取条目（每源最新条优先）——纯时间排序会让高频源霸屏、
    早报类（清晨发布）全部沉底被挤出。
-3. **GitHub 调度平台限制（重要）**：
+3. **GitHub 调度平台限制（全部实测，重要）**：
    - 分钟级 schedule（*/10）被静默丢弃（连续数小时零触发），整点 schedule 也常被跳过；
    - GITHUB_TOKEN 的 push **永远不会**触发新 workflow run（官方防递归，硬限制）；
-   - rerun 一个"运行中"的 run 报 403 already running（rerun 只能针对空闲/已完成 run）。
-   解法：**A/B 双工作流交替接力**——update-dashboard.yml 与 update-beat.yml 互相 rerun
-   对方的最近 run（gh run list 拿 run_id → gh api POST .../runs/{id}/rerun），
-   每环 sleep 480s 后接力，数据点间隔 ≈10 分钟；A/B 的 concurrency 组必须不同。
-   链条断点由 schedule/人工 push 兜底。
+   - rerun 同一 run 约 50 次后失效（日志 "No jobs were run"，并产生 Attempt #N 邮件噪音），
+     且 rerun "运行中"的 run 报 403 already running；
+   - GITHUB_TOKEN 调用 workflow_dispatch 403；workflow_run 监听 GITHUB_TOKEN 链（pages build）
+     同样被防递归拦截，不触发。
+   **现行解法**：接力步骤用 **secrets.DASH_PAT（用户 PAT）推送节拍提交**（.github/.beat 时间戳）
+   触发下一轮全新 run——PAT 触发的事件不受防递归限制，且每拍新 run 无 attempt 累积、无邮件。
+   未配置 PAT 时优雅降级为 schedule 兜底（数小时一拍）。
+   旧方案（A/B 双工作流互相 rerun）因 attempt 上限已弃用。
 4. 分级降频：脚本 main() 按分钟窗口跳过低频模块（t2=30min 东财全球指数/美债/恐惧贪婪/新闻、
    t3=60min akshare 日线批量/研报、t4=2h 微信精读），未到期模块从上一轮 dashboard.json
    合并继承（_merge_market_group 保留 hist/sigma/量能等派生字段，实时价用新数据）。
