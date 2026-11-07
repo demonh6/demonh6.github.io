@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-07 17:53:03 CST",
- "generated_at_iso": "2026-11-07T17:53:03+08:00",
+ "generated_at": "2026-11-07 18:01:14 CST",
+ "generated_at_iso": "2026-11-07T18:01:14+08:00",
  "date": "2026-11-07",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1037,10 +1037,10 @@
      63954.19,
      64659.47,
      63290.11,
-     63081.8594,
-     62188.6289,
-     61077.8984,
-     57434.7695
+     63081.86,
+     62188.63,
+     61077.9,
+     57434.77
     ],
     "sigma": 1.922,
     "volume": 314400000.0,
@@ -1395,7 +1395,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1404,7 +1437,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1413,7 +1479,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1422,7 +1521,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 76073.3,
-    "change": 1.8,
-    "change_pct": 0.0,
-    "source": "okx"
+    "price": 76053.5,
+    "change": -167.0,
+    "change_pct": -0.22,
+    "source": "okx",
+    "hist": [
+     82872.4,
+     83057.6,
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     76051.2
+    ],
+    "sigma": 2.142
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2245.87,
-    "change": 8.9,
-    "change_pct": 0.4,
-    "source": "okx"
+    "price": 2245.64,
+    "change": 5.23,
+    "change_pct": 0.23,
+    "source": "okx",
+    "hist": [
+     2488.81,
+     2511.87,
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2245.6
+    ],
+    "sigma": 2.985
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 90.04,
-    "change": 0.03,
-    "change_pct": 0.03,
-    "source": "okx"
+    "price": 90.13,
+    "change": -0.04,
+    "change_pct": -0.04,
+    "source": "okx",
+    "hist": [
+     109.72,
+     110.49,
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     90.09
+    ],
+    "sigma": 2.878
    }
   ]
  },
@@ -1550,13 +1816,24 @@
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "一张表看懂！华尔街“彻底信了”：美联储本周加息 - 财联社",
+   "summary": "",
+   "time": "2026-11-07 17:00",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwcWs3b3ppTWlqZWdHRDRMbkJUeEtkeTN1bXFuLVhLMjY1MUxwdE9RWkJiWGE3bk5QWHVRZkE0UVNoUFlUZERhRw?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普任命斯蒂芬·米勒为白宫办公厅主任 - 新华网",
+   "title": "特朗普称美对伊朗实施“小型打击” 摧毁防空装置 - 中华网",
    "summary": "",
-   "time": "2026-11-07 15:08",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYUlESTRZN3c1MVlON0hobWc1Q0JmMXJBOWlVb2Vvc3JpZkZTNlNUWFZYNlVkSGdlSUlRYzJsNThQUmNQdUNCWmFXV1JjSUdfelV6cE5qMW0yWUlTLW9SbWc1dVFQRDBTNG5pc2h2cUFEXzZfOFhTbHpPekNnd0thN0YtTWt4QQ?oc=5",
+   "time": "2026-11-07 16:55",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54TldINHB2UmxIQ3FoWGpNbU84aXRGUUNtOURnVzJmM0czdXpXLWxHU0d1ZGpzQnBTUWYtNGdBZ0pucnhabUxSd21TOFg3Umd0d1hXMzNZTWtpVWhfZGQ4bEs4V1ViRUp5VlRJY3FpWnA?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
   },
@@ -1569,6 +1846,17 @@
    "time": "2026-11-07 15:08",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYUlESTRZN3c1MVlON0hobWc1Q0JmMXJBOWlVb2Vvc3JpZkZTNlNUWFZYNlVkSGdlSUlRYzJsNThQUmNQdUNCWmFXV1JjSUdfelV6cE5qMW0yWUlTLW9SbWc1dVFQRDBTNG5pc2h2cUFEXzZfOFhTbHpPekNnd0thN0YtTWt4QQ?oc=5",
    "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行行长候选人：需警惕通胀风险",
+   "summary": "",
+   "time": "2026-11-07 09:37:19",
+   "url": "https://news.futunn.com/flash/1003799322/ecb-presidential-candidate-vigilance-needed-against-inflation-risks",
+   "source": "富途",
    "mentions": 1
   },
   {
@@ -1655,13 +1943,23 @@
   ],
   "reports": [
    {
-    "title": "开源证券：给予纳科诺尔增持评级_券商研报_数据解析 - 证券之星",
+    "title": "美媒爆：美政府考虑以“涉恐”为由暂停部分非营利组织免税资格",
+    "org": "华尔街日报",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-07",
+    "url": "https://wallstreetcn.com/livenews/3196401",
+    "source": "机构观点"
+   },
+   {
+    "title": "开源证券：给予能之光增持评级_券商研报_数据解析 - 证券之星",
     "org": "开源证券",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-07",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aUFViUkQ5Qi1ER3UxY3Nacy1acTZLWVl5T3F4ZVhON0RHMFNBM1U3dkhuWlR4V1MtajhOdHJlSXFoNUhqdEN6QXhWT3REclY1dUZKbG9RMUU3ek82TThIemFR?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zb2ttU3Q1RVRfSEJqZjlXRlhlRkMyQnhIdTBUb2Vmc19TUm92ZGhESmxHNjMzWFpjVkc5VFNSUFFoaTNrOFg1RHQ0cF85c0ZHcFRqT1llNmlxcGZZODIzVmFn?oc=5",
     "source": "机构观点"
    }
   ]
@@ -1671,30 +1969,30 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-07 17:53",
+   "time": "2026-11-07 18:02",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "平均成功率91%！苹果研究团队披露机器人“大脑”进展：调用千问模型在宇树G1上验证",
-   "summary": "当地时间11月4日，苹果研究团队在预印本平台arXiv提交论文《Perceptive Humanoid Motion from Simulation》，披露了人形机器人自主控制系统HALO。研究团队将该系统部署在宇树科技的G1人形机器人上进行验证，让机器人将在仿真环境中学到的动作，带到陌生的现实房间中执行。",
-   "time": "2026-11-07 17:24",
-   "url": "https://wallstreetcn.com/livenews/3196396",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "苹果研究团队披露机器人“大脑”进展 单项任务测试平均成功率为91%",
-   "summary": "【苹果研究团队披露机器人“大脑”进展 单项任务测试平均成功率为91%】苹果研究团队披露机器人“大脑”研究进展。当地时间11月4日，苹果研究团队在预印本平台arXiv提交论文《Perceptive Humanoid Motion from Simulation》，披露了人形机器人自主控制系统HALO。研究团队还公开了数据生成、模型训练和部署代码，涵盖动作生成、动作跟踪、任务编排以及仿真和真实机器人运行等环节。",
-   "time": "2026-11-07 17:23:57",
-   "url": "https://finance.eastmoney.com/a/202611073925516190.html",
+   "title": "欧洲航天局：一国际研究小组在火星发现火山活动迹象",
+   "summary": "【欧洲航天局：一国际研究小组在火星发现火山活动迹象】欧洲航天局日前宣布，一个国际研究小组利用火星微量气体任务卫星发现，在火星阿尔巴山地区存在异常的氯化氢气体分布及地表裂隙。这表明，火星内部可能仍保留着支持火山活动的热量。",
+   "time": "2026-11-07 17:58:25",
+   "url": "https://finance.eastmoney.com/a/202611073925519559.html",
    "source": "东财国际"
   },
   {
-   "title": "知情人士：万斯直接介入 美伊谈判“提级” - 新浪财经_金融信息服务商",
+   "title": "第七届世界媒体峰会先导片《AI赋能，共赴新程》正式发布",
+   "summary": "第七届世界媒体峰会先导片《AI赋能，共赴新程》11月7日正式发布。影片融合实景拍摄、历史影像与AIGC生成画面，以人工智能时代媒体发展与全球媒体合作为切入点，围绕“技术如何改变媒体、媒体如何坚守新闻本质、全球媒体如何携手应对新时代挑战”展开表达。影片将新华社建社95周年、第七届世界媒体峰会与人工智能时代媒体的新使命融为一体，展现全球媒体携手应对技术变革、共同守护新闻价值、共同开创未来的愿景。（新华",
+   "time": "2026-11-07 17:57",
+   "url": "https://wallstreetcn.com/livenews/3196402",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "一张表看懂！华尔街“彻底信了”：美联储本周加息 - 财联社",
    "summary": "",
-   "time": "2026-11-07 17:02",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcld4T29wbjNaTE1ranJTSG9kaW9GTmsxeWl0VEktYXd0VjNtajJKMEp0SGszaTkxckpWd1Q1UGhSemI5b2FkX3BwY2JYUjZEcXRmWFUyck53RnpFdl9wVXA0Y1lCQjFLeTd5dDFzREJfVHhzSDRnVFExb2F3T0s1Z3JvSEE4YThlMkVv?oc=5",
+   "time": "2026-11-07 17:00",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwcWs3b3ppTWlqZWdHRDRMbkJUeEtkeTN1bXFuLVhLMjY1MUxwdE9RWkJiWGE3bk5QWHVRZkE0UVNoUFlUZERhRw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1705,18 +2003,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "山西发布暴雪黄色预警",
+   "title": "以媒爆料：内塔尼亚胡曾谋划选举前对伊发起秘密行动，因美国意外获悉消息而失败",
    "summary": "",
-   "time": "2026-11-07 09:35:43",
-   "url": "https://news.10jqka.com.cn/20261107/c681578045.shtml",
-   "source": "同花顺"
+   "time": "2026-11-07 09:53:44",
+   "url": "https://news.futunn.com/flash/1003799862/israeli-media-reports-netanyahu-plotted-a-covert-operation-against-iran",
+   "source": "富途"
   },
   {
-   "title": "中奥企业家委员会首次会议在京举行",
+   "title": "第七届世界媒体峰会在北京举办 李书磊出席开幕式并发表主旨演讲",
    "summary": "",
-   "time": "2026-11-07 09:33:41",
-   "url": "https://news.futunn.com/flash/1003799261/inaugural-meeting-of-the-china-austria-business-council-held-in",
-   "source": "富途"
+   "time": "2026-11-07 08:34:09",
+   "url": "https://news.10jqka.com.cn/20261107/c681577751.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月6日周五",
@@ -1733,24 +2031,24 @@
    "source": "财新"
   },
   {
-   "title": "SK集团携全栈解决方案亮相进博会",
-   "summary": "在第九届进博会上，SK集团携旗下SK海力士、SK电讯等成员公司，集中展示覆盖AI硬件与软件的全栈解决方案，展现面向未来的AI技术愿景。\n\n其中，SK海力士在展会上集中呈现了覆盖AI数据中心到PC、移动终端的全场景面向AI的存储器解决方案。",
-   "time": "2026-11-07 17:00",
-   "url": "https://wallstreetcn.com/livenews/3196391",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "美军悬赏最高2000万美元 征集伊朗核计划情报",
-   "summary": "【美军悬赏最高2000万美元 征集伊朗核计划情报】美军中央司令部6日发布信息，悬赏最高2000万美元征集伊朗核计划情报。美军中央司令部在社交媒体上发布帖文写道，美方“悬赏最高2000万美元，并提供可能的搬迁安置，征集有关伊朗核计划的信息，包括其设施、设备及相关人员（例如科学界人士）或上述任何对象动向的情报”。",
-   "time": "2026-11-07 17:14:10",
-   "url": "https://finance.eastmoney.com/a/202611073925515285.html",
+   "title": "胡塞武装称沙特空袭也门致多人伤亡 沙特主导联军称拦截导弹",
+   "summary": "【胡塞武装称沙特空袭也门致多人伤亡 沙特主导联军称拦截导弹】也门胡塞武装方面当地时间7日表示，沙特主导的联军当天对也门首都萨那以东的巴尼哈希什地区发动空袭，造成多人伤亡。沙特主导的联军发言人图尔基·马利基7日表示，胡塞武装向利雅得地区发射的一枚巡航导弹已被拦截并摧毁。",
+   "time": "2026-11-07 17:45:56",
+   "url": "https://finance.eastmoney.com/a/202611073925517894.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普任命斯蒂芬·米勒为白宫办公厅主任 - 新华网",
+   "title": "美媒爆：美政府考虑以“涉恐”为由暂停部分非营利组织免税资格",
+   "summary": "据美国《华尔街日报》当地时间6日援引知情人士消息披露，美政府正在考虑发布一项行政令，将部分非营利组织认定为与恐怖主义存在关联，此举将立即暂停其免税资格，并可能严重削弱相关组织的运作能力。",
+   "time": "2026-11-07 17:52",
+   "url": "https://wallstreetcn.com/livenews/3196401",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普称美对伊朗实施“小型打击” 摧毁防空装置 - 中华网",
    "summary": "",
-   "time": "2026-11-07 15:08",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYUlESTRZN3c1MVlON0hobWc1Q0JmMXJBOWlVb2Vvc3JpZkZTNlNUWFZYNlVkSGdlSUlRYzJsNThQUmNQdUNCWmFXV1JjSUdfelV6cE5qMW0yWUlTLW9SbWc1dVFQRDBTNG5pc2h2cUFEXzZfOFhTbHpPekNnd0thN0YtTWt4QQ?oc=5",
+   "time": "2026-11-07 16:55",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54TldINHB2UmxIQ3FoWGpNbU84aXRGUUNtOURnVzJmM0czdXpXLWxHU0d1ZGpzQnBTUWYtNGdBZ0pucnhabUxSd21TOFg3Umd0d1hXMzNZTWtpVWhfZGQ4bEs4V1ViRUp5VlRJY3FpWnA?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1761,18 +2059,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "以媒爆料：内塔尼亚胡曾谋划选举前对伊发起秘密行动，因美国意外获悉消息而失败",
+   "title": "欧洲央行行长候选人：需警惕通胀风险",
    "summary": "",
-   "time": "2026-11-07 09:33:40",
-   "url": "https://news.10jqka.com.cn/20261107/c681578033.shtml",
-   "source": "同花顺"
+   "time": "2026-11-07 09:37:19",
+   "url": "https://news.futunn.com/flash/1003799322/ecb-presidential-candidate-vigilance-needed-against-inflation-risks",
+   "source": "富途"
   },
   {
-   "title": "选举失利引发离职潮？美司法部高官接连辞职",
+   "title": "美国多名国会议员称将推动撤销不合理关税政策",
    "summary": "",
-   "time": "2026-11-07 09:06:00",
-   "url": "https://news.futunn.com/flash/1003798427/election-defeat-triggers-wave-of-resignations-senior-doj-officials-step",
-   "source": "富途"
+   "time": "2026-11-07 08:04:09",
+   "url": "https://news.10jqka.com.cn/20261107/c681577646.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月5日周四",
@@ -1789,24 +2087,24 @@
    "source": "财新"
   },
   {
-   "title": "伊朗伊斯兰革命卫队称提升导弹射程的工作仍在继续",
-   "summary": "据伊朗半官方的法尔斯通讯社报道，伊朗伊斯兰革命卫队一名发言人表示，伊朗继续致力于提升导弹射程，没有停止这项工作的计划。  重申如果伊朗的“敌人”犯错，伊朗的回应将更加“猛烈”。如果伊朗决定重新审视核政策，将做好必要的准备工作。",
-   "time": "2026-11-07 16:28",
-   "url": "https://wallstreetcn.com/livenews/3196383",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "胡塞武装称也门遭沙特主导的联军空袭致多人伤亡",
-   "summary": "【胡塞武装称也门遭沙特主导的联军空袭致多人伤亡】也门胡塞武装方面当地时间7日表示，沙特主导的联军当天对也门首都萨那以东的巴尼哈希什地区发动空袭，造成多人伤亡。目前联军方面暂无回应。",
-   "time": "2026-11-07 17:12:59",
-   "url": "https://finance.eastmoney.com/a/202611073925515198.html",
+   "title": "浙江镜岭水库关键输水隧洞建设突破万米",
+   "summary": "【浙江镜岭水库关键输水隧洞建设突破万米】记者7日从中铁十八局集团有限公司获悉，国家重点水利工程浙江镜岭水库关键输水隧洞建设取得新突破，应用于这一工程的“镜岭2号”全断面隧道掘进机（TBM）顺利掘进突破万米大关，实现在“长距离、极硬岩、多断层”复杂地质条件下顺利推进隧洞施工。",
+   "time": "2026-11-07 17:43:56",
+   "url": "https://finance.eastmoney.com/a/202611073925517620.html",
    "source": "东财国际"
   },
   {
-   "title": "美国中期选举日！特朗普最后挣扎无果，府院之争即将开场 - 手机新浪网",
+   "title": "联合国开发署署长：设立上海中心的目标是“分享中国发展的成功经验”",
+   "summary": "在全球发展面临多重挑战、联合国2030年可持续发展议程进入关键阶段之际，中国与联合国开发计划署（UNDP）的合作迎来新进展。",
+   "time": "2026-11-07 17:47",
+   "url": "https://wallstreetcn.com/livenews/3196400",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普任命斯蒂芬·米勒为白宫办公厅主任 - 新华网",
    "summary": "",
-   "time": "2026-11-07 14:53",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oSHNjcVFSZXBqNlo3SzZad2FpaFBuMmN4MGFNQmw1WGtoTFNuTUpuZjliNEZFUlU4S25VUlBRcjVXQnIwYThiUWJ2Wi00RzlJbm51RzFRYWNZRVdIWXZPdnBFZmRqV3hzNDJfTkpLZzZuQQ?oc=5",
+   "time": "2026-11-07 15:08",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYUlESTRZN3c1MVlON0hobWc1Q0JmMXJBOWlVb2Vvc3JpZkZTNlNUWFZYNlVkSGdlSUlRYzJsNThQUmNQdUNCWmFXV1JjSUdfelV6cE5qMW0yWUlTLW9SbWc1dVFQRDBTNG5pc2h2cUFEXzZfOFhTbHpPekNnd0thN0YtTWt4QQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1817,17 +2115,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "第七届世界媒体峰会在北京举办 李书磊出席开幕式并发表主旨演讲",
+   "title": "选举失利引发离职潮？美司法部高官接连辞职",
    "summary": "",
-   "time": "2026-11-07 08:34:09",
-   "url": "https://news.10jqka.com.cn/20261107/c681577751.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "我国自主研制的新型模块化“移动暖屋”将登陆南极",
-   "summary": "",
-   "time": "2026-11-07 08:51:46",
-   "url": "https://news.futunn.com/flash/1003797949/china-s-independently-developed-new-modular-mobile-warm-house-set",
+   "time": "2026-11-07 09:06:00",
+   "url": "https://news.futunn.com/flash/1003798427/election-defeat-triggers-wave-of-resignations-senior-doj-officials-step",
    "source": "富途"
   },
   {
@@ -1838,10 +2129,17 @@
    "source": "财新"
   },
   {
-   "title": "伊朗伊斯兰革命卫队称昨晚在霍尔木兹海峡向美军开火",
-   "summary": "据伊朗半官方的伊朗学生通讯社(ISNA)报道，伊朗伊斯兰革命卫队称，昨晚在霍尔木兹海峡向美军“开火”。防空部队还在霍尔木兹海峡对一架美军飞机进行了攻击。听到的大部分爆炸声与防空火力有关。",
-   "time": "2026-11-07 16:07",
-   "url": "https://wallstreetcn.com/livenews/3196381",
+   "title": "山西发布暴雪黄色预警",
+   "summary": "【山西发布暴雪黄色预警】山西省气象台2026年11月7日16时2分升级发布暴雪黄色预警。预警区域：大同市东部、朔州市东部、忻州市、吕梁市北部、太原市北部、阳泉市北部。预计未来12小时预警区域降雪量将达6毫米以上。请有关单位和人员做好防范准备。",
+   "time": "2026-11-07 17:34:06",
+   "url": "https://finance.eastmoney.com/a/202611073925517273.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "平均成功率91%！苹果研究团队披露机器人“大脑”进展：调用千问模型在宇树G1上验证",
+   "summary": "当地时间11月4日，苹果研究团队在预印本平台arXiv提交论文《Perceptive Humanoid Motion from Simulation》，披露了人形机器人自主控制系统HALO。研究团队将该系统部署在宇树科技的G1人形机器人上进行验证，让机器人将在仿真环境中学到的动作，带到陌生的现实房间中执行。",
+   "time": "2026-11-07 17:24",
+   "url": "https://wallstreetcn.com/livenews/3196396",
    "source": "华尔街见闻"
   }
  ],
@@ -1858,12 +2156,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "东财国际": 7,
+   "东财国际": 8,
+   "华尔街见闻": 8,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 4,
    "富途": 7,
+   "同花顺": 2,
    "东财早报": 2,
    "财新": 7
   }
