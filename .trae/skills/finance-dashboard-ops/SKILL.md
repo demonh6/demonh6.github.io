@@ -67,8 +67,9 @@ warnings.filterwarnings('ignore')
      且 rerun "运行中"的 run 报 403 already running；
    - GITHUB_TOKEN 调用 workflow_dispatch 403；workflow_run 监听 GITHUB_TOKEN 链（pages build）
      同样被防递归拦截，不触发。
-   **现行解法**：接力步骤用 **secrets.DASH_PAT（用户 PAT）推送节拍提交**（.github/.beat 时间戳）
-   触发下一轮全新 run——PAT 触发的事件不受防递归限制，且每拍新 run 无 attempt 累积、无邮件。
+   **现行解法**：接力步骤用 **secrets.DASH_PAT（用户 PAT）调 dispatches API** 触发下一轮全新 run
+   （PAT 触发不受防递归限制，dispatch API 已实测可靠；PAT 的 git push 触发事件偶发被平台吞，弃用；
+   PAT 需勾 Contents:write + Actions:write + Actions secrets:write——最后一项用于把 PAT 写入 Secret）。
    未配置 PAT 时优雅降级为 schedule 兜底（数小时一拍）。
    旧方案（A/B 双工作流互相 rerun）因 attempt 上限已弃用。
 4. 分级降频：脚本 main() 按分钟窗口跳过低频模块（t2=30min 东财全球指数/美债/恐惧贪婪/新闻、
