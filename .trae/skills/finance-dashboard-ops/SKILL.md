@@ -15,11 +15,11 @@ scripts/update_data.py   采集脚本（akshare/requests 多源，schema_version
 data/dashboard.json      产物（每小时 GitHub Actions 重新生成并提交，[skip ci]）
 index.html               单文件前端（无构建，fetch dashboard.json 渲染）
 legacy.html              旧博客页（Strata 模板 + 深色主题覆盖层）
-.github/workflows/update-dashboard.yml  cron 整点 + push(scripts/**等) 触发
+.github/workflows/update-dashboard.yml  PAT dispatch 接力（约10分钟/拍）+ schedule 兜底 + push 触发
 ```
 
 - 前端容错：JSON 字段缺失 → 显示"暂缺/—"；因此脚本侧**任何新源都必须 try/except 优雅降级**。
-- schema_version 每次结构变更 +1（当前 7）。
+- schema_version 每次结构变更 +1（当前 12）。
 
 ## 第一步：数据源探测（必做，先于编码）
 
@@ -43,7 +43,7 @@ warnings.filterwarnings('ignore')
 | 恐惧贪婪 | api.alternative.me/fng/ | 稳定 |
 | A股广度 | push2.eastmoney.com ulist.np get f104/f105/f106, secids=1.000001,0.399106 | 海外偶发 Push2RateLimitError，clist 全表降级也会限流 |
 | 华尔街见闻快讯 | api-one-wscn.awtmt.com/apiv1/content/lives | JSON，title/content_text/display_time/uri |
-| 谷歌新闻RSS | news.google.com/rss/search?q=…&hl=zh-CN | 沙箱墙外，Actions 可达 |
+| 谷歌新闻RSS | news.google.com/rss/search?q=…&hl=zh-CN | 沙箱墙外，Actions 可达；现用两路查询：·国际（特朗普/大选/央行）+ ·研报（研报/评级/"目标价"/投行/price target），两路都进新闻池 |
 | ~~新浪财经~~ → 东财早报 | ak.stock_info_cjzc_em | stock_info_global_sina 已失效返回空；早报发布时间早会被时间排序沉底 |
 | TACO | numerco.com | **数据中心 IP 被拒，双环境均不通，已改用 CBOE 期限结构** |
 | 加密实时/历史 | OKX→Binance→CoinGecko→Bitstamp 四级 | tickers 端点返回全量，必须按目标本地过滤 |
@@ -52,7 +52,7 @@ warnings.filterwarnings('ignore')
 | 金十数据 | flash-api.jin10.com | 沙箱被墙，未验证 Actions，勿依赖 |
 | Yahoo chart | query1.finance.yahoo.com | 沙箱被拦；Actions 未验证，勿依赖 |
 | 微信公众号文章 | mp.weixin.qq.com/s/<hash>，iPhone UA | 单篇可直接抓（正文在 #js_content）；无公开列表 API，新文章 URL 需人工贴入 data/research_urls.json（最多取前3篇）；连续抓取会触发限流，失败属间歇性，降级不阻塞 |
-| 券商研报列表 | ak.stock_research_report_em() | 东财个股研报，"报告名称"即浓缩结论；池内头部券商少、日期可能滞后数月，排序必须最新日期优先 |
+| 券商研报列表 | ak.stock_research_report_em() | 东财个股研报，"报告名称"即浓缩结论；**池内日期可能滞后数月**（2026-11 实测最新仅 8 月），近1月过滤后常为 0 条——属数据源现实而非 bug，前端显示空态即可；机构观点改由新闻池提取作主力 |
 | 旧页面主题 | assets/css/dark-theme.css | Strata 旧页（legacy/essays/works 共13页）统一在 main.css 后引用此覆盖层即得首页深色科技风；header 内含 .home-link 返回链接。新增旧页面时照此注入 |
 
 **坑位清单（历次踩过）**：
@@ -79,6 +79,16 @@ warnings.filterwarnings('ignore')
 6. 告警阈值用 20日σ 倍数（2σ警戒/3σ高危），别用拍脑袋的固定百分比。
 7. 沙箱与 Actions 网络环境不同：东财 push2 沙箱常限流、Actions 偶发；谷歌新闻/numerco 沙箱墙外。
    每个源必须在目标环境（Actions 日志）确认，沙箱结论不算数。
+8. 机构观点提取（研报栏目主力源）：权威机构词表（全球投行+评级机构+国内券商+财经媒体约60家）
+   **加"机构名：观点"通用句式兜底** `([\u4e00-\u9fa5A-Za-z]{2,10}(?:银行|证券|资管|基金|研究院|保险|期货))\s*[：:]`
+   ——词表永远追不上富途/见闻标题里的中小投行（法农信贷、东海证券等全靠兜底命中）；
+   同一机构最多收 2 条保多面；输入池是**轮询平衡后的 24 条**，不是原始全量池。
+9. 新闻保留近 2 天（time 为空的条目保留防误杀）；研报仅近 1 月（东财池按日期倒序后提前 break）。
+10. 分级窗口的 minute 必须用**纪元分钟** `int(now.timestamp()//60)`——now.minute∈[0,59] 会让
+    120min 窗口（t4）退化为每小时一刷；纪元分钟与挂钟分钟对 30/60 窗口行为一致（时区差整小时）。
+11. 数据提交步骤 push 必须 3 次 `git pull --rebase` 重试——bot 数据提交与人工推送/其他 run
+    竞争时报 non-fast-forward，旧 workflow 直接 failure 断链（接力步骤 if:always() 会续，但当拍数据丢失）。
+    推送代码尽量选在数据提交刚落地后，减少与在途 run 竞争。
 
 ## 第二步：脚本集成
 
