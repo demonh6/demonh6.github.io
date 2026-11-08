@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 12:30:19 CST",
- "generated_at_iso": "2026-11-08T12:30:19+08:00",
+ "generated_at": "2026-11-08 12:38:57 CST",
+ "generated_at_iso": "2026-11-08T12:38:57+08:00",
  "date": "2026-11-08",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1082,7 +1082,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5059.69,
+    "price": 5059.6899,
     "change": -324.11,
     "change_pct": -6.02,
     "hist": [
@@ -1153,6 +1153,27 @@
      277300.0,
      323300.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81028.0234,
+    "change": 1718.02,
+    "change_pct": 2.17
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39701.64,
+    "change": -1873.08,
+    "change_pct": -4.51
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25820.36,
+    "change": -504.65,
+    "change_pct": -1.92
    },
    {
     "name": "英国富时100",
@@ -1305,7 +1326,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6170.49,
+    "price": 6170.5,
     "change": -61.05,
     "change_pct": -0.98,
     "hist": [
@@ -1341,6 +1362,13 @@
      6170.5
     ],
     "sigma": 0.925
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2482.7,
+    "change": 6.0,
+    "change_pct": 0.24
    }
   ]
  },
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75953.6,
-    "change": 92.4,
-    "change_pct": 0.12,
+    "price": 75908.6,
+    "change": 16.2,
+    "change_pct": 0.02,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2238.92,
-    "change": -4.38,
-    "change_pct": -0.2,
+    "price": 2236.87,
+    "change": -5.28,
+    "change_pct": -0.24,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.3,
-    "change": -0.67,
-    "change_pct": -0.74,
+    "price": 89.16,
+    "change": -0.87,
+    "change_pct": -0.97,
     "source": "okx"
    }
   ]
@@ -1558,7 +1586,7 @@
    "time": "2026-11-08 12:22",
    "url": "https://wallstreetcn.com/livenews/3196446",
    "source": "华尔街见闻",
-   "mentions": 3
+   "mentions": 4
   },
   {
    "keyword": "特朗普",
@@ -1569,7 +1597,18 @@
    "time": "2026-11-08 12:02",
    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1SUzVYTjlJWEZCZDFidXQxVGVRa1JMZk14MnBOTkpqbV83S0t1YzlBLWxkUWZHWHBJQmNlRzNYdnNNOGF3VC05Mjl5Zw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 6
+   "mentions": 5
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "高盛为何急着下调黄金目标价 美联储加息预期影响 - 中华网",
+   "summary": "",
+   "time": "2026-11-08 10:31",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SUEtQOFI2bDB2cDZ4ekI2RURJUDVWRkFGeXc5WmJWcS1jVGFiRUU1SExFVG9zVVdiMnQydVo1WkpvM0RlMC1fYkdkOHVDUU9YVC16X2JiamJoTmJZdXU4NmtJbzlsaU1Pd0F2eElEbEg?oc=5",
+   "source": "谷歌新闻·研报",
+   "mentions": 1
   },
   {
    "keyword": "商务部",
@@ -1649,8 +1688,22 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 12:30",
+   "time": "2026-11-08 12:39",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌4.51%，达20日历史波动率的 3.8 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-08 12:39",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "全球股指",
+   "message": "日经225、韩国KOSPI、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-08 12:39",
+   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
@@ -1676,10 +1729,10 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "1公司获得增持评级-更新中 - 中财网",
+   "title": "高盛为何急着下调黄金目标价 美联储加息预期影响 - 中华网",
    "summary": "",
-   "time": "2026-11-08 10:16",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aYkpmZVViTm5DVXd6Q3ZFOVlENTZiTWlEckVDWHBIeE9MNFVWMnhtWDZYQWdwNWowc21BamxwZzEydUV0dkdTanBfNE93dlRfRVVCZUxR?oc=5",
+   "time": "2026-11-08 10:31",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SUEtQOFI2bDB2cDZ4ekI2RURJUDVWRkFGeXc5WmJWcS1jVGFiRUU1SExFVG9zVVdiMnQydVo1WkpvM0RlMC1fYkdkOHVDUU9YVC16X2JiamJoTmJZdXU4NmtJbzlsaU1Pd0F2eElEbEg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1725,17 +1778,17 @@
    "source": "东财国际"
   },
   {
-   "title": "特朗普：命令司法部调查民主党的威胁行为 - 凤凰网",
+   "title": "知情者：格斗赛总裁拒绝出任白宫新闻秘书 - 新京报",
    "summary": "",
-   "time": "2026-11-08 11:37",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IWEN4RGQ4RWRGeFlSakIwckRreHJJdlhoU2FtaG5CTGNqUzNqQ0UtZy1DbGxGWXllZld2VVZQcWg3RUEtbVlZTWVTbGI?oc=5",
+   "time": "2026-11-08 11:58",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9XQzhPQzFVWkMtVWViN29BZXpNbW81ZklRdEVVcG9DM2xqS20yWDdadGhCWXp5Uk1mcjBpWlduLWRkekxDNTlJZW1KSElrZzBvZTdtRjNkNkhEUkFtdkZSM2l2Ny0?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "4股获买入评级 最新:昊华能源 - 中财网",
+   "title": "1公司获得增持评级-更新中 - 中财网",
    "summary": "",
-   "time": "2026-11-08 08:21",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pc25RLWI2MFZ4Uk4zLTFkVWFNSHdsS05LM3RVQUljdzliZUJBYUpJZnZaeTAwZHExT0tucTE0UGlHejhpMkFWYnJHaHlBdU5zX0g3TGVB?oc=5",
+   "time": "2026-11-08 10:16",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aYkpmZVViTm5DVXd6Q3ZFOVlENTZiTWlEckVDWHBIeE9MNFVWMnhtWDZYQWdwNWowc21BamxwZzEydUV0dkdTanBfNE93dlRfRVVCZUxR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1774,17 +1827,17 @@
    "source": "东财国际"
   },
   {
-   "title": "岚目镜观｜一波才动万波随：中期选举、万斯的帖文与后特朗普时代的角力 - ThePaper.cn",
+   "title": "特朗普：命令司法部调查民主党的威胁行为 - 凤凰网",
    "summary": "",
    "time": "2026-11-08 11:37",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBtNGJ0eDBtRFdTZ2R4Tl9ja1FtOV91NVZnNlRaMUF1eVhVcGxyQnhZY3I2OFp5MEpaMk1iTWN0OW9FMUlFUXNTY1p6eG5jV0VfSjg5ZEJ5S2tST25hVFpaag?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9IWEN4RGQ4RWRGeFlSakIwckRreHJJdlhoU2FtaG5CTGNqUzNqQ0UtZy1DbGxGWXllZld2VVZQcWg3RUEtbVlZTWVTbGI?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美股刚遭重挫，“牛市狂潮”又将至？投行：两党若合作，标普将剑指9000点！ - 财联社",
+   "title": "4股获买入评级 最新:昊华能源 - 中财网",
    "summary": "",
-   "time": "2026-11-08 05:10",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA1Rzc0TF9lMVh3dVoyeUhEb2MzUUNaU1NILWVKdEF1eXVEV1lTVXgxR1JPSW5vcVY0VTZYSEFSVkRmRzlFOFd3eg?oc=5",
+   "time": "2026-11-08 08:21",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pc25RLWI2MFZ4Uk4zLTFkVWFNSHdsS05LM3RVQUljdzliZUJBYUpJZnZaeTAwZHExT0tucTE0UGlHejhpMkFWYnJHaHlBdU5zX0g3TGVB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
