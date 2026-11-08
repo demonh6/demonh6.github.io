@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 23:21:57 CST",
- "generated_at_iso": "2026-11-08T23:21:57+08:00",
+ "generated_at": "2026-11-08 23:30:03 CST",
+ "generated_at_iso": "2026-11-08T23:30:03+08:00",
  "date": "2026-11-08",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 76057.3,
-    "change": 173.8,
-    "change_pct": 0.23,
+    "price": 76063.9,
+    "change": 196.4,
+    "change_pct": 0.26,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2239.46,
-    "change": -4.25,
-    "change_pct": -0.19,
+    "price": 2240.91,
+    "change": -1.1,
+    "change_pct": -0.05,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.7,
-    "change": -0.06,
-    "change_pct": -0.07,
+    "price": 89.79,
+    "change": 0.12,
+    "change_pct": 0.13,
     "source": "okx"
    }
   ]
@@ -1465,12 +1465,12 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 725,
-   "down": 4483,
-   "flat": 87,
-   "total": 5295,
-   "breadth_pct": 13.7,
-   "score": -22.6,
+   "up": 758,
+   "down": 4741,
+   "flat": 76,
+   "total": 5575,
+   "breadth_pct": 13.6,
+   "score": -22.8,
    "source": "东财"
   },
   "vix": {
@@ -1543,12 +1543,23 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 2.7,
+   "score": 2.6,
    "label": "极度恐惧",
    "color": "#f04a3d"
   }
  },
  "speakers": [
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普就中期选举结果发文：让美国在历史上倒退了一大步 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-08 22:45",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5a1MyS0FwY1BtTzZtMUdzMlJ5YWtWeVFqdUc0MktDMVF6YjRHQkR3dWZRMzdua0d1Y1JZYWF1YVRYWDlCWU9EOXNFMEZfSGVhdlE?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 5
+  },
   {
    "keyword": "白宫",
    "label": "白宫",
@@ -1559,17 +1570,6 @@
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vQktLTjE0b1dzWU5mQ19mek1qYkE3NDE5UlhnWHZvcG81VWk0YXUyME1XMV9DZ1A3YmVvc2oyNlZEaklSMWNjaWNqTERRMjdJZ3BjbVZnSVVsT0JMRkY1RWh3d2NrOHFBeGd1Y21yenh0QQ?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
-  },
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "最新封面报道｜“蓝色海啸”扑向特朗普 - 财新周刊",
-   "summary": "",
-   "time": "2026-11-08 21:51",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xajB3QVdLZ1VMVW9faGZiTENaSE9HRzJjM21mdndDcWQ3U2NOa2dPUjFoMmRHMWFFVWRYWUpHYWotN0hvaV90M2ZhQXpBV1Y2YVBxZWpsSDZNNmo4UzVXNQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 4
   },
   {
    "keyword": "商务部",
@@ -1670,17 +1670,24 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 23:22",
+   "time": "2026-11-08 23:35",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "高盛称AI债务供给压力正在信用市场累积",
-   "summary": "【高盛称AI债务供给压力正在信用市场累积】高盛警告，五大超大规模云计算商仅一周内完成670亿美元债券发行，年内累计发债2960亿美元，已超越高盛对全年预测上限——模型每48小时被现实击穿一次。高盛明确指出，信用利差风险在12月前\"明确偏向走阔\"，AI交易新发溢价高达18个基点，接近垃圾债水平。",
-   "time": "2026-11-08 22:51:57",
-   "url": "https://finance.eastmoney.com/a/202611083925687346.html",
+   "title": "埃及列车脱轨事故已致4死88伤 暂无中国公民伤亡报告",
+   "summary": "【埃及列车脱轨事故已致4死88伤 暂无中国公民伤亡报告】埃及卫生部8日发表声明说，当天埃及吉萨省发生客运列车车厢脱轨事故，已造成4人死亡、88人受伤。埃及总统塞西8日在社交媒体上表示，密切关注列车脱轨事故。他已指示埃及相关部门提供必要帮助，迅速调查事故原因，并追究所有失职者责任。",
+   "time": "2026-11-08 23:26:13",
+   "url": "https://finance.eastmoney.com/a/202611083925694931.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普就中期选举结果发文：让美国在历史上倒退了一大步 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-08 22:45",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5a1MyS0FwY1BtTzZtMUdzMlJ5YWtWeVFqdUc0MktDMVF6YjRHQkR3dWZRMzdua0d1Y1JZYWF1YVRYWDlCWU9EOXNFMEZfSGVhdlE?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社电报",
@@ -1688,13 +1695,6 @@
    "time": "2026-11-08 22:14",
    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ObTBIUVFlQ2ZWZUhLRTB6dmdEcEhOd1V0UUMzQTNrM01Gc1dHQlpHN2h0SzVhYTdzaTlYN0FkZUl1UVJxM3FNUGZHZHh6Rmc2RmNlRFRFbXd3OUZaVDFLRy1R?oc=5",
    "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美国中期选举刚落幕，国会与白宫新一轮交锋已浮现 - 京报网",
-   "summary": "",
-   "time": "2026-11-08 22:05",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vQktLTjE0b1dzWU5mQ19mek1qYkE3NDE5UlhnWHZvcG81VWk0YXUyME1XMV9DZ1A3YmVvc2oyNlZEaklSMWNjaWNqTERRMjdJZ3BjbVZnSVVsT0JMRkY1RWh3d2NrOHFBeGd1Y21yenh0QQ?oc=5",
-   "source": "谷歌新闻·国际"
   },
   {
    "title": "中共中央书记处书记、国务委员王小洪：提高政策措施的针对性有效性 因地制宜推动高质量发展",
@@ -1732,11 +1732,18 @@
    "source": "财新"
   },
   {
-   "title": "国泰海通：白酒股价调整充分 估值和机构持仓均处于历史偏底部位置",
-   "summary": "【国泰海通：白酒股价调整充分 估值和机构持仓均处于历史偏底部位置】国泰海通发布研报指出，白酒股价调整充分，估值和机构持仓均处于历史偏底部位置。食品饮料板块自2021年起连续6年下跌，截至2026年11月5日，白酒板块PETTM为23.1X，板块估值位于2005年以来的36.2%分位。从基金重仓情况来看，食饮行业26Q3基金持仓比例为2.2%，虽环比Q2有所抬升，但仍处于历史低位，估值修复尚有较大空间。",
-   "time": "2026-11-08 22:35:01",
-   "url": "https://finance.eastmoney.com/a/202611083925682522.html",
+   "title": "沙特主导的联军表示：已摧毁位于也门萨达的两处弹道导弹发射装置 胡塞武装曾使用这些装置对利雅得发动袭击",
+   "summary": "沙特主导的联军表示，已摧毁位于也门萨达的两处弹道导弹发射装置，胡塞武装曾使用这些装置对利雅得发动袭击。",
+   "time": "2026-11-08 23:15:50",
+   "url": "https://finance.eastmoney.com/a/202611083925691750.html",
    "source": "东财国际"
+  },
+  {
+   "title": "美国中期选举刚落幕，国会与白宫新一轮交锋已浮现 - 京报网",
+   "summary": "",
+   "time": "2026-11-08 22:05",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vQktLTjE0b1dzWU5mQ19mek1qYkE3NDE5UlhnWHZvcG81VWk0YXUyME1XMV9DZ1A3YmVvc2oyNlZEaklSMWNjaWNqTERRMjdJZ3BjbVZnSVVsT0JMRkY1RWh3d2NrOHFBeGd1Y21yenh0QQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "机构强烈推荐4只个股-更新中 - 中财网",
@@ -1746,17 +1753,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "最新封面报道｜“蓝色海啸”扑向特朗普 - 财新周刊",
-   "summary": "",
-   "time": "2026-11-08 21:51",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xajB3QVdLZ1VMVW9faGZiTENaSE9HRzJjM21mdndDcWQ3U2NOa2dPUjFoMmRHMWFFVWRYWUpHYWotN0hvaV90M2ZhQXpBV1Y2YVBxZWpsSDZNNmo4UzVXNQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "美国佐治亚州州长布莱恩·坎普正考虑参加2028年总统竞选。坎普也在考虑参加2028年的参议员竞选。（华盛顿邮报）",
-   "summary": "美国佐治亚州州长布莱恩·坎普正考虑参加2028年总统竞选。坎普也在考虑参加2028年的参议员竞选。（华盛顿邮报）",
-   "time": "2026-11-08 18:50",
-   "url": "https://wallstreetcn.com/livenews/3196474",
+   "title": "伊朗革命卫队：美军特遣部队无法达到施压伊朗目的",
+   "summary": "据伊朗法尔斯通讯社8日报道，伊朗伊斯兰革命卫队发言人穆赫比当天表示，美国无法通过组建“铁门”特遣部队计划实现其给伊朗施加经济压力的目的。穆赫比说，“铁门”计划“不过是文字游戏”，美国无法通过这一计划实现其给伊朗施加巨大经济压力的目的，伊朗经济不会崩溃。（新华社）",
+   "time": "2026-11-08 18:57",
+   "url": "https://wallstreetcn.com/livenews/3196475",
    "source": "华尔街见闻"
   },
   {
@@ -1781,11 +1781,18 @@
    "source": "财新"
   },
   {
-   "title": "众议院民主党领袖HAKEEM JEFFRIES表示他支持对海格塞斯的弹劾决议案",
-   "summary": "众议院民主党领袖HAKEEM JEFFRIES表示他支持对海格塞斯的弹劾决议案。",
-   "time": "2026-11-08 22:19:57",
-   "url": "https://finance.eastmoney.com/a/202611083925677347.html",
+   "title": "以总统赫尔佐格正式授权埃森科特组建新一届政府",
+   "summary": "【以总统赫尔佐格正式授权埃森科特组建新一届政府】当地时间8日17时（北京时间8日23时），以色列总统赫尔佐格正式授权正直党领导人、以军前总参谋长埃森科特组建新一届政府。在此前的以色列议会各党派磋商中，推荐埃森科特组阁的党派共代表67席，推荐现任总理、利库德集团领导人内塔尼亚胡的党派共代表46席，另有一个拥有7席的党派未作推荐。",
+   "time": "2026-11-08 23:09:36",
+   "url": "https://finance.eastmoney.com/a/202611083925689988.html",
    "source": "东财国际"
+  },
+  {
+   "title": "最新封面报道｜“蓝色海啸”扑向特朗普 - 财新周刊",
+   "summary": "",
+   "time": "2026-11-08 21:51",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xajB3QVdLZ1VMVW9faGZiTENaSE9HRzJjM21mdndDcWQ3U2NOa2dPUjFoMmRHMWFFVWRYWUpHYWotN0hvaV90M2ZhQXpBV1Y2YVBxZWpsSDZNNmo4UzVXNQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "33公司获得增持评级-更新中 - 中财网",
@@ -1795,17 +1802,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普“赶走”了内塔尼亚胡 - 凤凰网",
-   "summary": "",
-   "time": "2026-11-08 21:01",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMT0E3SUNXa2ZybjZ3NXYtTEhsV19MMXY1aVN4UExySDUwbzVVb0tqZUE5SjE4VldyUUQ3Z2FxRXNrZGcwYTFjLXlnQ2o?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "沙特能源部消息人士称阿美石油大楼受损，无人员伤亡",
-   "summary": "当地时间8日获悉，沙特能源部一位官方消息人士称，沙特阿美石油公司位于利雅得的一栋行政大楼当日遭到“袭击企图”。当日的袭击导致建筑物被碎片击中，造成一定损坏，无人员伤亡。居住在利雅得金融中心的目击者称，沙特阿美石油公司大楼受损，被炸出明显缺口。另有目击者称，大楼冒出白烟。（央视新闻）",
-   "time": "2026-11-08 17:57",
-   "url": "https://wallstreetcn.com/livenews/3196472",
+   "title": "美国佐治亚州州长布莱恩·坎普正考虑参加2028年总统竞选。坎普也在考虑参加2028年的参议员竞选。（华盛顿邮报）",
+   "summary": "美国佐治亚州州长布莱恩·坎普正考虑参加2028年总统竞选。坎普也在考虑参加2028年的参议员竞选。（华盛顿邮报）",
+   "time": "2026-11-08 18:50",
+   "url": "https://wallstreetcn.com/livenews/3196474",
    "source": "华尔街见闻"
   },
   {
@@ -1830,25 +1830,25 @@
    "source": "财新"
   },
   {
-   "title": "胡塞再对沙特目标发动4轮军事打击",
-   "summary": "【胡塞再对沙特目标发动4轮军事打击】也门胡塞武装当地时间今天（11月8日）下午发表声明称，为回应沙特对也门发动的军事行动及造成平民伤亡的空袭，胡塞武装使用弹道导弹、巡航导弹和无人机，对沙特相关目标发动了四轮军事行动。 声明称，第一轮行动打击了沙特首都利雅得的哈立得国王国际机场、沙特阿美石油公司储油罐以及金融中心，打击命中目标并造成严重损失。",
-   "time": "2026-11-08 22:18:52",
-   "url": "https://finance.eastmoney.com/a/202611083925676515.html",
+   "title": "BC Partners据悉寻求从PIF手中取得LIV Golf的控制权",
+   "summary": "BC Partners据悉寻求从PIF手中取得LIV Golf的控制权。",
+   "time": "2026-11-08 23:05:54",
+   "url": "https://finance.eastmoney.com/a/202611083925689864.html",
    "source": "东财国际"
   },
   {
-   "title": "13公司获得推荐评级-更新中 - 中财网",
+   "title": "得州民主党人塔拉里科当选参议员 现身《周六夜现场》与“特朗普”互动 - 凤凰网",
    "summary": "",
-   "time": "2026-11-08 21:16",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Dc0lEZ1pIa3gtTnVwQU15Mm1XUWpsUHhLUmc2RTRmLVdNc1E4dzBhRTRwUndhdjN0TW95MjdGdXBMRE1OaU92b3ByaHhZenFGd1A5S0JB?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-08 20:35",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03OU5TQnBNMjNBNHB1VnJRMlh0VE5BblJJdHdZSWhHV0daRzBOLV9sZ25zSmtUYzJxN0tLOFVfUFBsNmRMamZ4MHl6aTRaSVpVRVE?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(30)",
+   "富途": "ok(25)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1858,8 +1858,8 @@
   },
   "counts": {
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "华尔街见闻": 7,
    "同花顺": 7,
    "富途": 6,
