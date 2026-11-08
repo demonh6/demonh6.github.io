@@ -1,8 +1,8 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 23:51:51 CST",
- "generated_at_iso": "2026-11-08T23:51:51+08:00",
- "date": "2026-11-08",
+ "generated_at": "2026-11-09 00:00:00 CST",
+ "generated_at_iso": "2026-11-09T00:00:00+08:00",
+ "date": "2026-11-09",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
  "markets": {
@@ -1037,10 +1037,10 @@
      63954.19,
      64659.47,
      63290.11,
-     63081.8594,
-     62188.6289,
-     61077.8984,
-     57434.7695
+     63081.86,
+     62188.63,
+     61077.9,
+     57434.77
     ],
     "sigma": 1.922,
     "volume": 314400000.0,
@@ -1395,7 +1395,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1404,7 +1437,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1413,7 +1479,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1422,7 +1521,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 76067.5,
-    "change": 353.6,
-    "change_pct": 0.47,
-    "source": "okx"
+    "price": 76082.9,
+    "change": 338.3,
+    "change_pct": 0.45,
+    "source": "okx",
+    "hist": [
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     76081.3
+    ],
+    "sigma": 2.111
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2241.2,
-    "change": 5.41,
-    "change_pct": 0.24,
-    "source": "okx"
+    "price": 2242.33,
+    "change": 5.62,
+    "change_pct": 0.25,
+    "source": "okx",
+    "hist": [
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2242.94
+    ],
+    "sigma": 2.932
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.73,
-    "change": 0.34,
-    "change_pct": 0.38,
-    "source": "okx"
+    "price": 89.74,
+    "change": 0.22,
+    "change_pct": 0.25,
+    "source": "okx",
+    "hist": [
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     89.82
+    ],
+    "sigma": 2.787
    }
   ]
  },
@@ -1465,12 +1731,12 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 758,
-   "down": 4741,
-   "flat": 76,
-   "total": 5575,
-   "breadth_pct": 13.6,
-   "score": -22.8,
+   "up": 725,
+   "down": 4483,
+   "flat": 87,
+   "total": 5295,
+   "breadth_pct": 13.7,
+   "score": -22.6,
    "source": "东财"
   },
   "vix": {
@@ -1543,7 +1809,7 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 2.6,
+   "score": 2.7,
    "label": "极度恐惧",
    "color": "#f04a3d"
   }
@@ -1553,7 +1819,7 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普就中期选举结果发文：让美国在历史上倒退了一大步 - 凤凰网",
+   "title": "特朗普：中期选举结果让美国在历史上倒退了一大步 - 凤凰网",
    "summary": "",
    "time": "2026-11-08 22:45",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5a1MyS0FwY1BtTzZtMUdzMlJ5YWtWeVFqdUc0MktDMVF6YjRHQkR3dWZRMzdua0d1Y1JZYWF1YVRYWDlCWU9EOXNFMEZfSGVhdlE?oc=5",
@@ -1569,17 +1835,6 @@
    "time": "2026-11-08 22:05",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vQktLTjE0b1dzWU5mQ19mek1qYkE3NDE5UlhnWHZvcG81VWk0YXUyME1XMV9DZ1A3YmVvc2oyNlZEaklSMWNjaWNqTERRMjdJZ3BjbVZnSVVsT0JMRkY1RWh3d2NrOHFBeGd1Y21yenh0QQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "商务部",
-   "label": "商务部",
-   "hint": "中美贸易与出口管制的对口部门",
-   "title": "东方财富财经早餐 11月6日周五",
-   "summary": "【东方财富财经早餐 11月6日周五】1、调休减少，2027年放假安排来了！9天超长春节假期再次回归。2、商务部回应扩大自美采购农产品：持开放态度，对等降税落地是前提。3、上交所召开并购重组专题座谈会，汇聚市场合力助推上市公司提质增效。",
-   "time": "2026-11-06 06:00:27",
-   "url": "http://finance.eastmoney.com/a/202611053923871240.html",
-   "source": "东财早报",
    "mentions": 1
   }
  ],
@@ -1642,58 +1897,37 @@
     ]
    }
   ],
-  "reports": [
-   {
-    "title": "高盛称AI债务供给压力正在信用市场累积",
-    "org": "高盛",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-08",
-    "url": "https://finance.eastmoney.com/a/202611083925687346.html",
-    "source": "机构观点"
-   },
-   {
-    "title": "国泰海通：白酒股价调整充分 估值和机构持仓均处于历史偏底部位置",
-    "org": "国泰海通",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-08",
-    "url": "https://finance.eastmoney.com/a/202611083925682522.html",
-    "source": "机构观点"
-   }
-  ]
+  "reports": []
  },
  "alerts": [
   {
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 23:51",
+   "time": "2026-11-09 00:01",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "埃及列车脱轨事故已致4死88伤 暂无中国公民伤亡报告",
-   "summary": "【埃及列车脱轨事故已致4死88伤 暂无中国公民伤亡报告】埃及卫生部8日发表声明说，当天埃及吉萨省发生客运列车车厢脱轨事故，已造成4人死亡、88人受伤。埃及总统塞西8日在社交媒体上表示，密切关注列车脱轨事故。他已指示埃及相关部门提供必要帮助，迅速调查事故原因，并追究所有失职者责任。",
-   "time": "2026-11-08 23:26:13",
-   "url": "https://finance.eastmoney.com/a/202611083925694931.html",
+   "title": "培育钻石一克拉跌破千元",
+   "summary": "【培育钻石一克拉跌破千元】11月8日消息，一克拉跌破千元，培育钻石迎来消费热潮！不少培育钻石销售门店，都打出千元内克拉钻的促销标识。行业数据显示，高品质带证书一克拉培育裸钻，从2020年到2021年的峰值近万元降至如今千元区间，带动消费热度持续走高。某公司零售总监称：“200套礼盒加裸钻，基本上三天之内卖完。”在不少生产企业的展厅和门店内，大量国外消费者和客商也专门前来选购培育钻石和洽谈贸易合作。",
+   "time": "2026-11-08 23:50:32",
+   "url": "https://finance.eastmoney.com/a/202611083925699112.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普就中期选举结果发文：让美国在历史上倒退了一大步 - 凤凰网",
+   "title": "特朗普：中期选举结果让美国在历史上倒退了一大步 - 凤凰网",
    "summary": "",
    "time": "2026-11-08 22:45",
    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5a1MyS0FwY1BtTzZtMUdzMlJ5YWtWeVFqdUc0MktDMVF6YjRHQkR3dWZRMzdua0d1Y1JZYWF1YVRYWDlCWU9EOXNFMEZfSGVhdlE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社电报",
+   "title": "风口研报 - 财联社",
    "summary": "",
    "time": "2026-11-08 22:14",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ObTBIUVFlQ2ZWZUhLRTB6dmdEcEhOd1V0UUMzQTNrM01Gc1dHQlpHN2h0SzVhYTdzaTlYN0FkZUl1UVJxM3FNUGZHZHh6Rmc2RmNlRFRFbXd3OUZaVDFLRy1R?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBLU2UwTjB5RTllZTI0VUtYUUpuWGxKZmFWNGcxZFBLY3RORDBWM3c1NkR2czhwUTN2bEhiNU1xWXAtdTNpSkRZdA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1718,13 +1952,6 @@
    "source": "富途"
   },
   {
-   "title": "东方财富财经早餐 11月6日周五",
-   "summary": "【东方财富财经早餐 11月6日周五】1、调休减少，2027年放假安排来了！9天超长春节假期再次回归。2、商务部回应扩大自美采购农产品：持开放态度，对等降税落地是前提。3、上交所召开并购重组专题座谈会，汇聚市场合力助推上市公司提质增效。",
-   "time": "2026-11-06 06:00:27",
-   "url": "http://finance.eastmoney.com/a/202611053923871240.html",
-   "source": "东财早报"
-  },
-  {
    "title": "【本文系数据通用户提前专享】美国中期选举成为对特朗普的公投，共和党大败 动摇其权力根基，任期进入更难预测的下半场",
    "summary": "",
    "time": "",
@@ -1732,10 +1959,10 @@
    "source": "财新"
   },
   {
-   "title": "沙特主导的联军表示：已摧毁位于也门萨达的两处弹道导弹发射装置 胡塞武装曾使用这些装置对利雅得发动袭击",
-   "summary": "沙特主导的联军表示，已摧毁位于也门萨达的两处弹道导弹发射装置，胡塞武装曾使用这些装置对利雅得发动袭击。",
-   "time": "2026-11-08 23:15:50",
-   "url": "https://finance.eastmoney.com/a/202611083925691750.html",
+   "title": "ChatGPT突然大规模封号 包括付费用户",
+   "summary": "【ChatGPT突然大规模封号 包括付费用户】11月8日，多家技术社区集中曝出OpenAI突发大规模账号封禁事件，大量用户在Reddit、国内开发者社群反馈ChatGPT账号无预警停用，其中包括每月订阅费用为200美元的Pro用户。部分用户表示，账号被封前没有收到任何通知，长期积累的聊天记录和工作资料也因此无法访问。",
+   "time": "2026-11-08 23:35:52",
+   "url": "https://finance.eastmoney.com/a/202611083925679992.html",
    "source": "东财国际"
   },
   {
@@ -1746,10 +1973,10 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "机构强烈推荐4只个股-更新中 - 中财网",
+   "title": "风口研报 - 财联社电报",
    "summary": "",
-   "time": "2026-11-08 21:26",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1UWY2ejllNC1GLUpQOTVfUWVrNU1XSW9vVUoxblN4aGptLVdrTDZMNW9OYWRTWXBzUTBvQlRtV2dRWVA5c2RWQVlTamRwUnBTNUVVZGJn?oc=5",
+   "time": "2026-11-08 22:14",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ObTBIUVFlQ2ZWZUhLRTB6dmdEcEhOd1V0UUMzQTNrM01Gc1dHQlpHN2h0SzVhYTdzaTlYN0FkZUl1UVJxM3FNUGZHZHh6Rmc2RmNlRFRFbXd3OUZaVDFLRy1R?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1781,10 +2008,10 @@
    "source": "财新"
   },
   {
-   "title": "以总统赫尔佐格正式授权埃森科特组建新一届政府",
-   "summary": "【以总统赫尔佐格正式授权埃森科特组建新一届政府】当地时间8日17时（北京时间8日23时），以色列总统赫尔佐格正式授权正直党领导人、以军前总参谋长埃森科特组建新一届政府。在此前的以色列议会各党派磋商中，推荐埃森科特组阁的党派共代表67席，推荐现任总理、利库德集团领导人内塔尼亚胡的党派共代表46席，另有一个拥有7席的党派未作推荐。",
-   "time": "2026-11-08 23:09:36",
-   "url": "https://finance.eastmoney.com/a/202611083925689988.html",
+   "title": "埃及列车脱轨事故已致4死88伤 暂无中国公民伤亡报告",
+   "summary": "【埃及列车脱轨事故已致4死88伤 暂无中国公民伤亡报告】埃及卫生部8日发表声明说，当天埃及吉萨省发生客运列车车厢脱轨事故，已造成4人死亡、88人受伤。埃及总统塞西8日在社交媒体上表示，密切关注列车脱轨事故。他已指示埃及相关部门提供必要帮助，迅速调查事故原因，并追究所有失职者责任。",
+   "time": "2026-11-08 23:26:13",
+   "url": "https://finance.eastmoney.com/a/202611083925694931.html",
    "source": "东财国际"
   },
   {
@@ -1795,10 +2022,10 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "33公司获得增持评级-更新中 - 中财网",
+   "title": "机构强烈推荐4只个股-更新中 - 中财网",
    "summary": "",
-   "time": "2026-11-08 21:21",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aYkpmZVViTm5DVXd6Q3ZFOVlENTZiTWlEckVDWHBIeE9MNFVWMnhtWDZYQWdwNWowc21BamxwZzEydUV0dkdTanBfNE93dlRfRVVCZUxR?oc=5",
+   "time": "2026-11-08 21:26",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1UWY2ejllNC1GLUpQOTVfUWVrNU1XSW9vVUoxblN4aGptLVdrTDZMNW9OYWRTWXBzUTBvQlRtV2dRWVA5c2RWQVlTamRwUnBTNUVVZGJn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1830,25 +2057,32 @@
    "source": "财新"
   },
   {
-   "title": "BC Partners据悉寻求从PIF手中取得LIV Golf的控制权",
-   "summary": "BC Partners据悉寻求从PIF手中取得LIV Golf的控制权。",
-   "time": "2026-11-08 23:05:54",
-   "url": "https://finance.eastmoney.com/a/202611083925689864.html",
+   "title": "沙特主导的联军表示：已摧毁位于也门萨达的两处弹道导弹发射装置 胡塞武装曾使用这些装置对利雅得发动袭击",
+   "summary": "沙特主导的联军表示，已摧毁位于也门萨达的两处弹道导弹发射装置，胡塞武装曾使用这些装置对利雅得发动袭击。",
+   "time": "2026-11-08 23:15:50",
+   "url": "https://finance.eastmoney.com/a/202611083925691750.html",
    "source": "东财国际"
   },
   {
-   "title": "得州民主党人塔拉里科当选参议员 现身《周六夜现场》与“特朗普”互动 - 凤凰网",
+   "title": "特朗普“赶走”了内塔尼亚胡 - 凤凰网",
    "summary": "",
-   "time": "2026-11-08 20:35",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03OU5TQnBNMjNBNHB1VnJRMlh0VE5BblJJdHdZSWhHV0daRzBOLV9sZ25zSmtUYzJxN0tLOFVfUFBsNmRMamZ4MHl6aTRaSVpVRVE?oc=5",
+   "time": "2026-11-08 21:01",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBMT0E3SUNXa2ZybjZ3NXYtTEhsV19MMXY1aVN4UExySDUwbzVVb0tqZUE5SjE4VldyUUQ3Z2FxRXNrZGcwYTFjLXlnQ2o?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "33公司获得增持评级-更新中 - 中财网",
+   "summary": "",
+   "time": "2026-11-08 21:21",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aYkpmZVViTm5DVXd6Q3ZFOVlENTZiTWlEckVDWHBIeE9MNFVWMnhtWDZYQWdwNWowc21BamxwZzEydUV0dkdTanBfNE93dlRfRVVCZUxR?oc=5",
+   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(25)",
+   "富途": "ok(23)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1862,46 +2096,33 @@
    "谷歌新闻·研报": 7,
    "华尔街见闻": 7,
    "同花顺": 7,
-   "富途": 6,
-   "东财早报": 1,
+   "富途": 7,
    "财新": 6
   }
  },
  "wuxing": {
-  "date": "2026-11-08",
-  "weekday": "日",
-  "lunar_date": "九月三十",
+  "date": "2026-11-09",
+  "weekday": "一",
+  "lunar_date": "十月初一",
   "year_gz": "丙午",
-  "day_gz": "丙戌",
+  "day_gz": "丁亥",
   "day_nayin": "屋上土",
   "gan": {
-   "char": "丙",
+   "char": "丁",
    "wuxing": "火"
   },
   "zhi": {
-   "char": "戌",
-   "wuxing": "土"
+   "char": "亥",
+   "wuxing": "水"
   },
   "day_master": "火",
   "yi": [
-   "安床",
    "祭祀",
-   "开池",
-   "补垣",
-   "入殓",
-   "移柩",
-   "破土",
-   "启钻"
+   "沐浴",
+   "馀事勿取"
   ],
   "ji": [
-   "入宅",
-   "移徙",
-   "嫁娶",
-   "掘井",
-   "作灶",
-   "出火",
-   "进人口",
-   "开市"
+   "无"
   ],
   "favorable_sectors": [
    "电力",
