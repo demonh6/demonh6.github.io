@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 17:26:46 CST",
- "generated_at_iso": "2026-11-08T17:26:46+08:00",
+ "generated_at": "2026-11-08 17:34:54 CST",
+ "generated_at_iso": "2026-11-08T17:34:54+08:00",
  "date": "2026-11-08",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1082,7 +1082,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5059.69,
+    "price": 5059.6899,
     "change": -324.11,
     "change_pct": -6.02,
     "hist": [
@@ -1153,6 +1153,27 @@
      277300.0,
      323300.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81028.0234,
+    "change": 0.0,
+    "change_pct": 0.0
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39701.64,
+    "change": -1873.08,
+    "change_pct": -4.51
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25820.36,
+    "change": -504.65,
+    "change_pct": -1.92
    },
    {
     "name": "英国富时100",
@@ -1305,7 +1326,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6170.49,
+    "price": 6170.5,
     "change": -61.05,
     "change_pct": -0.98,
     "hist": [
@@ -1341,6 +1362,13 @@
      6170.5
     ],
     "sigma": 0.925
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2482.7,
+    "change": 6.0,
+    "change_pct": 0.24
    }
   ]
  },
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75915.2,
-    "change": -237.9,
-    "change_pct": -0.31,
+    "price": 75915.3,
+    "change": -189.7,
+    "change_pct": -0.25,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2236.28,
-    "change": -12.06,
-    "change_pct": -0.54,
+    "price": 2236.63,
+    "change": -9.55,
+    "change_pct": -0.43,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.2,
-    "change": -0.93,
-    "change_pct": -1.03,
+    "price": 89.27,
+    "change": -0.77,
+    "change_pct": -0.86,
     "source": "okx"
    }
   ]
@@ -1550,6 +1578,17 @@
  },
  "speakers": [
   {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普邀UFC总裁任新闻秘书遭拒 - 新浪网",
+   "summary": "",
+   "time": "2026-11-08 17:07",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZVMwQUQwbHd0RWhtT2NUMmpsSHk0cERxT0JuTDdGNmh0eW9aMWxfN0hOczZsZC1QalUzTXNXS0dxQ2R2M0lyX2wwUWc3N19UMERqMmFHWHp1RXhiZy05WmZKUkVtOHF4ck8xMVVfbVIxLWJNdFE3aVhNZndrRWRZVUZ5MnJZSEU2ajNj?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 5
+  },
+  {
    "keyword": "白宫",
    "label": "白宫",
    "hint": "美国官方政策表态的权威渠道",
@@ -1558,17 +1597,6 @@
    "time": "2026-11-08 16:59:11",
    "url": "https://finance.eastmoney.com/a/202611083925632042.html",
    "source": "东财国际",
-   "mentions": 4
-  },
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "未来两年“战斗到底”还是“极限谈判”？白宫人事频繁更迭，“坡脚”特朗普摆出“强硬姿态” - 华尔街见闻",
-   "summary": "",
-   "time": "2026-11-08 16:08",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uX3pGTmgwQ0M1Q1MzUWRxYzVwZ0phY2RoNlhjWl9FTE1MMWhmTlNzOVVCbjFzTkpPSW5jcmVOQ0pZTDE3c3lUNERpcmlrMXBpd0VN?oc=5",
-   "source": "谷歌新闻·国际",
    "mentions": 4
   },
   {
@@ -1671,17 +1699,38 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 17:26",
+   "time": "2026-11-08 17:35",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌4.51%，达20日历史波动率的 3.8 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-08 17:35",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "全球股指",
+   "message": "日经225、韩国KOSPI、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-08 17:35",
+   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "美媒称白宫办公厅副主任沃尔特斯将离职",
-   "summary": "【美媒称白宫办公厅副主任沃尔特斯将离职】据美国阿克西奥斯新闻网站7日报道，白宫办公厅副主任理查德·沃尔特斯将离职。",
-   "time": "2026-11-08 16:59:11",
-   "url": "https://finance.eastmoney.com/a/202611083925632042.html",
+   "title": "上财教授杨健：AI冲击下全球价值链将告别单极主导 迎来多极并存与分层竞争",
+   "summary": "【上财教授杨健：AI冲击下全球价值链将告别单极主导 迎来多极并存与分层竞争】11月8日，在2026进博会上海会议活动“智能制造与电子消费研讨会”上，上海财经大学数字经济研究院执行副院长、实践教授杨健指出，在人工智能的冲击下，全球价值链将告别单极主导，演变为由技术自主、地缘安全与数字要素共同塑造的全新格局，呈现出“多极并存、分层竞争、规则双轨、收益分化”的特征。",
+   "time": "2026-11-08 17:31:21",
+   "url": "https://finance.eastmoney.com/a/202611083925634218.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普邀UFC总裁任新闻秘书遭拒 - 新浪网",
+   "summary": "",
+   "time": "2026-11-08 17:07",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZVMwQUQwbHd0RWhtT2NUMmpsSHk0cERxT0JuTDdGNmh0eW9aMWxfN0hOczZsZC1QalUzTXNXS0dxQ2R2M0lyX2wwUWc3N19UMERqMmFHWHp1RXhiZy05WmZKUkVtOHF4ck8xMVVfbVIxLWJNdFE3aVhNZndrRWRZVUZ5MnJZSEU2ajNj?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "11公司获得推荐评级-更新中 - 中财网",
@@ -1698,24 +1747,17 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "未来两年“战斗到底”还是“极限谈判”？白宫人事频繁更迭，“坡脚”特朗普摆出“强硬姿态” - 华尔街见闻",
+   "title": "大连英博队获2026赛季中超联赛冠军",
    "summary": "",
-   "time": "2026-11-08 16:08",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uX3pGTmgwQ0M1Q1MzUWRxYzVwZ0phY2RoNlhjWl9FTE1MMWhmTlNzOVVCbjFzTkpPSW5jcmVOQ0pZTDE3c3lUNERpcmlrMXBpd0VN?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "华阳股份：于家庄煤矿取得采矿许可证及不动产权证书，探转采完成",
-   "summary": "",
-   "time": "2026-11-08 08:46:19",
-   "url": "https://news.10jqka.com.cn/20261108/c681581853.shtml",
+   "time": "2026-11-08 09:32:04",
+   "url": "https://news.10jqka.com.cn/20261108/c681582061.shtml",
    "source": "同花顺"
   },
   {
-   "title": "外交部部长助理蔡伟会见联合国日内瓦办事处总干事瓦罗瓦娅",
+   "title": "伊朗革命卫队发言人驳斥美国收紧对伊经济施压的新计划，称其只是“文字游戏”",
    "summary": "",
-   "time": "2026-11-08 08:31:22",
-   "url": "https://news.futunn.com/flash/1003818816/cai-wei-assistant-minister-of-foreign-affairs-meets-with-tatiana",
+   "time": "2026-11-08 09:21:55",
+   "url": "https://news.futunn.com/flash/1003819278/a-spokesperson-for-iran-s-islamic-revolutionary-guard-corps-rebuffed",
    "source": "富途"
   },
   {
@@ -1733,11 +1775,18 @@
    "source": "财新"
   },
   {
-   "title": "世运电路：拟2亿元至3亿元回购股份用于员工持股计划或股权激励",
-   "summary": "【世运电路：拟2亿元至3亿元回购股份用于员工持股计划或股权激励】世运电路(603920.SH)公告称，公司拟以自有资金或自筹资金通过集中竞价交易方式回购股份，回购金额不低于2亿元且不超过3亿元，回购价格不高于55元/股，回购股份将用于员工持股计划或股权激励。",
-   "time": "2026-11-08 16:47:57",
-   "url": "https://finance.eastmoney.com/a/202611083925631252.html",
+   "title": "欧盟接近达成协议 将在英国脱欧后将其碳市场与欧盟体系挂钩",
+   "summary": "欧盟接近达成协议，将在英国脱欧后将其碳市场与欧盟体系挂钩。",
+   "time": "2026-11-08 17:16:10",
+   "url": "https://finance.eastmoney.com/a/202611083925633561.html",
    "source": "东财国际"
+  },
+  {
+   "title": "未来两年“战斗到底”还是“极限谈判”？白宫人事频繁更迭，“坡脚”特朗普摆出“强硬姿态” - 华尔街见闻",
+   "summary": "",
+   "time": "2026-11-08 16:08",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uX3pGTmgwQ0M1Q1MzUWRxYzVwZ0phY2RoNlhjWl9FTE1MMWhmTlNzOVVCbjFzTkpPSW5jcmVOQ0pZTDE3c3lUNERpcmlrMXBpd0VN?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社",
@@ -1754,24 +1803,17 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普邀请UFC总裁达纳·怀特出任白宫新闻秘书，怀特计划周一赴白宫会面 - 凤凰网",
+   "title": "欧盟接近达成协议，将在英国脱欧后将其碳市场与欧盟体系挂钩",
    "summary": "",
-   "time": "2026-11-08 16:02",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OenlKc3dTVUZtcXdBckc4UFlHTmNoUDBJbGV6SG5CUTVyVlY3eExIQThMM05ZMml5MEpYTmtpWXRkV19QODY0YVdXRVltVlJ0R3c?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "风范股份：河北产融集团将间接控制公司30.08%股份",
-   "summary": "",
-   "time": "2026-11-08 08:42:52",
-   "url": "https://news.10jqka.com.cn/20261108/c681581838.shtml",
+   "time": "2026-11-08 09:18:23",
+   "url": "https://news.10jqka.com.cn/20261108/c681582022.shtml",
    "source": "同花顺"
   },
   {
-   "title": "约旦河西岸37天发生674起袭击",
+   "title": "沙特阿美位于利雅得的办公楼周日遭到袭击",
    "summary": "",
-   "time": "2026-11-08 07:42:22",
-   "url": "https://news.futunn.com/flash/1003818298/674-attacks-occurred-in-the-west-bank-over-a-37",
+   "time": "2026-11-08 09:18:12",
+   "url": "https://news.futunn.com/flash/1003819246/saudi-aramco-s-office-building-in-riyadh-came-under-attack",
    "source": "富途"
   },
   {
@@ -1782,11 +1824,18 @@
    "source": "财新"
   },
   {
-   "title": "华新建材：拟约16.42亿美元收购巴西CSN CIMENTOS 99.99%股权",
-   "summary": "【华新建材：拟约16.42亿美元收购巴西CSN CIMENTOS 99.99%股权】华新建材(600801.SH)公告称，公司拟以预估约90.337亿巴西雷亚尔(约16.42亿美元)收购巴西国家钢铁公司持有的CSN CIMENTOS 99.99%股权。",
-   "time": "2026-11-08 16:47:44",
-   "url": "https://finance.eastmoney.com/a/202611083925630892.html",
+   "title": "今年前10个月国开行发放制造业贷款超4800亿元",
+   "summary": "【今年前10个月国开行发放制造业贷款超4800亿元】记者今天（8日）从国家开发银行了解到，今年以来，国开行综合运用多元化金融产品，为制造业企业提供覆盖技术研发、产能建设、日常经营的全周期投融资支持。1—10月，共发放制造业贷款超4800亿元，主要支持了传统产业改造升级、新兴产业培育壮大以及未来产业前瞻布局，有力助推了制造业高质量发展。",
+   "time": "2026-11-08 17:09:10",
+   "url": "https://finance.eastmoney.com/a/202611083925632891.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普邀请UFC总裁达纳·怀特出任白宫新闻秘书，怀特计划周一赴白宫会面 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-08 16:02",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1OenlKc3dTVUZtcXdBckc4UFlHTmNoUDBJbGV6SG5CUTVyVlY3eExIQThMM05ZMml5MEpYTmtpWXRkV19QODY0YVdXRVltVlJ0R3c?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "高盛猛砍黄金目标价！全球央行，仍在“买买买” - 凤凰网财经",
@@ -1803,24 +1852,17 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "为未来两年“激烈斗争”做准备！特朗普邀请“格斗联盟”UFC总裁出任白宫发言人 - 华尔街见闻",
+   "title": "德企欲研发“无限射程”太空导弹",
    "summary": "",
-   "time": "2026-11-08 15:20",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GX3hUcnh0VExEOVhBb0Q5a2ZhdWV1d3dNZjlhRXY0aElraElkakc0T3c4WjloRHlxNExQYWt5VHlTOHgtdEpTYmItSG9aYnZKel9R?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "深圳华强北：显卡价格降了 外国人涌入华强北抢购显卡",
-   "summary": "",
-   "time": "2026-11-08 08:32:40",
-   "url": "https://news.10jqka.com.cn/20261108/c681581809.shtml",
+   "time": "2026-11-08 09:15:44",
+   "url": "https://news.10jqka.com.cn/20261108/c681582010.shtml",
    "source": "同花顺"
   },
   {
-   "title": "2026年我国能源投资总额或达9400亿美元 居全球第一",
+   "title": "外交部部长助理蔡伟会见联合国日内瓦办事处总干事瓦罗瓦娅",
    "summary": "",
-   "time": "2026-11-08 07:17:34",
-   "url": "https://news.futunn.com/flash/1003818000/china-s-total-energy-investment-may-reach-940-billion-in",
+   "time": "2026-11-08 08:31:22",
+   "url": "https://news.futunn.com/flash/1003818816/cai-wei-assistant-minister-of-foreign-affairs-meets-with-tatiana",
    "source": "富途"
   },
   {
@@ -1831,25 +1873,25 @@
    "source": "财新"
   },
   {
-   "title": "沙特领导的联盟表示在南部地区拦截了一架无人机",
-   "summary": "沙特领导的联盟表示在南部地区拦截了一架无人机。",
-   "time": "2026-11-08 16:35:36",
-   "url": "https://finance.eastmoney.com/a/202611083925629363.html",
+   "title": "美媒称白宫办公厅副主任沃尔特斯将离职",
+   "summary": "【美媒称白宫办公厅副主任沃尔特斯将离职】据美国阿克西奥斯新闻网站7日报道，白宫办公厅副主任理查德·沃尔特斯将离职。",
+   "time": "2026-11-08 16:59:11",
+   "url": "https://finance.eastmoney.com/a/202611083925632042.html",
    "source": "东财国际"
   },
   {
-   "title": "22公司获得增持评级-更新中 - 中财网",
+   "title": "美媒：特朗普邀UFC总裁任白宫新闻秘书遭拒 - 上观新闻",
    "summary": "",
-   "time": "2026-11-08 15:41",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aYkpmZVViTm5DVXd6Q3ZFOVlENTZiTWlEckVDWHBIeE9MNFVWMnhtWDZYQWdwNWowc21BamxwZzEydUV0dkdTanBfNE93dlRfRVVCZUxR?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-08 15:19",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96S1FUcUFhaUltR21KZ1RwUUlBZHVNdTNSTktxRlJGa0dvanBnS1pOOWY0TGJ4T3dKY2pIQzhTdnpkSThuTGRjM1ZudXJaeUdOUmpFX2xVZlE4UQ?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(24)",
+   "富途": "ok(27)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1859,9 +1901,9 @@
   },
   "counts": {
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
    "同花顺": 7,
    "富途": 6,
    "东财早报": 1,
