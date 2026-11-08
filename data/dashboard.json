@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 20:57:01 CST",
- "generated_at_iso": "2026-11-08T20:57:01+08:00",
+ "generated_at": "2026-11-08 21:05:09 CST",
+ "generated_at_iso": "2026-11-08T21:05:09+08:00",
  "date": "2026-11-08",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1395,7 +1395,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1404,7 +1437,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1413,7 +1479,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1422,7 +1521,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75968.7,
-    "change": 71.1,
-    "change_pct": 0.09,
-    "source": "okx"
+    "price": 76016.0,
+    "change": 95.7,
+    "change_pct": 0.13,
+    "source": "okx",
+    "hist": [
+     83057.6,
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76027.8
+    ],
+    "sigma": 2.125
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2239.27,
-    "change": -2.44,
+    "price": 2239.95,
+    "change": -2.48,
     "change_pct": -0.11,
-    "source": "okx"
+    "source": "okx",
+    "hist": [
+     2511.87,
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2240.79
+    ],
+    "sigma": 2.975
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.58,
-    "change": -0.15,
-    "change_pct": -0.17,
-    "source": "okx"
+    "price": 89.57,
+    "change": -0.32,
+    "change_pct": -0.36,
+    "source": "okx",
+    "hist": [
+     110.49,
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.63
+    ],
+    "sigma": 2.831
    }
   ]
  },
@@ -1550,14 +1816,25 @@
  },
  "speakers": [
   {
-   "keyword": "外交部",
-   "label": "外交部",
-   "hint": "地缘政治表态影响风险偏好",
-   "title": "法国外交部长巴罗：欧洲方面将参与在阿布扎比举行的乌克兰问题会谈",
-   "summary": "法国外交部长巴罗表示，欧洲方面将参与在阿布扎比举行的乌克兰问题会谈。",
-   "time": "2026-11-08 19:52:15",
-   "url": "https://finance.eastmoney.com/a/202611083925650363.html",
-   "source": "东财国际",
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "得州民主党人塔拉里科当选参议员 现身《周六夜现场》与“特朗普”互动 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-08 20:35",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03OU5TQnBNMjNBNHB1VnJRMlh0VE5BblJJdHdZSWhHV0daRzBOLV9sZ25zSmtUYzJxN0tLOFVfUFBsNmRMamZ4MHl6aTRaSVpVRVE?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 6
+  },
+  {
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "美媒称白宫办公厅副主任沃尔特斯将离职",
+   "summary": "据美国阿克西奥斯新闻网站7日报道，白宫办公厅副主任理查德·沃尔特斯将离职。报道说，沃尔特斯已于6日递交辞呈。沃尔特斯是即将卸任的白宫办公厅主任苏茜·怀尔斯最亲近的政治助手之一。他的离职意味着即将接任白宫办公厅主任的斯蒂芬·米勒团队将接手更多核心职责。美国共和党在中期选举中遭遇惨败。美国总统特朗普6日宣布，白宫办公厅副主任米勒将从9日起接替怀尔斯，出任白宫办公厅主任。（新华国际）",
+   "time": "2026-11-08 17:31",
+   "url": "https://wallstreetcn.com/livenews/3196471",
+   "source": "华尔街见闻",
    "mentions": 1
   },
   {
@@ -1569,17 +1846,6 @@
    "time": "2026-11-06 06:00:27",
    "url": "http://finance.eastmoney.com/a/202611053923871240.html",
    "source": "东财早报",
-   "mentions": 1
-  },
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "【本文系数据通用户提前专享】美国中期选举成为对特朗普的公投，共和党大败 动摇其权力根基，任期进入更难预测的下半场",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-07/102502053.html?cxapp_link=true",
-   "source": "财新",
    "mentions": 1
   }
  ],
@@ -1654,23 +1920,13 @@
     "source": "机构观点"
    },
    {
-    "title": "中信建投：本周A股行情属于典型的超跌技术性修复，趋势性反转的基础尚不牢固",
-    "org": "中信建投",
+    "title": "国金证券：首次覆盖正海磁材给予买入评级，目标价19.2元_券商研报_数据解析 - 证券之星",
+    "org": "国金",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-08",
-    "url": "https://news.10jqka.com.cn/20261108/c681582370.shtml",
-    "source": "机构观点"
-   },
-   {
-    "title": "高盛猛砍黄金目标价！全球央行，仍在“买买买” - 凤凰网",
-    "org": "高盛",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-08",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94dmp2TG5ta1lJRVpKbC1kSUM2S1FLaWdWeDIwcXdWZElWOG1sSGNiWEFVYXlyN2NVNVNyaXZMcWZCNVlkYzlhRURRSnBiaGxO?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LMU1YT2xxOGZUZl9JMU1QQmxtT3pkclFtUG52NFFuRGlHXzNKVGVHU3Nnd0U4WWNmSE90V2gtcWx0eTU0R1FKYTcwMTJPSlBNYlMtSm5GclVNOHFuR1paaUJn?oc=5",
     "source": "机构观点"
    }
   ]
@@ -1680,17 +1936,31 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 20:57",
+   "time": "2026-11-08 21:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "国内券商总数104家 其中国资券商71家占比已近七成",
-   "summary": "【国内券商总数104家 其中国资券商71家占比已近七成】记者了解到，监管在最新一期《传导》内总结了当前证券业股权结构情况。截至2026年8月，104家券商中国资券商71家，占比68.3%，其中央企控股23家、地方控股48家；外资券商16家，占比15.4%；民营券商11家，占比10.5%；混合所有制券商6家，占比5.7%。",
-   "time": "2026-11-08 20:15:45",
-   "url": "https://finance.eastmoney.com/a/202611083925653470.html",
+   "title": "埃及发生列车脱轨事故致至少50人受伤",
+   "summary": "【埃及发生列车脱轨事故致至少50人受伤】据埃及方面8日消息，一列由埃及首都开罗开往该国南部阿斯旺的列车当天在埃及吉萨省境内发生脱轨事故，4节车厢脱轨，导致至少50人受伤。",
+   "time": "2026-11-08 20:50:43",
+   "url": "https://finance.eastmoney.com/a/202611083925656650.html",
    "source": "东财国际"
+  },
+  {
+   "title": "得州民主党人塔拉里科当选参议员 现身《周六夜现场》与“特朗普”互动 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-08 20:35",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE03OU5TQnBNMjNBNHB1VnJRMlh0VE5BblJJdHdZSWhHV0daRzBOLV9sZ25zSmtUYzJxN0tLOFVfUFBsNmRMamZ4MHl6aTRaSVpVRVE?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "风口研报 - 财联社",
+   "summary": "",
+   "time": "2026-11-08 20:20",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xTmRzQTZ2TG5TeUE1QzIwMmc4QWN6UEdVaTlCT3NBUV83YUNBLS1FS3lnNU1raW9aeVYxMTZXaXhJR1pqcnNMXw?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "美国佐治亚州州长布莱恩·坎普正考虑参加2028年总统竞选。坎普也在考虑参加2028年的参议员竞选。（华盛顿邮报）",
@@ -1700,18 +1970,18 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "法国外长：欧洲方面将参加阿布扎比的乌克兰问题会谈",
+   "title": "埃及列车脱轨事故致司机死亡、64人受伤",
    "summary": "",
-   "time": "2026-11-08 12:08:44",
-   "url": "https://news.futunn.com/flash/1003821179/french-foreign-minister-european-side-to-participate-in-ukraine-talks",
-   "source": "富途"
+   "time": "2026-11-08 13:03:19",
+   "url": "https://news.10jqka.com.cn/20261108/c681583271.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "11月8日 周日《新闻联播》要闻15条",
+   "title": "埃及发生列车脱轨事故",
    "summary": "",
-   "time": "2026-11-08 11:49:47",
-   "url": "https://news.10jqka.com.cn/20261108/c681582624.shtml",
-   "source": "同花顺"
+   "time": "2026-11-08 13:01:59",
+   "url": "https://news.futunn.com/flash/1003821760/train-derailment-incident-in-egypt",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月6日周五",
@@ -1728,32 +1998,46 @@
    "source": "财新"
   },
   {
-   "title": "海伦哲：三季度公司特种车辆业务承压 预计四季度环比将明显改善",
-   "summary": "【海伦哲：三季度公司特种车辆业务承压 预计四季度环比将明显改善】海伦哲(300201)近日接受机构调研时表示，第三季度公司特种车辆业务承压，主要受本部大客户招标延后、消防装备行业整体市场阶段性下滑影响，属于阶段性因素；预计第四季度环比将明显改善。",
-   "time": "2026-11-08 20:10:59",
-   "url": "https://finance.eastmoney.com/a/202611083925652417.html",
+   "title": "伊朗迈赫尔媒体集团首席执行官：应防止人工智能滥用",
+   "summary": "【伊朗迈赫尔媒体集团首席执行官：应防止人工智能滥用】伊朗迈赫尔媒体集团首席执行官穆罕默德·迈赫迪·拉赫马提日前在伊朗首都德黑兰接受新华社记者采访时表示，人工智能应用极其广泛，正在改变一些价值观，甚至有时可能被滥用并造成严重后果。在新的时代，有必要重温人类共同价值观，并思考人类命运共同体的未来。",
+   "time": "2026-11-08 20:49:39",
+   "url": "https://finance.eastmoney.com/a/202611083925656424.html",
    "source": "东财国际"
   },
   {
-   "title": "我国新一代光刻机模型亮相",
-   "summary": "11月5日至10日，第九届中国国际进口博览会在上海举行。会上，一系列重磅科技亮相。上海微电子装备集团携自主研发的新一代前道干式扫描投影光刻机SSC800、SSB800（模型）亮相中国馆，展示我国前道光刻装备自主化的阶段性成果。据悉，目前国产前道干式光刻机成像性能已与国际同类领先产品水平相当，套刻精度、生产效率紧密追赶国际标杆。（上证报）",
-   "time": "2026-11-08 16:16",
-   "url": "https://wallstreetcn.com/livenews/3196465",
+   "title": "特朗普称俄乌重大协议或覆盖全欧，专家：落地预期有限 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-08 19:31",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2eWd0ajQxbl94UjU4OERqeVBHZVdSSE1CMlRRc1B0bG5wblhUTVNJQjlpdVB4OVRHdHlwWVFGTHI2LW95QkVsZ0hXaEJMVUZ6VlE?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "中信建投研报：本周行情属超跌技术性修复反转基础尚不牢固_公司新闻_财经 - 证券之星",
+   "summary": "",
+   "time": "2026-11-08 19:46",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zT0pEbnMyS3VKRTkwTmZaMERXVE5WSFRjMEozRXNSLXoyTnVZUms1X0NudllpNXFyRTZ5eFNHUFhpZUtnU2JYaERaWkFLR1ZiSUc2OEl6SWZmWGxHUXNPRg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "美媒称白宫办公厅副主任沃尔特斯将离职",
+   "summary": "据美国阿克西奥斯新闻网站7日报道，白宫办公厅副主任理查德·沃尔特斯将离职。报道说，沃尔特斯已于6日递交辞呈。沃尔特斯是即将卸任的白宫办公厅主任苏茜·怀尔斯最亲近的政治助手之一。他的离职意味着即将接任白宫办公厅主任的斯蒂芬·米勒团队将接手更多核心职责。美国共和党在中期选举中遭遇惨败。美国总统特朗普6日宣布，白宫办公厅副主任米勒将从9日起接替怀尔斯，出任白宫办公厅主任。（新华国际）",
+   "time": "2026-11-08 17:31",
+   "url": "https://wallstreetcn.com/livenews/3196471",
    "source": "华尔街见闻"
   },
   {
-   "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
+   "title": "拓斯达发布工业双足人形机器人Star，双臂负载能力达10公斤",
    "summary": "",
-   "time": "2026-11-08 11:19:53",
-   "url": "https://news.futunn.com/flash/1003820564/anthropic-spends-3-4-billion-on-gas-fired-power-generation",
-   "source": "富途"
+   "time": "2026-11-08 12:56:50",
+   "url": "https://news.10jqka.com.cn/20261108/c681583208.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "Anthropic公司以34亿美元的价格购入天然气发电设施用于数据中心",
+   "title": "法国外长：欧洲方面将参加阿布扎比的乌克兰问题会谈",
    "summary": "",
-   "time": "2026-11-08 11:05:14",
-   "url": "https://news.10jqka.com.cn/20261108/c681582432.shtml",
-   "source": "同花顺"
+   "time": "2026-11-08 12:08:44",
+   "url": "https://news.futunn.com/flash/1003821179/french-foreign-minister-european-side-to-participate-in-ukraine-talks",
+   "source": "富途"
   },
   {
    "title": "【本文系数据通用户提前专享】2026年上半年险企投入权益市场6.6万亿元，市场的波动让权益资产作为“关键少数”的重要性进一步提升",
@@ -1763,32 +2047,46 @@
    "source": "财新"
   },
   {
-   "title": "以色列国防部长称对伊朗任务“尚未完成”",
-   "summary": "【以色列国防部长称对伊朗任务“尚未完成”】以色列国防部长卡茨8日称，以色列“对伊朗的任务尚未完成”，伊朗试图“重启获取核武器的进程”，以方将对威胁采取“先发制人”的行动。",
-   "time": "2026-11-08 19:54:51",
-   "url": "https://finance.eastmoney.com/a/202611083925650469.html",
+   "title": "一油轮在霍尔木兹海峡遭不明发射物击中",
+   "summary": "【一油轮在霍尔木兹海峡遭不明发射物击中】英国海上贸易行动办公室8日发布通报称，一艘油轮当地时间7日在驶离霍尔木兹海峡时遭不明发射物击中。",
+   "time": "2026-11-08 20:46:46",
+   "url": "https://finance.eastmoney.com/a/202611083925656297.html",
    "source": "东财国际"
   },
   {
-   "title": "上纬新材：消费级具身智能机器人“启元Q1”“启元T1” 下线1万台",
-   "summary": "上纬新材公告，2026年9月20日公司正式对外发布消费级具身智能机器人产品“启元Q1”和“启元T1”。截至公告披露日，公司消费级具身智能机器人产能有序爬坡、良率表现良好，“启元Q1”和“启元T1”下线10000台。公司营业收入主要来自新材料业务，消费级具身智能机器人实现营业收入占公司总营业收入比例较低，该业务目前仍处于规模化量产爬坡及商业化验证阶段，公司尚不能预测该业务对2026年度营收及盈利的影",
-   "time": "2026-11-08 15:36",
-   "url": "https://wallstreetcn.com/livenews/3196459",
+   "title": "防民主党清算先发制人 特朗普下令查政敌 - 联合早报",
+   "summary": "",
+   "time": "2026-11-08 19:15",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TdS1OeTZiY3BBRHotTWVWZlZlQmVDOFhPYjBjN05haTNtM2pqUHY4THFfNEFVa0l3MmdIVV9GeG80UDBnaFpialg2cTdoN0JFOGhUajBaT2k4ZDRxLUx0TnJoQWhRZGROdFE?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "国金证券：首次覆盖正海磁材给予买入评级，目标价19.2元_券商研报_数据解析 - 证券之星",
+   "summary": "",
+   "time": "2026-11-08 18:50",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LMU1YT2xxOGZUZl9JMU1QQmxtT3pkclFtUG52NFFuRGlHXzNKVGVHU3Nnd0U4WWNmSE90V2gtcWx0eTU0R1FKYTcwMTJPSlBNYlMtSm5GclVNOHFuR1paaUJn?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "我国新一代光刻机模型亮相",
+   "summary": "11月5日至10日，第九届中国国际进口博览会在上海举行。会上，一系列重磅科技亮相。上海微电子装备集团携自主研发的新一代前道干式扫描投影光刻机SSC800、SSB800（模型）亮相中国馆，展示我国前道光刻装备自主化的阶段性成果。据悉，目前国产前道干式光刻机成像性能已与国际同类领先产品水平相当，套刻精度、生产效率紧密追赶国际标杆。（上证报）",
+   "time": "2026-11-08 16:16",
+   "url": "https://wallstreetcn.com/livenews/3196465",
    "source": "华尔街见闻"
   },
   {
-   "title": "SpaceX计划于11月中旬进行第15次星舰测试发射",
+   "title": "俄罗斯“追加接管”日本烟草旗下3家企业",
    "summary": "",
-   "time": "2026-11-08 10:41:42",
-   "url": "https://news.futunn.com/flash/1003820125/spacex-plans-to-conduct-the-15th-test-launch-of-its",
-   "source": "富途"
+   "time": "2026-11-08 12:56:32",
+   "url": "https://news.10jqka.com.cn/20261108/c681583203.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "中信建投：本周A股行情属于典型的超跌技术性修复，趋势性反转的基础尚不牢固",
+   "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
    "summary": "",
-   "time": "2026-11-08 10:43:56",
-   "url": "https://news.10jqka.com.cn/20261108/c681582370.shtml",
-   "source": "同花顺"
+   "time": "2026-11-08 11:19:53",
+   "url": "https://news.futunn.com/flash/1003820564/anthropic-spends-3-4-billion-on-gas-fired-power-generation",
+   "source": "富途"
   },
   {
    "title": "【本文系数据通用户提前专享】现阶段工业机器人无法做到的事，人形机器人也解决不了",
@@ -1798,60 +2096,18 @@
    "source": "财新"
   },
   {
-   "title": "法国外交部长巴罗：欧洲方面将参与在阿布扎比举行的乌克兰问题会谈",
-   "summary": "法国外交部长巴罗表示，欧洲方面将参与在阿布扎比举行的乌克兰问题会谈。",
-   "time": "2026-11-08 19:52:15",
-   "url": "https://finance.eastmoney.com/a/202611083925650363.html",
+   "title": "中国宝武旗下子公司与14家国际合作伙伴集中签约",
+   "summary": "【中国宝武旗下子公司与14家国际合作伙伴集中签约】据中国宝武消息，11月8日下午，第九届中国国际进口博览会现场，中国宝武旗下相关子公司与来自欧洲、亚洲、美洲的14家国际知名合作伙伴，围绕智能装备、资源合作、矿石原料、生产协作四大领域签署合作协议，采购规模较往年进一步提升。",
+   "time": "2026-11-08 20:46:00",
+   "url": "https://finance.eastmoney.com/a/202611083925655089.html",
    "source": "东财国际"
   },
   {
-   "title": "沙特称拦截多枚导弹，利雅得市区传出多声巨响",
-   "summary": "当地时间11月8日上午，沙特民防部门向首都利雅得发布潜在危险预警，随后利雅得市区传出多声巨响。民防部门此后宣布危险解除。当天，以沙特为首的多国联军发言人图尔基·马利基表示，防空部队拦截并摧毁了两枚由也门胡塞武装向利雅得发射的弹道导弹。随后，联军又宣布，在利雅得地区和沙特南部地区拦截并摧毁两枚巡航导弹。",
-   "time": "2026-11-08 15:31",
-   "url": "https://wallstreetcn.com/livenews/3196457",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "伊朗革命卫队发言人驳斥美国收紧对伊经济施压的新计划，称其只是“文字游戏”",
+   "title": "张田勘：民主党大胜，特朗普执政势必反制 - 联合早报",
    "summary": "",
-   "time": "2026-11-08 09:21:55",
-   "url": "https://news.futunn.com/flash/1003819278/a-spokesperson-for-iran-s-islamic-revolutionary-guard-corps-rebuffed",
-   "source": "富途"
-  },
-  {
-   "title": "第三艘油轮在霍尔木兹海峡发生爆炸",
-   "summary": "",
-   "time": "2026-11-08 10:37:07",
-   "url": "https://news.10jqka.com.cn/20261108/c681582348.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "在与中国品牌李宁签下全新合约后，库里将成为史上首位单赛季总收入突破2亿美元的篮球运动员，连续两年登上《福布斯》NBA球员收入榜榜首。在2026年榜单上，杜兰特以约1.049亿美元的总收入位列第二",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-08/102502435.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "海湾国家签署铁路网项目协议",
-   "summary": "海湾国家签署铁路网项目协议。",
-   "time": "2026-11-08 19:42:43",
-   "url": "https://finance.eastmoney.com/a/202611083925649294.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "美发布月球基地建设与核动力月球车发射新规划",
-   "summary": "美国航空航天局7日宣布，已选定8家公司参与新一轮“月球商业运载服务计划”，并推进一款核动力月球车的研制，以助力月球基地建设。美国航空航天局当天在佛罗里达州肯尼迪航天中心举行的航空航天展会上发布了为期10年的新一轮“月球商业运载服务计划”合同框架，选定美国蓝色起源公司等8家公司参与美国航空航天局月球表面货物运送任务竞标，负责将科学载荷、技术设备及基础设施运送至月球表面。",
-   "time": "2026-11-08 15:20",
-   "url": "https://wallstreetcn.com/livenews/3196456",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "沙特阿美位于利雅得的办公楼周日遭到袭击",
-   "summary": "",
-   "time": "2026-11-08 09:18:12",
-   "url": "https://news.futunn.com/flash/1003819246/saudi-aramco-s-office-building-in-riyadh-came-under-attack",
-   "source": "富途"
+   "time": "2026-11-08 19:00",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxR0psMWxvcmFRMVM1NVdxeGtLLW1ENlFXdXVmbHlqaXhFdnQwWVI4c1dDUWdTY1pKMzM2S0ZBdmNaU0NvbGEyWVk5Q3M0NmlsWUcwMmVMTVFYb0VRcWl3TTZ3ZnBLSkM1LTQ4?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
@@ -1863,16 +2119,18 @@
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "FAIL:HTTPError",
-   "谷歌新闻·研报": "FAIL:HTTPError"
+   "谷歌新闻·国际": "ok(30)",
+   "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 10,
-   "华尔街见闻": 10,
-   "富途": 10,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
    "同花顺": 7,
+   "富途": 6,
    "东财早报": 1,
-   "财新": 10
+   "财新": 6
   }
  },
  "wuxing": {
