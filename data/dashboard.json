@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 13:37:49 CST",
- "generated_at_iso": "2026-11-08T13:37:49+08:00",
+ "generated_at": "2026-11-08 13:46:20 CST",
+ "generated_at_iso": "2026-11-08T13:46:20+08:00",
  "date": "2026-11-08",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75864.6,
-    "change": -173.7,
-    "change_pct": -0.23,
+    "price": 75813.7,
+    "change": -212.0,
+    "change_pct": -0.28,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2236.56,
-    "change": -12.41,
-    "change_pct": -0.55,
+    "price": 2234.49,
+    "change": -14.54,
+    "change_pct": -0.65,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.29,
-    "change": -0.86,
-    "change_pct": -0.95,
+    "price": 89.19,
+    "change": -1.01,
+    "change_pct": -1.12,
     "source": "okx"
    }
   ]
@@ -1682,7 +1682,7 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 13:38",
+   "time": "2026-11-08 13:47",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
@@ -1955,6 +1955,8 @@
   "color": "#e0533d",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "A股指数": "ReadTimeout: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
