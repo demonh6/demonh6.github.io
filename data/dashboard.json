@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 13:55:27 CST",
- "generated_at_iso": "2026-11-08T13:55:27+08:00",
+ "generated_at": "2026-11-08 14:03:40 CST",
+ "generated_at_iso": "2026-11-08T14:03:40+08:00",
  "date": "2026-11-08",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1395,7 +1395,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1404,7 +1437,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1413,7 +1479,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1422,7 +1521,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75813.4,
-    "change": -218.4,
-    "change_pct": -0.29,
-    "source": "okx"
+    "price": 75805.3,
+    "change": -228.5,
+    "change_pct": -0.3,
+    "source": "okx",
+    "hist": [
+     83057.6,
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     75792.0
+    ],
+    "sigma": 2.121
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2234.92,
-    "change": -14.61,
-    "change_pct": -0.65,
-    "source": "okx"
+    "price": 2234.39,
+    "change": -14.34,
+    "change_pct": -0.64,
+    "source": "okx",
+    "hist": [
+     2511.87,
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2234.11
+    ],
+    "sigma": 2.973
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.24,
-    "change": -1.02,
-    "change_pct": -1.13,
-    "source": "okx"
+    "price": 89.2,
+    "change": -1.09,
+    "change_pct": -1.21,
+    "source": "okx",
+    "hist": [
+     110.49,
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.2
+    ],
+    "sigma": 2.826
    }
   ]
  },
@@ -1550,6 +1816,39 @@
  },
  "speakers": [
   {
+   "keyword": "贝森特",
+   "label": "贝森特",
+   "hint": "美国财长，关税与财政政策的关键传声筒",
+   "title": "周末要闻汇总：国常会要求完善资本市场稳市机制 增强股市内在稳定性",
+   "summary": "【周末要闻汇总】国常会要求完善资本市场稳市机制，增强股市内在稳定性；何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话；商务部新闻发言人就美制裁中国企业答记者问；广电总局部署开展新一轮微短剧专项治理工作；深交所修订创业板指数编制方案，将单只样本股权重上限逐步调整至15%；已买入股票，中信、国泰海通、中金、银河、招商正式官宣；美国10月非农就业人数远超市场预期，交易员加大对美联储12月加息押注；纳指涨超1%，费城半导体指数涨超4%。",
+   "time": "2026-11-08 14:00:36",
+   "url": "https://finance.eastmoney.com/a/202611083925610461.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "周末要闻汇总：国常会要求完善资本市场稳市机制 增强股市内在稳定性",
+   "summary": "【周末要闻汇总】国常会要求完善资本市场稳市机制，增强股市内在稳定性；何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话；商务部新闻发言人就美制裁中国企业答记者问；广电总局部署开展新一轮微短剧专项治理工作；深交所修订创业板指数编制方案，将单只样本股权重上限逐步调整至15%；已买入股票，中信、国泰海通、中金、银河、招商正式官宣；美国10月非农就业人数远超市场预期，交易员加大对美联储12月加息押注；纳指涨超1%，费城半导体指数涨超4%。",
+   "time": "2026-11-08 14:00:36",
+   "url": "https://finance.eastmoney.com/a/202611083925610461.html",
+   "source": "东财国际",
+   "mentions": 2
+  },
+  {
+   "keyword": "商务部",
+   "label": "商务部",
+   "hint": "中美贸易与出口管制的对口部门",
+   "title": "周末要闻汇总：国常会要求完善资本市场稳市机制 增强股市内在稳定性",
+   "summary": "【周末要闻汇总】国常会要求完善资本市场稳市机制，增强股市内在稳定性；何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话；商务部新闻发言人就美制裁中国企业答记者问；广电总局部署开展新一轮微短剧专项治理工作；深交所修订创业板指数编制方案，将单只样本股权重上限逐步调整至15%；已买入股票，中信、国泰海通、中金、银河、招商正式官宣；美国10月非农就业人数远超市场预期，交易员加大对美联储12月加息押注；纳指涨超1%，费城半导体指数涨超4%。",
+   "time": "2026-11-08 14:00:36",
+   "url": "https://finance.eastmoney.com/a/202611083925610461.html",
+   "source": "东财国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1558,29 +1857,7 @@
    "time": "2026-11-08 13:25",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tMEZraHg3SzV5ZHMwMEUxMEpkTEtzU1Raa3llRHVnRXdfdWY4UWNQaDAwcXpZQ0RSZ1dHLXFhdnJ0aWtWc1lkLVg5M2RhZGdtQy1WZ0FEY3A4RG4xOFFidg?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 7
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "黄仁勋长女黄敏珊突然取消韩国之行 称因为“家庭原因”",
-   "summary": "【黄仁勋长女黄敏珊突然取消韩国之行 称因为“家庭原因”】11月8日，据韩联社报道，英伟达CEO黄仁勋的长女、英伟达物理AI平台产品与技术营销高级总监黄敏珊突然取消访韩计划，其与韩国副总理兼科技信息通信部长官裴庆勋的会面等日程随之告吹。",
-   "time": "2026-11-08 13:10:34",
-   "url": "https://finance.eastmoney.com/a/202611083925604341.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "希拉里称不担心特朗普赦免马斯克 赦免或使马斯克需作证 - 中华军事",
-   "summary": "",
-   "time": "2026-11-08 13:09",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqZHhWOHlhNm5mV1NlSWhWVzRLU0lqWGc3Rmc1WXE4Q3U1R0RjV2F3blYzWkhwcDBQUXAxUlVwMEFVVVBxaGU0Yi1YTGR5UlBmN1NLdlAxWGhJZmVZeFBuTHczZnpfRzd4ejlLVEpUSjY?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 6
   },
   {
    "keyword": "白宫",
@@ -1594,25 +1871,14 @@
    "mentions": 5
   },
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "高盛为何急着下调黄金目标价 美联储加息预期影响 - 中华网",
+   "keyword": "中国央行",
+   "label": "中国央行",
+   "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
+   "title": "周末要闻回顾：中国央行连续第24个月增持黄金",
    "summary": "",
-   "time": "2026-11-08 10:31",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SUEtQOFI2bDB2cDZ4ekI2RURJUDVWRkFGeXc5WmJWcS1jVGFiRUU1SExFVG9zVVdiMnQydVo1WkpvM0RlMC1fYkdkOHVDUU9YVC16X2JiamJoTmJZdXU4NmtJbzlsaU1Pd0F2eElEbEg?oc=5",
-   "source": "谷歌新闻·研报",
-   "mentions": 1
-  },
-  {
-   "keyword": "商务部",
-   "label": "商务部",
-   "hint": "中美贸易与出口管制的对口部门",
-   "title": "东方财富财经早餐 11月6日周五",
-   "summary": "【东方财富财经早餐 11月6日周五】1、调休减少，2027年放假安排来了！9天超长春节假期再次回归。2、商务部回应扩大自美采购农产品：持开放态度，对等降税落地是前提。3、上交所召开并购重组专题座谈会，汇聚市场合力助推上市公司提质增效。",
-   "time": "2026-11-06 06:00:27",
-   "url": "http://finance.eastmoney.com/a/202611053923871240.html",
-   "source": "东财早报",
+   "time": "2026-11-08 06:03:56",
+   "url": "https://news.10jqka.com.cn/20261108/c681581343.shtml",
+   "source": "同花顺",
    "mentions": 1
   }
  ],
@@ -1675,18 +1941,70 @@
     ]
    }
   ],
-  "reports": []
+  "reports": [
+   {
+    "title": "周末要闻汇总：国常会要求完善资本市场稳市机制 增强股市内在稳定性",
+    "org": "国泰海通",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-08",
+    "url": "https://finance.eastmoney.com/a/202611083925610461.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "华鑫证券：给予仕佳光子买入评级 - 财富号",
+    "org": "华鑫证券",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-08",
+    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TZG10VUxVMndHdUNoSHNQNE9BUlN2ZHZqRGliaFF1QVpGRzllZUxXMmFkQWpsRUxHcVppQWhuNm9JNkVkSXhJLWpFV3NYZmlTYzhTYVR4dHZRLThLRXpxam8tTEJic2gzQzBB?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "高盛为何急着下调黄金目标价 美联储加息预期影响 - 中华网",
+    "org": "高盛",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-08",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SUEtQOFI2bDB2cDZ4ekI2RURJUDVWRkFGeXc5WmJWcS1jVGFiRUU1SExFVG9zVVdiMnQydVo1WkpvM0RlMC1fYkdkOHVDUU9YVC16X2JiamJoTmJZdXU4NmtJbzlsaU1Pd0F2eElEbEg?oc=5",
+    "source": "机构观点"
+   }
+  ]
  },
  "alerts": [
   {
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 13:55",
+   "time": "2026-11-08 14:04",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
+  {
+   "title": "周末要闻汇总：国常会要求完善资本市场稳市机制 增强股市内在稳定性",
+   "summary": "【周末要闻汇总】国常会要求完善资本市场稳市机制，增强股市内在稳定性；何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话；商务部新闻发言人就美制裁中国企业答记者问；广电总局部署开展新一轮微短剧专项治理工作；深交所修订创业板指数编制方案，将单只样本股权重上限逐步调整至15%；已买入股票，中信、国泰海通、中金、银河、招商正式官宣；美国10月非农就业人数远超市场预期，交易员加大对美联储12月加息押注；纳指涨超1%，费城半导体指数涨超4%。",
+   "time": "2026-11-08 14:00:36",
+   "url": "https://finance.eastmoney.com/a/202611083925610461.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美德两国将于11月中旬就药品定价展开商讨。（Politico）",
+   "summary": "美德两国将于11月中旬就药品定价展开商讨。（Politico）",
+   "time": "2026-11-08 14:00",
+   "url": "https://wallstreetcn.com/livenews/3196451",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "华鑫证券：给予仕佳光子买入评级 - 财富号",
+   "summary": "",
+   "time": "2026-11-08 13:57",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5TZG10VUxVMndHdUNoSHNQNE9BUlN2ZHZqRGliaFF1QVpGRzllZUxXMmFkQWpsRUxHcVppQWhuNm9JNkVkSXhJLWpFV3NYZmlTYzhTYVR4dHZRLThLRXpxam8tTEJic2gzQzBB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
   {
    "title": "突然！特朗普下令：调查！ - 证券之星",
    "summary": "",
@@ -1695,31 +2013,10 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "黄仁勋长女黄敏珊突然取消韩国之行 称因为“家庭原因”",
-   "summary": "【黄仁勋长女黄敏珊突然取消韩国之行 称因为“家庭原因”】11月8日，据韩联社报道，英伟达CEO黄仁勋的长女、英伟达物理AI平台产品与技术营销高级总监黄敏珊突然取消访韩计划，其与韩国副总理兼科技信息通信部长官裴庆勋的会面等日程随之告吹。",
-   "time": "2026-11-08 13:10:34",
-   "url": "https://finance.eastmoney.com/a/202611083925604341.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "以军称北部疑有敌对飞行器渗透",
-   "summary": "以色列国防军8日称，初步报告显示，以色列北部的扎里特和绍梅拉“因疑有敌对飞行器渗透而响起警报”。详情正在核查中。（新华社）",
-   "time": "2026-11-08 12:41",
-   "url": "https://wallstreetcn.com/livenews/3196447",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "高盛为何急着下调黄金目标价 美联储加息预期影响 - 中华网",
+   "title": "周末要闻回顾：中国央行连续第24个月增持黄金",
    "summary": "",
-   "time": "2026-11-08 10:31",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SUEtQOFI2bDB2cDZ4ekI2RURJUDVWRkFGeXc5WmJWcS1jVGFiRUU1SExFVG9zVVdiMnQydVo1WkpvM0RlMC1fYkdkOHVDUU9YVC16X2JiamJoTmJZdXU4NmtJbzlsaU1Pd0F2eElEbEg?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "日本自民党或考虑处分前首相石破茂",
-   "summary": "",
-   "time": "2026-11-08 05:07:17",
-   "url": "https://news.10jqka.com.cn/20261108/c681581229.shtml",
+   "time": "2026-11-08 06:03:56",
+   "url": "https://news.10jqka.com.cn/20261108/c681581343.shtml",
    "source": "同花顺"
   },
   {
@@ -1744,38 +2041,38 @@
    "source": "财新"
   },
   {
-   "title": "希拉里称不担心特朗普赦免马斯克 赦免或使马斯克需作证 - 中华军事",
-   "summary": "",
-   "time": "2026-11-08 13:09",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqZHhWOHlhNm5mV1NlSWhWVzRLU0lqWGc3Rmc1WXE4Q3U1R0RjV2F3blYzWkhwcDBQUXAxUlVwMEFVVVBxaGU0Yi1YTGR5UlBmN1NLdlAxWGhJZmVZeFBuTHczZnpfRzd4ejlLVEpUSjY?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "沙特首都利雅得传出剧烈爆炸声",
-   "summary": "【沙特首都利雅得传出剧烈爆炸声】当地时间8日，沙特首都利雅得传出剧烈爆炸声，当地居民收到防空警报。",
-   "time": "2026-11-08 13:07:21",
-   "url": "https://finance.eastmoney.com/a/202611083925604428.html",
+   "title": "中广核吉木乃县黑山75万千瓦风电项目全容量并网投运",
+   "summary": "【中广核吉木乃县黑山75万千瓦风电项目全容量并网投运】中国广核集团消息，11月7日，中广核吉木乃县黑山75万千瓦风电项目全容量并网投运。",
+   "time": "2026-11-08 13:50:00",
+   "url": "https://finance.eastmoney.com/a/202611083925610053.html",
    "source": "东财国际"
   },
   {
-   "title": "白宫副幕僚长沃尔特斯即将离职。（Axios）",
-   "summary": "白宫副幕僚长沃尔特斯即将离职。（Axios）",
-   "time": "2026-11-08 12:22",
-   "url": "https://wallstreetcn.com/livenews/3196446",
+   "title": "以军称北部疑有敌对飞行器渗透",
+   "summary": "以色列国防军8日称，初步报告显示，以色列北部的扎里特和绍梅拉“因疑有敌对飞行器渗透而响起警报”。详情正在核查中。（新华社）",
+   "time": "2026-11-08 12:41",
+   "url": "https://wallstreetcn.com/livenews/3196447",
    "source": "华尔街见闻"
   },
   {
-   "title": "1公司获得增持评级-更新中 - 中财网",
+   "title": "高盛为何急着下调黄金目标价 美联储加息预期影响 - 中华网",
    "summary": "",
-   "time": "2026-11-08 10:16",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aYkpmZVViTm5DVXd6Q3ZFOVlENTZiTWlEckVDWHBIeE9MNFVWMnhtWDZYQWdwNWowc21BamxwZzEydUV0dkdTanBfNE93dlRfRVVCZUxR?oc=5",
+   "time": "2026-11-08 10:31",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SUEtQOFI2bDB2cDZ4ekI2RURJUDVWRkFGeXc5WmJWcS1jVGFiRUU1SExFVG9zVVdiMnQydVo1WkpvM0RlMC1fYkdkOHVDUU9YVC16X2JiamJoTmJZdXU4NmtJbzlsaU1Pd0F2eElEbEg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "全球首个通报评议人才培养国际标准发布",
+   "title": "UFC总裁白大拿回应获邀任新闻秘书 特朗普提议带格斗选手入白宫 - 中华网",
    "summary": "",
-   "time": "2026-11-08 05:04:03",
-   "url": "https://news.10jqka.com.cn/20261108/c681581223.shtml",
+   "time": "2026-11-08 13:05",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SMkZodTE4VktiOWZJVzJkX28tRUhQRGlwXzdaVXdIMVRGeGotTjcxZTlsYktSRlFlNVdHUlBzUEJ4RXEtcDVBeGxkTlhWdGZfWHlVdTAwOWdteEYwaHpyTmZQU0g1N185eGpzaWpQcnU?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "日本自民党或考虑处分前首相石破茂",
+   "summary": "",
+   "time": "2026-11-08 05:07:17",
+   "url": "https://news.10jqka.com.cn/20261108/c681581229.shtml",
    "source": "同花顺"
   },
   {
@@ -1793,38 +2090,38 @@
    "source": "财新"
   },
   {
-   "title": "UFC总裁白大拿回应获邀任新闻秘书 特朗普提议带格斗选手入白宫 - 中华网",
-   "summary": "",
-   "time": "2026-11-08 13:05",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SMkZodTE4VktiOWZJVzJkX28tRUhQRGlwXzdaVXdIMVRGeGotTjcxZTlsYktSRlFlNVdHUlBzUEJ4RXEtcDVBeGxkTlhWdGZfWHlVdTAwOWdteEYwaHpyTmZQU0g1N185eGpzaWpQcnU?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "“11块钱买房”噱头叫停 背后的鹤岗正悄然转型",
-   "summary": "【“11块钱买房”噱头叫停 背后的鹤岗正悄然转型】在鹤岗，11块钱就能买房了？11月5日，黑龙江鹤岗一套住宅在阿里资产平台“拍出”11元的价格，迅速引爆舆论，难道鹤岗的房子已经便宜到不如一杯奶茶？事实上，这并不算是“拍卖”，更像是平台的一次抽奖活动。目前，相关“拍卖”已经中止。",
-   "time": "2026-11-08 13:07:10",
-   "url": "https://finance.eastmoney.com/a/202611083925603450.html",
+   "title": "沙特联军称摧毁胡塞射向利雅得导弹",
+   "summary": "【沙特联军称摧毁胡塞射向利雅得导弹】沙特主导的多国联军今天（11月8日）表示拦截并摧毁了两枚也门胡塞武装向沙特首都利雅得发射的导弹。稍早前，沙特利雅得传出剧烈爆炸声。",
+   "time": "2026-11-08 13:46:58",
+   "url": "https://finance.eastmoney.com/a/202611083925609429.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普邀请UFC掌门人出任白宫新闻秘书遭拒绝",
-   "summary": "美国总统特朗普11月7日在社交媒体发文表示，他已向其好友、终极格斗冠军赛（UFC）总裁达纳·怀特发出邀请，希望对方出任白宫新闻秘书一职。特朗普在帖文中称，他已正式邀请达纳·怀特担任自己的首席发言人。他还在文中提出，希望怀特可以带上几位UFC选手作为“助理”，并补充写道：“达纳将会是一位与众不同的新闻秘书。”截至目前，白宫方面尚未对这一消息作出证实。美国有线电视新闻网7日则报道称，达纳·怀特已拒绝了",
-   "time": "2026-11-08 08:41",
-   "url": "https://wallstreetcn.com/livenews/3196438",
+   "title": "白宫副幕僚长沃尔特斯即将离职。（Axios）",
+   "summary": "白宫副幕僚长沃尔特斯即将离职。（Axios）",
+   "time": "2026-11-08 12:22",
+   "url": "https://wallstreetcn.com/livenews/3196446",
    "source": "华尔街见闻"
   },
   {
-   "title": "4股获买入评级 最新:昊华能源 - 中财网",
+   "title": "1公司获得增持评级-更新中 - 中财网",
    "summary": "",
-   "time": "2026-11-08 08:21",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pc25RLWI2MFZ4Uk4zLTFkVWFNSHdsS05LM3RVQUljdzliZUJBYUpJZnZaeTAwZHExT0tucTE0UGlHejhpMkFWYnJHaHlBdU5zX0g3TGVB?oc=5",
+   "time": "2026-11-08 10:16",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aYkpmZVViTm5DVXd6Q3ZFOVlENTZiTWlEckVDWHBIeE9MNFVWMnhtWDZYQWdwNWowc21BamxwZzEydUV0dkdTanBfNE93dlRfRVVCZUxR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "以军称以北部出现敌方飞行器为乌龙",
+   "title": "美媒：特朗普邀UFC总裁任白宫新闻秘书遭拒 - 搜狐网",
    "summary": "",
-   "time": "2026-11-08 04:51:19",
-   "url": "https://news.10jqka.com.cn/20261108/c681581201.shtml",
+   "time": "2026-11-08 12:46",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTl9wMGVkZFhxNGtxSXZjeFZadkFFX0tqOW5DS3Y0c1MzY0pkMnFKbWJCTWRhd01YRWVmRld2djdLczMyaXdQbzZ6RURIZzd6Q2IwanVKSkRMdFVHQkVhdmV6R3RMcWgteXNCSnZaTFpGN0RvQ21uWHcyT1NiVUxEQUxMT1VmeU1P?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "全球首个通报评议人才培养国际标准发布",
+   "summary": "",
+   "time": "2026-11-08 05:04:03",
+   "url": "https://news.10jqka.com.cn/20261108/c681581223.shtml",
    "source": "同花顺"
   },
   {
@@ -1842,18 +2139,18 @@
    "source": "财新"
   },
   {
-   "title": "美媒：特朗普邀UFC总裁任白宫新闻秘书遭拒 - 搜狐网",
-   "summary": "",
-   "time": "2026-11-08 12:46",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTl9wMGVkZFhxNGtxSXZjeFZadkFFX0tqOW5DS3Y0c1MzY0pkMnFKbWJCTWRhd01YRWVmRld2djdLczMyaXdQbzZ6RURIZzd6Q2IwanVKSkRMdFVHQkVhdmV6R3RMcWgteXNCSnZaTFpGN0RvQ21uWHcyT1NiVUxEQUxMT1VmeU1P?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "西渝高铁北碚天府嘉陵江特大桥顺利合龙",
+   "summary": "【西渝高铁北碚天府嘉陵江特大桥顺利合龙】记者从中国铁路成都局集团重庆建设指挥部获悉，11月8日，随着最后一方混凝土的浇筑完成，西渝高铁北碚天府嘉陵江特大桥顺利实现合龙，为全线如期通车奠定了坚实基础。",
+   "time": "2026-11-08 13:43:39",
+   "url": "https://finance.eastmoney.com/a/202611083925608513.html",
+   "source": "东财国际"
   },
   {
-   "title": "以色列北部因疑有敌对飞行器渗透响起警报 军方称“识别错误”",
-   "summary": "【以色列北部因疑有敌对飞行器渗透响起警报 军方称“识别错误”】据央视新闻，以色列国防军8日称，初步报告显示，以色列北部的扎里特和绍梅拉“因疑有敌对飞行器渗透而响起警报”。随后，以色列军方针对稍早前“有疑似敌方飞行器侵入以色列北部领空”的声明作出澄清，表示这是一起识别错误导致的误报事件。",
-   "time": "2026-11-08 13:06:58",
-   "url": "https://finance.eastmoney.com/a/202611083925604559.html",
-   "source": "东财国际"
+   "title": "特朗普邀请UFC掌门人出任白宫新闻秘书遭拒绝",
+   "summary": "美国总统特朗普11月7日在社交媒体发文表示，他已向其好友、终极格斗冠军赛（UFC）总裁达纳·怀特发出邀请，希望对方出任白宫新闻秘书一职。特朗普在帖文中称，他已正式邀请达纳·怀特担任自己的首席发言人。他还在文中提出，希望怀特可以带上几位UFC选手作为“助理”，并补充写道：“达纳将会是一位与众不同的新闻秘书。”截至目前，白宫方面尚未对这一消息作出证实。美国有线电视新闻网7日则报道称，达纳·怀特已拒绝了",
+   "time": "2026-11-08 08:41",
+   "url": "https://wallstreetcn.com/livenews/3196438",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
@@ -1869,10 +2166,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
    "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 7,
    "同花顺": 7,
    "富途": 6,
    "东财早报": 1,
