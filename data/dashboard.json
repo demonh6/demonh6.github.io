@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-08 19:58:14 CST",
- "generated_at_iso": "2026-11-08T19:58:14+08:00",
+ "generated_at": "2026-11-08 20:06:22 CST",
+ "generated_at_iso": "2026-11-08T20:06:22+08:00",
  "date": "2026-11-08",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1395,7 +1395,40 @@
     "price": 4083.17,
     "change": -30.33,
     "change_pct": -0.74,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     4148.4,
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6
+    ],
+    "sigma": 1.512
    },
    {
     "name": "COMEX白银",
@@ -1404,7 +1437,40 @@
     "price": 52.006,
     "change": -0.37,
     "change_pct": -0.71,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     61.025,
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96
+    ],
+    "sigma": 2.903
    },
    {
     "name": "WTI原油",
@@ -1413,7 +1479,40 @@
     "price": 90.238,
     "change": -0.282,
     "change_pct": -0.31,
-    "quote_time": "05:59:59 2026-11-07"
+    "quote_time": "05:59:59 2026-11-07",
+    "hist": [
+     93.28,
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34
+    ],
+    "sigma": 3.031
    },
    {
     "name": "布伦特原油",
@@ -1422,7 +1521,75 @@
     "price": 97.853,
     "change": -0.437,
     "change_pct": -0.44,
-    "quote_time": "06:59:52 2026-11-07"
+    "quote_time": "06:59:52 2026-11-07",
+    "hist": [
+     98.63,
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92
+    ],
+    "sigma": 3.259,
+    "volume": 337121.0,
+    "vol_chg_pct": -29.5,
+    "vol_pctile": 42.4,
+    "vol_hist": [
+     521490.0,
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75973.7,
-    "change": -8.8,
-    "change_pct": -0.01,
-    "source": "okx"
+    "price": 75990.3,
+    "change": -12.1,
+    "change_pct": -0.02,
+    "source": "okx",
+    "hist": [
+     83057.6,
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     75986.5
+    ],
+    "sigma": 2.124
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2239.99,
-    "change": -5.12,
-    "change_pct": -0.23,
-    "source": "okx"
+    "price": 2241.17,
+    "change": -3.36,
+    "change_pct": -0.15,
+    "source": "okx",
+    "hist": [
+     2511.87,
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2241.16
+    ],
+    "sigma": 2.975
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.68,
-    "change": -0.31,
-    "change_pct": -0.34,
-    "source": "okx"
+    "price": 89.74,
+    "change": -0.22,
+    "change_pct": -0.24,
+    "source": "okx",
+    "hist": [
+     110.49,
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.74
+    ],
+    "sigma": 2.833
    }
   ]
  },
@@ -1550,26 +1816,26 @@
  },
  "speakers": [
   {
+   "keyword": "外交部",
+   "label": "外交部",
+   "hint": "地缘政治表态影响风险偏好",
+   "title": "法国外交部长巴罗：欧洲方面将参与在阿布扎比举行的乌克兰问题会谈",
+   "summary": "法国外交部长巴罗表示，欧洲方面将参与在阿布扎比举行的乌克兰问题会谈。",
+   "time": "2026-11-08 19:52:15",
+   "url": "https://finance.eastmoney.com/a/202611083925650363.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "防民主党清算先发制人 特朗普下令查政敌 - 联合早报",
+   "title": "特朗普称俄乌重大协议或覆盖全欧，专家：落地预期有限 - 凤凰网",
    "summary": "",
-   "time": "2026-11-08 19:15",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TdS1OeTZiY3BBRHotTWVWZlZlQmVDOFhPYjBjN05haTNtM2pqUHY4THFfNEFVa0l3MmdIVV9GeG80UDBnaFpialg2cTdoN0JFOGhUajBaT2k4ZDRxLUx0TnJoQWhRZGROdFE?oc=5",
+   "time": "2026-11-08 19:31",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2eWd0ajQxbl94UjU4OERqeVBHZVdSSE1CMlRRc1B0bG5wblhUTVNJQjlpdVB4OVRHdHlwWVFGTHI2LW95QkVsZ0hXaEJMVUZ6VlE?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 5
-  },
-  {
-   "keyword": "白宫",
-   "label": "白宫",
-   "hint": "美国官方政策表态的权威渠道",
-   "title": "特朗普邀UFC老板出任白宫发言人，对方或已婉拒 - 华尔街见闻",
-   "summary": "",
-   "time": "2026-11-08 18:45",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qMXVSdjl1X05DQlN5TG55clJxLUluWUtSRDhBakdLdHNienA4ajNUWXcwdHdtU1hWWFhWVGg3M1Rlbm15ZmhhYjBGdWY5S2o2Wl9Z?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 4
   },
   {
    "keyword": "商务部",
@@ -1644,6 +1910,16 @@
   ],
   "reports": [
    {
+    "title": "中信建投研报：本周行情属超跌技术性修复反转基础尚不牢固_公司新闻_财经 - 证券之星",
+    "org": "中信建投",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-08",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zT0pEbnMyS3VKRTkwTmZaMERXVE5WSFRjMEozRXNSLXoyTnVZUms1X0NudllpNXFyRTZ5eFNHUFhpZUtnU2JYaERaWkFLR1ZiSUc2OEl6SWZmWGxHUXNPRg?oc=5",
+    "source": "机构观点"
+   },
+   {
     "title": "中信建投：本周A股行情属于典型的超跌技术性修复，趋势性反转的基础尚不牢固",
     "org": "中信建投",
     "rating": "",
@@ -1662,16 +1938,6 @@
     "date": "2026-11-08",
     "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94dmp2TG5ta1lJRVpKbC1kSUM2S1FLaWdWeDIwcXdWZElWOG1sSGNiWEFVYXlyN2NVNVNyaXZMcWZCNVlkYzlhRURRSnBiaGxO?oc=5",
     "source": "机构观点"
-   },
-   {
-    "title": "中信建投：本周行情属于典型的超跌技术性修复 趋势性反转的基础尚不牢固",
-    "org": "中信建投",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-08",
-    "url": "https://finance.eastmoney.com/a/202611083925640366.html",
-    "source": "机构观点"
    }
   ]
  },
@@ -1680,23 +1946,30 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-08 19:58",
+   "time": "2026-11-08 20:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "中信建投：维持对北美算力和国产AI算力产业链长期看好",
-   "summary": "【中信建投：维持对北美算力和国产AI算力产业链长期看好】中信建投证券发布通信行业2027年度投资策略报告称，大模型商业化在2026年快速扩张，截至2026年9月底，OpenAI和Anthropic两家ARR合计约1240亿美元。北美四大CSP厂商2026年第三季度合计资本开支约2087亿美元，同比增长84.2%，AI基础设施投资保持高强度。中信建投对行业前景保持乐观，看好AI发展带来的算力需求，维持对北美算力和国产AI算力产业链的长期看好。",
-   "time": "2026-11-08 19:26:38",
-   "url": "https://finance.eastmoney.com/a/202611083925648128.html",
+   "title": "以色列国防部长称对伊朗任务“尚未完成”",
+   "summary": "【以色列国防部长称对伊朗任务“尚未完成”】以色列国防部长卡茨8日称，以色列“对伊朗的任务尚未完成”，伊朗试图“重启获取核武器的进程”，以方将对威胁采取“先发制人”的行动。",
+   "time": "2026-11-08 19:54:51",
+   "url": "https://finance.eastmoney.com/a/202611083925650469.html",
    "source": "东财国际"
   },
   {
-   "title": "防民主党清算先发制人 特朗普下令查政敌 - 联合早报",
+   "title": "中信建投研报：本周行情属超跌技术性修复反转基础尚不牢固_公司新闻_财经 - 证券之星",
    "summary": "",
-   "time": "2026-11-08 19:15",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TdS1OeTZiY3BBRHotTWVWZlZlQmVDOFhPYjBjN05haTNtM2pqUHY4THFfNEFVa0l3MmdIVV9GeG80UDBnaFpialg2cTdoN0JFOGhUajBaT2k4ZDRxLUx0TnJoQWhRZGROdFE?oc=5",
+   "time": "2026-11-08 19:46",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zT0pEbnMyS3VKRTkwTmZaMERXVE5WSFRjMEozRXNSLXoyTnVZUms1X0NudllpNXFyRTZ5eFNHUFhpZUtnU2JYaERaWkFLR1ZiSUc2OEl6SWZmWGxHUXNPRg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普称俄乌重大协议或覆盖全欧，专家：落地预期有限 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-08 19:31",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB2eWd0ajQxbl94UjU4OERqeVBHZVdSSE1CMlRRc1B0bG5wblhUTVNJQjlpdVB4OVRHdHlwWVFGTHI2LW95QkVsZ0hXaEJMVUZ6VlE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1707,11 +1980,11 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "11月8日 周日《新闻联播》要闻15条",
    "summary": "",
-   "time": "2026-11-08 17:46",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBydFl1MF9zaVczblZiWEV1UVdwZ0pMa0V0bS1vLVI4b0tmWmxReHVpZ3lIWlA3SW1IRkx3cGpiYTFDcXRHdnA1TQ?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-08 11:49:47",
+   "url": "https://news.10jqka.com.cn/20261108/c681582624.shtml",
+   "source": "同花顺"
   },
   {
    "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
@@ -1719,13 +1992,6 @@
    "time": "2026-11-08 11:19:53",
    "url": "https://news.futunn.com/flash/1003820564/anthropic-spends-3-4-billion-on-gas-fired-power-generation",
    "source": "富途"
-  },
-  {
-   "title": "Anthropic公司以34亿美元的价格购入天然气发电设施用于数据中心",
-   "summary": "",
-   "time": "2026-11-08 11:05:14",
-   "url": "https://news.10jqka.com.cn/20261108/c681582432.shtml",
-   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月6日周五",
@@ -1742,17 +2008,24 @@
    "source": "财新"
   },
   {
-   "title": "伊朗称当天三艘油轮在霍尔木兹海峡爆炸起火",
-   "summary": "【伊朗称当天三艘油轮在霍尔木兹海峡爆炸起火】当地时间8日，伊朗伊斯兰革命卫队海军表示，又有一艘油轮试图穿越霍尔木兹海峡未经伊朗授权的航线，发生爆炸并引发剧烈火灾。自当天凌晨起，已有三艘油轮爆炸起火。",
-   "time": "2026-11-08 19:07:37",
-   "url": "https://finance.eastmoney.com/a/202611083925642850.html",
+   "title": "法国外交部长巴罗：欧洲方面将参与在阿布扎比举行的乌克兰问题会谈",
+   "summary": "法国外交部长巴罗表示，欧洲方面将参与在阿布扎比举行的乌克兰问题会谈。",
+   "time": "2026-11-08 19:52:15",
+   "url": "https://finance.eastmoney.com/a/202611083925650363.html",
    "source": "东财国际"
   },
   {
-   "title": "张田勘：民主党大胜，特朗普执政势必反制 - 联合早报",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-08 19:00",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxR0psMWxvcmFRMVM1NVdxeGtLLW1ENlFXdXVmbHlqaXhFdnQwWVI4c1dDUWdTY1pKMzM2S0ZBdmNaU0NvbGEyWVk5Q3M0NmlsWUcwMmVMTVFYb0VRcWl3TTZ3ZnBLSkM1LTQ4?oc=5",
+   "time": "2026-11-08 17:46",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBydFl1MF9zaVczblZiWEV1UVdwZ0pMa0V0bS1vLVI4b0tmWmxReHVpZ3lIWlA3SW1IRkx3cGpiYTFDcXRHdnA1TQ?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "防民主党清算先发制人 特朗普下令查政敌 - 联合早报",
+   "summary": "",
+   "time": "2026-11-08 19:15",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TdS1OeTZiY3BBRHotTWVWZlZlQmVDOFhPYjBjN05haTNtM2pqUHY4THFfNEFVa0l3MmdIVV9GeG80UDBnaFpialg2cTdoN0JFOGhUajBaT2k4ZDRxLUx0TnJoQWhRZGROdFE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1763,11 +2036,11 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "11公司获得推荐评级-更新中 - 中财网",
+   "title": "Anthropic公司以34亿美元的价格购入天然气发电设施用于数据中心",
    "summary": "",
-   "time": "2026-11-08 16:26",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Dc0lEZ1pIa3gtTnVwQU15Mm1XUWpsUHhLUmc2RTRmLVdNc1E4dzBhRTRwUndhdjN0TW95MjdGdXBMRE1OaU92b3ByaHhZenFGd1A5S0JB?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-08 11:05:14",
+   "url": "https://news.10jqka.com.cn/20261108/c681582432.shtml",
+   "source": "同花顺"
   },
   {
    "title": "SpaceX计划于11月中旬进行第15次星舰测试发射",
@@ -1777,13 +2050,6 @@
    "source": "富途"
   },
   {
-   "title": "中信建投：本周A股行情属于典型的超跌技术性修复，趋势性反转的基础尚不牢固",
-   "summary": "",
-   "time": "2026-11-08 10:43:56",
-   "url": "https://news.10jqka.com.cn/20261108/c681582370.shtml",
-   "source": "同花顺"
-  },
-  {
    "title": "【本文系数据通用户提前专享】2026年上半年险企投入权益市场6.6万亿元，市场的波动让权益资产作为“关键少数”的重要性进一步提升",
    "summary": "",
    "time": "",
@@ -1791,17 +2057,24 @@
    "source": "财新"
   },
   {
-   "title": "ANTHROPIC公司以34亿美元的价格购入天然气发电设施用于数据中心",
-   "summary": "ANTHROPIC公司以34亿美元的价格购入天然气发电设施用于数据中心。",
-   "time": "2026-11-08 19:04:48",
-   "url": "https://finance.eastmoney.com/a/202611083925642558.html",
+   "title": "海湾国家签署铁路网项目协议",
+   "summary": "海湾国家签署铁路网项目协议。",
+   "time": "2026-11-08 19:42:43",
+   "url": "https://finance.eastmoney.com/a/202611083925649294.html",
    "source": "东财国际"
   },
   {
-   "title": "最新封面报道｜“蓝色海啸”扑向特朗普 - 财新周刊",
+   "title": "11公司获得推荐评级-更新中 - 中财网",
    "summary": "",
-   "time": "2026-11-08 18:50",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xajB3QVdLZ1VMVW9faGZiTENaSE9HRzJjM21mdndDcWQ3U2NOa2dPUjFoMmRHMWFFVWRYWUpHYWotN0hvaV90M2ZhQXpBV1Y2YVBxZWpsSDZNNmo4UzVXNQ?oc=5",
+   "time": "2026-11-08 16:26",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Dc0lEZ1pIa3gtTnVwQU15Mm1XUWpsUHhLUmc2RTRmLVdNc1E4dzBhRTRwUndhdjN0TW95MjdGdXBMRE1OaU92b3ByaHhZenFGd1A5S0JB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "张田勘：民主党大胜，特朗普执政势必反制 - 联合早报",
+   "summary": "",
+   "time": "2026-11-08 19:00",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxR0psMWxvcmFRMVM1NVdxeGtLLW1ENlFXdXVmbHlqaXhFdnQwWVI4c1dDUWdTY1pKMzM2S0ZBdmNaU0NvbGEyWVk5Q3M0NmlsWUcwMmVMTVFYb0VRcWl3TTZ3ZnBLSkM1LTQ4?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1812,11 +2085,11 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "高盛猛砍黄金目标价！全球央行，仍在“买买买” - 凤凰网",
+   "title": "中信建投：本周A股行情属于典型的超跌技术性修复，趋势性反转的基础尚不牢固",
    "summary": "",
-   "time": "2026-11-08 15:43",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94dmp2TG5ta1lJRVpKbC1kSUM2S1FLaWdWeDIwcXdWZElWOG1sSGNiWEFVYXlyN2NVNVNyaXZMcWZCNVlkYzlhRURRSnBiaGxO?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-08 10:43:56",
+   "url": "https://news.10jqka.com.cn/20261108/c681582370.shtml",
+   "source": "同花顺"
   },
   {
    "title": "伊朗革命卫队发言人驳斥美国收紧对伊经济施压的新计划，称其只是“文字游戏”",
@@ -1826,13 +2099,6 @@
    "source": "富途"
   },
   {
-   "title": "第三艘油轮在霍尔木兹海峡发生爆炸",
-   "summary": "",
-   "time": "2026-11-08 10:37:07",
-   "url": "https://news.10jqka.com.cn/20261108/c681582348.shtml",
-   "source": "同花顺"
-  },
-  {
    "title": "【本文系数据通用户提前专享】现阶段工业机器人无法做到的事，人形机器人也解决不了",
    "summary": "",
    "time": "",
@@ -1840,18 +2106,18 @@
    "source": "财新"
   },
   {
-   "title": "伊朗革命卫队：美军特遣部队无法达到施压伊朗目的",
-   "summary": "【伊朗革命卫队：美军特遣部队无法达到施压伊朗目的】据伊朗法尔斯通讯社8日报道，伊朗伊斯兰革命卫队发言人穆赫比当天表示，美国无法通过组建“铁门”特遣部队计划实现其给伊朗施加经济压力的目的。",
-   "time": "2026-11-08 19:00:26",
-   "url": "https://finance.eastmoney.com/a/202611083925641281.html",
+   "title": "安永：财务AI已进入“能否产生实质影响”的关键阶段",
+   "summary": "【安永：财务AI已进入“能否产生实质影响”的关键阶段】安永11月8日在进博会上发布的《财务AI应用与可信治理白皮书》中提到，人工智能正推动财务职能从“记录、控制与报告”迈向“预测、配置与共创”。安永全球调研显示，68%的首席财务官（CFO）认为急需重估企业价值衡量方式；80%的CFO预计未来12个月AI驱动的商业模式将在组织中达到显著或中等程度的存在。财务AI已进入“能否产生实质影响”的关键阶段。",
+   "time": "2026-11-08 19:28:00",
+   "url": "https://finance.eastmoney.com/a/202611083925648380.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普邀UFC老板出任白宫发言人，对方或已婉拒 - 华尔街见闻",
+   "title": "高盛猛砍黄金目标价！全球央行，仍在“买买买” - 凤凰网",
    "summary": "",
-   "time": "2026-11-08 18:45",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1qMXVSdjl1X05DQlN5TG55clJxLUluWUtSRDhBakdLdHNienA4ajNUWXcwdHdtU1hWWFhWVGg3M1Rlbm15ZmhhYjBGdWY5S2o2Wl9Z?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-08 15:43",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE94dmp2TG5ta1lJRVpKbC1kSUM2S1FLaWdWeDIwcXdWZElWOG1sSGNiWEFVYXlyN2NVNVNyaXZMcWZCNVlkYzlhRURRSnBiaGxO?oc=5",
+   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
@@ -1868,11 +2134,11 @@
   },
   "counts": {
    "东财国际": 7,
+   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
-   "富途": 7,
-   "同花顺": 6,
+   "同花顺": 7,
+   "富途": 6,
    "东财早报": 1,
    "财新": 6
   }
