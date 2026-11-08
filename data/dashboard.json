@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-09 03:29:59 CST",
- "generated_at_iso": "2026-11-09T03:29:59+08:00",
+ "generated_at": "2026-11-09 03:38:08 CST",
+ "generated_at_iso": "2026-11-09T03:38:08+08:00",
  "date": "2026-11-09",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1082,7 +1082,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5059.69,
+    "price": 5059.6899,
     "change": -324.11,
     "change_pct": -6.02,
     "hist": [
@@ -1153,6 +1153,27 @@
      277300.0,
      323300.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 80999.3984,
+    "change": -28.62,
+    "change_pct": -0.04
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39701.64,
+    "change": -1873.08,
+    "change_pct": -4.51
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25820.36,
+    "change": -504.65,
+    "change_pct": -1.92
    },
    {
     "name": "英国富时100",
@@ -1305,7 +1326,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6170.49,
+    "price": 6170.5,
     "change": -61.05,
     "change_pct": -0.98,
     "hist": [
@@ -1341,6 +1362,13 @@
      6170.5
     ],
     "sigma": 0.925
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2484.98,
+    "change": 2.28,
+    "change_pct": 0.09
    }
   ]
  },
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75890.4,
-    "change": 91.6,
-    "change_pct": 0.12,
+    "price": 75890.0,
+    "change": 132.4,
+    "change_pct": 0.17,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2232.6,
-    "change": -1.55,
-    "change_pct": -0.07,
+    "price": 2231.9,
+    "change": -0.89,
+    "change_pct": -0.04,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 89.54,
-    "change": -0.15,
-    "change_pct": -0.17,
+    "price": 89.59,
+    "change": 0.01,
+    "change_pct": 0.01,
     "source": "okx"
    }
   ]
@@ -1550,6 +1578,28 @@
  },
  "speakers": [
   {
+   "keyword": "外交部",
+   "label": "外交部",
+   "hint": "地缘政治表态影响风险偏好",
+   "title": "美财政部要求伊拉克关闭与伊朗之间大部分边境口岸",
+   "summary": "【美财政部要求伊拉克关闭与伊朗之间大部分边境口岸】央视记者获悉，当地时间11月8日，伊拉克外交部长侯赛因称，美国财政部要求伊拉克关闭与伊朗之间的大部分边境口岸，仅保留两个口岸开放。",
+   "time": "2026-11-09 03:20:36",
+   "url": "https://finance.eastmoney.com/a/202611093925717898.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普被问：强硬派米勒是你的“战时军师”吗？ - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-09 03:02",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LZURaaXBSMW4yaFlIeTBGWlNTSlVNOTdzQXY3bVZhOHFNTjA1VFZLcmpZeUV1d3R3THpKUGliYVFvbVVFaDN3c3BPQ2lqWEY2ZUczdGFPdUdWRGs4RzdvQ1lfUjBpVWx1REhYR0dnd0RTUG8?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 6
+  },
+  {
    "keyword": "白宫",
    "label": "白宫",
    "hint": "美国官方政策表态的权威渠道",
@@ -1569,28 +1619,6 @@
    "time": "2026-11-09 02:20",
    "url": "https://wallstreetcn.com/livenews/3196505",
    "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "美国总统特朗普要求内塔尼亚胡采取措施推进加沙和平计划",
-   "summary": "美国总统特朗普据悉在中期选举后与以色列总理内塔尼亚胡的通话中，要求内塔尼亚胡采取措施推进加沙和平计划。",
-   "time": "2026-11-09 02:14:54",
-   "url": "https://finance.eastmoney.com/a/202611093925714326.html",
-   "source": "东财国际",
-   "mentions": 6
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "一张表看懂！华尔街“彻底信了”：美联储本周加息 - 财联社",
-   "summary": "",
-   "time": "2026-11-08 23:53",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwcWs3b3ppTWlqZWdHRDRMbkJUeEtkeTN1bXFuLVhLMjY1MUxwdE9RWkJiWGE3bk5QWHVRZkE0UVNoUFlUZERhRw?oc=5",
-   "source": "谷歌新闻·国际",
    "mentions": 1
   }
  ],
@@ -1660,24 +1688,45 @@
    "level": "danger",
    "asset": "日经225",
    "message": "日经225单日跌5.96%，达20日历史波动率的 3.1 倍（σ=1.92%，突破 3σ 高危线）",
-   "time": "2026-11-09 03:30",
+   "time": "2026-11-09 03:38",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌4.51%，达20日历史波动率的 3.8 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-09 03:38",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "全球股指",
+   "message": "日经225、韩国KOSPI、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-09 03:38",
+   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放。",
-   "summary": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放。",
-   "time": "2026-11-09 02:40",
-   "url": "https://wallstreetcn.com/livenews/3196507",
+   "title": "土伊重申合作终结库尔德工人党在辛贾尔地区的存在",
+   "summary": "【土伊重申合作终结库尔德工人党在辛贾尔地区的存在】土耳其和伊拉克8日发表联合声明，重申将继续合作，推动在伊拉克北部尼尼微省辛贾尔地区建立中央政府权威，终结库尔德工人党在当地的存在。",
+   "time": "2026-11-09 03:30:10",
+   "url": "https://finance.eastmoney.com/a/202611093925717956.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "伊拉克外长：伊拉克已与美国达成谅解，允许石油通过霍尔木兹海峡经靠近阿曼的航道出口，出口业务仍在持续进行。\n\n伊拉克因伊朗战争及石油出口业务中断造成的损失已达600亿美元。",
+   "summary": "伊拉克外长：伊拉克已与美国达成谅解，允许石油通过霍尔木兹海峡经靠近阿曼的航道出口，出口业务仍在持续进行。\n\n伊拉克因伊朗战争及石油出口业务中断造成的损失已达600亿美元。",
+   "time": "2026-11-09 03:10",
+   "url": "https://wallstreetcn.com/livenews/3196510",
    "source": "华尔街见闻"
   },
   {
-   "title": "沙特主导的联军表示：已在萨那摧毁一处胡塞武装的导弹发射装置",
-   "summary": "沙特主导的联军表示，已在萨那摧毁一处胡塞武装的导弹发射装置。",
-   "time": "2026-11-09 02:29:52",
-   "url": "https://finance.eastmoney.com/a/202611093925714470.html",
-   "source": "东财国际"
+   "title": "特朗普被问：强硬派米勒是你的“战时军师”吗？ - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-09 03:02",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1LZURaaXBSMW4yaFlIeTBGWlNTSlVNOTdzQXY3bVZhOHFNTjA1VFZLcmpZeUV1d3R3THpKUGliYVFvbVVFaDN3c3BPQ2lqWEY2ZUczdGFPdUdWRGs4RzdvQ1lfUjBpVWx1REhYR0dnd0RTUG8?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "正海磁材因信披不准确被出具警示函，近1年仅有2份研报覆盖_公司新闻 - 证券之星",
@@ -1687,17 +1736,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普长期亲信米勒将接任白宫幕僚长 移民政策恐再缩紧 - RFI",
+   "title": "伊拉克外长：已与美国达成协议，允许通过霍尔木兹海峡出口石油",
    "summary": "",
-   "time": "2026-11-09 01:04",
-   "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxQUUwtU1lNOFZITlVPVUp1MTQ2WDdXZFNsT0hBbFh2SWhEWmkzVmlRQlJVeU5uSmFOMGJRVlhldlNjWTFFck15Y3FsZVJ6VHFXOGdCS1U2WXhFb0wxMGd1LVFCTFJJSC1NNVhWSVRUel94bGNUd3gyM2JtcEQ5ZGZRQmpMZDJTbTdLQkpxZjI3RXlpampkT0J3R0xkekhVVEU1ck9VbjE4OXNCbEZGekxmMUM1WFRTMkZUbDFqNlN2aENQV2h1ejAzZmJZd2tCWTlaZk93Ukk5ODZ0TXRnNTlZS1BYVEFtQ2VYaHFjU29KNXVtdTQteWJVeEtxMlVUblphSTFjRnhyb2FLbDRxYU8wby14UTIxSDhiUENXanFPOEhZck1uQ0NVWFdTbmxveGhxaEdXcUpRWTQtSDZWVEFfSEVmeGtQWE9QOVRmRVJOMEFyZExOUVp6S3N3d1B1VWNCNGxmV09iY2tMWnV6NVBWYWNucDdNWWt0TmpuQUkxMzlLa1d3aVBDNjh0M0c?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "扎波罗热核电站恢复外部供电",
-   "summary": "",
-   "time": "2026-11-08 18:44:19",
-   "url": "https://news.futunn.com/flash/1003825004/zaporizhzhia-nuclear-power-plant-restores-external-power-supply",
+   "time": "2026-11-08 19:32:54",
+   "url": "https://news.futunn.com/flash/1003825349/iraqi-foreign-minister-agreement-reached-with-the-us-to-allow",
    "source": "富途"
   },
   {
@@ -1715,18 +1757,25 @@
    "source": "财新"
   },
   {
-   "title": "美国共和党中期选举失败后，民主党拟对马斯克、白宫办公厅主任米勒及美国企业界展开调查。",
-   "summary": "美国共和党中期选举失败后，民主党拟对马斯克、白宫办公厅主任米勒及美国企业界展开调查。",
-   "time": "2026-11-09 02:20",
-   "url": "https://wallstreetcn.com/livenews/3196505",
+   "title": "美财政部要求伊拉克关闭与伊朗之间大部分边境口岸",
+   "summary": "【美财政部要求伊拉克关闭与伊朗之间大部分边境口岸】央视记者获悉，当地时间11月8日，伊拉克外交部长侯赛因称，美国财政部要求伊拉克关闭与伊朗之间的大部分边境口岸，仅保留两个口岸开放。",
+   "time": "2026-11-09 03:20:36",
+   "url": "https://finance.eastmoney.com/a/202611093925717898.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放。",
+   "summary": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放。",
+   "time": "2026-11-09 02:40",
+   "url": "https://wallstreetcn.com/livenews/3196507",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国总统特朗普要求内塔尼亚胡采取措施推进加沙和平计划",
-   "summary": "美国总统特朗普据悉在中期选举后与以色列总理内塔尼亚胡的通话中，要求内塔尼亚胡采取措施推进加沙和平计划。",
-   "time": "2026-11-09 02:14:54",
-   "url": "https://finance.eastmoney.com/a/202611093925714326.html",
-   "source": "东财国际"
+   "title": "特朗普长期亲信米勒将接任白宫幕僚长 移民政策恐再缩紧 - RFI",
+   "summary": "",
+   "time": "2026-11-09 01:04",
+   "url": "https://news.google.com/rss/articles/CBMijANBVV95cUxQUUwtU1lNOFZITlVPVUp1MTQ2WDdXZFNsT0hBbFh2SWhEWmkzVmlRQlJVeU5uSmFOMGJRVlhldlNjWTFFck15Y3FsZVJ6VHFXOGdCS1U2WXhFb0wxMGd1LVFCTFJJSC1NNVhWSVRUel94bGNUd3gyM2JtcEQ5ZGZRQmpMZDJTbTdLQkpxZjI3RXlpampkT0J3R0xkekhVVEU1ck9VbjE4OXNCbEZGekxmMUM1WFRTMkZUbDFqNlN2aENQV2h1ejAzZmJZd2tCWTlaZk93Ukk5ODZ0TXRnNTlZS1BYVEFtQ2VYaHFjU29KNXVtdTQteWJVeEtxMlVUblphSTFjRnhyb2FLbDRxYU8wby14UTIxSDhiUENXanFPOEhZck1uQ0NVWFdTbmxveGhxaEdXcUpRWTQtSDZWVEFfSEVmeGtQWE9QOVRmRVJOMEFyZExOUVp6S3N3d1B1VWNCNGxmV09iY2tMWnV6NVBWYWNucDdNWWt0TmpuQUkxMzlLa1d3aVBDNjh0M0c?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "大行评级｜美银：维持苹果目标价370美元，终端AI的最终赢家地位未变 - Moomoo",
@@ -1736,17 +1785,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普：中期选举是美国历史上的“巨大倒退” - 联合早报",
+   "title": "野村：澳洲联储明年2月或有最后一次加息",
    "summary": "",
-   "time": "2026-11-08 23:55",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfREpDZm1CblliZzJwVVNZNjNKWmd0akNTMXQ1V0drNVJzLUtqZXZxVHVocVljN2ZuVVc5d2lJQ1J2NzQtNExxRjFza3RZc0JLcFBkRVNBbk0yVkVJZzRGMGNaaGt2UDNaQlE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "伊朗外长：美方需要时间消化选举结果，斡旋尚未恢复",
-   "summary": "",
-   "time": "2026-11-08 18:10:45",
-   "url": "https://news.futunn.com/flash/1003824741/iranian-foreign-minister-us-needs-time-to-digest-election-results",
+   "time": "2026-11-08 19:04:57",
+   "url": "https://news.futunn.com/flash/1003825148/nomura-the-rba-may-deliver-its-final-rate-hike-in",
    "source": "富途"
   },
   {
@@ -1764,18 +1806,25 @@
    "source": "财新"
   },
   {
-   "title": "美国总统特朗普在周四与以色列总理内塔尼亚胡的通话中表示，希望内塔尼亚胡采取措施，推动落实其加沙和平计划。（Axios）",
-   "summary": "美国总统特朗普在周四与以色列总理内塔尼亚胡的通话中表示，希望内塔尼亚胡采取措施，推动落实其加沙和平计划。（Axios）",
-   "time": "2026-11-09 02:10",
-   "url": "https://wallstreetcn.com/livenews/3196504",
+   "title": "伊拉克外长表示 伊拉克已与美国达成谅解",
+   "summary": "【伊拉克外长表示 伊拉克已与美国达成谅解】伊拉克外长表示，伊拉克已与美国达成谅解，允许石油经霍尔木兹海峡靠近阿曼的航运通道出口，出口作业仍在持续。该外长还表示，伊拉克因伊朗战争及石油出口中断造成的损失约600亿美元。",
+   "time": "2026-11-09 03:13:10",
+   "url": "https://finance.eastmoney.com/a/202611093925717561.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美国共和党中期选举失败后，民主党拟对马斯克、白宫办公厅主任米勒及美国企业界展开调查。",
+   "summary": "美国共和党中期选举失败后，民主党拟对马斯克、白宫办公厅主任米勒及美国企业界展开调查。",
+   "time": "2026-11-09 02:20",
+   "url": "https://wallstreetcn.com/livenews/3196505",
    "source": "华尔街见闻"
   },
   {
-   "title": "消息人士称伊拉克代表团访问伊朗并转达美方信息",
-   "summary": "【消息人士称伊拉克代表团访问伊朗并转达美方信息】当地时间8日，伊拉克政府消息人士称，伊拉克代表团当天在伊朗首都德黑兰会见了伊朗官员，会谈持续约8小时，会谈期间伊拉克代表团向伊朗方面“转交了来自美国方面的口信”。",
-   "time": "2026-11-09 02:10:18",
-   "url": "https://finance.eastmoney.com/a/202611093925714211.html",
-   "source": "东财国际"
+   "title": "特朗普：今晚将做客《......_7x24快讯_新浪财经 - 新浪网",
+   "summary": "",
+   "time": "2026-11-09 00:19",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1ZUVdlQjB2eWZtSXNuSzdyVUU5cWtQXy1Ham1YSmNJQ2E4cHpGbUhkbldHMTE5WFNtcU83cF9NNlFZWmhJa3c3LUd0UQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社电报",
@@ -1785,24 +1834,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "一张表看懂！华尔街“彻底信了”：美联储本周加息 - 财联社",
+   "title": "伊朗外长：美方需要时间消化选举结果，斡旋尚未恢复",
    "summary": "",
-   "time": "2026-11-08 23:53",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwcWs3b3ppTWlqZWdHRDRMbkJUeEtkeTN1bXFuLVhLMjY1MUxwdE9RWkJiWGE3bk5QWHVRZkE0UVNoUFlUZERhRw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "特朗普敦促内塔尼亚胡推进加沙和平计划，不论谁组建新政府",
-   "summary": "",
-   "time": "2026-11-08 18:05:34",
-   "url": "https://news.futunn.com/flash/1003824699/trump-urged-netanyahu-to-advance-the-gaza-peace-plan-regardless",
+   "time": "2026-11-08 18:10:45",
+   "url": "https://news.futunn.com/flash/1003824741/iranian-foreign-minister-us-needs-time-to-digest-election-results",
    "source": "富途"
   },
   {
-   "title": "腾讯健康与灵北中国达成战略合作",
+   "title": "埃及总统：密切关注脱轨事故　将追究失职者责任",
    "summary": "",
-   "time": "2026-11-08 13:57:44",
-   "url": "https://news.10jqka.com.cn/20261108/c681583789.shtml",
+   "time": "2026-11-08 14:26:30",
+   "url": "https://news.10jqka.com.cn/20261108/c681583872.shtml",
    "source": "同花顺"
   },
   {
@@ -1813,44 +1855,44 @@
    "source": "财新"
   },
   {
-   "title": "伊朗外长：美国大选结果出炉后，要让重启谈判斡旋的条件成熟还需时日。\n\n我们拭目以待，看美国方面何时能消化选举结果，从而决定如何延续现有路线。",
-   "summary": "伊朗外长：美国大选结果出炉后，要让重启谈判斡旋的条件成熟还需时日。\n\n我们拭目以待，看美国方面何时能消化选举结果，从而决定如何延续现有路线。",
-   "time": "2026-11-09 02:09",
-   "url": "https://wallstreetcn.com/livenews/3196503",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "英国工党据悉预计将下调英国汽车行业的电动汽车销售目标",
-   "summary": "英国工党据悉预计将下调英国汽车行业的电动汽车销售目标。",
-   "time": "2026-11-09 02:00:29",
-   "url": "https://finance.eastmoney.com/a/202611093925709082.html",
+   "title": "扎波罗热核电站恢复外部供电",
+   "summary": "【扎波罗热核电站恢复外部供电】当地时间11月8日，由俄方控制的扎波罗热核电站通过官方社交账号通报称，经抢修，330千伏“铁合金-1”线路已重新投入运行，核电站由此恢复外部供电。",
+   "time": "2026-11-09 02:44:30",
+   "url": "https://finance.eastmoney.com/a/202611093925717768.html",
    "source": "东财国际"
   },
   {
-   "title": "机构强烈推荐4只个股-更新中 - 中财网",
+   "title": "美国总统特朗普在周四与以色列总理内塔尼亚胡的通话中表示，希望内塔尼亚胡采取措施，推动落实其加沙和平计划。（Axios）",
+   "summary": "美国总统特朗普在周四与以色列总理内塔尼亚胡的通话中表示，希望内塔尼亚胡采取措施，推动落实其加沙和平计划。（Axios）",
+   "time": "2026-11-09 02:10",
+   "url": "https://wallstreetcn.com/livenews/3196504",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普：中期选举是美国历史上的“巨大倒退” - 联合早报",
    "summary": "",
-   "time": "2026-11-08 21:26",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA1UWY2ejllNC1GLUpQOTVfUWVrNU1XSW9vVUoxblN4aGptLVdrTDZMNW9OYWRTWXBzUTBvQlRtV2dRWVA5c2RWQVlTamRwUnBTNUVVZGJn?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-08 23:55",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfREpDZm1CblliZzJwVVNZNjNKWmd0akNTMXQ1V0drNVJzLUtqZXZxVHVocVljN2ZuVVc5d2lJQ1J2NzQtNExxRjFza3RZc0JLcFBkRVNBbk0yVkVJZzRGMGNaaGt2UDNaQlE?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(18)",
+   "富途": "ok(17)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "ok(30)",
+   "百度财经": "FAIL:RuntimeError",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "富途": 7,
    "同花顺": 7,
    "财新": 6
