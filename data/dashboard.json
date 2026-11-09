@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-09 21:45:04 CST",
- "generated_at_iso": "2026-11-09T21:45:04+08:00",
+ "generated_at": "2026-11-09 21:53:15 CST",
+ "generated_at_iso": "2026-11-09T21:53:15+08:00",
  "date": "2026-11-09",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4129.195,
-    "change": 54.295,
-    "change_pct": 1.33,
-    "quote_time": "21:45:13 2026-11-09"
+    "price": 4135.747,
+    "change": 60.847,
+    "change_pct": 1.49,
+    "quote_time": "21:53:23 2026-11-09"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.705,
-    "change": 0.763,
-    "change_pct": 1.47,
-    "quote_time": "21:45:13 2026-11-09"
+    "price": 52.89,
+    "change": 0.948,
+    "change_pct": 1.83,
+    "quote_time": "21:53:19 2026-11-09"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.333,
-    "change": -3.497,
-    "change_pct": -3.85,
-    "quote_time": "21:45:13 2026-11-09"
+    "price": 86.837,
+    "change": -3.993,
+    "change_pct": -4.4,
+    "quote_time": "21:53:24 2026-11-09"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 94.254,
-    "change": -4.066,
-    "change_pct": -4.14,
-    "quote_time": "21:45:05 2026-11-09"
+    "price": 93.708,
+    "change": -4.612,
+    "change_pct": -4.69,
+    "quote_time": "21:53:25 2026-11-09"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74621.5,
-    "change": -1314.5,
-    "change_pct": -1.73,
+    "price": 74716.6,
+    "change": -1202.5,
+    "change_pct": -1.58,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2116.78,
-    "change": -120.65,
-    "change_pct": -5.39,
+    "price": 2122.65,
+    "change": -113.8,
+    "change_pct": -5.09,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.32,
-    "change": -3.0,
-    "change_pct": -3.36,
+    "price": 86.68,
+    "change": -2.53,
+    "change_pct": -2.84,
     "source": "okx"
    }
   ]
@@ -1681,15 +1681,15 @@
   {
    "level": "warning",
    "asset": "WTI原油",
-   "message": "WTI原油单日跌3.85%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-09 21:45",
+   "message": "WTI原油单日跌4.40%，达20日历史波动率的 2.4 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-09 21:53",
    "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
   },
   {
    "level": "warning",
    "asset": "布伦特原油",
-   "message": "布伦特原油单日跌4.14%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-09 21:45",
+   "message": "布伦特原油单日跌4.69%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-09 21:53",
    "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
   }
  ],
