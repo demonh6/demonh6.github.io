@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-09 22:35:01 CST",
- "generated_at_iso": "2026-11-09T22:35:01+08:00",
+ "generated_at": "2026-11-09 22:43:50 CST",
+ "generated_at_iso": "2026-11-09T22:43:50+08:00",
  "date": "2026-11-09",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 51875.4609,
-    "change": 589.73,
-    "change_pct": 1.15,
-    "quote_time": "2026-11-09 22:35:06",
+    "price": 51986.2695,
+    "change": 700.54,
+    "change_pct": 1.37,
+    "quote_time": "2026-11-09 22:43:44",
     "hist": [
      51481.5117,
      51349.9219,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24907.0578,
-    "change": 327.633,
-    "change_pct": 1.33,
-    "quote_time": "2026-11-09 22:35:11",
+    "price": 25031.9572,
+    "change": 452.5324,
+    "change_pct": 1.84,
+    "quote_time": "2026-11-09 22:43:55",
     "hist": [
      26820.3809,
      26797.541,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7456.98,
-    "change": 80.12,
-    "change_pct": 1.09,
-    "quote_time": "2026-11-09 22:35:06",
+    "price": 7485.6899,
+    "change": 108.83,
+    "change_pct": 1.48,
+    "quote_time": "2026-11-09 22:43:44",
     "hist": [
      7683.6899,
      7670.8398,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4132.996,
-    "change": 58.096,
-    "change_pct": 1.43,
-    "quote_time": "22:35:15 2026-11-09"
+    "price": 4130.97,
+    "change": 56.07,
+    "change_pct": 1.38,
+    "quote_time": "22:43:59 2026-11-09"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.665,
-    "change": 0.723,
-    "change_pct": 1.39,
-    "quote_time": "22:35:12 2026-11-09"
+    "price": 52.84,
+    "change": 0.898,
+    "change_pct": 1.73,
+    "quote_time": "22:43:58 2026-11-09"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.322,
-    "change": -3.508,
-    "change_pct": -3.86,
-    "quote_time": "22:35:15 2026-11-09"
+    "price": 87.156,
+    "change": -3.674,
+    "change_pct": -4.04,
+    "quote_time": "22:43:58 2026-11-09"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.892,
-    "change": -4.428,
-    "change_pct": -4.5,
-    "quote_time": "22:35:11 2026-11-09"
+    "price": 93.692,
+    "change": -4.628,
+    "change_pct": -4.71,
+    "quote_time": "22:43:57 2026-11-09"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74626.1,
-    "change": -1375.4,
-    "change_pct": -1.81,
+    "price": 74527.2,
+    "change": -1472.9,
+    "change_pct": -1.94,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2126.85,
-    "change": -112.57,
-    "change_pct": -5.03,
+    "price": 2122.1,
+    "change": -117.83,
+    "change_pct": -5.26,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 87.3,
-    "change": -2.02,
-    "change_pct": -2.26,
+    "price": 87.23,
+    "change": -2.18,
+    "change_pct": -2.44,
     "source": "okx"
    }
   ]
@@ -1692,15 +1692,15 @@
   {
    "level": "warning",
    "asset": "WTI原油",
-   "message": "WTI原油单日跌3.86%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-09 22:35",
+   "message": "WTI原油单日跌4.04%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-09 22:44",
    "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
   },
   {
    "level": "warning",
    "asset": "布伦特原油",
-   "message": "布伦特原油单日跌4.50%，达20日历史波动率的 2.5 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-09 22:35",
+   "message": "布伦特原油单日跌4.71%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-09 22:44",
    "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
   }
  ],
