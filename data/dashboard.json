@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 06:54:26 CST",
- "generated_at_iso": "2026-11-10T06:54:26+08:00",
+ "generated_at": "2026-11-10 07:02:35 CST",
+ "generated_at_iso": "2026-11-10T07:02:35+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -934,7 +934,6 @@
     "change_pct": 2.35,
     "quote_time": "2026-11-10 06:13:19",
     "hist": [
-     7683.6899,
      7670.8398,
      7651.54,
      7666.4502,
@@ -963,14 +962,14 @@
      7568.9199,
      7688.6201,
      7353.73,
-     7376.8599
+     7376.8599,
+     7549.9399
     ],
-    "sigma": 1.216,
-    "volume": 3410452319.0,
-    "vol_chg_pct": -17.0,
-    "vol_pctile": 73.2,
+    "sigma": 1.344,
+    "volume": 3554608898.0,
+    "vol_chg_pct": -9.7,
+    "vol_pctile": 81.6,
     "vol_hist": [
-     2909239042.0,
      2775639595.0,
      3151899948.0,
      3202348853.0,
@@ -999,7 +998,8 @@
      3106803544.0,
      4562882370.0,
      5039705072.0,
-     3410452319.0
+     3410452319.0,
+     3554608898.0
     ]
    }
   ],
@@ -1086,7 +1086,6 @@
     "change": -40.84,
     "change_pct": -0.81,
     "hist": [
-     7017.91,
      7080.92,
      6889.74,
      6870.81,
@@ -1113,11 +1112,12 @@
      5730.74,
      5859.08,
      5648.79,
-     5683.7998,
-     5383.7998,
-     5059.6899
+     5683.8,
+     5383.8,
+     5059.69,
+     5018.85
     ],
-    "sigma": 3.637,
+    "sigma": 3.596,
     "volume": 248140.0,
     "vol_chg_pct": -3.3,
     "vol_pctile": 8.0,
@@ -1190,9 +1190,9 @@
      10829.21,
      10782.66,
      10673.94,
-     10767.32
+     10782.87
     ],
-    "sigma": 0.739,
+    "sigma": 0.748,
     "volume": 0.0,
     "vol_pctile": 98.4,
     "vol_hist": [
@@ -1392,37 +1392,204 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4150.41,
-    "change": 75.51,
-    "change_pct": 1.85,
-    "quote_time": "05:59:59 2026-11-10"
+    "price": 4147.16,
+    "change": 32.66,
+    "change_pct": 0.79,
+    "quote_time": "07:02:30 2026-11-10",
+    "hist": [
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6,
+     4149.5
+    ],
+    "sigma": 1.562
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 53.468,
-    "change": 1.526,
-    "change_pct": 2.94,
-    "quote_time": "05:59:57 2026-11-10"
+    "price": 53.43,
+    "change": 0.737,
+    "change_pct": 1.4,
+    "quote_time": "07:02:35 2026-11-10",
+    "hist": [
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96,
+     53.445
+    ],
+    "sigma": 3.008
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.244,
-    "change": -4.586,
-    "change_pct": -5.05,
-    "quote_time": "05:59:59 2026-11-10"
+    "price": 86.58,
+    "change": -0.27,
+    "change_pct": -0.31,
+    "quote_time": "07:02:42 2026-11-10",
+    "hist": [
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34,
+     86.37
+    ],
+    "sigma": 3.148
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.118,
-    "change": -6.202,
-    "change_pct": -6.31,
-    "quote_time": "06:49:56 2026-11-10"
+    "price": 92.073,
+    "change": -6.247,
+    "change_pct": -6.35,
+    "quote_time": "06:59:59 2026-11-10",
+    "hist": [
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92,
+     92.26
+    ],
+    "sigma": 3.438,
+    "volume": 415241.0,
+    "vol_chg_pct": -12.7,
+    "vol_pctile": 66.8,
+    "vol_hist": [
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0,
+     415241.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75288.0,
-    "change": 854.3,
-    "change_pct": 1.15,
-    "source": "okx"
+    "price": 75225.0,
+    "change": 499.8,
+    "change_pct": 0.67,
+    "source": "okx",
+    "hist": [
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     75162.9
+    ],
+    "sigma": 2.013
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2136.67,
-    "change": 8.02,
-    "change_pct": 0.38,
-    "source": "okx"
+    "price": 2133.85,
+    "change": -1.26,
+    "change_pct": -0.06,
+    "source": "okx",
+    "hist": [
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2132.12
+    ],
+    "sigma": 2.937
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.99,
-    "change": 0.69,
-    "change_pct": 0.8,
-    "source": "okx"
+    "price": 86.75,
+    "change": 0.02,
+    "change_pct": 0.02,
+    "source": "okx",
+    "hist": [
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     86.67
+    ],
+    "sigma": 2.684
    }
   ]
  },
@@ -1553,56 +1819,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "VOA今日焦点(2026年11月9日) 黄仁勋婚外情涉共谍引发国安疑虑？ 特朗普总统、美国国会反应不一 - 美国之音",
-   "summary": "",
-   "time": "2026-11-10 06:32",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMYldkUTJjSGdBUE15aFhneXQ2TVZVU0VOakJjYUFuVUNYQ01fLXRzbEFNc1FmNjYwZUwzbzlFTHVwX0gzOU5EenYwQ0Y4T0xjbEN0d0R0TC1RT2xTb21obnBIWGVxNEhhdjdv?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 9
+   "title": "特朗普称似乎没必要再对伊朗采取军事行动",
+   "summary": "【特朗普称似乎没必要再对伊朗采取军事行动】当地时间11月9日下午，美国总统特朗普向记者表示，美国目前似乎没有必要对伊朗采取军事行动。他说，“在现阶段……采取军事行动似乎并非十分必要。但我们已严阵以待，一旦情况有任何变化，随时可以行动。”特朗普表示，目前正看到局势朝着结束这场冲突的方向发展。",
+   "time": "2026-11-10 06:57:13",
+   "url": "https://finance.eastmoney.com/a/202611103926665717.html",
+   "source": "东财国际",
+   "mentions": 7
   },
   {
    "keyword": "黄仁勋",
    "label": "黄仁勋",
    "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "VOA今日焦点(2026年11月9日) 黄仁勋婚外情涉共谍引发国安疑虑？ 特朗普总统、美国国会反应不一 - 美国之音",
+   "title": "特朗普：黄仁勋称不知涉事中国女子是间谍 - 联合早报",
    "summary": "",
-   "time": "2026-11-10 06:32",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMYldkUTJjSGdBUE15aFhneXQ2TVZVU0VOakJjYUFuVUNYQ01fLXRzbEFNc1FmNjYwZUwzbzlFTHVwX0gzOU5EenYwQ0Y4T0xjbEN0d0R0TC1RT2xTb21obnBIWGVxNEhhdjdv?oc=5",
+   "time": "2026-11-10 06:43",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzTi16Ty1RdHJZR01jT0tVenI0RFNsYWhDYzU5U3p4VUxXMEpMc043NUtoRG9SSy1BSXVTaUhTT01OM2k4aEFsZHJaWFRTTmJGbFBOVGJDc0pHZU15VFJzVFAzZmZZb3BHMnc?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 07:50 日本央行公布10月货币政策会议审议委员意见摘要，日本9月贸易帐；\n\n② 08:15 新西兰联储首席经济学家Conway在瑞银澳洲会议上谈论经济；\n\n③ 时间待定 中国10月进出口与贸易帐；\n\n④ 13:30 台积电公布10月销售额；\n\n⑤ 16:15 欧洲央行管委Sleijpen讲话；、\n\n⑥ 16:30 英国央行副行长Breeden讲话；\n\n⑦ 17:00 美联储理事沃勒在英国伦",
-   "time": "2026-11-10 06:30",
-   "url": "https://wallstreetcn.com/livenews/3197203",
-   "source": "华尔街见闻",
-   "mentions": 2
-  },
-  {
-   "keyword": "欧洲央行",
-   "label": "欧洲央行",
-   "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 07:50 日本央行公布10月货币政策会议审议委员意见摘要，日本9月贸易帐；\n\n② 08:15 新西兰联储首席经济学家Conway在瑞银澳洲会议上谈论经济；\n\n③ 时间待定 中国10月进出口与贸易帐；\n\n④ 13:30 台积电公布10月销售额；\n\n⑤ 16:15 欧洲央行管委Sleijpen讲话；、\n\n⑥ 16:30 英国央行副行长Breeden讲话；\n\n⑦ 17:00 美联储理事沃勒在英国伦",
-   "time": "2026-11-10 06:30",
-   "url": "https://wallstreetcn.com/livenews/3197203",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
-   "keyword": "日本央行",
-   "label": "日本央行",
-   "hint": "日元利率走向影响全球套息交易",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 07:50 日本央行公布10月货币政策会议审议委员意见摘要，日本9月贸易帐；\n\n② 08:15 新西兰联储首席经济学家Conway在瑞银澳洲会议上谈论经济；\n\n③ 时间待定 中国10月进出口与贸易帐；\n\n④ 13:30 台积电公布10月销售额；\n\n⑤ 16:15 欧洲央行管委Sleijpen讲话；、\n\n⑥ 16:30 英国央行副行长Breeden讲话；\n\n⑦ 17:00 美联储理事沃勒在英国伦",
-   "time": "2026-11-10 06:30",
-   "url": "https://wallstreetcn.com/livenews/3197203",
-   "source": "华尔街见闻",
-   "mentions": 1
   },
   {
    "keyword": "外交部",
@@ -1699,6 +1932,16 @@
   ],
   "reports": [
    {
+    "title": "高盛：对于AI被进一步抛售的风险而言，日元仍然是“最佳对冲工具”。",
+    "org": "高盛",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-10",
+    "url": "https://wallstreetcn.com/livenews/3197211",
+    "source": "机构观点"
+   },
+   {
     "title": "东方财富财经早餐 11月10日周二",
     "org": "中信建投",
     "rating": "",
@@ -1709,71 +1952,47 @@
     "source": "机构观点"
    },
    {
-    "title": "惠誉确认伊拉克长期外币发行人违约评级B- 展望稳定 - 观点网",
-    "org": "惠誉",
+    "title": "高盛维持甲骨文买入评级12个月目标价206美元_公司新闻_财经 - 证券之星",
+    "org": "高盛",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-09",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPMVM0a1h6V0YxSG5ublpWUEZleDhFU0pqNTdrSV9sXy1jNXQxby1CSFVjREkzMnAyVUtfdkZ3UW05SXMtTjRMM3NJRElUaWxRdDVNNEQzUXlpN0h0WllWQ2lR?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "摩根大通考虑以大幅折价吸引贷款人接手软件债务",
-    "org": "摩根大通",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-10",
-    "url": "https://wallstreetcn.com/livenews/3197191",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zcGhqbTVtLWZIZlduU3doQ3U1M1ltUGZMNm5pVF8yRG9lT1kwcTNFRkU2aTNFRi13S3kwRG1sN291azB2b0JVOUlYdkt4SVRRV1VrYmxfTmRlSUxBcm9zdQ?oc=5",
     "source": "机构观点"
    }
   ]
  },
  "alerts": [
   {
-   "level": "danger",
-   "asset": "布伦特原油",
-   "message": "布伦特原油单日跌6.31%，达20日历史波动率的 3.5 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-10 06:54",
-   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
-  },
-  {
-   "level": "warning",
-   "asset": "WTI原油",
-   "message": "WTI原油单日跌5.05%，达20日历史波动率的 2.8 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-10 06:54",
-   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
-  },
-  {
    "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、纳斯达克、标普500等 4 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-10 06:54",
+   "time": "2026-11-10 07:03",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "Skydance预计四季度电影收入增速将放缓。",
-   "summary": "Skydance预计四季度电影收入增速将放缓。",
-   "time": "2026-11-10 06:36",
-   "url": "https://wallstreetcn.com/livenews/3197205",
+   "title": "高盛：对于AI被进一步抛售的风险而言，日元仍然是“最佳对冲工具”。",
+   "summary": "高盛：对于AI被进一步抛售的风险而言，日元仍然是“最佳对冲工具”。",
+   "time": "2026-11-10 06:59",
+   "url": "https://wallstreetcn.com/livenews/3197211",
    "source": "华尔街见闻"
   },
   {
-   "title": "VOA今日焦点(2026年11月9日) 黄仁勋婚外情涉共谍引发国安疑虑？ 特朗普总统、美国国会反应不一 - 美国之音",
-   "summary": "",
-   "time": "2026-11-10 06:32",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBMYldkUTJjSGdBUE15aFhneXQ2TVZVU0VOakJjYUFuVUNYQ01fLXRzbEFNc1FmNjYwZUwzbzlFTHVwX0gzOU5EenYwQ0Y4T0xjbEN0d0R0TC1RT2xTb21obnBIWGVxNEhhdjdv?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "特朗普称似乎没必要再对伊朗采取军事行动",
+   "summary": "【特朗普称似乎没必要再对伊朗采取军事行动】当地时间11月9日下午，美国总统特朗普向记者表示，美国目前似乎没有必要对伊朗采取军事行动。他说，“在现阶段……采取军事行动似乎并非十分必要。但我们已严阵以待，一旦情况有任何变化，随时可以行动。”特朗普表示，目前正看到局势朝着结束这场冲突的方向发展。",
+   "time": "2026-11-10 06:57:13",
+   "url": "https://finance.eastmoney.com/a/202611103926665717.html",
+   "source": "东财国际"
   },
   {
-   "title": "美联储12月加息的概率为84.2%",
-   "summary": "【美联储12月加息的概率为84.2%】据CME“美联储观察”：美联储12月维持利率不变的概率为15.8%，加息25个基点的概率为84.2%。美联储到明年1月维持利率不变的概率11.8%，累计加息25个基点的概率66.9%，累计加息50个基点的概率为21.3%。",
-   "time": "2026-11-10 06:28:01",
-   "url": "https://finance.eastmoney.com/a/202611103926661078.html",
-   "source": "东财国际"
+   "title": "美国总统特朗普提名杰弗里·科利尔出任美国驻阿联酋大使。 - 新浪网",
+   "summary": "",
+   "time": "2026-11-10 06:55",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mb1VmbWlvOWhsQUthel84Um42QzRjV3J0X0FEVnl4eVhhaWdFSVpFM1ZVTWc5MmVQdXd1Njg3cTAwY19EZFlTR3RwXzhLWVE?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月10日周二",
@@ -1790,18 +2009,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普称似乎没必要再打伊朗",
+   "title": "拜耳重磅中风治疗药物获美国批准",
    "summary": "",
-   "time": "2026-11-09 22:35:04",
-   "url": "https://news.10jqka.com.cn/20261110/c681630242.shtml",
-   "source": "同花顺"
+   "time": "2026-11-09 22:53:51",
+   "url": "https://news.futunn.com/flash/1003936981/bayer-s-key-stroke-treatment-drug-receives-us-approval",
+   "source": "富途"
   },
   {
-   "title": "特朗普：伊朗绝不会拥有核武器 伊朗不承认但已完全接受",
+   "title": "中证报：公开市场灵活“削峰填谷”，呵护流动性充裕",
    "summary": "",
-   "time": "2026-11-09 21:52:54",
-   "url": "https://news.futunn.com/flash/1003932125/trump-iran-will-never-possess-nuclear-weapons-while-iran-does",
-   "source": "富途"
+   "time": "2026-11-09 22:48:51",
+   "url": "https://news.10jqka.com.cn/20261110/c681630370.shtml",
+   "source": "同花顺"
   },
   {
    "title": "港股以及A股代表硬科技方向的科创50领跑大涨，市场活跃度和资金情绪回暖，成交规模相比前几周放大。海外扰动仍存",
@@ -1811,25 +2030,25 @@
    "source": "财新"
   },
   {
-   "title": "1年期AAA级同业存单收益率创历史新低。政策利率“换锚”传导效应显现",
-   "summary": "政策利率“换锚”落地后，同业存单市场迎来新变化。11月首周，1年期AAA级同业存单收益率跌破1.40%，一度降至1.385%，创历史新低，银行新发行存单的融资成本也随之下降。",
-   "time": "2026-11-10 06:34",
-   "url": "https://wallstreetcn.com/livenews/3197204",
+   "title": "A股上市公司积极回购，机构称市场底部构筑相对充分",
+   "summary": "随着近期市场连续震荡，A股估值已处于相对低位，上市公司积极开展回购。截至11月8日，10月以来A股上市公司回购金额超330亿元，宁德时代回购金额超50亿元。分析人士认为，目前A股市场估值、情绪已经接近历次市场底部的阈值，底部构筑或已相对充分。不过，目前仍处在反复磨底阶段，趋势性反转的条件尚未完全具备，后续需重点观察政策、美债收益率以及成交量等关键信号。（中证报）",
+   "time": "2026-11-10 06:54",
+   "url": "https://wallstreetcn.com/livenews/3197210",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普淡化再袭伊朗可能 国际油价早盘一度跌超5% - 新蓝网",
-   "summary": "",
-   "time": "2026-11-10 06:24",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nZ2NqdkdvVTFSV1JsSHBaSjFTbDlnNUhwbjJTVXhmSDBHWWhVMXRtV2lURkU0eFFuY0tiRU5NLU1pcHQ0Q1o3akNxNGo3QjA?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "乌总统办主任：乌方比任何一方都更愿意尽快结束冲突",
+   "summary": "【乌总统办主任：乌方比任何一方都更愿意尽快结束冲突】乌克兰总统办公室主任布达诺夫9日晚在社交媒体发文称，乌方比任何一方都更愿意尽快结束冲突。他表示，期待俄美乌三方会谈能够取得“实际成果”。布达诺夫称，期待与俄方代表开展建设性对话。",
+   "time": "2026-11-10 06:56:36",
+   "url": "https://finance.eastmoney.com/a/202611103926665637.html",
+   "source": "东财国际"
   },
   {
-   "title": "周二你需要知道的隔夜全球要闻",
-   "summary": "【周二你需要知道的隔夜全球要闻】1、特朗普表示：目前对伊朗采取军事行动似乎没有必要；美国正维持伊朗的现状；伊朗正“非常礼貌地”与美国对话；我们拭目以待，很有可能会结束。",
-   "time": "2026-11-10 06:16:15",
-   "url": "https://finance.eastmoney.com/a/202611103926658060.html",
-   "source": "东财国际"
+   "title": "特朗普：继续封锁，并执行“铁门”特遣行动 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-10 06:52",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVSGVUQ0JEZGI3czY4b003d2EtQ19sTVhaNFdUaXFsUUlkaVQ3dW03dXVuSkdCOTlEUGFNMHcyc0tSOV9BVkNTdTRCVXg?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月9日周一",
@@ -1839,25 +2058,25 @@
    "source": "东财早报"
   },
   {
-   "title": "惠誉确认伊拉克长期外币发行人违约评级B- 展望稳定 - 观点网",
+   "title": "外资投行密集看多A股 49家QFII持股市值约2707亿元 - 观点网",
    "summary": "",
-   "time": "2026-11-09 22:47",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPMVM0a1h6V0YxSG5ublpWUEZleDhFU0pqNTdrSV9sXy1jNXQxby1CSFVjREkzMnAyVUtfdkZ3UW05SXMtTjRMM3NJRElUaWxRdDVNNEQzUXlpN0h0WllWQ2lR?oc=5",
+   "time": "2026-11-09 22:27",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ITXB1dnh4NDFYdGRja01vd3Z2N0JEd2M1MnZuU3V0U0gtSE9nZVhFN1VnN3pqbk4tQnloMElOT0NhcUZIeWdncDdmeGlDX2RpUE1ZUXllQXVnc0hfeE1EMEZB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普称结束伊朗战争出现积极势头",
+   "title": "美汽油价格最快周二降至4美元/加仑以下",
    "summary": "",
-   "time": "2026-11-09 22:23:27",
-   "url": "https://news.10jqka.com.cn/20261110/c681630200.shtml",
-   "source": "同花顺"
+   "time": "2026-11-09 22:46:52",
+   "url": "https://news.futunn.com/flash/1003936446/us-gasoline-prices-could-fall-below-4-per-gallon-as",
+   "source": "富途"
   },
   {
-   "title": "苹果完成75亿美元公司债发行",
+   "title": "特朗普称似乎没必要再打伊朗",
    "summary": "",
-   "time": "2026-11-09 21:39:28",
-   "url": "https://news.futunn.com/flash/1003930790/apple-completes-7-5-billion-corporate-bond-issuance",
-   "source": "富途"
+   "time": "2026-11-09 22:35:04",
+   "url": "https://news.10jqka.com.cn/20261110/c681630242.shtml",
+   "source": "同花顺"
   },
   {
    "title": "黄仁勋婚外情风波及其信托架构背后折射的是科技创新“新贵”普遍存在的四层结构性风险，也是中国高净值企业家最值得警惕的治理短板",
@@ -1867,46 +2086,46 @@
    "source": "财新"
   },
   {
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 07:50 日本央行公布10月货币政策会议审议委员意见摘要，日本9月贸易帐；\n\n② 08:15 新西兰联储首席经济学家Conway在瑞银澳洲会议上谈论经济；\n\n③ 时间待定 中国10月进出口与贸易帐；\n\n④ 13:30 台积电公布10月销售额；\n\n⑤ 16:15 欧洲央行管委Sleijpen讲话；、\n\n⑥ 16:30 英国央行副行长Breeden讲话；\n\n⑦ 17:00 美联储理事沃勒在英国伦",
-   "time": "2026-11-10 06:30",
-   "url": "https://wallstreetcn.com/livenews/3197203",
+   "title": "理财产品“中途谢幕”：规模竞赛让位需求导向",
+   "summary": "近日，多家银行及理财公司发布理财产品提前终止公告，提前退场的产品涵盖日开型、最低持有期型、封闭型等多个主流理财品类。梳理多家银行及理财公司公告和产品说明书发现，触发理财产品提前终止的原因涉及存续份额低于约定门槛、达到止盈目标、底层资产提前退出等情形。业内人士认为，在理财行业净值化转型和信息披露规范化背景下，理财产品触发相关机制而提前退场或趋于常态化，在加速小规模、业绩表现弱产品出清，并倒逼机构提升",
+   "time": "2026-11-10 06:53",
+   "url": "https://wallstreetcn.com/livenews/3197209",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普称下周或与习近平、普京在中国举行三方会谈 - RFI",
-   "summary": "",
-   "time": "2026-11-10 06:21",
-   "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxQWWxuQ3p1XzRDakNjd0JLYkQ3djdmUzkwcmo0UERaZzktMWJyMU5hckJndnN4d21FQzhRRkR3aXkzYXZFaVdxbUVnT04yeG03dk14czIzaVczRHlxSWhGUWJOOWpPTUNuMTdleU52ZEdQczNidEVlSGZWNFZWNDhLaFAzdlNvSEdPdFF0MlpKOHNsQ2pjX04xbUJmZzNPT1huWnVORENNLUhYQWJCMkpicnFJd0d5QlZFUTY1MWptdGN5MmJ0QlRuOFhGNG5qRjJuNGlHQ1ptaEF0bzNoak5yUThWNjBoVURTN3U4S0dWakxaVlFqdkJtZ3Qxek9ET0xwYmJpT0llV0k3UDJjazhVU0ZFUTk2TTBEMVkwbU0zUDlWUmx0VWJlQUdnME1TVnhndEtlR2hvb0ZtcXd3eUhFUU9QMWZxYW5mMXlpNkJKX2dRX2Nha0hqN0NEQUdnUFgxWTZyWjdLeDc?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "特朗普称将继续实施对伊朗的封锁及“铁门”特遣行动",
-   "summary": "【特朗普称将继续实施对伊朗的封锁及“铁门”特遣行动】当地时间11月9日，美国总统特朗普在社交媒体平台上发文表示，他与卡塔尔首相穆罕默德进行了非常好的交谈，双方就伊朗伊斯兰共和国相关议题进行了深入讨论。最重要的是，卡塔尔、沙特阿拉伯、阿联酋、巴林、科威特及其他国家均倾向于维持现状，即继续实施“史上规模最大的海上封锁”，并执行新的“铁门”特遣行动。",
-   "time": "2026-11-10 06:14:22",
-   "url": "https://finance.eastmoney.com/a/202611103926657297.html",
+   "title": "坦桑尼亚发生客车与卡车相撞事故 至少21人死亡",
+   "summary": "【坦桑尼亚发生客车与卡车相撞事故 至少21人死亡】当地时间11月9日，坦桑尼亚警方表示，当天在该国伊林加省，一辆客车与一辆卡车相撞，造成至少21人死亡、5人受伤。",
+   "time": "2026-11-10 06:49:04",
+   "url": "https://finance.eastmoney.com/a/202611103926665085.html",
    "source": "东财国际"
   },
   {
-   "title": "外资投行密集看多A股 49家QFII持股市值约2707亿元 - 观点网",
+   "title": "特朗普：黄仁勋称不知涉事中国女子是间谍 - 联合早报",
    "summary": "",
-   "time": "2026-11-09 22:27",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ITXB1dnh4NDFYdGRja01vd3Z2N0JEd2M1MnZuU3V0U0gtSE9nZVhFN1VnN3pqbk4tQnloMElOT0NhcUZIeWdncDdmeGlDX2RpUE1ZUXllQXVnc0hfeE1EMEZB?oc=5",
+   "time": "2026-11-10 06:43",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzTi16Ty1RdHJZR01jT0tVenI0RFNsYWhDYzU5U3p4VUxXMEpMc043NUtoRG9SSy1BSXVTaUhTT01OM2k4aEFsZHJaWFRTTmJGbFBOVGJDc0pHZU15VFJzVFAzZmZZb3BHMnc?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "高盛维持甲骨文买入评级12个月目标价206美元_公司新闻_财经 - 证券之星",
+   "summary": "",
+   "time": "2026-11-09 22:18",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zcGhqbTVtLWZIZlduU3doQ3U1M1ltUGZMNm5pVF8yRG9lT1kwcTNFRkU2aTNFRi13S3kwRG1sN291azB2b0JVOUlYdkt4SVRRV1VrYmxfTmRlSUxBcm9zdQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "REITs“去不动产化”探路：动力电池批量“化身”金融底层资产",
+   "title": "特朗普突然召新闻开发布会 称伊朗冲突很快结束",
    "summary": "",
-   "time": "2026-11-09 22:13:33",
-   "url": "https://news.10jqka.com.cn/20261110/c681630157.shtml",
-   "source": "同花顺"
+   "time": "2026-11-09 22:42:14",
+   "url": "https://news.futunn.com/flash/1003936298/trump-unexpectedly-calls-a-press-conference-states-that-the-iran",
+   "source": "富途"
   },
   {
-   "title": "特朗普称看到伊朗冲突结束的积极势头 重申不太可能再打伊朗",
+   "title": "特朗普称结束伊朗战争出现积极势头",
    "summary": "",
-   "time": "2026-11-09 21:36:50",
-   "url": "https://news.futunn.com/flash/1003930632/trump-sees-positive-momentum-toward-ending-the-iran-conflict-and",
-   "source": "富途"
+   "time": "2026-11-09 22:23:27",
+   "url": "https://news.10jqka.com.cn/20261110/c681630200.shtml",
+   "source": "同花顺"
   },
   {
    "title": "美伊对峙维持高频摩擦，袭船事件持续扰动航道安全，美方借中期选举后的短暂时间窗口实施有限军事打击与物资封锁，伊朗以海峡通航管控、导弹威慑作为反制筹码",
@@ -1916,10 +2135,10 @@
    "source": "财新"
   },
   {
-   "title": "多方发力稳投资，年末冲刺进行时",
-   "summary": "进入四季度，从中央到地方、从财政资金到社会资本，多路力量正在向“稳投资”这一目标集中发力。记者注意到，近一个月以来，福建、湖北、青海、吉林、山西、云南、安徽等地召开投资和重大项目建设推进会，聚焦重大项目与“六张网”建设等，加码稳投资。专家在接受记者采访时表示，四季度投资有望边际回升。（上证报）",
-   "time": "2026-11-10 06:19",
-   "url": "https://wallstreetcn.com/livenews/3197202",
+   "title": "美国参议院共和党成员Tillis：预计将投票支持弹劾国防部长赫格塞思。（NBC）",
+   "summary": "美国参议院共和党成员Tillis：预计将投票支持弹劾国防部长赫格塞思。（NBC）",
+   "time": "2026-11-10 06:42",
+   "url": "https://wallstreetcn.com/livenews/3197207",
    "source": "华尔街见闻"
   }
  ],
@@ -1927,7 +2146,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(5)",
+   "富途": "ok(8)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1936,14 +2155,14 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 8,
-   "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "东财早报": 2,
    "谷歌新闻·研报": 7,
-   "同花顺": 7,
-   "富途": 3,
-   "财新": 7
+   "富途": 6,
+   "同花顺": 6,
+   "财新": 6
   }
  },
  "wuxing": {
