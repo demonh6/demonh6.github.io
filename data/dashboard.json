@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 00:43:23 CST",
- "generated_at_iso": "2026-11-10T00:43:23+08:00",
+ "generated_at": "2026-11-10 00:51:31 CST",
+ "generated_at_iso": "2026-11-10T00:51:31+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52222.7695,
-    "change": 937.04,
-    "change_pct": 1.83,
-    "quote_time": "2026-11-10 00:43:22",
+    "price": 52242.5586,
+    "change": 956.83,
+    "change_pct": 1.87,
+    "quote_time": "2026-11-10 00:51:24",
     "hist": [
      51481.5117,
      51349.9219,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25148.27,
-    "change": 568.8452,
-    "change_pct": 2.31,
-    "quote_time": "2026-11-10 00:43:27",
+    "price": 25185.472,
+    "change": 606.0472,
+    "change_pct": 2.47,
+    "quote_time": "2026-11-10 00:51:34",
     "hist": [
      26820.3809,
      26797.541,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7525.0,
-    "change": 148.14,
-    "change_pct": 2.01,
-    "quote_time": "2026-11-10 00:43:22",
+    "price": 7533.0801,
+    "change": 156.22,
+    "change_pct": 2.12,
+    "quote_time": "2026-11-10 00:51:24",
     "hist": [
      7683.6899,
      7670.8398,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4126.01,
-    "change": 51.11,
-    "change_pct": 1.25,
-    "quote_time": "00:43:29 2026-11-10"
+    "price": 4117.729,
+    "change": 42.829,
+    "change_pct": 1.05,
+    "quote_time": "00:51:37 2026-11-10"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.775,
-    "change": 0.833,
-    "change_pct": 1.6,
-    "quote_time": "00:43:14 2026-11-10"
+    "price": 52.669,
+    "change": 0.727,
+    "change_pct": 1.4,
+    "quote_time": "00:51:37 2026-11-10"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.682,
-    "change": -3.148,
-    "change_pct": -3.47,
-    "quote_time": "00:43:29 2026-11-10"
+    "price": 87.702,
+    "change": -3.128,
+    "change_pct": -3.44,
+    "quote_time": "00:51:38 2026-11-10"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.794,
-    "change": -4.526,
-    "change_pct": -4.6,
-    "quote_time": "00:43:28 2026-11-10"
+    "price": 93.968,
+    "change": -4.352,
+    "change_pct": -4.43,
+    "quote_time": "00:51:36 2026-11-10"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74956.9,
-    "change": -1045.8,
-    "change_pct": -1.38,
+    "price": 74972.8,
+    "change": -836.2,
+    "change_pct": -1.1,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2131.66,
-    "change": -106.46,
-    "change_pct": -4.76,
+    "price": 2132.65,
+    "change": -98.18,
+    "change_pct": -4.4,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.9,
-    "change": -2.5,
-    "change_pct": -2.8,
+    "price": 87.02,
+    "change": -2.09,
+    "change_pct": -2.35,
     "source": "okx"
    }
   ]
@@ -1693,21 +1693,21 @@
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日涨1.93%，达20日历史波动率的 2.1 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-10 00:43",
+   "time": "2026-11-10 00:51",
    "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
   },
   {
    "level": "warning",
    "asset": "布伦特原油",
-   "message": "布伦特原油单日跌4.60%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-10 00:43",
+   "message": "布伦特原油单日跌4.43%，达20日历史波动率的 2.5 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-10 00:51",
    "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、标普500、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-10 00:43",
+   "time": "2026-11-10 00:51",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
