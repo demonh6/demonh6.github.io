@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 01:58:05 CST",
- "generated_at_iso": "2026-11-10T01:58:05+08:00",
+ "generated_at": "2026-11-10 02:06:14 CST",
+ "generated_at_iso": "2026-11-10T02:06:14+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52385.4492,
-    "change": 1099.72,
-    "change_pct": 2.14,
-    "quote_time": "2026-11-10 01:57:57",
+    "price": 52402.8281,
+    "change": 1117.1,
+    "change_pct": 2.18,
+    "quote_time": "2026-11-10 02:06:04",
     "hist": [
      51481.5117,
      51349.9219,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25209.7419,
-    "change": 630.3171,
-    "change_pct": 2.56,
-    "quote_time": "2026-11-10 01:58:08",
+    "price": 25200.1165,
+    "change": 620.6917,
+    "change_pct": 2.53,
+    "quote_time": "2026-11-10 02:06:15",
     "hist": [
      26820.3809,
      26797.541,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7548.04,
-    "change": 171.18,
-    "change_pct": 2.32,
-    "quote_time": "2026-11-10 01:57:45",
+    "price": 7548.6001,
+    "change": 171.74,
+    "change_pct": 2.33,
+    "quote_time": "2026-11-10 02:06:04",
     "hist": [
      7683.6899,
      7670.8398,
@@ -1392,37 +1392,204 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4113.725,
-    "change": 38.825,
-    "change_pct": 0.95,
-    "quote_time": "01:58:11 2026-11-10"
+    "price": 4114.044,
+    "change": 39.144,
+    "change_pct": 0.96,
+    "quote_time": "02:06:17 2026-11-10",
+    "hist": [
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6,
+     4110.5
+    ],
+    "sigma": 1.521
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.74,
-    "change": 0.798,
-    "change_pct": 1.54,
-    "quote_time": "01:58:08 2026-11-10"
+    "price": 52.753,
+    "change": 0.811,
+    "change_pct": 1.56,
+    "quote_time": "02:06:19 2026-11-10",
+    "hist": [
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96,
+     52.63
+    ],
+    "sigma": 2.937
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.486,
-    "change": -3.344,
-    "change_pct": -3.68,
-    "quote_time": "01:58:12 2026-11-10"
+    "price": 87.549,
+    "change": -3.281,
+    "change_pct": -3.61,
+    "quote_time": "02:06:20 2026-11-10",
+    "hist": [
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34,
+     87.71
+    ],
+    "sigma": 3.068
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.574,
-    "change": -4.746,
-    "change_pct": -4.83,
-    "quote_time": "01:58:13 2026-11-10"
+    "price": 93.708,
+    "change": -4.612,
+    "change_pct": -4.69,
+    "quote_time": "02:06:19 2026-11-10",
+    "hist": [
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92,
+     93.73
+    ],
+    "sigma": 3.34,
+    "volume": 294994.0,
+    "vol_chg_pct": -38.0,
+    "vol_pctile": 26.8,
+    "vol_hist": [
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0,
+     294994.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74772.6,
-    "change": -1018.5,
-    "change_pct": -1.34,
-    "source": "okx"
+    "price": 74790.4,
+    "change": -1055.9,
+    "change_pct": -1.39,
+    "source": "okx",
+    "hist": [
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     74823.9
+    ],
+    "sigma": 2.015
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2125.97,
-    "change": -105.25,
-    "change_pct": -4.72,
-    "source": "okx"
+    "price": 2125.19,
+    "change": -106.57,
+    "change_pct": -4.78,
+    "source": "okx",
+    "hist": [
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2126.56
+    ],
+    "sigma": 2.938
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.62,
-    "change": -2.58,
-    "change_pct": -2.89,
-    "source": "okx"
+    "price": 86.72,
+    "change": -2.52,
+    "change_pct": -2.82,
+    "source": "okx",
+    "hist": [
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     86.79
+    ],
+    "sigma": 2.684
    }
   ]
  },
@@ -1474,9 +1740,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 20.33,
-   "change": -5.31,
-   "change_pct": -20.7098,
+   "value": 20.17,
+   "change": -5.47,
+   "change_pct": -21.3339,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1512,33 +1778,33 @@
     28.18,
     25.64
    ],
-   "vix3m": 21.29,
+   "vix3m": 21.2,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 20.38,
-     "change_pct": -25.0184
+     "value": 20.06,
+     "change_pct": -26.1957
     },
     {
      "t": "VIX",
-     "value": 20.33,
-     "change_pct": -20.7098
+     "value": 20.17,
+     "change_pct": -21.3339
     },
     {
      "t": "VIX3M",
-     "value": 21.29,
-     "change_pct": -13.4553
+     "value": 21.2,
+     "change_pct": -13.8211
     },
     {
      "t": "VIX6M",
-     "value": 22.46,
-     "change_pct": -9.0688
+     "value": 22.42,
+     "change_pct": -9.2308
     }
    ],
-   "ratio_9d_3m": 0.957,
+   "ratio_9d_3m": 0.946,
    "shape": "平坦",
    "source": "CBOE"
   },
@@ -1553,12 +1819,12 @@
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储Barkin：存在企业将能源成本上涨转移（给消费者）的风险。",
-   "summary": "美联储Barkin：存在企业将能源成本上涨转移（给消费者）的风险。",
-   "time": "2026-11-10 01:29",
-   "url": "https://wallstreetcn.com/livenews/3197082",
+   "title": "美联储Barkin：处于历史高位的是政府债务，而非消费者债务。",
+   "summary": "美联储Barkin：处于历史高位的是政府债务，而非消费者债务。",
+   "time": "2026-11-10 01:59",
+   "url": "https://wallstreetcn.com/livenews/3197093",
    "source": "华尔街见闻",
-   "mentions": 4
+   "mentions": 2
   },
   {
    "keyword": "特朗普",
@@ -1569,7 +1835,7 @@
    "time": "2026-11-10 01:14",
    "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQdk5RWHhSMklmOWk2TWFXQ29IZE5SYm5mS2VjM09UaDRrbW83d2JKal9YRjZTRlJoRmM3eW15TW1nRGtBNG1RZE5YYzAyN1NQYzMtTEVzZXRtREVReHJoR0FzcGJ5QWp5akxFLTVUYUhacVJWbDZrWFZRNkRaX3ZpbmlJckx2RHFsYkUzTnN1ODFNVlBkY19rMVNEbVVSY3hkVjZNREM1bUJxb24xTXRVV1ZDR0pZV3NselcwVElmUGtaYXJVVHBHcnhIWXNfeG4teU5icWhKTnN3LXg4YVpvZHlFalNNV1VxUWtRVkM3Mm9iWFowM0dEaTAzcjFaZ2pnYmhxVFZRY3hjeFdxa0hsQ2Y1V01DWXdpUXZHVTBtMW9WSkVkcmh0MGM1bXFNbENCakY4Y0FiX0dfSlFrLUtiemZsU3VRTl9CM2E0c19aNVpzT1Q4WjhpbVBvX3dpbkZFNU5MU3hCSGNSZw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
+   "mentions": 3
   },
   {
    "keyword": "中国央行",
@@ -1666,23 +1932,13 @@
   ],
   "reports": [
    {
-    "title": "法意希收益率普遍跌约2个基点",
-    "org": "彭博",
+    "title": "摩根士丹利下调拼多多评级至\"持股观望\"，资本回报前景存隐忧 提供者 Investing.com - 英为财情 Investing.com",
+    "org": "摩根士丹利",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-10",
-    "url": "https://wallstreetcn.com/livenews/3197071",
-    "source": "机构观点"
-   },
-   {
-    "title": "惠誉确认伊拉克长期外币发行人违约评级B- 展望稳定 - 观点网",
-    "org": "惠誉",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-09",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPMVM0a1h6V0YxSG5ublpWUEZleDhFU0pqNTdrSV9sXy1jNXQxby1CSFVjREkzMnAyVUtfdkZ3UW05SXMtTjRMM3NJRElUaWxRdDVNNEQzUXlpN0h0WllWQ2lR?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ENW40SWFoQWM3eW5ZYV8xTEgyVHVlWGxKMVVfQk1FOGVVdkFaSlB0cVc2d2ItcEVsWl9zb0dTSUVSNXNwSDlyNmV6UTZZOVpyZ3haX2lwcE9NVl82Y0VOZmcxMGR2eXZWQjhkeHp5aXc?oc=5",
     "source": "机构观点"
    }
   ]
@@ -1690,46 +1946,32 @@
  "alerts": [
   {
    "level": "warning",
-   "asset": "WTI原油",
-   "message": "WTI原油单日跌3.68%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-10 01:58",
-   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
-  },
-  {
-   "level": "warning",
-   "asset": "布伦特原油",
-   "message": "布伦特原油单日跌4.83%，达20日历史波动率的 2.7 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-10 01:58",
-   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
-  },
-  {
-   "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、标普500、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-10 01:58",
+   "time": "2026-11-10 02:07",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "美联储Barkin：存在企业将能源成本上涨转移（给消费者）的风险。",
-   "summary": "美联储Barkin：存在企业将能源成本上涨转移（给消费者）的风险。",
-   "time": "2026-11-10 01:29",
-   "url": "https://wallstreetcn.com/livenews/3197082",
+   "title": "美国财政部拍卖六周期国债，得标利率3.990%，投标倍数2.59。",
+   "summary": "美国财政部拍卖六周期国债，得标利率3.990%，投标倍数2.59。",
+   "time": "2026-11-10 02:03",
+   "url": "https://wallstreetcn.com/livenews/3197097",
    "source": "华尔街见闻"
   },
   {
-   "title": "一艘油轮在阿曼附近海域遇袭起火 船员被迫撤离",
-   "summary": "【一艘油轮在阿曼附近海域遇袭起火 船员被迫撤离】当地时间9日，英国海上贸易行动办公室发布最新通报称，当地时间11月7日19时20分，阿曼哈萨卜西北方向约8海里处发生一起海上安全事件。通报称，据军方报告，一艘油轮起火，船员被迫撤离。",
-   "time": "2026-11-10 01:18:44",
-   "url": "https://finance.eastmoney.com/a/202611103926617442.html",
+   "title": "今飞凯达、华银电力同日披露：定增募资额拟“缩水”",
+   "summary": "【今飞凯达、华银电力同日披露：定增募资额拟“缩水”】11月9日盘后，今飞凯达（002863.SZ，股价4.49元，市值26.92亿元）披露“2026年度以简易程序向特定对象发行股票预案（二次修订稿）”。无独有偶，华银电力（600744.SH，股价5.74元，市值116.59亿元）同日披露“调整公司2025年度向特定对象发行A股股票方案的公告”。",
+   "time": "2026-11-10 01:45:21",
+   "url": "https://finance.eastmoney.com/a/202611103926606879.html",
    "source": "东财国际"
   },
   {
-   "title": "星巴克股价上涨，Stifel恢复覆盖并给予买入评级及$115目标价 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "丰业银行维持泰勒斯(TU.US)持有评级，上调目标价至11.51美元 - Moomoo",
    "summary": "",
-   "time": "2026-11-10 01:17",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXZHJJSVZRRGh2UlhQWDlNbWdnVjhhRTUybXJEbF9ydUFITXFQVm8xMUFyVF93bUtwN3hwYTk0WEl6OGc0VGRqeG9VcnBfLXNvWnVwUXBQVjF0RXlGRXE0WW8tdnJhdkdBLXhIUlpYUEM?oc=5",
+   "time": "2026-11-10 01:45",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVnRNTzdYRVRMN3o1WGRUZkhNRXpPZGpxbEFELXo5eVRPOEpZRVM2cUVqYnpWbVEwZlBXdENQWkFyZ2R1Yzh2bkN5Y0pHMENPSnZlWnlEVWZjLUh0OTEtaVU0RENicGUyeVdrUjI4YktGQ0FmVmNLT3hmTDZPLUFzOXlsMEhtNVNYaTJFOG5UZHhXUkJIYkZqOVlkbjlzWDlfUkFRT1hLX25JaldpbXNWd3JEVlVNNjZs?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1740,17 +1982,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "多重因素助力脑机接口产业发展驶入快车道",
+   "title": "美国财政部拍卖580亿美元三年期国债，得标利率4.627%",
    "summary": "",
-   "time": "2026-11-09 17:30:35",
-   "url": "https://news.10jqka.com.cn/20261110/c681629117.shtml",
+   "time": "2026-11-09 18:03:09",
+   "url": "https://news.10jqka.com.cn/20261110/c681629210.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美联储巴尔金：通胀风险仍占主导，政策调整应谨慎",
+   "title": "俄副外长重申俄无意进攻欧洲国家",
    "summary": "",
-   "time": "2026-11-09 17:17:35",
-   "url": "https://news.futunn.com/flash/1003913625/fed-s-barkin-inflation-risks-remain-dominant-policy-adjustments-should",
+   "time": "2026-11-09 17:49:03",
+   "url": "https://news.futunn.com/flash/1003915229/russian-deputy-foreign-minister-reaffirms-that-russia-has-no-intention",
    "source": "富途"
   },
   {
@@ -1768,24 +2010,24 @@
    "source": "财新"
   },
   {
-   "title": "英国央行行长贝利：前沿人工智能（AI）增加了网络攻击风险，需要在模型发布前后进行更广泛的测试。\n\n人工智能的回报可能强劲，但市场可能对其估值过高，或者回报兑现所需时间可能长于预期。\n\n人工智能和投资正日益显现出积极供给冲击初步形成的迹象。\n",
-   "summary": "英国央行行长贝利：前沿人工智能（AI）增加了网络攻击风险，需要在模型发布前后进行更广泛的测试。\n\n人工智能的回报可能强劲，但市场可能对其估值过高，或者回报兑现所需时间可能长于预期。\n\n人工智能和投资正日益显现出积极供给冲击初步形成的迹象。\n\n人工智能资产价格泡沫构成明显的金融稳定风险。",
-   "time": "2026-11-10 01:29",
-   "url": "https://wallstreetcn.com/livenews/3197081",
+   "title": "扎克伯格：Muse Ember将成为最小模型。",
+   "summary": "扎克伯格：Muse Ember将成为最小模型。",
+   "time": "2026-11-10 01:59",
+   "url": "https://wallstreetcn.com/livenews/3197094",
    "source": "华尔街见闻"
   },
   {
-   "title": "道指涨幅扩大至2%",
-   "summary": "【道指涨幅扩大至2%】美股三大指数涨幅扩大，道琼斯指数涨2.04%，标普500指数涨2.29%，纳斯达克综合指数涨2.65%。",
-   "time": "2026-11-10 01:12:16",
-   "url": "https://finance.eastmoney.com/a/202611103926617372.html",
+   "title": "里士满联储行长暗示加息方向明确 但步伐需要谨慎",
+   "summary": "【里士满联储行长暗示加息方向明确 但步伐需要谨慎】里士满联储行长汤姆·巴尔金暗示，强劲的需求和居高不下的通胀意味着利率仍需进一步上调，不过他警告，任何加息都需要以谨慎的步伐进行。巴尔金在一场概述其经济看法的演讲中称企业利润表现亮眼，在失业率处于或低于4.5%的时间创纪录之际，消费者仍在继续支出。不过，他对消费的强劲表现能够持续多久提出警告，指出企业和家庭仍在抱怨成本上涨。这意味着对决策者而言，政策方向已经明确，但行动速度尚未确定。",
+   "time": "2026-11-10 01:38:18",
+   "url": "https://finance.eastmoney.com/a/202611103926617697.html",
    "source": "东财国际"
   },
   {
-   "title": "奥本海默上调AMD评级：预计2027年数据中心收入增长135% - 东方财富",
+   "title": "摩根士丹利下调拼多多评级至\"持股观望\"，资本回报前景存隐忧 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-09 22:55",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SVWRsZ0c5YW12X1ZzUUZPZ1NHSzN4NEdEYVFJeWdYVG5GMkp2ZXJyR1VHR0JVNG5YaEc4bHdkNzJPb0ZnRmxXbllhMWJmamVQX0FodThMTWZfZGJkM1YwVw?oc=5",
+   "time": "2026-11-10 01:23",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ENW40SWFoQWM3eW5ZYV8xTEgyVHVlWGxKMVVfQk1FOGVVdkFaSlB0cVc2d2ItcEVsWl9zb0dTSUVSNXNwSDlyNmV6UTZZOVpyZ3haX2lwcE9NVl82Y0VOZmcxMGR2eXZWQjhkeHp5aXc?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1796,17 +2038,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美联储巴尔金：企业存在将更高能源成本转嫁出去的风险",
+   "title": "Meta推出Muse Ember，这是其最小、最高效的模型，专为复杂推理执行而设计",
    "summary": "",
-   "time": "2026-11-09 17:27:02",
-   "url": "https://news.10jqka.com.cn/20261110/c681629111.shtml",
+   "time": "2026-11-09 17:58:15",
+   "url": "https://news.10jqka.com.cn/20261110/c681629171.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美联储古尔斯比：AI数据中心建设加剧需求过热 通胀仍是首要问题",
+   "title": "美联储巴尔金：通胀风险仍占主导，政策调整应谨慎",
    "summary": "",
-   "time": "2026-11-09 16:53:39",
-   "url": "https://news.futunn.com/flash/1003912140/fed-s-goolsbee-ai-data-center-construction-exacerbates-demand-overheating",
+   "time": "2026-11-09 17:17:35",
+   "url": "https://news.futunn.com/flash/1003913625/fed-s-barkin-inflation-risks-remain-dominant-policy-adjustments-should",
    "source": "富途"
   },
   {
@@ -1817,24 +2059,24 @@
    "source": "财新"
   },
   {
-   "title": "美国就Waymo车辆涉嫌违反校车安全规定展开调查",
-   "summary": "美国国家公路交通安全管理局（NHTSA）表示，已针对Alphabet旗下谷歌自动驾驶部门Waymo运营的2,895辆汽车启动召回调查，原因是这些车辆在遇到校车时的行驶行为持续存在交通安全违规问题。\n\n此次调查将确定Waymo去年年底推出的软件修复方案是否未能阻止其无人驾驶汽车在学校巴士红色警示灯闪烁时超车，因为大多数违规行为发生在该公司宣布该修复方案已全面部署之后。",
-   "time": "2026-11-10 01:26",
-   "url": "https://wallstreetcn.com/livenews/3197080",
+   "title": "美联储Barkin：处于历史高位的是政府债务，而非消费者债务。",
+   "summary": "美联储Barkin：处于历史高位的是政府债务，而非消费者债务。",
+   "time": "2026-11-10 01:59",
+   "url": "https://wallstreetcn.com/livenews/3197093",
    "source": "华尔街见闻"
   },
   {
-   "title": "不锈钢夜盘收跌1.41%",
-   "summary": "【不锈钢夜盘收跌1.41%】国际铜夜盘收涨0.78%，沪铜收涨0.5%，沪铝收跌0.22%，沪锌收跌0.38%，沪铅收涨0.22%，沪镍收跌0.63%，沪锡收跌0.37%。氧化铝夜盘收涨0.57%，铝合金收跌0.38%。不锈钢夜盘收跌1.41%。",
-   "time": "2026-11-10 01:02:53",
-   "url": "https://finance.eastmoney.com/a/202611103926615797.html",
+   "title": "芝加哥联储行长警告经济过热风险 称必须应对通胀问题",
+   "summary": "【芝加哥联储行长警告经济过热风险 称必须应对通胀问题】芝加哥联储行长奥斯坦·古尔斯比表示，政策制定者需要应对人工智能建设可能导致的经济过热，以及不断扩大的通胀压力。“我们必须正视使命中成本和通胀方面未能达标的问题，”古尔斯比周一在芝加哥的一场活动上表示。",
+   "time": "2026-11-10 01:36:46",
+   "url": "https://finance.eastmoney.com/a/202611103926617782.html",
    "source": "东财国际"
   },
   {
-   "title": "惠誉确认伊拉克长期外币发行人违约评级B- 展望稳定 - 观点网",
+   "title": "星巴克股价上涨，Stifel恢复覆盖并给予买入评级及$115目标价 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-09 22:47",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPMVM0a1h6V0YxSG5ublpWUEZleDhFU0pqNTdrSV9sXy1jNXQxby1CSFVjREkzMnAyVUtfdkZ3UW05SXMtTjRMM3NJRElUaWxRdDVNNEQzUXlpN0h0WllWQ2lR?oc=5",
+   "time": "2026-11-10 01:17",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXZHJJSVZRRGh2UlhQWDlNbWdnVjhhRTUybXJEbF9ydUFITXFQVm8xMUFyVF93bUtwN3hwYTk0WEl6OGc0VGRqeG9VcnBfLXNvWnVwUXBQVjF0RXlGRXE0WW8tdnJhdkdBLXhIUlpYUEM?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1845,18 +2087,11 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美国国防部长赫格塞斯谈伊朗：历史将给美国总统特朗普很高的评价。",
+   "title": "Meta Model API输入和输出token定价公布",
    "summary": "",
-   "time": "2026-11-09 17:26:23",
-   "url": "https://news.10jqka.com.cn/20261110/c681629109.shtml",
+   "time": "2026-11-09 17:55:19",
+   "url": "https://news.10jqka.com.cn/20261110/c681629165.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "盘中期权异动：闪迪盘中上涨8.0%，现最高成交额的看涨期权涨跌幅为+78%，成交量达到3,505张",
-   "summary": "",
-   "time": "2026-11-09 16:52:54",
-   "url": "https://news.futunn.com/flash/1003912079/unusual-options-activity-sandisk-up-8-0-the-most-active",
-   "source": "富途"
   },
   {
    "title": "美伊对峙维持高频摩擦，袭船事件持续扰动航道安全，美方借中期选举后的短暂时间窗口实施有限军事打击与物资封锁，伊朗以海峡通航管控、导弹威慑作为反制筹码",
@@ -1866,39 +2101,46 @@
    "source": "财新"
   },
   {
-   "title": "德国两年期国债收益率涨2个基点，投资者权衡股市上涨与油价下跌",
-   "summary": "周一（11月9日）欧市尾盘，德国10年期国债收益率涨0.9个基点，报3.264%，日内交投于3.220%-3.276%区间，整体呈现出N形走势。\n\n两年期德债收益率涨2个基点，报3.011%，日内交投于2.966%-3.024%区间，美股开盘以来持续反弹；30年期德债收益率涨0.4个基点，报3.636%。\n\n2/10年期德债收益率利差跌1.044个基点，报+24.927个基点。",
-   "time": "2026-11-10 01:17",
-   "url": "https://wallstreetcn.com/livenews/3197078",
+   "title": "LME期铜收涨128美元，报13896美元/吨。\n\nLME期铝收涨4美元，报3066美元/吨。\n\nLME期锌收涨20美元，报3731美元/吨。\n\nLME期铅收平，报1886美元/吨。\n\nLME期镍收跌128美元，报16225美元/吨。\n\nL",
+   "summary": "LME期铜收涨128美元，报13896美元/吨。\n\nLME期铝收涨4美元，报3066美元/吨。\n\nLME期锌收涨20美元，报3731美元/吨。\n\nLME期铅收平，报1886美元/吨。\n\nLME期镍收跌128美元，报16225美元/吨。\n\nLME期锡收跌28美元，报46439美元/吨。\n\nLME期钴收平，报33525美元/吨。",
+   "time": "2026-11-10 01:51",
+   "url": "https://wallstreetcn.com/livenews/3197091",
    "source": "华尔街见闻"
   },
   {
-   "title": "法国就网络攻击事件召见伊朗大使 警告将实施制裁",
-   "summary": "【法国就网络攻击事件召见伊朗大使 警告将实施制裁】当地时间11月9日，法国外长巴罗表示，伊朗伊斯兰革命卫队是此前针对法国超市冷藏系统网络攻击的幕后实施者。法国已召见伊朗驻法国大使，伊朗将因此面临后果，包括欧盟层面的制裁。",
-   "time": "2026-11-10 00:59:02",
-   "url": "https://finance.eastmoney.com/a/202611103926615527.html",
+   "title": "联合国气候负责人警告：气候危机已演变为“大流行病级别”的全球健康危机",
+   "summary": "【联合国气候负责人警告：气候危机已演变为“大流行病级别”的全球健康危机】联合国气候变化事务负责人警告称，随着气候变化对全球公共卫生构成日益严峻的威胁，各国必须加强对医疗卫生体系的保护。",
+   "time": "2026-11-10 01:24:00",
+   "url": "https://finance.eastmoney.com/a/202611103926617573.html",
    "source": "东财国际"
+  },
+  {
+   "title": "奥本海默上调AMD评级：预计2027年数据中心收入增长135% - 东方财富",
+   "summary": "",
+   "time": "2026-11-09 22:55",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SVWRsZ0c5YW12X1ZzUUZPZ1NHSzN4NEdEYVFJeWdYVG5GMkp2ZXJyR1VHR0JVNG5YaEc4bHdkNzJPb0ZnRmxXbllhMWJmamVQX0FodThMTWZfZGJkM1YwVw?oc=5",
+   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(5)",
+   "富途": "ok(2)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "FAIL:RuntimeError",
+   "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "东财国际": 7,
-   "谷歌新闻·研报": 7,
+   "华尔街见闻": 8,
+   "东财国际": 8,
+   "谷歌新闻·研报": 8,
    "谷歌新闻·国际": 7,
    "同花顺": 7,
-   "富途": 5,
+   "富途": 2,
    "东财早报": 1,
    "财新": 7
   }
