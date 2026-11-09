@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-09 14:22:43 CST",
- "generated_at_iso": "2026-11-09T14:22:43+08:00",
+ "generated_at": "2026-11-09 14:30:49 CST",
+ "generated_at_iso": "2026-11-09T14:30:49+08:00",
  "date": "2026-11-09",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -545,9 +545,9 @@
     "name": "恒生指数",
     "code": "HSI",
     "sym": "HSI",
-    "price": 24514.541,
-    "change": 32.682,
-    "change_pct": 0.13,
+    "price": 24557.871,
+    "change": 76.012,
+    "change_pct": 0.31,
     "hist": [
      24761.1289,
      24510.0898,
@@ -621,9 +621,9 @@
     "name": "恒生科技指数",
     "code": "HSTECH",
     "sym": "HSTECH",
-    "price": 4068.94,
-    "change": -9.29,
-    "change_pct": -0.23,
+    "price": 4077.16,
+    "change": -1.07,
+    "change_pct": -0.03,
     "hist": [
      4361.1299,
      4311.7798,
@@ -697,9 +697,9 @@
     "name": "恒生中国企业指数",
     "code": "HSCEI",
     "sym": "HSCEI",
-    "price": 8286.7,
-    "change": 12.601,
-    "change_pct": 0.15,
+    "price": 8300.551,
+    "change": 26.451,
+    "change_pct": 0.32,
     "hist": [
      8266.0098,
      8165.7798,
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 58816.81,
-    "change": 1382.04,
-    "change_pct": 2.41,
+    "price": 58775.5,
+    "change": 1340.73,
+    "change_pct": 2.33,
     "hist": [
      66364.2,
      65877.62,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5031.9,
-    "change": -27.79,
-    "change_pct": -0.55,
+    "price": 5019.78,
+    "change": -39.91,
+    "change_pct": -0.79,
     "hist": [
      7080.92,
      6889.74,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4128.259,
-    "change": 53.359,
-    "change_pct": 1.31,
-    "quote_time": "14:22:26 2026-11-09"
+    "price": 4124.372,
+    "change": 49.472,
+    "change_pct": 1.21,
+    "quote_time": "14:31:25 2026-11-09"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.812,
-    "change": 0.87,
-    "change_pct": 1.67,
-    "quote_time": "14:22:45 2026-11-09"
+    "price": 52.628,
+    "change": 0.686,
+    "change_pct": 1.32,
+    "quote_time": "14:31:22 2026-11-09"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 89.787,
-    "change": -1.043,
-    "change_pct": -1.15,
-    "quote_time": "14:22:43 2026-11-09"
+    "price": 89.914,
+    "change": -0.916,
+    "change_pct": -1.01,
+    "quote_time": "14:31:24 2026-11-09"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 96.67,
-    "change": -1.65,
-    "change_pct": -1.68,
-    "quote_time": "14:22:47 2026-11-09"
+    "price": 96.831,
+    "change": -1.489,
+    "change_pct": -1.51,
+    "quote_time": "14:31:19 2026-11-09"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74388.7,
-    "change": -1446.8,
-    "change_pct": -1.91,
+    "price": 74331.7,
+    "change": -1513.1,
+    "change_pct": -1.99,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2123.48,
-    "change": -112.41,
-    "change_pct": -5.03,
+    "price": 2120.34,
+    "change": -115.35,
+    "change_pct": -5.16,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.29,
-    "change": -2.96,
-    "change_pct": -3.32,
+    "price": 86.39,
+    "change": -2.76,
+    "change_pct": -3.1,
     "source": "okx"
    }
   ]
@@ -1465,12 +1465,12 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 2386,
-   "down": 2703,
+   "up": 2405,
+   "down": 2684,
    "flat": 206,
    "total": 5295,
-   "breadth_pct": 45.1,
-   "score": 40.2,
+   "breadth_pct": 45.4,
+   "score": 40.8,
    "source": "东财"
   },
   "vix": {
@@ -1543,31 +1543,20 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 34.6,
+   "score": 34.9,
    "label": "恐惧",
    "color": "#f58a3d"
   }
  },
  "speakers": [
   {
-   "keyword": "欧洲央行",
-   "label": "欧洲央行",
-   "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "欧央行行长候选人诺特：不排除设计新工具应对未来危机",
-   "summary": "【欧央行行长候选人诺特：不排除设计新工具应对未来危机】克拉斯·诺特是欧洲央行下一任行长的两位候选人之一，他告诉《金融时报》，如果他能获得这份工作，他愿意制定一些可能对应对欧洲债务危机至关重要的新工具。诺特表示，他已准备好动用欧洲央行现有的危机应对工具，包括购买债券。“如果情况需要，我们将毫不犹豫地进行干预”。",
-   "time": "2026-11-09 13:55:59",
-   "url": "https://finance.eastmoney.com/a/202611093926174210.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普和万斯将与美伊关键调解人会见 - 风闻",
+   "title": "特朗普：不会升级伊朗战事，内阁将做些许调整 - 凤凰网",
    "summary": "",
-   "time": "2026-11-09 13:41",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QRUg0ODN3VW5SbHV0Qklrb0FkaGd6OTVRZlV6Tnp5bU1tQUxZUHhSMHlkWHBYS3JURXdrbjVRNFhodXI2X1hGSlRZRlJHSTE5ZlNXaFYzY2lVclE?oc=5",
+   "time": "2026-11-09 14:17",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1pZm82TVl0RVY0N2U0RUQ5Y2ExMWNONlE2VGVSZlBZdU1aeF8zQjFaXzRNdGV1aVJvSXFWTlVfTl9RT0JIWUZnU2dYUTE?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 4
   },
@@ -1575,11 +1564,22 @@
    "keyword": "白宫",
    "label": "白宫",
    "hint": "美国官方政策表态的权威渠道",
-   "title": "委内瑞拉移民欲刺杀特朗普 白宫安全再受威胁 - 中华军事",
+   "title": "特朗普任命米勒为白宫幕僚长，暗示未来两年或延续强硬路线！-市场参考 - 金十数据",
    "summary": "",
-   "time": "2026-11-09 13:36",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4RXBtNFBObDl1cnhnTGtvM2hBZTk3SmN2bklFeVZ0ZWpaMm5SbkdlMWhzWWJPVGVtSVF3NVJUdy1zX1U0Vkx6VlYtbS05ZkY0cEpjTEdUcmU0QnRuWEVPRnhQVDdLY0xvNFZGWVEwQzI?oc=5",
+   "time": "2026-11-09 13:54",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hbGh3N0Q3SWNHTk1rOXhZSWZDdmxQdUowUmM1NGNBbGtSc3pfTHJqQ1RGVVJkWWQwWDVaWHd4OFR3TEVITnk4MndXbXJQMDQ?oc=5",
    "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "马斯克：特斯拉可能将出租而非出售Optimus机器人",
+   "summary": "",
+   "time": "2026-11-09 06:09:51",
+   "url": "https://news.10jqka.com.cn/20261109/c681604245.shtml",
+   "source": "同花顺",
    "mentions": 1
   },
   {
@@ -1680,38 +1680,45 @@
  "alerts": [],
  "news": [
   {
-   "title": "纽元兑美元在新西兰选举后的涨幅扩大至1%。",
-   "summary": "纽元兑美元在新西兰选举后的涨幅扩大至1%。",
-   "time": "2026-11-09 14:05",
-   "url": "https://wallstreetcn.com/livenews/3196701",
+   "title": "夏普第二季度经营利润47.3亿日元，预估79.6亿日元。\n\n夏普仍然预测全年经营利润300.0亿日元，市场预估340.8亿日元。",
+   "summary": "夏普第二季度经营利润47.3亿日元，预估79.6亿日元。\n\n夏普仍然预测全年经营利润300.0亿日元，市场预估340.8亿日元。",
+   "time": "2026-11-09 14:31",
+   "url": "https://wallstreetcn.com/livenews/3196717",
    "source": "华尔街见闻"
   },
   {
-   "title": "20多万元/只 实验猴身价不到1年翻倍！养殖企业：不预订 有需要明年初再来谈",
-   "summary": "【20多万元/只 实验猴身价不到1年翻倍！养殖企业：不预订 有需要明年初再来谈】近日，实验猴价格再度走高的消息引发关注。11月9日，红星资本局以购猴者身份致电位于广东、广西、四川的部分实验动物养殖企业，均被告知食蟹猴已被订完。四川一家实验猴养殖企业的工作人员表示，目前食蟹猴价格在20万元出头，现在无法预订，如有需要可以等到明年初再来询问。",
-   "time": "2026-11-09 14:03:40",
-   "url": "https://finance.eastmoney.com/a/202611093926173635.html",
+   "title": "柏诚股份：公司模块化业务板块尚未实现盈利",
+   "summary": "【柏诚股份：公司模块化业务板块尚未实现盈利】柏诚股份在2026年第三季度业绩说明会上表示，模块化业务是公司战略级重点培育业务方向，公司加大力度推进模块化建造解决方案在生物制药、食品药品、微电子、数据中心、锂电等下游产业领域的运用，不断积累项目业绩和实施经验。公司今年模块化业务板块订单规模不断扩大，市场认可度持续提升，但由于产能尚未释放，而厂房及设备折旧、人工成本、技术研发及市场培育投入等持续发生，目前尚未实现盈利。",
+   "time": "2026-11-09 14:27:00",
+   "url": "https://finance.eastmoney.com/a/202611093926192038.html",
    "source": "东财国际"
   },
   {
-   "title": "5公司获得增持评级-更新中 - 中财网",
+   "title": "特朗普：不会升级伊朗战事，内阁将做些许调整 - 凤凰网",
    "summary": "",
-   "time": "2026-11-09 13:46",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5sOGJyYWpUM19XZ1VGd3FFT0cya2hnenlDMWRKWmp1MXJNT0NsUEVMdG42dDhGRld0aFRYMHpNZW4zTTU2c19GWmlEV2Q4R01xWkNuSzZB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普和万斯将与美伊关键调解人会见 - 风闻",
-   "summary": "",
-   "time": "2026-11-09 13:41",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QRUg0ODN3VW5SbHV0Qklrb0FkaGd6OTVRZlV6Tnp5bU1tQUxZUHhSMHlkWHBYS3JURXdrbjVRNFhodXI2X1hGSlRZRlJHSTE5ZlNXaFYzY2lVclE?oc=5",
+   "time": "2026-11-09 14:17",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1pZm82TVl0RVY0N2U0RUQ5Y2ExMWNONlE2VGVSZlBZdU1aeF8zQjFaXzRNdGV1aVJvSXFWTlVfTl9RT0JIWUZnU2dYUTE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美众院民主党领袖：防长赫格塞思“必须走人”",
+   "title": "大行评级｜小摩：首予康诺亚“增持”评级及目标价95港元_股市直播_市场 - 中金在线",
    "summary": "",
-   "time": "2026-11-09 06:01:54",
-   "url": "https://news.10jqka.com.cn/20261109/c681604064.shtml",
+   "time": "2026-11-09 14:14",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Eb0xtR1JscGJXZUNINnZDVWx1cUl1aWF2czNkTlBsWkRwZlNnNE9SNE82VDR5U21BSzNHeU9qWXNrN2xMZDB6eUhqd3pLSnJUM2Q0MXM3LXNHZVplLWVQdERhWm1tOGhOTE1ZSg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "中国政府中东问题特使翟隽访问伊朗",
+   "summary": "",
+   "time": "2026-11-09 06:29:27",
+   "url": "https://news.futunn.com/flash/1003851083/zhai-jun-chinese-government-special-envoy-on-middle-east-affairs",
+   "source": "富途"
+  },
+  {
+   "title": "三菱电机与NTT等公司签署“巨型星座”协议",
+   "summary": "",
+   "time": "2026-11-09 06:11:48",
+   "url": "https://news.10jqka.com.cn/20261109/c681604280.shtml",
    "source": "同花顺"
   },
   {
@@ -1722,13 +1729,6 @@
    "source": "东财早报"
   },
   {
-   "title": "阿里云Token Plan今日起额度上调70%以上",
-   "summary": "",
-   "time": "2026-11-09 05:57:01",
-   "url": "https://news.futunn.com/flash/1003849420/alibaba-cloud-token-plan-quotas-increased-by-over-70-starting",
-   "source": "富途"
-  },
-  {
    "title": "【本文系数据通用户提前专享】美国中期选举成为对特朗普的公投，共和党大败 动摇其权力根基，任期进入更难预测的下半场",
    "summary": "",
    "time": "",
@@ -1736,46 +1736,46 @@
    "source": "财新"
   },
   {
-   "title": "裕信银行第三季度营收69.0亿欧元，预估64.7亿欧元。\n\n第三季度净利润32.6亿欧元，预估28亿欧元。\n\n第三季度净利息收入38.3亿欧元，预估37.2亿欧元。\n\n第三季度手续费及佣金净收入22.8亿欧元，预估22.4亿欧元。\n\n第三季",
-   "summary": "裕信银行第三季度营收69.0亿欧元，预估64.7亿欧元。\n\n第三季度净利润32.6亿欧元，预估28亿欧元。\n\n第三季度净利息收入38.3亿欧元，预估37.2亿欧元。\n\n第三季度手续费及佣金净收入22.8亿欧元，预估22.4亿欧元。\n\n第三季度交易利润2.93亿欧元，预估1.008亿欧元。\n\n第三季度除税前利润42.6亿欧元，预估38.4亿欧元。",
-   "time": "2026-11-09 14:01",
-   "url": "https://wallstreetcn.com/livenews/3196699",
+   "title": "A股创新药概念震荡回落，百诚医药跳水跌超15%，桂林三金一度触及跌停，凯莱英、石药景峰、柳药集团、艾力斯等跟跌。",
+   "summary": "A股创新药概念震荡回落，百诚医药跳水跌超15%，桂林三金一度触及跌停，凯莱英、石药景峰、柳药集团、艾力斯等跟跌。",
+   "time": "2026-11-09 14:29",
+   "url": "https://wallstreetcn.com/livenews/3196714",
    "source": "华尔街见闻"
   },
   {
-   "title": "全国多所学校推迟到校时间 要解决什么问题",
-   "summary": "【全国多所学校推迟到校时间 要解决什么问题】近期，全国多地有学校宣布，将延迟学生到校时间，涵盖小学到高中。11月起，南京多所中学的上下学时间有所调整。一位南京江宁高一学生家长告诉记者：“我们家以前6:40进班，晚上9:30下晚自习，现在调整为7:15进班，9:20下晚自习。”另据江阴发布，11月5日起，江阴中小学调整上学时间，计划本周落实到位，小学、初中、高中具体到校时间分别调整为：8:00、7:40和7:20。",
-   "time": "2026-11-09 13:58:30",
-   "url": "https://finance.eastmoney.com/a/202611093926174174.html",
+   "title": "航天彩虹等在新疆成立飞行试验技术公司",
+   "summary": "【航天彩虹等在新疆成立飞行试验技术公司】企查查APP显示，近日，昆仑飞行试验技术（新疆）有限公司成立，经营范围包含：航空运营支持服务；信息系统集成服务；软件开发；人工智能行业应用系统集成服务等。企查查股权穿透显示，该公司由航天彩虹等共同持股。",
+   "time": "2026-11-09 14:25:36",
+   "url": "https://finance.eastmoney.com/a/202611093926190667.html",
    "source": "东财国际"
   },
   {
-   "title": "美银证券维持英伟达(NVDA.US)买入评级，目标价350美元 - Moomoo",
+   "title": "特朗普任命米勒为白宫幕僚长，暗示未来两年或延续强硬路线！-市场参考 - 金十数据",
    "summary": "",
-   "time": "2026-11-09 13:36",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSndzUV8wUHVQMTZIWERnMEYwREJfMXoxbUtRMXo0d25aTTRlZWFHaHdHTGI1b3kwTGlvMVlQbTN2Y3N1MDY0QVcwU2VBdjBJTjlvS3pCWVNkc0ctUW1GRUx0Y0FDWjFBVy1DZFlNQXZWbEYzcXp1bXAyeXFlcV9OcG5XanRueW81WURRc1M3Q0J1dkQzR2c4QkI2TEhPR0tpNEpaUHJaNHpVZWhSRGFMNmlvN292STNVMmNzUEpB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "委内瑞拉移民欲刺杀特朗普 白宫安全再受威胁 - 中华军事",
-   "summary": "",
-   "time": "2026-11-09 13:36",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4RXBtNFBObDl1cnhnTGtvM2hBZTk3SmN2bklFeVZ0ZWpaMm5SbkdlMWhzWWJPVGVtSVF3NVJUdy1zX1U0Vkx6VlYtbS05ZkY0cEpjTEdUcmU0QnRuWEVPRnhQVDdLY0xvNFZGWVEwQzI?oc=5",
+   "time": "2026-11-09 13:54",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1hbGh3N0Q3SWNHTk1rOXhZSWZDdmxQdUowUmM1NGNBbGtSc3pfTHJqQ1RGVVJkWWQwWDVaWHd4OFR3TEVITnk4MndXbXJQMDQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "MiniMax在珠海横琴成立新科技公司 注册资本500万",
+   "title": "大行评级｜小摩：港交所第三季业绩属轻微逊预期，维持“增持”评级_股市直播_市场 - 中金在线",
    "summary": "",
-   "time": "2026-11-09 05:56:15",
-   "url": "https://news.10jqka.com.cn/20261109/c681603981.shtml",
-   "source": "同花顺"
+   "time": "2026-11-09 14:14",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzaWxjVGFVbnp6YUFra0VZUndSMko2MkZFUmRqaW1xUXRRVmxyQVgxY3UzWGg0OFc2ZHZGNm4teWlpd1JPSEVBenBsZmhManNyejhobFpNRjVabGszTDI4R3RFMlFna25QbmIydA?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "欧央行一把手候选人诺特：不排除设计新工具应对未来危机",
+   "title": "玛莎拉蒂将与尊界合作，推动本地化生产",
    "summary": "",
-   "time": "2026-11-09 05:54:15",
-   "url": "https://news.futunn.com/flash/1003849250/ecb-presidential-candidate-knot-does-not-rule-out-designing-new",
+   "time": "2026-11-09 06:17:07",
+   "url": "https://news.futunn.com/flash/1003850708/maserati-will-collaborate-with-maextro-to-promote-localized-production",
    "source": "富途"
+  },
+  {
+   "title": "马斯克：特斯拉可能将出租而非出售Optimus机器人",
+   "summary": "",
+   "time": "2026-11-09 06:09:51",
+   "url": "https://news.10jqka.com.cn/20261109/c681604245.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】2026年上半年险企投入权益市场6.6万亿元，市场的波动让权益资产作为“关键少数”的重要性进一步提升",
@@ -1785,46 +1785,46 @@
    "source": "财新"
   },
   {
-   "title": "A股零售股反复活跃，上海九百冲击涨停，大东方此前封板，国芳集团、大连友谊涨超5%，百大集团、天虹股份涨幅居前。",
-   "summary": "A股零售股反复活跃，上海九百冲击涨停，大东方此前封板，国芳集团、大连友谊涨超5%，百大集团、天虹股份涨幅居前。",
-   "time": "2026-11-09 13:52",
-   "url": "https://wallstreetcn.com/livenews/3196691",
+   "title": "沙特阿拉伯称利雅得市的危险已经过去。（彭博）",
+   "summary": "沙特阿拉伯称利雅得市的危险已经过去。（彭博）",
+   "time": "2026-11-09 14:19",
+   "url": "https://wallstreetcn.com/livenews/3196711",
    "source": "华尔街见闻"
   },
   {
-   "title": "阿里云：今天起Token Plan额度上调70%以上",
-   "summary": "【阿里云：今天起Token Plan额度上调70%以上】今日，阿里云上调TokenPlan个人版订阅额度，Lite、Essential、Standard三档套餐月费不变，月度额度提升约74%至78%。具体来看，Lite套餐额度由1.15万Credits提升至2万Credits，月费39元；Essential套餐额度由2.55万提升至4.5万Credits，月费79元；Standard套餐额度由4.5万提升至8万Credits，月费139元。",
-   "time": "2026-11-09 13:57:56",
-   "url": "https://finance.eastmoney.com/a/202611093926174780.html",
+   "title": "字节跳动在乌鲁木齐成立麓北承云科技公司 注册资本4亿",
+   "summary": "【字节跳动在乌鲁木齐成立麓北承云科技公司 注册资本4亿】天眼查App显示，近日，乌鲁木齐麓北承云科技有限公司成立，法定代表人为邱京昊，注册资本4亿元人民币，经营范围包括信息技术咨询服务、非居住房地产租赁、软件开发等，由北京字跳网络技术有限公司全资持股。",
+   "time": "2026-11-09 14:25:22",
+   "url": "https://finance.eastmoney.com/a/202611093926191428.html",
    "source": "东财国际"
   },
   {
-   "title": "里昂下调比亚迪H股目标价至100港元 2026、27年净利预测各降8% - 观点网",
+   "title": "特朗普和万斯将与美伊关键调解人会见 - 风闻",
    "summary": "",
-   "time": "2026-11-09 13:19",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tZjRWZHl3bEcxODdrcmF3TzgxZWNhZUtMdF8yZUZmN0gxX3hkVWt1a05ocVpmS0xBNHJlVzJrXzJoQkVIbER2ZHRmRzNvaDRvd1FmcGdCanBVR2NoZFFVQ1pB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "中期选举受挫更换幕僚长，特朗普准备“打硬仗”| 京酿馆 - 新京报",
-   "summary": "",
-   "time": "2026-11-09 13:32",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5UXzhDSFd6dkdsSnNYS2M1Qzl2Zm9XMGJWWDhtRlZ4NUtkeVpod0NRM1NTa2VUd1NKVUg3VGFzMmJiaElsWmQ1RldPbVd6cGRsNkNSbFVLVEs4X1hsVkZhdFBjRm8?oc=5",
+   "time": "2026-11-09 13:41",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1QRUg0ODN3VW5SbHV0Qklrb0FkaGd6OTVRZlV6Tnp5bU1tQUxZUHhSMHlkWHBYS3JURXdrbjVRNFhodXI2X1hGSlRZRlJHSTE5ZlNXaFYzY2lVclE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "半导体板块短线拉升，燧原科技涨超16%",
+   "title": "里昂：维持银河娱乐(00027)“跑赢大市”评级及39.7港元目标价第三季度EBITDA符合预期_市场分析 - 中金在线",
    "summary": "",
-   "time": "2026-11-09 05:35:45",
-   "url": "https://news.10jqka.com.cn/20261109/c681603694.shtml",
-   "source": "同花顺"
+   "time": "2026-11-09 14:14",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EWXEwVEtTT1ZNZHJSYVBMVE5COF9naXptdzRDbVpzbDBvaVFvNDF1VFhiSE9XVmN6RVhjVkx6dVVKdTRnRmJDLW5JMEI0SEJUekdsTm5DNWVhUVd3ejlHRUo3OE9pQktJMklEV3dUbw?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "乘联分会：11月新能源和中低端燃油车存在结构性机会",
+   "title": "阿里云Token Plan今日起额度上调70%以上",
    "summary": "",
-   "time": "2026-11-09 05:25:19",
-   "url": "https://news.futunn.com/flash/1003847951/china-passenger-car-association-cpca-structural-opportunities-exist-for-new",
+   "time": "2026-11-09 05:57:01",
+   "url": "https://news.futunn.com/flash/1003849420/alibaba-cloud-token-plan-quotas-increased-by-over-70-starting",
    "source": "富途"
+  },
+  {
+   "title": "美众院民主党领袖：防长赫格塞思“必须走人”",
+   "summary": "",
+   "time": "2026-11-09 06:01:54",
+   "url": "https://news.10jqka.com.cn/20261109/c681604064.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】现阶段工业机器人无法做到的事，人形机器人也解决不了",
@@ -1834,17 +1834,17 @@
    "source": "财新"
   },
   {
-   "title": "中国台湾证交所加权股价指数收高4.9%报41,661.70点。",
-   "summary": "中国台湾证交所加权股价指数收高4.9%报41,661.70点。",
-   "time": "2026-11-09 13:35",
-   "url": "https://wallstreetcn.com/livenews/3196683",
+   "title": "沙特阿拉伯针对利雅得地区发布危险警告。（彭博）",
+   "summary": "沙特阿拉伯针对利雅得地区发布危险警告。（彭博）",
+   "time": "2026-11-09 14:16",
+   "url": "https://wallstreetcn.com/livenews/3196708",
    "source": "华尔街见闻"
   },
   {
-   "title": "欧央行行长候选人诺特：不排除设计新工具应对未来危机",
-   "summary": "【欧央行行长候选人诺特：不排除设计新工具应对未来危机】克拉斯·诺特是欧洲央行下一任行长的两位候选人之一，他告诉《金融时报》，如果他能获得这份工作，他愿意制定一些可能对应对欧洲债务危机至关重要的新工具。诺特表示，他已准备好动用欧洲央行现有的危机应对工具，包括购买债券。“如果情况需要，我们将毫不犹豫地进行干预”。",
-   "time": "2026-11-09 13:55:59",
-   "url": "https://finance.eastmoney.com/a/202611093926174210.html",
+   "title": "沙特阿拉伯称当天发布的利雅得市危险警告已经解除",
+   "summary": "沙特阿拉伯称当天发布的利雅得市危险警告已经解除。",
+   "time": "2026-11-09 14:24:36",
+   "url": "https://finance.eastmoney.com/a/202611093926189266.html",
    "source": "东财国际"
   }
  ],
@@ -1863,11 +1863,11 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
-   "同花顺": 7,
+   "谷歌新闻·研报": 7,
+   "富途": 7,
+   "同花顺": 6,
    "东财早报": 1,
-   "富途": 6,
    "财新": 6
   }
  },
@@ -1935,6 +1935,8 @@
   "color": "#e0533d",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "A股指数": "DataParsingError: 无法解析上游返回的数据：Expecting value: line 1 column 1 (char 0)；附近内容：'<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML'"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
