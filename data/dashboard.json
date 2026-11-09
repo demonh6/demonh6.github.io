@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-09 12:23:42 CST",
- "generated_at_iso": "2026-11-09T12:23:42+08:00",
+ "generated_at": "2026-11-09 12:32:48 CST",
+ "generated_at_iso": "2026-11-09T12:32:48+08:00",
  "date": "2026-11-09",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 59260.89,
-    "change": 1826.12,
-    "change_pct": 3.18,
+    "price": 59337.7383,
+    "change": 1902.97,
+    "change_pct": 3.31,
     "hist": [
      66364.2,
      65877.62,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5128.53,
-    "change": 68.84,
-    "change_pct": 1.36,
+    "price": 5139.8101,
+    "change": 80.12,
+    "change_pct": 1.58,
     "hist": [
      7080.92,
      6889.74,
@@ -1153,6 +1153,27 @@
      323300.0,
      147889.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81078.4766,
+    "change": 79.08,
+    "change_pct": 0.1
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 41838.72,
+    "change": 2137.08,
+    "change_pct": 5.38
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25820.36,
+    "change": -504.65,
+    "change_pct": -1.92
    },
    {
     "name": "英国富时100",
@@ -1305,7 +1326,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6170.49,
+    "price": 6170.5,
     "change": -61.05,
     "change_pct": -0.98,
     "hist": [
@@ -1341,6 +1362,13 @@
      6170.5
     ],
     "sigma": 0.925
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2487.01,
+    "change": 4.31,
+    "change_pct": 0.17
    }
   ]
  },
@@ -1392,37 +1420,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4132.5,
-    "change": 57.6,
-    "change_pct": 1.41,
-    "quote_time": "12:24:47 2026-11-09"
+    "price": 4138.884,
+    "change": 63.984,
+    "change_pct": 1.57,
+    "quote_time": "12:32:50 2026-11-09"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 53.176,
-    "change": 1.234,
-    "change_pct": 2.38,
-    "quote_time": "12:24:38 2026-11-09"
+    "price": 53.247,
+    "change": 1.305,
+    "change_pct": 2.51,
+    "quote_time": "12:32:11 2026-11-09"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 91.329,
-    "change": 0.499,
-    "change_pct": 0.55,
-    "quote_time": "12:24:33 2026-11-09"
+    "price": 91.273,
+    "change": 0.443,
+    "change_pct": 0.49,
+    "quote_time": "12:32:53 2026-11-09"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 98.356,
-    "change": 0.036,
-    "change_pct": 0.04,
-    "quote_time": "12:24:46 2026-11-09"
+    "price": 98.288,
+    "change": -0.032,
+    "change_pct": -0.03,
+    "quote_time": "12:32:48 2026-11-09"
    }
   ],
   "crypto": [
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74936.4,
-    "change": -1018.2,
-    "change_pct": -1.34,
+    "price": 75010.7,
+    "change": -940.1,
+    "change_pct": -1.24,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2141.79,
-    "change": -96.6,
-    "change_pct": -4.32,
+    "price": 2143.14,
+    "change": -94.84,
+    "change_pct": -4.24,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 87.37,
-    "change": -2.02,
-    "change_pct": -2.26,
+    "price": 87.56,
+    "change": -1.69,
+    "change_pct": -1.89,
     "source": "okx"
    }
   ]
@@ -1463,15 +1491,6 @@
    "color": "#f58a3d",
    "timestamp": "2026-11-09",
    "source": "alternative.me"
-  },
-  "a_share_breadth": {
-   "up": 2650,
-   "down": 2707,
-   "flat": 216,
-   "total": 5573,
-   "breadth_pct": 47.6,
-   "score": 45.2,
-   "source": "东财"
   },
   "vix": {
    "value": 25.64,
@@ -1543,31 +1562,20 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 37.1,
+   "score": 29.0,
    "label": "恐惧",
    "color": "#f58a3d"
   }
  },
  "speakers": [
   {
-   "keyword": "国务院",
-   "label": "国务院",
-   "hint": "国务院级经济政策影响宏观环境",
-   "title": "交通运输部：继续暂停对美船舶收取船舶特别港务费两个月至2027年1月10日",
-   "summary": "【交通运输部：继续暂停对美船舶收取船舶特别港务费两个月至2027年1月10日】交通运输部发布关于继续暂停对美船舶收取船舶特别港务费、暂停开展航运业造船业及相关产业链供应链安全和发展利益受影响情况调查的公告。为落实中美第八轮经贸磋商成果，经国务院批准，继续暂停实施《交通运输部关于对美船舶收取船舶特别港务费的公告》（交通运输部公告2025年第54号）、《交通运输部办公厅关于印发〈对美船舶收取船舶特别港务费实施办法〉的通知》（交办水〔2025〕59号）、《交通运输部关于启动航运业、造船业及相关产业链供应链安全和发展利益受影响情况调查的公告》（交通运输部公告2025年第55号）至2027年1月10日。",
-   "time": "2026-11-09 11:51:31",
-   "url": "https://finance.eastmoney.com/a/202611093926104540.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "中期选举两院尽失，特朗普撤换白宫幕僚长 移民政策强硬派上位 - 中华网",
+   "title": "美共和党中期选举失利？特朗普自辩：美国经济仍然强劲 对伊战争是正确决定 - 财联社",
    "summary": "",
-   "time": "2026-11-09 11:48",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYb005UThfa2pXRks5RXVOV21YZVpDcklLYkFPeHphTExwZ0dVSGhLUERPWWdGTFlIQU9iQzRBQkhDWk1EWEtNMVM4Sy1mRzhaMmRPbTZ4eFo4VFc3NXI1Wm1uVFpONHRqMlNKSHNHZ3g?oc=5",
+   "time": "2026-11-09 12:15",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NQ3UxVmg2ME1uQ09MVThpaGpqWHVZRmY5SkVNOGxLdm90TXhkZldwc1ZRQnIxNGRmOHZBVExDMGluUFZmQjdncw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 4
   },
@@ -1575,12 +1583,12 @@
    "keyword": "白宫",
    "label": "白宫",
    "hint": "美国官方政策表态的权威渠道",
-   "title": "中期选举两院尽失，特朗普撤换白宫幕僚长 移民政策强硬派上位 - 中华网",
+   "title": "特朗普任命米勒为白宫办公厅主任 核心圈重要成员接任 - 中华网",
    "summary": "",
-   "time": "2026-11-09 11:48",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYb005UThfa2pXRks5RXVOV21YZVpDcklLYkFPeHphTExwZ0dVSGhLUERPWWdGTFlIQU9iQzRBQkhDWk1EWEtNMVM4Sy1mRzhaMmRPbTZ4eFo4VFc3NXI1Wm1uVFpONHRqMlNKSHNHZ3g?oc=5",
+   "time": "2026-11-09 11:54",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mYTlwM2RTMi1NQm04ZDhJNkxWbko5LTJZTkhncXJueWQxM0RCVkJGS1dQSkZhbHF1cDVZckFmb0VyNFU5Sll3a2QzQlcwdWgyd2NjSVduVmJhM2RpbHA0aHB1Y2hubUFvN244ak91Y0I?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 1
   },
   {
    "keyword": "中国央行",
@@ -1697,34 +1705,42 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日涨5.38%，达20日历史波动率的 4.5 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-09 12:34",
+   "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
+  }
+ ],
  "news": [
   {
-   "title": "招商蛇口在沈阳成立房地产开发公司",
-   "summary": "【招商蛇口在沈阳成立房地产开发公司】企查查APP显示，近日，沈阳招盈房地产开发有限公司成立，法定代表人为赵明珠，注册资本为10亿元，经营范围包含：房地产开发经营；住房租赁；停车场服务。企查查股权穿透显示，该公司由招商蛇口间接全资持股。",
-   "time": "2026-11-09 11:54:54",
-   "url": "https://finance.eastmoney.com/a/202611093926104733.html",
+   "title": "派杰投资将Moderna目标价从230美元上调至305美元",
+   "summary": "派杰投资将Moderna目标价从230美元上调至305美元。",
+   "time": "2026-11-09 12:30:24",
+   "url": "https://finance.eastmoney.com/a/202611093926114122.html",
    "source": "东财国际"
   },
   {
-   "title": "越南股指VN指数下跌1%。",
-   "summary": "越南股指VN指数下跌1%。",
-   "time": "2026-11-09 11:54",
-   "url": "https://wallstreetcn.com/livenews/3196653",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 15:00 德国9月贸易帐；\n\n② 17:30 欧元区11月Sentix投资者信心指数；\n\n③ 23:00 美国9月批发销售，2027年FOMC票委、芝加哥联储主席古尔斯比发表讲话；\n\n④ 次日00:00 美国10月纽约联储1年通胀预期；\n\n⑤ 次日01:15 2027年FOMC票委、里士满联储主席巴尔金发表讲话；\n\n⑥ 次日01:25 英国央行行长贝利就央行独立性发表讲话；\n\n微信小程序搜索",
+   "time": "2026-11-09 12:30",
+   "url": "https://wallstreetcn.com/livenews/3196655",
    "source": "华尔街见闻"
   },
   {
-   "title": "中期选举两院尽失，特朗普撤换白宫幕僚长 移民政策强硬派上位 - 中华网",
+   "title": "美共和党中期选举失利？特朗普自辩：美国经济仍然强劲 对伊战争是正确决定 - 财联社",
    "summary": "",
-   "time": "2026-11-09 11:48",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBYb005UThfa2pXRks5RXVOV21YZVpDcklLYkFPeHphTExwZ0dVSGhLUERPWWdGTFlIQU9iQzRBQkhDWk1EWEtNMVM4Sy1mRzhaMmRPbTZ4eFo4VFc3NXI1Wm1uVFpONHRqMlNKSHNHZ3g?oc=5",
+   "time": "2026-11-09 12:15",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NQ3UxVmg2ME1uQ09MVThpaGpqWHVZRmY5SkVNOGxLdm90TXhkZldwc1ZRQnIxNGRmOHZBVExDMGluUFZmQjdncw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "大行评级｜大华继显：上调中生制药目标价至7.5港元，维持“买入”评级_股市直播_市场 - 中金在线",
+   "title": "汇丰银行将中国银行的股价目标价调整至HK$7.10 - Moomoo",
    "summary": "",
-   "time": "2026-11-09 11:28",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CdEVxU2dEdlJ0Ui1LQThKejNCU3U0TlN3emttTl8yMUp5aXQzNFR4RG5hU1VwbjRBZFdIVEROSzRhLU1yX2dUeWxPWmIybjJjdTFjczdFNTlIX3Fmc1JsV1ZWYkc5SFRRa1ZtMA?oc=5",
+   "time": "2026-11-09 11:56",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaFRMY1p3SC01Z1FQYlRWM1VGUHJoZVJtUHhhaUlkVDdETXNFcm1YcDlRSDZvMkhtdGoweUVremk0Y1hiN21CcVNndFVDZ1RfVnFIQjhQczgwTFRBQkw2c0pjbm1WNVE3TGc1eGZ6SHEwQlg2VlgwNWFWSHBRS0R5UVdSSlZsR1ZkNkl4QkZPNldoTHhSVy1jSnMwR0Q?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1735,18 +1751,18 @@
    "source": "东财早报"
   },
   {
-   "title": "尊界或推全新子品牌 定价40-50万区间、主打SUV车型",
+   "title": "正荣地产：子公司Zhenro Hong Kong被下令清盘，其财务业绩不再综合入账",
    "summary": "",
-   "time": "2026-11-09 04:03:45",
-   "url": "https://news.10jqka.com.cn/20261109/c681600810.shtml",
-   "source": "同花顺"
+   "time": "2026-11-09 04:33:35",
+   "url": "https://news.futunn.com/flash/1003846062/zhenro-properties-subsidiary-zhenro-hong-kong-ordered-into-winding-up",
+   "source": "富途"
   },
   {
-   "title": "花旗：美国中期选举或放缓AI支出，资金轮动利好印度股市",
+   "title": "映翰通：边缘AI计算机产品销售金额占比小，处于规模化市场推广阶段",
    "summary": "",
-   "time": "2026-11-09 04:03:44",
-   "url": "https://news.futunn.com/flash/1003845129/citi-us-midterms-may-slow-ai-spending-sector-rotation-benefits",
-   "source": "富途"
+   "time": "2026-11-09 04:32:55",
+   "url": "https://news.10jqka.com.cn/20261109/c681601950.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】美国中期选举成为对特朗普的公投，共和党大败 动摇其权力根基，任期进入更难预测的下半场",
@@ -1756,10 +1772,59 @@
    "source": "财新"
   },
   {
-   "title": "中指研究院：10月房地产行业债券融资总额环比增长近7成",
-   "summary": "【中指研究院：10月房地产行业债券融资总额环比增长近7成】中指研究院发布的最新数据显示，10月房地产行业债券融资总额为447.6亿元，同比下降12%，环比增长68.8%。从融资结构来看，信用债融资295.6亿元，同比下降8.5%，环比增长80.1%，占比66%；ABS融资152亿元，同比下降3.2%，环比增长50.5%，占比34%。1—10月房地产行业债券融资总额为4797.6亿元，同比下降3.6%。其中，信用债融资2794.6亿元，同比下降7.9%；海外债融资209亿元，同比增长115%；ABS融资1794亿元，同比下降2.8%。",
-   "time": "2026-11-09 11:54:24",
-   "url": "https://finance.eastmoney.com/a/202611093926104640.html",
+   "title": "LME伦铜涨幅扩大 现涨1.0%",
+   "summary": "【LME伦铜涨幅扩大 现涨1.0%】LME伦铜涨幅扩大，现涨1.0%，最新报13906.0美元/吨。",
+   "time": "2026-11-09 12:26:39",
+   "url": "https://finance.eastmoney.com/a/202611093926113856.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "越南股指VN指数下跌1%。",
+   "summary": "越南股指VN指数下跌1%。",
+   "time": "2026-11-09 11:54",
+   "url": "https://wallstreetcn.com/livenews/3196653",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普任命米勒为白宫办公厅主任 核心圈重要成员接任 - 中华网",
+   "summary": "",
+   "time": "2026-11-09 11:54",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mYTlwM2RTMi1NQm04ZDhJNkxWbko5LTJZTkhncXJueWQxM0RCVkJGS1dQSkZhbHF1cDVZckFmb0VyNFU5Sll3a2QzQlcwdWgyd2NjSVduVmJhM2RpbHA0aHB1Y2hubUFvN244ak91Y0I?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "大行评级｜大华继显：上调中生制药目标价至7.5港元，维持“买入”评级_股市直播_市场 - 中金在线",
+   "summary": "",
+   "time": "2026-11-09 11:28",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CdEVxU2dEdlJ0Ui1LQThKejNCU3U0TlN3emttTl8yMUp5aXQzNFR4RG5hU1VwbjRBZFdIVEROSzRhLU1yX2dUeWxPWmIybjJjdTFjczdFNTlIX3Fmc1JsV1ZWYkc5SFRRa1ZtMA?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "纽元兑美元走强 新西兰大选结果待揭晓",
+   "summary": "",
+   "time": "2026-11-09 04:14:55",
+   "url": "https://news.futunn.com/flash/1003845603/nzd-usd-strengthens-as-new-zealand-election-results-awaited",
+   "source": "富途"
+  },
+  {
+   "title": "伊媒称霍尔木兹海峡南部“敌方”导航辅助系统被摧毁",
+   "summary": "",
+   "time": "2026-11-09 04:28:14",
+   "url": "https://news.10jqka.com.cn/20261109/c681601807.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "【本文系数据通用户提前专享】2026年上半年险企投入权益市场6.6万亿元，市场的波动让权益资产作为“关键少数”的重要性进一步提升",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-07/102502059.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "智平方与DDMF签署谅解备忘录",
+   "summary": "【智平方与DDMF签署谅解备忘录】11月9日，智平方在微信公众号发布，日前，智平方与DanantaraIndonesia旗下发展投资平台DanantaraDevelopmentManagementFund（DDMF）正式签署谅解备忘录（MoU），双方将围绕通用智能机器人与具身智能技术在印尼的试点应用、产业合作及本地化部署展开深入探索。双方合作将围绕真实应用、联合研究与教育合作、强化本地运营等方面开展深度合作。制造业、物流业与公共服务将率先启动，并逐步覆盖新能源、电动汽车、生物技术、半导体、工业数字化、旅游与文化等印尼战略重点产业。",
+   "time": "2026-11-09 12:24:00",
+   "url": "https://finance.eastmoney.com/a/202611093926113986.html",
    "source": "东财国际"
   },
   {
@@ -1770,10 +1835,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "中期选举惨败后，特朗普换掉白宫幕僚长 米勒接任引发争议 - 中华网",
+   "title": "特朗普改口：只是开玩笑 - 京报网",
    "summary": "",
-   "time": "2026-11-09 11:48",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JaGw1UXBUZzc2aC1rbjdKbnIwbGo3N0ltOU1rN2p0akdOVUZlajdsalh1c1puUUZmUlc1Z0pteDUtc241b3o5RjdnS3N6OEkzMW1ham1IQnptcVJTZ0ZaYnVKT0puWXVQX2J6WVVRdk0?oc=5",
+   "time": "2026-11-09 11:40",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53YWRTejhTYWVkci1KUXhRWmlQRDJCbDlwVTBwSjBVamctd1BRaENzYVA2eHFQeXNCaHNlTzN3OHZxY2Fya0dSRHVJdDA0MTc3ZUEtTmQ0YkUxX3JhTVE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1784,67 +1849,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "港股午评：恒生指数涨0.2%，恒生科技指数涨0.07%",
+   "title": "港股午评：科指盘中一度翻绿 煤炭与生物医药板块领涨",
    "summary": "",
-   "time": "2026-11-09 04:01:08",
-   "url": "https://news.10jqka.com.cn/20261109/c681600689.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "伊朗外长：美伊地区人民都对无休止的战争感到厌倦",
-   "summary": "",
-   "time": "2026-11-09 03:56:54",
-   "url": "https://news.futunn.com/flash/1003844654/iranian-foreign-minister-people-in-the-us-and-the-middle",
+   "time": "2026-11-09 04:11:24",
+   "url": "https://news.futunn.com/flash/1003845480/hong-kong-stocks-midday-review-tech-index-briefly-turns-negative",
    "source": "富途"
   },
   {
-   "title": "【本文系数据通用户提前专享】2026年上半年险企投入权益市场6.6万亿元，市场的波动让权益资产作为“关键少数”的重要性进一步提升",
+   "title": "NYMEX取暖油主力合约涨超1%",
    "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-07/102502059.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "交通运输部：继续暂停对美船舶收取船舶特别港务费两个月至2027年1月10日",
-   "summary": "【交通运输部：继续暂停对美船舶收取船舶特别港务费两个月至2027年1月10日】交通运输部发布关于继续暂停对美船舶收取船舶特别港务费、暂停开展航运业造船业及相关产业链供应链安全和发展利益受影响情况调查的公告。为落实中美第八轮经贸磋商成果，经国务院批准，继续暂停实施《交通运输部关于对美船舶收取船舶特别港务费的公告》（交通运输部公告2025年第54号）、《交通运输部办公厅关于印发〈对美船舶收取船舶特别港务费实施办法〉的通知》（交办水〔2025〕59号）、《交通运输部关于启动航运业、造船业及相关产业链供应链安全和发展利益受影响情况调查的公告》（交通运输部公告2025年第55号）至2027年1月10日。",
-   "time": "2026-11-09 11:51:31",
-   "url": "https://finance.eastmoney.com/a/202611093926104540.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "11月9日午间收评：创业板指冲高回落涨0.56%，PCB、煤炭板块集体走强",
-   "summary": "1、市场早间冲高回落，三大指数小幅上涨。PCB概念股走高，奥士康、世运电路、超声电子涨停。商业航天概念股走强，中国卫星、顺灏股份、盛洋科技等多股涨停。机器人概念股表现活跃，祥明智能、泰尔股份、光洋股份等涨停。煤炭板块集体拉升，郑州煤电、安泰集团双双涨停。下跌方面，光伏板块高开低走，时创能源跌超7%。个股涨跌互现，上午半天成交1.02万亿。午间收盘沪指涨0.46%，深成指涨0.27%，创业板涨0.5",
-   "time": "2026-11-09 11:30",
-   "url": "https://wallstreetcn.com/livenews/3196647",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "特朗普改口：只是开玩笑 - 京报网",
-   "summary": "",
-   "time": "2026-11-09 11:40",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53YWRTejhTYWVkci1KUXhRWmlQRDJCbDlwVTBwSjBVamctd1BRaENzYVA2eHFQeXNCaHNlTzN3OHZxY2Fya0dSRHVJdDA0MTc3ZUEtTmQ0YkUxX3JhTVE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "富国银行上调Unity目标价至64美元 - 金融界",
-   "summary": "",
-   "time": "2026-11-09 11:17",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1wNWRZNDZ6dzlTcEkyY25vVkZjZ1k3ZDdkSUVucUsySGNGSE0xeENDLWFOMVQ1ZGU4RmIwSUpfMkoyWGNCWndZLVhyOHhMejVYbE8za0oyWEtxT3pQWjI4SDNiNV9WUQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "南向资金净买入超20亿港元",
-   "summary": "",
-   "time": "2026-11-09 03:59:32",
-   "url": "https://news.10jqka.com.cn/20261109/c681600610.shtml",
+   "time": "2026-11-09 04:20:24",
+   "url": "https://news.10jqka.com.cn/20261109/c681601530.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "机构：10月房地产行业债券融资总额环比增长近7成",
-   "summary": "",
-   "time": "2026-11-09 03:54:04",
-   "url": "https://news.futunn.com/flash/1003844443/institution-real-estate-sector-s-total-bond-financing-rose-by",
-   "source": "富途"
   },
   {
    "title": "【本文系数据通用户提前专享】现阶段工业机器人无法做到的事，人形机器人也解决不了",
@@ -1854,17 +1870,17 @@
    "source": "财新"
   },
   {
-   "title": "中国五矿在雄安成立城市发展投资公司",
-   "summary": "【中国五矿在雄安成立城市发展投资公司】企查查APP显示，近日，五矿城市发展投资（雄安）有限公司成立，法定代表人为甄怀攀，注册资本为3.5亿元，经营范围包含：房地产开发经营；建设工程施工；信息技术咨询服务；数据处理服务；房地产咨询；办公服务等。企查查股权穿透显示，该公司由中国五矿集团有限公司旗下五矿地产集团有限公司全资持股。",
-   "time": "2026-11-09 11:47:55",
-   "url": "https://finance.eastmoney.com/a/202611093926104366.html",
+   "title": "所罗门群岛发生6.3级地震 震源深度10公里",
+   "summary": "【所罗门群岛发生6.3级地震 震源深度10公里】中国地震台网正式测定：11月9日11时34分，在所罗门群岛（南纬10.90度，东经165.60度）发生6.3级地震，震源深度10公里。",
+   "time": "2026-11-09 12:20:23",
+   "url": "https://finance.eastmoney.com/a/202611093926113524.html",
    "source": "东财国际"
   },
   {
-   "title": "国债期货早盘收盘，30年期主力合约跌0.12%，10年期主力合约跌0.05%，5年期主力合约跌0.03%，2年期主力合约跌0.01%。",
-   "summary": "国债期货早盘收盘，30年期主力合约跌0.12%，10年期主力合约跌0.05%，5年期主力合约跌0.03%，2年期主力合约跌0.01%。",
+   "title": "11月9日午间收评：创业板指冲高回落涨0.56%，PCB、煤炭板块集体走强",
+   "summary": "1、市场早间冲高回落，三大指数小幅上涨。PCB概念股走高，奥士康、世运电路、超声电子涨停。商业航天概念股走强，中国卫星、顺灏股份、盛洋科技等多股涨停。机器人概念股表现活跃，祥明智能、泰尔股份、光洋股份等涨停。煤炭板块集体拉升，郑州煤电、安泰集团双双涨停。下跌方面，光伏板块高开低走，时创能源跌超7%。个股涨跌互现，上午半天成交1.02万亿。午间收盘沪指涨0.46%，深成指涨0.27%，创业板涨0.5",
    "time": "2026-11-09 11:30",
-   "url": "https://wallstreetcn.com/livenews/3196645",
+   "url": "https://wallstreetcn.com/livenews/3196647",
    "source": "华尔街见闻"
   }
  ],
@@ -1872,7 +1888,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(29)",
+   "富途": "ok(30)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1886,8 +1902,8 @@
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "东财早报": 1,
-   "同花顺": 7,
-   "富途": 6,
+   "富途": 7,
+   "同花顺": 6,
    "财新": 6
   }
  },
@@ -1955,8 +1971,6 @@
   "color": "#e0533d",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {
-  "A股指数": "ReadTimeout: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
- },
+ "errors": {},
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
