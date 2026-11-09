@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 00:59:39 CST",
- "generated_at_iso": "2026-11-10T00:59:39+08:00",
+ "generated_at": "2026-11-10 01:07:49 CST",
+ "generated_at_iso": "2026-11-10T01:07:49+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52261.6992,
-    "change": 975.97,
-    "change_pct": 1.9,
-    "quote_time": "2026-11-10 00:59:45",
+    "price": 52293.9883,
+    "change": 1008.26,
+    "change_pct": 1.97,
+    "quote_time": "2026-11-10 01:07:44",
     "hist": [
      51481.5117,
      51349.9219,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25190.7992,
-    "change": 611.3744,
-    "change_pct": 2.49,
-    "quote_time": "2026-11-10 00:59:41",
+    "price": 25196.6389,
+    "change": 617.2141,
+    "change_pct": 2.51,
+    "quote_time": "2026-11-10 01:07:53",
     "hist": [
      26820.3809,
      26797.541,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7534.0698,
-    "change": 157.21,
-    "change_pct": 2.13,
-    "quote_time": "2026-11-10 00:59:45",
+    "price": 7536.8501,
+    "change": 159.99,
+    "change_pct": 2.17,
+    "quote_time": "2026-11-10 01:07:43",
     "hist": [
      7683.6899,
      7670.8398,
@@ -1157,9 +1157,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10779.32,
-    "change": 105.38,
-    "change_pct": 0.99,
+    "price": 10782.87,
+    "change": 108.93,
+    "change_pct": 1.02,
     "hist": [
      10636.71,
      10606.0,
@@ -1231,9 +1231,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8236.52,
-    "change": 97.52,
-    "change_pct": 1.2,
+    "price": 8233.3,
+    "change": 94.3,
+    "change_pct": 1.16,
     "hist": [
      8035.87,
      7964.51,
@@ -1305,11 +1305,10 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6289.28,
-    "change": 118.79,
-    "change_pct": 1.93,
+    "price": 6290.13,
+    "change": 119.64,
+    "change_pct": 1.94,
     "hist": [
-     6301.29,
      6320.27,
      6269.03,
      6175.46,
@@ -1338,9 +1337,10 @@
      6144.57,
      6265.72,
      6231.55,
-     6170.5
+     6170.5,
+     6290.14
     ],
-    "sigma": 0.925
+    "sigma": 1.013
    }
   ]
  },
@@ -1392,37 +1392,204 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4121.036,
-    "change": 46.136,
+    "price": 4120.8,
+    "change": 45.9,
     "change_pct": 1.13,
-    "quote_time": "00:59:46 2026-11-10"
+    "quote_time": "01:07:58 2026-11-10",
+    "hist": [
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6,
+     4117.4
+    ],
+    "sigma": 1.526
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.784,
-    "change": 0.842,
-    "change_pct": 1.62,
-    "quote_time": "00:59:18 2026-11-10"
+    "price": 52.833,
+    "change": 0.891,
+    "change_pct": 1.72,
+    "quote_time": "01:07:49 2026-11-10",
+    "hist": [
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96,
+     52.71
+    ],
+    "sigma": 2.942
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.51,
-    "change": -3.32,
-    "change_pct": -3.66,
-    "quote_time": "00:59:48 2026-11-10"
+    "price": 87.495,
+    "change": -3.335,
+    "change_pct": -3.67,
+    "quote_time": "01:07:57 2026-11-10",
+    "hist": [
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34,
+     87.66
+    ],
+    "sigma": 3.07
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.718,
-    "change": -4.602,
-    "change_pct": -4.68,
-    "quote_time": "00:59:47 2026-11-10"
+    "price": 93.646,
+    "change": -4.674,
+    "change_pct": -4.75,
+    "quote_time": "01:07:58 2026-11-10",
+    "hist": [
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92,
+     93.79
+    ],
+    "sigma": 3.337,
+    "volume": 277156.0,
+    "vol_chg_pct": -41.7,
+    "vol_pctile": 21.2,
+    "vol_hist": [
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0,
+     277156.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75072.9,
-    "change": -711.5,
-    "change_pct": -0.94,
-    "source": "okx"
+    "price": 74817.4,
+    "change": -1033.0,
+    "change_pct": -1.36,
+    "source": "okx",
+    "hist": [
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     74879.3
+    ],
+    "sigma": 2.014
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2133.81,
-    "change": -96.67,
-    "change_pct": -4.33,
-    "source": "okx"
+    "price": 2126.57,
+    "change": -105.91,
+    "change_pct": -4.74,
+    "source": "okx",
+    "hist": [
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2128.96
+    ],
+    "sigma": 2.937
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 87.06,
-    "change": -1.98,
-    "change_pct": -2.22,
-    "source": "okx"
+    "price": 86.79,
+    "change": -2.41,
+    "change_pct": -2.7,
+    "source": "okx",
+    "hist": [
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     86.87
+    ],
+    "sigma": 2.683
    }
   ]
  },
@@ -1464,19 +1730,10 @@
    "timestamp": "2026-11-09",
    "source": "alternative.me"
   },
-  "a_share_breadth": {
-   "up": 2077,
-   "down": 3028,
-   "flat": 190,
-   "total": 5295,
-   "breadth_pct": 39.2,
-   "score": 28.4,
-   "source": "东财"
-  },
   "vix": {
-   "value": 20.75,
-   "change": -4.89,
-   "change_pct": -19.0718,
+   "value": 20.58,
+   "change": -5.06,
+   "change_pct": -19.7348,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1512,38 +1769,38 @@
     28.18,
     25.64
    ],
-   "vix3m": 21.58,
+   "vix3m": 21.47,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 21.03,
-     "change_pct": -22.6269
+     "value": 20.7,
+     "change_pct": -23.8411
     },
     {
      "t": "VIX",
-     "value": 20.75,
-     "change_pct": -19.0718
+     "value": 20.58,
+     "change_pct": -19.7348
     },
     {
      "t": "VIX3M",
-     "value": 21.58,
-     "change_pct": -12.2764
+     "value": 21.47,
+     "change_pct": -12.7236
     },
     {
      "t": "VIX6M",
-     "value": 22.66,
-     "change_pct": -8.2591
+     "value": 22.6,
+     "change_pct": -8.502
     }
    ],
-   "ratio_9d_3m": 0.975,
+   "ratio_9d_3m": 0.964,
    "shape": "平坦",
    "source": "CBOE"
   },
   "composite": {
-   "score": 28.7,
+   "score": 29.0,
    "label": "恐惧",
    "color": "#f58a3d"
   }
@@ -1553,33 +1810,22 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普宣布对伊朗铁门特遣行动全面展开 - 手机新浪网",
+   "title": "特朗普谈中期选举失利原因：美国人对以色列抱有“难以置信的厌恶” - 新浪军事",
    "summary": "",
-   "time": "2026-11-10 00:34",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE81VnRNY01Vc2IzbE1ZbE9YUjVmQlN2bTAtYmZ2SzQ5MXdabkNzUDNfM1Zfa0JWSFZsb2VzMWVKdmZYVDhmcjU0cW4xTWdRWHc3Tkt2S3plUjVjMjhBVzUwOHJ3YUpjbGMwLWFEemRXemszdw?oc=5",
+   "time": "2026-11-10 00:45",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WYk9ESHFKSWxvS2ttRkRNbnltTS1kYVdVQ0VmLTJ3MHI0T3dtcGtFRGtRMVRzZzN5U3E1aE1jeDdwVS1jUTN0bTZoTFY2SDN2Vkt5TGxONzZNQ2JwZzFxcUp4Yk5SUnZkNHdmZlNQRHFUM0VaLTRROGlUckF6UQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
+   "mentions": 3
   },
   {
-   "keyword": "国务院",
-   "label": "国务院",
-   "hint": "国务院级经济政策影响宏观环境",
-   "title": "何立峰与加拿大财政部长商鹏飞、国际贸易部长西杜共同主持第二次中加经济财金战略对话",
-   "summary": "【何立峰与加拿大财政部长商鹏飞、国际贸易部长西杜共同主持第二次中加经济财金战略对话】中共中央政治局委员、国务院副总理、中加经济财金战略对话中方牵头人何立峰，与对话加方牵头人、加财政部长商鹏飞、国际贸易部长西杜9日在加拿大温哥华共同主持第二次中加经济财金战略对话。",
-   "time": "2026-11-10 00:31:14",
-   "url": "https://finance.eastmoney.com/a/202611103926612393.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "白宫",
-   "label": "白宫",
-   "hint": "美国官方政策表态的权威渠道",
-   "title": "特朗普政府人事连续震荡：白宫办公厅换帅，赫格塞思去留成疑，鲁比奥传言四起 - 凤凰网",
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储古尔斯比：AI数据中心建设加剧需求过热 通胀仍是首要问题",
    "summary": "",
-   "time": "2026-11-09 23:28",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0yaEp2WF9PbTl5dW9oQVp3elVIUV9uTWNacDlfWDc3N3FHcHNjVlhBSUh0Uk5OamYzT1lKU0Y0eGxieGtIbE5sN3VIQjg?oc=5",
-   "source": "谷歌新闻·国际",
+   "time": "2026-11-09 16:53:39",
+   "url": "https://news.futunn.com/flash/1003912140/fed-s-goolsbee-ai-data-center-construction-exacerbates-demand-overheating",
+   "source": "富途",
    "mentions": 1
   },
   {
@@ -1677,6 +1923,16 @@
   ],
   "reports": [
    {
+    "title": "法意希收益率普遍跌约2个基点",
+    "org": "彭博",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-10",
+    "url": "https://wallstreetcn.com/livenews/3197071",
+    "source": "机构观点"
+   },
+   {
     "title": "惠誉确认伊拉克长期外币发行人违约评级B- 展望稳定 - 观点网",
     "org": "惠誉",
     "rating": "",
@@ -1691,74 +1947,53 @@
  "alerts": [
   {
    "level": "warning",
-   "asset": "欧洲斯托克50",
-   "message": "欧洲斯托克50单日涨1.93%，达20日历史波动率的 2.1 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-10 00:59",
-   "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
-  },
-  {
-   "level": "warning",
-   "asset": "WTI原油",
-   "message": "WTI原油单日跌3.66%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-10 00:59",
-   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
-  },
-  {
-   "level": "warning",
-   "asset": "布伦特原油",
-   "message": "布伦特原油单日跌4.68%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-10 00:59",
-   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
-  },
-  {
-   "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、标普500、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-10 00:59",
+   "time": "2026-11-10 01:08",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "特朗普宣布对伊朗铁门特遣行动全面展开 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-10 00:34",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE81VnRNY01Vc2IzbE1ZbE9YUjVmQlN2bTAtYmZ2SzQ5MXdabkNzUDNfM1Zfa0JWSFZsb2VzMWVKdmZYVDhmcjU0cW4xTWdRWHc3Tkt2S3plUjVjMjhBVzUwOHJ3YUpjbGMwLWFEemRXemszdw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "美国财政部拍卖三个月期国债，得标利率4.060%，投标倍数2.67。\n\n拍卖六个月期国债，得标利率4.145%，投标倍数2.92。",
-   "summary": "美国财政部拍卖三个月期国债，得标利率4.060%，投标倍数2.67。\n\n拍卖六个月期国债，得标利率4.145%，投标倍数2.92。",
-   "time": "2026-11-10 00:32",
-   "url": "https://wallstreetcn.com/livenews/3197061",
+   "title": "美国里士满联储主席Barkin（2027年FOMC票委）：FOMC货币政策的方向是“明确的”，但最好“谨慎”调整政策。\n\n风险在于美国央行职责中的通胀方面。\n\n听到了关于成本压力广泛存在的报告。\n\n消费者情绪“黯淡”，但在就业市场韧性的支撑",
+   "summary": "美国里士满联储主席Barkin（2027年FOMC票委）：FOMC货币政策的方向是“明确的”，但最好“谨慎”调整政策。\n\n风险在于美国央行职责中的通胀方面。\n\n听到了关于成本压力广泛存在的报告。\n\n消费者情绪“黯淡”，但在就业市场韧性的支撑下，消费者仍在继续消费。\n\n企业表现良好，盈利“显著”。\n\n企业表示将试图转嫁更高的成本。\n\n需求韧性叠加成本普遍上涨，正给物价带来上行压力。\n\n银行家表示贷款",
+   "time": "2026-11-10 01:05",
+   "url": "https://wallstreetcn.com/livenews/3197073",
    "source": "华尔街见闻"
   },
   {
-   "title": "何立峰与加拿大财政部长商鹏飞、国际贸易部长西杜共同主持第二次中加经济财金战略对话",
-   "summary": "【何立峰与加拿大财政部长商鹏飞、国际贸易部长西杜共同主持第二次中加经济财金战略对话】中共中央政治局委员、国务院副总理、中加经济财金战略对话中方牵头人何立峰，与对话加方牵头人、加财政部长商鹏飞、国际贸易部长西杜9日在加拿大温哥华共同主持第二次中加经济财金战略对话。",
-   "time": "2026-11-10 00:31:14",
-   "url": "https://finance.eastmoney.com/a/202611103926612393.html",
+   "title": "不锈钢夜盘收跌1.41%",
+   "summary": "【不锈钢夜盘收跌1.41%】国际铜夜盘收涨0.78%，沪铜收涨0.5%，沪铝收跌0.22%，沪锌收跌0.38%，沪铅收涨0.22%，沪镍收跌0.63%，沪锡收跌0.37%。氧化铝夜盘收涨0.57%，铝合金收跌0.38%。不锈钢夜盘收跌1.41%。",
+   "time": "2026-11-10 01:02:53",
+   "url": "https://finance.eastmoney.com/a/202611103926615797.html",
    "source": "东财国际"
   },
   {
-   "title": "惠誉确认伊拉克长期外币发行人违约评级B- 展望稳定 - 观点网",
+   "title": "特朗普谈中期选举失利原因：美国人对以色列抱有“难以置信的厌恶” - 新浪军事",
    "summary": "",
-   "time": "2026-11-09 22:47",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPMVM0a1h6V0YxSG5ublpWUEZleDhFU0pqNTdrSV9sXy1jNXQxby1CSFVjREkzMnAyVUtfdkZ3UW05SXMtTjRMM3NJRElUaWxRdDVNNEQzUXlpN0h0WllWQ2lR?oc=5",
+   "time": "2026-11-10 00:45",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WYk9ESHFKSWxvS2ttRkRNbnltTS1kYVdVQ0VmLTJ3MHI0T3dtcGtFRGtRMVRzZzN5U3E1aE1jeDdwVS1jUTN0bTZoTFY2SDN2Vkt5TGxONzZNQ2JwZzFxcUp4Yk5SUnZkNHdmZlNQRHFUM0VaLTRROGlUckF6UQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "奥本海默上调AMD评级：预计2027年数据中心收入增长135% - 东方财富",
+   "summary": "",
+   "time": "2026-11-09 22:55",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9SVWRsZ0c5YW12X1ZzUUZPZ1NHSzN4NEdEYVFJeWdYVG5GMkp2ZXJyR1VHR0JVNG5YaEc4bHdkNzJPb0ZnRmxXbllhMWJmamVQX0FodThMTWZfZGJkM1YwVw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "欧洲主要股指收盘普涨",
+   "title": "国际铜夜盘收涨0.78%，沪铜收涨0.5%",
    "summary": "",
-   "time": "2026-11-09 16:34:39",
-   "url": "https://news.10jqka.com.cn/20261110/c681629060.shtml",
+   "time": "2026-11-09 17:04:28",
+   "url": "https://news.10jqka.com.cn/20261110/c681629096.shtml",
    "source": "同花顺"
   },
   {
-   "title": "Rocket Lab2026年Q3营收亿美元，同比增长%；调整后EPS美元，同比增长%",
+   "title": "美联储古尔斯比：AI数据中心建设加剧需求过热 通胀仍是首要问题",
    "summary": "",
-   "time": "2026-11-09 16:29:24",
-   "url": "https://news.futunn.com/flash/1003910490/rocket-lab-s-q3-2026-revenue-was-us-million-up",
+   "time": "2026-11-09 16:53:39",
+   "url": "https://news.futunn.com/flash/1003912140/fed-s-goolsbee-ai-data-center-construction-exacerbates-demand-overheating",
    "source": "富途"
   },
   {
@@ -1776,45 +2011,45 @@
    "source": "财新"
   },
   {
-   "title": "视频丨特朗普：共和党失利是因为美国人“厌恶以色列” - 京报网",
-   "summary": "",
-   "time": "2026-11-09 23:38",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wWGRuUWs0a0lpdjlCM2ZkdFNzZW56eXZFMFhjbjhRYWRMeFFJQkVrMXZqLTlnbHdrM2F6OHNfWDJrcEkwNGVXRUdVU2hOd3V6aE1PUEJWRWEyalM4bXNtdGQ1MjA2MlBxejNpcnRDRTRUUQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "美国能源信息署（EIA）：上周美国战略石油储备的原油库存降至2.795亿桶，为1982年以来最低水平。",
-   "summary": "美国能源信息署（EIA）：上周美国战略石油储备的原油库存降至2.795亿桶，为1982年以来最低水平。",
-   "time": "2026-11-10 00:30",
-   "url": "https://wallstreetcn.com/livenews/3197060",
+   "title": "法意希收益率普遍跌约2个基点",
+   "summary": "周一（11月9日）欧市尾盘，法国10年期国债收益率跌2.3个基点，报4.735%，北京时间18:13涨至4.8%刷新日高，随后持续下挫、22:21刷新日低至4.691%。\n\n两年期法债收益率涨0.5个基点，报3.508%，彭博数据显示欧股盘前高开至3.973%、瞬间快速回落；30年期法债收益率跌2.5个基点，报5.283%。\n\n意大利10年期国债收益率跌2.6个基点，报4.302%。\n\n西班牙10",
+   "time": "2026-11-10 00:59",
+   "url": "https://wallstreetcn.com/livenews/3197071",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国上周战略石油储备中的原油库存降至2.795亿桶 为1982年以来的最低水平",
-   "summary": "美国上周战略石油储备中的原油库存降至2.795亿桶，为1982年以来的最低水平。",
-   "time": "2026-11-10 00:30:51",
-   "url": "https://finance.eastmoney.com/a/202611103926612461.html",
+   "title": "法国就网络攻击事件召见伊朗大使 警告将实施制裁",
+   "summary": "【法国就网络攻击事件召见伊朗大使 警告将实施制裁】当地时间11月9日，法国外长巴罗表示，伊朗伊斯兰革命卫队是此前针对法国超市冷藏系统网络攻击的幕后实施者。法国已召见伊朗驻法国大使，伊朗将因此面临后果，包括欧盟层面的制裁。",
+   "time": "2026-11-10 00:59:02",
+   "url": "https://finance.eastmoney.com/a/202611103926615527.html",
    "source": "东财国际"
   },
   {
-   "title": "奥本海默上调AMD评级：预计2027年数据中心收入增长135% - 东方财富",
+   "title": "特朗普质疑美国中期选举结果 - 凤凰网",
    "summary": "",
-   "time": "2026-11-09 22:33",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1KYno4dnhTUWZjVHg2c1RzWUpYZGUxSDNDUTBLZE95YjQ0S1ZMQnRiT1c1Mmp5NXQxYUp3X09CVjBqS3FpcE0waHd2Wk1lYU81RTBJRjNsTmVWN0o5RUpxVkNjdw?oc=5",
+   "time": "2026-11-10 00:29",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBNZmZVREQyaXlhSmhTNml0UVVsUDJRNS02bEw3RElOUmFzbDkyX0lhd1Jjblh1bm1wLUR4dXR0M3o5Z0lDM1lXLWJVMWM?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "惠誉确认伊拉克长期外币发行人违约评级B- 展望稳定 - 观点网",
+   "summary": "",
+   "time": "2026-11-09 22:47",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPMVM0a1h6V0YxSG5ublpWUEZleDhFU0pqNTdrSV9sXy1jNXQxby1CSFVjREkzMnAyVUtfdkZ3UW05SXMtTjRMM3NJRElUaWxRdDVNNEQzUXlpN0h0WllWQ2lR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "以方认定迪拜航空航班遇袭事件乘客为敌对事件受害者",
+   "title": "以军在约旦河西岸抓捕10名杰哈德组织成员",
    "summary": "",
-   "time": "2026-11-09 16:34:16",
-   "url": "https://news.10jqka.com.cn/20261110/c681629057.shtml",
+   "time": "2026-11-09 17:00:58",
+   "url": "https://news.10jqka.com.cn/20261110/c681629093.shtml",
    "source": "同花顺"
   },
   {
-   "title": "纽约联储：美国通胀预期持稳 失业担忧升至六年半高位",
+   "title": "盘中期权异动：闪迪盘中上涨8.0%，现最高成交额的看涨期权涨跌幅为+78%，成交量达到3,505张",
    "summary": "",
-   "time": "2026-11-09 16:07:20",
-   "url": "https://news.futunn.com/flash/1003908981/new-york-fed-us-inflation-expectations-hold-steady-as-unemployment",
+   "time": "2026-11-09 16:52:54",
+   "url": "https://news.futunn.com/flash/1003912079/unusual-options-activity-sandisk-up-8-0-the-most-active",
    "source": "富途"
   },
   {
@@ -1825,45 +2060,45 @@
    "source": "财新"
   },
   {
-   "title": "特朗普政府人事连续震荡：白宫办公厅换帅，赫格塞思去留成疑，鲁比奥传言四起 - 凤凰网",
-   "summary": "",
-   "time": "2026-11-09 23:28",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE0yaEp2WF9PbTl5dW9oQVp3elVIUV9uTWNacDlfWDc3N3FHcHNjVlhBSUh0Uk5OamYzT1lKU0Y0eGxieGtIbE5sN3VIQjg?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "德国DAX 30指数初步收涨1.72%，报26264.37点。\n\n法国股指初步收涨1.21%，意大利股指初步收涨2.67%、银行指数涨4.15%，英国股指初步收涨1.03%。",
-   "summary": "德国DAX 30指数初步收涨1.72%，报26264.37点。\n\n法国股指初步收涨1.21%，意大利股指初步收涨2.67%、银行指数涨4.15%，英国股指初步收涨1.03%。",
-   "time": "2026-11-10 00:30",
-   "url": "https://wallstreetcn.com/livenews/3197059",
+   "title": "德国总理默茨：德国可能会因为乌克兰资金问题而阻挠欧盟预算。",
+   "summary": "德国总理默茨：德国可能会因为乌克兰资金问题而阻挠欧盟预算。",
+   "time": "2026-11-10 00:56",
+   "url": "https://wallstreetcn.com/livenews/3197070",
    "source": "华尔街见闻"
   },
   {
-   "title": "高盛首席执行官表示：他对美国数据中心与算力容量仍将获得大量投资持乐观态度",
-   "summary": "高盛首席执行官表示，他对美国数据中心与算力容量仍将获得大量投资持乐观态度。",
-   "time": "2026-11-10 00:27:37",
-   "url": "https://finance.eastmoney.com/a/202611103926612297.html",
+   "title": "美国财政部拍卖国债 三个月期国债得标利率4.060% 拍卖六个月期国债得标利率4.145%",
+   "summary": "美国财政部拍卖三个月期国债，得标利率4.060%，投标倍数2.67；拍卖六个月期国债，得标利率4.145%，投标倍数2.92。",
+   "time": "2026-11-10 00:41:18",
+   "url": "https://finance.eastmoney.com/a/202611103926614642.html",
    "source": "东财国际"
   },
   {
-   "title": "002636拟投资约5亿元，新建电子级玻纤布项目！2股获机构大幅买入 - 证券之星",
+   "title": "特朗普质疑中期选举公正性 - 京报网",
    "summary": "",
-   "time": "2026-11-09 22:33",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFZjFVSzhnc3Z5WTN0c2NqR0xQWEV3WHE5UzlJcnlWY0xONF9mVXM5S3FyVGxsMnY1ZkVVMTVRSUFIc3ZxQlBaTHZyR0JMNXdsOUJrb0NvMHVNakZGaE5MVw?oc=5",
+   "time": "2026-11-10 00:17",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBwaXc5V0RyVmEwNGZaM2FvdmZKWGl5bDVRQm4xWFVxcFdHNHI0UTRNbWtDczBPWDd3Q3VnWTg4MFFxTUFuUTUtVU9VOFVTdk43bktTdWFwWXo4YUljOXNJTVM5amxXMC1yZmJuTXBRX2FjZw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "外资投行密集看多A股 49家QFII持股市值约2707亿元 - 观点网",
+   "summary": "",
+   "time": "2026-11-09 22:27",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ITXB1dnh4NDFYdGRja01vd3Z2N0JEd2M1MnZuU3V0U0gtSE9nZVhFN1VnN3pqbk4tQnloMElOT0NhcUZIeWdncDdmeGlDX2RpUE1ZUXllQXVnc0hfeE1EMEZB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国至11月9日6个月国债竞拍-得标利率 4.145%，前值4.15%",
+   "title": "美国汽油价格迎下行，零售均价即将跌破4美元/加仑",
    "summary": "",
-   "time": "2026-11-09 16:32:53",
-   "url": "https://news.10jqka.com.cn/20261110/c681629050.shtml",
+   "time": "2026-11-09 16:47:00",
+   "url": "https://news.10jqka.com.cn/20261110/c681629081.shtml",
    "source": "同花顺"
   },
   {
-   "title": "费城半导体指数涨超7%",
+   "title": "Rocket Lab2026年Q3营收亿美元，同比增长%；调整后EPS美元，同比增长%",
    "summary": "",
-   "time": "2026-11-09 16:05:19",
-   "url": "https://news.futunn.com/flash/1003908829/the-philadelphia-semiconductor-index-rose-more-than-7",
+   "time": "2026-11-09 16:29:24",
+   "url": "https://news.futunn.com/flash/1003910490/rocket-lab-s-q3-2026-revenue-was-us-million-up",
    "source": "富途"
   },
   {
@@ -1874,25 +2109,25 @@
    "source": "财新"
   },
   {
-   "title": "特朗普谈UFO：美军飞行员“曾告诉我一些非常奇怪的事情” - 凤凰网",
-   "summary": "",
-   "time": "2026-11-09 22:21",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1vU1o4UzhvaUNzbmhZMTNBRjh4SnlVNDZJcEdGalRHZjdOcG5ySzRFNFg0OEctSWF1Z1Btd3laWlBYV0xTOGc3Q1kyeXU?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "长端英债收益率跌约3个基点",
+   "summary": "周一（11月9日）欧市尾盘，英国10年期国债收益率跌1.9个基点，报5.136%，全天处于下跌状态，北京时间18:14以来呈现出V形走势、22:25曾刷新日低至5.084%。\n\n两年期英债收益率跌0.9个基点，报4.757%，美股开盘之前曾刷新日低至4.710%。\n\n30年期英债收益率跌1.8个基点，50年期英债收益率跌2.7个基点。\n\n2/10年期英债收益率利差跌0.625个基点，报+38.12",
+   "time": "2026-11-10 00:53",
+   "url": "https://wallstreetcn.com/livenews/3197069",
+   "source": "华尔街见闻"
   },
   {
-   "title": "欧洲STOXX 600指数初步收涨1.32%，报656.87点。\n\n欧元区STOXX 50指数初步收涨1.94%，报6290.41点。\n\n富时泛欧绩优300指数初步收涨1.33%，报2619.28点。",
-   "summary": "欧洲STOXX 600指数初步收涨1.32%，报656.87点。\n\n欧元区STOXX 50指数初步收涨1.94%，报6290.41点。\n\n富时泛欧绩优300指数初步收涨1.33%，报2619.28点。",
-   "time": "2026-11-10 00:30",
-   "url": "https://wallstreetcn.com/livenews/3197058",
-   "source": "华尔街见闻"
+   "title": "欧洲主要股指收盘集体上涨",
+   "summary": "【欧洲主要股指收盘集体上涨】欧洲主要股指收盘集体上涨，英国富时100指数涨1.02%，法国CAC40指数涨1.20%，德国DAX30指数涨1.72%，富时意大利MIB指数涨2.69%。",
+   "time": "2026-11-10 00:37:11",
+   "url": "https://finance.eastmoney.com/a/202611103926614138.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(3)",
+   "富途": "ok(5)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1901,12 +2136,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 8,
-   "华尔街见闻": 8,
+   "华尔街见闻": 7,
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 7,
-   "富途": 3,
+   "富途": 5,
    "东财早报": 1,
    "财新": 7
   }
