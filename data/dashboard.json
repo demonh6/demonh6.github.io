@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-09 18:55:25 CST",
- "generated_at_iso": "2026-11-09T18:55:25+08:00",
+ "generated_at": "2026-11-09 19:03:37 CST",
+ "generated_at_iso": "2026-11-09T19:03:37+08:00",
  "date": "2026-11-09",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -91,7 +91,6 @@
     "change": -30.29,
     "change_pct": -0.27,
     "hist": [
-     13640.873,
      13730.021,
      13723.735,
      13636.074,
@@ -120,14 +119,14 @@
      10876.989,
      11335.687,
      11471.094,
-     11175.78
+     11175.78,
+     11145.49
     ],
-    "sigma": 2.024,
-    "volume": 56934812295.0,
-    "vol_chg_pct": -10.3,
-    "vol_pctile": 11.2,
+    "sigma": 1.998,
+    "volume": 51482973042.0,
+    "vol_chg_pct": -17.8,
+    "vol_pctile": 3.2,
     "vol_hist": [
-     59715206355.0,
      63170807053.0,
      64579497380.0,
      58523891939.0,
@@ -156,7 +155,8 @@
      57903129905.0,
      68200128200.0,
      67242730089.0,
-     56934812295.0
+     56934812295.0,
+     51482973042.0
     ]
    },
    {
@@ -167,7 +167,6 @@
     "change": -6.67,
     "change_pct": -0.27,
     "hist": [
-     3372.676,
      3399.59,
      3399.93,
      3379.61,
@@ -196,14 +195,14 @@
      2391.652,
      2544.73,
      2566.803,
-     2465.232
+     2465.232,
+     2458.562
     ],
-    "sigma": 2.968,
-    "volume": 18168065554.0,
-    "vol_chg_pct": -12.0,
-    "vol_pctile": 21.6,
+    "sigma": 2.949,
+    "volume": 16543491266.0,
+    "vol_chg_pct": -18.9,
+    "vol_pctile": 10.8,
     "vol_hist": [
-     16164903129.0,
      17642475472.0,
      18561414080.0,
      15952248707.0,
@@ -232,7 +231,8 @@
      18278395868.0,
      22321832545.0,
      22532155659.0,
-     18168065554.0
+     18168065554.0,
+     16543491266.0
     ]
    },
    {
@@ -1157,9 +1157,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10740.32,
-    "change": 66.38,
-    "change_pct": 0.62,
+    "price": 10748.17,
+    "change": 74.23,
+    "change_pct": 0.7,
     "hist": [
      10684.88,
      10636.71,
@@ -1231,9 +1231,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8166.95,
-    "change": 27.95,
-    "change_pct": 0.34,
+    "price": 8176.51,
+    "change": 37.51,
+    "change_pct": 0.46,
     "hist": [
      8078.48,
      8035.87,
@@ -1305,9 +1305,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6224.0,
-    "change": 53.51,
-    "change_pct": 0.87,
+    "price": 6231.23,
+    "change": 60.74,
+    "change_pct": 0.98,
     "hist": [
      6301.29,
      6320.27,
@@ -1392,37 +1392,204 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4109.084,
-    "change": 34.184,
-    "change_pct": 0.84,
-    "quote_time": "18:55:35 2026-11-09"
+    "price": 4112.204,
+    "change": 37.304,
+    "change_pct": 0.92,
+    "quote_time": "19:03:46 2026-11-09",
+    "hist": [
+     4214.8,
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6,
+     4105.9
+    ],
+    "sigma": 1.518
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.573,
-    "change": 0.631,
-    "change_pct": 1.21,
-    "quote_time": "18:55:25 2026-11-09"
+    "price": 52.646,
+    "change": 0.704,
+    "change_pct": 1.36,
+    "quote_time": "19:03:45 2026-11-09",
+    "hist": [
+     61.84,
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96,
+     52.525
+    ],
+    "sigma": 2.93
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 89.492,
-    "change": -1.338,
-    "change_pct": -1.47,
-    "quote_time": "18:55:36 2026-11-09"
+    "price": 89.436,
+    "change": -1.394,
+    "change_pct": -1.53,
+    "quote_time": "19:03:46 2026-11-09",
+    "hist": [
+     88.93,
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34,
+     89.43
+    ],
+    "sigma": 3.013
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 96.475,
-    "change": -1.845,
-    "change_pct": -1.88,
-    "quote_time": "18:55:34 2026-11-09"
+    "price": 96.368,
+    "change": -1.952,
+    "change_pct": -1.99,
+    "quote_time": "19:03:43 2026-11-09",
+    "hist": [
+     95.69,
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92,
+     96.66
+    ],
+    "sigma": 3.236,
+    "volume": 70051.0,
+    "vol_chg_pct": -85.3,
+    "vol_pctile": 0.4,
+    "vol_hist": [
+     482364.0,
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0,
+     70051.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74152.0,
-    "change": -1741.6,
-    "change_pct": -2.29,
-    "source": "okx"
+    "price": 74165.7,
+    "change": -1745.5,
+    "change_pct": -2.3,
+    "source": "okx",
+    "hist": [
+     83902.1,
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     74135.5
+    ],
+    "sigma": 2.16
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2110.07,
-    "change": -126.11,
-    "change_pct": -5.64,
-    "source": "okx"
+    "price": 2108.97,
+    "change": -126.65,
+    "change_pct": -5.67,
+    "source": "okx",
+    "hist": [
+     2535.91,
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2108.27
+    ],
+    "sigma": 3.171
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.01,
-    "change": -3.24,
-    "change_pct": -3.63,
-    "source": "okx"
+    "price": 85.99,
+    "change": -3.23,
+    "change_pct": -3.62,
+    "source": "okx",
+    "hist": [
+     112.0,
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     85.94
+    ],
+    "sigma": 2.877
    }
   ]
  },
@@ -1474,9 +1740,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 23.69,
-   "change": -1.95,
-   "change_pct": -7.6053,
+   "value": 23.61,
+   "change": -2.03,
+   "change_pct": -7.9173,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1524,8 +1790,8 @@
     },
     {
      "t": "VIX",
-     "value": 23.69,
-     "change_pct": -7.6053
+     "value": 23.61,
+     "change_pct": -7.9173
     },
     {
      "t": "VIX3M",
@@ -1550,26 +1816,26 @@
  },
  "speakers": [
   {
+   "keyword": "外交部",
+   "label": "外交部",
+   "hint": "地缘政治表态影响风险偏好",
+   "title": "伊朗外交部：对伊朗而言 美国各党派之间“没有区别”",
+   "summary": "【伊朗外交部：对伊朗而言 美国各党派之间“没有区别”】伊朗外交部发言人巴加埃9日就美国中期选举结果表示，对伊朗而言，美国各党派之间“没有区别”。",
+   "time": "2026-11-09 18:59:45",
+   "url": "https://finance.eastmoney.com/a/202611093926381186.html",
+   "source": "东财国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
    "title": "特朗普政府已请求中方协助？外交部回应 - 新浪财经",
    "summary": "",
-   "time": "2026-11-09 18:24",
+   "time": "2026-11-09 18:30",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNDFsVTdqdmZZaDYzUHdaMDBtUThTQmdXeTJPZkJPWHprWTBPQjlJSFFUYWxzaG92NjRTUjA5MDVLYUwzQlNhRlhHaG15QS10MzZ6XzdTbGhxdl8wcDhvdG9Oa0tuYzUzNWg3czI2eUJwd3QyZENYdHlyYUY5YW1PTUJzQlFOQVNvVkkw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
-  },
-  {
-   "keyword": "外交部",
-   "label": "外交部",
-   "hint": "地缘政治表态影响风险偏好",
-   "title": "特朗普政府已请求中方协助？外交部回应 - 新浪财经",
-   "summary": "",
-   "time": "2026-11-09 18:24",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNDFsVTdqdmZZaDYzUHdaMDBtUThTQmdXeTJPZkJPWHprWTBPQjlJSFFUYWxzaG92NjRTUjA5MDVLYUwzQlNhRlhHaG15QS10MzZ6XzdTbGhxdl8wcDhvdG9Oa0tuYzUzNWg3czI2eUJwd3QyZENYdHlyYUY5YW1PTUJzQlFOQVNvVkkw?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
   },
   {
    "keyword": "中国央行",
@@ -1666,6 +1932,26 @@
   ],
   "reports": [
    {
+    "title": "万豪国际盘前涨2.5% 花旗目标价从365美元上调至450美元 - 观点网",
+    "org": "花旗",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-09",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9adXVaU3dQSWRrMk5meHlpY29scWhaMDVjUF9KVkpMdTNPVzRyNXhoUko2UGVpQlgtOTNNVzA4eDUxS1FhdENzZ3MtRVRhNlg3U3pUa0hrbkxweHJfdWhJN0ZB?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "浙商证券维持古井贡酒买入评级 调整2026至2028年盈利预测 - 观点网",
+    "org": "浙商",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-09",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CeGJKdHJQMVdOWkFWbGJia1U3elJaRGhOemdXUnI4QzJLdWFXTE1HRTdiOFA1TS1OU2VXbF9NY1hMc0d5aWdtVzl5a2h1ZnBqOERraVBFUUhpMlY3RVRrQWln?oc=5",
+    "source": "机构观点"
+   },
+   {
     "title": "浙商证券维持酒鬼酒“买入”评级 预计2026年收入同比-5% - 观点网",
     "org": "浙商",
     "rating": "",
@@ -1676,23 +1962,13 @@
     "source": "机构观点"
    },
    {
-    "title": "高盛上调阿里每股盈利预测2%及4% 维持「买入」评级 - 观点网",
-    "org": "高盛",
+    "title": "汇丰银行下调美国国债评级",
+    "org": "汇丰",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-09",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13Tjk1TW9GX1lFdEJnellzWHZseUF0THdhTWJwbkFpdVBLbzhUM0JZaDZRanlXODY2T0JYQ05SaWRsT1BzOXMtaXBYMnJ3eW1TdE00U3plckJMVEczbHVpV0hn?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "摩根士丹利：美股回调接近尾声 或正为年末反弹蓄势",
-    "org": "摩根士丹利",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-09",
-    "url": "https://wallstreetcn.com/livenews/3196855",
+    "url": "https://finance.eastmoney.com/a/202611093926380764.html",
     "source": "机构观点"
    }
   ]
@@ -1700,46 +1976,46 @@
  "alerts": [],
  "news": [
   {
-   "title": "英镑兑美元上涨0.5%至1.3422。",
-   "summary": "英镑兑美元上涨0.5%至1.3422。",
-   "time": "2026-11-09 18:37",
-   "url": "https://wallstreetcn.com/livenews/3196886",
+   "title": "恒坤新材：董事长提议回购5000万元-1亿元公司股份",
+   "summary": "【恒坤新材：董事长提议回购5000万元-1亿元公司股份】恒坤新材11月9日公告，公司董事长、控股股东、实际控制人易荣坤提议公司回购公司已发行的部分人民币普通股（A股）股票，回购的股份将用于股份注销、维护公司价值及股东权益或在未来适宜时机用于股权激励、员工持股计划等。",
+   "time": "2026-11-09 19:00:57",
+   "url": "https://finance.eastmoney.com/a/202611093926380298.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "9月28日以来，股票型ETF净流入超6200亿元",
+   "summary": "从近期资金流向看，9月28日以来，股票型ETF连续25个交易日净流入，合计净流入超6200亿元，创下资金最长连续净流入纪录。其中，上周股票型ETF净流入1947.69亿元，创股票型ETF周度净流入额第二高。（上证报）",
+   "time": "2026-11-09 18:51",
+   "url": "https://wallstreetcn.com/livenews/3196897",
    "source": "华尔街见闻"
   },
   {
-   "title": "汉森制药：四磨汤口服液增加功能主治药物临床试验获批",
-   "summary": "【汉森制药：四磨汤口服液增加功能主治药物临床试验获批】汉森制药(002412)10月9日公告，公司收到国家药监局核准签发关于四磨汤口服液增加功能主治的《药物临床试验批准通知书》，同意该药品开展用于非糜烂性反流病的临床试验。",
-   "time": "2026-11-09 18:29:00",
-   "url": "https://finance.eastmoney.com/a/202611093926361726.html",
-   "source": "东财国际"
+   "title": "万豪国际盘前涨2.5% 花旗目标价从365美元上调至450美元 - 观点网",
+   "summary": "",
+   "time": "2026-11-09 18:36",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9adXVaU3dQSWRrMk5meHlpY29scWhaMDVjUF9KVkpMdTNPVzRyNXhoUko2UGVpQlgtOTNNVzA4eDUxS1FhdENzZ3MtRVRhNlg3U3pUa0hrbkxweHJfdWhJN0ZB?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "特朗普政府已请求中方协助？外交部回应 - 新浪财经",
    "summary": "",
-   "time": "2026-11-09 18:24",
+   "time": "2026-11-09 18:30",
    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNDFsVTdqdmZZaDYzUHdaMDBtUThTQmdXeTJPZkJPWHprWTBPQjlJSFFUYWxzaG92NjRTUjA5MDVLYUwzQlNhRlhHaG15QS10MzZ6XzdTbGhxdl8wcDhvdG9Oa0tuYzUzNWg3czI2eUJwd3QyZENYdHlyYUY5YW1PTUJzQlFOQVNvVkkw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "浙商证券维持古井贡酒买入评级 调整2026至2028年盈利预测 - 观点网",
+   "title": "热景生物：SGC001创新药Ib期临床数据在AHA年会以壁报形式报告",
    "summary": "",
-   "time": "2026-11-09 18:03",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CeGJKdHJQMVdOWkFWbGJia1U3elJaRGhOemdXUnI4QzJLdWFXTE1HRTdiOFA1TS1OU2VXbF9NY1hMc0d5aWdtVzl5a2h1ZnBqOERraVBFUUhpMlY3RVRrQWln?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "丘钛科技：10月手机摄像头模组销量同比下降45.7%",
-   "summary": "",
-   "time": "2026-11-09 10:34:44",
-   "url": "https://news.futunn.com/flash/1003876680/q-technology-mobile-camera-module-sales-fell-45-7-year",
-   "source": "富途"
-  },
-  {
-   "title": "港珠澳大桥海关查获一起走私毒品进境案",
-   "summary": "",
-   "time": "2026-11-09 10:33:39",
-   "url": "https://news.10jqka.com.cn/20261109/c681621840.shtml",
+   "time": "2026-11-09 11:03:47",
+   "url": "https://news.10jqka.com.cn/20261109/c681622976.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "两连板红太阳：股票交易异常波动 提示投资风险",
+   "summary": "",
+   "time": "2026-11-09 10:57:58",
+   "url": "https://news.futunn.com/flash/1003878366/hongtaiyang-hits-two-consecutive-limit-ups-abnormal-stock-trading-volatility",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月9日周一",
@@ -1756,18 +2032,25 @@
    "source": "财新"
   },
   {
-   "title": "楚天高速：拟公开发行公司债券，发行规模不超过35亿元（含），期限不超过10年（含），募集资金拟用于补充流动资金、偿还存量有息负债、固定资产投资、并购与资产重组、对子公司（或基金）注资及增资、特定领域投资等。",
-   "summary": "楚天高速：拟公开发行公司债券，发行规模不超过35亿元（含），期限不超过10年（含），募集资金拟用于补充流动资金、偿还存量有息负债、固定资产投资、并购与资产重组、对子公司（或基金）注资及增资、特定领域投资等。",
-   "time": "2026-11-09 18:31",
-   "url": "https://wallstreetcn.com/livenews/3196882",
+   "title": "伊朗外交部：对伊朗而言 美国各党派之间“没有区别”",
+   "summary": "【伊朗外交部：对伊朗而言 美国各党派之间“没有区别”】伊朗外交部发言人巴加埃9日就美国中期选举结果表示，对伊朗而言，美国各党派之间“没有区别”。",
+   "time": "2026-11-09 18:59:45",
+   "url": "https://finance.eastmoney.com/a/202611093926381186.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "中科飞测：拟以集中竞价交易方式回购股份，回购金额不低于1亿元、不超过1.5亿元，价格上限440元/股，回购股份用于股权激励或员工持股计划，期限为董事会审议通过后12个月内。",
+   "summary": "中科飞测：拟以集中竞价交易方式回购股份，回购金额不低于1亿元、不超过1.5亿元，价格上限440元/股，回购股份用于股权激励或员工持股计划，期限为董事会审议通过后12个月内。",
+   "time": "2026-11-09 18:43",
+   "url": "https://wallstreetcn.com/livenews/3196890",
    "source": "华尔街见闻"
   },
   {
-   "title": "龙源电力：10月完成发电量687.42万兆瓦时 同比增长22.64%",
-   "summary": "【龙源电力：10月完成发电量687.42万兆瓦时 同比增长22.64%】龙源电力(001289)11月9日公告，2026年10月按合并报表口径完成发电量687.42万兆瓦时，同比增长22.64%。其中，风电发电量同比增长15.17%，太阳能发电量同比增长57.19%。",
-   "time": "2026-11-09 18:28:00",
-   "url": "https://finance.eastmoney.com/a/202611093926361893.html",
-   "source": "东财国际"
+   "title": "浙商证券维持古井贡酒买入评级 调整2026至2028年盈利预测 - 观点网",
+   "summary": "",
+   "time": "2026-11-09 18:03",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9CeGJKdHJQMVdOWkFWbGJia1U3elJaRGhOemdXUnI4QzJLdWFXTE1HRTdiOFA1TS1OU2VXbF9NY1hMc0d5aWdtVzl5a2h1ZnBqOERraVBFUUhpMlY3RVRrQWln?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "特朗普预计下周在深圳会晤习近平和普京 - 联合早报",
@@ -1777,25 +2060,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "浙商证券维持酒鬼酒“买入”评级 预计2026年收入同比-5% - 观点网",
+   "title": "迈为股份：周剑与王正根一致行动协议到期解除，控股股东变更为周剑一人",
    "summary": "",
-   "time": "2026-11-09 17:51",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5RkhfMHRVaDZaOGZYSk5DNFRFekNESWZBTDhrakozY1d0MmlMQmoxWGRveDk5TWRaSV9iSjhzal9fdVcwMFpXLUZqSU5fWlkwY2JJWm5HU0I5S2EzcGlSRzFB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "玛莎拉蒂将与尊界合作？Stellantis回应称不对市场传闻或猜测发表评论",
-   "summary": "",
-   "time": "2026-11-09 10:23:31",
-   "url": "https://news.futunn.com/flash/1003875907/will-maserati-collaborate-with-zunjie-stellantis-responds-that-it-does",
-   "source": "富途"
-  },
-  {
-   "title": "耐普矿机：拟以5000万元-8000万元回购公司股份",
-   "summary": "",
-   "time": "2026-11-09 10:33:23",
-   "url": "https://news.10jqka.com.cn/20261109/c681621830.shtml",
+   "time": "2026-11-09 11:03:31",
+   "url": "https://news.10jqka.com.cn/20261109/c681622843.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "谷歌校园AI政策引争议 美国参议员致信CEO",
+   "summary": "",
+   "time": "2026-11-09 10:52:47",
+   "url": "https://news.futunn.com/flash/1003878064/google-s-campus-ai-policy-sparks-controversy-us-senator-writes",
+   "source": "富途"
   },
   {
    "title": "美伊对峙维持高频摩擦，袭船事件持续扰动航道安全，美方借中期选举后的短暂时间窗口实施有限军事打击与物资封锁，伊朗以海峡通航管控、导弹威慑作为反制筹码",
@@ -1805,18 +2081,25 @@
    "source": "财新"
   },
   {
-   "title": "艾格纳有望成为德国首位女总统",
-   "summary": "德国总理默茨8日说，他打算提名来自基督教社会联盟的巴伐利亚州议会议长伊尔泽·艾格纳为总统候选人。艾格纳由此有望成为德国首位女性总统。\n\n据了解，默茨在基督教民主联盟领导层晚宴上作出这一宣布。他计划于11月9日正式向基民盟高层机构提出这一提名。（央视）",
-   "time": "2026-11-09 18:26",
-   "url": "https://wallstreetcn.com/livenews/3196878",
+   "title": "品渥食品：联合体被确定为泰山啤酒重整投资人",
+   "summary": "【品渥食品：联合体被确定为泰山啤酒重整投资人】品渥食品(300892.SZ)公告称，公司与泰安智义文化投资合伙企业及泰安鑫义文化投资合伙企业组成的联合体，被确定为山东泰山啤酒股份有限公司破产重整投资人。",
+   "time": "2026-11-09 18:58:13",
+   "url": "https://finance.eastmoney.com/a/202611093926381030.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "Coach中国区总裁：不盲从涨价、不卷份额",
+   "summary": "近日，Coach中国区总裁李丽安（Liliana Lucioni）在接受专访时表示，中国消费市场的购买行为深受价值驱动。Coach不会盲目涨价，“我们的业务不是依赖于涨价，而是依赖于市场”。Coach母公司泰佩思琦集团第一季度销售额18.9亿美元，同比增长11%，其中核心品牌Coach实现16%的强劲增长。按固定汇率计算，中国市场销售额飙升39%，成为拉动集团全球增长的关键引擎。一季度泰佩思琦集团",
+   "time": "2026-11-09 18:42",
+   "url": "https://wallstreetcn.com/livenews/3196889",
    "source": "华尔街见闻"
   },
   {
-   "title": "淮北矿业：预计年产800万吨陶忽图煤矿项目2028年能达产",
-   "summary": "【淮北矿业：预计年产800万吨陶忽图煤矿项目2028年能达产】淮北矿业在2026年第三季度业绩说明会上表示，公司年产800万吨陶忽图煤矿项目建设顺利进行，当前正全力推进煤巷、岩巷、轨道巷等各类巷道的掘进作业，首采工作面已进入顺槽施工阶段，预计2026年底或2027年初实现联合试运转，经过2027年的产能爬坡阶段后，预计2028年能达产。",
-   "time": "2026-11-09 18:26:14",
-   "url": "https://finance.eastmoney.com/a/202611093926361459.html",
-   "source": "东财国际"
+   "title": "浙商证券维持酒鬼酒“买入”评级 预计2026年收入同比-5% - 观点网",
+   "summary": "",
+   "time": "2026-11-09 17:51",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5RkhfMHRVaDZaOGZYSk5DNFRFekNESWZBTDhrakozY1d0MmlMQmoxWGRveDk5TWRaSV9iSjhzal9fdVcwMFpXLUZqSU5fWlkwY2JJWm5HU0I5S2EzcGlSRzFB?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "特朗普宣布实施“铁门”行动：“几乎没有东西能进出伊朗！”伊朗否认并谴责 - 中国新闻网",
@@ -1826,25 +2109,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "高盛上调阿里每股盈利预测2%及4% 维持「买入」评级 - 观点网",
+   "title": "新研股份与星际荣耀座谈交流 深化商业航天业务协作",
    "summary": "",
-   "time": "2026-11-09 17:39",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13Tjk1TW9GX1lFdEJnellzWHZseUF0THdhTWJwbkFpdVBLbzhUM0JZaDZRanlXODY2T0JYQ05SaWRsT1BzOXMtaXBYMnJ3eW1TdE00U3plckJMVEczbHVpV0hn?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美媒：AI安全倡导组织将中期选举视为重大胜利",
-   "summary": "",
-   "time": "2026-11-09 10:03:54",
-   "url": "https://news.futunn.com/flash/1003874317/us-media-ai-safety-advocacy-groups-view-midterm-elections-as",
-   "source": "富途"
-  },
-  {
-   "title": "东莞控股：金信资本拟公开挂牌转让东能公司50%股权",
-   "summary": "",
-   "time": "2026-11-09 10:31:19",
-   "url": "https://news.10jqka.com.cn/20261109/c681621793.shtml",
+   "time": "2026-11-09 11:02:49",
+   "url": "https://news.10jqka.com.cn/20261109/c681622767.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "海湾地区并购热潮退去 第三季度交易额创2022年以来新低",
+   "summary": "",
+   "time": "2026-11-09 10:51:22",
+   "url": "https://news.futunn.com/flash/1003877975/gulf-region-m-a-boom-subsides-q3-transaction-value-hits",
+   "source": "富途"
   },
   {
    "title": "ARK Invest创始人Cathie Wood看好自动驾驶出租车发展，并认为太空数据中心有望解决AI基础设施建设难题",
@@ -1854,25 +2130,25 @@
    "source": "财新"
   },
   {
-   "title": "上交所协议回购出资人增至28家",
-   "summary": "上交所更新发布债券质押式协议回购业务出资人信息展示名单，对外展示的协议回购出资人由22家增至28家。此次更新首次集中展示5家可接受机构间REITs质押的机构，包括广发资管、万联资管、招银理财、云南信托和中信信托。",
-   "time": "2026-11-09 18:12",
-   "url": "https://wallstreetcn.com/livenews/3196871",
-   "source": "华尔街见闻"
+   "title": "汇丰银行下调美国国债评级",
+   "summary": "【汇丰银行下调美国国债评级】汇丰银行将美国国债评级从大幅超配下调至中性。",
+   "time": "2026-11-09 18:57:45",
+   "url": "https://finance.eastmoney.com/a/202611093926380764.html",
+   "source": "东财国际"
   },
   {
-   "title": "诚迈科技：控股股东及员工持股平台承诺未来六个月不减持",
-   "summary": "【诚迈科技：控股股东及员工持股平台承诺未来六个月不减持】诚迈科技(300598.SZ)公告称，公司控股股东诚迈发展及上市前员工持股平台南京泰泽、南京观晨自愿承诺，自2026年11月10日起6个月内不通过二级市场主动减持公司股份。截至公告日，诚迈发展持股26.56%，南京泰泽持股3.46%，南京观晨持股1.35%。",
-   "time": "2026-11-09 18:23:00",
-   "url": "https://finance.eastmoney.com/a/202611093926361324.html",
-   "source": "东财国际"
+   "title": "英镑兑美元上涨0.5%至1.3422。",
+   "summary": "英镑兑美元上涨0.5%至1.3422。",
+   "time": "2026-11-09 18:37",
+   "url": "https://wallstreetcn.com/livenews/3196886",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(17)",
+   "富途": "ok(16)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1881,12 +2157,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
-   "富途": 7,
-   "同花顺": 6,
+   "谷歌新闻·国际": 7,
+   "同花顺": 7,
+   "富途": 6,
    "东财早报": 1,
    "财新": 6
   }
