@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 16:29:09 CST",
- "generated_at_iso": "2026-11-10T16:29:09+08:00",
+ "generated_at": "2026-11-10 16:37:16 CST",
+ "generated_at_iso": "2026-11-10T16:37:16+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1157,9 +1157,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10866.15,
-    "change": 83.28,
-    "change_pct": 0.77,
+    "price": 10831.71,
+    "change": 48.84,
+    "change_pct": 0.45,
     "hist": [
      10636.71,
      10606.0,
@@ -1231,9 +1231,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8233.3,
-    "change": 94.3,
-    "change_pct": 1.16,
+    "price": 8315.58,
+    "change": 82.29,
+    "change_pct": 1.0,
     "hist": [
      8035.87,
      7964.51,
@@ -1305,9 +1305,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6290.45,
-    "change": 119.96,
-    "change_pct": 1.94,
+    "price": 6349.36,
+    "change": 58.91,
+    "change_pct": 0.94,
     "hist": [
      6320.27,
      6269.03,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4124.284,
-    "change": 9.784,
-    "change_pct": 0.24,
-    "quote_time": "16:29:15 2026-11-10"
+    "price": 4125.833,
+    "change": 11.333,
+    "change_pct": 0.28,
+    "quote_time": "16:37:14 2026-11-10"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.793,
-    "change": 0.1,
-    "change_pct": 0.19,
-    "quote_time": "16:29:15 2026-11-10"
+    "price": 52.858,
+    "change": 0.165,
+    "change_pct": 0.31,
+    "quote_time": "16:37:09 2026-11-10"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.968,
-    "change": -1.882,
-    "change_pct": -2.17,
-    "quote_time": "16:29:15 2026-11-10"
+    "price": 84.676,
+    "change": -2.174,
+    "change_pct": -2.5,
+    "quote_time": "16:37:23 2026-11-10"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 90.668,
-    "change": -1.902,
-    "change_pct": -2.05,
-    "quote_time": "16:29:10 2026-11-10"
+    "price": 90.344,
+    "change": -2.226,
+    "change_pct": -2.4,
+    "quote_time": "16:37:23 2026-11-10"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74691.3,
-    "change": 511.0,
-    "change_pct": 0.69,
+    "price": 74522.5,
+    "change": 244.2,
+    "change_pct": 0.33,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2113.27,
-    "change": 4.48,
-    "change_pct": 0.21,
+    "price": 2112.34,
+    "change": 1.89,
+    "change_pct": 0.09,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 85.71,
-    "change": -0.68,
-    "change_pct": -0.79,
+    "price": 85.63,
+    "change": -0.74,
+    "change_pct": -0.86,
     "source": "okx"
    }
   ]
@@ -1474,9 +1474,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 19.92,
-   "change": -5.72,
-   "change_pct": -28.7149,
+   "value": 19.83,
+   "change": -0.09,
+   "change_pct": -0.4518,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1524,8 +1524,8 @@
     },
     {
      "t": "VIX",
-     "value": 19.92,
-     "change_pct": -28.7149
+     "value": 19.83,
+     "change_pct": -0.4518
     },
     {
      "t": "VIX3M",
@@ -1550,26 +1550,48 @@
  },
  "speakers": [
   {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行首席经济学家Lane建议 若数据不变则应于12月加息",
+   "summary": "欧洲央行首席经济学家Philip Lane表示，如果未来几周数据没有变化，欧洲央行应在下次会议上再次上调借贷成本。虽然从现在到12月油价“可能大幅波动”，但年底通胀率可能“略高于”4%。食品价格和核心物价可能加速上涨，尤其是在明年第一季度。如果我们12月掌握的信息与今天完全相同，那么我认为加息确实是审慎之举，通胀峰值还未到来。Lane表示，欧洲央行明年将“根据数据行事”，并敦促交易员不要只看大宗商",
+   "time": "2026-11-10 16:21",
+   "url": "https://wallstreetcn.com/livenews/3197549",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普质疑中期选举结果 民主党人回应：迟早的事 - 中国新闻网",
+   "title": "特朗普：伊朗战事已“事实上结束” - 风闻",
    "summary": "",
-   "time": "2026-11-10 16:02",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40UVA5RmJvaTBXR3VWWi1zaDduR1ZLek51WW83eFU4a05ORDNCaXAxeExoUUtrazRpMzFZVWlnNV9WWTh5Y1JZNy1rU3hJbmMyUDNkd0QyWmYyYk15RTk5OE9uMmJzejVP?oc=5",
+   "time": "2026-11-10 16:17",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ITEl0U01RNEdwVk5mWTQwcGFBX1FZTVNUN2VTYXRHX1BaZkNEanBRQS1Cc0c5eTYwX1NVX2dCMThpYThyTnJJeVFrQTNHMWtsN0oxcUlSYUViSms?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
   },
   {
-   "keyword": "欧洲央行",
-   "label": "欧洲央行",
-   "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "欧洲央行官员Lane：如果经济数据未见变化 12月加息将是谨慎之举",
-   "summary": "欧洲央行官员Lane表示，如果经济数据未见变化，12月加息将是谨慎之举。",
-   "time": "2026-11-10 16:00:18",
-   "url": "https://finance.eastmoney.com/a/202611103927313072.html",
-   "source": "东财国际",
-   "mentions": 2
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "据报马斯克等美国商界领袖随特朗普出席APEC 黄仁勋存变数 - 观点网",
+   "summary": "",
+   "time": "2026-11-10 16:17",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05ODUzOE1kODhFT3hsckpzcU80eUxlLWhlZFhvZmd5YjNtemZFdFJsN2lWQ2NEZEpwQWNLcVk2bm1fdGltOTN0dFVtakZubEREclNqSEpDNXVoeUdmV3ZKT1NB?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "据报马斯克等美国商界领袖随特朗普出席APEC 黄仁勋存变数 - 观点网",
+   "summary": "",
+   "time": "2026-11-10 16:17",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05ODUzOE1kODhFT3hsckpzcU80eUxlLWhlZFhvZmd5YjNtemZFdFJsN2lWQ2NEZEpwQWNLcVk2bm1fdGltOTN0dFVtakZubEREclNqSEpDNXVoeUdmV3ZKT1NB?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
   },
   {
    "keyword": "外交部",
@@ -1687,56 +1709,48 @@
    }
   ]
  },
- "alerts": [
-  {
-   "level": "warning",
-   "asset": "全球股指",
-   "message": "道琼斯、标普500、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-10 16:29",
-   "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
-  }
- ],
+ "alerts": [],
  "news": [
   {
-   "title": "欧股集体高开",
-   "summary": "欧洲斯托克50指数开盘涨1.1%，德国DAX指数涨1.1%，英国富时100指数涨0.8%，法国CAC 40指数涨1.2%。",
-   "time": "2026-11-10 16:03",
-   "url": "https://wallstreetcn.com/livenews/3197533",
+   "title": "布伦特原油日内跌幅达2.5%，报90.2美元/桶；WTI原油日内跌幅达2.5%，报84.67美元/桶。",
+   "summary": "布伦特原油日内跌幅达2.5%，报90.2美元/桶；WTI原油日内跌幅达2.5%，报84.67美元/桶。",
+   "time": "2026-11-10 16:35",
+   "url": "https://wallstreetcn.com/livenews/3197561",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普质疑中期选举结果 民主党人回应：迟早的事 - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-10 16:02",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40UVA5RmJvaTBXR3VWWi1zaDduR1ZLek51WW83eFU4a05ORDNCaXAxeExoUUtrazRpMzFZVWlnNV9WWTh5Y1JZNy1rU3hJbmMyUDNkd0QyWmYyYk15RTk5OE9uMmJzejVP?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "贵州茅台余思明：正制定2026年度中期利润分配方案",
-   "summary": "【贵州茅台余思明：正制定2026年度中期利润分配方案】贵州茅台10日召开2026年第三季度业绩说明会，公司财务总监、董秘余思明表示，根据公司《2024－2026年度现金分红回报规划》，2024—2026年度公司每年度的现金分红分两次（年度和中期分红）实施。贵州茅台董事会正按照股东会授权制定2026年度中期利润分配方案，将根据规划承诺在2026年年内完成此次中期利润分配。",
-   "time": "2026-11-10 16:00:48",
-   "url": "https://finance.eastmoney.com/a/202611103927313654.html",
+   "title": "标普500波动率指数回落至20以下",
+   "summary": "【标普500波动率指数回落至20以下】随着美股反弹，标普500波动率指数（VIX）回落至20以下，数日前一度升至28。",
+   "time": "2026-11-10 16:32:06",
+   "url": "https://finance.eastmoney.com/a/202611103927335857.html",
    "source": "东财国际"
   },
   {
-   "title": "华尔街三大投行策略师称美股抛售行情大概率已接近尾声 - 观点网",
+   "title": "摩根士丹利下调三星电子及SK海力士目标价 三星电子列为新首选 - 观点网",
    "summary": "",
-   "time": "2026-11-10 15:40",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PVDFRLVRnTEpKR25TTkJSRkQtM1pnQWpWUDRVaFBiOW55emRBaV9XT1poSkJoX0Vwd3VMWVo3dmhXTllnN2ltMkdVZ2VGQQ?oc=5",
+   "time": "2026-11-10 16:26",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5pdUoyUDNpam1mdmtIWHo5VW1PajU4ZzV6UDFreE44RmQ2a1J5QmM0NFdPaWMwSjk2TWdmQnFDeHY0bFVIMjktODJUTWVqUVBSakxVZ3VMNWZEVTI1VnloUzVR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "欧洲主要股指开盘多数上涨",
+   "title": "特朗普：伊朗战事已“事实上结束” - 风闻",
    "summary": "",
-   "time": "2026-11-10 08:01:24",
-   "url": "https://news.10jqka.com.cn/20261110/c681655126.shtml",
+   "time": "2026-11-10 16:17",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ITEl0U01RNEdwVk5mWTQwcGFBX1FZTVNUN2VTYXRHX1BaZkNEanBRQS1Cc0c5eTYwX1NVX2dCMThpYThyTnJJeVFrQTNHMWtsN0oxcUlSYUViSms?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "嘉友国际：与MCS MONGOLIA LLC签订战略合作协议",
+   "summary": "",
+   "time": "2026-11-10 08:33:17",
+   "url": "https://news.10jqka.com.cn/20261110/c681660992.shtml",
    "source": "同花顺"
   },
   {
-   "title": "贵州茅台王莉：2027年度贵州茅台酒的下沙生产已经结束，未新增茅台酒基酒产能",
+   "title": "中广核浙江三澳核电项目4号机组主体工程开工",
    "summary": "",
-   "time": "2026-11-10 07:57:29",
-   "url": "https://news.futunn.com/flash/1003998127/kweichow-moutai-s-wang-li-the-xiasha-production-phase-for",
+   "time": "2026-11-10 08:30:59",
+   "url": "https://news.futunn.com/flash/1004003704/main-construction-work-commences-for-unit-4-of-the-cgn",
    "source": "富途"
   },
   {
@@ -1754,45 +1768,45 @@
    "source": "财新"
   },
   {
-   "title": "欧洲央行首席经济学家Lane：如果数据没有变化，12月加息是审慎之举。\n\n年底通胀可能“略高于”4%。\n\n就目前情况而言，12月加息是审慎之举。\n\n就通胀峰值而言，后续还会有更多（上行）。\n\n从现在到12月会议期间，油价可能大幅波动。\n\n希",
-   "summary": "欧洲央行首席经济学家Lane：如果数据没有变化，12月加息是审慎之举。\n\n年底通胀可能“略高于”4%。\n\n就目前情况而言，12月加息是审慎之举。\n\n就通胀峰值而言，后续还会有更多（上行）。\n\n从现在到12月会议期间，油价可能大幅波动。\n\n希望市场结合更广泛的宏观图景重新定价。\n\n市场正通过利率押注来反映不确定性。\n\n预计核心通胀和食品通胀将加快。\n\n法国的财政问题需要在巴黎解决。\n\n欧洲央行的政策",
-   "time": "2026-11-10 15:58",
-   "url": "https://wallstreetcn.com/livenews/3197532",
+   "title": "禾赛科技第三季度调整后每股收益0.090元人民币，预估0.53元人民币。\n\n第三季度调整后净利润1.190亿元人民币，预估1.32亿元人民币。\n\n禾赛科技预计第四季度净营收11.0亿元人民币至11.5亿元人民币。",
+   "summary": "禾赛科技第三季度调整后每股收益0.090元人民币，预估0.53元人民币。\n\n第三季度调整后净利润1.190亿元人民币，预估1.32亿元人民币。\n\n禾赛科技预计第四季度净营收11.0亿元人民币至11.5亿元人民币。",
+   "time": "2026-11-10 16:30",
+   "url": "https://wallstreetcn.com/livenews/3197552",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普：伊朗战事从军事角度“实际上已结束” - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-10 15:49",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TbThqajFZS3ZiTERwX3A5NGRUbVhWSnhaNk96Tmc3d0tkUlpZeG92dmdQcS1Db2d4WXhFQm40bG9sWkJ1TjZSOFJrTzJsMnB4S3JyTU54d1lxX3h2SmRqcW9aNDRpVUpf?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "俄美乌三方会议前 乌美欧在阿布扎比举行会谈",
-   "summary": "【俄美乌三方会议前 乌美欧在阿布扎比举行会谈】当地时间10日，乌克兰对外情报局局长乌梅罗夫表示，乌克兰、美国和欧洲的三方会谈已在阿联酋阿布扎比开始举行。随后将举行乌克兰、美国和俄罗斯三方会议。",
-   "time": "2026-11-10 16:00:31",
-   "url": "https://finance.eastmoney.com/a/202611103927305697.html",
+   "title": "在岸人民币兑美元收盘报6.6682",
+   "summary": "【在岸人民币兑美元收盘报6.6682】11月10日消息，在岸人民币兑美元收盘报6.6682，较上一交易日上涨53点。",
+   "time": "2026-11-10 16:32:00",
+   "url": "https://finance.eastmoney.com/a/202611103927337975.html",
    "source": "东财国际"
   },
   {
-   "title": "巴克莱下调MP Materials目标价至54美元 - 金融界",
+   "title": "券商今日金股：7份研报力推一股（名单） - 同花顺",
    "summary": "",
-   "time": "2026-11-10 15:38",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xZGNZdUJzWnRFRmhDQjR0VWlIckxUQTJEd3hRaU5ZX2hURTZvQnUtU1pOUHFSUmNvWEg4bm5Oc01fNVZFUkJ4N09OcXBXVVA5SlNUbXpOZXZSRG9MSDgtSklBSEpPQQ?oc=5",
+   "time": "2026-11-10 16:18",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA2OFh0X2NRV3VCT0xqbVNTN213TTBfcXJaZi0yRXNCUWlPdUpoODhKcHN5T0ZUWkVUNnQ2ck0zT1Q0WTlBTW10YXp0OF9lLXBNMHM1RkRBWE1jNnpkWmh6WGZn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "改善健康 美国夏威夷居民食品也可纳入医疗补助",
+   "title": "据报马斯克等美国商界领袖随特朗普出席APEC 黄仁勋存变数 - 观点网",
    "summary": "",
-   "time": "2026-11-10 08:00:10",
-   "url": "https://news.10jqka.com.cn/20261110/c681654959.shtml",
+   "time": "2026-11-10 16:17",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05ODUzOE1kODhFT3hsckpzcU80eUxlLWhlZFhvZmd5YjNtemZFdFJsN2lWQ2NEZEpwQWNLcVk2bm1fdGltOTN0dFVtakZubEREclNqSEpDNXVoeUdmV3ZKT1NB?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "光库科技：控股子公司拜安实业拟200万美元在香港设立全资子公司",
+   "summary": "",
+   "time": "2026-11-10 08:23:44",
+   "url": "https://news.10jqka.com.cn/20261110/c681659743.shtml",
    "source": "同花顺"
   },
   {
-   "title": "贵州茅台王莉：前期市场改革转型取得一定成效 达到预期",
+   "title": "刘海星分别会见刚果（布）、意大利客人",
    "summary": "",
-   "time": "2026-11-10 07:53:17",
-   "url": "https://news.futunn.com/flash/1003997419/wang-li-of-kweichow-moutai-earlier-market-reforms-and-transformation",
+   "time": "2026-11-10 08:29:19",
+   "url": "https://news.futunn.com/flash/1004003382/liu-haixing-holds-separate-meetings-with-guests-from-congo-brazzaville",
    "source": "富途"
   },
   {
@@ -1810,45 +1824,45 @@
    "source": "财新"
   },
   {
-   "title": "乌克兰代表在阿布扎比开始与库什纳、威特科夫及欧洲代表会谈",
-   "summary": "乌克兰对外情报部门负责人鲁斯捷姆·乌梅罗夫在Telegram上表示，乌克兰谈判代表在阿布扎比首先与欧洲和美国代表举行会谈。参加这轮会谈的包括美国谈判代表贾里德·库什纳和史蒂夫·威特科夫，以及英国、法国、德国、意大利、北约和欧盟委员会的代表。随后将举行乌克兰、美国和俄罗斯三方会谈。",
-   "time": "2026-11-10 15:57",
-   "url": "https://wallstreetcn.com/livenews/3197530",
+   "title": "欧洲央行首席经济学家Lane建议 若数据不变则应于12月加息",
+   "summary": "欧洲央行首席经济学家Philip Lane表示，如果未来几周数据没有变化，欧洲央行应在下次会议上再次上调借贷成本。虽然从现在到12月油价“可能大幅波动”，但年底通胀率可能“略高于”4%。食品价格和核心物价可能加速上涨，尤其是在明年第一季度。如果我们12月掌握的信息与今天完全相同，那么我认为加息确实是审慎之举，通胀峰值还未到来。Lane表示，欧洲央行明年将“根据数据行事”，并敦促交易员不要只看大宗商",
+   "time": "2026-11-10 16:21",
+   "url": "https://wallstreetcn.com/livenews/3197549",
    "source": "华尔街见闻"
   },
   {
-   "title": "快看视频 | 特朗普：伊朗战事已事实上结束 伊朗：结束“非战非和”状态 - 上观新闻",
-   "summary": "",
-   "time": "2026-11-10 15:35",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQeEtieDktRnFxb2xyZ21GcmhrM1ozTTJDd0tYcXlnUHVPeUJmZWtRRTVEQ0s3MVQtUE4xY2d5N1otTVFLQkNvRXZkcmV2T0liZDdiM2FzVl94UQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "欧洲央行官员Lane：如果经济数据未见变化 12月加息将是谨慎之举",
-   "summary": "欧洲央行官员Lane表示，如果经济数据未见变化，12月加息将是谨慎之举。",
-   "time": "2026-11-10 16:00:18",
-   "url": "https://finance.eastmoney.com/a/202611103927313072.html",
+   "title": "安培龙：获得压电MEMS陀螺相关发明专利证书",
+   "summary": "【安培龙：获得压电MEMS陀螺相关发明专利证书】安培龙(301413.SZ)公告称，公司于近日收到国家知识产权局颁发的1项《发明专利证书》，发明名称为压电MEMS陀螺正交解耦信号处理电路及方法。该专利为公司自主研发的创新型技术，短期内不会对经营业绩构成重大影响，有利于提升核心竞争力及促进市场拓展。",
+   "time": "2026-11-10 16:30:41",
+   "url": "https://finance.eastmoney.com/a/202611103927335562.html",
    "source": "东财国际"
   },
   {
-   "title": "港股评级汇总：东方证券维持舜宇光学科技买入评级 - 财联社",
+   "title": "摩根士丹利将北美半导体行业评级列为吸引 首选英伟达 - 观点网",
    "summary": "",
-   "time": "2026-11-10 15:07",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBaa1hZNUw0Z0E1YlhsMU9uUVNMUUM5QWkwMjN4N2RrdFhPUWpiSzlPUlJCNTlzVEEyWlFvTG9VME9pQ3lzR0Roag?oc=5",
+   "time": "2026-11-10 16:18",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IU3lLMUN2RkhPOFZnckF0SDBXTWJtVXRRVk56Ny1Nb0tzRXJQMzFQRmR1MG9IcVp2RVhTZTJvX2Y4Z2Z2NFdIbmVOUTBCVGt3MWdqMkFjbTRmVUlUdWFGWkpR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "第九届进博会期间 上海超2800家离境退税商店办理离境退税销售额超1亿元",
+   "title": "特朗普质疑中期选举结果 民主党人回应：迟早的事 - 中国新闻网",
    "summary": "",
-   "time": "2026-11-10 07:59:10",
-   "url": "https://news.10jqka.com.cn/20261110/c681654927.shtml",
+   "time": "2026-11-10 16:02",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40UVA5RmJvaTBXR3VWWi1zaDduR1ZLek51WW83eFU4a05ORDNCaXAxeExoUUtrazRpMzFZVWlnNV9WWTh5Y1JZNy1rU3hJbmMyUDNkd0QyWmYyYk15RTk5OE9uMmJzejVP?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "民和股份：2026年10月商品代鸡苗销售收入5424.03万元，同比下降39.47%",
+   "summary": "",
+   "time": "2026-11-10 08:23:39",
+   "url": "https://news.10jqka.com.cn/20261110/c681659735.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美元在CPI报告前小幅走弱 市场等待通胀线索",
+   "title": "港股收评：科指先抑后扬收涨1.08% 新股芯德半导体首日大涨28%",
    "summary": "",
-   "time": "2026-11-10 07:46:06",
-   "url": "https://news.futunn.com/flash/1003996337/dollar-edges-lower-ahead-of-cpi-report-market-awaits-inflation",
+   "time": "2026-11-10 08:18:22",
+   "url": "https://news.futunn.com/flash/1004001745/hong-kong-stock-market-closing-review-hstech-rebounds-to-close",
    "source": "富途"
   },
   {
@@ -1859,10 +1873,10 @@
    "source": "财新"
   },
   {
-   "title": "多家头部私募产品净值大幅回撤",
-   "summary": "近期以来，不少头部私募旗下产品纷纷跌入“毛基”行列（即产品自成立以来的累计净值低于1元），还出现了部分“6毛基”、“5毛基”，甚至是“2毛基”。Wind数据显示，管理规模50亿元以上的头部私募旗下近期有净值更新的1523只产品中，有241只产品的最新累计净值不足1元，占比15.82%。截至11月6日，博润银泰投资旗下的“博润银泰多策略6号”最新累计净值仅为0.2846，成为头部私募旗下罕见的“2毛",
-   "time": "2026-11-10 15:55",
-   "url": "https://wallstreetcn.com/livenews/3197524",
+   "title": "俄罗斯、美国和乌克兰在阿布扎比开始会谈。（俄新社）",
+   "summary": "俄罗斯、美国和乌克兰在阿布扎比开始会谈。（俄新社）",
+   "time": "2026-11-10 16:15",
+   "url": "https://wallstreetcn.com/livenews/3197548",
    "source": "华尔街见闻"
   }
  ],
@@ -1870,7 +1884,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(28)",
+   "富途": "ok(29)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1880,9 +1894,9 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
    "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
