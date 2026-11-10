@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-11 02:28:55 CST",
- "generated_at_iso": "2026-11-11T02:28:55+08:00",
+ "generated_at": "2026-11-11 02:37:04 CST",
+ "generated_at_iso": "2026-11-11T02:37:04+08:00",
  "date": "2026-11-11",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52075.0312,
-    "change": -314.72,
-    "change_pct": -0.6,
-    "quote_time": "2026-11-11 02:28:55",
+    "price": 52113.6016,
+    "change": -276.15,
+    "change_pct": -0.53,
+    "quote_time": "2026-11-11 02:36:46",
     "hist": [
      51349.9219,
      50906.0508,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24889.6413,
-    "change": -363.4972,
-    "change_pct": -1.44,
-    "quote_time": "2026-11-11 02:29:00",
+    "price": 24955.5191,
+    "change": -297.6194,
+    "change_pct": -1.18,
+    "quote_time": "2026-11-11 02:37:11",
     "hist": [
      26797.541,
      26861.0645,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7484.6802,
-    "change": -65.26,
-    "change_pct": -0.86,
-    "quote_time": "2026-11-11 02:28:43",
+    "price": 7495.3901,
+    "change": -54.55,
+    "change_pct": -0.72,
+    "quote_time": "2026-11-11 02:36:46",
     "hist": [
      7670.8398,
      7651.54,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4028.81,
-    "change": -85.69,
-    "change_pct": -2.08,
-    "quote_time": "02:29:04 2026-11-11"
+    "price": 4035.04,
+    "change": -79.46,
+    "change_pct": -1.93,
+    "quote_time": "02:37:12 2026-11-11"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.239,
-    "change": -1.454,
-    "change_pct": -2.76,
-    "quote_time": "02:29:02 2026-11-11"
+    "price": 51.335,
+    "change": -1.358,
+    "change_pct": -2.58,
+    "quote_time": "02:37:07 2026-11-11"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.271,
-    "change": -0.579,
-    "change_pct": -0.67,
-    "quote_time": "02:29:03 2026-11-11"
+    "price": 86.21,
+    "change": -0.64,
+    "change_pct": -0.74,
+    "quote_time": "02:37:13 2026-11-11"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.843,
-    "change": -0.727,
-    "change_pct": -0.79,
-    "quote_time": "02:29:01 2026-11-11"
+    "price": 91.745,
+    "change": -0.825,
+    "change_pct": -0.89,
+    "quote_time": "02:37:08 2026-11-11"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 73339.6,
-    "change": -1218.4,
-    "change_pct": -1.63,
+    "price": 73626.9,
+    "change": -979.8,
+    "change_pct": -1.31,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2032.98,
-    "change": -89.02,
-    "change_pct": -4.2,
+    "price": 2047.58,
+    "change": -77.13,
+    "change_pct": -3.63,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 82.78,
-    "change": -3.6,
-    "change_pct": -4.17,
+    "price": 83.22,
+    "change": -3.39,
+    "change_pct": -3.91,
     "source": "okx"
    }
   ]
@@ -1474,9 +1474,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 21.07,
-   "change": 1.15,
-   "change_pct": 5.7731,
+   "value": 20.87,
+   "change": 0.95,
+   "change_pct": 4.7691,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1512,33 +1512,33 @@
     25.64,
     19.92
    ],
-   "vix3m": 21.65,
-   "term": "持平"
+   "vix3m": 21.57,
+   "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 20.54,
-     "change_pct": 3.3199
+     "value": 20.42,
+     "change_pct": 2.7163
     },
     {
      "t": "VIX",
-     "value": 20.98,
-     "change_pct": 5.3213
+     "value": 20.87,
+     "change_pct": 4.7691
     },
     {
      "t": "VIX3M",
-     "value": 21.65,
-     "change_pct": 3.8369
+     "value": 21.57,
+     "change_pct": 3.4532
     },
     {
      "t": "VIX6M",
-     "value": 22.79,
-     "change_pct": 2.5653
+     "value": 22.71,
+     "change_pct": 2.2052
     }
    ],
-   "ratio_9d_3m": 0.949,
+   "ratio_9d_3m": 0.947,
    "shape": "平坦",
    "source": "CBOE"
   },
@@ -1553,12 +1553,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "拜登披露：特朗普当选后态度曾异常热情，惊得我一时语塞 - 凤凰网",
-   "summary": "",
-   "time": "2026-11-11 01:51",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtQ0thN2xHdl94Z0dScjlEOHBtT0FqUWMyb3c1RmVVVEpPRjJhQzQ5VzJOR2h2bklJS3h0ZGFTelhfa1dsR291Q05JRkc?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
+   "title": "美国国债遭遇猛烈抛售潮 通胀数据和美联储鹰派言论动摇利率押注",
+   "summary": "【美国国债遭遇猛烈抛售潮 通胀数据和美联储鹰派言论动摇利率押注】因通胀高于预期，加之美联储官员警告可能加大升息力度，美国债市遭遇2025年4月以来最严重抛售潮之一。周二，对美联储政策变动比长期债券更敏感的2年期美国国债收益率一度飙升21个基点至4.77%，势将创下特朗普对等关税措施引发全球市场剧震以来最大单日升幅。",
+   "time": "2026-11-11 02:23:11",
+   "url": "https://finance.eastmoney.com/a/202611113927721296.html",
+   "source": "东财国际",
+   "mentions": 4
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美国国债遭遇猛烈抛售潮 通胀数据和美联储鹰派言论动摇利率押注",
+   "summary": "【美国国债遭遇猛烈抛售潮 通胀数据和美联储鹰派言论动摇利率押注】因通胀高于预期，加之美联储官员警告可能加大升息力度，美国债市遭遇2025年4月以来最严重抛售潮之一。周二，对美联储政策变动比长期债券更敏感的2年期美国国债收益率一度飙升21个基点至4.77%，势将创下特朗普对等关税措施引发全球市场剧震以来最大单日升幅。",
+   "time": "2026-11-11 02:23:11",
+   "url": "https://finance.eastmoney.com/a/202611113927721296.html",
+   "source": "东财国际",
+   "mentions": 6
   },
   {
    "keyword": "白宫",
@@ -1579,17 +1590,6 @@
    "summary": "",
    "time": "2026-11-11 00:32",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Ed2NaQUpWbWdTdXdpY2VGTDdTdWpobWhwcnYta2c3MGFiNi10UFBJQnJFMUJNdGlRdUV1eU1ZVEx6NHdoUFlma1BTR0FxMDhtMmlxY1pRZkZSSFFyeTd4eTdSbUlTdi1QSzJCaVNqZHRTUQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "特朗普为黄仁勋辩护：“他说自己完全不知道那个人是间谍” - RFI",
-   "summary": "",
-   "time": "2026-11-11 00:01",
-   "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxOd3Nib0FjSGhwaTRqQ1pzYWwtRG1xdE0xQ0NZc29obW9kbXp1VTV3WUdiVC04VFVQNldIOTRiY0hTWnFwV2ljelZjOFEtQVF4VFUwRlZaaDhLQWtSX1FpVVJ3QXByNGktUWludkd3R0IyeUlMN0ZMVDV2akFOb3NvOEgxUFpfWnVBdkFJekdxeldZNTlBV1RHWmd1d2ZxSkJPN3ZDd0ZjeDFadjdLRjQ0VWNPMlRPQnJZLTR3bUVjSnNRb2prZWRjWllaWXZucHpESUV1eXRjbF8xeFlFdFgtOVhLaDQ4Nl95NVluQldXeGplQU1PZU9WS3R2MllNSkFRMV9WbkNNbkZxbXZyT1JKWmNMU2tERFlhemZhT2Q4WGpUa21kcDFOWm1QSGdOSkQxcmMzaVRoQXRTaDlXZVk3ejRkRlBWbkpwdGdnbmpPQTZDMkhvSlJiVDdLRTRmVTkxeVctWUQtZmIyaGVIQ2dYY0ZpRDZ6Yjc5aGVFNXlFQVg?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
   },
@@ -1712,24 +1712,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "美国财政部拍卖420亿美元10年期国债，得标利率5.020%（10月7日为5.3%），投标倍数2.46（前次为2.77）。",
-   "summary": "美国财政部拍卖420亿美元10年期国债，得标利率5.020%（10月7日为5.3%），投标倍数2.46（前次为2.77）。",
-   "time": "2026-11-11 02:02",
-   "url": "https://wallstreetcn.com/livenews/3197861",
+   "title": "伊朗总统将前往土耳其，参加环境峰会。（IRIB）",
+   "summary": "伊朗总统将前往土耳其，参加环境峰会。（IRIB）",
+   "time": "2026-11-11 02:24",
+   "url": "https://wallstreetcn.com/livenews/3197868",
    "source": "华尔街见闻"
   },
   {
-   "title": "LME期铜收跌218美元",
-   "summary": "【LME期铜收跌218美元】LME期铜收跌218美元，报13679美元/吨。LME期铝收跌56美元，报3010美元/吨。LME期锌收跌20美元，报3711美元/吨。LME期铅收跌8美元，报1878美元/吨。LME期镍收跌195美元，报16030美元/吨。LME期锡收跌126美元，报46313美元/吨。LME期钴收平，报33525美元/吨。",
-   "time": "2026-11-11 01:57:33",
-   "url": "https://finance.eastmoney.com/a/202611113927717858.html",
+   "title": "美国国债遭遇猛烈抛售潮 通胀数据和美联储鹰派言论动摇利率押注",
+   "summary": "【美国国债遭遇猛烈抛售潮 通胀数据和美联储鹰派言论动摇利率押注】因通胀高于预期，加之美联储官员警告可能加大升息力度，美国债市遭遇2025年4月以来最严重抛售潮之一。周二，对美联储政策变动比长期债券更敏感的2年期美国国债收益率一度飙升21个基点至4.77%，势将创下特朗普对等关税措施引发全球市场剧震以来最大单日升幅。",
+   "time": "2026-11-11 02:23:11",
+   "url": "https://finance.eastmoney.com/a/202611113927721296.html",
    "source": "东财国际"
   },
   {
-   "title": "拜登披露：特朗普当选后态度曾异常热情，惊得我一时语塞 - 凤凰网",
+   "title": "美CPI又超预期、沃勒警告应验！华尔街聚焦12月加息25还是50基点，“新美联储通讯社”：加加停停策略面临考验 - 华尔街见闻",
    "summary": "",
-   "time": "2026-11-11 01:51",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtQ0thN2xHdl94Z0dScjlEOHBtT0FqUWMyb3c1RmVVVEpPRjJhQzQ5VzJOR2h2bklJS3h0ZGFTelhfa1dsR291Q05JRkc?oc=5",
+   "time": "2026-11-11 02:15",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tQ2Y5M3RtT0RQYmd2RXFRbEExb0hmbmJNX1lrNlRyVmtqUW00VGZIcUVKMlBfdDFKenR5NVBneTM5ZWZBZnJWaVdGTXFhd0ZKeUZn?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1740,17 +1740,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国10年期国债中标收益率为5.020%，高于发行前预发行市场的5.010%",
+   "title": "10年期美债发行认购需求不及预期 尽管票面利率创20年以来最高",
    "summary": "",
-   "time": "2026-11-10 18:03:36",
-   "url": "https://news.10jqka.com.cn/20261111/c681677301.shtml",
+   "time": "2026-11-10 18:34:26",
+   "url": "https://news.10jqka.com.cn/20261111/c681677376.shtml",
    "source": "同花顺"
   },
   {
-   "title": "泽连斯基说欧洲应参与旨在结束俄乌冲突的谈判",
+   "title": "美联储加息预期升温 美债10年期收益率突破5%",
    "summary": "",
-   "time": "2026-11-10 17:57:30",
-   "url": "https://news.futunn.com/flash/1004065046/zelenskyy-stated-that-europe-should-participate-in-negotiations-aimed-at",
+   "time": "2026-11-10 18:30:08",
+   "url": "https://news.futunn.com/flash/1004066847/expectations-of-federal-reserve-rate-hikes-intensify-10-year-us",
    "source": "富途"
   },
   {
@@ -1768,45 +1768,45 @@
    "source": "财新"
   },
   {
-   "title": "LME期铜收跌218美元，报13679美元/吨。\n\nLME期铝收跌56美元，报3010美元/吨。\n\nLME期锌收跌20美元，报3711美元/吨。\n\nLME期铅收跌8美元，报1878美元/吨。\n\nLME期镍收跌195美元，报16030美元/吨",
-   "summary": "LME期铜收跌218美元，报13679美元/吨。\n\nLME期铝收跌56美元，报3010美元/吨。\n\nLME期锌收跌20美元，报3711美元/吨。\n\nLME期铅收跌8美元，报1878美元/吨。\n\nLME期镍收跌195美元，报16030美元/吨。\n\nLME期锡收跌126美元，报46313美元/吨。\n\nLME期钴收平，报33525美元/吨。",
-   "time": "2026-11-11 01:56",
-   "url": "https://wallstreetcn.com/livenews/3197859",
+   "title": "美国国债遭遇猛烈抛售潮，通胀数据和美联储鹰派言论动摇利率押注",
+   "summary": "因通胀高于预期，加之美联储官员警告可能加大升息力度，美国债市遭遇2025年4月以来最严重抛售潮之一。\n\n对美联储政策变动比长期债券更敏感的2年期美国国债收益率一度飙升21个基点至4.77%，势将创下特朗普对等关税措施引发全球市场剧震以来最大单日升幅。\n\n这次波动标志着债市再度出现剧烈逆转。自上月初以来，随着科技股下跌以及油价回落，美国国债曾大幅上涨。\n\n但周二，这两个推动因素都被抛到一边，市场焦点",
+   "time": "2026-11-11 02:22",
+   "url": "https://wallstreetcn.com/livenews/3197867",
    "source": "华尔街见闻"
   },
   {
-   "title": "华安鑫创：股东肖炎质押120.00万股 占公司总股本1.50%",
-   "summary": "【华安鑫创：股东肖炎质押120.00万股 占公司总股本1.50%】11月10日，华安鑫创发布公告称，公司近日收到持股5%以上股东肖炎的通知，获悉其将所持有的部分公司股份办理了质押业务。本次质押数量为120.00万股，占其所持股份比例15.00%，占公司总股本比例1.50%，质押起始日为2026年11月9日，质押到期日为至解除质押之日止，质权人为晋江市汇鑫小额贷款有限公司，质押用途为个人资金需求；本次质押股份非限售股，亦非补充质押。",
-   "time": "2026-11-11 01:55:51",
-   "url": "https://finance.eastmoney.com/a/202611103927686360.html",
+   "title": "美联储隔夜逆回购协议周二使用规模为1.52亿美元 上个交易日报2.52亿美元",
+   "summary": "美联储隔夜逆回购协议（RRP）周二使用规模为1.52亿美元，上个交易日报2.52亿美元。",
+   "time": "2026-11-11 02:16:29",
+   "url": "https://finance.eastmoney.com/a/202611113927720119.html",
    "source": "东财国际"
   },
   {
-   "title": "还是小看特朗普了，结局早在他进白宫前就已写好，马斯克被算计了 - 手机新浪网",
+   "title": "拜登披露：特朗普当选后态度曾异常热情，惊得我一时语塞 - 凤凰网",
    "summary": "",
-   "time": "2026-11-11 00:32",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Ed2NaQUpWbWdTdXdpY2VGTDdTdWpobWhwcnYta2c3MGFiNi10UFBJQnJFMUJNdGlRdUV1eU1ZVEx6NHdoUFlma1BTR0FxMDhtMmlxY1pRZkZSSFFyeTd4eTdSbUlTdi1QSzJCaVNqZHRTUQ?oc=5",
+   "time": "2026-11-11 01:51",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtQ0thN2xHdl94Z0dScjlEOHBtT0FqUWMyb3c1RmVVVEpPRjJhQzQ5VzJOR2h2bklJS3h0ZGFTelhfa1dsR291Q05JRkc?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "82股获买入评级 最新:中国海油 - 中财网",
+   "title": "瑞银：将沃尔玛目标价由130美元上调至149美元 评级“买入” - 东方财富",
    "summary": "",
-   "time": "2026-11-10 22:26",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EakprcmhPTndiZURRVUMzcFQ1VGYwQTRIcXphVjNDU29ULUZsSTJRN1JLUVBSTzJoSURTSUdXNlJpUlk3WGhyQzlGbHYwcURJQ0NOUDVn?oc=5",
+   "time": "2026-11-10 22:27",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52U3gtVW14MGFINncxXzFTbEhzbWFtRzJTdW55SFU4cXJWUHdMS01sRGZEd1lxU1RGNTNCRGZBTHRieXZMWmJVNmxLVnRHM3Brb2xabDNrSHVkM2xUSHB2ZWZuMA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "OpenAI：在ChatGPT中推出企业版功能，目前处于测试阶段",
+   "title": "上期所原油期货2612合约夜盘收跌0.77%，报604.4元人民币/桶",
    "summary": "",
-   "time": "2026-11-10 18:03:14",
-   "url": "https://news.10jqka.com.cn/20261111/c681677300.shtml",
+   "time": "2026-11-10 18:32:36",
+   "url": "https://news.10jqka.com.cn/20261111/c681677366.shtml",
    "source": "同花顺"
   },
   {
-   "title": "Anthropic推出AI办公工具套件 加速挑战微软和谷歌",
+   "title": "乌外长：乌俄领导人直接会面有望加速冲突结束",
    "summary": "",
-   "time": "2026-11-10 17:48:14",
-   "url": "https://news.futunn.com/flash/1004064528/anthropic-launches-ai-office-suite-to-accelerate-challenge-to-microsoft",
+   "time": "2026-11-10 18:19:34",
+   "url": "https://news.futunn.com/flash/1004066275/ukrainian-foreign-minister-direct-meeting-between-ukrainian-and-russian-leaders",
    "source": "富途"
   },
   {
@@ -1824,45 +1824,45 @@
    "source": "财新"
   },
   {
-   "title": "CBOT大豆日内涨幅达3.0%，报1225.58美分；CBOT玉米日内涨幅达2.5%，报450.72美分。",
-   "summary": "CBOT大豆日内涨幅达3.0%，报1225.58美分；CBOT玉米日内涨幅达2.5%，报450.72美分。",
-   "time": "2026-11-11 01:52",
-   "url": "https://wallstreetcn.com/livenews/3197858",
+   "title": "周二（11月10日），美联储隔夜逆回购协议（RRP）使用规模为1.52亿美元（交易对手3家），上个交易日报2.52亿美元。",
+   "summary": "周二（11月10日），美联储隔夜逆回购协议（RRP）使用规模为1.52亿美元（交易对手3家），上个交易日报2.52亿美元。",
+   "time": "2026-11-11 02:16",
+   "url": "https://wallstreetcn.com/livenews/3197865",
    "source": "华尔街见闻"
   },
   {
-   "title": "微软跌幅扩大至3% 此前Anthropic推出了Office工具",
-   "summary": "微软跌幅扩大至3%，此前Anthropic推出了Office工具。",
-   "time": "2026-11-11 01:43:20",
-   "url": "https://finance.eastmoney.com/a/202611113927714294.html",
+   "title": "泽连斯基说欧洲应参与旨在结束俄乌冲突的谈判",
+   "summary": "【泽连斯基说欧洲应参与旨在结束俄乌冲突的谈判】乌克兰总统泽连斯基10日接受丹麦媒体采访时说，欧洲应参与旨在结束俄乌冲突的谈判，以及由美国和欧洲向乌克兰提供安全保障的讨论。",
+   "time": "2026-11-11 02:08:43",
+   "url": "https://finance.eastmoney.com/a/202611113927719144.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普为黄仁勋辩护：“他说自己完全不知道那个人是间谍” - RFI",
+   "title": "还是小看特朗普了，结局早在他进白宫前就已写好，马斯克被算计了 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-11 00:01",
-   "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxOd3Nib0FjSGhwaTRqQ1pzYWwtRG1xdE0xQ0NZc29obW9kbXp1VTV3WUdiVC04VFVQNldIOTRiY0hTWnFwV2ljelZjOFEtQVF4VFUwRlZaaDhLQWtSX1FpVVJ3QXByNGktUWludkd3R0IyeUlMN0ZMVDV2akFOb3NvOEgxUFpfWnVBdkFJekdxeldZNTlBV1RHWmd1d2ZxSkJPN3ZDd0ZjeDFadjdLRjQ0VWNPMlRPQnJZLTR3bUVjSnNRb2prZWRjWllaWXZucHpESUV1eXRjbF8xeFlFdFgtOVhLaDQ4Nl95NVluQldXeGplQU1PZU9WS3R2MllNSkFRMV9WbkNNbkZxbXZyT1JKWmNMU2tERFlhemZhT2Q4WGpUa21kcDFOWm1QSGdOSkQxcmMzaVRoQXRTaDlXZVk3ejRkRlBWbkpwdGdnbmpPQTZDMkhvSlJiVDdLRTRmVTkxeVctWUQtZmIyaGVIQ2dYY0ZpRDZ6Yjc5aGVFNXlFQVg?oc=5",
+   "time": "2026-11-11 00:32",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Ed2NaQUpWbWdTdXdpY2VGTDdTdWpobWhwcnYta2c3MGFiNi10UFBJQnJFMUJNdGlRdUV1eU1ZVEx6NHdoUFlma1BTR0FxMDhtMmlxY1pRZkZSSFFyeTd4eTdSbUlTdi1QSzJCaVNqZHRTUQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社电报",
+   "title": "82股获买入评级 最新:中国海油 - 中财网",
    "summary": "",
-   "time": "2026-11-10 21:58",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40aGN6M0FvNnBUQ0JrX1hkQ244Z08tbkZsaFllTGVtME9SeFFvdmM4bWZIZWRKemdYbHJfcXJqakRvUVRTZnRUcFlERUR0cTBYM085b1RHNmlXTERralBRUVZB?oc=5",
+   "time": "2026-11-10 22:26",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EakprcmhPTndiZURRVUMzcFQ1VGYwQTRIcXphVjNDU29ULUZsSTJRN1JLUVBSTzJoSURTSUdXNlJpUlk3WGhyQzlGbHYwcURJQ0NOUDVn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "伊朗称当天第三艘油轮在霍尔木兹海峡发生爆炸",
+   "title": "加拿大央行会议纪要：重申未来继续加息的可能性",
    "summary": "",
-   "time": "2026-11-10 18:01:46",
-   "url": "https://news.10jqka.com.cn/20261111/c681677299.shtml",
+   "time": "2026-11-10 18:30:26",
+   "url": "https://news.10jqka.com.cn/20261111/c681677359.shtml",
    "source": "同花顺"
   },
   {
-   "title": "EIA上调2027年美国汽柴油价格预测 反映成品油供应紧张可能持续更久",
+   "title": "美国通胀超预期推动加息押注 美元创9月以来最大单日涨幅",
    "summary": "",
-   "time": "2026-11-10 17:33:21",
-   "url": "https://news.futunn.com/flash/1004063896/eia-raises-2027-us-gasoline-and-diesel-price-forecasts-reflecting",
+   "time": "2026-11-10 18:12:02",
+   "url": "https://news.futunn.com/flash/1004066046/higher-than-expected-us-inflation-fuels-rate-hike-bets-dollar",
    "source": "富途"
   },
   {
@@ -1873,10 +1873,10 @@
    "source": "财新"
   },
   {
-   "title": "德国两年期国债收益率涨超9个基点",
-   "summary": "周二（11月10日）欧市尾盘，德国10年期国债收益率涨5.6个基点，报3.319%，日内交投于3.235%-3.320%区间，北京时间21:30发布美国CPI通胀数据之前维持微幅下跌状态，窄幅震荡于3.25%附近，数据发布后持续上扬。\n\n两年期德债收益率涨9.1个基点，报3.102%，彭博数据显示，15:30（欧股开盘前半小时）高开至3.128%、瞬间回撤至接近3%的水平，随后窄幅震荡于3.1%附",
-   "time": "2026-11-11 01:49",
-   "url": "https://wallstreetcn.com/livenews/3197857",
+   "title": "预测平台Kalshi将于12月8日推出美国CPI、核心通胀率期货。",
+   "summary": "预测平台Kalshi将于12月8日推出美国CPI、核心通胀率期货。",
+   "time": "2026-11-11 02:15",
+   "url": "https://wallstreetcn.com/livenews/3197864",
    "source": "华尔街见闻"
   }
  ],
@@ -1884,7 +1884,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(5)",
+   "富途": "ok(8)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1897,10 +1897,10 @@
    "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 7,
-   "富途": 4,
+   "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
-   "财新": 7
+   "财新": 6
   }
  },
  "wuxing": {
