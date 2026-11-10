@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 09:19:54 CST",
- "generated_at_iso": "2026-11-10T09:19:54+08:00",
+ "generated_at": "2026-11-10 09:28:01 CST",
+ "generated_at_iso": "2026-11-10T09:28:01+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4139.17,
-    "change": 24.67,
-    "change_pct": 0.6,
-    "quote_time": "09:19:57 2026-11-10"
+    "price": 4149.54,
+    "change": 35.04,
+    "change_pct": 0.85,
+    "quote_time": "09:29:01 2026-11-10"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 53.491,
-    "change": 0.798,
-    "change_pct": 1.51,
-    "quote_time": "09:19:55 2026-11-10"
+    "price": 53.55,
+    "change": 0.857,
+    "change_pct": 1.63,
+    "quote_time": "09:29:00 2026-11-10"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.228,
-    "change": -0.622,
-    "change_pct": -0.72,
-    "quote_time": "09:19:59 2026-11-10"
+    "price": 86.209,
+    "change": -0.641,
+    "change_pct": -0.74,
+    "quote_time": "09:29:04 2026-11-10"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.041,
-    "change": -0.529,
-    "change_pct": -0.57,
-    "quote_time": "09:19:57 2026-11-10"
+    "price": 91.996,
+    "change": -0.574,
+    "change_pct": -0.62,
+    "quote_time": "09:29:02 2026-11-10"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 75132.0,
-    "change": 101.2,
-    "change_pct": 0.13,
+    "price": 75143.2,
+    "change": 383.6,
+    "change_pct": 0.51,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2127.84,
-    "change": -5.92,
-    "change_pct": -0.28,
+    "price": 2128.47,
+    "change": 2.03,
+    "change_pct": 0.1,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.6,
-    "change": -0.71,
-    "change_pct": -0.81,
+    "price": 86.62,
+    "change": -0.4,
+    "change_pct": -0.46,
     "source": "okx"
    }
   ]
@@ -1723,7 +1723,7 @@
    "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、标普500、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-10 09:20",
+   "time": "2026-11-10 09:29",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
@@ -1990,6 +1990,8 @@
   "color": "#c28a3d",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "A股指数": "ReadTimeout: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
