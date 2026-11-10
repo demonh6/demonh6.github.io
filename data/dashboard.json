@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 12:23:07 CST",
- "generated_at_iso": "2026-11-10T12:23:07+08:00",
+ "generated_at": "2026-11-10 12:31:12 CST",
+ "generated_at_iso": "2026-11-10T12:31:12+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1655,37 +1655,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4122.87,
-    "change": 8.37,
-    "change_pct": 0.2,
-    "quote_time": "12:23:11 2026-11-10"
+    "price": 4123.206,
+    "change": 8.706,
+    "change_pct": 0.21,
+    "quote_time": "12:31:19 2026-11-10"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 53.108,
-    "change": 0.415,
-    "change_pct": 0.79,
-    "quote_time": "12:22:57 2026-11-10"
+    "price": 53.154,
+    "change": 0.461,
+    "change_pct": 0.87,
+    "quote_time": "12:31:13 2026-11-10"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.898,
-    "change": -0.952,
-    "change_pct": -1.1,
-    "quote_time": "12:22:43 2026-11-10"
+    "price": 85.811,
+    "change": -1.039,
+    "change_pct": -1.2,
+    "quote_time": "12:31:16 2026-11-10"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.697,
-    "change": -0.873,
-    "change_pct": -0.94,
-    "quote_time": "12:23:02 2026-11-10"
+    "price": 91.629,
+    "change": -0.941,
+    "change_pct": -1.02,
+    "quote_time": "12:31:11 2026-11-10"
    }
   ],
   "crypto": [
@@ -1693,25 +1693,25 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74729.8,
-    "change": -229.1,
-    "change_pct": -0.31,
+    "price": 74806.7,
+    "change": -183.7,
+    "change_pct": -0.24,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2122.19,
-    "change": -20.15,
-    "change_pct": -0.94,
+    "price": 2124.09,
+    "change": -18.35,
+    "change_pct": -0.86,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.07,
+    "price": 86.18,
     "change": -1.33,
     "change_pct": -1.52,
     "source": "okx"
@@ -1726,15 +1726,6 @@
    "color": "#f58a3d",
    "timestamp": "2026-11-10",
    "source": "alternative.me"
-  },
-  "a_share_breadth": {
-   "up": 3862,
-   "down": 1483,
-   "flat": 228,
-   "total": 5573,
-   "breadth_pct": 69.3,
-   "score": 88.6,
-   "source": "东财"
   },
   "vix": {
    "value": 19.92,
@@ -1806,12 +1797,23 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 60.3,
-   "label": "贪婪",
-   "color": "#8ac96f"
+   "score": 32.0,
+   "label": "恐惧",
+   "color": "#f58a3d"
   }
  },
  "speakers": [
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "关于加息、AI投资等热点话题，美联储官员密集发声 - 21财经",
+   "summary": "",
+   "time": "2026-11-10 12:18",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSk9UMHFlSVpqQjJfN0JYeTd2WW9DOW5SSG5pdnhqRjUyQlp4N1dQZ0pKTU5ZOFAzRndqeG8zUDYwMlBJa0tnWmJqNVN4Q1FhSVl6Tmk3b01HVUhHdFNwS2tjNmszdlZpazVBYmZmcTBHMjRkOVA0OVJ5bVFlVGt5bFl0Tm92OWRZeklNVDd1TQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
   {
    "keyword": "特朗普",
    "label": "特朗普",
@@ -1974,31 +1976,38 @@
    "level": "warning",
    "asset": "台湾加权",
    "message": "台湾加权单日涨4.94%，达20日历史波动率的 2.3 倍（σ=2.12%，突破 2σ 警戒线）",
-   "time": "2026-11-10 12:23",
+   "time": "2026-11-10 12:32",
    "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、标普500、台湾加权等 5 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-10 12:23",
+   "time": "2026-11-10 12:32",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
+  {
+   "title": "“十五五”时期我国将加力支持革命老区加快振兴发展",
+   "summary": "【“十五五”时期我国将加力支持革命老区加快振兴发展】国家发展改革委今天（11月10日）举行新闻发布会，相关负责人介绍，“十五五”时期，我国将从加大资金支持、加强对口合作等方面，加力支持革命老区加快振兴发展。",
+   "time": "2026-11-10 12:25:35",
+   "url": "https://finance.eastmoney.com/a/202611103927195818.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "关于加息、AI投资等热点话题，美联储官员密集发声 - 21财经",
+   "summary": "",
+   "time": "2026-11-10 12:18",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSk9UMHFlSVpqQjJfN0JYeTd2WW9DOW5SSG5pdnhqRjUyQlp4N1dQZ0pKTU5ZOFAzRndqeG8zUDYwMlBJa0tnWmJqNVN4Q1FhSVl6Tmk3b01HVUhHdFNwS2tjNmszdlZpazVBYmZmcTBHMjRkOVA0OVJ5bVFlVGt5bFl0Tm92OWRZeklNVDd1TQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
   {
    "title": "提前22天！宁波舟山港年集装箱吞吐量再破4000万箱",
    "summary": "11月10日，宁波舟山港年集装箱吞吐量突破4000万标箱，这是继2025年首次跨越“4000万箱”里程碑后，宁波舟山港连续第二年站上这一高度，较去年提前了22天。（央视新闻）",
    "time": "2026-11-10 12:14",
    "url": "https://wallstreetcn.com/livenews/3197383",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "11月10日午间新闻精选",
-   "summary": "【11月10日午间新闻精选】1、截至午间收盘，沪指涨0.06%，深证成指涨0.76%，创业板指涨1.49%。2、港股午间收盘，恒生指数涨0.29%，恒生科技指数涨0.7%。",
-   "time": "2026-11-10 12:06:25",
-   "url": "https://finance.eastmoney.com/a/202611103927191846.html",
-   "source": "东财国际"
   },
   {
    "title": "西南证券：给予沃尔德增持评级 - 同花顺",
@@ -2008,13 +2017,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普回应是否拿下古巴 称古巴为失败国家 - 中华网",
-   "summary": "",
-   "time": "2026-11-10 11:48",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SQnhpRUxPNzBFa1Rva1NMZmhKdUJNY3BIemh2eEw3TTZjMjI5QTg4dmc5VHVuWk1ZNl9yN25WOU1OODRuQWFTRDBlOUpRaUhCcmtOcExzTW5aNGhHYWFmTmY3VURnSkc1MTFCTEtGRkQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "东方财富财经早餐 11月10日周二",
    "summary": "【东方财富财经早餐 11月10日周二】1、中方尚未批准约60万枚先进AI芯片的大规模进口？外交部回应。2、“星云星座计划”发布，我国太空算力网加快部署。3、中信建投、华泰、浙商出手买入，至少10家券商已进场，增量资金加速入市。",
    "time": "2026-11-10 06:00:20",
@@ -2022,17 +2024,17 @@
    "source": "东财早报"
   },
   {
-   "title": "宁波舟山港年集装箱吞吐量再破4000万箱",
+   "title": "四部门发文：加强创新药安全合理配备使用",
    "summary": "",
-   "time": "2026-11-10 04:13:59",
-   "url": "https://news.futunn.com/flash/1003973979/ningbo-zhoushan-port-s-annual-container-throughput-exceeds-40-million",
+   "time": "2026-11-10 04:30:41",
+   "url": "https://news.futunn.com/flash/1003975225/four-departments-issue-document-strengthening-the-safe-and-rational-allocation",
    "source": "富途"
   },
   {
-   "title": "所罗门群岛附近海域发生5.5级地震",
+   "title": "特朗普质疑美中期选举结果　民主党回应：迟早的事",
    "summary": "",
-   "time": "2026-11-10 04:11:30",
-   "url": "https://news.10jqka.com.cn/20261110/c681647073.shtml",
+   "time": "2026-11-10 04:29:46",
+   "url": "https://news.10jqka.com.cn/20261110/c681648002.shtml",
    "source": "同花顺"
   },
   {
@@ -2043,18 +2045,25 @@
    "source": "财新"
   },
   {
+   "title": "柯劲平任三峡集团副总经理、党组成员",
+   "summary": "【柯劲平任三峡集团副总经理、党组成员】近日，三峡集团党组召开会议，通报了中共中央组织部关于三峡集团领导班子成员调整的决定：柯劲平同志任三峡集团副总经理、党组成员；免去吕庭彦同志的三峡集团副总经理、党组成员职务，退休。",
+   "time": "2026-11-10 12:25:35",
+   "url": "https://finance.eastmoney.com/a/202611103927195747.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普回应是否拿下古巴 称古巴为失败国家 - 中华网",
+   "summary": "",
+   "time": "2026-11-10 11:48",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5SQnhpRUxPNzBFa1Rva1NMZmhKdUJNY3BIemh2eEw3TTZjMjI5QTg4dmc5VHVuWk1ZNl9yN25WOU1OODRuQWFTRDBlOUpRaUhCcmtOcExzTW5aNGhHYWFmTmY3VURnSkc1MTFCTEtGRkQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
    "title": "宁德时代董事长曾毓群淡化公司规模过大的担忧",
    "summary": "宁德时代董事长曾毓群表示，客户需要“更多、更便宜的电池”，并淡化外界对于这家动力电池巨头规模过大的担忧。他表示，宁德时代变得过于庞大“并不令人担忧”，宁德时代正努力降低电池价格，以覆盖更多消费者。他表示，公司可以继续服务其所称的“高端”市场，同时其他细分市场将出现更多供应商。",
    "time": "2026-11-10 12:10",
    "url": "https://wallstreetcn.com/livenews/3197382",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "鲁比奥说美以正就军援事宜讨论新文件",
-   "summary": "【鲁比奥说美以正就军援事宜讨论新文件】美国国务卿鲁比奥11月9日说，美国和以色列正就美对以军事援助事宜讨论新的谅解备忘录。",
-   "time": "2026-11-10 12:03:11",
-   "url": "https://finance.eastmoney.com/a/202611103927191070.html",
-   "source": "东财国际"
   },
   {
    "title": "大行评级｜大摩：恢复覆盖哔哩哔哩美股，予其“增持”评级及目标价21美元 - 金融界",
@@ -2064,13 +2073,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美媒：特朗普或将与民主党合作，就移民问题达成协议 - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-10 11:27",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94UDk5RDExV2lHeUpVUG10eUJ4X0ZIdE4waGZ5ZG1aVUxPOHhRLVhJX0VLOEUyRmpqa0tlYnRLLWtzZWlaRUhpUVBrRVVRcHFKM1BtRHNpOWJvWlFqMXRsVldfM0tLWUht?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "东方财富财经早餐 11月9日周一",
    "summary": "【东方财富财经早餐 11月9日周一】1、国常会：完善资本市场稳市机制，增强股市内在稳定性。2、发改委召开民营企业座谈会，围绕抓好年内经济工作落实、研究明年政策举措听取意见建议。3、中国央行黄金储备“24连增”。",
    "time": "2026-11-09 06:00:46",
@@ -2078,17 +2080,17 @@
    "source": "东财早报"
   },
   {
-   "title": "港股午评：恒指高开后震荡回落 PCB概念领涨",
+   "title": "日本30年期国债拍卖需求疲软 低于12个月均值",
    "summary": "",
-   "time": "2026-11-10 04:07:11",
-   "url": "https://news.futunn.com/flash/1003973271/hong-kong-stock-market-midday-review-hang-seng-index-fluctuates",
+   "time": "2026-11-10 04:20:26",
+   "url": "https://news.futunn.com/flash/1003974401/weak-demand-for-japan-s-30-year-government-bond-auction",
    "source": "富途"
   },
   {
-   "title": "港股午评：恒生指数涨0.29%，恒生科技指数涨0.7%",
+   "title": "龙芯中科胡伟武：通用CPU 3B6600、7A3000即将回片",
    "summary": "",
-   "time": "2026-11-10 04:01:07",
-   "url": "https://news.10jqka.com.cn/20261110/c681646566.shtml",
+   "time": "2026-11-10 04:26:04",
+   "url": "https://news.10jqka.com.cn/20261110/c681647848.shtml",
    "source": "同花顺"
   },
   {
@@ -2099,18 +2101,25 @@
    "source": "财新"
   },
   {
+   "title": "国家发展改革委：聚焦群众就医痛点 持续提升医疗卫生服务能力",
+   "summary": "【国家发展改革委：聚焦群众就医痛点 持续提升医疗卫生服务能力】在今天（11月10日）国家发展改革委举行的新闻发布会上，相关负责人介绍，“十五五”时期，我国将统筹实施医疗卫生强基、医院病房改造、康复护理扩容提升等重点工程，努力解决好群众就医过程中的操心事、烦心事。",
+   "time": "2026-11-10 12:25:35",
+   "url": "https://finance.eastmoney.com/a/202611103927195416.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美媒：特朗普或将与民主党合作，就移民问题达成协议 - 中国新闻网",
+   "summary": "",
+   "time": "2026-11-10 11:27",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94UDk5RDExV2lHeUpVUG10eUJ4X0ZIdE4waGZ5ZG1aVUxPOHhRLVhJX0VLOEUyRmpqa0tlYnRLLWtzZWlaRUhpUVBrRVVRcHFKM1BtRHNpOWJvWlFqMXRsVldfM0tLWUht?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
    "title": "广州：放宽购房提取申请条件，缴存人可以申请提取本人住房公积金账户余额用于在全国范围内购买自住住房",
    "summary": "广州住房公积金管理中心发布关于优化住房公积金提取政策的通知。其中提出，放宽购房提取申请条件。缴存人可以申请提取本人住房公积金账户余额用于在全国范围内购买自住住房。以非按揭方式购买本市行政区域内自住住房的，在支付购房款后申请提取；以非按揭方式购买异地自住住房的，在支付购房款满6个月后申请提取。以按揭方式购买自住住房的，在购房贷款发放后、结清前提出申请。",
    "time": "2026-11-10 11:57",
    "url": "https://wallstreetcn.com/livenews/3197380",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "广州：支持城镇老旧住房自主更新提取住房公积金 支持物业费提取",
-   "summary": "【广州：支持城镇老旧住房自主更新提取住房公积金 支持物业费提取】广州住房公积金管理中心发布关于优化住房公积金提取政策的通知。其中提出，支持城镇老旧住房自主更新提取。缴存人可以申请提取本人住房公积金账户余额用于本市行政区域内老旧住房的自主更新。同一套住房每个缴存人仅可申请提取一次，每套住房提取总额不超过实际支出。缴存人可以申请提取本人住房公积金账户余额用于支付本市行政区域内自住住房的物业费。每套住房物业费提取总额按房屋建筑面积×3元/m2×12标准核算。缴存人每个自然年度可申请提取一次，当年未提取额度不结转至次年。已经办理其他提取业务的缴存人，符合条件的可以同时申请办理物业费提取。",
-   "time": "2026-11-10 11:58:13",
-   "url": "https://finance.eastmoney.com/a/202611103927190743.html",
-   "source": "东财国际"
   },
   {
    "title": "中信证券将赛力斯集团的目标价调整至39港元 - Moomoo",
@@ -2120,24 +2129,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美媒称特朗普对选举失败越来越愤怒，一言不发举着伞转身离去 - 中华网",
+   "title": "港股午评：恒指高开后震荡回落 PCB概念领涨",
    "summary": "",
-   "time": "2026-11-10 11:16",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8wZTNMNzNiaUJVSUItNkVXd3RzYVJVbEhYbmxNNU9rOC15WVMtZWVIVlVtV2dqUldOZ3N4TWNEQ1NzUmVaMGtxa0JnOHBER3gxRmVEQ0U3c2ZMT3RrSU9wei1BMmpSaGFuQWs3WXN6ZDI?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "摩根大通CEO戴蒙助阵Anthropic IPO 直播活动周五举行",
-   "summary": "",
-   "time": "2026-11-10 03:59:59",
-   "url": "https://news.futunn.com/flash/1003972306/jpmorgan-ceo-jamie-dimon-to-support-anthropic-ipo-live-event",
+   "time": "2026-11-10 04:07:11",
+   "url": "https://news.futunn.com/flash/1003973271/hong-kong-stock-market-midday-review-hang-seng-index-fluctuates",
    "source": "富途"
   },
   {
-   "title": "广州：放宽购房提取申请条件 缴存人可以申请提取本人住房公积金账户余额用于在全国范围内购买自住住房",
+   "title": "日本半导体企业Rapidus据称难以按期实现量产",
    "summary": "",
-   "time": "2026-11-10 03:52:14",
-   "url": "https://news.10jqka.com.cn/20261110/c681646163.shtml",
+   "time": "2026-11-10 04:20:59",
+   "url": "https://news.10jqka.com.cn/20261110/c681647633.shtml",
    "source": "同花顺"
   },
   {
@@ -2148,11 +2150,11 @@
    "source": "财新"
   },
   {
-   "title": "小鹏汇天赵德力：未来十年全球飞行汽车将迎高速发展",
-   "summary": "当地时间11月9日晚，欧洲最大科技峰会Web Summit在葡萄牙里斯本开幕。小鹏汇天创始人赵德力作为中国科技企业代表，携全球首创分体式飞行汽车“陆地航母”登上开幕式主舞台并发表中文演讲，成为首个登上Web Summit主舞台的飞行汽车企业。赵德力表示，未来十年全球将迎来飞行汽车高速发展时期，低空出行将向两个方向推进：传统航空向智能化、电动化、便捷化发展，新时代汽车则将进化出“翅膀”进入天空，人类",
-   "time": "2026-11-10 11:39",
-   "url": "https://wallstreetcn.com/livenews/3197379",
-   "source": "华尔街见闻"
+   "title": "AI PCB产品订单饱满 外资加仓的概念股出炉",
+   "summary": "【AI PCB产品订单饱满 外资加仓的概念股出炉】PCB概念股早盘表现活跃，世运电路盘中涨停，迅捷兴一度涨超12%，沪电股份、广合科技、大族数控等跟涨。",
+   "time": "2026-11-10 12:24:00",
+   "url": "https://finance.eastmoney.com/a/202611103927195954.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
@@ -2168,10 +2170,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·研报": 7,
    "东财早报": 2,
    "富途": 6,
    "同花顺": 6,
