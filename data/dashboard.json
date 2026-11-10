@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 21:57:23 CST",
- "generated_at_iso": "2026-11-10T21:57:23+08:00",
+ "generated_at": "2026-11-10 22:05:37 CST",
+ "generated_at_iso": "2026-11-10T22:05:37+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1157,9 +1157,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10830.92,
-    "change": 48.05,
-    "change_pct": 0.45,
+    "price": 10809.46,
+    "change": 26.59,
+    "change_pct": 0.25,
     "hist": [
      10636.71,
      10606.0,
@@ -1231,9 +1231,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8327.65,
-    "change": 94.36,
-    "change_pct": 1.15,
+    "price": 8324.2,
+    "change": 90.91,
+    "change_pct": 1.1,
     "hist": [
      8035.87,
      7964.51,
@@ -1305,9 +1305,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6356.85,
-    "change": 66.4,
-    "change_pct": 1.06,
+    "price": 6353.91,
+    "change": 63.46,
+    "change_pct": 1.01,
     "hist": [
      6320.27,
      6269.03,
@@ -1392,37 +1392,204 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4056.724,
-    "change": -57.776,
-    "change_pct": -1.4,
-    "quote_time": "21:57:34 2026-11-10"
+    "price": 4062.868,
+    "change": -51.632,
+    "change_pct": -1.25,
+    "quote_time": "22:05:44 2026-11-10",
+    "hist": [
+     4188.9,
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6,
+     4149.5,
+     4059.6
+    ],
+    "sigma": 1.629
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.738,
-    "change": -0.955,
-    "change_pct": -1.81,
-    "quote_time": "21:57:32 2026-11-10"
+    "price": 51.813,
+    "change": -0.88,
+    "change_pct": -1.67,
+    "quote_time": "22:05:41 2026-11-10",
+    "hist": [
+     60.745,
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96,
+     53.445,
+     51.755
+    ],
+    "sigma": 3.047
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.441,
-    "change": -2.409,
-    "change_pct": -2.77,
-    "quote_time": "21:57:33 2026-11-10"
+    "price": 84.653,
+    "change": -2.197,
+    "change_pct": -2.53,
+    "quote_time": "22:05:44 2026-11-10",
+    "hist": [
+     90.34,
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34,
+     86.37,
+     84.5
+    ],
+    "sigma": 3.135
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 89.56,
-    "change": -3.01,
-    "change_pct": -3.25,
-    "quote_time": "21:57:35 2026-11-10"
+    "price": 89.61,
+    "change": -2.96,
+    "change_pct": -3.2,
+    "quote_time": "22:05:43 2026-11-10",
+    "hist": [
+     97.86,
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92,
+     92.26,
+     89.58
+    ],
+    "sigma": 3.469,
+    "volume": 189244.0,
+    "vol_chg_pct": -58.3,
+    "vol_pctile": 2.8,
+    "vol_hist": [
+     421228.0,
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0,
+     415241.0,
+     189244.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 73868.1,
-    "change": -893.4,
-    "change_pct": -1.2,
-    "source": "okx"
+    "price": 73885.0,
+    "change": -714.0,
+    "change_pct": -0.96,
+    "source": "okx",
+    "hist": [
+     82721.3,
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73890.6
+    ],
+    "sigma": 2.043
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2070.74,
-    "change": -56.15,
-    "change_pct": -2.64,
-    "source": "okx"
+    "price": 2070.78,
+    "change": -50.16,
+    "change_pct": -2.36,
+    "source": "okx",
+    "hist": [
+     2530.14,
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2071.36
+    ],
+    "sigma": 2.999
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 84.31,
-    "change": -2.48,
-    "change_pct": -2.86,
-    "source": "okx"
+    "price": 84.27,
+    "change": -2.42,
+    "change_pct": -2.79,
+    "source": "okx",
+    "hist": [
+     108.91,
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     84.3
+    ],
+    "sigma": 2.765
    }
   ]
  },
@@ -1474,9 +1740,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 20.3,
-   "change": 0.38,
-   "change_pct": 1.9076,
+   "value": 21.02,
+   "change": 1.1,
+   "change_pct": 5.5221,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1513,7 +1779,7 @@
     19.92
    ],
    "vix3m": 20.85,
-   "term": "持平"
+   "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
@@ -1524,8 +1790,8 @@
     },
     {
      "t": "VIX",
-     "value": 20.3,
-     "change_pct": 1.9076
+     "value": 21.02,
+     "change_pct": 5.5221
     },
     {
      "t": "VIX3M",
@@ -1553,23 +1819,34 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "共和党中期选举惨败，特朗普潜在接班人争论败因-市场参考 - 金十数据",
+   "title": "特朗普称伊朗战事已事实上结束 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-10 21:00",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zX09IX3FLQ0RQY2pJTWJCTzZORFlUdU54UERPc19ta3cyU0xXaHhhdWhyd3Q2NXRoZkxQRkxBTnRwd0Z4dzdXQlVHb2gxS0k?oc=5",
+   "time": "2026-11-10 22:05",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MYmRLSE9kYXpLZFg1SE1FS2x0dm0yOVhxSWhZdGdRMnhRV2RDT0tMYi1mMl9WWkRETHZiS0pNYW5TMEZmQ3kzQ2RZOGVQbm9lSzBQQjczLXM4VFYxenlibFpHYTFzei1ibGpnTWQyMm1Rdw?oc=5",
    "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行执委Cipollone警告称：如果磋商拖延，将造成数字欧元被推后。",
+   "summary": "欧洲央行执委Cipollone警告称：如果磋商拖延，将造成数字欧元被推后。",
+   "time": "2026-11-10 22:00",
+   "url": "https://wallstreetcn.com/livenews/3197742",
+   "source": "华尔街见闻",
    "mentions": 1
   },
   {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储理事暗示12月加息 - 京报网",
+   "title": "CPI公布前 美联储12月加息的概率为100% - 金融界",
    "summary": "",
-   "time": "2026-11-10 20:59",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KWmdQTGNUZFl2aUdjUVN6VDBDaGszQmhxcmFMckhwZXJEOTU2cWZERkphWnpPZmQ5WjAyb3d3Rk1EOVNKS1hic0h1TFo0RG5QS1lTa2kzeHAtSnoxdlE?oc=5",
+   "time": "2026-11-10 21:26",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqX0R5cGl2Y1RGVTZ4cG5jcTVCeWk4ZWg3cU1QcngxN3VxelRiRjV2S0FHV0JUZ29LZEtpOVR6NDg5cGJ2RWYySVRnWWdSMjB6T2stdWI0SGpsTURTQTdGa3ZfZw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 3
   },
   {
    "keyword": "外交部",
@@ -1666,16 +1943,6 @@
   ],
   "reports": [
    {
-    "title": "东吴证券：并购重组委将审核公司购买东海证券股份事项",
-    "org": "东吴",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-10",
-    "url": "https://news.futunn.com/flash/1004038150/soochow-securities-the-mergers-and-acquisitions-restructuring-committee-will-review",
-    "source": "机构观点"
-   },
-   {
     "title": "东方财富财经早餐 11月10日周二",
     "org": "中信建投",
     "rating": "",
@@ -1686,53 +1953,23 @@
     "source": "机构观点"
    },
    {
-    "title": "山西证券：给予西麦食品买入评级 - 同花顺",
-    "org": "山西证券",
+    "title": "大摩：人形机器人商业化普及预计推迟一年 迈向规模化仍需循序渐进",
+    "org": "大摩",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-10",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BR1lIVGtEcVRzMDB1ZnNhZk9jVlV3TXE3QVNJaDhOV3RxRDZYcEFmanFvQzk2TC1VVGZPbGRkTi1zVzJNNjFyeTBSNFA5a0o4ajlpWHRPa0tuLVpRa0RUZHJB?oc=5",
+    "url": "https://finance.eastmoney.com/a/202611103927613011.html",
     "source": "机构观点"
    },
    {
-    "title": "路透调查：美联储12月加息预期稳固 但紧缩周期终点仍存争议",
-    "org": "路透",
+    "title": "瑞银下调Lumentum目标价 - 东方财富",
+    "org": "瑞银",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-10",
-    "url": "https://news.futunn.com/flash/1004035755/reuters-poll-expectations-for-a-fed-rate-hike-in-december",
-    "source": "机构观点"
-   },
-   {
-    "title": "西南证券：给予中控技术增持评级 - 同花顺",
-    "org": "西南证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-10",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05eGQta2s5TWl5ZjhMZXRfU1lrMGJPRUItNWlrYjZjaVNCNTFLaUtmME1TVHZNVVo3bURKWi1pNV9pb1c1UWk1XzQ5bTIzNFBFOHoxZ0YzZU9MWGZuM1pBNnN3?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "东吴证券：11月17日并购重组审核委员会将审核收购东海证券83.68%股份事项",
-    "org": "东吴",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-10",
-    "url": "https://news.10jqka.com.cn/20261110/c681675225.shtml",
-    "source": "机构观点"
-   },
-   {
-    "title": "IBM与微软推出Imagine企业AI智能体平台。微软将在与IBM的协议中提供AI、云和安全基础。（彭博）",
-    "org": "彭博",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-10",
-    "url": "https://wallstreetcn.com/livenews/3197718",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CV1ozSWpQZ2hZSnRPekhGQWNyYjVnVnV0eHBTSHN4eDI4dnhuVlRHTjVmYjF4RUhFamtEQXBFaUJPWVlUOTA3dk5wNjZ4ZTR1SFo1amt6cWg4MmZQRzQtdE5nOA?oc=5",
     "source": "机构观点"
    }
   ]
@@ -1740,45 +1977,45 @@
  "alerts": [],
  "news": [
   {
-   "title": "美国10月消费者价格指数（CPI）环比增长0.4%",
-   "summary": "美国10月消费者价格指数（CPI）环比增长0.4%，预估为0.3%，前值为0.6%。",
-   "time": "2026-11-10 21:30:16",
-   "url": "https://finance.eastmoney.com/a/202611103927569095.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "美国10月核心CPI环比 0.3%，预期 0.2%，前值 0.3%。",
-   "summary": "美国10月核心CPI环比 0.3%，预期 0.2%，前值 0.3%。",
-   "time": "2026-11-10 21:30",
-   "url": "https://wallstreetcn.com/livenews/3197732",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "瑞银下调Lumentum目标价 - 东方财富",
+   "title": "特朗普称伊朗战事已事实上结束 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-10 21:23",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CV1ozSWpQZ2hZSnRPekhGQWNyYjVnVnV0eHBTSHN4eDI4dnhuVlRHTjVmYjF4RUhFamtEQXBFaUJPWVlUOTA3dk5wNjZ4ZTR1SFo1amt6cWg4MmZQRzQtdE5nOA?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "共和党中期选举惨败，特朗普潜在接班人争论败因-市场参考 - 金十数据",
-   "summary": "",
-   "time": "2026-11-10 21:00",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zX09IX3FLQ0RQY2pJTWJCTzZORFlUdU54UERPc19ta3cyU0xXaHhhdWhyd3Q2NXRoZkxQRkxBTnRwd0Z4dzdXQlVHb2gxS0k?oc=5",
+   "time": "2026-11-10 22:05",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MYmRLSE9kYXpLZFg1SE1FS2x0dm0yOVhxSWhZdGdRMnhRV2RDT0tMYi1mMl9WWkRETHZiS0pNYW5TMEZmQ3kzQ2RZOGVQbm9lSzBQQjczLXM4VFYxenlibFpHYTFzei1ibGpnTWQyMm1Rdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美国10月核心CPI环比增长0.3% 高于市场预期",
+   "title": "我国将加快推进服务业统计改革创新",
+   "summary": "【我国将加快推进服务业统计改革创新】记者从10日举行的服务业统计部际联席会议第七次全体会议上获悉，“十五五”是服务业统计改革创新、提质增效的关键时期，我国将加快推进服务业统计改革创新，着力提高服务业统计能力和水平。",
+   "time": "2026-11-10 22:02:13",
+   "url": "https://finance.eastmoney.com/a/202611103927618115.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "欧洲央行执委Cipollone警告称：如果磋商拖延，将造成数字欧元被推后。",
+   "summary": "欧洲央行执委Cipollone警告称：如果磋商拖延，将造成数字欧元被推后。",
+   "time": "2026-11-10 22:00",
+   "url": "https://wallstreetcn.com/livenews/3197742",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "风口研报 - 财联社电报",
    "summary": "",
-   "time": "2026-11-10 13:30:51",
-   "url": "https://news.10jqka.com.cn/20261110/c681675650.shtml",
+   "time": "2026-11-10 21:58",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40aGN6M0FvNnBUQ0JrX1hkQ244Z08tbkZsaFllTGVtME9SeFFvdmM4bWZIZWRKemdYbHJfcXJqakRvUVRTZnRUcFlERUR0cTBYM085b1RHNmlXTERralBRUVZB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "昂跑美股盘前跌超10%",
+   "summary": "",
+   "time": "2026-11-10 14:05:38",
+   "url": "https://news.10jqka.com.cn/20261110/c681676257.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美国CPI高于预期",
+   "title": "机密报告显示：美国已从委内瑞拉石油中获得120亿美元",
    "summary": "",
-   "time": "2026-11-10 13:30:25",
-   "url": "https://news.futunn.com/flash/1004040915/us-cpi-exceeds-expectations",
+   "time": "2026-11-10 14:01:54",
+   "url": "https://news.futunn.com/flash/1004044765/confidential-report-reveals-the-us-has-obtained-12-billion-from",
    "source": "富途"
   },
   {
@@ -1796,45 +2033,45 @@
    "source": "财新"
   },
   {
-   "title": "Rackspace预计到2027年底 基于AMD和英伟达的AI算力规模将达到20–22兆瓦",
-   "summary": "【Rackspace预计到2027年底 基于AMD和英伟达的AI算力规模将达到20–22兆瓦】Rackspace拟在美国弗吉尼亚北部提供2兆瓦算力与存储容量，预计2027年初开始部署。Rackspace预计到2027年底，基于AMD和英伟达的AI算力规模将达到20–22兆瓦。",
-   "time": "2026-11-10 21:22:16",
-   "url": "https://finance.eastmoney.com/a/202611103927567791.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "美国10月CPI环比 0.4%，预期 0.3%，前值 0.6%。",
-   "summary": "美国10月CPI环比 0.4%，预期 0.3%，前值 0.6%。",
-   "time": "2026-11-10 21:30",
-   "url": "https://wallstreetcn.com/livenews/3197731",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "阿格斯研究下调微芯科技目标价 - 东方财富",
+   "title": "CPI公布前 美联储12月加息的概率为100% - 金融界",
    "summary": "",
-   "time": "2026-11-10 20:38",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9meG13a0R2RFdfS3FJWlVCRXJJRU5Zd0VDcW1idkJEeXpRWnBnWHJ2LU0yMURMVXE1WkxacXNqdjFwNTVrVXRQYXhnRkNWeFNhTHhRYkdJQThFejd6X0xLVmNsYw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美联储理事暗示12月加息 - 京报网",
-   "summary": "",
-   "time": "2026-11-10 20:59",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KWmdQTGNUZFl2aUdjUVN6VDBDaGszQmhxcmFMckhwZXJEOTU2cWZERkphWnpPZmQ5WjAyb3d3Rk1EOVNKS1hic0h1TFo0RG5QS1lTa2kzeHAtSnoxdlE?oc=5",
+   "time": "2026-11-10 21:26",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBqX0R5cGl2Y1RGVTZ4cG5jcTVCeWk4ZWg3cU1QcngxN3VxelRiRjV2S0FHV0JUZ29LZEtpOVR6NDg5cGJ2RWYySVRnWWdSMjB6T2stdWI0SGpsTURTQTdGa3ZfZw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "现货黄金跌超2%",
+   "title": "大摩：人形机器人商业化普及预计推迟一年 迈向规模化仍需循序渐进",
+   "summary": "【大摩：人形机器人商业化普及预计推迟一年 迈向规模化仍需循序渐进】摩根士丹利认为，尽管企业采用人形机器人的兴趣持续高涨，但受价格下降及产品成熟度有限等因素影响，商业化普及时间料推迟约一年，行业迈向规模化发展仍将循序渐进。",
+   "time": "2026-11-10 21:56:44",
+   "url": "https://finance.eastmoney.com/a/202611103927613011.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "澳大利亚将对人工智能开发企业提出强制性安全要求",
+   "summary": "澳大利亚总理阿尔巴尼斯10日宣布，澳政府将对人工智能开发企业提出强制性安全要求，并设立专门监管机构负责监督执行。（新华社）",
+   "time": "2026-11-10 21:58",
+   "url": "https://wallstreetcn.com/livenews/3197741",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "瑞银下调Lumentum目标价 - 东方财富",
    "summary": "",
-   "time": "2026-11-10 13:30:24",
-   "url": "https://news.10jqka.com.cn/20261110/c681675645.shtml",
+   "time": "2026-11-10 21:23",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CV1ozSWpQZ2hZSnRPekhGQWNyYjVnVnV0eHBTSHN4eDI4dnhuVlRHTjVmYjF4RUhFamtEQXBFaUJPWVlUOTA3dk5wNjZ4ZTR1SFo1amt6cWg4MmZQRzQtdE5nOA?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "立华股份：肉鹅业务2025年度销售商品鹅269.98万只，同比增长28.79%",
+   "summary": "",
+   "time": "2026-11-10 14:02:30",
+   "url": "https://news.10jqka.com.cn/20261110/c681676229.shtml",
    "source": "同花顺"
   },
   {
-   "title": "分析师：美加油站燃油价格的变化存在一定滞后",
+   "title": "机构：通胀与就业双双施压 美联储12月加息预期升温",
    "summary": "",
-   "time": "2026-11-10 13:28:34",
-   "url": "https://news.futunn.com/flash/1004040668/analysts-changes-in-us-gasoline-prices-exhibit-a-certain-lag",
+   "time": "2026-11-10 14:01:52",
+   "url": "https://news.futunn.com/flash/1004044766/institutions-inflation-and-employment-exert-dual-pressure-expectations-for-a",
    "source": "富途"
   },
   {
@@ -1852,45 +2089,45 @@
    "source": "财新"
   },
   {
-   "title": "美光科技美股盘前跌超2%",
-   "summary": "美光科技美股盘前跌超2%，现报718.4美元。",
-   "time": "2026-11-10 21:19:33",
-   "url": "https://finance.eastmoney.com/a/202611103927561535.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "提醒：北京时间21:30，将公布美国10月CPI环比数据。",
-   "summary": "提醒：北京时间21:30，将公布美国10月CPI环比数据。",
-   "time": "2026-11-10 21:20",
-   "url": "https://wallstreetcn.com/livenews/3197729",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "风口研报 - 财联社",
+   "title": "共和党中期选举惨败，特朗普潜在接班人争论败因-市场参考 - 金十数据",
    "summary": "",
-   "time": "2026-11-10 20:32",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkQ1ZYSnA1dWc1cnVqLWNKdEUta3ZMV2UtenZhZ0JiUmd1YkFWZDczY1ZPcW90bnpWQ1YxMmFuNUVUXzBpVV9MeQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美债收益率不见衰退不见顶？普信集团：美联储或一路加息加到“崩溃”-市场参考 - 金十数据",
-   "summary": "",
-   "time": "2026-11-10 20:53",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PbGJSdXQ1ZWs3VXF4bmZrMG1fdmRRcGdaS3RTLWFYbzRXMkcyT2ZQSDhKM2g0c2xBSmtMSzV4Q1hXUV9kNHBoa0ItMEJrdk0?oc=5",
+   "time": "2026-11-10 21:00",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5zX09IX3FLQ0RQY2pJTWJCTzZORFlUdU54UERPc19ta3cyU0xXaHhhdWhyd3Q2NXRoZkxQRkxBTnRwd0Z4dzdXQlVHb2gxS0k?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "现货白银跌超3%",
+   "title": "日本政府高官鼓吹应允许紧急情况下运进核武器",
+   "summary": "【日本政府高官鼓吹应允许紧急情况下运进核武器】据日本共同社10日报道，一名日本政府高官当天谈及修订“安保三文件”时表示，应当允许在紧急情况下将核武器运进日本。",
+   "time": "2026-11-10 21:50:52",
+   "url": "https://finance.eastmoney.com/a/202611103927607982.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "新华社国家高端智库发布《共建“一带一路”推动建设开放型世界经济》智库报告",
+   "summary": "新华社国家高端智库在陕西西安举办的2026年“一带一路”国际智库合作论坛暨第四届丝绸之路（西安）国际传播大会上，发布中英文智库报告《共建“一带一路”推动建设开放型世界经济》。报告全面展示了共建“一带一路”推动建设开放型世界经济的生动实践，深入剖析了当前经济全球化面临的严峻挑战，阐释了共建“一带一路”顺应历史潮流、开辟世界经济广阔前景的时代意义。",
+   "time": "2026-11-10 21:53",
+   "url": "https://wallstreetcn.com/livenews/3197739",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "阿格斯研究下调微芯科技目标价 - 东方财富",
    "summary": "",
-   "time": "2026-11-10 13:30:20",
-   "url": "https://news.10jqka.com.cn/20261110/c681675644.shtml",
+   "time": "2026-11-10 20:38",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9meG13a0R2RFdfS3FJWlVCRXJJRU5Zd0VDcW1idkJEeXpRWnBnWHJ2LU0yMURMVXE1WkxacXNqdjFwNTVrVXRQYXhnRkNWeFNhTHhRYkdJQThFejd6X0xLVmNsYw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "中国海警三都舰抵达马来西亚开启港口访问",
+   "summary": "",
+   "time": "2026-11-10 14:01:49",
+   "url": "https://news.10jqka.com.cn/20261110/c681676186.shtml",
    "source": "同花顺"
   },
   {
-   "title": "赫格塞思：如果重选一次 我还会对伊朗开战",
+   "title": "策略师：油价冲击之外 AI投资需求或成为美国通胀新推手",
    "summary": "",
-   "time": "2026-11-10 13:27:25",
-   "url": "https://news.futunn.com/flash/1004040602/hegseth-if-given-the-choice-again-i-would-still-go",
+   "time": "2026-11-10 13:59:38",
+   "url": "https://news.futunn.com/flash/1004044142/strategists-beyond-oil-price-shocks-ai-investment-demand-may-become",
    "source": "富途"
   },
   {
@@ -1901,18 +2138,18 @@
    "source": "财新"
   },
   {
-   "title": "英国央行Lombardelli：不排除连续两次加息的可能性",
-   "summary": "【英国央行Lombardelli：不排除连续两次加息的可能性】英国央行的Lombardelli表示，不排除连续两次加息的可能性。",
-   "time": "2026-11-10 21:18:13",
-   "url": "https://finance.eastmoney.com/a/202611103927560136.html",
-   "source": "东财国际"
+   "title": "美联储理事暗示12月加息 - 京报网",
+   "summary": "",
+   "time": "2026-11-10 20:59",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5KWmdQTGNUZFl2aUdjUVN6VDBDaGszQmhxcmFMckhwZXJEOTU2cWZERkphWnpPZmQ5WjAyb3d3Rk1EOVNKS1hic0h1TFo0RG5QS1lTa2kzeHAtSnoxdlE?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(12)",
+   "富途": "ok(17)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1921,10 +2158,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
+   "谷歌新闻·国际": 7,
    "东财国际": 7,
    "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
