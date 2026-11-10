@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-11 04:00:10 CST",
- "generated_at_iso": "2026-11-11T04:00:10+08:00",
+ "generated_at": "2026-11-11 04:09:18 CST",
+ "generated_at_iso": "2026-11-11T04:09:18+08:00",
  "date": "2026-11-11",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52222.4219,
-    "change": -167.33,
-    "change_pct": -0.32,
-    "quote_time": "2026-11-11 04:00:04",
+    "price": 52196.6484,
+    "change": -193.1,
+    "change_pct": -0.37,
+    "quote_time": "2026-11-11 04:09:05",
     "hist": [
      51349.9219,
      50906.0508,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24981.1124,
-    "change": -272.0261,
-    "change_pct": -1.08,
-    "quote_time": "2026-11-11 04:00:13",
+    "price": 24986.9255,
+    "change": -266.213,
+    "change_pct": -1.05,
+    "quote_time": "2026-11-11 04:09:19",
     "hist": [
      26797.541,
      26861.0645,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7510.71,
-    "change": -39.23,
-    "change_pct": -0.52,
-    "quote_time": "2026-11-11 04:00:04",
+    "price": 7506.8198,
+    "change": -43.12,
+    "change_pct": -0.57,
+    "quote_time": "2026-11-11 04:09:06",
     "hist": [
      7670.8398,
      7651.54,
@@ -1392,10 +1392,10 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4033.58,
-    "change": -80.92,
-    "change_pct": -1.97,
-    "quote_time": "04:00:17 2026-11-11",
+    "price": 4035.11,
+    "change": -79.39,
+    "change_pct": -1.93,
+    "quote_time": "04:09:12 2026-11-11",
     "hist": [
      4188.9,
      4207.4,
@@ -1426,18 +1426,18 @@
      4097.8,
      4079.6,
      4149.5,
-     4036.8
+     4036.4
     ],
-    "sigma": 1.667
+    "sigma": 1.668
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.333,
-    "change": -1.36,
-    "change_pct": -2.58,
-    "quote_time": "04:00:14 2026-11-11",
+    "price": 51.386,
+    "change": -1.307,
+    "change_pct": -2.48,
+    "quote_time": "04:09:19 2026-11-11",
     "hist": [
      60.745,
      61.35,
@@ -1476,10 +1476,10 @@
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.453,
-    "change": -0.397,
-    "change_pct": -0.46,
-    "quote_time": "04:00:18 2026-11-11",
+    "price": 86.372,
+    "change": -0.478,
+    "change_pct": -0.55,
+    "quote_time": "04:09:23 2026-11-11",
     "hist": [
      90.34,
      92.9,
@@ -1518,10 +1518,10 @@
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.084,
-    "change": -0.486,
-    "change_pct": -0.53,
-    "quote_time": "04:00:17 2026-11-11",
+    "price": 91.975,
+    "change": -0.595,
+    "change_pct": -0.64,
+    "quote_time": "04:09:24 2026-11-11",
     "hist": [
      97.86,
      103.05,
@@ -1597,9 +1597,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 73441.7,
-    "change": -1490.1,
-    "change_pct": -1.99,
+    "price": 73392.0,
+    "change": -1540.7,
+    "change_pct": -2.06,
     "source": "okx",
     "hist": [
      83430.6,
@@ -1631,7 +1631,7 @@
      76074.8,
      75524.4,
      73205.4,
-     73410.2
+     73400.0
     ],
     "sigma": 2.0
    },
@@ -1639,9 +1639,9 @@
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2043.65,
-    "change": -86.2,
-    "change_pct": -4.05,
+    "price": 2042.38,
+    "change": -86.47,
+    "change_pct": -4.06,
     "source": "okx",
     "hist": [
      2516.49,
@@ -1673,17 +1673,17 @@
      2242.0,
      2147.53,
      2023.79,
-     2042.93
+     2043.54
     ],
-    "sigma": 3.052
+    "sigma": 3.053
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 82.9,
-    "change": -3.66,
-    "change_pct": -4.23,
+    "price": 82.95,
+    "change": -3.72,
+    "change_pct": -4.29,
     "source": "okx",
     "hist": [
      107.4,
@@ -1715,9 +1715,9 @@
      89.73,
      87.93,
      82.29,
-     82.83
+     82.98
     ],
-    "sigma": 2.909
+    "sigma": 2.915
    }
   ]
  },
@@ -1740,9 +1740,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 19.97,
-   "change": 0.05,
-   "change_pct": 0.251,
+   "value": 19.83,
+   "change": -0.09,
+   "change_pct": -0.4518,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1778,33 +1778,33 @@
     25.64,
     19.92
    ],
-   "vix3m": 21.02,
+   "vix3m": 20.92,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 19.18,
-     "change_pct": -3.5211
+     "value": 19.03,
+     "change_pct": -4.2757
     },
     {
      "t": "VIX",
-     "value": 19.97,
-     "change_pct": 0.251
+     "value": 19.83,
+     "change_pct": -0.4518
     },
     {
      "t": "VIX3M",
-     "value": 21.02,
-     "change_pct": 0.8153
+     "value": 20.92,
+     "change_pct": 0.3357
     },
     {
      "t": "VIX6M",
-     "value": 22.3,
-     "change_pct": 0.36
+     "value": 22.16,
+     "change_pct": -0.27
     }
    ],
-   "ratio_9d_3m": 0.912,
+   "ratio_9d_3m": 0.91,
    "shape": "contango(平静期)",
    "source": "CBOE"
   },
@@ -1819,12 +1819,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "美国总统特朗普倾向于任命一名男性担任下一任白宫新闻秘书，这可能终结该职位连续七任由女性担任的惯例。",
-   "summary": "美国总统特朗普倾向于任命一名男性担任下一任白宫新闻秘书，这可能终结该职位连续七任由女性担任的惯例。",
-   "time": "2026-11-11 03:58",
-   "url": "https://wallstreetcn.com/livenews/3197898",
-   "source": "华尔街见闻",
-   "mentions": 2
+   "title": "物价上涨担忧挥之不去 特朗普民调支持率接近政治生涯最低水平 - 财联社",
+   "summary": "",
+   "time": "2026-11-11 04:04",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5YWFUzcHdEWEc3enhBN2V4MGRFa283bjMxaEF0WlNIbGthc1NnbUlfMmtXX01RbTBzOWdJSkEtdVpBYzV4empXRg?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
   },
   {
    "keyword": "白宫",
@@ -1847,17 +1847,6 @@
    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tQ2Y5M3RtT0RQYmd2RXFRbEExb0hmbmJNX1lrNlRyVmtqUW00VGZIcUVKMlBfdDFKenR5NVBneTM5ZWZBZnJWaVdGTXFhd0ZKeUZn?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "美国众议院共和党人正考虑向英伟达CEO黄仁勋发出传票",
-   "summary": "",
-   "time": "2026-11-10 19:42:01",
-   "url": "https://news.10jqka.com.cn/20261111/c681677444.shtml",
-   "source": "同花顺",
-   "mentions": 1
   },
   {
    "keyword": "外交部",
@@ -1954,13 +1943,13 @@
   ],
   "reports": [
    {
-    "title": "惠誉评级：民主党获胜对美国人工智能（AI）生态系统、能源、医疗保健和国防领域的影响喜忧参半。",
+    "title": "惠誉：民主党中期选举获胜对美国AI、能源及医疗行业影响不一",
     "org": "惠誉",
     "rating": "",
     "stock": "",
     "industry": "",
-    "date": "2026-11-11",
-    "url": "https://wallstreetcn.com/livenews/3197899",
+    "date": "2026-11-10",
+    "url": "https://news.futunn.com/flash/1004071785/fitch-democratic-victory-in-midterm-elections-has-mixed-impact-on",
     "source": "机构观点"
    },
    {
@@ -1971,6 +1960,26 @@
     "industry": "",
     "date": "2026-11-10",
     "url": "http://finance.eastmoney.com/a/202611093926582211.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "美国商品期货交易委员会（CFTC）推迟批准AI计算期货交易。\n\n这家美国衍生品监管部门将此类合约的审查期延长至少60天。（英国金融时报）",
+    "org": "国金",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-11",
+    "url": "https://wallstreetcn.com/livenews/3197900",
+    "source": "机构观点"
+   },
+   {
+    "title": "惠誉评级：民主党获胜对美国人工智能（AI）生态系统、能源、医疗保健和国防领域的影响喜忧参半。",
+    "org": "惠誉",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-11",
+    "url": "https://wallstreetcn.com/livenews/3197899",
     "source": "机构观点"
    },
    {
@@ -1988,18 +1997,25 @@
  "alerts": [],
  "news": [
   {
-   "title": "惠誉评级：民主党获胜对美国人工智能（AI）生态系统、能源、医疗保健和国防领域的影响喜忧参半。",
-   "summary": "惠誉评级：民主党获胜对美国人工智能（AI）生态系统、能源、医疗保健和国防领域的影响喜忧参半。",
-   "time": "2026-11-11 04:00",
-   "url": "https://wallstreetcn.com/livenews/3197899",
+   "title": "英伟达跌幅扩大至7%。",
+   "summary": "英伟达跌幅扩大至7%。",
+   "time": "2026-11-11 04:05",
+   "url": "https://wallstreetcn.com/livenews/3197901",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普支持防长赫格塞思 抨击众议员梅西 - 手机新浪网",
+   "title": "物价上涨担忧挥之不去 特朗普民调支持率接近政治生涯最低水平 - 财联社",
    "summary": "",
-   "time": "2026-11-11 03:57",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15MGZNRFRCWnFBZGduX3YxTm5JSWVBU3BTbkY1LVY4dVExeExCcUlyMFgtSkNoWWphSElQWFh3ZURDMzhSelJoQjZTYW9tbXM3dWM1NFhKVTdzWmkySVYzaEx1ZFhEV1JtaENiN0lfYWQ?oc=5",
+   "time": "2026-11-11 04:04",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5YWFUzcHdEWEc3enhBN2V4MGRFa283bjMxaEF0WlNIbGthc1NnbUlfMmtXX01RbTBzOWdJSkEtdVpBYzV4empXRg?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "美利肯公司连续第五年获得EcoVadis 金牌评级 - 美通社",
+   "summary": "",
+   "time": "2026-11-11 03:53",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4bU9rajZHM0IyZzhxVDVmR3B3YUtlU3Zab0s0bmttUWk4bjR1ektzb0FzUzNxNUwtbFg0SzgyaGRzLWJpb1Q1MGlBV001Um1PMWxORXpFNA?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "伊媒：雷扎伊否认将与万斯会面",
@@ -2009,24 +2025,17 @@
    "source": "东财国际"
   },
   {
-   "title": "21公司获得增持评级-更新中 - 中财网",
+   "title": "英伟达跌幅扩大至7%",
    "summary": "",
-   "time": "2026-11-10 22:51",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZdFBNNzMwc2NuRHk3eWowWE1lS1ItdkdxNlMtSC1sRW9NMDN6VGhjN25KX2N2d3JLYktabFk1b0JqNEJNQ0pidGZPQmFReWplTkh0a2RR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "吉姆·乔丹当选美国下一届国会众议院共和党领袖",
-   "summary": "",
-   "time": "2026-11-10 19:48:09",
-   "url": "https://news.10jqka.com.cn/20261111/c681677447.shtml",
+   "time": "2026-11-10 20:07:08",
+   "url": "https://news.10jqka.com.cn/20261111/c681677468.shtml",
    "source": "同花顺"
   },
   {
-   "title": "吉姆·乔丹当选美国众议院共和党少数党领袖",
+   "title": "惠誉：民主党中期选举获胜对美国AI、能源及医疗行业影响不一",
    "summary": "",
-   "time": "2026-11-10 19:28:39",
-   "url": "https://news.futunn.com/flash/1004069806/jim-jordan-elected-as-house-republican-minority-leader",
+   "time": "2026-11-10 20:06:47",
+   "url": "https://news.futunn.com/flash/1004071785/fitch-democratic-victory-in-midterm-elections-has-mixed-impact-on",
    "source": "富途"
   },
   {
@@ -2044,18 +2053,25 @@
    "source": "财新"
   },
   {
-   "title": "美国总统特朗普倾向于任命一名男性担任下一任白宫新闻秘书，这可能终结该职位连续七任由女性担任的惯例。",
-   "summary": "美国总统特朗普倾向于任命一名男性担任下一任白宫新闻秘书，这可能终结该职位连续七任由女性担任的惯例。",
-   "time": "2026-11-11 03:58",
-   "url": "https://wallstreetcn.com/livenews/3197898",
+   "title": "美国商品期货交易委员会（CFTC）推迟批准AI计算期货交易。\n\n这家美国衍生品监管部门将此类合约的审查期延长至少60天。（英国金融时报）",
+   "summary": "美国商品期货交易委员会（CFTC）推迟批准AI计算期货交易。\n\n这家美国衍生品监管部门将此类合约的审查期延长至少60天。（英国金融时报）",
+   "time": "2026-11-11 04:02",
+   "url": "https://wallstreetcn.com/livenews/3197900",
    "source": "华尔街见闻"
   },
   {
-   "title": "美CPI又超预期、沃勒警告应验！华尔街聚焦12月加息25还是50基点，“新美联储通讯社”：加加停停策略面临考验 - 华尔街见闻",
+   "title": "特朗普支持防长赫格塞思 抨击众议员梅西 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-11 02:15",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tQ2Y5M3RtT0RQYmd2RXFRbEExb0hmbmJNX1lrNlRyVmtqUW00VGZIcUVKMlBfdDFKenR5NVBneTM5ZWZBZnJWaVdGTXFhd0ZKeUZn?oc=5",
+   "time": "2026-11-11 03:57",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE15MGZNRFRCWnFBZGduX3YxTm5JSWVBU3BTbkY1LVY4dVExeExCcUlyMFgtSkNoWWphSElQWFh3ZURDMzhSelJoQjZTYW9tbXM3dWM1NFhKVTdzWmkySVYzaEx1ZFhEV1JtaENiN0lfYWQ?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "21公司获得增持评级-更新中 - 中财网",
+   "summary": "",
+   "time": "2026-11-10 22:51",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBZdFBNNzMwc2NuRHk3eWowWE1lS1ItdkdxNlMtSC1sRW9NMDN6VGhjN25KX2N2d3JLYktabFk1b0JqNEJNQ0pidGZPQmFReWplTkh0a2RR?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "西门子能源计划在2030年底之前回购最高90亿欧元的股票",
@@ -2065,24 +2081,17 @@
    "source": "东财国际"
   },
   {
-   "title": "瑞银：将沃尔玛目标价由130美元上调至149美元 评级“买入” - 东方财富",
+   "title": "美国商品期货交易委员会据称推迟批准AI算力期货交易",
    "summary": "",
-   "time": "2026-11-10 22:27",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52U3gtVW14MGFINncxXzFTbEhzbWFtRzJTdW55SFU4cXJWUHdMS01sRGZEd1lxU1RGNTNCRGZBTHRieXZMWmJVNmxLVnRHM3Brb2xabDNrSHVkM2xUSHB2ZWZuMA?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美国众议院共和党人正考虑向英伟达CEO黄仁勋发出传票",
-   "summary": "",
-   "time": "2026-11-10 19:42:01",
-   "url": "https://news.10jqka.com.cn/20261111/c681677444.shtml",
+   "time": "2026-11-10 20:02:40",
+   "url": "https://news.10jqka.com.cn/20261111/c681677467.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美联储施密德：当前利率水平相当宽松 通胀仍是首要关注问题",
+   "title": "吉姆·乔丹当选美国众议院共和党少数党领袖",
    "summary": "",
-   "time": "2026-11-10 19:09:15",
-   "url": "https://news.futunn.com/flash/1004068808/fed-s-schmid-current-interest-rate-levels-are-quite-accommodative",
+   "time": "2026-11-10 19:28:39",
+   "url": "https://news.futunn.com/flash/1004069806/jim-jordan-elected-as-house-republican-minority-leader",
    "source": "富途"
   },
   {
@@ -2100,18 +2109,25 @@
    "source": "财新"
   },
   {
-   "title": "伊朗南部Pars天然气田平台出现火情，随后撤离人员。（Shana）",
-   "summary": "伊朗南部Pars天然气田平台出现火情，随后撤离人员。（Shana）",
-   "time": "2026-11-11 03:38",
-   "url": "https://wallstreetcn.com/livenews/3197895",
+   "title": "惠誉评级：民主党获胜对美国人工智能（AI）生态系统、能源、医疗保健和国防领域的影响喜忧参半。",
+   "summary": "惠誉评级：民主党获胜对美国人工智能（AI）生态系统、能源、医疗保健和国防领域的影响喜忧参半。",
+   "time": "2026-11-11 04:00",
+   "url": "https://wallstreetcn.com/livenews/3197899",
    "source": "华尔街见闻"
   },
   {
-   "title": "CPI暴击美债！2年期收益率盘中飙升逾20基点，金银大跌 - 华尔街见闻",
+   "title": "美CPI又超预期、沃勒警告应验！华尔街聚焦12月加息25还是50基点，“新美联储通讯社”：加加停停策略面临考验 - 华尔街见闻",
    "summary": "",
    "time": "2026-11-11 02:15",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaNEs3RFhTMXI2aWk0N25JVGhuaE5rZ2tyVE1jTlhGYkppSWFNY251UXJMeDNqQkZqZzg1UC1rdDRYYU1DVHZwVG1NZ1NJMzA1T0xR?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tQ2Y5M3RtT0RQYmd2RXFRbEExb0hmbmJNX1lrNlRyVmtqUW00VGZIcUVKMlBfdDFKenR5NVBneTM5ZWZBZnJWaVdGTXFhd0ZKeUZn?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "瑞银：将沃尔玛目标价由130美元上调至149美元 评级“买入” - 东方财富",
+   "summary": "",
+   "time": "2026-11-10 22:27",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52U3gtVW14MGFINncxXzFTbEhzbWFtRzJTdW55SFU4cXJWUHdMS01sRGZEd1lxU1RGNTNCRGZBTHRieXZMWmJVNmxLVnRHM3Brb2xabDNrSHVkM2xUSHB2ZWZuMA?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "谷歌宣布 Google Fi超级网络功能自今日起在Pixel 9及更新机型上开始推送",
@@ -2121,24 +2137,17 @@
    "source": "东财国际"
   },
   {
-   "title": "82股获买入评级 最新:中国海油 - 中财网",
+   "title": "吉姆·乔丹当选美国下一届国会众议院共和党领袖",
    "summary": "",
-   "time": "2026-11-10 22:26",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EakprcmhPTndiZURRVUMzcFQ1VGYwQTRIcXphVjNDU29ULUZsSTJRN1JLUVBSTzJoSURTSUdXNlJpUlk3WGhyQzlGbHYwcURJQ0NOUDVn?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "厄瓜多尔新一轮宵禁结束 逮捕逾2600人 查获约2.5吨毒品",
-   "summary": "",
-   "time": "2026-11-10 19:34:49",
-   "url": "https://news.10jqka.com.cn/20261111/c681677441.shtml",
+   "time": "2026-11-10 19:48:09",
+   "url": "https://news.10jqka.com.cn/20261111/c681677447.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美媒称叙利亚考虑向沙特和也门派遣数千名士兵 协助抵御胡塞武装",
+   "title": "美联储施密德：当前利率水平相当宽松 通胀仍是首要关注问题",
    "summary": "",
-   "time": "2026-11-10 18:56:37",
-   "url": "https://news.futunn.com/flash/1004068284/us-media-reports-that-syria-is-considering-sending-thousands-of",
+   "time": "2026-11-10 19:09:15",
+   "url": "https://news.futunn.com/flash/1004068808/fed-s-schmid-current-interest-rate-levels-are-quite-accommodative",
    "source": "富途"
   },
   {
@@ -2149,10 +2158,10 @@
    "source": "财新"
   },
   {
-   "title": "伊朗：南帕尔斯气田平台起火背后有两种可能，要么是天然气泄漏，要么是操作事故。",
-   "summary": "伊朗：南帕尔斯气田平台起火背后有两种可能，要么是天然气泄漏，要么是操作事故。",
-   "time": "2026-11-11 03:35",
-   "url": "https://wallstreetcn.com/livenews/3197894",
+   "title": "美国总统特朗普倾向于任命一名男性担任下一任白宫新闻秘书，这可能终结该职位连续七任由女性担任的惯例。",
+   "summary": "美国总统特朗普倾向于任命一名男性担任下一任白宫新闻秘书，这可能终结该职位连续七任由女性担任的惯例。",
+   "time": "2026-11-11 03:58",
+   "url": "https://wallstreetcn.com/livenews/3197898",
    "source": "华尔街见闻"
   }
  ],
@@ -2171,8 +2180,8 @@
   "counts": {
    "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
-   "东财国际": 7,
    "谷歌新闻·研报": 7,
+   "东财国际": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
