@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-11 01:30:02 CST",
- "generated_at_iso": "2026-11-11T01:30:02+08:00",
+ "generated_at": "2026-11-11 01:38:37 CST",
+ "generated_at_iso": "2026-11-11T01:38:37+08:00",
  "date": "2026-11-11",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52105.0195,
-    "change": -284.73,
-    "change_pct": -0.54,
-    "quote_time": "2026-11-11 01:29:49",
+    "price": 52046.3086,
+    "change": -343.44,
+    "change_pct": -0.66,
+    "quote_time": "2026-11-11 01:38:25",
     "hist": [
      51349.9219,
      50906.0508,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24920.4486,
-    "change": -332.6899,
-    "change_pct": -1.32,
-    "quote_time": "2026-11-11 01:30:05",
+    "price": 24844.453,
+    "change": -408.6855,
+    "change_pct": -1.62,
+    "quote_time": "2026-11-11 01:38:40",
     "hist": [
      26797.541,
      26861.0645,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7490.3101,
-    "change": -59.63,
-    "change_pct": -0.79,
-    "quote_time": "2026-11-11 01:29:44",
+    "price": 7477.1099,
+    "change": -72.83,
+    "change_pct": -0.96,
+    "quote_time": "2026-11-11 01:38:25",
     "hist": [
      7670.8398,
      7651.54,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4027.386,
-    "change": -87.114,
-    "change_pct": -2.12,
-    "quote_time": "01:30:04 2026-11-11"
+    "price": 4023.203,
+    "change": -91.297,
+    "change_pct": -2.22,
+    "quote_time": "01:38:43 2026-11-11"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.234,
-    "change": -1.459,
-    "change_pct": -2.77,
-    "quote_time": "01:30:08 2026-11-11"
+    "price": 51.132,
+    "change": -1.561,
+    "change_pct": -2.96,
+    "quote_time": "01:38:42 2026-11-11"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.415,
-    "change": -0.435,
-    "change_pct": -0.5,
-    "quote_time": "01:30:08 2026-11-11"
+    "price": 86.432,
+    "change": -0.418,
+    "change_pct": -0.48,
+    "quote_time": "01:38:43 2026-11-11"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.03,
-    "change": -0.54,
-    "change_pct": -0.58,
-    "quote_time": "01:30:04 2026-11-11"
+    "price": 92.058,
+    "change": -0.512,
+    "change_pct": -0.55,
+    "quote_time": "01:38:41 2026-11-11"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 73037.9,
-    "change": -1779.9,
-    "change_pct": -2.38,
+    "price": 72822.5,
+    "change": -1940.0,
+    "change_pct": -2.59,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2024.46,
-    "change": -100.91,
-    "change_pct": -4.75,
+    "price": 2016.51,
+    "change": -107.33,
+    "change_pct": -5.05,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 82.39,
-    "change": -4.02,
-    "change_pct": -4.65,
+    "price": 81.95,
+    "change": -4.41,
+    "change_pct": -5.11,
     "source": "okx"
    }
   ]
@@ -1474,9 +1474,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 20.52,
-   "change": 0.6,
-   "change_pct": 3.012,
+   "value": 20.56,
+   "change": 0.64,
+   "change_pct": 3.2129,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1519,13 +1519,13 @@
    "points": [
     {
      "t": "VIX9D",
-     "value": 19.82,
-     "change_pct": -0.3018
+     "value": 19.91,
+     "change_pct": 0.1509
     },
     {
      "t": "VIX",
-     "value": 20.52,
-     "change_pct": 3.012
+     "value": 20.56,
+     "change_pct": 3.2129
     },
     {
      "t": "VIX3M",
@@ -1538,7 +1538,7 @@
      "change_pct": 1.9352
     }
    ],
-   "ratio_9d_3m": 0.925,
+   "ratio_9d_3m": 0.929,
    "shape": "平坦",
    "source": "CBOE"
   },
@@ -1553,8 +1553,8 @@
    "keyword": "欧洲央行",
    "label": "欧洲央行",
    "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "欧洲央行执行委员兼首席经济学家Lane：我们非常重视共识，若采用点阵图将很难达成。\n\n目前我对提供方向性前瞻指引会设定较高门槛。",
-   "summary": "欧洲央行执行委员兼首席经济学家Lane：我们非常重视共识，若采用点阵图将很难达成。\n\n目前我对提供方向性前瞻指引会设定较高门槛。",
+   "title": "欧洲央行执行委员兼首席经济学家Lane：我们非常重视共识，若采用点阵图将很难达成。\n\n目前我对提供方向性前瞻指引会设定较高门槛。\n\n核心通胀尚未变动，这一点具有参考意义，意味着这属于通常的滞后反应。\n\n潜在通胀是未来一年通胀的指引。\n\n能源",
+   "summary": "欧洲央行执行委员兼首席经济学家Lane：我们非常重视共识，若采用点阵图将很难达成。\n\n目前我对提供方向性前瞻指引会设定较高门槛。\n\n核心通胀尚未变动，这一点具有参考意义，意味着这属于通常的滞后反应。\n\n潜在通胀是未来一年通胀的指引。\n\n能源价格已开始回落，若这一趋势持续，整体通胀将下降，而潜在通胀将上升。\n\n人们应关注通胀是否强于或弱于预期。\n\n若未出现第二轮效应，反而会令人意外。",
    "time": "2026-11-11 01:26",
    "url": "https://wallstreetcn.com/livenews/3197851",
    "source": "华尔街见闻",
@@ -1724,18 +1724,18 @@
  "alerts": [],
  "news": [
   {
-   "title": "微软跌幅扩大至1.8% 此前Anthropic推出了Office工具",
-   "summary": "微软跌幅扩大至1.8%，此前Anthropic推出了Office工具。",
-   "time": "2026-11-11 01:26:22",
-   "url": "https://finance.eastmoney.com/a/202611113927712765.html",
-   "source": "东财国际"
+   "title": "巴西雷亚尔兑美元创2025年8月份以来新低，此前巴西央行披露的会议纪要释放出鸽派信号，进而瓦解投资者对该国央行将因通胀压力而加息的预期。",
+   "summary": "巴西雷亚尔兑美元创2025年8月份以来新低，此前巴西央行披露的会议纪要释放出鸽派信号，进而瓦解投资者对该国央行将因通胀压力而加息的预期。",
+   "time": "2026-11-11 01:36",
+   "url": "https://wallstreetcn.com/livenews/3197854",
+   "source": "华尔街见闻"
   },
   {
-   "title": "欧洲央行执行委员兼首席经济学家Lane：我们非常重视共识，若采用点阵图将很难达成。\n\n目前我对提供方向性前瞻指引会设定较高门槛。",
-   "summary": "欧洲央行执行委员兼首席经济学家Lane：我们非常重视共识，若采用点阵图将很难达成。\n\n目前我对提供方向性前瞻指引会设定较高门槛。",
-   "time": "2026-11-11 01:26",
-   "url": "https://wallstreetcn.com/livenews/3197851",
-   "source": "华尔街见闻"
+   "title": "AMD发布第六代EPYC处理器 定位为引领AI与企业计算新时代的产品",
+   "summary": "AMD发布第六代EPYC处理器，定位为引领AI与企业计算新时代的产品。",
+   "time": "2026-11-11 01:30:37",
+   "url": "https://finance.eastmoney.com/a/202611113927713235.html",
+   "source": "东财国际"
   },
   {
    "title": "还是小看特朗普了，结局早在他进白宫前就已写好，马斯克被算计了 - 手机新浪网",
@@ -1752,17 +1752,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "微软跌幅扩大至1.8%，此前Anthropic推出了Office工具",
+   "title": "固高科技：光模块加工需求自2025年四季度开始批量应用",
    "summary": "",
-   "time": "2026-11-10 17:26:42",
-   "url": "https://news.10jqka.com.cn/20261111/c681677207.shtml",
+   "time": "2026-11-10 17:34:42",
+   "url": "https://news.10jqka.com.cn/20261111/c681677219.shtml",
    "source": "同花顺"
   },
   {
-   "title": "EIA上调今明两年美、布两油价格预期",
+   "title": "EIA上调2027年美国汽柴油价格预测 反映成品油供应紧张可能持续更久",
    "summary": "",
-   "time": "2026-11-10 17:03:05",
-   "url": "https://news.futunn.com/flash/1004062048/eia-raises-price-forecasts-for-wti-and-brent-crude-for",
+   "time": "2026-11-10 17:33:21",
+   "url": "https://news.futunn.com/flash/1004063896/eia-raises-2027-us-gasoline-and-diesel-price-forecasts-reflecting",
    "source": "富途"
   },
   {
@@ -1780,18 +1780,18 @@
    "source": "财新"
   },
   {
-   "title": "花旗获利了结对美联储12月加息的押注 认为升息50基点门槛仍高",
-   "summary": "【花旗获利了结对美联储12月加息的押注 认为升息50基点门槛仍高】鉴于美国10月CPI数据公布后，市场已充分消化美联储下月加息25个基点的可能性，花旗策略师对此前提出的为12月加息布局的推荐交易实行获利了结，他们认为美联储不太可能实施50个基点的加息。",
-   "time": "2026-11-11 01:23:15",
-   "url": "https://finance.eastmoney.com/a/202611113927712615.html",
-   "source": "东财国际"
+   "title": "Anthropic在美国IPO之前发布一套办公软件，对标微软和谷歌公司",
+   "summary": "Anthropic PBC推出一套工具，把其人工智能能（AI）力嵌入日常办公工作，使其与微软公司和Alphabet旗下的谷歌形成竞争。新工具包括视频通话助手、数据仪表盘工具，以及一款名为Claude Sheets的表格服务——它类似微软Excel和谷歌Sheets，但内嵌了Anthropic的AI。\n\nAnthropic还公布了一种方式，让企业可以把自家现有应用的一个版本嵌入Claude；公司销售",
+   "time": "2026-11-11 01:31",
+   "url": "https://wallstreetcn.com/livenews/3197852",
+   "source": "华尔街见闻"
   },
   {
-   "title": "微软跌1.8%，刷新日低。\n\n英伟达持续被投资者抛售，波及科技股七巨头。",
-   "summary": "微软跌1.8%，刷新日低。\n\n英伟达持续被投资者抛售，波及科技股七巨头。",
-   "time": "2026-11-11 01:25",
-   "url": "https://wallstreetcn.com/livenews/3197850",
-   "source": "华尔街见闻"
+   "title": "微软跌幅扩大至1.8% 此前Anthropic推出了Office工具",
+   "summary": "微软跌幅扩大至1.8%，此前Anthropic推出了Office工具。",
+   "time": "2026-11-11 01:26:22",
+   "url": "https://finance.eastmoney.com/a/202611113927712765.html",
+   "source": "东财国际"
   },
   {
    "title": "特朗普为黄仁勋辩护：“他说自己完全不知道那个人是间谍” - RFI",
@@ -1808,17 +1808,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "迎峰度冬 煤炭板块迎旺季行情",
+   "title": "AMD发布第六代EPYC处理器",
    "summary": "",
-   "time": "2026-11-10 17:11:28",
-   "url": "https://news.10jqka.com.cn/20261111/c681677190.shtml",
+   "time": "2026-11-10 17:31:06",
+   "url": "https://news.10jqka.com.cn/20261111/c681677216.shtml",
    "source": "同花顺"
   },
   {
-   "title": "纽约联储：美国家庭贷款逾期率小幅上升 房贷逾期率创2018年以来新高",
+   "title": "EIA上调今明两年美、布两油价格预期",
    "summary": "",
-   "time": "2026-11-10 16:34:22",
-   "url": "https://news.futunn.com/flash/1004060220/new-york-fed-slight-rise-in-us-household-loan-delinquency",
+   "time": "2026-11-10 17:03:05",
+   "url": "https://news.futunn.com/flash/1004062048/eia-raises-price-forecasts-for-wti-and-brent-crude-for",
    "source": "富途"
   },
   {
@@ -1836,18 +1836,18 @@
    "source": "财新"
   },
   {
-   "title": "摩根士丹利将兆易创新A股评级下调至平配 目标价259元",
-   "summary": "摩根士丹利将兆易创新A股评级下调至平配，目标价259元。",
-   "time": "2026-11-11 01:18:03",
-   "url": "https://finance.eastmoney.com/a/202611113927711649.html",
-   "source": "东财国际"
+   "title": "欧洲央行执行委员兼首席经济学家Lane：我们非常重视共识，若采用点阵图将很难达成。\n\n目前我对提供方向性前瞻指引会设定较高门槛。\n\n核心通胀尚未变动，这一点具有参考意义，意味着这属于通常的滞后反应。\n\n潜在通胀是未来一年通胀的指引。\n\n能源",
+   "summary": "欧洲央行执行委员兼首席经济学家Lane：我们非常重视共识，若采用点阵图将很难达成。\n\n目前我对提供方向性前瞻指引会设定较高门槛。\n\n核心通胀尚未变动，这一点具有参考意义，意味着这属于通常的滞后反应。\n\n潜在通胀是未来一年通胀的指引。\n\n能源价格已开始回落，若这一趋势持续，整体通胀将下降，而潜在通胀将上升。\n\n人们应关注通胀是否强于或弱于预期。\n\n若未出现第二轮效应，反而会令人意外。",
+   "time": "2026-11-11 01:26",
+   "url": "https://wallstreetcn.com/livenews/3197851",
+   "source": "华尔街见闻"
   },
   {
-   "title": "俄罗斯副外长里亚布科夫：现在评估阿布扎比正在进行的谈判还为时过早。",
-   "summary": "俄罗斯副外长里亚布科夫：现在评估阿布扎比正在进行的谈判还为时过早。",
-   "time": "2026-11-11 01:21",
-   "url": "https://wallstreetcn.com/livenews/3197849",
-   "source": "华尔街见闻"
+   "title": "花旗获利了结对美联储12月加息的押注 认为升息50基点门槛仍高",
+   "summary": "【花旗获利了结对美联储12月加息的押注 认为升息50基点门槛仍高】鉴于美国10月CPI数据公布后，市场已充分消化美联储下月加息25个基点的可能性，花旗策略师对此前提出的为12月加息布局的推荐交易实行获利了结，他们认为美联储不太可能实施50个基点的加息。",
+   "time": "2026-11-11 01:23:15",
+   "url": "https://finance.eastmoney.com/a/202611113927712615.html",
+   "source": "东财国际"
   },
   {
    "title": "美联储理事沃勒支持12月加息 AI交易动荡成变数 - 中华网",
@@ -1864,11 +1864,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "EIA短期能源展望报告：预计2026年全球石油需求为1.024亿桶/日",
+   "title": "微软跌幅扩大至1.8%，此前Anthropic推出了Office工具",
    "summary": "",
-   "time": "2026-11-10 17:10:13",
-   "url": "https://news.10jqka.com.cn/20261111/c681677189.shtml",
+   "time": "2026-11-10 17:26:42",
+   "url": "https://news.10jqka.com.cn/20261111/c681677207.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "纽约联储：美国家庭贷款逾期率小幅上升 房贷逾期率创2018年以来新高",
+   "summary": "",
+   "time": "2026-11-10 16:34:22",
+   "url": "https://news.futunn.com/flash/1004060220/new-york-fed-slight-rise-in-us-household-loan-delinquency",
+   "source": "富途"
   },
   {
    "title": "苏德巍认为，AI基础设施投资短期难免波动，但长期需求未变，不能因政治争议忽视战略价值",
@@ -1878,17 +1885,10 @@
    "source": "财新"
   },
   {
-   "title": "伊朗革命卫队表示：一艘油轮在霍尔木兹海峡触雷后起火",
-   "summary": "伊朗革命卫队表示，一艘油轮在霍尔木兹海峡触雷后起火。",
-   "time": "2026-11-11 01:12:23",
-   "url": "https://finance.eastmoney.com/a/202611113927711083.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "英国首相拒绝欧盟金融规则，显示“脱欧重置”的局限",
-   "summary": "据英国官员透露，英国首相伯纳姆所属工党的政府不会接受将英国金融服务规则与欧盟规则进行“动态对齐”（dynamic alignment）——在该机制下英国将在某些领域自动跟随欧盟法规。这一立场让人对其推动更紧密关系更广泛的抱负产生疑问。\n\n英国官员已告知欧盟同行，在金融服务领域适用动态对齐是他们不愿跨越的红线，因为要维护伦敦金融城的独立性。\n\n英国金融业反对自动动态对齐，理由是该行业需要英国监管机构",
-   "time": "2026-11-11 01:19",
-   "url": "https://wallstreetcn.com/livenews/3197848",
+   "title": "微软跌1.8%，刷新日低。\n\n英伟达持续被投资者抛售，波及科技股七巨头。",
+   "summary": "微软跌1.8%，刷新日低。\n\n英伟达持续被投资者抛售，波及科技股七巨头。",
+   "time": "2026-11-11 01:25",
+   "url": "https://wallstreetcn.com/livenews/3197850",
    "source": "华尔街见闻"
   }
  ],
@@ -1896,21 +1896,21 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(2)",
+   "富途": "ok(3)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "FAIL:RuntimeError",
+   "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 8,
    "华尔街见闻": 8,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 7,
-   "富途": 2,
+   "富途": 3,
    "东财早报": 2,
    "财新": 7
   }
