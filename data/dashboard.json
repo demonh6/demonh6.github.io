@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-11 03:27:11 CST",
- "generated_at_iso": "2026-11-11T03:27:11+08:00",
+ "generated_at": "2026-11-11 03:35:20 CST",
+ "generated_at_iso": "2026-11-11T03:35:20+08:00",
  "date": "2026-11-11",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52207.2383,
-    "change": -182.51,
-    "change_pct": -0.35,
-    "quote_time": "2026-11-11 03:27:03",
+    "price": 52223.0312,
+    "change": -166.72,
+    "change_pct": -0.32,
+    "quote_time": "2026-11-11 03:35:11",
     "hist": [
      51349.9219,
      50906.0508,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24988.659,
-    "change": -264.4795,
-    "change_pct": -1.05,
-    "quote_time": "2026-11-11 03:27:15",
+    "price": 24994.9354,
+    "change": -258.2031,
+    "change_pct": -1.02,
+    "quote_time": "2026-11-11 03:35:26",
     "hist": [
      26797.541,
      26861.0645,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7506.8999,
-    "change": -43.04,
-    "change_pct": -0.57,
-    "quote_time": "2026-11-11 03:27:03",
+    "price": 7511.1201,
+    "change": -38.82,
+    "change_pct": -0.51,
+    "quote_time": "2026-11-11 03:35:11",
     "hist": [
      7670.8398,
      7651.54,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4037.72,
-    "change": -76.78,
-    "change_pct": -1.87,
-    "quote_time": "03:27:11 2026-11-11"
+    "price": 4033.404,
+    "change": -81.096,
+    "change_pct": -1.97,
+    "quote_time": "03:35:26 2026-11-11"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.377,
-    "change": -1.316,
-    "change_pct": -2.5,
-    "quote_time": "03:27:19 2026-11-11"
+    "price": 51.328,
+    "change": -1.365,
+    "change_pct": -2.59,
+    "quote_time": "03:35:24 2026-11-11"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.129,
-    "change": -0.721,
-    "change_pct": -0.83,
-    "quote_time": "03:27:19 2026-11-11"
+    "price": 86.307,
+    "change": -0.543,
+    "change_pct": -0.63,
+    "quote_time": "03:35:27 2026-11-11"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.674,
-    "change": -0.896,
-    "change_pct": -0.97,
-    "quote_time": "03:27:19 2026-11-11"
+    "price": 91.796,
+    "change": -0.774,
+    "change_pct": -0.84,
+    "quote_time": "03:35:28 2026-11-11"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 73404.1,
-    "change": -1217.6,
-    "change_pct": -1.63,
+    "price": 73431.4,
+    "change": -1191.9,
+    "change_pct": -1.6,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2041.89,
-    "change": -79.86,
-    "change_pct": -3.76,
+    "price": 2042.94,
+    "change": -78.53,
+    "change_pct": -3.7,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 82.67,
-    "change": -3.71,
-    "change_pct": -4.29,
+    "price": 82.71,
+    "change": -3.55,
+    "change_pct": -4.12,
     "source": "okx"
    }
   ]
@@ -1474,9 +1474,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 20.46,
-   "change": 0.54,
-   "change_pct": 2.7108,
+   "value": 20.11,
+   "change": 0.19,
+   "change_pct": 0.9538,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1512,34 +1512,34 @@
     25.64,
     19.92
    ],
-   "vix3m": 21.34,
+   "vix3m": 21.12,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 19.87,
-     "change_pct": -0.0503
+     "value": 19.35,
+     "change_pct": -2.666
     },
     {
      "t": "VIX",
-     "value": 20.46,
-     "change_pct": 2.7108
+     "value": 20.11,
+     "change_pct": 0.9538
     },
     {
      "t": "VIX3M",
-     "value": 21.34,
-     "change_pct": 2.3501
+     "value": 21.12,
+     "change_pct": 1.295
     },
     {
      "t": "VIX6M",
-     "value": 22.54,
-     "change_pct": 1.4401
+     "value": 22.36,
+     "change_pct": 0.6301
     }
    ],
-   "ratio_9d_3m": 0.931,
-   "shape": "平坦",
+   "ratio_9d_3m": 0.916,
+   "shape": "contango(平静期)",
    "source": "CBOE"
   },
   "composite": {
@@ -1553,34 +1553,23 @@
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美国堪萨斯城联储主席Schmid：剔除能源因素后，部分物价走势令人担忧。\n\n需求强劲，利率并非犹豫的理由。\n\n通胀是最受关注的问题。\n\n可以说住房领域正经历一种“有趣的动态”，但在其他领域找不到任何限制。\n\n美联储基准利率当前仍相当宽松。\n",
-   "summary": "美国堪萨斯城联储主席Schmid：剔除能源因素后，部分物价走势令人担忧。\n\n需求强劲，利率并非犹豫的理由。\n\n通胀是最受关注的问题。\n\n可以说住房领域正经历一种“有趣的动态”，但在其他领域找不到任何限制。\n\n美联储基准利率当前仍相当宽松。\n\n去年并不认为利率具有限制性，认为当前利率相当宽松。\n\n美国近期的招聘情况相当强劲。\n\n预计即时支付将跨越数字资产架构。",
-   "time": "2026-11-11 02:45",
-   "url": "https://wallstreetcn.com/livenews/3197876",
-   "source": "华尔街见闻",
-   "mentions": 4
+   "title": "美CPI又超预期、沃勒警告应验！华尔街聚焦12月加息25还是50基点，“新美联储通讯社”：加加停停策略面临考验 - 华尔街见闻",
+   "summary": "",
+   "time": "2026-11-11 02:15",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5tQ2Y5M3RtT0RQYmd2RXFRbEExb0hmbmJNX1lrNlRyVmtqUW00VGZIcUVKMlBfdDFKenR5NVBneTM5ZWZBZnJWaVdGTXFhd0ZKeUZn?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   },
   {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "美国参议院民主党领袖舒默：美国总统特朗普为英伟达黄仁勋辩护“令人不安”。",
-   "summary": "美国参议院民主党领袖舒默：美国总统特朗普为英伟达黄仁勋辩护“令人不安”。",
-   "time": "2026-11-11 02:44",
-   "url": "https://wallstreetcn.com/livenews/3197874",
-   "source": "华尔街见闻",
-   "mentions": 3
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "美国参议院民主党领袖舒默：美国总统特朗普为英伟达黄仁勋辩护“令人不安”。",
-   "summary": "美国参议院民主党领袖舒默：美国总统特朗普为英伟达黄仁勋辩护“令人不安”。",
-   "time": "2026-11-11 02:44",
-   "url": "https://wallstreetcn.com/livenews/3197874",
-   "source": "华尔街见闻",
-   "mentions": 1
+   "title": "拜登披露：特朗普当选后态度曾异常热情，惊得我一时语塞 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-11 01:51",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtQ0thN2xHdl94Z0dScjlEOHBtT0FqUWMyb3c1RmVVVEpPRjJhQzQ5VzJOR2h2bklJS3h0ZGFTelhfa1dsR291Q05JRkc?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   },
   {
    "keyword": "白宫",
@@ -1723,18 +1712,18 @@
  "alerts": [],
  "news": [
   {
-   "title": "乌总统与芬兰总统通电话 讨论俄美乌三方会谈进程",
-   "summary": "【乌总统与芬兰总统通电话 讨论俄美乌三方会谈进程】当地时间11月10日，乌克兰总统泽连斯基与芬兰总统斯图布通电话，就当天的俄美乌三方会谈进程及后续协调交换意见。",
-   "time": "2026-11-11 03:00:21",
-   "url": "https://finance.eastmoney.com/a/202611113927722051.html",
-   "source": "东财国际"
+   "title": "伊朗：南帕尔斯气田平台起火背后有两种可能，要么是天然气泄漏，要么是操作事故。",
+   "summary": "伊朗：南帕尔斯气田平台起火背后有两种可能，要么是天然气泄漏，要么是操作事故。",
+   "time": "2026-11-11 03:35",
+   "url": "https://wallstreetcn.com/livenews/3197894",
+   "source": "华尔街见闻"
   },
   {
-   "title": "恒生指数主连夜盘收跌0.95%，报24346点。\n\n恒生科技指数主连夜盘收跌1.22%，报4036点。",
-   "summary": "恒生指数主连夜盘收跌0.95%，报24346点。\n\n恒生科技指数主连夜盘收跌1.22%，报4036点。",
-   "time": "2026-11-11 03:00",
-   "url": "https://wallstreetcn.com/livenews/3197877",
-   "source": "华尔街见闻"
+   "title": "伊媒：雷扎伊否认将与万斯会面",
+   "summary": "【伊媒：雷扎伊否认将与万斯会面】据伊朗伊斯兰共和国广播电视台10日报道，伊朗最高国家安全委员会秘书雷扎伊当天表示，有关自己计划与美国副总统万斯会面的传言是“无稽之谈，毫无根据”。他说，美国声称将继续与伊朗进行谈判并在卡塔尔举行会议，“完全是谎言”。",
+   "time": "2026-11-11 03:23:21",
+   "url": "https://finance.eastmoney.com/a/202611113927722637.html",
+   "source": "东财国际"
   },
   {
    "title": "美CPI又超预期、沃勒警告应验！华尔街聚焦12月加息25还是50基点，“新美联储通讯社”：加加停停策略面临考验 - 华尔街见闻",
@@ -1751,18 +1740,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美媒称叙利亚考虑向沙特和也门派遣数千名士兵 协助抵御胡塞武装",
+   "title": "厄瓜多尔新一轮宵禁结束 逮捕逾2600人 查获约2.5吨毒品",
    "summary": "",
-   "time": "2026-11-10 18:56:37",
-   "url": "https://news.futunn.com/flash/1004068284/us-media-reports-that-syria-is-considering-sending-thousands-of",
-   "source": "富途"
+   "time": "2026-11-10 19:34:49",
+   "url": "https://news.10jqka.com.cn/20261111/c681677441.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "美联储施密德：部分物价走势令人担忧 当前利率相当宽松",
+   "title": "吉姆·乔丹当选美国众议院共和党少数党领袖",
    "summary": "",
-   "time": "2026-11-10 18:52:35",
-   "url": "https://news.10jqka.com.cn/20261111/c681677400.shtml",
-   "source": "同花顺"
+   "time": "2026-11-10 19:28:39",
+   "url": "https://news.futunn.com/flash/1004069806/jim-jordan-elected-as-house-republican-minority-leader",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月10日周二",
@@ -1779,18 +1768,18 @@
    "source": "财新"
   },
   {
-   "title": "OpenAI据悉收购AI旅游规划助手Odessia",
-   "summary": "OpenAI据悉收购AI旅游规划助手Odessia。",
-   "time": "2026-11-11 02:54:20",
-   "url": "https://finance.eastmoney.com/a/202611113927721938.html",
-   "source": "东财国际"
+   "title": "伊朗议会国家安全委员会委员库萨里：我们用水雷或其他方式瞄准他们的舰船，他们偶尔向格什姆岛发射炮弹。我们给予的打击与他们相当，甚至更大。",
+   "summary": "伊朗议会国家安全委员会委员库萨里：我们用水雷或其他方式瞄准他们的舰船，他们偶尔向格什姆岛发射炮弹。我们给予的打击与他们相当，甚至更大。",
+   "time": "2026-11-11 03:35",
+   "url": "https://wallstreetcn.com/livenews/3197893",
+   "source": "华尔街见闻"
   },
   {
-   "title": "美国堪萨斯城联储主席Schmid：剔除能源因素后，部分物价走势令人担忧。\n\n需求强劲，利率并非犹豫的理由。\n\n通胀是最受关注的问题。\n\n可以说住房领域正经历一种“有趣的动态”，但在其他领域找不到任何限制。\n\n美联储基准利率当前仍相当宽松。\n",
-   "summary": "美国堪萨斯城联储主席Schmid：剔除能源因素后，部分物价走势令人担忧。\n\n需求强劲，利率并非犹豫的理由。\n\n通胀是最受关注的问题。\n\n可以说住房领域正经历一种“有趣的动态”，但在其他领域找不到任何限制。\n\n美联储基准利率当前仍相当宽松。\n\n去年并不认为利率具有限制性，认为当前利率相当宽松。\n\n美国近期的招聘情况相当强劲。\n\n预计即时支付将跨越数字资产架构。",
-   "time": "2026-11-11 02:45",
-   "url": "https://wallstreetcn.com/livenews/3197876",
-   "source": "华尔街见闻"
+   "title": "西门子能源计划在2030年底之前回购最高90亿欧元的股票",
+   "summary": "西门子能源计划在2030年底之前回购最高90亿欧元的股票。",
+   "time": "2026-11-11 03:21:21",
+   "url": "https://finance.eastmoney.com/a/202611113927723041.html",
+   "source": "东财国际"
   },
   {
    "title": "拜登披露：特朗普当选后态度曾异常热情，惊得我一时语塞 - 凤凰网",
@@ -1807,18 +1796,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "以媒：卡塔尔称已为美伊谈判争取两周时间 旨在暂缓美国对伊军事打击",
+   "title": "WTI 12月原油期货收报86.04美元/桶",
    "summary": "",
-   "time": "2026-11-10 18:43:53",
-   "url": "https://news.futunn.com/flash/1004067701/israeli-media-qatar-claims-to-have-secured-two-weeks-for",
-   "source": "富途"
+   "time": "2026-11-10 19:32:09",
+   "url": "https://news.10jqka.com.cn/20261111/c681677438.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "OpenAI收购AI旅行代理公司Odessia，交易条款未披露",
+   "title": "美联储施密德：当前利率水平相当宽松 通胀仍是首要关注问题",
    "summary": "",
-   "time": "2026-11-10 18:51:43",
-   "url": "https://news.10jqka.com.cn/20261111/c681677399.shtml",
-   "source": "同花顺"
+   "time": "2026-11-10 19:09:15",
+   "url": "https://news.futunn.com/flash/1004068808/fed-s-schmid-current-interest-rate-levels-are-quite-accommodative",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月9日周一",
@@ -1835,18 +1824,18 @@
    "source": "财新"
   },
   {
-   "title": "Anthropic进军人工智能办公软件 IPO前与微软谷歌竞争升温",
-   "summary": "【Anthropic进军人工智能办公软件 IPO前与微软谷歌竞争升温】Anthropic推出一系列工具，进一步将人工智能(AI)融入日常办公，与微软和谷歌展开更直接的竞争。这些功能将于周二Anthropic的一场活动上发布，包括视频通话助手、数据仪表板工具，以及名为Claude Sheets的电子表格服务。Claude Sheets与微软Excel和谷歌Sheets非常相似，但内置Anthropic的AI功能。许多新工具将以测试版形式向付费用户开放。Anthropic还宣布，将允许Adobe、Atlassian和HubSpot等公司把现有应用的一个版本嵌入Claude。Anthropic既是这些公司及其他企业的合作伙伴，也是竞争对手。今年以来，这种关系曾多次引发担忧，即AI有朝一日可能令传统企业软件产品变得过时。",
-   "time": "2026-11-11 02:49:03",
-   "url": "https://finance.eastmoney.com/a/202611113927721829.html",
-   "source": "东财国际"
+   "title": "伊朗南帕尔斯气田一平台发生火灾，目前局势已得到控制。",
+   "summary": "伊朗南帕尔斯气田一平台发生火灾，目前局势已得到控制。",
+   "time": "2026-11-11 03:31",
+   "url": "https://wallstreetcn.com/livenews/3197891",
+   "source": "华尔街见闻"
   },
   {
-   "title": "美国参议院民主党领袖舒默：美国总统特朗普为英伟达黄仁勋辩护“令人不安”。",
-   "summary": "美国参议院民主党领袖舒默：美国总统特朗普为英伟达黄仁勋辩护“令人不安”。",
-   "time": "2026-11-11 02:44",
-   "url": "https://wallstreetcn.com/livenews/3197874",
-   "source": "华尔街见闻"
+   "title": "谷歌宣布 Google Fi超级网络功能自今日起在Pixel 9及更新机型上开始推送",
+   "summary": "谷歌宣布，GoogleFi超级网络功能自今日起在Pixel9及更新机型上开始推送。",
+   "time": "2026-11-11 03:15:10",
+   "url": "https://finance.eastmoney.com/a/202611113927722465.html",
+   "source": "东财国际"
   },
   {
    "title": "还是小看特朗普了，结局早在他进白宫前就已写好，马斯克被算计了 - 手机新浪网",
@@ -1863,18 +1852,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储加息预期升温 美债10年期收益率突破5%",
+   "title": "共和党推选吉姆·乔丹出任下届众议院少数党领袖",
    "summary": "",
-   "time": "2026-11-10 18:30:08",
-   "url": "https://news.futunn.com/flash/1004066847/expectations-of-federal-reserve-rate-hikes-intensify-10-year-us",
-   "source": "富途"
+   "time": "2026-11-10 19:28:49",
+   "url": "https://news.10jqka.com.cn/20261111/c681677435.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "美国参议院民主党领袖舒默：国会必须通过人工智能芯片相关立法",
+   "title": "美媒称叙利亚考虑向沙特和也门派遣数千名士兵 协助抵御胡塞武装",
    "summary": "",
-   "time": "2026-11-10 18:46:04",
-   "url": "https://news.10jqka.com.cn/20261111/c681677391.shtml",
-   "source": "同花顺"
+   "time": "2026-11-10 18:56:37",
+   "url": "https://news.futunn.com/flash/1004068284/us-media-reports-that-syria-is-considering-sending-thousands-of",
+   "source": "富途"
   },
   {
    "title": "苏德巍认为，AI基础设施投资短期难免波动，但长期需求未变，不能因政治争议忽视战略价值",
@@ -1884,18 +1873,18 @@
    "source": "财新"
   },
   {
-   "title": "Kalshi拟12月8日推出追踪美国CPI及核心通胀的期货",
-   "summary": "【Kalshi拟12月8日推出追踪美国CPI及核心通胀的期货】Kalshi传播主管ElisabethDiana表示，该公司计划于12月8日推出追踪美国消费者价格指数(CPI)和剔除食品及能源的核心通胀指标的新期货合约。这些合约将类似于传统期货，设有到期日，面向机构投资者，而非该公司今年早些时候开始提供的所谓永续合约。",
-   "time": "2026-11-11 02:40:46",
-   "url": "https://finance.eastmoney.com/a/202611113927721724.html",
-   "source": "东财国际"
+   "title": "美国原油期货收跌超0.9%，逼近百日均线",
+   "summary": "WTI 12月原油期货收跌0.81美元，跌幅超过0.93%，报86.04美元/桶，（主力合约）逼近9月4日收盘位85.46美元、100日均线（暂报83.99美元）、8月28日收盘位80美元。\n\nNYMEX 12月天然气期货收报3.2960美元/百万英热单位。\n\nNYMEX 12月汽油期货收报2.6088美元/加仑，NYMEX 12月取暖油期货收报4.1309美元/加仑。",
+   "time": "2026-11-11 03:30",
+   "url": "https://wallstreetcn.com/livenews/3197890",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(10)",
+   "富途": "ok(8)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1904,12 +1893,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "富途": 6,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
    "财新": 6
   }
