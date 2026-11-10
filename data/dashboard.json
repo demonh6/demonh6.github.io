@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 17:29:18 CST",
- "generated_at_iso": "2026-11-10T17:29:18+08:00",
+ "generated_at": "2026-11-10 17:37:30 CST",
+ "generated_at_iso": "2026-11-10T17:37:30+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1157,9 +1157,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10820.07,
-    "change": 37.2,
-    "change_pct": 0.34,
+    "price": 10808.57,
+    "change": 25.7,
+    "change_pct": 0.24,
     "hist": [
      10636.71,
      10606.0,
@@ -1231,9 +1231,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8316.76,
-    "change": 83.47,
-    "change_pct": 1.01,
+    "price": 8304.48,
+    "change": 71.19,
+    "change_pct": 0.86,
     "hist": [
      8035.87,
      7964.51,
@@ -1305,9 +1305,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6354.02,
-    "change": 63.57,
-    "change_pct": 1.01,
+    "price": 6351.27,
+    "change": 60.82,
+    "change_pct": 0.97,
     "hist": [
      6320.27,
      6269.03,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4099.496,
-    "change": -15.004,
-    "change_pct": -0.36,
-    "quote_time": "17:29:27 2026-11-10"
+    "price": 4094.668,
+    "change": -19.832,
+    "change_pct": -0.48,
+    "quote_time": "17:37:36 2026-11-10"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.498,
-    "change": -0.195,
-    "change_pct": -0.37,
-    "quote_time": "17:29:05 2026-11-10"
+    "price": 52.524,
+    "change": -0.169,
+    "change_pct": -0.32,
+    "quote_time": "17:37:30 2026-11-10"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.804,
-    "change": -2.046,
-    "change_pct": -2.36,
-    "quote_time": "17:29:28 2026-11-10"
+    "price": 84.324,
+    "change": -2.526,
+    "change_pct": -2.91,
+    "quote_time": "17:37:37 2026-11-10"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 90.256,
-    "change": -2.314,
-    "change_pct": -2.5,
-    "quote_time": "17:29:25 2026-11-10"
+    "price": 89.669,
+    "change": -2.901,
+    "change_pct": -3.13,
+    "quote_time": "17:37:35 2026-11-10"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74473.2,
-    "change": 166.0,
-    "change_pct": 0.22,
+    "price": 74385.5,
+    "change": -5.3,
+    "change_pct": -0.01,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2105.52,
-    "change": -5.35,
-    "change_pct": -0.25,
+    "price": 2099.03,
+    "change": -13.59,
+    "change_pct": -0.64,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 85.44,
-    "change": -1.34,
-    "change_pct": -1.54,
+    "price": 85.34,
+    "change": -1.63,
+    "change_pct": -1.87,
     "source": "okx"
    }
   ]
@@ -1465,18 +1465,18 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 4035,
-   "down": 1101,
-   "flat": 159,
-   "total": 5295,
-   "breadth_pct": 76.2,
+   "up": 4273,
+   "down": 1149,
+   "flat": 155,
+   "total": 5577,
+   "breadth_pct": 76.6,
    "score": 100,
    "source": "东财"
   },
   "vix": {
-   "value": 19.77,
-   "change": -0.15,
-   "change_pct": -0.753,
+   "value": 19.94,
+   "change": 0.02,
+   "change_pct": 0.1004,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1524,8 +1524,8 @@
     },
     {
      "t": "VIX",
-     "value": 19.77,
-     "change_pct": -0.753
+     "value": 19.94,
+     "change_pct": 0.1004
     },
     {
      "t": "VIX3M",
@@ -1553,55 +1553,44 @@
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储理事沃勒支持12月加息，并表示对加息50个基点持开放态度",
-   "summary": "美联储理事沃勒：经济强劲，就业稳定，通胀过高。\n\n尤其担忧通胀的广泛性。\n\n研究表明，能源价格的传导效应比过去更强。\n\n如果10月核心CPI超过0.3%，应考虑加息50个基点。\n\n即使10月通胀改善，也支持加息25个基点。",
-   "time": "2026-11-10 17:00",
-   "url": "https://wallstreetcn.com/livenews/3197580",
-   "source": "华尔街见闻",
-   "mentions": 2
+   "title": "美联储理事沃勒：支持下月加息25个基点 必要时50个基点 - 观点网",
+   "summary": "",
+   "time": "2026-11-10 17:26",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LczZCVHYxYVJOcTRNc2s2am13ampsb3ZZTjVtNjhVV2tJcWdMZVJmT1JGZzdqY0NWVUlBTjJDM2tUdWFvZnlZV2Y3Tm9mbHZZUlpCb2I1V3NNMnBGdWFsZnZn?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
   },
   {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "据报马斯克等美国商界领袖随特朗普出席APEC 黄仁勋存变数 - 观点网",
+   "title": "原来，加拿大十年磨一剑，只为让特朗普“流血” - 观察者网",
    "summary": "",
-   "time": "2026-11-10 16:17",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA2dy1hMDR0N1pFZm05X29EOHFrVjJnbUpLVDlOd2diMEcybzI2RmdIMWNXOU5CSnA4QXhmaDEtdm5YWnoxZkRnYjhITlZSUQ?oc=5",
+   "time": "2026-11-10 17:17",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OYXdHWGdLbURFb1pMaHZUMFIzQlJXYnYtQTFJdGpZSVpDdnVMZ2dhWVNwaXFpWVpWLV9DZXBZS0NiYjF0NDV0bTFRVkMxZFVldGhibVNMbFI2MVpRNmVXMjNFMUhnQlQteWU1SDFoekEydjg?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
+   "mentions": 2
+  },
+  {
+   "keyword": "证监会",
+   "label": "证监会",
+   "hint": "A股核心监管机构的政策直接影响市场情绪",
+   "title": "ST龙大：公司因涉嫌信息披露违法违规被中国证监会立案",
+   "summary": "",
+   "time": "2026-11-10 09:41:20",
+   "url": "https://news.futunn.com/flash/1004015262/st-longda-the-company-is-under-investigation-by-the-china",
+   "source": "富途",
+   "mentions": 1
   },
   {
    "keyword": "马斯克",
    "label": "马斯克",
    "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "据报马斯克等美国商界领袖随特朗普出席APEC 黄仁勋存变数 - 观点网",
+   "title": "马斯克：Grok 4.8已进入强化学习阶段 本周将小范围推送",
    "summary": "",
-   "time": "2026-11-10 16:17",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA2dy1hMDR0N1pFZm05X29EOHFrVjJnbUpLVDlOd2diMEcybzI2RmdIMWNXOU5CSnA4QXhmaDEtdm5YWnoxZkRnYjhITlZSUQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "据报马斯克等美国商界领袖随特朗普出席APEC 黄仁勋存变数 - 观点网",
-   "summary": "",
-   "time": "2026-11-10 16:17",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA2dy1hMDR0N1pFZm05X29EOHFrVjJnbUpLVDlOd2diMEcybzI2RmdIMWNXOU5CSnA4QXhmaDEtdm5YWnoxZkRnYjhITlZSUQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "国务院",
-   "label": "国务院",
-   "hint": "国务院级经济政策影响宏观环境",
-   "title": "李强签署国务院令 公布修订后的《基金会管理条例》",
-   "summary": "",
-   "time": "2026-11-10 09:03:01",
-   "url": "https://news.10jqka.com.cn/20261110/c681664742.shtml",
-   "source": "同花顺",
+   "time": "2026-11-10 09:38:11",
+   "url": "https://news.futunn.com/flash/1004014775/elon-musk-grok-4-8-has-entered-the-reinforcement-learning",
+   "source": "富途",
    "mentions": 1
   },
   {
@@ -1723,46 +1712,46 @@
  "alerts": [],
  "news": [
   {
-   "title": "美联储理事沃勒支持12月加息，并表示对加息50个基点持开放态度",
-   "summary": "美联储理事沃勒：经济强劲，就业稳定，通胀过高。\n\n尤其担忧通胀的广泛性。\n\n研究表明，能源价格的传导效应比过去更强。\n\n如果10月核心CPI超过0.3%，应考虑加息50个基点。\n\n即使10月通胀改善，也支持加息25个基点。",
-   "time": "2026-11-10 17:00",
-   "url": "https://wallstreetcn.com/livenews/3197580",
+   "title": "法德10年期国债收益率差收窄至142.8个基点，为10月19日以来最低。",
+   "summary": "法德10年期国债收益率差收窄至142.8个基点，为10月19日以来最低。",
+   "time": "2026-11-10 17:42",
+   "url": "https://wallstreetcn.com/livenews/3197605",
    "source": "华尔街见闻"
   },
   {
-   "title": "软银CFO表示数据中心延期不会带来直接风险",
-   "summary": "软银CFO表示，数据中心延期不会带来直接风险。",
-   "time": "2026-11-10 16:59:28",
-   "url": "https://finance.eastmoney.com/a/202611103927360525.html",
+   "title": "南向资金净卖逾27亿港元 净买入阿里巴巴-W近9亿港元",
+   "summary": "【南向资金净卖逾27亿港元 净买入阿里巴巴-W近9亿港元】南向十大成交股中，阿里巴巴-W、中芯国际、华虹宏力分别获净买入8.68亿港元、2.16亿港元、2.06亿港元。盈富基金、腾讯控股、长飞光纤光缆分别遭净卖出6.90亿港元、6.14亿港元、3.03亿港元。",
+   "time": "2026-11-10 17:37:49",
+   "url": "https://finance.eastmoney.com/a/202611103927386780.html",
    "source": "东财国际"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "壹评级发布科达制造首次评级 - 第一财经",
    "summary": "",
-   "time": "2026-11-10 16:59",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52NTZlV3g4a0VQZWUweUdkLThvTmtZdVhVbHNMdTBLUnV2alB3UGVjMFd4ZUtUbm4tZ0tvWG5ZeFFYTTZfdFdVeA?oc=5",
+   "time": "2026-11-10 17:37",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE45by1XUV9VM1dUU0dnTXNsNlpQWUhtZ1NiWDZncHMteG1vTl9vSXNkaEFSb1FtYzFkQnNmWlJST1VydnA1bUZqdzBwUTBjd2FJaXV3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "据报马斯克等美国商界领袖随特朗普出席APEC 黄仁勋存变数 - 观点网",
+   "title": "美联储理事沃勒：支持下月加息25个基点 必要时50个基点 - 观点网",
    "summary": "",
-   "time": "2026-11-10 16:17",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA2dy1hMDR0N1pFZm05X29EOHFrVjJnbUpLVDlOd2diMEcybzI2RmdIMWNXOU5CSnA4QXhmaDEtdm5YWnoxZkRnYjhITlZSUQ?oc=5",
+   "time": "2026-11-10 17:26",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LczZCVHYxYVJOcTRNc2s2am13ampsb3ZZTjVtNjhVV2tJcWdMZVJmT1JGZzdqY0NWVUlBTjJDM2tUdWFvZnlZV2Y3Tm9mbHZZUlpCb2I1V3NNMnBGdWFsZnZn?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "李强签署国务院令 公布修订后的《基金会管理条例》",
+   "title": "ST龙大：公司因涉嫌信息披露违法违规被中国证监会立案",
    "summary": "",
-   "time": "2026-11-10 09:03:01",
-   "url": "https://news.10jqka.com.cn/20261110/c681664742.shtml",
-   "source": "同花顺"
+   "time": "2026-11-10 09:41:20",
+   "url": "https://news.futunn.com/flash/1004015262/st-longda-the-company-is-under-investigation-by-the-china",
+   "source": "富途"
   },
   {
-   "title": "美联储理事沃勒：将支持下月加息25个基点 必要时50个基点",
+   "title": "杰瑞股份：拟以1亿元-2亿元回购公司股份",
    "summary": "",
-   "time": "2026-11-10 09:02:12",
-   "url": "https://news.futunn.com/flash/1004009236/federal-reserve-governor-christopher-waller-will-support-a-25-basis",
-   "source": "富途"
+   "time": "2026-11-10 09:40:51",
+   "url": "https://news.10jqka.com.cn/20261110/c681667580.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月10日周二",
@@ -1779,46 +1768,46 @@
    "source": "财新"
   },
   {
-   "title": "郑商所：经研究决定，2026年11月12日葵花籽油期货首批上市交易合约SO2705、SO2707、SO2709和SO2711的挂牌基准价为10000元/吨。",
-   "summary": "郑商所：经研究决定，2026年11月12日葵花籽油期货首批上市交易合约SO2705、SO2707、SO2709和SO2711的挂牌基准价为10000元/吨。",
-   "time": "2026-11-10 16:59",
-   "url": "https://wallstreetcn.com/livenews/3197579",
+   "title": "杰瑞股份：拟以现金对全资子公司杰瑞敏电增资9亿元，其中使用募集资金8.5亿元和自有资金5000万元，增资后杰瑞敏电注册资本由1亿元增至10亿元，以推动电力业务发展、扩大生产规模及产能升级。",
+   "summary": "杰瑞股份：拟以现金对全资子公司杰瑞敏电增资9亿元，其中使用募集资金8.5亿元和自有资金5000万元，增资后杰瑞敏电注册资本由1亿元增至10亿元，以推动电力业务发展、扩大生产规模及产能升级。",
+   "time": "2026-11-10 17:40",
+   "url": "https://wallstreetcn.com/livenews/3197604",
    "source": "华尔街见闻"
   },
   {
-   "title": "联发科10月销售额550.3亿元台币",
-   "summary": "【联发科10月销售额550.3亿元台币】联发科10月销售额550.3亿元台币，同比增长5.77%。",
-   "time": "2026-11-10 16:57:59",
-   "url": "https://finance.eastmoney.com/a/202611103927358388.html",
+   "title": "泡泡玛特11月10日以4980万港元回购34万股",
+   "summary": "泡泡玛特11月10日以4980万港元回购34万股。",
+   "time": "2026-11-10 17:36:16",
+   "url": "https://finance.eastmoney.com/a/202611103927387693.html",
    "source": "东财国际"
   },
   {
-   "title": "【VIP日报】端侧AI概念走强，栏目精选研报数据，核心公司5日收获3板 - 财联社",
+   "title": "壹评级发布中金黄金首次评级 - 第一财经",
    "summary": "",
-   "time": "2026-11-10 16:56",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA0RThfMXBLc1R0Uks4dHNFelZpOWhHUzUzLWJoemlxZVNfbTBLbkltUUoyTGdid3ZOZEp3MWkxNkFDMmtzeDBmSA?oc=5",
+   "time": "2026-11-10 17:04",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE56dldRQS1VSzgxeDVoNFEyb2ExZzEwcEJleUpUV0RLek9KNk9Hb1RRN2lmWVh6N3BwcDVLUVJPUVhjUFhma2JWNGxyeXdjQWpwVk9B?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普质疑中期选举结果 民主党人回应：迟早的事 - 中国新闻网",
+   "title": "原来，加拿大十年磨一剑，只为让特朗普“流血” - 观察者网",
    "summary": "",
-   "time": "2026-11-10 16:02",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40UVA5RmJvaTBXR3VWWi1zaDduR1ZLek51WW83eFU4a05ORDNCaXAxeExoUUtrazRpMzFZVWlnNV9WWTh5Y1JZNy1rU3hJbmMyUDNkd0QyWmYyYk15RTk5OE9uMmJzejVP?oc=5",
+   "time": "2026-11-10 17:17",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9OYXdHWGdLbURFb1pMaHZUMFIzQlJXYnYtQTFJdGpZSVpDdnVMZ2dhWVNwaXFpWVpWLV9DZXBZS0NiYjF0NDV0bTFRVkMxZFVldGhibVNMbFI2MVpRNmVXMjNFMUhnQlQteWU1SDFoekEydjg?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "现货白银跌超2%",
+   "title": "马斯克：Grok 4.8已进入强化学习阶段 本周将小范围推送",
    "summary": "",
-   "time": "2026-11-10 09:02:16",
-   "url": "https://news.10jqka.com.cn/20261110/c681664681.shtml",
-   "source": "同花顺"
+   "time": "2026-11-10 09:38:11",
+   "url": "https://news.futunn.com/flash/1004014775/elon-musk-grok-4-8-has-entered-the-reinforcement-learning",
+   "source": "富途"
   },
   {
-   "title": "特朗普称暂不打伊朗 布油跌破90美元",
+   "title": "古汉医药：董事长江琎不再兼任总裁，聘任胡琪龙接任",
    "summary": "",
-   "time": "2026-11-10 09:00:29",
-   "url": "https://news.futunn.com/flash/1004008855/trump-rules-out-immediate-military-action-against-iran-brent-crude",
-   "source": "富途"
+   "time": "2026-11-10 09:40:12",
+   "url": "https://news.10jqka.com.cn/20261110/c681667518.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月9日周一",
@@ -1835,46 +1824,46 @@
    "source": "财新"
   },
   {
-   "title": "软银首席财务官：软银认为数据中心延期不会带来直接风险。",
-   "summary": "软银首席财务官：软银认为数据中心延期不会带来直接风险。",
-   "time": "2026-11-10 16:58",
-   "url": "https://wallstreetcn.com/livenews/3197578",
+   "title": "泡泡玛特：11月10日以4980万港元回购34万股。",
+   "summary": "泡泡玛特：11月10日以4980万港元回购34万股。",
+   "time": "2026-11-10 17:37",
+   "url": "https://wallstreetcn.com/livenews/3197600",
    "source": "华尔街见闻"
   },
   {
-   "title": "新开普：拟3000万元至6000万元回购公司股份",
-   "summary": "【新开普：拟3000万元至6000万元回购公司股份】新开普(300248.SZ)公告称，公司拟使用自有资金及/或自筹资金以集中竞价方式回购公司股份，回购资金总额不低于3000万元且不超过6000万元，回购价格不超过12.37元/股。",
-   "time": "2026-11-10 16:57:32",
-   "url": "https://finance.eastmoney.com/a/202611103927358463.html",
+   "title": "摩恩电气：拟增资不超4.5亿元建设泰国电缆生产基地",
+   "summary": "【摩恩电气：拟增资不超4.5亿元建设泰国电缆生产基地】摩恩电气(002451.SZ)公告称，公司拟以自有或自筹资金不超过4.5亿元分批次向全资子公司致动电气增资，再通过致动电气向泰国致动增资，用于建设海外电缆生产基地。项目选址泰国罗勇府，主要生产面向北美市场的UL标准电力电缆、光伏电缆等产品。",
+   "time": "2026-11-10 17:34:14",
+   "url": "https://finance.eastmoney.com/a/202611103927385296.html",
    "source": "东财国际"
   },
   {
-   "title": "30股获买入评级 最新:华中数控 - 中财网",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-10 16:51",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EakprcmhPTndiZURRVUMzcFQ1VGYwQTRIcXphVjNDU29ULUZsSTJRN1JLUVBSTzJoSURTSUdXNlJpUlk3WGhyQzlGbHYwcURJQ0NOUDVn?oc=5",
+   "time": "2026-11-10 16:59",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52NTZlV3g4a0VQZWUweUdkLThvTmtZdVhVbHNMdTBLUnV2alB3UGVjMFd4ZUtUbm4tZ0tvWG5ZeFFYTTZfdFdVeA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普：伊朗战事从军事角度“实际上已结束” - 中国新闻网",
+   "title": "赫格塞思淡化弹劾担忧，称历史将“善待”特朗普 - 京报网",
    "summary": "",
-   "time": "2026-11-10 15:49",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TbThqajFZS3ZiTERwX3A5NGRUbVhWSnhaNk96Tmc3d0tkUlpZeG92dmdQcS1Db2d4WXhFQm40bG9sWkJ1TjZSOFJrTzJsMnB4S3JyTU54d1lxX3h2SmRqcW9aNDRpVUpf?oc=5",
+   "time": "2026-11-10 17:05",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HdE5SVlA5NzZqOGlRTnhTdUpYbnBFNkxyX05DdFdlZUoxTjl1QmQ2YTgtZXNBV2d0MEo5VzNmZ3lHY0ZMRUpCeTVURTJ4cWFHRnpfNG9aSEllUzBJbmc?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美股大型科技股盘前多数下跌，英伟达涨超1%",
+   "title": "崔东树：出口的结构性红利正在重塑自主品牌的竞争位次",
    "summary": "",
-   "time": "2026-11-10 09:01:17",
-   "url": "https://news.10jqka.com.cn/20261110/c681664636.shtml",
-   "source": "同花顺"
+   "time": "2026-11-10 09:36:52",
+   "url": "https://news.futunn.com/flash/1004014651/cui-dongshu-structural-dividends-from-exports-are-reshaping-the-competitive",
+   "source": "富途"
   },
   {
-   "title": "中信建投黄文涛：2027年中国资本市场将呈现股债汇三牛",
+   "title": "方盛制药：拟受让两项药品上市许可，乙酰半胱氨酸颗粒研发投入550万元",
    "summary": "",
-   "time": "2026-11-10 08:59:45",
-   "url": "https://news.futunn.com/flash/1004008710/china-securities-huang-wentao-china-s-capital-markets-to-see",
-   "source": "富途"
+   "time": "2026-11-10 09:35:26",
+   "url": "https://news.10jqka.com.cn/20261110/c681667220.shtml",
+   "source": "同花顺"
   },
   {
    "title": "苏德巍认为，AI基础设施投资短期难免波动，但长期需求未变，不能因政治争议忽视战略价值",
@@ -1884,10 +1873,10 @@
    "source": "财新"
   },
   {
-   "title": "欧元兑英镑上涨0.2%至0.83639，创10月30日以来新高。",
-   "summary": "欧元兑英镑上涨0.2%至0.83639，创10月30日以来新高。",
-   "time": "2026-11-10 16:58",
-   "url": "https://wallstreetcn.com/livenews/3197577",
+   "title": "瑞银将先导智能A股评级上调至中性，目标价34.60元人民币。",
+   "summary": "瑞银将先导智能A股评级上调至中性，目标价34.60元人民币。",
+   "time": "2026-11-10 17:28",
+   "url": "https://wallstreetcn.com/livenews/3197597",
    "source": "华尔街见闻"
   }
  ],
@@ -1895,7 +1884,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(26)",
+   "富途": "ok(15)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1908,8 +1897,8 @@
    "东财国际": 7,
    "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
