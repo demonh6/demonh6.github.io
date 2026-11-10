@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-10 13:15:12 CST",
- "generated_at_iso": "2026-11-10T13:15:12+08:00",
+ "generated_at": "2026-11-10 13:23:19 CST",
+ "generated_at_iso": "2026-11-10T13:23:19+08:00",
  "date": "2026-11-10",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -545,9 +545,9 @@
     "name": "恒生指数",
     "code": "HSI",
     "sym": "HSI",
-    "price": 24518.871,
-    "change": 69.92,
-    "change_pct": 0.29,
+    "price": 24507.74,
+    "change": 58.789,
+    "change_pct": 0.24,
     "hist": [
      24510.0898,
      24642.5098,
@@ -621,9 +621,9 @@
     "name": "恒生科技指数",
     "code": "HSTECH",
     "sym": "HSTECH",
-    "price": 4069.03,
-    "change": 28.3,
-    "change_pct": 0.7,
+    "price": 4068.2,
+    "change": 27.47,
+    "change_pct": 0.68,
     "hist": [
      4311.7798,
      4296.0,
@@ -697,9 +697,9 @@
     "name": "恒生中国企业指数",
     "code": "HSCEI",
     "sym": "HSCEI",
-    "price": 8263.03,
-    "change": 2.88,
-    "change_pct": 0.04,
+    "price": 8259.02,
+    "change": -1.131,
+    "change_pct": -0.01,
     "hist": [
      8165.7798,
      8216.8398,
@@ -1655,37 +1655,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4124.765,
-    "change": 10.265,
-    "change_pct": 0.25,
-    "quote_time": "13:15:07 2026-11-10"
+    "price": 4128.7,
+    "change": 14.2,
+    "change_pct": 0.35,
+    "quote_time": "13:24:19 2026-11-10"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 53.194,
-    "change": 0.501,
-    "change_pct": 0.95,
-    "quote_time": "13:15:07 2026-11-10"
+    "price": 53.415,
+    "change": 0.722,
+    "change_pct": 1.37,
+    "quote_time": "13:24:00 2026-11-10"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.784,
-    "change": -1.066,
-    "change_pct": -1.23,
-    "quote_time": "13:15:17 2026-11-10"
+    "price": 85.759,
+    "change": -1.091,
+    "change_pct": -1.26,
+    "quote_time": "13:24:01 2026-11-10"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.525,
-    "change": -1.045,
-    "change_pct": -1.13,
-    "quote_time": "13:15:16 2026-11-10"
+    "price": 91.514,
+    "change": -1.056,
+    "change_pct": -1.14,
+    "quote_time": "13:24:25 2026-11-10"
    }
   ],
   "crypto": [
@@ -1693,27 +1693,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74860.1,
-    "change": 293.1,
-    "change_pct": 0.39,
+    "price": 74825.8,
+    "change": 244.3,
+    "change_pct": 0.33,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2125.94,
-    "change": -11.03,
-    "change_pct": -0.52,
+    "price": 2123.22,
+    "change": -12.28,
+    "change_pct": -0.58,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 86.25,
-    "change": -0.88,
-    "change_pct": -1.01,
+    "price": 86.04,
+    "change": -1.07,
+    "change_pct": -1.23,
     "source": "okx"
    }
   ]
@@ -1976,14 +1976,14 @@
    "level": "warning",
    "asset": "台湾加权",
    "message": "台湾加权单日涨4.94%，达20日历史波动率的 2.3 倍（σ=2.12%，突破 2σ 警戒线）",
-   "time": "2026-11-10 13:15",
+   "time": "2026-11-10 13:24",
    "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、标普500、台湾加权等 5 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-10 13:15",
+   "time": "2026-11-10 13:24",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
@@ -2250,6 +2250,8 @@
   "color": "#c28a3d",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "A股指数": "ReadTimeout: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
