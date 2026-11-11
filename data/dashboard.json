@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-11 09:30:53 CST",
- "generated_at_iso": "2026-11-11T09:30:53+08:00",
+ "generated_at": "2026-11-11 09:39:22 CST",
+ "generated_at_iso": "2026-11-11T09:39:22+08:00",
  "date": "2026-11-11",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 60993.22,
-    "change": 533.64,
-    "change_pct": 0.88,
+    "price": 61135.5,
+    "change": 675.92,
+    "change_pct": 1.12,
     "hist": [
      65481.27,
      66753.72,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5269.54,
-    "change": 30.41,
-    "change_pct": 0.58,
+    "price": 5308.17,
+    "change": 69.04,
+    "change_pct": 1.32,
     "hist": [
      6870.81,
      6838.04,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4047.72,
-    "change": 17.52,
-    "change_pct": 0.43,
-    "quote_time": "09:30:59 2026-11-11"
+    "price": 4055.26,
+    "change": 25.06,
+    "change_pct": 0.62,
+    "quote_time": "09:40:25 2026-11-11"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.071,
-    "change": 0.846,
-    "change_pct": 1.65,
-    "quote_time": "09:30:59 2026-11-11"
+    "price": 52.384,
+    "change": 1.159,
+    "change_pct": 2.26,
+    "quote_time": "09:40:25 2026-11-11"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.166,
-    "change": 0.126,
-    "change_pct": 0.15,
-    "quote_time": "09:30:58 2026-11-11"
+    "price": 86.193,
+    "change": 0.153,
+    "change_pct": 0.18,
+    "quote_time": "09:40:24 2026-11-11"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.87,
-    "change": 0.38,
-    "change_pct": 0.42,
-    "quote_time": "09:30:56 2026-11-11"
+    "price": 91.881,
+    "change": 0.391,
+    "change_pct": 0.43,
+    "quote_time": "09:40:23 2026-11-11"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 73817.6,
-    "change": -1249.3,
-    "change_pct": -1.66,
+    "price": 73948.2,
+    "change": -1110.9,
+    "change_pct": -1.48,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2057.87,
-    "change": -67.92,
-    "change_pct": -3.2,
+    "price": 2062.9,
+    "change": -63.23,
+    "change_pct": -2.97,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 83.5,
-    "change": -2.95,
-    "change_pct": -3.41,
+    "price": 83.87,
+    "change": -2.62,
+    "change_pct": -3.03,
     "source": "okx"
    }
   ]
@@ -1465,12 +1465,12 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 2154,
-   "down": 2593,
-   "flat": 549,
+   "up": 3433,
+   "down": 1506,
+   "flat": 357,
    "total": 5296,
-   "breadth_pct": 40.7,
-   "score": 31.4,
+   "breadth_pct": 64.8,
+   "score": 79.6,
    "source": "东财"
   },
   "vix": {
@@ -1543,23 +1543,12 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 30.2,
-   "label": "恐惧",
-   "color": "#f58a3d"
+   "score": 54.3,
+   "label": "中性",
+   "color": "#d9b23c"
   }
  },
  "speakers": [
-  {
-   "keyword": "中国央行",
-   "label": "中国央行",
-   "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
-   "title": "中国央行公开市场今日开展1870亿元人民币隔夜逆回购操作，利率为1.25%。中国央行公开市场今日净回笼30亿元人民币。",
-   "summary": "中国央行公开市场今日开展1870亿元人民币隔夜逆回购操作，利率为1.25%。中国央行公开市场今日净回笼30亿元人民币。",
-   "time": "2026-11-11 09:21",
-   "url": "https://wallstreetcn.com/livenews/3198024",
-   "source": "华尔街见闻",
-   "mentions": 2
-  },
   {
    "keyword": "美联储",
    "label": "美联储",
@@ -1601,6 +1590,17 @@
    "summary": "【东方财富财经早餐 11月10日周二】1、中方尚未批准约60万枚先进AI芯片的大规模进口？外交部回应。2、“星云星座计划”发布，我国太空算力网加快部署。3、中信建投、华泰、浙商出手买入，至少10家券商已进场，增量资金加速入市。",
    "time": "2026-11-10 06:00:20",
    "url": "http://finance.eastmoney.com/a/202611093926582211.html",
+   "source": "东财早报",
+   "mentions": 1
+  },
+  {
+   "keyword": "中国央行",
+   "label": "中国央行",
+   "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
+   "title": "东方财富财经早餐 11月9日周一",
+   "summary": "【东方财富财经早餐 11月9日周一】1、国常会：完善资本市场稳市机制，增强股市内在稳定性。2、发改委召开民营企业座谈会，围绕抓好年内经济工作落实、研究明年政策举措听取意见建议。3、中国央行黄金储备“24连增”。",
+   "time": "2026-11-09 06:00:46",
+   "url": "http://finance.eastmoney.com/a/202611083925667993.html",
    "source": "东财早报",
    "mentions": 1
   },
@@ -1711,80 +1711,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "国债期货开盘，30年期主力合约跌0.14%，10年期主力合约跌0.03%，5年期主力合约跌0.02%，2年期主力合约跌0.01%。",
-   "summary": "国债期货开盘，30年期主力合约跌0.14%，10年期主力合约跌0.03%，5年期主力合约跌0.02%，2年期主力合约跌0.01%。",
-   "time": "2026-11-11 09:29",
-   "url": "https://wallstreetcn.com/livenews/3198028",
-   "source": "华尔街见闻"
+   "title": "美股纳斯达克100指数期货涨超1%",
+   "summary": "美股纳斯达克100指数期货涨超1%，标普500指数期货涨0.47%，道琼斯指数期货涨0.24%。",
+   "time": "2026-11-11 09:38:37",
+   "url": "https://finance.eastmoney.com/a/202611113928205611.html",
+   "source": "东财国际"
   },
   {
-   "title": "贾国龙全额质押所持西贝集团股权",
-   "summary": "【贾国龙全额质押所持西贝集团股权】记者11月10日从企查查获悉，西贝创始人贾国龙已将其直接持有的内蒙古西贝餐饮集团有限公司股权全部质押，出质股权数额2660.4027万元，质权人为上海浦东发展银行股份有限公司北京分行，登记状态为有效。",
-   "time": "2026-11-11 09:28:30",
-   "url": "https://finance.eastmoney.com/a/202611113928200434.html",
-   "source": "东财国际"
+   "title": "韩国首尔总涨幅扩大至1%。",
+   "summary": "韩国首尔总涨幅扩大至1%。",
+   "time": "2026-11-11 09:38",
+   "url": "https://wallstreetcn.com/livenews/3198037",
+   "source": "华尔街见闻"
   },
   {
    "title": "美联储理事支持12月加息 或考虑更大幅度 - 中华网",
    "summary": "",
    "time": "2026-11-11 09:19",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16TVQ4MVVoTmc5Y0lQcktwX25VRmstdjZiTFNkSHRRUl8wNkQ2b3NvVTlzU1N1VVpQM0w1a2pPbTBDWk54N3ZEclR4MV9KclhNYzdQeE1nTzZlbjQwRzNINWFZbmFjMkxsODVoVTloYng?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "城投控股目标价涨幅超60%，通用股份、赛力斯评级被调低丨券商评级观察 - 21财经",
-   "summary": "",
-   "time": "2026-11-11 09:02",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRlJHYk4zSlZlbWwwOUd5SzFtTWd2LUkzTzNCRzF6N1VwZGNBci0tNG9vYlJma0tvQjVnLVdsZnNGczhkYmRfV0VWYkZYRUlrcGxKT0t2N0NZY2tuc2QxV0FhZ0FrN3pHM0p0bm1KQkh1VlY3NjJ6VjRmZVJYb00tcGxDcjNpMzlRb3d6Z3AxTQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "东方财富财经早餐 11月11日周三",
-   "summary": "【东方财富财经早餐 11月11日周三】1、美国10月CPI环比增长0.4%，高于市场预期，12月加息概率仍维持在100%。2、新一轮俄美乌三方会谈10日在阿布扎比举行，泽连斯基称首日会谈具有建设性。3、阿里巴巴已申请平头哥赴港独立上市。",
-   "time": "2026-11-11 06:00:38",
-   "url": "http://finance.eastmoney.com/a/202611103927671985.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "现货白银站上52美元/盎司",
-   "summary": "",
-   "time": "2026-11-11 01:30:48",
-   "url": "https://news.10jqka.com.cn/20261111/c681686034.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "CoreWeave：与英伟达的合作关系没有理由发生改变",
-   "summary": "",
-   "time": "2026-11-11 01:28:54",
-   "url": "https://news.futunn.com/flash/1004098418/coreweave-no-reason-for-change-in-partnership-with-nvidia",
-   "source": "富途"
-  },
-  {
-   "title": "AI投资回报问题可能引发“股票估值大幅回调”的风险，同时还提及“私营部门长期利率急剧上升”的隐患",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-11/102503340.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "上证指数开盘报3655.66点，跌0.22%。\n\n深证成指开盘报11205.35点，跌0.32%。\n\n创业板指开盘报2490.10点，跌0.17%。\n\n沪深300开盘报4049.43点，跌0.24%。\n\n科创50开盘报1260.07点，跌0",
-   "summary": "上证指数开盘报3655.66点，跌0.22%。\n\n深证成指开盘报11205.35点，跌0.32%。\n\n创业板指开盘报2490.10点，跌0.17%。\n\n沪深300开盘报4049.43点，跌0.24%。\n\n科创50开盘报1260.07点，跌0.39%。\n\n中证500开盘报6623.12点，跌0.34%。\n\n中证1000开盘报6555.14点，跌0.37%。",
-   "time": "2026-11-11 09:25",
-   "url": "https://wallstreetcn.com/livenews/3198026",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "港股新股新荷花涨超27% 公开发售阶段获超2100倍认购",
-   "summary": "【港股新股新荷花涨超27% 公开发售阶段获超2100倍认购】截至发稿，新荷花(02206.HK)涨27.06%。根据公告，公开发售阶段获2190.99倍认购，国际配售阶段获1.25倍认购。",
-   "time": "2026-11-11 09:26:41",
-   "url": "https://finance.eastmoney.com/a/202611113928201161.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "特朗普被曝接近敲定新任白宫发言人 保守派评论员弗格森成热门人选 - 凤凰网",
-   "summary": "",
-   "time": "2026-11-11 09:15",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85dldZMkVOQzFUa1llMXh6SHgtdldSRFJGVUFTbFBOZFgxc3VQdVhSaHJtc2pBR3ZnWTBzS2cyYmU4M2FHMWdGQm1ydDlXUXBnd1E?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1795,52 +1739,52 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "东方财富财经早餐 11月10日周二",
-   "summary": "【东方财富财经早餐 11月10日周二】1、中方尚未批准约60万枚先进AI芯片的大规模进口？外交部回应。2、“星云星座计划”发布，我国太空算力网加快部署。3、中信建投、华泰、浙商出手买入，至少10家券商已进场，增量资金加速入市。",
-   "time": "2026-11-10 06:00:20",
-   "url": "http://finance.eastmoney.com/a/202611093926582211.html",
+   "title": "东方财富财经早餐 11月11日周三",
+   "summary": "【东方财富财经早餐 11月11日周三】1、美国10月CPI环比增长0.4%，高于市场预期，12月加息概率仍维持在100%。2、新一轮俄美乌三方会谈10日在阿布扎比举行，泽连斯基称首日会谈具有建设性。3、阿里巴巴已申请平头哥赴港独立上市。",
+   "time": "2026-11-11 06:00:38",
+   "url": "http://finance.eastmoney.com/a/202611103927671985.html",
    "source": "东财早报"
   },
   {
-   "title": "股指期货早盘开盘 主力合约集体低开",
+   "title": "澳洲联邦银行：美债收益率有继续上升空间",
    "summary": "",
-   "time": "2026-11-11 01:29:17",
-   "url": "https://news.10jqka.com.cn/20261111/c681685985.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "港股开市：科指跌0.96%，蔚来跌超3%，理想汽车跌近3%",
-   "summary": "",
-   "time": "2026-11-11 01:20:00",
-   "url": "https://news.futunn.com/flash/1004097631",
+   "time": "2026-11-11 01:39:40",
+   "url": "https://news.futunn.com/flash/1004099502/commonwealth-bank-of-australia-us-treasury-yields-have-room-to",
    "source": "富途"
   },
   {
-   "title": "加息预期和CPI刺激收益率创出关税危机以来最大涨幅",
+   "title": "钢铁板块短线拉升，三钢闽光涨停",
+   "summary": "",
+   "time": "2026-11-11 01:39:27",
+   "url": "https://news.10jqka.com.cn/20261111/c681686469.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "理事沃勒称12月或需加息50基点，达拉斯联储行长洛根表示支持至少再进行两次幅度25基点的加息",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-11/102503338.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-11/102503341.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "中国央行公开市场今日开展1870亿元人民币隔夜逆回购操作，利率为1.25%。中国央行公开市场今日净回笼30亿元人民币。",
-   "summary": "中国央行公开市场今日开展1870亿元人民币隔夜逆回购操作，利率为1.25%。中国央行公开市场今日净回笼30亿元人民币。",
-   "time": "2026-11-11 09:21",
-   "url": "https://wallstreetcn.com/livenews/3198024",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "A股开盘：三大指数集体低开",
-   "summary": "【A股开盘：三大指数集体低开】A股开盘，上证指数低开0.22%，深证成指低开0.32%，创业板指低开0.17%。贵金属、小金属、工业金属板块跌幅居前。",
-   "time": "2026-11-11 09:25:58",
-   "url": "https://finance.eastmoney.com/a/202611113928200812.html",
+   "title": "CPO概念震荡反弹 剑桥科技涨停",
+   "summary": "CPO概念震荡反弹，剑桥科技封涨停，太辰光、源杰科技、新易盛、中际旭创等涨超5%。",
+   "time": "2026-11-11 09:36:48",
+   "url": "https://finance.eastmoney.com/a/202611113928204456.html",
    "source": "东财国际"
   },
   {
-   "title": "【早报】深夜巨震，美股、原油、黄金全线下挫；美联储加息押注升温，美债遭遇抛售潮；Anthropic IPO有新进展 - 财联社电报",
+   "title": "A股CPO概念股开盘拉升，剑桥科技涨停，太辰光、中际旭创、仕佳光子、新易盛、源杰科技纷纷走高。",
+   "summary": "A股CPO概念股开盘拉升，剑桥科技涨停，太辰光、中际旭创、仕佳光子、新易盛、源杰科技纷纷走高。",
+   "time": "2026-11-11 09:35",
+   "url": "https://wallstreetcn.com/livenews/3198036",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普被曝接近敲定新任白宫发言人 保守派评论员弗格森成热门人选 - 凤凰网",
    "summary": "",
-   "time": "2026-11-11 09:11",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBXZW14SHY3Uk9lV0Z6SG5NSWZCUDVVNkZna0Y0cXA3Si1GYlRZT042N0lTOHU5TXUwc0JoS191bXBtSG1uR2c?oc=5",
+   "time": "2026-11-11 09:15",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE85dldZMkVOQzFUa1llMXh6SHgtdldSRFJGVUFTbFBOZFgxc3VQdVhSaHJtc2pBR3ZnWTBzS2cyYmU4M2FHMWdGQm1ydDlXUXBnd1E?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1851,6 +1795,62 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "东方财富财经早餐 11月10日周二",
+   "summary": "【东方财富财经早餐 11月10日周二】1、中方尚未批准约60万枚先进AI芯片的大规模进口？外交部回应。2、“星云星座计划”发布，我国太空算力网加快部署。3、中信建投、华泰、浙商出手买入，至少10家券商已进场，增量资金加速入市。",
+   "time": "2026-11-10 06:00:20",
+   "url": "http://finance.eastmoney.com/a/202611093926582211.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "CoreWeave：与英伟达的合作关系没有理由发生改变",
+   "summary": "",
+   "time": "2026-11-11 01:28:54",
+   "url": "https://news.futunn.com/flash/1004098418/coreweave-no-reason-for-change-in-partnership-with-nvidia",
+   "source": "富途"
+  },
+  {
+   "title": "光纤概念板块拉升，华脉科技涨停",
+   "summary": "",
+   "time": "2026-11-11 01:38:04",
+   "url": "https://news.10jqka.com.cn/20261111/c681686421.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "AI投资回报问题可能引发“股票估值大幅回调”的风险，同时还提及“私营部门长期利率急剧上升”的隐患",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-11/102503340.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "端侧AI概念延续强势 日海智能5天3板",
+   "summary": "端侧AI概念延续昨日强势，日海智能走出5天3板，瀛通通讯走出2连板，共达电声、显盈科技、荣旗科技、富瀚微等跟涨。",
+   "time": "2026-11-11 09:36:00",
+   "url": "https://finance.eastmoney.com/a/202611113928203636.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "日经225指数涨幅扩大至1%。",
+   "summary": "日经225指数涨幅扩大至1%。",
+   "time": "2026-11-11 09:34",
+   "url": "https://wallstreetcn.com/livenews/3198034",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "【早报】深夜巨震，美股、原油、黄金全线下挫；美联储加息押注升温，美债遭遇抛售潮；Anthropic IPO有新进展 - 财联社电报",
+   "summary": "",
+   "time": "2026-11-11 09:11",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBXZW14SHY3Uk9lV0Z6SG5NSWZCUDVVNkZna0Y0cXA3Si1GYlRZT042N0lTOHU5TXUwc0JoS191bXBtSG1uR2c?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "壹评级发布中金黄金首次评级 - 第一财经",
+   "summary": "",
+   "time": "2026-11-11 05:04",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE56dldRQS1VSzgxeDVoNFEyb2ExZzEwcEJleUpUV0RLek9KNk9Hb1RRN2lmWVh6N3BwcDVLUVJPUVhjUFhma2JWNGxyeXdjQWpwVk9B?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
    "title": "东方财富财经早餐 11月9日周一",
    "summary": "【东方财富财经早餐 11月9日周一】1、国常会：完善资本市场稳市机制，增强股市内在稳定性。2、发改委召开民营企业座谈会，围绕抓好年内经济工作落实、研究明年政策举措听取意见建议。3、中国央行黄金储备“24连增”。",
    "time": "2026-11-09 06:00:46",
@@ -1858,24 +1858,24 @@
    "source": "东财早报"
   },
   {
-   "title": "ETF开盘：豆粕ETF涨2.21%，黄金股ETF领跌2.96%",
+   "title": "港股开市：科指跌0.96%，蔚来跌超3%，理想汽车跌近3%",
    "summary": "",
-   "time": "2026-11-11 01:28:31",
-   "url": "https://news.10jqka.com.cn/20261111/c681685929.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "美股夜盘：云计算服务商走高，CoreWeave绩后涨超9%，NEBIUS涨近9%",
-   "summary": "",
-   "time": "2026-11-11 01:08:00",
-   "url": "https://news.futunn.com/flash/1004096394/us-stock-market-after-hours-cloud-computing-service-providers-rose",
+   "time": "2026-11-11 01:20:00",
+   "url": "https://news.futunn.com/flash/1004097631",
    "source": "富途"
   },
   {
-   "title": "现阶段重点城市写字楼以价换量短期难以逆转，核心区因需求韧性较强，降幅相对可控，外围新兴商务区与存量老旧楼宇则需以更大让利来换取去化",
+   "title": "造纸板块直线拉升，青山纸业直线涨停",
+   "summary": "",
+   "time": "2026-11-11 01:36:43",
+   "url": "https://news.10jqka.com.cn/20261111/c681686320.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "加息预期和CPI刺激收益率创出关税危机以来最大涨幅",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-11/102503320.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-11/102503338.html?cxapp_link=true",
    "source": "财新"
   }
  ],
@@ -1883,7 +1883,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(18)",
+   "富途": "ok(19)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1892,13 +1892,13 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 6,
    "东财早报": 3,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "财新": 6
   }
  },
@@ -1977,6 +1977,8 @@
   "color": "#c28a3d",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "A股指数": "ReadTimeout: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
