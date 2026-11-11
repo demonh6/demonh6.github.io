@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-12 03:27:47 CST",
- "generated_at_iso": "2026-11-12T03:27:47+08:00",
+ "generated_at": "2026-11-12 03:35:58 CST",
+ "generated_at_iso": "2026-11-12T03:35:58+08:00",
  "date": "2026-11-12",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52436.1406,
-    "change": 204.25,
-    "change_pct": 0.39,
-    "quote_time": "2026-11-12 03:27:45",
+    "price": 52463.7305,
+    "change": 231.84,
+    "change_pct": 0.44,
+    "quote_time": "2026-11-12 03:35:44",
     "hist": [
      50906.0508,
      50926.5586,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25539.0523,
-    "change": 473.1779,
-    "change_pct": 1.89,
-    "quote_time": "2026-11-12 03:27:53",
+    "price": 25528.5946,
+    "change": 462.7202,
+    "change_pct": 1.85,
+    "quote_time": "2026-11-12 03:35:59",
     "hist": [
      26861.0645,
      26871.5957,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7625.1499,
-    "change": 104.22,
-    "change_pct": 1.39,
-    "quote_time": "2026-11-12 03:27:45",
+    "price": 7626.6099,
+    "change": 105.68,
+    "change_pct": 1.41,
+    "quote_time": "2026-11-12 03:35:44",
     "hist": [
      7651.54,
      7666.4502,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3994.14,
-    "change": -36.06,
-    "change_pct": -0.89,
-    "quote_time": "03:27:55 2026-11-12"
+    "price": 3996.756,
+    "change": -33.444,
+    "change_pct": -0.83,
+    "quote_time": "03:36:04 2026-11-12"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 51.794,
-    "change": 0.569,
-    "change_pct": 1.11,
-    "quote_time": "03:27:49 2026-11-12"
+    "price": 51.82,
+    "change": 0.595,
+    "change_pct": 1.16,
+    "quote_time": "03:35:49 2026-11-12"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.447,
-    "change": 0.407,
-    "change_pct": 0.47,
-    "quote_time": "03:27:56 2026-11-12"
+    "price": 86.335,
+    "change": 0.295,
+    "change_pct": 0.34,
+    "quote_time": "03:36:04 2026-11-12"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.541,
-    "change": 1.051,
-    "change_pct": 1.15,
-    "quote_time": "03:27:55 2026-11-12"
+    "price": 92.397,
+    "change": 0.907,
+    "change_pct": 0.99,
+    "quote_time": "03:36:04 2026-11-12"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74462.8,
-    "change": 1081.3,
-    "change_pct": 1.47,
+    "price": 74430.4,
+    "change": 1062.2,
+    "change_pct": 1.45,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2083.32,
-    "change": 42.55,
-    "change_pct": 2.08,
+    "price": 2081.03,
+    "change": 40.78,
+    "change_pct": 2.0,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 84.96,
-    "change": 2.33,
-    "change_pct": 2.82,
+    "price": 84.79,
+    "change": 2.21,
+    "change_pct": 2.68,
     "source": "okx"
    }
   ]
@@ -1474,9 +1474,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 17.34,
-   "change": -2.12,
-   "change_pct": -10.8941,
+   "value": 17.69,
+   "change": -1.77,
+   "change_pct": -9.0956,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1512,33 +1512,33 @@
     19.92,
     19.46
    ],
-   "vix3m": 19.34,
+   "vix3m": 19.57,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 15.8,
-     "change_pct": -14.7789
+     "value": 16.37,
+     "change_pct": -11.7044
     },
     {
      "t": "VIX",
-     "value": 17.34,
-     "change_pct": -10.8941
+     "value": 17.69,
+     "change_pct": -9.0956
     },
     {
      "t": "VIX3M",
-     "value": 19.34,
-     "change_pct": -6.2984
+     "value": 19.57,
+     "change_pct": -5.1841
     },
     {
      "t": "VIX6M",
-     "value": 21.17,
-     "change_pct": -3.729
+     "value": 21.3,
+     "change_pct": -3.1378
     }
    ],
-   "ratio_9d_3m": 0.817,
+   "ratio_9d_3m": 0.836,
    "shape": "contango(平静期)",
    "source": "CBOE"
   },
@@ -1553,23 +1553,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "“弱势特朗普”引发美国经济新火种 - 日经中文网",
+   "title": "在全国庆祝退伍军人节之际，特朗普总统赞扬美国军人 - 美国之音",
    "summary": "",
-   "time": "2026-11-12 02:19",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObmxpbURUZ0RTRUM1WTdiMDlKemFuRS1KS2ZpYkgwZEtoQ2JTTFJzaTY1ajJpcDBlaHpsWFZDRmpOUFA1MnRIOS02Yl9WNG5nZDk0NUNWMG1ieElVZENvUFlIMnVfbGpIb2xvTmhxdDR0ZlhhNXpqRTFIMW5HWEtqTQ?oc=5",
+   "time": "2026-11-12 03:31",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOXzY3eXk5TlI2eGJSdXhMU2hzdjBCZGl6VURSQXY1cVQtVFRIbV9JdnVtU2pOdnExdEFYcUV3M0lLNzBFTHZMOHJaQTFMYV9YU1p0TW5aUEZYTjJHTUV2d2dxWndiRzZBNENYNHBsNHBYMnNXNEp6ZTFGQzBxQ2dVSlVEWG0zN0x5dWZpQU9OOTVuM01OMU9zRzhlc2xwWndoYVBmRnpKZWtMU3pEdTJLOWRfZ2diMHPSAboBQVVfeXFMT3M2dHpTb3JNTmlVU2dTbDdlQ01kaURVV1lVbWVTQ3dnNUZYWVRzQmlUWGxfWjlwTFJyOFVNUGdCQnZ0WTVsWlZWSDl3b2dMUkxubDgwYmxNYjhocFpReklWbWk1bEFmYWtQdHhvYVRpbkJjal90cXVwTE0xSENNbkpvTVotLXNwX1VJTG1kUGFSRlQwVUJLZUR1Nml3a19CM1BWWmxSdWZTa2dhOHA1YTZ4UjhUeVJPdjlB?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "黄金受美联储加息预期提振美元压制，在4000美元上方苦苦挣扎 - 同花顺财经",
-   "summary": "",
-   "time": "2026-11-12 01:50",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FMzJPc3c0dTUtOEhDdThwbTM2NU93UC1EYVY4cUxCZzZFQnFHV3lnRGxzUUxkN3pja3FTSm5iYTZnUnlVRW1XR1lZcnhTeWF5a3ZRRFRURnl3STh0Zm1adHd3?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 4
   },
   {
    "keyword": "外交部",
@@ -1580,6 +1569,17 @@
    "time": "2026-11-10 06:00:20",
    "url": "http://finance.eastmoney.com/a/202611093926582211.html",
    "source": "东财早报",
+   "mentions": 1
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "鲍曼警告AI投资回报不及预期可能引发股市大幅调整，市场预期美联储12月继续加息",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-11/102503384.html?cxapp_link=true",
+   "source": "财新",
    "mentions": 1
   },
   {
@@ -1679,24 +1679,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "恒生指数主连夜盘收跌0.70%，报24107点。\n\n恒生科技指数主连夜盘收跌0.82%，报3990点。",
-   "summary": "恒生指数主连夜盘收跌0.70%，报24107点。\n\n恒生科技指数主连夜盘收跌0.82%，报3990点。",
-   "time": "2026-11-12 03:00",
-   "url": "https://wallstreetcn.com/livenews/3198595",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "Sixth Street首席执行官对AI热潮保持谨慎 警告称投机行为盛行",
-   "summary": "【Sixth Street首席执行官对AI热潮保持谨慎 警告称投机行为盛行】Sixth Street Partners首席执行官Alan Waxman表示，他看到人工智能热潮中动荡的迹象日益增多，因此该公司基本保持观望。人工智能领域的资本支出规模空前，并且“由于人工智能不断发展，没有人真正了解其单位经济效益”，Waxman在周三表示。“至少在信用领域，我们很难对此进行评估。股权方面则略有不同。”Waxman表示，Sixth Street担忧AI领域信贷迅速扩张，以及“投机狂热、动物精神或害怕错过机会”，并且开始看到动荡迹象，例如银行寻求出售建设贷款。随着对该领域风险的担忧加剧，贷款机构已减少为AI基础设施项目提供融资。“整个生态系统充斥着投机行为，”Waxman表示。他所在的公司管理着超过1400亿美元资产，业务重点包括私募信贷。",
-   "time": "2026-11-12 02:47:41",
-   "url": "https://finance.eastmoney.com/a/202611123928811483.html",
+   "title": "胡塞武装称过去24小时内沙特联军发动93次空袭",
+   "summary": "【胡塞武装称过去24小时内沙特联军发动93次空袭】当地时间11日晚，也门胡塞武装发表声明称，过去24小时内，沙特主导的联军对也门拉赫季省、塔伊兹省、焦夫省、哈杰省、马里卜省和扎马尔省发动了93次空袭。声明还称，自新一轮军事升级以来，沙特主导的联军发动的空袭和导弹袭击总数已达4765次。",
+   "time": "2026-11-12 03:33:50",
+   "url": "https://finance.eastmoney.com/a/202611123928813361.html",
    "source": "东财国际"
   },
   {
-   "title": "“弱势特朗普”引发美国经济新火种 - 日经中文网",
+   "title": "美国原油期货收涨约0.6%，百日均线构成支撑",
+   "summary": "WTI 12月原油期货收涨0.49美元，涨幅将近0.57%，报86.53美元/桶，（主力合约）脱离9月4日以来最低收盘位86.04美元，100日均线已经上移至84.15美元。\n\nNYMEX 12月天然气期货收报3.2150美元/百万英热单位。\n\nNYMEX 12月汽油期货收报2.6075美元/加仑，NYMEX 12月取暖油期货收报4.2113美元/加仑。",
+   "time": "2026-11-12 03:31",
+   "url": "https://wallstreetcn.com/livenews/3198604",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "在全国庆祝退伍军人节之际，特朗普总统赞扬美国军人 - 美国之音",
    "summary": "",
-   "time": "2026-11-12 02:19",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObmxpbURUZ0RTRUM1WTdiMDlKemFuRS1KS2ZpYkgwZEtoQ2JTTFJzaTY1ajJpcDBlaHpsWFZDRmpOUFA1MnRIOS02Yl9WNG5nZDk0NUNWMG1ieElVZENvUFlIMnVfbGpIb2xvTmhxdDR0ZlhhNXpqRTFIMW5HWEtqTQ?oc=5",
+   "time": "2026-11-12 03:31",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOXzY3eXk5TlI2eGJSdXhMU2hzdjBCZGl6VURSQXY1cVQtVFRIbV9JdnVtU2pOdnExdEFYcUV3M0lLNzBFTHZMOHJaQTFMYV9YU1p0TW5aUEZYTjJHTUV2d2dxWndiRzZBNENYNHBsNHBYMnNXNEp6ZTFGQzBxQ2dVSlVEWG0zN0x5dWZpQU9OOTVuM01OMU9zRzhlc2xwWndoYVBmRnpKZWtMU3pEdTJLOWRfZ2diMHPSAboBQVVfeXFMT3M2dHpTb3JNTmlVU2dTbDdlQ01kaURVV1lVbWVTQ3dnNUZYWVRzQmlUWGxfWjlwTFJyOFVNUGdCQnZ0WTVsWlZWSDl3b2dMUkxubDgwYmxNYjhocFpReklWbWk1bEFmYWtQdHhvYVRpbkJjal90cXVwTE0xSENNbkpvTVotLXNwX1VJTG1kUGFSRlQwVUJLZUR1Nml3a19CM1BWWmxSdWZTa2dhOHA1YTZ4UjhUeVJPdjlB?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1707,18 +1707,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "恒生指数主连夜盘收跌0.70% 恒生科技指数主连夜盘收跌0.82%",
+   "title": "报道：万斯为推动结束战争，考虑与伊朗强硬派举行直接会谈",
    "summary": "",
-   "time": "2026-11-11 19:02:42",
-   "url": "https://news.10jqka.com.cn/20261112/c681724437.shtml",
-   "source": "同花顺"
+   "time": "2026-11-11 19:33:36",
+   "url": "https://news.futunn.com/flash/1004213575/report-to-help-bring-the-war-to-an-end-vance",
+   "source": "富途"
   },
   {
-   "title": "共和党中期选举惨败后 党内推动鲁比奥角逐2028年总统大选",
+   "title": "泽连斯基表示，将于周四在都柏林会见库什纳和威特科夫",
    "summary": "",
-   "time": "2026-11-11 18:48:40",
-   "url": "https://news.futunn.com/flash/1004211433/following-the-republican-party-s-heavy-defeat-in-the-midterm",
-   "source": "富途"
+   "time": "2026-11-11 19:04:07",
+   "url": "https://news.10jqka.com.cn/20261112/c681724439.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月11日周三",
@@ -1735,24 +1735,24 @@
    "source": "财新"
   },
   {
-   "title": "报道：卢拉团队筹备财政方案，力求安抚市场焦虑",
-   "summary": "据知情人士透露，巴西总统卢拉的经济团队正准备在下周之前向国会提交提案，向投资者展示其政府如何在未来几年实现财政目标。官员们一直在与立法者讨论一揽子支出限制措施，与今年的预算相比，2027年的调整规模可能在500亿至600亿雷亚尔（折合107亿美元）之间。这些措施旨在赋予政府更大的空间，在财政目标面临风险时冻结支出。该一揽子方案的另一部分是防止意外收入自动增加宪法规定的最低医疗和教育支出。类似机制已",
-   "time": "2026-11-12 02:56",
-   "url": "https://wallstreetcn.com/livenews/3198594",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "美中央司令部：美军严格执行对伊朗海上封锁",
-   "summary": "【美中央司令部：美军严格执行对伊朗海上封锁】当地时间11月11日，美国中央司令部表示，美军持续昼夜不停地开展行动，以确保霍尔木兹海峡对商业航运保持开放。同时，美军严格执行针对伊朗的严密海上封锁，并与美国政府各相关部门协作，防止伊朗伊斯兰革命卫队利用陆路及里海通道，转移先进武器系统、军民两用技术、受制裁物资，或进行“非法资金往来”。",
-   "time": "2026-11-12 02:45:27",
-   "url": "https://finance.eastmoney.com/a/202611123928811346.html",
+   "title": "特朗普对副总统万斯重启与伊朗的谈判持开放态度",
+   "summary": "特朗普对副总统万斯重启与伊朗的谈判持开放态度。",
+   "time": "2026-11-12 03:27:07",
+   "url": "https://finance.eastmoney.com/a/202611123928813434.html",
    "source": "东财国际"
   },
   {
-   "title": "阿布扎比会谈结束，俄乌就大规模囚犯交换达成一致；美国特使称双方缺乏信任 - 美国之音",
+   "title": "特朗普关税推高成本，获美国支持的锂业公司Lithium Americas承压",
+   "summary": "Lithium Americas Corp.位于美国内华达州的矿山本应成为美国减少电池关键矿物对华依赖的解决方案。然而，该公司正受到特朗普政府关税的沉重打击。11月11日，这家矿业公司将旗下旗舰项目——内华达州Thacker Pass锂矿的建设成本上调近9亿美元，并将成本上升归咎于关税、劳动力成本上涨及物流费用增加，其股价触及历史低点。根据当天发布的声明，该项目第一阶段建设成本预计将达38.3亿美",
+   "time": "2026-11-12 03:28",
+   "url": "https://wallstreetcn.com/livenews/3198602",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "“弱势特朗普”引发美国经济新火种 - 日经中文网",
    "summary": "",
-   "time": "2026-11-12 02:09",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMm1hd19rMXY1b3JNeVJsV21zSkhfLVlZdjdfbkRKQzNZUGx2LXBXWmFIT0lHRzFaODFkUC12SnhFdG5xSzlVSTBUVi1tbUlQZGZwWWZTcS00akk0Zm4zYmdlTHE2X1dreFlQdzhzWU91SF91Slc5cER3RjR3V3NYN3ZvbU1NWFh4YU1BamV6c080UlBqaHg0MHh5NGpXQTd0ZVBhUG5YRm95X09IRjhpbE40TEFyY2p4YlladUZObWpoZ1d4elE0bnRmaUgxSlk4cTdQbHFvbHhVRlRQMDNj0gHiAUFVX3lxTE40STBWUVpTVWdMdU9XMVFOQWRDYXdibHAtQmpfZElXZWliVnVEa0hmUnhSaExpQk9JMnlwdDlOQ1lxdWR4NXFTTUpVVF9zcFFlemoxQXdqbDRYTmVqcUpjRTVfUEh0WUt6VzRiYnNoNFluZ19EcW8xY2dpZkVoSV8xU0JKZldiSHNSNl82WWUzUGdUbXB1TmZORlduSzMxT2g4STJqUk9EUXZQNVFmMFBSQlE4OWJHaFJ1bDNqQzNxeGhnTm1KYVhxMF9adGdWeVc1MzZLYVdSbGZaV01HeUxVaUE?oc=5",
+   "time": "2026-11-12 02:19",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObmxpbURUZ0RTRUM1WTdiMDlKemFuRS1KS2ZpYkgwZEtoQ2JTTFJzaTY1ajJpcDBlaHpsWFZDRmpOUFA1MnRIOS02Yl9WNG5nZDk0NUNWMG1ieElVZENvUFlIMnVfbGpIb2xvTmhxdDR0ZlhhNXpqRTFIMW5HWEtqTQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1763,18 +1763,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "美特使将赴莫斯科 推动俄罗斯提出欧洲新安全协议",
+   "summary": "",
+   "time": "2026-11-11 19:26:44",
+   "url": "https://news.futunn.com/flash/1004213120/us-envoys-to-visit-moscow-to-push-for-new-european",
+   "source": "富途"
+  },
+  {
    "title": "在岸人民币兑美元夜盘收盘报6.6749，较上一交易日上涨56点",
    "summary": "",
    "time": "2026-11-11 19:02:36",
    "url": "https://news.10jqka.com.cn/20261112/c681724436.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "美联航拟禁止个人AI助手访问订票系统，Meta股价小幅下跌",
-   "summary": "",
-   "time": "2026-11-11 18:41:31",
-   "url": "https://news.futunn.com/flash/1004211161/united-airlines-plans-to-ban-personal-ai-assistants-from-accessing",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月10日周二",
@@ -1791,24 +1791,24 @@
    "source": "财新"
   },
   {
-   "title": "基金警告：巴西股市1260亿美元暴跌尚未结束",
-   "summary": "由巴西总统卢拉连任引发的巴西资产抛售潮尚未显现缓和迹象，该国一些最大的资金管理公司表示，已经抹去数月涨幅的市场跌势可能进一步加剧。\n\n资产管理公司对卢拉是否会改变作风、实施削减不断扩大的预算赤字和公共债务所需的深度支出削减持怀疑态度。\n\n基金经理们对向投资组合中增加风险资产保持谨慎，一些人继续远离股市和雷亚尔，另一些人则在进入2027年之际减少对波动性更高股票的风险敞口。",
-   "time": "2026-11-12 02:55",
-   "url": "https://wallstreetcn.com/livenews/3198593",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "11月券商已调研328家上市公司 电子、机械设备、医药生物板块人气高",
-   "summary": "【11月券商已调研328家上市公司 电子、机械设备、医药生物板块人气高】券商研究所迎来调研忙碌期。数据显示，11月以来，券商累计调研328家上市公司，调研标的集中于电子、机械设备、医药生物等行业。同期，券商调整18家上市公司评级，数量已接近10月全月水平。投资策略方面，多家券商在近期策略会上，仍看好科技长期叙事，认为前期回调幅度较大的双创板块存在估值修复机会。",
-   "time": "2026-11-12 02:44:26",
-   "url": "https://finance.eastmoney.com/a/202611123928808457.html",
+   "title": "据报道：美国要求俄罗斯提交新的欧洲安全提案",
+   "summary": "据报道，美国要求俄罗斯提交新的欧洲安全提案。",
+   "time": "2026-11-12 03:15:20",
+   "url": "https://finance.eastmoney.com/a/202611123928813281.html",
    "source": "东财国际"
   },
   {
-   "title": "黄金受美联储加息预期提振美元压制，在4000美元上方苦苦挣扎 - 同花顺财经",
+   "title": "智利国家铜业公司（Codelco）与印度阿达尼集团（Adani Group）签署铜勘探项目协议。",
+   "summary": "智利国家铜业公司（Codelco）与印度阿达尼集团（Adani Group）签署铜勘探项目协议。",
+   "time": "2026-11-12 03:21",
+   "url": "https://wallstreetcn.com/livenews/3198601",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "阿布扎比会谈结束，俄乌就大规模囚犯交换达成一致；美国特使称双方缺乏信任 - 美国之音",
    "summary": "",
-   "time": "2026-11-12 01:50",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9FMzJPc3c0dTUtOEhDdThwbTM2NU93UC1EYVY4cUxCZzZFQnFHV3lnRGxzUUxkN3pja3FTSm5iYTZnUnlVRW1XR1lZcnhTeWF5a3ZRRFRURnl3STh0Zm1adHd3?oc=5",
+   "time": "2026-11-12 02:09",
+   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOMm1hd19rMXY1b3JNeVJsV21zSkhfLVlZdjdfbkRKQzNZUGx2LXBXWmFIT0lHRzFaODFkUC12SnhFdG5xSzlVSTBUVi1tbUlQZGZwWWZTcS00akk0Zm4zYmdlTHE2X1dreFlQdzhzWU91SF91Slc5cER3RjR3V3NYN3ZvbU1NWFh4YU1BamV6c080UlBqaHg0MHh5NGpXQTd0ZVBhUG5YRm95X09IRjhpbE40TEFyY2p4YlladUZObWpoZ1d4elE0bnRmaUgxSlk4cTdQbHFvbHhVRlRQMDNj0gHiAUFVX3lxTE40STBWUVpTVWdMdU9XMVFOQWRDYXdibHAtQmpfZElXZWliVnVEa0hmUnhSaExpQk9JMnlwdDlOQ1lxdWR4NXFTTUpVVF9zcFFlemoxQXdqbDRYTmVqcUpjRTVfUEh0WUt6VzRiYnNoNFluZ19EcW8xY2dpZkVoSV8xU0JKZldiSHNSNl82WWUzUGdUbXB1TmZORlduSzMxT2g4STJqUk9EUXZQNVFmMFBSQlE4OWJHaFJ1bDNqQzNxeGhnTm1KYVhxMF9adGdWeVc1MzZLYVdSbGZaV01HeUxVaUE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1819,18 +1819,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "谷歌将Gemini语音助手接入苹果CarPlay 向车载AI领域拓展",
+   "summary": "",
+   "time": "2026-11-11 19:12:57",
+   "url": "https://news.futunn.com/flash/1004212675/google-integrates-gemini-voice-assistant-with-apple-carplay-expanding-into",
+   "source": "富途"
+  },
+  {
    "title": "美前总统拜登在爱尔兰遭抗议者扔牛奶盒　一男子被起诉",
    "summary": "",
    "time": "2026-11-11 18:53:41",
    "url": "https://news.10jqka.com.cn/20261112/c681724420.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "特朗普媒体科技集团盘中大涨28% 有望创近11个月最大单日涨幅",
-   "summary": "",
-   "time": "2026-11-11 18:29:42",
-   "url": "https://news.futunn.com/flash/1004210431/trump-media-technology-surges-28-intraday-on-track-for-largest",
-   "source": "富途"
   },
   {
    "title": "保证黄仁勋免于处罚的，表面上是董事会和股东的沉默，实际是三十三年的业绩本身",
@@ -1840,11 +1840,11 @@
    "source": "财新"
   },
   {
-   "title": "俄罗斯波罗的海大宗商品枢纽遭无人机袭击后起火",
-   "summary": "乌克兰表示，其袭击了乌斯季卢加港（Ust-Luga）的石油基础设施，包括储油罐和乌斯季卢加成品油码头设施。乌克兰安全局（SBU）称，袭击导致港口区域发生成品油泄漏，并损坏了一套加氢裂化装置和一个成品油泊位。此次袭击发生在俄乌即将在阿布扎比重启美国斡旋的和平谈判前数小时，这是双方自2月以来的首次直接谈判。",
-   "time": "2026-11-12 02:53",
-   "url": "https://wallstreetcn.com/livenews/3198592",
-   "source": "华尔街见闻"
+   "title": "泽连斯基表示：将于周四在都柏林会见库什纳和威特科夫",
+   "summary": "泽连斯基表示，将于周四在都柏林会见库什纳和威特科夫。",
+   "time": "2026-11-12 03:02:51",
+   "url": "https://finance.eastmoney.com/a/202611123928813165.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
@@ -1860,12 +1860,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
