@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-11 11:52:04 CST",
- "generated_at_iso": "2026-11-11T11:52:04+08:00",
+ "generated_at": "2026-11-11 12:00:15 CST",
+ "generated_at_iso": "2026-11-11T12:00:15+08:00",
  "date": "2026-11-11",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -545,9 +545,9 @@
     "name": "恒生指数",
     "code": "HSI",
     "sym": "HSI",
-    "price": 24326.129,
-    "change": -230.91,
-    "change_pct": -0.94,
+    "price": 24335.539,
+    "change": -221.5,
+    "change_pct": -0.9,
     "hist": [
      24642.5098,
      24523.5703,
@@ -621,9 +621,9 @@
     "name": "恒生科技指数",
     "code": "HSTECH",
     "sym": "HSTECH",
-    "price": 4025.36,
-    "change": -59.09,
-    "change_pct": -1.45,
+    "price": 4027.12,
+    "change": -57.33,
+    "change_pct": -1.4,
     "hist": [
      4296.0,
      4249.6201,
@@ -697,9 +697,9 @@
     "name": "恒生中国企业指数",
     "code": "HSCEI",
     "sym": "HSCEI",
-    "price": 8190.53,
-    "change": -75.28,
-    "change_pct": -0.91,
+    "price": 8194.82,
+    "change": -70.989,
+    "change_pct": -0.86,
     "hist": [
      8216.8398,
      8178.8096,
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 61270.62,
-    "change": 811.04,
-    "change_pct": 1.34,
+    "price": 61295.15,
+    "change": 835.57,
+    "change_pct": 1.38,
     "hist": [
      65481.27,
      66753.72,
@@ -1036,10 +1036,10 @@
      63290.11,
      63081.86,
      62188.63,
-     61077.8984,
-     57434.7695,
+     61077.9,
+     57434.77,
      58775.5,
-     60459.5781,
+     60459.58,
      60942.4805
     ],
     "sigma": 2.196,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5319.24,
-    "change": 80.11,
-    "change_pct": 1.53,
+    "price": 5351.17,
+    "change": 112.04,
+    "change_pct": 2.14,
     "hist": [
      6870.81,
      6838.04,
@@ -1392,37 +1392,204 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4056.368,
-    "change": 26.168,
-    "change_pct": 0.65,
-    "quote_time": "11:52:14 2026-11-11"
+    "price": 4053.48,
+    "change": 23.28,
+    "change_pct": 0.58,
+    "quote_time": "12:00:20 2026-11-11",
+    "hist": [
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6,
+     4149.5,
+     4040.2,
+     4054.8
+    ],
+    "sigma": 1.641
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.423,
-    "change": 1.198,
-    "change_pct": 2.34,
-    "quote_time": "11:52:04 2026-11-11"
+    "price": 52.431,
+    "change": 1.206,
+    "change_pct": 2.35,
+    "quote_time": "12:00:21 2026-11-11",
+    "hist": [
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96,
+     53.445,
+     51.515,
+     52.365
+    ],
+    "sigma": 2.839
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.672,
-    "change": 0.632,
-    "change_pct": 0.73,
-    "quote_time": "11:52:12 2026-11-11"
+    "price": 86.632,
+    "change": 0.592,
+    "change_pct": 0.69,
+    "quote_time": "12:00:18 2026-11-11",
+    "hist": [
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34,
+     86.37,
+     86.43,
+     86.61
+    ],
+    "sigma": 3.112
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.51,
-    "change": 1.02,
-    "change_pct": 1.11,
-    "quote_time": "11:52:04 2026-11-11"
+    "price": 92.468,
+    "change": 0.978,
+    "change_pct": 1.07,
+    "quote_time": "12:00:20 2026-11-11",
+    "hist": [
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92,
+     92.26,
+     91.96,
+     92.44
+    ],
+    "sigma": 3.443,
+    "volume": 9047.0,
+    "vol_chg_pct": -97.9,
+    "vol_pctile": 0.4,
+    "vol_hist": [
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0,
+     415241.0,
+     357317.0,
+     9047.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 73786.4,
-    "change": -749.5,
-    "change_pct": -1.01,
-    "source": "okx"
+    "price": 73796.1,
+    "change": -749.1,
+    "change_pct": -1.0,
+    "source": "okx",
+    "hist": [
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     73786.1
+    ],
+    "sigma": 2.014
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2063.21,
-    "change": -50.38,
-    "change_pct": -2.38,
-    "source": "okx"
+    "price": 2063.4,
+    "change": -50.55,
+    "change_pct": -2.39,
+    "source": "okx",
+    "hist": [
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2063.06
+    ],
+    "sigma": 3.087
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 83.43,
-    "change": -2.34,
-    "change_pct": -2.73,
-    "source": "okx"
+    "price": 83.38,
+    "change": -2.39,
+    "change_pct": -2.79,
+    "source": "okx",
+    "hist": [
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     83.33
+    ],
+    "sigma": 2.93
    }
   ]
  },
@@ -1550,6 +1816,17 @@
  },
  "speakers": [
   {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "Cohere首席执行官称获取算力仍困难重重 反驳AI基建过度之忧",
+   "summary": "Cohere Inc.首席执行官Aidan Gomez反驳对人工智能算力建设过度的担忧，称其初创公司每天都要面对获取足够算力以维持运营的难题。“我们真的需要竭尽全力才能获得算力资源，” Gomez表示，“供应严重短缺。我们需要更多算力。我们需要能源、设施和芯片来支持这一点。”Gomez还表示，如果英伟达CEO黄仁勋被迫辞去职务，将是一个巨大打击。",
+   "time": "2026-11-11 11:45",
+   "url": "https://wallstreetcn.com/livenews/3198103",
+   "source": "华尔街见闻",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1569,7 +1846,7 @@
    "time": "2026-11-11 11:09",
    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yQ0tZMklOYTNZTFFTRVhHVXB0dDRWR0pxcl9zT1N4eVpwbjVVY1E3N2U2S1VPSThVOWxud3B3X0Q0MTlETW8wNlVEeGlIQ2hfY0JUSVo4WWE2bFhCRUFIT2ZpRDY?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 3
   },
   {
    "keyword": "外交部",
@@ -1602,17 +1879,6 @@
    "time": "2026-11-09 06:00:46",
    "url": "http://finance.eastmoney.com/a/202611083925667993.html",
    "source": "东财早报",
-   "mentions": 1
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "保证黄仁勋免于处罚的，表面上是董事会和股东的沉默，实际是三十三年的业绩本身",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-11/102503358.html?cxapp_link=true",
-   "source": "财新",
    "mentions": 1
   }
  ],
@@ -1677,23 +1943,33 @@
   ],
   "reports": [
    {
-    "title": "花旗：维持禾赛“买入”评级，看好其能乘势把握雷达产业销售增长动能 - Sohu",
+    "title": "花旗重申领展“买入”评级 目标价44.8港元 - 观点网",
     "org": "花旗",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-11",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcmVaUXRnY2VpSzlReDNPNGlBVmcyUmhmaXA3V2dJQVNsaEltUEdDZ2NvQjNybi10dlJNY2pINXVSel9fWEI2N25VTnJFTVdsNEY3NldtWW5XcjBJTnZOOThPMXhpY0Q3RU9mcjAxcVB6Tk91QjRscUtKSVowbHVRYlV5U1NqY2ozYlRMNw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40YXdGTE5lajdKS0pYekRkZkRuWGtxcHRST2FJbGNRb3c1VTZyR1gySXhIaDN6SFBYY1dWbGhkZERjRXA2eXpfU2RMaVM0OWhvc182S0JaSzRDSDFtTkxqN3l3?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "大行评级｜瑞银：下调凯雷目标价至47美元，评级降至“中性”_市场分析 - 中金在线",
-    "org": "瑞银",
+    "title": "特朗普进口俄罗斯柴油的计划在公海受阻 - 华尔街日报中文网",
+    "org": "华尔街日报",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-11",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1hTUlMclNMdl8zVV9WNXRrc0VMWFc2a3ljR1BnN3lDU2hsMHJSVGRlUzhVMGkwLWo0Um5CYzAyRE1XUnNFcEZrMllVVFp3ODRsZEp3YTZkWHctY1pQTHk0dklVWndVVUpuVkJ3VFgxdw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPbGxlV0d4d2d5Y2ZuSUx2RUd4TzJZR19ZSkNhM2hFSnNWaWpBQlRWUlhQM0tPVDJCM21qb0F0NUJuQzlKNUZMNFozSG5fWVVTeGo2OWJGaUktTlIxMzFXekZ6Mlk2d3lBTE5tLUhtdFFnRUZVVmhrVW5Yb3NseUpxbHp2QTc3Mll1R05QTUZZTTFBa2ZLWXYtbzIyclBlbTlJcWFVcGE2YXhONnJ1QTd4dzh1NGtOQ3JoajlNSzVEb2FZV1BXOFppZEZXa2RZR0o2LVdoWFR3MDduQ0ZFYy1RNFlSaGxyeVo0QnJGRDhsbXNST1lhbVZIMGgwQVFUdjBGM1FIMldHSFVTVnFIbU5tTzh0bEFwUXBHcXZaSUJ1aWJWOHV4ZVE?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "渣打：美联储加息50基点的情境有所增强 但还不能下定论",
+    "org": "渣打",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-11",
+    "url": "https://news.10jqka.com.cn/20261111/c681693222.shtml",
     "source": "机构观点"
    },
    {
@@ -1705,44 +1981,31 @@
     "date": "2026-11-10",
     "url": "http://finance.eastmoney.com/a/202611093926582211.html",
     "source": "机构观点"
-   },
-   {
-    "title": "日经股指三连涨 AI板块乐观情绪有所回暖",
-    "org": "日经",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-11",
-    "url": "https://news.futunn.com/flash/1004111355/nikkei-index-posts-three-day-gain-optimism-in-ai-sector",
-    "source": "机构观点"
-   },
-   {
-    "title": "中金：维持老铺黄金(06181)“跑赢行业”评级目标价412.35港元关注高客运营成效_市场分析 - 中金在线",
-    "org": "中金",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-11",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yb3NXODRDYXV6a3d0QjJsTHlKeWtTdGtLTUhhVnV5a1lveXJ5eF91R0t2ZGlRSks5RUpudV9FREdFNTNDWnlSUEVuR2FzZGV4b0lOVmhLWm0zejd1dU9COFhPdnBWUzlfYnBrQUtMOA?oc=5",
-    "source": "机构观点"
    }
   ]
  },
  "alerts": [],
  "news": [
   {
-   "title": "软银称37亿美元减记与美国俄亥俄州数据中心项目无关",
-   "summary": "【软银称37亿美元减记与美国俄亥俄州数据中心项目无关】软银集团11月11日更新其财报演示资料，澄清在9月季度中计提的约37亿美元费用与美国俄亥俄州Ports-Pike数据中心和发电项目无关。",
-   "time": "2026-11-11 11:33:01",
-   "url": "https://finance.eastmoney.com/a/202611113928255829.html",
-   "source": "东财国际"
+   "title": "花旗重申领展“买入”评级 目标价44.8港元 - 观点网",
+   "summary": "",
+   "time": "2026-11-11 11:51",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40YXdGTE5lajdKS0pYekRkZkRuWGtxcHRST2FJbGNRb3c1VTZyR1gySXhIaDN6SFBYY1dWbGhkZERjRXA2eXpfU2RMaVM0OWhvc182S0JaSzRDSDFtTkxqN3l3?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "上证指数早盘收报3654.95点，跌0.24%。\n\n深证成指早盘收报11253.67点，涨0.11%。\n\n创业板指早盘收报2519.14点，涨0.99%。\n\n沪深300早盘收报4047.21点，跌0.29%。\n\n科创50早盘收报1263.4",
-   "summary": "上证指数早盘收报3654.95点，跌0.24%。\n\n深证成指早盘收报11253.67点，涨0.11%。\n\n创业板指早盘收报2519.14点，涨0.99%。\n\n沪深300早盘收报4047.21点，跌0.29%。\n\n科创50早盘收报1263.43点，跌0.13%。\n\n中证500早盘收报6642.23点，跌0.06%。\n\n中证1000早盘收报6586.90点，涨0.11%。",
-   "time": "2026-11-11 11:31",
-   "url": "https://wallstreetcn.com/livenews/3198098",
+   "title": "中国财政部发行63天期债券，规模400亿元，发行利率1.0506%，边际利率1.1029%，预期1.1000%，投标倍数3.12倍，边际倍数1.77倍；\n\n中国财政部发行182天期债券，规模600亿元，发行利率1.1111%，边际利率1.1",
+   "summary": "中国财政部发行63天期债券，规模400亿元，发行利率1.0506%，边际利率1.1029%，预期1.1000%，投标倍数3.12倍，边际倍数1.77倍；\n\n中国财政部发行182天期债券，规模600亿元，发行利率1.1111%，边际利率1.1578%，预期1.1200%，投标倍数2.78倍，边际倍数1.59倍。",
+   "time": "2026-11-11 11:48",
+   "url": "https://wallstreetcn.com/livenews/3198104",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "北京利尔：硅碳负极材料产线将于本月底投产",
+   "summary": "【北京利尔：硅碳负极材料产线将于本月底投产】北京利尔11月11日在互动平台表示，公司硅碳负极材料产线不存在因自身原因延迟投产的情形，并将于本月底投产。",
+   "time": "2026-11-11 11:40:14",
+   "url": "https://finance.eastmoney.com/a/202611113928258747.html",
+   "source": "东财国际"
   },
   {
    "title": "特朗普进口俄罗斯柴油的计划在公海受阻 - 华尔街日报中文网",
@@ -1752,13 +2015,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社",
-   "summary": "",
-   "time": "2026-11-11 11:18",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5vczV2WkFXQ0JCcmpHR3QycGR2NFdtTVBEaUh1LTlCYlpBclhUVHZrM1lxMVFFOWpxVUlfX2NHcXVrYmhMdUNhSQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
    "title": "东方财富财经早餐 11月11日周三",
    "summary": "【东方财富财经早餐 11月11日周三】1、美国10月CPI环比增长0.4%，高于市场预期，12月加息概率仍维持在100%。2、新一轮俄美乌三方会谈10日在阿布扎比举行，泽连斯基称首日会谈具有建设性。3、阿里巴巴已申请平头哥赴港独立上市。",
    "time": "2026-11-11 06:00:38",
@@ -1766,122 +2022,10 @@
    "source": "东财早报"
   },
   {
-   "title": "ETF两市成交额报2591.51亿元，较昨日此时缩量476.11亿元",
+   "title": "渣打：美联储加息50基点的情境有所增强 但还不能下定论",
    "summary": "",
-   "time": "2026-11-11 03:31:54",
-   "url": "https://news.10jqka.com.cn/20261111/c681692021.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "长株潭一体化发展“十五五”规划：超前布局量子科技、氢能和核聚变能等未来产业",
-   "summary": "",
-   "time": "2026-11-11 03:27:56",
-   "url": "https://news.futunn.com/flash/1004114297/15th-five-year-plan-for-the-integrated-development-of-changsha",
-   "source": "富途"
-  },
-  {
-   "title": "中期选举未改变现有项目建设计划，新建数据中心面临限制或提升在建项目价值",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-11/102503369.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "创业板指上涨0.99% 游戏、CPO概念走强 白酒股领跌",
-   "summary": "【午盘播报】沪指下跌0.24%，报3654.95点；深成指上涨0.11%，报11253.67点；创业板指上涨0.99%，报2519.14点，两市半日合计成交9283亿。盘面上，游戏、CPO概念、通信设备、F5G概念、燃气、光纤概念走强，白酒、航天装备、休闲食品、光伏设备、饮料乳品、医疗美容表现不佳，跌幅居前。全市场上涨个股有2771家，下跌个股有2583家，51只股涨停。",
-   "time": "2026-11-11 11:30:23",
-   "url": "https://finance.eastmoney.com/a/202611113928255732.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "11月11日午间收评：创业板指半日涨近1%，算力硬件股集体反弹",
-   "summary": "1、沪指早间横盘震荡，创业板指涨近1%。CPO等算力硬件股集体反弹，剑桥科技、青山纸业涨停，致尚科技、太辰光涨超10%。机器人概念股拉升，瑞迪智驱、锋龙股份、汉王科技等涨停。AI漫剧概念反复活跃，文投控股、凯撒文化涨停。下跌方面，光伏板块冲高回落，迈为股份跌超10%。个股涨跌互现，上午半天成交9354亿。午间收盘沪指跌0.24%，深成指涨0.11%，创业板涨0.99%。\n2、板块概念方面，算力硬件",
-   "time": "2026-11-11 11:30",
-   "url": "https://wallstreetcn.com/livenews/3198097",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "特朗普称民主党针对美防长赫格塞思的弹劾“惨败” - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-11 11:11",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TT19JU0VDM1NRaXhHNll6cEdLSVZxTG1UcGN0VkV4MFNXWGI3bk1yUV9wTmdzNE50clpoUF9tc2plSnAyV29QV2FGckk1R2V1cXp2N21XcWxzTUZLRUVJRDg2MW9xWmpP?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "杰富瑞上调礼来目标价至1700美元 - 金融界",
-   "summary": "",
-   "time": "2026-11-11 11:18",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xUFdpUVNQemE5Ym9nQ29Nb0RRazZPOThpcUtNZFJDelRyZXI1cjRoaEV2aGdadUpSNU1FUXliRk9xRVBSbW1mM1lKaDl0dWZManlhM0tGWXFtX05yeVlSTTVEaE1JZw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "东方财富财经早餐 11月10日周二",
-   "summary": "【东方财富财经早餐 11月10日周二】1、中方尚未批准约60万枚先进AI芯片的大规模进口？外交部回应。2、“星云星座计划”发布，我国太空算力网加快部署。3、中信建投、华泰、浙商出手买入，至少10家券商已进场，增量资金加速入市。",
-   "time": "2026-11-10 06:00:20",
-   "url": "http://finance.eastmoney.com/a/202611093926582211.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "ETF午评：通信ETF领涨3.76%，港股医疗ETF领跌3.11%",
-   "summary": "",
-   "time": "2026-11-11 03:31:32",
-   "url": "https://news.10jqka.com.cn/20261111/c681691994.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "长株潭一体化发展“十五五”规划：做大做强半导体产业集群，共建全国北斗规模应用产业高地",
-   "summary": "",
-   "time": "2026-11-11 03:23:34",
-   "url": "https://news.futunn.com/flash/1004114008/14th-five-year-plan-for-the-integrated-development-of-changsha",
-   "source": "富途"
-  },
-  {
-   "title": "保证黄仁勋免于处罚的，表面上是董事会和股东的沉默，实际是三十三年的业绩本身",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-11/102503358.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "中船七〇四所成为国际智能航运联盟创始成员 为唯一船舶科研单位",
-   "summary": "【中船七〇四所成为国际智能航运联盟创始成员 为唯一船舶科研单位】日前，由首批9家成员单位组成的国际智能航运联盟在上海正式成立。中国船舶集团第七〇四研究所作为唯一一家船舶科研单位成功跻身联盟，成为首批创始成员，将与全球伙伴共议自主航行技术与规则。",
-   "time": "2026-11-11 11:29:05",
-   "url": "https://finance.eastmoney.com/a/202611113928255469.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "国债期货早盘收盘，30年期主力合约与昨日持平，10年期主力合约跌0.02%，5年期主力合约跌0.01%，2年期主力合约跌0.01%。",
-   "summary": "国债期货早盘收盘，30年期主力合约与昨日持平，10年期主力合约跌0.02%，5年期主力合约跌0.01%，2年期主力合约跌0.01%。",
-   "time": "2026-11-11 11:30",
-   "url": "https://wallstreetcn.com/livenews/3198094",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "美联储加息预期升温刺激美股下跌 - 新京报",
-   "summary": "",
-   "time": "2026-11-11 11:09",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yQ0tZMklOYTNZTFFTRVhHVXB0dDRWR0pxcl9zT1N4eVpwbjVVY1E3N2U2S1VPSThVOWxud3B3X0Q0MTlETW8wNlVEeGlIQ2hfY0JUSVo4WWE2bFhCRUFIT2ZpRDY?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "花旗：维持禾赛“买入”评级，看好其能乘势把握雷达产业销售增长动能 - Sohu",
-   "summary": "",
-   "time": "2026-11-11 10:59",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcmVaUXRnY2VpSzlReDNPNGlBVmcyUmhmaXA3V2dJQVNsaEltUEdDZ2NvQjNybi10dlJNY2pINXVSel9fWEI2N25VTnJFTVdsNEY3NldtWW5XcjBJTnZOOThPMXhpY0Q3RU9mcjAxcVB6Tk91QjRscUtKSVowbHVRYlV5U1NqY2ozYlRMNw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "东方财富财经早餐 11月9日周一",
-   "summary": "【东方财富财经早餐 11月9日周一】1、国常会：完善资本市场稳市机制，增强股市内在稳定性。2、发改委召开民营企业座谈会，围绕抓好年内经济工作落实、研究明年政策举措听取意见建议。3、中国央行黄金储备“24连增”。",
-   "time": "2026-11-09 06:00:46",
-   "url": "http://finance.eastmoney.com/a/202611083925667993.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "A股午评：创业板指低开高走涨0.99%，燃气、元件、CPO板块活跃",
-   "summary": "",
-   "time": "2026-11-11 03:30:46",
-   "url": "https://news.10jqka.com.cn/20261111/c681691956.shtml",
+   "time": "2026-11-11 03:56:08",
+   "url": "https://news.10jqka.com.cn/20261111/c681693222.shtml",
    "source": "同花顺"
   },
   {
@@ -1892,10 +2036,122 @@
    "source": "富途"
   },
   {
-   "title": "按文件所列的发行在外股份计算，如果发行价定在区间上限，Anthropic的市值将约为1万亿美元",
+   "title": "鲍曼警告AI投资回报不及预期可能引发股市大幅调整，市场预期美联储12月继续加息",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-11/102503357.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-11/102503384.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "标普将通用汽车及通用汽车金融信用展望上调至正面 评级维持BBB - 观点网",
+   "summary": "",
+   "time": "2026-11-11 11:51",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBUZmNRc2ViS2tBQnlzcUxvbXR2SGZ1QldYVEx6b3dqMUVkNlVaSlV6WWNXc3dpT1dySnZhRUlzcUprbzR1M2tadnJyeThvZ1JSVGg5cXFTXzRQNFBCMlNRSEVR?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "Cohere首席执行官称获取算力仍困难重重 反驳AI基建过度之忧",
+   "summary": "Cohere Inc.首席执行官Aidan Gomez反驳对人工智能算力建设过度的担忧，称其初创公司每天都要面对获取足够算力以维持运营的难题。“我们真的需要竭尽全力才能获得算力资源，” Gomez表示，“供应严重短缺。我们需要更多算力。我们需要能源、设施和芯片来支持这一点。”Gomez还表示，如果英伟达CEO黄仁勋被迫辞去职务，将是一个巨大打击。",
+   "time": "2026-11-11 11:45",
+   "url": "https://wallstreetcn.com/livenews/3198103",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "午间涨跌停股分析：51只涨停股、1只跌停股，CPO概念活跃",
+   "summary": "【午间涨跌停股分析：51只涨停股、1只跌停股，CPO概念活跃】11月11日午间，A股半日下来共有51只涨停股、1只跌停股。CPO概念活跃，剑桥科技、天洋新材、青山纸业涨停；电梯概念走强，瑞迪智驱、赛福天涨停；减速器概念上涨，光洋股份3连板，襄阳轴承2连板，宁波东力、日发精机等涨停。",
+   "time": "2026-11-11 11:40:13",
+   "url": "https://finance.eastmoney.com/a/202611113928258379.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普称民主党针对美防长赫格塞思的弹劾“惨败” - 中国新闻网",
+   "summary": "",
+   "time": "2026-11-11 11:11",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TT19JU0VDM1NRaXhHNll6cEdLSVZxTG1UcGN0VkV4MFNXWGI3bk1yUV9wTmdzNE50clpoUF9tc2plSnAyV29QV2FGckk1R2V1cXp2N21XcWxzTUZLRUVJRDg2MW9xWmpP?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "东方财富财经早餐 11月10日周二",
+   "summary": "【东方财富财经早餐 11月10日周二】1、中方尚未批准约60万枚先进AI芯片的大规模进口？外交部回应。2、“星云星座计划”发布，我国太空算力网加快部署。3、中信建投、华泰、浙商出手买入，至少10家券商已进场，增量资金加速入市。",
+   "time": "2026-11-10 06:00:20",
+   "url": "http://finance.eastmoney.com/a/202611093926582211.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "韩国综指涨幅扩大至2%",
+   "summary": "",
+   "time": "2026-11-11 03:55:58",
+   "url": "https://news.10jqka.com.cn/20261111/c681693219.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "韩国失业率创三年多新低 但就业市场并未实质改善",
+   "summary": "",
+   "time": "2026-11-11 03:15:59",
+   "url": "https://news.futunn.com/flash/1004113221/south-korea-s-unemployment-rate-hits-multi-year-low-but",
+   "source": "富途"
+  },
+  {
+   "title": "中期选举未改变现有项目建设计划，新建数据中心面临限制或提升在建项目价值",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-11/102503369.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "中企机遇！土耳其获亚投行3.93亿美元融资，采购近百台铁路养护机械 - Sohu",
+   "summary": "",
+   "time": "2026-11-11 11:47",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSjJ6dkd1ZGppMmYxSTJzb0YxcVhBYnJfTzQzcjROd09VSGkzM01xa3hSeFAxOHVRY2NqcC14bENxd0sxWHYxOFp3QlFOM2JkaWxmRUtwWGpmVXY3RnpEeXZIZjAzc2I4WmwxcVBmb3NsSHZDRnpqbWl0d2U3eEJnZUNjaHZOaDRVazYzaw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "上证指数早盘收报3654.95点，跌0.24%。\n\n深证成指早盘收报11253.67点，涨0.11%。\n\n创业板指早盘收报2519.14点，涨0.99%。\n\n沪深300早盘收报4047.21点，跌0.29%。\n\n科创50早盘收报1263.4",
+   "summary": "上证指数早盘收报3654.95点，跌0.24%。\n\n深证成指早盘收报11253.67点，涨0.11%。\n\n创业板指早盘收报2519.14点，涨0.99%。\n\n沪深300早盘收报4047.21点，跌0.29%。\n\n科创50早盘收报1263.43点，跌0.13%。\n\n中证500早盘收报6642.23点，跌0.06%。\n\n中证1000早盘收报6586.90点，涨0.11%。",
+   "time": "2026-11-11 11:31",
+   "url": "https://wallstreetcn.com/livenews/3198098",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "青达环保：固态储氢、火电AI业务有序推进中",
+   "summary": "【青达环保：固态储氢、火电AI业务有序推进中】青达环保在2026年第三季度业绩说明会上表示，国际化是公司长期坚持的发展方向之一，目前已具备多个落地海外项目经验，未来公司将持续跟踪海外市场动态，依托产品创新与多品类布局抢抓市场机遇；固态储氢、火电AI业务正积极有序推进中；氢能业务方面，公司将紧跟国家氢能产业政策导向，积极推行氢能相关业务。",
+   "time": "2026-11-11 11:38:42",
+   "url": "https://finance.eastmoney.com/a/202611113928258860.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美联储加息预期升温刺激美股下跌 - 新京报",
+   "summary": "",
+   "time": "2026-11-11 11:09",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yQ0tZMklOYTNZTFFTRVhHVXB0dDRWR0pxcl9zT1N4eVpwbjVVY1E3N2U2S1VPSThVOWxud3B3X0Q0MTlETW8wNlVEeGlIQ2hfY0JUSVo4WWE2bFhCRUFIT2ZpRDY?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "东方财富财经早餐 11月9日周一",
+   "summary": "【东方财富财经早餐 11月9日周一】1、国常会：完善资本市场稳市机制，增强股市内在稳定性。2、发改委召开民营企业座谈会，围绕抓好年内经济工作落实、研究明年政策举措听取意见建议。3、中国央行黄金储备“24连增”。",
+   "time": "2026-11-09 06:00:46",
+   "url": "http://finance.eastmoney.com/a/202611083925667993.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "新加坡海峡时报指数上涨1%至5,311.06点",
+   "summary": "",
+   "time": "2026-11-11 03:51:53",
+   "url": "https://news.10jqka.com.cn/20261111/c681693023.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "中国移动完成业界首个基于230GBaud的单波1.6Tb/s长距传输试验",
+   "summary": "",
+   "time": "2026-11-11 03:15:16",
+   "url": "https://news.futunn.com/flash/1004113138/china-mobile-completes-the-industry-s-first-long-haul-transmission",
+   "source": "富途"
+  },
+  {
+   "title": "保证黄仁勋免于处罚的，表面上是董事会和股东的沉默，实际是三十三年的业绩本身",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-11/102503358.html?cxapp_link=true",
    "source": "财新"
   }
  ],
@@ -1906,16 +2162,16 @@
    "富途": "ok(30)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "ok(30)",
+   "百度财经": "FAIL:RuntimeError",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
+   "谷歌新闻·研报": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 6,
+   "东财国际": 7,
+   "谷歌新闻·国际": 6,
    "东财早报": 3,
    "同花顺": 6,
    "富途": 6,
