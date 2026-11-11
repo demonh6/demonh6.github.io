@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-11 20:23:45 CST",
- "generated_at_iso": "2026-11-11T20:23:45+08:00",
+ "generated_at": "2026-11-11 20:32:00 CST",
+ "generated_at_iso": "2026-11-11T20:32:00+08:00",
  "date": "2026-11-11",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1621,37 +1621,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4050.921,
-    "change": 20.721,
-    "change_pct": 0.51,
-    "quote_time": "20:23:53 2026-11-11"
+    "price": 4049.372,
+    "change": 19.172,
+    "change_pct": 0.48,
+    "quote_time": "20:32:07 2026-11-11"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.907,
-    "change": 1.682,
-    "change_pct": 3.28,
-    "quote_time": "20:23:58 2026-11-11"
+    "price": 52.858,
+    "change": 1.633,
+    "change_pct": 3.19,
+    "quote_time": "20:32:06 2026-11-11"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.326,
-    "change": 1.286,
-    "change_pct": 1.49,
-    "quote_time": "20:23:57 2026-11-11"
+    "price": 87.393,
+    "change": 1.353,
+    "change_pct": 1.57,
+    "quote_time": "20:32:08 2026-11-11"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.304,
-    "change": 1.814,
-    "change_pct": 1.98,
-    "quote_time": "20:23:47 2026-11-11"
+    "price": 93.38,
+    "change": 1.89,
+    "change_pct": 2.07,
+    "quote_time": "20:32:05 2026-11-11"
    }
   ],
   "crypto": [
@@ -1659,27 +1659,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74021.2,
-    "change": -370.3,
-    "change_pct": -0.5,
+    "price": 73877.1,
+    "change": -272.9,
+    "change_pct": -0.37,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2056.16,
-    "change": -39.01,
-    "change_pct": -1.86,
+    "price": 2052.8,
+    "change": -35.02,
+    "change_pct": -1.68,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 83.81,
-    "change": -1.03,
-    "change_pct": -1.21,
+    "price": 83.75,
+    "change": -0.85,
+    "change_pct": -1.0,
     "source": "okx"
    }
   ]
@@ -1693,19 +1693,10 @@
    "timestamp": "2026-11-11",
    "source": "alternative.me"
   },
-  "a_share_breadth": {
-   "up": 3415,
-   "down": 1676,
-   "flat": 205,
-   "total": 5296,
-   "breadth_pct": 64.5,
-   "score": 79.0,
-   "source": "东财"
-  },
   "vix": {
-   "value": 18.61,
-   "change": -0.85,
-   "change_pct": -4.3679,
+   "value": 18.55,
+   "change": -0.91,
+   "change_pct": -4.6763,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1753,8 +1744,8 @@
     },
     {
      "t": "VIX",
-     "value": 18.61,
-     "change_pct": -4.3679
+     "value": 18.55,
+     "change_pct": -4.6763
     },
     {
      "t": "VIX3M",
@@ -1772,12 +1763,23 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 54.0,
-   "label": "中性",
-   "color": "#d9b23c"
+   "score": 29.0,
+   "label": "恐惧",
+   "color": "#f58a3d"
   }
  },
  "speakers": [
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储难以“抢跑”？加息50个基点预期升温之际，法兴称K型经济限制政策空间 - Sohu",
+   "summary": "",
+   "time": "2026-11-11 20:13",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc0IxdFZLTTVhOGU4QWpxdEE2bHJzeWZNVHhMRldoZWlyb1pWY2VhNU45clhZNkpjTzBGWlhVWGxnMTVBT2JJQUd3NWNQQi0wVUI0YmlzZlIxekE0MGVSMTNTZE5oZ2lCdTFPLWFUQkYzbU5na25fQzRHUVZmanhOeFVTQWIxOGVJZkhkNQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
+  },
   {
    "keyword": "欧洲央行",
    "label": "欧洲央行",
@@ -1798,18 +1800,7 @@
    "time": "2026-11-11 19:56",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMEM3YUROSGlfdzFzbW9HVTdkVWdycEtEbFBaUEZlNDlENmo3X29ZZHFIUXlqb0FqRnRhYnl6eDJzVTVmNDUtRHU1Q0stWDdpX3VWOERhV2dybEVyeGJRSE1nQzFWNjBBQUUyRUFGem1SbGRjNnBzU2MxZ1daTndPaVh6MUJFZWF6VW1ESw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美股三大股指齐跌！英伟达再跌5.53%，通胀超预期，美联储加息预期上升，中概股普跌，国际油价回落 - 第一财经",
-   "summary": "",
-   "time": "2026-11-11 18:52",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HUUlBVko3Uzc4Sk1vSnYxUV9PeU1RWkwzLVk2QVR3bXNIaF9SMlU3cDFjZmZJRjVVVUUtaE1lT0E2NXowMDl1RDUtRUlZSGszUFFR?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 1
   },
   {
    "keyword": "外交部",
@@ -1931,18 +1922,25 @@
  "alerts": [],
  "news": [
   {
-   "title": "我国成功发射探源计划探路者卫星。 (央视新闻)",
-   "summary": "我国成功发射探源计划探路者卫星。 (央视新闻)",
-   "time": "2026-11-11 20:04",
-   "url": "https://wallstreetcn.com/livenews/3198430",
+   "title": "丽人丽妆：收到1090万元政府补助",
+   "summary": "【丽人丽妆：收到1090万元政府补助】丽人丽妆(605136.SH)公告称，公司近日收到政府补助金额1090万元，补助类型为与收益相关，占2025年公司归母净利润绝对值的比例为13.63%。根据相关规定，上述补助将计入当期损益，具体会计处理以会计师年度审计确认结果为准。",
+   "time": "2026-11-11 20:28:10",
+   "url": "https://finance.eastmoney.com/a/202611113928609535.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "报道：Anthropic披露与微软、谷歌达成逾100亿美元新交易，与Lambda的协议可能被取消",
+   "summary": "Anthropic周二在一份文件中表示，过去一个月，该公司与微软和谷歌签署了新的承诺，将在现在到2033年期间额外花费约100亿美元租用云服务器，规模超过此前披露的水平。与此同时，Anthropic表示，其与规模较小的云服务公司Lambda达成的一项价值349亿美元的服务器空间租赁协议可能会被取消，原因是Lambda未能在双方约定的截止日期前建成一座数据中心。不过，Anthropic表示，尽管其拥",
+   "time": "2026-11-11 20:15",
+   "url": "https://wallstreetcn.com/livenews/3198434",
    "source": "华尔街见闻"
   },
   {
-   "title": "纳指期货涨幅扩大至2%",
-   "summary": "纳指期货涨幅扩大至2%，标普500指数期货上涨0.9%，道指期货上涨0.19%。",
-   "time": "2026-11-11 20:02:49",
-   "url": "https://finance.eastmoney.com/a/202611113928581719.html",
-   "source": "东财国际"
+   "title": "美联储难以“抢跑”？加息50个基点预期升温之际，法兴称K型经济限制政策空间 - Sohu",
+   "summary": "",
+   "time": "2026-11-11 20:13",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQc0IxdFZLTTVhOGU4QWpxdEE2bHJzeWZNVHhMRldoZWlyb1pWY2VhNU45clhZNkpjTzBGWlhVWGxnMTVBT2JJQUd3NWNQQi0wVUI0YmlzZlIxekE0MGVSMTNTZE5oZ2lCdTFPLWFUQkYzbU5na25fQzRHUVZmanhOeFVTQWIxOGVJZkhkNQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社",
@@ -1952,24 +1950,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "民主党或将掣肘特朗普政府在私营企业持有的股权 - Sohu",
+   "title": "冰山冷热：液冷相关业务主要处于研发试制、初步推广阶段",
    "summary": "",
-   "time": "2026-11-11 19:56",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMEM3YUROSGlfdzFzbW9HVTdkVWdycEtEbFBaUEZlNDlENmo3X29ZZHFIUXlqb0FqRnRhYnl6eDJzVTVmNDUtRHU1Q0stWDdpX3VWOERhV2dybEVyeGJRSE1nQzFWNjBBQUUyRUFGem1SbGRjNnBzU2MxZ1daTndPaVh6MUJFZWF6VW1ESw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "粤宏远Ａ：拟以5.5亿元现金收购金旺达100%股权，尚需股东会审批",
-   "summary": "",
-   "time": "2026-11-11 12:04:50",
-   "url": "https://news.10jqka.com.cn/20261111/c681719282.shtml",
+   "time": "2026-11-11 12:32:37",
+   "url": "https://news.10jqka.com.cn/20261111/c681720257.shtml",
    "source": "同花顺"
   },
   {
-   "title": "百度最新基础模型文心5.5 Flash Preview正式发布",
+   "title": "盘前期权异动：美光科技盘前上涨6.6%，现最高成交额的看涨期权涨跌幅为+320%，成交量达到72张",
    "summary": "",
-   "time": "2026-11-11 11:51:00",
-   "url": "https://news.futunn.com/flash/1004167686/baidu-s-latest-foundation-model-wenxin-5-5-flash-preview",
+   "time": "2026-11-11 12:30:58",
+   "url": "https://news.futunn.com/flash/1004179482/unusual-options-activity-micron-technology-up-6-6-premarket-the",
    "source": "富途"
   },
   {
@@ -1987,18 +1978,25 @@
    "source": "财新"
   },
   {
-   "title": "欧洲央行管委Makhlouf：收益率上升后，融资条件趋紧。\n\n通胀上行风险依然存在。\n\n价格压力主要局限于能源领域。",
-   "summary": "欧洲央行管委Makhlouf：收益率上升后，融资条件趋紧。\n\n通胀上行风险依然存在。\n\n价格压力主要局限于能源领域。",
-   "time": "2026-11-11 20:01",
-   "url": "https://wallstreetcn.com/livenews/3198427",
+   "title": "广东省新增3款已完成备案的生成式人工智能服务",
+   "summary": "【广东省新增3款已完成备案的生成式人工智能服务】据“网信广东”公众号消息，截至11月11日，广东省新增3款已完成备案的生成式人工智能服务，累计已完成230款生成式人工智能服务备案。",
+   "time": "2026-11-11 20:27:00",
+   "url": "https://finance.eastmoney.com/a/202611113928608887.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "摩根士丹利将英伟达从其“首选股”名单中移除，维持“增持”评级。",
+   "summary": "摩根士丹利将英伟达从其“首选股”名单中移除，维持“增持”评级。",
+   "time": "2026-11-11 20:10",
+   "url": "https://wallstreetcn.com/livenews/3198432",
    "source": "华尔街见闻"
   },
   {
-   "title": "佩斯科夫：目前尚未就普京是否参加在迈阿密举行的二十国集团峰会作出决定",
-   "summary": "【佩斯科夫：目前尚未就普京是否参加在迈阿密举行的二十国集团峰会作出决定】克里姆林宫发言人佩斯科夫表示，目前尚未就俄罗斯总统普京是否参加在迈阿密举行的二十国集团峰会作出决定，但普京对会晤持开放态度。",
-   "time": "2026-11-11 19:52:35",
-   "url": "https://finance.eastmoney.com/a/202611113928578559.html",
-   "source": "东财国际"
+   "title": "民主党或将掣肘特朗普政府在私营企业持有的股权 - Sohu",
+   "summary": "",
+   "time": "2026-11-11 19:56",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMEM3YUROSGlfdzFzbW9HVTdkVWdycEtEbFBaUEZlNDlENmo3X29ZZHFIUXlqb0FqRnRhYnl6eDJzVTVmNDUtRHU1Q0stWDdpX3VWOERhV2dybEVyeGJRSE1nQzFWNjBBQUUyRUFGem1SbGRjNnBzU2MxZ1daTndPaVh6MUJFZWF6VW1ESw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "太平洋：给予三一重工买入评级 - 同花顺财经",
@@ -2008,24 +2006,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美股三大股指齐跌！英伟达再跌5.53%，通胀超预期，美联储加息预期上升，中概股普跌，国际油价回落 - 第一财经",
+   "title": "富唯智能完成数千万元Pre-A轮融资",
    "summary": "",
-   "time": "2026-11-11 18:52",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HUUlBVko3Uzc4Sk1vSnYxUV9PeU1RWkwzLVk2QVR3bXNIaF9SMlU3cDFjZmZJRjVVVUUtaE1lT0E2NXowMDl1RDUtRUlZSGszUFFR?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "*ST西发：重整计划获拉萨中院裁定批准",
-   "summary": "",
-   "time": "2026-11-11 12:04:23",
-   "url": "https://news.10jqka.com.cn/20261111/c681719272.shtml",
+   "time": "2026-11-11 12:32:22",
+   "url": "https://news.10jqka.com.cn/20261111/c681720200.shtml",
    "source": "同花顺"
   },
   {
-   "title": "乌克兰代表称年底前达成乌俄冲突解决方案势头良好",
+   "title": "盘前期权异动：美国超微公司盘前上涨6.3%，现最高成交额的看涨期权涨跌幅为+33%，成交量达到1张",
    "summary": "",
-   "time": "2026-11-11 11:43:40",
-   "url": "https://news.futunn.com/flash/1004174689/ukrainian-representatives-state-that-momentum-is-favorable-for-reaching-a",
+   "time": "2026-11-11 12:30:55",
+   "url": "https://news.futunn.com/flash/1004179481/unusual-options-activity-advanced-micro-devices-up-6-3-premarket",
    "source": "富途"
   },
   {
@@ -2043,25 +2034,18 @@
    "source": "财新"
   },
   {
-   "title": "伦敦金属交易所一日期铝价差达到每吨31.73美元，为2021年以来最高。",
-   "summary": "伦敦金属交易所一日期铝价差达到每吨31.73美元，为2021年以来最高。",
-   "time": "2026-11-11 20:00",
-   "url": "https://wallstreetcn.com/livenews/3198426",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "克里姆林宫称普京愿与包括默茨在内的欧洲方面接触",
-   "summary": "克里姆林宫称，普京愿与包括默茨在内的欧洲方面接触。",
-   "time": "2026-11-11 19:51:31",
-   "url": "https://finance.eastmoney.com/a/202611113928576774.html",
+   "title": "俄称打击乌多地区目标 乌称多座变电站遭袭",
+   "summary": "【俄称打击乌多地区目标 乌称多座变电站遭袭】据新华社，俄罗斯国防部11日发布通报说，俄武装力量继续使用无人机打击为乌克兰军工企业运转提供支持的能源基础设施，以及为乌军运送军用物资的船只。",
+   "time": "2026-11-11 20:25:49",
+   "url": "https://finance.eastmoney.com/a/202611113928608736.html",
    "source": "东财国际"
   },
   {
-   "title": "太平洋：给予保利发展买入评级 - 同花顺财经",
-   "summary": "",
-   "time": "2026-11-11 19:52",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hejhvbENMLWxjLVZjNWo0UExwakFvR0VCd2xDMEdneHNQZEx5M21IQlBkQjlkVDRpZ2MxanFHS1FIY25ySlBfNm9VdHFnMmZvd1ZtckFETzkyR0w3NlQtcHVR?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "欧洲央行管委Makhlouf：收益率上升后，融资条件趋紧。\n\n通胀上行风险依然存在。\n\n价格压力主要局限于能源领域。",
+   "summary": "欧洲央行管委Makhlouf：收益率上升后，融资条件趋紧。\n\n通胀上行风险依然存在。\n\n价格压力主要局限于能源领域。",
+   "time": "2026-11-11 20:01",
+   "url": "https://wallstreetcn.com/livenews/3198427",
+   "source": "华尔街见闻"
   },
   {
    "title": "地缘溢价退潮！美联储独立性抬升转鹰，但金价仍有机会_外汇动态报道 - 汇通网",
@@ -2071,17 +2055,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "我国成功发射探源计划探路者卫星",
+   "title": "太平洋：给予保利发展买入评级 - 同花顺财经",
    "summary": "",
-   "time": "2026-11-11 12:03:37",
-   "url": "https://news.10jqka.com.cn/20261111/c681719118.shtml",
+   "time": "2026-11-11 19:52",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9hejhvbENMLWxjLVZjNWo0UExwakFvR0VCd2xDMEdneHNQZEx5M21IQlBkQjlkVDRpZ2MxanFHS1FIY25ySlBfNm9VdHFnMmZvd1ZtckFETzkyR0w3NlQtcHVR?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "同有科技：向特定对象发行股票申请获深交所审核通过",
+   "summary": "",
+   "time": "2026-11-11 12:31:48",
+   "url": "https://news.10jqka.com.cn/20261111/c681720084.shtml",
    "source": "同花顺"
   },
   {
-   "title": "英伟达股东律师回应：特朗普的态度不决定集体诉讼走向",
+   "title": "盘前期权异动：英特尔盘前上涨6.6%，现最高成交额的看涨期权涨跌幅为+92%，成交量达到18张",
    "summary": "",
-   "time": "2026-11-11 11:31:44",
-   "url": "https://news.futunn.com/flash/1004173587/lawyers-for-nvidia-shareholders-respond-trump-s-stance-does-not",
+   "time": "2026-11-11 12:30:54",
+   "url": "https://news.futunn.com/flash/1004179479/unusual-options-activity-intel-up-6-6-premarket-the-most",
    "source": "富途"
   },
   {
@@ -2103,7 +2094,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(7)",
+   "富途": "ok(14)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2112,12 +2103,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
-   "同花顺": 7,
-   "富途": 4,
+   "谷歌新闻·研报": 6,
+   "同花顺": 6,
+   "富途": 6,
    "东财早报": 3,
    "财新": 6
   }
