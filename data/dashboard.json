@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-11 18:56:34 CST",
- "generated_at_iso": "2026-11-11T18:56:34+08:00",
+ "generated_at": "2026-11-11 19:05:44 CST",
+ "generated_at_iso": "2026-11-11T19:05:44+08:00",
  "date": "2026-11-11",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -91,7 +91,6 @@
     "change": 148.201,
     "change_pct": 1.32,
     "hist": [
-     13723.735,
      13636.074,
      13316.969,
      12858.753,
@@ -120,14 +119,14 @@
      11471.094,
      11175.78,
      11145.49,
-     11241.536
+     11241.536,
+     11389.737
     ],
-    "sigma": 2.019,
-    "volume": 52678611629.0,
-    "vol_chg_pct": -12.7,
-    "vol_pctile": 4.8,
+    "sigma": 2.023,
+    "volume": 56930388970.0,
+    "vol_chg_pct": -4.0,
+    "vol_pctile": 12.0,
     "vol_hist": [
-     64579497380.0,
      58523891939.0,
      52625266497.0,
      54017426672.0,
@@ -156,7 +155,8 @@
      67242730089.0,
      56934812295.0,
      51482973042.0,
-     52678611629.0
+     52678611629.0,
+     56930388970.0
     ]
    },
    {
@@ -167,7 +167,6 @@
     "change": 77.67,
     "change_pct": 3.11,
     "hist": [
-     3399.93,
      3379.61,
      3288.948,
      3139.825,
@@ -196,14 +195,14 @@
      2566.803,
      2465.232,
      2458.562,
-     2494.397
+     2494.397,
+     2572.067
     ],
-    "sigma": 2.99,
-    "volume": 17449758591.0,
-    "vol_chg_pct": -10.8,
-    "vol_pctile": 16.0,
+    "sigma": 3.057,
+    "volume": 18407473439.0,
+    "vol_chg_pct": -5.1,
+    "vol_pctile": 25.6,
     "vol_hist": [
-     18561414080.0,
      15952248707.0,
      14166811064.0,
      15016674360.0,
@@ -232,7 +231,8 @@
      22532155659.0,
      18168065554.0,
      16543491266.0,
-     17449758591.0
+     17449758591.0,
+     18407473439.0
     ]
    },
    {
@@ -1157,9 +1157,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10789.73,
-    "change": 38.14,
-    "change_pct": 0.35,
+    "price": 10790.21,
+    "change": 38.62,
+    "change_pct": 0.36,
     "hist": [
      10606.0,
      10428.27,
@@ -1231,9 +1231,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8305.33,
-    "change": 26.74,
-    "change_pct": 0.32,
+    "price": 8310.33,
+    "change": 31.74,
+    "change_pct": 0.38,
     "hist": [
      7964.51,
      7835.31,
@@ -1305,9 +1305,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6365.15,
-    "change": 37.28,
-    "change_pct": 0.59,
+    "price": 6373.57,
+    "change": 45.7,
+    "change_pct": 0.72,
     "hist": [
      6269.03,
      6175.46,
@@ -1392,37 +1392,204 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4059.594,
-    "change": 29.394,
-    "change_pct": 0.73,
-    "quote_time": "18:57:24 2026-11-11"
+    "price": 4061.728,
+    "change": 31.528,
+    "change_pct": 0.78,
+    "quote_time": "19:05:51 2026-11-11",
+    "hist": [
+     4207.4,
+     4171.7,
+     4167.3,
+     4192.7,
+     4136.6,
+     4158.1,
+     4220.0,
+     4195.7,
+     4184.2,
+     4127.0,
+     4192.5,
+     4186.5,
+     4160.2,
+     4142.6,
+     4159.3,
+     4039.8,
+     4009.5,
+     4030.8,
+     4073.1,
+     4081.1,
+     4033.2,
+     3884.4,
+     3956.4,
+     3940.0,
+     4072.0,
+     4097.8,
+     4079.6,
+     4149.5,
+     4040.2,
+     4058.8
+    ],
+    "sigma": 1.642
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.945,
-    "change": 1.72,
-    "change_pct": 3.36,
-    "quote_time": "18:57:24 2026-11-11"
+    "price": 52.921,
+    "change": 1.696,
+    "change_pct": 3.31,
+    "quote_time": "19:05:52 2026-11-11",
+    "hist": [
+     61.35,
+     60.71,
+     61.395,
+     61.695,
+     60.055,
+     59.42,
+     61.1,
+     60.565,
+     59.39,
+     55.785,
+     57.6,
+     57.13,
+     57.23,
+     58.14,
+     58.105,
+     54.62,
+     53.96,
+     54.025,
+     54.49,
+     54.03,
+     52.215,
+     49.13,
+     50.705,
+     49.81,
+     52.325,
+     51.82,
+     51.96,
+     53.445,
+     51.515,
+     52.935
+    ],
+    "sigma": 2.887
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.017,
-    "change": 0.977,
-    "change_pct": 1.14,
-    "quote_time": "18:57:42 2026-11-11"
+    "price": 86.944,
+    "change": 0.904,
+    "change_pct": 1.05,
+    "quote_time": "19:05:51 2026-11-11",
+    "hist": [
+     92.9,
+     91.25,
+     89.28,
+     89.89,
+     88.92,
+     91.17,
+     91.64,
+     93.16,
+     94.77,
+     95.15,
+     97.55,
+     99.03,
+     98.23,
+     98.16,
+     97.69,
+     99.08,
+     103.43,
+     101.25,
+     100.19,
+     101.93,
+     102.87,
+     102.94,
+     96.25,
+     96.75,
+     88.03,
+     91.2,
+     90.34,
+     86.37,
+     86.43,
+     86.86
+    ],
+    "sigma": 3.116
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.16,
-    "change": 1.67,
-    "change_pct": 1.83,
-    "quote_time": "18:57:40 2026-11-11"
+    "price": 93.082,
+    "change": 1.592,
+    "change_pct": 1.74,
+    "quote_time": "19:05:48 2026-11-11",
+    "hist": [
+     103.05,
+     102.61,
+     100.23,
+     101.03,
+     101.1,
+     104.04,
+     104.42,
+     106.13,
+     106.2,
+     106.1,
+     105.64,
+     109.64,
+     109.15,
+     109.01,
+     109.9,
+     112.96,
+     112.08,
+     110.17,
+     109.67,
+     110.66,
+     111.51,
+     113.4,
+     104.17,
+     104.23,
+     94.55,
+     99.32,
+     97.92,
+     92.26,
+     91.96,
+     92.97
+    ],
+    "sigma": 3.455,
+    "volume": 82751.0,
+    "vol_chg_pct": -80.5,
+    "vol_pctile": 0.4,
+    "vol_hist": [
+     453565.0,
+     406949.0,
+     337727.0,
+     348806.0,
+     318223.0,
+     442344.0,
+     307405.0,
+     310676.0,
+     309134.0,
+     315947.0,
+     372838.0,
+     358255.0,
+     304517.0,
+     450433.0,
+     323625.0,
+     352849.0,
+     327884.0,
+     292291.0,
+     356203.0,
+     396006.0,
+     408798.0,
+     348904.0,
+     526554.0,
+     499677.0,
+     604736.0,
+     410344.0,
+     337121.0,
+     415241.0,
+     357317.0,
+     82751.0
+    ]
    }
   ],
   "crypto": [
@@ -1430,28 +1597,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74019.7,
-    "change": -210.4,
+    "price": 74006.9,
+    "change": -207.1,
     "change_pct": -0.28,
-    "source": "okx"
+    "source": "okx",
+    "hist": [
+     83430.6,
+     81646.4,
+     82416.7,
+     81354.6,
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74004.6
+    ],
+    "sigma": 2.024
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2060.06,
-    "change": -31.58,
-    "change_pct": -1.51,
-    "source": "okx"
+    "price": 2059.46,
+    "change": -31.28,
+    "change_pct": -1.5,
+    "source": "okx",
+    "hist": [
+     2516.49,
+     2429.99,
+     2440.81,
+     2431.25,
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2059.25
+    ],
+    "sigma": 3.079
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 83.87,
-    "change": -0.73,
-    "change_pct": -0.86,
-    "source": "okx"
+    "price": 83.85,
+    "change": -0.61,
+    "change_pct": -0.72,
+    "source": "okx",
+    "hist": [
+     107.4,
+     103.88,
+     106.09,
+     103.79,
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     83.8
+    ],
+    "sigma": 2.956
    }
   ]
  },
@@ -1465,18 +1731,18 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 3538,
-   "down": 1827,
-   "flat": 212,
-   "total": 5577,
-   "breadth_pct": 63.4,
-   "score": 76.8,
+   "up": 3415,
+   "down": 1676,
+   "flat": 205,
+   "total": 5296,
+   "breadth_pct": 64.5,
+   "score": 79.0,
    "source": "东财"
   },
   "vix": {
-   "value": 18.7,
-   "change": -0.76,
-   "change_pct": -3.9054,
+   "value": 18.55,
+   "change": -0.91,
+   "change_pct": -4.6763,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1524,8 +1790,8 @@
     },
     {
      "t": "VIX",
-     "value": 18.7,
-     "change_pct": -3.9054
+     "value": 18.55,
+     "change_pct": -4.6763
     },
     {
      "t": "VIX3M",
@@ -1543,23 +1809,12 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 52.9,
+   "score": 54.0,
    "label": "中性",
    "color": "#d9b23c"
   }
  },
  "speakers": [
-  {
-   "keyword": "中国央行",
-   "label": "中国央行",
-   "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
-   "title": "中国央行：存款利率下降可为贷款利率下降创造空间",
-   "summary": "央行发布2026年第三季度中国货币政策执行报告，其中在专栏2中提到，存款利率下降可为贷款利率下降创造空间，商业银行需要一定存、贷款利差，以保持支持实体经济的能力和自身稳健经营。欧元区、日本在政策利率降至零附近后，存款利率降至零左右，贷款利率也降至较低水平。",
-   "time": "2026-11-11 18:23",
-   "url": "https://wallstreetcn.com/livenews/3198360",
-   "source": "华尔街见闻",
-   "mentions": 2
-  },
   {
    "keyword": "美联储",
    "label": "美联储",
@@ -1569,18 +1824,7 @@
    "time": "2026-11-11 18:08",
    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RSGs0MllrNTFFWnRaNzVmbFlDZmtiV0xZakprOGlXckpOaUEyempIdVVBZFhaa1NBNkx5YmdYOV81RDd2Wl96NDFteVhQXzRBWHZTVDNzNXc4dw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "肯尼迪家族起诉特朗普 阻止在华盛顿修建巨型凯旋门 - 联合早报",
-   "summary": "",
-   "time": "2026-11-11 17:36",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFcUtVODV0aEt2QUJNUnVlRHlPLTRkQi0xaVk3bDA3bGQ1NjR4aXAwMXRtalVUSGNabGlEVkJSV0VhQko4WmcwdFEtcXE3b2dpNHJnbThXZ3U4MmRyMy1NVm41bm4zbV84aXc?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 4
   },
   {
    "keyword": "外交部",
@@ -1590,6 +1834,17 @@
    "summary": "【东方财富财经早餐 11月10日周二】1、中方尚未批准约60万枚先进AI芯片的大规模进口？外交部回应。2、“星云星座计划”发布，我国太空算力网加快部署。3、中信建投、华泰、浙商出手买入，至少10家券商已进场，增量资金加速入市。",
    "time": "2026-11-10 06:00:20",
    "url": "http://finance.eastmoney.com/a/202611093926582211.html",
+   "source": "东财早报",
+   "mentions": 1
+  },
+  {
+   "keyword": "中国央行",
+   "label": "中国央行",
+   "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
+   "title": "东方财富财经早餐 11月9日周一",
+   "summary": "【东方财富财经早餐 11月9日周一】1、国常会：完善资本市场稳市机制，增强股市内在稳定性。2、发改委召开民营企业座谈会，围绕抓好年内经济工作落实、研究明年政策举措听取意见建议。3、中国央行黄金储备“24连增”。",
+   "time": "2026-11-09 06:00:46",
+   "url": "http://finance.eastmoney.com/a/202611083925667993.html",
    "source": "东财早报",
    "mentions": 1
   },
@@ -1677,43 +1932,23 @@
   ],
   "reports": [
    {
-    "title": "广发证券维持招商银行“买入”评级 A股合理价值56.24元 - 观点网",
-    "org": "广发",
+    "title": "花旗上调Coreweave目标价 - 东方财富",
+    "org": "花旗",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-11",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41SzU0em1ZR1JwSVRTdzg0SjMwVWRyU3BLcnNYVTBSOEM5UGdMS2ZnU1RqS0dvd2haTmJqQ2hHWm5oYjFwN0xZRWlvZ2pUd241UkJlT1gweEEzXzdaamdBcTln?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aaEVLTEgwcVhQdmE5bjVmMW9YYUpiaDNpenZ2bmxPR0s0cjRwempjWmEwQlRQVzVrMlNDaHQ1OXhyU3VUSTE3TVZNazNGM2JLREhNSVlxRThGb25VRloxSUlmQQ?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "中国人民银行：国内供强需弱矛盾仍较突出 内需潜力有望进一步释放",
-    "org": "中国人民银行",
+    "title": "BNEF：今年全球风电新增装机预计降15%，为2022年以来首降",
+    "org": "彭博",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-11",
-    "url": "https://news.futunn.com/flash/1004164291/people-s-bank-of-china-the-imbalance-between-strong-supply",
-    "source": "机构观点"
-   },
-   {
-    "title": "国信证券维持长江电力“优于大市”评级 前三季度净利263.44亿元 - 观点网",
-    "org": "国信证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-11",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DVDV3TUVaejBkeDdiUVo1aVdhODB6X0tqOTFlNnQzU3c5TkxwMm5fYUFvRmUzSHpvSFBVZmVtZmpDT2Z1bW9OYmxNNUpLeUgyLThpQ3oyRkRrQzM5UGQxZVV3?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "中国人民银行：实现全年经济增长预期目标有基础有支撑",
-    "org": "中国人民银行",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-11",
-    "url": "https://news.futunn.com/flash/1004164265/people-s-bank-of-china-solid-foundation-and-support-exist",
+    "url": "https://wallstreetcn.com/livenews/3198405",
     "source": "机构观点"
    },
    {
@@ -1725,24 +1960,41 @@
     "date": "2026-11-10",
     "url": "http://finance.eastmoney.com/a/202611093926582211.html",
     "source": "机构观点"
+   },
+   {
+    "title": "摩根士丹利下调SK海力士目标价38%至160万韩元野村维持原目标价_公司新闻_财经 - 证券之星",
+    "org": "摩根士丹利",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-11",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zakdwMUlPUE1ka2xOZXpjLWQyMHlEek1yQlZQTFFSTjhRZmFOUEFrbXAweXdTMW8zMmhJMXBTc3BLWXoyczM3cW4tTW9peENpN0Z3X1p0NkgzTGp3WTk4Rw?oc=5",
+    "source": "机构观点"
    }
   ]
  },
  "alerts": [],
  "news": [
   {
-   "title": "据百度消息，百度最新基础模型文心5.5 Flash Preview正式发布。",
-   "summary": "据百度消息，百度最新基础模型文心5.5 Flash Preview正式发布。",
-   "time": "2026-11-11 18:39",
-   "url": "https://wallstreetcn.com/livenews/3198370",
+   "title": "天益医疗：拟向不特定对象发行可转债募资不超过5亿元，用于天益医疗高端药品及医疗器械研发生产项目。",
+   "summary": "天益医疗：拟向不特定对象发行可转债募资不超过5亿元，用于天益医疗高端药品及医疗器械研发生产项目。",
+   "time": "2026-11-11 19:05",
+   "url": "https://wallstreetcn.com/livenews/3198406",
    "source": "华尔街见闻"
   },
   {
-   "title": "亨通光电：拟出资2000万元参设产业投资基金 聚焦新材料与高端智能制造两大核心赛道",
-   "summary": "【亨通光电：拟出资2000万元参设产业投资基金 聚焦新材料与高端智能制造两大核心赛道】亨通光电(600487.SH)公告称，公司拟作为有限合伙人与专业投资机构共同投资成立苏州东吴未来股权投资基金合伙企业(有限合伙)，公司拟以自有资金出资2000万元，占基金认缴出资总额的10%。",
-   "time": "2026-11-11 18:34:28",
-   "url": "https://finance.eastmoney.com/a/202611113928524252.html",
+   "title": "欧洲多国公开反对默茨援乌提议",
+   "summary": "【欧洲多国公开反对默茨援乌提议】斯洛伐克总理菲佐和捷克总理巴比什10日在斯首都布拉迪斯拉发举行的两国政府联合会议上，公开反对德国总理默茨要求欧盟所有成员国共同承担乌克兰2027年财政缺口的提议。",
+   "time": "2026-11-11 18:58:35",
+   "url": "https://finance.eastmoney.com/a/202611113928537073.html",
    "source": "东财国际"
+  },
+  {
+   "title": "花旗上调Coreweave目标价 - 东方财富",
+   "summary": "",
+   "time": "2026-11-11 18:43",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aaEVLTEgwcVhQdmE5bjVmMW9YYUpiaDNpenZ2bmxPR0s0cjRwempjWmEwQlRQVzVrMlNDaHQ1OXhyU3VUSTE3TVZNazNGM2JLREhNSVlxRThGb25VRloxSUlmQQ?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "地缘溢价退潮！美联储独立性抬升转鹰，但金价仍有机会_外汇动态报道 - 汇通网",
@@ -1752,24 +2004,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "摩根士丹利下调SK海力士目标价38%至160万韩元 野村维持原目标价 - 观点网",
+   "title": "国家能源局负责人会见托克集团首席执行官",
    "summary": "",
-   "time": "2026-11-11 18:08",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Jek9DMnczbUl5NGpCeXVDNWlnSHhhRGNUZDVrbmdfaGVGbUxOZDViVk1iTkwzSmEwWXRJelJrYlZnMVhoOHZvZ2ZjYzNxUy1fTVQzanVZeTdPNDBWYnRXRVVB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "市场监管总局批准发布一批重要国家标准",
-   "summary": "",
-   "time": "2026-11-11 10:39:54",
-   "url": "https://news.futunn.com/flash/1004167676/the-state-administration-for-market-regulation-has-approved-the-release",
+   "time": "2026-11-11 11:05:33",
+   "url": "https://news.futunn.com/flash/1004170647/head-of-the-national-energy-administration-meets-with-ceo-of",
    "source": "富途"
   },
   {
-   "title": "文心 5.5 Flash Preview发布！游戏开发、3D建模能力全面升级",
+   "title": "高争民爆：藏建集团拟2500万元增资高争制氧，公司持股比例由51%稀释至10.4334%",
    "summary": "",
-   "time": "2026-11-11 10:37:27",
-   "url": "https://news.10jqka.com.cn/20261111/c681716957.shtml",
+   "time": "2026-11-11 11:04:42",
+   "url": "https://news.10jqka.com.cn/20261111/c681717659.shtml",
    "source": "同花顺"
   },
   {
@@ -1787,45 +2032,45 @@
    "source": "财新"
   },
   {
-   "title": "中国央行：存款利率下降可为贷款利率下降创造空间",
-   "summary": "央行发布2026年第三季度中国货币政策执行报告，其中在专栏2中提到，存款利率下降可为贷款利率下降创造空间，商业银行需要一定存、贷款利差，以保持支持实体经济的能力和自身稳健经营。欧元区、日本在政策利率降至零附近后，存款利率降至零左右，贷款利率也降至较低水平。",
-   "time": "2026-11-11 18:23",
-   "url": "https://wallstreetcn.com/livenews/3198360",
+   "title": "BNEF：今年全球风电新增装机预计降15%，为2022年以来首降",
+   "summary": "全球风电新增装机量今年将出现回落。彭博新能源财经（BNEF）最新报告预测，2026年全球新增风电装机约145GW，同比下降15%，为2022年以来首次年度下降。报告称，回落主要因全球最大风电市场中国在连续三年创纪录后放缓；不过，中国以外市场的新增装机容量将创历史新高，海上风电和存量更新改造成为结构性亮点。（澎湃）",
+   "time": "2026-11-11 19:05",
+   "url": "https://wallstreetcn.com/livenews/3198405",
    "source": "华尔街见闻"
   },
   {
-   "title": "俄美乌三方会谈结束",
-   "summary": "【俄美乌三方会谈结束】俄罗斯、美国和乌克兰三方在阿联酋首都阿布扎比举行的会谈11日结束。",
-   "time": "2026-11-11 18:33:22",
-   "url": "https://finance.eastmoney.com/a/202611113928522769.html",
+   "title": "天益医疗：拟发行不超5亿元可转债用于高端药品及医疗器械研发生产项目",
+   "summary": "【天益医疗：拟发行不超5亿元可转债用于高端药品及医疗器械研发生产项目】天益医疗(301097.SZ)公告称，公司拟向不特定对象发行可转换公司债券，募集资金总额不超过5亿元，扣除发行费用后拟全部用于天益医疗高端药品及医疗器械研发生产项目。",
+   "time": "2026-11-11 18:53:16",
+   "url": "https://finance.eastmoney.com/a/202611113928535916.html",
    "source": "东财国际"
   },
   {
-   "title": "肯尼迪家族起诉特朗普 阻止在华盛顿修建巨型凯旋门 - 联合早报",
+   "title": "劲仔食品脱水研报：2026年前三季度营收稳健增长，新鱼季鳀鱼成本扰动盈利拐点 - 同花顺财经",
    "summary": "",
-   "time": "2026-11-11 17:36",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFcUtVODV0aEt2QUJNUnVlRHlPLTRkQi0xaVk3bDA3bGQ1NjR4aXAwMXRtalVUSGNabGlEVkJSV0VhQko4WmcwdFEtcXE3b2dpNHJnbThXZ3U4MmRyMy1NVm41bm4zbV84aXc?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "广发证券维持招商银行“买入”评级 A股合理价值56.24元 - 观点网",
-   "summary": "",
-   "time": "2026-11-11 17:56",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41SzU0em1ZR1JwSVRTdzg0SjMwVWRyU3BLcnNYVTBSOEM5UGdMS2ZnU1RqS0dvd2haTmJqQ2hHWm5oYjFwN0xZRWlvZ2pUd241UkJlT1gweEEzXzdaamdBcTln?oc=5",
+   "time": "2026-11-11 18:41",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wMmxZcEw1cW9xZW9QYl9UVGxJelBaRDk2OUFvaVRkWG0zVWJ2VEVhdmJROG1UeFZ1WE5yaVkwUVQxUWlfUzhuUkN5WTNfWW85MWNmUktDUzAxcTg1TU8yX21B?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "俄美乌第二日三方会谈已结束",
+   "title": "美联储维持高利率预期升温 盾币收跌至18149盾 - Shangbao Indonesia",
    "summary": "",
-   "time": "2026-11-11 10:25:24",
-   "url": "https://news.futunn.com/flash/1004166305/second-day-of-trilateral-talks-among-russia-the-united-states",
+   "time": "2026-11-11 17:53",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA4SzVLcjdkTkdXYkJVc2tybGxfbjFzc1cxTE55ajRDXzFweUptLWpJUllSRGNjOURnSnBaVHI5ZXdFd3hjTTNxbkFMYTZrakxuaU5ZaUhkZktjbllTcDkzUFBLcHVvMVp3bEprbFFIbURPN0NoYzg4TENB?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "保利发展：2026年前十个月签约金额1990.38亿元，同比减少10.68%",
+   "summary": "",
+   "time": "2026-11-11 11:04:39",
+   "url": "https://news.futunn.com/flash/1004170541/poly-developments-contracted-sales-reached-rmb-199-038-billion-in",
    "source": "富途"
   },
   {
-   "title": "华英农业：拟以债转股方式对菏泽华英增资1.4亿元",
+   "title": "天康生物：董事会审议通过变更会计师事务所议案，将提交临时股东会审议",
    "summary": "",
-   "time": "2026-11-11 10:36:23",
-   "url": "https://news.10jqka.com.cn/20261111/c681716942.shtml",
+   "time": "2026-11-11 11:04:37",
+   "url": "https://news.10jqka.com.cn/20261111/c681717655.shtml",
    "source": "同花顺"
   },
   {
@@ -1843,45 +2088,45 @@
    "source": "财新"
   },
   {
-   "title": "英伟达盘前涨幅扩大至5%，此前两个交易日累计下跌9.5%。",
-   "summary": "英伟达盘前涨幅扩大至5%，此前两个交易日累计下跌9.5%。",
-   "time": "2026-11-11 18:22",
-   "url": "https://wallstreetcn.com/livenews/3198359",
+   "title": "宁德时代在港交所公告，2026年11月11日于深交所回购A股12.14万股，每股购回价人民币246.81至247.15元，付出价格总额人民币2997.5524万元。",
+   "summary": "宁德时代在港交所公告，2026年11月11日于深交所回购A股12.14万股，每股购回价人民币246.81至247.15元，付出价格总额人民币2997.5524万元。",
+   "time": "2026-11-11 19:04",
+   "url": "https://wallstreetcn.com/livenews/3198402",
    "source": "华尔街见闻"
   },
   {
-   "title": "俄方说普京不间断听取俄美乌三方会谈情况汇报",
-   "summary": "【俄方说普京不间断听取俄美乌三方会谈情况汇报】俄罗斯总统新闻秘书佩斯科夫11日在例行记者会上表示，俄总统普京不间断听取俄代表团关于俄美乌三方在阿布扎比会谈情况的汇报。佩斯科夫还说，会谈期间俄代表团没有接触过欧洲方面代表，也从未计划与其接触。",
-   "time": "2026-11-11 18:33:05",
-   "url": "https://finance.eastmoney.com/a/202611113928522615.html",
+   "title": "谷歌据悉拟于香港与新加坡发售30亿美元债券",
+   "summary": "【谷歌据悉拟于香港与新加坡发售30亿美元债券】谷歌母公司Alphabet正寻求通过首次发行港元与新加坡元债券，募资约30亿美元等值，以在本月初AI引发的全球市场抛售后，测试亚洲投资者的需求。",
+   "time": "2026-11-11 18:52:48",
+   "url": "https://finance.eastmoney.com/a/202611113928535859.html",
    "source": "东财国际"
   },
   {
-   "title": "以媒爆特朗普与内塔尼亚胡就伊朗问题发生激烈冲突，以总理办公室否认 - 凤凰网",
+   "title": "摩根士丹利下调SK海力士目标价38%至160万韩元野村维持原目标价_公司新闻_财经 - 证券之星",
    "summary": "",
-   "time": "2026-11-11 17:32",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBtczRBOFIxamxsVm9NYkRkcExMbGNHMEotTXZPUlZjeC0yYnhrMVNqZjhhZWFnQlNERkc2MlM2M1B3Sk5fVFpWUE43bUc?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "国信证券维持长江电力“优于大市”评级 前三季度净利263.44亿元 - 观点网",
-   "summary": "",
-   "time": "2026-11-11 17:56",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DVDV3TUVaejBkeDdiUVo1aVdhODB6X0tqOTFlNnQzU3c5TkxwMm5fYUFvRmUzSHpvSFBVZmVtZmpDT2Z1bW9OYmxNNUpLeUgyLThpQ3oyRkRrQzM5UGQxZVV3?oc=5",
+   "time": "2026-11-11 18:08",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zakdwMUlPUE1ka2xOZXpjLWQyMHlEek1yQlZQTFFSTjhRZmFOUEFrbXAweXdTMW8zMmhJMXBTc3BLWXoyczM3cW4tTW9peENpN0Z3X1p0NkgzTGp3WTk4Rw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "中国船舶：子公司签订20艘VLCC型原油轮建造合同，金额合计172.18亿元",
+   "title": "美联储理事沃勒：支持12月加息，不排除直接加息50个基点的可能-市场参考 - 金十数据",
    "summary": "",
-   "time": "2026-11-11 10:18:37",
-   "url": "https://news.futunn.com/flash/1004165484/china-cssc-holdings-subsidiary-signs-construction-contracts-for-20-vlcc",
+   "time": "2026-11-11 17:39",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xOGR5TXo4UU84Ym1QNU9oTnR2RU5zQmhPN1NHcFZCRjlraGUxTmJSVUYwSzA1ZFRfdlRrQkZSQWdmejRjLTZSbGZ2eG45TWs?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "燧原科技：目前公司经营情况正常",
+   "summary": "",
+   "time": "2026-11-11 11:03:00",
+   "url": "https://news.futunn.com/flash/1004170423/enflame-technology-the-company-s-current-operations-are-normal",
    "source": "富途"
   },
   {
-   "title": "工信部公开征求《半导体集成电路 融合视觉传感器测试方法》等46项推荐性国家标准计划项目意见",
+   "title": "航天环宇：首次回购公司股份50000股，支付186.75万元",
    "summary": "",
-   "time": "2026-11-11 10:36:18",
-   "url": "https://news.10jqka.com.cn/20261111/c681716941.shtml",
+   "time": "2026-11-11 11:02:15",
+   "url": "https://news.10jqka.com.cn/20261111/c681717334.shtml",
    "source": "同花顺"
   },
   {
@@ -1903,7 +2148,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(27)",
+   "富途": "ok(30)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1914,8 +2159,8 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 6,
+   "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 6,
    "富途": 6,
    "同花顺": 6,
    "东财早报": 3,
@@ -1997,8 +2242,6 @@
   "color": "#c28a3d",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {
-  "A股指数": "ReadTimeout: HTTPConnectionPool(host='vip.stock.finance.sina.com.cn', port=80): Read timed out. (read timeout=60)"
- },
+ "errors": {},
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
