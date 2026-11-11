@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-12 01:22:24 CST",
- "generated_at_iso": "2026-11-12T01:22:24+08:00",
+ "generated_at": "2026-11-12 01:30:33 CST",
+ "generated_at_iso": "2026-11-12T01:30:33+08:00",
  "date": "2026-11-12",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52355.2891,
-    "change": 123.4,
-    "change_pct": 0.24,
-    "quote_time": "2026-11-12 01:22:24",
+    "price": 52346.6992,
+    "change": 114.81,
+    "change_pct": 0.22,
+    "quote_time": "2026-11-12 01:30:23",
     "hist": [
      50906.0508,
      50926.5586,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25606.7977,
-    "change": 540.9233,
-    "change_pct": 2.16,
-    "quote_time": "2026-11-12 01:22:28",
+    "price": 25605.4123,
+    "change": 539.5379,
+    "change_pct": 2.15,
+    "quote_time": "2026-11-12 01:30:35",
     "hist": [
      26861.0645,
      26871.5957,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7630.73,
-    "change": 109.8,
-    "change_pct": 1.46,
-    "quote_time": "2026-11-12 01:22:24",
+    "price": 7629.4902,
+    "change": 108.56,
+    "change_pct": 1.44,
+    "quote_time": "2026-11-12 01:30:04",
     "hist": [
      7651.54,
      7666.4502,
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 61248.59,
-    "change": 789.01,
-    "change_pct": 1.31,
+    "price": 60459.5781,
+    "change": 1684.08,
+    "change_pct": 2.87,
     "hist": [
      65877.62,
      65481.27,
@@ -1155,11 +1155,25 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81879.4,
+    "change": 772.75,
+    "change_pct": 0.95
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26587.34,
+    "change": 239.89,
+    "change_pct": 0.91
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10835.47,
-    "change": 83.88,
-    "change_pct": 0.78,
+    "price": 10797.07,
+    "change": 45.48,
+    "change_pct": 0.42,
     "hist": [
      10428.27,
      10461.95,
@@ -1231,9 +1245,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8332.87,
-    "change": 54.28,
-    "change_pct": 0.66,
+    "price": 8308.38,
+    "change": 29.79,
+    "change_pct": 0.36,
     "hist": [
      7835.31,
      7897.19,
@@ -1305,7 +1319,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6390.9,
+    "price": 6390.91,
     "change": 63.03,
     "change_pct": 1.0,
     "hist": [
@@ -1341,6 +1355,13 @@
      6327.88
     ],
     "sigma": 1.009
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2480.81,
+    "change": 35.21,
+    "change_pct": 1.44
    }
   ]
  },
@@ -1392,37 +1413,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 4011.406,
-    "change": -18.794,
-    "change_pct": -0.47,
-    "quote_time": "01:22:32 2026-11-12"
+    "price": 4010.184,
+    "change": -20.016,
+    "change_pct": -0.5,
+    "quote_time": "01:30:40 2026-11-12"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 52.112,
-    "change": 0.887,
-    "change_pct": 1.73,
-    "quote_time": "01:22:32 2026-11-12"
+    "price": 52.119,
+    "change": 0.894,
+    "change_pct": 1.75,
+    "quote_time": "01:30:40 2026-11-12"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.902,
-    "change": 0.862,
-    "change_pct": 1.0,
-    "quote_time": "01:22:32 2026-11-12"
+    "price": 86.748,
+    "change": 0.708,
+    "change_pct": 0.82,
+    "quote_time": "01:30:40 2026-11-12"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.889,
-    "change": 1.399,
-    "change_pct": 1.53,
-    "quote_time": "01:22:30 2026-11-12"
+    "price": 92.792,
+    "change": 1.302,
+    "change_pct": 1.42,
+    "quote_time": "01:30:40 2026-11-12"
    }
   ],
   "crypto": [
@@ -1430,27 +1451,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 74584.4,
-    "change": 1497.7,
-    "change_pct": 2.05,
+    "price": 74499.8,
+    "change": 1379.9,
+    "change_pct": 1.89,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2094.81,
-    "change": 68.66,
-    "change_pct": 3.39,
+    "price": 2093.45,
+    "change": 65.87,
+    "change_pct": 3.25,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 85.44,
-    "change": 3.08,
-    "change_pct": 3.74,
+    "price": 85.45,
+    "change": 2.94,
+    "change_pct": 3.56,
     "source": "okx"
    }
   ]
@@ -1474,9 +1495,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 17.77,
-   "change": -1.69,
-   "change_pct": -8.6845,
+   "value": 17.78,
+   "change": -1.68,
+   "change_pct": -8.6331,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1512,33 +1533,33 @@
     19.92,
     19.46
    ],
-   "vix3m": 19.65,
+   "vix3m": 19.63,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 16.32,
-     "change_pct": -11.9741
+     "value": 16.36,
+     "change_pct": -11.7584
     },
     {
      "t": "VIX",
-     "value": 17.77,
-     "change_pct": -8.6845
+     "value": 17.78,
+     "change_pct": -8.6331
     },
     {
      "t": "VIX3M",
-     "value": 19.65,
-     "change_pct": -4.7965
+     "value": 19.63,
+     "change_pct": -4.8934
     },
     {
      "t": "VIX6M",
-     "value": 21.41,
-     "change_pct": -2.6376
+     "value": 21.38,
+     "change_pct": -2.774
     }
    ],
-   "ratio_9d_3m": 0.831,
+   "ratio_9d_3m": 0.833,
    "shape": "contango(平静期)",
    "source": "CBOE"
   },
@@ -1550,15 +1571,26 @@
  },
  "speakers": [
   {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "马斯克表示：Cybertruck的生产将延长至2027年夏季末",
+   "summary": "马斯克表示，Cybertruck的生产将延长至2027年夏季末。",
+   "time": "2026-11-12 01:14:17",
+   "url": "https://finance.eastmoney.com/a/202611123928807271.html",
+   "source": "东财国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普离任给拜登亲笔信曝光，称你爱美国人民 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-12 01:03",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3YVpVaFYwdjMzVWRyY3RwY0lyMktFRnFSejdaZDk0RmY3UmxVNzFjUUpjQkd1MWE1S3lwbjBmXzhsR3RsWUlrWGV4bWNXdEdsRWpjQ0kzR3BLX0dBNkVNRk5obGRvakhWclM2ZGRzVVczQQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
+   "title": "特朗普：美国没有对伊朗发动战争",
+   "summary": "美国总统特朗普：美国没有对伊朗发动战争。\n\n伊朗永远不会拥有核武器。\n\n一个没有英雄的国家，就像没有星辰的天空，或没有天使的天堂。\n\n伊朗需要25年才能重建失去的一切。\n\n自1979年以来，伊朗一直在对美国发动战争。这个问题早就应该解决了。\n\n我们（在伊朗战争上）赢了。我们要确保取得彻底胜利，而不是93%的胜利。",
+   "time": "2026-11-12 01:11",
+   "url": "https://wallstreetcn.com/livenews/3198563",
+   "source": "华尔街见闻",
+   "mentions": 2
   },
   {
    "keyword": "美联储",
@@ -1569,7 +1601,7 @@
    "time": "2026-11-12 00:39",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMzh0T2xxVldjZjJrdWhlN0w1SFFLV3M0dkpxT2xnMGRNbDFxQjZfY2lfdG1VYVF3U1hUdmt5bDRFQXM1UllCMk1KTm9KMWZBN2ZEV1gtZklmMjRkZ21tU0NKN1ZRRHV1amc2cTRFMVJCdG1NRTB1NE1tZE45dUZJU3Z0YUhfQQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 5
+   "mentions": 4
   },
   {
    "keyword": "外交部",
@@ -1669,6 +1701,20 @@
  "alerts": [],
  "news": [
   {
+   "title": "美元/瑞郎日内涨幅达1.0%，报0.8334。",
+   "summary": "美元/瑞郎日内涨幅达1.0%，报0.8334。",
+   "time": "2026-11-12 01:19",
+   "url": "https://wallstreetcn.com/livenews/3198565",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "马斯克表示：Cybertruck的生产将延长至2027年夏季末",
+   "summary": "马斯克表示，Cybertruck的生产将延长至2027年夏季末。",
+   "time": "2026-11-12 01:14:17",
+   "url": "https://finance.eastmoney.com/a/202611123928807271.html",
+   "source": "东财国际"
+  },
+  {
    "title": "特朗普离任给拜登亲笔信曝光，称你爱美国人民 - 手机新浪网",
    "summary": "",
    "time": "2026-11-12 01:03",
@@ -1676,39 +1722,25 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "沪铝夜盘收涨1.1%",
-   "summary": "【沪铝夜盘收涨1.1%】国际铜夜盘收涨0.05%，沪铜收涨0.31%，沪铝收涨1.1%，沪锌收涨0.4%，沪铅收跌0.47%，沪镍收涨0.58%，沪锡收涨0.74%。氧化铝夜盘收涨0.04%，铝合金收涨0.44%。不锈钢夜盘收涨0.25%。",
-   "time": "2026-11-12 01:01:35",
-   "url": "https://finance.eastmoney.com/a/202611123928802814.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "国际铜夜盘收涨0.05%，沪铜收涨0.31%，沪铝收涨1.1%，沪锌收涨0.4%，沪铅收跌0.47%，沪镍收涨0.58%，沪锡收涨0.74%。\n\n氧化铝夜盘收涨0.04%，铝合金收涨0.44%。\n\n不锈钢夜盘收涨0.25%。",
-   "summary": "国际铜夜盘收涨0.05%，沪铜收涨0.31%，沪铝收涨1.1%，沪锌收涨0.4%，沪铅收跌0.47%，沪镍收涨0.58%，沪锡收涨0.74%。\n\n氧化铝夜盘收涨0.04%，铝合金收涨0.44%。\n\n不锈钢夜盘收涨0.25%。",
-   "time": "2026-11-12 01:00",
-   "url": "https://wallstreetcn.com/livenews/3198560",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "券商11月调研328家上市公司，约20股评级被调整 - Sohu",
+   "title": "风口研报 - 财联社电报",
    "summary": "",
-   "time": "2026-11-11 22:18",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRWQ0LXFXREd3WGRVMmtXcnBIUnFKcEFRQm9IOHdfR2p3Q2E1TF9GOExzMmtKSnpVV29xeXp6QUlmMFFfMHhjMTJRRXBfbTNwaDB5ZXhuNTMzVklFM0NUOEdUNmZQQjZhZW5hOFVjeURTZk1laW91a09UZk9UamZxU1EzeXNaNFVjZUU2dg?oc=5",
+   "time": "2026-11-11 21:50",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85VU9MUFBTOHd3TEUyS0xJUzRjbHVuSzdoNmdxUEpPcGZudlVTdGhmNGpBZldQVjNXODhydGh4Y0tkblFJbWotRTF1SHQ0dVRkNFBpMXEwdDhEZG56ZmhEclV3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "巴西石油首席执行官表示，公司已将石油泄漏率从10%降至3%",
+   "title": "卡梅伦警告伯纳姆勿推动英国重新加入欧盟 称或损害英欧关系谈判",
    "summary": "",
-   "time": "2026-11-11 17:04:58",
-   "url": "https://news.10jqka.com.cn/20261112/c681724187.shtml",
-   "source": "同花顺"
+   "time": "2026-11-11 17:27:24",
+   "url": "https://news.futunn.com/flash/1004207396/cameron-warns-burnham-against-pushing-for-uk-s-re-entry",
+   "source": "富途"
   },
   {
-   "title": "美联储加息预期升温 美元指数升至2025年4月以来最高",
+   "title": "标普500指数涨幅扩大至1.5%",
    "summary": "",
-   "time": "2026-11-11 17:02:56",
-   "url": "https://news.futunn.com/flash/1004206140/expectations-of-federal-reserve-rate-hikes-intensify-us-dollar-index",
-   "source": "富途"
+   "time": "2026-11-11 17:27:14",
+   "url": "https://news.10jqka.com.cn/20261112/c681724254.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月11日周三",
@@ -1725,6 +1757,20 @@
    "source": "财新"
   },
   {
+   "title": "马斯克改口，称：将延长Cybertruck的生产周期至2027年夏季末。",
+   "summary": "马斯克改口，称：将延长Cybertruck的生产周期至2027年夏季末。",
+   "time": "2026-11-12 01:13",
+   "url": "https://wallstreetcn.com/livenews/3198564",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "欧洲股市收盘再创纪录 能源和科技板块反弹",
+   "summary": "【欧洲股市收盘再创纪录 能源和科技板块反弹】欧洲股市再创纪录，能源和科技股反弹，帮助延续了欧股近期跑赢其他市场的表现。周三收盘时，斯托克欧洲600指数上涨0.7%，至663.05点，超过8月创下的前期收盘纪录。上周末市场动荡主要冲击科技股，欧洲市场则相对受益。自上周美国中期选举以来，这一泛欧基准指数累计上涨2.7%，同期标普500指数上涨了0.5%。",
+   "time": "2026-11-12 01:08:01",
+   "url": "https://finance.eastmoney.com/a/202611123928806930.html",
+   "source": "东财国际"
+  },
+  {
    "title": "从“加不加”到“加多少” 美联储年底会否“暴力加息”？ - 21财经",
    "summary": "",
    "time": "2026-11-12 00:39",
@@ -1732,39 +1778,25 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "乌克兰军方表示：其已对俄罗斯波罗的海港口乌斯季卢加实施打击 该港口的储油罐受损",
-   "summary": "乌克兰军方表示，其已对俄罗斯波罗的海港口乌斯季卢加实施打击，该港口的储油罐受损。",
-   "time": "2026-11-12 01:00:47",
-   "url": "https://finance.eastmoney.com/a/202611123928803037.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "伊朗南部Pars天然气产量稳定，此前该平台出现火情。（IRNA）",
-   "summary": "伊朗南部Pars天然气产量稳定，此前该平台出现火情。（IRNA）",
-   "time": "2026-11-12 01:00",
-   "url": "https://wallstreetcn.com/livenews/3198559",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "风口研报 - 财联社电报",
+   "title": "惠誉下调华发集团主体评级 华发股份申请终止国内信用评级 - 财新",
    "summary": "",
-   "time": "2026-11-11 21:50",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85VU9MUFBTOHd3TEUyS0xJUzRjbHVuSzdoNmdxUEpPcGZudlVTdGhmNGpBZldQVjNXODhydGh4Y0tkblFJbWotRTF1SHQ0dVRkNFBpMXEwdDhEZG56ZmhEclV3?oc=5",
+   "time": "2026-11-11 21:27",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9UMG8zMmVQMVRreHJ2b19sWkN5cUIyYm1KNDQtcDRpTUVPLUo3a3pkNklRdlplMzE4SXFoOEhuUVBmYTE3TVBsOVRqRzVzU1FrdWxJUVlPNG9lcWFDSm9iRF9mSWI?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "多家银行上调美元定存利率 部分产品利率突破4%",
+   "title": "据称谷歌内部测试新模型Hydrogen 主打速度与效率",
    "summary": "",
-   "time": "2026-11-11 17:02:33",
-   "url": "https://news.10jqka.com.cn/20261112/c681724174.shtml",
-   "source": "同花顺"
+   "time": "2026-11-11 17:07:15",
+   "url": "https://news.futunn.com/flash/1004206302/reportedly-google-is-internally-testing-a-new-model-hydrogen-focusing",
+   "source": "富途"
   },
   {
-   "title": "费城半导体指数日内涨7%",
+   "title": "瑞士法郎兑美元跌幅扩大至1%",
    "summary": "",
-   "time": "2026-11-11 16:46:36",
-   "url": "https://news.futunn.com/flash/1004204940/the-philadelphia-semiconductor-index-rose-7-intraday",
-   "source": "富途"
+   "time": "2026-11-11 17:21:06",
+   "url": "https://news.10jqka.com.cn/20261112/c681724241.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月10日周二",
@@ -1781,46 +1813,46 @@
    "source": "财新"
   },
   {
-   "title": "美银警示美联储12月或加息50个基点 - 观点网",
-   "summary": "",
-   "time": "2026-11-11 23:39",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PNi1lN0RPNXRHT0lma0t4RGg2eWVvSHZqVHZiaWx3amNSYXVxQU5GaTU3aS1NRjh6Y2FuemxNMnMtaDVVQ1dNby1rQ0JxZw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "谷歌更新了广告政策 禁止使用AI生成的公众人物形象模仿广告",
-   "summary": "谷歌更新了广告政策，禁止使用AI生成的公众人物形象模仿广告。",
-   "time": "2026-11-12 00:59:49",
-   "url": "https://finance.eastmoney.com/a/202611123928802743.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "乌克兰军方称，其打击了俄罗斯波罗的海港口乌斯季卢加，该港口的储罐受损。",
-   "summary": "乌克兰军方称，其打击了俄罗斯波罗的海港口乌斯季卢加，该港口的储罐受损。",
-   "time": "2026-11-12 00:59",
-   "url": "https://wallstreetcn.com/livenews/3198558",
+   "title": "特朗普：美国没有对伊朗发动战争",
+   "summary": "美国总统特朗普：美国没有对伊朗发动战争。\n\n伊朗永远不会拥有核武器。\n\n一个没有英雄的国家，就像没有星辰的天空，或没有天使的天堂。\n\n伊朗需要25年才能重建失去的一切。\n\n自1979年以来，伊朗一直在对美国发动战争。这个问题早就应该解决了。\n\n我们（在伊朗战争上）赢了。我们要确保取得彻底胜利，而不是93%的胜利。",
+   "time": "2026-11-12 01:11",
+   "url": "https://wallstreetcn.com/livenews/3198563",
    "source": "华尔街见闻"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "巴西石油首席执行官表示：公司已将石油泄漏率从10%降至3%",
+   "summary": "巴西石油首席执行官表示，公司已将石油泄漏率从10%降至3%。",
+   "time": "2026-11-12 01:04:16",
+   "url": "https://finance.eastmoney.com/a/202611123928804463.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "Marsh游说美联储放宽AI贷款资本规则 - 新浪网",
    "summary": "",
-   "time": "2026-11-11 21:50",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5OVlJLVURYbEplWktZQk5RbDFNN0FlYzk2ZUdwOEFMeWpOY05KS0ppLTJiZ0ppc3NRX0NPWC1VY0pBV0ZyOFNTXw?oc=5",
+   "time": "2026-11-11 23:55",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9RbEtZRXRKazg2dlhTbkZEMUlPTDJjZmRET2N1YWZZcm43a3lmS2h0UzhHWHQtbklKYXVCOUhFNndKUjlGRmxIcExqSQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "42股获买入评级 最新:洋河股份 - 中财网",
+   "summary": "",
+   "time": "2026-11-11 20:51",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11UWNLY2VzWmtHLUk5YndORzRwbDBNS0RzN0RSaUtmVEYxNTVnWGVqdktmRl9JaEh3Q2R6cW9wZnJVejVSYXJNaXZ3aFFIa2Z5aExfNzl3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "国际铜收涨0.05%，沪铜收涨0.31%",
+   "title": "美联储加息预期升温 美元指数升至2025年4月以来最高",
    "summary": "",
-   "time": "2026-11-11 17:01:50",
-   "url": "https://news.10jqka.com.cn/20261112/c681724155.shtml",
-   "source": "同花顺"
+   "time": "2026-11-11 17:02:56",
+   "url": "https://news.futunn.com/flash/1004206140/expectations-of-federal-reserve-rate-hikes-intensify-us-dollar-index",
+   "source": "富途"
   },
   {
-   "title": "现货黄金跌破4000美元关口",
+   "title": "俄方高度评价中国任APEC东道主工作",
    "summary": "",
-   "time": "2026-11-11 16:40:58",
-   "url": "https://news.futunn.com/flash/1004204609/spot-gold-falls-below-the-4000-mark",
-   "source": "富途"
+   "time": "2026-11-11 17:17:09",
+   "url": "https://news.10jqka.com.cn/20261112/c681724211.shtml",
+   "source": "同花顺"
   },
   {
    "title": "保证黄仁勋免于处罚的，表面上是董事会和股东的沉默，实际是三十三年的业绩本身",
@@ -1830,11 +1862,11 @@
    "source": "财新"
   },
   {
-   "title": "美元升至2025年5月以来最高 美联储加息押注升温 - 东方财富",
-   "summary": "",
-   "time": "2026-11-11 23:18",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vZVd6Zmw5SklteWFiR3psekZOaFpBbTVFQzNIbzcycGdmZ1U1eElVMmRtYklsVE9fcE9PS21fdkRrRngxeEhTNkItblpMNDhxVmtNSmtmZThobVozWUNFSDZUZw?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "谷歌公司：将在全球范围内向苹果CarPlay接入Gemini Live功能。",
+   "summary": "谷歌公司：将在全球范围内向苹果CarPlay接入Gemini Live功能。",
+   "time": "2026-11-12 01:10",
+   "url": "https://wallstreetcn.com/livenews/3198562",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
@@ -1850,12 +1882,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 7,
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
