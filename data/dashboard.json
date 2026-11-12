@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-13 01:27:59 CST",
- "generated_at_iso": "2026-11-13T01:27:59+08:00",
+ "generated_at": "2026-11-13 01:36:09 CST",
+ "generated_at_iso": "2026-11-13T01:36:09+08:00",
  "date": "2026-11-13",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52701.3203,
-    "change": 214.83,
-    "change_pct": 0.41,
-    "quote_time": "2026-11-13 01:27:49",
+    "price": 52710.4688,
+    "change": 223.98,
+    "change_pct": 0.43,
+    "quote_time": "2026-11-13 01:36:05",
     "hist": [
      50926.5586,
      51176.9609,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25474.6593,
-    "change": 8.4704,
-    "change_pct": 0.03,
-    "quote_time": "2026-11-13 01:28:03",
+    "price": 25476.9768,
+    "change": 10.7879,
+    "change_pct": 0.04,
+    "quote_time": "2026-11-13 01:36:11",
     "hist": [
      26871.5957,
      27190.8633,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7633.9199,
-    "change": 14.54,
+    "price": 7634.1001,
+    "change": 14.72,
     "change_pct": 0.19,
-    "quote_time": "2026-11-13 01:27:45",
+    "quote_time": "2026-11-13 01:36:05",
     "hist": [
      7666.4502,
      7722.7202,
@@ -1305,9 +1305,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6409.55,
-    "change": 16.16,
-    "change_pct": 0.25,
+    "price": 6398.98,
+    "change": 5.59,
+    "change_pct": 0.09,
     "hist": [
      6238.51,
      6242.15,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3874.18,
-    "change": -126.32,
-    "change_pct": -3.16,
-    "quote_time": "01:28:08 2026-11-13"
+    "price": 3876.5,
+    "change": -124.0,
+    "change_pct": -3.1,
+    "quote_time": "01:36:16 2026-11-13"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 49.904,
-    "change": -2.098,
-    "change_pct": -4.03,
-    "quote_time": "01:28:08 2026-11-13"
+    "price": 49.988,
+    "change": -2.014,
+    "change_pct": -3.87,
+    "quote_time": "01:36:07 2026-11-13"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.675,
-    "change": 1.145,
-    "change_pct": 1.32,
-    "quote_time": "01:28:07 2026-11-13"
+    "price": 87.677,
+    "change": 1.147,
+    "change_pct": 1.33,
+    "quote_time": "01:36:16 2026-11-13"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 94.628,
-    "change": 1.868,
-    "change_pct": 2.01,
-    "quote_time": "01:28:06 2026-11-13"
+    "price": 94.579,
+    "change": 1.819,
+    "change_pct": 1.96,
+    "quote_time": "01:36:16 2026-11-13"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 71979.3,
-    "change": -2485.3,
-    "change_pct": -3.34,
+    "price": 71903.3,
+    "change": -2593.6,
+    "change_pct": -3.48,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2013.82,
-    "change": -77.55,
-    "change_pct": -3.71,
+    "price": 2014.26,
+    "change": -76.63,
+    "change_pct": -3.66,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 81.53,
-    "change": -3.83,
-    "change_pct": -4.49,
+    "price": 81.57,
+    "change": -3.81,
+    "change_pct": -4.46,
     "source": "okx"
    }
   ]
@@ -1465,9 +1465,9 @@
    "source": "alternative.me"
   },
   "vix": {
-   "value": 17.57,
-   "change": 0.08,
-   "change_pct": 0.4574,
+   "value": 17.73,
+   "change": 0.24,
+   "change_pct": 1.3722,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1503,33 +1503,33 @@
     19.46,
     17.49
    ],
-   "vix3m": 19.34,
+   "vix3m": 19.44,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 16.15,
-     "change_pct": 0.6858
+     "value": 16.3,
+     "change_pct": 1.6209
     },
     {
      "t": "VIX",
-     "value": 17.57,
-     "change_pct": 0.4574
+     "value": 17.73,
+     "change_pct": 1.3722
     },
     {
      "t": "VIX3M",
-     "value": 19.34,
-     "change_pct": 0.5198
+     "value": 19.44,
+     "change_pct": 1.0395
     },
     {
      "t": "VIX6M",
-     "value": 21.16,
-     "change_pct": 0.3795
+     "value": 21.27,
+     "change_pct": 0.9013
     }
    ],
-   "ratio_9d_3m": 0.835,
+   "ratio_9d_3m": 0.838,
    "shape": "contango(平静期)",
    "source": "CBOE"
   },
@@ -1541,13 +1541,13 @@
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储：取消2027年10月利率会议",
-   "summary": "美联储更新2027年联邦公开市场委员会（FOMC）会议日程，取消10月份利率会议。",
-   "time": "2026-11-13 01:00",
-   "url": "https://wallstreetcn.com/livenews/3199258",
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "英伟达新任董事会主席琼斯给全体英伟达员工的信",
+   "summary": "黄仁勋离职后，英伟达新任董事会主席哈维·琼斯于周四向员工发送电子邮件，以下是信件的全文内容：\n\n亲爱的NVIDIA员工：\n\n我写这封信是为了分享一项重要人事变动。黄仁勋已辞去首席执行官及董事会成员职务，董事会已要求首席财务官科莱特·克雷斯出任临时首席执行官，同时启动永久继任者的遴选工作，范围涵盖内部和外部候选人。我将出任公司首位董事会主席。\n\n科莱特担任首席财务官超过13年，是NVIDIA增长与资",
+   "time": "2026-11-13 01:29",
+   "url": "https://wallstreetcn.com/livenews/3199272",
    "source": "华尔街见闻",
    "mentions": 2
   },
@@ -1555,23 +1555,34 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称美国不需要与伊朗达成协议 - 中国网新闻中心",
+   "title": "特朗普总统要求副总统万斯将工作重点从伊朗谈判转向美国的腐败 - 美国之音",
    "summary": "",
-   "time": "2026-11-13 00:50",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HR0REZExJMFVzVEFxMVhqUjA3d0N0N1NZUDdHRHBDWjJ5TkI0MWQwRDk1TzFhNU9zWF9rWU5kOTFSYzRaS0ZCNVRpY29zQjk1NXhYRzAtTHdlV0xwYUVtZzFhTmhDMTdPY05B?oc=5",
+   "time": "2026-11-13 01:20",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSEZSSkdIUFhfVE1TT3A5MTBQN2U2Q2d1MURndWxuTS1MWGVMaXFOX3lOcW8zUlFUYU9sb2htYVA5RWxBakw2akdDTE9mWUVuUEVQdE1BX01fWlRydUdSaHctWnVJdWRsT3c5SzVKaU9VcUlqSTVsdm4wWFQwcm9lZ044SnJKdnY5VC16bGNlMW1YLXlUVFFWN1ZHZUR6OW1OSXZMeU1LRmJITl8wV2cyOFNLNVYxdW9WcFh2RklaSmhpNXd5UDRF0gHKAUFVX3lxTFA0aDFOYUtpdVlObkJ5SlFyc29BWHJIZ05QaGlTS3c2dWNtb1FBZFZoQmZJYTg2Qm5ZQU1jb09FTDc5Q19OeFdGS3dScVptZXAzcGY5aXQ2RjI5SFNtaFl2c1lpUVYyTXV1a0NJMzlJTktOWlV2T0dST2FmMG5JRm9Ua2tSaDBrRXluZjQ1VWxDd2NVQ3JYTWxOMHg5WXNGTUNFcXJxbjlkZVdmek1tMzdtM2JkOE5ORUNnMXBjcllQVzRNZW9DYV9HbVE?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 4
   },
   {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "克雷斯就任英伟达临时首席执行官",
-   "summary": "【克雷斯就任英伟达临时首席执行官】美国芯片制造商英伟达公司12日宣布，公司执行副总裁兼首席财务官克雷斯将出任临时首席执行官。公司联合创始人黄仁勋辞去总裁、首席执行官及董事职务，辞职即刻生效。（新华社）",
-   "time": "2026-11-13 00:40:43",
-   "url": "https://finance.eastmoney.com/a/202611123930020067.html",
-   "source": "东财国际",
-   "mentions": 4
+   "keyword": "贝森特",
+   "label": "贝森特",
+   "hint": "美国财长，关税与财政政策的关键传声筒",
+   "title": "美国财长贝森特：长期以来，华盛顿将美国工业衰退视为不可避免。\n\n总统特朗普认识到，这是政策选择的结果，因此可以逆转。\n\n在特朗普的贸易政策重置及其历史性减税法案实施后，该行业重获增长势头，这表明正确的政策能够扭转数十年的工业衰退。\n\n该行业",
+   "summary": "美国财长贝森特：长期以来，华盛顿将美国工业衰退视为不可避免。\n\n总统特朗普认识到，这是政策选择的结果，因此可以逆转。\n\n在特朗普的贸易政策重置及其历史性减税法案实施后，该行业重获增长势头，这表明正确的政策能够扭转数十年的工业衰退。\n\n该行业已连续十个月扩张，今年迄今新增10.1万个就业岗位。9月产出再次上升，职位空缺攀升至58.4万个，为新冠疫情前时代有记录以来的最高水平。",
+   "time": "2026-11-13 01:19",
+   "url": "https://wallstreetcn.com/livenews/3199268",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
+   "keyword": "日本央行",
+   "label": "日本央行",
+   "hint": "日元利率走向影响全球套息交易",
+   "title": "日元跌破160关口 日本央行干预风险升温",
+   "summary": "",
+   "time": "2026-11-12 17:27:47",
+   "url": "https://news.futunn.com/flash/1004349493/yen-breaks-below-160-level-risk-of-bank-of-japan",
+   "source": "富途",
+   "mentions": 1
   },
   {
    "keyword": "外交部",
@@ -1661,31 +1672,31 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.03%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-13 01:28",
+   "message": "COMEX白银单日跌3.87%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-13 01:36",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "美联储：取消2027年10月利率会议",
-   "summary": "美联储更新2027年联邦公开市场委员会（FOMC）会议日程，取消10月份利率会议。",
-   "time": "2026-11-13 01:00",
-   "url": "https://wallstreetcn.com/livenews/3199258",
+   "title": "raig-Hallum将英伟达评级从买入下调至持有",
+   "summary": "Craig-Hallum Capital Group LLC分析师Richard Shannon将英伟达的评级从“买入”下调至“持有”。目标价设在180美元，比最近收盘价高9.4%。",
+   "time": "2026-11-13 01:32",
+   "url": "https://wallstreetcn.com/livenews/3199274",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普称美国不需要与伊朗达成协议 - 中国网新闻中心",
+   "title": "特朗普总统要求副总统万斯将工作重点从伊朗谈判转向美国的腐败 - 美国之音",
    "summary": "",
-   "time": "2026-11-13 00:50",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HR0REZExJMFVzVEFxMVhqUjA3d0N0N1NZUDdHRHBDWjJ5TkI0MWQwRDk1TzFhNU9zWF9rWU5kOTFSYzRaS0ZCNVRpY29zQjk1NXhYRzAtTHdlV0xwYUVtZzFhTmhDMTdPY05B?oc=5",
+   "time": "2026-11-13 01:20",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSEZSSkdIUFhfVE1TT3A5MTBQN2U2Q2d1MURndWxuTS1MWGVMaXFOX3lOcW8zUlFUYU9sb2htYVA5RWxBakw2akdDTE9mWUVuUEVQdE1BX01fWlRydUdSaHctWnVJdWRsT3c5SzVKaU9VcUlqSTVsdm4wWFQwcm9lZ044SnJKdnY5VC16bGNlMW1YLXlUVFFWN1ZHZUR6OW1OSXZMeU1LRmJITl8wV2cyOFNLNVYxdW9WcFh2RklaSmhpNXd5UDRF0gHKAUFVX3lxTFA0aDFOYUtpdVlObkJ5SlFyc29BWHJIZ05QaGlTS3c2dWNtb1FBZFZoQmZJYTg2Qm5ZQU1jb09FTDc5Q19OeFdGS3dScVptZXAzcGY5aXQ2RjI5SFNtaFl2c1lpUVYyTXV1a0NJMzlJTktOWlV2T0dST2FmMG5JRm9Ua2tSaDBrRXluZjQ1VWxDd2NVQ3JYTWxOMHg5WXNGTUNFcXJxbjlkZVdmek1tMzdtM2JkOE5ORUNnMXBjcllQVzRNZW9DYV9HbVE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "意大利国家电力公司Enel前三季度调整后净利润为60.2亿欧元 高于预估的57.6亿欧元",
-   "summary": "意大利国家电力公司Enel前三季度调整后净利润为60.2亿欧元，高于预估的57.6亿欧元；营收为650.2亿欧元，高于预估的613.5亿欧元。",
-   "time": "2026-11-13 00:48:28",
-   "url": "https://finance.eastmoney.com/a/202611133930035436.html",
+   "title": "私募股权公司CD&R与GTCR据悉已放弃对支付处理商Global Payments的收购",
+   "summary": "私募股权公司CD&R与GTCR据悉已放弃对支付处理商Global Payments的收购。",
+   "time": "2026-11-13 01:18:35",
+   "url": "https://finance.eastmoney.com/a/202611133930040347.html",
    "source": "东财国际"
   },
   {
@@ -1696,18 +1707,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储取消了10月的利率会议安排",
+   "title": "英伟达高管致信员工：董事会启动新CEO遴选 内外部候选人均在考虑范围内",
    "summary": "",
-   "time": "2026-11-12 17:01:38",
-   "url": "https://news.10jqka.com.cn/20261113/c681772522.shtml",
-   "source": "同花顺"
+   "time": "2026-11-12 17:31:05",
+   "url": "https://news.futunn.com/flash/1004349654/nvidia-executives-write-to-employees-board-initiates-search-for-new",
+   "source": "富途"
   },
   {
-   "title": "土耳其军方一架直升机在马拉蒂亚省坠毁",
+   "title": "新任临时CEO克雷斯给全体英伟达员工的信",
    "summary": "",
-   "time": "2026-11-12 16:51:50",
-   "url": "https://news.futunn.com/flash/1004347140/a-turkish-military-helicopter-crashed-in-malatya-province",
-   "source": "富途"
+   "time": "2026-11-12 17:28:25",
+   "url": "https://news.10jqka.com.cn/20261113/c681772572.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月12日周四",
@@ -1724,24 +1735,24 @@
    "source": "财新"
   },
   {
-   "title": "美国能源信息署（EIA）：美国上周EIA原油库存增加466万桶，彭博用户预计下降86.7万桶、分析师预期减少85.260万桶，之前一周下降86.5万桶。\n\n日前，美国石油协会（API）披露的行业周报显示，美国上周API原油库存增加896.8",
-   "summary": "美国能源信息署（EIA）：美国上周EIA原油库存增加466万桶，彭博用户预计下降86.7万桶、分析师预期减少85.260万桶，之前一周下降86.5万桶。\n\n日前，美国石油协会（API）披露的行业周报显示，美国上周API原油库存增加896.8万桶，之前一周锐减526.7万桶；上周API成品油馏分油库存锐减800万桶。",
-   "time": "2026-11-13 01:00",
-   "url": "https://wallstreetcn.com/livenews/3199257",
+   "title": "英伟达新任董事会主席琼斯给全体英伟达员工的信",
+   "summary": "黄仁勋离职后，英伟达新任董事会主席哈维·琼斯于周四向员工发送电子邮件，以下是信件的全文内容：\n\n亲爱的NVIDIA员工：\n\n我写这封信是为了分享一项重要人事变动。黄仁勋已辞去首席执行官及董事会成员职务，董事会已要求首席财务官科莱特·克雷斯出任临时首席执行官，同时启动永久继任者的遴选工作，范围涵盖内部和外部候选人。我将出任公司首位董事会主席。\n\n科莱特担任首席财务官超过13年，是NVIDIA增长与资",
+   "time": "2026-11-13 01:29",
+   "url": "https://wallstreetcn.com/livenews/3199272",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普：建议库克接替黄仁勋担任英伟达CEO - 中国新闻网",
+   "title": "特朗普称美国不需要与伊朗达成协议 - 中国网新闻中心",
    "summary": "",
-   "time": "2026-11-13 00:26",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4ybENDSUNOSGhKM1BZSU9JSU1hbFFUU1VZS01hdElMZHBSMHlkSkl3WFlKNjFnbzlIelZydFUzc2ZuY0lNakJ5bk9JSjY3VVFNWUo5VFVyc3FaUjhQS2d4SVh6a25JX3pp?oc=5",
+   "time": "2026-11-13 00:50",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HR0REZExJMFVzVEFxMVhqUjA3d0N0N1NZUDdHRHBDWjJ5TkI0MWQwRDk1TzFhNU9zWF9rWU5kOTFSYzRaS0ZCNVRpY29zQjk1NXhYRzAtTHdlV0xwYUVtZzFhTmhDMTdPY05B?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "克雷斯就任英伟达临时首席执行官",
-   "summary": "【克雷斯就任英伟达临时首席执行官】美国芯片制造商英伟达公司12日宣布，公司执行副总裁兼首席财务官克雷斯将出任临时首席执行官。公司联合创始人黄仁勋辞去总裁、首席执行官及董事职务，辞职即刻生效。（新华社）",
-   "time": "2026-11-13 00:40:43",
-   "url": "https://finance.eastmoney.com/a/202611123930020067.html",
+   "title": "胡塞武装对沙特主导联军多个军事集结点进行打击",
+   "summary": "【胡塞武装对沙特主导联军多个军事集结点进行打击】也门胡塞武装当地时间12日晚发表声明称，胡塞武装当天使用6枚弹道导弹，对沙特主导联军的多个军事集结点进行了6次打击。目标包括位于也门拉赫季省的哈拉兹军营以及拉斯阿拉和哈拉兹地区的其他军事地点。声明称，所有打击均命中目标，造成数十人伤亡。",
+   "time": "2026-11-13 01:08:43",
+   "url": "https://finance.eastmoney.com/a/202611133930039071.html",
    "source": "东财国际"
   },
   {
@@ -1752,18 +1763,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "WTI原油涨超1%",
+   "title": "日元跌破160关口 日本央行干预风险升温",
    "summary": "",
-   "time": "2026-11-12 17:01:16",
-   "url": "https://news.10jqka.com.cn/20261113/c681772521.shtml",
-   "source": "同花顺"
+   "time": "2026-11-12 17:27:47",
+   "url": "https://news.futunn.com/flash/1004349493/yen-breaks-below-160-level-risk-of-bank-of-japan",
+   "source": "富途"
   },
   {
-   "title": "Semafor报道称超微电脑可能面临美国司法部调查",
+   "title": "布伦特原油日内涨幅达2.0%，报94.62美元/桶",
    "summary": "",
-   "time": "2026-11-12 16:50:00",
-   "url": "https://news.futunn.com/flash/1004346987/semafor-reports-that-super-micro-computer-may-be-under-investigation",
-   "source": "富途"
+   "time": "2026-11-12 17:25:34",
+   "url": "https://news.10jqka.com.cn/20261113/c681772571.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月11日周三",
@@ -1780,24 +1791,24 @@
    "source": "财新"
   },
   {
-   "title": "超微电脑跌幅扩大至15%，刷新日低。",
-   "summary": "超微电脑跌幅扩大至15%，刷新日低。",
-   "time": "2026-11-13 00:57",
-   "url": "https://wallstreetcn.com/livenews/3199256",
+   "title": "欧洲天然气期货涨约8%",
+   "summary": "周四（11月12日）欧市尾盘，ICE英国天然气期货涨8.09%，报233.520便士/千卡，亚太中午以来持续上涨。\n\nTTF基准荷兰天然气期货涨7.88%，报93.693欧元/兆瓦时，北京时间13:04微跌至86.045欧元刷新日低，随后持续上涨。\n\nICE欧盟碳排放交易许可（期货价格）涨0.93%，报90.39欧元/吨。",
+   "time": "2026-11-13 01:26",
+   "url": "https://wallstreetcn.com/livenews/3199270",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普建议库克接替黄仁勋担任英伟达CEO：只有他能替代 - 驱动之家",
+   "title": "特朗普：建议库克接替黄仁勋担任英伟达CEO - 中国新闻网",
    "summary": "",
-   "time": "2026-11-13 00:00",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VeXYyMElNR0pkVnBOQWpXbWRLMFMtdzlMZFVqejViOV9obWdHeTdVdEdkOEhobUUzU3Q2N2JWVjg4M1NIYUtvY0VpRUgxUEl1d2ZOMkxkNFk?oc=5",
+   "time": "2026-11-13 00:26",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4ybENDSUNOSGhKM1BZSU9JSU1hbFFUU1VZS01hdElMZHBSMHlkSkl3WFlKNjFnbzlIelZydFUzc2ZuY0lNakJ5bk9JSjY3VVFNWUo5VFVyc3FaUjhQS2d4SVh6a25JX3pp?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "欧洲主要股指收盘多数上涨",
-   "summary": "【欧洲主要股指收盘多数上涨】欧洲主要股指收盘多数上涨，英国富时100指数涨0.25%，法国CAC40指数涨0.43%，德国DAX30指数涨0.57%，富时意大利MIB指数跌0.27%。",
-   "time": "2026-11-13 00:37:09",
-   "url": "https://finance.eastmoney.com/a/202611133930033919.html",
+   "title": "美国上周EIA原油库存增加466万桶 分析师预期减少85.260万桶",
+   "summary": "美国上周EIA原油库存增加466万桶，分析师预期减少85.260万桶，之前一周下降86.5万桶。",
+   "time": "2026-11-13 01:04:19",
+   "url": "https://finance.eastmoney.com/a/202611133930038618.html",
    "source": "东财国际"
   },
   {
@@ -1808,10 +1819,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国10年期国债收益率当日上涨10个基点至5.09%",
+   "title": "土耳其军方一架直升机在马拉蒂亚省坠毁",
    "summary": "",
-   "time": "2026-11-12 16:55:38",
-   "url": "https://news.10jqka.com.cn/20261113/c681772503.shtml",
+   "time": "2026-11-12 16:51:50",
+   "url": "https://news.futunn.com/flash/1004347140/a-turkish-military-helicopter-crashed-in-malatya-province",
+   "source": "富途"
+  },
+  {
+   "title": "联邦基金期货10月27日/11月27日价差合约出现一波交易活动",
+   "summary": "",
+   "time": "2026-11-12 17:20:54",
+   "url": "https://news.10jqka.com.cn/20261113/c681772563.shtml",
    "source": "同花顺"
   },
   {
@@ -1822,25 +1840,18 @@
    "source": "财新"
   },
   {
-   "title": "美国10年期国债收益率涨幅扩大至10个基点，报5.09%。",
-   "summary": "美国10年期国债收益率涨幅扩大至10个基点，报5.09%。",
-   "time": "2026-11-13 00:57",
-   "url": "https://wallstreetcn.com/livenews/3199255",
+   "title": "美国财长贝森特：长期以来，华盛顿将美国工业衰退视为不可避免。\n\n总统特朗普认识到，这是政策选择的结果，因此可以逆转。\n\n在特朗普的贸易政策重置及其历史性减税法案实施后，该行业重获增长势头，这表明正确的政策能够扭转数十年的工业衰退。\n\n该行业",
+   "summary": "美国财长贝森特：长期以来，华盛顿将美国工业衰退视为不可避免。\n\n总统特朗普认识到，这是政策选择的结果，因此可以逆转。\n\n在特朗普的贸易政策重置及其历史性减税法案实施后，该行业重获增长势头，这表明正确的政策能够扭转数十年的工业衰退。\n\n该行业已连续十个月扩张，今年迄今新增10.1万个就业岗位。9月产出再次上升，职位空缺攀升至58.4万个，为新冠疫情前时代有记录以来的最高水平。",
+   "time": "2026-11-13 01:19",
+   "url": "https://wallstreetcn.com/livenews/3199268",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "黄仁勋辞职，特朗普发声 - 电子工程专辑EE Times China",
-   "summary": "",
-   "time": "2026-11-12 23:41",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5JT05vanZtSzJBTlhVQlpXOG5VUC0teFVDaXFHYUNSMFlnUEQ5UkRnQjlrQUJ2b0ZfUEczNW1yR3dLdUZXNDMweDBjUXBOT1JkeW5V?oc=5",
-   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(2)",
+   "富途": "ok(4)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1849,12 +1860,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 8,
-   "谷歌新闻·国际": 8,
+   "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
    "东财国际": 7,
    "谷歌新闻·研报": 7,
+   "富途": 4,
    "同花顺": 7,
-   "富途": 2,
    "东财早报": 2,
    "财新": 7
   }
