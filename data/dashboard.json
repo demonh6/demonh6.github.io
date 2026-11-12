@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-13 02:26:28 CST",
- "generated_at_iso": "2026-11-13T02:26:28+08:00",
+ "generated_at": "2026-11-13 02:34:40 CST",
+ "generated_at_iso": "2026-11-13T02:34:40+08:00",
  "date": "2026-11-13",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52601.2305,
-    "change": 114.74,
+    "price": 52602.0508,
+    "change": 115.56,
     "change_pct": 0.22,
-    "quote_time": "2026-11-13 02:26:25",
+    "quote_time": "2026-11-13 02:34:47",
     "hist": [
      50926.5586,
      51176.9609,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25468.6105,
-    "change": 2.4216,
-    "change_pct": 0.01,
-    "quote_time": "2026-11-13 02:26:34",
+    "price": 25483.8531,
+    "change": 17.6642,
+    "change_pct": 0.07,
+    "quote_time": "2026-11-13 02:34:46",
     "hist": [
      26871.5957,
      27190.8633,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7628.3799,
-    "change": 9.0,
-    "change_pct": 0.12,
-    "quote_time": "2026-11-13 02:26:25",
+    "price": 7630.21,
+    "change": 10.83,
+    "change_pct": 0.14,
+    "quote_time": "2026-11-13 02:34:45",
     "hist": [
      7666.4502,
      7722.7202,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3882.35,
-    "change": -118.15,
-    "change_pct": -2.95,
-    "quote_time": "02:26:39 2026-11-13"
+    "price": 3882.98,
+    "change": -117.52,
+    "change_pct": -2.94,
+    "quote_time": "02:34:48 2026-11-13"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 50.084,
-    "change": -1.918,
-    "change_pct": -3.69,
-    "quote_time": "02:26:33 2026-11-13"
+    "price": 50.125,
+    "change": -1.877,
+    "change_pct": -3.61,
+    "quote_time": "02:34:46 2026-11-13"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.146,
-    "change": 1.616,
-    "change_pct": 1.87,
-    "quote_time": "02:26:37 2026-11-13"
+    "price": 88.227,
+    "change": 1.697,
+    "change_pct": 1.96,
+    "quote_time": "02:34:49 2026-11-13"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.082,
-    "change": 2.322,
-    "change_pct": 2.5,
-    "quote_time": "02:26:35 2026-11-13"
+    "price": 95.24,
+    "change": 2.48,
+    "change_pct": 2.67,
+    "quote_time": "02:34:49 2026-11-13"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 71892.8,
-    "change": -2628.8,
-    "change_pct": -3.53,
+    "price": 72004.7,
+    "change": -2548.2,
+    "change_pct": -3.42,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2018.71,
-    "change": -70.61,
-    "change_pct": -3.38,
+    "price": 2023.3,
+    "change": -65.59,
+    "change_pct": -3.14,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 81.81,
-    "change": -3.41,
-    "change_pct": -4.0,
+    "price": 81.84,
+    "change": -3.49,
+    "change_pct": -4.09,
     "source": "okx"
    }
   ]
@@ -1474,9 +1474,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 17.46,
-   "change": -0.03,
-   "change_pct": -0.1715,
+   "value": 17.62,
+   "change": 0.13,
+   "change_pct": 0.7433,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1512,33 +1512,33 @@
     19.46,
     17.49
    ],
-   "vix3m": 19.33,
+   "vix3m": 19.45,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 15.93,
-     "change_pct": -0.6858
+     "value": 16.1,
+     "change_pct": 0.3741
     },
     {
      "t": "VIX",
-     "value": 17.46,
-     "change_pct": -0.1715
+     "value": 17.62,
+     "change_pct": 0.7433
     },
     {
      "t": "VIX3M",
-     "value": 19.33,
-     "change_pct": 0.4678
+     "value": 19.45,
+     "change_pct": 1.0915
     },
     {
      "t": "VIX6M",
-     "value": 21.22,
-     "change_pct": 0.6641
+     "value": 21.31,
+     "change_pct": 1.0911
     }
    ],
-   "ratio_9d_3m": 0.824,
+   "ratio_9d_3m": 0.828,
    "shape": "contango(平静期)",
    "source": "CBOE"
   },
@@ -1553,21 +1553,32 @@
    "keyword": "黄仁勋",
    "label": "黄仁勋",
    "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "黄仁勋聘请律所Paul Weiss。（纽约时报）",
-   "summary": "黄仁勋聘请律所Paul Weiss。（纽约时报）",
-   "time": "2026-11-13 01:39",
-   "url": "https://wallstreetcn.com/livenews/3199275",
+   "title": "美国参议院共和党议员图恩（John Thune）：虽然黄仁勋辞去了英伟达CEO，但我预计其他人会出来（负责公司的运营）。\n\n国会山仍然存在监督管理职责。",
+   "summary": "美国参议院共和党议员图恩（John Thune）：虽然黄仁勋辞去了英伟达CEO，但我预计其他人会出来（负责公司的运营）。\n\n国会山仍然存在监督管理职责。",
+   "time": "2026-11-13 02:32",
+   "url": "https://wallstreetcn.com/livenews/3199296",
    "source": "华尔街见闻",
-   "mentions": 2
+   "mentions": 1
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美国旧金山联储主席戴利（2027年FOMC票委）：美联储抗击通胀，但并没有忽视生产力的增长。",
+   "summary": "美国旧金山联储主席戴利（2027年FOMC票委）：美联储抗击通胀，但并没有忽视生产力的增长。",
+   "time": "2026-11-13 02:31",
+   "url": "https://wallstreetcn.com/livenews/3199295",
+   "source": "华尔街见闻",
+   "mentions": 4
   },
   {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普总统要求副总统万斯将工作重点从伊朗谈判转向美国的腐败 - 美国之音",
+   "title": "特朗普与内塔尼亚胡被曝就伊朗问题“激烈争吵” - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-13 01:20",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSEZSSkdIUFhfVE1TT3A5MTBQN2U2Q2d1MURndWxuTS1MWGVMaXFOX3lOcW8zUlFUYU9sb2htYVA5RWxBakw2akdDTE9mWUVuUEVQdE1BX01fWlRydUdSaHctWnVJdWRsT3c5SzVKaU9VcUlqSTVsdm4wWFQwcm9lZ044SnJKdnY5VC16bGNlMW1YLXlUVFFWN1ZHZUR6OW1OSXZMeU1LRmJITl8wV2cyOFNLNVYxdW9WcFh2RklaSmhpNXd5UDRF0gHKAUFVX3lxTFA0aDFOYUtpdVlObkJ5SlFyc29BWHJIZ05QaGlTS3c2dWNtb1FBZFZoQmZJYTg2Qm5ZQU1jb09FTDc5Q19OeFdGS3dScVptZXAzcGY5aXQ2RjI5SFNtaFl2c1lpUVYyTXV1a0NJMzlJTktOWlV2T0dST2FmMG5JRm9Ua2tSaDBrRXluZjQ1VWxDd2NVQ3JYTWxOMHg5WXNGTUNFcXJxbjlkZVdmek1tMzdtM2JkOE5ORUNnMXBjcllQVzRNZW9DYV9HbVE?oc=5",
+   "time": "2026-11-13 02:17",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GVU03QWkxWEctQV9DeU9tRWRvRmVNay1rQmpWaExUNW5GMDhYMHpvVVZ2UlJON3RibVZvdVY5ZlNDV0JNTWtPMlJ0VEJSSW5TaW90Xy14cmtzZ3ByRWZ2Sk82alROU0RUdkYyMnJYWlZBUXMzcWdUMw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
   },
@@ -1581,17 +1592,6 @@
    "url": "https://news.futunn.com/flash/1004350748/iranian-ministry-of-foreign-affairs-participation-in-military-operations-against",
    "source": "富途",
    "mentions": 2
-  },
-  {
-   "keyword": "日本央行",
-   "label": "日本央行",
-   "hint": "日元利率走向影响全球套息交易",
-   "title": "日元跌破160关口 日本央行干预风险升温",
-   "summary": "",
-   "time": "2026-11-12 17:27:47",
-   "url": "https://news.futunn.com/flash/1004349493/yen-breaks-below-160-level-risk-of-bank-of-japan",
-   "source": "富途",
-   "mentions": 1
   }
  ],
  "research": {
@@ -1659,52 +1659,52 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌3.69%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-13 02:26",
+   "message": "COMEX白银单日跌3.61%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-13 02:35",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "也门胡塞武装表示：其袭击了位于利雅得的沙特阿美石油公司大楼",
-   "summary": "也门胡塞武装表示，其袭击了位于利雅得的沙特阿美石油公司大楼。",
-   "time": "2026-11-13 01:56:35",
-   "url": "https://finance.eastmoney.com/a/202611133930043739.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "LME期铜收跌229美元，报13588美元/吨。\n\nLME期铝收跌38美元，报3030美元/吨。\n\nLME期锌收跌40美元，报3716美元/吨。\n\nLME期铅收涨4美元，报1886美元/吨。\n\nLME期镍收涨25美元，报16226美元/吨。",
-   "summary": "LME期铜收跌229美元，报13588美元/吨。\n\nLME期铝收跌38美元，报3030美元/吨。\n\nLME期锌收跌40美元，报3716美元/吨。\n\nLME期铅收涨4美元，报1886美元/吨。\n\nLME期镍收涨25美元，报16226美元/吨。\n\nLME期锡收涨124美元，报46652美元/吨。\n\nLME期钴收平，报33525美元/吨。",
-   "time": "2026-11-13 01:51",
-   "url": "https://wallstreetcn.com/livenews/3199278",
+   "title": "OpenAI：正在调查微软连接器的一个问题，新建立的连接可能无法正常使用，相关工具也未按预期运行。",
+   "summary": "OpenAI：正在调查微软连接器的一个问题，新建立的连接可能无法正常使用，相关工具也未按预期运行。",
+   "time": "2026-11-13 02:34",
+   "url": "https://wallstreetcn.com/livenews/3199298",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普总统要求副总统万斯将工作重点从伊朗谈判转向美国的腐败 - 美国之音",
+   "title": "上期所原油期货2612合约夜盘收涨1.65% 沪金夜盘收跌2.87% 沪银收跌3.43%",
+   "summary": "上期所原油期货2612合约夜盘收涨1.65%，报617.90元人民币/桶。沪金夜盘收跌2.87%，沪银收跌3.43%。",
+   "time": "2026-11-13 02:32:30",
+   "url": "https://finance.eastmoney.com/a/202611133930048545.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普与内塔尼亚胡被曝就伊朗问题“激烈争吵” - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-13 01:20",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSEZSSkdIUFhfVE1TT3A5MTBQN2U2Q2d1MURndWxuTS1MWGVMaXFOX3lOcW8zUlFUYU9sb2htYVA5RWxBakw2akdDTE9mWUVuUEVQdE1BX01fWlRydUdSaHctWnVJdWRsT3c5SzVKaU9VcUlqSTVsdm4wWFQwcm9lZ044SnJKdnY5VC16bGNlMW1YLXlUVFFWN1ZHZUR6OW1OSXZMeU1LRmJITl8wV2cyOFNLNVYxdW9WcFh2RklaSmhpNXd5UDRF0gHKAUFVX3lxTFA0aDFOYUtpdVlObkJ5SlFyc29BWHJIZ05QaGlTS3c2dWNtb1FBZFZoQmZJYTg2Qm5ZQU1jb09FTDc5Q19OeFdGS3dScVptZXAzcGY5aXQ2RjI5SFNtaFl2c1lpUVYyTXV1a0NJMzlJTktOWlV2T0dST2FmMG5JRm9Ua2tSaDBrRXluZjQ1VWxDd2NVQ3JYTWxOMHg5WXNGTUNFcXJxbjlkZVdmek1tMzdtM2JkOE5ORUNnMXBjcllQVzRNZW9DYV9HbVE?oc=5",
+   "time": "2026-11-13 02:17",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GVU03QWkxWEctQV9DeU9tRWRvRmVNay1rQmpWaExUNW5GMDhYMHpvVVZ2UlJON3RibVZvdVY5ZlNDV0JNTWtPMlJ0VEJSSW5TaW90Xy14cmtzZ3ByRWZ2Sk82alROU0RUdkYyMnJYWlZBUXMzcWdUMw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "英伟达竞争对手，大涨！ - 同花顺财经",
+   "title": "大行评级｜大华继显：维持香港地产股“与大市同步”评级，首选新鸿基地产 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-12 23:25",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04WkcydXVjTUpuWGdvVHVRR3VYYlJ3a2txWXZSV0YwWnZmdkRSVmVUUFFwVjlHVHY2SEhfdjVqLVZYc2U0c09PMm9kdEkwMTZfT2ZBTl9tXzE4dkVkMC03VQ?oc=5",
+   "time": "2026-11-13 02:00",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Ubzl5RTg3M2NKTXc3NlNmOEhLWF9xZkJEaVJ4Nm1OdnhVbkMtNHY1aTczbThqSFlobmowTEtUVkxva3FINWtOUVI3bzZpLTAybTRQYm5yRFlzbDB4Z09yRGxDNmx3WXdQS05wSWI2QVo2WTA1WGhHbQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "智利将其今年的锂产量预测上调至32.5万吨",
+   "title": "美联储戴利：倾向于需要进一步收紧政策",
    "summary": "",
-   "time": "2026-11-12 18:00:34",
-   "url": "https://news.10jqka.com.cn/20261113/c681772670.shtml",
+   "time": "2026-11-12 18:35:02",
+   "url": "https://news.10jqka.com.cn/20261113/c681772744.shtml",
    "source": "同花顺"
   },
   {
-   "title": "伊朗外交部：参与对伊军事行动将被视为敌对行为",
+   "title": "伊朗专家会议呼吁审议退出《不扩散核武器条约》",
    "summary": "",
-   "time": "2026-11-12 17:56:30",
-   "url": "https://news.futunn.com/flash/1004350748/iranian-ministry-of-foreign-affairs-participation-in-military-operations-against",
+   "time": "2026-11-12 18:32:47",
+   "url": "https://news.futunn.com/flash/1004352571/iran-s-assembly-of-experts-calls-for-consideration-of-withdrawal",
    "source": "富途"
   },
   {
@@ -1722,45 +1722,45 @@
    "source": "财新"
   },
   {
-   "title": "LME期铜收跌229美元",
-   "summary": "【LME期铜收跌229美元】LME期铜收跌229美元，报13588美元/吨。LME期铝收跌38美元，报3030美元/吨。LME期锌收跌40美元，报3716美元/吨。LME期铅收涨4美元，报1886美元/吨。LME期镍收涨25美元，报16226美元/吨。LME期锡收涨124美元，报46652美元/吨。LME期钴收平，报33525美元/吨。",
-   "time": "2026-11-13 01:52:58",
-   "url": "https://finance.eastmoney.com/a/202611133930043620.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "意大利国家电力公司ENEL：将把数据中心纳入下一阶段的业务计划。",
-   "summary": "意大利国家电力公司ENEL：将把数据中心纳入下一阶段的业务计划。",
-   "time": "2026-11-13 01:45",
-   "url": "https://wallstreetcn.com/livenews/3199276",
+   "title": "美国三大股指、纳斯达克100指数目前至多涨0.2%，半导体指数再度转涨，英伟达目前跌4.4%。",
+   "summary": "美国三大股指、纳斯达克100指数目前至多涨0.2%，半导体指数再度转涨，英伟达目前跌4.4%。",
+   "time": "2026-11-13 02:33",
+   "url": "https://wallstreetcn.com/livenews/3199297",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普称美国不需要与伊朗达成协议 - 中国网新闻中心",
+   "title": "旧金山联储主席戴利表示：现在判断人工智能对生产率的影响何时到来还为时过早",
+   "summary": "旧金山联储主席戴利表示，现在判断人工智能对生产率的影响何时到来还为时过早。",
+   "time": "2026-11-13 02:27:20",
+   "url": "https://finance.eastmoney.com/a/202611133930048463.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普总统要求副总统万斯将工作重点从伊朗谈判转向美国的腐败 - 美国之音",
    "summary": "",
-   "time": "2026-11-13 00:50",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HR0REZExJMFVzVEFxMVhqUjA3d0N0N1NZUDdHRHBDWjJ5TkI0MWQwRDk1TzFhNU9zWF9rWU5kOTFSYzRaS0ZCNVRpY29zQjk1NXhYRzAtTHdlV0xwYUVtZzFhTmhDMTdPY05B?oc=5",
+   "time": "2026-11-13 01:20",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQSEZSSkdIUFhfVE1TT3A5MTBQN2U2Q2d1MURndWxuTS1MWGVMaXFOX3lOcW8zUlFUYU9sb2htYVA5RWxBakw2akdDTE9mWUVuUEVQdE1BX01fWlRydUdSaHctWnVJdWRsT3c5SzVKaU9VcUlqSTVsdm4wWFQwcm9lZ044SnJKdnY5VC16bGNlMW1YLXlUVFFWN1ZHZUR6OW1OSXZMeU1LRmJITl8wV2cyOFNLNVYxdW9WcFh2RklaSmhpNXd5UDRF0gHKAUFVX3lxTFA0aDFOYUtpdVlObkJ5SlFyc29BWHJIZ05QaGlTS3c2dWNtb1FBZFZoQmZJYTg2Qm5ZQU1jb09FTDc5Q19OeFdGS3dScVptZXAzcGY5aXQ2RjI5SFNtaFl2c1lpUVYyTXV1a0NJMzlJTktOWlV2T0dST2FmMG5JRm9Ua2tSaDBrRXluZjQ1VWxDd2NVQ3JYTWxOMHg5WXNGTUNFcXJxbjlkZVdmek1tMzdtM2JkOE5ORUNnMXBjcllQVzRNZW9DYV9HbVE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "Piper Sandler维持万佳润滑油(Valvoline)股票增持评级，目标价$44 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "Needham将英伟达的目标价从300美元下调至200美元 - 东方财富",
    "summary": "",
-   "time": "2026-11-12 22:19",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jWWxsY25yZmxmSnpIVjNfOHBsaWVZeDRhdGdIWXBkNldzSDVBZHV1ampxSHMxSFljU2VvX0dDQk9Pb2loX0xaOXBNQm5jMGhmTnA1ZlFzM2FzNHM2UHZIV2UxNXQwaFdlTlZodjFRenFLd0J0?oc=5",
+   "time": "2026-11-12 23:47",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41RHJXVWMwSnBwMWhRa0ZrbUFrZnhpcC1XSzJWY3dHRzREZWdqZlBKR0VCektXakhYOENucEQ1empmT3NWeDh4RVhjdUh1bDZmbkU1SkE5LUhPNXFGQkZ1Nw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "布伦特原油站上95美元/桶",
+   "title": "特朗普女婿库什纳称俄乌问题多边谈判将于下周举行",
    "summary": "",
-   "time": "2026-11-12 17:59:22",
-   "url": "https://news.10jqka.com.cn/20261113/c681772648.shtml",
+   "time": "2026-11-12 18:34:38",
+   "url": "https://news.10jqka.com.cn/20261113/c681772743.shtml",
    "source": "同花顺"
   },
   {
-   "title": "英伟达高管致信员工：董事会启动新CEO遴选 内外部候选人均在考虑范围内",
+   "title": "胡塞武装称对沙特石油设施实施打击",
    "summary": "",
-   "time": "2026-11-12 17:31:05",
-   "url": "https://news.futunn.com/flash/1004349654/nvidia-executives-write-to-employees-board-initiates-search-for-new",
+   "time": "2026-11-12 18:32:21",
+   "url": "https://news.futunn.com/flash/1004352564/houthis-claim-responsibility-for-strikes-on-saudi-oil-facilities",
    "source": "富途"
   },
   {
@@ -1778,45 +1778,45 @@
    "source": "财新"
   },
   {
-   "title": "意大利国家电力公司ENEL表示：将把数据中心纳入下一阶段的业务计划",
-   "summary": "意大利国家电力公司ENEL表示，将把数据中心纳入下一阶段的业务计划。",
-   "time": "2026-11-13 01:48:27",
-   "url": "https://finance.eastmoney.com/a/202611133930043267.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "黄仁勋聘请律所Paul Weiss。（纽约时报）",
-   "summary": "黄仁勋聘请律所Paul Weiss。（纽约时报）",
-   "time": "2026-11-13 01:39",
-   "url": "https://wallstreetcn.com/livenews/3199275",
+   "title": "美国参议院共和党议员图恩（John Thune）：虽然黄仁勋辞去了英伟达CEO，但我预计其他人会出来（负责公司的运营）。\n\n国会山仍然存在监督管理职责。",
+   "summary": "美国参议院共和党议员图恩（John Thune）：虽然黄仁勋辞去了英伟达CEO，但我预计其他人会出来（负责公司的运营）。\n\n国会山仍然存在监督管理职责。",
+   "time": "2026-11-13 02:32",
+   "url": "https://wallstreetcn.com/livenews/3199296",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普：建议库克接替黄仁勋担任英伟达CEO - 中国新闻网",
+   "title": "美联储隔夜逆回购协议周四使用规模为2.5亿美元 上个交易日报1.52亿美元",
+   "summary": "美联储隔夜逆回购协议（RRP）周四使用规模为2.5亿美元，上个交易日（11月11日美债休市）报1.52亿美元。",
+   "time": "2026-11-13 02:16:20",
+   "url": "https://finance.eastmoney.com/a/202611133930047464.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "金价创年内新低：美联储加息预期升温，美股同步下挫 - 汇通网",
    "summary": "",
-   "time": "2026-11-13 00:26",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4ybENDSUNOSGhKM1BZSU9JSU1hbFFUU1VZS01hdElMZHBSMHlkSkl3WFlKNjFnbzlIelZydFUzc2ZuY0lNakJ5bk9JSjY3VVFNWUo5VFVyc3FaUjhQS2d4SVh6a25JX3pp?oc=5",
+   "time": "2026-11-13 00:55",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rQXpuR1NMdktTUnJFTGJNcVEyWGpXZUd4WlRqc0h2MFpWOFZ0Wl9MYnEwZE5CY1E4UFVJbnRrME83TWV4Z2hlVmlIMUVWRmpXWFd1b0dZbGU1ZFE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社电报",
+   "title": "英伟达竞争对手，大涨！ - 同花顺财经",
    "summary": "",
-   "time": "2026-11-12 21:48",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE91STRXbnVhZnFhOTA4T1ZPeGRyRFVuamp3TWx3ckw1QXhvUUhZMDU2MjY0UlhUbnR0eGhFNWZwbEN0YUtuWDN3N3Nfc05vTlUzby1pdHJRM1Utc1d0VUlyMFdR?oc=5",
+   "time": "2026-11-12 23:25",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04WkcydXVjTUpuWGdvVHVRR3VYYlJ3a2txWXZSV0YwWnZmdkRSVmVUUFFwVjlHVHY2SEhfdjVqLVZYc2U0c09PMm9kdEkwMTZfT2ZBTl9tXzE4dkVkMC03VQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "WTI原油涨超2%",
+   "title": "旧金山联储主席戴利：判断人工智能对生产率的影响何时到来还为时过早",
    "summary": "",
-   "time": "2026-11-12 17:59:16",
-   "url": "https://news.10jqka.com.cn/20261113/c681772647.shtml",
+   "time": "2026-11-12 18:28:01",
+   "url": "https://news.10jqka.com.cn/20261113/c681772736.shtml",
    "source": "同花顺"
   },
   {
-   "title": "日元跌破160关口 日本央行干预风险升温",
+   "title": "伊朗外交部：参与对伊军事行动将被视为敌对行为",
    "summary": "",
-   "time": "2026-11-12 17:27:47",
-   "url": "https://news.futunn.com/flash/1004349493/yen-breaks-below-160-level-risk-of-bank-of-japan",
+   "time": "2026-11-12 17:56:30",
+   "url": "https://news.futunn.com/flash/1004350748/iranian-ministry-of-foreign-affairs-participation-in-military-operations-against",
    "source": "富途"
   },
   {
@@ -1827,11 +1827,11 @@
    "source": "财新"
   },
   {
-   "title": "德国军方停飞了Quantum Systems公司的无人机",
-   "summary": "德国军方停飞了Quantum Systems公司的无人机。",
-   "time": "2026-11-13 01:37:24",
-   "url": "https://finance.eastmoney.com/a/202611133930042346.html",
-   "source": "东财国际"
+   "title": "美国旧金山联储主席戴利（2027年FOMC票委）：美联储抗击通胀，但并没有忽视生产力的增长。",
+   "summary": "美国旧金山联储主席戴利（2027年FOMC票委）：美联储抗击通胀，但并没有忽视生产力的增长。",
+   "time": "2026-11-13 02:31",
+   "url": "https://wallstreetcn.com/livenews/3199295",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
@@ -1847,8 +1847,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 7,
