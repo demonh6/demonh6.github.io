@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-13 03:24:54 CST",
- "generated_at_iso": "2026-11-13T03:24:54+08:00",
+ "generated_at": "2026-11-13 03:33:04 CST",
+ "generated_at_iso": "2026-11-13T03:33:04+08:00",
  "date": "2026-11-13",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52485.0703,
-    "change": -1.42,
-    "change_pct": 0.0,
-    "quote_time": "2026-11-13 03:24:49",
+    "price": 52441.4609,
+    "change": -45.03,
+    "change_pct": -0.09,
+    "quote_time": "2026-11-13 03:32:50",
     "hist": [
      50926.5586,
      51176.9609,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25400.0201,
-    "change": -66.1688,
-    "change_pct": -0.26,
-    "quote_time": "2026-11-13 03:25:01",
+    "price": 25362.4609,
+    "change": -103.728,
+    "change_pct": -0.41,
+    "quote_time": "2026-11-13 03:33:08",
     "hist": [
      26871.5957,
      27190.8633,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7610.46,
-    "change": -8.92,
-    "change_pct": -0.12,
-    "quote_time": "2026-11-13 03:24:44",
+    "price": 7602.71,
+    "change": -16.67,
+    "change_pct": -0.22,
+    "quote_time": "2026-11-13 03:32:50",
     "hist": [
      7666.4502,
      7722.7202,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3881.361,
-    "change": -119.139,
+    "price": 3881.179,
+    "change": -119.321,
     "change_pct": -2.98,
-    "quote_time": "03:25:03 2026-11-13"
+    "quote_time": "03:33:09 2026-11-13"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 50.011,
-    "change": -1.991,
-    "change_pct": -3.83,
-    "quote_time": "03:24:35 2026-11-13"
+    "price": 49.952,
+    "change": -2.05,
+    "change_pct": -3.94,
+    "quote_time": "03:33:09 2026-11-13"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.553,
-    "change": 2.023,
-    "change_pct": 2.34,
-    "quote_time": "03:25:02 2026-11-13"
+    "price": 88.861,
+    "change": 2.331,
+    "change_pct": 2.69,
+    "quote_time": "03:33:12 2026-11-13"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.657,
-    "change": 2.897,
-    "change_pct": 3.12,
-    "quote_time": "03:25:01 2026-11-13"
+    "price": 95.959,
+    "change": 3.199,
+    "change_pct": 3.45,
+    "quote_time": "03:33:10 2026-11-13"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 71625.2,
-    "change": -2686.2,
-    "change_pct": -3.61,
+    "price": 71505.7,
+    "change": -2867.6,
+    "change_pct": -3.86,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2014.74,
-    "change": -64.27,
-    "change_pct": -3.09,
+    "price": 2009.7,
+    "change": -69.6,
+    "change_pct": -3.35,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 81.65,
-    "change": -3.11,
-    "change_pct": -3.67,
+    "price": 81.49,
+    "change": -3.27,
+    "change_pct": -3.86,
     "source": "okx"
    }
   ]
@@ -1474,9 +1474,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 18.29,
-   "change": 0.8,
-   "change_pct": 4.574,
+   "value": 18.14,
+   "change": 0.65,
+   "change_pct": 3.7164,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1512,33 +1512,33 @@
     19.46,
     17.49
    ],
-   "vix3m": 19.79,
+   "vix3m": 19.74,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 17.01,
-     "change_pct": 6.0474
+     "value": 16.69,
+     "change_pct": 4.0524
     },
     {
      "t": "VIX",
-     "value": 18.29,
-     "change_pct": 4.574
+     "value": 18.14,
+     "change_pct": 3.7164
     },
     {
      "t": "VIX3M",
-     "value": 19.79,
-     "change_pct": 2.8586
+     "value": 19.74,
+     "change_pct": 2.5988
     },
     {
      "t": "VIX6M",
-     "value": 21.54,
-     "change_pct": 2.1822
+     "value": 21.51,
+     "change_pct": 2.0398
     }
    ],
-   "ratio_9d_3m": 0.86,
+   "ratio_9d_3m": 0.845,
    "shape": "contango(平静期)",
    "source": "CBOE"
   },
@@ -1550,6 +1550,39 @@
  },
  "speakers": [
   {
+   "keyword": "鲍威尔",
+   "label": "鲍威尔",
+   "hint": "美联储主席，其讲话直接影响美债与美元",
+   "title": "报道：黄仁勋曾与英伟达另一名员工发生关系",
+   "summary": "据两名知情人士透露，被公司董事会赶下台的英伟达CEO黄仁勋曾与另一名员工发生过亲密关系。记者尝试联系该女性未果。\n\n在美东时间11月12日爆出这一消息之前，黄仁勋已因两段婚外情于12日当天辞职。这两名女性分别是：黄乐（Alice Huang）和英伟达医疗保健业务副总裁金伯利·鲍威尔（Kimberly Powell）。（路透）",
+   "time": "2026-11-13 03:29",
+   "url": "https://wallstreetcn.com/livenews/3199320",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "报道：黄仁勋曾与英伟达另一名员工发生关系",
+   "summary": "据两名知情人士透露，被公司董事会赶下台的英伟达CEO黄仁勋曾与另一名员工发生过亲密关系。记者尝试联系该女性未果。\n\n在美东时间11月12日爆出这一消息之前，黄仁勋已因两段婚外情于12日当天辞职。这两名女性分别是：黄乐（Alice Huang）和英伟达医疗保健业务副总裁金伯利·鲍威尔（Kimberly Powell）。（路透）",
+   "time": "2026-11-13 03:29",
+   "url": "https://wallstreetcn.com/livenews/3199320",
+   "source": "华尔街见闻",
+   "mentions": 2
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储古尔斯比：应采取行动遏制通胀 以免经济过热 - 新浪财经",
+   "summary": "",
+   "time": "2026-11-13 03:28",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUWFHNzZpcUFFeVZzY1NQQktFNzk4aTlNaEV4dDIwYXpLNEhFRjNjdW1UY2pFMVhPZjNMQzB0QW9rb0JmbENiZGJ2X24wOUdjYlBCeGJWdXR0OFE1Qkg0WVpZWHRCbHMxY0hoVUlVcnAya0cyWGYtdUtWblN3aEc4NklBb0dJN3M?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1558,18 +1591,29 @@
    "time": "2026-11-13 02:45",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhUm5US0lxYk52R3EtVDB5ckZvVXZHRUdhZ2hJY01qand4ZG5tdmN1alozZ3JjeWpxNFdWT3lWbXhUSmRMM1hmZ2QxXzZxNU9JaWhaT3piYTlWVUlmeFNPTEhJcndUMGZCbHEyS2ZHeU1wQQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 4
   },
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "金价创年内新低：美联储加息预期升温，美股同步下挫_外汇动态报道 - 汇通网",
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "白宫讨论商务部长卢特尼克去留 特朗普仍表示信任",
    "summary": "",
-   "time": "2026-11-13 00:55",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iMjBrNlRpZXpSaVhzeHlWZjZDUkpKX3JocEJvbTc3QUJ0V1R5OHRjelZzU0ExNFl4NC1ySS1KdEVzaWdBRlZEZDR2c0U1LUZFa3VOczEyWC1Kdw?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
+   "time": "2026-11-12 19:13:24",
+   "url": "https://news.futunn.com/flash/1004354444/white-house-discusses-future-of-commerce-secretary-lutnick-trump-expresses",
+   "source": "富途",
+   "mentions": 1
+  },
+  {
+   "keyword": "商务部",
+   "label": "商务部",
+   "hint": "中美贸易与出口管制的对口部门",
+   "title": "白宫讨论商务部长卢特尼克去留 特朗普仍表示信任",
+   "summary": "",
+   "time": "2026-11-12 19:13:24",
+   "url": "https://news.futunn.com/flash/1004354444/white-house-discusses-future-of-commerce-secretary-lutnick-trump-expresses",
+   "source": "富途",
+   "mentions": 1
   },
   {
    "keyword": "外交部",
@@ -1679,32 +1723,32 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌3.83%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-13 03:25",
+   "message": "COMEX白银单日跌3.94%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-13 03:33",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "英伟达新CEO打算下周三召开公司会议。（华尔街日报）",
-   "summary": "英伟达新CEO打算下周三召开公司会议。（华尔街日报）",
-   "time": "2026-11-13 03:01",
-   "url": "https://wallstreetcn.com/livenews/3199312",
+   "title": "WTI 12月原油期货收报88.74美元/桶。\n\nNYMEX 12月天然气期货收报3.34美元/百万英热单位。\n\nNYMEX 12月汽油期货收报2.6708美元/加仑，NYMEX 12月取暖油期货收报4.2865美元/加仑。",
+   "summary": "WTI 12月原油期货收报88.74美元/桶。\n\nNYMEX 12月天然气期货收报3.34美元/百万英热单位。\n\nNYMEX 12月汽油期货收报2.6708美元/加仑，NYMEX 12月取暖油期货收报4.2865美元/加仑。",
+   "time": "2026-11-13 03:31",
+   "url": "https://wallstreetcn.com/livenews/3199321",
    "source": "华尔街见闻"
   },
   {
-   "title": "英伟达临时CEO据悉计划下周三召开公司会议",
-   "summary": "英伟达临时CEO据悉计划下周三召开公司会议。",
-   "time": "2026-11-13 02:58:56",
-   "url": "https://finance.eastmoney.com/a/202611133930049764.html",
-   "source": "东财国际"
+   "title": "美联储古尔斯比：应采取行动遏制通胀 以免经济过热 - 新浪财经",
+   "summary": "",
+   "time": "2026-11-13 03:28",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUWFHNzZpcUFFeVZzY1NQQktFNzk4aTlNaEV4dDIwYXpLNEhFRjNjdW1UY2pFMVhPZjNMQzB0QW9rb0JmbENiZGJ2X24wOUdjYlBCeGJWdXR0OFE1Qkg0WVpZWHRCbHMxY0hoVUlVcnAya0cyWGYtdUtWblN3aEc4NklBb0dJN3M?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "阿布扎比谈完第二天，美特使飞莫斯科，特朗普连一天缓冲都不留 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-13 02:45",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhUm5US0lxYk52R3EtVDB5ckZvVXZHRUdhZ2hJY01qand4ZG5tdmN1alozZ3JjeWpxNFdWT3lWbXhUSmRMM1hmZ2QxXzZxNU9JaWhaT3piYTlWVUlmeFNPTEhJcndUMGZCbHEyS2ZHeU1wQQ?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "消息人士称伊朗霍尔木兹甘省锡里克遭敌方袭击",
+   "summary": "【消息人士称伊朗霍尔木兹甘省锡里克遭敌方袭击】当地时间12日，伊朗官方消息人士表示，位于伊朗霍尔木兹甘省的锡里克当晚遭到了敌方袭击，袭击属于“军事性质”。目前伊朗官方并未就此发表正式声明。",
+   "time": "2026-11-13 03:18:17",
+   "url": "https://finance.eastmoney.com/a/202611133930050110.html",
+   "source": "东财国际"
   },
   {
    "title": "大行评级｜大华继显：维持香港地产股“与大市同步”评级，首选新鸿基地产 - 新浪财经_金融信息服务商",
@@ -1714,17 +1758,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%",
+   "title": "特朗普连续发帖痛斥民主党“腐败”",
    "summary": "",
-   "time": "2026-11-12 19:05:48",
-   "url": "https://news.10jqka.com.cn/20261113/c681772770.shtml",
+   "time": "2026-11-12 19:33:23",
+   "url": "https://news.10jqka.com.cn/20261113/c681772804.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美联储2027年议息安排出炉 10月常规利率决议将改为货币政策讨论",
+   "title": "第三段婚外情被曝光？黄仁勋被曝与第二名英伟达员工存在亲密关系",
    "summary": "",
-   "time": "2026-11-12 18:43:43",
-   "url": "https://news.futunn.com/flash/1004353067/federal-reserve-unveils-2027-interest-rate-meeting-schedule-october-session",
+   "time": "2026-11-12 19:29:10",
+   "url": "https://news.futunn.com/flash/1004355003/third-extramarital-affair-exposed-jensen-huang-reported-to-have-had",
    "source": "富途"
   },
   {
@@ -1742,25 +1786,25 @@
    "source": "财新"
   },
   {
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6745元，较周三夜盘收盘涨4点。成交量436.32亿美元。",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6745元，较周三夜盘收盘涨4点。成交量436.32亿美元。",
-   "time": "2026-11-13 03:01",
-   "url": "https://wallstreetcn.com/livenews/3199311",
+   "title": "报道：黄仁勋曾与英伟达另一名员工发生关系",
+   "summary": "据两名知情人士透露，被公司董事会赶下台的英伟达CEO黄仁勋曾与另一名员工发生过亲密关系。记者尝试联系该女性未果。\n\n在美东时间11月12日爆出这一消息之前，黄仁勋已因两段婚外情于12日当天辞职。这两名女性分别是：黄乐（Alice Huang）和英伟达医疗保健业务副总裁金伯利·鲍威尔（Kimberly Powell）。（路透）",
+   "time": "2026-11-13 03:29",
+   "url": "https://wallstreetcn.com/livenews/3199320",
    "source": "华尔街见闻"
   },
   {
-   "title": "巴斯夫已签署协议 将其全球采矿解决方案业务出售给法国特种化工公司SNF",
-   "summary": "巴斯夫已签署协议，将其全球采矿解决方案业务出售给法国特种化工公司SNF。",
-   "time": "2026-11-13 02:46:08",
-   "url": "https://finance.eastmoney.com/a/202611133930049276.html",
-   "source": "东财国际"
+   "title": "阿布扎比谈完第二天，美特使飞莫斯科，特朗普连一天缓冲都不留 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-13 02:45",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBhUm5US0lxYk52R3EtVDB5ckZvVXZHRUdhZ2hJY01qand4ZG5tdmN1alozZ3JjeWpxNFdWT3lWbXhUSmRMM1hmZ2QxXzZxNU9JaWhaT3piYTlWVUlmeFNPTEhJcndUMGZCbHEyS2ZHeU1wQQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "特朗普与内塔尼亚胡被曝就伊朗问题“激烈争吵” - 新浪财经_金融信息服务商",
-   "summary": "",
-   "time": "2026-11-13 02:17",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GVU03QWkxWEctQV9DeU9tRWRvRmVNay1rQmpWaExUNW5GMDhYMHpvVVZ2UlJON3RibVZvdVY5ZlNDV0JNTWtPMlJ0VEJSSW5TaW90Xy14cmtzZ3ByRWZ2Sk82alROU0RUdkYyMnJYWlZBUXMzcWdUMw?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "美国30年期国债发行需求不及预期 中标收益率高于发行前水平",
+   "summary": "【美国30年期国债发行需求不及预期 中标收益率高于发行前水平】250亿美元30年期美国国债发行的中标收益率为5.441%，高于纽约时间下午1点投标截止时5.437%的发行前交易收益率，显示需求不及预期。当时该期限国债收益率日内上涨约9个基点，发行结果公布后仍维持这一跌幅；5年期和30年期国债收益率之差小幅扩大，但日内仍收窄约4个基点。",
+   "time": "2026-11-13 03:13:32",
+   "url": "https://finance.eastmoney.com/a/202611133930050058.html",
+   "source": "东财国际"
   },
   {
    "title": "Needham将英伟达的目标价从300美元下调至200美元 - 东方财富",
@@ -1770,11 +1814,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国10月海关净收入为192.2亿美元，2025年10月为313.5亿美元",
+   "title": "美国今年已确认6例麻疹相关死亡病例",
    "summary": "",
-   "time": "2026-11-12 19:03:05",
-   "url": "https://news.10jqka.com.cn/20261113/c681772767.shtml",
+   "time": "2026-11-12 19:30:46",
+   "url": "https://news.10jqka.com.cn/20261113/c681772803.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "白宫讨论商务部长卢特尼克去留 特朗普仍表示信任",
+   "summary": "",
+   "time": "2026-11-12 19:13:24",
+   "url": "https://news.futunn.com/flash/1004354444/white-house-discusses-future-of-commerce-secretary-lutnick-trump-expresses",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月11日周三",
@@ -1791,25 +1842,25 @@
    "source": "财新"
   },
   {
-   "title": "恒生指数主连夜盘收跌0.29%，报23914点。\n\n恒生科技指数主连夜盘收跌0.25%，报3916点。",
-   "summary": "恒生指数主连夜盘收跌0.29%，报23914点。\n\n恒生科技指数主连夜盘收跌0.25%，报3916点。",
-   "time": "2026-11-13 03:00",
-   "url": "https://wallstreetcn.com/livenews/3199310",
+   "title": "报道：奔驰暂停在德投资，工厂关闭风险迫近",
+   "summary": "一份致员工备忘录显示，高端汽车制造商梅赛德斯-奔驰正暂停其在德国所有工厂的投资，并考虑关闭部分厂区，以应对该国高昂的汽车制造成本。据公司内网分享的一篇对管理委员会成员的采访内容，奔驰决定暂停投资是因为无法与企业委员会和工会代表就劳动力成本削减达成一致。奔驰生产总监席贝（Michael Schiebe）表示，管理层”共同决定暂停在德国所有基地的一切进一步投资”。\n\n此举标志着德国汽车业危机的最新升级",
+   "time": "2026-11-13 03:18",
+   "url": "https://wallstreetcn.com/livenews/3199319",
    "source": "华尔街见闻"
   },
   {
-   "title": "华盛顿枪击事件已致一死四伤",
-   "summary": "【华盛顿枪击事件已致一死四伤】美国华盛顿警方12日说，该市当天发生的枪击事件已致1名受害者死亡、4人受伤。据警方介绍，枪击发生在洛根环岛街区的一家健身中心，枪手作案后自杀身亡。枪手似与当地的业主协会存在纠纷。",
-   "time": "2026-11-13 02:44:13",
-   "url": "https://finance.eastmoney.com/a/202611133930048992.html",
-   "source": "东财国际"
+   "title": "特朗普与内塔尼亚胡被曝就伊朗问题“激烈争吵” - 新浪财经_金融信息服务商",
+   "summary": "",
+   "time": "2026-11-13 02:17",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GVU03QWkxWEctQV9DeU9tRWRvRmVNay1rQmpWaExUNW5GMDhYMHpvVVZ2UlJON3RibVZvdVY5ZlNDV0JNTWtPMlJ0VEJSSW5TaW90Xy14cmtzZ3ByRWZ2Sk82alROU0RUdkYyMnJYWlZBUXMzcWdUMw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "特朗普总统要求副总统万斯将工作重点从伊朗谈判转向美国的腐败 - 美国之音",
-   "summary": "",
-   "time": "2026-11-13 01:20",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNGgxTmFLaXVZTm5CeUpRcnNvQVhySGdOUGhpU0t3NnVjbW9RQWRWaEJmSWE4NkJuWUFNY29PRUw3OUNfTnhXRkt3UnFabWVwM3BmOWl0NkYyOUhTbWhZdnNZaVFWMk11dWtDSTM5SU5LTlpVdk9HUk9hZjBuSUZvVGtrUmgwa0V5bmY0NVVsQ3djVUNyWE1sTjB4OVlzRk1DRXFycW45ZGVXZnpNbTM3bTNiZDhOTkVDZzFwY3JZUFc0TWVvQ2FfR21R0gHKAUFVX3lxTFA0aDFOYUtpdVlObkJ5SlFyc29BWHJIZ05QaGlTS3c2dWNtb1FBZFZoQmZJYTg2Qm5ZQU1jb09FTDc5Q19OeFdGS3dScVptZXAzcGY5aXQ2RjI5SFNtaFl2c1lpUVYyTXV1a0NJMzlJTktOWlV2T0dST2FmMG5JRm9Ua2tSaDBrRXluZjQ1VWxDd2NVQ3JYTWxOMHg5WXNGTUNFcXJxbjlkZVdmek1tMzdtM2JkOE5ORUNnMXBjcllQVzRNZW9DYV9HbVE?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "恒生指数主连夜盘收跌0.29% 恒生科技指数主连夜盘收跌0.25%",
+   "summary": "恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%。",
+   "time": "2026-11-13 03:04:46",
+   "url": "https://finance.eastmoney.com/a/202611133930049841.html",
+   "source": "东财国际"
   },
   {
    "title": "英伟达竞争对手，大涨！ - 同花顺财经",
@@ -1819,11 +1870,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国财政部官员：美国10月预算赤字和支出均创当月历史新高",
+   "title": "意大利已有3778所学校收到炸弹威胁邮件 77所实施疏散",
    "summary": "",
-   "time": "2026-11-12 19:02:54",
-   "url": "https://news.10jqka.com.cn/20261113/c681772766.shtml",
+   "time": "2026-11-12 19:29:01",
+   "url": "https://news.10jqka.com.cn/20261113/c681772797.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "美联储2027年议息安排出炉 10月常规利率决议将改为货币政策讨论",
+   "summary": "",
+   "time": "2026-11-12 18:43:43",
+   "url": "https://news.futunn.com/flash/1004353067/federal-reserve-unveils-2027-interest-rate-meeting-schedule-october-session",
+   "source": "富途"
   },
   {
    "title": "公开市场的AI股已经连续数周遭到抛售，整个行业本就不安，现在更担心非上市公司是否即将迎来估值回调",
@@ -1833,32 +1891,18 @@
    "source": "财新"
   },
   {
-   "title": "高盛预计2027年布伦特原油均价为每桶88美元",
-   "summary": "高盛集团的基本情景预测显示，2027年布伦特原油均价为每桶88美元。\n\n受中东供应冲击及严冬影响，能源价格仍可能飙升。\n\n能源去库存和燃料转型（尤其在中国）帮助全球经济度过了供应最紧张的时期。\n\n预计将通过船对船转运和管道扩建等持续调整措施，进一步提升中东石油产量，使2027年产量较2025年高出110万桶/日。\n\n若2027年海湾地区平均产量较2025年平均水平仍低250万桶/日，布伦特原油价格",
-   "time": "2026-11-13 02:58",
-   "url": "https://wallstreetcn.com/livenews/3199307",
+   "title": "墨西哥央行副行长Jonathan Heath：央行近期降息至6.25%让人感到困惑。\n\n在通胀上行、（北方邻国的）美联储似乎准备继续加息之际，我们的降息还释放出错误信息。（路透）",
+   "summary": "墨西哥央行副行长Jonathan Heath：央行近期降息至6.25%让人感到困惑。\n\n在通胀上行、（北方邻国的）美联储似乎准备继续加息之际，我们的降息还释放出错误信息。（路透）",
+   "time": "2026-11-13 03:15",
+   "url": "https://wallstreetcn.com/livenews/3199317",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "伦敦股市12日上涨",
-   "summary": "【伦敦股市12日上涨】英国伦敦股市《金融时报》100种股票平均价格指数12日报收于10863.09点，较前一交易日上涨27.62点，涨幅为0.25%。欧洲三大股指当天全线上涨。",
-   "time": "2026-11-13 02:39:39",
-   "url": "https://finance.eastmoney.com/a/202611133930049042.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "金价创年内新低：美联储加息预期升温，美股同步下挫_外汇动态报道 - 汇通网",
-   "summary": "",
-   "time": "2026-11-13 00:55",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iMjBrNlRpZXpSaVhzeHlWZjZDUkpKX3JocEJvbTc3QUJ0V1R5OHRjelZzU0ExNFl4NC1ySS1KdEVzaWdBRlZEZDR2c0U1LUZFa3VOczEyWC1Kdw?oc=5",
-   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(3)",
+   "富途": "ok(6)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1868,11 +1912,11 @@
   },
   "counts": {
    "华尔街见闻": 8,
-   "东财国际": 8,
-   "谷歌新闻·国际": 8,
+   "谷歌新闻·国际": 7,
+   "东财国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 7,
-   "富途": 1,
+   "富途": 3,
    "东财早报": 2,
    "财新": 7
   }
