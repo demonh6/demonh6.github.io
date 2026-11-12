@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-13 04:40:01 CST",
- "generated_at_iso": "2026-11-13T04:40:01+08:00",
+ "generated_at": "2026-11-13 04:48:11 CST",
+ "generated_at_iso": "2026-11-13T04:48:11+08:00",
  "date": "2026-11-13",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52359.3594,
-    "change": -127.13,
-    "change_pct": -0.24,
-    "quote_time": "2026-11-13 04:39:46",
+    "price": 52355.1719,
+    "change": -131.32,
+    "change_pct": -0.25,
+    "quote_time": "2026-11-13 04:48:07",
     "hist": [
      50926.5586,
      51176.9609,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25347.0349,
-    "change": -119.154,
-    "change_pct": -0.47,
-    "quote_time": "2026-11-13 04:40:07",
+    "price": 25347.9926,
+    "change": -118.1963,
+    "change_pct": -0.46,
+    "quote_time": "2026-11-13 04:48:14",
     "hist": [
      26871.5957,
      27190.8633,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7592.79,
-    "change": -26.59,
+    "price": 7592.75,
+    "change": -26.63,
     "change_pct": -0.35,
-    "quote_time": "2026-11-13 04:39:48",
+    "quote_time": "2026-11-13 04:48:07",
     "hist": [
      7666.4502,
      7722.7202,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3883.09,
-    "change": -117.41,
-    "change_pct": -2.93,
-    "quote_time": "04:40:03 2026-11-13"
+    "price": 3880.73,
+    "change": -119.77,
+    "change_pct": -2.99,
+    "quote_time": "04:48:14 2026-11-13"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 49.924,
-    "change": -2.078,
-    "change_pct": -4.0,
-    "quote_time": "04:39:56 2026-11-13"
+    "price": 49.971,
+    "change": -2.031,
+    "change_pct": -3.91,
+    "quote_time": "04:48:10 2026-11-13"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 89.015,
-    "change": 2.485,
+    "price": 89.012,
+    "change": 2.482,
     "change_pct": 2.87,
-    "quote_time": "04:40:09 2026-11-13"
+    "quote_time": "04:48:12 2026-11-13"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 96.116,
-    "change": 3.356,
-    "change_pct": 3.62,
-    "quote_time": "04:40:01 2026-11-13"
+    "price": 96.145,
+    "change": 3.385,
+    "change_pct": 3.65,
+    "quote_time": "04:48:09 2026-11-13"
    }
   ],
   "crypto": [
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 71503.9,
-    "change": -2996.9,
-    "change_pct": -4.02,
+    "price": 71595.0,
+    "change": -3091.1,
+    "change_pct": -4.14,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2018.6,
-    "change": -60.69,
-    "change_pct": -2.92,
+    "price": 2021.28,
+    "change": -60.68,
+    "change_pct": -2.91,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 81.55,
-    "change": -3.31,
-    "change_pct": -3.9,
+    "price": 81.62,
+    "change": -3.45,
+    "change_pct": -4.06,
     "source": "okx"
    }
   ]
@@ -1680,15 +1680,15 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.00%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-13 04:40",
+   "message": "COMEX白银单日跌3.91%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-13 04:48",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "warning",
    "asset": "布伦特原油",
-   "message": "布伦特原油单日涨3.62%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-13 04:40",
+   "message": "布伦特原油单日涨3.65%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-13 04:48",
    "chain": "油价急涨 → 通胀预期抬升推高美债收益率 → 商品货币(加元/澳元)走强 → 航空/物流成本承压、能源股受益 → 央行紧缩预期升温压制成长股"
   }
  ],
