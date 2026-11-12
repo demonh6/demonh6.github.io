@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-13 05:29:47 CST",
- "generated_at_iso": "2026-11-13T05:29:47+08:00",
+ "generated_at": "2026-11-13 05:37:54 CST",
+ "generated_at_iso": "2026-11-13T05:37:54+08:00",
  "date": "2026-11-13",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -855,7 +855,7 @@
     "price": 25366.0929,
     "change": -100.096,
     "change_pct": -0.39,
-    "quote_time": "2026-11-13 05:29:48",
+    "quote_time": "2026-11-13 05:38:01",
     "hist": [
      26871.5957,
      27190.8633,
@@ -1155,11 +1155,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81879.3984,
+    "change": 772.75,
+    "change_pct": 0.95
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 43091.87,
+    "change": -1165.28,
+    "change_pct": -2.63
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26676.61,
+    "change": 13.84,
+    "change_pct": 0.05
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10863.09,
-    "change": 27.62,
-    "change_pct": 0.25,
+    "price": 10855.17,
+    "change": 19.7,
+    "change_pct": 0.18,
     "hist": [
      10461.95,
      10497.94,
@@ -1305,9 +1326,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6398.98,
-    "change": 5.59,
-    "change_pct": 0.09,
+    "price": 6409.56,
+    "change": 16.16,
+    "change_pct": 0.25,
     "hist": [
      6238.51,
      6242.15,
@@ -1341,6 +1362,13 @@
      6409.56
     ],
     "sigma": 1.02
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2508.87,
+    "change": 14.1,
+    "change_pct": 0.57
    }
   ]
  },
@@ -1392,37 +1420,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3876.369,
-    "change": -124.131,
+    "price": 3876.296,
+    "change": -124.204,
     "change_pct": -3.1,
-    "quote_time": "05:29:47 2026-11-13"
+    "quote_time": "05:37:58 2026-11-13"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 49.902,
-    "change": -2.1,
-    "change_pct": -4.04,
-    "quote_time": "05:29:54 2026-11-13"
+    "price": 49.883,
+    "change": -2.119,
+    "change_pct": -4.07,
+    "quote_time": "05:38:02 2026-11-13"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.846,
-    "change": 2.316,
-    "change_pct": 2.68,
-    "quote_time": "05:29:49 2026-11-13"
+    "price": 88.74,
+    "change": 2.21,
+    "change_pct": 2.55,
+    "quote_time": "05:37:57 2026-11-13"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.977,
-    "change": 3.217,
-    "change_pct": 3.47,
-    "quote_time": "05:29:46 2026-11-13"
+    "price": 95.825,
+    "change": 3.065,
+    "change_pct": 3.3,
+    "quote_time": "05:37:50 2026-11-13"
    }
   ],
   "crypto": [
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 71615.2,
-    "change": -3092.6,
-    "change_pct": -4.14,
+    "price": 71529.0,
+    "change": -3077.4,
+    "change_pct": -4.12,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 2020.88,
-    "change": -59.73,
-    "change_pct": -2.87,
+    "price": 2019.54,
+    "change": -60.43,
+    "change_pct": -2.91,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 81.62,
-    "change": -3.34,
-    "change_pct": -3.93,
+    "price": 81.51,
+    "change": -3.31,
+    "change_pct": -3.9,
     "source": "okx"
    }
   ]
@@ -1474,9 +1502,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 18.86,
-   "change": 1.37,
-   "change_pct": 7.833,
+   "value": 18.7,
+   "change": 1.21,
+   "change_pct": 6.9182,
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
@@ -1512,30 +1540,30 @@
     19.46,
     17.49
    ],
-   "vix3m": 20.15,
+   "vix3m": 20.06,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 17.6,
-     "change_pct": 9.7257
+     "value": 17.51,
+     "change_pct": 9.1646
     },
     {
      "t": "VIX",
-     "value": 18.86,
-     "change_pct": 7.833
+     "value": 18.7,
+     "change_pct": 6.9182
     },
     {
      "t": "VIX3M",
-     "value": 20.15,
-     "change_pct": 4.7297
+     "value": 20.06,
+     "change_pct": 4.262
     },
     {
      "t": "VIX6M",
-     "value": 21.79,
-     "change_pct": 3.3681
+     "value": 21.71,
+     "change_pct": 2.9886
     }
    ],
    "ratio_9d_3m": 0.873,
@@ -1550,36 +1578,36 @@
  },
  "speakers": [
   {
+   "keyword": "日本央行",
+   "label": "日本央行",
+   "hint": "日元利率走向影响全球套息交易",
+   "title": "日元对部分投资者而言已变得难以交易",
+   "summary": "在经历了一年的剧烈波动后，日元在过去几个月出人意料地稳定在1美元兑158日元附近的窄幅区间内。但在周三，它再次突破区间，意外走弱、周四跌穿160日元。这一突然的走势凸显出日元已变得多么难以交易。利率差等传统信号已不再可靠，而日本央行收紧政策、持续的资本外流以及史无前例的干预措施，正将日元拉向相互竞争的方向。其影响远不止于日本。\n\n日元是全球交易量最大的货币之一，每日交易额约达1.6万亿美元。其走势",
+   "time": "2026-11-13 05:34",
+   "url": "https://wallstreetcn.com/livenews/3199370",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "美国总统特朗普表示 如有必要 可能会对伊朗动用武力",
-   "summary": "美国总统特朗普表示，如有必要，可能会对伊朗动用武力。被问及是否可能对古巴动用武力，特朗普回答说会考虑。",
-   "time": "2026-11-13 04:47:26",
-   "url": "https://finance.eastmoney.com/a/202611133930058681.html",
+   "title": "特朗普表示希望降低信用卡费用",
+   "summary": "特朗普表示希望降低信用卡费用。",
+   "time": "2026-11-13 05:28:16",
+   "url": "https://finance.eastmoney.com/a/202611133930066757.html",
    "source": "东财国际",
-   "mentions": 3
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "开盘：纳指跌1.40%，黄仁勋辞职重挫英伟达，油价上行 - 新浪财经_金融信息服务商",
-   "summary": "",
-   "time": "2026-11-13 03:30",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbEtSb2h3Qnd0cHc1LW1lTFB1b1VjOURuRFk1YUhfSnVyS0x2RzRnWHJ4d3Zob2ZHbWU3VVZPUTNNN1dlX0VRckxYcXpub01uSjNKMHF1ZmVGRTF6MTZOZUVyZDVIVDJUWEpRTjctenVCXzVGUUxZeUNtYzRPeFp4aGsySlhKVU43SHc?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 4
   },
   {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储戴利：进一步加息可能是抑制通胀所必需的",
+   "title": "美联储调整2027年议息会议安排：10月不再投票决定利率，全年仅举行7次利率决策会议 - 新浪财经",
    "summary": "",
-   "time": "2026-11-12 20:51:04",
-   "url": "https://news.futunn.com/flash/1004359859/fed-s-daly-further-interest-rate-hikes-may-be-necessary",
-   "source": "富途",
+   "time": "2026-11-13 03:40",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNTJheGNYalJONXdzcUFydVlrMk9IYXFFYWZld2l1TWEzUU1XWDVFbXJWOTlfZXBiSVNkNmVvYkFRbGJFcnQ2WU5QRHhSSUppU1oyQmlUanNROVltQWdTQkpGNXFSVnlwbzN6cWoydUp3N3lHc0wxdjQ4OFFNWExVRl9IMXpVcnJPYjd3dVFnZzFZNHRYWFBQYm0yNnF4eXJKRnZJS3M1SzdObGJ2a3hJME1zZjRfQ1ZoSXlySXIxaWt1cjRrMGY3dzNIbnRfVC1jSkJZcE1ONlJpZ3poTjB3Vw?oc=5",
+   "source": "谷歌新闻·国际",
    "mentions": 1
   },
   {
@@ -1658,32 +1686,39 @@
  "alerts": [
   {
    "level": "warning",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌2.63%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-13 05:38",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.04%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-13 05:29",
+   "message": "COMEX白银单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-13 05:38",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "应用材料第四财季调整后每股收益4.16美元 预估4.06美元",
-   "summary": "【应用材料第四财季调整后每股收益4.16美元 预估4.06美元】应用材料第四财季净销售为104.1亿美元，同比增长53%，高于预估的102.7亿美元；半导体系统净销售80亿美元，同比增长68%，高于预估的79.4亿美元；应用全球服务净销售19亿美元，同比增长17%，高于预估的18.5亿美元；其他净销售5.17亿美元。",
-   "time": "2026-11-13 05:02:54",
-   "url": "https://finance.eastmoney.com/a/202611133930061159.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "安理会通过决议：延长也门制裁机制",
-   "summary": "11月12日，联合国安理会表决通过一项决议，将对也门的有关制裁措施延长一年。根据决议，安理会第2140号决议规定的资产冻结和旅行禁令延长至2027年11月14日。决议同时将安理会也门制裁委员会专家小组的任务期限延长至2027年12月15日。（央视新闻）",
-   "time": "2026-11-13 05:02",
-   "url": "https://wallstreetcn.com/livenews/3199358",
+   "title": "日元对部分投资者而言已变得难以交易",
+   "summary": "在经历了一年的剧烈波动后，日元在过去几个月出人意料地稳定在1美元兑158日元附近的窄幅区间内。但在周三，它再次突破区间，意外走弱、周四跌穿160日元。这一突然的走势凸显出日元已变得多么难以交易。利率差等传统信号已不再可靠，而日本央行收紧政策、持续的资本外流以及史无前例的干预措施，正将日元拉向相互竞争的方向。其影响远不止于日本。\n\n日元是全球交易量最大的货币之一，每日交易额约达1.6万亿美元。其走势",
+   "time": "2026-11-13 05:34",
+   "url": "https://wallstreetcn.com/livenews/3199370",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普连续发帖痛斥民主党“腐败” - ThePaper.cn",
+   "title": "维珍银河第三财季营收为43万美元 高于市场估计的40万美元",
+   "summary": "维珍银河第三财季营收为43万美元，高于市场估计的40万美元；每股亏损39美分，去年同期为每股亏损1.09美元。",
+   "time": "2026-11-13 05:33:21",
+   "url": "https://finance.eastmoney.com/a/202611133930067752.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美联储调整2027年议息会议安排：10月不再投票决定利率，全年仅举行7次利率决策会议 - 新浪财经",
    "summary": "",
-   "time": "2026-11-13 03:35",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16NFB0dG1tNjhyQ05fLTYxSUpnLU5ERVdVQjVRaDBnVWdmaERFeFQtTG5vd1lVWGEyTGw2dWkyNzZYdmtxRWZKWWVqNXFlc2JZeDVXT2FKRHdUVjZLMWZUSg?oc=5",
+   "time": "2026-11-13 03:40",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNTJheGNYalJONXdzcUFydVlrMk9IYXFFYWZld2l1TWEzUU1XWDVFbXJWOTlfZXBiSVNkNmVvYkFRbGJFcnQ2WU5QRHhSSUppU1oyQmlUanNROVltQWdTQkpGNXFSVnlwbzN6cWoydUp3N3lHc0wxdjQ4OFFNWExVRl9IMXpVcnJPYjd3dVFnZzFZNHRYWFBQYm0yNnF4eXJKRnZJS3M1SzdObGJ2a3hJME1zZjRfQ1ZoSXlySXIxaWt1cjRrMGY3dzNIbnRfVC1jSkJZcE1ONlJpZ3poTjB3Vw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1694,17 +1729,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "应用材料第四季度调整后净利润为33.21亿美元",
+   "title": "维珍银河第三财季营收43万美元 高于市场估计的40万美元",
    "summary": "",
-   "time": "2026-11-12 21:02:14",
-   "url": "https://news.10jqka.com.cn/20261113/c681772952.shtml",
+   "time": "2026-11-12 21:32:50",
+   "url": "https://news.10jqka.com.cn/20261113/c681772989.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美股收盘：三大股指收跌 英伟达跌超4%",
+   "title": "受半导体需求推动，应用材料公司销售额与利润双双增长",
    "summary": "",
-   "time": "2026-11-12 21:01:00",
-   "url": "https://news.futunn.com/flash/1004360588/us-stock-market-close-three-major-indices-end-lower-nvidia",
+   "time": "2026-11-12 21:31:03",
+   "url": "https://news.futunn.com/flash/1004364037/applied-materials-sees-rise-in-both-sales-and-profit-driven",
    "source": "富途"
   },
   {
@@ -1722,24 +1757,24 @@
    "source": "财新"
   },
   {
-   "title": "纳指收跌0.4% 英伟达跌超4% 博通、AMD涨超5%",
-   "summary": "【纳指收跌0.4% 英伟达跌超4% 博通、AMD涨超5%】美股三大指数集体收跌，纳指跌0.39%，道指跌0.36%，标普500指数跌0.35%。芯片股多数下跌，费城半导体指数跌0.%。英伟达跌4.34%，市值蒸发1820亿美元；闪迪跌4.1%，应用材料、Cerebras跌超3%；英伟达GPU的竞争对手博通、AMD涨超5%。美股“科技七巨头”涨跌不一，特斯拉涨1.69%，谷歌涨1.62%。",
-   "time": "2026-11-13 05:01:18",
-   "url": "https://finance.eastmoney.com/a/202611133930060652.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "应用材料第四财季净销售104.1亿美元，分析师预期102.7亿美元。",
-   "summary": "应用材料第四财季净销售104.1亿美元，分析师预期102.7亿美元。",
-   "time": "2026-11-13 05:02",
-   "url": "https://wallstreetcn.com/livenews/3199357",
+   "title": "周四（11月12日），全球航空业ETF收跌3.81%，领跌美股行业ETF，生物科技指数ETF跌2.16%，半导体ETF跌1.03%，能源业ETF则涨1.51%。",
+   "summary": "周四（11月12日），全球航空业ETF收跌3.81%，领跌美股行业ETF，生物科技指数ETF跌2.16%，半导体ETF跌1.03%，能源业ETF则涨1.51%。",
+   "time": "2026-11-13 05:30",
+   "url": "https://wallstreetcn.com/livenews/3199369",
    "source": "华尔街见闻"
   },
   {
-   "title": "开盘：纳指跌1.40%，黄仁勋辞职重挫英伟达，油价上行 - 新浪财经_金融信息服务商",
+   "title": "Gemini Space Station第三财季营收为4090万美元 低于市场估计的4220万美元",
+   "summary": "Gemini Space Station第三财季营收为4090万美元，低于市场估计的4220万美元。",
+   "time": "2026-11-13 05:31:09",
+   "url": "https://finance.eastmoney.com/a/202611133930067139.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普连续发帖痛斥民主党“腐败” - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-13 03:30",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbEtSb2h3Qnd0cHc1LW1lTFB1b1VjOURuRFk1YUhfSnVyS0x2RzRnWHJ4d3Zob2ZHbWU3VVZPUTNNN1dlX0VRckxYcXpub01uSjNKMHF1ZmVGRTF6MTZOZUVyZDVIVDJUWEpRTjctenVCXzVGUUxZeUNtYzRPeFp4aGsySlhKVU43SHc?oc=5",
+   "time": "2026-11-13 03:35",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE16NFB0dG1tNjhyQ05fLTYxSUpnLU5ERVdVQjVRaDBnVWdmaERFeFQtTG5vd1lVWGEyTGw2dWkyNzZYdmtxRWZKWWVqNXFlc2JZeDVXT2FKRHdUVjZLMWZUSg?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1750,17 +1785,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美股收评：美股三大指数集体收跌",
+   "title": "古巴外长批评七国集团涉古声明回避美国对古封锁影响",
    "summary": "",
-   "time": "2026-11-12 21:00:52",
-   "url": "https://news.10jqka.com.cn/20261113/c681772951.shtml",
+   "time": "2026-11-12 21:29:58",
+   "url": "https://news.10jqka.com.cn/20261113/c681772984.shtml",
    "source": "同花顺"
   },
   {
-   "title": "托克在LME建立大额铝多头头寸，铝市场逼仓行情加剧",
+   "title": "美股收盘：三大股指收跌 英伟达跌超4%",
    "summary": "",
-   "time": "2026-11-12 20:52:03",
-   "url": "https://news.futunn.com/flash/1004360021/trafigura-establishes-large-aluminum-long-positions-on-the-lme-intensifying",
+   "time": "2026-11-12 21:01:00",
+   "url": "https://news.futunn.com/flash/1004360588/us-stock-market-close-three-major-indices-end-lower-nvidia",
    "source": "富途"
   },
   {
@@ -1778,18 +1813,18 @@
    "source": "财新"
   },
   {
-   "title": "美国投资公司协会数据显示 美国货币市场基金资产降至7.98万亿美元",
-   "summary": "美国投资公司协会（ICI）数据显示，美国货币市场基金资产降至7.98万亿美元。",
-   "time": "2026-11-13 04:56:25",
-   "url": "https://finance.eastmoney.com/a/202611133930059592.html",
-   "source": "东财国际"
+   "title": "美国总统特朗普：希望下调信用卡费用。",
+   "summary": "美国总统特朗普：希望下调信用卡费用。",
+   "time": "2026-11-13 05:26",
+   "url": "https://wallstreetcn.com/livenews/3199368",
+   "source": "华尔街见闻"
   },
   {
-   "title": "英伟达收跌4.4%，市值单日蒸发1820亿美元。\n\nAMD收涨5.9%，博通涨5.5%。",
-   "summary": "英伟达收跌4.4%，市值单日蒸发1820亿美元。\n\nAMD收涨5.9%，博通涨5.5%。",
-   "time": "2026-11-13 05:01",
-   "url": "https://wallstreetcn.com/livenews/3199356",
-   "source": "华尔街见闻"
+   "title": "特朗普表示希望降低信用卡费用",
+   "summary": "特朗普表示希望降低信用卡费用。",
+   "time": "2026-11-13 05:28:16",
+   "url": "https://finance.eastmoney.com/a/202611133930066757.html",
+   "source": "东财国际"
   },
   {
    "title": "阿布扎比谈完第二天，美特使飞莫斯科，特朗普连一天缓冲都不留 - 手机新浪网",
@@ -1799,24 +1834,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "英伟达竞争对手，大涨！ - 同花顺财经",
+   "title": "Piper Sandler维持万佳润滑油(Valvoline)股票增持评级，目标价$44 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-12 23:25",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04WkcydXVjTUpuWGdvVHVRR3VYYlJ3a2txWXZSV0YwWnZmdkRSVmVUUFFwVjlHVHY2SEhfdjVqLVZYc2U0c09PMm9kdEkwMTZfT2ZBTl9tXzE4dkVkMC03VQ?oc=5",
+   "time": "2026-11-12 22:19",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jWWxsY25yZmxmSnpIVjNfOHBsaWVZeDRhdGdIWXBkNldzSDVBZHV1ampxSHMxSFljU2VvX0dDQk9Pb2loX0xaOXBNQm5jMGhmTnA1ZlFzM2FzNHM2UHZIV2UxNXQwaFdlTlZodjFRenFLd0J0?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "安理会通过决议 延长也门制裁机制",
+   "title": "Anthropic宣布，Opus 5.5已成为Pro、Max、Ultra与Team套餐的默认模型",
    "summary": "",
-   "time": "2026-11-12 21:00:32",
-   "url": "https://news.10jqka.com.cn/20261113/c681772950.shtml",
+   "time": "2026-11-12 21:26:59",
+   "url": "https://news.10jqka.com.cn/20261113/c681772983.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美联储戴利：进一步加息可能是抑制通胀所必需的",
+   "title": "托克在LME建立大额铝多头头寸，铝市场逼仓行情加剧",
    "summary": "",
-   "time": "2026-11-12 20:51:04",
-   "url": "https://news.futunn.com/flash/1004359859/fed-s-daly-further-interest-rate-hikes-may-be-necessary",
+   "time": "2026-11-12 20:52:03",
+   "url": "https://news.futunn.com/flash/1004360021/trafigura-establishes-large-aluminum-long-positions-on-the-lme-intensifying",
    "source": "富途"
   },
   {
@@ -1827,18 +1862,18 @@
    "source": "财新"
   },
   {
-   "title": "美国总统特朗普表示 如有必要 可能会对伊朗动用武力",
-   "summary": "美国总统特朗普表示，如有必要，可能会对伊朗动用武力。被问及是否可能对古巴动用武力，特朗普回答说会考虑。",
-   "time": "2026-11-13 04:47:26",
-   "url": "https://finance.eastmoney.com/a/202611133930058681.html",
-   "source": "东财国际"
+   "title": "“挑战英伟达的”Cerebras的首席执行官Andrew Feldman：我认为，特别是在硬件销售方面，创造了由我们把握的机遇。GPU漫长的交付周期和更高的成本为我们带来了机会。\n\n公司高管将在下午5点（美东时间）开始的分析师电话会议上宣布",
+   "summary": "“挑战英伟达的”Cerebras的首席执行官Andrew Feldman：我认为，特别是在硬件销售方面，创造了由我们把握的机遇。GPU漫长的交付周期和更高的成本为我们带来了机会。\n\n公司高管将在下午5点（美东时间）开始的分析师电话会议上宣布与全球顶级云服务商之一微软建立新的合作关系。\n\n我们相信收入将在2027年第一季度开始体现，微软是在10月签署的这项协议。\n\n此前，Cerebras已与亚马逊和",
+   "time": "2026-11-13 05:24",
+   "url": "https://wallstreetcn.com/livenews/3199371",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(13)",
+   "富途": "ok(11)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1847,8 +1882,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 6,
