@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 06:29:42 CST",
- "generated_at_iso": "2026-11-14T06:29:42+08:00",
+ "generated_at": "2026-11-14 06:37:52 CST",
+ "generated_at_iso": "2026-11-14T06:37:52+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -855,7 +855,7 @@
     "price": 25136.2726,
     "change": -229.8203,
     "change_pct": -0.91,
-    "quote_time": "2026-11-14 06:29:30",
+    "quote_time": "2026-11-14 06:30:30",
     "hist": [
      27190.8633,
      27477.3105,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5290.53,
-    "change": -52.2,
-    "change_pct": -0.98,
+    "price": 5342.73,
+    "change": -32.63,
+    "change_pct": -0.61,
     "hist": [
      6838.04,
      6971.35,
@@ -1155,11 +1155,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81911.0078,
+    "change": 31.61,
+    "change_pct": 0.04
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 43675.12,
+    "change": 583.25,
+    "change_pct": 1.35
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26749.95,
+    "change": -21.93,
+    "change_pct": -0.08
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10902.56,
-    "change": 39.47,
-    "change_pct": 0.36,
+    "price": 10898.38,
+    "change": 35.29,
+    "change_pct": 0.32,
     "hist": [
      10497.94,
      10541.69,
@@ -1305,9 +1326,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6386.86,
-    "change": -12.12,
-    "change_pct": -0.19,
+    "price": 6388.05,
+    "change": -10.94,
+    "change_pct": -0.17,
     "hist": [
      6242.15,
      6272.24,
@@ -1341,6 +1362,13 @@
      6388.05
     ],
     "sigma": 1.019
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2511.98,
+    "change": 6.03,
+    "change_pct": 0.24
    }
   ]
  },
@@ -1419,10 +1447,10 @@
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 96.419,
-    "change": 0.599,
-    "change_pct": 0.63,
-    "quote_time": "06:28:22 2026-11-14"
+    "price": 96.458,
+    "change": 0.638,
+    "change_pct": 0.67,
+    "quote_time": "06:35:36 2026-11-14"
    }
   ],
   "crypto": [
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 68294.6,
-    "change": -3217.9,
-    "change_pct": -4.5,
+    "price": 68353.4,
+    "change": -3067.7,
+    "change_pct": -4.3,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1927.3,
-    "change": -87.63,
-    "change_pct": -4.35,
+    "price": 1928.03,
+    "change": -82.71,
+    "change_pct": -4.11,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 78.58,
-    "change": -2.92,
-    "change_pct": -3.58,
+    "price": 78.34,
+    "change": -2.98,
+    "change_pct": -3.66,
     "source": "okx"
    }
   ]
@@ -1956,6 +1984,8 @@
   "color": "#3d7fc2",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "全球要闻": "AttributeError: module 'akshare' has no attribute 'stock_info_global_em'"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
