@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 00:25:11 CST",
- "generated_at_iso": "2026-11-14T00:25:11+08:00",
+ "generated_at": "2026-11-14 00:33:19 CST",
+ "generated_at_iso": "2026-11-14T00:33:19+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -775,10 +775,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52170.1914,
-    "change": -126.9,
-    "change_pct": -0.24,
-    "quote_time": "2026-11-14 00:25:07",
+    "price": 52239.6016,
+    "change": -57.49,
+    "change_pct": -0.11,
+    "quote_time": "2026-11-14 00:33:08",
     "hist": [
      51176.9609,
      51267.8984,
@@ -852,10 +852,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24942.1882,
-    "change": -423.9047,
-    "change_pct": -1.67,
-    "quote_time": "2026-11-14 00:25:13",
+    "price": 25002.2128,
+    "change": -363.8801,
+    "change_pct": -1.43,
+    "quote_time": "2026-11-14 00:33:25",
     "hist": [
      27190.8633,
      27477.3105,
@@ -929,10 +929,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7517.0098,
-    "change": -75.39,
-    "change_pct": -0.99,
-    "quote_time": "2026-11-14 00:25:07",
+    "price": 7530.8101,
+    "change": -61.59,
+    "change_pct": -0.81,
+    "quote_time": "2026-11-14 00:33:08",
     "hist": [
      7722.7202,
      7773.9502,
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 61142.35,
-    "change": 322.99,
-    "change_pct": 0.53,
+    "price": 60819.3594,
+    "change": -429.23,
+    "change_pct": -0.7,
     "hist": [
      66753.72,
      68956.72,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5290.53,
-    "change": -52.2,
-    "change_pct": -0.98,
+    "price": 5342.73,
+    "change": -32.63,
+    "change_pct": -0.61,
     "hist": [
      6838.04,
      6971.35,
@@ -1155,11 +1155,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81592.4531,
+    "change": -318.55,
+    "change_pct": -0.39
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 43675.12,
+    "change": 583.25,
+    "change_pct": 1.35
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26759.37,
+    "change": -12.51,
+    "change_pct": -0.05
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10902.39,
-    "change": 39.3,
-    "change_pct": 0.36,
+    "price": 10898.38,
+    "change": 35.29,
+    "change_pct": 0.32,
     "hist": [
      10461.95,
      10497.94,
@@ -1231,9 +1252,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8370.63,
-    "change": 9.27,
-    "change_pct": 0.11,
+    "price": 8364.94,
+    "change": 3.58,
+    "change_pct": 0.04,
     "hist": [
      7834.1,
      7865.07,
@@ -1305,9 +1326,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6388.81,
-    "change": -10.17,
-    "change_pct": -0.16,
+    "price": 6398.99,
+    "change": 5.59,
+    "change_pct": 0.09,
     "hist": [
      6238.51,
      6242.15,
@@ -1341,6 +1362,13 @@
      6398.99
     ],
     "sigma": 1.02
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2514.04,
+    "change": 8.09,
+    "change_pct": 0.32
    }
   ]
  },
@@ -1392,37 +1420,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3885.569,
-    "change": 0.269,
-    "change_pct": 0.01,
-    "quote_time": "00:25:16 2026-11-14"
+    "price": 3885.14,
+    "change": -0.16,
+    "change_pct": -0.0,
+    "quote_time": "00:33:29 2026-11-14"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 49.052,
-    "change": -1.013,
-    "change_pct": -2.02,
-    "quote_time": "00:25:16 2026-11-14"
+    "price": 49.088,
+    "change": -0.977,
+    "change_pct": -1.95,
+    "quote_time": "00:33:28 2026-11-14"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 89.01,
-    "change": 0.27,
-    "change_pct": 0.3,
-    "quote_time": "00:25:18 2026-11-14"
+    "price": 88.556,
+    "change": -0.184,
+    "change_pct": -0.21,
+    "quote_time": "00:33:29 2026-11-14"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 96.384,
-    "change": 0.564,
-    "change_pct": 0.59,
-    "quote_time": "00:25:16 2026-11-14"
+    "price": 95.834,
+    "change": 0.014,
+    "change_pct": 0.01,
+    "quote_time": "00:33:29 2026-11-14"
    }
   ],
   "crypto": [
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 68692.6,
-    "change": -3177.4,
-    "change_pct": -4.42,
+    "price": 68735.4,
+    "change": -3019.0,
+    "change_pct": -4.21,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1927.54,
-    "change": -88.21,
-    "change_pct": -4.38,
+    "price": 1930.95,
+    "change": -79.66,
+    "change_pct": -3.96,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 79.61,
-    "change": -2.22,
-    "change_pct": -2.71,
+    "price": 79.67,
+    "change": -1.84,
+    "change_pct": -2.26,
     "source": "okx"
    }
   ]
@@ -1474,11 +1502,11 @@
    "source": "东财"
   },
   "vix": {
-   "value": 19.96,
-   "change": 1.26,
-   "change_pct": 6.738,
-   "label": "正常",
-   "color": "#8ac96f",
+   "value": 20.53,
+   "change": 1.83,
+   "change_pct": 9.7861,
+   "label": "升高",
+   "color": "#d9b23c",
    "source": "CBOE",
    "spark": [
     15.31,
@@ -1512,33 +1540,33 @@
     17.49,
     18.7
    ],
-   "vix3m": 21.03,
+   "vix3m": 21.33,
    "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 19.35,
-     "change_pct": 10.5083
+     "value": 19.92,
+     "change_pct": 13.7636
     },
     {
      "t": "VIX",
-     "value": 19.96,
-     "change_pct": 6.738
+     "value": 20.53,
+     "change_pct": 9.7861
     },
     {
      "t": "VIX3M",
-     "value": 21.03,
-     "change_pct": 4.8355
+     "value": 21.33,
+     "change_pct": 6.331
     },
     {
      "t": "VIX6M",
-     "value": 22.28,
-     "change_pct": 2.6255
+     "value": 22.5,
+     "change_pct": 3.6389
     }
    ],
-   "ratio_9d_3m": 0.92,
+   "ratio_9d_3m": 0.934,
    "shape": "平坦",
    "source": "CBOE"
   },
@@ -1956,6 +1984,8 @@
   "color": "#3d7fc2",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "全球要闻": "AttributeError: module 'akshare' has no attribute 'stock_info_global_em'"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
