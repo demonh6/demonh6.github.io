@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 05:31:36 CST",
- "generated_at_iso": "2026-11-14T05:31:36+08:00",
+ "generated_at": "2026-11-14 05:39:51 CST",
+ "generated_at_iso": "2026-11-14T05:39:51+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -855,7 +855,7 @@
     "price": 25136.2726,
     "change": -229.8203,
     "change_pct": -0.91,
-    "quote_time": "2026-11-14 05:31:38",
+    "quote_time": "2026-11-14 05:39:55",
     "hist": [
      27190.8633,
      27477.3105,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5290.53,
-    "change": -52.2,
-    "change_pct": -0.98,
+    "price": 5342.73,
+    "change": -32.63,
+    "change_pct": -0.61,
     "hist": [
      6838.04,
      6971.35,
@@ -1155,11 +1155,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81911.0078,
+    "change": 31.61,
+    "change_pct": 0.04
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 43675.12,
+    "change": 583.25,
+    "change_pct": 1.35
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26759.37,
+    "change": -12.51,
+    "change_pct": -0.05
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10902.56,
-    "change": 39.47,
-    "change_pct": 0.36,
+    "price": 10898.38,
+    "change": 35.29,
+    "change_pct": 0.32,
     "hist": [
      10497.94,
      10541.69,
@@ -1305,9 +1326,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6386.86,
-    "change": -12.12,
-    "change_pct": -0.19,
+    "price": 6388.05,
+    "change": -10.94,
+    "change_pct": -0.17,
     "hist": [
      6242.15,
      6272.24,
@@ -1341,6 +1362,13 @@
      6388.05
     ],
     "sigma": 1.019
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2511.98,
+    "change": 6.03,
+    "change_pct": 0.24
    }
   ]
  },
@@ -1392,37 +1420,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3876.62,
-    "change": -8.68,
-    "change_pct": -0.22,
-    "quote_time": "05:31:42 2026-11-14"
+    "price": 3877.106,
+    "change": -8.194,
+    "change_pct": -0.21,
+    "quote_time": "05:39:51 2026-11-14"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 48.575,
-    "change": -1.49,
-    "change_pct": -2.98,
-    "quote_time": "05:31:42 2026-11-14"
+    "price": 48.428,
+    "change": -1.637,
+    "change_pct": -3.27,
+    "quote_time": "05:39:57 2026-11-14"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 89.19,
-    "change": 0.45,
-    "change_pct": 0.51,
-    "quote_time": "05:31:39 2026-11-14"
+    "price": 89.275,
+    "change": 0.535,
+    "change_pct": 0.6,
+    "quote_time": "05:39:58 2026-11-14"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 96.455,
-    "change": 0.635,
-    "change_pct": 0.66,
-    "quote_time": "05:31:39 2026-11-14"
+    "price": 96.507,
+    "change": 0.687,
+    "change_pct": 0.72,
+    "quote_time": "05:39:58 2026-11-14"
    }
   ],
   "crypto": [
@@ -1430,25 +1458,25 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 68339.8,
-    "change": -3247.9,
-    "change_pct": -4.54,
+    "price": 68292.1,
+    "change": -3312.4,
+    "change_pct": -4.63,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1931.0,
-    "change": -89.75,
-    "change_pct": -4.44,
+    "price": 1928.35,
+    "change": -93.92,
+    "change_pct": -4.64,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 79.29,
+    "price": 79.33,
     "change": -2.29,
     "change_pct": -2.81,
     "source": "okx"
