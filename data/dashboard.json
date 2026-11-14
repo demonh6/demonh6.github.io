@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 15:22:46 CST",
- "generated_at_iso": "2026-11-14T15:22:46+08:00",
+ "generated_at": "2026-11-14 15:30:54 CST",
+ "generated_at_iso": "2026-11-14T15:30:54+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1659,27 +1659,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 67147.2,
-    "change": -2005.4,
-    "change_pct": -2.9,
+    "price": 67247.0,
+    "change": -1679.0,
+    "change_pct": -2.44,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1894.46,
-    "change": -50.05,
-    "change_pct": -2.57,
+    "price": 1898.34,
+    "change": -43.55,
+    "change_pct": -2.24,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 75.18,
-    "change": -5.42,
-    "change_pct": -6.72,
+    "price": 75.48,
+    "change": -4.98,
+    "change_pct": -6.19,
     "source": "okx"
    }
   ]
@@ -2185,6 +2185,8 @@
   "color": "#3d7fc2",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "全球要闻": "AttributeError: module 'akshare' has no attribute 'stock_info_global_em'"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
