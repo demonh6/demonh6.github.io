@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 21:17:26 CST",
- "generated_at_iso": "2026-11-14T21:17:26+08:00",
+ "generated_at": "2026-11-14 21:25:30 CST",
+ "generated_at_iso": "2026-11-14T21:25:30+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 66745.3,
-    "change": -2469.0,
-    "change_pct": -3.57,
+    "price": 66576.4,
+    "change": -2702.2,
+    "change_pct": -3.9,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1892.34,
-    "change": -62.17,
-    "change_pct": -3.18,
+    "price": 1884.76,
+    "change": -73.88,
+    "change_pct": -3.77,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 75.51,
-    "change": -5.16,
-    "change_pct": -6.4,
+    "price": 75.18,
+    "change": -5.74,
+    "change_pct": -7.09,
     "source": "okx"
    }
   ]
@@ -1656,7 +1656,15 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "warning",
+   "asset": "Solana",
+   "message": "Solana单日跌7.09%，达20日历史波动率的 2.0 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-14 21:25",
+   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
+  }
+ ],
  "news": [
   {
    "title": "浙能迈领港股IPO获中国证监会备案",
