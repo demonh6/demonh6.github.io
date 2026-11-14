@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-15 05:44:06 CST",
- "generated_at_iso": "2026-11-15T05:44:06+08:00",
+ "generated_at": "2026-11-15 05:52:08 CST",
+ "generated_at_iso": "2026-11-15T05:52:08+08:00",
  "date": "2026-11-15",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64881.0,
-    "change": -3279.8,
-    "change_pct": -4.81,
+    "price": 64462.5,
+    "change": -3938.6,
+    "change_pct": -5.76,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1789.42,
-    "change": -133.18,
-    "change_pct": -6.93,
+    "price": 1772.54,
+    "change": -157.88,
+    "change_pct": -8.18,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.46,
-    "change": -8.2,
-    "change_pct": -10.42,
+    "price": 69.84,
+    "change": -9.0,
+    "change_pct": -11.42,
     "source": "okx"
    }
   ]
@@ -1658,10 +1658,17 @@
  },
  "alerts": [
   {
-   "level": "warning",
+   "level": "danger",
    "asset": "Solana",
-   "message": "Solana单日跌10.42%，达20日历史波动率的 3.0 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-15 05:44",
+   "message": "Solana单日跌11.42%，达20日历史波动率的 3.3 倍（σ=3.50%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-15 05:52",
+   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
+  },
+  {
+   "level": "warning",
+   "asset": "以太坊",
+   "message": "以太坊单日跌8.18%，达20日历史波动率的 2.3 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-15 05:52",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   }
  ],
