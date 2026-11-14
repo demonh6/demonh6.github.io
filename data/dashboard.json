@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 23:35:47 CST",
- "generated_at_iso": "2026-11-14T23:35:47+08:00",
+ "generated_at": "2026-11-14 23:43:58 CST",
+ "generated_at_iso": "2026-11-14T23:43:58+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65350.1,
-    "change": -2977.9,
-    "change_pct": -4.36,
+    "price": 65712.6,
+    "change": -2489.0,
+    "change_pct": -3.65,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1836.71,
-    "change": -80.76,
-    "change_pct": -4.21,
+    "price": 1840.81,
+    "change": -78.82,
+    "change_pct": -4.11,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.78,
-    "change": -5.42,
-    "change_pct": -6.84,
+    "price": 73.88,
+    "change": -5.32,
+    "change_pct": -6.72,
     "source": "okx"
    }
   ]
@@ -1958,8 +1958,7 @@
  },
  "errors": {
   "A股指数": "AttributeError: stock_zh_index_spot_sina 已在 1.20.44 更名为 index_zh_spot_sina，请改用 ak.index_zh_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
-  "港股指数": "AttributeError: stock_hk_index_spot_sina 已在 1.20.44 更名为 index_hk_spot_sina，请改用 ak.index_hk_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_hk_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
-  "全球要闻": "AttributeError: stock_info_global_em 已在 1.20.41 更名为 stock_news_global_em，请改用 ak.stock_news_global_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_news_global_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+  "港股指数": "AttributeError: stock_hk_index_spot_sina 已在 1.20.44 更名为 index_hk_spot_sina，请改用 ak.index_hk_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_hk_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
  },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
