@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 22:22:41 CST",
- "generated_at_iso": "2026-11-14T22:22:41+08:00",
+ "generated_at": "2026-11-14 22:30:45 CST",
+ "generated_at_iso": "2026-11-14T22:30:45+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 66512.4,
-    "change": -2736.8,
-    "change_pct": -3.95,
+    "price": 66345.9,
+    "change": -2914.0,
+    "change_pct": -4.21,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1874.87,
-    "change": -88.38,
-    "change_pct": -4.5,
+    "price": 1861.57,
+    "change": -102.85,
+    "change_pct": -5.24,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 75.0,
-    "change": -6.35,
-    "change_pct": -7.81,
+    "price": 74.35,
+    "change": -7.04,
+    "change_pct": -8.65,
     "source": "okx"
    }
   ]
@@ -1480,6 +1480,38 @@
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
+   "spark": [
+    15.52,
+    15.01,
+    15.08,
+    15.41,
+    14.84,
+    15.21,
+    15.27,
+    16.87,
+    16.46,
+    19.99,
+    18.44,
+    17.31,
+    16.68,
+    19.03,
+    19.45,
+    18.39,
+    17.52,
+    16.91,
+    17.2,
+    19.42,
+    21.15,
+    20.83,
+    16.61,
+    28.18,
+    25.64,
+    19.92,
+    19.46,
+    17.49,
+    18.7,
+    19.3
+   ],
    "vix3m": 20.62,
    "term": "contango(正常)"
   },
@@ -1660,8 +1692,8 @@
   {
    "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌7.81%，达20日历史波动率的 2.2 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-14 22:22",
+   "message": "Solana单日跌8.65%，达20日历史波动率的 2.5 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-14 22:30",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   }
  ],
@@ -1934,7 +1966,8 @@
  },
  "errors": {
   "A股指数": "AttributeError: stock_zh_index_spot_sina 已在 1.20.44 更名为 index_zh_spot_sina，请改用 ak.index_zh_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
-  "港股指数": "AttributeError: stock_hk_index_spot_sina 已在 1.20.44 更名为 index_hk_spot_sina，请改用 ak.index_hk_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_hk_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+  "港股指数": "AttributeError: stock_hk_index_spot_sina 已在 1.20.44 更名为 index_hk_spot_sina，请改用 ak.index_hk_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_hk_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
+  "全球要闻": "AttributeError: stock_info_global_em 已在 1.20.41 更名为 stock_news_global_em，请改用 ak.stock_news_global_em；参数与返回的列也可能有调整，用 ak.interface_info(\"stock_news_global_em\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
  },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
