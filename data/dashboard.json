@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 21:33:35 CST",
- "generated_at_iso": "2026-11-14T21:33:35+08:00",
+ "generated_at": "2026-11-14 21:41:43 CST",
+ "generated_at_iso": "2026-11-14T21:41:43+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 66708.4,
-    "change": -3255.2,
-    "change_pct": -4.65,
+    "price": 66770.2,
+    "change": -3070.0,
+    "change_pct": -4.4,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1890.55,
-    "change": -88.59,
-    "change_pct": -4.48,
+    "price": 1891.32,
+    "change": -87.49,
+    "change_pct": -4.42,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 75.33,
-    "change": -6.63,
-    "change_pct": -8.09,
+    "price": 75.52,
+    "change": -6.58,
+    "change_pct": -8.01,
     "source": "okx"
    }
   ]
@@ -1660,8 +1660,8 @@
   {
    "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌8.09%，达20日历史波动率的 2.3 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-14 21:33",
+   "message": "Solana单日跌8.01%，达20日历史波动率的 2.3 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-14 21:41",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   }
  ],
@@ -1934,8 +1934,7 @@
  },
  "errors": {
   "A股指数": "AttributeError: module 'akshare' has no attribute 'stock_zh_index_spot_sina'",
-  "港股指数": "AttributeError: module 'akshare' has no attribute 'stock_hk_index_spot_sina'",
-  "全球要闻": "AttributeError: module 'akshare' has no attribute 'stock_info_global_em'"
+  "港股指数": "AttributeError: module 'akshare' has no attribute 'stock_hk_index_spot_sina'"
  },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
