@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 20:28:12 CST",
- "generated_at_iso": "2026-11-14T20:28:12+08:00",
+ "generated_at": "2026-11-14 20:36:15 CST",
+ "generated_at_iso": "2026-11-14T20:36:15+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 67179.0,
-    "change": -2103.7,
-    "change_pct": -3.04,
+    "price": 67214.3,
+    "change": -2078.1,
+    "change_pct": -3.0,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1907.24,
-    "change": -51.46,
-    "change_pct": -2.63,
+    "price": 1907.4,
+    "change": -52.29,
+    "change_pct": -2.67,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 75.82,
-    "change": -4.87,
-    "change_pct": -6.04,
+    "price": 75.84,
+    "change": -4.9,
+    "change_pct": -6.07,
     "source": "okx"
    }
   ]
@@ -1480,38 +1480,6 @@
    "label": "正常",
    "color": "#8ac96f",
    "source": "CBOE",
-   "spark": [
-    15.52,
-    15.01,
-    15.08,
-    15.41,
-    14.84,
-    15.21,
-    15.27,
-    16.87,
-    16.46,
-    19.99,
-    18.44,
-    17.31,
-    16.68,
-    19.03,
-    19.45,
-    18.39,
-    17.52,
-    16.91,
-    17.2,
-    19.42,
-    21.15,
-    20.83,
-    16.61,
-    28.18,
-    25.64,
-    19.92,
-    19.46,
-    17.49,
-    18.7,
-    19.3
-   ],
    "vix3m": 20.62,
    "term": "contango(正常)"
   },
@@ -1958,7 +1926,8 @@
  },
  "errors": {
   "A股指数": "AttributeError: module 'akshare' has no attribute 'stock_zh_index_spot_sina'",
-  "港股指数": "AttributeError: module 'akshare' has no attribute 'stock_hk_index_spot_sina'"
+  "港股指数": "AttributeError: module 'akshare' has no attribute 'stock_hk_index_spot_sina'",
+  "全球要闻": "AttributeError: module 'akshare' has no attribute 'stock_info_global_em'"
  },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
