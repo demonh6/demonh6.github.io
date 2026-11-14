@@ -1,7 +1,7 @@
 {
  "schema_version": 12,
- "generated_at": "2026-11-14 16:29:28 CST",
- "generated_at_iso": "2026-11-14T16:29:28+08:00",
+ "generated_at": "2026-11-14 16:37:37 CST",
+ "generated_at_iso": "2026-11-14T16:37:37+08:00",
  "date": "2026-11-14",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1082,7 +1082,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5290.53,
+    "price": 5290.5298,
     "change": -52.2,
     "change_pct": -0.98,
     "hist": [
@@ -1153,6 +1153,27 @@
      244800.0,
      247800.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81592.4531,
+    "change": -318.55,
+    "change_pct": -0.39
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 43675.12,
+    "change": 583.25,
+    "change_pct": 1.35
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26749.95,
+    "change": -21.93,
+    "change_pct": -0.08
    },
    {
     "name": "英国富时100",
@@ -1305,7 +1326,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6386.86,
+    "price": 6386.87,
     "change": -12.12,
     "change_pct": -0.19,
     "hist": [
@@ -1341,6 +1362,13 @@
      6386.87
     ],
     "sigma": 1.019
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2511.1,
+    "change": 5.15,
+    "change_pct": 0.21
    }
   ]
  },
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 67297.2,
-    "change": -1434.7,
-    "change_pct": -2.09,
+    "price": 67077.4,
+    "change": -1722.6,
+    "change_pct": -2.5,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1907.06,
-    "change": -26.42,
-    "change_pct": -1.37,
+    "price": 1897.91,
+    "change": -36.11,
+    "change_pct": -1.87,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 75.6,
-    "change": -4.3,
-    "change_pct": -5.38,
+    "price": 75.27,
+    "change": -4.62,
+    "change_pct": -5.78,
     "source": "okx"
    }
   ]
@@ -1956,6 +1984,8 @@
   "color": "#3d7fc2",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {},
+ "errors": {
+  "全球要闻": "AttributeError: module 'akshare' has no attribute 'stock_info_global_em'"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
