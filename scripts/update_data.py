@@ -1842,13 +1842,21 @@ def _em_news_global(_kwargs=None):
 
 
 def _ths_with_retry(_kwargs=None):
-    """同花顺全球财经，带一次重试（该源偶发 ReadTimeout）。"""
+    """同花顺全球财经，带一次重试（该源偶发 ReadTimeout）。
+
+    akshare 1.20.41 起 stock_info_global_ths -> stock_news_global_ths，
+    新旧名都试，避免改名把整源打死。
+    """
     import akshare as ak
+
+    fn = getattr(ak, "stock_news_global_ths", None) or getattr(ak, "stock_info_global_ths", None)
+    if fn is None:
+        raise RuntimeError("同花顺全球财经接口在新旧版本中都不存在")
     try:
-        return ak.stock_info_global_ths()
+        return fn()
     except Exception:  # noqa: BLE001
         time.sleep(3)
-        return ak.stock_info_global_ths()
+        return fn()
 
 
 def _news_wscn(_kwargs=None):
@@ -2287,7 +2295,7 @@ def fetch_news():
     collect(_ths_with_retry, {}, "同花顺")
     collect(ak_src("stock_news_main_cx", "stock_info_main_cx"), {}, "财新",
             lambda rs: _norm_news(rs, title_key="summary", link_key="url"))
-    collect(ak_src("news_economic_baidu"), {}, "百度财经",
+    collect(ak_src("macro_calendar_baidu", "news_economic_baidu"), {}, "百度财经",
             lambda rs: _norm_news(rs, title_key="事件", summary_key="公布", time_key="日期"))
     collect(_econ_calendar_jin10, {}, "金十日历")
     collect(_news_wscn, {}, "华尔街见闻")
