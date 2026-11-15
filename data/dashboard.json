@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 00:59:40 CST",
- "generated_at_iso": "2026-11-16T00:59:40+08:00",
+ "generated_at": "2026-11-16 01:07:55 CST",
+ "generated_at_iso": "2026-11-16T01:07:55+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1111,7 +1111,7 @@
      5683.8,
      5383.8,
      5059.69,
-     5018.8501,
+     5018.85,
      5239.1299,
      5375.3599,
      5342.73,
@@ -1430,28 +1430,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64699.4,
-    "change": -649.3,
-    "change_pct": -0.99,
-    "source": "okx"
+    "price": 64754.3,
+    "change": -438.7,
+    "change_pct": -0.67,
+    "source": "okx",
+    "hist": [
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64704.6
+    ],
+    "sigma": 2.298
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1814.42,
-    "change": -11.25,
-    "change_pct": -0.62,
-    "source": "okx"
+    "price": 1816.09,
+    "change": -2.64,
+    "change_pct": -0.15,
+    "source": "okx",
+    "hist": [
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1814.02
+    ],
+    "sigma": 3.176
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.41,
-    "change": -1.0,
-    "change_pct": -1.38,
-    "source": "okx"
+    "price": 71.28,
+    "change": -0.94,
+    "change_pct": -1.3,
+    "source": "okx",
+    "hist": [
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     71.19
+    ],
+    "sigma": 3.236
    }
   ],
   "fx": [
@@ -1590,13 +1689,13 @@
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储估算：当前用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元",
-   "summary": "【美联储估算：当前用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元】美联储报告显示，截至今年10月，美国超大规模云厂商建设数据中心的相关债务发行规模已经突破6800亿美元，较2023年全年1300亿美元的规模增长四倍。美联储估算，当前用于数据中心建设的远期租赁与兜底担保规模已经达到约3万亿美元。",
-   "time": "2026-11-16 00:14:20",
-   "url": "https://finance.eastmoney.com/a/202611163931525342.html",
+   "keyword": "人民银行",
+   "label": "人民银行",
+   "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
+   "title": "中国人民银行上调金融机构外汇存款准备金率至6%",
+   "summary": "【中国人民银行上调金融机构外汇存款准备金率至6%】11月15日，中国人民银行上调金融机构外汇存款准备金率正式生效，外汇存款准备金率由现行的4%提高到6%。这是中国人民银行时隔近5年再度上调外汇存款准备金率。",
+   "time": "2026-11-16 00:55:51",
+   "url": "https://finance.eastmoney.com/a/202611163931526066.html",
    "source": "东财国际",
    "mentions": 1
   },
@@ -1609,7 +1708,7 @@
    "time": "2026-11-16 00:08",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MUXA0Umh6R212MEtUcHhfUHN0d0hncHpuMzRtOEpwTDNmSy1uRHlFeUJlWWNxcjFGWkdONi1MTnZxS1lmMUVFMnN2ZVR3MThkcXVsci1jdFo?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
   },
   {
    "keyword": "贝森特",
@@ -1620,7 +1719,18 @@
    "time": "2026-11-15 23:19",
    "url": "https://wallstreetcn.com/livenews/3200215",
    "source": "华尔街见闻",
-   "mentions": 4
+   "mentions": 3
+  },
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "美众议员：黄仁勋同意接受国会闭门质询",
+   "summary": "",
+   "time": "2026-11-15 16:54:36",
+   "url": "https://news.futunn.com/flash/1004552862/us-house-representative-jensen-huang-agrees-to-closed-door-congressional",
+   "source": "富途",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1818,11 +1928,18 @@
  "alerts": [],
  "news": [
   {
-   "title": "全球航运界人士“维港对话” 聚焦中外合作新空间",
-   "summary": "【全球航运界人士“维港对话” 聚焦中外合作新空间】由香港航商总会主办的“维港对话”15日在港举行，60多位中外航运和经贸企业以及智库代表围绕航运政策、香港国际航运中心定位、贸易格局变化及绿色转型等议题深入交流。",
-   "time": "2026-11-16 00:32:42",
-   "url": "https://finance.eastmoney.com/a/202611153931510227.html",
+   "title": "中国人民银行上调金融机构外汇存款准备金率至6%",
+   "summary": "【中国人民银行上调金融机构外汇存款准备金率至6%】11月15日，中国人民银行上调金融机构外汇存款准备金率正式生效，外汇存款准备金率由现行的4%提高到6%。这是中国人民银行时隔近5年再度上调外汇存款准备金率。",
+   "time": "2026-11-16 00:55:51",
+   "url": "https://finance.eastmoney.com/a/202611163931526066.html",
    "source": "东财国际"
+  },
+  {
+   "title": "评论员评级曼联球员：精英级没人 拉什还能用 B费利马等人赶紧走 - 直播吧",
+   "summary": "",
+   "time": "2026-11-16 00:38",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15T05YN09KMDZjbUNFMzJwd3RfdGhYRlZiZUdBbWpfUUpCZUhaUFpORzd6STQ3XzlaYzRqdFY2eE1oVGRUN3hfOHNOa2ZHLUN4MGVxd2pRMnNSYWNZMC1Kdm5IYnB3d1pkcEFEUzlZUEFHX0pKRG9aNw?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "华府观察：特朗普去深圳 最看重什么？ - 中国评论",
@@ -1832,13 +1949,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "富国集团维持Realty Income(O.US)持有评级，上调目标价至61美元 - Moomoo",
-   "summary": "",
-   "time": "2026-11-15 23:31",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmpXbzNjTm1kX0VNRkp4bVNRTERpSmFUX2w5ajY0S1RqdjJybFdKdmczSWdkbFVCWG0zSkdDWUdLZHpEamJtVWNBTVAxRUs4RG5GcXE5RWNMNUNxT2hWOVFDNU55MjRSaHRneWZaMWx3bjVwczhpdHFpdzFKZ2ppbHRzWFY5MEpoV0xBRnVHN0J4YjZpUU5nU1NCWG1zZ3g3SUt5a2tCM0hsbUdwcFc2Wk9B?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
    "title": "美国财政部长贝森特：我们正在挤压伊朗经济，这法子正在发挥作用。\n\n由于天然气短缺，伊朗将面临艰难的冬季。",
    "summary": "美国财政部长贝森特：我们正在挤压伊朗经济，这法子正在发挥作用。\n\n由于天然气短缺，伊朗将面临艰难的冬季。",
    "time": "2026-11-15 23:19",
@@ -1846,10 +1956,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "押中Anthropic 好莱坞背景风投4.35亿美元投资将变成70亿美元",
+   "title": "美众议员：黄仁勋同意接受国会闭门质询",
    "summary": "",
-   "time": "2026-11-15 16:30:31",
-   "url": "https://news.futunn.com/flash/1004552768/hollywood-backed-vc-s-435-million-bet-on-anthropic-poised",
+   "time": "2026-11-15 16:54:36",
+   "url": "https://news.futunn.com/flash/1004552862/us-house-representative-jensen-huang-agrees-to-closed-door-congressional",
    "source": "富途"
   },
   {
@@ -1867,25 +1977,25 @@
    "source": "财新"
   },
   {
-   "title": "胡塞武装称沙特联军24小时内75次袭击也门多地",
-   "summary": "【胡塞武装称沙特联军24小时内75次袭击也门多地】也门胡塞武装当地时间15日晚发表声明称，过去24小时内，沙特主导的联军对也门萨达省、塔伊兹省、拉赫季省、焦夫省和马里卜省发动了75次空袭和导弹袭击。声明还称，自也门新一轮军事升级以来，沙特主导的联军累计进行的空袭和导弹袭击次数已达5095次。",
-   "time": "2026-11-16 00:16:29",
-   "url": "https://finance.eastmoney.com/a/202611163931525478.html",
+   "title": "数据显示：马来西亚11月1-15日棕榈油出口预计为794,717吨 下降1.0%",
+   "summary": "数据显示，马来西亚11月1-15日棕榈油出口预计为794,717吨，下降1.0%。",
+   "time": "2026-11-16 00:55:12",
+   "url": "https://finance.eastmoney.com/a/202611163931527359.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普首谈全美航班停飞事件：都怪拜登政府 - 联合早报",
+   "title": "富国集团维持Realty Income(O.US)持有评级，上调目标价至61美元 - Moomoo",
    "summary": "",
-   "time": "2026-11-15 22:46",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqd1NzakZoR295YmpGenY3dldYbnpEbGh4RmF6SUo4UTdnOW1KWW5jTFZDbnZfQWxwZTJDb1MwSHFkSTZvUFVVNUlnNnphZ2ZFRjR6Z3E1aXQzaVk0Wkd3aEdvVmdUOS05SFNv?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-15 23:31",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmpXbzNjTm1kX0VNRkp4bVNRTERpSmFUX2w5ajY0S1RqdjJybFdKdmczSWdkbFVCWG0zSkdDWUdLZHpEamJtVWNBTVAxRUs4RG5GcXE5RWNMNUNxT2hWOVFDNU55MjRSaHRneWZaMWx3bjVwczhpdHFpdzFKZ2ppbHRzWFY5MEpoV0xBRnVHN0J4YjZpUU5nU1NCWG1zZ3g3SUt5a2tCM0hsbUdwcFc2Wk9B?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "经历全国性“地面停飞”后，特朗普总统敦促国会拨款，全面升级美国空管系统 - 美国之音",
    "summary": "",
-   "time": "2026-11-15 22:05",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBRbUxlSXlOSmFJNDIyUmgweFp5b3Vsb3hTM1ZSYnpmWHhPekl0Z0lHNUFub19BUzJqWGVrRU9Ia19iMTFIOTlxVA?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-16 00:02",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPT0F4NHBRM0hxTTFRYmJKcmVXUE1WOUtzbjloZVhfMG5yTThuMTlxVWJkME16LXh2cHZGcnREb2RLRFN0YkQ2YmxZZ2p0MnFzOVVoWnR2QS1PeHJnNE0tRlhtYU9JMmxwQmNTOGdUMEMwOXMwZmtaeFA5cFN5UElNT3JqWUxpNFM1d3ZpcEZrakJTZ1k1a2pYX1VUVUZhYVVGNDZ1U2ZaWkxCMWPSAasBQVVfeXFMT09BeDRwUTNIcU0xUWJiSnJlV1BNVjlLc245aGVYXzBuck04bjE5cVViZDBNei14dnB2RnJ0RG9kS0RTdGJENmJsWWdqdDJxczlVaFp0dkEtT3hyZzRNLUZYbWFPSTJscEJjUzhnVDBDMDlzMGZrWnhQOXBTeVBJTU9yallMaTRTNXd2aXBGa2pCU2dZNWtqWF9VVFVGYWFVRjQ2dVNmWlpMQjFj?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "美国财政部长贝森特：总统特朗普和我都相信美联储主席沃什会履行双重职责（实现充分就业+维持价格稳定）。",
@@ -1895,10 +2005,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "胡塞武装否认沙特拦截其无人机的说法",
+   "title": "美国航空系统故障进入第三天 周日逾5200架次航班受影响",
    "summary": "",
-   "time": "2026-11-15 16:06:18",
-   "url": "https://news.futunn.com/flash/1004552506/houthis-deny-saudi-claims-of-intercepting-their-drones",
+   "time": "2026-11-15 16:48:49",
+   "url": "https://news.futunn.com/flash/1004552849/us-air-system-glitch-enters-third-day-over-5200-flights",
    "source": "富途"
   },
   {
@@ -1916,25 +2026,25 @@
    "source": "财新"
   },
   {
-   "title": "美联储估算：当前用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元",
-   "summary": "【美联储估算：当前用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元】美联储报告显示，截至今年10月，美国超大规模云厂商建设数据中心的相关债务发行规模已经突破6800亿美元，较2023年全年1300亿美元的规模增长四倍。美联储估算，当前用于数据中心建设的远期租赁与兜底担保规模已经达到约3万亿美元。",
-   "time": "2026-11-16 00:14:20",
-   "url": "https://finance.eastmoney.com/a/202611163931525342.html",
+   "title": "以色列10月CPI同比上涨1.1% 为2021年4月以来最低水平",
+   "summary": "以色列10月CPI同比上涨1.1%，为2021年4月以来最低水平；环比下降0.1%。",
+   "time": "2026-11-16 00:40:53",
+   "url": "https://finance.eastmoney.com/a/202611163931526555.html",
    "source": "东财国际"
   },
   {
-   "title": "稀有画面曝光：特朗普34岁时就提出应控制伊朗石油，“我们本应这么做而没有行动，我非常失望”；当时还是纽约地产商 - Sohu",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-15 22:00",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFExbmN1dC1RWnJrTUJSY3hXQ2s3ZnBBSDNVM0lxR25EY3dNY0djcm9nY2gzX0lsaDZIbDJHX0N0cDg3NnpEVjVkSGZUWUxORVExQ1NidFVOS19CLS1NWi0zekhXdVJJemI1Y3ZTakdfX2pRNWhzN3NhV0xpOHZRZVZyUlR0aGZIdkw1QQ?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-15 22:05",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBRbUxlSXlOSmFJNDIyUmgweFp5b3Vsb3hTM1ZSYnpmWHhPekl0Z0lHNUFub19BUzJqWGVrRU9Ia19iMTFIOTlxVA?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "中信建投研报：A股市场底大概率确认，11月或开启“进二退一”修复行情 - 金融界",
+   "title": "特朗普首谈全美航班停飞事件：都怪拜登政府 - 联合早报",
    "summary": "",
-   "time": "2026-11-15 21:36",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CTno2QXU3bHhuX2xzczZ0MnNOMzl2dDZyR2wyYndidl9YRmhEQXZwcmlrUTU2enp1dElxVmVhRWNsa0N1TmtzYS1sejZ5UkQ4N1FsRnlWNlZZdmxOZzA5bUhmZm9zbmFzSTdTYXRBdW5SNlJ5?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-15 22:46",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqd1NzakZoR295YmpGenY3dldYbnpEbGh4RmF6SUo4UTdnOW1KWW5jTFZDbnZfQWxwZTJDb1MwSHFkSTZvUFVVNUlnNnphZ2ZFRjR6Z3E1aXQzaVk0Wkd3aEdvVmdUOS05SFNv?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "美国财政部长贝森特：预计通胀将在下个月大幅下滑。\n\n核心通胀是温和的，接近美联储的目标。",
@@ -1944,10 +2054,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "贝森特称英伟达高层需“大换血” 建议从外部物色新CEO",
+   "title": "押中Anthropic 好莱坞背景风投4.35亿美元投资将变成70亿美元",
    "summary": "",
-   "time": "2026-11-15 15:34:36",
-   "url": "https://news.futunn.com/flash/1004552150/bessent-calls-for-major-overhaul-of-nvidia-senior-management-suggests",
+   "time": "2026-11-15 16:30:31",
+   "url": "https://news.futunn.com/flash/1004552768/hollywood-backed-vc-s-435-million-bet-on-anthropic-poised",
    "source": "富途"
   },
   {
@@ -1965,32 +2075,32 @@
    "source": "财新"
   },
   {
-   "title": "管理层收购迎新进展 科创新材实控人将变更 公司前三季业绩大增、经营现金流转负",
-   "summary": "【管理层收购迎新进展 科创新材实控人将变更 公司前三季业绩大增、经营现金流转负】日前，北交所上市公司科创新材（920580）发布公司控制权拟发生变更和权益变动的进展公告。2026年11月13日，蔚文绪、马军强、杨占坡、蔚文举以及于春生收到北交所出具的关于公司协议转让申请的确认函，北交所对本次协议转让的申请已完成审核并予以确认。本次交易完成后，公司实际控制人将变更为于春生。",
-   "time": "2026-11-16 00:13:35",
-   "url": "https://finance.eastmoney.com/a/202611153931522691.html",
+   "title": "全球航运界人士“维港对话” 聚焦中外合作新空间",
+   "summary": "【全球航运界人士“维港对话” 聚焦中外合作新空间】由香港航商总会主办的“维港对话”15日在港举行，60多位中外航运和经贸企业以及智库代表围绕航运政策、香港国际航运中心定位、贸易格局变化及绿色转型等议题深入交流。",
+   "time": "2026-11-16 00:32:42",
+   "url": "https://finance.eastmoney.com/a/202611153931510227.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普1980年视频流出，34岁即提出美国应控制伊朗石油 - 凤凰网",
+   "title": "中信建投研报：A股市场底大概率确认，11月或开启“进二退一”修复行情 - 金融界",
    "summary": "",
-   "time": "2026-11-15 21:00",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE52cC05UXVnelh1akJNUVlta2ltSGoySUZXOHEyMHZneDlKRHRSTlFWMXNDYzB4WjhfNEZTUDdRVzFzdGlXQjJRYjlCZFI?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-15 21:36",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CTno2QXU3bHhuX2xzczZ0MnNOMzl2dDZyR2wyYndidl9YRmhEQXZwcmlrUTU2enp1dElxVmVhRWNsa0N1TmtzYS1sejZ5UkQ4N1FsRnlWNlZZdmxOZzA5bUhmZm9zbmFzSTdTYXRBdW5SNlJ5?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "Barclays拟裁减投行部门约200个职位 - Sohu",
+   "title": "稀有画面曝光：特朗普34岁时就提出应控制伊朗石油，“我们本应这么做而没有行动，我非常失望”；当时还是纽约地产商 - Sohu",
    "summary": "",
-   "time": "2026-11-15 20:38",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSUx0Y1E2MEIyRVRfRE9GMG1JQmY4dy03aEc2MURLa3MxbW1IMk9ka2tjNWstaG9oZWIyYmwyTjJ3b2M1bl8wUEIxU1czcjhWV2Z5dlJfZUVKWC1ucnI3YnN5Qnl0NlZZZ2tQenVnbWhXbW1MZVNUZlRHNUNydkt3blNybFphaHJLS2Zsdw?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-15 22:00",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFExbmN1dC1RWnJrTUJSY3hXQ2s3ZnBBSDNVM0lxR25EY3dNY0djcm9nY2gzX0lsaDZIbDJHX0N0cDg3NnpEVjVkSGZUWUxORVExQ1NidFVOS19CLS1NWi0zekhXdVJJemI1Y3ZTakdfX2pRNWhzN3NhV0xpOHZRZVZyUlR0aGZIdkw1QQ?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(17)",
+   "富途": "ok(18)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2000,8 +2110,8 @@
   },
   "counts": {
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 7,
    "华尔街见闻": 7,
    "富途": 7,
    "同花顺": 7,
