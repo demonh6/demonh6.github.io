@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-15 15:52:16 CST",
- "generated_at_iso": "2026-11-15T15:52:16+08:00",
+ "generated_at": "2026-11-15 16:00:35 CST",
+ "generated_at_iso": "2026-11-15T16:00:35+08:00",
  "date": "2026-11-15",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,28 +1430,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63851.6,
-    "change": -3259.7,
-    "change_pct": -4.86,
-    "source": "okx"
+    "price": 63936.8,
+    "change": -3305.3,
+    "change_pct": -4.92,
+    "source": "okx",
+    "hist": [
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     63941.3
+    ],
+    "sigma": 2.331
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1775.88,
-    "change": -120.56,
-    "change_pct": -6.36,
-    "source": "okx"
+    "price": 1781.0,
+    "change": -119.79,
+    "change_pct": -6.3,
+    "source": "okx",
+    "hist": [
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1779.52
+    ],
+    "sigma": 3.226
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.59,
-    "change": -5.62,
-    "change_pct": -7.47,
-    "source": "okx"
+    "price": 69.85,
+    "change": -5.47,
+    "change_pct": -7.26,
+    "source": "okx",
+    "hist": [
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     69.84
+    ],
+    "sigma": 3.3
    }
   ],
   "fx": [
@@ -1505,7 +1604,7 @@
    "flat": 66,
    "total": 5293,
    "breadth_pct": 14.3,
-   "score": -21.4,
+   "score": 0.0,
    "source": "东财"
   },
   "vix": {
@@ -1578,12 +1677,12 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 10.4,
+   "score": 23.2,
    "label": "冰点",
    "color": "#f04a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
-    "breadth": -21.4,
+    "breadth": 0.0,
     "structure": 58.0
    }
   }
@@ -1598,7 +1697,7 @@
    "time": "2026-11-15 14:55",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QZXItZER2SlFSWkRkZndXOHFPbTVYNmFLWmJNT1VpeE5TbzBmdHJERGZCLUc0dDFIUWw2bDV5ZzBnbDQ2MkdJZnZJWVV6SjBxeDNEWEtGMGtjeHVGb0hhQUp3dXdzNGFRajhUQV9OSjFLVEE?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
   },
   {
    "keyword": "白宫",
@@ -1684,40 +1783,180 @@
   ],
   "reports": [
    {
-    "title": "研报掘金丨华源证券：首予中海油服“增持”评级，高油价或将带动油服行业景气度提升_期市动态 - 中金在线",
-    "org": "中金",
+    "title": "紫金保险连续五年国际评级获A- 惠誉国际上调评级展望至正面 - 手机新浪网",
+    "org": "惠誉",
     "rating": "",
     "stock": "",
     "industry": "",
-    "date": "2026-11-13",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJWUxkU3EzRE1CSHdTdFRpT1lvSkgyTkhBRW94NFFRdU9oMEY5TUVXdXlKNW9JbUFJTENqbU5haUI1YXdnYXltVVJlUzJpRGlOR2hZc1RLbnZiaTNQa1FXLXNPWF81TFdEUllreXR3?oc=5",
+    "date": "2026-11-15",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yZm9NcFVhTkZaa0txYklVamNkVEtjTW9yQnl0YVJiZWhBOHoyM2tsZERBNU9mSWFsSTh2aXUzNlN4RHZpeUtnWDNtdVJENlVCTTVfcmFHZU1EejE2MmxLRzhPZ2Rva1Y1dTlqUGFwbXcwQQ?oc=5",
     "source": "机构观点"
+   },
+   {
+    "title": "今日大行评级 | 摩根大通削英伟达目标价至215美元，美银证券削英特尔目标价至80美元 - Moomoo",
+    "org": "摩根大通",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGFzNDBRWThsSzRfM2FqZFVEMDZSMk45dHRlc25ZdG15S0VBXzNKd2IwdlkxRzYtTWxlX3ZtOGtrQllCSWdrcEFuMGdleDUyTF9qQnV0RHlMOGpfdFZOaktwUFJOS1k0M1UtcDVBRVhJUFlJWUJGSk5McVRLSGwyT1hJOEowNExTS3RNOUp5a3hIbnduV0dYdVBZQnFGdVZ3OWxTVWt3?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "高盛突然大砍黄金目标价！今年下调500美元、明年再砍600美元，黄金牛市生变？_金市直播 - 黄金网",
+    "org": "高盛",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MMHFFWTB5ajE1b0p3N19nQi1IUmhYdllQRkVXTTlqX0JvSjViTEVNUTg1MzZZc1BmMUNKXzl2UERZRWdkOXQ1VEVmUFBXemdyZ3VNYUpacVVtZUJ0WlZiU1RoNUtLOUN0?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "海外放量带动业绩增长，端侧AI+光通信双布局",
+    "org": "太平洋",
+    "rating": "买入",
+    "stock": "美格智能",
+    "industry": "通信设备",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611151831729422",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "开立医疗：战略业务持续突破，汇兑压制表观盈利",
+    "org": "太平洋",
+    "rating": "买入",
+    "stock": "开立医疗",
+    "industry": "医疗器械",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611151831729394",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "2026年三季报点评：外销拉动下收入提速，利润受汇率影响承压",
+    "org": "国信证券",
+    "rating": "增持",
+    "stock": "海容冷链",
+    "industry": "通用设备",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611151831729013",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "前三季度净利润增长98%，持续推进科技赋能产业",
+    "org": "国信证券",
+    "rating": "增持",
+    "stock": "继峰股份",
+    "industry": "汽车零部件",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611141831721791",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "商贸零售行业跟踪周报：2026年双十一数据复盘：大促进入提质期，珀莱雅蝉联天猫美妆TOP1",
+    "org": "东吴证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831730297",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "家电行业研究：10月家电出口量双位数以上增长",
+    "org": "国金证券",
+    "rating": "买入",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831730282",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "非银金融行业周报：规范财险费用分摊利于降本，看好非银高股息率标的",
+    "org": "开源证券",
+    "rating": "持有",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831730283",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "银行业10月金融数据点评：政府债发行提速支撑社融，实体信贷需求仍待修复",
+    "org": "开源证券",
+    "rating": "持有",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831730234",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "汽车及汽车零部件行业周报：特斯拉无人车向个人开放购买，问界新M8上市",
+    "org": "国金证券",
+    "rating": "买入",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831730223",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "商贸零售行业快评报告：双十一大盘稳健增长，细分赛道亮点纷呈",
+    "org": "万联证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831730112",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "机械设备行业跟踪周报：推荐回调充分&国产化加速的AI设备产业链（半导体设备&PCB设备等）；看好基本面触底反转的油服设备",
+    "org": "东吴证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831728794",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "营收端彰显韧性，利润端受税费影响短期承压",
+    "org": "中银证券",
+    "rating": "增持",
+    "stock": "金徽酒",
+    "industry": "白酒Ⅱ",
+    "date": "2026-11-14",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611141831722349",
+    "source": "东财研报·个股"
    }
   ]
  },
  "alerts": [
   {
    "level": "warning",
+   "asset": "比特币",
+   "message": "比特币单日跌4.92%，达20日历史波动率的 2.1 倍（σ=2.33%，突破 2σ 警戒线）",
+   "time": "2026-11-15 16:01",
+   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
+  },
+  {
+   "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌7.47%，达20日历史波动率的 2.1 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-15 15:52",
+   "message": "Solana单日跌7.26%，达20日历史波动率的 2.2 倍（σ=3.30%，突破 2σ 警戒线）",
+   "time": "2026-11-15 16:01",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   }
  ],
  "news": [
   {
-   "title": "葛兰素史克：两款创新生物制剂纳入新版国家医保目录",
-   "summary": "【葛兰素史克：两款创新生物制剂纳入新版国家医保目录】葛兰素史克（GSK）宣布，两款呼吸创新生物制剂易适来（德莫奇单抗）与新可来（美泊利珠单抗注射液）成功纳入《国家基本医疗保险、生育保险和工伤保险药品目录（2026年）》。",
-   "time": "2026-11-15 15:29:08",
-   "url": "https://finance.eastmoney.com/a/202611153931424490.html",
+   "title": "艾力斯：伏美替尼新增适应症纳入国家医保目录",
+   "summary": "【艾力斯：伏美替尼新增适应症纳入国家医保目录】艾力斯(688578.SH)公告称，公司产品甲磺酸伏美替尼片EGFR20号外显子插入突变非小细胞肺癌二线治疗适应症被新增纳入国家医保目录，协议有效期为2027年1月1日至2027年12月31日。",
+   "time": "2026-11-15 15:55:41",
+   "url": "https://finance.eastmoney.com/a/202611153931425654.html",
    "source": "东财国际"
-  },
-  {
-   "title": "《求是》杂志发表习近平总书记重要文章《携手共建亚太命运共同体》",
-   "summary": "文章强调，亚太各经济体利益交融，命运与共，一荣俱荣，一损俱损。亚太经合组织的诞生和发展顺应了开放融合的历史潮流，顺应了亚太地区谋求发展的强烈愿望，顺应了各国人民携手应对挑战的共同需要，为促进亚太地区增长和繁荣作出了重要贡献。如今的亚太，是全球最具增长活力和发展潜力的经济板块，也是举世公认的世界经济增长的一个重要引擎。要牢固树立亚太命运共同体意识，延续亚太地区强劲发展势头，迎接亚太地区共同繁荣未来，",
-   "time": "2026-11-15 15:05",
-   "url": "https://wallstreetcn.com/livenews/3200165",
-   "source": "华尔街见闻"
   },
   {
    "title": "特朗普称伊朗战争军事上已结束，启动铁门行动陆海合围 - 手机新浪网",
@@ -1732,6 +1971,20 @@
    "time": "2026-11-15 13:26",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yZm9NcFVhTkZaa0txYklVamNkVEtjTW9yQnl0YVJiZWhBOHoyM2tsZERBNU9mSWFsSTh2aXUzNlN4RHZpeUtnWDNtdVJENlVCTTVfcmFHZU1EejE2MmxLRzhPZ2Rva1Y1dTlqUGFwbXcwQQ?oc=5",
    "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "APEC工商领导人峰会将发布“深圳倡议”，系创办30年来首次",
+   "summary": "11月15日，2026年APEC工商界活动专题新闻发布会在深圳举办。中国贸促会副会长李庆霜透露，本届APEC工商领导人峰会将汇聚研讨成果和交流共识，形成并发布《2026年APEC工商领导人峰会深圳倡议》，这是峰会创办30年来首次以倡议形式发布成果文件。倡议将系统吸纳工商界核心主张，并向领导人非正式会议建言献策参考，为后续亚太工商合作提供抓手，搭建可落地、可跟进的共同行动框架，助力亚太经贸合作继续走",
+   "time": "2026-11-15 11:39",
+   "url": "https://wallstreetcn.com/livenews/3200162",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "雄忻高铁山西段开始联调联试",
+   "summary": "",
+   "time": "2026-11-15 07:57:45",
+   "url": "https://news.10jqka.com.cn/20261115/c681829541.shtml",
+   "source": "同花顺"
   },
   {
    "title": "第49届东盟峰会在菲律宾开幕",
@@ -1755,18 +2008,11 @@
    "source": "财新"
   },
   {
-   "title": "巴林称拦截摧毁伊朗多个空中目标",
-   "summary": "【巴林称拦截摧毁伊朗多个空中目标】巴林国防军今天（11月15日）发布消息称，巴军防空系统当天拦截并摧毁了来自伊朗的“多个”空中目标。",
-   "time": "2026-11-15 15:22:01",
-   "url": "https://finance.eastmoney.com/a/202611153931424345.html",
+   "title": "君实生物：拓益新增适应症纳入国家医保目录",
+   "summary": "【君实生物：拓益新增适应症纳入国家医保目录】君实生物(688180.SH)公告称，公司产品特瑞普利单抗注射液(商品名：拓益)联合维迪西妥单抗用于HER2表达的局部晚期或转移性尿路上皮癌的适应症，成功纳入《国家基本医疗保险、生育保险和工伤保险药品目录(2026年)》乙类范围，新版目录将于2027年1月1日起实施。",
+   "time": "2026-11-15 15:54:03",
+   "url": "https://finance.eastmoney.com/a/202611153931425389.html",
    "source": "东财国际"
-  },
-  {
-   "title": "APEC工商领导人峰会将发布“深圳倡议”，系创办30年来首次",
-   "summary": "11月15日，2026年APEC工商界活动专题新闻发布会在深圳举办。中国贸促会副会长李庆霜透露，本届APEC工商领导人峰会将汇聚研讨成果和交流共识，形成并发布《2026年APEC工商领导人峰会深圳倡议》，这是峰会创办30年来首次以倡议形式发布成果文件。倡议将系统吸纳工商界核心主张，并向领导人非正式会议建言献策参考，为后续亚太工商合作提供抓手，搭建可落地、可跟进的共同行动框架，助力亚太经贸合作继续走",
-   "time": "2026-11-15 11:39",
-   "url": "https://wallstreetcn.com/livenews/3200162",
-   "source": "华尔街见闻"
   },
   {
    "title": "拜登回忆录披露默克尔私下评价特朗普：情绪化、拒握手、对普京着迷 - 凤凰网",
@@ -1783,6 +2029,20 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "沙特主导的多国联军称拦截摧毁两枚射向利雅得的弹道导弹",
+   "summary": "当地时间15日，沙特主导的多国联军发言人在社交媒体上发布消息称，联军防空部队拦截并摧毁了也门胡塞武装向沙特首都利雅得方向发射的两枚弹道导弹。稍早前联军还表示，在东部地区拦截并摧毁了两次无人机袭击。（央视新闻）",
+   "time": "2026-11-15 09:50",
+   "url": "https://wallstreetcn.com/livenews/3200156",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "今年前10月国家铁路发送货物34.2亿吨",
+   "summary": "",
+   "time": "2026-11-15 07:51:42",
+   "url": "https://news.10jqka.com.cn/20261115/c681829521.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "提前22天 宁波舟山港年集装箱吞吐量再破4000万标准箱",
    "summary": "",
    "time": "2026-11-15 05:44:27",
@@ -1797,18 +2057,11 @@
    "source": "财新"
   },
   {
-   "title": "周末要闻汇总：吴清提出资本市场六个“进一步深化”",
-   "summary": "【周末要闻汇总】12位APEC经济体领导人将出席APEC工商领导人峰会；中美举行中美经贸磋商机制项下贸易理事会首次会议；美方正推动新法案阻止中国公司远程使用美国境外算力，外交部回应；央行公布10月金融统计数据报告；吴清提出资本市场六个“进一步深化”；国家发改委、国家能源局印发《“十五五”新型储能实施方案》；见证历史，SpaceX首次完成“筷子夹飞船”。",
-   "time": "2026-11-15 15:00:13",
-   "url": "https://finance.eastmoney.com/a/202611153931422385.html",
+   "title": "复星医药：多款药品新纳入国家医保目录",
+   "summary": "【复星医药：多款药品新纳入国家医保目录】复星医药(600196.SH)公告称，根据2026年国家医保目录，公司及控股子公司多款产品获首次纳入、备注信息调整或转入常规目录管理。",
+   "time": "2026-11-15 15:53:59",
+   "url": "https://finance.eastmoney.com/a/202611153931425422.html",
    "source": "东财国际"
-  },
-  {
-   "title": "沙特主导的多国联军称拦截摧毁两枚射向利雅得的弹道导弹",
-   "summary": "当地时间15日，沙特主导的多国联军发言人在社交媒体上发布消息称，联军防空部队拦截并摧毁了也门胡塞武装向沙特首都利雅得方向发射的两枚弹道导弹。稍早前联军还表示，在东部地区拦截并摧毁了两次无人机袭击。（央视新闻）",
-   "time": "2026-11-15 09:50",
-   "url": "https://wallstreetcn.com/livenews/3200156",
-   "source": "华尔街见闻"
   },
   {
    "title": "白宫确认特朗普、习近平和普京将在深圳APEC期间举行历史性三方会晤 - BBC",
@@ -1825,6 +2078,20 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "沙特首都利雅得传出剧烈爆炸声",
+   "summary": "当地时间15日凌晨，沙特首都利雅得传出多声剧烈爆炸声，居民收到经由手机程序发布的防空警报。（央视新闻）",
+   "time": "2026-11-15 09:16",
+   "url": "https://wallstreetcn.com/livenews/3200155",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "成渝中线高铁成都站主体结构完工",
+   "summary": "",
+   "time": "2026-11-15 07:32:11",
+   "url": "https://news.10jqka.com.cn/20261115/c681829454.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "东航C919新开“上海虹桥—郑州”航线",
    "summary": "",
    "time": "2026-11-15 05:23:38",
@@ -1839,18 +2106,11 @@
    "source": "财新"
   },
   {
-   "title": "中专生拍出爆火AI短片 海外播放百万级、单集成本千元",
-   "summary": "【中专生拍出爆火AI短片 海外播放百万级、单集成本千元】日前，一部中国创作者制作的AI短片在海外互联网率先出圈，在YouTube、TikTok等主流视频平台上，单集作品最高播放量在百万级。该片名为《爱上大难不死的男孩的女孩》，为《哈利·波特》二创，由帐号名为Foyege弗曳哥的博主创作，凭借脑洞十足的故事设定与细腻的AI画面表现，其让欧美歌手JVKE追到视频下方致谢、让好莱坞制片人PJ Accetturo主动递出橄榄枝。",
-   "time": "2026-11-15 14:58:26",
-   "url": "https://finance.eastmoney.com/a/202611153931422255.html",
+   "title": "伊朗一辆大巴倾覆致12人死亡",
+   "summary": "【伊朗一辆大巴倾覆致12人死亡】据伊朗伊斯兰共和国通讯社15日报道，伊朗伊拉姆省阿卜达南市14日发生大巴倾覆事故，已致12人死亡。报道援引当地司法部门消息说，涉事大巴当时载有一家石油天然气公司的员工。",
+   "time": "2026-11-15 15:53:40",
+   "url": "https://finance.eastmoney.com/a/202611153931425539.html",
    "source": "东财国际"
-  },
-  {
-   "title": "沙特首都利雅得传出剧烈爆炸声",
-   "summary": "当地时间15日凌晨，沙特首都利雅得传出多声剧烈爆炸声，居民收到经由手机程序发布的防空警报。（央视新闻）",
-   "time": "2026-11-15 09:16",
-   "url": "https://wallstreetcn.com/livenews/3200155",
-   "source": "华尔街见闻"
   },
   {
    "title": "美联储突发警告！AI热推高估值与债务，相关债务可能超过3万亿美元！霍尔木兹海峡最新消息，两艘油轮触雷发生爆炸... - 金融界",
@@ -1858,20 +2118,6 @@
    "time": "2026-11-15 13:22",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qSElhb0ZvS1JBRlNsaWtIOWJkU1NGbG01OEc0d2JzYnF5SktPcGROVFdkQjFqZVByZXIybnl6akVUQkx2VnVwemtzU184QWVOdFQtVHA4a1dnUEo3WUo0Sk5Ec21rV0FNUUJwMnY2d0xHc2x6?oc=5",
    "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "高盛：将中国H股评级上调至“超配” - 凤凰网",
-   "summary": "",
-   "time": "2026-11-15 10:49",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5haXUtTkVGOGpPcW51LW9LTlNFV1NLSm9JZUJPLUZqWGpZbVp1d093U3RtZ3hTRUZtaUxHQmhtSzlwMXhoNnQyanRBeGV0c2JL?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美国法官暂时叫停特朗普关闭华盛顿历史高尔夫球场计划",
-   "summary": "",
-   "time": "2026-11-15 03:49:37",
-   "url": "https://news.futunn.com/flash/1004544630/us-judge-temporarily-halts-trump-s-plan-to-close-historic",
-   "source": "富途"
   }
  ],
  "news_meta": {
@@ -1879,22 +2125,23 @@
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
    "富途": "ok(28)",
-   "同花顺": "FAIL:AttributeError",
+   "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "FAIL:AttributeError",
+   "百度财经": "ok(30)",
    "金十日历": "empty",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 8,
-   "华尔街见闻": 8,
-   "谷歌新闻·国际": 8,
-   "谷歌新闻·研报": 8,
-   "富途": 8,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
+   "同花顺": 7,
+   "富途": 6,
    "东财早报": 1,
-   "财新": 7
+   "财新": 6
   }
  },
  "wuxing": {
