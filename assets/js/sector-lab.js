@@ -271,13 +271,18 @@
   }
   function renderKpis() {
     var m = D.market || {};
-    var valid = D.sectors.filter(function (s) { return s.pb_pct != null; }).slice()
+    var mw = wideMk();
+    /* 「全市场」口径优先用 127 个二级行业的横截面；12 个精选板块的样本太窄，
+       3 个高分位板块就能把中位数推过 50%，读数会被个别板块绑架 */
+    var pick = mw || m;
+    var pool = (mw ? (D.boards || []) : (D.sectors || []));
+    var valid = pool.filter(function (s) { return s.pb_pct != null; }).slice()
       .sort(function (a, b) { return a.pb_pct - b.pb_pct; });
     var cold = valid[0], hot = valid[valid.length - 1];
     var items = [
       { k: "估值分位日期", v: esc(D.as_of || "—"), d: "日频更新 · " + D.lookback_years + " 年滚动窗口" },
-      { k: "全市场估值温度", v: f1(m.temp) + '<span class="u">%</span>', d: "PB 分位中位数 · " + tempText(m.temp) +
-          (m.temp_1y != null ? " · 一年前 " + f1(m.temp_1y) + "%" : ""), bar: m.temp },
+      { k: "全市场估值温度", v: f1(pick.temp) + '<span class="u">%</span>', d: "PB 分位中位数 · " + tempText(pick.temp) +
+          (pick.temp_1y != null ? " · 一年前 " + f1(pick.temp_1y) + "%" : ""), bar: pick.temp },
       { k: "PB 分位最低", v: cold ? esc(cold.name) : "—", d: cold ? "PB " + f1(cold.pb_pct) + "% · PE " + f1(cold.pe_pct) + "%" : "—" },
       { k: "PB 分位最高", v: hot ? esc(hot.name) : "—", d: hot ? "PB " + f1(hot.pb_pct) + "% · PE " + f1(hot.pe_pct) + "%" : "—" }
     ];
@@ -286,12 +291,20 @@
         (x.bar != null ? '<div class="sl-temp"><i style="width:' + clamp(x.bar, 0, 100) + '%;background:' + pctColor(x.bar) + '"></i></div>' : '') +
         '<div class="d">' + x.d + '</div></div>';
     }).join("");
-    var gap = m.max_gap;
+    var gap = null;
+    if (mw) {
+      gap = (D.boards || []).filter(function (b) { return b.pe_pct != null && b.pb_pct != null; })
+        .map(function (b) { return { name: b.name, gap: Math.round((b.pe_pct - b.pb_pct) * 10) / 10, style: b.style }; })
+        .sort(function (a, b) { return Math.abs(b.gap) - Math.abs(a.gap); })[0] || null;
+    } else if (m.max_gap) {
+      gap = m.max_gap;
+    }
     $("sl-breadth").innerHTML =
-      '<span>低分位 (&lt;30%) <b>' + (m.low_count == null ? "—" : m.low_count) + '</b> 个</span>' +
-      '<span>中性 <b>' + (m.mid_count == null ? "—" : m.mid_count) + '</b> 个</span>' +
-      '<span>高分位 (&gt;70%) <b>' + (m.high_count == null ? "—" : m.high_count) + '</b> 个</span>' +
-      (gap ? '<span>PE/PB 分位背离最大 <b style="color:' + color(gap.id) + '">' + esc(gap.name) + ' ' + sign(gap.gap, "pct") + '</b></span>' : "") +
+      '<span>低分位 (&lt;30%) <b>' + (pick.low_count == null ? "—" : pick.low_count) + '</b> 个</span>' +
+      '<span>中性 <b>' + (pick.mid_count == null ? "—" : pick.mid_count) + '</b> 个</span>' +
+      '<span>高分位 (&gt;70%) <b>' + (pick.high_count == null ? "—" : pick.high_count) + '</b> 个</span>' +
+      (gap ? '<span>PE/PB 分位背离最大 <b style="color:' + (GROUP_COLOR[gap.style] || color(gap.id)) + '">' +
+        esc(gap.name) + ' ' + sign(gap.gap, "pct") + '</b></span>' : "") +
       '<span class="sl-breadth-hint">背离越大，越不能只看 PE</span>';
   }
 
@@ -1203,12 +1216,216 @@
     }
   }
 
+  /* ==================================== 全市场估值分布（127 个申万二级） */
+  function wideMk() {
+    var mw = (D && D.market_wide) || {};
+    return mw.count ? mw : null;
+  }
+
+  function renderDist() {
+    var el = $("sl-dist");
+    if (!el) return;
+    var mw = wideMk();
+    if (!mw || !mw.hist) { el.innerHTML = ""; return; }
+    var hist = mw.hist, total = mw.count || 0;
+    var mx = Math.max.apply(null, hist) || 1;
+    var cols = hist.map(function (n, i) {
+      var lo = i * 10;
+      var h = Math.max(n ? 4 : 0, n / mx * 100);
+      /* 数字贴在柱顶：高柱写在柱内（深色字），矮柱写在柱上方，避免飘在固定行被误读 */
+      var lbl = n
+        ? (h >= 26
+          ? '<span class="n in" style="bottom:calc(' + h.toFixed(1) + "% - 12px)\">" + n + "</span>"
+          : '<span class="n out" style="bottom:calc(' + h.toFixed(1) + "% + 3px)\">" + n + "</span>")
+        : "";
+      return '<div class="sl-hist-col" title="PB 分位 ' + lo + '–' + (lo + 10) + '%：' + n + ' 个">' +
+        lbl + '<i style="height:' + h.toFixed(1) + "%;background:" + pctColor(lo + 5) + '"></i>' +
+        '<span class="lb">' + lo + "</span></div>";
+    }).join("");
+    var delta = (mw.temp_1y != null && mw.temp != null) ? mw.temp - mw.temp_1y : null;
+    el.innerHTML =
+      '<div class="sl-dist-cap"><span class="ttl">全市场估值分布</span>' +
+      "<span><b>" + total + "</b> 个申万二级按 PB 分位落档</span>" +
+      "<span>中位 <b>" + f1(mw.temp) + "%</b></span>" +
+      (delta != null ? "<span>一年前 <b>" + f1(mw.temp_1y) + '%</b>（<b style="color:' +
+        (delta >= 0 ? "var(--up)" : "var(--down)") + '">' + sign(delta, "pct") + "</b>）</span>" : "") +
+      '<span class="hint">左端 = 历史最便宜的一档，右端 = 最贵的一档</span></div>' +
+      '<div class="sl-hist">' + cols + "</div>";
+  }
+
+  /* ==================================== 全行业估值动量散点（全量 127 点） */
+  var MOM = { W: 640, H: 430, L: 54, R: 16, T: 26, B: 40 };
+  var MOM_QUADS = [
+    { t: "低估 · 估值上移", s: "资金开始进场", c: "rgba(67,214,156,.055)" },
+    { t: "高估 · 仍在抬升", s: "拥挤风险", c: "rgba(240,74,61,.05)" },
+    { t: "低估 · 继续下移", s: "无人问津", c: "rgba(79,156,249,.045)" },
+    { t: "高估 · 估值回落", s: "退潮消化", c: "rgba(217,178,60,.05)" }
+  ];
+
+  function momPts() {
+    return ((D && D.boards) || []).filter(function (b) {
+      return b.pb_pct != null && b.pb_pct_20d != null;
+    }).map(function (b) {
+      return { b: b, x: b.pb_pct, y: Math.round((b.pb_pct - b.pb_pct_20d) * 10) / 10 };
+    });
+  }
+
+  function renderMomentum() {
+    var svg = $("sl-mom");
+    if (!svg) return;
+    var pts = momPts();
+    if ($("mom-count")) {
+      $("mom-count").textContent = pts.length ? pts.length + " 个二级行业" : "数据待生成";
+    }
+    if (!pts.length) { svg.innerHTML = ""; return; }
+
+    var W = MOM.W, H = MOM.H, L = MOM.L, T = MOM.T;
+    var pw = W - L - MOM.R, ph = H - T - MOM.B;
+    var maxAbs = Math.max.apply(null, pts.map(function (p) { return Math.abs(p.y); }));
+    /* 纵轴留 8% 余量，避免贴着顶部的散点压住象限标题 */
+    var ymax = Math.max(10, Math.ceil(maxAbs * 1.08 / 5) * 5);
+    var X = function (v) { return L + clamp(v, 0, 100) / 100 * pw; };
+    var Y = function (v) { return T + (ymax - clamp(v, -ymax, ymax)) / (2 * ymax) * ph; };
+    var mx = X(50), my = Y(0), o = [];
+
+    o.push('<rect x="' + L + '" y="' + T + '" width="' + (mx - L) + '" height="' + (my - T) + '" fill="' + MOM_QUADS[0].c + '"/>');
+    o.push('<rect x="' + mx + '" y="' + T + '" width="' + (W - MOM.R - mx) + '" height="' + (my - T) + '" fill="' + MOM_QUADS[1].c + '"/>');
+    o.push('<rect x="' + L + '" y="' + my + '" width="' + (mx - L) + '" height="' + (H - MOM.B - my) + '" fill="' + MOM_QUADS[2].c + '"/>');
+    o.push('<rect x="' + mx + '" y="' + my + '" width="' + (W - MOM.R - mx) + '" height="' + (H - MOM.B - my) + '" fill="' + MOM_QUADS[3].c + '"/>');
+
+    [0, 25, 50, 75, 100].forEach(function (v) {
+      o.push('<line class="q-axis" x1="' + X(v) + '" y1="' + T + '" x2="' + X(v) + '" y2="' + (H - MOM.B) + '"/>');
+      o.push('<text class="q-tick" x="' + X(v) + '" y="' + (H - MOM.B + 14) + '" text-anchor="middle">' + v + "</text>");
+    });
+    [-ymax, -ymax / 2, 0, ymax / 2, ymax].forEach(function (v) {
+      o.push('<line class="q-axis" x1="' + L + '" y1="' + Y(v) + '" x2="' + (W - MOM.R) + '" y2="' + Y(v) + '"/>');
+      o.push('<text class="q-tick" x="' + (L - 7) + '" y="' + (Y(v) + 3) + '" text-anchor="end">' +
+        (v > 0 ? "+" : "") + v + "</text>");
+    });
+    o.push('<line class="q-mid" x1="' + mx + '" y1="' + T + '" x2="' + mx + '" y2="' + (H - MOM.B) + '"/>');
+    o.push('<line class="q-mid" x1="' + L + '" y1="' + my + '" x2="' + (W - MOM.R) + '" y2="' + my + '"/>');
+    o.push('<text class="q-label" x="' + (L + 6) + '" y="' + (T + 13) + '">' + MOM_QUADS[0].t + " · " + MOM_QUADS[0].s + "</text>");
+    o.push('<text class="q-label" x="' + (W - MOM.R - 6) + '" y="' + (T + 13) + '" text-anchor="end">' + MOM_QUADS[1].t + " · " + MOM_QUADS[1].s + "</text>");
+    o.push('<text class="q-label" x="' + (L + 6) + '" y="' + (H - MOM.B - 8) + '">' + MOM_QUADS[2].t + " · " + MOM_QUADS[2].s + "</text>");
+    o.push('<text class="q-label" x="' + (W - MOM.R - 6) + '" y="' + (H - MOM.B - 8) + '" text-anchor="end">' + MOM_QUADS[3].t + " · " + MOM_QUADS[3].s + "</text>");
+    o.push('<text class="q-label" x="' + (L + pw / 2) + '" y="' + (H - 6) + '" text-anchor="middle">PB 历史分位 (%) →</text>');
+    o.push('<text class="q-label" transform="translate(12,' + (T + ph / 2) + ') rotate(-90)" text-anchor="middle">20 日 PB 分位变动 (pt) →</text>');
+
+    /* 只给最极端的若干点挂标签；127 个全标会糊成一片，且这里做一次贪心避让：
+       放不下（压住已标名字 / 超出绘图区）就不标，明细交给悬停 */
+    var maxCap = Math.max.apply(null, pts.map(function (p) { return p.b.cap_yi || 0; })) || 1;
+    var radius = function (p) { return 3 + Math.sqrt((p.b.cap_yi || 0) / maxCap) * 3.4; };
+    var pri = pts.slice().sort(function (a, b) { return Math.abs(b.y) - Math.abs(a.y); }).slice(0, 8);
+    var byX = pts.slice().sort(function (a, b) { return b.x - a.x; });
+    pri = pri.concat(byX.slice(0, 3), byX.slice(-3));
+    var placedBox = [], lab = {};
+    pri.forEach(function (p) {
+      if (lab[p.b.name]) return;
+      var r0 = radius(p);
+      var w = p.b.name.length * 9.6 + 4;
+      var px = X(p.x), py = Y(p.y);
+      var right = px + r0 + 3 + w <= W - MOM.R;
+      var x0 = right ? px + r0 + 3 : px - r0 - 3 - w;
+      var box = [x0, py - 6, x0 + w, py + 6];
+      if (box[0] < L || box[2] > W - MOM.R || box[1] < T + 16 || box[3] > H - MOM.B) return;
+      var hit = placedBox.some(function (q) {
+        return !(box[2] < q[0] - 2 || box[0] > q[2] + 2 || box[3] < q[1] - 2 || box[1] > q[3] + 2);
+      });
+      if (hit) return;
+      placedBox.push(box);
+      lab[p.b.name] = { x: x0, y: py + 3.3, anchor: right ? "" : "end" };
+    });
+
+    pts.sort(function (a, b) { return b.y - a.y; });
+    pts.forEach(function (p) {
+      var c = GROUP_COLOR[p.b.style] || "#8b98a9";
+      o.push('<g class="mom-dot" data-n="' + esc(p.b.name) + '">' +
+        '<circle cx="' + X(p.x).toFixed(1) + '" cy="' + Y(p.y).toFixed(1) + '" r="' +
+        radius(p).toFixed(1) + '" fill="' + c + '"/></g>');
+    });
+    /* 标签统一最后画，否则会被后续（更低 y）的散点盖住 */
+    Object.keys(lab).forEach(function (name) {
+      var l = lab[name];
+      o.push('<text class="mom-lab" x="' + l.x.toFixed(1) + '" y="' + l.y.toFixed(1) + '"' +
+        (l.anchor ? ' text-anchor="' + l.anchor + '"' : "") + ">" + esc(name) + "</text>");
+    });
+    svg.innerHTML = o.join("");
+
+    var tip = $("sl-mom-tip"), wrap = svg.parentNode, lastN = null;
+    var byName = {};
+    pts.forEach(function (p) { byName[p.b.name] = p; });
+    svg.onmousemove = function (e) {
+      var g = e.target.closest ? e.target.closest(".mom-dot") : null;
+      if (!g) { tip.className = "sl-tip"; lastN = null; return; }
+      var n = g.getAttribute("data-n"), p = byName[n];
+      if (!p) return;
+      if (lastN !== n) {
+        var b = p.b, tone = p.y >= 0 ? "var(--up)" : "var(--down)";
+        tip.innerHTML = '<div class="t" style="color:' + (GROUP_COLOR[b.style] || "#8b98a9") + '">' + esc(b.name) +
+          ' <span style="font-size:10px;color:var(--text-faint);font-weight:400">' + esc(b.sw1 || "") + "</span></div>" +
+          '<table><tr><td>PB 历史分位</td><td class="v">' + f1(b.pb_pct) + "%</td></tr>" +
+          "<tr><td>PE 历史分位</td><td class=\"v\">" + f1(b.pe_pct) + "%</td></tr>" +
+          '<tr><td>20 日分位变动</td><td class="v" style="color:' + tone + '">' + sign(p.y, "pt") + "</td></tr>" +
+          "<tr><td>20 日前 PB 分位</td><td class=\"v\">" + f1(b.pb_pct_20d) + "%</td></tr>" +
+          "<tr><td>PB / PE</td><td class=\"v\">" + f2(b.pb) + " / " + f2(b.pe) + "</td></tr>" +
+          '<tr><td>市值</td><td class="v">' + (b.cap_yi ? (b.cap_yi / 10000).toFixed(2) + " 万亿" : "—") + "</td></tr>" +
+          "<tr><td>亏损占比</td><td class=\"v\">" + f1(b.loss_ratio) + "%</td></tr></table>" +
+          '<div class="logic">' + momLogic(p) + "</div>";
+        lastN = n;
+      }
+      tip.className = "sl-tip on";
+      var box = wrap.getBoundingClientRect();
+      var lx = e.clientX - box.left + 14, ly = e.clientY - box.top + 12;
+      if (lx + 250 > box.width) lx = Math.max(4, lx - 264);
+      tip.style.left = lx + "px";
+      tip.style.top = Math.min(ly, box.height - 190) + "px";
+    };
+    svg.onmouseleave = function () { tip.className = "sl-tip"; lastN = null; };
+  }
+
+  function momLogic(p) {
+    var b = p.b, gap = (b.pe_pct != null) ? b.pe_pct - b.pb_pct : null;
+    var a = p.x <= 50 ? "PB 分位在历史下半区" : "PB 分位在历史上半区";
+    var m = p.y >= 8 ? "20 日内估值中枢快速上移" : p.y >= 3 ? "20 日内估值缓慢抬升"
+      : p.y <= -8 ? "20 日内估值中枢快速下移" : p.y <= -3 ? "20 日内估值缓慢回落" : "20 日内估值基本走平";
+    var g = gap == null ? "" : gap > 15
+      ? "；PE 分位明显高于 PB 分位，隐含 ROE 处于历史偏低位置（盈利被压缩），PE 读数会失真"
+      : gap < -15 ? "；PB 分位高于 PE 分位，隐含 ROE 处于历史偏高位置（盈利强），估值由盈利支撑"
+        : "；PE 与 PB 分位接近，盈利水平处于历史中段";
+    return a + "，" + m + g + "。";
+  }
+
+  function renderSignals() {
+    var el = $("sl-sig");
+    if (!el) return;
+    var mw = wideMk();
+    var sg = (mw && mw.signals) || [];
+    if (!sg.length) {
+      el.innerHTML = '<div class="sig-empty">信号随日更数据生成</div>';
+      return;
+    }
+    el.innerHTML = sg.map(function (g) {
+      var rows = (g.items || []).slice(0, 4).map(function (it) {
+        var tone = it.mom >= 0 ? "var(--up)" : "var(--down)";
+        return '<div class="sig-row" title="PE 分位 ' + f1(it.pe_pct) + "% · 亏损占比 " +
+          f1(it.loss_ratio) + '%">' +
+          '<span class="nm">' + esc(it.name) + "<em>" + esc(it.sw1 || "") + "</em></span>" +
+          '<span class="pv">' + f1(it.pb_pct) + "%</span>" +
+          '<span class="mv" style="color:' + tone + '">' + sign(it.mom) + "</span></div>";
+      }).join("");
+      return '<div class="sig-g sig-' + g.id + '"><div class="sig-h"><b>' + esc(g.name) + "</b>" +
+        "<span>" + g.count + " 个</span><em>" + esc(g.hint) + "</em></div>" +
+        (rows || '<div class="sig-none">今日无</div>') + "</div>";
+    }).join("");
+  }
+
   function renderAll() {
     lastInterpKey = "";
     renderTabs(); renderCoordTabs(); renderGroupChips();
     renderQuadrant(); renderRows(); renderTrend(); renderSeriesLegend(); renderClock();
     renderMatrix(); renderStatus(); renderLiveStrip();
     bindBoardsUI(); renderBoards();
+    renderDist(); renderMomentum(); renderSignals();
     renderInterp(state.focus || state.pin, null);
     applyHighlight();
   }

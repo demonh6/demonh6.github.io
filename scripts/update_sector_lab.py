@@ -406,6 +406,8 @@ def build_valuation_lite(rows):
         "pb_pct_20d": ago(20, "pb", PB_MIN, PB_MAX),
         "pe_pct_60d": ago(60, "pe", PE_MIN, PE_MAX),
         "pb_pct_60d": ago(60, "pb", PB_MIN, PB_MAX),
+        "pe_pct_1y": ago(250, "pe", PE_MIN, PE_MAX),
+        "pb_pct_1y": ago(250, "pb", PB_MIN, PB_MAX),
         "members": int(num) if num else None,
         "loss_count": int(loss) if loss is not None else None,
         "loss_ratio": round(loss / num * 100, 1) if num and loss is not None else None,
@@ -537,6 +539,70 @@ def build_market(sectors):
     }
 
 
+# 动量信号阈值：d = 当前 PB 分位 − 20 个交易日前的 PB 分位（单位：分位点）
+# 四个组合共用「估值水平 × 估值斜率」这一组坐标，覆盖轮动最典型的四种位置。
+SIG_RULES = [
+    {"id": "start", "name": "启动", "hint": "低分位 + 估值快速抬升",
+     "cond": lambda p, d: p <= 50 and d >= 8},
+    {"id": "crowd", "name": "拥挤", "hint": "高分位 + 估值仍在抬升",
+     "cond": lambda p, d: p >= 80 and d >= 3},
+    {"id": "fade", "name": "退潮", "hint": "高分位 + 估值开始回落",
+     "cond": lambda p, d: p >= 70 and d <= -5},
+    {"id": "cold", "name": "冷落", "hint": "低分位 + 估值仍在下移",
+     "cond": lambda p, d: p <= 30 and d <= -3},
+]
+
+
+def build_market_wide(boards):
+    """用 127 个申万二级的横截面重建「全市场温度」。
+
+    原先的 build_market() 只对 12 个精选板块取中位数，样本太窄：12 个板块
+    里 3 个高分位就能把中位数推过 50%，读数会被个别板块绑架。改用全量横截面后，
+    这个数字才配叫「全市场」。
+    """
+    pb = sorted(b["pb_pct"] for b in boards if b.get("pb_pct") is not None)
+    pe = sorted(b["pe_pct"] for b in boards if b.get("pe_pct") is not None)
+    old = sorted(b["pb_pct_1y"] for b in boards if b.get("pb_pct_1y") is not None)
+    if not pb:
+        return {}
+    hist = [0] * 10                       # 十档分布：<10%, 10-20%, … 90-100%
+    for v in pb:
+        hist[min(9, max(0, int(v // 10)))] += 1
+    out = {
+        "count": len(pb),
+        "temp": round(pb[len(pb) // 2], 1),
+        "temp_1y": round(old[len(old) // 2], 1) if old else None,
+        "median_pe_pct": round(pe[len(pe) // 2], 1) if pe else None,
+        "low_count": sum(1 for x in pb if x < 30),
+        "high_count": sum(1 for x in pb if x > 70),
+        "mid_count": sum(1 for x in pb if 30 <= x <= 70),
+        "hist": hist,
+        "signals": [],
+    }
+    for rule in SIG_RULES:
+        hit = []
+        for b in boards:
+            p, p20 = b.get("pb_pct"), b.get("pb_pct_20d")
+            if p is None or p20 is None:
+                continue
+            d = round(p - p20, 1)
+            if not rule["cond"](p, d):
+                continue
+            pep = b.get("pe_pct")
+            hit.append({
+                "name": b["name"], "sw1": b.get("sw1"), "style": b.get("style"),
+                "pb_pct": p, "mom": d, "pe_pct": pep,
+                "gap": round(pep - p, 1) if pep is not None else None,
+                "cap_yi": b.get("cap_yi"), "loss_ratio": b.get("loss_ratio"),
+            })
+        hit.sort(key=lambda x: abs(x["mom"]), reverse=True)
+        out["signals"].append({
+            "id": rule["id"], "name": rule["name"], "hint": rule["hint"],
+            "count": len(hit), "items": hit[:8],
+        })
+    return out
+
+
 # ---------------------------------------------------------------- 主流程
 def main():
     ap = argparse.ArgumentParser(description="生成行业估值分位与板块轮动数据（日频全量）")
@@ -576,6 +642,7 @@ def main():
     pm = build_price_matrix(SECTORS)
     bench_ret = build_momentum(pm, sectors)
     market = build_market(sectors)
+    market_wide = build_market_wide(boards) if boards else {}
     price = {"dates": pm["dates"], "series": pm["series"], "benchmark": pm["benchmark"]}
 
     dates = price["dates"]
@@ -603,6 +670,7 @@ def main():
         "price": price,
         "benchmark_ret": bench_ret,
         "market": market,
+        "market_wide": market_wide,
     }
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)

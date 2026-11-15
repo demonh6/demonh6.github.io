@@ -538,7 +538,7 @@
   <section id="sector-lab">
     <div class="sec-head">
       <h2>行业估值分位 · 板块轮动观察</h2>
-      <span class="tag">日更估值分位 · 盘中实时行情 · 双坐标系 · 动态解读</span>
+      <span class="tag">日更估值分位 · 127 个二级行业全量 · 盘中实时行情 · 双坐标系 · 动态解读</span>
       <a class="more" href="#sl-read-anchor">读图说明 ↓</a>
     </div>
     <p class="sl-sub">把 <b>煤炭 / 银行 / 科技 / 有色 / 石油</b> 等板块放进同一坐标系：上方看估值处于近 10 年历史的什么位置，下方看归一化后的相对走势。<b>不同属性的板块不能用同一把尺子</b>——资源型周期股高 PE 常对应盈利谷底，科技成长股高 PE 往往对应预期高位。悬停任一板块可看到按当日数据自动生成的逐项解读。</p>
@@ -551,6 +551,7 @@
       <div class="sl-live" id="sl-live"></div>
       <div class="sl-kpis" id="sl-kpis"></div>
       <div class="sl-breadth" id="sl-breadth"></div>
+      <div class="sl-dist" id="sl-dist"></div>
 
       <div class="sl-grid">
         <div class="sl-panel">
@@ -629,6 +630,28 @@
           <span>收益与超额基于对应行业 ETF 前复权周线收盘</span>
           <span>3月超额 = 板块近 3 月收益 − 沪深300ETF 同期收益</span>
           <span>当日列为实时 / 最近交易日行情，与周线口径不同</span>
+        </div>
+      </div>
+
+      <div class="sl-panel sl-mom-panel">
+        <div class="sl-panel-head">
+          <h3>全行业估值动量 <span class="bd-count" id="mom-count">—</span></h3>
+          <span class="hint">127 个申万二级的全部散点 · 横轴看「有多贵」，纵轴看「估值在往哪走」 · 悬停看明细</span>
+        </div>
+        <div class="sl-mom-grid">
+          <div class="sl-mom-chart">
+            <svg id="sl-mom" viewBox="0 0 640 430" role="img" aria-label="全行业 PB 分位与 20 日分位变动散点图"></svg>
+            <div class="sl-tip" id="sl-mom-tip"></div>
+          </div>
+          <div class="sl-sig" id="sl-sig"></div>
+        </div>
+        <div class="sl-legend-line">
+          <span>横轴 = PB 历史分位（右 = 越贵）</span>
+          <span>纵轴 = 20 日 PB 分位变动（上 = 估值中枢上移）</span>
+          <span><i class="key" style="background:#d9b23c"></i>周期资源</span>
+          <span><i class="key" style="background:#4f9cf9"></i>金融地产</span>
+          <span><i class="key" style="background:#a77bf3"></i>科技成长</span>
+          <span><i class="key" style="background:#43d69c"></i>消费防御</span>
         </div>
       </div>
 
