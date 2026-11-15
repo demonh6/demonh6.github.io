@@ -1,0 +1,46 @@
+name: Update sector live quote snapshot
+
+# 小时级行情兜底层：只抓 ETF / 指数最新价与涨跌幅，不重算估值分位。
+# 交易日北京时间 09:30 / 10:30 / 11:30 / 13:30 / 14:30 / 15:30 各一次。
+# 页面本身会用 JSONP 直连行情接口做 60 秒级实时刷新，本快照仅在网络被拦截时兜底。
+on:
+  schedule:
+    - cron: '30 1,2,3,5,6,7 * * 1-5'   # UTC = 北京时间 9:30/10:30/11:30/13:30/14:30/15:30
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sector-lab-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate data/sector_lab_live.json
+        run: python scripts/update_sector_live.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sector_lab_live.json
+          if git diff --cached --quiet; then
+            echo "No quote change"
+          else
+            git commit -m "chore(sector-lab): hourly quote snapshot"
+            # 与 update-dashboard 的 push 触发链并发时重试，避免 non-fast-forward。
+            for i in 1 2 3 4; do
+              git pull --rebase origin ${{ github.ref_name }} || true
+              if git push; then echo "pushed"; break; fi
+              echo "push retry $i"; sleep 5
+            done
+          fi

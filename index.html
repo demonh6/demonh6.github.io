@@ -516,6 +516,7 @@
     body::after, .alert.danger .ico, #alerts-box .alert, section { animation: none; }
   }
 </style>
+<link rel="stylesheet" href="assets/css/sector-lab.css" />
 </head>
 <body>
 <div class="wrap">
@@ -528,6 +529,121 @@
     </div>
   </header>
   <div class="topline"></div>
+
+  <!-- ============ 行业估值分位 · 板块轮动观察 ============ -->
+  <section id="sector-lab">
+    <div class="sec-head">
+      <h2>行业估值分位 · 板块轮动观察</h2>
+      <span class="tag">日更估值分位 · 盘中实时行情 · 双坐标系 · 动态解读</span>
+      <a class="more" href="#sl-read-anchor">读图说明 ↓</a>
+    </div>
+    <p class="sl-sub">把 <b>煤炭 / 银行 / 科技 / 有色 / 石油</b> 等板块放进同一坐标系：上方看估值处于近 10 年历史的什么位置，下方看归一化后的相对走势。<b>不同属性的板块不能用同一把尺子</b>——资源型周期股高 PE 常对应盈利谷底，科技成长股高 PE 往往对应预期高位。悬停任一板块可看到按当日数据自动生成的逐项解读。</p>
+
+    <div class="sl-status" id="sl-status"></div>
+
+    <div class="sl-boot" id="sl-boot"><span class="spin">◐</span> 正在加载行业估值分位…</div>
+    <div id="sl-content" hidden>
+
+      <div class="sl-live" id="sl-live"></div>
+      <div class="sl-kpis" id="sl-kpis"></div>
+      <div class="sl-breadth" id="sl-breadth"></div>
+
+      <div class="sl-grid">
+        <div class="sl-panel">
+          <div class="sl-panel-head">
+            <h3>板块定位四象限</h3>
+            <span class="hint" id="sl-quad-hint">越靠右 PE 分位越高，越靠上 PB 分位越高</span>
+          </div>
+          <div class="sl-coord-tabs" id="sl-coord-tabs">
+            <button class="sl-ctab on" data-c="valuation">估值坐标 · PE分位 × PB分位</button>
+            <button class="sl-ctab" data-c="momentum">动量坐标 · PB分位 × 3月超额</button>
+          </div>
+          <div class="sl-quad-wrap" id="sl-quad-wrap">
+            <svg id="sl-quad" viewBox="0 0 560 430" role="img" aria-label="行业 PE 与 PB 历史分位四象限散点图"></svg>
+            <div class="sl-tip" id="sl-quad-tip"></div>
+          </div>
+          <div class="sl-legend-line">
+            <span>金色虚线 = 50% 分位</span>
+            <span><i class="key" style="background:#d9b23c"></i>周期资源</span>
+            <span><i class="key" style="background:#4f9cf9"></i>金融地产</span>
+            <span><i class="key" style="background:#a77bf3"></i>科技成长</span>
+            <span><i class="key" style="background:#43d69c"></i>消费防御</span>
+          </div>
+        </div>
+
+        <div class="sl-panel">
+          <div class="sl-panel-head">
+            <h3>历史分位对比</h3>
+            <span class="hint">上条 PB · 下条 PE（半透明）</span>
+          </div>
+          <div id="sl-rows-wrap" style="position:relative">
+            <div class="sl-rows" id="sl-rows"></div>
+            <div class="sl-tip" id="sl-row-tip"></div>
+          </div>
+          <div class="sl-legend-line">
+            <span>冷色 = 低分位</span><span>暖色 = 高分位</span>
+            <span>白线 = 50%</span><span>迷你曲线 = 近 1 年 PB 分位轨迹</span>
+            <span>右侧 = PB 分位，↑↓ 为近一年分位变化，带 ± 号的小数字为近 20 日变化（红=抬升 / 绿=消化）</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="sl-interp" id="sl-interp"></div>
+
+      <div class="sl-panel sl-trend-panel">
+        <div class="sl-panel-head">
+          <h3>板块归一化走势</h3>
+          <span class="hint">各板块按所选区间首个有效值 = 100 归一化；默认对数刻度；灰白虚线为沪深300ETF 基准</span>
+        </div>
+        <div class="sl-controls">
+          <div class="sl-tabs" id="sl-tabs">
+            <button class="sl-tab" data-r="1y">1年</button>
+            <button class="sl-tab" data-r="3y">3年</button>
+            <button class="sl-tab" data-r="5y">5年</button>
+            <button class="sl-tab" data-r="max">全部</button>
+          </div>
+          <div class="sl-tabs" id="sl-scale-tabs">
+            <button class="sl-tab" data-s="log">对数</button>
+            <button class="sl-tab" data-s="linear">线性</button>
+          </div>
+          <div class="sl-group-chips" id="sl-gchips"></div>
+        </div>
+        <div class="sl-trend-wrap" id="sl-trend-wrap">
+          <svg id="sl-trend" viewBox="0 0 1080 300" role="img" aria-label="各板块归一化走势叠加图"></svg>
+          <div class="sl-tip" id="sl-trend-tip"></div>
+        </div>
+        <div class="sl-series-legend" id="sl-slegend"></div>
+      </div>
+
+      <div class="sl-panel sl-matrix-panel">
+        <div class="sl-panel-head">
+          <h3>板块强弱矩阵</h3>
+          <span class="hint">红涨绿跌 · 点击表头排序 · 颜色越深幅度越大 · 悬停行联动解读，点击固定</span>
+        </div>
+        <div class="sl-matrix-wrap"><table id="sl-matrix"></table></div>
+        <div class="sl-legend-line">
+          <span>收益与超额基于对应行业 ETF 前复权周线收盘</span>
+          <span>3月超额 = 板块近 3 月收益 − 沪深300ETF 同期收益</span>
+          <span>当日列为实时 / 最近交易日行情，与周线口径不同</span>
+        </div>
+      </div>
+
+      <div class="sl-bottom" id="sl-read-anchor">
+        <div class="sl-clock-card">
+          <h4>周期属性速览</h4>
+          <div class="sub">美林时钟式分组（示意）</div>
+          <svg id="sl-clock" viewBox="0 0 200 190" role="img" aria-label="美林时钟周期分类"></svg>
+          <div class="sl-clock-caption">不同经济阶段通常对应不同的相对强势板块；此处仅作分类框架，不是行情判断。</div>
+        </div>
+        <div class="sl-read">
+          <h4>怎么读这张图</h4>
+          <div class="sl-read-grid" id="sl-read-grid"></div>
+          <div class="disc" id="sl-disc"></div>
+        </div>
+      </div>
+    </div>
+    <div class="sl-err" id="sl-err"></div>
+  </section>
 
   <!-- ============ 波动告警 ============ -->
   <div id="alerts-box"></div>
@@ -1276,5 +1392,6 @@
   load();
 })();
 </script>
+<script src="assets/js/sector-lab.js"></script>
 </body>
 </html>

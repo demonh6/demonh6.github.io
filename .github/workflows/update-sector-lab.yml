@@ -1,0 +1,48 @@
+name: Update sector lab daily data
+
+# 日频全量层：估值分位 / 分位轨迹 / 动量 / 盈利状态
+# 东财「行业估值明细」是日频报表，收盘后发布，盘中重算结果完全相同。
+# 因此每天跑两次：17:30（收盘后取当日数据） + 次日 07:30（兜底补数）。
+on:
+  schedule:
+    - cron: '30 9 * * *'    # UTC 09:30 = 北京时间 17:30（收盘后）
+    - cron: '30 23 * * *'   # UTC 23:30 = 北京时间次日 07:30（兜底）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sector-lab-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate data/sector_lab.json
+        run: python scripts/update_sector_lab.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sector_lab.json
+          if git diff --cached --quiet; then
+            echo "No valuation data change"
+          else
+            git commit -m "chore(sector-lab): daily valuation percentiles"
+            # 站点的 update-dashboard 工作流由 push 触发，可能与本次提交并发；
+            # 拉取后重试推送，避免偶发 non-fast-forward。
+            for i in 1 2 3 4; do
+              git pull --rebase origin ${{ github.ref_name }} || true
+              if git push; then echo "pushed"; break; fi
+              echo "push retry $i"; sleep 5
+            done
+          fi
