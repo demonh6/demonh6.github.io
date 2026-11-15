@@ -1,7 +1,7 @@
 {
- "schema_version": 12,
- "generated_at": "2026-11-15 14:44:04 CST",
- "generated_at_iso": "2026-11-15T14:44:04+08:00",
+ "schema_version": 13,
+ "generated_at": "2026-11-15 14:52:09 CST",
+ "generated_at_iso": "2026-11-15T14:52:09+08:00",
  "date": "2026-11-15",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -12,7 +12,7 @@
     "code": "sh000001",
     "sym": "000001.SH",
     "price": 3634.353,
-    "change": -21.476,
+    "change": -21.4765,
     "change_pct": -0.59,
     "hist": [
      3823.621,
@@ -240,7 +240,7 @@
     "code": "sh000688",
     "sym": "000688.SH",
     "price": 1279.6615,
-    "change": -30.175,
+    "change": -30.1752,
     "change_pct": -2.3,
     "hist": [
      1555.98,
@@ -316,7 +316,7 @@
     "code": "sh000300",
     "sym": "000300.SH",
     "price": 4016.2897,
-    "change": -27.636,
+    "change": -27.6357,
     "change_pct": -0.68,
     "hist": [
      4340.755,
@@ -392,7 +392,7 @@
     "code": "sh000016",
     "sym": "000016.SH",
     "price": 2775.0228,
-    "change": 2.955,
+    "change": 2.9545,
     "change_pct": 0.11,
     "hist": [
      2806.942,
@@ -468,7 +468,7 @@
     "code": "sh000905",
     "sym": "000905.SH",
     "price": 6465.485,
-    "change": -138.668,
+    "change": -138.6684,
     "change_pct": -2.1,
     "hist": [
      7402.295,
@@ -543,7 +543,7 @@
   "hk": [
    {
     "name": "恒生指数",
-    "code": "HSI",
+    "code": "hkHSI",
     "sym": "HSI",
     "price": 23637.6,
     "change": -370.951,
@@ -619,7 +619,7 @@
    },
    {
     "name": "恒生科技指数",
-    "code": "HSTECH",
+    "code": "hkHSTECH",
     "sym": "HSTECH",
     "price": 3813.19,
     "change": -118.74,
@@ -695,7 +695,7 @@
    },
    {
     "name": "恒生中国企业指数",
-    "code": "HSCEI",
+    "code": "hkHSCEI",
     "sym": "HSCEI",
     "price": 7937.53,
     "change": -119.23,
@@ -1430,28 +1430,63 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64467.9,
-    "change": -2845.6,
-    "change_pct": -4.23,
+    "price": 64416.4,
+    "change": -2996.4,
+    "change_pct": -4.44,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1794.26,
-    "change": -108.59,
-    "change_pct": -5.71,
+    "price": 1792.65,
+    "change": -114.06,
+    "change_pct": -5.98,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.51,
-    "change": -4.98,
-    "change_pct": -6.6,
+    "price": 70.4,
+    "change": -5.29,
+    "change_pct": -6.99,
     "source": "okx"
+   }
+  ],
+  "fx": [
+   {
+    "name": "美元指数",
+    "sym": "DXY",
+    "price": 103.42,
+    "change": 0.24,
+    "change_pct": 0.23,
+    "dec": 2,
+    "date": "",
+    "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
+    "source": "东财"
+   },
+   {
+    "name": "离岸人民币",
+    "sym": "USDCNH",
+    "price": 6.6747,
+    "change": 0.0013,
+    "change_pct": 0.02,
+    "dec": 4,
+    "date": "",
+    "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
+    "source": "东财"
+   },
+   {
+    "name": "AH股溢价",
+    "sym": "HSAHP",
+    "price": 131.22,
+    "change": 1.51,
+    "change_pct": 1.16,
+    "dec": 2,
+    "date": "",
+    "hint": "A股相对H股的溢价，>130 属历史偏高区间",
+    "source": "东财"
    }
   ]
  },
@@ -1543,9 +1578,14 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": -5.7,
-   "label": "极度恐惧",
-   "color": "#f04a3d"
+   "score": 10.4,
+   "label": "冰点",
+   "color": "#f04a3d",
+   "basis": "A股广度 60% + 盘面结构 40%",
+   "parts": {
+    "breadth": -21.4,
+    "structure": 58.0
+   }
   }
  },
  "speakers": [
@@ -1949,9 +1989,373 @@
   "color": "#3d7fc2",
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
- "errors": {
-  "A股指数": "AttributeError: stock_zh_index_spot_sina 已在 1.20.44 更名为 index_zh_spot_sina，请改用 ak.index_zh_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_zh_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename",
-  "港股指数": "AttributeError: stock_hk_index_spot_sina 已在 1.20.44 更名为 index_hk_spot_sina，请改用 ak.index_hk_spot_sina；参数与返回的列也可能有调整，用 ak.interface_info(\"index_hk_spot_sina\") 查看。完整对照见 https://akshare.akfamily.xyz/changelog.html#changelog-rename"
+ "structure": {
+  "date": "2026-11-13",
+  "zt_count": 37,
+  "dt_count": 33,
+  "zb_count": 21,
+  "qs_count": 106,
+  "seal_rate": 63.8,
+  "first_board": 30,
+  "continued": 7,
+  "max_streak": 4,
+  "ladder": [
+   {
+    "boards": 1,
+    "label": "1板",
+    "count": 30
+   },
+   {
+    "boards": 2,
+    "label": "2板",
+    "count": 4
+   },
+   {
+    "boards": 3,
+    "label": "3板",
+    "count": 2
+   },
+   {
+    "boards": 4,
+    "label": "4板",
+    "count": 1
+   },
+   {
+    "boards": 5,
+    "label": "5板",
+    "count": 0
+   },
+   {
+    "boards": 6,
+    "label": "6板+",
+    "count": 0
+   }
+  ],
+  "industries": [
+   {
+    "name": "汽车零部",
+    "count": 6,
+    "share": 16.2
+   },
+   {
+    "name": "影视院线",
+    "count": 5,
+    "share": 13.5
+   },
+   {
+    "name": "通用设备",
+    "count": 2,
+    "share": 5.4
+   },
+   {
+    "name": "游戏Ⅱ",
+    "count": 2,
+    "share": 5.4
+   },
+   {
+    "name": "IT服务Ⅱ",
+    "count": 2,
+    "share": 5.4
+   },
+   {
+    "name": "化学制品",
+    "count": 1,
+    "share": 2.7
+   },
+   {
+    "name": "一般零售",
+    "count": 1,
+    "share": 2.7
+   },
+   {
+    "name": "工程机械",
+    "count": 1,
+    "share": 2.7
+   }
+  ],
+  "dt_industries": [
+   {
+    "name": "医疗服务",
+    "count": 4
+   },
+   {
+    "name": "汽车零部",
+    "count": 3
+   },
+   {
+    "name": "一般零售",
+    "count": 3
+   },
+   {
+    "name": "专用设备",
+    "count": 2
+   },
+   {
+    "name": "休闲食品",
+    "count": 2
+   }
+  ],
+  "leaders": [
+   {
+    "name": "天普股份",
+    "code": "605255",
+    "streak": 4,
+    "fund_yi": 0.23,
+    "industry": "汽车零部",
+    "change_pct": 10.0,
+    "broken": 2
+   },
+   {
+    "name": "北纬科技",
+    "code": "002148",
+    "streak": 3,
+    "fund_yi": 1.78,
+    "industry": "通信服务",
+    "change_pct": 9.96,
+    "broken": 0
+   },
+   {
+    "name": "金辰股份",
+    "code": "603396",
+    "streak": 3,
+    "fund_yi": 0.43,
+    "industry": "光伏设备",
+    "change_pct": 10.0,
+    "broken": 1
+   },
+   {
+    "name": "兴欣新材",
+    "code": "001358",
+    "streak": 2,
+    "fund_yi": 4.96,
+    "industry": "化学制品",
+    "change_pct": 9.99,
+    "broken": 0
+   },
+   {
+    "name": "好当家",
+    "code": "600467",
+    "streak": 2,
+    "fund_yi": 0.2,
+    "industry": "渔业",
+    "change_pct": 10.08,
+    "broken": 5
+   },
+   {
+    "name": "广百股份",
+    "code": "002187",
+    "streak": 2,
+    "fund_yi": 0.16,
+    "industry": "一般零售",
+    "change_pct": 9.94,
+    "broken": 5
+   }
+  ],
+  "dt_leaders": [
+   {
+    "name": "景旺电子",
+    "code": "603228",
+    "industry": "元件",
+    "change_pct": -10.0
+   },
+   {
+    "name": "襄阳轴承",
+    "code": "000678",
+    "industry": "汽车零部",
+    "change_pct": -9.98
+   },
+   {
+    "name": "金健米业",
+    "code": "600127",
+    "industry": "农产品加",
+    "change_pct": -10.01
+   },
+   {
+    "name": "大东方",
+    "code": "600327",
+    "industry": "一般零售",
+    "change_pct": -10.03
+   }
+  ],
+  "index_pct": -0.59,
+  "score": 58.0,
+  "score_label": "中性",
+  "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
+  "insights": [
+   "封板率 64%（炸板 21 家）：多空分歧居中，涨停质量一般。",
+   "跌停 33 家：个股层面的风险在释放，注意高位股与题材补跌。",
+   "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
+   "连板 7 家 / 涨停 37 家（19%）：以首板为主，持续性待验证",
+   "涨停最集中的 汽车零部 也只占 16%：热点分散，没有单一主线。"
+  ],
+  "history": [
+   {
+    "date": "2026-10-26",
+    "zt": 55,
+    "dt": 26,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-10-27",
+    "zt": 41,
+    "dt": 22,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-10-28",
+    "zt": 72,
+    "dt": 5,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-10-29",
+    "zt": 39,
+    "dt": 41,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-10-30",
+    "zt": 47,
+    "dt": 82,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-02",
+    "zt": 125,
+    "dt": 8,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-03",
+    "zt": 48,
+    "dt": 17,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-04",
+    "zt": 118,
+    "dt": 10,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-05",
+    "zt": 84,
+    "dt": 0,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-06",
+    "zt": 32,
+    "dt": 15,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-09",
+    "zt": 54,
+    "dt": 1,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-10",
+    "zt": 93,
+    "dt": 0,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-11",
+    "zt": 85,
+    "dt": 0,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-12",
+    "zt": 37,
+    "dt": 5,
+    "zb": null,
+    "seal": null,
+    "max_streak": null,
+    "score": null,
+    "index_pct": null,
+    "backfill": true
+   },
+   {
+    "date": "2026-11-13",
+    "zt": 37,
+    "dt": 33,
+    "zb": 21,
+    "seal": 63.8,
+    "max_streak": 4,
+    "score": 58.0,
+    "index_pct": -0.59
+   }
+  ],
+  "backfill_done": true
  },
+ "errors": {},
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
