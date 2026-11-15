@@ -1950,6 +1950,69 @@ def _weixin_extract(url):
             "url": url, "conclusions": conclusions}
 
 
+def fetch_reports_em(limit=12):
+    """东财研报列表（近 30 天，个股 + 行业），直接走 HTTP 接口。
+
+    不用 `ak.stock_research_report_em()`：该接口在 akshare 1.20.x 改名潮中易失效，
+    且一次只回全量表格；这里取最近 N 条即可，字段也更直接（机构/评级/行业）。
+    """
+    from datetime import timedelta as _td
+
+    end = datetime.now(CST)
+    begin = end - _td(days=30)
+    out = []
+    for qtype, tag in ((0, "个股"), (1, "行业")):
+        try:
+            r = requests.get("https://reportapi.eastmoney.com/report/list", params={
+                "industryCode": "*", "pageSize": str(max(24, limit * 4)), "industry": "*",
+                "rating": "", "ratingChange": "",
+                "beginTime": begin.strftime("%Y-%m-%d"), "endTime": end.strftime("%Y-%m-%d"),
+                "pageNo": "1", "fields": "", "qType": str(qtype),
+                "orgCode": "", "code": "*", "rcode": "", "p": "1", "pageNum": "1",
+            }, headers=_UA_HEADERS, timeout=HTTP_TIMEOUT)
+            r.raise_for_status()
+            rows = (r.json() or {}).get("data") or []
+        except Exception as e:  # noqa: BLE001
+            log(f"FAIL 东财研报-{tag}: {type(e).__name__}")
+            continue
+        for x in rows:
+            info = str(x.get("infoCode") or "")
+            title = str(x.get("title") or "").strip()
+            if not info or len(title) < 6:
+                continue
+            out.append({
+                "title": title[:80],
+                "org": str(x.get("orgSName") or x.get("orgName") or "")[:14],
+                "rating": str(x.get("emRatingName") or "")[:6],
+                "stock": str(x.get("stockName") or "")[:12],
+                "industry": str(x.get("indvInduName") or "")[:10],
+                "date": str(x.get("publishDate") or "")[:10],
+                "url": ("https://data.eastmoney.com/report/zw_stock.jshtml?infocode=" + info)
+                       if qtype == 0 else
+                       ("https://data.eastmoney.com/report/zw_industry.jshtml?infocode=" + info),
+                "source": "东财研报·" + tag,
+            })
+    seen, uniq = set(), []
+    for x in out:
+        k = x["title"][:16]
+        if k in seen:
+            continue
+        seen.add(k)
+        uniq.append(x)
+    uniq.sort(key=lambda x: x["date"], reverse=True)
+    # 同一机构最多 2 条，避免整屏都是同一家
+    per_org, picked = {}, []
+    for x in uniq:
+        o = x["org"]
+        if per_org.get(o, 0) >= 2:
+            continue
+        per_org[o] = per_org.get(o, 0) + 1
+        picked.append(x)
+        if len(picked) >= limit:
+            break
+    return picked
+
+
 def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None):
     """研报观点：微信点睛精读(降频) + 东财研报速览(近1月) + 国际投行观点(来自新闻池)。
 
@@ -2032,39 +2095,11 @@ def fetch_research(digest_due=True, reports_due=True, prev=None, news_pool=None)
         except Exception as e:  # noqa: BLE001
             log(f"FAIL 国际投行观点: {type(e).__name__}")
 
-        # 2b. 东财研报速览：仅近 1 月，报告名称即浓缩结论
+        # 2b. 东财研报列表（近 30 天，个股 + 行业）：走 HTTP 接口，避免 akshare 改名失效
         try:
-            import akshare as ak
-            from datetime import timedelta as _td
-            cutoff = (datetime.now(CST) - _td(days=30)).strftime("%Y-%m-%d")
-            df = ak.stock_research_report_em()
-            # 最新日期优先（同日内头部机构靠前）
-            df["_head"] = df["机构"].apply(lambda o: any(h in o for h in HEAD_BROKERS))
-            df = df.sort_values(["日期", "_head"], ascending=[False, False])
-            picked_dom, seen_titles = [], set()
-            for _, row in df.iterrows():
-                d = str(row.get("日期", ""))[:10]
-                if d < cutoff:                      # 近 1 月过滤（已按日期倒序，可提前退出）
-                    break
-                org = str(row.get("机构", ""))
-                name = str(row.get("报告名称", "")).strip()
-                if len(name) < 10 or name[:14] in seen_titles:
-                    continue
-                seen_titles.add(name[:14])
-                picked_dom.append({
-                    "title": name[:80],
-                    "org": org[:12],
-                    "rating": str(row.get("东财评级", ""))[:6],
-                    "stock": str(row.get("股票简称", ""))[:12],
-                    "industry": str(row.get("行业", ""))[:10],
-                    "date": d,
-                    "url": str(row.get("报告PDF链接", "") or ""),
-                    "source": "券商研报",
-                })
-                if len(picked_dom) >= 5:
-                    break
+            picked_dom = fetch_reports_em(limit=12)
             picked.extend(picked_dom)
-            log(f"OK   东财研报速览(近1月) {len(picked_dom)} 条")
+            log(f"OK   东财研报速览(近30天) {len(picked_dom)} 条")
         except Exception as e:  # noqa: BLE001
             log(f"FAIL 东财研报速览: {type(e).__name__}")
 
