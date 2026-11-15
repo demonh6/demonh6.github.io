@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-15 16:52:17 CST",
- "generated_at_iso": "2026-11-15T16:52:17+08:00",
+ "generated_at": "2026-11-15 17:00:33 CST",
+ "generated_at_iso": "2026-11-15T17:00:33+08:00",
  "date": "2026-11-15",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1037,10 +1037,10 @@
      61077.9,
      57434.77,
      58775.5,
-     60459.5781,
-     61248.5898,
-     60819.3594,
-     61142.3516
+     60459.58,
+     61248.59,
+     60819.36,
+     61142.35
     ],
     "sigma": 1.978,
     "volume": 145000000.0,
@@ -1430,28 +1430,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64760.4,
-    "change": -2266.6,
-    "change_pct": -3.38,
-    "source": "okx"
+    "price": 65219.7,
+    "change": -1795.3,
+    "change_pct": -2.68,
+    "source": "okx",
+    "hist": [
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     65424.3
+    ],
+    "sigma": 2.304
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1800.52,
-    "change": -96.0,
-    "change_pct": -5.06,
-    "source": "okx"
+    "price": 1809.59,
+    "change": -86.01,
+    "change_pct": -4.54,
+    "source": "okx",
+    "hist": [
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1815.17
+    ],
+    "sigma": 3.191
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.62,
-    "change": -4.56,
-    "change_pct": -6.07,
-    "source": "okx"
+    "price": 71.04,
+    "change": -4.23,
+    "change_pct": -5.62,
+    "source": "okx",
+    "hist": [
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.48
+    ],
+    "sigma": 3.211
    }
   ],
   "fx": [
@@ -1590,6 +1689,17 @@
  },
  "speakers": [
   {
+   "keyword": "外交部",
+   "label": "外交部",
+   "hint": "地缘政治表态影响风险偏好",
+   "title": "伊朗称伊方有充分法律依据向助美袭伊地区国家索赔",
+   "summary": "当地时间15日，伊朗外交部发言人巴加埃表示，某些地区国家积极参与了美以针对伊朗的军事侵略，包括提供武器、政治支持、派遣人员，以及开放领空、领土和领海供其使用，这些都有确凿的记录。对伊朗而言，这已演变为一项正当的历史和法律诉求。因此，这些国家反过来向伊朗索要赔偿的主张，完全是毫无根据且站不住脚。根据既定的国际法原则，若一国将其领土提供给另一国，用于对第三国实施侵略行为，则该国直接被视为共犯。因此，对",
+   "time": "2026-11-15 16:45",
+   "url": "https://wallstreetcn.com/livenews/3200183",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1598,27 +1708,27 @@
    "time": "2026-11-15 14:55",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QZXItZER2SlFSWkRkZndXOHFPbTVYNmFLWmJNT1VpeE5TbzBmdHJERGZCLUc0dDFIUWw2bDV5ZzBnbDQ2MkdJZnZJWVV6SjBxeDNEWEtGMGtjeHVGb0hhQUp3dXdzNGFRajhUQV9OSjFLVEE?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 2
   },
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储突发警告！AI热推高估值与债务，相关债务可能超过3万亿美元！霍尔木兹海峡最新消息，两艘油轮触雷发生爆炸... - 金融界",
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "白宫确认特朗普、习近平和普京将在深圳APEC期间举行历史性三方会晤 - BBC",
    "summary": "",
-   "time": "2026-11-15 13:22",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qSElhb0ZvS1JBRlNsaWtIOWJkU1NGbG01OEc0d2JzYnF5SktPcGROVFdkQjFqZVByZXIybnl6akVUQkx2VnVwemtzU184QWVOdFQtVHA4a1dnUEo3WUo0Sk5Ec21rV0FNUUJwMnY2d0xHc2x6?oc=5",
+   "time": "2026-11-15 14:07",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvMk14eGtqaFpBcGxPSFdoREUxbWhWWFg3RkYxUzlaaVlDRTNiNDVRb0VDazlxeGNMNDVpWnEzV2I1NHJzYXJraDYwVUdZSnhLQ3FMcjhmM0JDTUhhZDlmS2R3NzhQUmvSAWxBVV95cUxQM1U2UFdxTkxTR05Bc2oxR1piTndERG9wXzBBTjMxMUlOMkVYLXhFbVllbXpOZFF2M0R0QjhDZTVGM1BmTGNIQURHOWFudmlVcjVGTFRrNnIwWmtqaWFYWDFtYXp1ajF5UElZRUw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
   },
   {
-   "keyword": "外交部",
-   "label": "外交部",
-   "hint": "地缘政治表态影响风险偏好",
-   "title": "伊朗外交部发言人巴加埃：任何袭击都必将得到回应",
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行行长候选人诺特：欧洲央行稳定主权债券市场的工具，不能替代负责任的财政管理",
    "summary": "",
-   "time": "2026-11-15 08:23:36",
-   "url": "https://news.futunn.com/flash/1004547116/iranian-foreign-ministry-spokesperson-baghaei-any-attack-will-inevitably-be",
+   "time": "2026-11-15 08:55:07",
+   "url": "https://news.futunn.com/flash/1004547419/ecb-presidential-candidate-knot-ecb-tools-for-stabilizing-sovereign-bond",
    "source": "富途",
    "mentions": 1
   }
@@ -1683,36 +1793,6 @@
    }
   ],
   "reports": [
-   {
-    "title": "紫金保险连续五年国际评级获A- 惠誉国际上调评级展望至正面 - 手机新浪网",
-    "org": "惠誉",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yZm9NcFVhTkZaa0txYklVamNkVEtjTW9yQnl0YVJiZWhBOHoyM2tsZERBNU9mSWFsSTh2aXUzNlN4RHZpeUtnWDNtdVJENlVCTTVfcmFHZU1EejE2MmxLRzhPZ2Rva1Y1dTlqUGFwbXcwQQ?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "今日大行评级 | 摩根大通削英伟达目标价至215美元，美银证券削英特尔目标价至80美元 - Moomoo",
-    "org": "摩根大通",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGFzNDBRWThsSzRfM2FqZFVEMDZSMk45dHRlc25ZdG15S0VBXzNKd2IwdlkxRzYtTWxlX3ZtOGtrQllCSWdrcEFuMGdleDUyTF9qQnV0RHlMOGpfdFZOaktwUFJOS1k0M1UtcDVBRVhJUFlJWUJGSk5McVRLSGwyT1hJOEowNExTS3RNOUp5a3hIbnduV0dYdVBZQnFGdVZ3OWxTVWt3?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "高盛突然大砍黄金目标价！今年下调500美元、明年再砍600美元，黄金牛市生变？_金市直播 - 黄金网",
-    "org": "高盛",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5MMHFFWTB5ajE1b0p3N19nQi1IUmhYdllQRkVXTTlqX0JvSjViTEVNUTg1MzZZc1BmMUNKXzl2UERZRWdkOXQ1VEVmUFBXemdyZ3VNYUpacVVtZUJ0WlZiU1RoNUtLOUN0?oc=5",
-    "source": "机构观点"
-   },
    {
     "title": "海外放量带动业绩增长，端侧AI+光通信双布局",
     "org": "太平洋",
@@ -1838,10 +1918,17 @@
  "alerts": [],
  "news": [
   {
-   "title": "长春高新：控股子公司金蓓欣新纳入国家医保目录",
-   "summary": "【长春高新：控股子公司金蓓欣新纳入国家医保目录】11月15日，长春高新公告，根据国家医保局、人社部发布的《国家基本医疗保险、生育保险和工伤保险药品目录》，公司控股子公司长春金赛药业有限责任公司自主研发的金蓓欣被新纳入国家医保目录。",
-   "time": "2026-11-15 16:25:57",
-   "url": "https://finance.eastmoney.com/a/202611153931452848.html",
+   "title": "南卫股份：实控人李平因涉嫌内幕交易罪被刑事拘留",
+   "summary": "南卫股份公告称，公司于2026年11月15日收到实控人李平家属通知，李平因2023年在公开市场的减持被公安以涉嫌内幕交易罪于近日刑事拘留，案件正在调查中。截至公告披露日，公司控制权未发生变化，李平未在公司担任任何职务，公司董事和高级管理人员均正常履职。",
+   "time": "2026-11-15 16:54",
+   "url": "https://wallstreetcn.com/livenews/3200187",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "意大利对元宇宙公司巨额罚款",
+   "summary": "【意大利对元宇宙公司巨额罚款】意大利个人数据保护局11月14日宣布，对美国元宇宙平台公司（Meta）处以8.05亿欧元（约合人民币59亿元）的罚款，原因是该公司在未获用户同意或者未告知用户的情况下，访问安卓系统用户手机中存储的照片和视频。",
+   "time": "2026-11-15 16:45:52",
+   "url": "https://finance.eastmoney.com/a/202611153931454780.html",
    "source": "东财国际"
   },
   {
@@ -1852,13 +1939,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "《求是》杂志发表习近平总书记重要文章《携手共建亚太命运共同体》",
-   "summary": "文章强调，亚太各经济体利益交融，命运与共，一荣俱荣，一损俱损。亚太经合组织的诞生和发展顺应了开放融合的历史潮流，顺应了亚太地区谋求发展的强烈愿望，顺应了各国人民携手应对挑战的共同需要，为促进亚太地区增长和繁荣作出了重要贡献。如今的亚太，是全球最具增长活力和发展潜力的经济板块，也是举世公认的世界经济增长的一个重要引擎。要牢固树立亚太命运共同体意识，延续亚太地区强劲发展势头，迎接亚太地区共同繁荣未来，",
-   "time": "2026-11-15 15:05",
-   "url": "https://wallstreetcn.com/livenews/3200165",
-   "source": "华尔街见闻"
-  },
-  {
    "title": "特朗普称伊朗战争军事上已结束，启动铁门行动陆海合围 - 手机新浪网",
    "summary": "",
    "time": "2026-11-15 14:55",
@@ -1866,18 +1946,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "业内人士：欧洲股市罕见的相对强势行情可能即将结束",
+   "title": "华北制药：7个品种新纳入国家医保目录，一类创新药奥木替韦单抗注射液通过谈判入选",
    "summary": "",
-   "time": "2026-11-15 08:34:09",
-   "url": "https://news.futunn.com/flash/1004547232/industry-insiders-the-rare-period-of-relative-strength-in-european",
-   "source": "富途"
+   "time": "2026-11-15 08:58:38",
+   "url": "https://news.10jqka.com.cn/20261115/c681829786.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "百利天恒：注射用伦康依隆妥单抗被纳入国家医保目录",
+   "title": "欧洲央行行长候选人诺特：欧洲央行稳定主权债券市场的工具，不能替代负责任的财政管理",
    "summary": "",
-   "time": "2026-11-15 08:29:01",
-   "url": "https://news.10jqka.com.cn/20261115/c681829659.shtml",
-   "source": "同花顺"
+   "time": "2026-11-15 08:55:07",
+   "url": "https://news.futunn.com/flash/1004547419/ecb-presidential-candidate-knot-ecb-tools-for-stabilizing-sovereign-bond",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月13日周五",
@@ -1894,10 +1974,66 @@
    "source": "财新"
   },
   {
-   "title": "康缘药业：独家品种参蒲颗粒、泻白散颗粒首次纳入国家医保目录",
-   "summary": "【康缘药业：独家品种参蒲颗粒、泻白散颗粒首次纳入国家医保目录】康缘药业(600557)11月15日公告，公司独家品种参蒲颗粒、泻白散颗粒，首次通过谈判纳入《国家基本医疗保险、生育保险和工伤保险药品目录（2026年）》。",
-   "time": "2026-11-15 16:25:00",
-   "url": "https://finance.eastmoney.com/a/202611153931452740.html",
+   "title": "伊朗称伊方有充分法律依据向助美袭伊地区国家索赔",
+   "summary": "当地时间15日，伊朗外交部发言人巴加埃表示，某些地区国家积极参与了美以针对伊朗的军事侵略，包括提供武器、政治支持、派遣人员，以及开放领空、领土和领海供其使用，这些都有确凿的记录。对伊朗而言，这已演变为一项正当的历史和法律诉求。因此，这些国家反过来向伊朗索要赔偿的主张，完全是毫无根据且站不住脚。根据既定的国际法原则，若一国将其领土提供给另一国，用于对第三国实施侵略行为，则该国直接被视为共犯。因此，对",
+   "time": "2026-11-15 16:45",
+   "url": "https://wallstreetcn.com/livenews/3200183",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "通化金马：琥珀酸安维吖啶片首次纳入国家医保目录",
+   "summary": "【通化金马：琥珀酸安维吖啶片首次纳入国家医保目录】通化金马(000766)11月15日公告，公司自主研发、具有完全自主知识产权的化学1类创新药琥珀酸安维吖啶片，首次被纳入《国家基本医疗保险、生育保险和工伤保险药品目录（2026年）》。",
+   "time": "2026-11-15 16:34:00",
+   "url": "https://finance.eastmoney.com/a/202611153931453422.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "风口研报 - 财联社电报",
+   "summary": "",
+   "time": "2026-11-15 16:08",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1hYlBwZE1QWXMxT0NsMEhyMkVQUjNqNkpzbEhhUlVxZ0tyYlBTeHpFNVZHTFZMTU9RSWdOcUkyRGJtNk40aV95ZGZXOW5PWVdUbDY4bUNtbFprQlpMRGE0cnhR?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "拜登回忆录披露默克尔私下评价特朗普：情绪化、拒握手、对普京着迷 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-15 14:52",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82eVBBYVM1RGtsOXFJbjdCaXFobVU5ZkRWcnFTZTlwa1FLNDlobVhWckxHS3U0OWFCVTVIYlBQaWdoTHVJa0V3QXM0eU1vVXJERXc?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "南卫股份：实际控制人李平因涉嫌内幕交易罪被刑事拘留",
+   "summary": "",
+   "time": "2026-11-15 08:53:02",
+   "url": "https://news.10jqka.com.cn/20261115/c681829770.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "伊朗称损害伊朗的国家必须承担责任",
+   "summary": "",
+   "time": "2026-11-15 08:43:12",
+   "url": "https://news.futunn.com/flash/1004547322/iran-states-that-countries-causing-harm-to-iran-must-be",
+   "source": "富途"
+  },
+  {
+   "title": "【本文系数据通用户提前专享】作为全球最激进的数据中心投建地，美国正站在十字路口：要么放缓脚步适应社区呼声，要么寻求海外替代方案",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-14/102504742.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "《求是》杂志发表习近平总书记重要文章《携手共建亚太命运共同体》",
+   "summary": "文章强调，亚太各经济体利益交融，命运与共，一荣俱荣，一损俱损。亚太经合组织的诞生和发展顺应了开放融合的历史潮流，顺应了亚太地区谋求发展的强烈愿望，顺应了各国人民携手应对挑战的共同需要，为促进亚太地区增长和繁荣作出了重要贡献。如今的亚太，是全球最具增长活力和发展潜力的经济板块，也是举世公认的世界经济增长的一个重要引擎。要牢固树立亚太命运共同体意识，延续亚太地区强劲发展势头，迎接亚太地区共同繁荣未来，",
+   "time": "2026-11-15 15:05",
+   "url": "https://wallstreetcn.com/livenews/3200165",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "游族网络：控股子公司签订14.28亿元闪存颗粒采购合同",
+   "summary": "【游族网络：控股子公司签订14.28亿元闪存颗粒采购合同】游族网络11月15日公告，智存合盈于2026年11月2日与B公司签订了《采购合同》，约定B公司以订单的形式，向智存合盈采购闪存颗粒产品，合同自双方盖章之日起生效，有效期2年。",
+   "time": "2026-11-15 16:31:29",
+   "url": "https://finance.eastmoney.com/a/202611153931453318.html",
    "source": "东财国际"
   },
   {
@@ -1908,81 +2044,25 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "余承东：大折叠已成为千万人的主力机",
-   "summary": "11月15日，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在其个人社交平台表示，今年是华为Mate X系列走过的第八年，现在大折叠已成为千万用户的主力机型，新一代华为Mate X8将在屏幕、影像和性能体验上有新的突破。",
-   "time": "2026-11-15 11:54",
-   "url": "https://wallstreetcn.com/livenews/3200163",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "拜登回忆录披露默克尔私下评价特朗普：情绪化、拒握手、对普京着迷 - 凤凰网",
+   "title": "白宫确认特朗普、习近平和普京将在深圳APEC期间举行历史性三方会晤 - BBC",
    "summary": "",
-   "time": "2026-11-15 14:52",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82eVBBYVM1RGtsOXFJbjdCaXFobVU5ZkRWcnFTZTlwa1FLNDlobVhWckxHS3U0OWFCVTVIYlBQaWdoTHVJa0V3QXM0eU1vVXJERXc?oc=5",
+   "time": "2026-11-15 14:07",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvMk14eGtqaFpBcGxPSFdoREUxbWhWWFg3RkYxUzlaaVlDRTNiNDVRb0VDazlxeGNMNDVpWnEzV2I1NHJzYXJraDYwVUdZSnhLQ3FMcjhmM0JDTUhhZDlmS2R3NzhQUmvSAWxBVV95cUxQM1U2UFdxTkxTR05Bc2oxR1piTndERG9wXzBBTjMxMUlOMkVYLXhFbVllbXpOZFF2M0R0QjhDZTVGM1BmTGNIQURHOWFudmlVcjVGTFRrNnIwWmtqaWFYWDFtYXp1ajF5UElZRUw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "伊朗外交部发言人巴加埃：任何袭击都必将得到回应",
+   "title": "润都股份：盐酸去甲乌药碱注射液纳入国家医保目录",
    "summary": "",
-   "time": "2026-11-15 08:23:36",
-   "url": "https://news.futunn.com/flash/1004547116/iranian-foreign-ministry-spokesperson-baghaei-any-attack-will-inevitably-be",
-   "source": "富途"
-  },
-  {
-   "title": "信立泰：复立坦、信立汀续约成功，恩那罗新增适应症谈判成功保留医保目录",
-   "summary": "",
-   "time": "2026-11-15 08:27:05",
-   "url": "https://news.10jqka.com.cn/20261115/c681829656.shtml",
+   "time": "2026-11-15 08:52:46",
+   "url": "https://news.10jqka.com.cn/20261115/c681829769.shtml",
    "source": "同花顺"
   },
   {
-   "title": "【本文系数据通用户提前专享】作为全球最激进的数据中心投建地，美国正站在十字路口：要么放缓脚步适应社区呼声，要么寻求海外替代方案",
+   "title": "业内人士：欧洲股市罕见的相对强势行情可能即将结束",
    "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-14/102504742.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "微芯生物：产品西格列他钠片续约纳入国家医保目录",
-   "summary": "【微芯生物：产品西格列他钠片续约纳入国家医保目录】11月15日，微芯生物发布公告，根据国家医保局、人力资源社会保障部关于印发《国家基本医疗保险、生育保险和工伤保险药品目录》以及《商业健康保险创新药品目录》（2026年）的通知【医保发〔2026〕29号】，公司产品西格列他钠片（双洛平）成功续约《国家医保目录》。",
-   "time": "2026-11-15 16:09:11",
-   "url": "https://finance.eastmoney.com/a/202611153931451519.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "紫金保险连续五年国际评级获A- 惠誉国际上调评级展望至正面 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-15 13:26",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yZm9NcFVhTkZaa0txYklVamNkVEtjTW9yQnl0YVJiZWhBOHoyM2tsZERBNU9mSWFsSTh2aXUzNlN4RHZpeUtnWDNtdVJENlVCTTVfcmFHZU1EejE2MmxLRzhPZ2Rva1Y1dTlqUGFwbXcwQQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "APEC工商领导人峰会将发布“深圳倡议”，系创办30年来首次",
-   "summary": "11月15日，2026年APEC工商界活动专题新闻发布会在深圳举办。中国贸促会副会长李庆霜透露，本届APEC工商领导人峰会将汇聚研讨成果和交流共识，形成并发布《2026年APEC工商领导人峰会深圳倡议》，这是峰会创办30年来首次以倡议形式发布成果文件。倡议将系统吸纳工商界核心主张，并向领导人非正式会议建言献策参考，为后续亚太工商合作提供抓手，搭建可落地、可跟进的共同行动框架，助力亚太经贸合作继续走",
-   "time": "2026-11-15 11:39",
-   "url": "https://wallstreetcn.com/livenews/3200162",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "美联储突发警告！AI热推高估值与债务，相关债务可能超过3万亿美元！霍尔木兹海峡最新消息，两艘油轮触雷发生爆炸... - 金融界",
-   "summary": "",
-   "time": "2026-11-15 13:22",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9qSElhb0ZvS1JBRlNsaWtIOWJkU1NGbG01OEc0d2JzYnF5SktPcGROVFdkQjFqZVByZXIybnl6akVUQkx2VnVwemtzU184QWVOdFQtVHA4a1dnUEo3WUo0Sk5Ec21rV0FNUUJwMnY2d0xHc2x6?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "伊朗：美国不顾基础设施老化，反而用数十亿美元援助以色列",
-   "summary": "",
-   "time": "2026-11-15 08:13:37",
-   "url": "https://news.futunn.com/flash/1004546998/iran-despite-aging-infrastructure-the-us-provides-billions-of-dollars",
+   "time": "2026-11-15 08:34:09",
+   "url": "https://news.futunn.com/flash/1004547232/industry-insiders-the-rare-period-of-relative-strength-in-european",
    "source": "富途"
-  },
-  {
-   "title": "乌克兰首都基辅响起爆炸声",
-   "summary": "",
-   "time": "2026-11-15 08:26:25",
-   "url": "https://news.10jqka.com.cn/20261115/c681829654.shtml",
-   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】Moderna的个体化新抗原肿瘤疫苗收获首个三期临床阳性结果，首次“破局”之后，行业仍有哪些挑战？如何追赶？",
@@ -1992,25 +2072,25 @@
    "source": "财新"
   },
   {
-   "title": "恒瑞医药：多款药品纳入国家医保目录",
-   "summary": "【恒瑞医药：多款药品纳入国家医保目录】恒瑞医药(600276.SH)公告称，公司部分产品纳入国家医保目录。泽美妥司他片、鲁兹诺雷钠片、恒格列净瑞格列汀二甲双胍缓释片(II)首次纳入；注射用瑞康曲妥珠单抗新增适应症纳入；羟乙磺酸达尔西利片续约并新增适应症；另有脯氨酸恒格列净片等7款药品续约成功。",
-   "time": "2026-11-15 16:03:43",
-   "url": "https://finance.eastmoney.com/a/202611153931450993.html",
-   "source": "东财国际"
+   "title": "余承东：大折叠已成为千万人的主力机",
+   "summary": "11月15日，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在其个人社交平台表示，今年是华为Mate X系列走过的第八年，现在大折叠已成为千万用户的主力机型，新一代华为Mate X8将在屏幕、影像和性能体验上有新的突破。",
+   "time": "2026-11-15 11:54",
+   "url": "https://wallstreetcn.com/livenews/3200163",
+   "source": "华尔街见闻"
   },
   {
-   "title": "今日大行评级 | 摩根大通削英伟达目标价至215美元，美银证券削英特尔目标价至80美元 - Moomoo",
-   "summary": "",
-   "time": "2026-11-15 13:04",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaGFzNDBRWThsSzRfM2FqZFVEMDZSMk45dHRlc25ZdG15S0VBXzNKd2IwdlkxRzYtTWxlX3ZtOGtrQllCSWdrcEFuMGdleDUyTF9qQnV0RHlMOGpfdFZOaktwUFJOS1k0M1UtcDVBRVhJUFlJWUJGSk5McVRLSGwyT1hJOEowNExTS3RNOUp5a3hIbnduV0dYdVBZQnFGdVZ3OWxTVWt3?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "百利天恒：注射用伦康依隆妥单抗纳入国家医保目录",
+   "summary": "【百利天恒：注射用伦康依隆妥单抗纳入国家医保目录】百利天恒(688506.SH)公告称，公司全资子公司自主研发的全球首创双抗ADC药物注射用伦康依隆妥单抗，上市首年即通过国家医保谈判，成功纳入《国家医保目录(2026版)》，协议有效期自2027年1月1日至2028年12月31日，支付范围限既往经至少二线系统化疗且使用过PD-1/PD-L1抑制剂治疗失败的复发/转移性鼻咽癌成人患者。",
+   "time": "2026-11-15 16:29:52",
+   "url": "https://finance.eastmoney.com/a/202611153931453217.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(29)",
+   "富途": "ok(30)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2019,12 +2099,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
+   "华尔街见闻": 7,
    "东财国际": 7,
    "谷歌新闻·研报": 7,
-   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
-   "富途": 7,
-   "同花顺": 6,
+   "同花顺": 7,
+   "富途": 6,
    "东财早报": 1,
    "财新": 6
   }
