@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 00:25:37 CST",
- "generated_at_iso": "2026-11-16T00:25:37+08:00",
+ "generated_at": "2026-11-16 00:34:15 CST",
+ "generated_at_iso": "2026-11-16T00:34:15+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64439.6,
-    "change": -1050.7,
-    "change_pct": -1.6,
+    "price": 64568.7,
+    "change": -758.9,
+    "change_pct": -1.16,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1806.15,
-    "change": -24.67,
-    "change_pct": -1.35,
+    "price": 1813.71,
+    "change": -9.18,
+    "change_pct": -0.5,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.18,
-    "change": -1.77,
-    "change_pct": -2.43,
+    "price": 71.39,
+    "change": -1.17,
+    "change_pct": -1.61,
     "source": "okx"
    }
   ],
@@ -1578,17 +1578,39 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 29.8,
+   "score": 23.2,
    "label": "冰点",
-   "color": "#f58a3d",
+   "color": "#f04a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 0.0,
-    "structure": 74.5
+    "structure": 58.0
    }
   }
  },
  "speakers": [
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储估算：当前用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元",
+   "summary": "【美联储估算：当前用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元】美联储报告显示，截至今年10月，美国超大规模云厂商建设数据中心的相关债务发行规模已经突破6800亿美元，较2023年全年1300亿美元的规模增长四倍。美联储估算，当前用于数据中心建设的远期租赁与兜底担保规模已经达到约3万亿美元。",
+   "time": "2026-11-16 00:14:20",
+   "url": "https://finance.eastmoney.com/a/202611163931525342.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "华府观察：特朗普去深圳 最看重什么？ - 中国评论",
+   "summary": "",
+   "time": "2026-11-16 00:08",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MUXA0Umh6R212MEtUcHhfUHN0d0hncHpuMzRtOEpwTDNmSy1uRHlFeUJlWWNxcjFGWkdONi1MTnZxS1lmMUVFMnN2ZVR3MThkcXVsci1jdFo?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
+  },
   {
    "keyword": "贝森特",
    "label": "贝森特",
@@ -1598,29 +1620,7 @@
    "time": "2026-11-15 23:19",
    "url": "https://wallstreetcn.com/livenews/3200215",
    "source": "华尔街见闻",
-   "mentions": 5
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "黄仁勋去职后，贝森特称英伟达需要“剧烈重组”",
-   "summary": "美国财政部长斯科特·贝森特表示，在首席执行官黄仁勋被罢免之后，英伟达的领导层需要经历一场“剧烈重组”。\n\n贝森特暗示，英伟达应该从公司外部寻找新的领导层。\n\n（被罢免的）黄仁勋是了不起的创新者，英伟达非常出色。\n\n上级与下属建立恋爱关系是企业大忌。（福克斯新闻）",
-   "time": "2026-11-15 23:07",
-   "url": "https://wallstreetcn.com/livenews/3200212",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "稀有画面曝光：特朗普34岁时就提出应控制伊朗石油，“我们本应这么做而没有行动，我非常失望”；当时还是纽约地产商 - Sohu",
-   "summary": "",
-   "time": "2026-11-15 22:00",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFExbmN1dC1RWnJrTUJSY3hXQ2s3ZnBBSDNVM0lxR25EY3dNY0djcm9nY2gzX0lsaDZIbDJHX0N0cDg3NnpEVjVkSGZUWUxORVExQ1NidFVOS19CLS1NWi0zekhXdVJJemI1Y3ZTakdfX2pRNWhzN3NhV0xpOHZRZVZyUlR0aGZIdkw1QQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 4
   }
  ],
  "research": {
@@ -1818,11 +1818,18 @@
  "alerts": [],
  "news": [
   {
-   "title": "俄外长：欧盟不考虑俄利益“绝对行不通”",
-   "summary": "【俄外长：欧盟不考虑俄利益“绝对行不通”】据俄罗斯媒体15日报道，俄外长拉夫罗夫日前表示，欧盟在解决乌克兰问题方案上如不考虑俄利益，将“绝对行不通”。",
-   "time": "2026-11-15 23:57:12",
-   "url": "https://finance.eastmoney.com/a/202611153931523755.html",
+   "title": "全球航运界人士“维港对话” 聚焦中外合作新空间",
+   "summary": "【全球航运界人士“维港对话” 聚焦中外合作新空间】由香港航商总会主办的“维港对话”15日在港举行，60多位中外航运和经贸企业以及智库代表围绕航运政策、香港国际航运中心定位、贸易格局变化及绿色转型等议题深入交流。",
+   "time": "2026-11-16 00:32:42",
+   "url": "https://finance.eastmoney.com/a/202611153931510227.html",
    "source": "东财国际"
+  },
+  {
+   "title": "华府观察：特朗普去深圳 最看重什么？ - 中国评论",
+   "summary": "",
+   "time": "2026-11-16 00:08",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1MUXA0Umh6R212MEtUcHhfUHN0d0hncHpuMzRtOEpwTDNmSy1uRHlFeUJlWWNxcjFGWkdONi1MTnZxS1lmMUVFMnN2ZVR3MThkcXVsci1jdFo?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "富国集团维持Realty Income(O.US)持有评级，上调目标价至61美元 - Moomoo",
@@ -1839,17 +1846,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普首谈全美航班停飞事件：都怪拜登政府 - 联合早报",
+   "title": "押中Anthropic 好莱坞背景风投4.35亿美元投资将变成70亿美元",
    "summary": "",
-   "time": "2026-11-15 22:46",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqd1NzakZoR295YmpGenY3dldYbnpEbGh4RmF6SUo4UTdnOW1KWW5jTFZDbnZfQWxwZTJDb1MwSHFkSTZvUFVVNUlnNnphZ2ZFRjR6Z3E1aXQzaVk0Wkd3aEdvVmdUOS05SFNv?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "胡塞武装否认沙特拦截其无人机的说法",
-   "summary": "",
-   "time": "2026-11-15 16:06:18",
-   "url": "https://news.futunn.com/flash/1004552506/houthis-deny-saudi-claims-of-intercepting-their-drones",
+   "time": "2026-11-15 16:30:31",
+   "url": "https://news.futunn.com/flash/1004552768/hollywood-backed-vc-s-435-million-bet-on-anthropic-poised",
    "source": "富途"
   },
   {
@@ -1867,11 +1867,18 @@
    "source": "财新"
   },
   {
-   "title": "法国周末示威活动中超过400人被拘捕",
-   "summary": "【法国周末示威活动中超过400人被拘捕】当地时间11月15日，法国内政部和巴黎检察院公布的最新数据显示，在14日举行的全国性示威活动中，共有404人被警方拘捕，其中在巴黎被拘捕的人员为134人。",
-   "time": "2026-11-15 23:46:19",
-   "url": "https://finance.eastmoney.com/a/202611153931522193.html",
+   "title": "胡塞武装称沙特联军24小时内75次袭击也门多地",
+   "summary": "【胡塞武装称沙特联军24小时内75次袭击也门多地】也门胡塞武装当地时间15日晚发表声明称，过去24小时内，沙特主导的联军对也门萨达省、塔伊兹省、拉赫季省、焦夫省和马里卜省发动了75次空袭和导弹袭击。声明还称，自也门新一轮军事升级以来，沙特主导的联军累计进行的空袭和导弹袭击次数已达5095次。",
+   "time": "2026-11-16 00:16:29",
+   "url": "https://finance.eastmoney.com/a/202611163931525478.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普首谈全美航班停飞事件：都怪拜登政府 - 联合早报",
+   "summary": "",
+   "time": "2026-11-15 22:46",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBqd1NzakZoR295YmpGenY3dldYbnpEbGh4RmF6SUo4UTdnOW1KWW5jTFZDbnZfQWxwZTJDb1MwSHFkSTZvUFVVNUlnNnphZ2ZFRjR6Z3E1aXQzaVk0Wkd3aEdvVmdUOS05SFNv?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社",
@@ -1888,17 +1895,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "稀有画面曝光：特朗普34岁时就提出应控制伊朗石油，“我们本应这么做而没有行动，我非常失望”；当时还是纽约地产商 - Sohu",
+   "title": "胡塞武装否认沙特拦截其无人机的说法",
    "summary": "",
-   "time": "2026-11-15 22:00",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFExbmN1dC1RWnJrTUJSY3hXQ2s3ZnBBSDNVM0lxR25EY3dNY0djcm9nY2gzX0lsaDZIbDJHX0N0cDg3NnpEVjVkSGZUWUxORVExQ1NidFVOS19CLS1NWi0zekhXdVJJemI1Y3ZTakdfX2pRNWhzN3NhV0xpOHZRZVZyUlR0aGZIdkw1QQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "贝森特称英伟达高层需“大换血” 建议从外部物色新CEO",
-   "summary": "",
-   "time": "2026-11-15 15:34:36",
-   "url": "https://news.futunn.com/flash/1004552150/bessent-calls-for-major-overhaul-of-nvidia-senior-management-suggests",
+   "time": "2026-11-15 16:06:18",
+   "url": "https://news.futunn.com/flash/1004552506/houthis-deny-saudi-claims-of-intercepting-their-drones",
    "source": "富途"
   },
   {
@@ -1916,11 +1916,18 @@
    "source": "财新"
   },
   {
-   "title": "天津正式供热 清洁能源占比达98.6%",
-   "summary": "【天津正式供热 清洁能源占比达98.6%】记者从天津市城市管理委员会了解到，11月15日天津正式供热，集中供热面积6.29亿平方米。今年天津供暖季清洁能源占比达到98.6%。",
-   "time": "2026-11-15 23:42:45",
-   "url": "https://finance.eastmoney.com/a/202611153931521845.html",
+   "title": "美联储估算：当前用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元",
+   "summary": "【美联储估算：当前用于数据中心建设的远期租赁与兜底担保规模已达约3万亿美元】美联储报告显示，截至今年10月，美国超大规模云厂商建设数据中心的相关债务发行规模已经突破6800亿美元，较2023年全年1300亿美元的规模增长四倍。美联储估算，当前用于数据中心建设的远期租赁与兜底担保规模已经达到约3万亿美元。",
+   "time": "2026-11-16 00:14:20",
+   "url": "https://finance.eastmoney.com/a/202611163931525342.html",
    "source": "东财国际"
+  },
+  {
+   "title": "稀有画面曝光：特朗普34岁时就提出应控制伊朗石油，“我们本应这么做而没有行动，我非常失望”；当时还是纽约地产商 - Sohu",
+   "summary": "",
+   "time": "2026-11-15 22:00",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFExbmN1dC1RWnJrTUJSY3hXQ2s3ZnBBSDNVM0lxR25EY3dNY0djcm9nY2gzX0lsaDZIbDJHX0N0cDg3NnpEVjVkSGZUWUxORVExQ1NidFVOS19CLS1NWi0zekhXdVJJemI1Y3ZTakdfX2pRNWhzN3NhV0xpOHZRZVZyUlR0aGZIdkw1QQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "中信建投研报：A股市场底大概率确认，11月或开启“进二退一”修复行情 - 金融界",
@@ -1937,17 +1944,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普1980年视频流出，34岁即提出美国应控制伊朗石油 - 凤凰网",
+   "title": "贝森特称英伟达高层需“大换血” 建议从外部物色新CEO",
    "summary": "",
-   "time": "2026-11-15 21:00",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE52cC05UXVnelh1akJNUVlta2ltSGoySUZXOHEyMHZneDlKRHRSTlFWMXNDYzB4WjhfNEZTUDdRVzFzdGlXQjJRYjlCZFI?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "高尔夫球场重建再遭司法叫停，特朗普：内政部将加急上诉，整修迫在眉睫",
-   "summary": "",
-   "time": "2026-11-15 14:37:52",
-   "url": "https://news.futunn.com/flash/1004551524/golf-course-reconstruction-halted-again-by-court-order-trump-department",
+   "time": "2026-11-15 15:34:36",
+   "url": "https://news.futunn.com/flash/1004552150/bessent-calls-for-major-overhaul-of-nvidia-senior-management-suggests",
    "source": "富途"
   },
   {
@@ -1965,11 +1965,18 @@
    "source": "财新"
   },
   {
-   "title": "100多家A级旅游景区被摘牌或降级",
-   "summary": "【100多家A级旅游景区被摘牌或降级】不久前，多地文旅主管部门陆续公布A级旅游景区复核结果，一批景区被取消等级、降级或限期整改。据不完全统计，截至2026年9月，至少22个省份的100多家A级旅游景区被摘牌或降级。",
-   "time": "2026-11-15 23:39:20",
-   "url": "https://finance.eastmoney.com/a/202611153931520813.html",
+   "title": "管理层收购迎新进展 科创新材实控人将变更 公司前三季业绩大增、经营现金流转负",
+   "summary": "【管理层收购迎新进展 科创新材实控人将变更 公司前三季业绩大增、经营现金流转负】日前，北交所上市公司科创新材（920580）发布公司控制权拟发生变更和权益变动的进展公告。2026年11月13日，蔚文绪、马军强、杨占坡、蔚文举以及于春生收到北交所出具的关于公司协议转让申请的确认函，北交所对本次协议转让的申请已完成审核并予以确认。本次交易完成后，公司实际控制人将变更为于春生。",
+   "time": "2026-11-16 00:13:35",
+   "url": "https://finance.eastmoney.com/a/202611153931522691.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普1980年视频流出，34岁即提出美国应控制伊朗石油 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-15 21:00",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE52cC05UXVnelh1akJNUVlta2ltSGoySUZXOHEyMHZneDlKRHRSTlFWMXNDYzB4WjhfNEZTUDdRVzFzdGlXQjJRYjlCZFI?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "Barclays拟裁减投行部门约200个职位 - Sohu",
@@ -1977,20 +1984,13 @@
    "time": "2026-11-15 20:38",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSUx0Y1E2MEIyRVRfRE9GMG1JQmY4dy03aEc2MURLa3MxbW1IMk9ka2tjNWstaG9oZWIyYmwyTjJ3b2M1bl8wUEIxU1czcjhWV2Z5dlJfZUVKWC1ucnI3YnN5Qnl0NlZZZ2tQenVnbWhXbW1MZVNUZlRHNUNydkt3blNybFphaHJLS2Zsdw?oc=5",
    "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "黄仁勋去职后，贝森特称英伟达需要“剧烈重组”",
-   "summary": "美国财政部长斯科特·贝森特表示，在首席执行官黄仁勋被罢免之后，英伟达的领导层需要经历一场“剧烈重组”。\n\n贝森特暗示，英伟达应该从公司外部寻找新的领导层。\n\n（被罢免的）黄仁勋是了不起的创新者，英伟达非常出色。\n\n上级与下属建立恋爱关系是企业大忌。（福克斯新闻）",
-   "time": "2026-11-15 23:07",
-   "url": "https://wallstreetcn.com/livenews/3200212",
-   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(16)",
+   "富途": "ok(17)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2000,9 +2000,9 @@
   },
   "counts": {
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
    "富途": 7,
    "同花顺": 7,
    "财新": 6
@@ -2084,9 +2084,9 @@
  "structure": {
   "date": "2026-11-13",
   "zt_count": 37,
-  "dt_count": 0,
+  "dt_count": 33,
   "zb_count": 21,
-  "qs_count": 0,
+  "qs_count": 106,
   "seal_rate": 63.8,
   "first_board": 30,
   "continued": 7,
@@ -2165,7 +2165,28 @@
     "share": 2.7
    }
   ],
-  "dt_industries": [],
+  "dt_industries": [
+   {
+    "name": "医疗服务",
+    "count": 4
+   },
+   {
+    "name": "汽车零部",
+    "count": 3
+   },
+   {
+    "name": "一般零售",
+    "count": 3
+   },
+   {
+    "name": "专用设备",
+    "count": 2
+   },
+   {
+    "name": "休闲食品",
+    "count": 2
+   }
+  ],
   "leaders": [
    {
     "name": "天普股份",
@@ -2222,14 +2243,39 @@
     "broken": 5
    }
   ],
-  "dt_leaders": [],
+  "dt_leaders": [
+   {
+    "name": "景旺电子",
+    "code": "603228",
+    "industry": "元件",
+    "change_pct": -10.0
+   },
+   {
+    "name": "襄阳轴承",
+    "code": "000678",
+    "industry": "汽车零部",
+    "change_pct": -9.98
+   },
+   {
+    "name": "金健米业",
+    "code": "600127",
+    "industry": "农产品加",
+    "change_pct": -10.01
+   },
+   {
+    "name": "大东方",
+    "code": "600327",
+    "industry": "一般零售",
+    "change_pct": -10.03
+   }
+  ],
   "index_pct": -0.59,
-  "score": 74.5,
-  "score_label": "偏热",
+  "score": 58.0,
+  "score_label": "中性",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
    "封板率 64%（炸板 21 家）：多空分歧居中，涨停质量一般。",
-   "无跌停且涨停 37 家：当日风险偏好偏高，属于普涨式做多环境。",
+   "跌停 33 家：个股层面的风险在释放，注意高位股与题材补跌。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 7 家 / 涨停 37 家（19%）：以首板为主，持续性待验证",
    "涨停最集中的 汽车零部 也只占 16%：热点分散，没有单一主线。"
@@ -2392,11 +2438,11 @@
    {
     "date": "2026-11-13",
     "zt": 37,
-    "dt": 0,
+    "dt": 33,
     "zb": 21,
     "seal": 63.8,
     "max_streak": 4,
-    "score": 74.5,
+    "score": 58.0,
     "index_pct": -0.59
    }
   ],
