@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-15 22:52:00 CST",
- "generated_at_iso": "2026-11-15T22:52:00+08:00",
+ "generated_at": "2026-11-15 23:00:13 CST",
+ "generated_at_iso": "2026-11-15T23:00:13+08:00",
  "date": "2026-11-15",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,28 +1430,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64907.5,
-    "change": -940.6,
-    "change_pct": -1.43,
-    "source": "okx"
+    "price": 64750.2,
+    "change": -1206.2,
+    "change_pct": -1.83,
+    "source": "okx",
+    "hist": [
+     81349.6,
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64799.4
+    ],
+    "sigma": 2.303
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1811.3,
-    "change": -35.57,
-    "change_pct": -1.93,
-    "source": "okx"
+    "price": 1805.85,
+    "change": -49.6,
+    "change_pct": -2.67,
+    "source": "okx",
+    "hist": [
+     2410.67,
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1809.07
+    ],
+    "sigma": 3.193
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.53,
-    "change": -2.33,
-    "change_pct": -3.15,
-    "source": "okx"
+    "price": 71.23,
+    "change": -2.95,
+    "change_pct": -3.98,
+    "source": "okx",
+    "hist": [
+     103.63,
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.38
+    ],
+    "sigma": 3.215
    }
   ],
   "fx": [
@@ -1598,7 +1697,7 @@
    "time": "2026-11-15 22:00",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFExbmN1dC1RWnJrTUJSY3hXQ2s3ZnBBSDNVM0lxR25EY3dNY0djcm9nY2gzX0lsaDZIbDJHX0N0cDg3NnpEVjVkSGZUWUxORVExQ1NidFVOS19CLS1NWi0zekhXdVJJemI1Y3ZTakdfX2pRNWhzN3NhV0xpOHZRZVZyUlR0aGZIdkw1QQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 5
+   "mentions": 4
   }
  ],
  "research": {
@@ -1732,13 +1831,33 @@
     "source": "东财研报·个股"
    },
    {
-    "title": "AI周观察：谷歌与Anthropic更新旗舰模型，Coreweave财报表现良好",
+    "title": "黑色金属周报：成材供需双降，焦炭提降落地",
     "org": "国金证券",
-    "rating": "",
+    "rating": "买入",
     "stock": "",
     "industry": "",
     "date": "2026-11-15",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831732792",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831733230",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "有色金属周报：金价承压，看好稀土钨钼强基本面",
+    "org": "国金证券",
+    "rating": "买入",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831733228",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "银行行业快评报告：预计四季度政府债对社融的支撑延续",
+    "org": "万联证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-15",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831733184",
     "source": "东财研报·行业"
    },
    {
@@ -1749,16 +1868,6 @@
     "industry": "",
     "date": "2026-11-15",
     "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831731755",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "通信行业研究：Anthropic启动IPO路演，阿里巴巴拟分拆平头哥赴港上市",
-    "org": "国金证券",
-    "rating": "买入",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831731717",
     "source": "东财研报·行业"
    },
    {
@@ -1780,27 +1889,24 @@
     "date": "2026-11-15",
     "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831731054",
     "source": "东财研报·行业"
-   },
-   {
-    "title": "东吴医药周报：眼科AAV基因治疗：海外艾伯维III期wAMD进入读出期，国内建议关注康弘药业等",
-    "org": "东吴证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831730669",
-    "source": "东财研报·行业"
    }
   ]
  },
  "alerts": [],
  "news": [
   {
-   "title": "美国交通部长称航空出行混乱有望于明日全面恢复正常",
-   "summary": "【美国交通部长称航空出行混乱有望于明日全面恢复正常】美国交通部长肖恩·达菲（SeanDuffy）表示，美国航空出行受扰情况有望在未来一至两天内结束。他在接受采访时称，航空出行混乱将在“今天结束或明天结束”；其随后表示，航班延误情况预计“今天恢复正常，明天全面恢复正常”。",
-   "time": "2026-11-15 22:29:22",
-   "url": "https://finance.eastmoney.com/a/202611153931505434.html",
+   "title": "游戏《GTA VI》将于11月19日发售 机构估算预售已超1200万份 前作累计销量接近2.35亿份",
+   "summary": "游戏《GTAVI》将于11月19日发售，机构估算预售已超1200万份，前作累计销量接近2.35亿份。",
+   "time": "2026-11-15 22:51:29",
+   "url": "https://finance.eastmoney.com/a/202611153931512335.html",
    "source": "东财国际"
+  },
+  {
+   "title": "美国交通部长Duffy：期待明日能实现航班满负荷运转。",
+   "summary": "美国交通部长Duffy：期待明日能实现航班满负荷运转。",
+   "time": "2026-11-15 22:36",
+   "url": "https://wallstreetcn.com/livenews/3200208",
+   "source": "华尔街见闻"
   },
   {
    "title": "风口研报 - 财联社",
@@ -1810,13 +1916,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "中国贸促会：将组织更多中国企业赴APEC经济体考察交流 把亚太企业供需对接做深做实",
-   "summary": "中国贸促会国际合作部部长、APEC工商咨询理事会中国候任代表吴蒙11月15日在2026年APEC工商界活动专题新闻发布会上表示，中国贸促会将进一步发挥联通政企、融通内外、畅通供需优势，织密服务企业网、扩大国际朋友圈，促进亚太工商界务实合作，为发展亚太更紧密、更全面、更牢固的经贸伙伴关系注入工商力量。",
-   "time": "2026-11-15 22:00",
-   "url": "https://wallstreetcn.com/livenews/3200205",
-   "source": "华尔街见闻"
-  },
-  {
    "title": "稀有画面曝光：特朗普34岁时就提出应控制伊朗石油，“我们本应这么做而没有行动，我非常失望”；当时还是纽约地产商 - Sohu",
    "summary": "",
    "time": "2026-11-15 22:00",
@@ -1824,17 +1923,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "国家消防救援局：11月30日前完成五类问题自查自改",
+   "title": "可降解镁骨内固定螺钉获证 宜安科技破局骨科植入领域",
    "summary": "",
-   "time": "2026-11-15 14:28:39",
-   "url": "https://news.10jqka.com.cn/20261115/c681831751.shtml",
+   "time": "2026-11-15 14:48:38",
+   "url": "https://news.10jqka.com.cn/20261115/c681831804.shtml",
    "source": "同花顺"
   },
   {
-   "title": "特朗普：空中交通管制资金应一次性拨付到位",
+   "title": "高尔夫球场重建再遭司法叫停，特朗普：内政部将加急上诉，整修迫在眉睫",
    "summary": "",
-   "time": "2026-11-15 13:39:28",
-   "url": "https://news.futunn.com/flash/1004550861/trump-air-traffic-control-funding-should-be-allocated-in-full",
+   "time": "2026-11-15 14:37:52",
+   "url": "https://news.futunn.com/flash/1004551524/golf-course-reconstruction-halted-again-by-court-order-trump-department",
    "source": "富途"
   },
   {
@@ -1852,11 +1951,18 @@
    "source": "财新"
   },
   {
-   "title": "11月15日晚间公告集锦",
-   "summary": "【11月15日晚间公告集锦】1、ST闻泰：企业法庭就安世境外追加临时措施申请作出裁定，公司拟上诉。2、南卫股份：实控人李平因涉嫌内幕交易罪被刑事拘留。3、游族网络：控股子公司签订14.28亿元闪存颗粒采购合同。",
-   "time": "2026-11-15 22:24:01",
-   "url": "https://finance.eastmoney.com/a/202611153931497628.html",
+   "title": "美国交通部长Duffy表示：期待明日能实现航班满负荷运转",
+   "summary": "美国交通部长Duffy表示，期待明日能实现航班满负荷运转。",
+   "time": "2026-11-15 22:42:29",
+   "url": "https://finance.eastmoney.com/a/202611153931509143.html",
    "source": "东财国际"
+  },
+  {
+   "title": "中国贸促会：将组织更多中国企业赴APEC经济体考察交流 把亚太企业供需对接做深做实",
+   "summary": "中国贸促会国际合作部部长、APEC工商咨询理事会中国候任代表吴蒙11月15日在2026年APEC工商界活动专题新闻发布会上表示，中国贸促会将进一步发挥联通政企、融通内外、畅通供需优势，织密服务企业网、扩大国际朋友圈，促进亚太工商界务实合作，为发展亚太更紧密、更全面、更牢固的经贸伙伴关系注入工商力量。",
+   "time": "2026-11-15 22:00",
+   "url": "https://wallstreetcn.com/livenews/3200205",
+   "source": "华尔街见闻"
   },
   {
    "title": "中信建投研报：A股市场底大概率确认，11月或开启“进二退一”修复行情 - 金融界",
@@ -1864,13 +1970,6 @@
    "time": "2026-11-15 21:36",
    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9CTno2QXU3bHhuX2xzczZ0MnNOMzl2dDZyR2wyYndidl9YRmhEQXZwcmlrUTU2enp1dElxVmVhRWNsa0N1TmtzYS1sejZ5UkQ4N1FsRnlWNlZZdmxOZzA5bUhmZm9zbmFzSTdTYXRBdW5SNlJ5?oc=5",
    "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "康方生物ivonescimab被FDA拒绝上市，OS仍未获批关键",
-   "summary": "Summit Therapeutics Inc.今日宣布，美国食品药品监督管理局（FDA）已就 ivonescimab 联合含铂化疗用于治疗既往接受过表皮生长因子受体（EGFR）酪氨酸激酶抑制剂（TKI）治疗的局部晚期或转移性非小细胞肺癌（NSCLC）患者的生物制品许可申请（BLA）发出完整回复函（CRL）。",
-   "time": "2026-11-15 21:10",
-   "url": "https://wallstreetcn.com/livenews/3200202",
-   "source": "华尔街见闻"
   },
   {
    "title": "特朗普1980年视频流出，34岁即提出美国应控制伊朗石油 - 凤凰网",
@@ -1887,10 +1986,10 @@
    "source": "同花顺"
   },
   {
-   "title": "“粤车南下”一周年 港珠澳大桥出入境车辆超4.1万辆次",
+   "title": "特朗普：空中交通管制资金应一次性拨付到位",
    "summary": "",
-   "time": "2026-11-15 13:30:38",
-   "url": "https://news.futunn.com/flash/1004550754/guangdong-vehicles-traveling-south-marks-first-anniversary-over-41000-vehicle",
+   "time": "2026-11-15 13:39:28",
+   "url": "https://news.futunn.com/flash/1004550861/trump-air-traffic-control-funding-should-be-allocated-in-full",
    "source": "富途"
   },
   {
@@ -1901,11 +2000,18 @@
    "source": "财新"
   },
   {
-   "title": "开源盘古模型openPangu-2.1-Pro正式上线华为云",
-   "summary": "【开源盘古模型openPangu-2.1-Pro正式上线华为云】据华为云消息，11月15日，华为云MaaS模型即服务平台正式上线开源盘古模型openPangu-2.1-Pro。该模型围绕Agent开发、AI编码和推理优化三大方向进行能力升级，在深度研究、鸿蒙系统操控、鸿蒙APP开发、昇腾算子生成及推理链路优化等场景实现增强。",
-   "time": "2026-11-15 22:17:11",
-   "url": "https://finance.eastmoney.com/a/202611153931503510.html",
+   "title": "动用Token赶进度 基金公司年底上演“合同修订大战”",
+   "summary": "【动用Token赶进度 基金公司年底上演“合同修订大战”】今年年底，基金公司比往年更加忙碌。“要先用AI集中修订，买Token已经花了一万多。”这场让基金公司动用AI来赶进度的“大戏”是修订合同。据基金公司人士介绍，此次合同修订涉及面较广，主要包括销售费率调整、业绩比较基准、增设个人养老金Y份额以及增设投顾T类份额等四个方面。经过此轮密集修订，公募产品线将以更清晰的费率结构和更规范的业绩基准进入新的一年。",
+   "time": "2026-11-15 22:41:52",
+   "url": "https://finance.eastmoney.com/a/202611153931507487.html",
    "source": "东财国际"
+  },
+  {
+   "title": "康方生物ivonescimab被FDA拒绝上市，OS仍未获批关键",
+   "summary": "Summit Therapeutics Inc.今日宣布，美国食品药品监督管理局（FDA）已就 ivonescimab 联合含铂化疗用于治疗既往接受过表皮生长因子受体（EGFR）酪氨酸激酶抑制剂（TKI）治疗的局部晚期或转移性非小细胞肺癌（NSCLC）患者的生物制品许可申请（BLA）发出完整回复函（CRL）。",
+   "time": "2026-11-15 21:10",
+   "url": "https://wallstreetcn.com/livenews/3200202",
+   "source": "华尔街见闻"
   },
   {
    "title": "Barclays拟裁减投行部门约200个职位 - Sohu",
@@ -1913,13 +2019,6 @@
    "time": "2026-11-15 20:38",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSUx0Y1E2MEIyRVRfRE9GMG1JQmY4dy03aEc2MURLa3MxbW1IMk9ka2tjNWstaG9oZWIyYmwyTjJ3b2M1bl8wUEIxU1czcjhWV2Z5dlJfZUVKWC1ucnI3YnN5Qnl0NlZZZ2tQenVnbWhXbW1MZVNUZlRHNUNydkt3blNybFphaHJLS2Zsdw?oc=5",
    "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "恒瑞医药12款产品通过新版国家医保目录调整，3款新药首次入保",
-   "summary": "恒瑞医药共有12款产品通过新版国家医保目录调整，其中3款新药首次进入医保，2款创新药新增适应症纳入医保，7款产品完成目录内续约，持续提升优质药物可及性，切实减轻患者用药负担。",
-   "time": "2026-11-15 20:29",
-   "url": "https://wallstreetcn.com/livenews/3200199",
-   "source": "华尔街见闻"
   },
   {
    "title": "为了躲特朗普，北约连峰会都不开了 - 凤凰网",
@@ -1936,10 +2035,10 @@
    "source": "同花顺"
   },
   {
-   "title": "特朗普：拜登政府浪费资金加剧FAA系统问题 敦促国会拨款",
+   "title": "“粤车南下”一周年 港珠澳大桥出入境车辆超4.1万辆次",
    "summary": "",
-   "time": "2026-11-15 13:19:24",
-   "url": "https://news.futunn.com/flash/1004550567/trump-biden-administration-s-wasteful-spending-exacerbates-faa-system-issues",
+   "time": "2026-11-15 13:30:38",
+   "url": "https://news.futunn.com/flash/1004550754/guangdong-vehicles-traveling-south-marks-first-anniversary-over-41000-vehicle",
    "source": "富途"
   },
   {
@@ -1950,25 +2049,25 @@
    "source": "财新"
   },
   {
-   "title": "吉利星愿两年累销破百万辆 东风日产NX7搭载星火智慧座舱3.0",
-   "summary": "【吉利星愿两年累销破百万辆 东风日产NX7搭载星火智慧座舱3.0】近日，吉利汽车方面宣布，星愿自2024年10月上市以来24个月累计销量突破100万辆。东风标致2027款408正式上市，360THP Pro车型售价9.97万元。2027款408搭载第四代360THP全铝双涡道涡轮增压发动机+原装进口爱信第三代6速手自一体变速箱，可以提供127kW的最大功率和255N·m的峰值扭矩。",
-   "time": "2026-11-15 22:14:10",
-   "url": "https://finance.eastmoney.com/a/202611153931498427.html",
+   "title": "国家消防救援局：11月30日前完成五类问题自查自改",
+   "summary": "【国家消防救援局：11月30日前完成五类问题自查自改】11月15日，国家消防救援局发布通告，要求相关社会单位于11月30日前，完成五类严重火灾隐患及消防违法行为自查自改，涵盖通道堵塞、设施瘫痪、违规动火、培训演练缺失、多业态场所管理混乱等情形。",
+   "time": "2026-11-15 22:34:11",
+   "url": "https://finance.eastmoney.com/a/202611153931507323.html",
    "source": "东财国际"
   },
   {
-   "title": "风口研报 - 财联社电报",
-   "summary": "",
-   "time": "2026-11-15 20:37",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE56ODhsclpsWTVpckdvOHl3Z3JGRDJQa0Y4MTBKcFJHS2J0cU0yQVNCVmtadXVaUlVQVllNZFZlTTFURUN3WnkwUHVDUmZnZ0kyZVpweTBmTG1nTFhrZkJXdlZ3?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "恒瑞医药12款产品通过新版国家医保目录调整，3款新药首次入保",
+   "summary": "恒瑞医药共有12款产品通过新版国家医保目录调整，其中3款新药首次进入医保，2款创新药新增适应症纳入医保，7款产品完成目录内续约，持续提升优质药物可及性，切实减轻患者用药负担。",
+   "time": "2026-11-15 20:29",
+   "url": "https://wallstreetcn.com/livenews/3200199",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(23)",
+   "富途": "ok(24)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1978,8 +2077,8 @@
   },
   "counts": {
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
    "华尔街见闻": 7,
+   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
    "同花顺": 7,
    "富途": 6,
