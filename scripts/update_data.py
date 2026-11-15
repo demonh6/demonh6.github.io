@@ -220,10 +220,73 @@ def _last_valid_rows(df, n=2):
     return list(reversed(rows))
 
 
-def fetch_a_indices():
-    """A股主要指数（新浪源）。"""
+def _sina_index_rows(symbols):
+    """新浪 hq 指数行情，统一解析为 {sym: {...}}（绕开 akshare 接口改名）。
+
+    A股指数字段：0=名称 1=今开 2=昨收 3=最新 4=最高 5=最低 8=成交量 9=成交额 30=日期 31=时间
+    港股指数字段：0=英文名 1=名称 2=今开 3=昨收 4=最高 5=最低 6=最新 7=涨跌额 8=涨跌幅 17=日期 18=时间
+    """
+    hq = _sina_hq(symbols)
+    out = {}
+    for sym, f in hq.items():
+        try:
+            if sym.startswith("hk"):
+                price, prev = float(f[6]), float(f[3])
+                if price <= 0:
+                    continue
+                out[sym] = {
+                    "name": f[1], "price": price, "prev": prev,
+                    "change": float(f[7]), "change_pct": float(f[8]),
+                    "time": ("%s %s" % (f[17].replace("/", "-"), f[18])) if len(f) > 18 else "",
+                }
+            else:
+                price, prev = float(f[3]), float(f[2])
+                if price <= 0 or prev <= 0:
+                    continue
+                out[sym] = {
+                    "name": f[0], "price": price, "prev": prev,
+                    "change": price - prev,
+                    "change_pct": (price / prev - 1) * 100,
+                    "time": ("%s %s" % (f[30], f[31])) if len(f) > 31 else "",
+                }
+        except (IndexError, ValueError):
+            continue
+    return out
+
+
+def _ak_index_spot(fn_names):
+    """akshare 指数快照兼容层：1.20.44 起接口改名，按新旧名依次尝试。"""
     import akshare as ak
 
+    last = None
+    for nm in fn_names:
+        fn = getattr(ak, nm, None)
+        if fn is None:
+            continue
+        try:
+            return _df_to_records(fn())
+        except Exception as e:  # noqa: BLE001
+            last = e
+    if last:
+        raise last
+    raise RuntimeError("akshare 指数快照接口均不可用（%s）" % "/".join(fn_names))
+
+
+def _pick(row, *names):
+    """按候选列名取值；akshare 改名后列名偶有变动，最后做子串兜底。"""
+    for n in names:
+        v = row.get(n)
+        if v not in (None, ""):
+            return v
+    for k, v in row.items():
+        for n in names:
+            if n and n in str(k) and v not in (None, ""):
+                return v
+    return None
+
+
+def fetch_a_indices():
+    """A股主要指数：新浪 hq 直连为主，akshare 新旧接口回退。"""
     targets = [
         ("sh000001", "上证指数"),
         ("sz399001", "深证成指"),
@@ -233,8 +296,30 @@ def fetch_a_indices():
         ("sh000016", "上证50"),
         ("sh000905", "中证500"),
     ]
-    records = _df_to_records(ak.stock_zh_index_spot_sina())
-    by_code = {str(r.get("代码", "")).strip(): r for r in records}
+    # 1) 新浪 hq 直连（不依赖 akshare 版本）
+    try:
+        rows = _sina_index_rows([c for c, _ in targets])
+        result = []
+        for code, name in targets:
+            r = rows.get(code)
+            if not r:
+                continue
+            result.append({
+                "name": name, "code": code, "sym": _sym_a(code),
+                "price": round(r["price"], 4),
+                "change": round(r["change"], 4),
+                "change_pct": round(r["change_pct"], 2),
+            })
+        if len(result) >= 5:
+            log(f"OK   A股指数(新浪hq直连 {len(result)}/{len(targets)})")
+            return result
+        log(f"降级 A股指数(新浪hq仅返回 {len(result)} 条)，尝试akshare")
+    except Exception as e:  # noqa: BLE001
+        log(f"降级 A股指数(新浪hq不可达: {type(e).__name__})，尝试akshare")
+
+    # 2) akshare 回退
+    records = _ak_index_spot(["index_zh_spot_sina", "stock_zh_index_spot_sina"])
+    by_code = {str(_pick(r, "代码", "code") or "").strip(): r for r in records}
     result = []
     for code, name in targets:
         r = by_code.get(code)
@@ -244,36 +329,59 @@ def fetch_a_indices():
             "name": name,
             "code": code,
             "sym": _sym_a(code),
-            "price": to_float(r.get("最新价")),
-            "change": to_float(r.get("涨跌额")),
-            "change_pct": pct(r.get("涨跌幅")),
+            "price": to_float(_pick(r, "最新价", "最新", "price")),
+            "change": to_float(_pick(r, "涨跌额", "change")),
+            "change_pct": pct(_pick(r, "涨跌幅", "change_pct")),
         })
     if not result:
-        raise RuntimeError("新浪A股指数接口返回数据为空")
+        raise RuntimeError("A股指数取数失败（新浪hq + akshare 均不可用）")
     return result
 
 
 def fetch_hk_indices():
-    """港股主要指数（新浪源，恒生系）。"""
-    import akshare as ak
+    """港股主要指数：新浪 hq 直连为主（hkHSI/hkHSCEI/hkHSTECH），akshare 回退。"""
+    targets = [
+        ("hkHSI", "恒生指数"),
+        ("hkHSTECH", "恒生科技指数"),
+        ("hkHSCEI", "恒生中国企业指数"),
+    ]
+    try:
+        rows = _sina_index_rows([c for c, _ in targets])
+        result = []
+        for code, name in targets:
+            r = rows.get(code)
+            if not r:
+                continue
+            result.append({
+                "name": name, "code": code, "sym": code.replace("hk", ""),
+                "price": round(r["price"], 3),
+                "change": round(r["change"], 3),
+                "change_pct": round(r["change_pct"], 2),
+            })
+        if len(result) >= 2:
+            log(f"OK   港股指数(新浪hq直连 {len(result)}/{len(targets)})")
+            return result
+        log(f"降级 港股指数(新浪hq仅返回 {len(result)} 条)，尝试akshare")
+    except Exception as e:  # noqa: BLE001
+        log(f"降级 港股指数(新浪hq不可达: {type(e).__name__})，尝试akshare")
 
-    records = _df_to_records(ak.stock_hk_index_spot_sina())
+    records = _ak_index_spot(["index_hk_spot_sina", "stock_hk_index_spot_sina"])
     wanted = ["恒生指数", "恒生科技指数", "恒生中国企业指数"]
     by_name = {}
     for r in records:
-        name = str(r.get("名称", "")).strip()
+        name = str(_pick(r, "名称", "name") or "").strip()
         if name in wanted and name not in by_name:
             by_name[name] = {
                 "name": name,
-                "code": str(r.get("代码", "")).strip(),
-                "sym": str(r.get("代码", "")).strip(),
-                "price": to_float(r.get("最新价")),
-                "change": to_float(r.get("涨跌额")),
-                "change_pct": pct(r.get("涨跌幅")),
+                "code": str(_pick(r, "代码", "code") or "").strip(),
+                "sym": str(_pick(r, "代码", "code") or "").strip(),
+                "price": to_float(_pick(r, "最新价", "最新", "price")),
+                "change": to_float(_pick(r, "涨跌额", "change")),
+                "change_pct": pct(_pick(r, "涨跌幅", "change_pct")),
             }
     result = [by_name[n] for n in wanted if n in by_name]
     if not result:
-        raise RuntimeError("新浪港股指数接口未返回恒生系指数")
+        raise RuntimeError("港股指数取数失败（新浪hq + akshare 均不可用）")
     return result
 
 
@@ -689,12 +797,122 @@ def fetch_crypto():
     raise RuntimeError("；".join(errors) or "全部加密源失败")
 
 
+def _fx_sina():
+    """新浪兜底：美元指数 / AH溢价 / 离岸人民币现价。
+
+    字段(新浪)：
+      美元指数 DINIW  → 8=最新 3=昨收 10=日期
+      AH溢价 hkHSAHP  → 6=最新 7=涨跌额 8=涨跌幅 17=日期
+      离岸人民币 fx_susdcnh → 8=最新 17=日期（该源不带昨收，涨跌留空）
+    """
+    hq = _sina_hq(["DINIW", "hkHSAHP", "fx_susdcnh"])
+    out = {}
+
+    f = hq.get("DINIW")
+    if f and len(f) > 9:
+        try:
+            price, prev = float(f[8]), float(f[3])
+            if prev > 0:
+                out["DXY"] = {
+                    "price": round(price, 3), "change": round(price - prev, 3),
+                    "change_pct": round((price / prev - 1) * 100, 2),
+                    "date": f[10] if len(f) > 10 else "",
+                }
+        except (ValueError, IndexError):
+            pass
+
+    f = hq.get("hkHSAHP")
+    if f and len(f) > 8:
+        try:
+            out["HSAHP"] = {
+                "price": round(float(f[6]), 2), "change": round(float(f[7]), 2),
+                "change_pct": round(float(f[8]), 2),
+                "date": f[17].replace("/", "-") if len(f) > 17 else "",
+            }
+        except (ValueError, IndexError):
+            pass
+
+    f = hq.get("fx_susdcnh")
+    if f and len(f) > 8:
+        try:
+            out["USDCNH"] = {
+                "price": round(float(f[8]), 4), "change": None, "change_pct": None,
+                "date": f[17] if len(f) > 17 else "",
+            }
+        except (ValueError, IndexError):
+            pass
+    return out
+
+
+def _fx_em():
+    """东财主源：字段语义统一（fltt=2 时直接返回浮点）。"""
+    out = {}
+    for secid, sym, dec in (("100.UDI", "DXY", 2),
+                            ("133.USDCNH", "USDCNH", 4),
+                            ("100.HSAHP", "HSAHP", 2)):
+        try:
+            r = requests.get("https://push2.eastmoney.com/api/qt/stock/get",
+                             params={"secid": secid, "fltt": 2, "invt": 2,
+                                     "fields": "f43,f58,f60,f169,f170"},
+                             headers={**_UA_HEADERS, "Referer": "https://quote.eastmoney.com/"},
+                             timeout=HTTP_TIMEOUT)
+            r.raise_for_status()
+            d = (r.json() or {}).get("data") or {}
+            if not d or d.get("f43") is None:
+                continue
+            out[sym] = {
+                "price": round(float(d["f43"]), dec),
+                "change": round(float(d.get("f169") or 0), dec),
+                "change_pct": round(float(d.get("f170") or 0), 2),
+                "date": "",
+            }
+        except Exception:  # noqa: BLE001
+            continue
+    return out
+
+
+def fetch_fx():
+    """跨市场锚：美元指数 / 离岸人民币 / AH股溢价。
+
+    同花顺里这三个分散在外汇、港股、A股三个模块；放一起才看得出
+    "美元 → 人民币 → AH溢价"这条影响外资与核心资产的链条。
+    """
+    specs = [
+        ("美元指数", "DXY", "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品"),
+        ("离岸人民币", "USDCNH", "数值上行 = 人民币贬值，常伴随外资流出压力"),
+        ("AH股溢价", "HSAHP", "A股相对H股的溢价，>130 属历史偏高区间"),
+    ]
+    em, sina = {}, {}
+    try:
+        em = _fx_em()
+    except Exception:  # noqa: BLE001
+        pass
+    try:
+        sina = _fx_sina()
+    except Exception as e:  # noqa: BLE001
+        log(f"降级 跨市场(新浪不可达: {type(e).__name__})")
+
+    out = []
+    for name, sym, hint in specs:
+        it = em.get(sym) or sina.get(sym)
+        if not it or it.get("price") in (None, 0):
+            continue
+        out.append({
+            "name": name, "sym": sym, "price": it["price"],
+            "change": it.get("change"), "change_pct": it.get("change_pct"),
+            "dec": 4 if sym == "USDCNH" else 2,
+            "date": it.get("date") or "",
+            "hint": hint, "source": "东财" if sym in em else "新浪",
+        })
+    return out
+
+
 def fetch_key_assets(bond_due=True, prev_bond=None):
     """关键标的聚合：贵金属/能源(每次)、加密(每次)、美债(降频，日频数据)。
 
     bond_due=False 时直接沿用 prev_bond（财政部 CSV 为日频，10分钟粒度无新数据）。
     """
-    assets = {"bond": prev_bond, "commodities": [], "crypto": []}
+    assets = {"bond": prev_bond, "commodities": [], "crypto": [], "fx": []}
     errors = {}
 
     if bond_due:
@@ -718,6 +936,14 @@ def fetch_key_assets(bond_due=True, prev_bond=None):
     except Exception as e:  # noqa: BLE001
         errors["加密货币"] = f"{type(e).__name__}: {e}"
         log(f"FAIL 加密货币: {e}")
+
+    try:
+        assets["fx"] = fetch_fx()
+        if assets["fx"]:
+            log(f"OK   跨市场锚（{len(assets['fx'])} 项）")
+    except Exception as e:  # noqa: BLE001
+        errors["跨市场"] = f"{type(e).__name__}: {e}"
+        log(f"FAIL 跨市场: {e}")
 
     return assets, errors
 
@@ -1138,6 +1364,292 @@ def _cboe_hist(ticker, n=30):
     return closes[-n:]
 
 
+# ---------------------------------------------------------------- 盘面结构
+PUSH2EX_URL = "https://push2ex.eastmoney.com/%s"
+ZT_UT = "7eea3edcaed734bea9cbfc24409ed989"
+ZT_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/122.0 Safari/537.36"),
+    "Referer": "https://quote.eastmoney.com/ztb/detail",
+}
+
+
+def _pool_page(kind, sort, date_str, page=0, pagesize=100):
+    """东财涨停板专题池：kind ∈ getTopicZTPool/ZBPool/DTPool/QSPool。
+
+    注意：sort 参数不能省，缺失时接口只回 tc 不回 pool。
+    """
+    r = requests.get(PUSH2EX_URL % kind, params={
+        "ut": ZT_UT, "dpt": "wz.ztzt", "Pageindex": page,
+        "pagesize": pagesize, "sort": sort, "date": date_str,
+    }, headers=ZT_HEADERS, timeout=HTTP_TIMEOUT)
+    r.raise_for_status()
+    return (r.json() or {}).get("data") or {}
+
+
+def _pool_all(kind, sort, date_str, max_pages=6):
+    """翻页取全量池，返回 (pool, total, qdate)。"""
+    out, total, qdate, page = [], None, "", 0
+    while page < max_pages:
+        d = _pool_page(kind, sort, date_str, page)
+        if total is None:
+            total = int(d.get("tc") or 0)
+        qdate = qdate or str(d.get("qdate") or "")
+        pool = d.get("pool") or []
+        if not pool:
+            break
+        out.extend(pool)
+        page += 1
+        if len(out) >= total:
+            break
+    return out, (total if total is not None else len(out)), qdate
+
+
+def _ladder(counts, max_show=6):
+    """连板梯队：1板/2板/…/6板+。"""
+    rows = []
+    for n in range(1, max_show):
+        rows.append({"boards": n, "label": "%d板" % n, "count": int(counts.get(n, 0))})
+    tail = sum(v for k, v in counts.items() if k >= max_show)
+    rows.append({"boards": max_show, "label": "%d板+" % max_show, "count": int(tail)})
+    return rows
+
+
+def _structure_insights(s, idx_pct):
+    """按当日客观数值生成解读，不做方向预测。"""
+    out = []
+    zt, dt = s.get("zt_count") or 0, s.get("dt_count") or 0
+    seal, zb = s.get("seal_rate"), s.get("zb_count") or 0
+    mx = s.get("max_streak") or 0
+    cont = s.get("continued") or 0
+    top = (s.get("industries") or [{}])[0] if s.get("industries") else {}
+
+    if seal is not None:
+        if seal < 50:
+            out.append("封板率 %.0f%%（炸板 %d 家）：涨停打开的比例偏高，说明承接不足，"
+                       "盘中追涨的容错空间小。" % (seal, zb))
+        elif seal >= 70:
+            out.append("封板率 %.0f%%（炸板 %d 家）：封板意愿较强，涨停质量偏好，"
+                       "次日溢价的概率通常高于炸板率高的日子。" % (seal, zb))
+        else:
+            out.append("封板率 %.0f%%（炸板 %d 家）：多空分歧居中，涨停质量一般。" % (seal, zb))
+
+    if dt >= 20:
+        out.append("跌停 %d 家：个股层面的风险在释放，注意高位股与题材补跌。" % dt)
+    elif dt == 0 and zt > 20:
+        out.append("无跌停且涨停 %d 家：当日风险偏好偏高，属于普涨式做多环境。" % zt)
+
+    if mx >= 5:
+        out.append("最高 %d 连板：存在明确的高度股，短线情绪有主线载体；"
+                   "高度股一旦断板，同题材跟风股通常先调整。" % mx)
+    elif mx >= 3:
+        out.append("最高 %d 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。" % mx)
+    elif mx <= 2 and zt > 0:
+        out.append("最高仅 %d 板：缺乏连板高度，说明资金不愿接力，情绪偏分歧。" % mx)
+
+    if cont and zt:
+        out.append("连板 %d 家 / 涨停 %d 家（%.0f%%）：%s" % (
+            cont, zt, cont / zt * 100,
+            "赚钱效应有延续性" if cont / zt >= 0.3 else "以首板为主，持续性待验证"))
+
+    if top.get("count") and zt:
+        share = top["count"] / zt * 100
+        if share >= 30:
+            out.append("涨停集中在 %s（%d 家，占 %.0f%%）：主线明确，但过度集中也意味着"
+                       "一旦该方向退潮，涨停家数会快速回落。" % (top["name"], top["count"], share))
+        else:
+            out.append("涨停最集中的 %s 也只占 %.0f%%：热点分散，没有单一主线。" % (
+                top.get("name", "—"), share))
+
+    if idx_pct is not None:
+        if idx_pct < 0 and zt >= 40:
+            out.append("指数 %.2f%% 但涨停 %d 家：典型的结构性行情，赚钱效应在题材而不在权重。"
+                       % (idx_pct, zt))
+        elif idx_pct > 0 and zt < 30:
+            out.append("指数 +%.2f%% 但涨停仅 %d 家：权重拉指数、个股不普涨，体感会弱于指数。"
+                       % (idx_pct, zt))
+    return out
+
+
+def _structure_score(seal, zt, dt, cont):
+    """结构分（0–100）：封板率 45% + 涨跌停比 35% + 连板占比 20%。"""
+    ratio = zt / (zt + dt) if (zt + dt) else 0.5
+    streak_norm = min(1.0, (cont / zt) / 0.35) if zt else 0.0
+    if seal is None:
+        return round(100 * (0.55 * ratio + 0.45 * streak_norm), 1)
+    return round(100 * (0.45 * seal / 100 + 0.35 * ratio + 0.20 * streak_norm), 1)
+
+
+def _structure_label(score):
+    if score < 30:
+        return "冰点"
+    if score < 45:
+        return "偏冷"
+    if score < 60:
+        return "中性"
+    if score < 75:
+        return "偏热"
+    return "过热"
+
+
+def _backfill_history(existing, days=26):
+    """首次运行时回填东财涨停池可回溯窗口（约 20 个自然日）的涨跌停家数。
+
+    只补计数（每日 2 个轻量请求），不补炸板/连板明细——这几项接口不提供历史。
+    """
+    from datetime import timedelta
+
+    have = {h.get("date") for h in existing}
+    today = datetime.now(CST).date()
+    added = []
+    for i in range(1, days + 1):
+        d = today - timedelta(days=i)
+        if d.weekday() >= 5:                      # 跳过周末
+            continue
+        iso, ds = d.strftime("%Y-%m-%d"), d.strftime("%Y%m%d")
+        if iso in have:
+            continue
+        try:
+            zt = _pool_page("getTopicZTPool", "fbt:asc", ds, 0, 1).get("tc")
+            dt = _pool_page("getTopicDTPool", "fund:asc", ds, 0, 1).get("tc")
+        except Exception:  # noqa: BLE001
+            continue
+        if not zt and not dt:                     # 节假日或超出回溯窗口
+            continue
+        added.append({
+            "date": iso, "zt": int(zt or 0), "dt": int(dt or 0),
+            "zb": None, "seal": None, "max_streak": None,
+            "score": None, "index_pct": None, "backfill": True,
+        })
+    if added:
+        log("OK   盘面结构回填 %d 个交易日（仅涨跌停家数）" % len(added))
+    return added
+
+
+def fetch_structure(a_indices=None, prev=None):
+    """涨停/炸板/跌停/强势四池 → 封板率、连板梯队、行业集中度、龙头与历史序列。
+
+    同花顺里这些信息分散在涨停池、炸板池、连板梯队等多个页面；这里合成一屏，
+    并额外给出「封板率」「行业集中度」「与指数背离」三个需要自己算的指标。
+    """
+    from collections import Counter
+
+    now = datetime.now(CST)
+    date_str = now.strftime("%Y%m%d")
+
+    zt_pool, zt_total, qdate = _pool_all("getTopicZTPool", "fbt:asc", date_str)
+    try:
+        zb_pool, zb_total, _ = _pool_all("getTopicZBPool", "zdp:desc", date_str)
+    except Exception:  # noqa: BLE001
+        zb_pool, zb_total = [], 0
+    try:
+        dt_pool, dt_total, _ = _pool_all("getTopicDTPool", "fund:asc", date_str)
+    except Exception:  # noqa: BLE001
+        dt_pool, dt_total = [], 0
+    try:
+        _, qs_total, _ = _pool_all("getTopicQSPool", "zdp:desc", date_str, max_pages=1)
+    except Exception:  # noqa: BLE001
+        qs_total = 0
+
+    if not zt_pool and not dt_pool:
+        raise RuntimeError("涨停/跌停池均返回空（非交易日或接口变更）")
+
+    # 连板梯队
+    streak_counter = Counter()
+    for x in zt_pool:
+        streak_counter[int(x.get("lbc") or 1)] += 1
+    ladder = _ladder(streak_counter)
+    max_streak = max(streak_counter) if streak_counter else 0
+    first_board = streak_counter.get(1, 0)
+    continued = len(zt_pool) - first_board
+
+    # 封板率 = 涨停 /(涨停 + 炸板)
+    zt_count, zb_count = len(zt_pool), len(zb_pool)
+    seal_rate = round(zt_count / (zt_count + zb_count) * 100, 1) if (zt_count + zb_count) else None
+
+    # 行业集中度
+    ind = Counter(str(x.get("hybk") or "其他").strip() for x in zt_pool)
+    industries = [{"name": k, "count": v, "share": round(v / zt_count * 100, 1)}
+                  for k, v in ind.most_common(8)] if zt_count else []
+    dt_ind = Counter(str(x.get("hybk") or "其他").strip() for x in dt_pool)
+    dt_industries = [{"name": k, "count": v} for k, v in dt_ind.most_common(5)]
+
+    # 龙头：连板高度优先，其次封单资金
+    def _leader(x):
+        return (
+            str(x.get("n") or ""),
+            str(x.get("c") or ""),
+            int(x.get("lbc") or 1),
+            round((x.get("fund") or 0) / 1e8, 2),
+            str(x.get("hybk") or ""),
+            round(float(x.get("zdp") or 0), 2),
+            int(x.get("zbc") or 0),
+        )
+
+    leaders = []
+    for x in sorted(zt_pool, key=lambda y: (int(y.get("lbc") or 1), y.get("fund") or 0),
+                    reverse=True)[:6]:
+        name, code, lbc, fund, hybk, zdp, zbc = _leader(x)
+        leaders.append({"name": name, "code": code, "streak": lbc, "fund_yi": fund,
+                        "industry": hybk, "change_pct": zdp, "broken": zbc})
+
+    dt_leaders = []
+    for x in sorted(dt_pool, key=lambda y: abs(float(y.get("amount") or 0)),
+                    reverse=True)[:4]:
+        dt_leaders.append({
+            "name": str(x.get("n") or ""), "code": str(x.get("c") or ""),
+            "industry": str(x.get("hybk") or ""),
+            "change_pct": round(float(x.get("zdp") or 0), 2),
+        })
+
+    idx_pct = None
+    for it in (a_indices or []):
+        if it.get("name") == "上证指数":
+            idx_pct = it.get("change_pct")
+            break
+
+    score = _structure_score(seal_rate, zt_count, dt_total or len(dt_pool), continued)
+    snap = {
+        "date": ("%s-%s-%s" % (qdate[:4], qdate[4:6], qdate[6:8])) if len(qdate) == 8
+                else now.strftime("%Y-%m-%d"),
+        "zt_count": zt_count, "dt_count": dt_total or len(dt_pool),
+        "zb_count": zb_count, "qs_count": qs_total,
+        "seal_rate": seal_rate,
+        "first_board": first_board, "continued": continued, "max_streak": max_streak,
+        "ladder": ladder, "industries": industries, "dt_industries": dt_industries,
+        "leaders": leaders, "dt_leaders": dt_leaders,
+        "index_pct": idx_pct,
+        "score": score, "score_label": _structure_label(score),
+        "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
+    }
+    snap["insights"] = _structure_insights(snap, idx_pct)
+
+    # 历史序列（自建，最多 60 个交易日；首次运行回填约 20 日）
+    history = list((prev or {}).get("history") or [])
+    row = {
+        "date": snap["date"], "zt": zt_count, "dt": snap["dt_count"],
+        "zb": zb_count, "seal": seal_rate, "max_streak": max_streak,
+        "score": score, "index_pct": idx_pct,
+    }
+    history = [h for h in history if h.get("date") != row["date"]]
+    history.append(row)
+    backfill_done = bool((prev or {}).get("backfill_done"))
+    if not backfill_done and len(history) < 5:
+        try:
+            history.extend(_backfill_history(history))
+            backfill_done = True
+        except Exception as e:  # noqa: BLE001
+            log("回填盘面结构历史失败：%s" % type(e).__name__)
+    history.sort(key=lambda h: h.get("date") or "")
+    snap["history"] = history[-60:]
+    snap["backfill_done"] = backfill_done
+
+    log("OK   盘面结构 涨停%d 跌停%d 炸板%d 封板率%s%% 最高%d板 结构分%.1f"
+        % (zt_count, snap["dt_count"], zb_count,
+           seal_rate if seal_rate is not None else "-", max_streak, score))
+    return snap
+
+
 def fetch_sentiment(fg_due=True, prev_fg=None):
     """情绪与风险仪表：恐惧贪婪(降频,日频数据) + A股广度 + VIX + 波动率期限结构。"""
     sentiment = {}
@@ -1254,18 +1766,7 @@ def fetch_sentiment(fg_due=True, prev_fg=None):
     except Exception as e:  # noqa: BLE001
         log(f"FAIL 波动率期限结构: {type(e).__name__}")
 
-    # 5. 综合情绪（恐惧贪婪 + A股广度分）
-    scores = []
-    if "fear_greed" in sentiment:
-        scores.append(sentiment["fear_greed"]["value"])
-    if "a_share_breadth" in sentiment:
-        scores.append(sentiment["a_share_breadth"]["score"])
-    if scores:
-        avg = round(sum(scores) / len(scores), 1)
-        sentiment["composite"] = {
-            "score": avg, "label": _fg_bucket(int(avg))[0],
-            "color": _fg_bucket(int(avg))[1],
-        }
+    # 5. 综合情绪分改在 main() 里计算（需等盘面结构就绪），此处不再混算加密情绪
     return sentiment
 
 
@@ -1289,6 +1790,16 @@ def fetch_speakers(news_pool):
             })
     speakers.sort(key=lambda x: x.get("time", ""), reverse=True)
     return speakers
+
+
+def _em_news_global(_kwargs=None):
+    """东财国际新闻：akshare 1.20.41 起 stock_info_global_em -> stock_news_global_em。"""
+    import akshare as ak
+
+    fn = getattr(ak, "stock_news_global_em", None) or getattr(ak, "stock_info_global_em", None)
+    if fn is None:
+        raise RuntimeError("东财国际新闻接口在新旧版本中都不存在")
+    return fn()
 
 
 def _ths_with_retry(_kwargs=None):
@@ -1623,7 +2134,7 @@ def fetch_news():
             source_status[tag] = f"FAIL:{type(e).__name__}"
             log(f"FAIL 要闻-{tag}: {type(e).__name__}")
 
-    collect(ak.stock_info_global_em, {}, "东财国际")
+    collect(_em_news_global, {}, "东财国际")
     collect(ak.stock_info_cjzc_em, {}, "东财早报")   # 替换失效的新浪全球财经
     collect(ak.stock_info_global_futu, {}, "富途")
     collect(_ths_with_retry, {}, "同花顺")
@@ -1851,6 +2362,10 @@ def main():
 
     wuxing, errors["今日五行"] = safe(fetch_wuxing, "今日五行")   # 纯本地计算，零成本
 
+    # ---- t1：盘面结构（涨停/炸板/跌停/强势池，2–4 个轻量请求）----
+    structure, errors["盘面结构"] = safe(
+        lambda: fetch_structure(a_idx, prev.get("structure")), "盘面结构")
+
     # ---- t2：东财全球指数 / 美债(已在上方) / 新闻 ----
     if _tier_due("t2", minute):
         global_idx, errors["全球指数"] = safe(fetch_global_indices, "全球指数(亚太/欧洲)")
@@ -1905,12 +2420,28 @@ def main():
 
     alerts = compute_alerts(markets, key_assets)
 
+    # 情绪综合分：A股口径（广度 60% + 盘面结构 40%）；结构缺数据时退化为纯广度
+    if not structure:
+        structure = prev.get("structure")          # 抓取失败时保住历史序列
+    if isinstance(sentiment, dict) and sentiment.get("a_share_breadth"):
+        b = sentiment["a_share_breadth"].get("score")
+        st = (structure or {}).get("score")
+        if b is not None:
+            avg = round(b * 0.6 + st * 0.4, 1) if st is not None else round(b, 1)
+            sentiment["composite"] = {
+                "score": avg,
+                "label": _structure_label(avg),
+                "color": _fg_bucket(int(avg))[1],
+                "basis": "A股广度 60% + 盘面结构 40%" if st is not None else "A股广度 100%（结构数据暂缺）",
+                "parts": {"breadth": b, "structure": st},
+            }
+
     freq_note = {
         "10min": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
         "hourly": "每小时更新一次（整点触发）；如需改为每日更新，调整 GitHub Actions cron 即可。",
     }.get(INTERVAL, "每日更新一次；如需改为每小时更新，调整 GitHub Actions cron 即可。")
     payload = {
-        "schema_version": 12,
+        "schema_version": 13,
         "generated_at": now.strftime("%Y-%m-%d %H:%M:%S CST"),
         "generated_at_iso": now.isoformat(timespec="seconds"),
         "date": now.strftime("%Y-%m-%d"),
@@ -1925,6 +2456,7 @@ def main():
         "news": news,
         "news_meta": news_meta,
         "wuxing": wuxing,
+        "structure": structure,
         "errors": {k: v for k, v in errors.items() if v},
         "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。",
     }

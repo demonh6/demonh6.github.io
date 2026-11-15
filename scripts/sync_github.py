@@ -50,7 +50,12 @@ CRED_TARGET = "WorkBuddy GitHub Sync"
 
 # 这些文件由 GitHub Actions（每 10 分钟）自动生成，本地副本必然过期，
 # 一旦推上去会把远程最新数据覆盖回旧版，因此同步时始终跳过。
-EXCLUDE = {"data/dashboard.json", "data/research_urls.json"}
+EXCLUDE = {
+    "data/dashboard.json",       # update-dashboard.yml 每10分钟生成
+    "data/research_urls.json",
+    "data/sector_lab.json",      # update-sector-lab.yml 每日生成
+    "data/sector_lab_live.json", # update-sector-live.yml 每小时生成
+}
 
 # ---------------------------------------------------------------- 凭据
 class _FT(ctypes.Structure):
@@ -169,6 +174,23 @@ def blob_sha(path):
     return git("hash-object", os.path.join(REPO, path.replace("/", os.sep)))
 
 
+def blob_sha_lf(path):
+    """把 CRLF 归一化后算 sha，用于识别「只差行尾」的假改动。
+
+    本机检出时被转成 CRLF 的文件，内容与远程完全一致，若按原始 sha 比较会
+    被判定为已修改，推送后等于把整个仓库的行尾翻一遍。
+    """
+    full = os.path.join(REPO, path.replace("/", os.sep))
+    with open(full, "rb") as f:
+        raw = f.read()
+    if b"\r\n" not in raw:
+        return None
+    norm = raw.replace(b"\r\n", b"\n")
+    out = subprocess.run(["git", "-C", REPO, "hash-object", "--stdin"],
+                         input=norm, stdout=subprocess.PIPE, check=True)
+    return out.stdout.decode().strip()
+
+
 def remote_blobs(base_sha, token):
     tree = api("GET", "/git/trees/%s?recursive=1" % base_sha, token=token)
     return {e["path"]: e["sha"] for e in tree.get("tree", []) if e.get("type") == "blob"}
@@ -191,8 +213,15 @@ def diff_against_remote(base_sha, token):
             continue
         if remote.get(p) == sha:
             same.append(p)
-        else:
-            changed.append((p, p not in remote))
+            continue
+        # 再做一次「行尾归一化」比对，排除 CRLF/LF 造成的假改动
+        try:
+            if remote.get(p) and blob_sha_lf(p) == remote[p]:
+                same.append(p)
+                continue
+        except Exception:  # noqa: BLE001
+            pass
+        changed.append((p, p not in remote))
     known = set(tracked)
     only_remote = sorted(
         p for p in remote

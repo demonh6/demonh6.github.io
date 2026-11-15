@@ -191,6 +191,9 @@
     color: var(--gold); border: 1px solid rgba(217, 178, 60, 0.35);
     border-radius: 999px; padding: 0 8px; font-size: 11px;
   }
+  .chart-meta .hint-line {
+    flex-basis: 100%; color: var(--text-faint); line-height: 1.65;
+  }
   .no-hist { color: var(--text-faint); font-size: 12px; text-align: center; padding: 12px 0 4px; }
 
   /* ---------- 告警横幅 ---------- */
@@ -517,6 +520,7 @@
   }
 </style>
 <link rel="stylesheet" href="assets/css/sector-lab.css" />
+<link rel="stylesheet" href="assets/css/structure.css" />
 </head>
 <body>
 <div class="wrap">
@@ -652,18 +656,18 @@
   <section id="sentiment">
     <div class="sec-head">
       <h2>风险与情绪仪表</h2>
-      <span class="tag">VIX · 恐惧贪婪 · A股广度 · TACO · 综合情绪分</span>
+      <span class="tag">VIX · 期限结构 · A股广度 · 加密风险偏好 · A股情绪分</span>
     </div>
     <div class="sent-row" id="sent-body">
       <div class="sent-card" id="sent-composite">
-        <div class="sc-head"><span>综合情绪</span><span class="src">恐惧贪婪 × A股广度</span></div>
+        <div class="sc-head"><span>A股情绪分</span><span class="src">广度 60% + 盘面结构 40%</span></div>
         <div class="composite-big" id="comp-big" style="text-align:center;padding-top:14px;">
           <div class="num" id="comp-num">—</div>
           <div class="lbl" id="comp-lbl">加载中…</div>
         </div>
       </div>
       <div class="sent-card" id="sent-fg">
-        <div class="sc-head"><span>全球恐惧贪婪指数</span><span class="src">alternative.me</span></div>
+        <div class="sc-head"><span>加密恐惧贪婪</span><span class="src">alternative.me · 风险偏好代理</span></div>
         <div class="fg-wrap">
           <div class="fg-ring">
             <svg viewBox="0 0 120 120"><circle class="fg-bg" cx="60" cy="60" r="52"/><circle class="fg-fg" id="fg-fg" cx="60" cy="60" r="52" stroke="#d9b23c"/></svg>
@@ -712,6 +716,58 @@
         </div>
       </div>
     </div>
+  </section>
+
+  <!-- ============ 盘面结构 · 涨停温度 ============ -->
+  <section id="structure">
+    <div class="sec-head">
+      <h2>盘面结构 · 涨停温度</h2>
+      <span class="tag">涨停 / 炸板 / 跌停 / 连板梯队 · 封板率与集中度为自算指标</span>
+      <span class="more">数据日 <b class="num" id="st-date" style="color:var(--text)">—</b></span>
+    </div>
+    <p class="st-sub">同花顺把涨停池、炸板池、连板梯队、行业分布分在好几个页面；这里合成一屏，并补上三个要自己算才有的指标：<b>封板率</b>（涨停 ÷（涨停＋炸板））、<b>涨停行业集中度</b>、<b>涨停与指数的背离</b>。封板率高＝封得住，追涨的容错空间大；炸板多＝承接弱。</p>
+
+    <div class="st-boot" id="st-boot"><span class="spin">◐</span> 正在加载盘面结构…</div>
+    <div id="st-body" hidden>
+      <div class="st-kpis" id="st-kpis"></div>
+
+      <div class="st-grid">
+        <div class="st-panel">
+          <h3>连板梯队 <span class="hint">按连续涨停天数分组</span></h3>
+          <div class="st-ladder" id="st-ladder"></div>
+          <div class="st-note">梯队越"厚"（2 板以上家数多），说明接力资金越愿意持股过夜；只剩 1 板则多为一日游。</div>
+        </div>
+        <div class="st-panel">
+          <h3>涨停行业集中度 <span class="hint">资金主线是否明确</span></h3>
+          <div class="st-ind" id="st-ind"></div>
+        </div>
+      </div>
+
+      <div class="st-grid">
+        <div class="st-panel">
+          <h3>龙头 / 高度股 <span class="hint">连板数优先，其次封单</span></h3>
+          <div class="st-leaders" id="st-leaders"></div>
+        </div>
+        <div class="st-panel">
+          <h3>涨停 vs 跌停 <span class="hint">近 60 个交易日</span></h3>
+          <div class="st-chart-wrap">
+            <svg id="st-hist" viewBox="0 0 520 180" role="img" aria-label="涨停与跌停家数历史序列"></svg>
+          </div>
+          <div class="st-legend">
+            <span><i class="key" style="background:#f04a3d"></i>涨停家数</span>
+            <span><i class="key" style="background:#26a56b"></i>跌停家数</span>
+            <span>两线张口越大，分化越极端 · 当日为盘中实时值</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="st-read">
+        <h4>今日盘面怎么读 <span class="hint">按当日数值自动生成，不含方向预测</span></h4>
+        <div class="st-insights" id="st-insights"></div>
+        <div class="st-disc">口径：涨停 / 跌停取东财涨停板专题池（含 ST 与北交所）；封板率 ＝ 涨停家数 ÷（涨停＋炸板）；结构分 ＝ 封板率 45% ＋ 涨跌停比 35% ＋ 连板占比 20%，仅用于横向比较当日情绪强弱。历史序列由本站每个交易日累积，最长 60 个交易日。以上为客观统计，不构成投资建议。</div>
+      </div>
+    </div>
+    <div class="st-err" id="st-err"></div>
   </section>
 
   <!-- ============ 全球主要股市速览 ============ -->
@@ -806,7 +862,7 @@
   </section>
 
   <footer class="site">
-    <span>© Demonh6 · 数据来自公开来源（新浪财经 / 东方财富 / OKX / akshare），仅供研究参考，不构成投资建议 · 告警基于20日历史波动率σ倍数（2σ警戒 / 3σ高危）· 传导路径为机制示意</span>
+    <span>© Demonh6 · 数据来自公开来源（新浪财经 / 东方财富 / 涨停板专题 / OKX / CBOE / akshare），仅供研究参考，不构成投资建议 · 告警基于20日历史波动率σ倍数（2σ警戒 / 3σ高危）· 传导路径为机制示意</span>
     <span style="margin-left:auto;"><a href="https://github.com/demonh6" target="_blank" rel="noopener">GitHub ↗</a></span>
   </footer>
 
@@ -830,9 +886,12 @@
     if (v === null || v === undefined) return "";
     return arrow(v) + " " + Math.abs(v).toFixed(2);
   }
-  function fmtPx(v) {
+  function fmtPx(v, dec) {
     if (v === null || v === undefined) return "—";
-    return v.toLocaleString("zh-CN", { maximumFractionDigits: 2 });
+    return v.toLocaleString("zh-CN", {
+      minimumFractionDigits: dec || 0,
+      maximumFractionDigits: dec === undefined ? 2 : dec
+    });
   }
 
   /* ---------- SVG 走势图 ---------- */
@@ -923,7 +982,7 @@
   function assetRow(it) {
     var hasHist = it.hist && it.hist.length >= 2;
     var c = cls(it.change_pct);
-    var px = fmtPx(it.price) + (it.unit || "");
+    var px = fmtPx(it.price, it.dec) + (it.unit || "");
     var badge = fmtPct(it.change_pct);
     if (it.change_bp !== null && it.change_bp !== undefined) {
       badge = arrow(it.change_bp) + " " + Math.abs(it.change_bp).toFixed(1) + "bp";
@@ -950,6 +1009,7 @@
       meta.push('<span><span class="k">20日σ</span>' + it.sigma_bp.toFixed(1) + 'bp</span>');
       if (mb !== null) meta.push('<span class="sig-chip">今日 ' + mb.toFixed(1) + 'σ</span>');
     }
+    if (it.hint) meta.push('<span class="hint-line">' + it.hint + '</span>');
     if (it.quote_time) meta.push('<span><span class="k">时间</span>' + it.quote_time + '</span>');
     if (it.source) meta.push('<span><span class="k">源</span>' + it.source + '</span>');
     if (it.date) meta.push('<span><span class="k">日期</span>' + it.date + '</span>');
@@ -1026,6 +1086,8 @@
     if (m.global && m.global.length) groups.push(["亚太 · 欧洲", m.global, ""]);
     if (ka) {
       var keys = [];
+      // 跨市场锚放最前：美元 → 人民币 → AH溢价，是一条完整的"外资—核心资产"链条
+      (ka.fx || []).forEach(function (x) { keys.push(x); });
       if (ka.bond) {
         keys.push({
           name: ka.bond.name, sym: ka.bond.sym || "US10Y", price: ka.bond.value, unit: "%",
@@ -1038,7 +1100,7 @@
       if (keys.length) {
         var note = "";
         if (ka.crypto && ka.crypto.length && ka.crypto[0].source) note = "加密源: " + ka.crypto[0].source;
-        groups.push(["债 · 商品 · 加密", keys, note]);
+        groups.push(["债 · 汇 · 商品 · 加密", keys, note]);
       }
     }
 
@@ -1380,12 +1442,17 @@
         renderResearch(d.research);
         renderNews(d.news, d.news_meta);
         renderWuxing(d.wuxing);
+        if (window.renderStructure) window.renderStructure(d.structure);
       })
       .catch(function (e) {
-        ["markets-boot", "news-boot", "wx-boot"].forEach(function (id) { hide($(id)); });
+        ["markets-boot", "news-boot", "wx-boot", "st-boot"].forEach(function (id) {
+          var el = $(id); if (el) hide(el);
+        });
         $("markets-err").textContent = "数据加载失败：" + e.message + "（data/dashboard.json 尚未生成或不可达）";
         $("news-err").textContent = "要闻暂缺";
         $("wx-err").textContent = "黄历暂缺";
+        var stErr = $("st-err");
+        if (stErr) stErr.textContent = "盘面结构暂缺：dashboard.json 不可达";
       });
   }
 
@@ -1393,5 +1460,6 @@
 })();
 </script>
 <script src="assets/js/sector-lab.js"></script>
+<script src="assets/js/structure.js"></script>
 </body>
 </html>

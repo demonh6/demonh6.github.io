@@ -1,0 +1,289 @@
+/* ============================================================
+   盘面结构 · 涨停温度
+   复用 index.html 的 :root 变量，风格与「行业估值分位」保持一致
+   ============================================================ */
+
+#structure .st-sub {
+  margin: -2px 0 16px;
+  font-size: 13px;
+  line-height: 1.85;
+  color: var(--text-dim);
+  max-width: 1080px;
+}
+#structure .st-sub b { color: var(--text); font-weight: 600; }
+
+.st-boot, .st-err {
+  font-size: 13px;
+  color: var(--text-dim);
+  padding: 18px 0;
+}
+.st-boot .spin { display: inline-block; animation: st-spin 1.1s linear infinite; margin-right: 6px; }
+@keyframes st-spin { to { transform: rotate(360deg); } }
+.st-err { color: var(--up-soft); }
+
+/* ---------- KPI ---------- */
+.st-kpis {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.st-kpi {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 12px 14px 11px;
+  position: relative;
+  overflow: hidden;
+}
+.st-kpi::after {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 2px;
+  background: var(--accent);
+  opacity: .55;
+}
+.st-kpi.up::after { background: var(--up); }
+.st-kpi.down::after { background: var(--down); }
+.st-kpi.gold::after { background: var(--gold); }
+.st-kpi .k-lbl {
+  font-size: 11.5px;
+  color: var(--text-faint);
+  letter-spacing: .02em;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.st-kpi .k-val {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-top: 4px;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.st-kpi .k-val small { font-size: 12px; font-weight: 500; margin-left: 3px; color: var(--text-dim); }
+.st-kpi .k-sub {
+  font-size: 11px;
+  color: var(--text-faint);
+  margin-top: 3px;
+  line-height: 1.5;
+}
+.st-kpi .k-val.up { color: var(--up-soft); }
+.st-kpi .k-val.down { color: var(--down-soft); }
+.st-kpi .k-val.gold { color: var(--gold); }
+
+/* ---------- 面板网格 ---------- */
+.st-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.st-panel {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 14px 16px 12px;
+  min-width: 0;
+}
+.st-panel h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 2px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.st-panel h3 .hint {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--text-faint);
+  margin-left: auto;
+  text-align: right;
+}
+.st-panel .st-note {
+  font-size: 11px;
+  color: var(--text-faint);
+  line-height: 1.65;
+  margin-top: 8px;
+}
+
+/* ---------- 连板梯队 ---------- */
+.st-ladder { margin-top: 12px; }
+.st-lrow {
+  display: grid;
+  grid-template-columns: 46px 1fr 34px;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+.st-lrow .lb { color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.st-lrow .track {
+  display: block;
+  height: 16px;
+  background: rgba(255, 255, 255, .045);
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+.st-lrow .fill {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(240, 74, 61, .45), rgba(240, 74, 61, .92));
+  transition: width .5s cubic-bezier(.2, .8, .2, 1);
+  min-width: 2px;
+}
+.st-lrow .n {
+  text-align: right;
+  color: var(--text);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.st-lrow.hi .lb { color: var(--up-soft); }
+
+/* ---------- 行业集中度 ---------- */
+.st-ind { margin-top: 12px; }
+.st-irow {
+  display: grid;
+  grid-template-columns: 96px 1fr 52px;
+  align-items: center;
+  gap: 9px;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+.st-irow .nm {
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.st-irow .track {
+  display: block;
+  height: 12px;
+  background: rgba(255, 255, 255, .045);
+  border-radius: 4px;
+  overflow: hidden;
+}
+.st-irow .fill {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  background: linear-gradient(90deg, rgba(217, 178, 60, .35), rgba(217, 178, 60, .9));
+}
+.st-irow .v {
+  text-align: right;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+  font-size: 11.5px;
+}
+.st-irow .v small { color: var(--text-faint); margin-left: 3px; }
+
+/* ---------- 龙头 ---------- */
+.st-leaders { margin-top: 10px; }
+.st-lead {
+  display: grid;
+  grid-template-columns: 1fr 54px 74px 70px;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, .055);
+  font-size: 12px;
+}
+.st-lead:last-child { border-bottom: 0; }
+.st-lead .nm { color: var(--text); display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+.st-lead .nm .cd { font-size: 10.5px; color: var(--text-faint); }
+.st-lead .nm .ind {
+  font-size: 10px;
+  color: var(--text-faint);
+  border: 1px solid var(--card-border);
+  border-radius: 3px;
+  padding: 0 4px;
+  white-space: nowrap;
+}
+.st-lead .bd {
+  text-align: center;
+  font-weight: 700;
+  color: var(--up-soft);
+  font-variant-numeric: tabular-nums;
+}
+.st-lead .bd.weak { color: var(--gold); }
+.st-lead .fd { text-align: right; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.st-lead .pc { text-align: right; color: var(--up-soft); font-variant-numeric: tabular-nums; }
+
+/* ---------- 历史图 ---------- */
+.st-chart-wrap { margin-top: 6px; }
+.st-chart-wrap svg { display: block; width: 100%; height: auto; }
+.st-legend {
+  display: flex;
+  gap: 14px;
+  font-size: 11px;
+  color: var(--text-faint);
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+.st-legend .key {
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 2px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* ---------- 解读 ---------- */
+.st-read {
+  background: linear-gradient(180deg, rgba(79, 156, 249, .05), rgba(255, 255, 255, .015));
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 14px 16px 12px;
+}
+.st-read h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0 0 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.st-read h4 .hint { font-size: 11px; font-weight: 400; color: var(--text-faint); }
+.st-insights { display: grid; gap: 7px; }
+.st-ins {
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 8px;
+  font-size: 12.5px;
+  line-height: 1.75;
+  color: var(--text-dim);
+}
+.st-ins .b { color: var(--accent); font-weight: 700; }
+.st-ins b { color: var(--text); font-weight: 600; }
+.st-disc {
+  margin-top: 10px;
+  padding-top: 9px;
+  border-top: 1px dashed rgba(255, 255, 255, .07);
+  font-size: 11px;
+  line-height: 1.7;
+  color: var(--text-faint);
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 980px) {
+  .st-kpis { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .st-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  .st-kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .st-kpi .k-val { font-size: 22px; }
+  .st-irow { grid-template-columns: 78px 1fr 46px; }
+  .st-lead { grid-template-columns: 1fr 46px 60px; }
+  .st-lead .pc { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .st-lrow .fill { transition: none; }
+  .st-boot .spin { animation: none; }
+}
