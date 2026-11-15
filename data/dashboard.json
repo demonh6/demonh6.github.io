@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 05:54:19 CST",
- "generated_at_iso": "2026-11-16T05:54:19+08:00",
+ "generated_at": "2026-11-16 06:02:36 CST",
+ "generated_at_iso": "2026-11-16T06:02:36+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,28 +1430,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65164.7,
-    "change": 693.2,
-    "change_pct": 1.08,
-    "source": "okx"
+    "price": 65033.4,
+    "change": 616.3,
+    "change_pct": 0.96,
+    "source": "okx",
+    "hist": [
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     65043.0
+    ],
+    "sigma": 2.312
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1823.97,
-    "change": 51.17,
-    "change_pct": 2.89,
-    "source": "okx"
+    "price": 1820.63,
+    "change": 51.0,
+    "change_pct": 2.88,
+    "source": "okx",
+    "hist": [
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1821.29
+    ],
+    "sigma": 3.186
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.15,
-    "change": 2.36,
-    "change_pct": 3.38,
-    "source": "okx"
+    "price": 72.0,
+    "change": 2.34,
+    "change_pct": 3.36,
+    "source": "okx",
+    "hist": [
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     72.0
+    ],
+    "sigma": 3.274
    }
   ],
   "fx": [
@@ -1469,9 +1568,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6747,
-    "change": 0.0013,
-    "change_pct": 0.02,
+    "price": 6.6736,
+    "change": -0.0011,
+    "change_pct": -0.02,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1590,6 +1689,28 @@
  },
  "speakers": [
   {
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "据报道 白宫或将对五角大楼前首席战略家提起刑事诉讼",
+   "summary": "据报道，白宫或将对五角大楼前首席战略家提起刑事诉讼。",
+   "time": "2026-11-16 05:47:02",
+   "url": "https://finance.eastmoney.com/a/202611163931540190.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储如期维持基准利率不变 两名票委主张加息25个基点 - 财联社",
+   "summary": "",
+   "time": "2026-11-16 04:35",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KQ1JlQzltSC1hVkdDVVlFY3JfUWhfMXJvUUVPTURtd2RGdTV6dG45OEZmTWdoSUpweWZoVUozNTN1Um9UVlNVTA?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
    "keyword": "黄仁勋",
    "label": "黄仁勋",
    "hint": "英伟达动向是全球AI行情的风向标",
@@ -1609,17 +1730,6 @@
    "time": "2026-11-16 02:28",
    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1LN25SS29fRG5rWV9JdHBYcUNQcm1QX0FBVnJmeG00em1WRGZPMnE1QTVKX3h4NVlUZzg1cXNkcm1BSHJKV0xETmllem0?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "机构：市场紧盯美联储官员讲话及纪要，寻求下一步利率线索",
-   "summary": "",
-   "time": "2026-11-15 21:01:25",
-   "url": "https://news.futunn.com/flash/1004554869/institutions-market-closely-watches-fed-officials-speeches-and-minutes-for",
-   "source": "富途",
    "mentions": 2
   }
  ],
@@ -1683,6 +1793,16 @@
    }
   ],
   "reports": [
+   {
+    "title": "中金将美国雅保的目标价从$83.28调整至$108.58 - Moomoo",
+    "org": "中金",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDI2RnpzcV8ySnNLaHNrTGdWeV80QjZscVRvZFJ1eU1YYW1MSWNOR1dkWTVyeDZqWU10MjhadnctQk9ieUdwdzAtVG9OT04yc0ZoTEliQjZuc2xNV2RuR3M4T3k1NklkTHdwSDZrNFU1ZzRCNEFVam11bXREb04wU2VJQ1JpcW5LR0QxYnc0cG5iZTlLY1Y0M0sySmV5OUpEYU11Zg?oc=5",
+    "source": "机构观点"
+   },
    {
     "title": "报道：黄仁勋与盟友讨论重返英伟达担任CEO",
     "org": "国金",
@@ -1818,11 +1938,18 @@
  "alerts": [],
  "news": [
   {
-   "title": "美“火神”火箭未能将亚马逊卫星送入预定轨道",
-   "summary": "【美“火神”火箭未能将亚马逊卫星送入预定轨道】美国联合发射联盟公司的“火神”运载火箭15日首次执行亚马逊低地轨道卫星发射任务，但升空约10分钟后出现异常，未能将搭载的40颗宽带通信卫星送入预定轨道。据联合发射联盟公司介绍，“火神”运载火箭于美国东部时间当天12时40分许（北京时间16日1时40分许）从佛罗里达州卡纳维拉尔角太空军基地发射升空。",
-   "time": "2026-11-16 05:25:40",
-   "url": "https://finance.eastmoney.com/a/202611163931539287.html",
+   "title": "据报道 白宫或将对五角大楼前首席战略家提起刑事诉讼",
+   "summary": "据报道，白宫或将对五角大楼前首席战略家提起刑事诉讼。",
+   "time": "2026-11-16 05:47:02",
+   "url": "https://finance.eastmoney.com/a/202611163931540190.html",
    "source": "东财国际"
+  },
+  {
+   "title": "东方财富财经早餐 11月16日周一",
+   "summary": "1、12位APEC经济体领导人将出席APEC工商领导人峰会。2、伊朗：就霍尔木兹海峡航道与两个沿岸国家达成协议。3、天普股份：股票交易严重异常波动，11月16日起停牌核查。",
+   "time": "2026-11-16 05:10:48",
+   "url": "http://finance.eastmoney.com/a/202611153931506993.html",
+   "source": "东财早报"
   },
   {
    "title": "美国交通部长点名军工承包商L3Harris，怀疑其造成最近的全美航班中断",
@@ -1839,17 +1966,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普又挑战美国最高法院，欲限制和削减法官权力 - 凤凰网",
+   "title": "美联储如期维持基准利率不变 两名票委主张加息25个基点 - 财联社",
    "summary": "",
-   "time": "2026-11-16 02:28",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1LN25SS29fRG5rWV9JdHBYcUNQcm1QX0FBVnJmeG00em1WRGZPMnE1QTVKX3h4NVlUZzg1cXNkcm1BSHJKV0xETmllem0?oc=5",
+   "time": "2026-11-16 04:35",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1KQ1JlQzltSC1hVkdDVVlFY3JfUWhfMXJvUUVPTURtd2RGdTV6dG45OEZmTWdoSUpweWZoVUozNTN1Um9UVlNVTA?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美国中期选举后，百达资管增持日本股票以推动多元化",
+   "title": "美联储12月加息25个基点的概率为95%",
    "summary": "",
-   "time": "2026-11-15 21:27:39",
-   "url": "https://news.futunn.com/flash/1004555207/pictet-asset-management-increases-japanese-equity-holdings-to-drive-diversification",
+   "time": "2026-11-15 22:00:20",
+   "url": "https://news.futunn.com/flash/1004555383/the-probability-of-a-25-basis-point-rate-hike-by",
    "source": "富途"
   },
   {
@@ -1867,10 +1994,10 @@
    "source": "财新"
   },
   {
-   "title": "爱尔兰提出欧盟碳市场改革折中方案 以推动分歧重重的谈判",
-   "summary": "【爱尔兰提出欧盟碳市场改革折中方案 以推动分歧重重的谈判】爱尔兰在一份文件中提议，允许欧盟提前使用国际碳信用额度，并放宽免费排放配额规则，旨在为改革其旗舰气候政策的谈判注入动力。爱尔兰政府希望引入一个从2031-35年的试点阶段，在此期间，受欧盟碳排放交易体系（ETS）覆盖的企业，可使用高完整性的进口碳信用来满足其部分履约义务。这项改革提案在欧盟各国政府间引发了分歧：部分国家支持更严格的排放规则和更快的清洁能源转型，而另一些国家则担忧摆脱化石燃料的成本。",
-   "time": "2026-11-16 05:06:22",
-   "url": "https://finance.eastmoney.com/a/202611163931537912.html",
+   "title": "专精特新赛道成色渐显 北证市场进入功能提升新阶段",
+   "summary": "【专精特新赛道成色渐显 北证市场进入功能提升新阶段】2026年11月15日，北京证券交易所迎来开市五周年。五年前鸣锣开市时，北交所仅有81家上市公司、总市值不足3000亿元；如今上市公司已达355家，总市值约8000亿元。五年间，这片聚焦创新型中小企业的资本市场沃土，不仅完成了规模上的立柱架梁，更跑出了一批实实在在的牛股。",
+   "time": "2026-11-16 05:40:57",
+   "url": "https://finance.eastmoney.com/a/202611163931532264.html",
    "source": "东财国际"
   },
   {
@@ -1878,6 +2005,55 @@
    "summary": "爱尔兰在一份文件中提议，允许欧盟提前使用国际碳信用额度，并放宽免费排放配额规则，旨在为改革其旗舰气候政策的谈判注入动力。爱尔兰政府希望引入一个从2031-35年的试点阶段，在此期间，受欧盟碳排放交易体系（ETS）覆盖的企业，可使用高完整性的进口碳信用来满足其部分履约义务。\n\n这项改革提案在欧盟各国政府间引发了分歧：部分国家支持更严格的排放规则和更快的清洁能源转型，而另一些国家则担忧摆脱化石燃料的成",
    "time": "2026-11-16 04:43",
    "url": "https://wallstreetcn.com/livenews/3200225",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "评论员评级曼联球员：精英级没人 拉什还能用 B费利马等人赶紧走 - 直播吧",
+   "summary": "",
+   "time": "2026-11-16 00:38",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15T05YN09KMDZjbUNFMzJwd3RfdGhYRlZiZUdBbWpfUUpCZUhaUFpORzd6STQ3XzlaYzRqdFY2eE1oVGRUN3hfOHNOa2ZHLUN4MGVxd2pRMnNSYWNZMC1Kdm5IYnB3d1pkcEFEUzlZUEFHX0pKRG9aNw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普又挑战美国最高法院，欲限制和削减法官权力 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-16 02:28",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1LN25SS29fRG5rWV9JdHBYcUNQcm1QX0FBVnJmeG00em1WRGZPMnE1QTVKX3h4NVlUZzg1cXNkcm1BSHJKV0xETmllem0?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "美国中期选举后，百达资管增持日本股票以推动多元化",
+   "summary": "",
+   "time": "2026-11-15 21:27:39",
+   "url": "https://news.futunn.com/flash/1004555207/pictet-asset-management-increases-japanese-equity-holdings-to-drive-diversification",
+   "source": "富途"
+  },
+  {
+   "title": "国家消防救援局：11月30日前完成五类问题自查自改",
+   "summary": "",
+   "time": "2026-11-15 14:28:39",
+   "url": "https://news.10jqka.com.cn/20261115/c681831751.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "【本文系数据通用户提前专享】作为全球最激进的数据中心投建地，美国正站在十字路口：要么放缓脚步适应社区呼声，要么寻求海外替代方案",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-14/102504742.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "美“火神”火箭未能将亚马逊卫星送入预定轨道",
+   "summary": "【美“火神”火箭未能将亚马逊卫星送入预定轨道】美国联合发射联盟公司的“火神”运载火箭15日首次执行亚马逊低地轨道卫星发射任务，但升空约10分钟后出现异常，未能将搭载的40颗宽带通信卫星送入预定轨道。据联合发射联盟公司介绍，“火神”运载火箭于美国东部时间当天12时40分许（北京时间16日1时40分许）从佛罗里达州卡纳维拉尔角太空军基地发射升空。",
+   "time": "2026-11-16 05:25:40",
+   "url": "https://finance.eastmoney.com/a/202611163931539287.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "伊朗媒体：一艘违反规定的油轮不久前在霍尔木兹海峡以东海域触雷起火。\n\n该油轮当时关闭了导航系统，正航行于海峡以东的受限区域。",
+   "summary": "伊朗媒体：一艘违反规定的油轮不久前在霍尔木兹海峡以东海域触雷起火。\n\n该油轮当时关闭了导航系统，正航行于海峡以东的受限区域。",
+   "time": "2026-11-16 04:23",
+   "url": "https://wallstreetcn.com/livenews/3200224",
    "source": "华尔街见闻"
   },
   {
@@ -1902,55 +2078,6 @@
    "source": "富途"
   },
   {
-   "title": "国家消防救援局：11月30日前完成五类问题自查自改",
-   "summary": "",
-   "time": "2026-11-15 14:28:39",
-   "url": "https://news.10jqka.com.cn/20261115/c681831751.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "【本文系数据通用户提前专享】作为全球最激进的数据中心投建地，美国正站在十字路口：要么放缓脚步适应社区呼声，要么寻求海外替代方案",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-14/102504742.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "据报道 三星将在美国为SpaceX生产卫星芯片",
-   "summary": "据报道，三星将在美国为SpaceX生产卫星芯片。",
-   "time": "2026-11-16 04:53:50",
-   "url": "https://finance.eastmoney.com/a/202611163931537569.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "伊朗媒体：一艘违反规定的油轮不久前在霍尔木兹海峡以东海域触雷起火。\n\n该油轮当时关闭了导航系统，正航行于海峡以东的受限区域。",
-   "summary": "伊朗媒体：一艘违反规定的油轮不久前在霍尔木兹海峡以东海域触雷起火。\n\n该油轮当时关闭了导航系统，正航行于海峡以东的受限区域。",
-   "time": "2026-11-16 04:23",
-   "url": "https://wallstreetcn.com/livenews/3200224",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "德弘资本133亿押注“金锣”，外资投行已从“吃肉”改“喝汤” - Sohu",
-   "summary": "",
-   "time": "2026-11-15 22:46",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMDVvbVRRcWxDMzdlLW5XZUIzb3oxT1RxWlhrWDNONEVUNlA3UVlTcFZLSUxQc3dHcmFjZUpSUjB4WlBOT2xaeWFSdVJ4T3k0NElYZm9PSG9YUVBhUEtTdmk0Y2NQa2RtLTVrREQtUnpxUTFwVFBSR0NQRy1pN1laVGVfX24ybmFs?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "一张表看懂！华尔街“彻底信了”：美联储本周加息 - 财联社",
-   "summary": "",
-   "time": "2026-11-16 01:42",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBwcWs3b3ppTWlqZWdHRDRMbkJUeEtkeTN1bXFuLVhLMjY1MUxwdE9RWkJiWGE3bk5QWHVRZkE0UVNoUFlUZERhRw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "机构：市场紧盯美联储官员讲话及纪要，寻求下一步利率线索",
-   "summary": "",
-   "time": "2026-11-15 21:01:25",
-   "url": "https://news.futunn.com/flash/1004554869/institutions-market-closely-watches-fed-officials-speeches-and-minutes-for",
-   "source": "富途"
-  },
-  {
    "title": "华语科幻AI影像联盟成立，何夕《天年》等首批影视项目启动",
    "summary": "",
    "time": "2026-11-15 14:26:20",
@@ -1965,10 +2092,10 @@
    "source": "财新"
   },
   {
-   "title": "打通不动产投融资循环链条 公募REITs蓄力万亿市场",
-   "summary": "【打通不动产投融资循环链条 公募REITs蓄力万亿市场】从首批9只产品破冰到如今近百只产品挂牌、总市值逾2400亿元，公募REITs（不动产投资信托基金）过往五年多完成了从“个案试点”到“常态化发行”的跨越。在此过程中，基金公司以管理人身份统筹各方，贯穿从资产筛选、产品发行到持续运营的全链条，畅通实体资产投融资循环，助力基础设施建设与实体经济提质增效，成为“公募力量”赋能实体经济的又一有力注脚。面对超百万亿元的基础设施存量资产，公募REITs的发展空间远未见顶。如何引入更多长期资金、扩大优质资产供给、提升二级市场定价效率，是迈向更高质量发展的新课题。",
-   "time": "2026-11-16 04:44:57",
-   "url": "https://finance.eastmoney.com/a/202611163931532810.html",
+   "title": "爱尔兰提出欧盟碳市场改革折中方案 以推动分歧重重的谈判",
+   "summary": "【爱尔兰提出欧盟碳市场改革折中方案 以推动分歧重重的谈判】爱尔兰在一份文件中提议，允许欧盟提前使用国际碳信用额度，并放宽免费排放配额规则，旨在为改革其旗舰气候政策的谈判注入动力。爱尔兰政府希望引入一个从2031-35年的试点阶段，在此期间，受欧盟碳排放交易体系（ETS）覆盖的企业，可使用高完整性的进口碳信用来满足其部分履约义务。这项改革提案在欧盟各国政府间引发了分歧：部分国家支持更严格的排放规则和更快的清洁能源转型，而另一些国家则担忧摆脱化石燃料的成本。",
+   "time": "2026-11-16 05:06:22",
+   "url": "https://finance.eastmoney.com/a/202611163931537912.html",
    "source": "东财国际"
   },
   {
@@ -1977,20 +2104,13 @@
    "time": "2026-11-16 03:46",
    "url": "https://wallstreetcn.com/livenews/3200223",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "风口研报 - 财联社",
-   "summary": "",
-   "time": "2026-11-15 22:05",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBRbUxlSXlOSmFJNDIyUmgweFp5b3Vsb3hTM1ZSYnpmWHhPekl0Z0lHNUFub19BUzJqWGVrRU9Ia19iMTFIOTlxVA?oc=5",
-   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(20)",
+   "富途": "ok(21)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2000,11 +2120,12 @@
   },
   "counts": {
    "东财国际": 7,
+   "东财早报": 1,
    "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
    "富途": 7,
-   "同花顺": 7,
+   "同花顺": 6,
    "财新": 6
   }
  },
