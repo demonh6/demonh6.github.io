@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 00:17:21 CST",
- "generated_at_iso": "2026-11-16T00:17:21+08:00",
+ "generated_at": "2026-11-16 00:25:37 CST",
+ "generated_at_iso": "2026-11-16T00:25:37+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1430,27 +1430,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64611.0,
-    "change": -839.8,
-    "change_pct": -1.28,
+    "price": 64439.6,
+    "change": -1050.7,
+    "change_pct": -1.6,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1808.28,
-    "change": -22.81,
-    "change_pct": -1.25,
+    "price": 1806.15,
+    "change": -24.67,
+    "change_pct": -1.35,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.24,
-    "change": -1.72,
-    "change_pct": -2.36,
+    "price": 71.18,
+    "change": -1.77,
+    "change_pct": -2.43,
     "source": "okx"
    }
   ],
@@ -1578,13 +1578,13 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 23.2,
+   "score": 29.8,
    "label": "冰点",
-   "color": "#f04a3d",
+   "color": "#f58a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 0.0,
-    "structure": 58.0
+    "structure": 74.5
    }
   }
  },
@@ -2084,9 +2084,9 @@
  "structure": {
   "date": "2026-11-13",
   "zt_count": 37,
-  "dt_count": 33,
+  "dt_count": 0,
   "zb_count": 21,
-  "qs_count": 106,
+  "qs_count": 0,
   "seal_rate": 63.8,
   "first_board": 30,
   "continued": 7,
@@ -2165,28 +2165,7 @@
     "share": 2.7
    }
   ],
-  "dt_industries": [
-   {
-    "name": "医疗服务",
-    "count": 4
-   },
-   {
-    "name": "汽车零部",
-    "count": 3
-   },
-   {
-    "name": "一般零售",
-    "count": 3
-   },
-   {
-    "name": "专用设备",
-    "count": 2
-   },
-   {
-    "name": "休闲食品",
-    "count": 2
-   }
-  ],
+  "dt_industries": [],
   "leaders": [
    {
     "name": "天普股份",
@@ -2243,39 +2222,14 @@
     "broken": 5
    }
   ],
-  "dt_leaders": [
-   {
-    "name": "景旺电子",
-    "code": "603228",
-    "industry": "元件",
-    "change_pct": -10.0
-   },
-   {
-    "name": "襄阳轴承",
-    "code": "000678",
-    "industry": "汽车零部",
-    "change_pct": -9.98
-   },
-   {
-    "name": "金健米业",
-    "code": "600127",
-    "industry": "农产品加",
-    "change_pct": -10.01
-   },
-   {
-    "name": "大东方",
-    "code": "600327",
-    "industry": "一般零售",
-    "change_pct": -10.03
-   }
-  ],
+  "dt_leaders": [],
   "index_pct": -0.59,
-  "score": 58.0,
-  "score_label": "中性",
+  "score": 74.5,
+  "score_label": "偏热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
    "封板率 64%（炸板 21 家）：多空分歧居中，涨停质量一般。",
-   "跌停 33 家：个股层面的风险在释放，注意高位股与题材补跌。",
+   "无跌停且涨停 37 家：当日风险偏好偏高，属于普涨式做多环境。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 7 家 / 涨停 37 家（19%）：以首板为主，持续性待验证",
    "涨停最集中的 汽车零部 也只占 16%：热点分散，没有单一主线。"
@@ -2438,11 +2392,11 @@
    {
     "date": "2026-11-13",
     "zt": 37,
-    "dt": 33,
+    "dt": 0,
     "zb": 21,
     "seal": 63.8,
     "max_streak": 4,
-    "score": 58.0,
+    "score": 74.5,
     "index_pct": -0.59
    }
   ],
