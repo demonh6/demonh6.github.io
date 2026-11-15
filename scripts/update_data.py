@@ -1045,7 +1045,7 @@ def attach_histories(markets, key_assets):
     bond = key_assets.get("bond")
     if bond and not bond.get("hist"):
         # FRED/新浪主源已填 hist 时跳过（避免中债滞后数据覆盖）
-        df = job("美债10Y", ak.bond_zh_us_rate)
+        df = job("美债10Y", lambda: ak.bond_zh_us_rate())
         if df is not None:
             yields = _closes(df, col="美国国债收益率10年")
             if yields:
@@ -2142,12 +2142,85 @@ def _news_gnews_research(_kwargs=None):
     return out
 
 
+def _econ_calendar_jin10(_kwargs=None):
+    """金十财经日历（未来 2 天 + 今日）：给要闻池补上「接下来会公布什么数据」。
+
+    同花顺 App 的日历是独立入口；这里把它和新闻揉在一条时间线里，
+    且带上「前值 / 预期 / 实际 / 星级」，便于判断事件的市场冲击量级。
+    接口为金十 CDN 静态 JSON，按日切片，无需鉴权。
+    """
+    sess = requests.Session()
+    sess.headers.update(_UA_HEADERS)
+    out = []
+    today = datetime.now(CST).date()
+    for delta in (0, 1, 2):
+        day = today + timedelta(days=delta)
+        url = f"https://cdn-rili.jin10.com/web_data/{day:%Y/%m/%d}/economics.json"
+        try:
+            r = sess.get(url, headers={"Referer": "https://rili.jin10.com/"}, timeout=HTTP_TIMEOUT)
+            r.raise_for_status()
+            rows = r.json() or []
+        except Exception:  # noqa: BLE001
+            continue
+        if not isinstance(rows, list):
+            continue
+        for it in rows:
+            if not isinstance(it, dict):
+                continue
+            name = (it.get("name") or "").strip()
+            if not name:
+                continue
+            star = it.get("star")
+            try:
+                star = int(star)
+            except (TypeError, ValueError):
+                star = 0
+            # 只保留 3 星及以上（重要数据），避免日历被低权重指标淹没
+            if star and star < 3:
+                continue
+            country = (it.get("country") or "").strip()
+            bits = []
+            for label, key in (("前值", "previous"), ("预期", "consensus"),
+                               ("实际", "actual"), ("修正", "revised")):
+                val = it.get(key)
+                if val not in (None, "", "-"):
+                    bits.append(f"{label} {val}")
+            tm = (it.get("time") or "").strip()
+            stamp = f"{day:%Y-%m-%d} {tm[:5]}".strip() if tm else f"{day:%Y-%m-%d}"
+            out.append({
+                "title": f"{country + ' · ' if country else ''}{name}"[:160],
+                "summary": "，".join(bits)[:200],
+                "time": stamp,
+                "url": "https://rili.jin10.com/",
+            })
+            if len(out) >= NEWS_SOURCE_LIMIT:
+                return out
+    return out
+
+
 def fetch_news():
-    """八源聚合：东财国际 + 新浪 + 富途 + 同花顺 + 财新 + 百度财经 + 华尔街见闻 + 谷歌新闻。"""
+    """多源聚合：东财国际 + 东财早报 + 富途 + 同花顺 + 财新 + 百度财经 + 金十日历 + 华尔街见闻 + 谷歌新闻×2。"""
     import akshare as ak
 
     source_status = {}
     pool = []
+
+    def ak_src(*names):
+        """惰性解析 akshare 舆情函数，支持新旧命名并存。
+
+        akshare 1.20.x 起大量改名（stock_info_cjzc_em → stock_news_cjzc_em 等），
+        若在调用前就 ak.xxx 取属性，一个改名会抛在调用点、炸掉整组新闻聚合。
+        这里返回一个延迟取属性的可调用对象，让改名最多损失单一数据源。
+        """
+        def _call(**_kwargs):
+            tried = []
+            for nm in names:
+                fn = getattr(ak, nm, None)
+                if callable(fn):
+                    return fn()
+                tried.append(nm)
+            raise AttributeError("akshare 无可用函数：" + "/".join(tried))
+        return _call
 
     def collect(fn, kwargs, tag, norm_fn=_norm_news):
         try:
@@ -2170,13 +2243,14 @@ def fetch_news():
             log(f"FAIL 要闻-{tag}: {type(e).__name__}")
 
     collect(_em_news_global, {}, "东财国际")
-    collect(ak.stock_info_cjzc_em, {}, "东财早报")   # 替换失效的新浪全球财经
-    collect(ak.stock_info_global_futu, {}, "富途")
+    collect(ak_src("stock_news_cjzc_em", "stock_info_cjzc_em"), {}, "东财早报")   # 替换失效的新浪全球财经
+    collect(ak_src("stock_info_global_futu", "stock_news_global_futu"), {}, "富途")
     collect(_ths_with_retry, {}, "同花顺")
-    collect(ak.stock_news_main_cx, {}, "财新",
+    collect(ak_src("stock_news_main_cx", "stock_info_main_cx"), {}, "财新",
             lambda rs: _norm_news(rs, title_key="summary", link_key="url"))
-    collect(ak.news_economic_baidu, {}, "百度财经",
+    collect(ak_src("news_economic_baidu"), {}, "百度财经",
             lambda rs: _norm_news(rs, title_key="事件", summary_key="公布", time_key="日期"))
+    collect(_econ_calendar_jin10, {}, "金十日历")
     collect(_news_wscn, {}, "华尔街见闻")
     collect(_news_gnews_trump, {}, "谷歌新闻·国际")
     collect(_news_gnews_research, {}, "谷歌新闻·研报")
