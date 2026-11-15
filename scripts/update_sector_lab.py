@@ -113,6 +113,72 @@ SECTORS = [
     dict(id="power",      name="电力",     group="defensive", board="电力",       code="sh561560", proxy="电力ETF"),
 ]
 
+# ---------------------------------------------------------------- 细分行业全量
+# 东财 RPT_VALUEINDUSTRY_DET 的 BOARD_NAME 实为「申万二级」（127 个），
+# 上面 SECTORS 只是手挑的 12 个「有对应 ETF、可画走势」的重点板块。
+# 下面这张表把 127 个二级归到 31 个申万一级，用于前端分组导航；
+# 缺任何一个二级都会在运行时告警（见 main），避免数据源扩容后静默漏项。
+SW1_MAP = {
+    "种植业": "农林牧渔", "渔业": "农林牧渔", "林业Ⅱ": "农林牧渔", "饲料": "农林牧渔",
+    "农产品加工": "农林牧渔", "农业综合Ⅱ": "农林牧渔", "养殖业": "农林牧渔", "动物保健Ⅱ": "农林牧渔",
+    "化学原料": "基础化工", "化学制品": "基础化工", "化学纤维": "基础化工", "塑料": "基础化工",
+    "橡胶": "基础化工", "农化制品": "基础化工", "非金属材料Ⅱ": "基础化工",
+    "普钢": "钢铁", "特钢Ⅱ": "钢铁", "冶钢原料": "钢铁",
+    "工业金属": "有色金属", "贵金属": "有色金属", "小金属": "有色金属",
+    "能源金属": "有色金属", "金属新材料": "有色金属",
+    "半导体": "电子", "元件": "电子", "光学光电子": "电子", "消费电子": "电子",
+    "电子化学品Ⅱ": "电子", "其他电子Ⅱ": "电子",
+    "乘用车": "汽车", "商用车": "汽车", "汽车零部件": "汽车", "汽车服务": "汽车", "摩托车及其他": "汽车",
+    "白色家电": "家用电器", "黑色家电": "家用电器", "小家电": "家用电器", "厨卫电器": "家用电器",
+    "家电零部件Ⅱ": "家用电器", "照明设备Ⅱ": "家用电器", "其他家电Ⅱ": "家用电器",
+    "白酒Ⅱ": "食品饮料", "非白酒": "食品饮料", "饮料乳品": "食品饮料", "休闲食品": "食品饮料",
+    "调味发酵品Ⅱ": "食品饮料", "食品加工": "食品饮料",
+    "纺织制造": "纺织服饰", "服装家纺": "纺织服饰", "饰品": "纺织服饰",
+    "家居用品": "轻工制造", "造纸": "轻工制造", "包装印刷": "轻工制造", "文娱用品": "轻工制造",
+    "化学制药": "医药生物", "中药Ⅱ": "医药生物", "生物制品": "医药生物", "医药商业": "医药生物",
+    "医疗器械": "医药生物", "医疗服务": "医药生物", "医疗美容": "医药生物",
+    "电力": "公用事业", "燃气Ⅱ": "公用事业",
+    "航空机场": "交通运输", "铁路公路": "交通运输", "物流": "交通运输", "航运港口": "交通运输",
+    "房地产开发": "房地产", "房地产服务": "房地产",
+    "一般零售": "商贸零售", "专业连锁Ⅱ": "商贸零售", "互联网电商": "商贸零售",
+    "贸易Ⅱ": "商贸零售", "旅游零售Ⅱ": "商贸零售",
+    "酒店餐饮": "社会服务", "旅游及景区": "社会服务", "教育": "社会服务", "专业服务": "社会服务",
+    "综合Ⅱ": "综合",
+    "水泥": "建筑材料", "玻璃玻纤": "建筑材料", "装修建材": "建筑材料",
+    "房屋建设Ⅱ": "建筑装饰", "基础建设": "建筑装饰", "专业工程": "建筑装饰",
+    "工程咨询服务Ⅱ": "建筑装饰", "装修装饰Ⅱ": "建筑装饰",
+    "电池": "电力设备", "光伏设备": "电力设备", "风电设备": "电力设备", "电网设备": "电力设备",
+    "电机Ⅱ": "电力设备", "其他电源设备Ⅱ": "电力设备",
+    "通用设备": "机械设备", "专用设备": "机械设备", "工程机械": "机械设备",
+    "自动化设备": "机械设备", "轨交设备Ⅱ": "机械设备",
+    "地面兵装Ⅱ": "国防军工", "航海装备Ⅱ": "国防军工", "航空装备Ⅱ": "国防军工",
+    "航天装备Ⅱ": "国防军工", "军工电子Ⅱ": "国防军工",
+    "计算机设备": "计算机", "软件开发": "计算机", "IT服务Ⅱ": "计算机",
+    "游戏Ⅱ": "传媒", "出版": "传媒", "电视广播Ⅱ": "传媒", "广告营销": "传媒",
+    "数字媒体": "传媒", "影视院线": "传媒",
+    "通信设备": "通信", "通信服务": "通信",
+    "银行Ⅱ": "银行",
+    "证券Ⅱ": "非银金融", "保险Ⅱ": "非银金融", "多元金融": "非银金融",
+    "个护用品": "美容护理", "化妆品": "美容护理",
+    "煤炭开采": "煤炭", "焦炭Ⅱ": "煤炭",
+    "炼化及贸易": "石油石化", "油服工程": "石油石化", "油气开采Ⅱ": "石油石化",
+    "环保设备Ⅱ": "环保", "环境治理": "环保",
+}
+
+# 申万一级 → 四大风格（与原有四象限/风格筛选保持一致）
+SW1_STYLE = {
+    "煤炭": "cyclical", "石油石化": "cyclical", "有色金属": "cyclical",
+    "钢铁": "cyclical", "基础化工": "cyclical", "建筑材料": "cyclical",
+    "银行": "financial", "非银金融": "financial", "房地产": "financial",
+    "电子": "growth", "计算机": "growth", "通信": "growth", "电力设备": "growth",
+    "机械设备": "growth", "国防军工": "growth", "医药生物": "growth", "汽车": "growth",
+    "食品饮料": "defensive", "家用电器": "defensive", "农林牧渔": "defensive",
+    "公用事业": "defensive", "交通运输": "defensive", "商贸零售": "defensive",
+    "社会服务": "defensive", "纺织服饰": "defensive", "轻工制造": "defensive",
+    "传媒": "defensive", "美容护理": "defensive", "环保": "defensive",
+    "建筑装饰": "defensive", "综合": "defensive",
+}
+
 LOOKBACK_YEARS = 10
 PE_MIN, PE_MAX = 0.0, 300.0
 PB_MIN, PB_MAX = 0.0, 30.0
@@ -162,7 +228,7 @@ def fetch_valuation(board: str):
             "columns": VAL_COLUMNS,
             "filter": '(BOARD_NAME="%s")' % board,
             "pageNumber": str(page),
-            "pageSize": "500",
+            "pageSize": "5000",   # 单板块 10 年约 2400 行，一页拿完，127 个板块才跑得动
             "sortColumns": "TRADE_DATE",
             "sortTypes": "1",
         })
@@ -278,6 +344,112 @@ def build_valuation(rows):
     }
 
 
+# ---------------------------------------------------------------- 细分行业全量
+def fetch_board_list(as_of=None):
+    """取当日全部申万二级板块（约 127 个）的代码与名称。"""
+    params = {
+        "reportName": "RPT_VALUEINDUSTRY_DET",
+        "columns": "BOARD_NAME,BOARD_CODE,TRADE_DATE",
+        "pageNumber": "1", "pageSize": "500",
+        "sortColumns": "BOARD_CODE", "sortTypes": "1",
+    }
+    if as_of:
+        params["filter"] = "(TRADE_DATE='%s')" % as_of
+    else:
+        params["sortColumns"] = "TRADE_DATE"
+        params["sortTypes"] = "-1"
+    data = http_json(VALUATION_API, params)
+    rows = ((data.get("result") or {}).get("data")) or []
+    seen, out = set(), []
+    for r in rows:
+        name = (r.get("BOARD_NAME") or "").strip()
+        code = (r.get("BOARD_CODE") or "").strip()
+        if not name or name in seen:
+            continue
+        seen.add(name)
+        out.append((code, name))
+    return out
+
+
+def build_valuation_lite(rows):
+    """127 个板块用的精简版：只保留分位与结构指标，不建轨迹数组。
+
+    完整版 build_valuation 会生成 pb_trail / pe_stat / pb_stat，
+    127 个板块逐条算会明显拖慢，且全览表用不上。
+    """
+    if not rows:
+        return None
+    n = len(rows)
+    as_of = rows[-1]["date"]
+    window = [r for r in rows if r["date"] >= _cutoff(as_of)]
+    pe_series = [r["pe"] for r in window]
+    pb_series = [r["pb"] for r in window]
+    cur_pe, cur_pb = rows[-1]["pe"], rows[-1]["pb"]
+
+    def ago(k, key, lo, hi):
+        i = n - 1 - k
+        return pct_at(rows, i, key, lo, hi) if i >= 0 else None
+
+    last = rows[-1]
+    num, loss, cap = last.get("num"), last.get("loss"), last.get("cap")
+    pe_lar = last.get("pe_lar")
+    return {
+        "as_of": as_of,
+        "samples": len(window),
+        "pe": round(cur_pe, 2) if cur_pe else None,
+        "pb": round(cur_pb, 2) if cur_pb else None,
+        "pe_lar": round(pe_lar, 2) if pe_lar else None,
+        "earnings_trend": round((cur_pe / pe_lar - 1) * 100, 1) if cur_pe and pe_lar else None,
+        "pe_pct": percentile_of(pe_series, cur_pe, PE_MIN, PE_MAX),
+        "pb_pct": percentile_of(pb_series, cur_pb, PB_MIN, PB_MAX),
+        "pe_pct_20d": ago(20, "pe", PE_MIN, PE_MAX),
+        "pb_pct_20d": ago(20, "pb", PB_MIN, PB_MAX),
+        "pe_pct_60d": ago(60, "pe", PE_MIN, PE_MAX),
+        "pb_pct_60d": ago(60, "pb", PB_MIN, PB_MAX),
+        "members": int(num) if num else None,
+        "loss_count": int(loss) if loss is not None else None,
+        "loss_ratio": round(loss / num * 100, 1) if num and loss is not None else None,
+        "cap_yi": round(cap / 1e8, 0) if cap else None,
+    }
+
+
+def fetch_all_boards(as_of=None):
+    """全量细分行业：127 个申万二级，逐个取 10 年日频估值并算分位。"""
+    boards = fetch_board_list(as_of)
+    if not boards:
+        raise RuntimeError("板块清单为空")
+    log("细分行业清单 %d 个，开始逐个取估值…" % len(boards))
+    out, missing, failed = [], [], []
+    for i, (code, name) in enumerate(boards, 1):
+        sw1 = SW1_MAP.get(name)
+        if not sw1:
+            missing.append(name)
+        try:
+            val = build_valuation_lite(fetch_valuation(name))
+            if not val:
+                raise RuntimeError("空序列")
+        except Exception as exc:  # noqa: BLE001
+            failed.append(name)
+            log("  估值 [%3d/%d] %-12s 失败: %s" % (i, len(boards), name, str(exc)[:70]))
+            time.sleep(0.25)
+            continue
+        item = {
+            "code": code, "name": name,
+            "sw1": sw1 or "其他", "style": SW1_STYLE.get(sw1 or "", "defensive"),
+        }
+        item.update(val)
+        out.append(item)
+        if i % 20 == 0:
+            log("  进度 %d/%d" % (i, len(boards)))
+        time.sleep(0.2)
+    if missing:
+        log("⚠ 未映射申万一级的板块（请在 SW1_MAP 补齐）: %s" % "、".join(missing))
+    if failed:
+        log("⚠ 抓取失败的板块 %d 个: %s" % (len(failed), "、".join(failed[:12])))
+    out.sort(key=lambda x: (x.get("cap_yi") or 0), reverse=True)
+    return out
+
+
 # ---------------------------------------------------------------- 板块走势
 def fetch_weekly(code: str):
     data = http_json(PRICE_API, {"param": "%s,week,,,600,qfq" % code})
@@ -369,6 +541,8 @@ def build_market(sectors):
 def main():
     ap = argparse.ArgumentParser(description="生成行业估值分位与板块轮动数据（日频全量）")
     ap.add_argument("--out", default=DEFAULT_OUT, help="输出 JSON 路径")
+    ap.add_argument("--skip-boards", action="store_true",
+                    help="跳过 127 个细分行业全量抓取（调试用，页面会缺全览表）")
     args = ap.parse_args()
 
     sectors = []
@@ -387,6 +561,17 @@ def main():
         except Exception as exc:  # noqa: BLE001
             log("估值 %-6s 失败: %s" % (s["name"], str(exc)[:110]))
             sectors.append(dict(s, pe_pct=None, pb_pct=None, pe=None, pb=None, samples=0))
+
+    # 细分行业全量（127 个申万二级）——「机器人在汽车零部件里」的根因是粒度太粗
+    boards = []
+    if args.skip_boards:
+        log("跳过细分行业全量抓取（--skip-boards）")
+    else:
+        try:
+            boards = fetch_all_boards()
+            log("细分行业全量完成：%d 个板块" % len(boards))
+        except Exception as exc:  # noqa: BLE001
+            log("细分行业全量抓取失败: %s" % str(exc)[:140])
 
     pm = build_price_matrix(SECTORS)
     bench_ret = build_momentum(pm, sectors)
@@ -413,6 +598,8 @@ def main():
         "disclaimer": "历史统计口径的客观展示，仅供研究参考，不构成投资建议；低估不等于上涨，高估不等于下跌。",
         "groups": GROUPS,
         "sectors": sectors,
+        "boards": boards,
+        "sw1_order": list(dict.fromkeys(SW1_MAP.values())),
         "price": price,
         "benchmark_ret": bench_ret,
         "market": market,

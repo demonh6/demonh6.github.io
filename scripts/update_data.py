@@ -1303,6 +1303,16 @@ KEY_FIGURES = [
 ]
 # 大国聚焦：发言人/机构命中后仅保留上述名单（自动过滤挪威央行等小经济体噪音）
 
+# 聚合型标题不是「发言」：早报/汇总/盘点/日历里顺带出现的机构名，不能算该机构表过态
+SPEAKER_DIGEST_RE = re.compile(
+    r"(早报|早餐|晚报|午报|要闻汇总|要闻速览|新闻汇总|汇总|盘点|回顾|一周|周报|月报|"
+    r"收盘|盘前|开盘|日历|前瞻|研报速览|专题|财经早餐|早间|午间|晚间)")
+# 表态/动作动词：标题未直呼其名时，正文必须出现其一，才认定为「发言」而非「被提及」
+SPEAKER_CUE_RE = re.compile(
+    r"(表示|称|指出|宣布|讲话|表态|认为|回应|透露|声明|喊话|警告|呼吁|强调|"
+    r"发文|发帖|致信|答问|专访|采访|签署|下令|批准|反对|批评|承诺|"
+    r"放鹰|放鸽|加息|降息|降准|降息|暂停|重启|出手|发声|反驳|质疑|威胁|制裁)")
+
 NEWS_SOURCE_LIMIT = 30  # 每个新闻源的截取条数
 
 # 情绪仪表配置：alternative.me 恐惧贪婪指数分档 → 中文描述
@@ -1706,7 +1716,9 @@ def fetch_sentiment(fg_due=True, prev_fg=None):
     total = up + down + flat
     if total:
         breadth = round(up / total * 100, 1)
-        breadth_score = round(min(100, 50 + (breadth - 50) * 2), 1)
+        # 必须双侧截断：只取 min(100, ·) 会让极弱盘面算出负分，
+        # 而下游要和 0–100 的结构分加权，量纲不一致会导致情绪分失真。
+        breadth_score = round(max(0.0, min(100.0, 50 + (breadth - 50) * 2)), 1)
         sentiment["a_share_breadth"] = {
             "up": up, "down": down, "flat": flat, "total": total,
             "breadth_pct": breadth, "score": breadth_score,
@@ -1771,23 +1783,50 @@ def fetch_sentiment(fg_due=True, prev_fg=None):
 
 
 def fetch_speakers(news_pool):
-    """从新闻池中按关键词提取关键人物/机构发言。"""
+    """从新闻池中按关键词提取关键人物/机构发言。
+
+    两条硬规则，避免把「信息汇编」误挂成人名发言：
+      1) 早报 / 早餐 / 汇总 / 盘点 / 日历 类标题不参与匹配——它们是当日信息汇编，
+         正文里顺带出现的机构名不代表该机构表过态；
+      2) 名字必须是「主语」：出现在标题前段（前 10 字），或其后 20 字内紧跟表态/动作
+         动词。只被当作宾语提及（"泽连斯基拿特朗普开玩笑"）的一律不算。
+    同一条新闻也不会同时挂到两个发言人下。
+    """
+    used_titles = set()
     speakers = []
     for keyword, label, hint in KEY_FIGURES:
+        kw = keyword.lower()
         matched = []
         for n in news_pool or []:
-            blob = (n.get("title", "") + " " + n.get("summary", "")).lower()
-            if keyword.lower() in blob:
-                matched.append(n)
-        if matched:
-            matched.sort(key=lambda x: x.get("time", ""), reverse=True)
-            top = matched[0]
-            speakers.append({
-                "keyword": keyword, "label": label, "hint": hint,
-                "title": top["title"], "summary": top.get("summary", ""),
-                "time": top.get("time", ""), "url": top.get("url", ""),
-                "source": top.get("source", ""), "mentions": len(matched),
-            })
+            title = (n.get("title") or "").strip()
+            if not title or title in used_titles:
+                continue
+            if SPEAKER_DIGEST_RE.search(title):
+                continue
+            blob = (title + " " + (n.get("summary") or "")).lower()
+            pos = blob.find(kw)
+            if pos < 0:
+                continue
+            if pos <= 8:
+                direct = 1
+            else:
+                tail = blob[pos + len(kw): pos + len(kw) + 20]
+                if not SPEAKER_CUE_RE.search(tail):
+                    continue
+                direct = 0
+            matched.append((direct, n))
+        if not matched:
+            continue
+        # 主语位置命中优先，其次按时间新→旧
+        matched.sort(key=lambda p: (p[0], p[1].get("time") or ""), reverse=True)
+        top = matched[0][1]
+        used_titles.add(top["title"])
+        speakers.append({
+            "keyword": keyword, "label": label, "hint": hint,
+            "title": top["title"], "summary": top.get("summary", ""),
+            "time": top.get("time", ""), "url": top.get("url", ""),
+            "source": top.get("source", ""), "mentions": len(matched),
+        })
     speakers.sort(key=lambda x: x.get("time", ""), reverse=True)
     return speakers
 

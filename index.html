@@ -632,6 +632,30 @@
         </div>
       </div>
 
+      <div class="sl-panel sl-boards-panel">
+        <div class="sl-panel-head">
+          <h3>细分行业全览 <span class="bd-count" id="bd-count">—</span></h3>
+          <span class="hint">申万二级全部展开 · 一级行业只作分组标签，不再把机器人、光模块这类赛道合并进「汽车零部件 / 通信设备」 · 点表头排序，可搜赛道词</span>
+        </div>
+        <div class="bd-controls">
+          <input id="bd-search" class="bd-search" type="search"
+                 placeholder="搜板块或赛道词：机器人 / 光模块 / 储能 / 白酒 …" />
+          <div class="sl-tabs" id="bd-style-tabs">
+            <button class="sl-tab on" data-s="">全部</button>
+            <button class="sl-tab" data-s="cyclical">周期资源</button>
+            <button class="sl-tab" data-s="financial">金融地产</button>
+            <button class="sl-tab" data-s="growth">科技成长</button>
+            <button class="sl-tab" data-s="defensive">消费防御</button>
+          </div>
+        </div>
+        <div class="bd-wrap"><table id="bd-table"></table></div>
+        <div class="sl-legend-line">
+          <span>分位 = 当前值在近 10 年日频序列中的百分位（滚动窗口，无前视偏差）</span>
+          <span>20日分位变动 = 当前分位 − 20 个交易日前同口径分位，正值代表估值中枢上移</span>
+          <span>分位配色使用青蓝→橙，刻意避开红绿，避免被读成涨跌</span>
+        </div>
+      </div>
+
       <div class="sl-bottom" id="sl-read-anchor">
         <div class="sl-clock-card">
           <h4>周期属性速览</h4>

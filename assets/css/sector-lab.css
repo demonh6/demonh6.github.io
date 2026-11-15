@@ -299,3 +299,46 @@
   .sl-ifacts { grid-template-columns: repeat(2, 1fr); }
   .sl-breadth .sl-breadth-hint { display: none; }
 }
+
+/* ---------- 细分行业全览（申万二级全量） ---------- */
+.sl-boards-panel { margin-top: 16px; }
+.bd-count { font-size: 11px; color: var(--accent); font-weight: 700; letter-spacing: .3px; }
+.bd-controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin: 10px 0 2px; }
+.bd-search {
+  flex: 1 1 240px; min-width: 170px; height: 26px; padding: 0 10px;
+  background: rgba(255,255,255,.045); border: 1px solid var(--card-border);
+  border-radius: 8px; color: var(--text); font-size: 11.5px; outline: none;
+  font-family: inherit;
+}
+.bd-search:focus { border-color: rgba(79,156,249,.55); }
+.bd-search::placeholder { color: var(--text-faint); }
+.bd-wrap {
+  max-height: 640px; overflow: auto; margin-top: 8px;
+  border: 1px solid rgba(255,255,255,.05); border-radius: 8px;
+}
+#bd-table { border-collapse: collapse; width: 100%; min-width: 800px; font-size: 11px; font-variant-numeric: tabular-nums; }
+#bd-table thead th {
+  position: sticky; top: 0; z-index: 2;
+  background: #10141a; text-align: right; padding: 7px 8px; cursor: pointer;
+  font-weight: 600; font-size: 10.5px; color: var(--text-faint); white-space: nowrap;
+  border-bottom: 1px solid var(--card-border);
+}
+#bd-table thead th:hover { color: var(--text); }
+#bd-table thead th.sorted { color: #9ccaff; }
+#bd-table thead th.txt, #bd-table td.txt { text-align: left; }
+#bd-table td { text-align: right; padding: 5px 8px; color: var(--text-dim); border-bottom: 1px solid rgba(255,255,255,.04); }
+#bd-table td.txt { color: var(--text); }
+#bd-table tbody tr:hover { background: rgba(255,255,255,.05); }
+#bd-table .bd-sw1 { font-size: 9.5px; color: var(--text-faint); }
+#bd-table .bd-name b { font-weight: 600; }
+#bd-table .bd-bar { display: inline-block; width: 44px; height: 4px; border-radius: 2px; background: rgba(255,255,255,.09); vertical-align: middle; margin-right: 5px; }
+#bd-table .bd-bar i { display: block; height: 100%; border-radius: 2px; }
+#bd-table .up { color: var(--up); }
+#bd-table .down { color: var(--down); }
+#bd-table .flat { color: var(--text-faint); }
+.bd-empty { padding: 26px 10px; text-align: center; color: var(--text-faint); font-size: 11.5px; }
+.bd-hot { color: var(--gold); font-weight: 700; }
+@media (max-width: 720px) {
+  .bd-wrap { max-height: 460px; }
+  #bd-table { min-width: 660px; }
+}

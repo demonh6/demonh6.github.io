@@ -989,11 +989,226 @@
     renderInterp(id || state.pin, quad);
   }
 
+  /* ============================================================ 细分行业全览 */
+  /* 用户搜的是「机器人」这类赛道词，而申万二级只有「自动化设备」这种学名。
+     不做别名映射，搜索会直接落空 —— 所以这里把常见赛道词反查到承载它的二级行业。 */
+  var BD_ALIAS = {
+    "机器人": ["自动化设备", "通用设备"],
+    "人形机器人": ["自动化设备", "通用设备"],
+    "减速器": ["通用设备"],
+    "丝杠": ["通用设备"],
+    "灵巧手": ["自动化设备"],
+    "工业母机": ["通用设备"],
+    "算力": ["通信设备", "计算机设备"],
+    "光模块": ["通信设备"],
+    "液冷": ["通信设备"],
+    "芯片": ["半导体"],
+    "存储": ["半导体"],
+    "半导体设备": ["专用设备"],
+    "锂电": ["电池"],
+    "固态电池": ["电池"],
+    "储能": ["电池", "其他电源设备Ⅱ"],
+    "光伏": ["光伏设备"],
+    "风电": ["风电设备"],
+    "特高压": ["电网设备"],
+    "核电": ["电力", "其他电源设备Ⅱ"],
+    "军工": ["航空装备Ⅱ", "航天装备Ⅱ", "军工电子Ⅱ", "地面兵装Ⅱ", "航海装备Ⅱ"],
+    "白酒": ["白酒Ⅱ"],
+    "券商": ["证券Ⅱ"],
+    "保险": ["保险Ⅱ"],
+    "银行": ["银行Ⅱ"],
+    "创新药": ["化学制药", "生物制品"],
+    "中药": ["中药Ⅱ"],
+    "CXO": ["医疗服务"],
+    "医美": ["医疗美容"],
+    "宠物": ["动物保健Ⅱ"],
+    "稀土": ["小金属"],
+    "黄金": ["贵金属"],
+    "铜": ["工业金属"],
+    "锂矿": ["能源金属"],
+    "煤炭": ["煤炭开采", "焦炭Ⅱ"],
+    "石油": ["油气开采Ⅱ", "炼化及贸易"],
+    "地产": ["房地产开发"],
+    "基建": ["基础建设"],
+    "游戏": ["游戏Ⅱ"],
+    "影视": ["影视院线"],
+    "短剧": ["影视院线", "数字媒体"],
+    "消费电子": ["消费电子"],
+    "家电": ["白色家电", "黑色家电", "小家电"],
+    "汽车": ["乘用车", "商用车", "汽车零部件"],
+    "白酒Ⅱ": ["白酒Ⅱ"]
+  };
+
+  var BD_ALIAS_OF = (function () {
+    var m = {};
+    for (var k in BD_ALIAS) {
+      if (!Object.prototype.hasOwnProperty.call(BD_ALIAS, k)) continue;
+      BD_ALIAS[k].forEach(function (n) {
+        if (!m[n]) m[n] = [];
+        if (m[n].indexOf(k) < 0) m[n].push(k);
+      });
+    }
+    return m;
+  })();
+
+  var BD = { q: "", style: "", sort: "pb_pct", dir: 1 };
+
+  function bdChg20(b) {
+    if (b.pb_pct == null || b.pb_pct_20d == null) return null;
+    return Math.round((b.pb_pct - b.pb_pct_20d) * 10) / 10;
+  }
+
+  function bdPctColor(p) {
+    // 估值分位用「青蓝→灰→橙」色阶，刻意避开红绿，避免被读成涨跌
+    if (p == null) return "var(--text-faint)";
+    if (p >= 90) return "#e8622c";
+    if (p >= 70) return "#e8a33d";
+    if (p <= 10) return "#3f9edb";
+    if (p <= 30) return "#5ea8c9";
+    return "var(--text-dim)";
+  }
+
+  function bdCap(v) {
+    if (v == null) return "—";
+    if (v >= 10000) return (v / 10000).toFixed(1) + "万亿";
+    return Math.round(v).toLocaleString("zh-CN");
+  }
+
+  function bdRows() {
+    var list = (D && D.boards) || [];
+    var q = BD.q.trim().toLowerCase();
+    var out = [];
+    for (var i = 0; i < list.length; i++) {
+      var b = list[i];
+      if (BD.style && b.style !== BD.style) continue;
+      if (q) {
+        var hay = b.name + " " + (b.sw1 || "") + " " +
+                  ((BD_ALIAS_OF[b.name] || []).join(" "));
+        if (hay.toLowerCase().indexOf(q) < 0) continue;
+      }
+      out.push(b);
+    }
+    var k = BD.sort, dir = BD.dir;
+    out.sort(function (a, b) {
+      var va, vb;
+      if (k === "chg20") { va = bdChg20(a); vb = bdChg20(b); }
+      else if (k === "name") { va = a.name; vb = b.name; }
+      else { va = a[k]; vb = b[k]; }
+      if (va == null && vb == null) return 0;
+      if (va == null) return 1;
+      if (vb == null) return -1;
+      if (typeof va === "string") return va.localeCompare(vb) * dir;
+      return (va - vb) * dir;
+    });
+    return out;
+  }
+
+  function renderBoards() {
+    var tbl = $("bd-table");
+    if (!tbl) return;
+    var all = (D && D.boards) || [];
+
+    if (!all.length) {
+      tbl.innerHTML = '<tbody><tr><td class="bd-empty">细分行业数据未生成 · 运行 ' +
+        'scripts/update_sector_lab.py 后刷新</td></tr></tbody>';
+      if ($("bd-count")) $("bd-count").textContent = "数据待生成";
+      return;
+    }
+    if ($("bd-count")) {
+      $("bd-count").textContent = all.length + " 个二级行业";
+    }
+
+    var rows = bdRows();
+    var cols = [
+      ["name", "板块 / 一级行业", "txt"],
+      ["pe", "PE", ""],
+      ["pe_pct", "PE分位", ""],
+      ["pb", "PB", ""],
+      ["pb_pct", "PB分位", ""],
+      ["chg20", "20日分位变动", ""],
+      ["loss_ratio", "亏损占比", ""],
+      ["cap_yi", "市值", ""]
+    ];
+    var head = "<thead><tr>";
+    cols.forEach(function (c) {
+      head += '<th class="' + c[2] + (BD.sort === c[0] ? " sorted" : "") +
+              '" data-k="' + c[0] + '">' + c[1] + "</th>";
+    });
+    head += "</tr></thead>";
+
+    var body = "<tbody>";
+    if (!rows.length) {
+      body += '<tr><td class="bd-empty" colspan="8">没有匹配「' +
+              esc(BD.q) + "」的板块，试试：机器人 / 光模块 / 白酒 / 储能</td></tr>";
+    }
+    for (var i = 0; i < rows.length; i++) {
+      var b = rows[i];
+      var c20 = bdChg20(b);
+      var c20txt = c20 == null ? "—" : (c20 > 0 ? "+" : "") + c20.toFixed(1);
+      var c20col = c20 == null ? "var(--text-faint)"
+                 : (c20 > 0 ? "#e8a33d" : c20 < 0 ? "#5ea8c9" : "var(--text-faint)");
+      var alias = (BD_ALIAS_OF[b.name] || []).slice(0, 2).join(" / ");
+      body += "<tr>" +
+        '<td class="txt bd-name"><b>' + esc(b.name) + "</b> " +
+          '<span class="bd-sw1">' + esc(b.sw1 || "") +
+          (alias ? " · " + esc(alias) : "") + "</span></td>" +
+        "<td>" + f2(b.pe) + "</td>" +
+        '<td><span class="bd-bar"><i style="width:' + clamp(b.pe_pct || 0, 0, 100) +
+          "%;background:" + bdPctColor(b.pe_pct) + '"></i></span>' +
+          '<span style="color:' + bdPctColor(b.pe_pct) + '">' +
+          (b.pe_pct == null ? "—" : f1(b.pe_pct)) + "</span></td>" +
+        "<td>" + f2(b.pb) + "</td>" +
+        '<td><span class="bd-bar"><i style="width:' + clamp(b.pb_pct || 0, 0, 100) +
+          "%;background:" + bdPctColor(b.pb_pct) + '"></i></span>' +
+          '<span style="color:' + bdPctColor(b.pb_pct) + '">' +
+          (b.pb_pct == null ? "—" : f1(b.pb_pct)) + "</span></td>" +
+        '<td style="color:' + c20col + '">' + c20txt + "</td>" +
+        '<td style="color:' + (b.loss_ratio >= 30 ? "#e8a33d" : "var(--text-dim)") + '">' +
+          (b.loss_ratio == null ? "—" : f1(b.loss_ratio) + "%") + "</td>" +
+        "<td>" + bdCap(b.cap_yi) + "</td>" +
+        "</tr>";
+    }
+    body += "</tbody>";
+    tbl.innerHTML = head + body;
+
+    tbl.onclick = function (e) {
+      var th = e.target;
+      while (th && th.tagName !== "TH") th = th.parentNode;
+      if (!th || !th.getAttribute("data-k")) return;
+      var k = th.getAttribute("data-k");
+      if (BD.sort === k) BD.dir = -BD.dir;
+      else { BD.sort = k; BD.dir = 1; }
+      renderBoards();
+    };
+  }
+
+  function bindBoardsUI() {
+    var s = $("bd-search");
+    if (s && !s.dataset.bound) {
+      s.dataset.bound = "1";
+      s.addEventListener("input", function () { BD.q = this.value || ""; renderBoards(); });
+    }
+    var st = $("bd-style-tabs");
+    if (st && !st.dataset.bound) {
+      st.dataset.bound = "1";
+      st.addEventListener("click", function (e) {
+        var b = e.target;
+        if (b.tagName !== "BUTTON") return;
+        BD.style = b.getAttribute("data-s") || "";
+        var kids = st.querySelectorAll(".sl-tab");
+        for (var i = 0; i < kids.length; i++) kids[i].classList.remove("on");
+        b.classList.add("on");
+        renderBoards();
+      });
+    }
+  }
+
   function renderAll() {
     lastInterpKey = "";
     renderTabs(); renderCoordTabs(); renderGroupChips();
     renderQuadrant(); renderRows(); renderTrend(); renderSeriesLegend(); renderClock();
     renderMatrix(); renderStatus(); renderLiveStrip();
+    bindBoardsUI(); renderBoards();
     renderInterp(state.focus || state.pin, null);
     applyHighlight();
   }
