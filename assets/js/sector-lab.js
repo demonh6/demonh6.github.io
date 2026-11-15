@@ -1405,7 +1405,8 @@
       return;
     }
     el.innerHTML = sg.map(function (g) {
-      var rows = (g.items || []).slice(0, 4).map(function (it) {
+      var items = g.items || [];
+      var rows = items.slice(0, 5).map(function (it) {
         var tone = it.mom >= 0 ? "var(--up)" : "var(--down)";
         return '<div class="sig-row" title="PE 分位 ' + f1(it.pe_pct) + "% · 亏损占比 " +
           f1(it.loss_ratio) + '%">' +
@@ -1413,6 +1414,10 @@
           '<span class="pv">' + f1(it.pb_pct) + "%</span>" +
           '<span class="mv" style="color:' + tone + '">' + sign(it.mom) + "</span></div>";
       }).join("");
+      if (g.count > items.slice(0, 5).length) {
+        rows += '<div class="sig-more">同类共 ' + g.count + ' 个，此处列变动最大的 ' +
+          items.slice(0, 5).length + " 个</div>";
+      }
       return '<div class="sig-g sig-' + g.id + '"><div class="sig-h"><b>' + esc(g.name) + "</b>" +
         "<span>" + g.count + " 个</span><em>" + esc(g.hint) + "</em></div>" +
         (rows || '<div class="sig-none">今日无</div>') + "</div>";
