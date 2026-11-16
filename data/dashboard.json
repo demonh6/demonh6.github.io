@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 16:30:23 CST",
- "generated_at_iso": "2026-11-16T16:30:23+08:00",
+ "generated_at": "2026-11-16 16:39:03 CST",
+ "generated_at_iso": "2026-11-16T16:39:03+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10908.89,
-    "change": 6.33,
-    "change_pct": 0.06,
+    "price": 10919.36,
+    "change": 16.8,
+    "change_pct": 0.15,
     "hist": [
      10497.94,
      10541.69,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8396.57,
-    "change": 27.66,
-    "change_pct": 0.33,
+    "price": 8393.63,
+    "change": 24.72,
+    "change_pct": 0.3,
     "hist": [
      7834.1,
      7865.07,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6386.71,
-    "change": -0.15,
-    "change_pct": 0.0,
+    "price": 6386.46,
+    "change": -0.4,
+    "change_pct": -0.01,
     "hist": [
      6242.15,
      6272.24,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3856.71,
-    "change": -29.59,
-    "change_pct": -0.76,
-    "quote_time": "16:30:26 2026-11-16"
+    "price": 3859.052,
+    "change": -27.248,
+    "change_pct": -0.7,
+    "quote_time": "16:39:03 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.276,
-    "change": -1.845,
-    "change_pct": -3.76,
-    "quote_time": "16:30:09 2026-11-16"
+    "price": 47.343,
+    "change": -1.778,
+    "change_pct": -3.62,
+    "quote_time": "16:39:04 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 89.372,
-    "change": 0.812,
-    "change_pct": 0.92,
-    "quote_time": "16:30:25 2026-11-16"
+    "price": 88.743,
+    "change": 0.183,
+    "change_pct": 0.21,
+    "quote_time": "16:39:05 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 96.42,
-    "change": 0.58,
-    "change_pct": 0.61,
-    "quote_time": "16:30:19 2026-11-16"
+    "price": 95.835,
+    "change": -0.005,
+    "change_pct": -0.01,
+    "quote_time": "16:39:01 2026-11-16"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64551.3,
-    "change": -40.2,
-    "change_pct": -0.06,
+    "price": 64613.7,
+    "change": -26.6,
+    "change_pct": -0.04,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1806.53,
-    "change": 9.5,
-    "change_pct": 0.53,
+    "price": 1808.88,
+    "change": 11.1,
+    "change_pct": 0.62,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.75,
-    "change": 0.07,
-    "change_pct": 0.1,
+    "price": 71.04,
+    "change": 0.59,
+    "change_pct": 0.84,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.46,
-    "change": 0.05,
-    "change_pct": 0.05,
+    "price": 103.45,
+    "change": 0.04,
+    "change_pct": 0.04,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1373,11 +1373,11 @@
    "source": "东财"
   },
   "vix": {
-   "value": 20.0,
-   "change": 0.7,
-   "change_pct": 3.6269,
-   "label": "升高",
-   "color": "#d9b23c",
+   "value": 19.96,
+   "change": 0.66,
+   "change_pct": 3.4197,
+   "label": "正常",
+   "color": "#8ac96f",
    "source": "CBOE",
    "spark": [
     15.52,
@@ -1423,8 +1423,8 @@
     },
     {
      "t": "VIX",
-     "value": 20.0,
-     "change_pct": 3.6269
+     "value": 19.96,
+     "change_pct": 3.4197
     },
     {
      "t": "VIX3M",
@@ -1457,11 +1457,22 @@
    "keyword": "欧洲央行",
    "label": "欧洲央行",
    "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "欧洲央行副行长Vujcic：欧洲经济“韧性惊人”。",
-   "summary": "欧洲央行副行长Vujcic：欧洲经济“韧性惊人”。",
-   "time": "2026-11-16 16:31",
-   "url": "https://wallstreetcn.com/livenews/3200523",
-   "source": "华尔街见闻",
+   "title": "欧洲央行管委武伊契奇：金融稳定风险处于高位",
+   "summary": "【欧洲央行管委武伊契奇：金融稳定风险处于高位】欧洲央行管委武伊契奇表示，金融稳定风险处于高位；近期能源价格走势或将加剧通货膨胀。",
+   "time": "2026-11-16 16:33:08",
+   "url": "https://finance.eastmoney.com/a/202611163931821916.html",
+   "source": "东财国际",
+   "mentions": 3
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "专访美联储前副主席科恩：美联储不加息代价更高 - 凤凰网财经",
+   "summary": "",
+   "time": "2026-11-16 16:28",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE05Qjc1eXN0eDhEMERnMDJTQlVaUFZnT28yNVBWSm82U0wxaGx2NE5hNnAtMU9BYjB0Q0hLMVJNQWRSSmI3X1lLcm5xaW8wb1Zo?oc=5",
+   "source": "谷歌新闻·国际",
    "mentions": 1
   },
   {
@@ -1473,7 +1484,7 @@
    "time": "2026-11-16 16:08",
    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMk4yUFhkb19FM0s1dmFmTG9KbWxnV1ozMkk3VTVTdVU3WUtFTnROQlhJOFdHb2FUVkNCUy15cmF0MXJob2NFOG5OdDlVc2ppdWNlOWdRUTJYMXlfOGs1a19ZNU5WeThHQmJITGhMVXhSN3FnUlV3Mk50SFAxTkRWZFJ4RzB3LTh3?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
   },
   {
    "keyword": "黄仁勋",
@@ -1714,66 +1725,66 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.37%，达20日历史波动率的 3.6 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-16 16:31",
+   "time": "2026-11-16 16:39",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌2.53%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 16:31",
+   "time": "2026-11-16 16:39",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌3.76%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 16:31",
+   "message": "COMEX白银单日跌3.62%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-16 16:39",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "欧洲央行副行长Vujcic：欧洲经济“韧性惊人”。",
-   "summary": "欧洲央行副行长Vujcic：欧洲经济“韧性惊人”。",
+   "title": "俄称克里米亚大桥遭袭 多地遭大规模无人机袭击",
+   "summary": "【俄称克里米亚大桥遭袭 多地遭大规模无人机袭击】据俄罗斯媒体16日报道，克里米亚大桥遭到袭击，交通预计受限至当日中午前后。",
+   "time": "2026-11-16 16:35:35",
+   "url": "https://finance.eastmoney.com/a/202611163931821429.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "欧洲央行副行长Vujcic：欧洲经济“韧性惊人”。\n\n私募信贷风险看似可控，但需要监测。\n\n近期能源价格走势可能推升通胀。\n\n人工智能和高债务是首要的金融稳定风险。\n\n估值、融资和网络攻击属于人工智能相关风险之列。\n\n金融稳定风险处于“高位",
+   "summary": "欧洲央行副行长Vujcic：欧洲经济“韧性惊人”。\n\n私募信贷风险看似可控，但需要监测。\n\n近期能源价格走势可能推升通胀。\n\n人工智能和高债务是首要的金融稳定风险。\n\n估值、融资和网络攻击属于人工智能相关风险之列。\n\n金融稳定风险处于“高位”。\n\n工资未对通胀表现出实质性反应。",
    "time": "2026-11-16 16:31",
    "url": "https://wallstreetcn.com/livenews/3200523",
    "source": "华尔街见闻"
   },
   {
-   "title": "东山精密今日跌停 有3家机构专用席位净卖出4.74亿元",
-   "summary": "【东山精密今日跌停 有3家机构专用席位净卖出4.74亿元】东山精密今日跌停，成交额109.84亿元，换手率10.10%。盘后龙虎榜数据显示，深股通专用席位买入6.46亿元并卖出6.19亿元，2家机构专用席位净买入1.14亿元，有3家机构专用席位净卖出4.74亿元。",
-   "time": "2026-11-16 16:26:45",
-   "url": "https://finance.eastmoney.com/a/202611163931811933.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "美银证券：TCL电子第三季纯利升54%至5.76亿港元 重申买入评级 - 观点网",
+   "title": "中国移动计划年内交付1.5GW新AIDC产能 花旗予目标价97港元 - 观点网",
    "summary": "",
-   "time": "2026-11-16 16:17",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBya1IxRjFNdDhyMFdSWUVvdGRabU5ZTFpEN1lIaUt1X1BYaGZ5RVVtY1R6dlhhWlhTdkFPSWd4OHA2RWl6NngySms1QXEzamRxZUItSi14UjRKZTZsVEtiVHpR?oc=5",
+   "time": "2026-11-16 16:30",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03OGpGSmZ3cjlUUlBDY3JGN1hGYm9vc0gwaVlFVjQxNjN4c0NCQVZLd0JINTBpZzVfLUl0ZmN3WEo2X0N4SzFiVVRtRndtQk1OQ2ZTTkNrTE5mZmZoZ3JwWTJn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普：我即将访问中国，期待参加中俄美元首会晤，我们会讨论很多议题 - Sohu",
+   "title": "专访美联储前副主席科恩：美联储不加息代价更高 - 凤凰网财经",
    "summary": "",
-   "time": "2026-11-16 16:08",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMk4yUFhkb19FM0s1dmFmTG9KbWxnV1ozMkk3VTVTdVU3WUtFTnROQlhJOFdHb2FUVkNCUy15cmF0MXJob2NFOG5OdDlVc2ppdWNlOWdRUTJYMXlfOGs1a19ZNU5WeThHQmJITGhMVXhSN3FnUlV3Mk50SFAxTkRWZFJ4RzB3LTh3?oc=5",
+   "time": "2026-11-16 16:28",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE05Qjc1eXN0eDhEMERnMDJTQlVaUFZnT28yNVBWSm82U0wxaGx2NE5hNnAtMU9BYjB0Q0hLMVJNQWRSSmI3X1lLcm5xaW8wb1Zo?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "交通运输部：上周国家铁路运输货物8398.4万吨，环比增长0.27%",
+   "title": "华兴源创：拟以1500万元-3000万元回购公司股份",
    "summary": "",
-   "time": "2026-11-16 08:27:36",
-   "url": "https://news.futunn.com/flash/1004592295/ministry-of-transport-last-week-national-railway-freight-volume-reached",
-   "source": "富途"
+   "time": "2026-11-16 08:39:12",
+   "url": "https://news.10jqka.com.cn/20261116/c681862714.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "玲珑轮胎：控股股东玲珑集团增持计划实施完毕，累计增持1.22%股份",
+   "title": "我国科研团队开发新型超稳定磷化物阻挡层 有效解决热电发电器件长期服役过程中的界面稳定性难题",
    "summary": "",
-   "time": "2026-11-16 08:26:57",
-   "url": "https://news.10jqka.com.cn/20261116/c681861018.shtml",
-   "source": "同花顺"
+   "time": "2026-11-16 08:36:54",
+   "url": "https://news.futunn.com/flash/1004593691/chinese-research-team-develops-new-ultra-stable-phosphide-barrier-layer",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1790,6 +1801,13 @@
    "source": "财新"
   },
   {
+   "title": "白云山：子公司拟3.5亿港元认缴亚洲大健康基金有限合伙份额",
+   "summary": "【白云山：子公司拟3.5亿港元认缴亚洲大健康基金有限合伙份额】白云山(600332.SH)公告称，公司全资子公司广药白云山香港有限公司拟出资3.50亿港元认缴沃博资本大健康有限合伙基金有限合伙份额，占其募集完成后的比例为35%。",
+   "time": "2026-11-16 16:33:19",
+   "url": "https://finance.eastmoney.com/a/202611163931821819.html",
+   "source": "东财国际"
+  },
+  {
    "title": "英国国债价格下跌，2年期国债收益率自2023年以来首次触及5%。",
    "summary": "英国国债价格下跌，2年期国债收益率自2023年以来首次触及5%。",
    "time": "2026-11-16 16:28",
@@ -1797,17 +1815,59 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "沐曦股份陈维良：GPU行业变局将加速国产算力市场份额提升进程",
-   "summary": "【沐曦股份陈维良：GPU行业变局将加速国产算力市场份额提升进程】沐曦股份今日召开业绩说明会，公司董事长兼总经理陈维良就海外GPU巨头近期变动对国产算力产业链的影响作出回应。",
-   "time": "2026-11-16 16:22:39",
-   "url": "https://finance.eastmoney.com/a/202611163931809636.html",
+   "title": "花旗予鸣鸣很忙买入评级 年内新开店约1万间超8000间指引 - 观点网",
+   "summary": "",
+   "time": "2026-11-16 16:28",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBtd004VVItWC1WV2dfQmx6R0Z4U2ZqNDNraTlCeUQzbmI0eUQyVjRyTnF6MXZKSzFBWkV3a3ZDWmlmSlhzUmVyQ3BVMXppQWtpNnNGOWlkeEh2TlZNMnNfSUtn?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普：我即将访问中国，期待参加中俄美元首会晤，我们会讨论很多议题 - Sohu",
+   "summary": "",
+   "time": "2026-11-16 16:08",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMk4yUFhkb19FM0s1dmFmTG9KbWxnV1ozMkk3VTVTdVU3WUtFTnROQlhJOFdHb2FUVkNCUy15cmF0MXJob2NFOG5OdDlVc2ppdWNlOWdRUTJYMXlfOGs1a19ZNU5WeThHQmJITGhMVXhSN3FnUlV3Mk50SFAxTkRWZFJ4RzB3LTh3?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "羚锐制药：获氟比洛芬凝胶贴膏药品注册证书",
+   "summary": "",
+   "time": "2026-11-16 08:37:22",
+   "url": "https://news.10jqka.com.cn/20261116/c681862457.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "交通运输部：上周国家铁路运输货物8398.4万吨，环比增长0.27%",
+   "summary": "",
+   "time": "2026-11-16 08:27:36",
+   "url": "https://news.futunn.com/flash/1004592295/ministry-of-transport-last-week-national-railway-freight-volume-reached",
+   "source": "富途"
+  },
+  {
+   "title": "这些事实支持对软银资金压力的持续关注，但尚不足以判断软银即将违约，更无法判断它会成为这轮AI投资承压中最先倒下的公司",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-16/102505208.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "欧洲央行管委武伊契奇：金融稳定风险处于高位",
+   "summary": "【欧洲央行管委武伊契奇：金融稳定风险处于高位】欧洲央行管委武伊契奇表示，金融稳定风险处于高位；近期能源价格走势或将加剧通货膨胀。",
+   "time": "2026-11-16 16:33:08",
+   "url": "https://finance.eastmoney.com/a/202611163931821916.html",
    "source": "东财国际"
   },
   {
-   "title": "券商今日金股：6份研报力推一股（名单） - Sohu",
+   "title": "恒生指数收盘涨0.49%，恒生科技指数跌0.3%",
+   "summary": "MINIMAX跌约18%，智谱跌约13%，群核科技跌约11%，长飞光纤光缆跌10%，中际旭创跌约8%，万国数据跌约6%，联想集团跌约6%。",
+   "time": "2026-11-16 16:09",
+   "url": "https://wallstreetcn.com/livenews/3200514",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "美银证券：TCL电子第三季纯利升54%至5.76亿港元 重申买入评级 - 观点网",
    "summary": "",
-   "time": "2026-11-16 16:08",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSDl3WFhQVlRwSldTM2NNWGFndC1DcEcwTkU4WkJMY2ozQW9WQkZBZTdyQjMzWV84Rjh0MFEzbWpoTWhhNV9UVUJFdW4ya2N1RHczU3d1a3JvYldWU1ZZZEo3RUs5b0xsLTBQU2J1eXhUZmpiNmI1VWgzZU1fdEhHeW1XLTlteXQ4?oc=5",
+   "time": "2026-11-16 16:17",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBya1IxRjFNdDhyMFdSWUVvdGRabU5ZTFpEN1lIaUt1X1BYaGZ5RVVtY1R6dlhhWlhTdkFPSWd4OHA2RWl6NngySms1QXEzamRxZUItSi14UjRKZTZsVEtiVHpR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1818,67 +1878,18 @@
    "source": "谷歌新闻·国际"
   },
   {
+   "title": "立方制药：二巯丙磺钠原料药上市申请获受理",
+   "summary": "",
+   "time": "2026-11-16 08:36:45",
+   "url": "https://news.10jqka.com.cn/20261116/c681862368.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "财政部决定开展2026年11月份国债做市支持操作",
    "summary": "",
    "time": "2026-11-16 08:26:19",
    "url": "https://news.futunn.com/flash/1004592190/the-ministry-of-finance-has-decided-to-conduct-government-bond",
    "source": "富途"
-  },
-  {
-   "title": "金智科技：中标国家电网及医院智能化项目合计5263.65万元",
-   "summary": "",
-   "time": "2026-11-16 08:25:36",
-   "url": "https://news.10jqka.com.cn/20261116/c681860819.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "这些事实支持对软银资金压力的持续关注，但尚不足以判断软银即将违约，更无法判断它会成为这轮AI投资承压中最先倒下的公司",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-16/102505208.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "恒生指数收盘涨0.49%，恒生科技指数跌0.3%",
-   "summary": "MINIMAX跌约18%，智谱跌约13%，群核科技跌约11%，长飞光纤光缆跌10%，中际旭创跌约8%，万国数据跌约6%，联想集团跌约6%。",
-   "time": "2026-11-16 16:09",
-   "url": "https://wallstreetcn.com/livenews/3200514",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "上海莱士：全资子公司获“蛋白C”临床试验批准通知书",
-   "summary": "【上海莱士：全资子公司获“蛋白C”临床试验批准通知书】上海莱士(002252.SZ)公告称，公司全资子公司广西莱士生物制药有限公司收到国家药监局核准签发的《药物临床试验批准通知书》，同意“蛋白C”开展用于治疗严重先天性蛋白C缺乏症患者的临床试验。",
-   "time": "2026-11-16 16:22:08",
-   "url": "https://finance.eastmoney.com/a/202611163931809595.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "大行评级｜美银：TCL电子第三季收入及盈利处于初步业绩指引高位，维持目标价22港元_股市直播_市场 - 中金在线",
-   "summary": "",
-   "time": "2026-11-16 15:50",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wVE5LNm5FVVRMRVBpT2wteUJ1TDVXY3p0NXRMMjE2WjZUaFUzNFRBNmhJMUFZUGFDa1dXWXhJMFJYQ0sxRXBOcU9VNEhGVFV4QTlGOUE1a21wVzFFODV2aWlJcGJ0LThOUllNZQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普和共和党输得一败涂地，铁杆支持者倒戈，“大本营”都没能守住 - 凤凰网",
-   "summary": "",
-   "time": "2026-11-16 15:27",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9mZFA1Mmw2Yjhna3M3ZlRpNXc1VVM3Smdmd005TXIxM3V3OVhWT0ZlcVEtNmpKRVZsMW1wdTZWLUNTeGk4UjhaWQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "上海莱士：全资子公司蛋白C获准开展临床试验",
-   "summary": "",
-   "time": "2026-11-16 08:24:36",
-   "url": "https://news.futunn.com/flash/1004592011/shanghai-raas-wholly-owned-subsidiary-s-protein-c-approved-for",
-   "source": "富途"
-  },
-  {
-   "title": "华懋科技：首次回购公司股份14.52万股，支付599.7万元",
-   "summary": "",
-   "time": "2026-11-16 08:24:26",
-   "url": "https://news.10jqka.com.cn/20261116/c681860651.shtml",
-   "source": "同花顺"
   },
   {
    "title": "调查显示87%的受访者将AI列为潜在风险，私募信贷透明度不足引关注",
@@ -1888,25 +1899,25 @@
    "source": "财新"
   },
   {
+   "title": "欧洲央行副行长警告：人工智能估值过高及公共债务高企威胁金融稳定",
+   "summary": "【欧洲央行副行长警告：人工智能估值过高及公共债务高企威胁金融稳定】11月16日，欧洲央行副行长鲍里斯·武伊契奇表示，人工智能快速扩张和公共债务高企是当前欧元区金融稳定面临的最大风险。",
+   "time": "2026-11-16 16:32:30",
+   "url": "https://finance.eastmoney.com/a/202611163931819558.html",
+   "source": "东财国际"
+  },
+  {
    "title": "欧洲斯托克50指数平开，德国DAX指数涨0.1%，英国富时100指数涨0.2%，法国CAC 40指数涨0.2%。",
    "summary": "欧洲斯托克50指数平开，德国DAX指数涨0.1%，英国富时100指数涨0.2%，法国CAC 40指数涨0.2%。",
    "time": "2026-11-16 16:02",
    "url": "https://wallstreetcn.com/livenews/3200511",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "工信部批准《人工智能 赋能应用 钢铁企业污染物排放监测系统技术要求》等796项行业标准",
-   "summary": "【工信部批准《人工智能 赋能应用 钢铁企业污染物排放监测系统技术要求》等796项行业标准】工业和信息化部批准《人工智能赋能应用钢铁企业污染物排放监测系统技术要求》等796项行业标准。",
-   "time": "2026-11-16 16:21:43",
-   "url": "https://finance.eastmoney.com/a/202611163931809341.html",
-   "source": "东财国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(27)",
+   "富途": "ok(25)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1915,12 +1926,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
-   "富途": 7,
-   "同花顺": 6,
+   "同花顺": 7,
+   "富途": 6,
    "东财早报": 1,
    "财新": 6
   }
