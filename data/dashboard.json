@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 07:52:19 CST",
- "generated_at_iso": "2026-11-16T07:52:19+08:00",
+ "generated_at": "2026-11-16 08:00:33 CST",
+ "generated_at_iso": "2026-11-16T08:00:33+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 61142.35,
-    "change": 322.99,
-    "change_pct": 0.53,
+    "price": 61376.91,
+    "change": 234.56,
+    "change_pct": 0.38,
     "hist": [
      68956.72,
      68309.46,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5290.53,
-    "change": -52.2,
-    "change_pct": -0.98,
+    "price": 5294.57,
+    "change": 4.04,
+    "change_pct": 0.08,
     "hist": [
      6971.35,
      7003.74,
@@ -1392,37 +1392,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3903.254,
-    "change": 16.954,
-    "change_pct": 0.44,
-    "quote_time": "07:52:18 2026-11-16"
+    "price": 3899.71,
+    "change": 13.41,
+    "change_pct": 0.35,
+    "quote_time": "08:00:38 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 48.973,
-    "change": -0.148,
-    "change_pct": -0.3,
-    "quote_time": "07:52:20 2026-11-16"
+    "price": 48.9,
+    "change": -0.221,
+    "change_pct": -0.45,
+    "quote_time": "08:00:36 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.449,
-    "change": -0.111,
-    "change_pct": -0.13,
-    "quote_time": "07:51:58 2026-11-16"
+    "price": 88.554,
+    "change": -0.006,
+    "change_pct": -0.01,
+    "quote_time": "08:00:25 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.505,
-    "change": -0.335,
+    "price": 95.506,
+    "change": -0.334,
     "change_pct": -0.35,
-    "quote_time": "07:52:08 2026-11-16"
+    "quote_time": "08:00:22 2026-11-16"
    }
   ],
   "crypto": [
@@ -1430,28 +1430,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65250.4,
-    "change": 1099.3,
-    "change_pct": 1.71,
-    "source": "okx"
+    "price": 65339.6,
+    "change": 1235.6,
+    "change_pct": 1.93,
+    "source": "okx",
+    "hist": [
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     65326.4
+    ],
+    "sigma": 2.328
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1833.65,
-    "change": 61.43,
-    "change_pct": 3.47,
-    "source": "okx"
+    "price": 1835.05,
+    "change": 68.31,
+    "change_pct": 3.87,
+    "source": "okx",
+    "hist": [
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1836.42
+    ],
+    "sigma": 3.214
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.66,
+    "price": 72.73,
     "change": 2.52,
     "change_pct": 3.59,
-    "source": "okx"
+    "source": "okx",
+    "hist": [
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     72.74
+    ],
+    "sigma": 3.324
    }
   ],
   "fx": [
@@ -1469,8 +1568,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6725,
-    "change": -0.0022,
+    "price": 6.673,
+    "change": -0.0017,
     "change_pct": -0.03,
     "dec": 4,
     "date": "",
@@ -1496,7 +1595,7 @@
    "classification": "Extreme Fear",
    "label": "极度恐惧",
    "color": "#f04a3d",
-   "timestamp": "2026-11-15",
+   "timestamp": "2026-11-16",
    "source": "alternative.me"
   },
   "a_share_breadth": {
@@ -1590,14 +1689,25 @@
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "招商宏观：美联储大概率提速加息 - 金融界",
+   "summary": "",
+   "time": "2026-11-16 07:50",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlMzJwSnA1Ri16OTI1Y2VfT2NHb3dFVmdtbjZFaFBKOGs5MGxVYk9yQmlKRExWeGxES2RWb3A0MTVLQ04xemJBLW1WQzZCTUF6ZnRtenFhNWhfLWFzanA2V0RiU0R6WFJjZi1XVGVfcVR2UQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普料将乘坐卡塔尔赠送的空军一号前往亚洲。（NBC）",
-   "summary": "特朗普料将乘坐卡塔尔赠送的空军一号前往亚洲。（NBC）",
-   "time": "2026-11-16 07:18",
-   "url": "https://wallstreetcn.com/livenews/3200248",
-   "source": "华尔街见闻",
+   "title": "特朗普、习近平与普京将在中国举行三方会谈 - 华尔街日报中文网",
+   "summary": "",
+   "time": "2026-11-16 07:47",
+   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZG1GT3Q1LUhreUgybFVSWmpybUZ0U0N1b3FGbDZqdmEwdl81TGJncDdYeUw4c04tTVVBVkg3YURxLTB4R0s0cFU1bmZpMC0yS3hrQUVyOGJYa2d4OXFNZGxJb2VaOFRkVzFXUzdVV21DOUhhSE9hNnNKOHkyUDBWRXZrQ0xpV29JYm95dENNWGVONjFUMFZDTldDejZNajZnaU9ScVVFWFVhN1A3V3QtazR5UWFuM0cxQ2thbVI1ZFFULUM2dXJFSjB2SFdsamszS0VIb0NEZktLZ3dTdzVPRWRVenZoYnU4LUV1b3E4eVh1Q1gyazFFU2VaSUNCNnd5UkxocmFEcGZvNkhya2hObmdxVkJwQmpYRzZTNHMwS1BMSzVtcTl5NG9Pa1VJcDNOby04?oc=5",
+   "source": "谷歌新闻·国际",
    "mentions": 1
   },
   {
@@ -1673,24 +1783,74 @@
   ],
   "reports": [
    {
-    "title": "中金将美国雅保的目标价从$83.28调整至$108.58 - Moomoo",
-    "org": "中金",
+    "title": "特朗普、习近平与普京将在中国举行三方会谈 - 华尔街日报中文网",
+    "org": "华尔街日报",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaDI2RnpzcV8ySnNLaHNrTGdWeV80QjZscVRvZFJ1eU1YYW1MSWNOR1dkWTVyeDZqWU10MjhadnctQk9ieUdwdzAtVG9OT04yc0ZoTEliQjZuc2xNV2RuR3M4T3k1NklkTHdwSDZrNFU1ZzRCNEFVam11bXREb04wU2VJQ1JpcW5LR0QxYnc0cG5iZTlLY1Y0M0sySmV5OUpEYU11Zg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZG1GT3Q1LUhreUgybFVSWmpybUZ0U0N1b3FGbDZqdmEwdl81TGJncDdYeUw4c04tTVVBVkg3YURxLTB4R0s0cFU1bmZpMC0yS3hrQUVyOGJYa2d4OXFNZGxJb2VaOFRkVzFXUzdVV21DOUhhSE9hNnNKOHkyUDBWRXZrQ0xpV29JYm95dENNWGVONjFUMFZDTldDejZNajZnaU9ScVVFWFVhN1A3V3QtazR5UWFuM0cxQ2thbVI1ZFFULUM2dXJFSjB2SFdsamszS0VIb0NEZktLZ3dTdzVPRWRVenZoYnU4LUV1b3E4eVh1Q1gyazFFU2VaSUNCNnd5UkxocmFEcGZvNkhya2hObmdxVkJwQmpYRzZTNHMwS1BMSzVtcTl5NG9Pa1VJcDNOby04?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "多家券商披露招聘计划，财富管理、投研及金融科技成补员重点",
-    "org": "中银证券",
+    "title": "强生拟以最高34亿美元收购Ollin Biosciences，交易最快可能于周一达成。（英国金融时报）",
+    "org": "国金",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://wallstreetcn.com/livenews/3200240",
+    "url": "https://wallstreetcn.com/livenews/3200261",
     "source": "机构观点"
+   },
+   {
+    "title": "2026三季报点评：内贸需求阶段性承压，外贸订单突破与商发研制稳步推进",
+    "org": "中航证券",
+    "rating": "增持",
+    "stock": "航发科技",
+    "industry": "航空装备Ⅱ",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611161831737564",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "医药行业周报：新版医保目录发布，注重创新的价值兑现",
+    "org": "华鑫证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831737807",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "机械行业研究：看好海工、端侧AI，重视机器人机会",
+    "org": "国金证券",
+    "rating": "买入",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831737770",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "电子行业跟踪周报：国产算力周跟踪：海外供给不确定性提升，算力基建国产替代加速",
+    "org": "东吴证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831734605",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "汽车零部件&机器人&缺电主线周报：Claude Fable 5.2提升机器人控制能力，谷歌&Fervo地热供电项目持续推进",
+    "org": "东吴证券",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831734510",
+    "source": "东财研报·行业"
    },
    {
     "title": "北交所信息更新：算力与高铁信息化业务并进，2026Q3末存货较年初+83%待结转",
@@ -1761,80 +1921,30 @@
     "date": "2026-11-15",
     "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831733230",
     "source": "东财研报·行业"
-   },
-   {
-    "title": "有色金属周报：金价承压，看好稀土钨钼强基本面",
-    "org": "国金证券",
-    "rating": "买入",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831733228",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "银行行业快评报告：预计四季度政府债对社融的支撑延续",
-    "org": "万联证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831733184",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "计算机行业深度报告：AI制药：从概念验证到商业化落地",
-    "org": "东吴证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831731755",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "农林牧渔行业周报：生猪养殖亏损扩大，三机构10月能繁再降",
-    "org": "华安证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831731384",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "中国消费品成本月报：同比压力仍在，环比多数回落",
-    "org": "中银国际证券(香港)",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-15",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611151831731054",
-    "source": "东财研报·行业"
    }
   ]
  },
  "alerts": [],
  "news": [
   {
-   "title": "现房新政多地“开花” 房企主动适配新规则",
-   "summary": "【现房新政多地“开花” 房企主动适配新规则】商品住房销售制度改革的落地速度，比市场预想更快。据中指研究院的统计，截至11月13日，“8·28新政”后已有25个省市落地实施细则，不管是现房销售、资金监管还是土拍规则，各地细则中都有不少“新提法”。其中，现房销售备受市场关注，市场一线也在发生变化。当买房不再像“开盲盒”时，购房者对“确定性”居住空间的需求更高，也考验着房企主动适配新规则的能力。",
-   "time": "2026-11-16 07:32:48",
-   "url": "https://finance.eastmoney.com/a/202611163931533416.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "英伟达股价在Hyperliquid上涨4.5%，受黄仁勋讨论回归的报道提振",
-   "summary": "Hyperliquid区块链上一份与英伟达股价挂钩的永续期货合约一度上涨4.5%，此前有报道称，黄仁勋正讨论可能重返英伟达。",
-   "time": "2026-11-16 07:28",
-   "url": "https://wallstreetcn.com/livenews/3200250",
+   "title": "英国11月Rightmove平均房屋要价指数同比 -0.2%，前值 -0.1%。",
+   "summary": "英国11月Rightmove平均房屋要价指数同比 -0.2%，前值 -0.1%。",
+   "time": "2026-11-16 08:01",
+   "url": "https://wallstreetcn.com/livenews/3200264",
    "source": "华尔街见闻"
   },
   {
-   "title": "美以伊局势：以色列向美国通报伊朗计划暗杀特朗普，美国已采取特别安保措施，限制特朗普公开活动，伊方：打击在巴林的美军基地是回应侵略 - 新浪新闻_手机新浪网",
+   "title": "读懂融资结构之变背后的逻辑",
+   "summary": "【读懂融资结构之变背后的逻辑】11月13日，中国人民银行发布10月份金融统计数据报告。数据显示，前10个月，社会融资规模增量累计为28.61万亿元。其中，债券和股票融资合计15.16万亿元，占比52.99%，超过贷款占比13.87个百分点。这组数据直观展现出融资结构之变，其背后是资金配置方式、产业结构和金融服务格局的系统性调整。融资结构之变，折射出产融同频共振，这需要从多个层面加以理解。",
+   "time": "2026-11-16 07:59:00",
+   "url": "https://finance.eastmoney.com/a/202611163931530343.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "招商宏观：美联储大概率提速加息 - 金融界",
    "summary": "",
-   "time": "2026-11-16 07:18",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObF9IR0czY09EbldFamt2REZRSFc3YkxhNkcwbG9WNVRIMXpBT2ZGclB0ZmY4X3RPTHBWV1dqcnd1ZU96NGxwRDBSTTgxZ3hVV2o0eWp5NTI3TDFnYS03STZySk1jWWRodjFiYkdOSnQwNXFfRE83Z25aSXVSNEt3T0RFZEdNc2VxZjl5T2s5TVJUblBNMDFtQg?oc=5",
+   "time": "2026-11-16 07:50",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlMzJwSnA1Ri16OTI1Y2VfT2NHb3dFVmdtbjZFaFBKOGs5MGxVYk9yQmlKRExWeGxES2RWb3A0MTVLQ04xemJBLW1WQzZCTUF6ZnRtenFhNWhfLWFzanA2V0RiU0R6WFJjZi1XVGVfcVR2UQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1852,17 +1962,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "掘金中国资产 海外资金看多信号密集显现",
+   "title": "荷兰执政联盟继续就税收分歧举行紧急磋商",
    "summary": "",
-   "time": "2026-11-15 23:27:13",
-   "url": "https://news.10jqka.com.cn/20261116/c681833196.shtml",
+   "time": "2026-11-16 00:00:47",
+   "url": "https://news.10jqka.com.cn/20261116/c681833835.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美媒：万斯推迟至明年再定是否竞选总统，或于春末公开意向",
+   "title": "韩国券商：韩国KOSPI指数明年有望升至8300点",
    "summary": "",
-   "time": "2026-11-15 22:44:24",
-   "url": "https://news.futunn.com/flash/1004555799/us-media-vance-delays-decision-on-presidential-bid-until-next",
+   "time": "2026-11-15 23:40:32",
+   "url": "https://news.futunn.com/flash/1004556626/south-korean-brokerage-korean-kospi-index-expected-to-rise-to",
    "source": "富途"
   },
   {
@@ -1873,24 +1983,24 @@
    "source": "财新"
   },
   {
-   "title": "A股限售股解禁一览：28.84亿元市值限售股今日解禁",
-   "summary": "【A股限售股解禁一览：28.84亿元市值限售股今日解禁】数据显示，周一（11月16日），共有14家公司限售股解禁，合计解禁量为2.4亿股，按最新收盘价计算，合计解禁市值为28.84亿元。从解禁市值来看，隆平高科、直真科技、光弘科技解禁市值居前，解禁市值分别为11.92亿元、6.43亿元、6.01亿元。",
-   "time": "2026-11-16 07:32:23",
-   "url": "https://finance.eastmoney.com/a/202611163931553571.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "报道：伊朗已为美国进行外交、经济封锁或侵略三种情景做好准备",
-   "summary": "伊朗副外长Kazem Gharibabadi称，伊朗已为美伊之间的三种可能情景做好应对准备，这三种情景分别是外交封锁、经济封锁和军事侵略。他说：“过去一年半里，美国至少三次表现出不诚信。这表明，美国在外交谈判桌上不可信赖。”（伊斯兰共和国通讯社）",
-   "time": "2026-11-16 07:24",
-   "url": "https://wallstreetcn.com/livenews/3200249",
+   "title": "中国即将发行或正在发行的国债和政策性金融债",
+   "summary": "中国即将发行或正在发行的国债和政策性金融债",
+   "time": "2026-11-16 08:00",
+   "url": "https://wallstreetcn.com/livenews/3200262",
    "source": "华尔街见闻"
   },
   {
-   "title": "“放弃部分领土加入北约”？乌克兰总统回应 - 新浪新闻_手机新浪网",
+   "title": "全球资本加仓中国资产意愿强烈",
+   "summary": "【全球资本加仓中国资产意愿强烈】在日前召开的2026年上海证券交易所国际投资者大会上，多位与会人士表达了继续加仓中国资产的意愿。综合各方判断，依据集中在三个正在验证的变化上：A股权益资产的风险收益比改善，配置窗口期已经打开；人民币定价逻辑生变，避险属性开始显现；上市公司在创新与技术商业化上的能力，正持续转化为实打实的业绩。",
+   "time": "2026-11-16 07:58:00",
+   "url": "https://finance.eastmoney.com/a/202611163931530641.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普、习近平与普京将在中国举行三方会谈 - 华尔街日报中文网",
    "summary": "",
-   "time": "2026-11-16 07:18",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNbjQ5YURHTHpPcmFjNkNUYXlWVzZuY0lwUUlEX01ZUlJlRVFySTl2dFFnNWsyWlRscDJHYkRydzc0Vmh5eXhoWkdtU1B3R0toeE1oN0FUWDR2Mmx5YXhSUWFQUDFSaDg4UzV1VVpMdi03b2RzZ3ZyQXZPSkZqV0NNdERXV3lwc1BkZVpnZE80RFpKSzhu?oc=5",
+   "time": "2026-11-16 07:47",
+   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZG1GT3Q1LUhreUgybFVSWmpybUZ0U0N1b3FGbDZqdmEwdl81TGJncDdYeUw4c04tTVVBVkg3YURxLTB4R0s0cFU1bmZpMC0yS3hrQUVyOGJYa2d4OXFNZGxJb2VaOFRkVzFXUzdVV21DOUhhSE9hNnNKOHkyUDBWRXZrQ0xpV29JYm95dENNWGVONjFUMFZDTldDejZNajZnaU9ScVVFWFVhN1A3V3QtazR5UWFuM0cxQ2thbVI1ZFFULUM2dXJFSjB2SFdsamszS0VIb0NEZktLZ3dTdzVPRWRVenZoYnU4LUV1b3E4eVh1Q1gyazFFU2VaSUNCNnd5UkxocmFEcGZvNkhya2hObmdxVkJwQmpYRzZTNHMwS1BMSzVtcTl5NG9Pa1VJcDNOby04?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1901,17 +2011,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英伟达在Hyperliquid上因黄仁勋回归传闻上涨4.5%",
+   "title": "强生拟斥资至多34亿美元收购眼科疾病生物科技公司",
    "summary": "",
-   "time": "2026-11-15 23:15:12",
-   "url": "https://news.10jqka.com.cn/20261116/c681832976.shtml",
+   "time": "2026-11-15 23:59:30",
+   "url": "https://news.10jqka.com.cn/20261116/c681833810.shtml",
    "source": "同花顺"
   },
   {
-   "title": "马斯克：星舰42号飞船状态极佳，数周翻修后即可复飞",
+   "title": "美媒：万斯推迟至明年再定是否竞选总统，或于春末公开意向",
    "summary": "",
-   "time": "2026-11-15 22:25:11",
-   "url": "https://news.futunn.com/flash/1004555633/musk-starship-ship-42-in-excellent-condition-ready-to-relaunch",
+   "time": "2026-11-15 22:44:24",
+   "url": "https://news.futunn.com/flash/1004555799/us-media-vance-delays-decision-on-presidential-bid-until-next",
    "source": "富途"
   },
   {
@@ -1922,24 +2032,24 @@
    "source": "财新"
   },
   {
-   "title": "A500家族再添新丁 头部公募集体上报成长风格ETF",
-   "summary": "【A500家族再添新丁 头部公募集体上报成长风格ETF】宽基指数的风格细分布局又迈出关键一步。11月13日，易方达基金、华夏基金、国泰基金、广发基金、招商基金、博时基金等头部公募扎堆上报中证A500成长ETF，申报材料已获证监会接收。这一批新产品，是市场在中证A500这一基础宽基指数之上，专门为成长风格打造的指数工具，补齐了A500系列的成长拼图。",
-   "time": "2026-11-16 07:31:48",
-   "url": "https://finance.eastmoney.com/a/202611163931533253.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "特朗普料将乘坐卡塔尔赠送的空军一号前往亚洲。（NBC）",
-   "summary": "特朗普料将乘坐卡塔尔赠送的空军一号前往亚洲。（NBC）",
-   "time": "2026-11-16 07:18",
-   "url": "https://wallstreetcn.com/livenews/3200248",
+   "title": "强生拟以最高34亿美元收购Ollin Biosciences，交易最快可能于周一达成。（英国金融时报）",
+   "summary": "强生拟以最高34亿美元收购Ollin Biosciences，交易最快可能于周一达成。（英国金融时报）",
+   "time": "2026-11-16 07:57",
+   "url": "https://wallstreetcn.com/livenews/3200261",
    "source": "华尔街见闻"
   },
   {
-   "title": "施密德：通胀“朝错误方向移动” 美联储还有更多工作要做 提供者 智通财经 - 英为财情 Investing.com",
+   "title": "下半年以来QDII基金业绩“大洗牌” 原油类、港股创新药类净值增长率领跑",
+   "summary": "【下半年以来QDII基金业绩“大洗牌” 原油类、港股创新药类净值增长率领跑】近段时间，受海外市场行情、地缘局势等多重因素影响，QDII（合格境内机构投资者）基金业绩迎来“洗牌”，分化态势明显。其中，多只原油类QDII基金、港股创新药类QDII基金下半年以来净值增长率居前，而围绕海外AI（人工智能）产业链主线布局的QDII基金，下半年净值弹性放大，呈现阶段性震荡特征。",
+   "time": "2026-11-16 07:57:00",
+   "url": "https://finance.eastmoney.com/a/202611163931530966.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "黄金交易提醒:四个月最大周线跌幅背后，美联储“鹰影”笼罩，金价剑指3500？_外汇动态报道 - Fx678",
    "summary": "",
-   "time": "2026-11-16 06:44",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lQXU5QVRkZ1pLVW5NYTBBOXZDZUVYTUt0QzNUUWc3a01fNG14QlRhc3E3OHJ3QjFhWVg3Q2FGZWp6YUlIbTRyMmpiNGkySHNqVDhMcXItVEFsMlQ5TzJ1U1Q1a0NIS2hMVGdsdU9aYm4?oc=5",
+   "time": "2026-11-16 07:44",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0Y2Z0S1drRkJUbk5LQWg1dWJRRnM3enhkaEdaTjlCb3NiSV9Ta2drQmFwZ0JjNnhiS3pJaFBHeVY1dUlITmlrMUZseXhYVVBLOW9RZ2xHNUp6dw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1950,17 +2060,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "纽约期金站上3890美元/盎司",
+   "title": "纽约期金站上3900美元/盎司",
    "summary": "",
-   "time": "2026-11-15 23:14:54",
-   "url": "https://news.10jqka.com.cn/20261116/c681832970.shtml",
+   "time": "2026-11-15 23:47:05",
+   "url": "https://news.10jqka.com.cn/20261116/c681833574.shtml",
    "source": "同花顺"
   },
   {
-   "title": "三星将斥资19亿美元扩建得州工厂，将为SpaceX星链生产芯片",
+   "title": "马斯克：星舰42号飞船状态极佳，数周翻修后即可复飞",
    "summary": "",
-   "time": "2026-11-15 22:12:13",
-   "url": "https://news.futunn.com/flash/1004555510/samsung-will-invest-1-9-billion-to-expand-its-texas",
+   "time": "2026-11-15 22:25:11",
+   "url": "https://news.futunn.com/flash/1004555633/musk-starship-ship-42-in-excellent-condition-ready-to-relaunch",
    "source": "富途"
   },
   {
@@ -1971,18 +2081,18 @@
    "source": "财新"
   },
   {
-   "title": "全长277.6公里 我国输送距离最长二氧化碳长输管道投运",
-   "summary": "【全长277.6公里 我国输送距离最长二氧化碳长输管道投运】记者今天从中国石油获悉，吉林石化——吉林油田二氧化碳长输管道工程建成投运。这是目前我国输送距离最长、管径最大、设计压力最高、输送规模最大的二氧化碳长输管道。",
-   "time": "2026-11-16 07:30:20",
-   "url": "https://finance.eastmoney.com/a/202611163931553447.html",
-   "source": "东财国际"
+   "title": "日本第三季度外需对GDP的贡献为负0.6个百分点，内需对GDP的贡献为正0.6个百分点。\n\n日本第三季度民间消费较前季下滑0.3%，资本支出较前季增长1.6%，出口较前季下滑0.2%。",
+   "summary": "日本第三季度外需对GDP的贡献为负0.6个百分点，内需对GDP的贡献为正0.6个百分点。\n\n日本第三季度民间消费较前季下滑0.3%，资本支出较前季增长1.6%，出口较前季下滑0.2%。",
+   "time": "2026-11-16 07:56",
+   "url": "https://wallstreetcn.com/livenews/3200260",
+   "source": "华尔街见闻"
   },
   {
-   "title": "英特尔股价暴跌29%后遭股东起诉",
-   "summary": "英特尔遭到股东起诉，这些股东指控这家美国芯片制造商通过隐瞒个人电脑销售长期放缓的影响来欺诈他们，导致其股价单日暴跌近29%。在周五提交至加利福尼亚州圣何塞联邦法院的一份拟议集体诉讼中，由密歇根州一家养老基金领衔的股东们称，英特尔在披露个人电脑销量放缓和库存过剩将如何拖累营收方面反应迟缓。",
-   "time": "2026-11-16 07:06",
-   "url": "https://wallstreetcn.com/livenews/3200246",
-   "source": "华尔街见闻"
+   "title": "美军在中东再成三航母之势",
+   "summary": "【美军在中东再成三航母之势】据美国“阿克西奥斯新闻网（Axios）”记者称，当地时间11月15日，一名美国官员透露，美军“罗斯福”号航空母舰当天早些时候已进入美国中央司令部责任区。目前，美军在该责任区共有三个航母打击群，另外两个分别是“华盛顿”号和“布什”号航母打击群。这也是自今年4月以来，美国再次在中东地区部署三个航母打击群。",
+   "time": "2026-11-16 07:54:45",
+   "url": "https://finance.eastmoney.com/a/202611163931558013.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
@@ -1998,8 +2108,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "东财早报": 1,
    "谷歌新闻·研报": 7,
