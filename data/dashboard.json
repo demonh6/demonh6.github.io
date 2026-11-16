@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 04:25:11 CST",
- "generated_at_iso": "2026-11-17T04:25:11+08:00",
+ "generated_at": "2026-11-17 04:33:25 CST",
+ "generated_at_iso": "2026-11-17T04:33:25+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -12,8 +12,8 @@
     "code": "sh000001",
     "sym": "000001.SH",
     "price": 3602.5698,
-    "change": -31.7832,
-    "change_pct": -0.87,
+    "change": -31.783,
+    "change_pct": -0.88,
     "hist": [
      3823.621,
      3830.451,
@@ -89,7 +89,7 @@
     "sym": "399001.SZ",
     "price": 10690.778,
     "change": -278.009,
-    "change_pct": -2.53
+    "change_pct": -2.54
    },
    {
     "name": "创业板指",
@@ -104,7 +104,7 @@
     "code": "sh000688",
     "sym": "000688.SH",
     "price": 1213.6833,
-    "change": -65.9782,
+    "change": -65.978,
     "change_pct": -5.16,
     "hist": [
      1555.98,
@@ -180,7 +180,7 @@
     "code": "sh000300",
     "sym": "000300.SH",
     "price": 3979.8035,
-    "change": -36.4862,
+    "change": -36.486,
     "change_pct": -0.91,
     "hist": [
      4340.755,
@@ -256,7 +256,7 @@
     "code": "sh000016",
     "sym": "000016.SH",
     "price": 2766.5737,
-    "change": -8.4491,
+    "change": -8.449,
     "change_pct": -0.3,
     "hist": [
      2806.942,
@@ -332,7 +332,7 @@
     "code": "sh000905",
     "sym": "000905.SH",
     "price": 6297.1829,
-    "change": -168.3021,
+    "change": -168.302,
     "change_pct": -2.6,
     "hist": [
      7402.295,
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 59662.02,
-    "change": -1480.33,
-    "change_pct": -2.42,
+    "price": 61142.3516,
+    "change": 322.99,
+    "change_pct": 0.53,
     "hist": [
      68956.72,
      68309.46,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5100.5,
-    "change": -190.03,
-    "change_pct": -3.59,
+    "price": 5290.5298,
+    "change": -52.2,
+    "change_pct": -0.98,
     "hist": [
      6971.35,
      7003.74,
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81592.4531,
+    "change": -318.55,
+    "change_pct": -0.39
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 41040.08,
+    "change": -2635.04,
+    "change_pct": -6.03
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26649.67,
+    "change": -100.28,
+    "change_pct": -0.37
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10892.93,
-    "change": -9.63,
-    "change_pct": -0.09,
+    "price": 10907.6,
+    "change": 5.04,
+    "change_pct": 0.05,
     "hist": [
      10541.69,
      10458.5,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8352.0,
-    "change": -16.91,
-    "change_pct": -0.2,
+    "price": 8394.2,
+    "change": 25.29,
+    "change_pct": 0.3,
     "hist": [
      7865.07,
      7769.21,
@@ -1170,7 +1191,7 @@
     "name": "欧洲斯托克50",
     "sym": "SX5E",
     "price": 6348.35,
-    "change": -38.51,
+    "change": -38.52,
     "change_pct": -0.6,
     "hist": [
      6272.24,
@@ -1205,6 +1226,13 @@
      6348.35
     ],
     "sigma": 1.003
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2478.25,
+    "change": -31.42,
+    "change_pct": -1.25
    }
   ]
  },
@@ -1251,108 +1279,37 @@
    ],
    "sigma_bp": 6.39
   },
-  "commodities": [
-   {
-    "name": "COMEX黄金",
-    "code": "hf_GC",
-    "sym": "GC",
-    "price": 3858.384,
-    "change": -27.916,
-    "change_pct": -0.72,
-    "quote_time": "04:25:12 2026-11-17"
-   },
-   {
-    "name": "COMEX白银",
-    "code": "hf_SI",
-    "sym": "SI",
-    "price": 46.879,
-    "change": -2.242,
-    "change_pct": -4.56,
-    "quote_time": "04:25:10 2026-11-17"
-   },
-   {
-    "name": "WTI原油",
-    "code": "hf_CL",
-    "sym": "CL",
-    "price": 85.448,
-    "change": -3.112,
-    "change_pct": -3.51,
-    "quote_time": "04:25:05 2026-11-17"
-   },
-   {
-    "name": "布伦特原油",
-    "code": "hf_OIL",
-    "sym": "BRN",
-    "price": 92.264,
-    "change": -3.576,
-    "change_pct": -3.73,
-    "quote_time": "04:25:08 2026-11-17"
-   }
-  ],
+  "commodities": [],
   "crypto": [
    {
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65010.7,
-    "change": 82.0,
-    "change_pct": 0.13,
+    "price": 65094.3,
+    "change": 10.8,
+    "change_pct": 0.02,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1818.97,
-    "change": -6.49,
-    "change_pct": -0.36,
+    "price": 1819.18,
+    "change": -12.71,
+    "change_pct": -0.69,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.34,
-    "change": -0.22,
-    "change_pct": -0.31,
+    "price": 71.36,
+    "change": -0.6,
+    "change_pct": -0.83,
     "source": "okx"
    }
   ],
-  "fx": [
-   {
-    "name": "美元指数",
-    "sym": "DXY",
-    "price": 103.55,
-    "change": 0.14,
-    "change_pct": 0.14,
-    "dec": 2,
-    "date": "",
-    "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
-   },
-   {
-    "name": "离岸人民币",
-    "sym": "USDCNH",
-    "price": 6.6648,
-    "change": -0.0099,
-    "change_pct": -0.15,
-    "dec": 4,
-    "date": "",
-    "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
-   },
-   {
-    "name": "AH股溢价",
-    "sym": "HSAHP",
-    "price": 131.86,
-    "change": 0.64,
-    "change_pct": 0.49,
-    "dec": 2,
-    "date": "",
-    "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
-   }
-  ]
+  "fx": []
  },
  "sentiment": {
   "fear_greed": {
@@ -1363,19 +1320,10 @@
    "timestamp": "2026-11-16",
    "source": "alternative.me"
   },
-  "a_share_breadth": {
-   "up": 1126,
-   "down": 4072,
-   "flat": 96,
-   "total": 5294,
-   "breadth_pct": 21.3,
-   "score": 0.0,
-   "source": "东财"
-  },
   "vix": {
-   "value": 23.85,
-   "change": 4.55,
-   "change_pct": 23.5751,
+   "value": 23.99,
+   "change": 4.69,
+   "change_pct": 24.3005,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1411,58 +1359,59 @@
     18.7,
     19.3
    ],
-   "vix3m": 23.48,
+   "vix3m": 23.58,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 24.18,
-     "change_pct": 35.6902
+     "value": 24.24,
+     "change_pct": 36.0269
     },
     {
      "t": "VIX",
-     "value": 23.85,
-     "change_pct": 23.5751
+     "value": 23.99,
+     "change_pct": 24.3005
     },
     {
      "t": "VIX3M",
-     "value": 23.48,
-     "change_pct": 13.87
+     "value": 23.58,
+     "change_pct": 14.355
     },
     {
      "t": "VIX6M",
-     "value": 24.11,
-     "change_pct": 9.4417
+     "value": 24.19,
+     "change_pct": 9.8048
     }
    ],
-   "ratio_9d_3m": 1.03,
+   "ratio_9d_3m": 1.028,
    "shape": "backwardation(短期恐慌升温)",
    "source": "CBOE"
-  },
-  "composite": {
-   "score": 24.7,
-   "label": "冰点",
-   "color": "#f04a3d",
-   "basis": "A股广度 60% + 盘面结构 40%",
-   "parts": {
-    "breadth": 0.0,
-    "structure": 61.8
-   }
   }
  },
  "speakers": [
   {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "万斯：特朗普不会让伊朗冲突演变为“无休止的战争”",
+   "summary": "",
+   "time": "2026-11-16 20:28:39",
+   "url": "https://news.futunn.com/flash/1004654227/vance-trump-will-not-let-iran-conflict-escalate-into-an",
+   "source": "富途",
+   "mentions": 1
+  },
+  {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储哈玛克重申支持小幅、渐进式加息",
+   "title": "美联储哈马克：倾向于稳步、缓慢地逐步加息",
    "summary": "",
-   "time": "2026-11-16 19:43:27",
-   "url": "https://news.futunn.com/flash/1004651287/fed-s-hammack-reiterates-support-for-small-gradual-interest-rate",
-   "source": "富途",
-   "mentions": 2
+   "time": "2026-11-16 19:13:45",
+   "url": "https://news.10jqka.com.cn/20261117/c681878963.shtml",
+   "source": "同花顺",
+   "mentions": 1
   },
   {
    "keyword": "黄仁勋",
@@ -1673,51 +1622,44 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.37%，达20日历史波动率的 3.6 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-17 04:25",
+   "time": "2026-11-17 04:34",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
+  },
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌6.03%，达20日历史波动率的 5.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-17 04:34",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
+   "asset": "全球股指",
+   "message": "深证成指、创业板指、标普500等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-17 04:34",
+   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
-   "message": "深证成指单日跌2.53%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-17 04:25",
+   "message": "深证成指单日跌2.54%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-17 04:34",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
-  },
-  {
-   "level": "warning",
-   "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.56%，达20日历史波动率的 2.5 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-17 04:25",
-   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
-  },
-  {
-   "level": "warning",
-   "asset": "布伦特原油",
-   "message": "布伦特原油单日跌3.73%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-17 04:25",
-   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
-  },
-  {
-   "level": "warning",
-   "asset": "全球股指",
-   "message": "深证成指、创业板指、标普500等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-17 04:25",
-   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "新西兰联储：尽管全球风险加剧，金融体系仍保持韧性。\n\n政府债券收益率上升以及估值仍然偏高，尤其是人工智能相关企业，使市场容易受到回调冲击。\n\n国内金融压力已从去年的峰值普遍缓解，但仍不均衡。\n\n全球金融稳定风险持续上升，增加了新西兰遭受重大",
-   "summary": "新西兰联储：尽管全球风险加剧，金融体系仍保持韧性。\n\n政府债券收益率上升以及估值仍然偏高，尤其是人工智能相关企业，使市场容易受到回调冲击。\n\n国内金融压力已从去年的峰值普遍缓解，但仍不均衡。\n\n全球金融稳定风险持续上升，增加了新西兰遭受重大冲击的可能性。",
-   "time": "2026-11-17 04:01",
-   "url": "https://wallstreetcn.com/livenews/3200823",
+   "title": "美国商品期货交易委员会（CFTC）：11月10日当周，投机者将芝加哥期货交易所（CBOT）美国超长期国债期货净空头头寸增加6160手，至368092手。\n\n投机者将芝加哥期货交易所（CBOT）美国两年期国债期货净空头头寸增加110,201份",
+   "summary": "美国商品期货交易委员会（CFTC）：11月10日当周，投机者将芝加哥期货交易所（CBOT）美国超长期国债期货净空头头寸增加6160手，至368092手。\n\n投机者将芝加哥期货交易所（CBOT）美国两年期国债期货净空头头寸增加110,201份合约，至1,112,745份。\n\n投机者将芝加哥期货交易所（CBOT）美国5年期国债期货净空头头寸增加48,694份合约，至1,324,064份。",
+   "time": "2026-11-17 04:32",
+   "url": "https://wallstreetcn.com/livenews/3200832",
    "source": "华尔街见闻"
   },
   {
-   "title": "美股三大指数下跌 标普500跌超2% 芯片股集体下挫",
-   "summary": "【美股三大指数下跌 标普500跌超2% 芯片股集体下挫】美东时间周一，美股三大指数集体下跌，截至发稿，道指跌1.59%，纳指跌2.64%，标普500指数跌2.11%。",
-   "time": "2026-11-17 03:47:09",
-   "url": "https://finance.eastmoney.com/a/202611163932124582.html",
+   "title": "雪佛龙接近以约50亿美元收购Beacon Offshore Energy",
+   "summary": "雪佛龙接近以约50亿美元收购Beacon Offshore Energy。",
+   "time": "2026-11-17 04:23:25",
+   "url": "https://finance.eastmoney.com/a/202611173932220970.html",
    "source": "东财国际"
   },
   {
@@ -1728,18 +1670,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "利弗莫尔中概股龙头指数跌幅扩大至3%",
+   "title": "万斯：特朗普不会让伊朗冲突演变为“无休止的战争”",
    "summary": "",
-   "time": "2026-11-16 19:49:05",
-   "url": "https://news.10jqka.com.cn/20261117/c681878984.shtml",
-   "source": "同花顺"
+   "time": "2026-11-16 20:28:39",
+   "url": "https://news.futunn.com/flash/1004654227/vance-trump-will-not-let-iran-conflict-escalate-into-an",
+   "source": "富途"
   },
   {
-   "title": "微软披露全球服务中断原因 7月遗留漏洞导致服务器内存耗尽",
+   "title": "第三季度经霍尔木兹海峡运输的原油和燃料量较第二季度增加400万桶/日",
    "summary": "",
-   "time": "2026-11-16 19:47:26",
-   "url": "https://news.futunn.com/flash/1004651405/microsoft-discloses-cause-of-global-service-outage-vulnerability-left-over",
-   "source": "富途"
+   "time": "2026-11-16 20:18:10",
+   "url": "https://news.10jqka.com.cn/20261117/c681879012.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1756,17 +1698,59 @@
    "source": "财新"
   },
   {
-   "title": "洲际交易所（ICE）数据显示，阿拉比卡咖啡库存下滑12%，创最近约三年最大降幅，至18.64万袋，创1999年3月8日以来新低。",
-   "summary": "洲际交易所（ICE）数据显示，阿拉比卡咖啡库存下滑12%，创最近约三年最大降幅，至18.64万袋，创1999年3月8日以来新低。",
-   "time": "2026-11-17 03:56",
-   "url": "https://wallstreetcn.com/livenews/3200821",
+   "title": "九名民主党参议员要求美国CFTC不得干预各州对预测市场的禁令",
+   "summary": "包括美国加州的亚当・希夫、明尼苏达州的艾米・克洛布查尔、密歇根州的埃莉莎・斯洛特金在内的九名民主党参议员，今日上午致信美国商品期货交易委员会（CFTC），要求该委员会暂停试图将监管管辖权覆盖至预测市场的相关行动。参议员们在写给 CFTC 主席迈克尔・塞利格的信中写道：“你们这项单方面决定，直接与现行法院裁定冲突，损害各州及部落法律，必须予以撤销。”\n\n预测市场运营商在美国多地卷入诉讼，各州指控其在",
+   "time": "2026-11-17 04:29",
+   "url": "https://wallstreetcn.com/livenews/3200827",
    "source": "华尔街见闻"
   },
   {
-   "title": "力拓签署50兆瓦电力合同 以支持新西兰4号电解铝生产线重启",
-   "summary": "力拓签署50兆瓦电力合同，以支持新西兰4号电解铝生产线重启。",
-   "time": "2026-11-17 03:41:13",
-   "url": "https://finance.eastmoney.com/a/202611173932220472.html",
+   "title": "EIA数据显示 第三季度经霍尔木兹海峡运输的原油和燃料量较第二季度增加400万桶/日",
+   "summary": "美国能源信息管理局(EIA)数据显示，第三季度经霍尔木兹海峡运输的原油和燃料量较第二季度增加400万桶/日。",
+   "time": "2026-11-17 04:17:10",
+   "url": "https://finance.eastmoney.com/a/202611173932220772.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "惠誉将戴文能源评级上调至“A-” 展望稳定 - 东方财富",
+   "summary": "",
+   "time": "2026-11-17 00:33",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9uZ1lFZVdHV0xDTVlWTVRURVA3Znp1T01QTnl1X1VST29SVDZPcWxjem1DcU5VX0lwSUtuWEgtUzlBeldlLXVfbFNaclJqQ3E5VmxNWVZtdW9Cai0zNGkyN0lQdw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "国际油价16日显著下跌",
+   "summary": "",
+   "time": "2026-11-16 20:20:14",
+   "url": "https://news.futunn.com/flash/1004653806/international-oil-prices-fell-significantly-on-the-16th",
+   "source": "富途"
+  },
+  {
+   "title": "Anthropic将在IPO后让员工参与交易计划",
+   "summary": "",
+   "time": "2026-11-16 20:15:03",
+   "url": "https://news.10jqka.com.cn/20261117/c681879010.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "预测2026年11月低风险及估值等因子表现更优",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-16/102505391.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "周一（11月16日）纽约尾盘，美国10年期国债收益率跌2.23个基点，报5.1129%。\n\n两年期美债收益率跌2.53个基点，报4.8166%；30年期美债收益率跌0.54个基点，报5.4602%。\n\n2/10年期美债收益率利差涨0.71个",
+   "summary": "周一（11月16日）纽约尾盘，美国10年期国债收益率跌2.23个基点，报5.1129%。\n\n两年期美债收益率跌2.53个基点，报4.8166%；30年期美债收益率跌0.54个基点，报5.4602%。\n\n2/10年期美债收益率利差涨0.71个基点，报+29.402个基点。\n\n10年期通胀保值国债（TIPS）收益率涨1.83个基点，至2.9030%；两年期TIPS收益率涨3.42个基点，至2.6489",
+   "time": "2026-11-17 04:26",
+   "url": "https://wallstreetcn.com/livenews/3200826",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "内部人士表示 Anthropic将在IPO后让员工参与交易计划",
+   "summary": "内部人士表示，Anthropic将在IPO后让员工参与交易计划。",
+   "time": "2026-11-17 04:15:08",
+   "url": "https://finance.eastmoney.com/a/202611173932220651.html",
    "source": "东财国际"
   },
   {
@@ -1777,38 +1761,38 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储哈马克：倾向于稳步、缓慢地逐步加息",
+   "title": "美元指数16日上涨",
    "summary": "",
-   "time": "2026-11-16 19:13:45",
-   "url": "https://news.10jqka.com.cn/20261117/c681878963.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "美联储哈玛克重申支持小幅、渐进式加息",
-   "summary": "",
-   "time": "2026-11-16 19:43:27",
-   "url": "https://news.futunn.com/flash/1004651287/fed-s-hammack-reiterates-support-for-small-gradual-interest-rate",
+   "time": "2026-11-16 20:18:51",
+   "url": "https://news.futunn.com/flash/1004653766/the-us-dollar-index-rose-on-the-16th",
    "source": "富途"
   },
   {
-   "title": "预测2026年11月低风险及估值等因子表现更优",
+   "title": "利弗莫尔中概股龙头指数跌幅扩大至3%",
+   "summary": "",
+   "time": "2026-11-16 19:49:05",
+   "url": "https://news.10jqka.com.cn/20261117/c681878984.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "黄仁勋辞任英伟达引发连锁反应，国内英伟达产业链相关标的遭遇重挫，国产算力替代则大幅走强",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-16/102505391.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-16/102505241.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "周一（11月16日）纽约尾盘，彭博谷物分类指数跌0.24%，报29.6597点，亚太早盘开始交易以来持续处于下跌状态。\n\nCBOT玉米期货涨0.44%，CBOT小麦期货跌1.07%，CBOT大豆期货跌0.57%。",
-   "summary": "周一（11月16日）纽约尾盘，彭博谷物分类指数跌0.24%，报29.6597点，亚太早盘开始交易以来持续处于下跌状态。\n\nCBOT玉米期货涨0.44%，CBOT小麦期货跌1.07%，CBOT大豆期货跌0.57%。",
-   "time": "2026-11-17 03:54",
-   "url": "https://wallstreetcn.com/livenews/3200820",
+   "title": "雪佛龙接近就墨西哥湾Beacon Offshore Energy达成协议。\n\n对后者的估值大约50亿美元。\n\n预计未来数日将宣布这笔潜在交易。（英国金融时报）",
+   "summary": "雪佛龙接近就墨西哥湾Beacon Offshore Energy达成协议。\n\n对后者的估值大约50亿美元。\n\n预计未来数日将宣布这笔潜在交易。（英国金融时报）",
+   "time": "2026-11-17 04:23",
+   "url": "https://wallstreetcn.com/livenews/3200825",
    "source": "华尔街见闻"
   },
   {
-   "title": "ICE咖啡库存下降12% 为三年来最大降幅",
-   "summary": "ICE咖啡库存下降12%，为三年来最大降幅。",
-   "time": "2026-11-17 03:39:21",
-   "url": "https://finance.eastmoney.com/a/202611173932220336.html",
+   "title": "特斯拉拟投30亿欧元扩建德国工厂 瞄准年产百万辆Cybercab",
+   "summary": "【特斯拉拟投30亿欧元扩建德国工厂 瞄准年产百万辆Cybercab】特斯拉计划投资30亿欧元，扩建位于德国柏林附近格伦海德的超级工厂，为在欧洲生产无人驾驶出租车Cybercab布局生产设施。特斯拉德国超级工厂负责人确认，落地德国的Cybercab生产线预期将于2029年首次投产，新厂房远期目标是每年生产最多100万辆Cybercab。",
+   "time": "2026-11-17 04:06:57",
+   "url": "https://finance.eastmoney.com/a/202611173932212781.html",
    "source": "东财国际"
   },
   {
@@ -1819,67 +1803,25 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "老虎环球管理有限责任公司将其在英伟达的持股增加7.2%",
+   "title": "微软披露全球服务中断原因 7月遗留漏洞导致服务器内存耗尽",
    "summary": "",
-   "time": "2026-11-16 19:09:14",
-   "url": "https://news.10jqka.com.cn/20261117/c681878958.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "美国多家大型银行出现服务中断 客户反映账户访问及支付异常",
-   "summary": "",
-   "time": "2026-11-16 19:33:47",
-   "url": "https://news.futunn.com/flash/1004650826/service-outages-hit-multiple-major-us-banks-customers-report-account",
+   "time": "2026-11-16 19:47:26",
+   "url": "https://news.futunn.com/flash/1004651405/microsoft-discloses-cause-of-global-service-outage-vulnerability-left-over",
    "source": "富途"
   },
   {
-   "title": "黄仁勋辞任英伟达引发连锁反应，国内英伟达产业链相关标的遭遇重挫，国产算力替代则大幅走强",
+   "title": "美联储哈马克：倾向于稳步、缓慢地逐步加息",
    "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-16/102505241.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "Tradeweb面向美国国债交易员们推出AI助理。",
-   "summary": "Tradeweb面向美国国债交易员们推出AI助理。",
-   "time": "2026-11-17 03:47",
-   "url": "https://wallstreetcn.com/livenews/3200819",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "事件预测平台Kalshi将在未来两个月内推出股票和ETF交易",
-   "summary": "事件预测平台Kalshi将在未来两个月内推出股票和ETF交易。",
-   "time": "2026-11-17 03:36:48",
-   "url": "https://finance.eastmoney.com/a/202611173932220181.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "风口研报 - 财联社电报",
-   "summary": "",
-   "time": "2026-11-16 21:57",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XdDdMb1M5cU5udkNoZ0trOTdVS2MzY2pOR1U0RExxVnVibU9KT09XMU1YTjhLWWpBOHotdHlSckg4TGpwelRwT0pmMUtlb1ZwOTRKdk5zSjJ2RXBmX2Q4UUJB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "俄国防部：俄军一天击落超两千架乌无人机",
-   "summary": "",
-   "time": "2026-11-16 19:02:15",
-   "url": "https://news.10jqka.com.cn/20261117/c681878956.shtml",
+   "time": "2026-11-16 19:13:45",
+   "url": "https://news.10jqka.com.cn/20261117/c681878963.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "美国副国务卿：无意将盟国科技企业排除出供应链",
-   "summary": "",
-   "time": "2026-11-16 19:31:48",
-   "url": "https://news.futunn.com/flash/1004650787/us-deputy-secretary-of-state-no-intention-to-exclude-allied",
-   "source": "富途"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(5)",
+   "富途": "ok(7)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1888,11 +1830,11 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 9,
-   "东财国际": 9,
+   "华尔街见闻": 8,
+   "东财国际": 8,
    "谷歌新闻·研报": 8,
+   "富途": 7,
    "同花顺": 8,
-   "富途": 5,
    "东财早报": 1,
    "财新": 8
   }
@@ -2159,7 +2101,7 @@
     "change_pct": -10.0
    }
   ],
-  "index_pct": -0.87,
+  "index_pct": -0.88,
   "score": 61.8,
   "score_label": "偏热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
@@ -2343,11 +2285,15 @@
     "seal": 66.7,
     "max_streak": 4,
     "score": 61.8,
-    "index_pct": -0.87
+    "index_pct": -0.88
    }
   ],
   "backfill_done": true
  },
- "errors": {},
+ "errors": {
+  "港股指数": "ValueError: Length mismatch: Expected axis has 0 elements, new values have 19 elements",
+  "美股指数": "RuntimeError: 美股实时与历史源均不可用",
+  "贵金属能源": "HTTPError: 403 Client Error: Forbidden for url: https://hq.sinajs.cn/list=hf_GC,hf_SI,hf_CL,hf_OIL"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
