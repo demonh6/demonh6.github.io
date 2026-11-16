@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 08:26:51 CST",
- "generated_at_iso": "2026-11-16T08:26:51+08:00",
+ "generated_at": "2026-11-16 08:35:10 CST",
+ "generated_at_iso": "2026-11-16T08:35:10+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1007,9 +1007,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 61082.75,
-    "change": -59.6,
-    "change_pct": -0.1,
+    "price": 61142.3516,
+    "change": 322.99,
+    "change_pct": 0.53,
     "hist": [
      68956.72,
      68309.46,
@@ -1082,9 +1082,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5310.25,
-    "change": 19.72,
-    "change_pct": 0.37,
+    "price": 5290.5298,
+    "change": -52.2,
+    "change_pct": -0.98,
     "hist": [
      6971.35,
      7003.74,
@@ -1153,6 +1153,27 @@
      244800.0,
      247800.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81592.4531,
+    "change": -318.55,
+    "change_pct": -0.39
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 43675.12,
+    "change": 583.25,
+    "change_pct": 1.35
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26749.95,
+    "change": -21.93,
+    "change_pct": -0.08
    },
    {
     "name": "英国富时100",
@@ -1305,7 +1326,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6386.86,
+    "price": 6386.87,
     "change": -12.12,
     "change_pct": -0.19,
     "hist": [
@@ -1341,6 +1362,13 @@
      6386.87
     ],
     "sigma": 1.019
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2509.67,
+    "change": -5.18,
+    "change_pct": -0.21
    }
   ]
  },
@@ -1392,37 +1420,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3894.13,
-    "change": 7.83,
-    "change_pct": 0.2,
-    "quote_time": "08:26:52 2026-11-16"
+    "price": 3890.89,
+    "change": 4.59,
+    "change_pct": 0.12,
+    "quote_time": "08:35:06 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 48.618,
-    "change": -0.503,
-    "change_pct": -1.02,
-    "quote_time": "08:26:43 2026-11-16"
+    "price": 48.568,
+    "change": -0.553,
+    "change_pct": -1.13,
+    "quote_time": "08:35:07 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.694,
-    "change": 0.134,
-    "change_pct": 0.15,
-    "quote_time": "08:26:04 2026-11-16"
+    "price": 88.395,
+    "change": -0.165,
+    "change_pct": -0.19,
+    "quote_time": "08:35:04 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.641,
-    "change": -0.199,
-    "change_pct": -0.21,
-    "quote_time": "08:25:08 2026-11-16"
+    "price": 95.417,
+    "change": -0.423,
+    "change_pct": -0.44,
+    "quote_time": "08:34:54 2026-11-16"
    }
   ],
   "crypto": [
@@ -1430,27 +1458,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64987.4,
-    "change": 1011.4,
-    "change_pct": 1.58,
+    "price": 65000.0,
+    "change": 1312.1,
+    "change_pct": 2.06,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1823.2,
-    "change": 64.56,
-    "change_pct": 3.67,
+    "price": 1821.01,
+    "change": 71.23,
+    "change_pct": 4.07,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.03,
-    "change": 1.98,
-    "change_pct": 2.83,
+    "price": 71.95,
+    "change": 2.1,
+    "change_pct": 3.01,
     "source": "okx"
    }
   ],
@@ -1458,9 +1486,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.41,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 103.42,
+    "change": 0.01,
+    "change_pct": 0.01,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1590,25 +1618,36 @@
  },
  "speakers": [
   {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普、习近平与普京将在中国举行三方会谈 - 华尔街日报中文网",
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "11月16日投资避雷针：自11月9日起股价累计上涨54.73% 4连板人气股今起停牌核查",
+   "summary": "【11月16日投资避雷针：自11月9日起股价累计上涨54.73% 4连板人气股今起停牌核查】公司方面重点关注包括：1）4连板天普股份公告，自11月9日起股价累计上涨54.73%，11月16日起停牌核查；2）3连板金辰股份表示相关报道事项与公司和SINGULUSSOLARGmbH无关；海外市场重点关注包括：1）上周五纳指收跌0.9%，英伟达创18个月来最差单周表现；2）美国银行将2027年1月加息纳入预测，预计美联储12月、1月及3月各加息25个基点。",
+   "time": "2026-11-16 08:29:45",
+   "url": "https://finance.eastmoney.com/a/202611163931566856.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "贝森特",
+   "label": "贝森特",
+   "hint": "美国财长，关税与财政政策的关键传声筒",
+   "title": "贝森特与美联储高官交锋：通胀源于能源冲击还是需求过热，美联储加息路径争论升温 - 上海有色金属网",
    "summary": "",
-   "time": "2026-11-16 07:47",
-   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZG1GT3Q1LUhreUgybFVSWmpybUZ0U0N1b3FGbDZqdmEwdl81TGJncDdYeUw4c04tTVVBVkg3YURxLTB4R0s0cFU1bmZpMC0yS3hrQUVyOGJYa2d4OXFNZGxJb2VaOFRkVzFXUzdVV21DOUhhSE9hNnNKOHkyUDBWRXZrQ0xpV29JYm95dENNWGVONjFUMFZDTldDejZNajZnaU9ScVVFWFVhN1A3V3QtazR5UWFuM0cxQ2thbVI1ZFFULUM2dXJFSjB2SFdsamszS0VIb0NEZktLZ3dTdzVPRWRVenZoYnU4LUV1b3E4eVh1Q1gyazFFU2VaSUNCNnd5UkxocmFEcGZvNkhya2hObmdxVkJwQmpYRzZTNHMwS1BMSzVtcTl5NG9Pa1VJcDNOby04?oc=5",
+   "time": "2026-11-16 08:29",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFTkV5S1hycXZ3M0s0ejVKVW1jT0xkQ29mcUhpaWZld3VTbDUxaDRTb2ZlXzJYbXJzMGgwQmdWcl9WclNlMzhwQVYzX3RMaXdhejFQZDQteFdkTjU0cks0RUQzRlAwY3lCMlB6S1gzOXlvdw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
   },
   {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "马斯克：星舰42号飞船状态极佳，数周翻修后即可复飞",
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普、习近平和普京将在中国举行三方会晤 - 纽约时报中文网",
    "summary": "",
-   "time": "2026-11-15 22:25:11",
-   "url": "https://news.futunn.com/flash/1004555633/musk-starship-ship-42-in-excellent-condition-ready-to-relaunch",
-   "source": "富途",
+   "time": "2026-11-16 08:17",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZUdBQVJaWlQtZWZIWTh5TmVBRG8xb1JNdnRwalhvT3ZCUmdSa3hYa3pxQTJ2Z1RtbWIzYUpETDRPREZfUHpyNVhQVHJHamF4cE1SU28tOUtVTTFVNG5jOHl3LW4td3gwa21DLTN2d3ZEdnlpRGR2UC1Fc1NKbk9RVlBNVjRFQUF1?oc=5",
+   "source": "谷歌新闻·国际",
    "mentions": 1
   }
  ],
@@ -1827,24 +1866,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "沈阳市教育局辟谣中考英语改革",
-   "summary": "【沈阳市教育局辟谣中考英语改革】沈阳市教育局11月15日发布辟谣公告：近日，网传“2027年沈阳中考英语听力及口语考试改革”的消息为不实信息，请广大师生、家长不信谣、不传谣。",
-   "time": "2026-11-16 08:07:59",
-   "url": "https://finance.eastmoney.com/a/202611163931562353.html",
+   "title": "苹果智能眼镜瞄准WWDC 2027：Siri成核心交互入口",
+   "summary": "【苹果智能眼镜瞄准WWDC 2027：Siri成核心交互入口】11月16日，据彭博社记者马克·古尔曼报道，苹果计划在2027年6月举行的全球开发者大会（WWDC）上展示首款智能眼镜，并争取在当年年底前出货。该产品将以Siri语音交互为核心，但受软件开发进度影响，发布时间表仍可能调整。",
+   "time": "2026-11-16 08:34:01",
+   "url": "https://finance.eastmoney.com/a/202611163931568688.html",
    "source": "东财国际"
   },
   {
-   "title": "全球股票基金净流入创七周高位，欧洲基金买需火热",
-   "summary": "在截至11月11日的一周内，欧洲基金引领全球股票基金的资金流入，受强劲的财报和原油价格走低提振，尽管近期美国科技股遭遇抛售。LSEG理柏数据显示，欧洲基金净流入351.3亿美元，创2021年6月以来最高单周纪录，推动全球股票基金总净流入达到509.9亿美元，创9月23日以来新高。当周，美国和亚洲股票基金分别吸引66亿美元和61.5亿美元的净买入。",
-   "time": "2026-11-16 08:03",
-   "url": "https://wallstreetcn.com/livenews/3200268",
+   "title": "摩根士丹利上调2027年标普500指数目标点位至8700点，看好德债和英债",
+   "summary": "摩根士丹利在2027年市场展望中，看好美股和部分G10国债。摩根士丹利将标普500指数目标点位上调至8,700点，意味着约15%的上行空间。该行还将日本东证指数目标点位上调至4,800点，相当于约22%的上行空间。在利率方面，摩根士丹利看好德国国债和英国国债。预计美国10年期国债收益率将维持在5%左右；预计美联储将在3月前将利率上调至4.375%的区间中点，并在明年维持该水平。",
+   "time": "2026-11-16 08:34",
+   "url": "https://wallstreetcn.com/livenews/3200272",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普、习近平与普京将在中国举行三方会谈 - 华尔街日报中文网",
+   "title": "贝森特与美联储高官交锋：通胀源于能源冲击还是需求过热，美联储加息路径争论升温 - 上海有色金属网",
    "summary": "",
-   "time": "2026-11-16 07:47",
-   "url": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNZG1GT3Q1LUhreUgybFVSWmpybUZ0U0N1b3FGbDZqdmEwdl81TGJncDdYeUw4c04tTVVBVkg3YURxLTB4R0s0cFU1bmZpMC0yS3hrQUVyOGJYa2d4OXFNZGxJb2VaOFRkVzFXUzdVV21DOUhhSE9hNnNKOHkyUDBWRXZrQ0xpV29JYm95dENNWGVONjFUMFZDTldDejZNajZnaU9ScVVFWFVhN1A3V3QtazR5UWFuM0cxQ2thbVI1ZFFULUM2dXJFSjB2SFdsamszS0VIb0NEZktLZ3dTdzVPRWRVenZoYnU4LUV1b3E4eVh1Q1gyazFFU2VaSUNCNnd5UkxocmFEcGZvNkhya2hObmdxVkJwQmpYRzZTNHMwS1BMSzVtcTl5NG9Pa1VJcDNOby04?oc=5",
+   "time": "2026-11-16 08:29",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBFTkV5S1hycXZ3M0s0ejVKVW1jT0xkQ29mcUhpaWZld3VTbDUxaDRTb2ZlXzJYbXJzMGgwQmdWcl9WclNlMzhwQVYzX3RMaXdhejFQZDQteFdkTjU0cks0RUQzRlAwY3lCMlB6S1gzOXlvdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1862,18 +1901,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "凯乐士科技：拟以不超过1亿港元回购H股",
+   "title": "SK海力士拟斥资6.54亿美元建芯片测试中心",
    "summary": "",
-   "time": "2026-11-16 00:01:58",
-   "url": "https://news.10jqka.com.cn/20261116/c681833868.shtml",
-   "source": "同花顺"
+   "time": "2026-11-16 00:34:15",
+   "url": "https://news.futunn.com/flash/1004557995/sk-hynix-plans-to-invest-654-million-to-build-a",
+   "source": "富途"
   },
   {
-   "title": "韩国券商：韩国KOSPI指数明年有望升至8300点",
+   "title": "搭建对话平台 总台“APEC大使与CEO圆桌会”在深圳举行",
    "summary": "",
-   "time": "2026-11-15 23:40:32",
-   "url": "https://news.futunn.com/flash/1004556626/south-korean-brokerage-korean-kospi-index-expected-to-rise-to",
-   "source": "富途"
+   "time": "2026-11-16 00:27:03",
+   "url": "https://news.10jqka.com.cn/20261116/c681834794.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】智算中心正成为中国投资方和产业方竞相追捧的稀缺资产，最大风险还是AI叙事的风险",
@@ -1883,24 +1922,24 @@
    "source": "财新"
   },
   {
-   "title": "三星SDI飙升7% 此前赢得美国客户的电池订单",
-   "summary": "三星SDI飙升7%，此前赢得美国客户的电池订单。",
-   "time": "2026-11-16 08:04:49",
-   "url": "https://finance.eastmoney.com/a/202611163931561936.html",
+   "title": "北京商报侃股：股价高低不等于安全边际",
+   "summary": "【北京商报侃股：股价高低不等于安全边际】注册制改革以来，A股市场的个股估值体系进一步分化。部分投资者默认低价个股下跌空间有限，把股价绝对值当成安全垫。实际上，上市公司股票的安全边际来自基本面和估值对比，和股价本身高低没有必然联系。",
+   "time": "2026-11-16 08:32:05",
+   "url": "https://finance.eastmoney.com/a/202611153931493321.html",
    "source": "东财国际"
   },
   {
-   "title": "英国11月Rightmove平均房屋要价指数同比 -0.2%，前值 -0.1%。",
-   "summary": "英国11月Rightmove平均房屋要价指数同比 -0.2%，前值 -0.1%。",
-   "time": "2026-11-16 08:01",
-   "url": "https://wallstreetcn.com/livenews/3200264",
+   "title": "中国外汇交易中心（CFETS）：11月13日人民币汇率指数按周涨0.78至104.43。",
+   "summary": "中国外汇交易中心（CFETS）：11月13日人民币汇率指数按周涨0.78至104.43。",
+   "time": "2026-11-16 08:32",
+   "url": "https://wallstreetcn.com/livenews/3200271",
    "source": "华尔街见闻"
   },
   {
-   "title": "黄金交易提醒:四个月最大周线跌幅背后，美联储“鹰影”笼罩，金价剑指3500？_外汇动态报道 - Fx678",
+   "title": "油价下跌也没用？美国通胀可能比美联储预想的更顽固 - 上海有色金属网",
    "summary": "",
-   "time": "2026-11-16 07:44",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA0Y2Z0S1drRkJUbk5LQWg1dWJRRnM3enhkaEdaTjlCb3NiSV9Ta2drQmFwZ0JjNnhiS3pJaFBHeVY1dUlITmlrMUZseXhYVVBLOW9RZ2xHNUp6dw?oc=5",
+   "time": "2026-11-16 08:22",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zR0llY0gzUlB6emVBTUtibEY3cHNCZ24zWU5LbW5qSDlackVNQXlZa3FuRmhDRUs2dXNsQXRQcE1ZVndNUnZMUkpEVzI2Q3Z4blRDNjBDLWI2MjJ5dy1ManR1eVVRbWJOSkJJelEwVmdIQQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1911,18 +1950,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "劲方医药－Ｂ：GFH276胰腺癌联合疗法研究完成中国及海外首例患者给药",
+   "title": "美官员透露中东地区又增一美军航母 已形成“三航母”",
    "summary": "",
-   "time": "2026-11-16 00:01:45",
-   "url": "https://news.10jqka.com.cn/20261116/c681833863.shtml",
-   "source": "同花顺"
+   "time": "2026-11-16 00:28:48",
+   "url": "https://news.futunn.com/flash/1004557835/us-official-reveals-another-us-aircraft-carrier-deployed-to-the",
+   "source": "富途"
   },
   {
-   "title": "美媒：万斯推迟至明年再定是否竞选总统，或于春末公开意向",
+   "title": "龙蟠科技将2026年宁德时代采购框架协议年度上限从70亿元上调至90亿元",
    "summary": "",
-   "time": "2026-11-15 22:44:24",
-   "url": "https://news.futunn.com/flash/1004555799/us-media-vance-delays-decision-on-presidential-bid-until-next",
-   "source": "富途"
+   "time": "2026-11-16 00:26:18",
+   "url": "https://news.10jqka.com.cn/20261116/c681834784.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】作为全球最激进的数据中心投建地，美国正站在十字路口：要么放缓脚步适应社区呼声，要么寻求海外替代方案",
@@ -1932,46 +1971,46 @@
    "source": "财新"
   },
   {
-   "title": "中信证券：国家医保谈判持续支持创新药 关注2027年商业化增量",
-   "summary": "【中信证券：国家医保谈判持续支持创新药 关注2027年商业化增量】中信证券研报认为，国家医保谈判延续支持创新的政策方向，新品种纳入、适应症扩围与进院支付配套共同推动2027年商业化增长。2026年11月14日公布的新版目录新增107种药品，其中1类创新药51种、数量再创新高，CAR-T首次纳入基本医保。此次调整完善预申报及商保转基本医保衔接，进一步明确长期续约规则，并推进药品进院与“双通道”供应。",
-   "time": "2026-11-16 08:04:00",
-   "url": "https://finance.eastmoney.com/a/202611163931562051.html",
+   "title": "11月16日投资避雷针：自11月9日起股价累计上涨54.73% 4连板人气股今起停牌核查",
+   "summary": "【11月16日投资避雷针：自11月9日起股价累计上涨54.73% 4连板人气股今起停牌核查】公司方面重点关注包括：1）4连板天普股份公告，自11月9日起股价累计上涨54.73%，11月16日起停牌核查；2）3连板金辰股份表示相关报道事项与公司和SINGULUSSOLARGmbH无关；海外市场重点关注包括：1）上周五纳指收跌0.9%，英伟达创18个月来最差单周表现；2）美国银行将2027年1月加息纳入预测，预计美联储12月、1月及3月各加息25个基点。",
+   "time": "2026-11-16 08:29:45",
+   "url": "https://finance.eastmoney.com/a/202611163931566856.html",
    "source": "东财国际"
   },
   {
-   "title": "中国即将发行或正在发行的国债和政策性金融债",
-   "summary": "中国即将发行或正在发行的国债和政策性金融债",
-   "time": "2026-11-16 08:00",
-   "url": "https://wallstreetcn.com/livenews/3200262",
+   "title": "中信证券：10月理财规模测算环比回升约9500亿元",
+   "summary": "中信证券测算，2026年10月末银行理财规模环比回升约9500亿元至36.3万亿元，基本符合2021—2025年历年10月的均值9400亿元水平。结合存款数据来看，10月“存款搬家”节奏或仍有所放缓。从产品结构看，固收类理财产品占比小幅提升，混合类产品占比延续收缩。展望年末，银行揽储需求及近期债市调整或对理财规模形成阶段性扰动，但目前负债端风险整体可控，预计全年理财规模有望企稳在36万亿元左右。",
+   "time": "2026-11-16 08:21",
+   "url": "https://wallstreetcn.com/livenews/3200269",
    "source": "华尔街见闻"
   },
   {
-   "title": "美以伊局势：以色列向美国通报伊朗计划暗杀特朗普，美国已采取特别安保措施，限制特朗普公开活动，伊方：打击在巴林的美军基地是回应侵略 - 新浪新闻_手机新浪网",
+   "title": "特朗普、习近平和普京将在中国举行三方会晤 - 纽约时报中文网",
    "summary": "",
-   "time": "2026-11-16 07:18",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObF9IR0czY09EbldFamt2REZRSFc3YkxhNkcwbG9WNVRIMXpBT2ZGclB0ZmY4X3RPTHBWV1dqcnd1ZU96NGxwRDBSTTgxZ3hVV2o0eWp5NTI3TDFnYS03STZySk1jWWRodjFiYkdOSnQwNXFfRE83Z25aSXVSNEt3T0RFZEdNc2VxZjl5T2s5TVJUblBNMDFtQg?oc=5",
+   "time": "2026-11-16 08:17",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZUdBQVJaWlQtZWZIWTh5TmVBRG8xb1JNdnRwalhvT3ZCUmdSa3hYa3pxQTJ2Z1RtbWIzYUpETDRPREZfUHpyNVhQVHJHamF4cE1SU28tOUtVTTFVNG5jOHl3LW4td3gwa21DLTN2d3ZEdnlpRGR2UC1Fc1NKbk9RVlBNVjRFQUF1?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "评论员评级曼联球员：精英级没人 拉什还能用 B费利马等人赶紧走 - 直播吧",
+   "title": "富国集团维持Realty Income(O.US)持有评级，上调目标价至61美元 - Moomoo",
    "summary": "",
-   "time": "2026-11-16 00:38",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15T05YN09KMDZjbUNFMzJwd3RfdGhYRlZiZUdBbWpfUUpCZUhaUFpORzd6STQ3XzlaYzRqdFY2eE1oVGRUN3hfOHNOa2ZHLUN4MGVxd2pRMnNSYWNZMC1Kdm5IYnB3d1pkcEFEUzlZUEFHX0pKRG9aNw?oc=5",
+   "time": "2026-11-15 23:31",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZmpXbzNjTm1kX0VNRkp4bVNRTERpSmFUX2w5ajY0S1RqdjJybFdKdmczSWdkbFVCWG0zSkdDWUdLZHpEamJtVWNBTVAxRUs4RG5GcXE5RWNMNUNxT2hWOVFDNU55MjRSaHRneWZaMWx3bjVwczhpdHFpdzFKZ2ppbHRzWFY5MEpoV0xBRnVHN0J4YjZpUU5nU1NCWG1zZ3g3SUt5a2tCM0hsbUdwcFc2Wk9B?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "艾迪康控股：终止收购Crown Bioscience 100%股份",
+   "title": "韩国券商：韩国KOSPI指数明年有望升至8300点",
    "summary": "",
-   "time": "2026-11-16 00:01:41",
-   "url": "https://news.10jqka.com.cn/20261116/c681833860.shtml",
-   "source": "同花顺"
+   "time": "2026-11-15 23:40:32",
+   "url": "https://news.futunn.com/flash/1004556626/south-korean-brokerage-korean-kospi-index-expected-to-rise-to",
+   "source": "富途"
   },
   {
-   "title": "马斯克：星舰42号飞船状态极佳，数周翻修后即可复飞",
+   "title": "5年期日本国债收益率上升1个基点，至2.26%",
    "summary": "",
-   "time": "2026-11-15 22:25:11",
-   "url": "https://news.futunn.com/flash/1004555633/musk-starship-ship-42-in-excellent-condition-ready-to-relaunch",
-   "source": "富途"
+   "time": "2026-11-16 00:22:26",
+   "url": "https://news.10jqka.com.cn/20261116/c681834705.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】Moderna的个体化新抗原肿瘤疫苗收获首个三期临床阳性结果，首次“破局”之后，行业仍有哪些挑战？如何追赶？",
@@ -1981,17 +2020,17 @@
    "source": "财新"
   },
   {
-   "title": "荷兰执政联盟继续就税收分歧举行紧急磋商",
-   "summary": "【荷兰执政联盟继续就税收分歧举行紧急磋商】当地时间15日，荷兰执政联盟内部继续就税收政策分歧举行紧急磋商，试图避免政府垮台。荷兰首相耶滕承认，执政联盟内部存在严重分歧，需要重新建立合作基础。目前，各方虽然暂时同意维持联合执政，但仍未就解决分歧达成一致。",
-   "time": "2026-11-16 08:03:32",
-   "url": "https://finance.eastmoney.com/a/202611163931561731.html",
+   "title": "51个一类创新药进入国家医保药品目录 机构看好创新药院内放量",
+   "summary": "【51个一类创新药进入国家医保药品目录 机构看好创新药院内放量】国家医疗保障局、人力资源社会保障部14日发布《国家基本医疗保险、生育保险和工伤保险药品目录》以及《商业健康保险创新药品目录》（2026年），这是国家医保局成立以来开展的第9次国家基本医保药品目录调整，本次调整共新增107种药品，其中51个为1类创新药，再创历史新高。",
+   "time": "2026-11-16 08:28:53",
+   "url": "https://finance.eastmoney.com/a/202611163931565988.html",
    "source": "东财国际"
   },
   {
-   "title": "强生拟以最高34亿美元收购Ollin Biosciences，交易最快可能于周一达成。（英国金融时报）",
-   "summary": "强生拟以最高34亿美元收购Ollin Biosciences，交易最快可能于周一达成。（英国金融时报）",
-   "time": "2026-11-16 07:57",
-   "url": "https://wallstreetcn.com/livenews/3200261",
+   "title": "全球股票基金净流入创七周高位，欧洲基金买需火热",
+   "summary": "在截至11月11日的一周内，欧洲基金引领全球股票基金的资金流入，受强劲的财报和原油价格走低提振，尽管近期美国科技股遭遇抛售。LSEG理柏数据显示，欧洲基金净流入351.3亿美元，创2021年6月以来最高单周纪录，推动全球股票基金总净流入达到509.9亿美元，创9月23日以来新高。当周，美国和亚洲股票基金分别吸引66亿美元和61.5亿美元的净买入。",
+   "time": "2026-11-16 08:03",
+   "url": "https://wallstreetcn.com/livenews/3200268",
    "source": "华尔街见闻"
   }
  ],
@@ -1999,7 +2038,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(19)",
+   "富途": "ok(20)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2013,8 +2052,8 @@
    "谷歌新闻·国际": 7,
    "东财早报": 1,
    "谷歌新闻·研报": 7,
-   "同花顺": 7,
-   "富途": 6,
+   "富途": 7,
+   "同花顺": 6,
    "财新": 6
   }
  },
