@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 09:00:26 CST",
- "generated_at_iso": "2026-11-16T09:00:26+08:00",
+ "generated_at": "2026-11-16 09:09:36 CST",
+ "generated_at_iso": "2026-11-16T09:09:36+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -855,9 +855,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 60700.11,
-    "change": -442.24,
-    "change_pct": -0.72,
+    "price": 60435.82,
+    "change": -706.53,
+    "change_pct": -1.16,
     "hist": [
      68956.72,
      68309.46,
@@ -930,11 +930,10 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5251.96,
-    "change": -38.57,
-    "change_pct": -0.73,
+    "price": 5195.03,
+    "change": -95.5,
+    "change_pct": -1.81,
     "hist": [
-     6971.35,
      7003.74,
      6941.39,
      6803.9,
@@ -963,14 +962,14 @@
      5239.1299,
      5375.3599,
      5342.73,
-     5290.5298
+     5290.5298,
+     5276.2202
     ],
-    "sigma": 3.305,
-    "volume": 247800.0,
-    "vol_chg_pct": -5.0,
-    "vol_pctile": 8.8,
+    "sigma": 3.271,
+    "volume": 45193.0,
+    "vol_chg_pct": -81.6,
+    "vol_pctile": 0.8,
     "vol_hist": [
-     292300.0,
      239000.0,
      269800.0,
      270000.0,
@@ -999,7 +998,8 @@
      253900.0,
      234700.0,
      244800.0,
-     247800.0
+     247800.0,
+     45193.0
     ]
    },
    {
@@ -1240,37 +1240,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3882.57,
-    "change": -3.73,
-    "change_pct": -0.1,
-    "quote_time": "09:00:31 2026-11-16"
+    "price": 3876.024,
+    "change": -10.276,
+    "change_pct": -0.26,
+    "quote_time": "09:09:39 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 48.497,
-    "change": -0.624,
-    "change_pct": -1.27,
-    "quote_time": "09:00:30 2026-11-16"
+    "price": 48.289,
+    "change": -0.832,
+    "change_pct": -1.69,
+    "quote_time": "09:09:38 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.231,
-    "change": -0.329,
-    "change_pct": -0.37,
-    "quote_time": "09:00:28 2026-11-16"
+    "price": 88.314,
+    "change": -0.246,
+    "change_pct": -0.28,
+    "quote_time": "09:09:37 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.27,
-    "change": -0.57,
-    "change_pct": -0.59,
-    "quote_time": "09:00:25 2026-11-16"
+    "price": 95.398,
+    "change": -0.442,
+    "change_pct": -0.46,
+    "quote_time": "09:09:39 2026-11-16"
    }
   ],
   "crypto": [
@@ -1278,9 +1278,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64874.8,
-    "change": 1489.0,
-    "change_pct": 2.35,
+    "price": 64754.2,
+    "change": 2049.1,
+    "change_pct": 3.27,
     "source": "okx",
     "hist": [
      81175.0,
@@ -1312,17 +1312,17 @@
      68897.3,
      65739.7,
      64747.7,
-     64870.7
+     64751.4
     ],
-    "sigma": 2.305
+    "sigma": 2.3
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1812.16,
-    "change": 72.78,
-    "change_pct": 4.18,
+    "price": 1808.52,
+    "change": 86.14,
+    "change_pct": 5.0,
     "source": "okx",
     "hist": [
      2379.51,
@@ -1354,17 +1354,17 @@
      1934.8,
      1841.26,
      1811.03,
-     1811.79
+     1810.21
     ],
-    "sigma": 3.173
+    "sigma": 3.171
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.85,
-    "change": 2.52,
-    "change_pct": 3.63,
+    "price": 71.58,
+    "change": 2.8,
+    "change_pct": 4.07,
     "source": "okx",
     "hist": [
      102.22,
@@ -1396,9 +1396,9 @@
      80.03,
      73.89,
      71.24,
-     71.75
+     71.59
     ],
-    "sigma": 3.26
+    "sigma": 3.252
    }
   ],
   "fx": [
@@ -1416,7 +1416,7 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6726,
+    "price": 6.6695,
     "change": null,
     "change_pct": null,
     "dec": 4,
@@ -1612,13 +1612,13 @@
   ],
   "reports": [
    {
-    "title": "东吴【策略*陈刚】13轮美联储加息的历史规律与A股启示 - 新浪财经_金融信息服务商",
-    "org": "东吴",
+    "title": "摩根士丹利上调韩国终端利率预期 紧缩周期或延长至2028年",
+    "org": "摩根士丹利",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVBObmtlTzB6bTBQX1RERjhBSVk2cWFLVzBmaE55UHJDV3YydEphd3U4ZDlZYlJaalA4NmFfZlF1akZodWVYUnBJcWRhcmxwdGhLNEpWWTc5NmZRQ0Z4ZERKZGJBcTYtSENJMDVhYnFsN3JNUGFmenM3bFp1TDdncnJTVTg0cmc2eUJQd19Bdw?oc=5",
+    "url": "https://finance.eastmoney.com/a/202611163931578151.html",
     "source": "机构观点"
    },
    {
@@ -1632,13 +1632,23 @@
     "source": "机构观点"
    },
    {
-    "title": "日经225指数日内跌幅扩大至1%。",
-    "org": "日经",
+    "title": "高盛与摩根士丹利对日元前景看法相反",
+    "org": "高盛",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://wallstreetcn.com/livenews/3200274",
+    "url": "https://finance.eastmoney.com/a/202611163931578367.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "东吴【策略*陈刚】13轮美联储加息的历史规律与A股启示 - 新浪财经_金融信息服务商",
+    "org": "东吴",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVBObmtlTzB6bTBQX1RERjhBSVk2cWFLVzBmaE55UHJDV3YydEphd3U4ZDlZYlJaalA4NmFfZlF1akZodWVYUnBJcWRhcmxwdGhLNEpWWTc5NmZRQ0Z4ZERKZGJBcTYtSENJMDVhYnFsN3JNUGFmenM3bFp1TDdncnJTVTg0cmc2eUJQd19Bdw?oc=5",
     "source": "机构观点"
    },
    {
@@ -1766,24 +1776,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "台湾证交所加权股价指数开低0.4%报43,512.42点。",
-   "summary": "台湾证交所加权股价指数开低0.4%报43,512.42点。",
-   "time": "2026-11-16 09:00",
-   "url": "https://wallstreetcn.com/livenews/3200281",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "天鹅股份投资成立智能烘干设备新公司",
-   "summary": "【天鹅股份投资成立智能烘干设备新公司】企查查APP显示，近日，山东天鹅智能烘干设备有限公司成立，经营范围包含：农林牧渔机械配件销售；农林牧渔机械配件制造；通用设备制造（不含特种设备制造）等。企查查股权穿透显示，该公司由天鹅股份（603029）全资持股。",
-   "time": "2026-11-16 08:57:50",
-   "url": "https://finance.eastmoney.com/a/202611163931576040.html",
+   "title": "摩根士丹利上调韩国终端利率预期 紧缩周期或延长至2028年",
+   "summary": "【摩根士丹利上调韩国终端利率预期 紧缩周期或延长至2028年】摩根士丹利在最新发布的报告中预测，韩国央行将在本月及明年2月的货币政策委员会会议上各上调基准利率25个基点，最终达到3.5%。这一预测较市场此前普遍预期的3.25%终端利率高出25个基点，也高于韩国央行8月政策委员会利率预测中值3.25%。",
+   "time": "2026-11-16 09:08:36",
+   "url": "https://finance.eastmoney.com/a/202611163931578151.html",
    "source": "东财国际"
   },
   {
-   "title": "东吴【策略*陈刚】13轮美联储加息的历史规律与A股启示 - 新浪财经_金融信息服务商",
+   "title": "韩国首尔综指跌幅扩大至1.1%。",
+   "summary": "韩国首尔综指跌幅扩大至1.1%。",
+   "time": "2026-11-16 09:02",
+   "url": "https://wallstreetcn.com/livenews/3200283",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "09:00:59【习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤】 - 财联社",
    "summary": "",
-   "time": "2026-11-16 08:43",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVBObmtlTzB6bTBQX1RERjhBSVk2cWFLVzBmaE55UHJDV3YydEphd3U4ZDlZYlJaalA4NmFfZlF1akZodWVYUnBJcWRhcmxwdGhLNEpWWTc5NmZRQ0Z4ZERKZGJBcTYtSENJMDVhYnFsN3JNUGFmenM3bFp1TDdncnJTVTg0cmc2eUJQd19Bdw?oc=5",
+   "time": "2026-11-16 09:00",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBDSy1WaHZUZG8yb2xnbS1lQlFHZ1E5NkpMY1F5Z3BFQkFTUHU5RmRPeXZBOVhqaUV0SjVpdXZNUGtzVFlSd1VpcQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1801,10 +1811,10 @@
    "source": "东财早报"
   },
   {
-   "title": "中国台湾加权指数低开0.37%",
+   "title": "Strategy美股夜盘跌超8%，公司被剔除MSCI指数，11月30日收盘后生效",
    "summary": "",
-   "time": "2026-11-16 01:01:11",
-   "url": "https://news.10jqka.com.cn/20261116/c681835922.shtml",
+   "time": "2026-11-16 01:09:57",
+   "url": "https://news.10jqka.com.cn/20261116/c681836597.shtml",
    "source": "同花顺"
   },
   {
@@ -1822,24 +1832,24 @@
    "source": "财新"
   },
   {
-   "title": "商品期货开盘，BR橡胶、甲醇主力合约涨超2%，集运欧线、生猪、聚丙烯、焦煤、燃料油等涨超1%。沪银、烧碱跌超2%。",
-   "summary": "商品期货开盘，BR橡胶、甲醇主力合约涨超2%，集运欧线、生猪、聚丙烯、焦煤、燃料油等涨超1%。沪银、烧碱跌超2%。",
-   "time": "2026-11-16 09:00",
-   "url": "https://wallstreetcn.com/livenews/3200279",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "灿勤科技等成立电子材料新公司",
-   "summary": "【灿勤科技等成立电子材料新公司】企查查APP显示，近日，苏州恒勤电子材料有限公司成立，经营范围包含：电子专用材料制造；电子专用材料研发；电子专用材料销售；特种陶瓷制品制造等。企查查股权穿透显示，该公司由灿勤科技（688182）等共同持股。",
-   "time": "2026-11-16 08:57:22",
-   "url": "https://finance.eastmoney.com/a/202611163931576184.html",
+   "title": "高盛与摩根士丹利对日元前景看法相反",
+   "summary": "【高盛与摩根士丹利对日元前景看法相反】高盛集团和摩根士丹利对日元走势持截然相反的观点，凸显出在多种力量拉扯下，预测日元汇率的难度日益加大。",
+   "time": "2026-11-16 09:07:34",
+   "url": "https://finance.eastmoney.com/a/202611163931578367.html",
    "source": "东财国际"
   },
   {
-   "title": "港股早报 | 英伟达回应CEO继任者传闻 美联储提示AI数据中心杠杆风险 - 财联社",
+   "title": "台湾证交所加权股价指数开低0.4%报43,512.42点。",
+   "summary": "台湾证交所加权股价指数开低0.4%报43,512.42点。",
+   "time": "2026-11-16 09:00",
+   "url": "https://wallstreetcn.com/livenews/3200281",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "东吴【策略*陈刚】13轮美联储加息的历史规律与A股启示 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-16 08:36",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MbXFmbTBxc0hncGJyMjh1T0ZnR3otOWt1Q1I0Y01MSEZTNzMyaVVFY2JJZ193X2xVYzItV2JsZ0R2TlBNbkJkcw?oc=5",
+   "time": "2026-11-16 08:43",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTVBObmtlTzB6bTBQX1RERjhBSVk2cWFLVzBmaE55UHJDV3YydEphd3U4ZDlZYlJaalA4NmFfZlF1akZodWVYUnBJcWRhcmxwdGhLNEpWWTc5NmZRQ0Z4ZERKZGJBcTYtSENJMDVhYnFsN3JNUGFmenM3bFp1TDdncnJTVTg0cmc2eUJQd19Bdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1850,10 +1860,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "现货白银跌超1% NYMEX钯金主力合约跌超1%",
+   "title": "余承东官宣MateX8发布会",
    "summary": "",
-   "time": "2026-11-16 01:01:07",
-   "url": "https://news.10jqka.com.cn/20261116/c681835912.shtml",
+   "time": "2026-11-16 01:07:14",
+   "url": "https://news.10jqka.com.cn/20261116/c681836526.shtml",
    "source": "同花顺"
   },
   {
@@ -1871,24 +1881,24 @@
    "source": "财新"
   },
   {
-   "title": "富时中国A50指数期货盘初涨0.04%，上一个交易日夜盘收涨0.01%。",
-   "summary": "富时中国A50指数期货盘初涨0.04%，上一个交易日夜盘收涨0.01%。",
-   "time": "2026-11-16 09:00",
-   "url": "https://wallstreetcn.com/livenews/3200277",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "派格生物派达康成功纳入国家医保 为百亿商业化目标增添关键助力",
-   "summary": "【派格生物派达康成功纳入国家医保 为百亿商业化目标增添关键助力】派格生物（02565.HK）核心产品派达康（维培那肽注射液）成功纳入2026年国家医保药品目录，商业化迎来重大进展。派达康为用于成人2型糖尿病血糖控制的GLP-1周制剂。此前，派格与上海腾瑞制药达成中国大陆独家商业化合作，确立累计销售规模超100亿元人民币的目标，产品销售收入由派格确认。",
-   "time": "2026-11-16 08:56:07",
-   "url": "https://finance.eastmoney.com/a/202611163931575949.html",
+   "title": "ETF两市融资融券余额1142.71亿元 减少17.43亿元",
+   "summary": "【ETF两市融资融券余额1142.71亿元 减少17.43亿元】截至11月13日，ETF两市融资融券余额1142.71亿元，较上个交易日减少17.43亿元。",
+   "time": "2026-11-16 09:04:06",
+   "url": "https://finance.eastmoney.com/a/202611163931578782.html",
    "source": "东财国际"
   },
   {
-   "title": "以色列向美国通报伊朗计划暗杀特朗普，美国已采取特别安保措施，限制特朗普公开活动；伊方：打击在巴林的美军基地是“回应侵略” - Sohu",
+   "title": "商品期货开盘，BR橡胶、甲醇主力合约涨超2%，集运欧线、生猪、聚丙烯、焦煤、燃料油等涨超1%。沪银、烧碱跌超2%。",
+   "summary": "商品期货开盘，BR橡胶、甲醇主力合约涨超2%，集运欧线、生猪、聚丙烯、焦煤、燃料油等涨超1%。沪银、烧碱跌超2%。",
+   "time": "2026-11-16 09:00",
+   "url": "https://wallstreetcn.com/livenews/3200279",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "港股早报 | 英伟达回应CEO继任者传闻 美联储提示AI数据中心杠杆风险 - 财联社",
    "summary": "",
    "time": "2026-11-16 08:36",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPczBHdE9nOGs4eVpnUVFRS0szRm5RVWpueFNNcTBISmlKYnNLYkxsSGJaQlRnZzAzUGg2SU9aUG5tdUFSODN5MmhQWkNyaEMwTUlOMFdmUzVHaHd3Wnh6QURXcmZ4R2YxeEJKbXNuNW1aZEI5Zi0zanhaYTczQzNPc2VWR2tPbzJrY1k1aA?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9MbXFmbTBxc0hncGJyMjh1T0ZnR3otOWt1Q1I0Y01MSEZTNzMyaVVFY2JJZ193X2xVYzItV2JsZ0R2TlBNbkJkcw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1899,10 +1909,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "现货白银跌超1%",
+   "title": "COMEX白银期货跌超2%",
    "summary": "",
-   "time": "2026-11-16 01:01:05",
-   "url": "https://news.10jqka.com.cn/20261116/c681835911.shtml",
+   "time": "2026-11-16 01:03:34",
+   "url": "https://news.10jqka.com.cn/20261116/c681836460.shtml",
    "source": "同花顺"
   },
   {
@@ -1920,25 +1930,25 @@
    "source": "财新"
   },
   {
-   "title": "日经225指数日内跌幅扩大至1%。",
-   "summary": "日经225指数日内跌幅扩大至1%。",
-   "time": "2026-11-16 08:44",
-   "url": "https://wallstreetcn.com/livenews/3200274",
-   "source": "华尔街见闻"
+   "title": "11月13日股票型ETF份额变动前三",
+   "summary": "【11月13日股票型ETF份额变动前三】2026年11月13日，股票型ETF份额增加前三：国泰中证半导体材料设备主题ETF+11.28亿份、华夏上证科创板半导体材料设备主题ETF+8.70亿份、天弘沪深300ETF+5.97亿份。",
+   "time": "2026-11-16 09:04:00",
+   "url": "https://finance.eastmoney.com/a/202611163931578850.html",
+   "source": "东财国际"
   },
   {
-   "title": "金价跌了 兰州老板的黄金品牌还在涨价 买枚戒指要等15个月 曾靠一家店年入5亿",
-   "summary": "【金价跌了 兰州老板的黄金品牌还在涨价 买枚戒指要等15个月 曾靠一家店年入5亿】11月12日晚，古法黄金品牌琳朝珠宝官方微信公众号宣布，自11月16日起对部分作品正式调价。这是琳朝珠宝继今年1月全线作品涨价之后，年内的第二次调价。彼时，国际金价刚在1月触及5595美元/盎司的历史高位，古法黄金品牌老铺黄金、宝兰先后宣布调价，涨幅达到10%—30%。",
-   "time": "2026-11-16 08:52:28",
-   "url": "https://finance.eastmoney.com/a/202611143931356129.html",
-   "source": "东财国际"
+   "title": "富时中国A50指数期货盘初涨0.04%，上一个交易日夜盘收涨0.01%。",
+   "summary": "富时中国A50指数期货盘初涨0.04%，上一个交易日夜盘收涨0.01%。",
+   "time": "2026-11-16 09:00",
+   "url": "https://wallstreetcn.com/livenews/3200277",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(22)",
+   "富途": "ok(21)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1947,8 +1957,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "东财早报": 1,
