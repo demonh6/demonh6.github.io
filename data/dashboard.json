@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 04:33:25 CST",
- "generated_at_iso": "2026-11-17T04:33:25+08:00",
+ "generated_at": "2026-11-17 04:42:52 CST",
+ "generated_at_iso": "2026-11-17T04:42:52+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -12,8 +12,8 @@
     "code": "sh000001",
     "sym": "000001.SH",
     "price": 3602.5698,
-    "change": -31.783,
-    "change_pct": -0.88,
+    "change": -31.7832,
+    "change_pct": -0.87,
     "hist": [
      3823.621,
      3830.451,
@@ -89,7 +89,7 @@
     "sym": "399001.SZ",
     "price": 10690.778,
     "change": -278.009,
-    "change_pct": -2.54
+    "change_pct": -2.53
    },
    {
     "name": "创业板指",
@@ -104,7 +104,7 @@
     "code": "sh000688",
     "sym": "000688.SH",
     "price": 1213.6833,
-    "change": -65.978,
+    "change": -65.9782,
     "change_pct": -5.16,
     "hist": [
      1555.98,
@@ -180,7 +180,7 @@
     "code": "sh000300",
     "sym": "000300.SH",
     "price": 3979.8035,
-    "change": -36.486,
+    "change": -36.4862,
     "change_pct": -0.91,
     "hist": [
      4340.755,
@@ -256,7 +256,7 @@
     "code": "sh000016",
     "sym": "000016.SH",
     "price": 2766.5737,
-    "change": -8.449,
+    "change": -8.4491,
     "change_pct": -0.3,
     "hist": [
      2806.942,
@@ -332,7 +332,7 @@
     "code": "sh000905",
     "sym": "000905.SH",
     "price": 6297.1829,
-    "change": -168.302,
+    "change": -168.3021,
     "change_pct": -2.6,
     "hist": [
      7402.295,
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 51563.1992,
-    "change": -784.35,
-    "change_pct": -1.5,
-    "quote_time": "2026-11-17 04:25:03",
+    "price": 51530.3906,
+    "change": -817.16,
+    "change_pct": -1.56,
+    "quote_time": "2026-11-17 04:42:45",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24482.7872,
-    "change": -653.4854,
-    "change_pct": -2.6,
-    "quote_time": "2026-11-17 04:25:09",
+    "price": 24492.1973,
+    "change": -644.0753,
+    "change_pct": -2.56,
+    "quote_time": "2026-11-17 04:42:50",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7407.3301,
-    "change": -154.34,
-    "change_pct": -2.04,
-    "quote_time": "2026-11-17 04:25:03",
+    "price": 7406.8599,
+    "change": -154.81,
+    "change_pct": -2.05,
+    "quote_time": "2026-11-17 04:42:45",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1279,24 +1279,61 @@
    ],
    "sigma_bp": 6.39
   },
-  "commodities": [],
+  "commodities": [
+   {
+    "name": "COMEX黄金",
+    "code": "hf_GC",
+    "sym": "GC",
+    "price": 3853.946,
+    "change": -32.354,
+    "change_pct": -0.83,
+    "quote_time": "04:42:54 2026-11-17"
+   },
+   {
+    "name": "COMEX白银",
+    "code": "hf_SI",
+    "sym": "SI",
+    "price": 46.865,
+    "change": -2.256,
+    "change_pct": -4.59,
+    "quote_time": "04:42:43 2026-11-17"
+   },
+   {
+    "name": "WTI原油",
+    "code": "hf_CL",
+    "sym": "CL",
+    "price": 85.54,
+    "change": -3.02,
+    "change_pct": -3.41,
+    "quote_time": "04:42:47 2026-11-17"
+   },
+   {
+    "name": "布伦特原油",
+    "code": "hf_OIL",
+    "sym": "BRN",
+    "price": 92.371,
+    "change": -3.469,
+    "change_pct": -3.62,
+    "quote_time": "04:42:37 2026-11-17"
+   }
+  ],
   "crypto": [
    {
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65094.3,
-    "change": 10.8,
-    "change_pct": 0.02,
+    "price": 64951.1,
+    "change": -119.4,
+    "change_pct": -0.18,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1819.18,
-    "change": -12.71,
-    "change_pct": -0.69,
+    "price": 1817.6,
+    "change": -11.56,
+    "change_pct": -0.63,
     "source": "okx"
    },
    {
@@ -1304,12 +1341,46 @@
     "code": "SOL",
     "sym": "SOL",
     "price": 71.36,
-    "change": -0.6,
-    "change_pct": -0.83,
+    "change": -0.63,
+    "change_pct": -0.88,
     "source": "okx"
    }
   ],
-  "fx": []
+  "fx": [
+   {
+    "name": "美元指数",
+    "sym": "DXY",
+    "price": 103.58,
+    "change": 0.17,
+    "change_pct": 0.16,
+    "dec": 2,
+    "date": "",
+    "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
+    "source": "东财"
+   },
+   {
+    "name": "离岸人民币",
+    "sym": "USDCNH",
+    "price": 6.6651,
+    "change": -0.0096,
+    "change_pct": -0.14,
+    "dec": 4,
+    "date": "",
+    "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
+    "source": "东财"
+   },
+   {
+    "name": "AH股溢价",
+    "sym": "HSAHP",
+    "price": 131.86,
+    "change": 0.64,
+    "change_pct": 0.49,
+    "dec": 2,
+    "date": "",
+    "hint": "A股相对H股的溢价，>130 属历史偏高区间",
+    "source": "东财"
+   }
+  ]
  },
  "sentiment": {
   "fear_greed": {
@@ -1622,29 +1693,43 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.37%，达20日历史波动率的 3.6 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-17 04:34",
+   "time": "2026-11-17 04:43",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "danger",
    "asset": "台湾加权",
    "message": "台湾加权单日跌6.03%，达20日历史波动率的 5.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-17 04:34",
+   "time": "2026-11-17 04:43",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "深证成指、创业板指、标普500等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-17 04:34",
+   "time": "2026-11-17 04:43",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
-   "message": "深证成指单日跌2.54%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-17 04:34",
+   "message": "深证成指单日跌2.53%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-17 04:43",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
+  },
+  {
+   "level": "warning",
+   "asset": "COMEX白银",
+   "message": "COMEX白银单日跌4.59%，达20日历史波动率的 2.5 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-17 04:43",
+   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
+  },
+  {
+   "level": "warning",
+   "asset": "布伦特原油",
+   "message": "布伦特原油单日跌3.62%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-17 04:43",
+   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
   }
  ],
  "news": [
@@ -2101,7 +2186,7 @@
     "change_pct": -10.0
    }
   ],
-  "index_pct": -0.88,
+  "index_pct": -0.87,
   "score": 61.8,
   "score_label": "偏热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
@@ -2285,15 +2370,11 @@
     "seal": 66.7,
     "max_streak": 4,
     "score": 61.8,
-    "index_pct": -0.88
+    "index_pct": -0.87
    }
   ],
   "backfill_done": true
  },
- "errors": {
-  "港股指数": "ValueError: Length mismatch: Expected axis has 0 elements, new values have 19 elements",
-  "美股指数": "RuntimeError: 美股实时与历史源均不可用",
-  "贵金属能源": "HTTPError: 403 Client Error: Forbidden for url: https://hq.sinajs.cn/list=hf_GC,hf_SI,hf_CL,hf_OIL"
- },
+ "errors": {},
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
