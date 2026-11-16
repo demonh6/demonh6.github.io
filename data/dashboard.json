@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 12:58:04 CST",
- "generated_at_iso": "2026-11-16T12:58:04+08:00",
+ "generated_at": "2026-11-16 13:06:17 CST",
+ "generated_at_iso": "2026-11-16T13:06:17+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -11,9 +11,9 @@
     "name": "上证指数",
     "code": "sh000001",
     "sym": "000001.SH",
-    "price": 3620.0021,
-    "change": -14.3509,
-    "change_pct": -0.39,
+    "price": 3607.1392,
+    "change": -27.2138,
+    "change_pct": -0.75,
     "hist": [
      3823.621,
      3830.451,
@@ -87,25 +87,25 @@
     "name": "深证成指",
     "code": "sz399001",
     "sym": "399001.SZ",
-    "price": 10825.372,
-    "change": -143.415,
-    "change_pct": -1.31
+    "price": 10758.938,
+    "change": -209.849,
+    "change_pct": -1.91
    },
    {
     "name": "创业板指",
     "code": "sz399006",
     "sym": "399006.SZ",
-    "price": 2369.326,
-    "change": -56.758,
-    "change_pct": -2.34
+    "price": 2349.96,
+    "change": -76.124,
+    "change_pct": -3.14
    },
    {
     "name": "科创50",
     "code": "sh000688",
     "sym": "000688.SH",
-    "price": 1242.4653,
-    "change": -37.1962,
-    "change_pct": -2.91,
+    "price": 1229.4788,
+    "change": -50.1827,
+    "change_pct": -3.92,
     "hist": [
      1555.98,
      1569.338,
@@ -179,9 +179,9 @@
     "name": "沪深300",
     "code": "sh000300",
     "sym": "000300.SH",
-    "price": 3993.7556,
-    "change": -22.5341,
-    "change_pct": -0.56,
+    "price": 3981.6005,
+    "change": -34.6892,
+    "change_pct": -0.86,
     "hist": [
      4340.755,
      4345.209,
@@ -255,9 +255,9 @@
     "name": "上证50",
     "code": "sh000016",
     "sym": "000016.SH",
-    "price": 2765.4984,
-    "change": -9.5244,
-    "change_pct": -0.34,
+    "price": 2760.456,
+    "change": -14.5668,
+    "change_pct": -0.52,
     "hist": [
      2806.942,
      2810.117,
@@ -331,9 +331,9 @@
     "name": "中证500",
     "code": "sh000905",
     "sym": "000905.SH",
-    "price": 6385.7959,
-    "change": -79.6891,
-    "change_pct": -1.23,
+    "price": 6338.2087,
+    "change": -127.2763,
+    "change_pct": -1.97,
     "hist": [
      7402.295,
      7439.627,
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 60079.8,
-    "change": -1062.55,
-    "change_pct": -1.74,
+    "price": 59957.1094,
+    "change": -1185.24,
+    "change_pct": -1.94,
     "hist": [
      68309.46,
      69946.86,
@@ -904,9 +904,9 @@
      61248.59,
      60819.36,
      61142.35,
-     60182.5
+     59957.1094
     ],
-    "sigma": 1.961,
+    "sigma": 1.974,
     "volume": 0.0,
     "vol_chg_pct": -100.0,
     "vol_pctile": 34.8,
@@ -944,78 +944,159 @@
     ]
    },
    {
-    "name": "韩国KOSPI",
-    "sym": "KS11",
-    "price": 5135.64,
-    "change": -154.89,
-    "change_pct": -2.93,
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 82195.0313,
+    "change": 602.58,
+    "change_pct": 0.74,
     "hist": [
-     7003.74,
-     6941.39,
-     6803.9,
-     6625.93,
-     6384.24,
-     6035.35,
-     6008.81,
-     5554.22,
-     5668.05,
-     5768.01,
-     5552.74,
-     5735.66,
-     5533.77,
-     5550.3,
-     5469.47,
-     5638.34,
-     6012.44,
-     5937.66,
-     5730.74,
-     5859.08,
-     5648.79,
-     5683.8,
-     5383.8,
-     5059.69,
-     5018.85,
-     5239.1299,
-     5375.3599,
-     5342.73,
-     5290.5298,
-     5151.2402
+     72382.47,
+     73067.81,
+     72638.7,
+     71593.24,
+     72472.33,
+     71924.68,
+     73033.78,
+     72781.89,
+     74315.61,
+     74729.27,
+     73852.9,
+     73709.69,
+     73249.39,
+     73123.83,
+     73606.75,
+     73598.67,
+     73246.03,
+     74151.04,
+     74459.53,
+     75692.78,
+     76917.85,
+     77301.4,
+     79310.01,
+     81028.02,
+     80999.4,
+     81106.6484,
+     81879.3984,
+     81911.0078,
+     81592.4531,
+     82195.0313
     ],
-    "sigma": 3.307,
-    "volume": 129623.0,
-    "vol_chg_pct": -47.3,
-    "vol_pctile": 0.8,
+    "sigma": 0.955,
+    "volume": 0.0,
+    "vol_chg_pct": -100.0,
+    "vol_pctile": 2.8,
     "vol_hist": [
-     239000.0,
-     269800.0,
-     270000.0,
-     302500.0,
-     340600.0,
-     423100.0,
-     372800.0,
-     385800.0,
-     298900.0,
-     292800.0,
-     274700.0,
-     225900.0,
-     217500.0,
-     249500.0,
-     202300.0,
-     196200.0,
-     237300.0,
-     296500.0,
-     228300.0,
-     198100.0,
-     207400.0,
-     276900.0,
-     277300.0,
-     323300.0,
-     248100.0,
-     253900.0,
-     234700.0,
-     244800.0,
-     247800.0,
-     129623.0
+     45200.0,
+     23400.0,
+     18700.0,
+     396500.0,
+     18500.0,
+     12700.0,
+     24700.0,
+     12700.0,
+     23300.0,
+     22000.0,
+     14800.0,
+     16400.0,
+     24400.0,
+     19400.0,
+     10900.0,
+     13600.0,
+     10200.0,
+     20000.0,
+     12200.0,
+     13700.0,
+     12600.0,
+     16800.0,
+     31600.0,
+     17100.0,
+     0.0,
+     19600.0,
+     21500.0,
+     22500.0,
+     12800.0,
+     0.0
+    ]
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 42154.72,
+    "change": -1520.4,
+    "change_pct": -3.48
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26749.95,
+    "change": -21.93,
+    "change_pct": -0.08,
+    "hist": [
+     25254.21,
+     25449.19,
+     25104.36,
+     24806.97,
+     25087.27,
+     25277.68,
+     25259.9,
+     25298.61,
+     25382.62,
+     25622.61,
+     25319.77,
+     25304.42,
+     25645.04,
+     25371.75,
+     25181.65,
+     25410.84,
+     25590.77,
+     25704.02,
+     26039.68,
+     25818.21,
+     25981.09,
+     25864.62,
+     26437.67,
+     26325.01,
+     25820.36,
+     26267.19,
+     26347.45,
+     26662.77,
+     26771.88,
+     26749.95
+    ],
+    "sigma": 1.048,
+    "volume": 0.0,
+    "vol_pctile": 100.0,
+    "vol_hist": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
     ]
    },
    {
@@ -1169,7 +1250,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6386.86,
+    "price": 6386.87,
     "change": -12.12,
     "change_pct": -0.19,
     "hist": [
@@ -1205,6 +1286,46 @@
      6386.87
     ],
     "sigma": 1.019
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2509.67,
+    "change": -5.18,
+    "change_pct": -0.21,
+    "hist": [
+     2391.72,
+     2431.07,
+     2447.66,
+     2450.46,
+     2455.22,
+     2472.26,
+     2447.83,
+     2431.66,
+     2469.36,
+     2491.83,
+     2524.06,
+     2522.93,
+     2496.26,
+     2509.26,
+     2510.92,
+     2515.89,
+     2459.53,
+     2446.64,
+     2442.1,
+     2458.46,
+     2476.7,
+     2482.7,
+     2487.01,
+     2470.07,
+     2445.6,
+     2494.77,
+     2505.95,
+     2511.1,
+     2514.85,
+     2509.67
+    ],
+    "sigma": 0.874
    }
   ]
  },
@@ -1256,37 +1377,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3869.353,
-    "change": -16.947,
+    "price": 3869.175,
+    "change": -17.125,
     "change_pct": -0.44,
-    "quote_time": "12:58:06 2026-11-16"
+    "quote_time": "13:06:17 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.32,
-    "change": -1.801,
-    "change_pct": -3.67,
-    "quote_time": "12:58:06 2026-11-16"
+    "price": 47.356,
+    "change": -1.765,
+    "change_pct": -3.59,
+    "quote_time": "13:06:17 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.342,
-    "change": -0.218,
-    "change_pct": -0.25,
-    "quote_time": "12:57:57 2026-11-16"
+    "price": 88.389,
+    "change": -0.171,
+    "change_pct": -0.19,
+    "quote_time": "13:06:12 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.175,
-    "change": -0.665,
-    "change_pct": -0.69,
-    "quote_time": "12:57:39 2026-11-16"
+    "price": 95.203,
+    "change": -0.637,
+    "change_pct": -0.66,
+    "quote_time": "13:05:23 2026-11-16"
    }
   ],
   "crypto": [
@@ -1294,63 +1415,162 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64820.1,
-    "change": -120.6,
-    "change_pct": -0.19,
-    "source": "okx"
+    "price": 64721.3,
+    "change": -36.1,
+    "change_pct": -0.06,
+    "source": "okx",
+    "hist": [
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64733.7
+    ],
+    "sigma": 2.299
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1818.31,
-    "change": 5.36,
-    "change_pct": 0.3,
-    "source": "okx"
+    "price": 1814.69,
+    "change": 8.78,
+    "change_pct": 0.49,
+    "source": "okx",
+    "hist": [
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1815.28
+    ],
+    "sigma": 3.177
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.56,
-    "change": 0.59,
-    "change_pct": 0.83,
-    "source": "okx"
+    "price": 71.4,
+    "change": 0.64,
+    "change_pct": 0.9,
+    "source": "okx",
+    "hist": [
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     71.44
+    ],
+    "sigma": 3.246
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.44,
-    "change": 0.03,
-    "change_pct": 0.03,
+    "price": 103.419,
+    "change": 0.008,
+    "change_pct": 0.01,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-16",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6723,
-    "change": -0.0024,
-    "change_pct": -0.04,
+    "price": 6.6722,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-16",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 131.66,
-    "change": 0.44,
-    "change_pct": 0.34,
+    "price": 131.68,
+    "change": 0.46,
+    "change_pct": 0.35,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-16",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1364,12 +1584,12 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 1701,
-   "down": 3376,
-   "flat": 217,
+   "up": 1240,
+   "down": 3906,
+   "flat": 148,
    "total": 5294,
-   "breadth_pct": 32.1,
-   "score": 14.2,
+   "breadth_pct": 23.4,
+   "score": 0.0,
    "source": "东财"
   },
   "vix": {
@@ -1442,38 +1662,27 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 38.4,
-   "label": "偏冷",
+   "score": 27.6,
+   "label": "冰点",
    "color": "#f58a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
-    "breadth": 14.2,
-    "structure": 74.7
+    "breadth": 0.0,
+    "structure": 69.1
    }
   }
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 16:30 欧洲央行副行长武伊契奇为第29届欧洲金融周致开幕词；\n\n② 美股盘前 百度发布财报；\n\n③ 18:00 欧元区9月工业产出，美联储理事巴尔讲话；\n\n④ 21:30 美国11月纽约联储制造业指数、加拿大10月CPI；\n\n⑤ 22:05 FOMC永久票委、纽约联储主席威廉姆斯发表讲话；\n\n⑥ 22:15 欧洲央行管委科赫尔、卡兹米尔、奇格曼发表讲话；\n\n⑦ 次日01:00 美联储主席沃",
-   "time": "2026-11-16 12:30",
-   "url": "https://wallstreetcn.com/livenews/3200413",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普政府将把英伟达等20多家企业列入人工智能“国家领军企业”名单",
+   "title": "特朗普政府拟将英伟达列入AI“国家领军企业”名单 - 华尔街日报中文网",
    "summary": "",
-   "time": "2026-11-16 04:04:00",
-   "url": "https://news.futunn.com/flash/1004574242/the-trump-administration-will-add-nvidia-and-more-than-20",
-   "source": "富途",
-   "mentions": 1
+   "time": "2026-11-16 12:56",
+   "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbzE4b1hoaDJULVpfbmprVTJGZmUyZ3loNnZRQkgwR3l1RV9UM0xlbHp1bU9QemowaDVIMU1hYk1BUTZKYnNtV3FlUm4wdlZ2ekVMWWhwNTIwSFRtYTg1WEM3NC1WZ3JKSGZsanVRdXdXQWFVSndzbHkzVko0OE1ldHk5STBkQkRQZ2hVOW9wdWtCNTA0bnNJRHJnMmlsd2wwRDl6YjVtYXdmcm96V3VFc0UxZmlqQTRkVnhHREZ5TlBKZ2RkOHZEWGFVLUhHSGYweW8zcGRRcXFWWlVaZ2Fpb2V1Z3FlRzljRlpzZENTdnhYTnBwS0E4N2dHbmtUV0pBS3RhcHluXzlRMU9hOXJpbkpFNzgyTTFHS0J1RE5HWFJBcVZkcjlHX1RZVkhTTTNKQlBrX0p5UDRDY1FURlhzNl9MTQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1537,53 +1746,53 @@
   ],
   "reports": [
    {
-    "title": "特朗普政府将把英伟达等20多家企业列入人工智能“国家领军企业”名单。\n\n亚马逊、微软、OpenAI和Anthropic也将获得该认证。\n\n特朗普政府的国家领军企",
+    "title": "英伟达目标价腰斩 被汇丰大幅下调至 170 美元",
+    "org": "汇丰",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://finance.eastmoney.com/a/202611163931674960.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "跌出来的机会？大摩高喊“超配”全球股票！ - 金融界",
+    "org": "大摩",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlUWh4Z1E2S2U2akdkaUZ0MmVRb0RUUEVWQW9rQzVDV09kc1hXcVBvaEpuSUNXc2ZZNVhxQ2QtVk9keVRDT1RaN3dtM21Xd29qLWdtWWlGQlVSc256RUdvWTFnOA?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "特朗普政府拟将英伟达列入AI“国家领军企业”名单 - 华尔街日报中文网",
     "org": "华尔街日报",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://wallstreetcn.com/livenews/3200398",
+    "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbzE4b1hoaDJULVpfbmprVTJGZmUyZ3loNnZRQkgwR3l1RV9UM0xlbHp1bU9QemowaDVIMU1hYk1BUTZKYnNtV3FlUm4wdlZ2ekVMWWhwNTIwSFRtYTg1WEM3NC1WZ3JKSGZsanVRdXdXQWFVSndzbHkzVko0OE1ldHk5STBkQkRQZ2hVOW9wdWtCNTA0bnNJRHJnMmlsd2wwRDl6YjVtYXdmcm96V3VFc0UxZmlqQTRkVnhHREZ5TlBKZ2RkOHZEWGFVLUhHSGYweW8zcGRRcXFWWlVaZ2Fpb2V1Z3FlRzljRlpzZENTdnhYTnBwS0E4N2dHbmtUV0pBS3RhcHluXzlRMU9hOXJpbkpFNzgyTTFHS0J1RE5HWFJBcVZkcjlHX1RZVkhTTTNKQlBrX0p5UDRDY1FURlhzNl9MTQ?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "大行评级｜瑞银：康方生物合作伙伴就ivonescimab联合化疗BLA接获FDA完整回应信属轻微负面，维持“买入”评级 - 中金在线",
-    "org": "瑞银",
+    "title": "山西证券：给予汉朔科技买入评级 - 同花顺",
+    "org": "山西证券",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OS0hTV3dBWXVnaGgwT0pIV2dYbzVSN09rUUw1cExoY0NnRjJ1Z3Nid2RwTm1WUnVaWFB4dXIxdW5XTFMyMjhWZEpLVUZGckpJR2p3bWdRVkstOXktdUg5M3lOOWZZaEF3TkhTM0wtOA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43VC1KTjlkNnpnX2s5bEF5N0JZMTJNSk5vZmN1OVdMeWMtY2ZncFBVVlpBclNLWlpETjZ5Zmw2dXdvTm50UTVWZFQyeG5jLUd1cHBiR01KSmJMQVBvNUFfT0x3?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "高盛：将中国H股评级上调至“超配” - 手机新浪网",
-    "org": "高盛",
+    "title": "华鑫证券：给予阳光电源买入评级 - 同花顺",
+    "org": "华鑫证券",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQWdlbUpyRV9sN0dOcVhaU2NOOFA4WHVZY3Q1aVdpVjN2aWpOY2N4TnRDV2JJWGk4TkZQUTNzNkRMcV9ZVkt1dTlkUFFrRzlzM21xYnpjMTlRbE1ENXlIcVp0UEUwT25TclJRYkgzaHlnWHAzako3ZWRlckVMWkNTclNR?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "光大证券：新能源具备较好结构性配置价值 投资机会来自细分领域确定性改善",
-    "org": "光大证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-16",
-    "url": "https://news.futunn.com/flash/1004573948/everbright-securities-new-energy-sector-offers-favorable-structural-allocation-value",
-    "source": "机构观点"
-   },
-   {
-    "title": "国泰海通研报称AI迈向物理世界 数据服务迎来新机遇 - 观点网",
-    "org": "国泰海通",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lb0tRTFR5cXRJWXNYVzREdnZOMF81bzNwVUozRTU2TVJzeVlxR0N4eUxOZjZDc2txOHFjSE83OHZZdE5HVUZYVGVtRXVRblRZUDBWc1RDR0hMRkN2U2FxTmdn?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zYVBCM3N3ZVp4Rl9FM2VfcVBRZjlkNVdiUlB4MklzblVOSUtNRXRFTnk5a0RUZXlJOTFxUEE2emg1YWRZMGVaX2t1SlJhV0J2c05Vbms5TVhVMkNXQml5c3RR?oc=5",
     "source": "机构观点"
    },
    {
@@ -1657,6 +1866,16 @@
     "source": "东财研报·个股"
    },
    {
+    "title": "有色金属行业报告：加息预期强化，金属价格普遍承压",
+    "org": "中邮证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831743793",
+    "source": "东财研报·行业"
+   },
+   {
     "title": "电力设备与新能源行业 11月第2周周报：《“十五五”新型储能实施方案》发布",
     "org": "中银证券",
     "rating": "增持",
@@ -1695,56 +1914,60 @@
     "date": "2026-11-16",
     "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831743284",
     "source": "东财研报·行业"
-   },
-   {
-    "title": "非银行金融行业研究：互换便利加速落地，非银板块配置性价比高",
-    "org": "国金证券",
-    "rating": "买入",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831743268",
-    "source": "东财研报·行业"
    }
   ]
  },
  "alerts": [
   {
    "level": "warning",
-   "asset": "COMEX白银",
-   "message": "COMEX白银单日跌3.67%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 12:58",
-   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
+   "asset": "创业板指",
+   "message": "创业板指单日跌3.14%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-16 13:07",
+   "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
+  },
+  {
+   "level": "warning",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌3.48%，达20日历史波动率的 2.9 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-16 13:07",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "全球股指",
+   "message": "深证成指、创业板指、台湾加权等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-16 13:07",
+   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "早间要闻汇总",
-   "summary": "11月19日，习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。\n\n中国-东盟自贸区3.0版升级议定书将于2026年12月1日生效；中国与东盟宣布将2027年定为人工智能合作年。\n\n中国10月规上工业增加值同比放缓至4.8%，3D打印设备、锂电池、工业机器人产量增长较快。\n\n中国10月社零同比增0.4%，较上月下滑0.7个百分点，剔除汽车拖累后增2.5%。\n\n中国1-10月份城镇固定资产",
-   "time": "2026-11-16 12:30",
-   "url": "https://wallstreetcn.com/livenews/3200414",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "山西证券：给予汉朔科技买入评级 - 同花顺",
-   "summary": "",
-   "time": "2026-11-16 12:29",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43VC1KTjlkNnpnX2s5bEF5N0JZMTJNSk5vZmN1OVdMeWMtY2ZncFBVVlpBclNLWlpETjZ5Zmw2dXdvTm50UTVWZFQyeG5jLUd1cHBiR01KSmJMQVBvNUFfT0x3?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "高盛预计2027年石油市场将“大量过剩” 油价料承压",
-   "summary": "【高盛预计2027年石油市场将“大量过剩” 油价料承压】高盛当地时间11月15日在报告中表示，尽管供应受阻风险仍然存在，石油市场明年将面临“大量过剩”，并拖累油价走低。",
-   "time": "2026-11-16 12:27:08",
-   "url": "https://finance.eastmoney.com/a/202611163931667843.html",
+   "title": "英伟达目标价腰斩 被汇丰大幅下调至 170 美元",
+   "summary": "【英伟达目标价腰斩 被汇丰大幅下调至 170 美元】11 月 16 日消息，汇丰分析师 Frank Lee 上周末将英伟达评级下调至持有，目标价从 365 美元大幅砍至 170 美元，下调约 54%。",
+   "time": "2026-11-16 13:04:43",
+   "url": "https://finance.eastmoney.com/a/202611163931674960.html",
    "source": "东财国际"
   },
   {
-   "title": "美国全国停飞后各方“甩锅”：特朗普政府指责前任，民主党人嘲讽钱用在了凯旋门 - ThePaper.cn",
+   "title": "跌出来的机会？大摩高喊“超配”全球股票！ - 金融界",
    "summary": "",
-   "time": "2026-11-16 11:58",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KUzNpWVQtYjBpdkVfWFhObnA3cWp1Q1Q3SUZTcmk5dEtDTC1EWURMZWI2NnNCT3BfcmlkUEt1QTU3MG5DMzRCYV9jX0xjWFdORDJvYzNNdGpYb2E4VmFnTQ?oc=5",
+   "time": "2026-11-16 12:57",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBlUWh4Z1E2S2U2akdkaUZ0MmVRb0RUUEVWQW9rQzVDV09kc1hXcVBvaEpuSUNXc2ZZNVhxQ2QtVk9keVRDT1RaN3dtM21Xd29qLWdtWWlGQlVSc256RUdvWTFnOA?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普政府拟将英伟达列入AI“国家领军企业”名单 - 华尔街日报中文网",
+   "summary": "",
+   "time": "2026-11-16 12:56",
+   "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPbzE4b1hoaDJULVpfbmprVTJGZmUyZ3loNnZRQkgwR3l1RV9UM0xlbHp1bU9QemowaDVIMU1hYk1BUTZKYnNtV3FlUm4wdlZ2ekVMWWhwNTIwSFRtYTg1WEM3NC1WZ3JKSGZsanVRdXdXQWFVSndzbHkzVko0OE1ldHk5STBkQkRQZ2hVOW9wdWtCNTA0bnNJRHJnMmlsd2wwRDl6YjVtYXdmcm96V3VFc0UxZmlqQTRkVnhHREZ5TlBKZ2RkOHZEWGFVLUhHSGYweW8zcGRRcXFWWlVaZ2Fpb2V1Z3FlRzljRlpzZENTdnhYTnBwS0E4N2dHbmtUV0pBS3RhcHluXzlRMU9hOXJpbkpFNzgyTTFHS0J1RE5HWFJBcVZkcjlHX1RZVkhTTTNKQlBrX0p5UDRDY1FURlhzNl9MTQ?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "中国台湾加权指数下跌4.8%，或将创7月以来最大单日跌幅。",
+   "summary": "中国台湾加权指数下跌4.8%，或将创7月以来最大单日跌幅。",
+   "time": "2026-11-16 12:52",
+   "url": "https://wallstreetcn.com/livenews/3200421",
+   "source": "华尔街见闻"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1754,17 +1977,17 @@
    "source": "东财早报"
   },
   {
-   "title": "韩国财政部将与政府债券交易商会面",
+   "title": "韩国税务师考试AI舞弊事件引发高考防作弊警报 政府紧急完善监管",
    "summary": "",
-   "time": "2026-11-16 04:27:12",
-   "url": "https://news.10jqka.com.cn/20261116/c681850092.shtml",
+   "time": "2026-11-16 05:05:50",
+   "url": "https://news.10jqka.com.cn/20261116/c681851605.shtml",
    "source": "同花顺"
   },
   {
-   "title": "国家统计局：实现全年预期目标有支撑，也有条件",
+   "title": "丰田汽车将于12月启动劳资薪资谈判",
    "summary": "",
-   "time": "2026-11-16 04:17:03",
-   "url": "https://news.futunn.com/flash/1004574880/national-bureau-of-statistics-achieving-full-year-expected-targets-is",
+   "time": "2026-11-16 05:04:55",
+   "url": "https://news.futunn.com/flash/1004576347/toyota-motor-to-launch-labor-management-wage-negotiations-in-december",
    "source": "富途"
   },
   {
@@ -1775,45 +1998,45 @@
    "source": "财新"
   },
   {
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 16:30 欧洲央行副行长武伊契奇为第29届欧洲金融周致开幕词；\n\n② 美股盘前 百度发布财报；\n\n③ 18:00 欧元区9月工业产出，美联储理事巴尔讲话；\n\n④ 21:30 美国11月纽约联储制造业指数、加拿大10月CPI；\n\n⑤ 22:05 FOMC永久票委、纽约联储主席威廉姆斯发表讲话；\n\n⑥ 22:15 欧洲央行管委科赫尔、卡兹米尔、奇格曼发表讲话；\n\n⑦ 次日01:00 美联储主席沃",
-   "time": "2026-11-16 12:30",
-   "url": "https://wallstreetcn.com/livenews/3200413",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "华鑫证券：给予阳光电源买入评级 - 同花顺",
-   "summary": "",
-   "time": "2026-11-16 12:29",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zYVBCM3N3ZVp4Rl9FM2VfcVBRZjlkNVdiUlB4MklzblVOSUtNRXRFTnk5a0RUZXlJOTFxUEE2emg1YWRZMGVaX2t1SlJhV0J2c05Vbms5TVhVMkNXQml5c3RR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "香港交易所称拟于2027年2月16日使其股份成为无纸证券市场制度下的参与证券",
-   "summary": "香港交易所称拟于2027年2月16日使其股份成为无纸证券市场制度下的参与证券。",
-   "time": "2026-11-16 12:23:38",
-   "url": "https://finance.eastmoney.com/a/202611163931667163.html",
+   "title": "诋毁始祖鸟“割韭菜”、客户“钱多人傻” 男装品牌霞湖世家创始人出镜道歉",
+   "summary": "【诋毁始祖鸟“割韭菜”、客户“钱多人傻” 男装品牌霞湖世家创始人出镜道歉】因虚假宣传、商业诋毁始祖鸟，男装品牌霞湖世家近日公开致歉。道歉信指出，2024年以来我们在产品推广过程中实施了大量攀附“始祖鸟”品牌商誉、引人误解的虚假商业宣传以及商业诋毁等不正当竞争行为，严重侵害了亚玛芬公司就“始祖鸟”品牌享有的合法权益。",
+   "time": "2026-11-16 13:01:13",
+   "url": "https://finance.eastmoney.com/a/202611163931670322.html",
    "source": "东财国际"
   },
   {
-   "title": "美元兑加元连续第五日上涨，汇价的顶部在哪里？ - 新浪财经",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-16 11:52",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNjl4QVV5NkZBU1dzOWpmTGcxaFE5WFVqMjJlZ2R3bmN5eXI2RVZrMWtac05QQ3dCZmtfbDdUNjl1b2ZxWkM2cUlDYUMtaGJIRF9qZ3pxa3ZIbDBYU1o3WlZGbzRjMTlsM0lGel80ZjctZDVRWGxfR2RlcVJoOGhXaURqS0RLUmxXd1YyZGozcDF2bkJQVzZZQnZXWThTUVAtX2dycGhHdw?oc=5",
+   "time": "2026-11-16 12:45",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4xZUhVNkJnRVFGMnp3Z0pBcXgwYmd3WUJUbE9xWkRXZEE0YWpDNVRmVU9WUHFFamFJV1BoaHNQTURqcHoyNG80eg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普将中期选举失利与奥巴马、克林顿和里根作比较 - 新浪财经",
+   "summary": "",
+   "time": "2026-11-16 12:33",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAzQ0lRU0dLUGhHVUdlbXdrM3BUUDRDbEthNjdGY09fdHhjTWJjRGxCWmIyUGh0SlZpT2hYbUNzM05iV29TdGpuYjlBUWFhOW5ROXFZMkwxS0JIb1ZOclY5VTNoVWxVSjNKVUFWQVk1bmExaTZ4UTlJMg?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "墨西哥总统辛鲍姆抵达深圳 将出席APEC领导人非正式会议",
+   "title": "韩国发现逾300个政府邮箱存在异常访问情况。（韩联社）",
+   "summary": "韩国发现逾300个政府邮箱存在异常访问情况。（韩联社）",
+   "time": "2026-11-16 12:36",
+   "url": "https://wallstreetcn.com/livenews/3200416",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "日本本州岛发生5.4级地震 震源深度280公里",
    "summary": "",
-   "time": "2026-11-16 04:15:09",
-   "url": "https://news.10jqka.com.cn/20261116/c681849235.shtml",
+   "time": "2026-11-16 05:02:28",
+   "url": "https://news.10jqka.com.cn/20261116/c681851552.shtml",
    "source": "同花顺"
   },
   {
-   "title": "港股午评：恒指半日涨0.84%，科网股消费股集体活跃",
+   "title": "联合国官员：中国新型电力系统建设为全球提供借鉴",
    "summary": "",
-   "time": "2026-11-16 04:04:10",
-   "url": "https://news.futunn.com/flash/1004574230/hong-kong-stock-market-midday-review-hang-seng-index-up",
+   "time": "2026-11-16 04:56:23",
+   "url": "https://news.futunn.com/flash/1004576066/un-official-china-s-construction-of-a-new-type-power",
    "source": "富途"
   },
   {
@@ -1824,45 +2047,45 @@
    "source": "财新"
   },
   {
-   "title": "日本9月工业产出环比终值 2%，初值 2.2%。",
-   "summary": "日本9月工业产出环比终值 2%，初值 2.2%。",
-   "time": "2026-11-16 12:30",
-   "url": "https://wallstreetcn.com/livenews/3200411",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "大行评级｜瑞银：康方生物合作伙伴就ivonescimab联合化疗BLA接获FDA完整回应信属轻微负面，维持“买入”评级 - 中金在线",
-   "summary": "",
-   "time": "2026-11-16 12:00",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OS0hTV3dBWXVnaGgwT0pIV2dYbzVSN09rUUw1cExoY0NnRjJ1Z3Nid2RwTm1WUnVaWFB4dXIxdW5XTFMyMjhWZEpLVUZGckpJR2p3bWdRVkstOXktdUg5M3lOOWZZaEF3TkhTM0wtOA?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "内蒙古特高压累计外送电量突破1万亿度",
-   "summary": "【内蒙古特高压累计外送电量突破1万亿度】从国网内蒙古东部电力有限公司获悉，截至11月16日0时，内蒙古通过特高压外送通道累计外送电量突破1万亿度大关，成为我国首个特高压累计外送电量破万亿度的省区。",
-   "time": "2026-11-16 12:20:42",
-   "url": "https://finance.eastmoney.com/a/202611163931666120.html",
+   "title": "日本本州岛发生5.4级地震",
+   "summary": "【日本本州岛发生5.4级地震】中国地震台网正式测定：11月16日12时24分在日本本州岛（北纬37.30度，东经137.00度）发生5.4级地震，震源深度280千米。",
+   "time": "2026-11-16 13:00:48",
+   "url": "https://finance.eastmoney.com/a/202611163931673279.html",
    "source": "东财国际"
   },
   {
-   "title": "堪萨斯城联储施密德：通胀过高且方向错误，美联储仍有工作要做 - 华尔街见闻",
+   "title": "山西证券：给予汉朔科技买入评级 - 同花顺",
    "summary": "",
-   "time": "2026-11-16 11:35",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLY1BpOTdFOVhkei1BdHJIYWxpbHFfR3NrbHliS0o0d0dKSElkNk52Q2dmTTNlTmJ3VjFHLVBDSG13WGRfMmd6ZFU4UjA3bEJXQkJV?oc=5",
+   "time": "2026-11-16 12:29",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43VC1KTjlkNnpnX2s5bEF5N0JZMTJNSk5vZmN1OVdMeWMtY2ZncFBVVlpBclNLWlpETjZ5Zmw2dXdvTm50UTVWZFQyeG5jLUd1cHBiR01KSmJMQVBvNUFfT0x3?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "美元兑加元连续第五日上涨，汇价的顶部在哪里？ - 新浪财经",
+   "summary": "",
+   "time": "2026-11-16 11:52",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNjl4QVV5NkZBU1dzOWpmTGcxaFE5WFVqMjJlZ2R3bmN5eXI2RVZrMWtac05QQ3dCZmtfbDdUNjl1b2ZxWkM2cUlDYUMtaGJIRF9qZ3pxa3ZIbDBYU1o3WlZGbzRjMTlsM0lGel80ZjctZDVRWGxfR2RlcVJoOGhXaURqS0RLUmxXd1YyZGozcDF2bkJQVzZZQnZXWThTUVAtX2dycGhHdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "11月16日午间公告一览：和黄医药爱优特和沃瑞沙国家医保药品目录覆盖范围进一步扩大",
+   "title": "泽连斯基再次呼吁解除对乌使用“星盾”限速",
+   "summary": "乌克兰总统泽连斯基15日重申，乌军目前使用美国“星盾”卫星通信系统仍受限制，影响对乌克兰能源基础设施的防御能力。他在社交媒体发帖说，乌军前线拦截无人机一旦飞行速度超过时速约160公里，就会失去与操控端的信号，难以拦截俄军无人机，乌方希望“这些限制能够解除”。按照泽连斯基的说法，冬季来临前，乌克兰能源设施的安全均与此有关，“我已指示外交部、国防部以及总统办公室，与美国方面以及太空探索技术公司(Spa",
+   "time": "2026-11-16 12:33",
+   "url": "https://wallstreetcn.com/livenews/3200415",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "浦发多部门高管轮换，陈兵拟回归母行筹建AIC",
    "summary": "",
-   "time": "2026-11-16 04:13:45",
-   "url": "https://news.10jqka.com.cn/20261116/c681849150.shtml",
+   "time": "2026-11-16 04:37:13",
+   "url": "https://news.10jqka.com.cn/20261116/c681850727.shtml",
    "source": "同花顺"
   },
   {
-   "title": "特朗普政府将把英伟达等20多家企业列入人工智能“国家领军企业”名单",
+   "title": "李强出席第29次中国-东盟领导人会议",
    "summary": "",
-   "time": "2026-11-16 04:04:00",
-   "url": "https://news.futunn.com/flash/1004574242/the-trump-administration-will-add-nvidia-and-more-than-20",
+   "time": "2026-11-16 04:53:00",
+   "url": "https://news.futunn.com/flash/1004575979/li-qiang-attends-the-29th-china-asean-leaders-meeting",
    "source": "富途"
   },
   {
@@ -1873,17 +2096,17 @@
    "source": "财新"
   },
   {
-   "title": "日本9月工业产出同比终值 1.7%，初值 1.9%。",
-   "summary": "日本9月工业产出同比终值 1.7%，初值 1.9%。",
-   "time": "2026-11-16 12:30",
-   "url": "https://wallstreetcn.com/livenews/3200410",
-   "source": "华尔街见闻"
+   "title": "二手房价格“不怎么跌了”？同比降幅收窄 上海、沈阳止跌",
+   "summary": "【二手房价格“不怎么跌了”？同比降幅收窄 上海、沈阳止跌】11月16日，国家统计局公布2026年10月份70个大中城市商品住宅销售价格变动情况统计数据。总的来看，一线城市商品住宅销售价格环比总体上涨，二三线城市环比下降，一二三线城市同比降幅继续收窄。值得注意的是，沈阳继上海之后，成为自2024年1月楼市调整以来，全国又一个二手房价格同比止跌回稳的城市。专家认为，全国二手房价格正进入“不怎么跌了”的新阶段。",
+   "time": "2026-11-16 12:58:00",
+   "url": "https://finance.eastmoney.com/a/202611163931672278.html",
+   "source": "东财国际"
   },
   {
-   "title": "高盛：将中国H股评级上调至“超配” - 手机新浪网",
+   "title": "华鑫证券：给予阳光电源买入评级 - 同花顺",
    "summary": "",
-   "time": "2026-11-16 11:44",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQWdlbUpyRV9sN0dOcVhaU2NOOFA4WHVZY3Q1aVdpVjN2aWpOY2N4TnRDV2JJWGk4TkZQUTNzNkRMcV9ZVkt1dTlkUFFrRzlzM21xYnpjMTlRbE1ENXlIcVp0UEUwT25TclJRYkgzaHlnWHAzako3ZWRlckVMWkNTclNR?oc=5",
+   "time": "2026-11-16 12:29",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5zYVBCM3N3ZVp4Rl9FM2VfcVBRZjlkNVdiUlB4MklzblVOSUtNRXRFTnk5a0RUZXlJOTFxUEE2emg1YWRZMGVaX2t1SlJhV0J2c05Vbms5TVhVMkNXQml5c3RR?oc=5",
    "source": "谷歌新闻·研报"
   }
  ],
@@ -1891,7 +2114,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(17)",
+   "富途": "ok(14)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1900,10 +2123,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
    "东财国际": 7,
+   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
    "东财早报": 1,
    "同花顺": 7,
    "富途": 6,
@@ -1985,13 +2208,13 @@
  },
  "structure": {
   "date": "2026-11-16",
-  "zt_count": 33,
-  "dt_count": 14,
-  "zb_count": 10,
-  "qs_count": 115,
-  "seal_rate": 76.7,
+  "zt_count": 32,
+  "dt_count": 17,
+  "zb_count": 13,
+  "qs_count": 117,
+  "seal_rate": 71.1,
   "first_board": 24,
-  "continued": 9,
+  "continued": 8,
   "max_streak": 4,
   "ladder": [
    {
@@ -2002,7 +2225,7 @@
    {
     "boards": 2,
     "label": "2板",
-    "count": 7
+    "count": 6
    },
    {
     "boards": 3,
@@ -2029,42 +2252,42 @@
    {
     "name": "小家电",
     "count": 3,
-    "share": 9.1
+    "share": 9.4
    },
    {
     "name": "一般零售",
     "count": 3,
-    "share": 9.1
+    "share": 9.4
    },
    {
     "name": "电池",
     "count": 3,
-    "share": 9.1
+    "share": 9.4
    },
    {
     "name": "汽车服务",
     "count": 2,
-    "share": 6.1
+    "share": 6.2
    },
    {
     "name": "电视广播",
     "count": 2,
-    "share": 6.1
-   },
-   {
-    "name": "炼化及贸",
-    "count": 1,
-    "share": 3.0
+    "share": 6.2
    },
    {
     "name": "通信服务",
     "count": 1,
-    "share": 3.0
+    "share": 3.1
    },
    {
     "name": "影视院线",
     "count": 1,
-    "share": 3.0
+    "share": 3.1
+   },
+   {
+    "name": "游戏Ⅱ",
+    "count": 1,
+    "share": 3.1
    }
   ],
   "dt_industries": [
@@ -2073,19 +2296,19 @@
     "count": 2
    },
    {
+    "name": "通用设备",
+    "count": 2
+   },
+   {
     "name": "光伏设备",
     "count": 2
    },
    {
+    "name": "家居用品",
+    "count": 1
+   },
+   {
     "name": "一般零售",
-    "count": 1
-   },
-   {
-    "name": "化学制药",
-    "count": 1
-   },
-   {
-    "name": "炼化及贸",
     "count": 1
    }
   ],
@@ -2094,7 +2317,7 @@
     "name": "北纬科技",
     "code": "002148",
     "streak": 4,
-    "fund_yi": 0.93,
+    "fund_yi": 0.84,
     "industry": "通信服务",
     "change_pct": 10.06,
     "broken": 4
@@ -2103,7 +2326,7 @@
     "name": "广百股份",
     "code": "002187",
     "streak": 3,
-    "fund_yi": 3.0,
+    "fund_yi": 2.98,
     "industry": "一般零售",
     "change_pct": 10.04,
     "broken": 0
@@ -2112,34 +2335,34 @@
     "name": "华东重机",
     "code": "002685",
     "streak": 2,
-    "fund_yi": 3.0,
+    "fund_yi": 2.95,
     "industry": "工程机械",
     "change_pct": 9.93,
     "broken": 2
    },
    {
-    "name": "新能股份",
-    "code": "000595",
-    "streak": 2,
-    "fund_yi": 2.73,
-    "industry": "电力",
-    "change_pct": 9.95,
-    "broken": 0
-   },
-   {
     "name": "凯撒文化",
     "code": "002425",
     "streak": 2,
-    "fund_yi": 2.25,
+    "fund_yi": 2.22,
     "industry": "游戏Ⅱ",
     "change_pct": 10.1,
     "broken": 1
    },
    {
+    "name": "新能股份",
+    "code": "000595",
+    "streak": 2,
+    "fund_yi": 2.11,
+    "industry": "电力",
+    "change_pct": 9.95,
+    "broken": 0
+   },
+   {
     "name": "金逸影视",
     "code": "002905",
     "streak": 2,
-    "fund_yi": 1.48,
+    "fund_yi": 1.46,
     "industry": "影视院线",
     "change_pct": 10.0,
     "broken": 0
@@ -2171,14 +2394,14 @@
     "change_pct": -10.0
    }
   ],
-  "index_pct": -0.39,
-  "score": 74.7,
+  "index_pct": -0.75,
+  "score": 69.1,
   "score_label": "偏热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
-   "封板率 77%（炸板 10 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
+   "封板率 71%（炸板 13 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
-   "连板 9 家 / 涨停 33 家（27%）：以首板为主，持续性待验证",
+   "连板 8 家 / 涨停 32 家（25%）：以首板为主，持续性待验证",
    "涨停最集中的 小家电 也只占 9%：热点分散，没有单一主线。"
   ],
   "history": [
@@ -2348,13 +2571,13 @@
    },
    {
     "date": "2026-11-16",
-    "zt": 33,
-    "dt": 14,
-    "zb": 10,
-    "seal": 76.7,
+    "zt": 32,
+    "dt": 17,
+    "zb": 13,
+    "seal": 71.1,
     "max_streak": 4,
-    "score": 74.7,
-    "index_pct": -0.39
+    "score": 69.1,
+    "index_pct": -0.75
    }
   ],
   "backfill_done": true
