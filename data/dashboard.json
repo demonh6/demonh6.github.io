@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 17:13:39 CST",
- "generated_at_iso": "2026-11-16T17:13:39+08:00",
+ "generated_at": "2026-11-16 17:22:24 CST",
+ "generated_at_iso": "2026-11-16T17:22:24+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3863.057,
-    "change": -23.243,
-    "change_pct": -0.6,
-    "quote_time": "17:13:25 2026-11-16"
+    "price": 3863.37,
+    "change": -22.93,
+    "change_pct": -0.59,
+    "quote_time": "17:22:14 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.399,
-    "change": -1.722,
-    "change_pct": -3.51,
-    "quote_time": "17:13:32 2026-11-16"
+    "price": 47.405,
+    "change": -1.716,
+    "change_pct": -3.49,
+    "quote_time": "17:22:20 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.311,
-    "change": -0.249,
-    "change_pct": -0.28,
-    "quote_time": "17:13:39 2026-11-16"
+    "price": 88.045,
+    "change": -0.515,
+    "change_pct": -0.58,
+    "quote_time": "17:22:26 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.184,
-    "change": -0.656,
-    "change_pct": -0.68,
-    "quote_time": "17:13:37 2026-11-16"
+    "price": 94.912,
+    "change": -0.928,
+    "change_pct": -0.97,
+    "quote_time": "17:22:25 2026-11-16"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64221.3,
-    "change": -1749.3,
-    "change_pct": -2.65,
+    "price": 64292.0,
+    "change": -1434.2,
+    "change_pct": -2.18,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1795.17,
-    "change": -46.15,
-    "change_pct": -2.51,
+    "price": 1798.03,
+    "change": -35.08,
+    "change_pct": -1.91,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.59,
-    "change": -1.85,
-    "change_pct": -2.55,
+    "price": 70.73,
+    "change": -1.49,
+    "change_pct": -2.06,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.382,
-    "change": -0.029,
-    "change_pct": -0.03,
+    "price": 103.406,
+    "change": -0.005,
+    "change_pct": -0.0,
     "dec": 2,
     "date": "2026-11-16",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,13 +1333,13 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6661,
-    "change": null,
-    "change_pct": null,
+    "price": 6.6666,
+    "change": -0.0081,
+    "change_pct": -0.12,
     "dec": 4,
-    "date": "2026-11-16",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1348,9 @@
     "change": 0.64,
     "change_pct": 0.49,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-16",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1442,13 +1442,13 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 24.7,
-   "label": "冰点",
-   "color": "#f04a3d",
+   "score": 33.9,
+   "label": "偏冷",
+   "color": "#f58a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 0.0,
-    "structure": 61.8
+    "structure": 84.7
    }
   }
  },
@@ -1703,14 +1703,14 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.37%，达20日历史波动率的 3.6 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-16 17:14",
+   "time": "2026-11-16 17:23",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌2.53%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 17:14",
+   "time": "2026-11-16 17:23",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
@@ -1983,7 +1983,7 @@
  "structure": {
   "date": "2026-11-16",
   "zt_count": 32,
-  "dt_count": 60,
+  "dt_count": 0,
   "zb_count": 16,
   "qs_count": 132,
   "seal_rate": 66.7,
@@ -2064,28 +2064,7 @@
     "share": 3.1
    }
   ],
-  "dt_industries": [
-   {
-    "name": "通用设备",
-    "count": 5
-   },
-   {
-    "name": "汽车零部",
-    "count": 4
-   },
-   {
-    "name": "元件",
-    "count": 4
-   },
-   {
-    "name": "光伏设备",
-    "count": 4
-   },
-   {
-    "name": "金属新材",
-    "count": 2
-   }
-  ],
+  "dt_industries": [],
   "leaders": [
    {
     "name": "北纬科技",
@@ -2142,39 +2121,14 @@
     "broken": 1
    }
   ],
-  "dt_leaders": [
-   {
-    "name": "沪电股份",
-    "code": "002463",
-    "industry": "元件",
-    "change_pct": -10.0
-   },
-   {
-    "name": "生益科技",
-    "code": "600183",
-    "industry": "元件",
-    "change_pct": -9.99
-   },
-   {
-    "name": "剑桥科技",
-    "code": "603083",
-    "industry": "通信设备",
-    "change_pct": -10.0
-   },
-   {
-    "name": "景旺电子",
-    "code": "603228",
-    "industry": "元件",
-    "change_pct": -10.0
-   }
-  ],
+  "dt_leaders": [],
   "index_pct": -0.87,
-  "score": 61.8,
-  "score_label": "偏热",
+  "score": 84.7,
+  "score_label": "过热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
    "封板率 67%（炸板 16 家）：多空分歧居中，涨停质量一般。",
-   "跌停 60 家：个股层面的风险在释放，注意高位股与题材补跌。",
+   "无跌停且涨停 32 家：当日风险偏好偏高，属于普涨式做多环境。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 11 家 / 涨停 32 家（34%）：赚钱效应有延续性",
    "涨停最集中的 一般零售 也只占 9%：热点分散，没有单一主线。"
@@ -2347,18 +2301,16 @@
    {
     "date": "2026-11-16",
     "zt": 32,
-    "dt": 60,
+    "dt": 0,
     "zb": 16,
     "seal": 66.7,
     "max_streak": 4,
-    "score": 61.8,
+    "score": 84.7,
     "index_pct": -0.87
    }
   ],
   "backfill_done": true
  },
- "errors": {
-  "盘面结构": "ReadTimeout: HTTPSConnectionPool(host='push2ex.eastmoney.com', port=443): Read timed out. (read timeout=12)"
- },
+ "errors": {},
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
