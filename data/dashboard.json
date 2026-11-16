@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 20:26:35 CST",
- "generated_at_iso": "2026-11-16T20:26:35+08:00",
+ "generated_at": "2026-11-16 20:34:51 CST",
+ "generated_at_iso": "2026-11-16T20:34:51+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10935.51,
-    "change": 32.95,
-    "change_pct": 0.3,
+    "price": 10946.39,
+    "change": 43.83,
+    "change_pct": 0.4,
     "hist": [
      10497.94,
      10541.69,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8393.84,
-    "change": 24.93,
-    "change_pct": 0.3,
+    "price": 8392.23,
+    "change": 23.32,
+    "change_pct": 0.28,
     "hist": [
      7834.1,
      7865.07,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6384.94,
-    "change": -1.92,
-    "change_pct": -0.03,
+    "price": 6378.44,
+    "change": -8.42,
+    "change_pct": -0.13,
     "hist": [
      6242.15,
      6272.24,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3879.368,
-    "change": -6.932,
-    "change_pct": -0.18,
-    "quote_time": "20:26:38 2026-11-16"
+    "price": 3874.216,
+    "change": -12.084,
+    "change_pct": -0.31,
+    "quote_time": "20:34:53 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.55,
-    "change": -1.571,
-    "change_pct": -3.2,
-    "quote_time": "20:26:37 2026-11-16"
+    "price": 47.488,
+    "change": -1.633,
+    "change_pct": -3.32,
+    "quote_time": "20:34:45 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.719,
-    "change": -0.841,
-    "change_pct": -0.95,
-    "quote_time": "20:26:38 2026-11-16"
+    "price": 87.848,
+    "change": -0.712,
+    "change_pct": -0.8,
+    "quote_time": "20:34:53 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 94.689,
-    "change": -1.151,
-    "change_pct": -1.2,
-    "quote_time": "20:26:35 2026-11-16"
+    "price": 94.866,
+    "change": -0.974,
+    "change_pct": -1.02,
+    "quote_time": "20:34:47 2026-11-16"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64075.3,
-    "change": -1394.1,
-    "change_pct": -2.13,
+    "price": 64098.9,
+    "change": -1456.5,
+    "change_pct": -2.22,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1794.92,
-    "change": -36.68,
-    "change_pct": -2.0,
+    "price": 1795.18,
+    "change": -38.22,
+    "change_pct": -2.08,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.83,
-    "change": -1.88,
-    "change_pct": -2.59,
+    "price": 70.72,
+    "change": -2.09,
+    "change_pct": -2.87,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.45,
-    "change": 0.04,
-    "change_pct": 0.04,
+    "price": 103.49,
+    "change": 0.08,
+    "change_pct": 0.08,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1333,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6675,
-    "change": -0.0072,
+    "price": 6.6673,
+    "change": -0.0074,
     "change_pct": -0.11,
     "dec": 4,
     "date": "",
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 20.0,
-   "change": 0.7,
-   "change_pct": 3.6269,
+   "value": 20.57,
+   "change": 1.27,
+   "change_pct": 6.5803,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1412,7 +1412,7 @@
     19.3
    ],
    "vix3m": 20.62,
-   "term": "contango(正常)"
+   "term": "持平"
   },
   "term_structure": {
    "points": [
@@ -1423,8 +1423,8 @@
     },
     {
      "t": "VIX",
-     "value": 20.0,
-     "change_pct": 3.6269
+     "value": 20.57,
+     "change_pct": 6.5803
     },
     {
      "t": "VIX3M",
@@ -1457,33 +1457,22 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：期待参加中俄美元首会晤 【我外交部：会晤具有开创性意义】日前，美国总统特朗普在接受采访时表示，“即将访问中国，期待参加中俄美元首会晤”。11月16日，我外交部发言人表示，这是中俄美三国元首历史上首次面对面会晤，具有开创性意义。#特朗普期待参加 - Sohu",
+   "title": "风波爆发前特朗普持仓英伟达市值最高达6200万美元|唐纳德·特朗普|股票交易|黄仁勋|坎托|交易_手机新浪网 - 新浪财经",
    "summary": "",
-   "time": "2026-11-16 20:08",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNclc2azlOaGNPY0pVV2xDZm40U1JIUGZ6NW5WYWcxdDROYTcyTFpiRC1uRTF2dWJVWERZWjlQeEtJZ3hZTjlVTXFlUGF2TEpfcVhZdEV4aGJoSTJOVm9qNXI1aVo3cmRzZ09RVi1DWVdOTHFJMUNvRlhZb0FwQ2NieDRpQ1VQWl9z?oc=5",
+   "time": "2026-11-16 20:30",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTkNPMW02Uk1RME01NWFNdzkyYlpXdHp5Y3pBdGRSelZqQ00xa0VSTFU2Z1Q5clllSW5LQV9QZW9IZXR2aWNsVzR3X2hla2VFVmdmTjJSQVVhTWJJVDZQZHVfOGkwd3gtOE43OThaVnFBVUotU3hQeTRIWFdWYXk3U2kxSFVXSUpjTFE?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "证监会",
-   "label": "证监会",
-   "hint": "A股核心监管机构的政策直接影响市场情绪",
-   "title": "中国证监会在沪召开国际顾问委员会第23次会议",
-   "summary": "【中国证监会在沪召开国际顾问委员会第23次会议】2026年11月13日，中国证监会国际顾问委员会（简称“顾委会”）第23次会议在上海召开。顾委会主席霍华德·戴维斯先生、副主席史美伦女士等14名顾委会委员，以及中国证监会主席吴清、副主席刘浩凌等出席了本次会议。来自中国人民银行、国家金融监管总局、上海市政府等单位代表，和中国证监会机关相关司局、派出机构、会管单位主要负责同志参加了会议。",
-   "time": "2026-11-16 20:07:01",
-   "url": "https://finance.eastmoney.com/a/202611163931998197.html",
-   "source": "东财国际",
-   "mentions": 1
+   "mentions": 3
   },
   {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "巴克莱：预计美联储未来两次会议各加息25个基点 - 21财经",
+   "title": "法巴资管：美联储12月加息未必促使亚洲央行普遍跟进",
    "summary": "",
-   "time": "2026-11-16 18:53",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlI4a2FIeVBMdkozSmc5QkYzOGF3VU1QRXNQaGMyR2ZibkpIcFoyUjJJTTNDVTJramJwX0dXcE5PQUlkVk1SUVVIc0lELXBxQXZieFJCWVA3d3daVTc0MUhpcGpRd0RNdU9OTGoxdHNyWGZVSmp0LTE0NkZfMFRDd0M2bDlsMFVKRGdvZjZ4dw?oc=5",
-   "source": "谷歌新闻·国际",
+   "time": "2026-11-16 12:24:06",
+   "url": "https://news.futunn.com/flash/1004617579/bnp-paribas-asset-management-a-december-rate-hike-by-the",
+   "source": "富途",
    "mentions": 1
   },
   {
@@ -1735,58 +1724,58 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.37%，达20日历史波动率的 3.6 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-16 20:26",
+   "time": "2026-11-16 20:35",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌2.53%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 20:26",
+   "time": "2026-11-16 20:35",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
  "news": [
   {
-   "title": "特朗普：期待参加中俄美元首会晤 【我外交部：会晤具有开创性意义】日前，美国总统特朗普在接受采访时表示，“即将访问中国，期待参加中俄美元首会晤”。11月16日，我外交部发言人表示，这是中俄美三国元首历史上首次面对面会晤，具有开创性意义。#特朗普期待参加 - Sohu",
-   "summary": "",
-   "time": "2026-11-16 20:08",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNclc2azlOaGNPY0pVV2xDZm40U1JIUGZ6NW5WYWcxdDROYTcyTFpiRC1uRTF2dWJVWERZWjlQeEtJZ3hZTjlVTXFlUGF2TEpfcVhZdEV4aGJoSTJOVm9qNXI1aVo3cmRzZ09RVi1DWVdOTHFJMUNvRlhZb0FwQ2NieDRpQ1VQWl9z?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "中国证监会在沪召开国际顾问委员会第23次会议",
-   "summary": "【中国证监会在沪召开国际顾问委员会第23次会议】2026年11月13日，中国证监会国际顾问委员会（简称“顾委会”）第23次会议在上海召开。顾委会主席霍华德·戴维斯先生、副主席史美伦女士等14名顾委会委员，以及中国证监会主席吴清、副主席刘浩凌等出席了本次会议。来自中国人民银行、国家金融监管总局、上海市政府等单位代表，和中国证监会机关相关司局、派出机构、会管单位主要负责同志参加了会议。",
-   "time": "2026-11-16 20:07:01",
-   "url": "https://finance.eastmoney.com/a/202611163931998197.html",
+   "title": "尼日利亚10月消费者价格指数同比上涨14.06%",
+   "summary": "【尼日利亚10月消费者价格指数同比上涨14.06%】尼日利亚10月消费者价格指数同比上涨14.06%，预期上涨为14.2%。",
+   "time": "2026-11-16 20:32:17",
+   "url": "https://finance.eastmoney.com/a/202611163932020966.html",
    "source": "东财国际"
   },
   {
-   "title": "惠誉下调华发集团主体及债券评级 由BBB降至BB+ - 观点网",
-   "summary": "",
-   "time": "2026-11-16 19:57",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jajNDMlpmLUxZZHZtRE01a1YwRW83X09ZTTF6VXdydFVoMGg2Skp1UEpkOU1BYkZsOVFkZ1l0dkwyaFVVanR1QWF1NnZzdw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "欧盟批准裕信银行收购德国商业银行 欧洲银行业标志性交易再过一关",
-   "summary": "裕信银行收购德国商业银行获得欧盟批准，为欧洲规模最大的银行业交易之一铺平了道路。欧盟监管机构周一无条件批准这笔交易，并指出拟议收购“不会在所审查的任何市场引发竞争担忧”，尤其是在德国银行服务市场。欧盟委员会在声明中表示：“欧盟银行业的跨境整合有助于克服各国经济之间的割裂，释放规模经济效应并强化单一市场，从而提升欧盟银行的竞争力以及为欧洲经济提供融资的能力。”（彭博）",
-   "time": "2026-11-16 19:55",
-   "url": "https://wallstreetcn.com/livenews/3200660",
+   "title": "Telus美股盘前涨超38%，报道称Quebecor提出以每股19.45加元收购Telus。",
+   "summary": "Telus美股盘前涨超38%，报道称Quebecor提出以每股19.45加元收购Telus。",
+   "time": "2026-11-16 20:32",
+   "url": "https://wallstreetcn.com/livenews/3200672",
    "source": "华尔街见闻"
   },
   {
-   "title": "11月16日 周一《新闻联播》要闻18条",
+   "title": "风波爆发前特朗普持仓英伟达市值最高达6200万美元|唐纳德·特朗普|股票交易|黄仁勋|坎托|交易_手机新浪网 - 新浪财经",
    "summary": "",
-   "time": "2026-11-16 12:09:03",
-   "url": "https://news.10jqka.com.cn/20261116/c681874083.shtml",
+   "time": "2026-11-16 20:30",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTkNPMW02Uk1RME01NWFNdzkyYlpXdHp5Y3pBdGRSelZqQ00xa0VSTFU2Z1Q5clllSW5LQV9QZW9IZXR2aWNsVzR3X2hla2VFVmdmTjJSQVVhTWJJVDZQZHVfOGkwd3gtOE43OThaVnFBVUotU3hQeTRIWFdWYXk3U2kxSFVXSUpjTFE?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "风口研报 - 财联社",
+   "summary": "",
+   "time": "2026-11-16 20:16",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZUUZ4YnhGc25yamVjQVVqVUJ5S050cW1PNm15TFRZMHc4Ni1jZzJ2QjZudWhYQmRNMnpWTXZZa0IyOFpPLWdsOQ?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "阿斯麦美股盘前跌超4%",
+   "summary": "",
+   "time": "2026-11-16 12:31:55",
+   "url": "https://news.10jqka.com.cn/20261116/c681874646.shtml",
    "source": "同花顺"
   },
   {
-   "title": "潘晓东在北京调研智慧监管体系建设工作",
+   "title": "盘前期权异动：英特尔盘前下跌5.6%，现最高成交额的看跌期权涨跌幅为+127%，成交量达到5张",
    "summary": "",
-   "time": "2026-11-16 12:04:25",
-   "url": "https://news.futunn.com/flash/1004615923/pan-xiaodong-conducts-research-in-beijing-on-the-construction-of",
+   "time": "2026-11-16 12:31:37",
+   "url": "https://news.futunn.com/flash/1004618307/unusual-options-activity-intel-down-5-6-premarket-the-most",
    "source": "富途"
   },
   {
@@ -1804,45 +1793,45 @@
    "source": "财新"
   },
   {
-   "title": "万斯被曝考虑退出2028年竞选 面临处理与特朗普关系等考验 - 财新",
-   "summary": "",
-   "time": "2026-11-16 20:02",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wMGxrdlpzSFZZNi0wZkdGSERHT3p4RWU4OThNRDZUUHp1ZEl4d2tHaGh5LVZLRTk4Qld6cTNpaTBVeElzekVmSWFRWk0xNFdUYUtwOHRZR0ZXLVRsMWVJNkpoZWoxSEFUbVE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "国家市场监督管理总局副局长潘晓东在北京调研智慧监管体系建设工作",
-   "summary": "【国家市场监督管理总局副局长潘晓东在北京调研智慧监管体系建设工作】国家市场监督管理总局党组成员、副局长潘晓东一行近日在北京市市场监管局调研智慧监管体系建设工作，并赴北京环球度假区实地了解特种设备智慧监管情况。",
-   "time": "2026-11-16 20:05:40",
-   "url": "https://finance.eastmoney.com/a/202611163931998774.html",
+   "title": "11月第2周生猪价格环比跌3.0% 猪肉价格环比跌1.2%",
+   "summary": "【11月第2周生猪价格环比跌3.0% 猪肉价格环比跌1.2%】据农业农村部对500个县集贸市场和采集点监测，上周（11月第2周，11月9—15日，下同），全国活猪价格为9.81元/公斤，环比跌3.0%；猪肉集贸市场价格为19.87元/公斤，环比跌1.2%。",
+   "time": "2026-11-16 20:26:36",
+   "url": "https://finance.eastmoney.com/a/202611163932018637.html",
    "source": "东财国际"
   },
   {
-   "title": "风口研报 - 财联社",
-   "summary": "",
-   "time": "2026-11-16 19:53",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9qYXI4UnN1bm0wNFZOZTZXWm5KSGVDb2hhcVFINUZSdjdmU0FqdENHbVJlZjkzMG9feExtUEoxdnVHc3pJbkJDdw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "Diamondback将以21.5亿美元及1556万股股票收购Double Eagle旗下公司。（彭博）",
-   "summary": "Diamondback将以21.5亿美元及1556万股股票收购Double Eagle旗下公司。（彭博）",
-   "time": "2026-11-16 19:52",
-   "url": "https://wallstreetcn.com/livenews/3200659",
+   "title": "报道：GIC、沙特电信竞购数据中心开发商Pure DC股权",
+   "summary": "知情人士称，新加坡政府投资公司(GIC)和沙特电信公司是数据中心开发商Pure Data Centres Group股权竞购的最终竞标方之一。在本月晚些时候提交具有约束力报价的截止日期前，GIC已与Copenhagen Infrastructure Partners联手竞购这家总部位于英国的公司Pure DC。Pure DC的所有者橡树资本正在寻求引入新的少数股东，为公司扩张提供资金。Pure D",
+   "time": "2026-11-16 20:20",
+   "url": "https://wallstreetcn.com/livenews/3200668",
    "source": "华尔街见闻"
   },
   {
-   "title": "华宝新能：董事会选举董事长并聘任高级管理人员",
+   "title": "特朗普周四预计先会习近平后举行美中俄峰会 深圳加强安保措施 - RFI",
    "summary": "",
-   "time": "2026-11-16 12:07:14",
-   "url": "https://news.10jqka.com.cn/20261116/c681874043.shtml",
+   "time": "2026-11-16 20:11",
+   "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxPVFprZWNpY2trTURuZ09fbWRxZW13anNEb3V0bU80NmpkTXljVTZ4a0ZPUHBjVDQya2J0cTJRdWkxLU9PdXQ1WmlKT1BuRFpZSE9XazVlWmxZSDVQeE1fTVRmeDgtbWdjN2NQc3pfTFJwUG1qTHVlaUJmVFpPODJEUmw1M3JNc0dNX1JJbVRzZGhMa2JYaGZ0RGlSbld4by1tWDRBZUF5MlU2T3BFOUdaQ1NnOFFjSnNRd05ISXpvX3FvaTVIVlJVeHh1dDRINVFnekstcW81VjFGUTJVZDdDWXV1d0dnM3ByQjFQTEZQWGM3LUdLTWN0WWVnNTA1bko5RWZqSm9mdUpJb1dPRWpFR2p4YS1HaHg5dkpYQ3pKd1d3NDhWMG1ieDJBRWZZd2lSaERVb0l3czFaR3VlTEl1RVdJMXpKdXExanJiWFFCUEh3YmpYUG8yaGFPaHRfVEpGbHBCd2dxbmJidEdLSVE4NzZuRjM4TW13TkdldkN3WWIxTXVnTDE4Q3kxNWU4TVA5M3ZRRUpQNXVwSk5BMTBZWjJZZ3duN0JWSTRrc0FHQUI?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "英伟达盘前跌超3%！机构集体下调目标价，多家投行腰斩 - Sohu",
+   "summary": "",
+   "time": "2026-11-16 20:11",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNmh2QkdGMzRJcF80a0R0ZF9sdElvZ0RiYWJVd3FkZTRzeFowRUw0d0EyaFJkR2NUU21SUnRZcThDY0YyenJWOE9qVDFRTVpfX0dBVUd0WC1CTnNRYTVJdHY2azUwRmdIdFZHektJWWNrTWRoUWd3dGJDd3pOREVVNmdlMktxVkJxU2hCVg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "泰勒斯美股盘前涨超14%",
+   "summary": "",
+   "time": "2026-11-16 12:30:07",
+   "url": "https://news.10jqka.com.cn/20261116/c681874400.shtml",
    "source": "同花顺"
   },
   {
-   "title": "巴菲特将向基金会捐赠923万股伯克希尔B类股",
+   "title": "11月第2周生猪和猪肉价格有所下跌",
    "summary": "",
-   "time": "2026-11-16 12:02:00",
-   "url": "https://news.futunn.com/flash/1004615820/buffett-will-donate-9-23-million-class-b-shares-of",
+   "time": "2026-11-16 12:28:06",
+   "url": "https://news.futunn.com/flash/1004617803/prices-for-live-hogs-and-pork-declined-somewhat-during-the",
    "source": "富途"
   },
   {
@@ -1853,45 +1842,45 @@
    "source": "财新"
   },
   {
-   "title": "特朗普：期待参加中俄美元首会晤，我外交部：会晤具有开创性意义 - 京报网",
-   "summary": "",
-   "time": "2026-11-16 19:28",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5jRzl5bXdWRnBEanAybkVuT0s1NFZ5ejItNV9SdmdvVWZuQVpha3ZqUDFsUVg5VG5vZXdZYkE4bzlZR0s1ODJXc0NtcV9tWEtLM2tkcUhfTzNwUW4tSlE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "伯克希尔哈撒韦：巴菲特将向四家家族基金会捐赠B类股",
-   "summary": "伯克希尔哈撒韦表示，巴菲特将向四家家族基金会捐赠B类股。",
-   "time": "2026-11-16 20:04:12",
-   "url": "https://finance.eastmoney.com/a/202611163931997892.html",
+   "title": "美国民主党人要求美国商品期货交易委员会暂停实施预测市场相关规定",
+   "summary": "美国民主党人要求美国商品期货交易委员会暂停实施预测市场相关规定。",
+   "time": "2026-11-16 20:25:42",
+   "url": "https://finance.eastmoney.com/a/202611163932018787.html",
    "source": "东财国际"
   },
   {
-   "title": "大摩予SpaceX星舰第15次飞行A级评级及目标价300美元 - 观点网",
-   "summary": "",
-   "time": "2026-11-16 19:50",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5MFJsZ3dZX3JHYXBXYk95VmJGbW92Sm54bkYzUjF0dzd2Zk9xQ0J0MlNsV3pqTnF1RFJCTzhyU2VubHdlRE9XcUl2Z1RWYzR3VFZfRGlwOUwwdVBXcUVsS2dB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "礼来将以最高15亿美元现金收购Calytrix Bio。（彭博）",
-   "summary": "礼来将以最高15亿美元现金收购Calytrix Bio。（彭博）",
-   "time": "2026-11-16 19:47",
-   "url": "https://wallstreetcn.com/livenews/3200657",
+   "title": "影石Insta360发售全新品类Toast墨水屏相纸，拓展影像生态",
+   "summary": "11月16日，影石Insta360正式发售全新品类产品Toast彩色墨水屏相纸，补全从“影像记录”到“回忆重温”的最后一环。",
+   "time": "2026-11-16 20:18",
+   "url": "https://wallstreetcn.com/livenews/3200665",
    "source": "华尔街见闻"
   },
   {
-   "title": "汤臣倍健：前三季度兴趣电商收入实现超40%增长",
+   "title": "特朗普：期待参加中俄美元首会晤 【我外交部：会晤具有开创性意义】日前，美国总统特朗普在接受采访时表示，“即将访问中国，期待参加中俄美元首会晤”。11月16日，我外交部发言人表示，这是中俄美三国元首历史上首次面对面会晤，具有开创性意义。#特朗普期待参加 - Sohu",
    "summary": "",
-   "time": "2026-11-16 12:02:33",
-   "url": "https://news.10jqka.com.cn/20261116/c681873938.shtml",
+   "time": "2026-11-16 20:08",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNclc2azlOaGNPY0pVV2xDZm40U1JIUGZ6NW5WYWcxdDROYTcyTFpiRC1uRTF2dWJVWERZWjlQeEtJZ3hZTjlVTXFlUGF2TEpfcVhZdEV4aGJoSTJOVm9qNXI1aVo3cmRzZ09RVi1DWVdOTHFJMUNvRlhZb0FwQ2NieDRpQ1VQWl9z?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "惠誉下调华发集团主体及债券评级 由BBB降至BB+ - 观点网",
+   "summary": "",
+   "time": "2026-11-16 19:57",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jajNDMlpmLUxZZHZtRE01a1YwRW83X09ZTTF6VXdydFVoMGg2Skp1UEpkOU1BYkZsOVFkZ1l0dkwyaFVVanR1QWF1NnZzdw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "西甲向央视澄清，涉亚马尔种族歧视内容系伪造",
+   "summary": "",
+   "time": "2026-11-16 12:29:29",
+   "url": "https://news.10jqka.com.cn/20261116/c681874392.shtml",
    "source": "同花顺"
   },
   {
-   "title": "杉杉股份：未来两到三年资本开支以负极材料为主",
+   "title": "法巴资管：美联储12月加息未必促使亚洲央行普遍跟进",
    "summary": "",
-   "time": "2026-11-16 11:47:17",
-   "url": "https://news.futunn.com/flash/1004614383/shanshan-co-ltd-capital-expenditures-to-focus-primarily-on-anode",
+   "time": "2026-11-16 12:24:06",
+   "url": "https://news.futunn.com/flash/1004617579/bnp-paribas-asset-management-a-december-rate-hike-by-the",
    "source": "富途"
   },
   {
@@ -1902,25 +1891,25 @@
    "source": "财新"
   },
   {
-   "title": "巴克莱：预计美联储未来两次会议各加息25个基点 - 21财经",
-   "summary": "",
-   "time": "2026-11-16 18:53",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlI4a2FIeVBMdkozSmc5QkYzOGF3VU1QRXNQaGMyR2ZibkpIcFoyUjJJTTNDVTJramJwX0dXcE5PQUlkVk1SUVVIc0lELXBxQXZieFJCWVA3d3daVTc0MUhpcGpRd0RNdU9OTGoxdHNyWGZVSmp0LTE0NkZfMFRDd0M2bDlsMFVKRGdvZjZ4dw?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "美国股指期货跌幅扩大 纳斯达克100指数期货跌超1.5%",
+   "summary": "【美国股指期货跌幅扩大 纳斯达克100指数期货跌超1.5%】11月16日，美国股指期货跌幅扩大。截至目前，道琼斯指数期货跌0.13%，标普500指数期货跌0.76%，纳斯达克100指数期货跌1.56%。",
+   "time": "2026-11-16 20:24:42",
+   "url": "https://finance.eastmoney.com/a/202611163932016572.html",
+   "source": "东财国际"
   },
   {
-   "title": "美光科技、西部数据、希捷科技美股盘前跌超5%",
-   "summary": "美光科技、西部数据、希捷科技美股盘前跌超5%。",
-   "time": "2026-11-16 20:03:10",
-   "url": "https://finance.eastmoney.com/a/202611163931998390.html",
-   "source": "东财国际"
+   "title": "王小洪在四川调研时强调 坚定信心 抢抓机遇 全力完成全年经济社会发展主要目标任务",
+   "summary": "中共中央书记处书记、国务委员王小洪15日至16日到四川调研。王小洪先后来到绵阳市、成都市，深入有关企业和基层单位，详细了解科技创新、企业生产经营、对外贸易、生态治理等情况。他强调，要坚持把创新作为引领发展的第一动力，加强原始创新和关键核心技术攻关，布局契合区域产业需求的创新平台，推动科技创新和产业创新深度融合。要持续优化外贸结构，提高精深加工、高技术、高附加值产品出口比重，培育壮大外贸主体，不断做",
+   "time": "2026-11-16 19:56",
+   "url": "https://wallstreetcn.com/livenews/3200661",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(17)",
+   "富途": "ok(19)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1929,10 +1918,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
    "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "同花顺": 7,
    "富途": 6,
    "东财早报": 1,
