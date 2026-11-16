@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 11:58:39 CST",
- "generated_at_iso": "2026-11-16T11:58:39+08:00",
+ "generated_at": "2026-11-16 12:06:56 CST",
+ "generated_at_iso": "2026-11-16T12:06:56+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 23847.961,
-    "change": 210.361,
-    "change_pct": 0.89,
+    "price": 23845.09,
+    "change": 207.49,
+    "change_pct": 0.88,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3833.62,
-    "change": 20.43,
-    "change_pct": 0.54,
+    "price": 3830.24,
+    "change": 17.05,
+    "change_pct": 0.45,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 8006.46,
-    "change": 68.93,
-    "change_pct": 0.87,
+    "price": 8004.271,
+    "change": 66.741,
+    "change_pct": 0.84,
     "hist": [
      8030.54,
      8051.6704,
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 60088.3,
-    "change": -1054.05,
-    "change_pct": -1.72,
+    "price": 59970.67,
+    "change": -1171.68,
+    "change_pct": -1.92,
     "hist": [
      68309.46,
      69946.86,
@@ -900,10 +900,10 @@
      61077.9,
      57434.77,
      58775.5,
-     60459.5781,
-     61248.5898,
-     60819.3594,
-     61142.3516,
+     60459.58,
+     61248.59,
+     60819.36,
+     61142.35,
      60182.5
     ],
     "sigma": 1.961,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5163.13,
-    "change": -127.4,
-    "change_pct": -2.41,
+    "price": 5125.13,
+    "change": -165.4,
+    "change_pct": -3.13,
     "hist": [
      7003.74,
      6941.39,
@@ -979,11 +979,11 @@
      5375.3599,
      5342.73,
      5290.5298,
-     5177.5098
+     5151.2402
     ],
-    "sigma": 3.293,
-    "volume": 111433.0,
-    "vol_chg_pct": -54.7,
+    "sigma": 3.307,
+    "volume": 129623.0,
+    "vol_chg_pct": -47.3,
     "vol_pctile": 0.8,
     "vol_hist": [
      239000.0,
@@ -1015,7 +1015,7 @@
      234700.0,
      244800.0,
      247800.0,
-     111433.0
+     129623.0
     ]
    },
    {
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3874.828,
-    "change": -11.472,
-    "change_pct": -0.3,
-    "quote_time": "11:58:28 2026-11-16"
+    "price": 3873.12,
+    "change": -13.18,
+    "change_pct": -0.34,
+    "quote_time": "12:07:00 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.507,
-    "change": -1.614,
-    "change_pct": -3.29,
-    "quote_time": "11:58:20 2026-11-16"
+    "price": 47.467,
+    "change": -1.654,
+    "change_pct": -3.37,
+    "quote_time": "12:06:41 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.29,
-    "change": -0.27,
-    "change_pct": -0.3,
-    "quote_time": "11:58:42 2026-11-16"
+    "price": 88.587,
+    "change": 0.027,
+    "change_pct": 0.03,
+    "quote_time": "12:07:00 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.075,
-    "change": -0.765,
-    "change_pct": -0.8,
-    "quote_time": "11:58:40 2026-11-16"
+    "price": 95.559,
+    "change": -0.281,
+    "change_pct": -0.29,
+    "quote_time": "12:06:54 2026-11-16"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65122.4,
-    "change": 349.3,
-    "change_pct": 0.54,
-    "source": "okx"
+    "price": 64928.9,
+    "change": 162.1,
+    "change_pct": 0.25,
+    "source": "okx",
+    "hist": [
+     81175.0,
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64901.2
+    ],
+    "sigma": 2.306
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1828.06,
-    "change": 10.01,
-    "change_pct": 0.55,
-    "source": "okx"
+    "price": 1819.94,
+    "change": 3.92,
+    "change_pct": 0.22,
+    "source": "okx",
+    "hist": [
+     2379.51,
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1819.12
+    ],
+    "sigma": 3.182
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.17,
-    "change": 0.89,
-    "change_pct": 1.25,
-    "source": "okx"
+    "price": 71.76,
+    "change": 0.53,
+    "change_pct": 0.74,
+    "source": "okx",
+    "hist": [
+     102.22,
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     71.72
+    ],
+    "sigma": 3.259
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.45,
-    "change": 0.04,
-    "change_pct": 0.04,
+    "price": 103.46,
+    "change": 0.05,
+    "change_pct": 0.05,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,13 +1432,13 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6706,
-    "change": null,
-    "change_pct": null,
+    "price": 6.672,
+    "change": -0.0027,
+    "change_pct": -0.04,
     "dec": 4,
-    "date": "2026-11-16",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1447,9 @@
     "change": 0.44,
     "change_pct": 0.34,
     "dec": 2,
-    "date": "2026-11-16",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1454,37 +1553,26 @@
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储集体释放鹰派信号，美指站稳103高位，维持多头运行 - Fx678",
-   "summary": "",
-   "time": "2026-11-16 11:19",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03dk11SnlSUFNzd3c3MHNab0VFaVRQanU5SEhpaExSMWRVSEZPR0hnbWgyNTBzejZBT2oxNWlsTDdSdmtDUWplODB5WHZVQWdsSzM1Rk80bHVBSnM?oc=5",
-   "source": "谷歌新闻·国际",
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普政府将把英伟达等20多家企业列入人工智能“国家领军企业”名单。\n\n亚马逊、微软、OpenAI和Anthropic也将获得该认证。\n\n特朗普政府的国家领军企业将获得芯片出口快速审批。\n\n特朗普政府预计将于下周发布AI相关声明。（华尔街日",
+   "summary": "特朗普政府将把英伟达等20多家企业列入人工智能“国家领军企业”名单。\n\n亚马逊、微软、OpenAI和Anthropic也将获得该认证。\n\n特朗普政府的国家领军企业将获得芯片出口快速审批。\n\n特朗普政府预计将于下周发布AI相关声明。（华尔街日报）",
+   "time": "2026-11-16 12:01",
+   "url": "https://wallstreetcn.com/livenews/3200398",
+   "source": "华尔街见闻",
    "mentions": 1
   },
   {
    "keyword": "日本央行",
    "label": "日本央行",
    "hint": "日元利率走向影响全球套息交易",
-   "title": "高盛：近期支撑美元的一些因素2027年可能转变为拖累",
-   "summary": "高盛称，美元在2026年表现稳健但走势分化，随着曾经的支撑因素开始消退，其走势在2027年将趋于疲软。顽固的通胀、能源价格上涨的相对韧性以及人工智能(AI)相关投资预期飙升等近期支撑美元的因素，可能会转变为拖累因素。预计2027年，大多数亚洲货币，尤其是科技相关货币将对美元升值。日元也有望走强，高盛目前预计日本央行将再加息三次，终端利率将达到2.0%，同时海外资产可能回流。",
-   "time": "2026-11-16 11:10",
-   "url": "https://wallstreetcn.com/livenews/3200373",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "黄仁勋辞任CEO 英伟达遭10位分析师下调评级 - 新浪财经",
+   "title": "日本央行委员高田创：需要灵活调整政策利率",
    "summary": "",
-   "time": "2026-11-16 10:59",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44VXlhTndkS1JBY2IzVW1vUWtISGp0VVlUQVdmNzctMnk3VmJGRW9fU3RFTmE4Y1hQa1ViNFVXTVFEQjdyTGo3RmlfRVB0U20yU21LWGp3SnhwbGZHTUxxX0hSNUpXWDI0RFVIOFR3?oc=5",
-   "source": "谷歌新闻·研报",
-   "mentions": 2
+   "time": "2026-11-16 04:06:36",
+   "url": "https://news.10jqka.com.cn/20261116/c681848727.shtml",
+   "source": "同花顺",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1548,54 +1636,94 @@
   ],
   "reports": [
    {
-    "title": "财通证券：维持TCL电子(01070)“买入”评级大屏高端化趋势延续_市场分析 - 中金在线",
-    "org": "财通",
+    "title": "特朗普政府将把英伟达等20多家企业列入人工智能“国家领军企业”名单。\n\n亚马逊、微软、OpenAI和Anthropic也将获得该认证。\n\n特朗普政府的国家领军企",
+    "org": "华尔街日报",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5VFdCaUVIeXBxX1pza3ZSV3BJems5bWNqX2hybnlQZ09CWnlMMXJtT200czFkZC1weTRkYzN4M2NYZE5wQ1dwYTV2MWdvdmZUcXB1Nnk4dk9rZ0FBUmFieHp3QThtMlV5WDZWbkFxQQ?oc=5",
+    "url": "https://wallstreetcn.com/livenews/3200398",
     "source": "机构观点"
    },
    {
-    "title": "瑞银：康方生物合作伙伴就ivonescimab联合化疗BLA接获FDA完整回应信属轻微负面，维持“买入”评级",
+    "title": "大行评级｜瑞银：康方生物合作伙伴就ivonescimab联合化疗BLA接获FDA完整回应信属轻微负面，维持“买入”评级 - 中金在线",
     "org": "瑞银",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://wallstreetcn.com/livenews/3200367",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OS0hTV3dBWXVnaGgwT0pIV2dYbzVSN09rUUw1cExoY0NnRjJ1Z3Nid2RwTm1WUnVaWFB4dXIxdW5XTFMyMjhWZEpLVUZGckpJR2p3bWdRVkstOXktdUg5M3lOOWZZaEF3TkhTM0wtOA?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "中金：维持裕元集团(00551)目标价15.64港元维持“跑赢行业”评级_市场分析 - 中金在线",
-    "org": "中金",
+    "title": "高盛：将中国H股评级上调至“超配” - 手机新浪网",
+    "org": "高盛",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Ka3BabTllY1BfT2Y0WWhtc1JBZ1lSYVFEOS1zS0NHdG5PYWVMWDl0cVdmc1ppaU5hY1JqMXJpNE1YckN0eFdqclJFb08tcDB0eDU1NkFJMmt6MlAtdTZaNThUYnZMbkZOZnlSbTBoMA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQWdlbUpyRV9sN0dOcVhaU2NOOFA4WHVZY3Q1aVdpVjN2aWpOY2N4TnRDV2JJWGk4TkZQUTNzNkRMcV9ZVkt1dTlkUFFrRzlzM21xYnpjMTlRbE1ENXlIcVp0UEUwT25TclJRYkgzaHlnWHAzako3ZWRlckVMWkNTclNR?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "大摩：AI资本支出周期稳固，“最大限度超配”全球股票",
-    "org": "大摩",
+    "title": "光大证券：新能源具备较好结构性配置价值 投资机会来自细分领域确定性改善",
+    "org": "光大证券",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://news.futunn.com/flash/1004570844/morgan-stanley-ai-capex-cycle-remains-robust-maximum-overweight-on",
+    "url": "https://news.futunn.com/flash/1004573948/everbright-securities-new-energy-sector-offers-favorable-structural-allocation-value",
     "source": "机构观点"
    },
    {
-    "title": "浙商证券：看好航运航空出海景气 关注红利配置机会",
-    "org": "浙商",
+    "title": "国泰海通研报称AI迈向物理世界 数据服务迎来新机遇 - 观点网",
+    "org": "国泰海通",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://news.futunn.com/flash/1004570704/zheshang-securities-bullish-on-the-overseas-expansion-prospects-of-shipping",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lb0tRTFR5cXRJWXNYVzREdnZOMF81bzNwVUozRTU2TVJzeVlxR0N4eUxOZjZDc2txOHFjSE83OHZZdE5HVUZYVGVtRXVRblRZUDBWc1RDR0hMRkN2U2FxTmdn?oc=5",
     "source": "机构观点"
+   },
+   {
+    "title": "公司事件点评报告：经营业绩阶段性调整，储能与算力供电产品迭代",
+    "org": "华鑫证券",
+    "rating": "买入",
+    "stock": "阳光电源",
+    "industry": "光伏设备",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611161831743293",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "公司事件点评报告：季度毛利率改善，海外配电订单提速",
+    "org": "华鑫证券",
+    "rating": "买入",
+    "stock": "三星电气",
+    "industry": "电网设备",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611161831743291",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "北交所信息更新：新能源商用车加速崛起，2026Q1-3实现营业收入5.48亿元同比增长8.32%",
+    "org": "开源证券",
+    "rating": "买入",
+    "stock": "万通液压",
+    "industry": "工程机械",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611161831743289",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "北美市场为核心引擎，打造零售物理AI全场景解决方案",
+    "org": "山西证券",
+    "rating": "买入",
+    "stock": "汉朔科技",
+    "industry": "其他电子Ⅱ",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611161831743068",
+    "source": "东财研报·个股"
    },
    {
     "title": "风电紧固件龙头，商业航天与燃机打开成长空间",
@@ -1628,93 +1756,53 @@
     "source": "东财研报·个股"
    },
    {
-    "title": "北交所信息更新：覆铜板涨价顺价落地+产能建设有序推进，2026Q3归母净利润同比+73%",
-    "org": "开源证券",
-    "rating": "增持",
-    "stock": "万源通",
-    "industry": "元件",
-    "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611161831738057",
-    "source": "东财研报·个股"
-   },
-   {
-    "title": "有色金属行业周报：标题：宏观预期反复，金价探底震荡",
-    "org": "山西证券",
-    "rating": "中性",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831741893",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "基础化工行业专题：空白掩模版：光刻工艺关键基板材料，国产化突破正当时",
-    "org": "华安证券",
+    "title": "电力设备与新能源行业 11月第2周周报：《“十五五”新型储能实施方案》发布",
+    "org": "中银证券",
     "rating": "增持",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831741733",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831743458",
     "source": "东财研报·行业"
    },
    {
-    "title": "卫星化学及烯烃行业周度动态跟踪",
-    "org": "华安证券",
+    "title": "有色金属行业周报：美国PPI创四年新高，12月加息预期升温",
+    "org": "中银证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-16",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831743364",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "大消费行业周报（11月第2周）：冰雪消费预热升温",
+    "org": "世纪证券",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831741550",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831743286",
     "source": "东财研报·行业"
    },
    {
-    "title": "大马力内燃机产业链专题报告：从备电到主电，AIDC驱动需求跃升",
-    "org": "山西证券",
-    "rating": "增持",
+    "title": "医药生物行业周报（11月第2周）：医保双目录从并行走向互通",
+    "org": "世纪证券",
+    "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831740888",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831743284",
     "source": "东财研报·行业"
    },
    {
-    "title": "耐用消费产业行业研究：裕元集团发布Q3业绩，双十一美妆国货领跑大众与功效赛道",
+    "title": "非银行金融行业研究：互换便利加速落地，非银板块配置性价比高",
     "org": "国金证券",
     "rating": "买入",
     "stock": "",
     "industry": "",
     "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831738732",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "非银金融行业跟踪周报：交易量环比提升；财险费用分摊规则细化",
-    "org": "东吴证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831738505",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "耐用消费产业行业研究：AI端侧双11持续高增，英伟达换帅改变AI散热格局",
-    "org": "国金证券",
-    "rating": "买入",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831738337",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "医药行业周报：新版医保目录发布，注重创新的价值兑现",
-    "org": "华鑫证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-16",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831737807",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611161831743268",
     "source": "东财研报·行业"
    }
   ]
@@ -1722,31 +1810,31 @@
  "alerts": [],
  "news": [
   {
-   "title": "10月份南京新房价格环比涨幅居前",
-   "summary": "【10月份南京新房价格环比涨幅居前】11月16日，国家统计局的数据显示，10月份，70个大中城市中，新房价格环比上涨城市14个，比上月减少3个。南京涨幅0.5%，位居第一；大连、宜昌涨幅均为0.3%，位居第二；沈阳、上海、杭州、长沙涨幅均为0.2%，位居第三。",
-   "time": "2026-11-16 11:30:00",
-   "url": "https://finance.eastmoney.com/a/202611163931654365.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "11月16日午间收评：创业板指半日跌2.34%，多只银行股再创新高",
-   "summary": "市场早间低开震荡，沪指盘中失守3600点，创业板指一度跌超3%。银行板块继续走强，工商银行、建设银行、成都银行、南京银行等多只银行股再创新高。家电等消费股拉升，北鼎股份、九阳股份、小熊电器等涨停，美的集团股价创新高。下跌方面，算力芯片股下挫，燧原科技跌超8%；CPO概念股调整，中际旭创、新易盛、天孚通信均跌约7%。个股跌多涨少，沪深京三市超3500股飘绿，上午半天成交9067亿。午间收盘沪指跌0.",
-   "time": "2026-11-16 11:30",
-   "url": "https://wallstreetcn.com/livenews/3200380",
+   "title": "特朗普政府将把英伟达等20多家企业列入人工智能“国家领军企业”名单。\n\n亚马逊、微软、OpenAI和Anthropic也将获得该认证。\n\n特朗普政府的国家领军企业将获得芯片出口快速审批。\n\n特朗普政府预计将于下周发布AI相关声明。（华尔街日",
+   "summary": "特朗普政府将把英伟达等20多家企业列入人工智能“国家领军企业”名单。\n\n亚马逊、微软、OpenAI和Anthropic也将获得该认证。\n\n特朗普政府的国家领军企业将获得芯片出口快速审批。\n\n特朗普政府预计将于下周发布AI相关声明。（华尔街日报）",
+   "time": "2026-11-16 12:01",
+   "url": "https://wallstreetcn.com/livenews/3200398",
    "source": "华尔街见闻"
   },
   {
-   "title": "国泰海通研报称AI迈向物理世界 数据服务迎来新机遇 - 观点网",
+   "title": "大行评级｜瑞银：康方生物合作伙伴就ivonescimab联合化疗BLA接获FDA完整回应信属轻微负面，维持“买入”评级 - 中金在线",
    "summary": "",
-   "time": "2026-11-16 11:27",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lb0tRTFR5cXRJWXNYVzREdnZOMF81bzNwVUozRTU2TVJzeVlxR0N4eUxOZjZDc2txOHFjSE83OHZZdE5HVUZYVGVtRXVRblRZUDBWc1RDR0hMRkN2U2FxTmdn?oc=5",
+   "time": "2026-11-16 12:00",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OS0hTV3dBWXVnaGgwT0pIV2dYbzVSN09rUUw1cExoY0NnRjJ1Z3Nid2RwTm1WUnVaWFB4dXIxdW5XTFMyMjhWZEpLVUZGckpJR2p3bWdRVkstOXktdUg5M3lOOWZZaEF3TkhTM0wtOA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储集体释放鹰派信号，美指站稳103高位，维持多头运行 - Fx678",
+   "title": "常青科技：暂不涉及与下游专业企业开展联合开发产品",
+   "summary": "【常青科技：暂不涉及与下游专业企业开展联合开发产品】常青科技(603125)在2026年第三季度业绩说明会上表示，公司相关产品主要依托自主研究开发或与高校及科研院所合作开发。目前公司暂不涉及与下游专业企业开展联合开发，市场导入主要通过客户多阶段验证和产业链协同适配推进。",
+   "time": "2026-11-16 11:59:00",
+   "url": "https://finance.eastmoney.com/a/202611163931661130.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美国全国停飞后各方“甩锅”：特朗普政府指责前任，民主党人嘲讽钱用在了凯旋门 - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-16 11:19",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03dk11SnlSUFNzd3c3MHNab0VFaVRQanU5SEhpaExSMWRVSEZPR0hnbWgyNTBzejZBT2oxNWlsTDdSdmtDUWplODB5WHZVQWdsSzM1Rk80bHVBSnM?oc=5",
+   "time": "2026-11-16 11:58",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KUzNpWVQtYjBpdkVfWFhObnA3cWp1Q1Q3SUZTcmk5dEtDTC1EWURMZWI2NnNCT3BfcmlkUEt1QTU3MG5DMzRCYV9jX0xjWFdORDJvYzNNdGpYb2E4VmFnTQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1757,17 +1845,17 @@
    "source": "东财早报"
   },
   {
-   "title": "ETF两市成交额报2402.14亿元，较上一交易日此时缩量122.23亿元",
+   "title": "日本央行委员高田创：需要灵活调整政策利率",
    "summary": "",
-   "time": "2026-11-16 03:32:07",
-   "url": "https://news.10jqka.com.cn/20261116/c681846604.shtml",
+   "time": "2026-11-16 04:06:36",
+   "url": "https://news.10jqka.com.cn/20261116/c681848727.shtml",
    "source": "同花顺"
   },
   {
-   "title": "国家统计局国民经济综合统计司副司长王冠华：综合整治低价无序竞争和重点行业产能治理有序推进",
+   "title": "港股午评：恒指半日涨0.84%，科网股消费股集体活跃",
    "summary": "",
-   "time": "2026-11-16 03:17:30",
-   "url": "https://news.futunn.com/flash/1004571904/wang-guanhua-deputy-director-of-the-department-of-comprehensive-economic",
+   "time": "2026-11-16 04:04:10",
+   "url": "https://news.futunn.com/flash/1004574230/hong-kong-stock-market-midday-review-hang-seng-index-up",
    "source": "富途"
   },
   {
@@ -1778,45 +1866,45 @@
    "source": "财新"
   },
   {
-   "title": "墨西哥总统抵达深圳",
-   "summary": "【墨西哥总统抵达深圳】今天（11月16日）上午，墨西哥总统辛鲍姆乘飞机抵达深圳宝安国际机场。辛鲍姆总统将出席在深圳举行的亚太经合组织第三十三次领导人非正式会议。",
-   "time": "2026-11-16 11:28:12",
-   "url": "https://finance.eastmoney.com/a/202611163931654261.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "高盛：近期支撑美元的一些因素2027年可能转变为拖累",
-   "summary": "高盛称，美元在2026年表现稳健但走势分化，随着曾经的支撑因素开始消退，其走势在2027年将趋于疲软。顽固的通胀、能源价格上涨的相对韧性以及人工智能(AI)相关投资预期飙升等近期支撑美元的因素，可能会转变为拖累因素。预计2027年，大多数亚洲货币，尤其是科技相关货币将对美元升值。日元也有望走强，高盛目前预计日本央行将再加息三次，终端利率将达到2.0%，同时海外资产可能回流。",
-   "time": "2026-11-16 11:10",
-   "url": "https://wallstreetcn.com/livenews/3200373",
+   "title": "中国-东盟自贸区3.0版升级议定书将于2026年12月1日生效。（新华社）",
+   "summary": "中国-东盟自贸区3.0版升级议定书将于2026年12月1日生效。（新华社）",
+   "time": "2026-11-16 11:53",
+   "url": "https://wallstreetcn.com/livenews/3200390",
    "source": "华尔街见闻"
   },
   {
-   "title": "黄仁勋辞任CEO 英伟达遭10位分析师下调评级 - 新浪财经",
+   "title": "高盛：将中国H股评级上调至“超配” - 手机新浪网",
    "summary": "",
-   "time": "2026-11-16 10:59",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE44VXlhTndkS1JBY2IzVW1vUWtISGp0VVlUQVdmNzctMnk3VmJGRW9fU3RFTmE4Y1hQa1ViNFVXTVFEQjdyTGo3RmlfRVB0U20yU21LWGp3SnhwbGZHTUxxX0hSNUpXWDI0RFVIOFR3?oc=5",
+   "time": "2026-11-16 11:44",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQWdlbUpyRV9sN0dOcVhaU2NOOFA4WHVZY3Q1aVdpVjN2aWpOY2N4TnRDV2JJWGk4TkZQUTNzNkRMcV9ZVkt1dTlkUFFrRzlzM21xYnpjMTlRbE1ENXlIcVp0UEUwT25TclJRYkgzaHlnWHAzako3ZWRlckVMWkNTclNR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "北京的俄罗斯难题：“习特普”峰会将在深圳举行 - DW.com",
+   "title": "中国与东盟宣布将2027年定为人工智能合作年",
+   "summary": "【中国与东盟宣布将2027年定为人工智能合作年】据新华社，中国与东盟宣布将2027年定为人工智能合作年。",
+   "time": "2026-11-16 11:58:33",
+   "url": "https://finance.eastmoney.com/a/202611163931661378.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美元兑加元连续第五日上涨，汇价的顶部在哪里？ - 新浪财经",
    "summary": "",
-   "time": "2026-11-16 11:11",
-   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNczFieUtsb2VsQXNva3FaVzdoNlZ6anE3R1hYdG5RTUQyLVJQV1RQZS1tYVlMbkdLV1dQQ3B1bzQ1WmVRMTVPbmZYZlNFNkV5T0FWWW9CU0p1UHBGemdrVUdMWFVsMlNQVTBUbVNxcUJPVHM5RnkxMkI5c1UtdEs5UllnVE1NTjN2V0ZXQTRZakVycDdvSGZoS2w4LXM1VGdONTBiWWw4NnlTbWhOT1VsVU5OOU1KTVRRek9TcnpRRXd1Y1hnM2w5ZE4xOUVvdGd1Q2hlUnQxdFZKLVBJcFdJdUNHNnUxSnB5Y3B4NUVwT2JqWEF0WjdDMUtrUDlfVDFqc2psYVhKV3NpNmFMWVJzR2JVSnVjaGRiMWFnSDd6aWFhWWRtU2dZNDdSYXFLV0RSU2M0bjdXM3JoV2l0QUpLMWNIWVBNUC0yTlEyeHpYNk5jUdIB0gJBVV95cUxQdUFyOVNIWEltbE1fWElQWF9SYXJhbHBNd3U5LThwWWtwcUYyMUFORUxUX0lrbUNCTk5oMlBWeS1lS0toMkU5aE03TUNBTWszWk5mMzlKekhwYTNpY3ZXSjFSTUZzOG9lQXdES2hKT1kyVHhkUi1TdFlueWlNaXBFZkd0bGthYllwM0NHTTlXTnU3QWFEZkNYWlBfMk5xbTNHaHNYMkdpMFZnZXBaaFEwT0J3TDNIZWpMVDlhQTlidXo3N0lzWkQ2cV9LS082X18zZkgxLW9WRG1INUFhRjZaWkN3bGRuWXJpc2FmazVZblViVkpTSTZhR0NMU01MY3J4Tk5rUE1nbTFTMWJEbjR6azFlcTJNTkw3dkJGMkUyWkZpSVJUTjY5ekRhLUM1QkxqcEdvc25ObzJCREpsMFJZeG9Yc2lmUElxeVFyNzlhNXEtZw?oc=5",
+   "time": "2026-11-16 11:52",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNjl4QVV5NkZBU1dzOWpmTGcxaFE5WFVqMjJlZ2R3bmN5eXI2RVZrMWtac05QQ3dCZmtfbDdUNjl1b2ZxWkM2cUlDYUMtaGJIRF9qZ3pxa3ZIbDBYU1o3WlZGbzRjMTlsM0lGel80ZjctZDVRWGxfR2RlcVJoOGhXaURqS0RLUmxXd1YyZGozcDF2bkJQVzZZQnZXWThTUVAtX2dycGhHdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "ETF午评：中概互联ETF领涨1.83%，卫星ETF跌5.53%",
+   "title": "港股午评：恒生指数涨0.9%，恒生科技指数涨0.59%",
    "summary": "",
-   "time": "2026-11-16 03:31:24",
-   "url": "https://news.10jqka.com.cn/20261116/c681846561.shtml",
+   "time": "2026-11-16 04:01:29",
+   "url": "https://news.10jqka.com.cn/20261116/c681848410.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美国与盟友签署“硅和平”协议",
+   "title": "光大证券：新能源具备较好结构性配置价值 投资机会来自细分领域确定性改善",
    "summary": "",
-   "time": "2026-11-16 03:15:28",
-   "url": "https://news.futunn.com/flash/1004571813/united-states-signs-pax-silica-agreement-with-allies",
+   "time": "2026-11-16 04:00:20",
+   "url": "https://news.futunn.com/flash/1004573948/everbright-securities-new-energy-sector-offers-favorable-structural-allocation-value",
    "source": "富途"
   },
   {
@@ -1827,45 +1915,45 @@
    "source": "财新"
   },
   {
-   "title": "宁德时代在上海成立汽车零部件贸易公司",
-   "summary": "【宁德时代在上海成立汽车零部件贸易公司】企查查APP显示，近日，上海时代智科汽车零部件贸易有限公司成立，法定代表人为杨汉兵，注册资本为1000万元，经营范围包含电池销售；充电桩销售；终端测试设备销售；机动车充电销售；电池零配件销售；汽车零配件批发等。企查查股权穿透显示，该公司由宁德时代旗下宁德时代（上海）智能科技有限公司全资持股。",
-   "time": "2026-11-16 11:27:02",
-   "url": "https://finance.eastmoney.com/a/202611163931654078.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "隔夜SHIBOR报1.3040%，上涨0.70个基点。\n\n7天SHIBOR报1.3900%，上涨0.90个基点。\n\n3个月SHIBOR报1.4000%，上涨0.00个基点。",
-   "summary": "隔夜SHIBOR报1.3040%，上涨0.70个基点。\n\n7天SHIBOR报1.3900%，上涨0.90个基点。\n\n3个月SHIBOR报1.4000%，上涨0.00个基点。",
-   "time": "2026-11-16 11:01",
-   "url": "https://wallstreetcn.com/livenews/3200368",
+   "title": "东风云南汽车有限公司党委书记、总经理龚先华接受审查调查",
+   "summary": "据中央纪委国家监委驻东风汽车集团有限公司纪检监察组、湖北省纪委监委消息：东风云南汽车有限公司党委书记、总经理龚先华涉嫌严重违纪违法，目前正接受中央纪委国家监委驻东风汽车集团有限公司纪检监察组纪律审查和湖北省宜昌市监委监察调查。",
+   "time": "2026-11-16 11:53",
+   "url": "https://wallstreetcn.com/livenews/3200389",
    "source": "华尔街见闻"
   },
   {
-   "title": "财通证券：维持TCL电子(01070)“买入”评级大屏高端化趋势延续_市场分析 - 中金在线",
+   "title": "大和：上调中芯国际H股目标价至47港元，评级升至“持有” - Sohu",
    "summary": "",
-   "time": "2026-11-16 10:40",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA5VFdCaUVIeXBxX1pza3ZSV3BJems5bWNqX2hybnlQZ09CWnlMMXJtT200czFkZC1weTRkYzN4M2NYZE5wQ1dwYTV2MWdvdmZUcXB1Nnk4dk9rZ0FBUmFieHp3QThtMlV5WDZWbkFxQQ?oc=5",
+   "time": "2026-11-16 11:31",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUnVSU0xCRXplZUc2NHlqUEhyQXYwYi1pMUJ3VXVtajdjMW8zaGpXbUtGVTdyRFlhamN2ZDVncTZSMDZjQkRFS2w3aTVwYnl2U1dabGRYcUlfS3lGYUNKcGMtbVRuQ09YQXFVMlZ0YTV0MmlpMmFZWlY3Y1R4cWlCdmJwRDVoWVFHWkdNVQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "黄仁勋事件为本周“习特会”蒙上阴影 - 纽约时报中文网",
+   "title": "崔东树：10月汽车增加值0.9%",
+   "summary": "【崔东树：10月汽车增加值0.9%】乘联分会崔东树发文称，2026年1-10月汽车生产2641万台，同比降4%；新能源汽车生产1448万台，同比增13%，渗透率55%；燃油车生产1193万台，同比降19%。2026年10月汽车生产305万台，同比降8%；新能源汽车生产203万台，同比增17%，渗透率67%；燃油车生产102万台，同比降35%。10月汽车工业增加值增0.9%，1—10月份，汽车工业增加值增长6.5%，表现较强。汽车行业去产能力度较强。2026年1—10月份，汽车行业固定资产投资同比下降7.9%，仍高于-8.1%的各行业平均水平，但高于制造业-2.4%的投资下滑幅度。",
+   "time": "2026-11-16 11:58:33",
+   "url": "https://finance.eastmoney.com/a/202611163931661240.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "堪萨斯城联储施密德：通胀过高且方向错误，美联储仍有工作要做 - 华尔街见闻",
    "summary": "",
-   "time": "2026-11-16 10:40",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5YRGlocVNaZW9qZ3lUMi1uWW9FUXlHY1BqLVhWTWVBQ3FRTEgtbVNsT3A4ZjZNMzEwaDJQSXBucWRnZVZFY1Ewc3l5eEFybDlERk9JNERPWW1BOEx4LVlGUVJDcVkzSlhySG1UUTF4MHRkOC0z?oc=5",
+   "time": "2026-11-16 11:35",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLY1BpOTdFOVhkei1BdHJIYWxpbHFfR3NrbHliS0o0d0dKSElkNk52Q2dmTTNlTmJ3VjFHLVBDSG13WGRfMmd6ZFU4UjA3bEJXQkJV?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "期货午评：沪银暴跌近6%！贵金属全线下跌 碳酸锂、红枣重挫",
+   "title": "中国－东盟自贸区3.0版升级议定书将于2026年12月1日生效",
    "summary": "",
-   "time": "2026-11-16 03:31:14",
-   "url": "https://news.10jqka.com.cn/20261116/c681846557.shtml",
+   "time": "2026-11-16 03:52:41",
+   "url": "https://news.10jqka.com.cn/20261116/c681847920.shtml",
    "source": "同花顺"
   },
   {
-   "title": "国家统计局新闻发言人付凌晖：下阶段要强化宏观政策调节 持续扩大内需、优化供给",
+   "title": "我国牵头制定的覆雪冰模型试验国际标准发布",
    "summary": "",
-   "time": "2026-11-16 03:08:58",
-   "url": "https://news.futunn.com/flash/1004571517/fu-linghui-spokesperson-for-the-national-bureau-of-statistics-in",
+   "time": "2026-11-16 03:58:23",
+   "url": "https://news.futunn.com/flash/1004573729/international-standard-for-model-tests-on-snow-and-ice-accretion",
    "source": "富途"
   },
   {
@@ -1876,18 +1964,18 @@
    "source": "财新"
   },
   {
-   "title": "中汽协：10月商用车产销分别完成35万辆和35.4万辆，环比分别下降3.7%和3.9%",
-   "summary": "【中汽协：10月商用车产销分别完成35万辆和35.4万辆，环比分别下降3.7%和3.9%】据中国汽车工业协会分析，10月，在商用车主要品种中，与上月相比，客车产销增长、货车产销下降；与去年同期相比，客车产销两位数增长，货车产销小幅下降。2026年10月，商用车产销分别完成35万辆和35.4万辆，环比分别下降3.7%和3.9%，同比分别下降3.7%和1.8%。2026年1-10月，商用车产销分别完成362.9万辆和366.3万辆，同比分别增长5%和5.3%。",
-   "time": "2026-11-16 11:26:36",
-   "url": "https://finance.eastmoney.com/a/202611163931653992.html",
-   "source": "东财国际"
+   "title": "墨西哥总统辛鲍姆抵达深圳 将出席APEC领导人非正式会议",
+   "summary": "11月16日，墨西哥总统辛鲍姆乘机抵达深圳。她将出席在深圳举行的亚太经合组织第三十三次领导人非正式会议。墨西哥是我国在拉美地区第二大贸易伙伴，中墨贸易额自2023年起连续多年超1000亿美元。近年来，双方在油气、电信、工业园区建设、交通基础设施建设等领域合作形成一批成规模、有影响的项目。作为地区大国，墨西哥同中方密切配合，在深化中拉关系、推进中拉论坛方面发挥积极作用。中墨双方在国际场合增进协调，坚",
+   "time": "2026-11-16 11:48",
+   "url": "https://wallstreetcn.com/livenews/3200385",
+   "source": "华尔街见闻"
   },
   {
-   "title": "瑞银：康方生物合作伙伴就ivonescimab联合化疗BLA接获FDA完整回应信属轻微负面，维持“买入”评级",
-   "summary": "瑞银发表研报指，康方生物合作伙伴Summit就ivonescimab(依沃西单抗)联合化疗用于TKI治疗后非小细胞肺癌(NSCLC)的BLA接获美国FDA完整回应信，该行认为属轻微负面，但构成情绪压力。该行指出，主要原因是未达到总生存期(OS)统计学显著性终点。该行估计此适应症峰值销售额为5.5亿元，仅占依沃西单抗海外总销售额的1%。该行认为，主要催化剂仍是H-3，一线鳞状非小细胞肺癌队列的无进展",
-   "time": "2026-11-16 11:00",
-   "url": "https://wallstreetcn.com/livenews/3200367",
-   "source": "华尔街见闻"
+   "title": "国泰海通研报称AI迈向物理世界 数据服务迎来新机遇 - 观点网",
+   "summary": "",
+   "time": "2026-11-16 11:27",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lb0tRTFR5cXRJWXNYVzREdnZOMF81bzNwVUozRTU2TVJzeVlxR0N4eUxOZjZDc2txOHFjSE83OHZZdE5HVUZYVGVtRXVRblRZUDBWc1RDR0hMRkN2U2FxTmdn?oc=5",
+   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
@@ -1903,9 +1991,9 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "东财早报": 1,
    "同花顺": 7,
