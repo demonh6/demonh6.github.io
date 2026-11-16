@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 19:22:05 CST",
- "generated_at_iso": "2026-11-16T19:22:05+08:00",
+ "generated_at": "2026-11-16 19:30:19 CST",
+ "generated_at_iso": "2026-11-16T19:30:19+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -871,7 +871,7 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 59662.02,
+    "price": 59662.0195,
     "change": -1480.33,
     "change_pct": -2.42,
     "hist": [
@@ -1021,9 +1021,9 @@
    {
     "name": "印度SENSEX",
     "sym": "BSESN",
-    "price": 81939.3125,
-    "change": 346.86,
-    "change_pct": 0.43,
+    "price": 82104.7891,
+    "change": 512.34,
+    "change_pct": 0.63,
     "hist": [
      72382.47,
      73067.81,
@@ -1485,37 +1485,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3880.54,
-    "change": -5.76,
-    "change_pct": -0.15,
-    "quote_time": "19:22:02 2026-11-16"
+    "price": 3880.893,
+    "change": -5.407,
+    "change_pct": -0.14,
+    "quote_time": "19:30:24 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.657,
-    "change": -1.464,
-    "change_pct": -2.98,
-    "quote_time": "19:22:07 2026-11-16"
+    "price": 47.67,
+    "change": -1.451,
+    "change_pct": -2.95,
+    "quote_time": "19:30:10 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.118,
-    "change": -0.442,
-    "change_pct": -0.5,
-    "quote_time": "19:22:03 2026-11-16"
+    "price": 88.186,
+    "change": -0.374,
+    "change_pct": -0.42,
+    "quote_time": "19:30:24 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.094,
-    "change": -0.746,
-    "change_pct": -0.78,
-    "quote_time": "19:22:04 2026-11-16"
+    "price": 95.203,
+    "change": -0.637,
+    "change_pct": -0.66,
+    "quote_time": "19:30:19 2026-11-16"
    }
   ],
   "crypto": [
@@ -1523,27 +1523,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64702.3,
-    "change": -708.1,
-    "change_pct": -1.08,
+    "price": 64662.5,
+    "change": -723.6,
+    "change_pct": -1.11,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1810.34,
-    "change": -22.38,
-    "change_pct": -1.22,
+    "price": 1809.11,
+    "change": -21.53,
+    "change_pct": -1.18,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.55,
-    "change": -0.76,
-    "change_pct": -1.05,
+    "price": 71.52,
+    "change": -0.83,
+    "change_pct": -1.15,
     "source": "okx"
    }
   ],
@@ -1551,9 +1551,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.54,
-    "change": 0.13,
-    "change_pct": 0.13,
+    "price": 103.52,
+    "change": 0.11,
+    "change_pct": 0.11,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1562,8 +1562,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6681,
-    "change": -0.0066,
+    "price": 6.668,
+    "change": -0.0067,
     "change_pct": -0.1,
     "dec": 4,
     "date": "",
@@ -1592,10 +1592,19 @@
    "timestamp": "2026-11-16",
    "source": "alternative.me"
   },
+  "a_share_breadth": {
+   "up": 1126,
+   "down": 4072,
+   "flat": 96,
+   "total": 5294,
+   "breadth_pct": 21.3,
+   "score": 0.0,
+   "source": "东财"
+  },
   "vix": {
-   "value": 20.03,
-   "change": 0.73,
-   "change_pct": 3.7824,
+   "value": 20.01,
+   "change": 0.71,
+   "change_pct": 3.6788,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1643,8 +1652,8 @@
     },
     {
      "t": "VIX",
-     "value": 20.03,
-     "change_pct": 3.7824
+     "value": 20.01,
+     "change_pct": 3.6788
     },
     {
      "t": "VIX3M",
@@ -1660,9 +1669,30 @@
    "ratio_9d_3m": 0.864,
    "shape": "contango(平静期)",
    "source": "CBOE"
+  },
+  "composite": {
+   "score": 24.7,
+   "label": "冰点",
+   "color": "#f04a3d",
+   "basis": "A股广度 60% + 盘面结构 40%",
+   "parts": {
+    "breadth": 0.0,
+    "structure": 61.8
+   }
   }
  },
  "speakers": [
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "巴克莱：预计美联储未来两次会议各加息25个基点 - 21财经",
+   "summary": "",
+   "time": "2026-11-16 18:53",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlI4a2FIeVBMdkozSmc5QkYzOGF3VU1QRXNQaGMyR2ZibkpIcFoyUjJJTTNDVTJramJwX0dXcE5PQUlkVk1SUVVIc0lELXBxQXZieFJCWVA3d3daVTc0MUhpcGpRd0RNdU9OTGoxdHNyWGZVSmp0LTE0NkZfMFRDd0M2bDlsMFVKRGdvZjZ4dw?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
   {
    "keyword": "特朗普",
    "label": "特朗普",
@@ -1672,18 +1702,7 @@
    "time": "2026-11-16 18:52",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBmR0xTU1VVOTZBcGpoWnh3RlhYWkIzQ21QLXloRmVhT00zVE5iMW41ZS1jMGtMMUFnVkFmc3pEc0ZPd2F2V2taOHoxaWxrWVRtclRvbTVkNlBrVTd1OWc?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储立场愈发鹰派，黄金面临重要破位风险_金市直播 - 黄金网",
-   "summary": "",
-   "time": "2026-11-16 18:04",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEMEtiUjRxRTk4bjVkSDNpdERuWXh3QjZyRmE5bWhIOTF1VFQybnk0bktJWEYxcERxVUJ3QzljV2FOVVFQNk1mTlVsWGJEYlFFWW1XQ29mWlhvLW9lMzBwM1NNQmQyenhy?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 1
   },
   {
    "keyword": "黄仁勋",
@@ -1904,23 +1923,79 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.37%，达20日历史波动率的 3.6 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-16 19:22",
+   "time": "2026-11-16 19:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌2.53%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 19:22",
+   "time": "2026-11-16 19:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
  "news": [
   {
-   "title": "中巨芯：六氟化钨产能扩张系基于市场变化及客户需求反馈",
-   "summary": "【中巨芯：六氟化钨产能扩张系基于市场变化及客户需求反馈】11月16日，在三季报业绩会上，中巨芯董事、总经理陈刚介绍，关于六氟化钨产能从600吨扩大至800吨系基于市场变化情况及客户的需求反馈，合资公司目前正处于内部决策过程中。",
-   "time": "2026-11-16 19:00:00",
-   "url": "https://finance.eastmoney.com/a/202611163931926690.html",
+   "title": "中科飞测：拟1亿元至1.5亿元回购股份用于股权激励或员工持股计划",
+   "summary": "【中科飞测：拟1亿元至1.5亿元回购股份用于股权激励或员工持股计划】11月16日，中科飞测公告称，公司拟以集中竞价交易方式回购股份，回购资金总额不低于1.00亿元、不超过1.50亿元，回购价格不超过440.00元/股。回购股份拟用于股权激励或员工持股计划，若回购实施结果公告后3年内未转让完毕，剩余股份将予以注销。",
+   "time": "2026-11-16 19:26:26",
+   "url": "https://finance.eastmoney.com/a/202611163931955558.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "国家外汇局：前10个月，跨境收支规模、外汇市场交易量同比分别增长20%和9%",
+   "summary": "国家外汇管理局副局长、新闻发言人李斌就2026年10月外汇市场形势回答了记者提问。10月以来，国际股市和债市延续震荡走势，国际汇市相对稳定。",
+   "time": "2026-11-16 19:11",
+   "url": "https://wallstreetcn.com/livenews/3200649",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "巴克莱：预计美联储未来两次会议各加息25个基点 - 21财经",
+   "summary": "",
+   "time": "2026-11-16 18:53",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWlI4a2FIeVBMdkozSmc5QkYzOGF3VU1QRXNQaGMyR2ZibkpIcFoyUjJJTTNDVTJramJwX0dXcE5PQUlkVk1SUVVIc0lELXBxQXZieFJCWVA3d3daVTc0MUhpcGpRd0RNdU9OTGoxdHNyWGZVSmp0LTE0NkZfMFRDd0M2bDlsMFVKRGdvZjZ4dw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "标普维持龙湖集团长期发行人信用评级 展望稳定 - 观点网",
+   "summary": "",
+   "time": "2026-11-16 18:52",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8tdGQyQWtjanh4bWF6ajJ0Yk5PUnBmMGVtV3YwNFY2c3UwTmF1dm1USWRoWDdqbXdDcXUtaDR0NlVVWUJlNTdNU1dmd3czdw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "胜宏科技：董事会审议通过70亿元综合授信额度申请等议案",
+   "summary": "",
+   "time": "2026-11-16 11:31:15",
+   "url": "https://news.10jqka.com.cn/20261116/c681873101.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "胜宏科技：拟1.5亿元至3亿元回购公司股份",
+   "summary": "",
+   "time": "2026-11-16 11:31:11",
+   "url": "https://news.futunn.com/flash/1004613092/shenghong-technology-plans-to-repurchase-company-shares-worth-rmb-150",
+   "source": "富途"
+  },
+  {
+   "title": "东方财富财经早餐 11月16日周一",
+   "summary": "【东方财富财经早餐 11月16日周一】1、12位APEC经济体领导人将出席APEC工商领导人峰会。2、伊朗：就霍尔木兹海峡航道与两个沿岸国家达成协议。3、天普股份：股票交易严重异常波动，11月16日起停牌核查。",
+   "time": "2026-11-16 06:00:48",
+   "url": "http://finance.eastmoney.com/a/202611153931506993.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "70个大中城市中有7城的二手房价格环比上涨，上涨城市数量比9月减少了两个。上海改善性住房需求提振，144平方米以上的大户型二手房价格环比涨幅最大",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-16/102505413.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "19天11板文投控股：股票交易风险提示 前三季度净利润亏损3754.58万元",
+   "summary": "【19天11板文投控股：股票交易风险提示 前三季度净利润亏损3754.58万元】文投控股(600715.SH)公告称，公司2026年前三季度实现营收1.80亿元，同比下降29.51%；净利润亏损3754.58万元，同比下降1120.90%。若2026年度经审计的净利润为负值且营收低于3亿元，公司股票将面临退市风险警示。此外，公司AI漫剧相关业务收入占营收比例约2.57%，业务开展仍存在不确定性风险。",
+   "time": "2026-11-16 19:25:31",
+   "url": "https://finance.eastmoney.com/a/202611163931955068.html",
    "source": "东财国际"
   },
   {
@@ -1938,45 +2013,38 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "标普维持龙湖集团长期发行人信用评级 展望稳定 - 观点网",
+   "title": "瑞银下调英伟达目标价至240美元 原为300美元 - 观点网",
    "summary": "",
-   "time": "2026-11-16 18:52",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96aGtHbnQ2b1RGaG9RbWpzUUt6cm9tOTdxX2Zyd3FPSHhGY0lxbmwzTVZTTHNjSVpYLWRtM0I0cUtpMUVMbXJwOVFRRkg2RS0zWTJnNWZfQmdIZDhqRWNQYnB3?oc=5",
+   "time": "2026-11-16 18:44",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94clNQQm40emU1Q3QwakFYTzlvT3FNWjRvcHd5dlZYTFlyRmtkVG50TjhWdk1ycnVwNDJfVWU0NmRGckdJTHdNYkEtcWZqSWlvSDBpODNnVTE0NF9sMDBjSGt3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英国房企：在伯纳姆领导下，英国的投资吸引力正在增强",
+   "title": "胜宏科技：拟以1.5亿元-3亿元回购公司股份",
    "summary": "",
-   "time": "2026-11-16 11:04:36",
-   "url": "https://news.futunn.com/flash/1004610613/uk-property-firm-investment-appeal-of-the-uk-is-strengthening",
-   "source": "富途"
-  },
-  {
-   "title": "继峰股份：王义平任董事长，冯巅任总经理",
-   "summary": "",
-   "time": "2026-11-16 11:04:24",
-   "url": "https://news.10jqka.com.cn/20261116/c681871792.shtml",
+   "time": "2026-11-16 11:29:32",
+   "url": "https://news.10jqka.com.cn/20261116/c681873066.shtml",
    "source": "同花顺"
   },
   {
-   "title": "东方财富财经早餐 11月16日周一",
-   "summary": "【东方财富财经早餐 11月16日周一】1、12位APEC经济体领导人将出席APEC工商领导人峰会。2、伊朗：就霍尔木兹海峡航道与两个沿岸国家达成协议。3、天普股份：股票交易严重异常波动，11月16日起停牌核查。",
-   "time": "2026-11-16 06:00:48",
-   "url": "http://finance.eastmoney.com/a/202611153931506993.html",
-   "source": "东财早报"
+   "title": "欧盟部长：目前与俄罗斯就欧洲安全问题进行会谈为时过早",
+   "summary": "",
+   "time": "2026-11-16 11:27:12",
+   "url": "https://news.futunn.com/flash/1004612616/eu-ministers-premature-to-hold-talks-with-russia-on-european",
+   "source": "富途"
   },
   {
-   "title": "70个大中城市中有7城的二手房价格环比上涨，上涨城市数量比9月减少了两个。上海改善性住房需求提振，144平方米以上的大户型二手房价格环比涨幅最大",
+   "title": "预测2026年11月低风险及估值等因子表现更优",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-16/102505413.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-16/102505391.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "金力泰：实控人刘少林获国家赔偿83.46万元",
-   "summary": "【金力泰：实控人刘少林获国家赔偿83.46万元】金力泰(300225.SZ)公告称，公司第一大股东之实控人刘少林因被错误逮捕获国家赔偿。根据上海市奉贤区人民检察院刑事赔偿决定书，赔偿刘少林人身自由赔偿金53.46万元、精神损害抚慰金30万元，合计83.46万元，并向其赔礼道歉、消除影响、恢复名誉。",
-   "time": "2026-11-16 18:56:39",
-   "url": "https://finance.eastmoney.com/a/202611163931925844.html",
+   "title": "市场监管总局通报41批次食品抽检不合格情况",
+   "summary": "【市场监管总局通报41批次食品抽检不合格情况】记者今天了解到，市场监管总局近期组织食品安全监督抽检1459批次样品，检出41批次样品不合格。对抽检发现的不合格食品，有关省级市场监管部门已组织开展核查处置。",
+   "time": "2026-11-16 19:24:06",
+   "url": "https://finance.eastmoney.com/a/202611163931952953.html",
    "source": "东财国际"
   },
   {
@@ -1994,55 +2062,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "瑞银下调英伟达目标价至240美元 原为300美元 - 观点网",
-   "summary": "",
-   "time": "2026-11-16 18:44",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94clNQQm40emU1Q3QwakFYTzlvT3FNWjRvcHd5dlZYTFlyRmtkVG50TjhWdk1ycnVwNDJfVWU0NmRGckdJTHdNYkEtcWZqSWlvSDBpODNnVTE0NF9sMDBjSGt3?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "市场监管总局通报41批次食品抽检不合格情况",
-   "summary": "",
-   "time": "2026-11-16 11:04:22",
-   "url": "https://news.futunn.com/flash/1004610596/the-state-administration-for-market-regulation-reported-that-41-batches",
-   "source": "富途"
-  },
-  {
-   "title": "唐源电气：浙江全资子公司完成工商登记，注册资本1000万元",
-   "summary": "",
-   "time": "2026-11-16 11:00:07",
-   "url": "https://news.10jqka.com.cn/20261116/c681871612.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "预测2026年11月低风险及估值等因子表现更优",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-16/102505391.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "贝莱德智库负责人称市场对美联储加息的预期过于偏鹰",
-   "summary": "【贝莱德智库负责人称市场对美联储加息的预期过于偏鹰】贝莱德智库负责人Jean Boivin称，鉴于通胀压力可能会有所缓解，市场对美联储加息的定价可能比该行计划采取的行动更为偏鹰。",
-   "time": "2026-11-16 18:56:29",
-   "url": "https://finance.eastmoney.com/a/202611163931925990.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "骏成科技：与供应商Z签订GPU卡采购合同，合同总金额暂定7.65亿元，采购9000张GPU卡用于研发中心、智算中心。",
-   "summary": "骏成科技：与供应商Z签订GPU卡采购合同，合同总金额暂定7.65亿元，采购9000张GPU卡用于研发中心、智算中心。",
-   "time": "2026-11-16 18:48",
-   "url": "https://wallstreetcn.com/livenews/3200634",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "长平观察：特朗普习近平普京或在深圳会晤，俄方有人期待它成为“新雅尔塔”会议，我看更像破产的“1984”国际秩序 - DW.com",
-   "summary": "",
-   "time": "2026-11-16 18:02",
-   "url": "https://news.google.com/rss/articles/CBMi3gRBVV95cUxPSnVqMVpMU0FLUElncmIxckZqM0FfcjI5MDB4dV9FZ0xRbmFKVU1LM1FLU1VZems1WVNCRm5RUjNHemJBbDJHOXBWUkVUNVB2Ym56VU15bnJhMG5sX003N3lJdzFwMnJFZ3NZSXVlaTVEdkhoLTZYcklZQWVJSzlpVjZZYUZzanhRX3ZwWkg1ZHRNWGtTbVdvaHlmdnI3aHVfWGh3UmNXSjhwRnJoekswU01La1cwWVZweWFDOGFDSkVoUVpXZnY5Y2FpZjliMW11R0FfR0RsdnBiSWJVT1JZbUYxeGxfU0g0dUVob3hjU1pYZ1MyYVNTbUs2YTVLSkMyRkF4QlBpZFptendOYlNNY3N3OGZvejZXSHZOTW9mOVRjUU4wTW96aHRHeEoxSnJTTUJ6MEdfbk0wWFpqLTE1S1VldXVWX0ZZc1BsTU1TclR0QmpvdENWWFMtR3ZqYmZETHd4SGxWRE1ScTlaX2dMUlBobHV2SFZqcHl6Y0lnU0tQcFZFLTBnenhhZVl4MjFlbWdVeVR2Mi1OX20xQlVKblpQMXdsYjJOYTdOX0Rldlhoa20wZm9JeXBveFdJUkpIUW50YVBEODNLMjh3MnhCRWZRRlZYdVpXOGcyNTVOaU9LVUlPTG9sTlhpQXo1c2VqR1FncEYyR1Vrd0tGd1EzZHpPdmJTT2RPZk5td1VjSnI4ZFduM1RWQUxFc09EZGNFOVpjT0Z1cEVYZnF2LWJqNHpVczI3QUpvdzdMQUx5cy1UMVB2d19kYmVUUFYtN1BWaGxLWTlmRTRRWTFfa0HSAd4EQVVfeXFMT0p1ajFaTFNBS1BJZ3JiMXJGajNBX3IyOTAweHVfRWdMUW5hSlVNSzNRS1NVWXprNVlTQkZuUVIzR3piQWwyRzlwVlJFVDVQdmJuelVNeW5yYTBubF9NNzd5SXcxcDJyRWdzWUl1ZWk1RHZIaC02WHJJWUFlSUs5aVY2WWFGc2p4UV92cFpINWR0TVhrU21Xb2h5ZnZyN2h1X1hod1JjV0o4cEZyaHpLMFNNS2tXMFlWcHlhQzhhQ0pFaFFaV2Z2OWNhaWY5YjFtdUdBX0dEbHZwYkliVU9SWW1GMXhsX1NINHVFaG94Y1NaWGdTMmFTU21LNmE1S0pDMkZBeEJQaWRabXp3TmJTTWNzdzhmb3o2V0h2Tk1vZjlUY1FOME1vemh0R3hKMUpyU01CejBHX25NMFhaai0xNUtVZXV1Vl9GWXNQbE1NU3JUdEJqb3RDVlhTLUd2amJmREx3eEhsVkRNUnE5Wl9nTFJQaGx1dkhWanB5emNJZ1NLUHBWRS0wZ3p4YWVZeDIxZW1nVXlUdjItTl9tMUJVSm5aUDF3bGIyTmE3Tl9EZXZYaGttMGZvSXlwb3hXSVJKSFFudGFQRDgzSzI4dzJ4QkVmUUZWWHVaVzhnMjU1TmlPS1VJT0xvbE5YaUF6NXNlakdRZ3BGMkdVa3dLRndRM2R6T3ZiU09kT2ZObXdVY0pyOGRXbjNUVkFMRXNPRGRjRTlaY09GdXBFWGZxdi1iajR6VXMyN0FKb3c3TEFMeXMtVDFQdndfZGJlVFBWLTdQVmhsS1k5ZkU0UVkxX2tB?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "紫光股份脱水研报：第三季度营收首破380亿元，备货式扩张抢占AI基建上行周期 - 同花顺",
    "summary": "",
    "time": "2026-11-16 18:43",
@@ -2050,18 +2069,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "华润电力：10月附属电厂售电量同比增加20.9%",
+   "title": "绿茵生态：绿茵转债转股价格下修至8元/股，11月17日起生效",
    "summary": "",
-   "time": "2026-11-16 11:03:36",
-   "url": "https://news.futunn.com/flash/1004610538/china-resources-power-october-electricity-sales-from-subsidiary-power-plants",
-   "source": "富途"
+   "time": "2026-11-16 11:26:52",
+   "url": "https://news.10jqka.com.cn/20261116/c681873039.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "纳芯微：拟以现金4.87亿元收购隔空智能78.1520%股权",
+   "title": "大位科技：张北榕泰云计算数据中心各期正梯度推进",
    "summary": "",
-   "time": "2026-11-16 10:54:38",
-   "url": "https://news.10jqka.com.cn/20261116/c681871478.shtml",
-   "source": "同花顺"
+   "time": "2026-11-16 11:15:02",
+   "url": "https://news.futunn.com/flash/1004611535/dawei-technology-implementation-of-the-zhangbei-rongtai-cloud-computing-data",
+   "source": "富途"
   },
   {
    "title": "黄仁勋辞任英伟达引发连锁反应，国内英伟达产业链相关标的遭遇重挫，国产算力替代则大幅走强",
@@ -2071,17 +2090,17 @@
    "source": "财新"
   },
   {
-   "title": "纳芯微：拟4.87亿元收购隔空智能78.15%股权",
-   "summary": "【纳芯微：拟4.87亿元收购隔空智能78.15%股权】纳芯微(688052.SH)公告称，公司拟以现金方式收购宁波隔空智能科技有限公司合计78.1520%股权，收购对价合计4.87亿元。本次交易完成后，隔空智能将成为公司控股子公司，纳入合并报表范围。隔空智能是一家专注于微波/毫米波雷达传感芯片及方案研发的集成电路设计企业。",
-   "time": "2026-11-16 18:56:28",
-   "url": "https://finance.eastmoney.com/a/202611163931926040.html",
+   "title": "美国综合性投资管理公司Coatue Management将其在亚马逊的持股比例下调1.8%",
+   "summary": "【美国综合性投资管理公司Coatue Management将其在亚马逊的持股比例下调1.8%】美国证交会文件显示，美国综合性投资管理公司CoatueManagement将其在亚马逊的持股比例下调1.8%，至1160万股。",
+   "time": "2026-11-16 19:18:22",
+   "url": "https://finance.eastmoney.com/a/202611163931949525.html",
    "source": "东财国际"
   },
   {
-   "title": "宜春两大锂矿迎来环评获批，枧下窝锂矿有望11月复产？宁德时代暂未回应",
-   "summary": "停产超一年的宜春锂矿，迎来了关键的审批期。11月2日，宜春国轩矿业有限责任公司江西省宜丰县水南矿区锂矿项目生态环境影响报告书获受理，项目地处宜丰县花桥乡，设计年开采规模180万吨原矿。",
+   "title": "骏成科技：与供应商Z签订GPU卡采购合同，合同总金额暂定7.65亿元，采购9000张GPU卡用于研发中心、智算中心。",
+   "summary": "骏成科技：与供应商Z签订GPU卡采购合同，合同总金额暂定7.65亿元，采购9000张GPU卡用于研发中心、智算中心。",
    "time": "2026-11-16 18:48",
-   "url": "https://wallstreetcn.com/livenews/3200632",
+   "url": "https://wallstreetcn.com/livenews/3200634",
    "source": "华尔街见闻"
   }
  ],
@@ -2089,7 +2108,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(22)",
+   "富途": "ok(19)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2102,8 +2121,8 @@
    "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "富途": 7,
-   "同花顺": 6,
+   "同花顺": 7,
+   "富途": 6,
    "东财早报": 1,
    "财新": 6
   }
