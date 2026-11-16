@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 02:00:26 CST",
- "generated_at_iso": "2026-11-17T02:00:26+08:00",
+ "generated_at": "2026-11-17 02:09:21 CST",
+ "generated_at_iso": "2026-11-17T02:09:21+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 51862.7305,
-    "change": -484.82,
-    "change_pct": -0.93,
-    "quote_time": "2026-11-17 02:00:03",
+    "price": 51837.4414,
+    "change": -510.11,
+    "change_pct": -0.97,
+    "quote_time": "2026-11-17 02:09:04",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24595.4157,
-    "change": -540.8569,
-    "change_pct": -2.15,
-    "quote_time": "2026-11-17 02:00:27",
+    "price": 24586.3514,
+    "change": -549.9212,
+    "change_pct": -2.19,
+    "quote_time": "2026-11-17 02:09:22",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7448.5601,
-    "change": -113.11,
-    "change_pct": -1.5,
-    "quote_time": "2026-11-17 02:00:03",
+    "price": 7443.6299,
+    "change": -118.04,
+    "change_pct": -1.56,
+    "quote_time": "2026-11-17 02:09:04",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3856.544,
-    "change": -29.756,
-    "change_pct": -0.77,
-    "quote_time": "02:00:29 2026-11-17"
+    "price": 3843.94,
+    "change": -42.36,
+    "change_pct": -1.09,
+    "quote_time": "02:09:24 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 46.957,
-    "change": -2.164,
-    "change_pct": -4.41,
-    "quote_time": "02:00:30 2026-11-17"
+    "price": 46.797,
+    "change": -2.324,
+    "change_pct": -4.73,
+    "quote_time": "02:09:21 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.063,
-    "change": -2.497,
-    "change_pct": -2.82,
-    "quote_time": "02:00:26 2026-11-17"
+    "price": 85.941,
+    "change": -2.619,
+    "change_pct": -2.96,
+    "quote_time": "02:09:24 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.002,
-    "change": -2.838,
-    "change_pct": -2.96,
-    "quote_time": "02:00:27 2026-11-17"
+    "price": 92.927,
+    "change": -2.913,
+    "change_pct": -3.04,
+    "quote_time": "02:09:24 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,9 +1294,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64857.5,
-    "change": 352.2,
-    "change_pct": 0.55,
+    "price": 64886.8,
+    "change": 283.7,
+    "change_pct": 0.44,
     "source": "okx",
     "hist": [
      81941.2,
@@ -1328,17 +1328,17 @@
      65739.7,
      64747.7,
      64466.2,
-     64750.1
+     64948.5
     ],
-    "sigma": 2.304
+    "sigma": 2.315
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1819.27,
-    "change": 6.99,
-    "change_pct": 0.39,
+    "price": 1817.99,
+    "change": 1.91,
+    "change_pct": 0.11,
     "source": "okx",
     "hist": [
      2394.44,
@@ -1370,17 +1370,17 @@
      1841.26,
      1811.03,
      1820.08,
-     1816.25
+     1819.08
     ],
-    "sigma": 3.188
+    "sigma": 3.19
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.13,
-    "change": -0.25,
-    "change_pct": -0.35,
+    "price": 71.17,
+    "change": -0.29,
+    "change_pct": -0.41,
     "source": "okx",
     "hist": [
      104.14,
@@ -1412,18 +1412,18 @@
      73.89,
      71.24,
      70.79,
-     70.99
+     71.2
     ],
-    "sigma": 3.23
+    "sigma": 3.24
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.53,
-    "change": 0.12,
-    "change_pct": 0.12,
+    "price": 103.57,
+    "change": 0.16,
+    "change_pct": 0.15,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1432,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.665,
-    "change": -0.0097,
+    "price": 6.6649,
+    "change": -0.0098,
     "change_pct": -0.15,
     "dec": 4,
     "date": "",
@@ -1472,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 21.79,
-   "change": 2.49,
-   "change_pct": 12.9016,
+   "value": 21.74,
+   "change": 2.44,
+   "change_pct": 12.6425,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1510,33 +1510,33 @@
     18.7,
     19.3
    ],
-   "vix3m": 22.22,
+   "vix3m": 22.2,
    "term": "持平"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 21.58,
-     "change_pct": 21.0999
+     "value": 21.49,
+     "change_pct": 20.5948
     },
     {
      "t": "VIX",
-     "value": 21.79,
-     "change_pct": 12.9016
+     "value": 21.74,
+     "change_pct": 12.6425
     },
     {
      "t": "VIX3M",
-     "value": 22.22,
-     "change_pct": 7.7595
+     "value": 22.2,
+     "change_pct": 7.6625
     },
     {
      "t": "VIX6M",
-     "value": 23.15,
-     "change_pct": 5.084
+     "value": 23.13,
+     "change_pct": 4.9932
     }
    ],
-   "ratio_9d_3m": 0.971,
+   "ratio_9d_3m": 0.968,
    "shape": "平坦",
    "source": "CBOE"
   },
@@ -1553,17 +1553,6 @@
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储推演AI对经济潜在影响 沃什称涵盖多重情景",
-   "summary": "【美联储推演AI对经济潜在影响 沃什称涵盖多重情景】美联储主席沃什表示，美联储工作人员已开始推演AI功加速普及可能对美国经济产生影响的不同情景。沃什周一在为I旧金山联储一场活动准备的讲话中表示，其中一种情景是AI推动经济增长和生产率提升，带来雇主和劳动者共享收益的繁荣。他描述的第二种情景是经济活动增加带来的好处被大规模失业所抵消，而第三种情景是这项技术最终未能达到预期，引发股市下跌和经济放缓。",
-   "time": "2026-11-17 01:34:16",
-   "url": "https://finance.eastmoney.com/a/202611173932210886.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1572,43 +1561,80 @@
    "time": "2026-11-17 01:28",
    "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTmJtYWhWZ1p4WXdzQlZGWnZMZHowa0FadGdTbDZnZ2NnV21LZVV5SDNxOVRtZUJabmRLdTAzWDgxeXo4ZGdZWE1HZmtCSW5sVkNhbTJTQzZ2YVYtTVJGdmZHNGljSUp6ZXF6Y2NBU0M5M1QxenNIRlZiTFFiTm53c0NkU1R1REtTNjN3RkRNM3RzM2xMV19Fak1RSU93R1RYYlBBWFNWUnBZMjFWbDE0SWpESXg2a0huaEh3ZUhWYmRBNEJnV0E4aTBCNWdxZWg0LWZpMWRQOTRQeExfSk5SWVgtZWFSbFFib1RFMjdaZmNWd1VXZFlv0gH6AUFVX3lxTE04VzFUdE1tQXNteU1VOTVJZ0VDT2Z6amNrVkVpeXRTaG84ZXlyaUllZVNnV0lsR3ZPd3FFdFdrUDlaWG1XY1Vtbzk0OTRMM0w2emo2YllMZnhzbnItdUdnX0oxazhXX3hZUHR6UG1ERUIyWXRkTm5YSkMtMmtOano5VURXMzRDdXVpaWcxOWpCY3pZRTBXcmtoOWxBRDRHT00xU3k2WmhvVmZJalNPUEEtNTByM2hQRlFBUkxZb09wWUM1aEhjV2p2YzZOY0JETVRsZmZZRy1QcXJFbEdEbTdkZHJNdEc5eFZBUW8xTFVLU0pxcmpSTTlJY0E?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
   },
   {
    "keyword": "黄仁勋",
    "label": "黄仁勋",
    "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "特朗普支持黄仁勋重掌英伟达，英伟达一度转涨 - 华尔街见闻",
+   "title": "黄仁勋辞任英伟达引发连锁反应，国内英伟达产业链相关标的遭遇重挫，国产算力替代则大幅走强",
    "summary": "",
-   "time": "2026-11-17 00:45",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HeVBzc1VDZDFNUHljR3YyUWNvNktSNG9iSUhSYVVucmhxMGtlUGF2VlRZdjVlOGxtZ0tSNUlOdUM2eTlKb29tVi11UVdXNGhYV2M4?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-16/102505241.html?cxapp_link=true",
+   "source": "财新",
+   "mentions": 1
   }
  ],
  "research": {
-  "digest": [],
+  "digest": [
+   {
+    "title": "中金 | 美国中期选举：资金轮动下，如何配置全球？",
+    "account": "中金点睛",
+    "time": "2026-11-06 08:45",
+    "url": "https://mp.weixin.qq.com/s/mpAn-MvmwdpKUOdXPmlBQQ",
+    "conclusions": [
+     {
+      "section": "核心观点",
+      "text": "美国民主党于中期选举中取得压倒性胜利，中金宏观分析师认为主要有三方面影响：一是冲突升级约束增多；二是财政扩张空间受限；三是AI相关项目或面临地方监管风险，但并不意味着联邦层面的全面收紧。"
+     },
+     {
+      "section": "核心观点",
+      "text": "在此情景下，美债收益率有望下行，美元或有所走弱（详见《美国中期选举的潜在影响》）。"
+     },
+     {
+      "section": "核心观点",
+      "text": "目前政策仍有较大不确定性，但若AI相关支出放缓（并非崩塌）、收益率以及能源价格下行，从行业和区域的角度出发，资金轮动下如何配置全球？"
+     },
+     {
+      "section": "核心观点",
+      "text": "区域层面，前期最缺乏AI，同时又最受能源影响的欧洲市场或将成为最大受益者。"
+     },
+     {
+      "section": "核心观点",
+      "text": "此外，我们分析师也看好非AI主线的新兴市场如越南和马来西亚等。"
+     },
+     {
+      "section": "核心观点",
+      "text": "板块层面，消费板块存在上行空间，但基本面分化依旧显著。"
+     },
+     {
+      "section": "核心观点",
+      "text": "自下而上，我们分析师相对看好日本娱乐、美国食品饮料和快餐板块、海外酒店及美股医药板块；对奢侈品维持中性、服装仍保持谨慎。"
+     },
+     {
+      "section": "核心观点",
+      "text": "大宗商品内部，贵金属主要围绕收益率下行交易，若收益率与通胀回落，贵金属受益弹性最大；其次是锂、镍等新能源相关；我们对铜铝保持谨慎。"
+     },
+     {
+      "section": "核心观点",
+      "text": "能源方面，即使海峡逐步通航，低库存下供给恢复仍需时间，我们预计2027年上半年油价底部支撑大概率维持在90美元/桶附近。"
+     },
+     {
+      "section": "核心观点",
+      "text": "农产品方面，能源转型政策下生物燃料需求更加受益。此外，化工板块有望受益于原材料成本回落，但更大的行情需要终端需求边际改善。"
+     },
+     {
+      "section": "核心观点",
+      "text": "工业板块内，利率下行预期升温背景下，能源价格回落有望释放航空、公路运输等传统周期弹性，AI资本开支敏感度较高的基建承包商、发电设备面临估值下修压力。"
+     },
+     {
+      "section": "核心观点",
+      "text": "科技、传媒及通信（TMT）板块方面，若AI资本开支放缓，或提升现有云服务厂商（CSP）的定价能力，但中期维度仍需观察利润率压力是否会再度显现。"
+     }
+    ]
+   }
+  ],
   "reports": [
-   {
-    "title": "摩根大通对短期美国国债普遍持负面看法",
-    "org": "摩根大通",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-17",
-    "url": "https://finance.eastmoney.com/a/202611173932211271.html",
-    "source": "机构观点"
-   },
-   {
-    "title": "报道：英伟达董事会不考虑让黄仁勋重新担任CEO",
-    "org": "CNBC",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-17",
-    "url": "https://wallstreetcn.com/livenews/3200781",
-    "source": "机构观点"
-   },
    {
     "title": "2026Q3收入同比增长22.5%，并购整合带来增量",
     "org": "国信证券",
@@ -1736,37 +1762,37 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.37%，达20日历史波动率的 3.6 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-17 02:01",
+   "time": "2026-11-17 02:10",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌2.53%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-17 02:01",
+   "time": "2026-11-17 02:10",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.41%，达20日历史波动率的 2.5 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-17 02:01",
+   "message": "COMEX白银单日跌4.73%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-17 02:10",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "黑石REIT收购亚马逊数据中心多数股权 交易估值约50亿美元",
-   "summary": "黑石新近上市的数据中心收购平台收购了两家与亚马逊云服务(AWS)共同持有的合资企业的多数股权，交易估值约50亿美元。Blackstone Digital Infrastructure Trust Inc.(BXDC)首席执行官Nick Pell表示，在成立以来的首笔投资中，该基金将在AWS位于美国印第安纳州北部和密西西比州的两个数据中心园区拥有13座新建的已通电数据中心建筑。\n\n根据周一的声明，B",
-   "time": "2026-11-17 01:57",
-   "url": "https://wallstreetcn.com/livenews/3200785",
+   "title": "据伊朗半官方媒体MEHR：Isfahan响起防空警报。",
+   "summary": "据伊朗半官方媒体MEHR：Isfahan响起防空警报。",
+   "time": "2026-11-17 02:08",
+   "url": "https://wallstreetcn.com/livenews/3200787",
    "source": "华尔街见闻"
   },
   {
-   "title": "美股三大指数下跌 纳指跌超2% 芯片股集体下挫",
-   "summary": "【美股三大指数下跌 纳指跌超2% 芯片股集体下挫】美东时间周一，美股三大指数集体下跌，截至发稿，道指跌0.88%，纳指跌2.04%，标普500指数跌1.45%。",
-   "time": "2026-11-17 01:49:09",
-   "url": "https://finance.eastmoney.com/a/202611163932124582.html",
+   "title": "英伟达跌幅扩大至4% 创下盘中新低",
+   "summary": "英伟达跌幅扩大至4%，创下盘中新低。",
+   "time": "2026-11-17 02:02:18",
+   "url": "https://finance.eastmoney.com/a/202611173932211695.html",
    "source": "东财国际"
   },
   {
@@ -1777,25 +1803,25 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "TD Cowen上调Netskope Inc目标价，看好SASE行业顺风 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "William Blair上调Bill Holdings评级，看好利润率扩张与货币化潜力 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-16 22:16",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CNC16aDN3bzlRd1ZLUXZraWNLSmswdk1iaWg3cWtvYm1KRXdwYWI5eTVUbFpsM2l0bjZobjFjSGQ0MWJ0ZjBDSzgtS0xTOEg5aW5TeGwzbWMzR1NtaVQzSTFIa0lOazZlMVB2eGV2a0ZWZF9j?oc=5",
+   "time": "2026-11-17 00:10",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBdHBZaUtXMDlYVUpQRjhvRFdqa1A0MVZNTEtWWlpYYnNLaTd5UEE0MXhpRWtXc3VUMVp0Z1VLVHVKQU5ObFJVVHQwejdURWlUbFdnbTdJelpfZ0lKUUx6dE83NjNqOUh6ZXItM3pmZGU?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "LME期铜收跌143美元 报13256美元/吨",
+   "title": "俄方：三方会谈将继续举行 尚未协商欧洲参与问题",
    "summary": "",
-   "time": "2026-11-16 17:58:45",
-   "url": "https://news.10jqka.com.cn/20261117/c681878836.shtml",
-   "source": "同花顺"
+   "time": "2026-11-16 18:03:50",
+   "url": "https://news.futunn.com/flash/1004645677/russia-trilateral-talks-to-continue-european-participation-not-yet-negotiated",
+   "source": "富途"
   },
   {
-   "title": "英伟达董事会据称无意恢复黄仁勋CEO职务",
+   "title": "英伟达跌幅扩大至4%",
    "summary": "",
-   "time": "2026-11-16 17:57:06",
-   "url": "https://news.futunn.com/flash/1004645144/nvidia-s-board-of-directors-is-reportedly-unwilling-to-reinstate",
-   "source": "富途"
+   "time": "2026-11-16 18:01:54",
+   "url": "https://news.10jqka.com.cn/20261117/c681878875.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1812,17 +1838,17 @@
    "source": "财新"
   },
   {
-   "title": "LME期铜收跌143美元，报13256美元/吨。\n\nLME期铝收跌6美元，报3004美元/吨。\n\nLME期锌收跌12美元，报3698美元/吨。\n\nLME期铅收跌19美元，报1875美元/吨。\n\nLME期镍收跌127美元，报15858美元/吨",
-   "summary": "LME期铜收跌143美元，报13256美元/吨。\n\nLME期铝收跌6美元，报3004美元/吨。\n\nLME期锌收跌12美元，报3698美元/吨。\n\nLME期铅收跌19美元，报1875美元/吨。\n\nLME期镍收跌127美元，报15858美元/吨。\n\nLME期锡收跌526美元，报46174美元/吨。\n\nLME期钴收平，报33525美元/吨。",
-   "time": "2026-11-17 01:51",
-   "url": "https://wallstreetcn.com/livenews/3200783",
+   "title": "俄方：三方会谈将继续举行，尚未协商欧洲参与问题",
+   "summary": "俄方表示，俄美乌三方会谈将继续举行，俄方尚未协商欧洲参与问题。俄总统助理乌沙科夫称，三方会谈在阿布扎比重启后各方已商定继续举行，若要扩大谈判规模还需做许多工作，可能再举行一轮甚至几轮会谈；欧洲若寻求加入，须先确定想要战争还是和平。",
+   "time": "2026-11-17 02:03",
+   "url": "https://wallstreetcn.com/livenews/3200786",
    "source": "华尔街见闻"
   },
   {
-   "title": "摩根大通对短期美国国债普遍持负面看法",
-   "summary": "摩根大通对短期美国国债普遍持负面看法。",
-   "time": "2026-11-17 01:46:30",
-   "url": "https://finance.eastmoney.com/a/202611173932211271.html",
+   "title": "LME期铜收跌143美元 报13256美元/吨",
+   "summary": "【LME期铜收跌143美元 报13256美元/吨】LME期铜收跌143美元，报13256美元/吨。LME期铝收跌6美元，报3004美元/吨。LME期锌收跌12美元，报3698美元/吨。LME期铅收跌19美元，报1875美元/吨。LME期镍收跌127美元，报15858美元/吨。LME期锡收跌526美元，报46174美元/吨。LME期钴收平，报33525美元/吨。",
+   "time": "2026-11-17 01:57:55",
+   "url": "https://finance.eastmoney.com/a/202611173932211571.html",
    "source": "东财国际"
   },
   {
@@ -1833,25 +1859,25 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "TD Cowen上调Netskope Inc目标价，看好SASE行业顺风 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-16 21:57",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oUUVrTTM3djQyNkJnWkpxN0kxR1dPcElrQW5fMTB4cC0yUEhFR2J6dkhmZHBadjdvQjQzOHIwdnJ0TnpIS1NtcQ?oc=5",
+   "time": "2026-11-16 22:16",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CNC16aDN3bzlRd1ZLUXZraWNLSmswdk1iaWg3cWtvYm1KRXdwYWI5eTVUbFpsM2l0bjZobjFjSGQ0MWJ0ZjBDSzgtS0xTOEg5aW5TeGwzbWMzR1NtaVQzSTFIa0lOazZlMVB2eGV2a0ZWZF9j?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "Altimeter的布拉德·格斯特纳将向Anthropic的IPO投资50亿美元",
+   "title": "英伟达董事会据称无意恢复黄仁勋CEO职务",
    "summary": "",
-   "time": "2026-11-16 17:56:27",
-   "url": "https://news.10jqka.com.cn/20261117/c681878827.shtml",
-   "source": "同花顺"
+   "time": "2026-11-16 17:57:06",
+   "url": "https://news.futunn.com/flash/1004645144/nvidia-s-board-of-directors-is-reportedly-unwilling-to-reinstate",
+   "source": "富途"
   },
   {
-   "title": "OpenAI引入四家机构开展AI安全评估",
+   "title": "印尼塞梅鲁火山喷发 火山灰柱高约700米",
    "summary": "",
-   "time": "2026-11-16 16:40:32",
-   "url": "https://news.futunn.com/flash/1004640664/openai-engages-four-institutions-to-conduct-ai-safety-assessments",
-   "source": "富途"
+   "time": "2026-11-16 17:47:01",
+   "url": "https://news.10jqka.com.cn/20261117/c681878814.shtml",
+   "source": "同花顺"
   },
   {
    "title": "预测2026年11月低风险及估值等因子表现更优",
@@ -1861,17 +1887,17 @@
    "source": "财新"
   },
   {
-   "title": "报道：英伟达董事会不考虑让黄仁勋重新担任CEO",
-   "summary": "据CNBC报道，英伟达董事会没有考虑让黄仁勋重新担任首席执行官（CEO）。英伟达股价跌幅扩大至3.7%，刷新日低至156.42美元。",
-   "time": "2026-11-17 01:40",
-   "url": "https://wallstreetcn.com/livenews/3200781",
+   "title": "黑石REIT收购亚马逊数据中心多数股权 交易估值约50亿美元",
+   "summary": "黑石新近上市的数据中心收购平台收购了两家与亚马逊云服务(AWS)共同持有的合资企业的多数股权，交易估值约50亿美元。Blackstone Digital Infrastructure Trust Inc.(BXDC)首席执行官Nick Pell表示，在成立以来的首笔投资中，该基金将在AWS位于美国印第安纳州北部和密西西比州的两个数据中心园区拥有13座新建的已通电数据中心建筑。\n\n根据周一的声明，B",
+   "time": "2026-11-17 01:57",
+   "url": "https://wallstreetcn.com/livenews/3200785",
    "source": "华尔街见闻"
   },
   {
-   "title": "美联储推演AI对经济潜在影响 沃什称涵盖多重情景",
-   "summary": "【美联储推演AI对经济潜在影响 沃什称涵盖多重情景】美联储主席沃什表示，美联储工作人员已开始推演AI功加速普及可能对美国经济产生影响的不同情景。沃什周一在为I旧金山联储一场活动准备的讲话中表示，其中一种情景是AI推动经济增长和生产率提升，带来雇主和劳动者共享收益的繁荣。他描述的第二种情景是经济活动增加带来的好处被大规模失业所抵消，而第三种情景是这项技术最终未能达到预期，引发股市下跌和经济放缓。",
-   "time": "2026-11-17 01:34:16",
-   "url": "https://finance.eastmoney.com/a/202611173932210886.html",
+   "title": "Altimeter的布拉德·格斯特纳将向Anthropic的IPO投资50亿美元",
+   "summary": "Altimeter的布拉德·格斯特纳将向Anthropic的IPO投资50亿美元。",
+   "time": "2026-11-17 01:55:50",
+   "url": "https://finance.eastmoney.com/a/202611173932211496.html",
    "source": "东财国际"
   },
   {
@@ -1882,17 +1908,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社电报",
+   "title": "风口研报 - 财联社",
    "summary": "",
    "time": "2026-11-16 21:57",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XdDdMb1M5cU5udkNoZ0trOTdVS2MzY2pOR1U0RExxVnVibU9KT09XMU1YTjhLWWpBOHotdHlSckg4TGpwelRwT0pmMUtlb1ZwOTRKdk5zSjJ2RXBmX2Q4UUJB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oUUVrTTM3djQyNkJnWkpxN0kxR1dPcElrQW5fMTB4cC0yUEhFR2J6dkhmZHBadjdvQjQzOHIwdnJ0TnpIS1NtcQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "印尼塞梅鲁火山喷发 火山灰柱高约700米",
+   "title": "OpenAI引入四家机构开展AI安全评估",
    "summary": "",
-   "time": "2026-11-16 17:47:01",
-   "url": "https://news.10jqka.com.cn/20261117/c681878814.shtml",
+   "time": "2026-11-16 16:40:32",
+   "url": "https://news.futunn.com/flash/1004640664/openai-engages-four-institutions-to-conduct-ai-safety-assessments",
+   "source": "富途"
+  },
+  {
+   "title": "标普500指数跌幅扩大至1.5%，触及盘中低位",
+   "summary": "",
+   "time": "2026-11-16 17:40:55",
+   "url": "https://news.10jqka.com.cn/20261117/c681878807.shtml",
    "source": "同花顺"
   },
   {
@@ -1903,32 +1936,25 @@
    "source": "财新"
   },
   {
-   "title": "周一（11月16日）欧市尾盘，德国10年期国债收益率涨1.2个基点，报3.389%，日内交投于3.364%-3.398%区间。\n\n两年期德债收益率涨2.4个基点，报3.150%，日内交投于3.126%-3.173%区间；30年期德债收益率涨",
-   "summary": "周一（11月16日）欧市尾盘，德国10年期国债收益率涨1.2个基点，报3.389%，日内交投于3.364%-3.398%区间。\n\n两年期德债收益率涨2.4个基点，报3.150%，日内交投于3.126%-3.173%区间；30年期德债收益率涨0.7个基点，报3.747%。\n\n2/10年期德债收益率利差跌1.195个基点，报+23.629个基点。",
-   "time": "2026-11-17 01:38",
-   "url": "https://wallstreetcn.com/livenews/3200780",
+   "title": "LME期铜收跌143美元，报13256美元/吨。\n\nLME期铝收跌6美元，报3004美元/吨。\n\nLME期锌收跌12美元，报3698美元/吨。\n\nLME期铅收跌19美元，报1875美元/吨。\n\nLME期镍收跌127美元，报15858美元/吨",
+   "summary": "LME期铜收跌143美元，报13256美元/吨。\n\nLME期铝收跌6美元，报3004美元/吨。\n\nLME期锌收跌12美元，报3698美元/吨。\n\nLME期铅收跌19美元，报1875美元/吨。\n\nLME期镍收跌127美元，报15858美元/吨。\n\nLME期锡收跌526美元，报46174美元/吨。\n\nLME期钴收平，报33525美元/吨。",
+   "time": "2026-11-17 01:51",
+   "url": "https://wallstreetcn.com/livenews/3200783",
    "source": "华尔街见闻"
   },
   {
-   "title": "OpenAI CEO萨姆·奥特曼：对于黄仁勋是否应该回归英伟达无法置评",
-   "summary": "OpenAI CEO萨姆·奥特曼表示，没有前英伟达CEO黄仁勋的AI革命“难以想象” 。对于黄仁勋是否应该回归英伟达，他表示无法置评。",
-   "time": "2026-11-17 01:23:17",
-   "url": "https://finance.eastmoney.com/a/202611173932210518.html",
+   "title": "美股三大指数下跌 纳指跌超2% 芯片股集体下挫",
+   "summary": "【美股三大指数下跌 纳指跌超2% 芯片股集体下挫】美东时间周一，美股三大指数集体下跌，截至发稿，道指跌0.88%，纳指跌2.04%，标普500指数跌1.45%。",
+   "time": "2026-11-17 01:49:09",
+   "url": "https://finance.eastmoney.com/a/202611163932124582.html",
    "source": "东财国际"
-  },
-  {
-   "title": "特朗普支持黄仁勋重掌英伟达，英伟达一度转涨 - 华尔街见闻",
-   "summary": "",
-   "time": "2026-11-17 00:45",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HeVBzc1VDZDFNUHljR3YyUWNvNktSNG9iSUhSYVVucmhxMGtlUGF2VlRZdjVlOGxtZ0tSNUlOdUM2eTlKb29tVi11UVdXNGhYV2M4?oc=5",
-   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(4)",
+   "富途": "ok(5)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1939,10 +1965,10 @@
   "counts": {
    "华尔街见闻": 8,
    "东财国际": 8,
-   "谷歌新闻·国际": 8,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
+   "富途": 3,
    "同花顺": 7,
-   "富途": 2,
    "东财早报": 1,
    "财新": 7
   }
