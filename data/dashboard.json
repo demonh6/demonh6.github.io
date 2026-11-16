@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 22:26:54 CST",
- "generated_at_iso": "2026-11-16T22:26:54+08:00",
+ "generated_at": "2026-11-16 22:35:08 CST",
+ "generated_at_iso": "2026-11-16T22:35:08+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 52347.5508,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "quote_time": "2026-11-16 22:10:03",
+    "price": 52272.3906,
+    "change": -75.16,
+    "change_pct": -0.14,
+    "quote_time": "2026-11-16 22:35:03",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 25136.2726,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "quote_time": "2026-11-14 09:22:07",
+    "price": 24758.6973,
+    "change": -377.5753,
+    "change_pct": -1.5,
+    "quote_time": "2026-11-16 22:35:06",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7561.6699,
-    "change": 0.0,
-    "change_pct": 0.0,
-    "quote_time": "2026-11-16 22:10:03",
+    "price": 7495.4399,
+    "change": -66.23,
+    "change_pct": -0.88,
+    "quote_time": "2026-11-16 22:35:03",
     "hist": [
      7773.9502,
      7818.9302,
@@ -871,7 +871,7 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 59662.02,
+    "price": 59662.0195,
     "change": -1480.33,
     "change_pct": -2.42,
     "hist": [
@@ -1226,13 +1226,6 @@
      6386.87
     ],
     "sigma": 1.019
-   },
-   {
-    "name": "俄罗斯MOEX",
-    "sym": "MOEX",
-    "price": 2509.67,
-    "change": -5.18,
-    "change_pct": -0.21
    }
   ]
  },
@@ -1284,37 +1277,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3864.18,
-    "change": -22.12,
-    "change_pct": -0.57,
-    "quote_time": "22:26:54 2026-11-16"
+    "price": 3880.9,
+    "change": -5.4,
+    "change_pct": -0.14,
+    "quote_time": "22:35:11 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.07,
-    "change": -2.051,
-    "change_pct": -4.18,
-    "quote_time": "22:26:56 2026-11-16"
+    "price": 47.093,
+    "change": -2.028,
+    "change_pct": -4.13,
+    "quote_time": "22:35:12 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.111,
-    "change": -1.449,
-    "change_pct": -1.64,
-    "quote_time": "22:26:54 2026-11-16"
+    "price": 86.806,
+    "change": -1.754,
+    "change_pct": -1.98,
+    "quote_time": "22:35:11 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.806,
-    "change": -2.034,
-    "change_pct": -2.12,
-    "quote_time": "22:26:52 2026-11-16"
+    "price": 93.573,
+    "change": -2.267,
+    "change_pct": -2.37,
+    "quote_time": "22:35:10 2026-11-16"
    }
   ],
   "crypto": [
@@ -1322,27 +1315,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64459.0,
-    "change": -745.7,
-    "change_pct": -1.14,
+    "price": 65139.3,
+    "change": 295.7,
+    "change_pct": 0.46,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1823.52,
-    "change": 4.74,
-    "change_pct": 0.26,
+    "price": 1846.59,
+    "change": 33.75,
+    "change_pct": 1.86,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.37,
-    "change": -0.65,
-    "change_pct": -0.9,
+    "price": 72.19,
+    "change": 0.54,
+    "change_pct": 0.75,
     "source": "okx"
    }
   ],
@@ -1350,9 +1343,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.54,
-    "change": 0.13,
-    "change_pct": 0.13,
+    "price": 103.5,
+    "change": 0.09,
+    "change_pct": 0.09,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1361,9 +1354,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6658,
-    "change": -0.0089,
-    "change_pct": -0.13,
+    "price": 6.6644,
+    "change": -0.0103,
+    "change_pct": -0.15,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1391,10 +1384,19 @@
    "timestamp": "2026-11-16",
    "source": "alternative.me"
   },
+  "a_share_breadth": {
+   "up": 1126,
+   "down": 4072,
+   "flat": 96,
+   "total": 5294,
+   "breadth_pct": 21.3,
+   "score": 0.0,
+   "source": "东财"
+  },
   "vix": {
-   "value": 20.57,
-   "change": 1.27,
-   "change_pct": 6.5803,
+   "value": 20.37,
+   "change": 1.07,
+   "change_pct": 5.544,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1442,8 +1444,8 @@
     },
     {
      "t": "VIX",
-     "value": 20.57,
-     "change_pct": 6.5803
+     "value": 20.37,
+     "change_pct": 5.544
     },
     {
      "t": "VIX3M",
@@ -1459,30 +1461,51 @@
    "ratio_9d_3m": 0.864,
    "shape": "contango(平静期)",
    "source": "CBOE"
+  },
+  "composite": {
+   "score": 24.7,
+   "label": "冰点",
+   "color": "#f04a3d",
+   "basis": "A股广度 60% + 盘面结构 40%",
+   "parts": {
+    "breadth": 0.0,
+    "structure": 61.8
+   }
   }
  },
  "speakers": [
   {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "风波爆发前特朗普持仓英伟达市值最高达6200万美元|唐纳德·特朗普|股票交易|黄仁勋|坎托|交易_手机新浪网 - 新浪财经",
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "黄仁勋事件爆发前 特朗普持有英伟达股票价值据报可达6200万美元 - RFI",
    "summary": "",
-   "time": "2026-11-16 20:30",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTkNPMW02Uk1RME01NWFNdzkyYlpXdHp5Y3pBdGRSelZqQ00xa0VSTFU2Z1Q5clllSW5LQV9QZW9IZXR2aWNsVzR3X2hla2VFVmdmTjJSQVVhTWJJVDZQZHVfOGkwd3gtOE43OThaVnFBVUotU3hQeTRIWFdWYXk3U2kxSFVXSUpjTFE?oc=5",
+   "time": "2026-11-16 22:18",
+   "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxQNm8zMlFlckVzNnppaHdVaWFzWFEzckZ1Y2lNb3JnOFkwdHRSWlVJaEFwNEc2MTc3M0hfM2VSbFE3dUVBd1hseTRVbC1NRGZ4cVU2S0Fta3J3UGV5U09NdjF3ekpVTlZkQ3oxcGhrUkJWc3FGVEpsZm9WZGtESHVRY05hMmZHOHlSS3dBNkxPdU5ZeldJSlIyX2RqWXh3RXBrVXVwdjVFWmF1amQwSDFJRnhqTVVvb0VudUpBdTBnTklTd093UkFaNV90dl9oc1ltRGs0SGNyTjRZZG9rdWs1bVA4UFZzXzZlQkZDWGlBRXN3a25QUkRrblVFUFFoZDhkV0piTkplRUFySUFtOU41dl9pcFJiaWREeWZMcWY0dGZiRmNhZ1g3Nk9FUWVzUGJnYmI3NEFUNS1wb2RadkRtMzRubjJLam81cWxXdkhheVQyVVNwcVYtcDFTVy15TDhhN3JaMlBLbFllVGhvak5yRmM4Z1JxV2hWWEhWNS01S29ZcllZQl8tWVNGNXJGcHd2T1ZUQkoxdERYNzBURlkxWHJ2eWFwSWRfdkE?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
   },
   {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "黄仁勋辞任英伟达引发连锁反应，国内英伟达产业链相关标的遭遇重挫，国产算力替代则大幅走强",
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "白宫：美中俄三方峰会前 特朗普先与习近平双边会面 - 香港電台",
    "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-16/102505241.html?cxapp_link=true",
-   "source": "财新",
+   "time": "2026-11-16 20:56",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZHRvLTRzbnEwTzNTQXF2OEdJdDVxQ2x0N2RfUXJ2bjZKcjhmdW5PcEtnYW5kYkw3QkRNNmYwN2NsTndWcWVtY1pTUm9mRTFlWDFYTE4tbzBqWFlGVWcxdktobmt4OUE0ZHFDNWpwajBjeGtBVnJlWW45UUFwMVpWQUZNSXk5bTZ5TnBF?oc=5",
+   "source": "谷歌新闻·国际",
    "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普说不想袭击，伊朗办军展，家底摊给美国看，更先进的还藏着 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-16 20:49",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE90NTlyVzZkMjJUSVhZc191bEZHZk1xalJEUUxMOG9YUVFiVmJCY1BtMGhoVU1yem9KUVUwQTBRdld2YkthbjdVY242clo?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1682,79 +1705,79 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.37%，达20日历史波动率的 3.6 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-16 22:27",
+   "time": "2026-11-16 22:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌2.53%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 22:27",
+   "time": "2026-11-16 22:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "台湾加权",
    "message": "台湾加权单日跌3.48%，达20日历史波动率的 2.9 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 22:27",
+   "time": "2026-11-16 22:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.18%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-16 22:27",
+   "message": "COMEX白银单日跌4.13%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-16 22:36",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "深证成指、创业板指、台湾加权等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-16 22:27",
+   "time": "2026-11-16 22:36",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "加元兑美元汇率触及2025年以来最低。",
-   "summary": "加元兑美元汇率触及2025年以来最低。",
-   "time": "2026-11-16 21:34",
-   "url": "https://wallstreetcn.com/livenews/3200695",
+   "title": "光通信概念股美股盘初普跌，高意公司Coherent跌9.4%，Lumentum跌9.29%，Credo科技跌8.98%。",
+   "summary": "光通信概念股美股盘初普跌，高意公司Coherent跌9.4%，Lumentum跌9.29%，Credo科技跌8.98%。",
+   "time": "2026-11-16 22:35",
+   "url": "https://wallstreetcn.com/livenews/3200719",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国11月纽约联储制造业指数为7.8 预期18",
-   "summary": "美国11月纽约联储制造业指数为7.8，预期18，前值25.5。",
-   "time": "2026-11-16 21:31:00",
-   "url": "https://finance.eastmoney.com/a/202611163932065826.html",
+   "title": "费城半导体指数跌幅扩大至5% 报9637点",
+   "summary": "费城半导体指数跌幅扩大至5%，报9637点。",
+   "time": "2026-11-16 22:31:52",
+   "url": "https://finance.eastmoney.com/a/202611163932128146.html",
    "source": "东财国际"
   },
   {
-   "title": "紫光股份（000938.SZ）脱水研报：第三季度营收首破380亿元，备货式扩张抢占AI基建上行周期 - 新浪财经",
+   "title": "黄仁勋事件爆发前 特朗普持有英伟达股票价值据报可达6200万美元 - RFI",
    "summary": "",
-   "time": "2026-11-16 21:10",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YTmM3V1dHT0c2Q1lNcGFYY1FIUHdWT1JISHhUZVotMFBMTTRZSWZVWnJzZXdJck5qV2RjSkoxbndhSlNZMl94TXlmWkFCY1A1TnF4N01aZWZnWFA3SEhmUVFpNFZYYm90TkRpOUFXUTBtV3B6NDJrLQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "风波爆发前特朗普持仓英伟达市值最高达6200万美元|唐纳德·特朗普|股票交易|黄仁勋|坎托|交易_手机新浪网 - 新浪财经",
-   "summary": "",
-   "time": "2026-11-16 20:30",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTkNPMW02Uk1RME01NWFNdzkyYlpXdHp5Y3pBdGRSelZqQ00xa0VSTFU2Z1Q5clllSW5LQV9QZW9IZXR2aWNsVzR3X2hla2VFVmdmTjJSQVVhTWJJVDZQZHVfOGkwd3gtOE43OThaVnFBVUotU3hQeTRIWFdWYXk3U2kxSFVXSUpjTFE?oc=5",
+   "time": "2026-11-16 22:18",
+   "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxQNm8zMlFlckVzNnppaHdVaWFzWFEzckZ1Y2lNb3JnOFkwdHRSWlVJaEFwNEc2MTc3M0hfM2VSbFE3dUVBd1hseTRVbC1NRGZ4cVU2S0Fta3J3UGV5U09NdjF3ekpVTlZkQ3oxcGhrUkJWc3FGVEpsZm9WZGtESHVRY05hMmZHOHlSS3dBNkxPdU5ZeldJSlIyX2RqWXh3RXBrVXVwdjVFWmF1amQwSDFJRnhqTVVvb0VudUpBdTBnTklTd093UkFaNV90dl9oc1ltRGs0SGNyTjRZZG9rdWs1bVA4UFZzXzZlQkZDWGlBRXN3a25QUkRrblVFUFFoZDhkV0piTkplRUFySUFtOU41dl9pcFJiaWREeWZMcWY0dGZiRmNhZ1g3Nk9FUWVzUGJnYmI3NEFUNS1wb2RadkRtMzRubjJLam81cWxXdkhheVQyVVNwcVYtcDFTVy15TDhhN3JaMlBLbFllVGhvak5yRmM4Z1JxV2hWWEhWNS01S29ZcllZQl8tWVNGNXJGcHd2T1ZUQkoxdERYNzBURlkxWHJ2eWFwSWRfdkE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "浙江航信中标嘉兴市某公立医院会计电子档案项目",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-16 13:32:33",
-   "url": "https://news.10jqka.com.cn/20261116/c681877588.shtml",
+   "time": "2026-11-16 21:57",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oUUVrTTM3djQyNkJnWkpxN0kxR1dPcElrQW5fMTB4cC0yUEhFR2J6dkhmZHBadjdvQjQzOHIwdnJ0TnpIS1NtcQ?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "WTI原油跌超2%",
+   "summary": "",
+   "time": "2026-11-16 14:34:46",
+   "url": "https://news.10jqka.com.cn/20261116/c681878165.shtml",
    "source": "同花顺"
   },
   {
-   "title": "“英伟达效应”为以色列贡献一半经济增长",
+   "title": "特朗普：黄仁勋已吸取教训，不介意看到他重掌英伟达",
    "summary": "",
-   "time": "2026-11-16 13:23:18",
-   "url": "https://news.futunn.com/flash/1004623008/the-nvidia-effect-contributes-half-of-israel-s-economic-growth",
+   "time": "2026-11-16 14:34:13",
+   "url": "https://news.futunn.com/flash/1004629474/trump-jensen-huang-has-learned-his-lesson-no-objection-to",
    "source": "富途"
   },
   {
@@ -1772,45 +1795,45 @@
    "source": "财新"
   },
   {
-   "title": "加拿大10月CPI同比 3.1%，预期 3.2%，前值 3.1%。",
-   "summary": "加拿大10月CPI同比 3.1%，预期 3.2%，前值 3.1%。",
-   "time": "2026-11-16 21:30",
-   "url": "https://wallstreetcn.com/livenews/3200691",
+   "title": "半导体ETF跌4.33%，在美股盘初领跌行业ETF，全球科技股指数ETF、科技行业ETF、网络股指数ETF、能源业ETF至多跌2.95%，日常消费品ETF涨超1%，医疗业ETF涨1.18%。",
+   "summary": "半导体ETF跌4.33%，在美股盘初领跌行业ETF，全球科技股指数ETF、科技行业ETF、网络股指数ETF、能源业ETF至多跌2.95%，日常消费品ETF涨超1%，医疗业ETF涨1.18%。",
+   "time": "2026-11-16 22:34",
+   "url": "https://wallstreetcn.com/livenews/3200717",
    "source": "华尔街见闻"
   },
   {
-   "title": "加拿大10月CPI同比增长3.1% 预期为3.2%",
-   "summary": "加拿大10月CPI同比增长3.1%，预期为3.2%。",
-   "time": "2026-11-16 21:30:41",
-   "url": "https://finance.eastmoney.com/a/202611163932066252.html",
+   "title": "美股纳指低开1.2% 芯片股集体下挫",
+   "summary": "【美股纳指低开1.2% 芯片股集体下挫】美股三大指数集体低开，纳指跌1.24%，道指跌0.16%，标普500指数跌0.81%。芯片股集体下挫，闪迪、应用材料、Cerebras跌超6%，希捷科技、西部数据、ARM、AMD跌超5%，英特尔、台积电、博通跌超4%，英伟达跌2%。",
+   "time": "2026-11-16 22:31:07",
+   "url": "https://finance.eastmoney.com/a/202611163932124688.html",
    "source": "东财国际"
   },
   {
-   "title": "侨银股份足额兑付侨银转债本息 中证鹏元维持A+评级并移出观察名单 - 观点网",
+   "title": "白宫：美中俄三方峰会前 特朗普先与习近平双边会面 - 香港電台",
    "summary": "",
-   "time": "2026-11-16 20:38",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBxYklXWlQtb3p1OHI2eUFEN3R4VUJ6Q2Jsbm1fcWV4SGtxbkg2M3JvbGpqb1ppR2piclVHcjhFcER1bGMxcGlENkdkUThNWEdnbncyY3pTb3hzMFBZUmtzQUVR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普周四预计先会习近平后举行美中俄峰会 深圳加强安保措施 - RFI",
-   "summary": "",
-   "time": "2026-11-16 20:11",
-   "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxPVFprZWNpY2trTURuZ09fbWRxZW13anNEb3V0bU80NmpkTXljVTZ4a0ZPUHBjVDQya2J0cTJRdWkxLU9PdXQ1WmlKT1BuRFpZSE9XazVlWmxZSDVQeE1fTVRmeDgtbWdjN2NQc3pfTFJwUG1qTHVlaUJmVFpPODJEUmw1M3JNc0dNX1JJbVRzZGhMa2JYaGZ0RGlSbld4by1tWDRBZUF5MlU2T3BFOUdaQ1NnOFFjSnNRd05ISXpvX3FvaTVIVlJVeHh1dDRINVFnekstcW81VjFGUTJVZDdDWXV1d0dnM3ByQjFQTEZQWGM3LUdLTWN0WWVnNTA1bko5RWZqSm9mdUpJb1dPRWpFR2p4YS1HaHg5dkpYQ3pKd1d3NDhWMG1ieDJBRWZZd2lSaERVb0l3czFaR3VlTEl1RVdJMXpKdXExanJiWFFCUEh3YmpYUG8yaGFPaHRfVEpGbHBCd2dxbmJidEdLSVE4NzZuRjM4TW13TkdldkN3WWIxTXVnTDE4Q3kxNWU4TVA5M3ZRRUpQNXVwSk5BMTBZWjJZZ3duN0JWSTRrc0FHQUI?oc=5",
+   "time": "2026-11-16 20:56",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZHRvLTRzbnEwTzNTQXF2OEdJdDVxQ2x0N2RfUXJ2bjZKcjhmdW5PcEtnYW5kYkw3QkRNNmYwN2NsTndWcWVtY1pTUm9mRTFlWDFYTE4tbzBqWFlGVWcxdktobmt4OUE0ZHFDNWpwajBjeGtBVnJlWW45UUFwMVpWQUZNSXk5bTZ5TnBF?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "俄莫斯科国立国际关系学院因爆炸装置报警进行疏散",
+   "title": "风口研报 - 财联社电报",
    "summary": "",
-   "time": "2026-11-16 13:21:38",
-   "url": "https://news.10jqka.com.cn/20261116/c681877432.shtml",
+   "time": "2026-11-16 21:57",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XdDdMb1M5cU5udkNoZ0trOTdVS2MzY2pOR1U0RExxVnVibU9KT09XMU1YTjhLWWpBOHotdHlSckg4TGpwelRwT0pmMUtlb1ZwOTRKdk5zSjJ2RXBmX2Q4UUJB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "美股开盘：美股三大指数集体低开",
+   "summary": "",
+   "time": "2026-11-16 14:30:54",
+   "url": "https://news.10jqka.com.cn/20261116/c681878147.shtml",
    "source": "同花顺"
   },
   {
-   "title": "巴布亚新几内亚总理抵达深圳 将出席APEC领导人非正式会议",
+   "title": "盘中期权异动：NEBIUS盘中下跌8.3%，现最高成交额的看跌期权涨跌幅为+11%，成交量达到15张",
    "summary": "",
-   "time": "2026-11-16 13:18:27",
-   "url": "https://news.futunn.com/flash/1004622522/papua-new-guinea-prime-minister-arrives-in-shenzhen-to-attend",
+   "time": "2026-11-16 14:32:13",
+   "url": "https://news.futunn.com/flash/1004629415/unusual-options-activity-nebius-down-8-3-the-most-active",
    "source": "富途"
   },
   {
@@ -1821,45 +1844,45 @@
    "source": "财新"
   },
   {
-   "title": "加拿大10月CPI环比 0.2%，预期 0.3%，前值 0.1%。",
-   "summary": "加拿大10月CPI环比 0.2%，预期 0.3%，前值 0.1%。",
-   "time": "2026-11-16 21:30",
-   "url": "https://wallstreetcn.com/livenews/3200690",
+   "title": "美股开盘：纳斯达克100股指期货跌1.6%，费城半导体指数跌4.7%",
+   "summary": "美股盘初，英伟达跌2.2%，Nebius跌8.3%，CoreWeave跌8.3%，Lumentum、闪迪、美光科技、SK海力士ADR、Cerebras系统、AMD、英特尔、阿斯麦ADR至多跌8.1%。中概股小鹏涨6.9%。",
+   "time": "2026-11-16 22:31",
+   "url": "https://wallstreetcn.com/livenews/3200715",
    "source": "华尔街见闻"
   },
   {
-   "title": "上海社保科创基金及上海社保优选项目基金签约仪式在沪举行",
-   "summary": "【上海社保科创基金及上海社保优选项目基金签约仪式在沪举行】上海发布消息，上海社保科创基金及上海社保优选项目基金签约仪式今天（11月16日）在沪举行。仪式上，社保基金会与中国工商银行、国泰海通、浦东新区、静安区、徐汇区、上海国际集团签署上海社保科创基金协议。",
-   "time": "2026-11-16 21:26:48",
-   "url": "https://finance.eastmoney.com/a/202611163932066127.html",
+   "title": "美股三大指数集体低开",
+   "summary": "美股三大指数集体低开，截至发稿，纳指跌1.24%，道指跌0.16%，标普500指数跌0.81%。",
+   "time": "2026-11-16 22:30:28",
+   "url": "https://finance.eastmoney.com/a/202611163932124582.html",
    "source": "东财国际"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "特朗普说不想袭击，伊朗办军展，家底摊给美国看，更先进的还藏着 - 凤凰网",
    "summary": "",
-   "time": "2026-11-16 20:16",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5ZUUZ4YnhGc25yamVjQVVqVUJ5S050cW1PNm15TFRZMHc4Ni1jZzJ2QjZudWhYQmRNMnpWTXZZa0IyOFpPLWdsOQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普：期待参加中俄美元首会晤 【我外交部：会晤具有开创性意义】日前，美国总统特朗普在接受采访时表示，“即将访问中国，期待参加中俄美元首会晤”。11月16日，我外交部发言人表示，这是中俄美三国元首历史上首次面对面会晤，具有开创性意义。#特朗普期待参加 - Sohu",
-   "summary": "",
-   "time": "2026-11-16 20:08",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNclc2azlOaGNPY0pVV2xDZm40U1JIUGZ6NW5WYWcxdDROYTcyTFpiRC1uRTF2dWJVWERZWjlQeEtJZ3hZTjlVTXFlUGF2TEpfcVhZdEV4aGJoSTJOVm9qNXI1aVo3cmRzZ09RVi1DWVdOTHFJMUNvRlhZb0FwQ2NieDRpQ1VQWl9z?oc=5",
+   "time": "2026-11-16 20:49",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE90NTlyVzZkMjJUSVhZc191bEZHZk1xalJEUUxMOG9YUVFiVmJCY1BtMGhoVU1yem9KUVUwQTBRdld2YkthbjdVY242clo?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "巴新总理马拉佩抵达深圳",
+   "title": "紫光股份（000938.SZ）脱水研报：第三季度营收首破380亿元，备货式扩张抢占AI基建上行周期 - 新浪财经",
    "summary": "",
-   "time": "2026-11-16 13:11:23",
-   "url": "https://news.10jqka.com.cn/20261116/c681877287.shtml",
+   "time": "2026-11-16 21:10",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YTmM3V1dHT0c2Q1lNcGFYY1FIUHdWT1JISHhUZVotMFBMTTRZSWZVWnJzZXdJck5qV2RjSkoxbndhSlNZMl94TXlmWkFCY1A1TnF4N01aZWZnWFA3SEhmUVFpNFZYYm90TkRpOUFXUTBtV3B6NDJrLQ?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "布伦特原油失守94美元/桶",
+   "summary": "",
+   "time": "2026-11-16 14:18:19",
+   "url": "https://news.10jqka.com.cn/20261116/c681878079.shtml",
    "source": "同花顺"
   },
   {
-   "title": "何小鹏：最新版本小鹏IRON将在科技日和广州车展公开亮相",
+   "title": "盘中期权异动：Summit Therapeutics盘中下跌11.2%，现最高成交额的看跌期权涨跌幅为+26%，成交量达到73张",
    "summary": "",
-   "time": "2026-11-16 13:08:01",
-   "url": "https://news.futunn.com/flash/1004621602/he-xiaopeng-the-latest-version-of-xpeng-iron-will-make",
+   "time": "2026-11-16 14:31:09",
+   "url": "https://news.futunn.com/flash/1004629343/unusual-options-activity-summit-therapeutics-down-11-2-the-most",
    "source": "富途"
   },
   {
@@ -1870,17 +1893,17 @@
    "source": "财新"
   },
   {
-   "title": "美国11月纽约联储制造业指数 7.8，预期 19，前值 25.5。",
-   "summary": "美国11月纽约联储制造业指数 7.8，预期 19，前值 25.5。",
-   "time": "2026-11-16 21:30",
-   "url": "https://wallstreetcn.com/livenews/3200689",
+   "title": "标普500指数低开47.69点，跌幅0.63%，报7513.98点；\n\n道琼斯工业平均指数低开80.49点，跌幅0.15%，报52267.06点；\n\n纳斯达克综合指数低开282.92点，跌幅1.13%，报24853.35点。",
+   "summary": "标普500指数低开47.69点，跌幅0.63%，报7513.98点；\n\n道琼斯工业平均指数低开80.49点，跌幅0.15%，报52267.06点；\n\n纳斯达克综合指数低开282.92点，跌幅1.13%，报24853.35点。",
+   "time": "2026-11-16 22:30",
+   "url": "https://wallstreetcn.com/livenews/3200714",
    "source": "华尔街见闻"
   },
   {
-   "title": "伊朗军队称24小时内第三艘油轮在霍尔木兹海峡触雷起火",
-   "summary": "【伊朗军队称24小时内第三艘油轮在霍尔木兹海峡触雷起火】当地时间16日，伊朗军队海军表示，当天早些时候，一艘违反规定的油轮在霍尔木兹海峡以东海域航行，该船不仅偏离了获准航线，还关闭了导航系统。随后，该船触雷起火。",
-   "time": "2026-11-16 21:24:27",
-   "url": "https://finance.eastmoney.com/a/202611163932061487.html",
+   "title": "雷诺：正考虑在未来两年内为其法国工厂招聘1650名蓝领工人",
+   "summary": "【雷诺：正考虑在未来两年内为其法国工厂招聘1650名蓝领工人】雷诺确认，正考虑在未来两年内为其法国工厂招聘1650名蓝领工人；该公司工业总监还表示，雷诺计划在生产相关的间接岗位再招聘250人。",
+   "time": "2026-11-16 22:27:20",
+   "url": "https://finance.eastmoney.com/a/202611163932126323.html",
    "source": "东财国际"
   }
  ],
@@ -1888,7 +1911,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(16)",
+   "富途": "ok(13)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1899,8 +1922,8 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "同花顺": 7,
    "富途": 6,
    "东财早报": 1,
