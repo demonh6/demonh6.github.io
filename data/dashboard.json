@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-16 12:15:56 CST",
- "generated_at_iso": "2026-11-16T12:15:56+08:00",
+ "generated_at": "2026-11-16 12:24:12 CST",
+ "generated_at_iso": "2026-11-16T12:24:12+08:00",
  "date": "2026-11-16",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 23842.701,
-    "change": 205.102,
-    "change_pct": 0.87,
+    "price": 23835.439,
+    "change": 197.84,
+    "change_pct": 0.84,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3831.58,
-    "change": 18.39,
-    "change_pct": 0.48,
+    "price": 3833.65,
+    "change": 20.46,
+    "change_pct": 0.54,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 8003.49,
-    "change": 65.96,
-    "change_pct": 0.83,
+    "price": 8001.15,
+    "change": 63.621,
+    "change_pct": 0.8,
     "hist": [
      8030.54,
      8051.6704,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3873.3,
-    "change": -13.0,
-    "change_pct": -0.33,
-    "quote_time": "12:16:00 2026-11-16"
+    "price": 3872.824,
+    "change": -13.476,
+    "change_pct": -0.35,
+    "quote_time": "12:24:04 2026-11-16"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.456,
-    "change": -1.665,
-    "change_pct": -3.39,
-    "quote_time": "12:15:33 2026-11-16"
+    "price": 47.449,
+    "change": -1.672,
+    "change_pct": -3.4,
+    "quote_time": "12:24:05 2026-11-16"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 88.524,
-    "change": -0.036,
-    "change_pct": -0.04,
-    "quote_time": "12:16:00 2026-11-16"
+    "price": 88.479,
+    "change": -0.081,
+    "change_pct": -0.09,
+    "quote_time": "12:24:06 2026-11-16"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 95.493,
-    "change": -0.347,
-    "change_pct": -0.36,
-    "quote_time": "12:16:00 2026-11-16"
+    "price": 95.475,
+    "change": -0.365,
+    "change_pct": -0.38,
+    "quote_time": "12:24:07 2026-11-16"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64922.1,
-    "change": 14.0,
-    "change_pct": 0.02,
+    "price": 65085.0,
+    "change": 227.6,
+    "change_pct": 0.35,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1821.09,
-    "change": 0.89,
-    "change_pct": 0.05,
+    "price": 1828.38,
+    "change": 11.48,
+    "change_pct": 0.63,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.82,
-    "change": 0.38,
-    "change_pct": 0.53,
+    "price": 72.02,
+    "change": 0.71,
+    "change_pct": 1.0,
     "source": "okx"
    }
   ],
@@ -1322,24 +1322,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.455,
-    "change": 0.045,
-    "change_pct": 0.04,
+    "price": 103.47,
+    "change": 0.06,
+    "change_pct": 0.06,
     "dec": 2,
-    "date": "2026-11-16",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6717,
-    "change": null,
-    "change_pct": null,
+    "price": 6.6723,
+    "change": -0.0024,
+    "change_pct": -0.04,
     "dec": 4,
-    "date": "2026-11-16",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1348,9 @@
     "change": 0.44,
     "change_pct": 0.34,
     "dec": 2,
-    "date": "2026-11-16",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
