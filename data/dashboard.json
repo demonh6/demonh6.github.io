@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 04:58:37 CST",
- "generated_at_iso": "2026-11-18T04:58:37+08:00",
+ "generated_at": "2026-11-18 05:06:55 CST",
+ "generated_at_iso": "2026-11-18T05:06:55+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50680.75,
-    "change": -927.42,
-    "change_pct": -1.8,
-    "quote_time": "2026-11-18 04:58:28",
+    "price": 50759.4219,
+    "change": -848.75,
+    "change_pct": -1.64,
+    "quote_time": "2026-11-18 05:06:36",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24285.9912,
-    "change": -223.7664,
-    "change_pct": -0.91,
-    "quote_time": "2026-11-18 04:58:35",
+    "price": 24328.383,
+    "change": -181.3746,
+    "change_pct": -0.74,
+    "quote_time": "2026-11-18 05:06:55",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7328.96,
-    "change": -87.63,
-    "change_pct": -1.18,
-    "quote_time": "2026-11-18 04:58:28",
+    "price": 7340.5298,
+    "change": -76.06,
+    "change_pct": -1.03,
+    "quote_time": "2026-11-18 05:06:33",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1212,13 +1212,12 @@
   "bond": {
    "name": "美国10年期国债收益率",
    "sym": "US10Y",
-   "value": 5.12,
+   "value": 5.1,
    "unit": "%",
-   "change_bp": -3.0,
-   "date": "2026-11-16",
+   "change_bp": -2.0,
+   "date": "2026-11-17",
    "source": "美财政部",
    "hist": [
-    5.28,
     5.31,
     5.27,
     5.28,
@@ -1247,46 +1246,47 @@
     4.98,
     5.1,
     5.15,
-    5.12
+    5.12,
+    5.1
    ],
-   "sigma_bp": 6.42
+   "sigma_bp": 6.29
   },
   "commodities": [
    {
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3848.278,
-    "change": -4.722,
-    "change_pct": -0.12,
-    "quote_time": "04:58:40 2026-11-18"
+    "price": 3849.756,
+    "change": -3.244,
+    "change_pct": -0.08,
+    "quote_time": "05:06:58 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.132,
-    "change": 0.273,
-    "change_pct": 0.58,
-    "quote_time": "04:58:34 2026-11-18"
+    "price": 47.151,
+    "change": 0.292,
+    "change_pct": 0.62,
+    "quote_time": "05:06:50 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.57,
-    "change": -0.15,
-    "change_pct": -0.17,
-    "quote_time": "04:58:31 2026-11-18"
+    "price": 85.654,
+    "change": -0.066,
+    "change_pct": -0.08,
+    "quote_time": "05:06:53 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.978,
-    "change": 0.538,
-    "change_pct": 0.58,
-    "quote_time": "04:58:32 2026-11-18"
+    "price": 93.064,
+    "change": 0.624,
+    "change_pct": 0.68,
+    "quote_time": "05:06:59 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63930.2,
-    "change": -1034.8,
-    "change_pct": -1.59,
-    "source": "okx"
+    "price": 64038.0,
+    "change": -973.4,
+    "change_pct": -1.5,
+    "source": "okx",
+    "hist": [
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     64040.2
+    ],
+    "sigma": 2.215
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1796.07,
-    "change": -22.45,
-    "change_pct": -1.23,
-    "source": "okx"
+    "price": 1801.48,
+    "change": -19.08,
+    "change_pct": -1.05,
+    "source": "okx",
+    "hist": [
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1800.56
+    ],
+    "sigma": 3.16
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.95,
-    "change": 1.56,
-    "change_pct": 2.19,
-    "source": "okx"
+    "price": 73.25,
+    "change": 1.85,
+    "change_pct": 2.59,
+    "source": "okx",
+    "hist": [
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.19
+    ],
+    "sigma": 3.297
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.5,
-    "change": -0.09,
-    "change_pct": -0.09,
+    "price": 103.51,
+    "change": -0.08,
+    "change_pct": -0.08,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1432,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6664,
-    "change": 0.0017,
-    "change_pct": 0.03,
+    "price": 6.6663,
+    "change": 0.0016,
+    "change_pct": 0.02,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1373,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 27.03,
-   "change": 4.12,
-   "change_pct": 17.9834,
+   "value": 26.21,
+   "change": 3.3,
+   "change_pct": 14.4042,
    "label": "高波动",
    "color": "#f58a3d",
    "source": "CBOE",
@@ -1411,33 +1510,33 @@
     19.3,
     22.91
    ],
-   "vix3m": 25.81,
+   "vix3m": 25.41,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 29.15,
-     "change_pct": 25.9179
+     "value": 27.54,
+     "change_pct": 18.9633
     },
     {
      "t": "VIX",
-     "value": 27.03,
-     "change_pct": 17.9834
+     "value": 26.21,
+     "change_pct": 14.4042
     },
     {
      "t": "VIX3M",
-     "value": 25.81,
-     "change_pct": 12.1199
+     "value": 25.41,
+     "change_pct": 10.3823
     },
     {
      "t": "VIX6M",
-     "value": 25.74,
-     "change_pct": 8.1967
+     "value": 25.62,
+     "change_pct": 7.6923
     }
    ],
-   "ratio_9d_3m": 1.129,
+   "ratio_9d_3m": 1.084,
    "shape": "backwardation(短期恐慌升温)",
    "source": "CBOE"
   },
@@ -1453,6 +1552,17 @@
   }
  },
  "speakers": [
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "黄仁勋离职之际，美国证券交易委员会（SEC）正调查其公司英伟达。（华尔街日报）",
+   "summary": "黄仁勋离职之际，美国证券交易委员会（SEC）正调查其公司英伟达。（华尔街日报）",
+   "time": "2026-11-18 04:59",
+   "url": "https://wallstreetcn.com/livenews/3201508",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
   {
    "keyword": "特朗普",
    "label": "特朗普",
@@ -1547,16 +1657,6 @@
     "source": "机构观点"
    },
    {
-    "title": "法国政客勒庞提议，将退休年龄下调至最低60岁。（英国金融时报）",
-    "org": "国金",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://wallstreetcn.com/livenews/3201494",
-    "source": "机构观点"
-   },
-   {
     "title": "中邮证券：给予新雷能买入评级_券商研报_数据解析 - 证券之星",
     "org": "中邮证券",
     "rating": "",
@@ -1567,13 +1667,13 @@
     "source": "机构观点"
    },
    {
-    "title": "周二（11月17日）纽约尾盘，彭博谷物分类指数涨0.50%，报29.8078点。\n\nCBOT玉米期货涨0.11%，CBOT小麦期货涨1.50%，CBOT大豆期货",
-    "org": "彭博",
+    "title": "黄仁勋离职之际，美国证券交易委员会（SEC）正调查其公司英伟达。（华尔街日报）",
+    "org": "华尔街日报",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-18",
-    "url": "https://wallstreetcn.com/livenews/3201492",
+    "url": "https://wallstreetcn.com/livenews/3201508",
     "source": "机构观点"
    },
    {
@@ -1703,31 +1803,38 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.76%，突破 2σ 警戒线）",
-   "time": "2026-11-18 04:58",
+   "time": "2026-11-18 05:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.62%，达20日历史波动率的 2.0 倍（σ=0.80%，突破 2σ 警戒线）",
-   "time": "2026-11-18 04:58",
+   "time": "2026-11-18 05:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 04:58",
+   "time": "2026-11-18 05:07",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "巴西参议院推迟表决财政立法草案的修正案至周三。",
-   "summary": "巴西参议院推迟表决财政立法草案的修正案至周三。",
-   "time": "2026-11-18 04:28",
-   "url": "https://wallstreetcn.com/livenews/3201499",
+   "title": "周二（11月17日），美股行业ETF全线溃败，全球航空业ETF收跌2.31%，网络股指数ETF跌1.96%，金融业ETF跌1.89%，区域银行ETF跌1.86%，银行业ETF跌1.79%，科技行业ETF跌0.89%，全球科技股指数ETF跌0",
+   "summary": "周二（11月17日），美股行业ETF全线溃败，全球航空业ETF收跌2.31%，网络股指数ETF跌1.96%，金融业ETF跌1.89%，区域银行ETF跌1.86%，银行业ETF跌1.79%，科技行业ETF跌0.89%，全球科技股指数ETF跌0.86%，半导体ETF跌0.39%“领跑”。",
+   "time": "2026-11-18 05:07",
+   "url": "https://wallstreetcn.com/livenews/3201515",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "纳斯达克金龙中国指数初步收跌1.9%",
+   "summary": "【纳斯达克金龙中国指数初步收跌1.9%】热门中概股里，京东初步收跌7.7%，腾讯跌4.4%，阿里跌4.4%。ETF中，KWEB跌2.1%，CQQQ跌1.5%。",
+   "time": "2026-11-18 05:02:50",
+   "url": "https://finance.eastmoney.com/a/202611183933316663.html",
+   "source": "东财国际"
   },
   {
    "title": "特朗普到访马尼拉 当地人示威反对美“硅盛世”供应链倡议 - RFI",
@@ -1737,31 +1844,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "消息人士称 AppLovin是正在洽谈可能收购广告科技公司Criteo的公司之一",
-   "summary": "消息人士称，AppLovin是正在洽谈可能收购广告科技公司Criteo的公司之一。",
-   "time": "2026-11-18 04:21:00",
-   "url": "https://finance.eastmoney.com/a/202611183933312015.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "风口研报 - 财联社",
+   "title": "华创证券维持华东医药“推荐”评级，称创新药销售高增长 - 金融界",
    "summary": "",
-   "time": "2026-11-17 22:02",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Kc0FEczk1MFJvMHYzbXhmM2NlLUlvSmtfOEViU3RxQko2VjhSZ3MxaEZsc1NiYU1qM2VMZXZTNnZmMHhkN2ZobQ?oc=5",
+   "time": "2026-11-17 22:23",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHNTdvd1lnQWR2UW41RFdMaTd2dmFPemFiSWJHazZwMXhCYThRaVB1MHNUTS10SndvUlNHS3k0SjRCM29nSGwyV29XeHRyV0V3dnFJS2Nkc01FeHY3ZkJPVE5IMDg0UQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "法国内政部：14.6万人参与新一轮示威游行",
+   "title": "Credo宣布与Marvell就有源电缆专利权利达成协议",
    "summary": "",
-   "time": "2026-11-17 20:29:41",
-   "url": "https://news.10jqka.com.cn/20261118/c681925801.shtml",
+   "time": "2026-11-17 21:07:16",
+   "url": "https://news.10jqka.com.cn/20261118/c681925856.shtml",
    "source": "同花顺"
   },
   {
-   "title": "浑水做空英伟达 质疑前高管与超微电脑前员工存在关联",
+   "title": "美元指数17日下跌",
    "summary": "",
-   "time": "2026-11-17 20:12:03",
-   "url": "https://news.futunn.com/flash/1004799080/muddy-waters-shorts-nvidia-questions-links-between-former-executive-and",
+   "time": "2026-11-17 21:04:26",
+   "url": "https://news.futunn.com/flash/1004802265/the-us-dollar-index-fell-on-the-17th",
    "source": "富途"
   },
   {
@@ -1779,11 +1879,18 @@
    "source": "财新"
   },
   {
-   "title": "欧元再创2025年4月份以来新低",
-   "summary": "周二（11月17日）纽约尾盘，ICE美元指数跌0.04%，报103.506点，日内交投区间为103.780-103.359点，美国零售销售数据发布后冲高回落——北京时间21:37刷新日高。\n\n彭博美元指数跌0.14%，报1235.59点，日内交投区间为1238.33-1234.25点。\n\n美元兑日元跌0.07%，报159.35日元，日内交投区间为159.61-158.87日元。\n\n欧元兑日元涨0.",
-   "time": "2026-11-18 04:26",
-   "url": "https://wallstreetcn.com/livenews/3201498",
+   "title": "英伟达收跌0.5%，该公司即将发布业绩报告。",
+   "summary": "英伟达收跌0.5%，该公司即将发布业绩报告。",
+   "time": "2026-11-18 05:01",
+   "url": "https://wallstreetcn.com/livenews/3201514",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "美三大股指集体收跌 光通信股逆势小幅上扬",
+   "summary": "【美三大股指集体收跌 光通信股逆势小幅上扬】美股三大股指集体收跌，道琼斯指数跌1.64%，标普500指数跌1.02%，纳斯达克综合指数跌0.74%。芯片股多数走低，台积电跌近4%，美光科技跌近1%；博通涨超2%。光通信股逆势小幅上扬，Coherent涨超3%，Lumentum、Ciena、Credo、康宁涨超2%。其他个股方面，SpaceX涨超3%，耐克跌超6%。",
+   "time": "2026-11-18 05:01:06",
+   "url": "https://finance.eastmoney.com/a/202611183933316362.html",
+   "source": "东财国际"
   },
   {
    "title": "美联储威廉姆斯：我认为当前形势不需要采取大幅政策行动。（享有FOMC永久投票权、号称“美联储三把手”） - 新浪网",
@@ -1793,31 +1900,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "胡塞武装称沙特联军袭击也门多地 致17人死亡",
-   "summary": "【胡塞武装称沙特联军袭击也门多地 致17人死亡】据也门胡塞武装当地时间17日晚消息，过去24小时内，沙特阿拉伯主导的多国联军对也门萨那、荷台达和萨达发动空袭等军事行动，共造成17人死亡、39人受伤。",
-   "time": "2026-11-18 04:20:10",
-   "url": "https://finance.eastmoney.com/a/202611183933311265.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "中邮证券：给予新雷能买入评级_券商研报_数据解析 - 证券之星",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-17 21:50",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RSmZHSThTb1hBS2pEWEZ5bF9NSkZCVnVUSEcwNUhCazVTeTJjRnJDOWlubVV5MTlXQU1VSndscVRicDVyNzRYSnFCeFNyZlpJcks4ek5MemZ1X0R4bWczdWtB?oc=5",
+   "time": "2026-11-17 22:02",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Kc0FEczk1MFJvMHYzbXhmM2NlLUlvSmtfOEViU3RxQko2VjhSZ3MxaEZsc1NiYU1qM2VMZXZTNnZmMHhkN2ZobQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "AppLovin是正在洽谈可能收购广告科技公司Criteo的公司之一",
+   "title": "纳斯达克100 ETF QQQ盘后上涨0.3%",
    "summary": "",
-   "time": "2026-11-17 20:21:53",
-   "url": "https://news.10jqka.com.cn/20261118/c681925797.shtml",
+   "time": "2026-11-17 21:06:39",
+   "url": "https://news.10jqka.com.cn/20261118/c681925854.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美国知名做空机构浑水做空英伟达",
+   "title": "国际油价17日微涨",
    "summary": "",
-   "time": "2026-11-17 20:03:00",
-   "url": "https://news.futunn.com/flash/1004797946/the-well-known-us-short-selling-firm-muddy-waters-has",
+   "time": "2026-11-17 21:04:21",
+   "url": "https://news.futunn.com/flash/1004802267/international-oil-prices-edged-up-on-the-17th",
    "source": "富途"
   },
   {
@@ -1835,11 +1935,18 @@
    "source": "财新"
   },
   {
-   "title": "阿波罗首席执行官Rowan：AI基础设施融资“不仅仅是一个美国故事”。\n\n创纪录的AI开支将持续至2027年。\n\n不存在K形经济。\n\n美国得州奥斯汀是我们的第二总部。",
-   "summary": "阿波罗首席执行官Rowan：AI基础设施融资“不仅仅是一个美国故事”。\n\n创纪录的AI开支将持续至2027年。\n\n不存在K形经济。\n\n美国得州奥斯汀是我们的第二总部。",
-   "time": "2026-11-18 04:17",
-   "url": "https://wallstreetcn.com/livenews/3201497",
+   "title": "美股费城半导体指数跌1.1%，英伟达初步收跌0.7%，存储芯片指数跌1.4%，半导体设备指数跌1.3%，科技股七巨头指数跌1.3%、超大市值科技股指数跌1.5%，AI赢家指数跌1.1%、AI软件先驱指数跌4.4%——成分股Salesforc",
+   "summary": "美股费城半导体指数跌1.1%，英伟达初步收跌0.7%，存储芯片指数跌1.4%，半导体设备指数跌1.3%，科技股七巨头指数跌1.3%、超大市值科技股指数跌1.5%，AI赢家指数跌1.1%、AI软件先驱指数跌4.4%——成分股Salesforce、ServiceNOW、C3.ai领跌。\n\n标普500指数初步收跌1.1%，金融板块跌约2%，电信板块跌1.4%，科技板块跌1.1%跌幅靠后，能源板块跌0.5",
+   "time": "2026-11-18 05:00",
+   "url": "https://wallstreetcn.com/livenews/3201510",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "美国不再被认定为无麻疹国",
+   "summary": "【美国不再被认定为无麻疹国】泛美卫生组织当地时间11月17日宣布，已不再把美国认定为无麻疹国家。",
+   "time": "2026-11-18 04:56:28",
+   "url": "https://finance.eastmoney.com/a/202611183933315787.html",
+   "source": "东财国际"
   },
   {
    "title": "“四方安全对话”峰会结束，美日印澳深化“自由开放的印太”愿景 - 美国之音",
@@ -1849,31 +1956,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "耐克股价跌幅扩大至7%",
-   "summary": "耐克股价跌幅扩大至7%。",
-   "time": "2026-11-18 04:10:45",
-   "url": "https://finance.eastmoney.com/a/202611183933310790.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "12公司获得增持评级-更新中 - 中财网",
+   "title": "中邮证券：给予新雷能买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-17 21:26",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIelFTVUdQemx3NFlzTTZuM3FDODNrUFdqaGRRZXZ4WHViZTBNbEo0Tlpmd2FCVGstMVJfUTZTOG5tdmhtbjFtQUxyNEhKSDFIYWhYbDFB?oc=5",
+   "time": "2026-11-17 21:50",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RSmZHSThTb1hBS2pEWEZ5bF9NSkZCVnVUSEcwNUhCazVTeTJjRnJDOWlubVV5MTlXQU1VSndscVRicDVyNzRYSnFCeFNyZlpJcks4ek5MemZ1X0R4bWczdWtB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "利弗莫尔中概股龙头指数跌幅扩大至2%",
+   "title": "美股收评：美股三大指数集体收跌 光通信股逆势小幅上扬",
    "summary": "",
-   "time": "2026-11-17 20:01:44",
-   "url": "https://news.10jqka.com.cn/20261118/c681925771.shtml",
+   "time": "2026-11-17 21:01:23",
+   "url": "https://news.10jqka.com.cn/20261118/c681925836.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美国安局内部网故障",
+   "title": "美股收盘：三大股指集体收跌",
    "summary": "",
-   "time": "2026-11-17 19:54:38",
-   "url": "https://news.futunn.com/flash/1004797394/glitch-in-the-nsa-s-internal-network",
+   "time": "2026-11-17 21:01:24",
+   "url": "https://news.futunn.com/flash/1004801923/us-stock-market-close-major-indices-close-lower",
    "source": "富途"
   },
   {
@@ -1884,10 +1984,10 @@
    "source": "财新"
   },
   {
-   "title": "美国CFTC责令Kalshi下架特朗普演讲相关市场",
-   "summary": "美国联邦监管机构责令Kalshi Inc.停止交易与总统特朗普在公开活动中言论挂钩的市场，这是中期选举后预测市场面临更严格审查的最新迹象。\n\nKalshi表示，商品期货交易委员会（CFTC）上周五通知该公司，所有与总统相关的所谓“提及市场”（mention markets）均处于正式暂停状态，迫使进一步交易无限期暂停。\n\nKalshi发言人伊丽莎白·戴安娜（Elisabeth Diana）表示“我",
-   "time": "2026-11-18 04:15",
-   "url": "https://wallstreetcn.com/livenews/3201496",
+   "title": "黄仁勋离职之际，美国证券交易委员会（SEC）正调查其公司英伟达。（华尔街日报）",
+   "summary": "黄仁勋离职之际，美国证券交易委员会（SEC）正调查其公司英伟达。（华尔街日报）",
+   "time": "2026-11-18 04:59",
+   "url": "https://wallstreetcn.com/livenews/3201508",
    "source": "华尔街见闻"
   }
  ],
@@ -1895,7 +1995,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(6)",
+   "富途": "ok(13)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1905,8 +2005,8 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 6,
    "富途": 6,
