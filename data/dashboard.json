@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 03:26:07 CST",
- "generated_at_iso": "2026-11-18T03:26:07+08:00",
+ "generated_at": "2026-11-18 03:34:23 CST",
+ "generated_at_iso": "2026-11-18T03:34:23+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50764.0312,
-    "change": -844.14,
-    "change_pct": -1.64,
-    "quote_time": "2026-11-18 03:25:54",
+    "price": 50772.0703,
+    "change": -836.1,
+    "change_pct": -1.62,
+    "quote_time": "2026-11-18 03:34:06",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24242.2557,
-    "change": -267.5019,
-    "change_pct": -1.09,
-    "quote_time": "2026-11-18 03:26:06",
+    "price": 24251.2919,
+    "change": -258.4657,
+    "change_pct": -1.05,
+    "quote_time": "2026-11-18 03:34:22",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7328.2202,
-    "change": -88.37,
+    "price": 7328.0898,
+    "change": -88.5,
     "change_pct": -1.19,
-    "quote_time": "2026-11-18 03:25:44",
+    "quote_time": "2026-11-18 03:34:06",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3851.749,
-    "change": -1.251,
-    "change_pct": -0.03,
-    "quote_time": "03:26:09 2026-11-18"
+    "price": 3854.84,
+    "change": 1.84,
+    "change_pct": 0.05,
+    "quote_time": "03:34:22 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.213,
-    "change": 0.354,
-    "change_pct": 0.76,
-    "quote_time": "03:26:09 2026-11-18"
+    "price": 47.275,
+    "change": 0.416,
+    "change_pct": 0.89,
+    "quote_time": "03:33:58 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.206,
-    "change": 0.486,
-    "change_pct": 0.57,
-    "quote_time": "03:26:10 2026-11-18"
+    "price": 85.894,
+    "change": 0.174,
+    "change_pct": 0.2,
+    "quote_time": "03:34:25 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.326,
-    "change": 0.886,
-    "change_pct": 0.96,
-    "quote_time": "03:26:09 2026-11-18"
+    "price": 93.281,
+    "change": 0.841,
+    "change_pct": 0.91,
+    "quote_time": "03:34:24 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63779.8,
-    "change": -1071.0,
-    "change_pct": -1.65,
+    "price": 63747.2,
+    "change": -1094.5,
+    "change_pct": -1.69,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1790.2,
-    "change": -25.98,
-    "change_pct": -1.43,
+    "price": 1790.03,
+    "change": -24.68,
+    "change_pct": -1.36,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.6,
-    "change": 1.47,
-    "change_pct": 2.07,
+    "price": 72.61,
+    "change": 1.57,
+    "change_pct": 2.21,
     "source": "okx"
    }
   ],
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 25.9,
-   "change": 2.99,
-   "change_pct": 13.0511,
+   "value": 25.56,
+   "change": 2.65,
+   "change_pct": 11.567,
    "label": "高波动",
    "color": "#f58a3d",
    "source": "CBOE",
@@ -1411,33 +1411,33 @@
     19.3,
     22.91
    ],
-   "vix3m": 25.02,
+   "vix3m": 24.8,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 27.71,
-     "change_pct": 19.6976
+     "value": 27.04,
+     "change_pct": 16.8035
     },
     {
      "t": "VIX",
-     "value": 25.9,
-     "change_pct": 13.0511
+     "value": 25.56,
+     "change_pct": 11.567
     },
     {
      "t": "VIX3M",
-     "value": 25.02,
-     "change_pct": 8.6881
+     "value": 24.8,
+     "change_pct": 7.7324
     },
     {
      "t": "VIX6M",
-     "value": 25.18,
-     "change_pct": 5.8428
+     "value": 25.05,
+     "change_pct": 5.2963
     }
    ],
-   "ratio_9d_3m": 1.108,
+   "ratio_9d_3m": 1.09,
    "shape": "backwardation(短期恐慌升温)",
    "source": "CBOE"
   },
@@ -1460,9 +1460,20 @@
    "title": "特朗普开启亚洲行，在菲律宾最新表态：我期待访问中国 - 上观新闻",
    "summary": "",
    "time": "2026-11-18 02:40",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93QnNJQ3NLZVFhZFowOXdGQlNpaXpuaFQwY1ltLVNNcTk0RllpeEdjZ1h1aklXQXh1eEtGYnh4RnFtTnZjUElDRnNhalE0Ynk0ejF1SEx6d0hBQQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sSWNWVHFqNU5sV0kzbWNMUklXNVhIeVJRc1pxbU54XzRQR1RzWDBkSzlfaU43bmVGR1Z0TDdZSkpUaGtmQnhDOW01dW43R09aY1hPZkdmek5ibkp6VkE?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储三把手威廉姆斯：当前形势不需要采取大幅政策行动",
+   "summary": "",
+   "time": "2026-11-17 19:31:34",
+   "url": "https://news.futunn.com/flash/1004796102/williams-the-fed-s-third-ranking-official-the-current-situation",
+   "source": "富途",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1615,45 +1626,45 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.76%，突破 2σ 警戒线）",
-   "time": "2026-11-18 03:26",
+   "time": "2026-11-18 03:35",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.62%，达20日历史波动率的 2.0 倍（σ=0.80%，突破 2σ 警戒线）",
-   "time": "2026-11-18 03:26",
+   "time": "2026-11-18 03:35",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 03:26",
+   "time": "2026-11-18 03:35",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "泽连斯基谈克里米亚大桥：此次袭击是乌克兰安全局及其他部门共同行动的结果。\n\n乌克兰导弹和无人机再次打击了俄罗斯在南部的一条关键军事动脉。\n\n我们早已告知俄罗斯，我们受够了桥梁、城市和能源基础设施遭袭。",
-   "summary": "泽连斯基谈克里米亚大桥：此次袭击是乌克兰安全局及其他部门共同行动的结果。\n\n乌克兰导弹和无人机再次打击了俄罗斯在南部的一条关键军事动脉。\n\n我们早已告知俄罗斯，我们受够了桥梁、城市和能源基础设施遭袭。",
-   "time": "2026-11-18 03:01",
-   "url": "https://wallstreetcn.com/livenews/3201474",
+   "title": "美国纽约联储主席（享有FOMC永久投票权、号称“美联储三把手”）威廉姆斯：人工智能领域的融资正变得更加不透明和复杂。",
+   "summary": "美国纽约联储主席（享有FOMC永久投票权、号称“美联储三把手”）威廉姆斯：人工智能领域的融资正变得更加不透明和复杂。",
+   "time": "2026-11-18 03:34",
+   "url": "https://wallstreetcn.com/livenews/3201487",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普开启亚洲行，在菲律宾最新表态：我期待访问中国 - 上观新闻",
-   "summary": "",
-   "time": "2026-11-18 02:40",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93QnNJQ3NLZVFhZFowOXdGQlNpaXpuaFQwY1ltLVNNcTk0RllpeEdjZ1h1aklXQXh1eEtGYnh4RnFtTnZjUElDRnNhalE0Ynk0ejF1SEx6d0hBQQ?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "WTI原油期货结算价为每桶86.01美元",
+   "summary": "WTI原油期货结算价为每桶86.01美元，涨幅0.34%。",
+   "time": "2026-11-18 03:31:29",
+   "url": "https://finance.eastmoney.com/a/202611183933309618.html",
+   "source": "东财国际"
   },
   {
-   "title": "扎克伯格：新的Muse模型即将登陆Microsoft Foundry",
-   "summary": "【扎克伯格：新的Muse模型即将登陆Microsoft Foundry】扎克伯格表示，Muse Wonder、Muse Spark 1.3、Muse Ember即将推出，新的Muse模型即将登陆Microsoft Foundry。",
-   "time": "2026-11-18 02:27:02",
-   "url": "https://finance.eastmoney.com/a/202611183933306169.html",
-   "source": "东财国际"
+   "title": "“四方安全对话”峰会结束，美日印澳深化“自由开放的印太”愿景 - 美国之音",
+   "summary": "",
+   "time": "2026-11-18 03:18",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWnBxSmZuVW9OaUtJcDdlWF9qby1PV204ZEhZeWNHV3IxajV5TFlqejIyUFhlVGx5UkV6ZHpQSUFFRXo4MDZCTUxaRy1QMzZJS3lGM1pNaTJYaVBoZmhHSGxIQnpqN2lyWV8xSE1CYW9ZWmZsVGYwejFnb0VTMWF0T2R4WEJWcmNNZ2c1RXd5TGFleWcza2VfVTdHRkpKNUpZb3dMbHprMnl6Qm1EeXpIdGdidGRXYjJINzZoenVLMNIBwgFBVV95cUxPekxINmQySVJyM2pWeVlTT2ZEQXdwVDhsNVNYdkM4R2Q5SWVya1pxTFdUamZnM252MkhiN0h2UU1FT3BKdUR4dkgzeGRCbVQxNGFyU2JJNTc3Rzk1clM4UjFsX3Y5blN3WFdWLWdBYU1VUU03NjlkNHgxRVgzMGE3TzJHV2V0X3BJZVlDU3UxMW9La3JCeWZ5eHJhVmQ2SnBQUjR1b2ZtMEhOZ0E4ZjdWMllvRmk4Xy1qbVg0RE1sX2E4UQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社",
@@ -1663,18 +1674,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "耐克预计旗下品牌匡威将于2028年恢复增长",
+   "title": "美联储三把手威廉姆斯：当前形势不需要采取大幅政策行动",
    "summary": "",
-   "time": "2026-11-17 19:09:26",
-   "url": "https://news.10jqka.com.cn/20261118/c681925666.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 19:31:34",
+   "url": "https://news.futunn.com/flash/1004796102/williams-the-fed-s-third-ranking-official-the-current-situation",
+   "source": "富途"
   },
   {
-   "title": "英国制裁8家参与以色列定居点建设的公司",
+   "title": "SpaceX：计划于11月21日从范登堡太空军基地4E航天发射场用猎鹰9号执行NROL-136任务",
    "summary": "",
-   "time": "2026-11-17 18:46:50",
-   "url": "https://news.futunn.com/flash/1004793545/uk-sanctions-eight-companies-involved-in-israeli-settlement-construction",
-   "source": "富途"
+   "time": "2026-11-17 19:26:48",
+   "url": "https://news.10jqka.com.cn/20261118/c681925712.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1691,25 +1702,25 @@
    "source": "财新"
   },
   {
-   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6663元，较周一夜盘收盘跌21点。成交量340亿美元。",
-   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6663元，较周一夜盘收盘跌21点。成交量340亿美元。",
-   "time": "2026-11-18 03:01",
-   "url": "https://wallstreetcn.com/livenews/3201473",
+   "title": "WTI 12月原油期货收涨0.29美元，涨幅0.34%，报86.01美元/桶。\n\nNYMEX 12月天然气期货收报3.2080美元/百万英热单位。\n\nNYMEX 12月汽油期货收报2.5349美元/加仑，NYMEX 12月取暖油期货收报4.",
+   "summary": "WTI 12月原油期货收涨0.29美元，涨幅0.34%，报86.01美元/桶。\n\nNYMEX 12月天然气期货收报3.2080美元/百万英热单位。\n\nNYMEX 12月汽油期货收报2.5349美元/加仑，NYMEX 12月取暖油期货收报4.0475美元/加仑。",
+   "time": "2026-11-18 03:31",
+   "url": "https://wallstreetcn.com/livenews/3201485",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普总统：美国正在“调查”伊朗正制定计划在华盛顿引爆“脏弹”的报道 - 美国之音",
-   "summary": "",
-   "time": "2026-11-18 01:34",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmR9IB7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmRw?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "纽约联储主席：通胀“顽固地高企” 不认为当前形势需要采取重大行动",
+   "summary": "【纽约联储主席：通胀“顽固地高企” 不认为当前形势需要采取重大行动】纽约联储主席威廉姆斯表示，通胀“顽固地高企”，要让通胀回到2%仍有更多工作要做。但他同时指出，不认为当前形势需要采取重大行动。",
+   "time": "2026-11-18 03:27:03",
+   "url": "https://finance.eastmoney.com/a/202611183933309572.html",
+   "source": "东财国际"
   },
   {
-   "title": "微软：与埃森哲、Adobe、毕马威、万事达卡、沃尔沃汽车等合作 协助制定AI系统开放标准",
-   "summary": "【微软：与埃森哲、Adobe、毕马威、万事达卡、沃尔沃汽车等合作 协助制定AI系统开放标准】微软表示，与埃森哲、Adobe、毕马威、万事达卡、沃尔沃汽车等合作，协助制定AI系统开放标准。",
-   "time": "2026-11-18 02:22:23",
-   "url": "https://finance.eastmoney.com/a/202611183933305973.html",
-   "source": "东财国际"
+   "title": "特朗普开启亚洲行，在菲律宾最新表态：我期待访问中国 - 上观新闻",
+   "summary": "",
+   "time": "2026-11-18 02:40",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sSWNWVHFqNU5sV0kzbWNMUklXNVhIeVJRc1pxbU54XzRQR1RzWDBkSzlfaU43bmVGR1Z0TDdZSkpUaGtmQnhDOW01dW43R09aY1hPZkdmek5ibkp6VkE?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "中邮证券：给予新雷能买入评级_券商研报_数据解析 - 证券之星",
@@ -1719,18 +1730,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "NASA：Terra卫星将于12月1日停止收集数据",
+   "title": "英国制裁8家参与以色列定居点建设的公司",
    "summary": "",
-   "time": "2026-11-17 18:56:30",
-   "url": "https://news.10jqka.com.cn/20261118/c681925661.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 18:46:50",
+   "url": "https://news.futunn.com/flash/1004793545/uk-sanctions-eight-companies-involved-in-israeli-settlement-construction",
+   "source": "富途"
   },
   {
-   "title": "微软推出六款AI模型 以低成本挑战OpenAI和Anthropic",
+   "title": "苹果：iCloud账户及登录问题已解决",
    "summary": "",
-   "time": "2026-11-17 18:15:45",
-   "url": "https://news.futunn.com/flash/1004791809/microsoft-launches-six-ai-models-to-challenge-openai-and-anthropic",
-   "source": "富途"
+   "time": "2026-11-17 19:25:07",
+   "url": "https://news.10jqka.com.cn/20261118/c681925710.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1747,25 +1758,25 @@
    "source": "财新"
   },
   {
-   "title": "恒生指数主连夜盘收跌032%，报23414点。\n\n恒生科技指数主连夜盘收跌0.48%，报3732点。",
-   "summary": "恒生指数主连夜盘收跌032%，报23414点。\n\n恒生科技指数主连夜盘收跌0.48%，报3732点。",
-   "time": "2026-11-18 03:00",
-   "url": "https://wallstreetcn.com/livenews/3201472",
+   "title": "美国官员称对格什姆岛的打击属于自卫行为。（Axios）",
+   "summary": "美国官员称对格什姆岛的打击属于自卫行为。（Axios）",
+   "time": "2026-11-18 03:30",
+   "url": "https://wallstreetcn.com/livenews/3201484",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普在马尼拉会晤地区伙伴，开启亚洲之行 - 美国之音",
-   "summary": "",
-   "time": "2026-11-18 01:15",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHk5TWNpLXA0M3JjVHljNEkySzFvdTB0ZkVjeFhwcEc4OVd2ZkhaTjNlaTdXWGU2aGxsZkM0Y0VoOVJJbzN0OElBeU1vUTlUU3FxZm4yTGJKMDZZaloxOW5VSEhOYW5Td21BejFrSnZNSGQwN1lSTkFxbnNJY2M4UWdjQnd0eGsxLU1OcEd0VlFpQmZqZFJrdHFsbVY5WkY2OG9NUnFEZVJXSlBRZC1kdVp6ONIBtgFBVV95cUxOVDUwdUc0T0tfdnNPbEJRWGtsMnNaZFRlT3gtcElMejZmR3dsQXQ5UkxxQlp1TnpDYWp2RlNNZFkyTmdXWUg4UnpzUXdwV2RsZmdaWW1kNTZuQmhhMWpyTU1jV3lBdGdrMjEzTGtXMTA5YjVkN0F6c3l5YUJEcEdBVzljenNJemgtek9TZHNLeVEyd1JKUXJvWlBJbTBjeDVKQm9faWxKNnVyVktkclpBcUt1NWdQdw?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "SpaceX表示 计划于11月21日从范登堡太空军基地4E航天发射场用猎鹰9号执行NROL-136任务",
+   "summary": "SpaceX表示，计划于11月21日从范登堡太空军基地4E航天发射场用猎鹰9号执行NROL-136任务。",
+   "time": "2026-11-18 03:25:45",
+   "url": "https://finance.eastmoney.com/a/202611183933309411.html",
+   "source": "东财国际"
   },
   {
-   "title": "微软力求推出更便宜、更专业化的AI模型",
-   "summary": "据报道，微软力求推出更便宜、更专业化的AI模型。",
-   "time": "2026-11-18 02:13:39",
-   "url": "https://finance.eastmoney.com/a/202611183933305670.html",
-   "source": "东财国际"
+   "title": "特朗普总统：美国正在“调查”伊朗正制定计划在华盛顿引爆“脏弹”的报道 - 美国之音",
+   "summary": "",
+   "time": "2026-11-18 01:34",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmR9IB7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmRw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "12公司获得增持评级-更新中 - 中财网",
@@ -1775,18 +1786,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "苹果状态页面列出音乐、App Store、AppleCare存在问题",
+   "title": "微软推出六款AI模型 以低成本挑战OpenAI和Anthropic",
    "summary": "",
-   "time": "2026-11-17 18:39:24",
-   "url": "https://news.10jqka.com.cn/20261118/c681925651.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 18:15:45",
+   "url": "https://news.futunn.com/flash/1004791809/microsoft-launches-six-ai-models-to-challenge-openai-and-anthropic",
+   "source": "富途"
   },
   {
-   "title": "OpenAI推出GPT-6.2 Astra和Sol 性能提升同时降低使用成本",
+   "title": "伊朗方面正“认真寻求”通过外交途径结束僵局",
    "summary": "",
-   "time": "2026-11-17 18:04:11",
-   "url": "https://news.futunn.com/flash/1004791155/openai-launches-gpt-6-2-astra-and-sol-delivering-performance",
-   "source": "富途"
+   "time": "2026-11-17 19:23:17",
+   "url": "https://news.10jqka.com.cn/20261118/c681925709.shtml",
+   "source": "同花顺"
   },
   {
    "title": "新云企业正面临多重压力：债务负担沉重、项目延误，以及即将就任、由民主党控制的新一届国会",
@@ -1796,10 +1807,10 @@
    "source": "财新"
   },
   {
-   "title": "美国国家航空航天局（NASA）宣布Terra卫星任务即将结束，Terra卫星将于2027年1月关闭所有航天器系统，并于12月1日停止收集数据。",
-   "summary": "美国国家航空航天局（NASA）宣布Terra卫星任务即将结束，Terra卫星将于2027年1月关闭所有航天器系统，并于12月1日停止收集数据。",
-   "time": "2026-11-18 02:57",
-   "url": "https://wallstreetcn.com/livenews/3201470",
+   "title": "摩根大通任命Bregje de Best为新任首席财务官。",
+   "summary": "摩根大通任命Bregje de Best为新任首席财务官。",
+   "time": "2026-11-18 03:29",
+   "url": "https://wallstreetcn.com/livenews/3201483",
    "source": "华尔街见闻"
   }
  ],
@@ -1807,7 +1818,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(4)",
+   "富途": "ok(3)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1817,11 +1828,11 @@
   },
   "counts": {
    "华尔街见闻": 8,
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 7,
    "富途": 3,
+   "同花顺": 7,
    "东财早报": 2,
    "财新": 7
   }
