@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 00:10:48 CST",
- "generated_at_iso": "2026-11-18T00:10:48+08:00",
+ "generated_at": "2026-11-18 00:19:02 CST",
+ "generated_at_iso": "2026-11-18T00:19:02+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50896.8008,
-    "change": -711.37,
-    "change_pct": -1.38,
-    "quote_time": "2026-11-18 00:10:17",
+    "price": 50868.5312,
+    "change": -739.64,
+    "change_pct": -1.43,
+    "quote_time": "2026-11-18 00:18:53",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24270.1276,
-    "change": -239.63,
-    "change_pct": -0.98,
-    "quote_time": "2026-11-18 00:10:46",
+    "price": 24245.6415,
+    "change": -264.1161,
+    "change_pct": -1.08,
+    "quote_time": "2026-11-18 00:18:58",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7344.0498,
-    "change": -72.54,
-    "change_pct": -0.98,
-    "quote_time": "2026-11-18 00:10:13",
+    "price": 7335.5298,
+    "change": -81.06,
+    "change_pct": -1.09,
+    "quote_time": "2026-11-18 00:18:45",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3875.8,
-    "change": 22.8,
-    "change_pct": 0.59,
-    "quote_time": "00:10:45 2026-11-18"
+    "price": 3874.47,
+    "change": 21.47,
+    "change_pct": 0.56,
+    "quote_time": "00:19:01 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.702,
-    "change": 0.843,
-    "change_pct": 1.8,
-    "quote_time": "00:10:44 2026-11-18"
+    "price": 47.616,
+    "change": 0.757,
+    "change_pct": 1.62,
+    "quote_time": "00:19:04 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.051,
-    "change": 1.331,
-    "change_pct": 1.55,
-    "quote_time": "00:10:50 2026-11-18"
+    "price": 86.98,
+    "change": 1.26,
+    "change_pct": 1.47,
+    "quote_time": "00:19:04 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.661,
-    "change": 1.221,
-    "change_pct": 1.32,
-    "quote_time": "00:10:48 2026-11-18"
+    "price": 93.548,
+    "change": 1.108,
+    "change_pct": 1.2,
+    "quote_time": "00:19:03 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64274.7,
-    "change": -75.4,
-    "change_pct": -0.12,
+    "price": 64068.3,
+    "change": -441.7,
+    "change_pct": -0.68,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1788.94,
-    "change": -27.01,
-    "change_pct": -1.49,
+    "price": 1786.15,
+    "change": -33.73,
+    "change_pct": -1.85,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.65,
-    "change": 2.14,
-    "change_pct": 3.04,
+    "price": 72.67,
+    "change": 2.21,
+    "change_pct": 3.14,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.47,
-    "change": -0.12,
-    "change_pct": -0.12,
+    "price": 103.45,
+    "change": -0.14,
+    "change_pct": -0.14,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1704,14 +1704,14 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.61%，达20日历史波动率的 2.4 倍（σ=0.68%，突破 2σ 警戒线）",
-   "time": "2026-11-18 00:11",
+   "time": "2026-11-18 00:19",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 00:11",
+   "time": "2026-11-18 00:19",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
