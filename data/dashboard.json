@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 21:45:54 CST",
- "generated_at_iso": "2026-11-17T21:45:54+08:00",
+ "generated_at": "2026-11-17 21:54:22 CST",
+ "generated_at_iso": "2026-11-17T21:54:22+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3848.676,
-    "change": -4.324,
-    "change_pct": -0.11,
-    "quote_time": "21:45:57 2026-11-17"
+    "price": 3848.545,
+    "change": -4.455,
+    "change_pct": -0.12,
+    "quote_time": "21:54:24 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.396,
-    "change": 0.537,
-    "change_pct": 1.15,
-    "quote_time": "21:45:57 2026-11-17"
+    "price": 47.209,
+    "change": 0.35,
+    "change_pct": 0.75,
+    "quote_time": "21:54:19 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.901,
-    "change": 1.181,
-    "change_pct": 1.38,
-    "quote_time": "21:45:57 2026-11-17"
+    "price": 87.003,
+    "change": 1.283,
+    "change_pct": 1.5,
+    "quote_time": "21:54:22 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.653,
-    "change": 1.213,
-    "change_pct": 1.31,
-    "quote_time": "21:45:55 2026-11-17"
+    "price": 93.821,
+    "change": 1.381,
+    "change_pct": 1.49,
+    "quote_time": "21:54:21 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64951.7,
-    "change": 539.6,
-    "change_pct": 0.84,
+    "price": 64909.9,
+    "change": 775.2,
+    "change_pct": 1.21,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1822.51,
-    "change": 17.05,
-    "change_pct": 0.94,
+    "price": 1824.74,
+    "change": 23.05,
+    "change_pct": 1.28,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.43,
-    "change": 2.38,
-    "change_pct": 3.35,
+    "price": 73.58,
+    "change": 2.8,
+    "change_pct": 3.96,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.7,
-    "change": 0.11,
-    "change_pct": 0.11,
+    "price": 103.69,
+    "change": 0.1,
+    "change_pct": 0.1,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,13 +1333,13 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6667,
-    "change": null,
-    "change_pct": null,
+    "price": 6.6672,
+    "change": 0.0025,
+    "change_pct": 0.04,
     "dec": 4,
-    "date": "2026-11-17",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1348,9 @@
     "change": 0.88,
     "change_pct": 0.67,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-17",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1442,13 +1442,13 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 20.4,
+   "score": 29.4,
    "label": "冰点",
-   "color": "#f04a3d",
+   "color": "#f58a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 0.0,
-    "structure": 50.9
+    "structure": 73.5
    }
   }
  },
@@ -1949,7 +1949,7 @@
  "structure": {
   "date": "2026-11-17",
   "zt_count": 37,
-  "dt_count": 67,
+  "dt_count": 0,
   "zb_count": 20,
   "qs_count": 146,
   "seal_rate": 64.9,
@@ -2030,28 +2030,7 @@
     "share": 5.4
    }
   ],
-  "dt_industries": [
-   {
-    "name": "一般零售",
-    "count": 6
-   },
-   {
-    "name": "影视院线",
-    "count": 5
-   },
-   {
-    "name": "汽车零部",
-    "count": 4
-   },
-   {
-    "name": "电视广播",
-    "count": 3
-   },
-   {
-    "name": "专用设备",
-    "count": 3
-   }
-  ],
+  "dt_industries": [],
   "leaders": [
    {
     "name": "华东重机",
@@ -2108,39 +2087,14 @@
     "broken": 14
    }
   ],
-  "dt_leaders": [
-   {
-    "name": "文投控股",
-    "code": "600715",
-    "industry": "游戏Ⅱ",
-    "change_pct": -9.89
-   },
-   {
-    "name": "中国稀土",
-    "code": "000831",
-    "industry": "小金属",
-    "change_pct": -10.0
-   },
-   {
-    "name": "福莱新材",
-    "code": "605488",
-    "industry": "塑料",
-    "change_pct": -10.0
-   },
-   {
-    "name": "日出东方",
-    "code": "603366",
-    "industry": "厨卫电器",
-    "change_pct": -9.99
-   }
-  ],
+  "dt_leaders": [],
   "index_pct": -0.5,
-  "score": 50.9,
-  "score_label": "中性",
+  "score": 73.5,
+  "score_label": "偏热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
    "封板率 65%（炸板 20 家）：多空分歧居中，涨停质量一般。",
-   "跌停 67 家：个股层面的风险在释放，注意高位股与题材补跌。",
+   "无跌停且涨停 37 家：当日风险偏好偏高，属于普涨式做多环境。",
    "最高 3 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 6 家 / 涨停 37 家（16%）：以首板为主，持续性待验证",
    "涨停最集中的 IT服务Ⅱ 也只占 8%：热点分散，没有单一主线。"
@@ -2323,11 +2277,11 @@
    {
     "date": "2026-11-17",
     "zt": 37,
-    "dt": 67,
+    "dt": 0,
     "zb": 20,
     "seal": 64.9,
     "max_streak": 3,
-    "score": 50.9,
+    "score": 73.5,
     "index_pct": -0.5
    }
   ],
