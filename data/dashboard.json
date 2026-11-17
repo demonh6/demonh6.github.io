@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 19:29:56 CST",
- "generated_at_iso": "2026-11-17T19:29:56+08:00",
+ "generated_at": "2026-11-17 19:38:21 CST",
+ "generated_at_iso": "2026-11-17T19:38:21+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10804.4,
-    "change": -77.15,
-    "change_pct": -0.71,
+    "price": 10808.26,
+    "change": -73.29,
+    "change_pct": -0.67,
     "hist": [
      10541.69,
      10458.5,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8287.04,
-    "change": -64.96,
-    "change_pct": -0.78,
+    "price": 8287.87,
+    "change": -64.13,
+    "change_pct": -0.77,
     "hist": [
      7865.07,
      7769.21,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6289.85,
-    "change": -58.5,
-    "change_pct": -0.92,
+    "price": 6295.15,
+    "change": -53.2,
+    "change_pct": -0.84,
     "hist": [
      6272.24,
      6180.3,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3860.14,
-    "change": 7.14,
-    "change_pct": 0.19,
-    "quote_time": "19:29:57 2026-11-17"
+    "price": 3862.01,
+    "change": 9.01,
+    "change_pct": 0.23,
+    "quote_time": "19:38:19 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.484,
-    "change": 0.625,
-    "change_pct": 1.33,
-    "quote_time": "19:29:50 2026-11-17"
+    "price": 47.569,
+    "change": 0.71,
+    "change_pct": 1.52,
+    "quote_time": "19:38:10 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.045,
-    "change": 0.325,
-    "change_pct": 0.38,
-    "quote_time": "19:29:56 2026-11-17"
+    "price": 86.282,
+    "change": 0.562,
+    "change_pct": 0.66,
+    "quote_time": "19:38:18 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.823,
-    "change": 0.383,
-    "change_pct": 0.41,
-    "quote_time": "19:29:52 2026-11-17"
+    "price": 93.017,
+    "change": 0.577,
+    "change_pct": 0.62,
+    "quote_time": "19:38:14 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64425.5,
-    "change": -233.7,
-    "change_pct": -0.36,
+    "price": 64685.6,
+    "change": 53.0,
+    "change_pct": 0.08,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1806.69,
-    "change": -2.38,
-    "change_pct": -0.13,
+    "price": 1813.37,
+    "change": 5.29,
+    "change_pct": 0.29,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.94,
-    "change": 1.43,
-    "change_pct": 2.0,
+    "price": 73.4,
+    "change": 1.86,
+    "change_pct": 2.6,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.57,
-    "change": -0.02,
-    "change_pct": -0.02,
+    "price": 103.59,
+    "change": 0.0,
+    "change_pct": 0.0,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,13 +1333,13 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6658,
-    "change": null,
-    "change_pct": null,
+    "price": 6.666,
+    "change": 0.0013,
+    "change_pct": 0.02,
     "dec": 4,
-    "date": "2026-11-17",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 23.58,
-   "change": 0.67,
-   "change_pct": 2.9245,
+   "value": 23.3,
+   "change": 0.39,
+   "change_pct": 1.7023,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1423,8 +1423,8 @@
     },
     {
      "t": "VIX",
-     "value": 23.58,
-     "change_pct": 2.9245
+     "value": 23.3,
+     "change_pct": 1.7023
     },
     {
      "t": "VIX3M",
@@ -1454,37 +1454,26 @@
  },
  "speakers": [
   {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "黄仁勋蓝V没了 马斯克回应",
-   "summary": "【黄仁勋蓝V没了 马斯克回应】据今日俄罗斯电视台报道，当地时间11月17日，社交平台X用户发现，英伟达前CEO黄仁勋X账号上的英伟达公司徽章、蓝V认证和CEO头衔都被删除了，只剩下“英伟达创立者”的头衔。对此，马斯克回应了词条贴文：“蓝色认证标志将免费回归。”",
-   "time": "2026-11-17 19:00:31",
-   "url": "https://finance.eastmoney.com/a/202611173932996480.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "欧洲央行",
-   "label": "欧洲央行",
-   "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "德国拟争取欧洲央行首席经济学家职位 de Cos行长之路更明朗",
-   "summary": "在柏林达成一项关键政治协议后，Pablo Hernandez de Cos正稳步迈向欧洲央行行长一职。知情人士称，作为一项联合执政协议的一部分，这位西班牙人预计将获得支持出任欧洲央行行长；德国则将提名普林斯顿大学学者Markus Brunnermeier担任欧洲央行首席经济学家。知情人士表示，德国政府内阁预计将于周三敲定有关欧洲央行职位的这项协议。",
-   "time": "2026-11-17 18:55",
-   "url": "https://wallstreetcn.com/livenews/3201258",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "风波爆发前特朗普持仓英伟达市值最高达6200万美元|唐纳德·特朗普|股票交易|黄仁勋|坎托|交易_手机新浪网 - 新浪财经",
-   "summary": "",
-   "time": "2026-11-17 18:54",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRGxBendLbFZJZ1p3TWtWbS15ckY0LVBKUHFHYjI4UkVFSXdqZ3F4ODR6dXZ6bFc0Zk93LXAyN3lLeXJPLVpLM29SWTNlaW9NOUljZVAyWXpCd0tWZXpFNDRJVC1iSEZFZUR2QTZraXRraGY1a1NGN1lfYXlIcEZKY0F3ZHZudjFFbWVKV1l6R05USHNLM1dqdjlyOVBQbm1ENW9seHdjODNyUlVHcVFCVGJiUDJ4Um8yZkd1SnpPSUlvV0hYZ054Z0NZbVlFanZVakRSS182RkNUTEh5RS1FV2hTcXgxQmNGeGdRX2lXcnp0QnlyNHZHUWhKZk40RHpWbUx2MlVNNmtSV1RJYUxlZ2xmRU80RTg1aDVoQmxB?oc=5",
-   "source": "谷歌新闻·国际",
+   "title": "特朗普称美国正在调查伊朗脏弹威胁。（CBS）",
+   "summary": "特朗普称美国正在调查伊朗脏弹威胁。（CBS）",
+   "time": "2026-11-17 19:36",
+   "url": "https://wallstreetcn.com/livenews/3201281",
+   "source": "华尔街见闻",
    "mentions": 3
+  },
+  {
+   "keyword": "商务部",
+   "label": "商务部",
+   "hint": "中美贸易与出口管制的对口部门",
+   "title": "商务部：中加两国同意将初步联合安排的相关豁免措施延长2年",
+   "summary": "商务部新闻发言人就中加经贸磋商成果答记者问。在中加两国领导人重要共识的引领下，双方本着相互尊重、合作共赢的精神，在初步联合安排基础上开展多轮经贸磋商，就双方关注的经贸问题形成补充联合安排。",
+   "time": "2026-11-17 19:27",
+   "url": "https://wallstreetcn.com/livenews/3201277",
+   "source": "华尔街见闻",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1702,46 +1691,46 @@
  "alerts": [],
  "news": [
   {
-   "title": "亚玛芬体育第三财季调整后每股收益为42美分 高于市场预估的35美分",
-   "summary": "【亚玛芬体育第三财季调整后每股收益为42美分 高于市场预估的35美分】亚玛芬体育第三财季调整后每股收益为42美分，高于市场预估的35美分；营收为21.7亿美元，高于市场预估的21.3亿美元。",
-   "time": "2026-11-17 19:01:20",
-   "url": "https://finance.eastmoney.com/a/202611173932998566.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "家得宝第三季度同店销售增长2.2％，预估增长1.71％。\n\n第三季度销售净额434亿美元，预估428.3亿美元。\n\n第三季度调整后每股收益3.86美元，上年同期3.74美元，预估3.85美元。\n\n第三季度每股收益3.72美元。\n\n家得宝预计",
-   "summary": "家得宝第三季度同店销售增长2.2％，预估增长1.71％。\n\n第三季度销售净额434亿美元，预估428.3亿美元。\n\n第三季度调整后每股收益3.86美元，上年同期3.74美元，预估3.85美元。\n\n第三季度每股收益3.72美元。\n\n家得宝预计全年同店销售大约增长1.4％，此前预计大约增长0％至2％，市场预估增长1.42％。\n\n家得宝预计全年营收大约增长4.5％，此前预计大约增长2.5％至4.5％。\n",
-   "time": "2026-11-17 19:01",
-   "url": "https://wallstreetcn.com/livenews/3201264",
+   "title": "Anthropic：亚马逊将持有已发行N类股票的48.2%。",
+   "summary": "Anthropic：亚马逊将持有已发行N类股票的48.2%。",
+   "time": "2026-11-17 19:38",
+   "url": "https://wallstreetcn.com/livenews/3201289",
    "source": "华尔街见闻"
   },
   {
-   "title": "风波爆发前特朗普持仓英伟达市值最高达6200万美元|唐纳德·特朗普|股票交易|黄仁勋|坎托|交易_手机新浪网 - 新浪财经",
+   "title": "标普500指数期货抹去此前跌幅",
+   "summary": "标普500指数期货抹去此前跌幅，转为上涨。",
+   "time": "2026-11-17 19:37:20",
+   "url": "https://finance.eastmoney.com/a/202611173933036324.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "APEC深圳峰会：特习会与中美俄三方会晤背后的大国博弈 - DW.com",
    "summary": "",
-   "time": "2026-11-17 18:54",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRGxBendLbFZJZ1p3TWtWbS15ckY0LVBKUHFHYjI4UkVFSXdqZ3F4ODR6dXZ6bFc0Zk93LXAyN3lLeXJPLVpLM29SWTNlaW9NOUljZVAyWXpCd0tWZXpFNDRJVC1iSEZFZUR2QTZraXRraGY1a1NGN1lfYXlIcEZKY0F3ZHZudjFFbWVKV1l6R05USHNLM1dqdjlyOVBQbm1ENW9seHdjODNyUlVHcVFCVGJiUDJ4Um8yZkd1SnpPSUlvV0hYZ054Z0NZbVlFanZVakRSS182RkNUTEh5RS1FV2hTcXgxQmNGeGdRX2lXcnp0QnlyNHZHUWhKZk40RHpWbUx2MlVNNmtSV1RJYUxlZ2xmRU80RTg1aDVoQmxB?oc=5",
+   "time": "2026-11-17 19:20",
+   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQRXh0eWtTSzQ3cThncDM3aVZGeEs1OEVMQ1FlQW9VcUs3YVJ3Q2U5elJua0dPMTdyeGVyVVltel9DVXhfQmlWci1Cdnd0bEJnUTl5VDE4Sm9paklKQm5kYWJKTHVVZFduRlVuQURlRmdHakplUDJLeTRfZ3kyVmRLNU9rRTRVUi1CVWNBcThPQWRRdlpUUmZiakxsdlViZzV3enRLNWZoNkpCeGZ1LW0wM2NQaE5makhCRk94UTVKTVRfQVlCeDdCX0FEX0doMm0zV2tONXNaTXNfMWNhcXozMUNGc1lTUmMxbDJnXy03cWNXM1VMcEFOdW9rRUc5ejdVT09vTy1NUU5FRTltWUE1d181Ni00SE9hTnhMMTlQdjNDUEJpczFFY0VyMGFjQnQ0QU1ZTHprMFBnNlUyUzY00gG_AkFVX3lxTE4wMVhWMUcyVThrRGFSc1pyV0xSOUFXdFVlUElSdnlkeGp5THVXY29GcWxlQ0Fsd3NHa0U2LXQxX1JHUjR5dkNTS2tKbzZrM1dMQnBITTdmZG1KUHFQZ1NPVmVTR3FxUUtSWnpMSFVVTnEyQTlsb1hkZ09wM2dlRk5CcjAwQjdjbGkzYTlyTDVhWWx6OTljdGJfVDRDS2tiTDNhUnpmUzVYeTdVTndmRk9CekNmYnpwSWFiUWdBbGotNEVwYnV3N3ZHNmlqN1ktOU9WTUxCRnJGQ1ExYkRpR0YyM0ZBQVNoZ2w3UDhRdTNocEt1OWh4RzljTzF6SXZ5TmN3SjJYZ1A2MEpGRVlFSGJJLVZKZmw4Mm43eWMwYUl1aUozdk0xbUpFVVR6M1FxWnBuZ3dCNXMzT3JRTDI3MkE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "太平洋：给予纳芯微买入评级_券商研报_数据解析 - 证券之星",
+   "title": "泽璟制药目标价涨幅超110%，星图测控、华测导航等评级被调低丨券商评级观察 - 21财经",
    "summary": "",
-   "time": "2026-11-17 18:42",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaWkzN0Mwbll2aVY0Wktuejl0SWtYZjE0RTlyLVVDR2hlSW9aTTZpREszZUd3aWFFblZmUFI5MDJBTXR6bHdOdWdQQlgycDQxRk8zdmFXT0dOcElwODVjSmhn?oc=5",
+   "time": "2026-11-17 18:58",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb1RvRkhkZnBGck9VbjBVSWIwZlk4V0ZfNk95eFp5enBuTDA2NF9Jd1llMFliV3MyWjFJbzVxZlkxRWtHbVVuVktfLVd6bE9MRlhFRnNYZEdpcWN0VmVfc08wbzhFOWtkcVZzQTlINUpfWV9nemRCWnF6cC1ENXBqZ2VfbWgzTEgteFJBbzJhc0syVVNt?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "迈普医学：发行股份购买资产新增股份739.7万股将于2026年11月19日上市",
+   "title": "迪士尼第四财季调整后每股收益1.77美元 高于预期",
    "summary": "",
-   "time": "2026-11-17 11:04:18",
-   "url": "https://news.10jqka.com.cn/20261117/c681918694.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 11:38:30",
+   "url": "https://news.futunn.com/flash/1004754091/disney-s-fourth-quarter-adjusted-earnings-per-share-were-1",
+   "source": "富途"
   },
   {
-   "title": "中铝国际：签署55.83亿元越南年产240万吨氧化铝项目EPC合同",
+   "title": "超威半导体美股盘前涨超2%",
    "summary": "",
-   "time": "2026-11-17 11:02:52",
-   "url": "https://news.futunn.com/flash/1004750003/chalco-international-signs-epc-contract-for-vietnam-alumina-project-with",
-   "source": "富途"
+   "time": "2026-11-17 11:36:21",
+   "url": "https://news.10jqka.com.cn/20261117/c681920104.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1758,46 +1747,46 @@
    "source": "财新"
   },
   {
-   "title": "黄仁勋蓝V没了 马斯克回应",
-   "summary": "【黄仁勋蓝V没了 马斯克回应】据今日俄罗斯电视台报道，当地时间11月17日，社交平台X用户发现，英伟达前CEO黄仁勋X账号上的英伟达公司徽章、蓝V认证和CEO头衔都被删除了，只剩下“英伟达创立者”的头衔。对此，马斯克回应了词条贴文：“蓝色认证标志将免费回归。”",
-   "time": "2026-11-17 19:00:31",
-   "url": "https://finance.eastmoney.com/a/202611173932996480.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "印度总理莫迪在东亚峰会上呼吁建立自由、开放、基于规则的印太。（彭博）",
-   "summary": "印度总理莫迪在东亚峰会上呼吁建立自由、开放、基于规则的印太。（彭博）",
-   "time": "2026-11-17 18:58",
-   "url": "https://wallstreetcn.com/livenews/3201263",
+   "title": "特朗普称美国正在调查伊朗脏弹威胁。（CBS）",
+   "summary": "特朗普称美国正在调查伊朗脏弹威胁。（CBS）",
+   "time": "2026-11-17 19:36",
+   "url": "https://wallstreetcn.com/livenews/3201281",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普称对微软的服务故障不担心 - 东方财富",
+   "title": "迪士尼第四季度调整后每股收益为1.77美元",
+   "summary": "【迪士尼第四季度调整后每股收益为1.77美元】迪士尼第四季度调整后每股收益为1.77美元，预计为1.66美元。",
+   "time": "2026-11-17 19:31:52",
+   "url": "https://finance.eastmoney.com/a/202611173933031346.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普：合作启动人工智能计划。 - 新浪网",
    "summary": "",
-   "time": "2026-11-17 18:54",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XT0hzUkZiWTk0Q2hVd0lpU2JiY1hlTmxHaTNzWFpvTGxQVjl5OEE2djVnOW50a0hXNHVUUEVybGU3bTZPRV9yM3FXNTliUmE4ajlwa01ZdEdENVhNWG5tLWQxcw?oc=5",
+   "time": "2026-11-17 18:57",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sOWtsVXRSVDhRbjFtWGNvbkJ2b0RBV2M3MFJOSGRScVktTFBhaEZ5SjRqZ3RfZ001M29LX21pM3RtblNpR2NTT0pKWm1MRUk?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "西南证券：下调中联重科目标价至8.4元，给予买入评级_券商研报_数据解析 - 证券之星",
+   "title": "太平洋：给予纳芯微买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-17 18:41",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LbUczVE9udVl1SEFVRUZnWGxwb1I2UHlzSEtZeHJSbF9rNjZnWVZDUHNmQ1ZLWFdQeVNMSUtPVHF1RnVOWGtUWVI4TFpnWTk3ODIxV0hXTVUzZ2NzRVZ5WmNn?oc=5",
+   "time": "2026-11-17 18:42",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaWkzN0Mwbll2aVY0Wktuejl0SWtYZjE0RTlyLVVDR2hlSW9aTTZpREszZUd3aWFFblZmUFI5MDJBTXR6bHdOdWdQQlgycDQxRk8zdmFXT0dOcElwODVjSmhn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "国企改革ETF富国：基金份额持有人大会计票日11月19日起停牌",
+   "title": "电投绿能：拟15.5亿元收购吉林吉电公司49.35%股权",
    "summary": "",
-   "time": "2026-11-17 11:04:12",
-   "url": "https://news.10jqka.com.cn/20261117/c681918691.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 11:37:43",
+   "url": "https://news.futunn.com/flash/1004754051/spic-green-energy-plans-to-acquire-49-35-equity-stake",
+   "source": "富途"
   },
   {
-   "title": "生益科技：生产经营情况正常，订单饱满",
+   "title": "华电能源：煤价是现阶段对公司盈利影响最直接的变量",
    "summary": "",
-   "time": "2026-11-17 11:00:53",
-   "url": "https://news.futunn.com/flash/1004749585/shengyi-technology-production-and-operations-are-normal-with-a-robust",
-   "source": "富途"
+   "time": "2026-11-17 11:35:45",
+   "url": "https://news.10jqka.com.cn/20261117/c681920092.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1814,46 +1803,46 @@
    "source": "财新"
   },
   {
-   "title": "宁德时代曾毓群：电动化的应用场景将从陆地延伸到海洋、天空",
-   "summary": "【宁德时代曾毓群：电动化的应用场景将从陆地延伸到海洋、天空】宁德时代新能源科技股份有限公司创始人、董事长兼首席执行官曾毓群表示，电动化的应用场景向海洋、天空延伸；新能源汽车在亚太争取更高的市场渗透；借助新技术，城际之间过去数小时乃至数天的行程，未来可能压缩到几分钟。",
-   "time": "2026-11-17 18:59:11",
-   "url": "https://finance.eastmoney.com/a/202611173932997631.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "德国拟争取欧洲央行首席经济学家职位 de Cos行长之路更明朗",
-   "summary": "在柏林达成一项关键政治协议后，Pablo Hernandez de Cos正稳步迈向欧洲央行行长一职。知情人士称，作为一项联合执政协议的一部分，这位西班牙人预计将获得支持出任欧洲央行行长；德国则将提名普林斯顿大学学者Markus Brunnermeier担任欧洲央行首席经济学家。知情人士表示，德国政府内阁预计将于周三敲定有关欧洲央行职位的这项协议。",
-   "time": "2026-11-17 18:55",
-   "url": "https://wallstreetcn.com/livenews/3201258",
+   "title": "Anthropic：我们已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
+   "summary": "Anthropic：我们已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
+   "time": "2026-11-17 19:30",
+   "url": "https://wallstreetcn.com/livenews/3201278",
    "source": "华尔街见闻"
   },
   {
-   "title": "美媒梳理特朗普出访亚洲团队名单：美国务卿、财长及多位白宫工作人员在列 - Sohu",
+   "title": "Anthropic：已获准在纳斯达克全球精选市场上市A类普通股",
+   "summary": "【Anthropic：已获准在纳斯达克全球精选市场上市A类普通股】Anthropic表示，已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
+   "time": "2026-11-17 19:30:23",
+   "url": "https://finance.eastmoney.com/a/202611173933030816.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "风波爆发前特朗普持仓英伟达市值最高达6200万美元|唐纳德·特朗普|股票交易|黄仁勋|坎托|交易_手机新浪网 - 新浪财经",
    "summary": "",
-   "time": "2026-11-17 18:34",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcnRlZGFVNkRpVDZ3blNlT3I0NFNtTzBYTlBBdkhQXzhHUVJhWHhxbFNKY0ZCSEVnN2djTnpOY2Jtbkxkbkd0ekxkV1Y3QTZmc2kxZXRiQU85dDdCYVBvMHlYOHJaQnFPWThLUGxxNm1oZFhRMjhwYnlpbVJ1STJIQTdsejBGdFdo?oc=5",
+   "time": "2026-11-17 18:54",
+   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRGxBendLbFZJZ1p3TWtWbS15ckY0LVBKUHFHYjI4UkVFSXdqZ3F4ODR6dXZ6bFc0Zk93LXAyN3lLeXJPLVpLM29SWTNlaW9NOUljZVAyWXpCd0tWZXpFNDRJVC1iSEZFZUR2QTZraXRraGY1a1NGN1lfYXlIcEZKY0F3ZHZudjFFbWVKV1l6R05USHNLM1dqdjlyOVBQbm1ENW9seHdjODNyUlVHcVFCVGJiUDJ4Um8yZkd1SnpPSUlvV0hYZ054Z0NZbVlFanZVakRSS182RkNUTEh5RS1FV2hTcXgxQmNGeGdRX2lXcnp0QnlyNHZHUWhKZk40RHpWbUx2MlVNNmtSV1RJYUxlZ2xmRU80RTg1aDVoQmxB?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "太平洋：给予利尔化学买入评级_券商研报_数据解析 - 证券之星",
+   "title": "西南证券：下调中联重科目标价至8.4元，给予买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
    "time": "2026-11-17 18:41",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5TSmktVTFZSmt2YzlfS1NBNjV2YWpGU3hSWFAtS3hCOXByNGl5TC1nd3JZd3RFYVhUNmdUSEcwU1VnVDdyak5EcFlVLUZlLWFTZk1vTFNQUVozckk0U1lkWlhn?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LbUczVE9udVl1SEFVRUZnWGxwb1I2UHlzSEtZeHJSbF9rNjZnWVZDUHNmQ1ZLWFdQeVNMSUtPVHF1RnVOWGtUWVI4TFpnWTk3ODIxV0hXTVUzZ2NzRVZ5WmNn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "电投绿能：拟合作开发柔性智控项目关联交易金额不超3883.5万元",
+   "title": "英伟达财报前投资者避险，英国股市走弱",
    "summary": "",
-   "time": "2026-11-17 11:04:02",
-   "url": "https://news.10jqka.com.cn/20261117/c681918689.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 11:30:23",
+   "url": "https://news.futunn.com/flash/1004753020/investors-seek-safe-havens-ahead-of-nvidia-earnings-uk-stocks",
+   "source": "富途"
   },
   {
-   "title": "加中贸易理事会执行董事：期待更多中国新能源汽车进入加拿大市场",
+   "title": "山高环能：收购衡阳桑德凯天65%股权完成工商过户",
    "summary": "",
-   "time": "2026-11-17 10:58:49",
-   "url": "https://news.futunn.com/flash/1004749189/executive-director-of-the-canada-china-business-council-expecting-more",
-   "source": "富途"
+   "time": "2026-11-17 11:35:34",
+   "url": "https://news.10jqka.com.cn/20261117/c681920085.shtml",
+   "source": "同花顺"
   },
   {
    "title": "新云企业正面临多重压力：债务负担沉重、项目延误，以及即将就任、由民主党控制的新一届国会",
@@ -1863,18 +1852,18 @@
    "source": "财新"
   },
   {
-   "title": "生益科技：生产经营情况正常 订单饱满",
-   "summary": "【生益科技：生产经营情况正常 订单饱满】生益科技(600183.SH)公告称，公司股票连续三个交易日内收盘价格跌幅偏离值累计超过20%，属于股票交易异常波动。经自查并向持股5%以上股东发函查证，公司及股东不存在应披露而未披露的重大信息。公司生产经营正常，订单饱满。",
-   "time": "2026-11-17 18:58:16",
-   "url": "https://finance.eastmoney.com/a/202611173932996616.html",
-   "source": "东财国际"
+   "title": "商务部：中加两国同意将初步联合安排的相关豁免措施延长2年",
+   "summary": "商务部新闻发言人就中加经贸磋商成果答记者问。在中加两国领导人重要共识的引领下，双方本着相互尊重、合作共赢的精神，在初步联合安排基础上开展多轮经贸磋商，就双方关注的经贸问题形成补充联合安排。",
+   "time": "2026-11-17 19:27",
+   "url": "https://wallstreetcn.com/livenews/3201277",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(5)",
+   "富途": "ok(11)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1883,14 +1872,14 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 7,
-   "富途": 4,
+   "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
-   "财新": 7
+   "财新": 6
   }
  },
  "wuxing": {
