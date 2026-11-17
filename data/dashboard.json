@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 15:57:51 CST",
- "generated_at_iso": "2026-11-17T15:57:51+08:00",
+ "generated_at": "2026-11-17 16:06:04 CST",
+ "generated_at_iso": "2026-11-17T16:06:04+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 23544.701,
-    "change": -209.139,
-    "change_pct": -0.88,
+    "price": 23529.699,
+    "change": -224.141,
+    "change_pct": -0.94,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3765.14,
-    "change": -36.5,
-    "change_pct": -0.96,
+    "price": 3761.5,
+    "change": -40.14,
+    "change_pct": -1.06,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 7920.29,
-    "change": -61.25,
-    "change_pct": -0.77,
+    "price": 7913.689,
+    "change": -67.851,
+    "change_pct": -0.85,
     "hist": [
      8030.54,
      8051.6704,
@@ -904,9 +904,9 @@
      60819.36,
      61142.35,
      59662.02,
-     59070.0586
+     58860.4297
     ],
-    "sigma": 1.999,
+    "sigma": 2.005,
     "volume": 0.0,
     "vol_chg_pct": -100.0,
     "vol_pctile": 34.8,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10892.93,
-    "change": -9.63,
-    "change_pct": -0.09,
+    "price": 10800.25,
+    "change": -81.3,
+    "change_pct": -0.75,
     "hist": [
      10541.69,
      10458.5,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3876.64,
-    "change": 23.64,
-    "change_pct": 0.61,
-    "quote_time": "15:57:51 2026-11-17"
+    "price": 3870.188,
+    "change": 17.188,
+    "change_pct": 0.45,
+    "quote_time": "16:06:08 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.524,
-    "change": 0.665,
-    "change_pct": 1.42,
-    "quote_time": "15:57:51 2026-11-17"
+    "price": 47.415,
+    "change": 0.556,
+    "change_pct": 1.19,
+    "quote_time": "16:06:06 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.947,
-    "change": -0.773,
-    "change_pct": -0.9,
-    "quote_time": "15:57:52 2026-11-17"
+    "price": 85.226,
+    "change": -0.494,
+    "change_pct": -0.58,
+    "quote_time": "16:06:07 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.616,
-    "change": -0.824,
-    "change_pct": -0.89,
-    "quote_time": "15:57:52 2026-11-17"
+    "price": 91.863,
+    "change": -0.577,
+    "change_pct": -0.62,
+    "quote_time": "16:06:00 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64697.1,
-    "change": -355.5,
-    "change_pct": -0.55,
-    "source": "okx"
+    "price": 64644.3,
+    "change": -144.3,
+    "change_pct": -0.22,
+    "source": "okx",
+    "hist": [
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64679.6
+    ],
+    "sigma": 2.301
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1831.42,
-    "change": 7.69,
-    "change_pct": 0.42,
-    "source": "okx"
+    "price": 1831.01,
+    "change": 15.92,
+    "change_pct": 0.88,
+    "source": "okx",
+    "hist": [
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1832.44
+    ],
+    "sigma": 3.207
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.89,
-    "change": 1.41,
-    "change_pct": 1.97,
-    "source": "okx"
+    "price": 72.8,
+    "change": 1.65,
+    "change_pct": 2.32,
+    "source": "okx",
+    "hist": [
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.84
+    ],
+    "sigma": 3.358
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.59,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 103.58,
+    "change": -0.01,
+    "change_pct": -0.01,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1344,9 +1443,9 @@
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 132.69,
-    "change": 0.83,
-    "change_pct": 0.63,
+    "price": 132.66,
+    "change": 0.8,
+    "change_pct": 0.61,
     "dec": 2,
     "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
@@ -1454,26 +1553,26 @@
  },
  "speakers": [
   {
-   "keyword": "外交部",
-   "label": "外交部",
-   "hint": "地缘政治表态影响风险偏好",
-   "title": "外交部回应美国政府调查涉英伟达芯片一事",
-   "summary": "【外交部回应美国政府调查涉英伟达芯片一事】11月17日，外交部发言人郭嘉昆主持例行记者会。有记者提问：据报道，美国政府正在调查新加坡某公司，指控其涉嫌非法向中方转运英伟达的芯片。请问中方对此有何评论？郭嘉昆表示，我要强调中方在美国输华芯片的问题上的立场是一贯的。",
-   "time": "2026-11-17 15:25:06",
-   "url": "https://finance.eastmoney.com/a/202611173932835930.html",
-   "source": "东财国际",
-   "mentions": 3
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称或将在中国与金正恩会面 中方回应 - 中国新闻网",
+   "title": "APEC期间特朗普与普京将在中国会见金正恩？外交部回应 - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-17 15:23",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rWGVSa3RYLUQxY1ZqYm9IUHBibktkUWxQelRZT3JVajVRQm8tSmN5SVBTbDFNSm80dlcxX2htcUhDckhwRkJ4WnhOZ1NZUUNVdzhTSTVwb0ZTSG8ydThaUDRSajZxUDFB?oc=5",
+   "time": "2026-11-17 15:52",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoNFN3Q3lfSDZnR09RLUZXS1pEbzNPSkdRakc5UzBnT242SFhUQTB3NFE0M1Fmc0U0NkFGZzFjZy1XY2lhOUdsRUVla1ViNGxBZ1NoMDV0SEppVXFtT3JJag?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
+  },
+  {
+   "keyword": "外交部",
+   "label": "外交部",
+   "hint": "地缘政治表态影响风险偏好",
+   "title": "中方如何评价特朗普称“可能会与金正恩在中国会面”言论？外交部回应 - ThePaper.cn",
+   "summary": "",
+   "time": "2026-11-17 15:25",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qczJIakVsanhjRzhVZndLR0NURlpzaDhtVzEwRzE3SkRSQTJvNmFIZDN6bUVITjhsUGtSUGZabnV6RXF6TDdFUzVYUFNvbHBTdUNXVXFNLTZpTVBwSWpoag?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1537,13 +1636,13 @@
   ],
   "reports": [
    {
-    "title": "创业板ETF广发全天成交超71亿创历史天量",
-    "org": "广发",
+    "title": "德意志银行欧股下跌6.2%，此前有报道称该行曾处理爱泼斯坦相关巨额款项。",
+    "org": "德意志银行",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-17",
-    "url": "https://news.10jqka.com.cn/20261117/c681901382.shtml",
+    "url": "https://wallstreetcn.com/livenews/3201132",
     "source": "机构观点"
    },
    {
@@ -1557,14 +1656,14 @@
     "source": "机构观点"
    },
    {
-    "title": "德银1500万份文件被泄露，“内部弊病”暴露无遗",
-    "org": "德银",
-    "rating": "",
-    "stock": "",
-    "industry": "",
+    "title": "三季报点评：收入高增长，用户平台及AI应用值得期待",
+    "org": "国信证券",
+    "rating": "增持",
+    "stock": "恺英网络",
+    "industry": "游戏Ⅱ",
     "date": "2026-11-17",
-    "url": "https://news.futunn.com/flash/1004714303/leak-of-15-million-deutsche-bank-documents-exposes-internal-malpractices",
-    "source": "机构观点"
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831783111",
+    "source": "东财研报·个股"
    },
    {
     "title": "汽车轴承构筑主业壁垒，机器人开启第二增长极",
@@ -1604,16 +1703,6 @@
     "industry": "其他电源设备Ⅱ",
     "date": "2026-11-17",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831777103",
-    "source": "东财研报·个股"
-   },
-   {
-    "title": "2026年三季报点评：三大业务协同发力，盈利能力显著提升",
-    "org": "国信证券",
-    "rating": "增持",
-    "stock": "飞荣达",
-    "industry": "消费电子",
-    "date": "2026-11-17",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831777098",
     "source": "东财研报·个股"
    },
    {
@@ -1691,45 +1780,45 @@
  "alerts": [],
  "news": [
   {
-   "title": "巴林方面称拦截了来自伊朗的空中袭击。（巴林电视台）",
-   "summary": "巴林方面称拦截了来自伊朗的空中袭击。（巴林电视台）",
-   "time": "2026-11-17 15:29",
-   "url": "https://wallstreetcn.com/livenews/3201106",
+   "title": "德意志银行欧股下跌6.2%，此前有报道称该行曾处理爱泼斯坦相关巨额款项。",
+   "summary": "德意志银行欧股下跌6.2%，此前有报道称该行曾处理爱泼斯坦相关巨额款项。",
+   "time": "2026-11-17 16:05",
+   "url": "https://wallstreetcn.com/livenews/3201132",
    "source": "华尔街见闻"
   },
   {
-   "title": "协创数据在上海成立词元星脉算力科技公司",
-   "summary": "【协创数据在上海成立词元星脉算力科技公司】天眼查App显示，11月16日，上海词元星脉算力科技有限公司成立，法定代表人为易洲，注册资本1000万元人民币，经营范围包括数据处理服务、软件开发、计算机软硬件及辅助设备零售等。股东信息显示，该公司由协创数据技术股份有限公司全资持股。",
-   "time": "2026-11-17 15:28:23",
-   "url": "https://finance.eastmoney.com/a/202611173932840757.html",
+   "title": "欧洲主要股指开盘集体下跌",
+   "summary": "【欧洲主要股指开盘集体下跌】欧洲主要股指开盘集体下跌，欧洲斯托克50指数跌0.71%，英国富时100指数跌0.77%，法国CAC40指数跌0.46%，德国DAX指数跌0.87%。",
+   "time": "2026-11-17 16:03:00",
+   "url": "https://finance.eastmoney.com/a/202611173932869760.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普称或将在中国与金正恩会面 中方回应 - 中国新闻网",
+   "title": "国海证券首予锐科激光“买入”评级 预计2026年营收40.02亿元 - 观点网",
    "summary": "",
-   "time": "2026-11-17 15:23",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rWGVSa3RYLUQxY1ZqYm9IUHBibktkUWxQelRZT3JVajVRQm8tSmN5SVBTbDFNSm80dlcxX2htcUhDckhwRkJ4WnhOZ1NZUUNVdzhTSTVwb0ZTSG8ydThaUDRSajZxUDFB?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "港股评级汇总：中泰证券维持华虹宏力买入评级 - 财联社",
-   "summary": "",
-   "time": "2026-11-17 15:21",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55TUh3UzhrMkdROXFHTWZuV3pydWZrNVA5bjdOcHZTam1JU19rS0F1TjAzcEdqdDVIdTdLbUpuNTFKeFNwN0Y2Vg?oc=5",
+   "time": "2026-11-17 15:57",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tQ1RpLUpSbXdNelc1Ujk4dUVnRHNQQy1VQVBsUHMwbmpBWGpJZGVtUFFSXzd4dG9yOHNSNTBtWjMxcElPSU05ckZnVE84cG1vbE1KY053aS11U1BPTEhDNklB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "荷兰国际集团与法兴银行拟出售近8亿美元数据中心相关债务",
+   "title": "APEC期间特朗普与普京将在中国会见金正恩？外交部回应 - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-17 07:32:17",
-   "url": "https://news.10jqka.com.cn/20261117/c681902350.shtml",
+   "time": "2026-11-17 15:52",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoNFN3Q3lfSDZnR09RLUZXS1pEbzNPSkdRakc5UzBnT242SFhUQTB3NFE0M1Fmc0U0NkFGZzFjZy1XY2lhOUdsRUVla1ViNGxBZ1NoMDV0SEppVXFtT3JJag?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "纽约市将解散备受争议警队",
+   "summary": "",
+   "time": "2026-11-17 08:00:11",
+   "url": "https://news.10jqka.com.cn/20261117/c681903204.shtml",
    "source": "同花顺"
   },
   {
-   "title": "医疗服务价格“有升有降” 群众就医负担总体稳定",
+   "title": "京东方A：股东40.63亿股股份将无偿划转至北京电控",
    "summary": "",
-   "time": "2026-11-17 07:31:33",
-   "url": "https://news.futunn.com/flash/1004719436/medical-service-prices-see-both-increases-and-decreases-overall-burden",
+   "time": "2026-11-17 07:59:47",
+   "url": "https://news.futunn.com/flash/1004724066/boe-a-4-063-billion-shares-to-be-transferred-free",
    "source": "富途"
   },
   {
@@ -1747,45 +1836,45 @@
    "source": "财新"
   },
   {
-   "title": "法国总统马克龙：法国和马来西亚或将启动核能合作。\n\n法国与马来西亚都不希望同中国或美国脱钩。",
-   "summary": "法国总统马克龙：法国和马来西亚或将启动核能合作。\n\n法国与马来西亚都不希望同中国或美国脱钩。",
-   "time": "2026-11-17 15:27",
-   "url": "https://wallstreetcn.com/livenews/3201105",
+   "title": "共同社：预计日本和俄罗斯领导人将在APEC会议期间会晤。",
+   "summary": "共同社：预计日本和俄罗斯领导人将在APEC会议期间会晤。",
+   "time": "2026-11-17 16:03",
+   "url": "https://wallstreetcn.com/livenews/3201131",
    "source": "华尔街见闻"
   },
   {
-   "title": "外交部回应美国政府调查涉英伟达芯片一事",
-   "summary": "【外交部回应美国政府调查涉英伟达芯片一事】11月17日，外交部发言人郭嘉昆主持例行记者会。有记者提问：据报道，美国政府正在调查新加坡某公司，指控其涉嫌非法向中方转运英伟达的芯片。请问中方对此有何评论？郭嘉昆表示，我要强调中方在美国输华芯片的问题上的立场是一贯的。",
-   "time": "2026-11-17 15:25:06",
-   "url": "https://finance.eastmoney.com/a/202611173932835930.html",
+   "title": "11月17日涨停复盘：37只股涨停 瀛通通讯6天4板",
+   "summary": "【11月17日涨停复盘：37只股涨停 瀛通通讯6天4板】涨停个股数量方面，今日共计37股涨停，另有23只个股盘中一度触及涨停，封板率61.67%。",
+   "time": "2026-11-17 16:02:07",
+   "url": "https://finance.eastmoney.com/a/202611173932867192.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普说可能与金正恩在中国举行会晤，外交部：没有这方面的信息 - 京报网",
+   "title": "券商今日金股：8份研报力推一股（名单） - 同花顺财经",
    "summary": "",
-   "time": "2026-11-17 15:19",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5PZ256dUZqb2V6SVVDZmwtbERZWTd2WWk5cEcybEhISU9uZ0pSdmlFdGp0YUd2ZmlXOUE3NjhzME03ZjkxTW1LYTE3LVBOT3NFY21wVjhoYjYtblp0bEE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "山西证券：首次覆盖光洋股份给予增持评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-17 15:10",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1kTVduS3Y3ZlJQRXlRZHczOGJsSFdEbkNheFROcWppM0FPQU1TOTY0NjFhaThJcTBYWDVKVDBYLVRDcl9EWEFCc3F6ZlkzUHpITjlQb2pSa01hc2VmQ2lucnNR?oc=5",
+   "time": "2026-11-17 15:51",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1Ub3NwaHdJNU9XaFNfQzQ0M2FabmVCbDFvbk9fOU01T01yWDhCbk8ydU5KQk9HWDk4UGExV09qVEpPOWFjM3gwWWd4YUo0TjVrSzJKbEhPb05RaFd0eC1sYmxB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "信达生物：武田获日本厚生劳动省授予坦康阿妥塔单抗SAKIGAKE（先驱）认定",
+   "title": "中方如何评价特朗普称“可能会与金正恩在中国会面”言论？外交部回应 - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-17 07:24:43",
-   "url": "https://news.10jqka.com.cn/20261117/c681902169.shtml",
+   "time": "2026-11-17 15:25",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5qczJIakVsanhjRzhVZndLR0NURlpzaDhtVzEwRzE3SkRSQTJvNmFIZDN6bUVITjhsUGtSUGZabnV6RXF6TDdFUzVYUFNvbHBTdUNXVXFNLTZpTVBwSWpoag?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "海利尔：子公司青岛恒宁二期6000吨氟唑菌酰胺及3000吨联苯吡菌胺项目进入试生产",
+   "summary": "",
+   "time": "2026-11-17 07:57:54",
+   "url": "https://news.10jqka.com.cn/20261117/c681903122.shtml",
    "source": "同花顺"
   },
   {
-   "title": "印度石油天然气公司：安得拉邦油井发生天然气泄漏，控井作业正在进行",
+   "title": "因担忧埃博拉疫情，巴里克公司让刚果一金矿的部分人员暂时离岗",
    "summary": "",
-   "time": "2026-11-17 07:30:33",
-   "url": "https://news.futunn.com/flash/1004719216/oil-and-natural-gas-corporation-natural-gas-leak-at-andhra",
+   "time": "2026-11-17 07:52:48",
+   "url": "https://news.futunn.com/flash/1004723000/amid-concerns-over-the-ebola-outbreak-barrick-has-placed-some",
    "source": "富途"
   },
   {
@@ -1803,45 +1892,45 @@
    "source": "财新"
   },
   {
-   "title": "外交部：美方滥用出口管制措施 中方将坚决维护自身正当权益",
-   "summary": "外交部发言人郭嘉昆主持例行记者会。有记者提问：16日，美国商务部发布了《限制远程获取先进半导体》临时最终规则，中方对此有何评论？\n\n郭嘉昆表示，美方不断泛化国家安全概念，滥用出口管制措施，甚至横加干涉中国同其他国家开展正常贸易与科技合作，无理打压中国高新技术产业发展。这是典型的经济胁迫和长臂管辖，背离双方达成的共识，损害中国企业正当权益，扰乱全球产供链稳定。中方将采取必要措施坚决维护自身正当权益。",
-   "time": "2026-11-17 15:21",
-   "url": "https://wallstreetcn.com/livenews/3201100",
+   "title": "欧股集体低开",
+   "summary": "欧洲斯托克50指数开盘跌0.8%，德国DAX指数跌0.9%，英国富时100指数跌0.8%，法国CAC 40指数跌0.5%。",
+   "time": "2026-11-17 16:01",
+   "url": "https://wallstreetcn.com/livenews/3201129",
    "source": "华尔街见闻"
   },
   {
-   "title": "外交部回应相关国家免签政策将于今年年底到期",
-   "summary": "【外交部回应相关国家免签政策将于今年年底到期】11月17日，外交部发言人郭嘉昆主持例行记者会。有记者提问：中方对包括西班牙和德国在内的多国免签政策将于今年年底到期，是否会延期？政策何时会公布？郭嘉昆表示，中方重视中外人员往来便利化，正在认真研究相关的政策。",
-   "time": "2026-11-17 15:23:17",
-   "url": "https://finance.eastmoney.com/a/202611173932835474.html",
+   "title": "我国牵头制定的甲醛净化效果评价国际标准正式发布",
+   "summary": "【我国牵头制定的甲醛净化效果评价国际标准正式发布】据国家标准委，国际标准化组织（ISO）近日正式发布由我国牵头制定的《色漆和清漆袋式法评定内墙涂料甲醛净化效果》国际标准。",
+   "time": "2026-11-17 16:02:04",
+   "url": "https://finance.eastmoney.com/a/202611173932868631.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普和习近平要在深圳聊什么？ - BBC",
+   "title": "港股评级汇总：中泰证券维持华虹宏力买入评级 - 财联社",
    "summary": "",
-   "time": "2026-11-17 15:15",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XTGVTOU9XSTRjcHdrcVlmNktlamUwUHVJVmR6TzliUEk3X1NIWFViX0x4dGZBaEpvMlRJVTNuaHd2RURiV21qSVlfbG9PQXhmZWtUX0NXN0hRZm1VQ3FCcWg3aGNuQTDSAWxBVV95cUxOUkFQZ2RuNU1PTzBEYUFvY0phM0k5Xzc2QUxZd19mVTN0LUFxaW9qMGFMNDhKRlo1ellRRDRzbmlwUFdOOVozSXViOWVvcmFjZmRwbnBpUkx6MmNIbzBHMkFWUWNTQjFVNHgwbDA?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "中银证券：给予中国石油买入评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-17 14:55",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YaUtocy1BR2t2ZE9XRXBHaUcyUm9va2dmYndGamZWblNneWVOTGdVbDlpaEZmMHFLSFdWOXRncWNna2NVeEJ6MlUwYkM1a1A4TE9pZ2liR19tdDktQXhCclZ3?oc=5",
+   "time": "2026-11-17 15:21",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE55TUh3UzhrMkdROXFHTWZuV3pydWZrNVA5bjdOcHZTam1JU19rS0F1TjAzcEdqdDVIdTdLbUpuNTFKeFNwN0Y2Vg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "到2030年地理标志产品直接产值预期超1万亿",
+   "title": "特朗普称或将在中国与金正恩会面 中方回应 - 中国新闻网",
    "summary": "",
-   "time": "2026-11-17 07:22:58",
-   "url": "https://news.10jqka.com.cn/20261117/c681902134.shtml",
+   "time": "2026-11-17 15:23",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5rWGVSa3RYLUQxY1ZqYm9IUHBibktkUWxQelRZT3JVajVRQm8tSmN5SVBTbDFNSm80dlcxX2htcUhDckhwRkJ4WnhOZ1NZUUNVdzhTSTVwb0ZTSG8ydThaUDRSajZxUDFB?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "习近平会见墨西哥总统辛鲍姆",
+   "summary": "",
+   "time": "2026-11-17 07:57:41",
+   "url": "https://news.10jqka.com.cn/20261117/c681903119.shtml",
    "source": "同花顺"
   },
   {
-   "title": "日本提议建立一个“亚洲版国际能源署（IEA）”",
+   "title": "受伊朗战事影响，迪拜机场客运量下滑22%",
    "summary": "",
-   "time": "2026-11-17 07:27:53",
-   "url": "https://news.futunn.com/flash/1004718901/japan-proposes-establishing-an-asian-version-of-the-international-energy",
+   "time": "2026-11-17 07:49:49",
+   "url": "https://news.futunn.com/flash/1004722373/affected-by-the-conflict-in-iran-passenger-traffic-at-dubai",
    "source": "富途"
   },
   {
@@ -1852,10 +1941,10 @@
    "source": "财新"
   },
   {
-   "title": "国债期货收盘，30年期主力合约涨0.88%",
-   "summary": "国债期货收盘，30年期主力合约涨0.88%，10年期主力合约涨0.21%，5年期主力合约涨0.11%，2年期主力合约涨0.02%。",
-   "time": "2026-11-17 15:16",
-   "url": "https://wallstreetcn.com/livenews/3201097",
+   "title": "董明珠现身APEC会议现场",
+   "summary": "2026年APEC工商领导人峰会今日在深圳举办。下午3点10分左右，董明珠现身会议现场。据悉，董明珠将参与主题为“粤港澳大湾区与亚太发展机遇”的专题研讨。（证券时报）",
+   "time": "2026-11-17 16:00",
+   "url": "https://wallstreetcn.com/livenews/3201128",
    "source": "华尔街见闻"
   }
  ],
@@ -1863,7 +1952,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(25)",
+   "富途": "ok(22)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1874,8 +1963,8 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
