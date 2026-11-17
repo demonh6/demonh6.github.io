@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 10:26:44 CST",
- "generated_at_iso": "2026-11-17T10:26:44+08:00",
+ "generated_at": "2026-11-17 10:35:01 CST",
+ "generated_at_iso": "2026-11-17T10:35:01+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -11,9 +11,9 @@
     "name": "上证指数",
     "code": "sh000001",
     "sym": "000001.SH",
-    "price": 3575.3718,
-    "change": -27.198,
-    "change_pct": -0.75,
+    "price": 3572.7942,
+    "change": -29.7756,
+    "change_pct": -0.83,
     "hist": [
      3823.621,
      3830.451,
@@ -87,25 +87,25 @@
     "name": "深证成指",
     "code": "sz399001",
     "sym": "399001.SZ",
-    "price": 10653.159,
-    "change": -37.619,
-    "change_pct": -0.35
+    "price": 10626.47,
+    "change": -64.308,
+    "change_pct": -0.6
    },
    {
     "name": "创业板指",
     "code": "sz399006",
     "sym": "399006.SZ",
-    "price": 2310.396,
-    "change": -9.624,
-    "change_pct": -0.41
+    "price": 2301.619,
+    "change": -18.401,
+    "change_pct": -0.79
    },
    {
     "name": "科创50",
     "code": "sh000688",
     "sym": "000688.SH",
-    "price": 1209.7161,
-    "change": -3.9672,
-    "change_pct": -0.33,
+    "price": 1200.4561,
+    "change": -13.2272,
+    "change_pct": -1.09,
     "hist": [
      1555.98,
      1569.338,
@@ -179,9 +179,9 @@
     "name": "沪深300",
     "code": "sh000300",
     "sym": "000300.SH",
-    "price": 3958.1805,
-    "change": -21.623,
-    "change_pct": -0.54,
+    "price": 3954.7767,
+    "change": -25.0268,
+    "change_pct": -0.63,
     "hist": [
      4340.755,
      4345.209,
@@ -255,8 +255,8 @@
     "name": "上证50",
     "code": "sh000016",
     "sym": "000016.SH",
-    "price": 2746.5951,
-    "change": -19.9786,
+    "price": 2746.5167,
+    "change": -20.057,
     "change_pct": -0.72,
     "hist": [
      2806.942,
@@ -331,9 +331,9 @@
     "name": "中证500",
     "code": "sh000905",
     "sym": "000905.SH",
-    "price": 6280.0528,
-    "change": -17.1301,
-    "change_pct": -0.27,
+    "price": 6262.6558,
+    "change": -34.5271,
+    "change_pct": -0.55,
     "hist": [
      7402.295,
      7439.627,
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 23455.68,
-    "change": -298.16,
-    "change_pct": -1.25,
+    "price": 23450.129,
+    "change": -303.711,
+    "change_pct": -1.28,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3744.55,
-    "change": -57.09,
-    "change_pct": -1.5,
+    "price": 3733.17,
+    "change": -68.47,
+    "change_pct": -1.8,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 7892.649,
-    "change": -88.891,
-    "change_pct": -1.11,
+    "price": 7891.609,
+    "change": -89.931,
+    "change_pct": -1.13,
     "hist": [
      8030.54,
      8051.6704,
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 59109.89,
-    "change": -552.13,
-    "change_pct": -0.93,
+    "price": 59190.7813,
+    "change": -471.24,
+    "change_pct": -0.79,
     "hist": [
      69946.86,
      70683.98,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5040.94,
-    "change": -59.56,
-    "change_pct": -1.17,
+    "price": 5056.6699,
+    "change": -43.83,
+    "change_pct": -0.86,
     "hist": [
      6941.39,
      6803.9,
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 81592.4531,
+    "change": -318.55,
+    "change_pct": -0.39
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 41040.08,
+    "change": -2635.04,
+    "change_pct": -6.03
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 26598.64,
+    "change": -151.31,
+    "change_pct": -0.57
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10892.93,
-    "change": -9.63,
-    "change_pct": -0.09,
+    "price": 10881.55,
+    "change": -21.01,
+    "change_pct": -0.19,
     "hist": [
      10541.69,
      10458.5,
@@ -1170,7 +1191,7 @@
     "name": "欧洲斯托克50",
     "sym": "SX5E",
     "price": 6348.35,
-    "change": -38.51,
+    "change": -38.52,
     "change_pct": -0.6,
     "hist": [
      6272.24,
@@ -1205,6 +1226,13 @@
      6348.35
     ],
     "sigma": 1.003
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2478.25,
+    "change": -31.42,
+    "change_pct": -1.25
    }
   ]
  },
@@ -1256,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3869.368,
-    "change": 16.368,
-    "change_pct": 0.42,
-    "quote_time": "10:26:46 2026-11-17"
+    "price": 3868.25,
+    "change": 15.25,
+    "change_pct": 0.4,
+    "quote_time": "10:35:05 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.189,
-    "change": 0.33,
-    "change_pct": 0.7,
-    "quote_time": "10:26:45 2026-11-17"
+    "price": 47.262,
+    "change": 0.403,
+    "change_pct": 0.86,
+    "quote_time": "10:35:06 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.963,
-    "change": -0.757,
-    "change_pct": -0.88,
-    "quote_time": "10:26:43 2026-11-17"
+    "price": 84.748,
+    "change": -0.972,
+    "change_pct": -1.13,
+    "quote_time": "10:35:06 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.525,
-    "change": -0.915,
-    "change_pct": -0.99,
-    "quote_time": "10:26:47 2026-11-17"
+    "price": 91.278,
+    "change": -1.162,
+    "change_pct": -1.26,
+    "quote_time": "10:34:57 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64544.5,
-    "change": -727.3,
-    "change_pct": -1.11,
+    "price": 64425.1,
+    "change": -745.9,
+    "change_pct": -1.14,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1817.71,
-    "change": -14.13,
-    "change_pct": -0.77,
+    "price": 1811.8,
+    "change": -15.92,
+    "change_pct": -0.87,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.76,
-    "change": -0.88,
-    "change_pct": -1.21,
+    "price": 71.66,
+    "change": -0.68,
+    "change_pct": -0.94,
     "source": "okx"
    }
   ],
@@ -1333,9 +1361,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6649,
-    "change": 0.0002,
-    "change_pct": 0.0,
+    "price": 6.6651,
+    "change": 0.0004,
+    "change_pct": 0.01,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1344,13 +1372,13 @@
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 131.96,
-    "change": 0.1,
-    "change_pct": 0.08,
+    "price": 132.16,
+    "change": 0.3,
+    "change_pct": 0.23,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-17",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1363,6 +1391,15 @@
    "timestamp": "2026-11-17",
    "source": "alternative.me"
   },
+  "a_share_breadth": {
+   "up": 1261,
+   "down": 3872,
+   "flat": 161,
+   "total": 5294,
+   "breadth_pct": 23.8,
+   "score": 0.0,
+   "source": "东财"
+  },
   "vix": {
    "value": 22.91,
    "change": 3.61,
@@ -1371,7 +1408,6 @@
    "color": "#d9b23c",
    "source": "CBOE",
    "spark": [
-    15.52,
     15.01,
     15.08,
     15.41,
@@ -1400,7 +1436,8 @@
     19.46,
     17.49,
     18.7,
-    19.3
+    19.3,
+    22.91
    ],
    "vix3m": 23.02,
    "term": "持平"
@@ -1431,19 +1468,40 @@
    "ratio_9d_3m": 1.006,
    "shape": "平坦",
    "source": "CBOE"
+  },
+  "composite": {
+   "score": 20.8,
+   "label": "冰点",
+   "color": "#f04a3d",
+   "basis": "A股广度 60% + 盘面结构 40%",
+   "parts": {
+    "breadth": 0.0,
+    "structure": 52.1
+   }
   }
  },
  "speakers": [
   {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "暴跌加剧！没了黄仁勋 眼下最“提心吊胆”的是新云企业？",
-   "summary": "【暴跌加剧！没了黄仁勋 眼下最“提心吊胆”的是新云企业？】近年来，黄仁勋将英伟达公司打造成了全球市值最高的企业，并利用其雄厚的财力为新云企业提供资金支持——这是一种囤积芯片并出租算力的新兴业务模式。然而如今，他的离职不禁让人质疑：正当这些新云初创企业最需要资金支持的时候，它们还能否继续指望英伟达的慷慨资助？",
-   "time": "2026-11-17 10:04:21",
-   "url": "https://finance.eastmoney.com/a/202611173932702670.html",
-   "source": "东财国际",
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储画出AI三种结局！沃什警告：要么生产率腾飞，要么失业飙升、股市回调 - 金融界",
+   "summary": "",
+   "time": "2026-11-17 10:20",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51QnpzY2V4V1NUZGtQdEdyd0YwdkFLZzROSmlCanQxSU94cUpTRzFqQXJuQ0VYMmdyb3JnQjZxcHotS3ctTWhmVUstQ2xFRmhHcHdoXzdYTndqcF96M3QyMlczekpRdw?oc=5",
+   "source": "谷歌新闻·国际",
    "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普访华前，美国推进新规封堵芯片出口漏洞 - 纽约时报中文网",
+   "summary": "",
+   "time": "2026-11-17 10:16",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpU2V1WnZhcjJrRWgtMzBsUlJhTjB1Ymw3MU1QS3hPcmZlNkpXT3g3U1hJOWdrekc0TlFMLTloOFphajQzZ21CRjJMQks1UHlndlZCaWZ6czdEbUN1SFlvdFVBZ2tqNkV3blJFX1hrbzNSNHM?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1658,28 +1716,36 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌6.03%，达20日历史波动率的 5.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-17 10:35",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  }
+ ],
  "news": [
   {
-   "title": "中国10月末境外机构持有银行间市场债券3.23万亿元人民币。",
-   "summary": "中国10月末境外机构持有银行间市场债券3.23万亿元人民币。",
-   "time": "2026-11-17 10:10",
-   "url": "https://wallstreetcn.com/livenews/3200959",
+   "title": "印尼基准股指上涨1%。",
+   "summary": "印尼基准股指上涨1%。",
+   "time": "2026-11-17 10:35",
+   "url": "https://wallstreetcn.com/livenews/3200970",
    "source": "华尔街见闻"
   },
   {
-   "title": "江特电机拟与关联方等共同投资锂离子电容器公司",
-   "summary": "【江特电机拟与关联方等共同投资锂离子电容器公司】江特电机11月16日晚间公告，为把握储能产业链关键环节的发展机会，借助专业投资管理机构的资源与能力，公司拟以A类有限合伙人身份认缴出资2650万元，占合伙企业认缴出资总额4000万元的66.250%。合伙企业为专项投资基金，将以股权投资形式投资且仅投资于北京绿发中科锂电容科技有限公司。",
-   "time": "2026-11-17 10:08:06",
-   "url": "https://finance.eastmoney.com/a/202611173932705353.html",
+   "title": "新锐股份：凿岩工具产品全球市占率仍有较大增长空间",
+   "summary": "【新锐股份：凿岩工具产品全球市占率仍有较大增长空间】新锐股份(688257)在2026年第三季度业绩说明会上表示，凿岩工具是公司重要的业务板块，产品主要应用于矿山开采、基础设施建设等领域，应用场景较为广泛，需求受单一周期性因素影响相对较小。从市场格局来看，随着产品性能提升、全球市场拓展的持续推进，公司凿岩工具产品的全球市场占有率仍有较大增长空间。",
+   "time": "2026-11-17 10:32:00",
+   "url": "https://finance.eastmoney.com/a/202611173932720598.html",
    "source": "东财国际"
   },
   {
-   "title": "贵州茅台等获3家券商强推，3分析师近6月推荐成功率100%丨券商评级观察-证券之星 - 证券之星",
+   "title": "美联储画出AI三种结局！沃什警告：要么生产率腾飞，要么失业飙升、股市回调 - 金融界",
    "summary": "",
-   "time": "2026-11-17 09:50",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9Oa1ZWT3didUwxY0Fya1A3Z3A2cHBTY3FPNXFWWnBRdFkzZ3hDQ1g2RVYtb211bGVCdmRtdTFCNVM2QWVMc2NFTXlRUE9wYmVSTnVXeUVzQ2RBS1NLbEE?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-17 10:20",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE51QnpzY2V4V1NUZGtQdEdyd0YwdkFLZzROSmlCanQxSU94cUpTRzFqQXJuQ0VYMmdyb3JnQjZxcHotS3ctTWhmVUstQ2xFRmhHcHdoXzdYTndqcF96M3QyMlczekpRdw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1689,17 +1755,17 @@
    "source": "东财早报"
   },
   {
-   "title": "宏和科技在扬州成立电子材料科技公司",
+   "title": "上期所原油主力合约大跌7%",
    "summary": "",
-   "time": "2026-11-17 02:09:43",
-   "url": "https://news.10jqka.com.cn/20261117/c681889530.shtml",
+   "time": "2026-11-17 02:34:55",
+   "url": "https://news.10jqka.com.cn/20261117/c681890805.shtml",
    "source": "同花顺"
   },
   {
-   "title": "专家称金价跌了别着急抄底",
+   "title": "APEC“中国年”一系列会议和活动取得丰硕成果",
    "summary": "",
-   "time": "2026-11-17 02:08:45",
-   "url": "https://news.futunn.com/flash/1004686903/experts-advise-against-hastily-buying-the-bottom-as-gold-prices",
+   "time": "2026-11-17 02:33:53",
+   "url": "https://news.futunn.com/flash/1004691418/a-series-of-meetings-and-activities-during-the-apec-china",
    "source": "富途"
   },
   {
@@ -1710,25 +1776,25 @@
    "source": "财新"
   },
   {
-   "title": "曾毓群、李彦宏、王兴兴、王传福、雷军、何超琼、董明珠、李东生、周群飞等，今天齐聚深圳",
-   "summary": "11月17日，2026年亚太经合组织（APEC）工商领导人峰会在深圳前海国际会议中心开幕。 从主办方公布的详细议程看，曾毓群、李彦宏、王兴兴、王传福、雷军、何超琼、董明珠、李东生、周群飞等中国企业家将参与专题研讨；外企方面，Visa、万事达卡等企业的全球首席执行官，以及花旗、谷歌、波音等企业高管将出席。比亚迪、中兴、优必选等深圳企业也将在“家门口”登台发声。（21财经）",
-   "time": "2026-11-17 10:08",
-   "url": "https://wallstreetcn.com/livenews/3200956",
+   "title": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报89100元/吨，较上日16:30价格下跌550元/吨。",
+   "summary": "上海钢联发布数据显示，今日MMLC电池级碳酸锂（早盘）中间价报89100元/吨，较上日16:30价格下跌550元/吨。",
+   "time": "2026-11-17 10:33",
+   "url": "https://wallstreetcn.com/livenews/3200969",
    "source": "华尔街见闻"
   },
   {
-   "title": "从邮件、航班到银行！摩根大通周一报告重大系统故障",
-   "summary": "【从邮件、航班到银行！摩根大通周一报告重大系统故障】继微软和美国空中交通管制系统之后，摩根大通银行在周一发生技术故障，引发了美国金融系统的连锁反应，数千名客户称无法访问几家美国主要银行（包括美银、富国等银行）和汇款服务Zelle的在线账户。",
-   "time": "2026-11-17 10:06:07",
-   "url": "https://finance.eastmoney.com/a/202611173932702990.html",
+   "title": "1.4亿、1.2亿，中国人民大学收到两笔捐款",
+   "summary": "【1.4亿、1.2亿，中国人民大学收到两笔捐款】据中国人民大学官方微信公众号消息，近期，中国人民大学收到两笔捐赠：一位社会爱心人士捐赠1.2亿元，用于支持通州校区全球领导力学院楼建设；一位校友捐赠1.4亿元，用于支持通州校区陕公堂建设。",
+   "time": "2026-11-17 10:31:05",
+   "url": "https://finance.eastmoney.com/a/202611173932707294.html",
    "source": "东财国际"
   },
   {
-   "title": "中金公司研报：当前至12月A股有望迎来修复行情 - 观点网",
+   "title": "特朗普访华前，美国推进新规封堵芯片出口漏洞 - 纽约时报中文网",
    "summary": "",
-   "time": "2026-11-17 09:34",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmVjh1cWRvTDA5U21XZ2NMaHVnMXRYMmMxbFNucENDMzhQTUN5WGhESVJfWXhlZW5SUW9xMTI3NGR5Z2ppMDd6c3FxSFZpZmF1ekxCMjFvTkdvdExvUTVEb2lB?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-17 10:16",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpU2V1WnZhcjJrRWgtMzBsUlJhTjB1Ymw3MU1QS3hPcmZlNkpXT3g3U1hJOWdrekc0TlFMLTloOFphajQzZ21CRjJMQks1UHlndlZCaWZ6czdEbUN1SFlvdFVBZ2tqNkV3blJFX1hrbzNSNHM?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1738,17 +1804,17 @@
    "source": "东财早报"
   },
   {
-   "title": "半导体材料板块短线拉升",
+   "title": "上期所燃油主力合约大跌7% 沥青主力合约大跌5%",
    "summary": "",
-   "time": "2026-11-17 02:07:36",
-   "url": "https://news.10jqka.com.cn/20261117/c681889442.shtml",
+   "time": "2026-11-17 02:32:55",
+   "url": "https://news.10jqka.com.cn/20261117/c681890700.shtml",
    "source": "同花顺"
   },
   {
-   "title": "日本暂缓推出新型浮息国债 重新评估市场需求",
+   "title": "央行上海总部：截至10月末境外机构持有银行间市场债券3.23万亿元",
    "summary": "",
-   "time": "2026-11-17 02:01:39",
-   "url": "https://news.futunn.com/flash/1004685927/japan-postpones-launch-of-new-floating-rate-government-bonds-to",
+   "time": "2026-11-17 02:18:59",
+   "url": "https://news.futunn.com/flash/1004688708/pboc-shanghai-head-office-overseas-institutions-held-rmb-3-23",
    "source": "富途"
   },
   {
@@ -1759,38 +1825,38 @@
    "source": "财新"
   },
   {
-   "title": "国家超级计算深圳中心“灵晟”蝉联全球超算榜首。",
-   "summary": "国家超级计算深圳中心“灵晟”蝉联全球超算榜首。",
-   "time": "2026-11-17 10:08",
-   "url": "https://wallstreetcn.com/livenews/3200955",
+   "title": "截至早盘收盘，日经225指数、东证指数均跌1.2%。",
+   "summary": "截至早盘收盘，日经225指数、东证指数均跌1.2%。",
+   "time": "2026-11-17 10:32",
+   "url": "https://wallstreetcn.com/livenews/3200968",
    "source": "华尔街见闻"
   },
   {
-   "title": "暴跌加剧！没了黄仁勋 眼下最“提心吊胆”的是新云企业？",
-   "summary": "【暴跌加剧！没了黄仁勋 眼下最“提心吊胆”的是新云企业？】近年来，黄仁勋将英伟达公司打造成了全球市值最高的企业，并利用其雄厚的财力为新云企业提供资金支持——这是一种囤积芯片并出租算力的新兴业务模式。然而如今，他的离职不禁让人质疑：正当这些新云初创企业最需要资金支持的时候，它们还能否继续指望英伟达的慷慨资助？",
-   "time": "2026-11-17 10:04:21",
-   "url": "https://finance.eastmoney.com/a/202611173932702670.html",
+   "title": "于东来：再买310辆“坦克700”安排给管理团队",
+   "summary": "【于东来：再买310辆“坦克700”安排给管理团队】11月16日，胖东来创始人于东来在个人社交媒体账号上晒出了胖东来今年截至11月15日的经营状况，并宣布公司再购310辆“坦克700”安排给管理团队。于东来表示，这是为了让创造美好的人们同时拥有更好品质的生活。",
+   "time": "2026-11-17 10:29:40",
+   "url": "https://finance.eastmoney.com/a/202611173932720356.html",
    "source": "东财国际"
   },
   {
-   "title": "壹评级：电力需求短期波动，火水电及核电配置价值凸显 - 第一财经",
+   "title": "现场画面！特朗普启程亚洲行，准备参与APEC会议 - 新蓝网",
    "summary": "",
-   "time": "2026-11-17 09:22",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3aFFlcGsyc05fR3pLY0FrMF9KeVhGRDltdTg2ZTFqSWdac1BZYUdtY2wxaHgyUjVQSTFDdGdtbDFabEZvVVJkWDl3bnFfMHE5Z25tMA?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-17 09:38",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JczhIWDg5WDRpOTRlTHU3dWVVaWFLWm5OaTJtNmJoQVZQeXJ2VlpydFF6MmVTamhkTFIwRTByR1E0dXZMa0ZDd1p1S0I4ckU?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "上期所原油主力合约大跌6%",
+   "title": "调查：美国高校国际学生人数连续两年大幅下降",
    "summary": "",
-   "time": "2026-11-17 02:04:33",
-   "url": "https://news.10jqka.com.cn/20261117/c681889234.shtml",
+   "time": "2026-11-17 02:30:12",
+   "url": "https://news.10jqka.com.cn/20261117/c681890571.shtml",
    "source": "同花顺"
   },
   {
-   "title": "大型运投无人机“长鹰-8”完成运输投送试验",
+   "title": "国盛证券：看好触觉技术商业化突破带来的投资机会",
    "summary": "",
-   "time": "2026-11-17 02:00:50",
-   "url": "https://news.futunn.com/flash/1004685616/the-changying-8-a-large-transport-and-delivery-uav-completes",
+   "time": "2026-11-17 02:15:02",
+   "url": "https://news.futunn.com/flash/1004688073/guosheng-securities-optimistic-about-investment-opportunities-driven-by-commercial-breakthroughs",
    "source": "富途"
   },
   {
@@ -1801,31 +1867,31 @@
    "source": "财新"
   },
   {
-   "title": "受贿数额特别巨大，中国核工业集团有限公司原党组副书记、总经理顾军被提起公诉。（央视）",
-   "summary": "受贿数额特别巨大，中国核工业集团有限公司原党组副书记、总经理顾军被提起公诉。（央视）",
-   "time": "2026-11-17 10:01",
-   "url": "https://wallstreetcn.com/livenews/3200951",
+   "title": "习近平会见加拿大总理卡尼",
+   "summary": "11月17日上午，国家主席习近平在深圳会见来华出席亚太经合组织第三十三次领导人非正式会议的加拿大总理卡尼。（央视）",
+   "time": "2026-11-17 10:31",
+   "url": "https://wallstreetcn.com/livenews/3200967",
    "source": "华尔街见闻"
   },
   {
-   "title": "李彦宏：推进AI搜索转型过程中优先考虑用户体验 非短期变现",
-   "summary": "【李彦宏：推进AI搜索转型过程中优先考虑用户体验 非短期变现】AI云基础设施成为百度本季度业绩的最大亮点。11月16日，百度发布2026年第三季度财报，一般性业务收入250亿元，同比增长1%。其中，AI云基础设施业务收入同比增长94%，GPU云、昆仑芯和MaaS合计贡献了AI云基础设施收入的一半以上。",
-   "time": "2026-11-17 10:03:19",
-   "url": "https://finance.eastmoney.com/a/202611173932702721.html",
+   "title": "中际旭创成交额达100亿元",
+   "summary": "A股中际旭创成交额达100亿元，现跌超1%。",
+   "time": "2026-11-17 10:28:19",
+   "url": "https://finance.eastmoney.com/a/202611173932720220.html",
    "source": "东财国际"
   },
   {
-   "title": "壹评级：10月金价仍在波动，对黄金珠宝板块维持中性评级 - 第一财经",
+   "title": "沃什发出转折点警告：AI革命正在逼美联储重新回答利率难题_外汇动态报道 - Fx678",
    "summary": "",
-   "time": "2026-11-17 09:20",
-   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1MbFRxczRKLVRDcVpZUTRJMzVCQjJOUkdqQzQ3ZWdxUEdnU09FYWs5M0NKUFV0NUdOZTRnV1dyaF9vUmJNdnAyWGlSUllUWlpEZDBzRg?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-17 09:37",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBEYVBGd3l6aGJpYWY2Si1WVEpKWHNDTVVlcXJHaHZ4LUdjRmxiSl8yUzBPZENoeHR3b3ZtVlRhVWZEbDJ5alpPQ3llT0RUTXZVWi1WbXdQaWZlZw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "金逸影视上演“天地板”",
+   "title": "勒庞称若当选总统将不再为乌克兰提供财政援助",
    "summary": "",
-   "time": "2026-11-17 02:04:08",
-   "url": "https://news.10jqka.com.cn/20261117/c681889215.shtml",
+   "time": "2026-11-17 02:29:52",
+   "url": "https://news.10jqka.com.cn/20261117/c681890552.shtml",
    "source": "同花顺"
   }
  ],
@@ -1833,18 +1899,18 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(19)",
+   "富途": "ok(21)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "FAIL:HTTPError",
-   "谷歌新闻·研报": "ok(30)"
+   "谷歌新闻·国际": "ok(30)",
+   "谷歌新闻·研报": "FAIL:HTTPError"
   },
   "counts": {
    "华尔街见闻": 8,
    "东财国际": 8,
-   "谷歌新闻·研报": 8,
+   "谷歌新闻·国际": 8,
    "东财早报": 2,
    "同花顺": 8,
    "富途": 7,
@@ -1927,19 +1993,19 @@
  },
  "structure": {
   "date": "2026-11-17",
-  "zt_count": 23,
-  "dt_count": 27,
-  "zb_count": 8,
-  "qs_count": 120,
-  "seal_rate": 74.2,
-  "first_board": 20,
+  "zt_count": 21,
+  "dt_count": 30,
+  "zb_count": 11,
+  "qs_count": 123,
+  "seal_rate": 65.6,
+  "first_board": 18,
   "continued": 3,
   "max_streak": 3,
   "ladder": [
    {
     "boards": 1,
     "label": "1板",
-    "count": 20
+    "count": 18
    },
    {
     "boards": 2,
@@ -1969,47 +2035,51 @@
   ],
   "industries": [
    {
-    "name": "环保设备",
-    "count": 3,
-    "share": 13.0
-   },
-   {
     "name": "电网设备",
     "count": 2,
-    "share": 8.7
+    "share": 9.5
    },
    {
     "name": "综合Ⅱ",
     "count": 2,
-    "share": 8.7
+    "share": 9.5
    },
    {
     "name": "IT服务Ⅱ",
     "count": 2,
-    "share": 8.7
+    "share": 9.5
    },
    {
-    "name": "通用设备",
+    "name": "环保设备",
     "count": 2,
-    "share": 8.7
+    "share": 9.5
+   },
+   {
+    "name": "电子化学",
+    "count": 2,
+    "share": 9.5
    },
    {
     "name": "工程机械",
     "count": 1,
-    "share": 4.3
+    "share": 4.8
    },
    {
     "name": "化学原料",
     "count": 1,
-    "share": 4.3
+    "share": 4.8
    },
    {
     "name": "白色家电",
     "count": 1,
-    "share": 4.3
+    "share": 4.8
    }
   ],
   "dt_industries": [
+   {
+    "name": "影视院线",
+    "count": 4
+   },
    {
     "name": "光伏设备",
     "count": 3
@@ -2025,10 +2095,6 @@
    {
     "name": "电视广播",
     "count": 2
-   },
-   {
-    "name": "通用设备",
-    "count": 2
    }
   ],
   "leaders": [
@@ -2036,58 +2102,64 @@
     "name": "华东重机",
     "code": "002685",
     "streak": 3,
-    "fund_yi": 4.36,
+    "fund_yi": 4.33,
     "industry": "工程机械",
     "change_pct": 10.02,
+    "broken": 0
+   },
+   {
+    "name": "长虹美菱",
+    "code": "000521",
+    "streak": 2,
+    "fund_yi": 1.49,
+    "industry": "白色家电",
+    "change_pct": 9.98,
     "broken": 0
    },
    {
     "name": "顺钠股份",
     "code": "000533",
     "streak": 2,
-    "fund_yi": 1.62,
+    "fund_yi": 1.37,
     "industry": "电网设备",
     "change_pct": 9.98,
     "broken": 6
    },
    {
-    "name": "长虹美菱",
-    "code": "000521",
-    "streak": 2,
-    "fund_yi": 1.52,
-    "industry": "白色家电",
-    "change_pct": 9.98,
-    "broken": 0
-   },
-   {
     "name": "华胜天成",
     "code": "600410",
     "streak": 1,
-    "fund_yi": 13.27,
+    "fund_yi": 9.9,
     "industry": "IT服务Ⅱ",
     "change_pct": 10.0,
     "broken": 1
    },
    {
-    "name": "有研新材",
-    "code": "600206",
+    "name": "摩恩电气",
+    "code": "002451",
     "streak": 1,
-    "fund_yi": 12.72,
-    "industry": "半导体",
-    "change_pct": 10.01,
-    "broken": 4
+    "fund_yi": 5.34,
+    "industry": "电网设备",
+    "change_pct": 10.03,
+    "broken": 0
    },
    {
-    "name": "海立股份",
-    "code": "600619",
+    "name": "江化微",
+    "code": "603078",
     "streak": 1,
-    "fund_yi": 5.88,
-    "industry": "家电零部",
-    "change_pct": 9.99,
+    "fund_yi": 4.91,
+    "industry": "电子化学",
+    "change_pct": 10.0,
     "broken": 0
    }
   ],
   "dt_leaders": [
+   {
+    "name": "惠城环保",
+    "code": "300779",
+    "industry": "环境治理",
+    "change_pct": -19.99
+   },
    {
     "name": "闽发铝业",
     "code": "002578",
@@ -2105,24 +2177,18 @@
     "code": "600838",
     "industry": "一般零售",
     "change_pct": -10.01
-   },
-   {
-    "name": "大东方",
-    "code": "600327",
-    "industry": "一般零售",
-    "change_pct": -9.98
    }
   ],
-  "index_pct": -0.75,
-  "score": 56.9,
+  "index_pct": -0.83,
+  "score": 52.1,
   "score_label": "中性",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
-   "封板率 74%（炸板 8 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
-   "跌停 27 家：个股层面的风险在释放，注意高位股与题材补跌。",
+   "封板率 66%（炸板 11 家）：多空分歧居中，涨停质量一般。",
+   "跌停 30 家：个股层面的风险在释放，注意高位股与题材补跌。",
    "最高 3 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
-   "连板 3 家 / 涨停 23 家（13%）：以首板为主，持续性待验证",
-   "涨停最集中的 环保设备 也只占 13%：热点分散，没有单一主线。"
+   "连板 3 家 / 涨停 21 家（14%）：以首板为主，持续性待验证",
+   "涨停最集中的 电网设备 也只占 10%：热点分散，没有单一主线。"
   ],
   "history": [
    {
@@ -2301,13 +2367,13 @@
    },
    {
     "date": "2026-11-17",
-    "zt": 23,
-    "dt": 27,
-    "zb": 8,
-    "seal": 74.2,
+    "zt": 21,
+    "dt": 30,
+    "zb": 11,
+    "seal": 65.6,
     "max_streak": 3,
-    "score": 56.9,
-    "index_pct": -0.75
+    "score": 52.1,
+    "index_pct": -0.83
    }
   ],
   "backfill_done": true
