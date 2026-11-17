@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 03:00:09 CST",
- "generated_at_iso": "2026-11-18T03:00:09+08:00",
+ "generated_at": "2026-11-18 03:09:02 CST",
+ "generated_at_iso": "2026-11-18T03:09:02+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50810.1211,
-    "change": -798.05,
-    "change_pct": -1.55,
-    "quote_time": "2026-11-18 02:59:52",
+    "price": 50762.1914,
+    "change": -845.98,
+    "change_pct": -1.64,
+    "quote_time": "2026-11-18 03:08:48",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24230.442,
-    "change": -279.3156,
-    "change_pct": -1.14,
-    "quote_time": "2026-11-18 03:00:09",
+    "price": 24246.6209,
+    "change": -263.1367,
+    "change_pct": -1.07,
+    "quote_time": "2026-11-18 03:09:00",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7329.1099,
-    "change": -87.48,
-    "change_pct": -1.18,
-    "quote_time": "2026-11-18 02:59:43",
+    "price": 7327.1001,
+    "change": -89.49,
+    "change_pct": -1.21,
+    "quote_time": "2026-11-18 03:08:43",
     "hist": [
      7773.9502,
      7818.9302,
@@ -875,6 +875,7 @@
     "change": -801.59,
     "change_pct": -1.34,
     "hist": [
+     68309.46,
      69946.86,
      70683.98,
      70035.71,
@@ -901,12 +902,11 @@
      58775.5,
      60459.58,
      61248.59,
-     60819.36,
-     61142.35,
-     59662.02,
-     58860.43
+     60819.3594,
+     61142.3516,
+     59662.0195
     ],
-    "sigma": 2.005,
+    "sigma": 1.995,
     "volume": 0.0,
     "vol_chg_pct": -100.0,
     "vol_pctile": 34.8,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3855.125,
-    "change": 2.125,
-    "change_pct": 0.06,
-    "quote_time": "03:00:13 2026-11-18"
+    "price": 3855.843,
+    "change": 2.843,
+    "change_pct": 0.07,
+    "quote_time": "03:08:59 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.251,
-    "change": 0.392,
-    "change_pct": 0.84,
-    "quote_time": "03:00:11 2026-11-18"
+    "price": 47.259,
+    "change": 0.4,
+    "change_pct": 0.85,
+    "quote_time": "03:08:40 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.57,
-    "change": 0.85,
-    "change_pct": 0.99,
-    "quote_time": "03:00:13 2026-11-18"
+    "price": 86.615,
+    "change": 0.895,
+    "change_pct": 1.04,
+    "quote_time": "03:09:04 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.57,
-    "change": 1.13,
-    "change_pct": 1.22,
-    "quote_time": "03:00:13 2026-11-18"
+    "price": 93.646,
+    "change": 1.206,
+    "change_pct": 1.3,
+    "quote_time": "03:09:05 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,9 +1294,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63746.4,
-    "change": -1243.3,
-    "change_pct": -1.91,
+    "price": 63762.4,
+    "change": -1163.4,
+    "change_pct": -1.79,
     "source": "okx",
     "hist": [
      82610.4,
@@ -1328,17 +1328,17 @@
      64747.7,
      64466.2,
      64112.8,
-     63727.6
+     63786.8
     ],
-    "sigma": 2.206
+    "sigma": 2.207
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1789.14,
-    "change": -30.15,
-    "change_pct": -1.66,
+    "price": 1791.18,
+    "change": -25.07,
+    "change_pct": -1.38,
     "source": "okx",
     "hist": [
      2441.27,
@@ -1370,17 +1370,17 @@
      1811.03,
      1820.08,
      1785.28,
-     1787.94
+     1791.76
     ],
-    "sigma": 3.139
+    "sigma": 3.145
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.42,
-    "change": 1.08,
-    "change_pct": 1.51,
+    "price": 72.56,
+    "change": 1.37,
+    "change_pct": 1.92,
     "source": "okx",
     "hist": [
      105.88,
@@ -1412,9 +1412,9 @@
      71.24,
      70.79,
      72.46,
-     72.36
+     72.52
     ],
-    "sigma": 3.261
+    "sigma": 3.267
    }
   ],
   "fx": [
@@ -1432,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6661,
-    "change": 0.0014,
+    "price": 6.666,
+    "change": 0.0013,
     "change_pct": 0.02,
     "dec": 4,
     "date": "",
@@ -1472,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 25.76,
-   "change": 2.85,
-   "change_pct": 12.44,
+   "value": 25.9,
+   "change": 2.99,
+   "change_pct": 13.0511,
    "label": "高波动",
    "color": "#f58a3d",
    "source": "CBOE",
@@ -1510,30 +1510,30 @@
     19.3,
     22.91
    ],
-   "vix3m": 24.91,
+   "vix3m": 25.02,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 27.59,
-     "change_pct": 19.1793
+     "value": 27.71,
+     "change_pct": 19.6976
     },
     {
      "t": "VIX",
-     "value": 25.76,
-     "change_pct": 12.44
+     "value": 25.9,
+     "change_pct": 13.0511
     },
     {
      "t": "VIX3M",
-     "value": 24.91,
-     "change_pct": 8.2103
+     "value": 25.02,
+     "change_pct": 8.6881
     },
     {
      "t": "VIX6M",
-     "value": 25.09,
-     "change_pct": 5.4645
+     "value": 25.18,
+     "change_pct": 5.8428
     }
    ],
    "ratio_9d_3m": 1.108,
@@ -1556,10 +1556,10 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普总统：美国正在“调查”伊朗正制定计划在华盛顿引爆“脏弹”的报道 - 美国之音",
+   "title": "特朗普开启亚洲行，在菲律宾最新表态：我期待访问中国 - 上观新闻",
    "summary": "",
-   "time": "2026-11-18 01:34",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmR9IB7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmRw?oc=5",
+   "time": "2026-11-18 02:40",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93QnNJQ3NLZVFhZFowOXdGQlNpaXpuaFQwY1ltLVNNcTk0RllpeEdjZ1h1aklXQXh1eEtGYnh4RnFtTnZjUElDRnNhalE0Ynk0ejF1SEx6d0hBQQ?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
   }
@@ -1714,31 +1714,38 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.76%，突破 2σ 警戒线）",
-   "time": "2026-11-18 03:01",
+   "time": "2026-11-18 03:09",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.62%，达20日历史波动率的 2.0 倍（σ=0.80%，突破 2σ 警戒线）",
-   "time": "2026-11-18 03:01",
+   "time": "2026-11-18 03:09",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 03:01",
+   "time": "2026-11-18 03:09",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "恒生指数主连夜盘收跌032%，报23414点。\n\n恒生科技指数主连夜盘收跌0.48%，报3732点。",
-   "summary": "恒生指数主连夜盘收跌032%，报23414点。\n\n恒生科技指数主连夜盘收跌0.48%，报3732点。",
-   "time": "2026-11-18 03:00",
-   "url": "https://wallstreetcn.com/livenews/3201472",
+   "title": "泽连斯基谈克里米亚大桥：此次袭击是乌克兰安全局及其他部门共同行动的结果。\n\n乌克兰导弹和无人机再次打击了俄罗斯在南部的一条关键军事动脉。\n\n我们早已告知俄罗斯，我们受够了桥梁、城市和能源基础设施遭袭。",
+   "summary": "泽连斯基谈克里米亚大桥：此次袭击是乌克兰安全局及其他部门共同行动的结果。\n\n乌克兰导弹和无人机再次打击了俄罗斯在南部的一条关键军事动脉。\n\n我们早已告知俄罗斯，我们受够了桥梁、城市和能源基础设施遭袭。",
+   "time": "2026-11-18 03:01",
+   "url": "https://wallstreetcn.com/livenews/3201474",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普开启亚洲行，在菲律宾最新表态：我期待访问中国 - 上观新闻",
+   "summary": "",
+   "time": "2026-11-18 02:40",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93QnNJQ3NLZVFhZFowOXdGQlNpaXpuaFQwY1ltLVNNcTk0RllpeEdjZ1h1aklXQXh1eEtGYnh4RnFtTnZjUElDRnNhalE0Ynk0ejF1SEx6d0hBQQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "扎克伯格：新的Muse模型即将登陆Microsoft Foundry",
@@ -1748,13 +1755,6 @@
    "source": "东财国际"
   },
   {
-   "title": "特朗普总统：美国正在“调查”伊朗正制定计划在华盛顿引爆“脏弹”的报道 - 美国之音",
-   "summary": "",
-   "time": "2026-11-18 01:34",
-   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmR9IB7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmRw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "风口研报 - 财联社",
    "summary": "",
    "time": "2026-11-17 22:02",
@@ -1762,10 +1762,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "NASA：Terra卫星将于12月1日停止收集数据",
+   "title": "耐克预计旗下品牌匡威将于2028年恢复增长",
    "summary": "",
-   "time": "2026-11-17 18:56:30",
-   "url": "https://news.10jqka.com.cn/20261118/c681925661.shtml",
+   "time": "2026-11-17 19:09:26",
+   "url": "https://news.10jqka.com.cn/20261118/c681925666.shtml",
    "source": "同花顺"
   },
   {
@@ -1790,11 +1790,18 @@
    "source": "财新"
   },
   {
-   "title": "美国国家航空航天局（NASA）宣布Terra卫星任务即将结束，Terra卫星将于2027年1月关闭所有航天器系统，并于12月1日停止收集数据。",
-   "summary": "美国国家航空航天局（NASA）宣布Terra卫星任务即将结束，Terra卫星将于2027年1月关闭所有航天器系统，并于12月1日停止收集数据。",
-   "time": "2026-11-18 02:57",
-   "url": "https://wallstreetcn.com/livenews/3201470",
+   "title": "在岸人民币兑美元（CNY）北京时间03:00收报6.6663元，较周一夜盘收盘跌21点。成交量340亿美元。",
+   "summary": "在岸人民币兑美元（CNY）北京时间03:00收报6.6663元，较周一夜盘收盘跌21点。成交量340亿美元。",
+   "time": "2026-11-18 03:01",
+   "url": "https://wallstreetcn.com/livenews/3201473",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普总统：美国正在“调查”伊朗正制定计划在华盛顿引爆“脏弹”的报道 - 美国之音",
+   "summary": "",
+   "time": "2026-11-18 01:34",
+   "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmR9IB7AFBVV95cUxQclkzMVBFd3VBYWtCMmVxTi1yaUhMRHFTSlFiVl85NmJULTBrNDRGVGhNRjJ6UDl2VmM4RXZNOUhEVTVudFhhSE8tWDRlY2dHM1Q0M2NBNDRyY0UtY09FUlB0THphRDFMVEhDYmxteXRwQWZ3UUZ5cXVMSEJCUExBR05SMUNjYm8wekpqT3RwZWpMZVdaUnVZODlWZWpZd1pOd3FBUGRoU2JObXdwNUNualRDVDlfWlVFOW1qWVZmZl9hUTFUcUVrTHE1dWtaUWZMWTdCcUlRS1ZONm1TU3Nxb0M4bzJpX0IxemNmRw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "微软：与埃森哲、Adobe、毕马威、万事达卡、沃尔沃汽车等合作 协助制定AI系统开放标准",
@@ -1804,13 +1811,6 @@
    "source": "东财国际"
   },
   {
-   "title": "特朗普在马尼拉会晤地区伙伴，开启亚洲之行 - 美国之音",
-   "summary": "",
-   "time": "2026-11-18 01:15",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHk5TWNpLXA0M3JjVHljNEkySzFvdTB0ZkVjeFhwcEc4OVd2ZkhaTjNlaTdXWGU2aGxsZkM0Y0VoOVJJbzN0OElBeU1vUTlUU3FxZm4yTGJKMDZZaloxOW5VSEhOYW5Td21BejFrSnZNSGQwN1lSTkFxbnNJY2M4UWdjQnd0eGsxLU1OcEd0VlFpQmZqZFJrdHFsbVY5WkY2OG9NUnFEZVJXSlBRZC1kdVp6ONIBtgFBVV95cUxOVDUwdUc0T0tfdnNPbEJRWGtsMnNaZFRlT3gtcElMejZmR3dsQXQ5UkxxQlp1TnpDYWp2RlNNZFkyTmdXWUg4UnpzUXdwV2RsZmdaWW1kNTZuQmhhMWpyTU1jV3lBdGdrMjEzTGtXMTA5YjVkN0F6c3l5YUJEcEdBVzljenNJemgtek9TZHNLeVEyd1JKUXJvWlBJbTBjeDVKQm9faWxKNnVyVktkclpBcUt1NWdQdw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "中邮证券：给予新雷能买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
    "time": "2026-11-17 21:50",
@@ -1818,10 +1818,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "苹果状态页面列出音乐、App Store、AppleCare存在问题",
+   "title": "NASA：Terra卫星将于12月1日停止收集数据",
    "summary": "",
-   "time": "2026-11-17 18:39:24",
-   "url": "https://news.10jqka.com.cn/20261118/c681925651.shtml",
+   "time": "2026-11-17 18:56:30",
+   "url": "https://news.10jqka.com.cn/20261118/c681925661.shtml",
    "source": "同花顺"
   },
   {
@@ -1846,11 +1846,18 @@
    "source": "财新"
   },
   {
-   "title": "苹果公司确认，Music、APP Store、AppleCare等服务处于宕机状态。",
-   "summary": "苹果公司确认，Music、APP Store、AppleCare等服务处于宕机状态。",
-   "time": "2026-11-18 02:37",
-   "url": "https://wallstreetcn.com/livenews/3201469",
+   "title": "恒生指数主连夜盘收跌032%，报23414点。\n\n恒生科技指数主连夜盘收跌0.48%，报3732点。",
+   "summary": "恒生指数主连夜盘收跌032%，报23414点。\n\n恒生科技指数主连夜盘收跌0.48%，报3732点。",
+   "time": "2026-11-18 03:00",
+   "url": "https://wallstreetcn.com/livenews/3201472",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普在马尼拉会晤地区伙伴，开启亚洲之行 - 美国之音",
+   "summary": "",
+   "time": "2026-11-18 01:15",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHk5TWNpLXA0M3JjVHljNEkySzFvdTB0ZkVjeFhwcEc4OVd2ZkhaTjNlaTdXWGU2aGxsZkM0Y0VoOVJJbzN0OElBeU1vUTlUU3FxZm4yTGJKMDZZaloxOW5VSEhOYW5Td21BejFrSnZNSGQwN1lSTkFxbnNJY2M4UWdjQnd0eGsxLU1OcEd0VlFpQmZqZFJrdHFsbVY5WkY2OG9NUnFEZVJXSlBRZC1kdVp6ONIBtgFBVV95cUxOVDUwdUc0T0tfdnNPbEJRWGtsMnNaZFRlT3gtcElMejZmR3dsQXQ5UkxxQlp1TnpDYWp2RlNNZFkyTmdXWUg4UnpzUXdwV2RsZmdaWW1kNTZuQmhhMWpyTU1jV3lBdGdrMjEzTGtXMTA5YjVkN0F6c3l5YUJEcEdBVzljenNJemgtek9TZHNLeVEyd1JKUXJvWlBJbTBjeDVKQm9faWxKNnVyVktkclpBcUt1NWdQdw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "微软力求推出更便宜、更专业化的AI模型",
@@ -1860,13 +1867,6 @@
    "source": "东财国际"
   },
   {
-   "title": "特朗普首次参加Quad峰会：我们都是朋友，这样容易得多 - RFI",
-   "summary": "",
-   "time": "2026-11-18 01:00",
-   "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxPcS1WTjBLaEFXN1lDSnRZTjhyck83Zl9fOGNOUi1XYjF6enZQSC1fR3RwaURtRms4djFwXzlWSTk1TWRBWW1IM1FkUHB3Vm5icENwSVZqNHZ2VUg3RjNFTExZQnBTUktpQjhtMXNIRWpQa3BUZ2RGSTItenloaE5sODNBbjR6Mi1MZmJfdzhtMFRraDI5UG5Ia0w4OTc4VHNCYnVOLUxGTVdxcjQtMXhCSUxIRGxLd2VMNXE1UnZFazNabENEUU1FOVp0S0FabW9MNFdlMnBrbk9GM09HMmlzRkNoRkk1RXpfYWZKNV91Zng0Mmo4QmhHb0N3Yk05UUs0Z01vYnBlZTBkZ0cwZkt5UHdNSXVldWRyMEVLa0JOSzVFc3FZR0ltZmlTVUlodFhZTWhUaEpJc1NsaERwRGg1Uy0yaS1pYTRFX0pBRmdVTTRtZ2tnOUJCMENScHI4b1NFSXdDTUpDM3hwdUI3eHVBbHhrZW1MUWFXWmhOTmhKRVVITnd6YWthbmh4U1NkZ3JtdU56QkZXbHM3S0RGV3p2Z1pKenEwaFlNVHc?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "12公司获得增持评级-更新中 - 中财网",
    "summary": "",
    "time": "2026-11-17 21:26",
@@ -1874,10 +1874,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "微软表示与埃森哲、Adobe、毕马威、万事达卡、沃尔沃汽车等合作",
+   "title": "苹果状态页面列出音乐、App Store、AppleCare存在问题",
    "summary": "",
-   "time": "2026-11-17 18:24:31",
-   "url": "https://news.10jqka.com.cn/20261118/c681925640.shtml",
+   "time": "2026-11-17 18:39:24",
+   "url": "https://news.10jqka.com.cn/20261118/c681925651.shtml",
    "source": "同花顺"
   },
   {
@@ -1895,10 +1895,10 @@
    "source": "财新"
   },
   {
-   "title": "Wolfe称芯片悲观情绪可能引发标普500盈利下修",
-   "summary": "Wolfe Research LLC策略师克里斯·塞涅克（Chris Senyek）表示，对顶级半导体公司的悲观情绪可能削弱盈利预期，进而拖累标普500指数，因为这些公司在该指数的盈利增长中占据极高比重。\n\n他在周二的一份研报中指出，英伟达、超微半导体（AMD）、博通和美光科技等芯片公司是标普500盈利增长的最大贡献者。",
-   "time": "2026-11-18 02:34",
-   "url": "https://wallstreetcn.com/livenews/3201468",
+   "title": "美国国家航空航天局（NASA）宣布Terra卫星任务即将结束，Terra卫星将于2027年1月关闭所有航天器系统，并于12月1日停止收集数据。",
+   "summary": "美国国家航空航天局（NASA）宣布Terra卫星任务即将结束，Terra卫星将于2027年1月关闭所有航天器系统，并于12月1日停止收集数据。",
+   "time": "2026-11-18 02:57",
+   "url": "https://wallstreetcn.com/livenews/3201470",
    "source": "华尔街见闻"
   }
  ],
@@ -1916,8 +1916,8 @@
   },
   "counts": {
    "华尔街见闻": 8,
-   "东财国际": 7,
    "谷歌新闻·国际": 7,
+   "东财国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 7,
    "富途": 3,
