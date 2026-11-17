@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 01:27:19 CST",
- "generated_at_iso": "2026-11-18T01:27:19+08:00",
+ "generated_at": "2026-11-18 01:35:33 CST",
+ "generated_at_iso": "2026-11-18T01:35:33+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50984.0,
-    "change": -624.17,
-    "change_pct": -1.21,
-    "quote_time": "2026-11-18 01:27:04",
+    "price": 50924.3398,
+    "change": -683.83,
+    "change_pct": -1.33,
+    "quote_time": "2026-11-18 01:35:24",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24314.5392,
-    "change": -195.2184,
-    "change_pct": -0.8,
-    "quote_time": "2026-11-18 01:27:19",
+    "price": 24289.651,
+    "change": -220.1066,
+    "change_pct": -0.9,
+    "quote_time": "2026-11-18 01:35:35",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7356.7202,
-    "change": -59.87,
-    "change_pct": -0.81,
-    "quote_time": "2026-11-18 01:27:04",
+    "price": 7344.2202,
+    "change": -72.37,
+    "change_pct": -0.98,
+    "quote_time": "2026-11-18 01:35:24",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6221.08,
-    "change": -127.27,
-    "change_pct": -2.0,
+    "price": 6212.11,
+    "change": -136.24,
+    "change_pct": -2.15,
     "hist": [
      6180.3,
      6126.74,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3872.907,
-    "change": 19.907,
+    "price": 3873.085,
+    "change": 20.085,
     "change_pct": 0.52,
-    "quote_time": "01:27:15 2026-11-18"
+    "quote_time": "01:35:36 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.636,
-    "change": 0.777,
-    "change_pct": 1.66,
-    "quote_time": "01:27:19 2026-11-18"
+    "price": 47.586,
+    "change": 0.727,
+    "change_pct": 1.55,
+    "quote_time": "01:35:35 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.285,
-    "change": 0.565,
-    "change_pct": 0.66,
-    "quote_time": "01:27:21 2026-11-18"
+    "price": 86.472,
+    "change": 0.752,
+    "change_pct": 0.88,
+    "quote_time": "01:35:35 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.088,
-    "change": 0.648,
-    "change_pct": 0.7,
-    "quote_time": "01:27:18 2026-11-18"
+    "price": 93.254,
+    "change": 0.814,
+    "change_pct": 0.88,
+    "quote_time": "01:35:35 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63722.8,
-    "change": -1350.3,
-    "change_pct": -2.08,
+    "price": 63703.3,
+    "change": -1215.7,
+    "change_pct": -1.87,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1782.56,
-    "change": -50.56,
-    "change_pct": -2.76,
+    "price": 1781.53,
+    "change": -45.32,
+    "change_pct": -2.48,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.25,
-    "change": 0.45,
-    "change_pct": 0.63,
+    "price": 72.23,
+    "change": 0.76,
+    "change_pct": 1.06,
     "source": "okx"
    }
   ],
@@ -1373,11 +1373,11 @@
    "source": "东财"
   },
   "vix": {
-   "value": 27.63,
-   "change": 4.72,
-   "change_pct": 20.6024,
-   "label": "高波动",
-   "color": "#f58a3d",
+   "value": 24.7,
+   "change": 1.79,
+   "change_pct": 7.8132,
+   "label": "升高",
+   "color": "#d9b23c",
    "source": "CBOE",
    "spark": [
     15.01,
@@ -1411,33 +1411,33 @@
     19.3,
     22.91
    ],
-   "vix3m": 26.05,
+   "vix3m": 24.35,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 30.45,
-     "change_pct": 31.5335
+     "value": 25.76,
+     "change_pct": 11.2743
     },
     {
      "t": "VIX",
-     "value": 27.63,
-     "change_pct": 20.6024
+     "value": 24.7,
+     "change_pct": 7.8132
     },
     {
      "t": "VIX3M",
-     "value": 26.05,
-     "change_pct": 13.1625
+     "value": 24.35,
+     "change_pct": 5.7776
     },
     {
      "t": "VIX6M",
-     "value": 25.67,
-     "change_pct": 7.9025
+     "value": 24.61,
+     "change_pct": 3.4468
     }
    ],
-   "ratio_9d_3m": 1.169,
+   "ratio_9d_3m": 1.058,
    "shape": "backwardation(短期恐慌升温)",
    "source": "CBOE"
   },
@@ -1457,12 +1457,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称期待访问中国 - 新浪新闻_手机新浪网",
+   "title": "特朗普在马尼拉会晤地区伙伴，开启亚洲之行 - 美国之音",
    "summary": "",
-   "time": "2026-11-17 23:23",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLTl4SVlBWTlQdHFSalZpUnByVGJib0FyMC14cnFFZHBwaTg3YWlhVWd4NmpsbEVaTE5VN2NfaVJmdkJmRElTMG43dnAxMThDZE1VMnhDMzVQUV91Nk8tUk9MaUJDMzFkMmlaYVVJeWcxaUNfQ2xOVUZ2aXRiQi0teXlPc0w5bFhmdGNaT2ZBbS1LM2c0SXdpTDZkaHQ2b3pvU1pzWkZRR0xmazdqLWppWmVrTHkzcnJpOG9sMEV0MlN3WnhVaWNfSg?oc=5",
+   "time": "2026-11-18 01:15",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHk5TWNpLXA0M3JjVHljNEkySzFvdTB0ZkVjeFhwcEc4OVd2ZkhaTjNlaTdXWGU2aGxsZkM0Y0VoOVJJbzN0OElBeU1vUTlUU3FxZm4yTGJKMDZZaloxOW5VSEhOYW5Td21BejFrSnZNSGQwN1lSTkFxbnNJY2M4UWdjQnd0eGsxLU1OcEd0VlFpQmZqZFJrdHFsbVY5WkY2OG9NUnFEZVJXSlBRZC1kdVp6ONIBtgFBVV95cUxOVDUwdUc0T0tfdnNPbEJRWGtsMnNaZFRlT3gtcElMejZmR3dsQXQ5UkxxQlp1TnpDYWp2RlNNZFkyTmdXWUg4UnpzUXdwV2RsZmdaWW1kNTZuQmhhMWpyTU1jV3lBdGdrMjEzTGtXMTA5YjVkN0F6c3l5YUJEcEdBVzljenNJemgtek9TZHNLeVEyd1JKUXJvWlBJbTBjeDVKQm9faWxKNnVyVktkclpBcUt1NWdQdw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 2
   },
   {
    "keyword": "黄仁勋",
@@ -1693,44 +1693,44 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.76%，突破 2σ 警戒线）",
-   "time": "2026-11-18 01:27",
+   "time": "2026-11-18 01:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.62%，达20日历史波动率的 2.0 倍（σ=0.80%，突破 2σ 警戒线）",
-   "time": "2026-11-18 01:27",
+   "time": "2026-11-18 01:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 01:27",
+   "time": "2026-11-18 01:36",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "英伟达在2025年停止披露新加坡销售数据。\n\n英伟达2025年通过其新加坡子公司入账1040亿美元收入，12个月内增长72%。（英国金融时报）",
-   "summary": "英伟达在2025年停止披露新加坡销售数据。\n\n英伟达2025年通过其新加坡子公司入账1040亿美元收入，12个月内增长72%。（英国金融时报）",
-   "time": "2026-11-18 01:08",
-   "url": "https://wallstreetcn.com/livenews/3201441",
+   "title": "亚马逊CEO安迪·贾西：亚马逊正在自研Trainium定制芯片，该芯片表现极为出色。\n\n公司与英伟达保持着长期且富有成效的合作关系，预计这一合作将持续下去。",
+   "summary": "亚马逊CEO安迪·贾西：亚马逊正在自研Trainium定制芯片，该芯片表现极为出色。\n\n公司与英伟达保持着长期且富有成效的合作关系，预计这一合作将持续下去。",
+   "time": "2026-11-18 01:33",
+   "url": "https://wallstreetcn.com/livenews/3201447",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国众议院民主党领袖Jeffries被问及政府是否会关门时表示正在积极磋商",
-   "summary": "美国众议院民主党领袖Jeffries被问及政府是否会关门时表示，正在积极磋商。",
-   "time": "2026-11-18 01:04:40",
-   "url": "https://finance.eastmoney.com/a/202611183933298347.html",
+   "title": "美元指数下跌0.17%",
+   "summary": "【行情】美元指数下跌0.17%，报103.4点；美元兑日元下跌0.1%，报159.27点。",
+   "time": "2026-11-18 01:21:34",
+   "url": "https://finance.eastmoney.com/a/202611183933301898.html",
    "source": "东财国际"
   },
   {
-   "title": "拜登最新个人回忆录： - DW.com",
+   "title": "特朗普在马尼拉会晤地区伙伴，开启亚洲之行 - 美国之音",
    "summary": "",
-   "time": "2026-11-18 00:23",
-   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd3NNLUZ2SGhuTnFHSE9DYWxsbTViaEVrSHBpR1FLa3ZZMWNNRjdZOVgtbDJib3VhdXB4QXR5R09zczUyUEx6cGVNdDNOTTFIeFJramdsYjRaeHM2YWVKZE5zQzA1MUdpMTdBQUJxblI3d3llLWJhemlwUWhrRFQzNGNKZUw2dDg2bFVRaGFWVzFzQTQ0WEx1SlhKbVV3ZkFmdEZLd21QOFJITkNNd1lFNU1tSlZwZzFqZF9JNHAxbzA0QUJxRzdCTlpDRzMxS3FqeDdZeENMQ2pDMDRQNTVTRklYZGkxQ0dxTzN1S1hQZEnSAfABQVVfeXFMT2FrbEQwcDQ0eTlvd1ZIRUo3dExPem1wQWRueWpDSXU0SURhOUpaNDFyd3N4NmVZWmRibkljQ0hIem9fM1lTbW1ZbUJMWWhDTklfSE45OFRHN0w4dEJJZDZfLTkxbjNGbGNDcFExTHJaUThwZkc5VkxhbmNWeldMYXc3cG5kcFRNcjZwNXhBTHVnUHRUYWxLU1F0eFg1Tmo3LWJqMU1nc2EyR0JfV3pOSHNMNnpkT3RGNWliZmk4R1pYVUJfSURyaVJIZFlNcFhyZjlKZmRaYXNZNFNBdG0tU1B3Y0ttRVM0VERLNGVmcmNH?oc=5",
+   "time": "2026-11-18 01:15",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHk5TWNpLXA0M3JjVHljNEkySzFvdTB0ZkVjeFhwcEc4OVd2ZkhaTjNlaTdXWGU2aGxsZkM0Y0VoOVJJbzN0OElBeU1vUTlUU3FxZm4yTGJKMDZZaloxOW5VSEhOYW5Td21BejFrSnZNSGQwN1lSTkFxbnNJY2M4UWdjQnd0eGsxLU1OcEd0VlFpQmZqZFJrdHFsbVY5WkY2OG9NUnFEZVJXSlBRZC1kdVp6ONIBtgFBVV95cUxOVDUwdUc0T0tfdnNPbEJRWGtsMnNaZFRlT3gtcElMejZmR3dsQXQ5UkxxQlp1TnpDYWp2RlNNZFkyTmdXWUg4UnpzUXdwV2RsZmdaWW1kNTZuQmhhMWpyTU1jV3lBdGdrMjEzTGtXMTA5YjVkN0F6c3l5YUJEcEdBVzljenNJemgtek9TZHNLeVEyd1JKUXJvWlBJbTBjeDVKQm9faWxKNnVyVktkclpBcUt1NWdQdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1741,10 +1741,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "谷歌钱包（Google Wallet）现已在美国iOS系统上推出",
+   "title": "SpaceX最快本周启动400亿美元AI芯片债务融资的部分发行",
    "summary": "",
-   "time": "2026-11-17 17:09:42",
-   "url": "https://news.10jqka.com.cn/20261118/c681925522.shtml",
+   "time": "2026-11-17 17:31:06",
+   "url": "https://news.10jqka.com.cn/20261118/c681925550.shtml",
    "source": "同花顺"
   },
   {
@@ -1769,24 +1769,24 @@
    "source": "财新"
   },
   {
-   "title": "国际铜夜盘收跌0.08%，沪铜收跌0.38%，沪铝收跌1.33%，沪锌收跌0.4%，沪铅收跌0.35%，沪镍收涨3.04%，沪锡收跌1.35%。\n\n氧化铝夜盘收跌0.31%，铝合金收跌1.01%。\n\n不锈钢夜盘收涨2.62%。",
-   "summary": "国际铜夜盘收跌0.08%，沪铜收跌0.38%，沪铝收跌1.33%，沪锌收跌0.4%，沪铅收跌0.35%，沪镍收涨3.04%，沪锡收跌1.35%。\n\n氧化铝夜盘收跌0.31%，铝合金收跌1.01%。\n\n不锈钢夜盘收涨2.62%。",
-   "time": "2026-11-18 01:08",
-   "url": "https://wallstreetcn.com/livenews/3201440",
+   "title": "俄罗斯国防部：过去一天内，俄防空系统在俄罗斯联邦多个地区击落51架乌克兰无人机。",
+   "summary": "俄罗斯国防部：过去一天内，俄防空系统在俄罗斯联邦多个地区击落51架乌克兰无人机。",
+   "time": "2026-11-18 01:33",
+   "url": "https://wallstreetcn.com/livenews/3201446",
    "source": "华尔街见闻"
   },
   {
-   "title": "夜盘期货收盘：沪镍涨3.06% 不锈钢涨2.62%",
-   "summary": "【夜盘期货收盘：沪镍涨3.06% 不锈钢涨2.62%】国际铜夜盘收跌0.08%，沪铜收跌0.23%，沪铝收跌1.33%，沪锌收跌0.40%，沪铅收跌0.35%，沪镍收涨3.06%，沪锡收跌1.35%。氧化铝夜盘收跌0.31%，铝合金收跌1.01%。不锈钢夜盘收涨2.62%。",
-   "time": "2026-11-18 01:03:01",
-   "url": "https://finance.eastmoney.com/a/202611183933298511.html",
+   "title": "亚马逊CEO：英伟达长期以来一直是极其重要的合作伙伴 在可预见的未来也将一直如此",
+   "summary": "【亚马逊CEO：英伟达长期以来一直是极其重要的合作伙伴 在可预见的未来也将一直如此】亚马逊CEO在Semafor活动上就英伟达相关风波表示，英伟达长期以来一直是极其重要的合作伙伴，并且在可预见的未来也将一直如此。",
+   "time": "2026-11-18 01:20:37",
+   "url": "https://finance.eastmoney.com/a/202611183933302110.html",
    "source": "东财国际"
   },
   {
-   "title": "称美国是“太平洋国家” 特朗普强调对东南亚的坚定支持 - 联合早报",
+   "title": "特朗普首次参加Quad峰会：我们都是朋友，这样容易得多 - RFI",
    "summary": "",
-   "time": "2026-11-18 00:08",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1sSUFQTU5HT202Yno1ZnRqd1JLNDVjSEVzSWJ6T21Hdk9tamlUdnJ5R0l2R1NTRGNDbERmTGt6RG1HUXBJS0hMMno4bWQ0X25KYVVCN2gyc1U2ZTZmRURXNl82ckg2YXlNemZV?oc=5",
+   "time": "2026-11-18 01:00",
+   "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxPcS1WTjBLaEFXN1lDSnRZTjhyck83Zl9fOGNOUi1XYjF6enZQSC1fR3RwaURtRms4djFwXzlWSTk1TWRBWW1IM1FkUHB3Vm5icENwSVZqNHZ2VUg3RjNFTExZQnBTUktpQjhtMXNIRWpQa3BUZ2RGSTItenloaE5sODNBbjR6Mi1MZmJfdzhtMFRraDI5UG5Ia0w4OTc4VHNCYnVOLUxGTVdxcjQtMXhCSUxIRGxLd2VMNXE1UnZFazNabENEUU1FOVp0S0FabW9MNFdlMnBrbk9GM09HMmlzRkNoRkk1RXpfYWZKNV91Zng0Mmo4QmhHb0N3Yk05UUs0Z01vYnBlZTBkZ0cwZkt5UHdNSXVldWRyMEVLa0JOSzVFc3FZR0ltZmlTVUlodFhZTWhUaEpJc1NsaERwRGg1Uy0yaS1pYTRFX0pBRmdVTTRtZ2tnOUJCMENScHI4b1NFSXdDTUpDM3hwdUI3eHVBbHhrZW1MUWFXWmhOTmhKRVVITnd6YWthbmh4U1NkZ3JtdU56QkZXbHM3S0RGV3p2Z1pKenEwaFlNVHc?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1797,10 +1797,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "耐克股价高开低走，最新下跌2.5%，盘初一度涨近6%",
+   "title": "英伟达聘请海德思哲协助寻找新任首席执行官",
    "summary": "",
-   "time": "2026-11-17 17:07:40",
-   "url": "https://news.10jqka.com.cn/20261118/c681925516.shtml",
+   "time": "2026-11-17 17:22:39",
+   "url": "https://news.10jqka.com.cn/20261118/c681925543.shtml",
    "source": "同花顺"
   },
   {
@@ -1825,46 +1825,39 @@
    "source": "财新"
   },
   {
-   "title": "谷歌：Gemini推出系列高级功能，率先在美国上线。\n\nGemini更新覆盖美国、日本、韩国、加拿大、澳大利亚及印度。",
-   "summary": "谷歌：Gemini推出系列高级功能，率先在美国上线。\n\nGemini更新覆盖美国、日本、韩国、加拿大、澳大利亚及印度。",
-   "time": "2026-11-18 01:06",
-   "url": "https://wallstreetcn.com/livenews/3201439",
+   "title": "摩根大通警告称：杠杆贷款违约恐将在2027年翻倍。",
+   "summary": "摩根大通警告称：杠杆贷款违约恐将在2027年翻倍。",
+   "time": "2026-11-18 01:27",
+   "url": "https://wallstreetcn.com/livenews/3201445",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国国债收益率扩大跌幅",
-   "summary": "美国国债收益率扩大跌幅，短暂触及日内低点。",
-   "time": "2026-11-18 00:58:23",
-   "url": "https://finance.eastmoney.com/a/202611183933295613.html",
+   "title": "美国众议院民主党领袖Jeffries：将在新一届国会初期推动结束伊朗战争",
+   "summary": "美国众议院民主党领袖Jeffries表示，将在新一届国会初期推动结束伊朗战争。",
+   "time": "2026-11-18 01:15:15",
+   "url": "https://finance.eastmoney.com/a/202611183933300745.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普称期待访问中国 - 新浪新闻_手机新浪网",
+   "title": "拜登最新个人回忆录： - DW.com",
    "summary": "",
-   "time": "2026-11-17 23:23",
-   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLTl4SVlBWTlQdHFSalZpUnByVGJib0FyMC14cnFFZHBwaTg3YWlhVWd4NmpsbEVaTE5VN2NfaVJmdkJmRElTMG43dnAxMThDZE1VMnhDMzVQUV91Nk8tUk9MaUJDMzFkMmlaYVVJeWcxaUNfQ2xOVUZ2aXRiQi0teXlPc0w5bFhmdGNaT2ZBbS1LM2c0SXdpTDZkaHQ2b3pvU1pzWkZRR0xmazdqLWppWmVrTHkzcnJpOG9sMEV0MlN3WnhVaWNfSg?oc=5",
+   "time": "2026-11-18 00:31",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYWtsRDBwNDR5OW93VkhFSjd0TE96bXBBZG55akNJdTRJRGE5Slo0MXJ3c3g2ZVlaZGJuSWNDSEh6b18zWVNtbVltQkxZaENOSV9ITjk4VEc3TDh0QklkNl8tOTFuM0ZsY0NwUTFMclpROHBmRzlWTGFuY1Z6V0xhdzdwbmRwVE1yNnA1eEFMdWdQdFRhbEtTUXR4WDVOajctYmoxTWdzYTJHQl9Xek5Ic0w2emRPdEY1aWJmaThHWlhVQl9JRHJpUkhkWU1wWHJmOUpmZFphc1k0U0F0bS1TUHdjS21FUzRUREs0ZWZyY0fSAfABQVVfeXFMT2FrbEQwcDQ0eTlvd1ZIRUo3dExPem1wQWRueWpDSXU0SURhOUpaNDFyd3N4NmVZWmRibkljQ0hIem9fM1lTbW1ZbUJMWWhDTklfSE45OFRHN0w4dEJJZDZfLTkxbjNGbGNDcFExTHJaUThwZkc5VkxhbmNWeldMYXc3cG5kcFRNcjZwNXhBTHVnUHRUYWxLU1F0eFg1Tmo3LWJqMU1nc2EyR0JfV3pOSHNMNnpkT3RGNWliZmk4R1pYVUJfSURyaVJIZFlNcFhyZjlKZmRaYXNZNFNBdG0tU1B3Y0ttRVM0VERLNGVmcmNH?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "New Street Research给予Anthropic买入评级及105美元目标价 - 新浪财经",
+   "title": "12公司获得增持评级-更新中 - 中财网",
    "summary": "",
-   "time": "2026-11-17 21:28",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOR1l5MWN1dHRpa3FSanZnemxhYTQ4MkFzalJ4ZVpIbHNqTkY0OGUxTEdmb3pySmR6bS1nc0htYTRZYlp6R2I0TGljRFI2SHZSMVgtd05TX2dfRE8ybTU0UDEwbXZyS2djYnF0WU1pZVFYTWYzMnFaam5PNWhvdnFIUzRDSFZ4a00?oc=5",
+   "time": "2026-11-17 21:26",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIelFTVUdQemx3NFlzTTZuM3FDODNrUFdqaGRRZXZ4WHViZTBNbEo0Tlpmd2FCVGstMVJfUTZTOG5tdmhtbjFtQUxyNEhKSDFIYWhYbDFB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国国债收益率扩大跌幅，短暂触及日内低点",
+   "title": "美元指数下跌0.17%，美元兑日元下跌0.1%",
    "summary": "",
-   "time": "2026-11-17 16:58:56",
-   "url": "https://news.10jqka.com.cn/20261118/c681925467.shtml",
+   "time": "2026-11-17 17:22:13",
+   "url": "https://news.10jqka.com.cn/20261118/c681925541.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "美军再袭伊朗格什姆岛",
-   "summary": "",
-   "time": "2026-11-17 16:06:22",
-   "url": "https://news.futunn.com/flash/1004783756/us-forces-launch-another-attack-on-iran-s-qeshm-island",
-   "source": "富途"
   },
   {
    "title": "新云企业正面临多重压力：债务负担沉重、项目延误，以及即将就任、由民主党控制的新一届国会",
@@ -1874,11 +1867,18 @@
    "source": "财新"
   },
   {
-   "title": "美国众议院民主党领导人Jeffries被问及政府是否会关门，称：（国会山）正在积极磋商。",
-   "summary": "美国众议院民主党领导人Jeffries被问及政府是否会关门，称：（国会山）正在积极磋商。",
-   "time": "2026-11-18 01:03",
-   "url": "https://wallstreetcn.com/livenews/3201438",
+   "title": "英伟达聘请猎头公司Heidrick & Struggles来寻找下一任CEO。（华尔街日报）",
+   "summary": "英伟达聘请猎头公司Heidrick & Struggles来寻找下一任CEO。（华尔街日报）",
+   "time": "2026-11-18 01:20",
+   "url": "https://wallstreetcn.com/livenews/3201444",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "德国芬兰总统表示欧洲必须参与乌克兰危机谈判",
+   "summary": "【德国芬兰总统表示欧洲必须参与乌克兰危机谈判】德国总统施泰因迈尔和芬兰总统斯图布17日表示，涉及乌克兰未来的谈判关乎安全保障，不能没有欧洲的参与。施泰因迈尔当天同来访的芬兰总统斯图布共同出席记者会时说，此前在阿联酋首都阿布扎比举行的会谈推动了乌克兰危机谈判进程，预计未来数周还将举行进一步会谈。欧洲只接受由欧洲亲自参与谈判达成的安全保障。",
+   "time": "2026-11-18 01:12:45",
+   "url": "https://finance.eastmoney.com/a/202611183933300939.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
@@ -1895,11 +1895,11 @@
   },
   "counts": {
    "华尔街见闻": 8,
-   "东财国际": 7,
+   "东财国际": 8,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 7,
-   "富途": 3,
+   "富途": 2,
    "东财早报": 2,
    "财新": 7
   }
