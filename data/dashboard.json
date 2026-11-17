@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 12:27:13 CST",
- "generated_at_iso": "2026-11-17T12:27:13+08:00",
+ "generated_at": "2026-11-17 12:35:26 CST",
+ "generated_at_iso": "2026-11-17T12:35:26+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 58791.23,
-    "change": -870.79,
-    "change_pct": -1.46,
+    "price": 59071.72,
+    "change": -590.3,
+    "change_pct": -0.99,
     "hist": [
      69946.86,
      70683.98,
@@ -946,8 +946,8 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5009.11,
-    "change": -91.39,
+    "price": 5009.41,
+    "change": -91.09,
     "change_pct": -1.79,
     "hist": [
      6941.39,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3871.809,
-    "change": 18.809,
+    "price": 3871.987,
+    "change": 18.987,
     "change_pct": 0.49,
-    "quote_time": "12:27:03 2026-11-17"
+    "quote_time": "12:35:28 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.322,
-    "change": 0.463,
-    "change_pct": 0.99,
-    "quote_time": "12:27:13 2026-11-17"
+    "price": 47.367,
+    "change": 0.508,
+    "change_pct": 1.08,
+    "quote_time": "12:35:05 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.982,
-    "change": -0.738,
-    "change_pct": -0.86,
-    "quote_time": "12:27:14 2026-11-17"
+    "price": 85.099,
+    "change": -0.621,
+    "change_pct": -0.72,
+    "quote_time": "12:35:29 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.629,
-    "change": -0.811,
-    "change_pct": -0.88,
-    "quote_time": "12:27:15 2026-11-17"
+    "price": 91.831,
+    "change": -0.609,
+    "change_pct": -0.66,
+    "quote_time": "12:35:24 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65037.9,
-    "change": -44.2,
-    "change_pct": -0.07,
+    "price": 65006.3,
+    "change": 45.5,
+    "change_pct": 0.07,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1830.33,
-    "change": 2.9,
-    "change_pct": 0.16,
+    "price": 1830.47,
+    "change": 7.84,
+    "change_pct": 0.43,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.84,
-    "change": 0.8,
-    "change_pct": 1.11,
+    "price": 72.71,
+    "change": 0.97,
+    "change_pct": 1.35,
     "source": "okx"
    }
   ],
@@ -1322,19 +1322,19 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.49,
-    "change": -0.1,
-    "change_pct": -0.1,
+    "price": 103.511,
+    "change": -0.068,
+    "change_pct": -0.07,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-17",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6653,
-    "change": 0.0006,
+    "price": 6.6656,
+    "change": 0.0009,
     "change_pct": 0.01,
     "dec": 4,
     "date": "",
@@ -1442,29 +1442,17 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 72.7,
-   "label": "偏热",
-   "color": "#8ac96f",
+   "score": 77.0,
+   "label": "过热",
+   "color": "#26a56b",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 73.0,
-    "structure": 72.2
+    "structure": 83.1
    }
   }
  },
- "speakers": [
-  {
-   "keyword": "商务部",
-   "label": "商务部",
-   "hint": "中美贸易与出口管制的对口部门",
-   "title": "商务部等9部门深入推进再生资源回收体系建设",
-   "summary": "",
-   "time": "2026-11-17 03:59:20",
-   "url": "https://news.futunn.com/flash/1004701104/nine-departments-including-the-ministry-of-commerce-are-deepening-the",
-   "source": "富途",
-   "mentions": 1
-  }
- ],
+ "speakers": [],
  "research": {
   "digest": [
    {
@@ -1690,24 +1678,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "Mercuria：全球铜市场处于“极度失衡”状态。\n\n预计铜精矿产量增长受限将持续至2028年。",
-   "summary": "Mercuria：全球铜市场处于“极度失衡”状态。\n\n预计铜精矿产量增长受限将持续至2028年。",
-   "time": "2026-11-17 11:51",
-   "url": "https://wallstreetcn.com/livenews/3201010",
+   "title": "早间要闻汇总",
+   "summary": "科创50指数半日涨超3%，半导体产业链集体反弹。\n\n港股探底回升，恒指半日跌0.8%，恒生科技指数跌0.5%，华虹宏力涨超9%。\n\n纽元兑美元盘中跌至2020年以来新低。\n\n9部门发文深入推进再生资源回收体系建设，要求补齐动力电池回收短板，健全光电设备回收利用体系。\n\n曾毓群、李彦宏、王兴兴、王传福、雷军、何超琼、董明珠、李东生、周群飞等，今天齐聚深圳。\n\nTOP500、HPCG双榜第一！“灵晟”",
+   "time": "2026-11-17 12:35",
+   "url": "https://wallstreetcn.com/livenews/3201023",
    "source": "华尔街见闻"
   },
   {
-   "title": "南向资金净买入额达20亿港元",
-   "summary": "【南向资金净买入额达20亿港元】截至目前，南向资金净买入额达20亿港元。",
-   "time": "2026-11-17 11:50:33",
-   "url": "https://finance.eastmoney.com/a/202611173932750226.html",
+   "title": "欧洲俱乐部联盟对欧足联提起反垄断投诉",
+   "summary": "【欧洲俱乐部联盟对欧足联提起反垄断投诉】欧洲俱乐部联盟11月16日发表声明说，已向欧盟委员会提交投诉，要求其调查欧足联与欧洲足球俱乐部协会签署的谅解备忘录是否违反欧盟竞争法。",
+   "time": "2026-11-17 12:32:11",
+   "url": "https://finance.eastmoney.com/a/202611173932758881.html",
    "source": "东财国际"
   },
   {
-   "title": "大行评级｜里昂：市场对存储器周期见顶忧虑过早，降三星电子及SK海力士目标价_市场分析 - 中金在线",
+   "title": "5股获买入评级 最新:明阳电气 - 中财网",
    "summary": "",
-   "time": "2026-11-17 11:35",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1meTBrcEtMMno2Z0ZZNWR5U2Zid0hucm1qX1g4NlE5bFpnLVhhVk5qQkZzN2R6T3U1YnB5amdNdWc0WVlVMWNKR3JsVURwMFVaeWxyNDRkVzFZeTFyTlhnOHVUaFVwQlM2T3lLcTVOTQ?oc=5",
+   "time": "2026-11-17 12:06",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEN0lHRExLNGE1anIwT3hWUmVCM2ZxR0QxOWt4eWFzVkVXRm1kWWYtX3huZGNaQ0UxRXBwekYzX3pkVFBVWHdsY2tPSFozeWFfSWhydDFB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1718,18 +1706,18 @@
    "source": "东财早报"
   },
   {
-   "title": "国家知识产权局印发《地理标志保护和运用“十五五”规划》",
+   "title": "宇树科技董事长兼首席执行官王兴兴：机器人行业当前的机遇与现实挑战",
    "summary": "",
-   "time": "2026-11-17 04:00:31",
-   "url": "https://news.10jqka.com.cn/20261117/c681895456.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 04:36:03",
+   "url": "https://news.futunn.com/flash/1004704363/wang-xingxing-director-and-ceo-of-unitree-robotics-current-opportunities",
+   "source": "富途"
   },
   {
-   "title": "商务部等9部门深入推进再生资源回收体系建设",
+   "title": "杭州土拍成交额50亿元 最高溢价率32.8%",
    "summary": "",
-   "time": "2026-11-17 03:59:20",
-   "url": "https://news.futunn.com/flash/1004701104/nine-departments-including-the-ministry-of-commerce-are-deepening-the",
-   "source": "富途"
+   "time": "2026-11-17 04:34:58",
+   "url": "https://news.10jqka.com.cn/20261117/c681897155.shtml",
+   "source": "同花顺"
   },
   {
    "title": "飞船绕地球飞行14圈后由发射塔机械臂捕获，花旗称SpaceX技术领先优势进一步扩大",
@@ -1739,24 +1727,24 @@
    "source": "财新"
   },
   {
-   "title": "宇树科技创始人王兴兴：机器人将推动算力需求达到超乎想象的水平。",
-   "summary": "宇树科技创始人王兴兴：机器人将推动算力需求达到超乎想象的水平。",
-   "time": "2026-11-17 11:38",
-   "url": "https://wallstreetcn.com/livenews/3201005",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 15:00 英国9月三个月ILO就业人数与失业率；\n\n② 港股收盘之后 京东发布业绩报告；\n\n③ 17:00 欧洲央行管委Pereira、欧洲央行执委Cipollone讲话；\n\n④ 18:00 欧元区11月ZEW经济景气指数，德国11月ZEW经济景气指数；\n\n⑤ 美股盘前 家得宝、迪士尼等发布业绩报告；\n\n⑥ 20:30 美国圣路易斯联储主席Musalem在阿根廷讲话；\n\n⑦ 时间待定 微软开",
+   "time": "2026-11-17 12:30",
+   "url": "https://wallstreetcn.com/livenews/3201020",
    "source": "华尔街见闻"
   },
   {
-   "title": "中指研究院：10月重点城市二手房市场保持较高活跃度 成交量同增幅有所扩",
-   "summary": "【中指研究院：10月重点城市二手房市场保持较高活跃度 成交量同增幅有所扩】中指研究院发布的最新报告显示，2026年10月，重点城市二手房市场保持较高活跃度，成交量同比增幅有所扩大。十大城市二手房价格环比延续下跌态势。根据中国房地产指数系统百城价格指数，2026年10月，百城二手住宅均价环比下跌0.61%，同比下跌6.72%；十大城市二手住宅均价环比下跌0.66%，同比下跌6.74%。整体来看，贷款贴息政策有助于降低购房成本，推动部分购房需求加快释放，二手房市场成交活跃度有望得到一定支撑。价格方面，随着需求持续释放、市场交易保持一定规模，二手房供需关系有望逐步改善，价格整体延续波动筑底态势，部分核心城市及优质板块有望率先企稳，城市间及城市内部板块间的分化格局仍将延续。",
-   "time": "2026-11-17 11:50:09",
-   "url": "https://finance.eastmoney.com/a/202611173932750342.html",
+   "title": "马来西亚与法国签署关键矿产和技术合作谅解备忘录",
+   "summary": "马来西亚与法国签署关键矿产和技术合作谅解备忘录。",
+   "time": "2026-11-17 12:29:46",
+   "url": "https://finance.eastmoney.com/a/202611173932758532.html",
    "source": "东财国际"
   },
   {
-   "title": "新易盛目标价涨幅超90%，常熟汽饰、公牛集团评级被调低丨券商评级观察 - 21财经",
+   "title": "美银下调小鹏集团港股目标价至62港元 重申买入评级 - 观点网",
    "summary": "",
-   "time": "2026-11-17 11:07",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQR1J2N2loQmZ1WlhVbXdmS09SUmRWbFQ1bGNuMG1wa3h2STUxV0lra0tlTk9CUUlnTWRqU25xNUdvS0lzb1ZNRTdmM3c1VkkxLVU2SDdFelN5OTJvRXVld0xxdVJVY1FUWUxSbzlQQlJaelQ5VjdTWTZzVFRfSkwzUkMxUERBU3Z2MU83MnNZbF9UVXdj?oc=5",
+   "time": "2026-11-17 12:04",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00R3ZTSGt6Qzc1eGZqOHplZEgxVUF6aEo1SzNGSkEyVTlnci0tdmxuNF9xMDhMV0FQNmI1UGZTay1vU1BXMDViUVROekI5UTFRMmZrYlNPMHFBdk43WFdYNUN3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1767,18 +1755,18 @@
    "source": "东财早报"
   },
   {
-   "title": "南向资金净买入超20亿港元",
+   "title": "蒙古国总统呼日勒苏赫宣布辞职",
    "summary": "",
-   "time": "2026-11-17 03:49:48",
-   "url": "https://news.10jqka.com.cn/20261117/c681894915.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 04:27:23",
+   "url": "https://news.futunn.com/flash/1004703612/mongolian-president-khurelsukh-announces-resignation",
+   "source": "富途"
   },
   {
-   "title": "360回应市场部负责人被带走",
+   "title": "联合国报告：AI模型易迎合用户而偏离气候科学事实",
    "summary": "",
-   "time": "2026-11-17 03:56:04",
-   "url": "https://news.futunn.com/flash/1004700933/360-responds-to-the-detention-of-its-head-of-marketing",
-   "source": "富途"
+   "time": "2026-11-17 04:24:57",
+   "url": "https://news.10jqka.com.cn/20261117/c681896720.shtml",
+   "source": "同花顺"
   },
   {
    "title": "创始人Brad Gerstner预计上市估值达1.4万亿至1.5万亿美元，看好AI行业长期增长空间",
@@ -1788,39 +1776,39 @@
    "source": "财新"
   },
   {
-   "title": "上证指数早盘收报3602.07点，跌0.01%。\n\n深证成指早盘收报10764.88点，涨0.69%。\n\n创业板指早盘收报2336.80点，涨0.72%。\n\n沪深300早盘收报3981.91点，涨0.05%。\n\n科创50早盘收报1253.9",
-   "summary": "上证指数早盘收报3602.07点，跌0.01%。\n\n深证成指早盘收报10764.88点，涨0.69%。\n\n创业板指早盘收报2336.80点，涨0.72%。\n\n沪深300早盘收报3981.91点，涨0.05%。\n\n科创50早盘收报1253.91点，涨3.31%。\n\n中证500早盘收报6375.49点，涨1.24%。\n\n中证1000早盘收报6225.56点，涨0.99%。",
-   "time": "2026-11-17 11:31",
-   "url": "https://wallstreetcn.com/livenews/3201002",
+   "title": "日本9月第三产业活动指数环比 -0.5%，预期 0.1%，前值 -0.1%。",
+   "summary": "日本9月第三产业活动指数环比 -0.5%，预期 0.1%，前值 -0.1%。",
+   "time": "2026-11-17 12:30",
+   "url": "https://wallstreetcn.com/livenews/3201019",
    "source": "华尔街见闻"
   },
   {
-   "title": "段永平三季度减持英伟达",
-   "summary": "【段永平三季度减持英伟达】21财经11月17日电，知名投资人段永平旗下H&HInternationalInvestment披露2026年三季度13F持仓文件，截至三季度末，该机构美股持仓市值约为172亿美元。三季度组合延续高集中度特征，苹果、伯克希尔B股仍为前两大重仓股，拼多多、特斯拉获明显加仓，英伟达、谷歌、苹果等科技龙头被减持，同时清仓阿里巴巴、CRCL等公司，新进SpaceX。从调仓细节来看，拼多多是三季度加仓力度最大标的，增持296.88万股，持仓占比由9.99%提高至12.69%，为组合第三大重仓股；特斯拉增持69.96万股，持仓占比提升至8.42%。在减持端，英伟达减持幅度明显，本期减少396.12万股，持仓占比由6.58%下降至3.08%。不过，这一变化未必意味着段永平明显转向看空。段永平近期表示，英伟达的“护城河”和需求依然很强，自己“不看空但暂时也不加码”，并称计划买回此前“被call走”的部分股票。也就是说，三季度减持英伟达可能部分与期权操作有关。此外，苹果被继续减持，三季度减持589.63万股。截至三季度末，H&HInternationalInvestment的前五大重仓股为苹果、伯克希尔B股、",
-   "time": "2026-11-17 11:50:00",
-   "url": "https://finance.eastmoney.com/a/202611173932750584.html",
+   "title": "广州1宗宅地2.33亿元底价成交",
+   "summary": "【广州1宗宅地2.33亿元底价成交】广州增城区1宗宅地出让，建设用地面积23283.72平方米，规划建筑面积46567平方米，起始价2.33亿元，起始楼面价5000元/平方米。最终广州市增城区东进城市开发投资有限公司以底价2.33亿元竞得该地块。",
+   "time": "2026-11-17 12:24:23",
+   "url": "https://finance.eastmoney.com/a/202611173932757087.html",
    "source": "东财国际"
   },
   {
-   "title": "高盛五份研报同指一个结论：AI盛宴接近尾声，市场比经济更脆弱 - 华尔街见闻",
+   "title": "大行评级｜大摩：维持网易目标价163美元及“增持”评级，并视为首选股之一 - 金融界",
    "summary": "",
-   "time": "2026-11-17 11:07",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1pLTdxZHEzZk91eVVoS1pGeGJBWHZhRjQ4MU0tWDVvT094R2RIR3lWSFd3NmlQTGQzT0h4V0ZhTXhyYmVxNUR2RmlNMGtjV2l0UWtZ?oc=5",
+   "time": "2026-11-17 11:52",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAybVRZZzNMeGxyN2I4c3I5TmxKLVlHRUhHWHBGb29MVHEzLVFIeGxRSlRJX3ZnQ09pVWszVDJvTDhBWms1VGQxTHM0VzlhemR4QVpCS2ZjekJja3FHSmdqc3EtN1YxZWNMYU9DNkNjVVktajh1?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "设备数量近4200万 我国北斗产业应用持续增强",
+   "title": "10个月突破1600亿元 海南企业对APEC经济体贸易额创新高",
    "summary": "",
-   "time": "2026-11-17 03:49:21",
-   "url": "https://news.10jqka.com.cn/20261117/c681894886.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 04:21:29",
+   "url": "https://news.futunn.com/flash/1004703107/trade-volume-between-hainan-enterprises-and-apec-economies-surpasses-rmb",
+   "source": "富途"
   },
   {
-   "title": "新型血液标志物有望用于监测多发性硬化症进展",
+   "title": "比亚迪李柯：未来就是新能源 很多企业点名要到比亚迪看看",
    "summary": "",
-   "time": "2026-11-17 03:48:18",
-   "url": "https://news.futunn.com/flash/1004700162/novel-blood-biomarker-shows-promise-for-monitoring-multiple-sclerosis-progression",
-   "source": "富途"
+   "time": "2026-11-17 04:22:36",
+   "url": "https://news.10jqka.com.cn/20261117/c681896617.shtml",
+   "source": "同花顺"
   },
   {
    "title": "新云企业正面临多重压力：债务负担沉重、项目延误，以及即将就任、由民主党控制的新一届国会",
@@ -1830,32 +1818,32 @@
    "source": "财新"
   },
   {
-   "title": "11月17日午间收评：科创50指数半日涨超3%，半导体产业链集体反弹",
-   "summary": "1、市场早间低开回升，科创50指数涨超3%。半导体产业链集体反弹，伟测科技、有研新材、江化微、怡达股份等多股涨停。家电股延续涨势，小熊电器2连板，九阳股份上演地天板。消费电子板块拉升，捷荣技术、赢通通讯等涨停。下跌方面，AI漫剧概念下挫，横店影视、文投控股等跌停。个股涨多跌少，沪深京三市超3500股飘红，上午半天成交9011亿。午间收盘沪指跌0.01%，深成指涨0.69%，创业板涨0.72%。\n2",
-   "time": "2026-11-17 11:30",
-   "url": "https://wallstreetcn.com/livenews/3201001",
+   "title": "巴克莱表示，散户投资者被迫平仓是台股周一重挫的主要推手，这一趋势可能延续，令市场进一步承压。",
+   "summary": "巴克莱表示，散户投资者被迫平仓是台股周一重挫的主要推手，这一趋势可能延续，令市场进一步承压。",
+   "time": "2026-11-17 12:17",
+   "url": "https://wallstreetcn.com/livenews/3201017",
    "source": "华尔街见闻"
   },
   {
-   "title": "360集团：内审发现员工涉嫌经济问题，其正在接受有关部门调查",
-   "summary": "【360集团：内审发现员工涉嫌经济问题，其正在接受有关部门调查】11月17日，经初步了解，公司内审发现该员工涉嫌经济问题，立即向公安机关报案，目前该员工正在接受有关部门调查。",
-   "time": "2026-11-17 11:49:11",
-   "url": "https://finance.eastmoney.com/a/202611173932750119.html",
+   "title": "东阳光药等在深圳成立生物科技公司",
+   "summary": "【东阳光药等在深圳成立生物科技公司】企查查APP显示，近日，深圳蓝缎生物科技有限公司成立，法定代表人为金春雷，注册资本约为2.81亿元，经营范围包含医学研究和试验发展（除人体干细胞、基因诊断与治疗技术开发和应用）；技术进出口等。企查查股权穿透显示，该公司由东阳光药、冰洲石生物科技（上海）有限公司共同持股。",
+   "time": "2026-11-17 12:24:07",
+   "url": "https://finance.eastmoney.com/a/202611173932757152.html",
    "source": "东财国际"
   },
   {
-   "title": "招银国际：上调中国生物制药(01177)目标价至9港元 维持“买入”评级-证券之星 - 证券之星",
+   "title": "亚投行代表团到门头沟交流气候适应型城市建设试点工作 - 北京市人民政府门户网站",
    "summary": "",
-   "time": "2026-11-17 10:59",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1OT0JCZ0R2YnhwblNDbnJPWWdhQWFEQmhSRW1WMXZheEVmbnR4Mi1qNEM3VGp3SmpzUVNlSGRWdGNIS1FZZ0lTMDgwTEg4SVBJSmZ5M2huSmo0aXJ0ZEE?oc=5",
+   "time": "2026-11-17 11:33",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBxX3BmS0RzSjQ0REFYbmQtazE4a1V2UXdvNHVQR05mRVl3eGxhR2t5UnlTVzR6NTdkYlNsakY5VFpId1FtSDRYMGRXeW5QazlEYW1za3dtOUxqMy1oQUdYNlpmTkhub3lKSkptVnZIRXV1LURH?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "宇树王兴兴：2026年无论是AI大模型还是机器人领域，水面以下的情况都非常激动人心",
+   "title": "新加坡太平船务集团执行主席张松声：中国经济发展为航运业带来大量机遇",
    "summary": "",
-   "time": "2026-11-17 03:49:00",
-   "url": "https://news.10jqka.com.cn/20261117/c681894879.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 04:12:39",
+   "url": "https://news.futunn.com/flash/1004702556/zhang-songsong-executive-chairman-of-pacific-international-lines-s-ltd",
+   "source": "富途"
   }
  ],
  "news_meta": {
@@ -1875,8 +1863,8 @@
    "东财国际": 8,
    "谷歌新闻·研报": 8,
    "东财早报": 2,
-   "同花顺": 8,
-   "富途": 7,
+   "富途": 8,
+   "同花顺": 7,
    "财新": 7
   }
  },
@@ -1957,7 +1945,7 @@
  "structure": {
   "date": "2026-11-17",
   "zt_count": 42,
-  "dt_count": 19,
+  "dt_count": 0,
   "zb_count": 7,
   "qs_count": 134,
   "seal_rate": 85.7,
@@ -2038,28 +2026,7 @@
     "share": 4.8
    }
   ],
-  "dt_industries": [
-   {
-    "name": "一般零售",
-    "count": 2
-   },
-   {
-    "name": "游戏Ⅱ",
-    "count": 2
-   },
-   {
-    "name": "通用设备",
-    "count": 2
-   },
-   {
-    "name": "房地产开",
-    "count": 1
-   },
-   {
-    "name": "电视广播",
-    "count": 1
-   }
-  ],
+  "dt_industries": [],
   "leaders": [
    {
     "name": "广百股份",
@@ -2116,38 +2083,14 @@
     "broken": 1
    }
   ],
-  "dt_leaders": [
-   {
-    "name": "文投控股",
-    "code": "600715",
-    "industry": "游戏Ⅱ",
-    "change_pct": -9.89
-   },
-   {
-    "name": "大东方",
-    "code": "600327",
-    "industry": "一般零售",
-    "change_pct": -9.98
-   },
-   {
-    "name": "上海九百",
-    "code": "600838",
-    "industry": "一般零售",
-    "change_pct": -10.01
-   },
-   {
-    "name": "百洋股份",
-    "code": "002696",
-    "industry": "饲料",
-    "change_pct": -10.04
-   }
-  ],
+  "dt_leaders": [],
   "index_pct": -0.01,
-  "score": 72.2,
-  "score_label": "偏热",
+  "score": 83.1,
+  "score_label": "过热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
    "封板率 86%（炸板 7 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
+   "无跌停且涨停 42 家：当日风险偏好偏高，属于普涨式做多环境。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 7 家 / 涨停 42 家（17%）：以首板为主，持续性待验证",
    "涨停最集中的 光学光电 也只占 10%：热点分散，没有单一主线。",
@@ -2331,11 +2274,11 @@
    {
     "date": "2026-11-17",
     "zt": 42,
-    "dt": 19,
+    "dt": 0,
     "zb": 7,
     "seal": 85.7,
     "max_streak": 4,
-    "score": 72.2,
+    "score": 83.1,
     "index_pct": -0.01
    }
   ],
