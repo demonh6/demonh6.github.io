@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 06:48:32 CST",
- "generated_at_iso": "2026-11-18T06:48:32+08:00",
+ "generated_at": "2026-11-18 06:56:47 CST",
+ "generated_at_iso": "2026-11-18T06:56:47+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1283,10 +1283,10 @@
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.523,
-    "change": 1.083,
-    "change_pct": 1.17,
-    "quote_time": "06:44:50 2026-11-18"
+    "price": 93.561,
+    "change": 1.121,
+    "change_pct": 1.21,
+    "quote_time": "06:54:49 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64864.8,
-    "change": -568.3,
-    "change_pct": -0.87,
+    "price": 64785.5,
+    "change": -629.0,
+    "change_pct": -0.96,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1815.92,
-    "change": -15.5,
-    "change_pct": -0.85,
+    "price": 1817.01,
+    "change": -13.86,
+    "change_pct": -0.76,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.04,
-    "change": 2.1,
-    "change_pct": 2.92,
+    "price": 74.1,
+    "change": 2.24,
+    "change_pct": 3.12,
     "source": "okx"
    }
   ],
@@ -1322,20 +1322,20 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.56,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 103.489,
+    "change": -0.09,
+    "change_pct": -0.09,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-18",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6668,
-    "change": -0.0002,
-    "change_pct": 0.0,
+    "price": 6.6666,
+    "change": -0.0004,
+    "change_pct": -0.01,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1348,9 +1348,9 @@
     "change": 0.88,
     "change_pct": 0.67,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-17",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1672,14 +1672,14 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.76%，突破 2σ 警戒线）",
-   "time": "2026-11-18 06:48",
+   "time": "2026-11-18 06:57",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 06:48",
+   "time": "2026-11-18 06:57",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
