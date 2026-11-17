@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 21:29:06 CST",
- "generated_at_iso": "2026-11-17T21:29:06+08:00",
+ "generated_at": "2026-11-17 21:37:19 CST",
+ "generated_at_iso": "2026-11-17T21:37:19+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10774.15,
-    "change": -107.4,
-    "change_pct": -0.99,
+    "price": 10757.61,
+    "change": -123.94,
+    "change_pct": -1.14,
     "hist": [
      10541.69,
      10458.5,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8275.55,
-    "change": -76.45,
-    "change_pct": -0.92,
+    "price": 8259.73,
+    "change": -92.27,
+    "change_pct": -1.1,
     "hist": [
      7865.07,
      7769.21,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6288.32,
-    "change": -60.03,
-    "change_pct": -0.95,
+    "price": 6277.9,
+    "change": -70.45,
+    "change_pct": -1.11,
     "hist": [
      6272.24,
      6180.3,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3860.278,
-    "change": 7.278,
-    "change_pct": 0.19,
-    "quote_time": "21:29:06 2026-11-17"
+    "price": 3850.94,
+    "change": -2.06,
+    "change_pct": -0.05,
+    "quote_time": "21:37:22 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.564,
-    "change": 0.705,
-    "change_pct": 1.5,
-    "quote_time": "21:29:07 2026-11-17"
+    "price": 47.249,
+    "change": 0.39,
+    "change_pct": 0.83,
+    "quote_time": "21:37:20 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.852,
-    "change": 1.132,
-    "change_pct": 1.32,
-    "quote_time": "21:29:08 2026-11-17"
+    "price": 86.941,
+    "change": 1.221,
+    "change_pct": 1.42,
+    "quote_time": "21:37:22 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.667,
-    "change": 1.227,
-    "change_pct": 1.33,
-    "quote_time": "21:29:08 2026-11-17"
+    "price": 93.602,
+    "change": 1.162,
+    "change_pct": 1.26,
+    "quote_time": "21:37:20 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65119.7,
-    "change": 904.2,
-    "change_pct": 1.41,
+    "price": 64993.5,
+    "change": 662.4,
+    "change_pct": 1.03,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1827.19,
-    "change": 25.33,
-    "change_pct": 1.41,
+    "price": 1823.6,
+    "change": 19.19,
+    "change_pct": 1.06,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.09,
-    "change": 3.16,
-    "change_pct": 4.46,
+    "price": 73.79,
+    "change": 2.72,
+    "change_pct": 3.83,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.64,
-    "change": 0.05,
-    "change_pct": 0.05,
+    "price": 103.77,
+    "change": 0.18,
+    "change_pct": 0.17,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6661,
-    "change": 0.0014,
-    "change_pct": 0.02,
+    "price": 6.6667,
+    "change": 0.002,
+    "change_pct": 0.03,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 22.78,
-   "change": -0.13,
-   "change_pct": -0.5674,
+   "value": 22.93,
+   "change": 0.02,
+   "change_pct": 0.0873,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1423,8 +1423,8 @@
     },
     {
      "t": "VIX",
-     "value": 22.78,
-     "change_pct": -0.5674
+     "value": 22.93,
+     "change_pct": 0.0873
     },
     {
      "t": "VIX3M",
@@ -1454,26 +1454,26 @@
  },
  "speakers": [
   {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：美国致力于其众多朋友的成功。\n\n我认为柬埔寨和泰国之间的停火将会维持。\n\n致力于维护柬埔寨与泰国之间的停火。\n\n对与亚洲伙伴在技术领域合作感到兴奋。",
-   "summary": "特朗普：美国致力于其众多朋友的成功。\n\n我认为柬埔寨和泰国之间的停火将会维持。\n\n致力于维护柬埔寨与泰国之间的停火。\n\n对与亚洲伙伴在技术领域合作感到兴奋。",
-   "time": "2026-11-17 20:57",
-   "url": "https://wallstreetcn.com/livenews/3201310",
-   "source": "华尔街见闻",
-   "mentions": 4
-  },
-  {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储穆萨勒姆：美联储或需在春季前多次加息 需尽快行动",
-   "summary": "",
-   "time": "2026-11-17 12:34:17",
-   "url": "https://news.futunn.com/flash/1004760150/fed-s-musalem-the-federal-reserve-may-need-to-raise",
-   "source": "富途",
+   "title": "美联储理事丽莎·库克（Lisa Cook）拒绝参加12月14日的白宫听证会。（彭博）",
+   "summary": "美联储理事丽莎·库克（Lisa Cook）拒绝参加12月14日的白宫听证会。（彭博）",
+   "time": "2026-11-17 21:36",
+   "url": "https://wallstreetcn.com/livenews/3201337",
+   "source": "华尔街见闻",
    "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "要闻解说 - 特朗普开启亚洲之行 美中俄峰会前“Quad”会谈展现团结 - RFI",
+   "summary": "",
+   "time": "2026-11-17 20:52",
+   "url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPY1lMd09XMk42ck56eko0V2U2WWo0RUp3UDhUYXRmdFRlUkVnRW9HanVoYTZsaGZkWHRVRFNoa3dheGNuMjFnbEJ1UGp5cjNhc2RvdDZORGRpckZUX19TS0dxR0cxYzRIcDdJRDNQX21NSkNsTEVCQ2xVdFlBRG5GdFNoM2NBeEpWM0NqNkctNGowYm1GWG9LdmZQZ0RCX2xCN045N2R0c0c3NG9ZRXFIMnZBWUNGMDlOWXZrV2VHUVNpOHdyZ2pWaE1vNURxZFJjYURITWhyOFlhRmlzR0NTSGZoVkFqaTBtTjBBTWNIWC1qUDhHVlB2RGJORF83dDRZMkFNU0hFRTY5QlVvY29ZRVlKeHB4dUdtVGJaMzFXRWlSTk04SW5FVEdnN3h2R0x0dzBPeFVzRWplaVl3eDBORkJmZHkzSFE5SHk5ODVRNHhUMldjVzU1LWdpOXNzcE1fYzl2cnJGSlkxcFN4Q0JDaVVfUGZfRm04TnBlMkxRODFlVWhUWFVrTDdNTl82VG1PR1p2dDc2VEVSZzR3OENiMXMtbWVvelpJMGo4RFNQblAwdzFtNlpIdENybUQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1681,46 +1681,46 @@
  "alerts": [],
  "news": [
   {
-   "title": "摩根大通：Bregje de Best将接替Jeremy Barnum出任首席财务官。",
-   "summary": "摩根大通：Bregje de Best将接替Jeremy Barnum出任首席财务官。",
-   "time": "2026-11-17 21:03",
-   "url": "https://wallstreetcn.com/livenews/3201316",
+   "title": "美联储理事丽莎·库克（Lisa Cook）拒绝参加12月14日的白宫听证会。（彭博）",
+   "summary": "美联储理事丽莎·库克（Lisa Cook）拒绝参加12月14日的白宫听证会。（彭博）",
+   "time": "2026-11-17 21:36",
+   "url": "https://wallstreetcn.com/livenews/3201337",
    "source": "华尔街见闻"
   },
   {
-   "title": "国内商品期货夜盘开盘 主力合约多数下跌",
-   "summary": "【国内商品期货夜盘开盘 主力合约多数下跌】国内商品期货夜盘开盘，主力合约多数下跌。跌幅方面，苯乙烯、纯苯、沪铝、低硫燃油跌超1%；涨幅方面，沪银、LPG涨超1%，白糖、甲醇、棉花、胶版纸、瓶片等小幅上涨。",
-   "time": "2026-11-17 21:00:04",
-   "url": "https://finance.eastmoney.com/a/202611173933106569.html",
+   "title": "美股Sellas Life Sciences盘前股价飙升315%",
+   "summary": "美股Sellas Life Sciences盘前股价因癌症试验数据飙升315%。",
+   "time": "2026-11-17 21:34:29",
+   "url": "https://finance.eastmoney.com/a/202611173933149279.html",
    "source": "东财国际"
   },
   {
-   "title": "Anthropic获第二家独立分析机构买入评级，目标价均超$100 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "特朗普：美国认真对待伊朗或在华盛顿引爆脏弹 - 联合早报",
    "summary": "",
-   "time": "2026-11-17 20:57",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZenJLSXFkSnVpclkwN0Z1ZmRjaHQxbFZpQkVGRzNoZ0RxMVkySFVDU3pmeVgzN1VNSUVINEFvZjRGaVU3dHJsb09jM3VCUWNGS3FyV0VlVmhXY2Excjlyd0dlWURzb3NjbE1tdFVLdFg?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "要闻解说 - 特朗普开启亚洲之行 美中俄峰会前“Quad”会谈展现团结 - RFI",
-   "summary": "",
-   "time": "2026-11-17 20:52",
-   "url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPY1lMd09XMk42ck56eko0V2U2WWo0RUp3UDhUYXRmdFRlUkVnRW9HanVoYTZsaGZkWHRVRFNoa3dheGNuMjFnbEJ1UGp5cjNhc2RvdDZORGRpckZUX19TS0dxR0cxYzRIcDdJRDNQX21NSkNsTEVCQ2xVdFlBRG5GdFNoM2NBeEpWM0NqNkctNGowYm1GWG9LdmZQZ0RCX2xCN045N2R0c0c3NG9ZRXFIMnZBWUNGMDlOWXZrV2VHUVNpOHdyZ2pWaE1vNURxZFJjYURITWhyOFlhRmlzR0NTSGZoVkFqaTBtTjBBTWNIWC1qUDhHVlB2RGJORF83dDRZMkFNU0hFRTY5QlVvY29ZRVlKeHB4dUdtVGJaMzFXRWlSTk04SW5FVEdnN3h2R0x0dzBPeFVzRWplaVl3eDBORkJmZHkzSFE5SHk5ODVRNHhUMldjVzU1LWdpOXNzcE1fYzl2cnJGSlkxcFN4Q0JDaVVfUGZfRm04TnBlMkxRODFlVWhUWFVrTDdNTl82VG1PR1p2dDc2VEVSZzR3OENiMXMtbWVvelpJMGo4RFNQblAwdzFtNlpIdENybUQ?oc=5",
+   "time": "2026-11-17 21:20",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTWHc4b0J2OS1FSnB6UE51dEd2SGJLRngzY2RFWFlEeWdUaXFVVHU2UnBHQ20zTXBPUXFCS3JVanRtRXhaVnBIN0JVUW04SzdUbWx5X2M1TFZMVVliZFk5T3d0R0NuaVVNZ3FR?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "LME铝主力合约跌超2%",
+   "title": "掌趣科技跌7.8% 最新研报来自近3年前浙商证券_股市聚焦_市场 - 中金在线",
    "summary": "",
-   "time": "2026-11-17 13:00:20",
-   "url": "https://news.10jqka.com.cn/20261117/c681923612.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 21:04",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51Z2xXdV9JUEVrZk8wMnZDa2NVckl2ZWQtV09IUWpDdTRIbXhVQnFwVmxpbHN4TV9mZGZPS0F5YVJXcHBvZFhBbEZ6cXFZbk1BZDJkSlY4blBEMER4S19pV2NZamY0N0oxbFlNTEJ3?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普：泰国取消对美商品所有关税，消除大量非关税壁垒",
+   "title": "李彦宏回应百度AI收入占比过半",
    "summary": "",
-   "time": "2026-11-17 12:42:03",
-   "url": "https://news.futunn.com/flash/1004760953/trump-thailand-to-eliminate-all-tariffs-on-us-goods-and",
+   "time": "2026-11-17 13:32:27",
+   "url": "https://news.futunn.com/flash/1004766423/robin-li-responds-to-baidu-s-ai-revenue-accounting-for",
    "source": "富途"
+  },
+  {
+   "title": "美国10月零售销售环比增长0.2%，预期0.2%，前值0.8%",
+   "summary": "",
+   "time": "2026-11-17 13:31:02",
+   "url": "https://news.10jqka.com.cn/20261117/c681924153.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1737,46 +1737,46 @@
    "source": "财新"
   },
   {
-   "title": "匈牙利将基准利率维持在5.50%不变，符合预期。",
-   "summary": "匈牙利将基准利率维持在5.50%不变，符合预期。",
-   "time": "2026-11-17 21:02",
-   "url": "https://wallstreetcn.com/livenews/3201315",
+   "title": "加拿大9月海外投资者净买入证券 194.62亿加元，前值 -173.1亿加元。",
+   "summary": "加拿大9月海外投资者净买入证券 194.62亿加元，前值 -173.1亿加元。",
+   "time": "2026-11-17 21:30",
+   "url": "https://wallstreetcn.com/livenews/3201335",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国四大航司因停飞事件损失逾3亿美元",
-   "summary": "【美国四大航司因停飞事件损失逾3亿美元】据美国投资机构伯恩斯坦公司估计，13日发生的全美航班停飞事件已导致美国最大的四家航空公司共损失3.45亿美元。",
-   "time": "2026-11-17 20:56:27",
-   "url": "https://finance.eastmoney.com/a/202611173933106225.html",
+   "title": "美国10月进口物价指数环比增长1.1% 预期0.7%",
+   "summary": "美国10月进口物价指数环比增长1.1%，预期0.7%，前值1.10%。",
+   "time": "2026-11-17 21:30:40",
+   "url": "https://finance.eastmoney.com/a/202611173933136130.html",
    "source": "东财国际"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "要闻解说 - 特朗普开启亚洲之行 美中俄峰会前“Quad”会谈展现团结 - RFI",
    "summary": "",
-   "time": "2026-11-17 20:23",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kX1lkSVJRekpnSUdFMXVQN0w0QkhMcHVBM1RWcHR1WW5UQjFoXzhwWWpjR185RHhWdG5rcC0zQy1uRXc5OWVXTA?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美国政府内斗白热化 特朗普图淡化分歧力挺卢特尼克 - 联合早报",
-   "summary": "",
-   "time": "2026-11-17 20:37",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE53MmJPNHpPbHRYZ2stcE83bWdwNzFNVnptaGJOYWFlcnYxcURRNUhlTHN4Y0kwRjY3b19lOTd6RWFKeXUzVXlWTmh0N2lMVmZ4VEExSEl1bzZMbm9tSkRPN2hPMk9uXzZvaDRj?oc=5",
+   "time": "2026-11-17 20:52",
+   "url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPY1lMd09XMk42ck56eko0V2U2WWo0RUp3UDhUYXRmdFRlUkVnRW9HanVoYTZsaGZkWHRVRFNoa3dheGNuMjFnbEJ1UGp5cjNhc2RvdDZORGRpckZUX19TS0dxR0cxYzRIcDdJRDNQX21NSkNsTEVCQ2xVdFlBRG5GdFNoM2NBeEpWM0NqNkctNGowYm1GWG9LdmZQZ0RCX2xCN045N2R0c0c3NG9ZRXFIMnZBWUNGMDlOWXZrV2VHUVNpOHdyZ2pWaE1vNURxZFJjYURITWhyOFlhRmlzR0NTSGZoVkFqaTBtTjBBTWNIWC1qUDhHVlB2RGJORF83dDRZMkFNU0hFRTY5QlVvY29ZRVlKeHB4dUdtVGJaMzFXRWlSTk04SW5FVEdnN3h2R0x0dzBPeFVzRWplaVl3eDBORkJmZHkzSFE5SHk5ODVRNHhUMldjVzU1LWdpOXNzcE1fYzl2cnJGSlkxcFN4Q0JDaVVfUGZfRm04TnBlMkxRODFlVWhUWFVrTDdNTl82VG1PR1p2dDc2VEVSZzR3OENiMXMtbWVvelpJMGo4RFNQblAwdzFtNlpIdENybUQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "期市夜盘开盘，国内期货主力合约多数下跌",
+   "title": "Anthropic获第二家独立分析机构买入评级，目标价均超$100 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-17 13:00:03",
-   "url": "https://news.10jqka.com.cn/20261117/c681923600.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 20:57",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZenJLSXFkSnVpclkwN0Z1ZmRjaHQxbFZpQkVGRzNoZ0RxMVkySFVDU3pmeVgzN1VNSUVINEFvZjRGaVU3dHJsb09jM3VCUWNGS3FyV0VlVmhXY2Excjlyd0dlWURzb3NjbE1tdFVLdFg?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "大族数控：目前已与全球头部算力供应链客户开展联合研发",
+   "title": "四巨头中标印度LPG大单 2027年拟进口275万公吨的美国液化石油气",
    "summary": "",
-   "time": "2026-11-17 12:40:25",
-   "url": "https://news.futunn.com/flash/1004760545/han-s-cnc-currently-engaged-in-joint-r-d-with",
+   "time": "2026-11-17 13:30:23",
+   "url": "https://news.futunn.com/flash/1004765800/four-major-players-win-large-indian-lpg-contract-plan-to",
    "source": "富途"
+  },
+  {
+   "title": "伊朗格什姆岛传出爆炸声",
+   "summary": "",
+   "time": "2026-11-17 13:30:26",
+   "url": "https://news.10jqka.com.cn/20261117/c681924143.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1793,46 +1793,46 @@
    "source": "财新"
   },
   {
-   "title": "夜盘期货开盘，低硫燃油、沪铝、纯苯、苯乙烯跌超1%；沪银、LPG涨超1%。",
-   "summary": "夜盘期货开盘，低硫燃油、沪铝、纯苯、苯乙烯跌超1%；沪银、LPG涨超1%。",
-   "time": "2026-11-17 21:00",
-   "url": "https://wallstreetcn.com/livenews/3201314",
+   "title": "美国10月进口价格指数(除汽油)环比 0.8%，预期 0.5%，前值 0.8%。",
+   "summary": "美国10月进口价格指数(除汽油)环比 0.8%，预期 0.5%，前值 0.8%。",
+   "time": "2026-11-17 21:30",
+   "url": "https://wallstreetcn.com/livenews/3201334",
    "source": "华尔街见闻"
   },
   {
-   "title": "英矽智能：完成非鸦片类止痛候选药物ISM9528探索性试验首例人体给药",
-   "summary": "【英矽智能：完成非鸦片类止痛候选药物ISM9528探索性试验首例人体给药】11月17日晚间，英矽智能在港交所公告，在临床前候选药物（PCC）提名仅四个月后，英矽智能已完成ISM9528的首例人体给药，其为一款于阿布扎比发现具潜力成为同类首创的非鸦片类止痛候选药物。",
-   "time": "2026-11-17 20:54:31",
-   "url": "https://finance.eastmoney.com/a/202611173933104297.html",
+   "title": "美国10月零售销售环比增长0.2% 预期0.2%",
+   "summary": "美国10月零售销售环比增长0.2%，预期0.2%，前值0.8%。",
+   "time": "2026-11-17 21:30:25",
+   "url": "https://finance.eastmoney.com/a/202611173933135813.html",
    "source": "东财国际"
   },
   {
-   "title": "太平洋：给予纳芯微买入评级_券商研报_数据解析 - 证券之星",
+   "title": "特朗普：泰国将取消所有对美国出口商品的关税。 - 新浪网",
    "summary": "",
-   "time": "2026-11-17 18:42",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaWkzN0Mwbll2aVY0Wktuejl0SWtYZjE0RTlyLVVDR2hlSW9aTTZpREszZUd3aWFFblZmUFI5MDJBTXR6bHdOdWdQQlgycDQxRk8zdmFXT0dOcElwODVjSmhn?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普称金正恩想来中国：让我们拭目以待 克宫不排除普金会可能 - RFI",
-   "summary": "",
-   "time": "2026-11-17 20:30",
-   "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxOU3B2T2FoZWp5dGdraHFSUVE1YTVWbGVSRjV6X1NWYk9WNXlnNm1Qa0xudllGUEV4S3FhcndSV2pPcVQ3N0FKX3VHdVd3NW4zWF9iZ0ROckZ4QkJ1anlmV3N1cm9lV2ROaWk2cmlWQkhUbldLWnI1bmVQS1pWV3Q5eU5ycVdVWE5PNEstYjZzSEZaWGRYQjZKOVFUWVRlazdYRHJIQWNFQUl2WTZ0dHBLbndvYk9LZUdXRG1EemY0WWtDcmh3cmsyZGNnY0RUZ1pFdHptQkJhYjFYb3dQcWs3TXFrWnVZX2lMOGxwamlZaUZVcUtQcldHUTVwdmZQVUUya2JCcE9RSGNUaDNqWlFCMlFObWpZN1BwTG5qTjFYNnJJczVTYUNFeGpvYno4NjBmY3JlSWF3cmVZLVdKUzFGNU0tN2kzMjJrZWZoZmgtdnhHZ0gzaVFHRmJCZWdRYVR4bFlBaDNmWkhCMmFJal9pcWlKdlZzT0x4cFdhVlk4V2M2bkZacGlxZF95b2xkUWZyc3ZWYWNXc190eTY5UEZTVVg4SHFiNFF1MTV2M2JpMG4tdw?oc=5",
+   "time": "2026-11-17 20:40",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTR08yMF96YXNuajFTX3FuVUpSaTRFT1lIaWdhSG10dktHX3VvN0s4YlhjLWFKcWF2WUdFMVg2ZF9qaGZkT2J3NzZtOVJvX1k?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "康盈半导体打造一体化制造总部基地 发力高端存储芯片与模组",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-17 12:58:42",
-   "url": "https://news.10jqka.com.cn/20261117/c681923588.shtml",
-   "source": "同花顺"
+   "time": "2026-11-17 20:23",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kX1lkSVJRekpnSUdFMXVQN0w0QkhMcHVBM1RWcHR1WW5UQjFoXzhwWWpjR185RHhWdG5rcC0zQy1uRXc5OWVXTA?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储穆萨勒姆：美联储或需在春季前多次加息 需尽快行动",
+   "title": "阿曼、伊朗和乌兹别克斯坦官员会晤 讨论地区局势",
    "summary": "",
-   "time": "2026-11-17 12:34:17",
-   "url": "https://news.futunn.com/flash/1004760150/fed-s-musalem-the-federal-reserve-may-need-to-raise",
+   "time": "2026-11-17 13:29:41",
+   "url": "https://news.futunn.com/flash/1004765651/officials-from-oman-iran-and-uzbekistan-meet-to-discuss-regional",
    "source": "富途"
+  },
+  {
+   "title": "WTI原油涨超1%",
+   "summary": "",
+   "time": "2026-11-17 13:20:59",
+   "url": "https://news.10jqka.com.cn/20261117/c681924032.shtml",
+   "source": "同花顺"
   },
   {
    "title": "新云企业正面临多重压力：债务负担沉重、项目延误，以及即将就任、由民主党控制的新一届国会",
@@ -1842,10 +1842,10 @@
    "source": "财新"
   },
   {
-   "title": "特朗普：美国致力于其众多朋友的成功。\n\n我认为柬埔寨和泰国之间的停火将会维持。\n\n致力于维护柬埔寨与泰国之间的停火。\n\n对与亚洲伙伴在技术领域合作感到兴奋。",
-   "summary": "特朗普：美国致力于其众多朋友的成功。\n\n我认为柬埔寨和泰国之间的停火将会维持。\n\n致力于维护柬埔寨与泰国之间的停火。\n\n对与亚洲伙伴在技术领域合作感到兴奋。",
-   "time": "2026-11-17 20:57",
-   "url": "https://wallstreetcn.com/livenews/3201310",
+   "title": "美国10月出口价格指数环比 1.1%，预期 0.5%，前值 2.2%。",
+   "summary": "美国10月出口价格指数环比 1.1%，预期 0.5%，前值 2.2%。",
+   "time": "2026-11-17 21:30",
+   "url": "https://wallstreetcn.com/livenews/3201333",
    "source": "华尔街见闻"
   }
  ],
@@ -1853,7 +1853,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(8)",
+   "富途": "ok(9)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1864,10 +1864,10 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
-   "同花顺": 7,
-   "富途": 5,
+   "谷歌新闻·研报": 7,
+   "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
