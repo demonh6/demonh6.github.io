@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 19:55:29 CST",
- "generated_at_iso": "2026-11-17T19:55:29+08:00",
+ "generated_at": "2026-11-17 20:03:42 CST",
+ "generated_at_iso": "2026-11-17T20:03:42+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -982,8 +982,8 @@
      4968.48
     ],
     "sigma": 3.299,
-    "volume": 183092.0,
-    "vol_chg_pct": -23.9,
+    "volume": 193978.0,
+    "vol_chg_pct": -19.3,
     "vol_pctile": 0.8,
     "vol_hist": [
      269800.0,
@@ -1015,15 +1015,15 @@
      244800.0,
      247800.0,
      221300.0,
-     183092.0
+     193978.0
     ]
    },
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10808.26,
-    "change": -73.29,
-    "change_pct": -0.67,
+    "price": 10796.89,
+    "change": -84.66,
+    "change_pct": -0.78,
     "hist": [
      10541.69,
      10458.5,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8287.87,
-    "change": -64.13,
-    "change_pct": -0.77,
+    "price": 8290.07,
+    "change": -61.93,
+    "change_pct": -0.74,
     "hist": [
      7865.07,
      7769.21,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6295.15,
-    "change": -53.2,
-    "change_pct": -0.84,
+    "price": 6300.67,
+    "change": -47.68,
+    "change_pct": -0.75,
     "hist": [
      6272.24,
      6180.3,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3871.78,
-    "change": 18.78,
-    "change_pct": 0.49,
-    "quote_time": "19:55:30 2026-11-17"
+    "price": 3872.488,
+    "change": 19.488,
+    "change_pct": 0.51,
+    "quote_time": "20:03:40 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.621,
-    "change": 0.762,
-    "change_pct": 1.63,
-    "quote_time": "19:55:12 2026-11-17"
+    "price": 47.626,
+    "change": 0.767,
+    "change_pct": 1.64,
+    "quote_time": "20:03:44 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 86.173,
-    "change": 0.453,
-    "change_pct": 0.53,
-    "quote_time": "19:55:25 2026-11-17"
+    "price": 86.118,
+    "change": 0.398,
+    "change_pct": 0.46,
+    "quote_time": "20:03:42 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.863,
-    "change": 0.423,
-    "change_pct": 0.46,
-    "quote_time": "19:55:27 2026-11-17"
+    "price": 92.766,
+    "change": 0.326,
+    "change_pct": 0.35,
+    "quote_time": "20:03:45 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64936.8,
-    "change": 373.8,
-    "change_pct": 0.58,
-    "source": "okx"
+    "price": 64899.4,
+    "change": 569.4,
+    "change_pct": 0.89,
+    "source": "okx",
+    "hist": [
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64877.5
+    ],
+    "sigma": 2.311
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1820.75,
-    "change": 9.85,
-    "change_pct": 0.54,
-    "source": "okx"
+    "price": 1816.8,
+    "change": 13.59,
+    "change_pct": 0.75,
+    "source": "okx",
+    "hist": [
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1815.66
+    ],
+    "sigma": 3.187
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.47,
-    "change": 1.92,
-    "change_pct": 2.68,
-    "source": "okx"
+    "price": 73.36,
+    "change": 2.2,
+    "change_pct": 3.09,
+    "source": "okx",
+    "hist": [
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     73.31
+    ],
+    "sigma": 3.405
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.6,
-    "change": 0.01,
-    "change_pct": 0.01,
+    "price": 103.58,
+    "change": -0.01,
+    "change_pct": -0.01,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.666,
-    "change": 0.0013,
+    "price": 6.6661,
+    "change": 0.0014,
     "change_pct": 0.02,
     "dec": 4,
     "date": "",
@@ -1373,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 23.3,
-   "change": 0.39,
-   "change_pct": 1.7023,
+   "value": 22.58,
+   "change": -0.33,
+   "change_pct": -1.4404,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1412,7 +1511,7 @@
     22.91
    ],
    "vix3m": 23.02,
-   "term": "backwardation(恐慌加剧)"
+   "term": "持平"
   },
   "term_structure": {
    "points": [
@@ -1423,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 23.3,
-     "change_pct": 1.7023
+     "value": 22.58,
+     "change_pct": -1.4404
     },
     {
      "t": "VIX3M",
@@ -1457,23 +1556,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称美国正在调查伊朗脏弹威胁。（CBS）",
-   "summary": "特朗普称美国正在调查伊朗脏弹威胁。（CBS）",
-   "time": "2026-11-17 19:36",
-   "url": "https://wallstreetcn.com/livenews/3201281",
-   "source": "华尔街见闻",
-   "mentions": 3
-  },
-  {
-   "keyword": "商务部",
-   "label": "商务部",
-   "hint": "中美贸易与出口管制的对口部门",
-   "title": "商务部：中加两国同意将初步联合安排的相关豁免措施延长2年",
-   "summary": "商务部新闻发言人就中加经贸磋商成果答记者问。在中加两国领导人重要共识的引领下，双方本着相互尊重、合作共赢的精神，在初步联合安排基础上开展多轮经贸磋商，就双方关注的经贸问题形成补充联合安排。",
-   "time": "2026-11-17 19:27",
-   "url": "https://wallstreetcn.com/livenews/3201277",
-   "source": "华尔街见闻",
-   "mentions": 1
+   "title": "视频丨美国总统特朗普将抵达深圳参加APEC领导人非正式会议，美媒：特朗普将成首位到访这座“奇迹之城”的在任美国总统 - jingjiribao.cn",
+   "summary": "",
+   "time": "2026-11-17 19:53",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfN0VhTkxBdUs1aHp3MlA4T1QtblVIdlE3RWxQUUhvNC05QlgwVHNqcEd4Skk3c2xVYUhQYWxnTFVfYWZkd3hsU3l3R2tyVFcydDVkWXBDZUJwZjNycEg1VDNQTQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 5
   }
  ],
  "research": {
@@ -1547,24 +1635,24 @@
     "source": "机构观点"
    },
    {
-    "title": "印度总理莫迪在东亚峰会上呼吁建立自由、开放、基于规则的印太。（彭博）",
-    "org": "彭博",
-    "rating": "",
-    "stock": "",
-    "industry": "",
+    "title": "北交所信息更新：拟收购汉正公司61%股权进入含氟精细化学品赛道，羟胺水溶液项目稳步推进中",
+    "org": "开源证券",
+    "rating": "增持",
+    "stock": "锦华新材",
+    "industry": "化学制品",
     "date": "2026-11-17",
-    "url": "https://wallstreetcn.com/livenews/3201263",
-    "source": "机构观点"
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831794569",
+    "source": "东财研报·个股"
    },
    {
-    "title": "西南证券：下调中联重科目标价至8.4元，给予买入评级_券商研报_数据解析 - 证券之星",
-    "org": "西南证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
+    "title": "北交所信息更新：叉车行业回暖+机器人布局持续深化，2026Q1-3营收同比+12.75%",
+    "org": "开源证券",
+    "rating": "增持",
+    "stock": "万达轴承",
+    "industry": "通用设备",
     "date": "2026-11-17",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LbUczVE9udVl1SEFVRUZnWGxwb1I2UHlzSEtZeHJSbF9rNjZnWVZDUHNmQ1ZLWFdQeVNMSUtPVHF1RnVOWGtUWVI4TFpnWTk3ODIxV0hXTVUzZ2NzRVZ5WmNn?oc=5",
-    "source": "机构观点"
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831794566",
+    "source": "东财研报·个股"
    },
    {
     "title": "量价下降及燃料成本上升压制业绩，电价回升信号已现盈利能力有望修复",
@@ -1665,71 +1753,51 @@
     "date": "2026-11-17",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831777655",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "公司事件点评报告：算力供电订单高增，海外业务持续拓展",
-    "org": "华鑫证券",
-    "rating": "买入",
-    "stock": "特锐德",
-    "industry": "电网设备",
-    "date": "2026-11-17",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831771549",
-    "source": "东财研报·个股"
-   },
-   {
-    "title": "公司事件点评报告：海外预收款显著增加，供配电业务拓展新场景",
-    "org": "华鑫证券",
-    "rating": "买入",
-    "stock": "明阳电气",
-    "industry": "电网设备",
-    "date": "2026-11-17",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831771548",
-    "source": "东财研报·个股"
    }
   ]
  },
  "alerts": [],
  "news": [
   {
-   "title": "Anthropic：亚马逊将持有已发行N类股票的48.2%。",
-   "summary": "Anthropic：亚马逊将持有已发行N类股票的48.2%。",
+   "title": "视频丨美国总统特朗普将抵达深圳参加APEC领导人非正式会议，美媒：特朗普将成首位到访这座“奇迹之城”的在任美国总统 - jingjiribao.cn",
+   "summary": "",
+   "time": "2026-11-17 19:53",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfN0VhTkxBdUs1aHp3MlA4T1QtblVIdlE3RWxQUUhvNC05QlgwVHNqcEd4Skk3c2xVYUhQYWxnTFVfYWZkd3hsU3l3R2tyVFcydDVkWXBDZUJwZjNycEg1VDNQTQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "美股AI硬件股盘前回暖 Coherent涨超5% Lumentum涨超4%",
+   "summary": "【美股AI硬件股盘前回暖 Coherent涨超5% Lumentum涨超4%】美股AI硬件股盘前普遍反弹，英伟达涨1.17%，台积电涨0.39%，博通涨1.45%，美光科技涨2.14%，SK海力士涨2.19%，AMD涨3.10%，阿斯麦涨0.45%，闪迪涨1.81%，Arm涨2.49%，迈威尔科技涨3.78%，Lumentum涨4.51%，Coherent涨5.04%。三倍做多半导体ETF（SOXL）涨5.09%。",
+   "time": "2026-11-17 19:51:29",
+   "url": "https://finance.eastmoney.com/a/202611173933051247.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "Anthropic的IPO发行价区间在最新申报文件中保持不变",
+   "summary": "Anthropic仍预计其IPO价格为每股70至78美元，公司仍发行8.0135亿股，投资方仍出售2,365万股。在本次发行和私募配售完成后，亚马逊将持有Anthropic N类股票的33.9%，以及其已发行股本的14.7%。若亚马逊票据全部转换，并假设股本无其他变动，亚马逊将持有Anthropic N类股票的48.2%，以及其已发行股本的23.8%。",
    "time": "2026-11-17 19:38",
    "url": "https://wallstreetcn.com/livenews/3201289",
    "source": "华尔街见闻"
   },
   {
-   "title": "标普500指数期货抹去此前跌幅",
-   "summary": "标普500指数期货抹去此前跌幅，转为上涨。",
-   "time": "2026-11-17 19:37:20",
-   "url": "https://finance.eastmoney.com/a/202611173933036324.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "APEC深圳峰会：特习会与中美俄三方会晤背后的大国博弈 - DW.com",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-17 19:20",
-   "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQRXh0eWtTSzQ3cThncDM3aVZGeEs1OEVMQ1FlQW9VcUs3YVJ3Q2U5elJua0dPMTdyeGVyVVltel9DVXhfQmlWci1Cdnd0bEJnUTl5VDE4Sm9paklKQm5kYWJKTHVVZFduRlVuQURlRmdHakplUDJLeTRfZ3kyVmRLNU9rRTRVUi1CVWNBcThPQWRRdlpUUmZiakxsdlViZzV3enRLNWZoNkpCeGZ1LW0wM2NQaE5makhCRk94UTVKTVRfQVlCeDdCX0FEX0doMm0zV2tONXNaTXNfMWNhcXozMUNGc1lTUmMxbDJnXy03cWNXM1VMcEFOdW9rRUc5ejdVT09vTy1NUU5FRTltWUE1d181Ni00SE9hTnhMMTlQdjNDUEJpczFFY0VyMGFjQnQ0QU1ZTHprMFBnNlUyUzY00gG_AkFVX3lxTE4wMVhWMUcyVThrRGFSc1pyV0xSOUFXdFVlUElSdnlkeGp5THVXY29GcWxlQ0Fsd3NHa0U2LXQxX1JHUjR5dkNTS2tKbzZrM1dMQnBITTdmZG1KUHFQZ1NPVmVTR3FxUUtSWnpMSFVVTnEyQTlsb1hkZ09wM2dlRk5CcjAwQjdjbGkzYTlyTDVhWWx6OTljdGJfVDRDS2tiTDNhUnpmUzVYeTdVTndmRk9CekNmYnpwSWFiUWdBbGotNEVwYnV3N3ZHNmlqN1ktOU9WTUxCRnJGQ1ExYkRpR0YyM0ZBQVNoZ2w3UDhRdTNocEt1OWh4RzljTzF6SXZ5TmN3SjJYZ1A2MEpGRVlFSGJJLVZKZmw4Mm43eWMwYUl1aUozdk0xbUpFVVR6M1FxWnBuZ3dCNXMzT3JRTDI3MkE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "泽璟制药目标价涨幅超110%，星图测控、华测导航等评级被调低丨券商评级观察 - 21财经",
-   "summary": "",
-   "time": "2026-11-17 18:58",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb1RvRkhkZnBGck9VbjBVSWIwZlk4V0ZfNk95eFp5enBuTDA2NF9Jd1llMFliV3MyWjFJbzVxZlkxRWtHbVVuVktfLVd6bE9MRlhFRnNYZEdpcWN0VmVfc08wbzhFOWtkcVZzQTlINUpfWV9nemRCWnF6cC1ENXBqZ2VfbWgzTEgteFJBbzJhc0syVVNt?oc=5",
+   "time": "2026-11-17 19:36",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9JczRseHowU0NNMXlGNko3ZENGRWNPWUtXeTlRdWFLVHBHSkxMckFndnM0YUxsVXBDdmhYT1ppMl9qZFdUNHFsSg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "迪士尼第四财季调整后每股收益1.77美元 高于预期",
+   "title": "Anthropic提交修订版S-1文件 维持发行价区间不变",
    "summary": "",
-   "time": "2026-11-17 11:38:30",
-   "url": "https://news.futunn.com/flash/1004754091/disney-s-fourth-quarter-adjusted-earnings-per-share-were-1",
+   "time": "2026-11-17 12:01:49",
+   "url": "https://news.futunn.com/flash/1004756742/anthropic-files-amended-s-1-maintains-ipo-price-range",
    "source": "富途"
   },
   {
-   "title": "超威半导体美股盘前涨超2%",
+   "title": "卧龙电驱：庞欣元当选董事长，万创奇获聘总裁",
    "summary": "",
-   "time": "2026-11-17 11:36:21",
-   "url": "https://news.10jqka.com.cn/20261117/c681920104.shtml",
+   "time": "2026-11-17 11:59:40",
+   "url": "https://news.10jqka.com.cn/20261117/c681920534.shtml",
    "source": "同花顺"
   },
   {
@@ -1747,6 +1815,20 @@
    "source": "财新"
   },
   {
+   "title": "特朗普访华之际 美国封堵中国公司在东南亚租用AI算力的“后门” - BBC",
+   "summary": "",
+   "time": "2026-11-17 19:36",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5GQWxhdXhRUEoyNTlTa1dtc3RQY0lMc0syWWFoNVJfMHVyaGNQRmZqRk54VXNTMU9GM01NUXBNQWFhaWpISThoUk9WMk9EYjJnSEx1dVlRS3pFLXhPVG45SXFBdzc1MEXSAWxBVV95cUxNWjZWamQwd1NkUGFaZnZIRUxoVFVubWxrSzZWYVRrekxUUmhzcExvUmF2UkZfYkhGbG9ycVpONDhqcVVaNFJid2RnTC1OX1dZellUV1EyNXRZMnp3VDFuZWhkN3pzYTUtWmFpdDU?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "2连板长虹美菱：内外部经营环境未发生重大变化",
+   "summary": "【2连板长虹美菱：内外部经营环境未发生重大变化】长虹美菱(000521.SZ)公告称，公司经营情况正常，内外部经营环境未发生重大变化，未发现近期公共传媒报道了可能或已经对公司股票交易价格产生较大影响的未公开重大信息，公司、控股股东和实际控制人不存在关于本公司的应披露而未披露的重大事项或处于筹划阶段的重大事项。",
+   "time": "2026-11-17 19:49:53",
+   "url": "https://finance.eastmoney.com/a/202611173933050068.html",
+   "source": "东财国际"
+  },
+  {
    "title": "特朗普称美国正在调查伊朗脏弹威胁。（CBS）",
    "summary": "特朗普称美国正在调查伊朗脏弹威胁。（CBS）",
    "time": "2026-11-17 19:36",
@@ -1754,38 +1836,24 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "迪士尼第四季度调整后每股收益为1.77美元",
-   "summary": "【迪士尼第四季度调整后每股收益为1.77美元】迪士尼第四季度调整后每股收益为1.77美元，预计为1.66美元。",
-   "time": "2026-11-17 19:31:52",
-   "url": "https://finance.eastmoney.com/a/202611173933031346.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "特朗普：合作启动人工智能计划。 - 新浪网",
+   "title": "泽璟制药目标价涨幅超110%，星图测控、华测导航等评级被调低丨券商评级观察 - 21财经",
    "summary": "",
-   "time": "2026-11-17 18:57",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sOWtsVXRSVDhRbjFtWGNvbkJ2b0RBV2M3MFJOSGRScVktTFBhaEZ5SjRqZ3RfZ001M29LX21pM3RtblNpR2NTT0pKWm1MRUk?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "太平洋：给予纳芯微买入评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-17 18:42",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaWkzN0Mwbll2aVY0Wktuejl0SWtYZjE0RTlyLVVDR2hlSW9aTTZpREszZUd3aWFFblZmUFI5MDJBTXR6bHdOdWdQQlgycDQxRk8zdmFXT0dOcElwODVjSmhn?oc=5",
+   "time": "2026-11-17 18:58",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb1RvRkhkZnBGck9VbjBVSWIwZlk4V0ZfNk95eFp5enBuTDA2NF9Jd1llMFliV3MyWjFJbzVxZlkxRWtHbVVuVktfLVd6bE9MRlhFRnNYZEdpcWN0VmVfc08wbzhFOWtkcVZzQTlINUpfWV9nemRCWnF6cC1ENXBqZ2VfbWgzTEgteFJBbzJhc0syVVNt?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "电投绿能：拟15.5亿元收购吉林吉电公司49.35%股权",
+   "title": "正泰电源：拟8.21亿元投建年产2GWh高功率UPS电源项目",
    "summary": "",
-   "time": "2026-11-17 11:37:43",
-   "url": "https://news.futunn.com/flash/1004754051/spic-green-energy-plans-to-acquire-49-35-equity-stake",
+   "time": "2026-11-17 11:57:10",
+   "url": "https://news.futunn.com/flash/1004755922/chint-power-plans-to-invest-rmb-821-million-in-constructing",
    "source": "富途"
   },
   {
-   "title": "华电能源：煤价是现阶段对公司盈利影响最直接的变量",
+   "title": "*ST美丽：第一大股东宝立盛及一致行动人郑财拟增持不低于5000万元且不超过8000万元公司股份",
    "summary": "",
-   "time": "2026-11-17 11:35:45",
-   "url": "https://news.10jqka.com.cn/20261117/c681920092.shtml",
+   "time": "2026-11-17 11:48:49",
+   "url": "https://news.10jqka.com.cn/20261117/c681920286.shtml",
    "source": "同花顺"
   },
   {
@@ -1803,6 +1871,20 @@
    "source": "财新"
   },
   {
+   "title": "快看视频 | 特朗普赴深圳，马斯克也要来，美国代表团还有谁？ - 上观新闻",
+   "summary": "",
+   "time": "2026-11-17 19:28",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ucE12WjRJMklxdC1zX2lQZ2hISjNMS2VEMDRUeVI5OERzT3l2TGhvQ1VKcUJZS0NKMERfSVNyT1ZhZTVpQkhFX2hwU2o3cWhGRk9wNWlnMndfdw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "*ST美丽：第一大股东及一致行动人拟增持5000万至8000万元股份",
+   "summary": "【*ST美丽：第一大股东及一致行动人拟增持5000万至8000万元股份】*ST美丽(000010.SZ)公告称，公司第一大股东宝立盛及其一致行动人郑财计划自公告披露之日起6个月内，通过集中竞价、大宗交易等方式增持公司股份，增持金额不低于5000万元且不超过8000万元。",
+   "time": "2026-11-17 19:49:50",
+   "url": "https://finance.eastmoney.com/a/202611173933049890.html",
+   "source": "东财国际"
+  },
+  {
    "title": "Anthropic：我们已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
    "summary": "Anthropic：我们已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
    "time": "2026-11-17 19:30",
@@ -1810,38 +1892,24 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "Anthropic：已获准在纳斯达克全球精选市场上市A类普通股",
-   "summary": "【Anthropic：已获准在纳斯达克全球精选市场上市A类普通股】Anthropic表示，已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
-   "time": "2026-11-17 19:30:23",
-   "url": "https://finance.eastmoney.com/a/202611173933030816.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "风波爆发前特朗普持仓英伟达市值最高达6200万美元|唐纳德·特朗普|股票交易|黄仁勋|坎托|交易_手机新浪网 - 新浪财经",
+   "title": "太平洋：给予纳芯微买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-17 18:54",
-   "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxQRGxBendLbFZJZ1p3TWtWbS15ckY0LVBKUHFHYjI4UkVFSXdqZ3F4ODR6dXZ6bFc0Zk93LXAyN3lLeXJPLVpLM29SWTNlaW9NOUljZVAyWXpCd0tWZXpFNDRJVC1iSEZFZUR2QTZraXRraGY1a1NGN1lfYXlIcEZKY0F3ZHZudjFFbWVKV1l6R05USHNLM1dqdjlyOVBQbm1ENW9seHdjODNyUlVHcVFCVGJiUDJ4Um8yZkd1SnpPSUlvV0hYZ054Z0NZbVlFanZVakRSS182RkNUTEh5RS1FV2hTcXgxQmNGeGdRX2lXcnp0QnlyNHZHUWhKZk40RHpWbUx2MlVNNmtSV1RJYUxlZ2xmRU80RTg1aDVoQmxB?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "西南证券：下调中联重科目标价至8.4元，给予买入评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-17 18:41",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1LbUczVE9udVl1SEFVRUZnWGxwb1I2UHlzSEtZeHJSbF9rNjZnWVZDUHNmQ1ZLWFdQeVNMSUtPVHF1RnVOWGtUWVI4TFpnWTk3ODIxV0hXTVUzZ2NzRVZ5WmNn?oc=5",
+   "time": "2026-11-17 18:42",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQaWkzN0Mwbll2aVY0Wktuejl0SWtYZjE0RTlyLVVDR2hlSW9aTTZpREszZUd3aWFFblZmUFI5MDJBTXR6bHdOdWdQQlgycDQxRk8zdmFXT0dOcElwODVjSmhn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英伟达财报前投资者避险，英国股市走弱",
+   "title": "同宇新材：拟合计约8.24亿元投建高性能树脂材料项目及年产20万吨电子树脂项目（二期）",
    "summary": "",
-   "time": "2026-11-17 11:30:23",
-   "url": "https://news.futunn.com/flash/1004753020/investors-seek-safe-havens-ahead-of-nvidia-earnings-uk-stocks",
+   "time": "2026-11-17 11:49:56",
+   "url": "https://news.futunn.com/flash/1004755129/tongyu-new-materials-plans-to-invest-a-total-of-approximately",
    "source": "富途"
   },
   {
-   "title": "山高环能：收购衡阳桑德凯天65%股权完成工商过户",
+   "title": "荣盛发展：股票收盘价0.90元/股首次低于1元，存在可能因股价低于面值被终止上市的风险",
    "summary": "",
-   "time": "2026-11-17 11:35:34",
-   "url": "https://news.10jqka.com.cn/20261117/c681920085.shtml",
+   "time": "2026-11-17 11:43:41",
+   "url": "https://news.10jqka.com.cn/20261117/c681920225.shtml",
    "source": "同花顺"
   },
   {
@@ -1852,18 +1920,18 @@
    "source": "财新"
   },
   {
-   "title": "商务部：中加两国同意将初步联合安排的相关豁免措施延长2年",
-   "summary": "商务部新闻发言人就中加经贸磋商成果答记者问。在中加两国领导人重要共识的引领下，双方本着相互尊重、合作共赢的精神，在初步联合安排基础上开展多轮经贸磋商，就双方关注的经贸问题形成补充联合安排。",
-   "time": "2026-11-17 19:27",
-   "url": "https://wallstreetcn.com/livenews/3201277",
-   "source": "华尔街见闻"
+   "title": "特朗普：合作启动人工智能计划。 - 新浪网",
+   "summary": "",
+   "time": "2026-11-17 18:57",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sOWtsVXRSVDhRbjFtWGNvbkJ2b0RBV2M3MFJOSGRScVktTFBhaEZ5SjRqZ3RfZ001M29LX21pM3RtblNpR2NTT0pKWm1MRUk?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(11)",
+   "富途": "ok(13)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1872,9 +1940,9 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "东财国际": 7,
    "谷歌新闻·国际": 7,
+   "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
    "富途": 6,
    "同花顺": 6,
