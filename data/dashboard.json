@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 18:22:20 CST",
- "generated_at_iso": "2026-11-17T18:22:20+08:00",
+ "generated_at": "2026-11-17 18:30:36 CST",
+ "generated_at_iso": "2026-11-17T18:30:36+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10791.12,
-    "change": -90.43,
-    "change_pct": -0.83,
+    "price": 10801.84,
+    "change": -79.71,
+    "change_pct": -0.73,
     "hist": [
      10541.69,
      10458.5,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8267.52,
-    "change": -84.48,
-    "change_pct": -1.01,
+    "price": 8272.7,
+    "change": -79.3,
+    "change_pct": -0.95,
     "hist": [
      7865.07,
      7769.21,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6282.42,
-    "change": -65.93,
-    "change_pct": -1.04,
+    "price": 6285.0,
+    "change": -63.35,
+    "change_pct": -1.0,
     "hist": [
      6272.24,
      6180.3,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3856.936,
-    "change": 3.936,
+    "price": 3856.729,
+    "change": 3.729,
     "change_pct": 0.1,
-    "quote_time": "18:22:23 2026-11-17"
+    "quote_time": "18:30:34 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.196,
-    "change": 0.337,
-    "change_pct": 0.72,
-    "quote_time": "18:22:23 2026-11-17"
+    "price": 47.229,
+    "change": 0.37,
+    "change_pct": 0.79,
+    "quote_time": "18:30:32 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.857,
-    "change": 0.137,
-    "change_pct": 0.16,
-    "quote_time": "18:22:21 2026-11-17"
+    "price": 85.53,
+    "change": -0.19,
+    "change_pct": -0.22,
+    "quote_time": "18:30:38 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.607,
-    "change": 0.167,
-    "change_pct": 0.18,
-    "quote_time": "18:22:22 2026-11-17"
+    "price": 92.06,
+    "change": -0.38,
+    "change_pct": -0.41,
+    "quote_time": "18:30:32 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64253.8,
-    "change": -216.8,
-    "change_pct": -0.34,
+    "price": 64231.2,
+    "change": -343.4,
+    "change_pct": -0.53,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1795.78,
-    "change": -7.39,
-    "change_pct": -0.41,
+    "price": 1793.63,
+    "change": -12.46,
+    "change_pct": -0.69,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.32,
-    "change": 1.12,
-    "change_pct": 1.57,
+    "price": 72.36,
+    "change": 1.01,
+    "change_pct": 1.42,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.58,
-    "change": -0.01,
-    "change_pct": -0.01,
+    "price": 103.55,
+    "change": -0.04,
+    "change_pct": -0.04,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1333,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6661,
-    "change": 0.0014,
+    "price": 6.6662,
+    "change": 0.0015,
     "change_pct": 0.02,
     "dec": 4,
     "date": "",
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 23.75,
-   "change": 0.84,
-   "change_pct": 3.6665,
+   "value": 23.67,
+   "change": 0.76,
+   "change_pct": 3.3173,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1423,8 +1423,8 @@
     },
     {
      "t": "VIX",
-     "value": 23.75,
-     "change_pct": 3.6665
+     "value": 23.67,
+     "change_pct": 3.3173
     },
     {
      "t": "VIX3M",
@@ -1454,6 +1454,17 @@
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "人工智能进入美联储视野——生产率飙升、就业岗位流失，还是泡沫破裂？ - Moomoo",
+   "summary": "",
+   "time": "2026-11-17 18:05",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWGdqa2NIZTZGZGVxemxtS2s4bzlGR0hDby1XSjR4enZ6WmVYRlR3NzlYZ0dXbHZBTXBFSGQ2Z0R3ZGh6VXhzTHd2UXRXcXkxejVXbHg4d3p0NWo5bTdxOEF0bTlxbFhwZW5iaTNIRVF0ZTBZMXl0RV9OQWdrdzY2ME5ReFBuS3BQSnptdENXUkJxcElQOWpaMWM5MHhrVTB5dkIxWHRyWVlnMzVvZmVkazFLQ25RZ2JM?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1462,7 +1473,7 @@
    "time": "2026-11-17 17:30",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hRDBlQnV0ZmZyeGtXd3VCVzNXVjIwa0E2VmhsenppQ295NlBwQm5jN1B5dFJNQ2tHZHBMcDNVU25Bb2lnUFIzRFZ2dndDSkMwOHB3V0xRNA?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 1
   },
   {
    "keyword": "黄仁勋",
@@ -1472,17 +1483,6 @@
    "summary": "",
    "time": "2026-11-17 16:55",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCdGUtWmtpVjl0X0NqWFdNdEFESTJTVm1qd0l1WDVmbmlqMWpTYXBCYXlXSDJkcmVwNG1fLWhJU1JoZ2tYRTQ5akdzWkxyVGFDV1ZCTDAyZ3lfVHVVRlpsS3FKVzE0SDjSAWxBVV95cUxQV0dJRTZMYmFOcl9nRlRBdkpneFA4V0hKa0ZxVVZyRTE4T1B1QWdrQncyQVFKUXV4ZlBoaXA2c0p0TGhLQ3NfcUNGMi1jZGxnTXFSdW54VmZlZ3k4Q2JpUk5WOWpUdWM0b1VkRVI?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "外交部",
-   "label": "外交部",
-   "hint": "地缘政治表态影响风险偏好",
-   "title": "特朗普：可能在中国会见朝鲜领导人，外交部回应 - Sohu",
-   "summary": "",
-   "time": "2026-11-17 16:27",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdllZbE5VcHVyTFh5NEVuLWZqUmJoLXFBT2dZTWp6aThXdmdkTVlXcVBLNkVDVnNVS21mZTJNR1BIa0NMV2h4dXgtWDlBWlFESDdmdXlvUzEyWVBtT01wZU01WEZ5am9yNm9tOG5oODIzUHhYcmEwX2xrYV9vdGRaNC1rRlpWNUkw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
   }
@@ -1702,45 +1702,45 @@
  "alerts": [],
  "news": [
   {
-   "title": "欧元区11月ZEW经济景气指数为26.5",
-   "summary": "欧元区11月ZEW经济景气指数为26.5，前值18.5。",
-   "time": "2026-11-17 18:00:49",
-   "url": "https://finance.eastmoney.com/a/202611173932964367.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "欧元区11月ZEW经济景气指数 26.5，前值 18.5。",
-   "summary": "欧元区11月ZEW经济景气指数 26.5，前值 18.5。",
-   "time": "2026-11-17 18:00",
-   "url": "https://wallstreetcn.com/livenews/3201215",
+   "title": "捷佳伟创：拟以集中竞价方式回购股份，资金总额不低于3亿元且不超过5亿元，价格不超过70元/股，用于股权激励或员工持股计划，预计回购428.57万股至714.29万股，占总股本1.23%至2.05%，期限自董事会审议通过之日起不超过12个月。",
+   "summary": "捷佳伟创：拟以集中竞价方式回购股份，资金总额不低于3亿元且不超过5亿元，价格不超过70元/股，用于股权激励或员工持股计划，预计回购428.57万股至714.29万股，占总股本1.23%至2.05%，期限自董事会审议通过之日起不超过12个月。",
+   "time": "2026-11-17 18:31",
+   "url": "https://wallstreetcn.com/livenews/3201242",
    "source": "华尔街见闻"
   },
   {
-   "title": "太平洋证券维持川金诺“买入”评级 预计公司2026-2028年EPS分别为0.8/1.29/2.39元 - 观点网",
-   "summary": "",
-   "time": "2026-11-17 17:44",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14TTFzSFI3Y0lydHlzT0NNcDdBd1RKNjFXczMzOVdzT01TVDdaUjFQVnpDcl9VTUVRZUVxVDY3RE5ZX1NvTEpxcE5RSkNmZFRObkEzYjRuRmtMSngyWkRIWmxB?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "捷佳伟创：拟3亿元至5亿元回购公司股份",
+   "summary": "【捷佳伟创：拟3亿元至5亿元回购公司股份】捷佳伟创(300724.SZ)公告称，公司拟使用自有资金或自筹资金以集中竞价交易方式回购公司部分股份，回购资金总额不低于3亿元且不超过5亿元，回购价格不超过70元/股。回购的股份将全部用于股权激励或员工持股计划。回购期限为自董事会审议通过之日起不超过12个月。",
+   "time": "2026-11-17 18:27:28",
+   "url": "https://finance.eastmoney.com/a/202611173932970143.html",
+   "source": "东财国际"
   },
   {
-   "title": "特朗普开启访亚行程 美中俄或发表联合公报 - 共同网",
+   "title": "人工智能进入美联储视野——生产率飙升、就业岗位流失，还是泡沫破裂？ - Moomoo",
    "summary": "",
-   "time": "2026-11-17 17:30",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hRDBlQnV0ZmZyeGtXd3VCVzNXVjIwa0E2VmhsenppQ295NlBwQm5jN1B5dFJNQ2tHZHBMcDNVU25Bb2lnUFIzRFZ2dndDSkMwOHB3V0xRNA?oc=5",
+   "time": "2026-11-17 18:05",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWGdqa2NIZTZGZGVxemxtS2s4bzlGR0hDby1XSjR4enZ6WmVYRlR3NzlYZ0dXbHZBTXBFSGQ2Z0R3ZGh6VXhzTHd2UXRXcXkxejVXbHg4d3p0NWo5bTdxOEF0bTlxbFhwZW5iaTNIRVF0ZTBZMXl0RV9OQWdrdzY2ME5ReFBuS3BQSnptdENXUkJxcElQOWpaMWM5MHhrVTB5dkIxWHRyWVlnMzVvZmVkazFLQ25RZ2JM?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "全球超算500强新榜单发布 中国超算蝉联榜首",
+   "title": "33股获买入评级 最新:蘅东光 - 中财网",
    "summary": "",
-   "time": "2026-11-17 10:05:16",
-   "url": "https://news.10jqka.com.cn/20261117/c681917281.shtml",
+   "time": "2026-11-17 17:56",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBEN0lHRExLNGE1anIwT3hWUmVCM2ZxR0QxOWt4eWFzVkVXRm1kWWYtX3huZGNaQ0UxRXBwekYzX3pkVFBVWHdsY2tPSFozeWFfSWhydDFB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "新北洋：子公司中标农行超级柜台入围项目，两个包件合计中标金额约3亿元",
+   "summary": "",
+   "time": "2026-11-17 10:29:12",
+   "url": "https://news.10jqka.com.cn/20261117/c681917869.shtml",
    "source": "同花顺"
   },
   {
-   "title": "中国诚通董事长奚正平会见中保投资总裁李军",
+   "title": "*ST华幸：股票收盘价首次低于1元，存在被终止上市风险",
    "summary": "",
-   "time": "2026-11-17 10:01:24",
-   "url": "https://news.futunn.com/flash/1004742865/xi-zhengping-chairman-of-china-chengtong-holdings-co-ltd-meets",
+   "time": "2026-11-17 10:24:01",
+   "url": "https://news.futunn.com/flash/1004745482/st-huaxing-share-closing-price-falls-below-rmb-1-for",
    "source": "富途"
   },
   {
@@ -1758,45 +1758,45 @@
    "source": "财新"
   },
   {
-   "title": "德国11月ZEW经济景气指数为35.6 预期28.3",
-   "summary": "德国11月ZEW经济景气指数为35.6，预期28.3，前值28.1。",
-   "time": "2026-11-17 18:00:20",
-   "url": "https://finance.eastmoney.com/a/202611173932964257.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "德国11月ZEW经济现况指数 -33.2，预期 -35.3，前值 -35.9。",
-   "summary": "德国11月ZEW经济现况指数 -33.2，预期 -35.3，前值 -35.9。",
-   "time": "2026-11-17 18:00",
-   "url": "https://wallstreetcn.com/livenews/3201213",
+   "title": "欧盟经济事务专员Dombrovskis：正看到通胀对经济产生第二轮效应。",
+   "summary": "欧盟经济事务专员Dombrovskis：正看到通胀对经济产生第二轮效应。",
+   "time": "2026-11-17 18:28",
+   "url": "https://wallstreetcn.com/livenews/3201236",
    "source": "华尔街见闻"
   },
   {
-   "title": "掌趣科技跌7.8% 最新研报来自近3年前浙商证券_证券要闻 - 中金在线",
-   "summary": "",
-   "time": "2026-11-17 17:32",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8tWTRXSjVPenJCd3cwNWRyN1JwZUlKLWJiay1fc2hNQ3pjQWlZak5NSlJGblBDVWxxazE5ZnE2NDdFR25XYWdJcXRjZk1GUTlOOXdjUFJyRDl4X19MX1hnand4LVdidlBWTHlFZEtB?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "法国极右翼领导人勒庞：计划将法国养老金缴费年限设为40至42年",
+   "summary": "【法国极右翼领导人勒庞：计划将法国养老金缴费年限设为40至42年】法国极右翼领导人勒庞表示，计划将法国养老金缴费年限设为40至42年，领取法国全额养老金的最晚年龄仍为67岁；将在养老金体系中增加资本投资层。",
+   "time": "2026-11-17 18:26:36",
+   "url": "https://finance.eastmoney.com/a/202611173932969957.html",
+   "source": "东财国际"
   },
   {
-   "title": "“让黄仁勋回归”运动：Nvidia驳斥　特朗普支持 - BBC",
+   "title": "特朗普开启访亚行程 美中俄或发表联合公报 - 共同网",
    "summary": "",
-   "time": "2026-11-17 16:55",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCdGUtWmtpVjl0X0NqWFdNdEFESTJTVm1qd0l1WDVmbmlqMWpTYXBCYXlXSDJkcmVwNG1fLWhJU1JoZ2tYRTQ5akdzWkxyVGFDV1ZCTDAyZ3lfVHVVRlpsS3FKVzE0SDjSAWxBVV95cUxQV0dJRTZMYmFOcl9nRlRBdkpneFA4V0hKa0ZxVVZyRTE4T1B1QWdrQncyQVFKUXV4ZlBoaXA2c0p0TGhLQ3NfcUNGMi1jZGxnTXFSdW54VmZlZ3k4Q2JpUk5WOWpUdWM0b1VkRVI?oc=5",
+   "time": "2026-11-17 17:30",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hRDBlQnV0ZmZyeGtXd3VCVzNXVjIwa0E2VmhsenppQ295NlBwQm5jN1B5dFJNQ2tHZHBMcDNVU25Bb2lnUFIzRFZ2dndDSkMwOHB3V0xRNA?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "雪祺电气：2026年上半年境外营收同比增长48.06%",
+   "title": "7公司获得增持评级-更新中 - 中财网",
    "summary": "",
-   "time": "2026-11-17 10:02:45",
-   "url": "https://news.10jqka.com.cn/20261117/c681917204.shtml",
+   "time": "2026-11-17 17:51",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBIelFTVUdQemx3NFlzTTZuM3FDODNrUFdqaGRRZXZ4WHViZTBNbEo0Tlpmd2FCVGstMVJfUTZTOG5tdmhtbjFtQUxyNEhKSDFIYWhYbDFB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "北京：鼓励工厂（算力设施）探索在运输、工业、储能和供能等领域开展氢能示范应用",
+   "summary": "",
+   "time": "2026-11-17 10:28:36",
+   "url": "https://news.10jqka.com.cn/20261117/c681917856.shtml",
    "source": "同花顺"
   },
   {
-   "title": "特朗普抵达马尼拉，开启亚洲之行",
+   "title": "长鑫科技：LPDDR6将拓展智能驾驶等场景",
    "summary": "",
-   "time": "2026-11-17 09:53:55",
-   "url": "https://news.futunn.com/flash/1004741703/trump-arrives-in-manila-kicking-off-asian-tour",
+   "time": "2026-11-17 10:07:45",
+   "url": "https://news.futunn.com/flash/1004743482/changxin-technology-lpddr6-to-expand-into-intelligent-driving-and-other",
    "source": "富途"
   },
   {
@@ -1814,45 +1814,45 @@
    "source": "财新"
   },
   {
-   "title": "云南锗业：高品质磷化铟单晶片项目投资额增至2.7亿元",
-   "summary": "【云南锗业：高品质磷化铟单晶片项目投资额增至2.7亿元】云南锗业(002428.SZ)公告称，公司董事会审议通过议案，同意将控股子公司云南鑫耀实施的“高品质磷化铟单晶片建设项目”总投资额由1.89亿元增加至2.7亿元。因项目建设期间部分机器设备及安装调试费用市场价格上涨，同时为顺应市场大尺寸需求，调整部分设备配置及数量，合计增加投资8143万元。",
-   "time": "2026-11-17 17:59:45",
-   "url": "https://finance.eastmoney.com/a/202611173932963766.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "德国11月ZEW经济景气指数 35.6，预期 28.8，前值 28.1。",
-   "summary": "德国11月ZEW经济景气指数 35.6，预期 28.8，前值 28.1。",
-   "time": "2026-11-17 18:00",
-   "url": "https://wallstreetcn.com/livenews/3201212",
+   "title": "鸿海将以约72.4亿日元收购索尼车载相机模组业务。（彭博）",
+   "summary": "鸿海将以约72.4亿日元收购索尼车载相机模组业务。（彭博）",
+   "time": "2026-11-17 18:22",
+   "url": "https://wallstreetcn.com/livenews/3201234",
    "source": "华尔街见闻"
   },
   {
-   "title": "风口研报 - 财联社",
-   "summary": "",
-   "time": "2026-11-17 17:19",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HZUozSkd2Z2U2TThBa29uOUgzWldpV0M5M3VkWHRVSDJXQkhlQ0E0RjhweTNhc2prY21PNEJxdXNKRlhmT01Gcw?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "北京：鼓励工厂（算力设施）因地制宜开发利用分布式光伏等可再生能源 探索开展绿电直连",
+   "summary": "【北京：鼓励工厂（算力设施）因地制宜开发利用分布式光伏等可再生能源 探索开展绿电直连】近日，北京市经济和信息化局出台《北京市零碳工厂培育建设工作方案（2026—2030年）》。其中提到，鼓励工厂（算力设施）因地制宜开发利用分布式光伏、分散式风电、生物天然气、地热等可再生能源，探索开展绿电直连，提高可再生能源使用比例。鼓励有条件的工厂建设工业绿色微网，充分利用工厂余热余压，配建新型储能，应用高效热泵，实现多能互补高效利用。",
+   "time": "2026-11-17 18:26:00",
+   "url": "https://finance.eastmoney.com/a/202611173932970249.html",
+   "source": "东财国际"
   },
   {
-   "title": "特朗普：可能在中国会见朝鲜领导人，外交部回应 - Sohu",
+   "title": "“让黄仁勋回归”运动：Nvidia驳斥　特朗普支持 - BBC",
    "summary": "",
-   "time": "2026-11-17 16:27",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdllZbE5VcHVyTFh5NEVuLWZqUmJoLXFBT2dZTWp6aThXdmdkTVlXcVBLNkVDVnNVS21mZTJNR1BIa0NMV2h4dXgtWDlBWlFESDdmdXlvUzEyWVBtT01wZU01WEZ5am9yNm9tOG5oODIzUHhYcmEwX2xrYV9vdGRaNC1rRlpWNUkw?oc=5",
+   "time": "2026-11-17 16:55",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCdGUtWmtpVjl0X0NqWFdNdEFESTJTVm1qd0l1WDVmbmlqMWpTYXBCYXlXSDJkcmVwNG1fLWhJU1JoZ2tYRTQ5akdzWkxyVGFDV1ZCTDAyZ3lfVHVVRlpsS3FKVzE0SDjSAWxBVV95cUxQV0dJRTZMYmFOcl9nRlRBdkpneFA4V0hKa0ZxVVZyRTE4T1B1QWdrQncyQVFKUXV4ZlBoaXA2c0p0TGhLQ3NfcUNGMi1jZGxnTXFSdW54VmZlZ3k4Q2JpUk5WOWpUdWM0b1VkRVI?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "联合国报告：今年苏丹武装冲突已造成2230名平民死亡",
+   "title": "太平洋证券维持川金诺“买入”评级 预计公司2026-2028年EPS分别为0.8/1.29/2.39元 - 观点网",
    "summary": "",
-   "time": "2026-11-17 09:54:17",
-   "url": "https://news.10jqka.com.cn/20261117/c681916902.shtml",
+   "time": "2026-11-17 17:44",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE14TTFzSFI3Y0lydHlzT0NNcDdBd1RKNjFXczMzOVdzT01TVDdaUjFQVnpDcl9VTUVRZUVxVDY3RE5ZX1NvTEpxcE5RSkNmZFRObkEzYjRuRmtMSngyWkRIWmxB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "华帝股份：2026年发布“瓷话套系”等新品",
+   "summary": "",
+   "time": "2026-11-17 10:28:11",
+   "url": "https://news.10jqka.com.cn/20261117/c681917852.shtml",
    "source": "同花顺"
   },
   {
-   "title": "中兴通讯方榕：帮助全球运营商每年节电超100亿度 加速布局亚太绿色数据中心",
+   "title": "中国诚通董事长奚正平会见中保投资总裁李军",
    "summary": "",
-   "time": "2026-11-17 09:52:32",
-   "url": "https://news.futunn.com/flash/1004741506/zte-s-fang-rong-helping-global-operators-save-over-10",
+   "time": "2026-11-17 10:01:24",
+   "url": "https://news.futunn.com/flash/1004742865/xi-zhengping-chairman-of-china-chengtong-holdings-co-ltd-meets",
    "source": "富途"
   },
   {
@@ -1863,18 +1863,18 @@
    "source": "财新"
   },
   {
-   "title": "星动纪元机器人落地广东邮政8市11地",
-   "summary": "【星动纪元机器人落地广东邮政8市11地】记者获悉，星动纪元具身智能机器人已在中国邮政广东省分公司规模化上岗，覆盖广州、深圳、东莞、江门、汕头、汕尾、揭阳、河源八市的十一地。据介绍，这是目前具身智能机器人在物流领域最大规模、最广范围的落地应用。",
-   "time": "2026-11-17 17:58:35",
-   "url": "https://finance.eastmoney.com/a/202611173932963380.html",
-   "source": "东财国际"
+   "title": "俄罗斯称克里米亚大桥铁路交通已恢复。（IFX）",
+   "summary": "俄罗斯称克里米亚大桥铁路交通已恢复。（IFX）",
+   "time": "2026-11-17 18:18",
+   "url": "https://wallstreetcn.com/livenews/3201231",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(18)",
+   "富途": "ok(17)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1883,10 +1883,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
