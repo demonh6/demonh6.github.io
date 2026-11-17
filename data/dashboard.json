@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 06:56:47 CST",
- "generated_at_iso": "2026-11-18T06:56:47+08:00",
+ "generated_at": "2026-11-18 07:05:25 CST",
+ "generated_at_iso": "2026-11-18T07:05:25+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1054,9 +1054,9 @@
      10863.09,
      10902.56,
      10881.55,
-     10709.78
+     10689.87
     ],
-    "sigma": 0.763,
+    "sigma": 0.782,
     "volume": 0.0,
     "vol_pctile": 100.0,
     "vol_hist": [
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3850.503,
-    "change": -2.497,
-    "change_pct": -0.06,
-    "quote_time": "06:45:00 2026-11-18"
+    "price": 3856.16,
+    "change": -8.04,
+    "change_pct": -0.21,
+    "quote_time": "07:05:27 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.247,
-    "change": 0.388,
-    "change_pct": 0.83,
-    "quote_time": "05:59:59 2026-11-18"
+    "price": 47.48,
+    "change": 0.123,
+    "change_pct": 0.26,
+    "quote_time": "07:05:24 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.282,
-    "change": -0.188,
-    "change_pct": -0.22,
-    "quote_time": "05:59:48 2026-11-18"
+    "price": 84.58,
+    "change": -0.07,
+    "change_pct": -0.08,
+    "quote_time": "07:05:24 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.561,
-    "change": 1.121,
-    "change_pct": 1.21,
-    "quote_time": "06:54:49 2026-11-18"
+    "price": 93.545,
+    "change": 1.105,
+    "change_pct": 1.2,
+    "quote_time": "06:59:57 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,47 +1294,146 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64785.5,
-    "change": -629.0,
-    "change_pct": -0.96,
-    "source": "okx"
+    "price": 64942.1,
+    "change": -317.3,
+    "change_pct": -0.49,
+    "source": "okx",
+    "hist": [
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     64938.3
+    ],
+    "sigma": 2.269
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1817.01,
-    "change": -13.86,
-    "change_pct": -0.76,
-    "source": "okx"
+    "price": 1819.82,
+    "change": -5.89,
+    "change_pct": -0.32,
+    "source": "okx",
+    "hist": [
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1821.72
+    ],
+    "sigma": 3.211
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.1,
-    "change": 2.24,
-    "change_pct": 3.12,
-    "source": "okx"
+    "price": 74.54,
+    "change": 2.94,
+    "change_pct": 4.11,
+    "source": "okx",
+    "hist": [
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     74.73
+    ],
+    "sigma": 3.413
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.489,
-    "change": -0.09,
-    "change_pct": -0.09,
+    "price": 103.6,
+    "change": 0.04,
+    "change_pct": 0.04,
     "dec": 2,
-    "date": "2026-11-18",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6666,
-    "change": -0.0004,
+    "price": 6.6663,
+    "change": -0.0007,
     "change_pct": -0.01,
     "dec": 4,
     "date": "",
@@ -1348,9 +1447,9 @@
     "change": 0.88,
     "change_pct": 0.67,
     "dec": 2,
-    "date": "2026-11-17",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1526,6 +1625,16 @@
   ],
   "reports": [
    {
+    "title": "瑞银将谷歌母公司Alphabet目标价从380美元下调至320美元 - 东方财富",
+    "org": "瑞银",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MSUZ6aVRWaHZpU29rXzNlTGdFeDQwOXR3MVhBc0lFSzkxcF92d29xN0JaRXo1TkdTRUs2QWNTZHNqRVNYaG93d1dIMzFsdGRTQ2dvUGhUZDl5aTFvaFBqTA?oc=5",
+    "source": "机构观点"
+   },
+   {
     "title": "飞船绕地球飞行14圈后由发射塔机械臂捕获，花旗称SpaceX技术领先优势进一步扩大",
     "org": "花旗",
     "rating": "",
@@ -1533,16 +1642,6 @@
     "industry": "",
     "date": "",
     "url": "https://database.caixin.com/2026-11-17/102505623.html?cxapp_link=true",
-    "source": "机构观点"
-   },
-   {
-    "title": "中邮证券：给予新雷能买入评级_券商研报_数据解析 - 证券之星",
-    "org": "中邮证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-17",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RSmZHSThTb1hBS2pEWEZ5bF9NSkZCVnVUSEcwNUhCazVTeTJjRnJDOWlubVV5MTlXQU1VSndscVRicDVyNzRYSnFCeFNyZlpJcks4ek5MemZ1X0R4bWczdWtB?oc=5",
     "source": "机构观点"
    },
    {
@@ -1671,32 +1770,39 @@
   {
    "level": "warning",
    "asset": "英国富时100",
-   "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.76%，突破 2σ 警戒线）",
-   "time": "2026-11-18 06:57",
+   "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.78%，突破 2σ 警戒线）",
+   "time": "2026-11-18 07:06",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 06:57",
+   "time": "2026-11-18 07:06",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "英伟达：英伟达将严格审视其提供融资支持的企业。",
-   "summary": "英伟达：英伟达将严格审视其提供融资支持的企业。",
-   "time": "2026-11-18 06:39",
-   "url": "https://wallstreetcn.com/livenews/3201563",
+   "title": "周三亚太盘初，纳斯达克100股指期货涨超1.4%，标普股指期货涨超0.8%。\n\n目前（美股盘后），英伟达涨超4.4%，Lumentum涨6.2%，闪迪涨5.6%，SK海力士ADR涨4.7%，美光涨4.5%，阿斯麦ADR涨3.7%，英特尔涨2",
+   "summary": "周三亚太盘初，纳斯达克100股指期货涨超1.4%，标普股指期货涨超0.8%。\n\n目前（美股盘后），英伟达涨超4.4%，Lumentum涨6.2%，闪迪涨5.6%，SK海力士ADR涨4.7%，美光涨4.5%，阿斯麦ADR涨3.7%，英特尔涨2.1%，阿里巴巴涨1.3%，SpaceX涨0.7%，苹果跌超0.2%。",
+   "time": "2026-11-18 07:02",
+   "url": "https://wallstreetcn.com/livenews/3201571",
    "source": "华尔街见闻"
   },
   {
-   "title": "英伟达董事会主席称将考虑内部和外部候选人",
-   "summary": "英伟达董事会主席称将考虑内部和外部候选人。",
-   "time": "2026-11-18 06:33:18",
-   "url": "https://finance.eastmoney.com/a/202611183933340466.html",
+   "title": "美股股指期货集体高开 纳指期货涨1.38%",
+   "summary": "美股股指期货集体高开，其中纳指期货涨1.38%，标普500指数期货涨0.75%。",
+   "time": "2026-11-18 07:01:13",
+   "url": "https://finance.eastmoney.com/a/202611183933345780.html",
    "source": "东财国际"
+  },
+  {
+   "title": "美国收紧芯片管制，特习深圳会晤面临新考验 - 美国之音",
+   "summary": "",
+   "time": "2026-11-18 06:30",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdUNrQjVwOGNtUzFmVDh2VnF6Vm1sYmdPd285ajctMXA0OFN5S08wUzN4Y1M5V3VWY2t1VWdpSXZNc0xHVnJZNHhtREZRVENRTVVJdnllb0JwVlZ4NjZnSnQ0ODQybi1WTlFEbXVJRE52WmJiUmZrcllabVVwTUVYOTBuNU84dlF3ZUZoX1pQVkhtSXFnT1NtZ0pvVWhXQTVSYzhONGh2UjFlSVROaHfSAbABQVVfeXFMUGhSelJnOTlBZzhSN29uckptcW0wM201MnVJUWlSTG5MXzhFalpwMGtnVFpZWWRtYlp4TEd2THh3VHRhWF9lM2FjT2doZlplejBGNFdNMUhPOXVoSmlsZFoxOXcwWkFOT2N6Z011N0pPNmNiV3JpenJjTXhuT3BtXzl1TWJtN3pxb3JXWmlQWHBMWnBaTE02SkRuZFQyZV9nR1VtQXJRMFRock5fOEF5OEc?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1706,25 +1812,18 @@
    "source": "东财早报"
   },
   {
-   "title": "特朗普败选使拉美盟友陷入尴尬境地 - RFI",
+   "title": "美股股指期货集体高开，纳指期货涨1.38%，标普500指数期货涨0.75%",
    "summary": "",
-   "time": "2026-11-18 05:21",
-   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQc1p3SU5WV09yYllPQWl6c3lQRl9jQW5UUWFUQ3o4dzdmdUh4X296QWVWaU9zU3hJSUNkQlpVcl94TFFxWFo5enVmNUlLdVFUZnBKODlFbnNKUzE0ZkRaRUQtU0NTRktiTC1sLTJLc1l6VjJmdGVOdjJ5d0NfdVJQbW9MS1ZJZnU5MXZUb0V1SHhjUHRyUzVGbGt0NjloY2gtdHNMam1HVXY2RGJvRTZHUkkydzhib0ZwcmdxYmE5b0xyeFlWSFpCQkdyOVlVd0wzR1R3V01iSzV6X252Skc0UkpYOEtteUJza1hmQWVkWWx4d0pFZmd5dlBjNzB6NzRfeUJFZi13UXl0SEVMTGl1YWFFclNPRGdCV19LRzdnYw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "杰富瑞将纽蒙特矿业目标价从155美元下调至149美元 - 东方财富",
-   "summary": "",
-   "time": "2026-11-17 23:57",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40aWQzLTJGZHNIalA3SVp2ejZYQ1BxZDJodU9ySWQ1aEFlcl8zcUFsYWFCdHZ4UEpHekNBcnd2am5mdENKeER4QlFqTkFpSTRxX3ZhYXB2cW5Ub0V0bGlhM0RJZkU?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "英伟达盘后涨幅扩大至4%",
-   "summary": "",
-   "time": "2026-11-17 22:38:55",
-   "url": "https://news.10jqka.com.cn/20261118/c681926672.shtml",
+   "time": "2026-11-17 23:02:00",
+   "url": "https://news.10jqka.com.cn/20261118/c681926888.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "瑞银将谷歌母公司Alphabet目标价从380美元下调至320美元 - 东方财富",
+   "summary": "",
+   "time": "2026-11-17 22:41",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MSUZ6aVRWaHZpU29rXzNlTGdFeDQwOXR3MVhBc0lFSzkxcF92d29xN0JaRXo1TkdTRUs2QWNTZHNqRVNYaG93d1dIMzFsdGRTQ2dvUGhUZDl5aTFvaFBqTA?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "董事会主席表示不打算让黄仁勋复职，首席财务官预计28财年营收增长75%，云业务积压订单达2.5万亿美元",
@@ -1741,18 +1840,25 @@
    "source": "财新"
   },
   {
-   "title": "英伟达盘后涨幅达到4%。",
-   "summary": "英伟达盘后涨幅达到4%。",
-   "time": "2026-11-18 06:37",
-   "url": "https://wallstreetcn.com/livenews/3201562",
+   "title": "谷歌公司：Google Wallet已经对全美iOS用户开放。",
+   "summary": "谷歌公司：Google Wallet已经对全美iOS用户开放。",
+   "time": "2026-11-18 06:56",
+   "url": "https://wallstreetcn.com/livenews/3201570",
    "source": "华尔街见闻"
   },
   {
-   "title": "英伟达临时CEO克雷斯称 供需状况让我们有信心上调全年销售增长预期",
-   "summary": "英伟达临时CEO克雷斯称，供需状况让我们有信心上调全年销售增长预期。",
-   "time": "2026-11-18 06:32:29",
-   "url": "https://finance.eastmoney.com/a/202611183933340066.html",
+   "title": "超8亿元！正泰电源拟投建年产2GWh高功率UPS电源项目",
+   "summary": "【超8亿元！正泰电源拟投建年产2GWh高功率UPS电源项目】正泰电源（SZ002150，股价18.18元，市值66亿元）于2026年11月17日召开第九届董事会第六次会议，审议通过了全资子公司投资建设项目的议案。",
+   "time": "2026-11-18 06:59:02",
+   "url": "https://finance.eastmoney.com/a/202611173933200222.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普败选使拉美盟友陷入尴尬境地 - RFI",
+   "summary": "",
+   "time": "2026-11-18 05:21",
+   "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQc1p3SU5WV09yYllPQWl6c3lQRl9jQW5UUWFUQ3o4dzdmdUh4X296QWVWaU9zU3hJSUNkQlpVcl94TFFxWFo5enVmNUlLdVFUZnBKODlFbnNKUzE0ZkRaRUQtU0NTRktiTC1sLTJLc1l6VjJmdGVOdjJ5d0NfdVJQbW9MS1ZJZnU5MXZUb0V1SHhjUHRyUzVGbGt0NjloY2gtdHNMam1HVXY2RGJvRTZHUkkydzhib0ZwcmdxYmE5b0xyeFlWSFpCQkdyOVlVd0wzR1R3V01iSzV6X252Skc0UkpYOEtteUJza1hmQWVkWWx4d0pFZmd5dlBjNzB6NzRfeUJFZi13UXl0SEVMTGl1YWFFclNPRGdCV19LRzdnYw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1762,11 +1868,11 @@
    "source": "东财早报"
   },
   {
-   "title": "特朗普到访马尼拉 当地人示威反对美“硅盛世”供应链倡议 - RFI",
+   "title": "谷歌：Google Wallet已面向全美iOS用户开放",
    "summary": "",
-   "time": "2026-11-18 04:24",
-   "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxOUGotalN1WnJzOWpWa3U3TDdSdXFfYjBCVDRGY1ZpM2FRMVJ2ME5CUFJJSnJPVTN6cWtSbU56VVdGeWZOX0hrU25yZnpIZVhSNVcwTkQyX19ud3RBckxIYXFmRWpIN0Y0c1g4QVBzQjVBcTdUS3oxMHIzeUhDRHZoTmpyaGNUX3JZVW5oalR2RHRndzZ1QW5OTDJHeFI3OGtsQk04RkNDQnpIeW5qRUhUTUxUMkwyYlVXN1JkUHFWM2I1QlJGYzZ6MURfc1BFSHFueVZlVWRNVFVUSUJtV2RLYXNzeXFjV2NKeEsybkxSZlZ5TDBWT3p3YW4wZ1dWb2sxbWNObHNoYmRHVWRRV1FpZEJCYjAyLUMtM2hjQklHVkxGR2N0VkNTZEtpc1JIdWlQSWhvREwtNXNDbkxoMXowT3RzaU5JUmhuR2xkdE1wUmN4eUFpSHdYZUFENkJuTldCcnpzYlAzdWRsMms4Wi1ZdHRWTzV1VTFSQ01YQ1Ewa1duNkE?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-17 22:57:45",
+   "url": "https://news.10jqka.com.cn/20261118/c681926829.shtml",
+   "source": "同花顺"
   },
   {
    "title": "华创证券维持华东医药“推荐”评级，称创新药销售高增长 - 金融界",
@@ -1774,13 +1880,6 @@
    "time": "2026-11-17 22:23",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHNTdvd1lnQWR2UW41RFdMaTd2dmFPemFiSWJHazZwMXhCYThRaVB1MHNUTS10SndvUlNHS3k0SjRCM29nSGwyV29XeHRyV0V3dnFJS2Nkc01FeHY3ZkJPVE5IMDg0UQ?oc=5",
    "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "英伟达董事会主席：将考虑内部和外部候选人",
-   "summary": "",
-   "time": "2026-11-17 22:33:57",
-   "url": "https://news.10jqka.com.cn/20261118/c681926598.shtml",
-   "source": "同花顺"
   },
   {
    "title": "英伟达Q3财报亮眼，分析师称市场或迎“解压反弹”",
@@ -1797,18 +1896,25 @@
    "source": "财新"
   },
   {
-   "title": "英伟达：预计四季度营收将为1300亿美元+/-3%。",
-   "summary": "英伟达：预计四季度营收将为1300亿美元+/-3%。",
-   "time": "2026-11-18 06:37",
-   "url": "https://wallstreetcn.com/livenews/3201561",
+   "title": "周二美股盘后，纳斯达克100 ETF涨1.3%。",
+   "summary": "周二美股盘后，纳斯达克100 ETF涨1.3%。",
+   "time": "2026-11-18 06:51",
+   "url": "https://wallstreetcn.com/livenews/3201569",
    "source": "华尔街见闻"
   },
   {
-   "title": "英伟达临时CEO称供应商和合作伙伴“百分百支持我们”",
-   "summary": "英伟达临时CEO称供应商和合作伙伴“百分百支持我们”。",
-   "time": "2026-11-18 06:32:09",
-   "url": "https://finance.eastmoney.com/a/202611183933340153.html",
+   "title": "伊朗称又一油轮在霍尔木兹海峡触碰水雷",
+   "summary": "【伊朗称又一油轮在霍尔木兹海峡触碰水雷】当地时间17日21时许，伊朗伊斯兰革命卫队海军表示，当天又有一艘油轮在霍尔木兹海峡沿未经授权的航线航行时，触碰水雷并引发火灾。",
+   "time": "2026-11-18 06:56:45",
+   "url": "https://finance.eastmoney.com/a/202611183933344797.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普到访马尼拉 当地人示威反对美“硅盛世”供应链倡议 - RFI",
+   "summary": "",
+   "time": "2026-11-18 04:24",
+   "url": "https://news.google.com/rss/articles/CBMigwNBVV95cUxOUGotalN1WnJzOWpWa3U3TDdSdXFfYjBCVDRGY1ZpM2FRMVJ2ME5CUFJJSnJPVTN6cWtSbU56VVdGeWZOX0hrU25yZnpIZVhSNVcwTkQyX19ud3RBckxIYXFmRWpIN0Y0c1g4QVBzQjVBcTdUS3oxMHIzeUhDRHZoTmpyaGNUX3JZVW5oalR2RHRndzZ1QW5OTDJHeFI3OGtsQk04RkNDQnpIeW5qRUhUTUxUMkwyYlVXN1JkUHFWM2I1QlJGYzZ6MURfc1BFSHFueVZlVWRNVFVUSUJtV2RLYXNzeXFjV2NKeEsybkxSZlZ5TDBWT3p3YW4wZ1dWb2sxbWNObHNoYmRHVWRRV1FpZEJCYjAyLUMtM2hjQklHVkxGR2N0VkNTZEtpc1JIdWlQSWhvREwtNXNDbkxoMXowT3RzaU5JUmhuR2xkdE1wUmN4eUFpSHdYZUFENkJuTldCcnpzYlAzdWRsMms4Wi1ZdHRWTzV1VTFSQ01YQ1Ewa1duNkE?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1818,11 +1924,11 @@
    "source": "东财早报"
   },
   {
-   "title": "“四方安全对话”峰会结束，美日印澳深化“自由开放的印太”愿景 - 美国之音",
+   "title": "戴尔股价盘后上涨5%，惠普企业涨4%，英特尔涨1.9%",
    "summary": "",
-   "time": "2026-11-18 03:18",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWnBxSmZuVW9OaUtJcDdlWF9qby1PV204ZEhZeWNHV3IxajV5TFlqejIyUFhlVGx5UkV6ZHpQSUFFRXo4MDZCTUxaRy1QMzZJS3lGM1pNaTJYaVBoZmhHSGxIQnpqN2lyWV8xSE1CYW9ZWmZsVGYwejFnb0VTMWF0T2R4WEJWcmNNZ2c1RXd5TGFleWcza2VfVTdHRkpKNUpZb3dMbHprMnl6Qm1EeXpIdGdidGRXYjJINzZoenVLMNIBwgFBVV95cUxPekxINmQySVJyM2pWeVlTT2ZEQXdwVDhsNVNYdkM4R2Q5SWVya1pxTFdUamZnM252MkhiN0h2UU1FT3BKdUR4dkgzeGRCbVQxNGFyU2JJNTc3Rzk1clM4UjFsX3Y5blN3WFdWLWdBYU1VUU03NjlkNHgxRVgzMGE3TzJHV2V0X3BJZVlDU3UxMW9La3JCeWZ5eHJhVmQ2SnBQUjR1b2ZtMEhOZ0E4ZjdWMllvRmk4Xy1qbVg0RE1sX2E4UQ?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-17 22:51:11",
+   "url": "https://news.10jqka.com.cn/20261118/c681926774.shtml",
+   "source": "同花顺"
   },
   {
    "title": "风口研报 - 财联社",
@@ -1830,13 +1936,6 @@
    "time": "2026-11-17 22:02",
    "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Kc0FEczk1MFJvMHYzbXhmM2NlLUlvSmtfOEViU3RxQko2VjhSZ3MxaEZsc1NiYU1qM2VMZXZTNnZmMHhkN2ZobQ?oc=5",
    "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "英伟达临时CEO克雷斯：预计第四季度将是毛利率的低点，随后在2028财年回升至72%至73%区间",
-   "summary": "",
-   "time": "2026-11-17 22:28:11",
-   "url": "https://news.10jqka.com.cn/20261118/c681926570.shtml",
-   "source": "同花顺"
   },
   {
    "title": "AAOI于2026年11月17日签署股权分销协议，计划发行总价最高达5.5亿美元",
@@ -1868,10 +1967,10 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "东财早报": 3,
    "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 7,
+   "东财早报": 3,
    "同花顺": 7,
+   "谷歌新闻·研报": 7,
    "富途": 3,
    "财新": 7
   }
