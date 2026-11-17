@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 21:54:22 CST",
- "generated_at_iso": "2026-11-17T21:54:22+08:00",
+ "generated_at": "2026-11-17 22:03:00 CST",
+ "generated_at_iso": "2026-11-17T22:03:00+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10757.61,
-    "change": -123.94,
-    "change_pct": -1.14,
+    "price": 10753.62,
+    "change": -127.93,
+    "change_pct": -1.18,
     "hist": [
      10541.69,
      10458.5,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8259.73,
-    "change": -92.27,
-    "change_pct": -1.1,
+    "price": 8251.68,
+    "change": -100.32,
+    "change_pct": -1.2,
     "hist": [
      7865.07,
      7769.21,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6277.9,
-    "change": -70.45,
-    "change_pct": -1.11,
+    "price": 6270.63,
+    "change": -77.72,
+    "change_pct": -1.22,
     "hist": [
      6272.24,
      6180.3,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3848.545,
-    "change": -4.455,
-    "change_pct": -0.12,
-    "quote_time": "21:54:24 2026-11-17"
+    "price": 3853.69,
+    "change": 0.69,
+    "change_pct": 0.02,
+    "quote_time": "22:03:05 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.209,
-    "change": 0.35,
-    "change_pct": 0.75,
-    "quote_time": "21:54:19 2026-11-17"
+    "price": 47.231,
+    "change": 0.372,
+    "change_pct": 0.79,
+    "quote_time": "22:03:04 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 87.003,
-    "change": 1.283,
-    "change_pct": 1.5,
-    "quote_time": "21:54:22 2026-11-17"
+    "price": 87.222,
+    "change": 1.502,
+    "change_pct": 1.75,
+    "quote_time": "22:03:05 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.821,
-    "change": 1.381,
-    "change_pct": 1.49,
-    "quote_time": "21:54:21 2026-11-17"
+    "price": 94.002,
+    "change": 1.562,
+    "change_pct": 1.69,
+    "quote_time": "22:03:02 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64909.9,
-    "change": 775.2,
-    "change_pct": 1.21,
-    "source": "okx"
+    "price": 65059.2,
+    "change": 934.7,
+    "change_pct": 1.46,
+    "source": "okx",
+    "hist": [
+     81941.2,
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     65074.4
+    ],
+    "sigma": 2.323
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1824.74,
-    "change": 23.05,
-    "change_pct": 1.28,
-    "source": "okx"
+    "price": 1827.29,
+    "change": 23.49,
+    "change_pct": 1.3,
+    "source": "okx",
+    "hist": [
+     2394.44,
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1827.88
+    ],
+    "sigma": 3.201
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.58,
-    "change": 2.8,
-    "change_pct": 3.96,
-    "source": "okx"
+    "price": 73.67,
+    "change": 2.87,
+    "change_pct": 4.05,
+    "source": "okx",
+    "hist": [
+     104.14,
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     73.78
+    ],
+    "sigma": 3.457
    }
   ],
   "fx": [
@@ -1333,9 +1432,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6672,
-    "change": 0.0025,
-    "change_pct": 0.04,
+    "price": 6.667,
+    "change": 0.0023,
+    "change_pct": 0.03,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1348,9 +1447,9 @@
     "change": 0.88,
     "change_pct": 0.67,
     "dec": 2,
-    "date": "2026-11-17",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1373,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 22.93,
-   "change": 0.02,
-   "change_pct": 0.0873,
+   "value": 23.11,
+   "change": 0.2,
+   "change_pct": 0.873,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1412,7 +1511,7 @@
     22.91
    ],
    "vix3m": 23.02,
-   "term": "持平"
+   "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
@@ -1423,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 22.93,
-     "change_pct": 0.0873
+     "value": 23.11,
+     "change_pct": 0.873
     },
     {
      "t": "VIX3M",
@@ -1442,36 +1541,25 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 29.4,
+   "score": 20.4,
    "label": "冰点",
-   "color": "#f58a3d",
+   "color": "#f04a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 0.0,
-    "structure": 73.5
+    "structure": 50.9
    }
   }
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储理事丽莎·库克（Lisa Cook）拒绝参加12月14日的白宫听证会。（彭博）",
-   "summary": "美联储理事丽莎·库克（Lisa Cook）拒绝参加12月14日的白宫听证会。（彭博）",
-   "time": "2026-11-17 21:36",
-   "url": "https://wallstreetcn.com/livenews/3201337",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "要闻解说 - 特朗普开启亚洲之行 美中俄峰会前“Quad”会谈展现团结 - RFI",
+   "title": "美国总统特朗普媒体集团未偿本金减少逾10%。 - 新浪网",
    "summary": "",
-   "time": "2026-11-17 20:52",
-   "url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPY1lMd09XMk42ck56eko0V2U2WWo0RUp3UDhUYXRmdFRlUkVnRW9HanVoYTZsaGZkWHRVRFNoa3dheGNuMjFnbEJ1UGp5cjNhc2RvdDZORGRpckZUX19TS0dxR0cxYzRIcDdJRDNQX21NSkNsTEVCQ2xVdFlBRG5GdFNoM2NBeEpWM0NqNkctNGowYm1GWG9LdmZQZ0RCX2xCN045N2R0c0c3NG9ZRXFIMnZBWUNGMDlOWXZrV2VHUVNpOHdyZ2pWaE1vNURxZFJjYURITWhyOFlhRmlzR0NTSGZoVkFqaTBtTjBBTWNIWC1qUDhHVlB2RGJORF83dDRZMkFNU0hFRTY5QlVvY29ZRVlKeHB4dUdtVGJaMzFXRWlSTk04SW5FVEdnN3h2R0x0dzBPeFVzRWplaVl3eDBORkJmZHkzSFE5SHk5ODVRNHhUMldjVzU1LWdpOXNzcE1fYzl2cnJGSlkxcFN4Q0JDaVVfUGZfRm04TnBlMkxRODFlVWhUWFVrTDdNTl82VG1PR1p2dDc2VEVSZzR3OENiMXMtbWVvelpJMGo4RFNQblAwdzFtNlpIdENybUQ?oc=5",
+   "time": "2026-11-17 21:42",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwN0wwSFhndlVnNU1Gdjk5WGhoa19GT0dlTDd4QUc5d1dxc0ljWXQ4a3FXUVVEUHZITzFnZzEtNzNVblp1ZHBIZWZaTQ?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
   }
@@ -1537,13 +1625,13 @@
   ],
   "reports": [
    {
-    "title": "摩根大通：Bregje de Best将接替Jeremy Barnum出任首席财务官。",
-    "org": "摩根大通",
+    "title": "中邮证券：给予新雷能买入评级_券商研报_数据解析 - 证券之星",
+    "org": "中邮证券",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-17",
-    "url": "https://wallstreetcn.com/livenews/3201316",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RSmZHSThTb1hBS2pEWEZ5bF9NSkZCVnVUSEcwNUhCazVTeTJjRnJDOWlubVV5MTlXQU1VSndscVRicDVyNzRYSnFCeFNyZlpJcks4ek5MemZ1X0R4bWczdWtB?oc=5",
     "source": "机构观点"
    },
    {
@@ -1555,6 +1643,26 @@
     "date": "",
     "url": "https://database.caixin.com/2026-11-17/102505623.html?cxapp_link=true",
     "source": "机构观点"
+   },
+   {
+    "title": "掌趣科技跌7.8% 最新研报来自近3年前浙商证券_股市聚焦_市场 - 中金在线",
+    "org": "浙商",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51Z2xXdV9JUEVrZk8wMnZDa2NVckl2ZWQtV09IUWpDdTRIbXhVQnFwVmxpbHN4TV9mZGZPS0F5YVJXcHBvZFhBbEZ6cXFZbk1BZDJkSlY4blBEMER4S19pV2NZamY0N0oxbFlNTEJ3?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "AI电源开始起量",
+    "org": "中邮证券",
+    "rating": "买入",
+    "stock": "新雷能",
+    "industry": "其他电源设备Ⅱ",
+    "date": "2026-11-17",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831796843",
+    "source": "东财研报·个股"
    },
    {
     "title": "北交所信息更新：拟收购汉正公司61%股权进入含氟精细化学品赛道，羟胺水溶液项目稳步推进中",
@@ -1665,62 +1773,52 @@
     "date": "2026-11-17",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831781581",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "液奶企稳，多元结构继续优化",
-    "org": "山西证券",
-    "rating": "买入",
-    "stock": "伊利股份",
-    "industry": "饮料乳品",
-    "date": "2026-11-17",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831777655",
-    "source": "东财研报·个股"
    }
   ]
  },
  "alerts": [],
  "news": [
   {
-   "title": "美联储理事丽莎·库克（Lisa Cook）拒绝参加12月14日的白宫听证会。（彭博）",
-   "summary": "美联储理事丽莎·库克（Lisa Cook）拒绝参加12月14日的白宫听证会。（彭博）",
-   "time": "2026-11-17 21:36",
-   "url": "https://wallstreetcn.com/livenews/3201337",
+   "title": "英伟达支持的Genesis AI按35亿美元估值融资。",
+   "summary": "英伟达支持的Genesis AI按35亿美元估值融资。",
+   "time": "2026-11-17 22:00",
+   "url": "https://wallstreetcn.com/livenews/3201349",
    "source": "华尔街见闻"
   },
   {
-   "title": "美股Sellas Life Sciences盘前股价飙升315%",
-   "summary": "美股Sellas Life Sciences盘前股价因癌症试验数据飙升315%。",
-   "time": "2026-11-17 21:34:29",
-   "url": "https://finance.eastmoney.com/a/202611173933149279.html",
+   "title": "华为与中国人寿签署战略合作协议",
+   "summary": "【华为与中国人寿签署战略合作协议】据华为消息，11月17日，中国人寿保险（集团）公司与华为技术有限公司在深圳签署战略合作协议。根据协议，双方将围绕保险数智变革在科技金融、业务合作及人才培养等领域进行深入合作。",
+   "time": "2026-11-17 21:59:20",
+   "url": "https://finance.eastmoney.com/a/202611173933187751.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：美国认真对待伊朗或在华盛顿引爆脏弹 - 联合早报",
+   "title": "中邮证券：给予新雷能买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-17 21:20",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTWHc4b0J2OS1FSnB6UE51dEd2SGJLRngzY2RFWFlEeWdUaXFVVHU2UnBHQ20zTXBPUXFCS3JVanRtRXhaVnBIN0JVUW04SzdUbWx5X2M1TFZMVVliZFk5T3d0R0NuaVVNZ3FR?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "掌趣科技跌7.8% 最新研报来自近3年前浙商证券_股市聚焦_市场 - 中金在线",
-   "summary": "",
-   "time": "2026-11-17 21:04",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51Z2xXdV9JUEVrZk8wMnZDa2NVckl2ZWQtV09IUWpDdTRIbXhVQnFwVmxpbHN4TV9mZGZPS0F5YVJXcHBvZFhBbEZ6cXFZbk1BZDJkSlY4blBEMER4S19pV2NZamY0N0oxbFlNTEJ3?oc=5",
+   "time": "2026-11-17 21:50",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RSmZHSThTb1hBS2pEWEZ5bF9NSkZCVnVUSEcwNUhCazVTeTJjRnJDOWlubVV5MTlXQU1VSndscVRicDVyNzRYSnFCeFNyZlpJcks4ek5MemZ1X0R4bWczdWtB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "李彦宏回应百度AI收入占比过半",
+   "title": "美国总统特朗普媒体集团未偿本金减少逾10%。 - 新浪网",
    "summary": "",
-   "time": "2026-11-17 13:32:27",
-   "url": "https://news.futunn.com/flash/1004766423/robin-li-responds-to-baidu-s-ai-revenue-accounting-for",
-   "source": "富途"
+   "time": "2026-11-17 21:42",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAwN0wwSFhndlVnNU1Gdjk5WGhoa19GT0dlTDd4QUc5d1dxc0ljWXQ4a3FXUVVEUHZITzFnZzEtNzNVblp1ZHBIZWZaTQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "美国10月零售销售环比增长0.2%，预期0.2%，前值0.8%",
+   "title": "布伦特原油站上94美元/桶",
    "summary": "",
-   "time": "2026-11-17 13:31:02",
-   "url": "https://news.10jqka.com.cn/20261117/c681924153.shtml",
+   "time": "2026-11-17 14:02:50",
+   "url": "https://news.10jqka.com.cn/20261117/c681924573.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "Anthropic将IPO定价指引至区间上限或更高水平",
+   "summary": "",
+   "time": "2026-11-17 13:59:00",
+   "url": "https://news.futunn.com/flash/1004769021/anthropic-sets-its-ipo-pricing-guidance-at-the-top-of",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1737,46 +1835,46 @@
    "source": "财新"
   },
   {
-   "title": "加拿大9月海外投资者净买入证券 194.62亿加元，前值 -173.1亿加元。",
-   "summary": "加拿大9月海外投资者净买入证券 194.62亿加元，前值 -173.1亿加元。",
-   "time": "2026-11-17 21:30",
-   "url": "https://wallstreetcn.com/livenews/3201335",
+   "title": "报道：Anthropic引导将IPO发行价定在区间上限或更高",
+   "summary": "据知情人士透露，Anthropic PBC正向其首次公开募股的潜在投资者发出指引，预计发行价将定在价格区间的上线或更高水平。\n\n根据该公司向美国证券交易委员会提交的文件，这家Claude聊天机器人开发商及其七位联合创始人合计发行8.25亿股，每股70至78美元。\n\n知情人士称，银行预计将于纽约时间周二下午4点停止接受订单。若按价格区间上限计算，Anthropic的完全稀释估值约为1.4万亿美元。\n",
+   "time": "2026-11-17 21:58",
+   "url": "https://wallstreetcn.com/livenews/3201348",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国10月进口物价指数环比增长1.1% 预期0.7%",
-   "summary": "美国10月进口物价指数环比增长1.1%，预期0.7%，前值1.10%。",
-   "time": "2026-11-17 21:30:40",
-   "url": "https://finance.eastmoney.com/a/202611173933136130.html",
+   "title": "Anthropic据悉将把首次公开募股的定价推向区间上限或更高水平",
+   "summary": "Anthropic据悉将把首次公开募股（IPO）的定价推向区间上限或更高水平。",
+   "time": "2026-11-17 21:58:25",
+   "url": "https://finance.eastmoney.com/a/202611173933188419.html",
    "source": "东财国际"
   },
   {
-   "title": "要闻解说 - 特朗普开启亚洲之行 美中俄峰会前“Quad”会谈展现团结 - RFI",
+   "title": "掌趣科技跌7.8% 最新研报来自近3年前浙商证券_股市聚焦_市场 - 中金在线",
    "summary": "",
-   "time": "2026-11-17 20:52",
-   "url": "https://news.google.com/rss/articles/CBMivANBVV95cUxPY1lMd09XMk42ck56eko0V2U2WWo0RUp3UDhUYXRmdFRlUkVnRW9HanVoYTZsaGZkWHRVRFNoa3dheGNuMjFnbEJ1UGp5cjNhc2RvdDZORGRpckZUX19TS0dxR0cxYzRIcDdJRDNQX21NSkNsTEVCQ2xVdFlBRG5GdFNoM2NBeEpWM0NqNkctNGowYm1GWG9LdmZQZ0RCX2xCN045N2R0c0c3NG9ZRXFIMnZBWUNGMDlOWXZrV2VHUVNpOHdyZ2pWaE1vNURxZFJjYURITWhyOFlhRmlzR0NTSGZoVkFqaTBtTjBBTWNIWC1qUDhHVlB2RGJORF83dDRZMkFNU0hFRTY5QlVvY29ZRVlKeHB4dUdtVGJaMzFXRWlSTk04SW5FVEdnN3h2R0x0dzBPeFVzRWplaVl3eDBORkJmZHkzSFE5SHk5ODVRNHhUMldjVzU1LWdpOXNzcE1fYzl2cnJGSlkxcFN4Q0JDaVVfUGZfRm04TnBlMkxRODFlVWhUWFVrTDdNTl82VG1PR1p2dDc2VEVSZzR3OENiMXMtbWVvelpJMGo4RFNQblAwdzFtNlpIdENybUQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "Anthropic获第二家独立分析机构买入评级，目标价均超$100 提供者 Investing.com - 英为财情 Investing.com",
-   "summary": "",
-   "time": "2026-11-17 20:57",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZenJLSXFkSnVpclkwN0Z1ZmRjaHQxbFZpQkVGRzNoZ0RxMVkySFVDU3pmeVgzN1VNSUVINEFvZjRGaVU3dHJsb09jM3VCUWNGS3FyV0VlVmhXY2Excjlyd0dlWURzb3NjbE1tdFVLdFg?oc=5",
+   "time": "2026-11-17 21:04",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51Z2xXdV9JUEVrZk8wMnZDa2NVckl2ZWQtV09IUWpDdTRIbXhVQnFwVmxpbHN4TV9mZGZPS0F5YVJXcHBvZFhBbEZ6cXFZbk1BZDJkSlY4blBEMER4S19pV2NZamY0N0oxbFlNTEJ3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "四巨头中标印度LPG大单 2027年拟进口275万公吨的美国液化石油气",
+   "title": "特朗普：美国认真对待伊朗或在华盛顿引爆脏弹 - 联合早报",
    "summary": "",
-   "time": "2026-11-17 13:30:23",
-   "url": "https://news.futunn.com/flash/1004765800/four-major-players-win-large-indian-lpg-contract-plan-to",
-   "source": "富途"
+   "time": "2026-11-17 21:20",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTWHc4b0J2OS1FSnB6UE51dEd2SGJLRngzY2RFWFlEeWdUaXFVVHU2UnBHQ20zTXBPUXFCS3JVanRtRXhaVnBIN0JVUW04SzdUbWx5X2M1TFZMVVliZFk5T3d0R0NuaVVNZ3FR?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "伊朗格什姆岛传出爆炸声",
+   "title": "碳排放权交易市场开放联盟通过《COP31宣言》",
    "summary": "",
-   "time": "2026-11-17 13:30:26",
-   "url": "https://news.10jqka.com.cn/20261117/c681924143.shtml",
+   "time": "2026-11-17 14:02:33",
+   "url": "https://news.10jqka.com.cn/20261117/c681924570.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "乌克兰无人机袭击俄罗斯境内的两家炼油厂",
+   "summary": "",
+   "time": "2026-11-17 13:58:18",
+   "url": "https://news.futunn.com/flash/1004768970/ukrainian-drones-strike-two-refineries-inside-russia",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1793,46 +1891,46 @@
    "source": "财新"
   },
   {
-   "title": "美国10月进口价格指数(除汽油)环比 0.8%，预期 0.5%，前值 0.8%。",
-   "summary": "美国10月进口价格指数(除汽油)环比 0.8%，预期 0.5%，前值 0.8%。",
-   "time": "2026-11-17 21:30",
-   "url": "https://wallstreetcn.com/livenews/3201334",
+   "title": "李东生：TCL海外营收约70%来自APEC经济体，将推动“全球化3.0”在亚太地区落地",
+   "summary": "在2026年APEC工商领导人峰会“粤港澳大湾区与亚太发展机遇”专题研讨上，TCL创始人、董事长李东生表示，目前TCL海外营收约70%来自APEC经济体，海外产业和供应链也主要集中在亚太地区。2026年前三季度，TCL海外营收约1400亿元，占整体营收比重超过50%。",
+   "time": "2026-11-17 21:47",
+   "url": "https://wallstreetcn.com/livenews/3201344",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国10月零售销售环比增长0.2% 预期0.2%",
-   "summary": "美国10月零售销售环比增长0.2%，预期0.2%，前值0.8%。",
-   "time": "2026-11-17 21:30:25",
-   "url": "https://finance.eastmoney.com/a/202611173933135813.html",
+   "title": "岚图汽车：获得道路机动车辆独立生产资质",
+   "summary": "【岚图汽车：获得道路机动车辆独立生产资质】11月17日晚间，岚图汽车在港交所公告，中华人民共和国工业和信息化部于2026年11月16日正式发布2026年第31号公告，公布《道路机动车辆生产企业及产品》（第412批）目录，公司已被列入该批次道路机动车辆生产企业准入名单，正式取得道路机动车辆生产企业准入资格。",
+   "time": "2026-11-17 21:52:47",
+   "url": "https://finance.eastmoney.com/a/202611173933183031.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：泰国将取消所有对美国出口商品的关税。 - 新浪网",
+   "title": "Anthropic获第二家独立分析机构买入评级，目标价均超$100 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-17 20:40",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBTR08yMF96YXNuajFTX3FuVUpSaTRFT1lIaWdhSG10dktHX3VvN0s4YlhjLWFKcWF2WUdFMVg2ZF9qaGZkT2J3NzZtOVJvX1k?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "风口研报 - 财联社",
-   "summary": "",
-   "time": "2026-11-17 20:23",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kX1lkSVJRekpnSUdFMXVQN0w0QkhMcHVBM1RWcHR1WW5UQjFoXzhwWWpjR185RHhWdG5rcC0zQy1uRXc5OWVXTA?oc=5",
+   "time": "2026-11-17 20:57",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZenJLSXFkSnVpclkwN0Z1ZmRjaHQxbFZpQkVGRzNoZ0RxMVkySFVDU3pmeVgzN1VNSUVINEFvZjRGaVU3dHJsb09jM3VCUWNGS3FyV0VlVmhXY2Excjlyd0dlWURzb3NjbE1tdFVLdFg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "阿曼、伊朗和乌兹别克斯坦官员会晤 讨论地区局势",
+   "title": "要闻解说 - 特朗普开启亚洲之行 美中俄峰会前“Quad”会谈展现团结 - RFI",
    "summary": "",
-   "time": "2026-11-17 13:29:41",
-   "url": "https://news.futunn.com/flash/1004765651/officials-from-oman-iran-and-uzbekistan-meet-to-discuss-regional",
-   "source": "富途"
+   "time": "2026-11-17 20:52",
+   "url": "https://news.google.com/rss/articles/CBMirgNBVV95cUxNWHltOHdDUl9wQlA0c3B4ZmJDdTFhOEFaWjh0M3NreUxGOExTZFpMZTNtVVd5LTVobjJJdTd3SExUaVlOaFR3c1JsMG5TWGVDYkdCWVRuSzRVQ1J4Z3V5a042dndSQVJmUm5aLS16R1cxbTdOQTJfc3RORGNQeGFERlNwcVdQRE9EQU9iYmhTNVVST21NdndyRi1yYkx4eXBLbDhiY0h3U0RNTExhWWVJaktHdnpVS2ppZDktVVBuZ0dLVTduaXJXSUdldHZkOF9wRWVjalBrd3h4NnliUHFYR0NoNERFQTRWMkd3clV2eW5Vbm1tUnFBTUpoZWFCZ1EzQzFNMEVTUmVlRjQyeURkemx4NFk5OTdfMkdiVHZabWZmN0U4WWI2Y0tjNG5OUm9CMnNTbkx2bGUxd1JIZVM4cmxHY3lpX2JyNnpsc3pib0M2dnEwSHRnUDcyY0VHYUZucDFXSGh5anRaOVJiM1BQQ0NoVmg4cGVyYWJVZk52RGF5THhHZzFzUGthaTRZZVExUEpxTENHdExLN2E2cXZPUEdtYXlIRmhnV3NtRFB3?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "WTI原油涨超1%",
+   "title": "南京新百：拟4.1亿新谢克尔出售两家以色列护理子公司股权",
    "summary": "",
-   "time": "2026-11-17 13:20:59",
-   "url": "https://news.10jqka.com.cn/20261117/c681924032.shtml",
+   "time": "2026-11-17 13:43:36",
+   "url": "https://news.10jqka.com.cn/20261117/c681924392.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "洲际交易所推出量化数据中心建设风险的新工具",
+   "summary": "",
+   "time": "2026-11-17 13:54:57",
+   "url": "https://news.futunn.com/flash/1004768709/intercontinental-exchange-launches-new-tool-to-quantify-data-center-construction",
+   "source": "富途"
   },
   {
    "title": "新云企业正面临多重压力：债务负担沉重、项目延误，以及即将就任、由民主党控制的新一届国会",
@@ -1842,10 +1940,10 @@
    "source": "财新"
   },
   {
-   "title": "美国10月出口价格指数环比 1.1%，预期 0.5%，前值 2.2%。",
-   "summary": "美国10月出口价格指数环比 1.1%，预期 0.5%，前值 2.2%。",
-   "time": "2026-11-17 21:30",
-   "url": "https://wallstreetcn.com/livenews/3201333",
+   "title": "美国10月零售销售速评",
+   "summary": "美国10月零售销售环比增幅放缓至0.2%，预期为0.1%，前值为0.8%。美国10月零售销售增速放缓，汽车等大件商品消费回落，掩盖了其他商品需求依然具有韧性的表现。美国商务部周二公布的数据显示，未经通胀调整的零售销售额继9月受汽油销售推动增长0.8%后，10月增长0.2%。剔除汽车和汽油后，零售销售增长0.5%。13个类别中有7个录得增长，无店铺零售商、健康和个护商店、加油站以及建材商的支出增加。",
+   "time": "2026-11-17 21:42",
+   "url": "https://wallstreetcn.com/livenews/3201339",
    "source": "华尔街见闻"
   }
  ],
@@ -1853,7 +1951,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(9)",
+   "富途": "ok(11)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1864,10 +1962,10 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "富途": 6,
+   "谷歌新闻·国际": 7,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
    "财新": 6
   }
@@ -1949,7 +2047,7 @@
  "structure": {
   "date": "2026-11-17",
   "zt_count": 37,
-  "dt_count": 0,
+  "dt_count": 67,
   "zb_count": 20,
   "qs_count": 146,
   "seal_rate": 64.9,
@@ -2030,7 +2128,28 @@
     "share": 5.4
    }
   ],
-  "dt_industries": [],
+  "dt_industries": [
+   {
+    "name": "一般零售",
+    "count": 6
+   },
+   {
+    "name": "影视院线",
+    "count": 5
+   },
+   {
+    "name": "汽车零部",
+    "count": 4
+   },
+   {
+    "name": "电视广播",
+    "count": 3
+   },
+   {
+    "name": "专用设备",
+    "count": 3
+   }
+  ],
   "leaders": [
    {
     "name": "华东重机",
@@ -2087,14 +2206,39 @@
     "broken": 14
    }
   ],
-  "dt_leaders": [],
+  "dt_leaders": [
+   {
+    "name": "文投控股",
+    "code": "600715",
+    "industry": "游戏Ⅱ",
+    "change_pct": -9.89
+   },
+   {
+    "name": "中国稀土",
+    "code": "000831",
+    "industry": "小金属",
+    "change_pct": -10.0
+   },
+   {
+    "name": "福莱新材",
+    "code": "605488",
+    "industry": "塑料",
+    "change_pct": -10.0
+   },
+   {
+    "name": "日出东方",
+    "code": "603366",
+    "industry": "厨卫电器",
+    "change_pct": -9.99
+   }
+  ],
   "index_pct": -0.5,
-  "score": 73.5,
-  "score_label": "偏热",
+  "score": 50.9,
+  "score_label": "中性",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
    "封板率 65%（炸板 20 家）：多空分歧居中，涨停质量一般。",
-   "无跌停且涨停 37 家：当日风险偏好偏高，属于普涨式做多环境。",
+   "跌停 67 家：个股层面的风险在释放，注意高位股与题材补跌。",
    "最高 3 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 6 家 / 涨停 37 家（16%）：以首板为主，持续性待验证",
    "涨停最集中的 IT服务Ⅱ 也只占 8%：热点分散，没有单一主线。"
@@ -2277,11 +2421,11 @@
    {
     "date": "2026-11-17",
     "zt": 37,
-    "dt": 0,
+    "dt": 67,
     "zb": 20,
     "seal": 64.9,
     "max_streak": 3,
-    "score": 73.5,
+    "score": 50.9,
     "index_pct": -0.5
    }
   ],
