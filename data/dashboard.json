@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 09:18:17 CST",
- "generated_at_iso": "2026-11-17T09:18:17+08:00",
+ "generated_at": "2026-11-17 09:26:33 CST",
+ "generated_at_iso": "2026-11-17T09:26:33+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -11,9 +11,9 @@
     "name": "上证指数",
     "code": "sh000001",
     "sym": "000001.SH",
-    "price": 3602.5186,
-    "change": -0.0512,
-    "change_pct": -0.0,
+    "price": 3585.6653,
+    "change": -16.9045,
+    "change_pct": -0.47,
     "hist": [
      3823.621,
      3830.451,
@@ -84,12 +84,28 @@
     ]
    },
    {
+    "name": "深证成指",
+    "code": "sz399001",
+    "sym": "399001.SZ",
+    "price": 10605.173,
+    "change": -85.605,
+    "change_pct": -0.8
+   },
+   {
+    "name": "创业板指",
+    "code": "sz399006",
+    "sym": "399006.SZ",
+    "price": 2299.968,
+    "change": -20.052,
+    "change_pct": -0.86
+   },
+   {
     "name": "科创50",
     "code": "sh000688",
     "sym": "000688.SH",
-    "price": 1213.6833,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 1212.3922,
+    "change": -1.2911,
+    "change_pct": -0.11,
     "hist": [
      1555.98,
      1569.338,
@@ -163,9 +179,9 @@
     "name": "沪深300",
     "code": "sh000300",
     "sym": "000300.SH",
-    "price": 3979.8035,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 3965.9032,
+    "change": -13.9003,
+    "change_pct": -0.35,
     "hist": [
      4340.755,
      4345.209,
@@ -239,9 +255,9 @@
     "name": "上证50",
     "code": "sh000016",
     "sym": "000016.SH",
-    "price": 2766.5737,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 2764.6313,
+    "change": -1.9424,
+    "change_pct": -0.07,
     "hist": [
      2806.942,
      2810.117,
@@ -315,9 +331,9 @@
     "name": "中证500",
     "code": "sh000905",
     "sym": "000905.SH",
-    "price": 6296.7306,
-    "change": -0.4523,
-    "change_pct": -0.01,
+    "price": 6252.1893,
+    "change": -44.9936,
+    "change_pct": -0.71,
     "hist": [
      7402.295,
      7439.627,
@@ -1240,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3849.748,
-    "change": -3.252,
-    "change_pct": -0.08,
-    "quote_time": "09:18:19 2026-11-17"
+    "price": 3849.085,
+    "change": -3.915,
+    "change_pct": -0.1,
+    "quote_time": "09:26:35 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 46.901,
-    "change": 0.042,
-    "change_pct": 0.09,
-    "quote_time": "09:18:15 2026-11-17"
+    "price": 46.892,
+    "change": 0.033,
+    "change_pct": 0.07,
+    "quote_time": "09:26:35 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.256,
-    "change": -0.464,
-    "change_pct": -0.54,
-    "quote_time": "09:18:02 2026-11-17"
+    "price": 85.161,
+    "change": -0.559,
+    "change_pct": -0.65,
+    "quote_time": "09:26:32 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.931,
-    "change": -0.509,
-    "change_pct": -0.55,
-    "quote_time": "09:18:15 2026-11-17"
+    "price": 91.796,
+    "change": -0.644,
+    "change_pct": -0.7,
+    "quote_time": "09:26:27 2026-11-17"
    }
   ],
   "crypto": [
@@ -1278,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64696.9,
-    "change": -204.7,
-    "change_pct": -0.32,
+    "price": 64663.1,
+    "change": -93.2,
+    "change_pct": -0.14,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1819.42,
-    "change": 6.45,
-    "change_pct": 0.36,
+    "price": 1817.37,
+    "change": 7.95,
+    "change_pct": 0.44,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.76,
-    "change": 0.23,
-    "change_pct": 0.32,
+    "price": 71.7,
+    "change": 0.38,
+    "change_pct": 0.53,
     "source": "okx"
    }
   ],
@@ -1306,24 +1322,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.67,
-    "change": 0.08,
-    "change_pct": 0.08,
+    "price": 103.696,
+    "change": 0.118,
+    "change_pct": 0.11,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-17",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6648,
-    "change": 0.0001,
-    "change_pct": 0.0,
+    "price": 6.6646,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-17",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1900,35 +1916,35 @@
   "disclaimer": "五行题材为传统五行学说的娱乐化推演，仅供文化参考，不构成任何投资建议。"
  },
  "structure": {
-  "date": "2026-11-16",
-  "zt_count": 32,
-  "dt_count": 60,
-  "zb_count": 16,
-  "qs_count": 132,
-  "seal_rate": 66.7,
-  "first_board": 21,
-  "continued": 11,
-  "max_streak": 4,
+  "date": "2026-11-17",
+  "zt_count": 3,
+  "dt_count": 15,
+  "zb_count": 0,
+  "qs_count": 35,
+  "seal_rate": 100.0,
+  "first_board": 2,
+  "continued": 1,
+  "max_streak": 3,
   "ladder": [
    {
     "boards": 1,
     "label": "1板",
-    "count": 21
+    "count": 2
    },
    {
     "boards": 2,
     "label": "2板",
-    "count": 8
+    "count": 0
    },
    {
     "boards": 3,
     "label": "3板",
-    "count": 2
+    "count": 1
    },
    {
     "boards": 4,
     "label": "4板",
-    "count": 1
+    "count": 0
    },
    {
     "boards": 5,
@@ -1943,160 +1959,107 @@
   ],
   "industries": [
    {
-    "name": "一般零售",
-    "count": 3,
-    "share": 9.4
-   },
-   {
-    "name": "电池",
-    "count": 3,
-    "share": 9.4
-   },
-   {
-    "name": "游戏Ⅱ",
-    "count": 2,
-    "share": 6.2
-   },
-   {
-    "name": "汽车服务",
-    "count": 2,
-    "share": 6.2
-   },
-   {
-    "name": "电视广播",
-    "count": 2,
-    "share": 6.2
-   },
-   {
-    "name": "小家电",
-    "count": 2,
-    "share": 6.2
-   },
-   {
-    "name": "炼化及贸",
+    "name": "电网设备",
     "count": 1,
-    "share": 3.1
+    "share": 33.3
    },
    {
-    "name": "通信服务",
+    "name": "工程机械",
     "count": 1,
-    "share": 3.1
+    "share": 33.3
+   },
+   {
+    "name": "综合Ⅱ",
+    "count": 1,
+    "share": 33.3
    }
   ],
   "dt_industries": [
    {
-    "name": "通用设备",
-    "count": 5
-   },
-   {
-    "name": "汽车零部",
-    "count": 4
-   },
-   {
-    "name": "元件",
-    "count": 4
+    "name": "游戏Ⅱ",
+    "count": 3
    },
    {
     "name": "光伏设备",
-    "count": 4
+    "count": 2
    },
    {
-    "name": "金属新材",
-    "count": 2
+    "name": "化学制品",
+    "count": 1
+   },
+   {
+    "name": "厨卫电器",
+    "count": 1
+   },
+   {
+    "name": "一般零售",
+    "count": 1
    }
   ],
   "leaders": [
    {
-    "name": "北纬科技",
-    "code": "002148",
-    "streak": 4,
-    "fund_yi": 0.26,
-    "industry": "通信服务",
-    "change_pct": 10.06,
-    "broken": 7
-   },
-   {
-    "name": "广百股份",
-    "code": "002187",
-    "streak": 3,
-    "fund_yi": 1.99,
-    "industry": "一般零售",
-    "change_pct": 10.04,
-    "broken": 0
-   },
-   {
-    "name": "国统股份",
-    "code": "002205",
-    "streak": 3,
-    "fund_yi": 0.12,
-    "industry": "水泥",
-    "change_pct": 9.98,
-    "broken": 5
-   },
-   {
     "name": "华东重机",
     "code": "002685",
-    "streak": 2,
-    "fund_yi": 1.64,
+    "streak": 3,
+    "fund_yi": 3.57,
     "industry": "工程机械",
-    "change_pct": 9.93,
-    "broken": 2
-   },
-   {
-    "name": "金逸影视",
-    "code": "002905",
-    "streak": 2,
-    "fund_yi": 1.16,
-    "industry": "影视院线",
-    "change_pct": 10.0,
+    "change_pct": 10.02,
     "broken": 0
    },
    {
-    "name": "凯撒文化",
-    "code": "002425",
-    "streak": 2,
-    "fund_yi": 1.09,
-    "industry": "游戏Ⅱ",
-    "change_pct": 10.1,
-    "broken": 1
+    "name": "亚泰集团",
+    "code": "600881",
+    "streak": 1,
+    "fund_yi": 2.76,
+    "industry": "综合Ⅱ",
+    "change_pct": 10.19,
+    "broken": 0
+   },
+   {
+    "name": "摩恩电气",
+    "code": "002451",
+    "streak": 1,
+    "fund_yi": 2.56,
+    "industry": "电网设备",
+    "change_pct": 10.03,
+    "broken": 0
    }
   ],
   "dt_leaders": [
    {
-    "name": "沪电股份",
-    "code": "002463",
-    "industry": "元件",
-    "change_pct": -10.0
+    "name": "惠城环保",
+    "code": "300779",
+    "industry": "环境治理",
+    "change_pct": -19.99
    },
    {
-    "name": "生益科技",
-    "code": "600183",
-    "industry": "元件",
+    "name": "日出东方",
+    "code": "603366",
+    "industry": "厨卫电器",
     "change_pct": -9.99
    },
    {
-    "name": "剑桥科技",
-    "code": "603083",
-    "industry": "通信设备",
-    "change_pct": -10.0
+    "name": "文投控股",
+    "code": "600715",
+    "industry": "游戏Ⅱ",
+    "change_pct": -9.89
    },
    {
-    "name": "景旺电子",
-    "code": "603228",
-    "industry": "元件",
-    "change_pct": -10.0
+    "name": "东方海洋",
+    "code": "002086",
+    "industry": "农产品加",
+    "change_pct": -9.91
    }
   ],
-  "index_pct": -0.87,
-  "score": 61.8,
+  "index_pct": -0.47,
+  "score": 69.9,
   "score_label": "偏热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
-   "封板率 67%（炸板 16 家）：多空分歧居中，涨停质量一般。",
-   "跌停 60 家：个股层面的风险在释放，注意高位股与题材补跌。",
-   "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
-   "连板 11 家 / 涨停 32 家（34%）：赚钱效应有延续性",
-   "涨停最集中的 一般零售 也只占 9%：热点分散，没有单一主线。"
+   "封板率 100%（炸板 0 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
+   "最高 3 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
+   "连板 1 家 / 涨停 3 家（33%）：赚钱效应有延续性",
+   "涨停集中在 电网设备（1 家，占 33%）：主线明确，但过度集中也意味着一旦该方向退潮，涨停家数会快速回落。"
   ],
   "history": [
    {
@@ -2272,12 +2235,20 @@
     "max_streak": 4,
     "score": 61.8,
     "index_pct": -0.87
+   },
+   {
+    "date": "2026-11-17",
+    "zt": 3,
+    "dt": 15,
+    "zb": 0,
+    "seal": 100.0,
+    "max_streak": 3,
+    "score": 69.9,
+    "index_pct": -0.47
    }
   ],
   "backfill_done": true
  },
- "errors": {
-  "盘面结构": "RuntimeError: 涨停/跌停池均返回空（非交易日或接口变更）"
- },
+ "errors": {},
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
