@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 17:23:11 CST",
- "generated_at_iso": "2026-11-17T17:23:11+08:00",
+ "generated_at": "2026-11-17 17:31:24 CST",
+ "generated_at_iso": "2026-11-17T17:31:24+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10803.87,
-    "change": -77.68,
-    "change_pct": -0.71,
+    "price": 10797.1,
+    "change": -84.45,
+    "change_pct": -0.78,
     "hist": [
      10541.69,
      10458.5,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8306.93,
-    "change": -45.07,
-    "change_pct": -0.54,
+    "price": 8286.85,
+    "change": -65.15,
+    "change_pct": -0.78,
     "hist": [
      7865.07,
      7769.21,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6298.62,
-    "change": -49.73,
-    "change_pct": -0.78,
+    "price": 6285.52,
+    "change": -62.83,
+    "change_pct": -0.99,
     "hist": [
      6272.24,
      6180.3,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3861.74,
-    "change": 8.74,
-    "change_pct": 0.23,
-    "quote_time": "17:23:07 2026-11-17"
+    "price": 3864.53,
+    "change": 11.53,
+    "change_pct": 0.3,
+    "quote_time": "17:31:28 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.243,
-    "change": 0.384,
-    "change_pct": 0.82,
-    "quote_time": "17:23:10 2026-11-17"
+    "price": 47.24,
+    "change": 0.381,
+    "change_pct": 0.81,
+    "quote_time": "17:31:26 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.673,
-    "change": -0.047,
-    "change_pct": -0.05,
-    "quote_time": "17:23:10 2026-11-17"
+    "price": 85.933,
+    "change": 0.213,
+    "change_pct": 0.25,
+    "quote_time": "17:31:26 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.45,
-    "change": 0.01,
-    "change_pct": 0.01,
-    "quote_time": "17:23:13 2026-11-17"
+    "price": 92.792,
+    "change": 0.352,
+    "change_pct": 0.38,
+    "quote_time": "17:31:26 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64294.9,
-    "change": -43.1,
-    "change_pct": -0.07,
+    "price": 64364.8,
+    "change": -79.5,
+    "change_pct": -0.12,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1808.55,
-    "change": 9.61,
-    "change_pct": 0.53,
+    "price": 1810.99,
+    "change": 9.29,
+    "change_pct": 0.52,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.16,
-    "change": 1.38,
-    "change_pct": 1.95,
+    "price": 72.37,
+    "change": 1.44,
+    "change_pct": 2.03,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.49,
-    "change": -0.1,
-    "change_pct": -0.1,
+    "price": 103.48,
+    "change": -0.11,
+    "change_pct": -0.11,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1333,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6653,
-    "change": 0.0006,
+    "price": 6.6654,
+    "change": 0.0007,
     "change_pct": 0.01,
     "dec": 4,
     "date": "",
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 23.29,
-   "change": 0.38,
-   "change_pct": 1.6587,
+   "value": 24.07,
+   "change": 1.16,
+   "change_pct": 5.0633,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1423,8 +1423,8 @@
     },
     {
      "t": "VIX",
-     "value": 23.29,
-     "change_pct": 1.6587
+     "value": 24.07,
+     "change_pct": 5.0633
     },
     {
      "t": "VIX3M",
@@ -1457,22 +1457,33 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "万斯否认与特朗普存在分歧，明年将决定是否参加2028年大选-市场参考 - 金十数据",
+   "title": "特朗普开启访亚行程 美中俄或发表联合公报 - 共同网",
    "summary": "",
-   "time": "2026-11-17 16:29",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IaTBPXzQ3QjcxYlQ3UFRsbmhiTUFLOFo0R1hHVDJXeDc3TThELWI2cVpYUnFuMVpNX1hGdjlyYm9MU1p6QVk4NjNyNU45Tms?oc=5",
+   "time": "2026-11-17 17:30",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hRDBlQnV0ZmZyeGtXd3VCVzNXVjIwa0E2VmhsenppQ295NlBwQm5jN1B5dFJNQ2tHZHBMcDNVU25Bb2lnUFIzRFZ2dndDSkMwOHB3V0xRNA?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
   },
   {
-   "keyword": "外交部",
-   "label": "外交部",
-   "hint": "地缘政治表态影响风险偏好",
-   "title": "APEC期间特朗普与普京将在中国会见金正恩？外交部回应 - ThePaper.cn",
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "“让黄仁勋回归”运动：Nvidia驳斥　特朗普支持 - BBC",
    "summary": "",
-   "time": "2026-11-17 15:52",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoNFN3Q3lfSDZnR09RLUZXS1pEbzNPSkdRakc5UzBnT242SFhUQTB3NFE0M1Fmc0U0NkFGZzFjZy1XY2lhOUdsRUVla1ViNGxBZ1NoMDV0SEppVXFtT3JJag?oc=5",
+   "time": "2026-11-17 16:55",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCdGUtWmtpVjl0X0NqWFdNdEFESTJTVm1qd0l1WDVmbmlqMWpTYXBCYXlXSDJkcmVwNG1fLWhJU1JoZ2tYRTQ5akdzWkxyVGFDV1ZCTDAyZ3lfVHVVRlpsS3FKVzE0SDjSAWxBVV95cUxQV0dJRTZMYmFOcl9nRlRBdkpneFA4V0hKa0ZxVVZyRTE4T1B1QWdrQncyQVFKUXV4ZlBoaXA2c0p0TGhLQ3NfcUNGMi1jZGxnTXFSdW54VmZlZ3k4Q2JpUk5WOWpUdWM0b1VkRVI?oc=5",
    "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
+   "keyword": "证监会",
+   "label": "证监会",
+   "hint": "A股核心监管机构的政策直接影响市场情绪",
+   "title": "香港证监会与金融市场标准委员会签署咨询协议 进一步就全球市场标准及发展交流",
+   "summary": "",
+   "time": "2026-11-17 09:29:08",
+   "url": "https://news.futunn.com/flash/1004738086/hong-kong-sfc-and-gfma-sign-consultation-agreement-to-further",
+   "source": "富途",
    "mentions": 1
   }
  ],
@@ -1691,45 +1702,45 @@
  "alerts": [],
  "news": [
   {
-   "title": "三丰智能：公司董事被立案调查并实施留置",
-   "summary": "三丰智能公告，公司于2026年11月16日收到监察机关通知，公司董事吴建军被立案调查并实施留置措施。截至公告披露日，公司已对吴建军负责的相关工作妥善安排，其他董事及高管正常履职，公司生产经营正常，未受影响。",
-   "time": "2026-11-17 17:05",
-   "url": "https://wallstreetcn.com/livenews/3201181",
+   "title": "泽连斯基证实乌克兰袭击了俄罗斯克里米亚大桥。",
+   "summary": "泽连斯基证实乌克兰袭击了俄罗斯克里米亚大桥。",
+   "time": "2026-11-17 17:32",
+   "url": "https://wallstreetcn.com/livenews/3201196",
    "source": "华尔街见闻"
   },
   {
-   "title": "京东健康第三季度收入200亿元 同比增长16.9%",
-   "summary": "【京东健康第三季度收入200亿元 同比增长16.9%】京东健康公告，2026年第三季度实现收入200.17亿元，同比增长16.9%；经营盈利11.95亿元，同比下降3.9%；非国际财务报告准则经营盈利15.75亿元，同比增长14.3%；期内盈利15.57亿元，同比下降15.3%；非国际财务报告准则盈利19.31亿元，同比增长1.5%。",
-   "time": "2026-11-17 17:01:59",
-   "url": "https://finance.eastmoney.com/a/202611173932919180.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "摩根大通上调三航运股盈利预测 中远海控H股目标价升至24港元 - 观点网",
+   "title": "特朗普开启访亚行程 美中俄或发表联合公报 - 共同网",
    "summary": "",
-   "time": "2026-11-17 16:48",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3T1hBVGRSZGFwX20zejYyMVB5Yy12cFE2RVRTYnJsLThIYWphWjhqSzRpZEUyMndUWFY0WElJZmNKSjFlZy1HZGVrSi1POVNRam1wSW4wRlZjMHkzWVZBZ0l3?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "万斯否认与特朗普存在分歧，明年将决定是否参加2028年大选-市场参考 - 金十数据",
-   "summary": "",
-   "time": "2026-11-17 16:29",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IaTBPXzQ3QjcxYlQ3UFRsbmhiTUFLOFo0R1hHVDJXeDc3TThELWI2cVpYUnFuMVpNX1hGdjlyYm9MU1p6QVk4NjNyNU45Tms?oc=5",
+   "time": "2026-11-17 17:30",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hRDBlQnV0ZmZyeGtXd3VCVzNXVjIwa0E2VmhsenppQ295NlBwQm5jN1B5dFJNQ2tHZHBMcDNVU25Bb2lnUFIzRFZ2dndDSkMwOHB3V0xRNA?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "重庆证监局：对重庆百盐投资及相关责任人出具警示函，涉及存在非市场化发行公司债等",
+   "title": "伊朗海军称周二又有一艘油轮在霍尔木兹海峡触雷",
+   "summary": "伊朗海军称周二又有一艘油轮在霍尔木兹海峡触雷。",
+   "time": "2026-11-17 17:27:44",
+   "url": "https://finance.eastmoney.com/a/202611173932939218.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-17 09:06:10",
-   "url": "https://news.10jqka.com.cn/20261117/c681913604.shtml",
+   "time": "2026-11-17 17:19",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9HZUozSkd2Z2U2TThBa29uOUgzWldpV0M5M3VkWHRVSDJXQkhlQ0E0RjhweTNhc2prY21PNEJxdXNKRlhmT01Gcw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "南向资金今日净买入22.03亿港元 腾讯控股获净买入居前",
+   "summary": "",
+   "time": "2026-11-17 09:31:20",
+   "url": "https://news.10jqka.com.cn/20261117/c681915663.shtml",
    "source": "同花顺"
   },
   {
-   "title": "亚马逊计划到2030年在印度可再生能源领域投资70亿美元",
+   "title": "德国拟提名普林斯顿经济学教授担任欧洲央行首席经济学家",
    "summary": "",
-   "time": "2026-11-17 09:01:09",
-   "url": "https://news.futunn.com/flash/1004734811/amazon-plans-to-invest-7-billion-in-india-s-renewable",
+   "time": "2026-11-17 09:30:29",
+   "url": "https://news.futunn.com/flash/1004738219/germany-plans-to-nominate-a-princeton-economics-professor-as-the",
    "source": "富途"
   },
   {
@@ -1747,45 +1758,45 @@
    "source": "财新"
   },
   {
-   "title": "伦敦金属交易所(LME)：铝库存减少1550吨，铜库存增加125吨，锌库存增加7100吨，锡库存增加25吨，铅库存减少8525吨，镍库存增加1458吨。",
-   "summary": "伦敦金属交易所(LME)：铝库存减少1550吨，铜库存增加125吨，锌库存增加7100吨，锡库存增加25吨，铅库存减少8525吨，镍库存增加1458吨。",
-   "time": "2026-11-17 17:03",
-   "url": "https://wallstreetcn.com/livenews/3201178",
+   "title": "美元兑日元连续第三个交易日下跌，跌幅达0.4%，报158.90。",
+   "summary": "美元兑日元连续第三个交易日下跌，跌幅达0.4%，报158.90。",
+   "time": "2026-11-17 17:22",
+   "url": "https://wallstreetcn.com/livenews/3201184",
    "source": "华尔街见闻"
   },
   {
-   "title": "《数字广东建设“十五五”规划》：加快打造新的万亿级数字产业集群 壮大集成电路制造、先进封测等产业",
-   "summary": "【《数字广东建设“十五五”规划》：加快打造新的万亿级数字产业集群 壮大集成电路制造、先进封测等产业】广东省人民政府印发《数字广东建设“十五五”规划》，其中提到，锻造数字经济核心产业新优势。加快打造新的万亿级数字产业集群。壮大集成电路制造、先进封测等产业。培育光通信芯片、光传感芯片等产业集群，布局人工智能芯片设计和制造。做强高端机器人核心部件制造业。培育6G产业，加快新一代核心器件与网络通信设备产业化。发展“人工智能+”软件信息产业，推动传统软件智能重构。强化“模数共振”，培育模型即服务、智能体即服务等新业态，构建“通用模型一原生智能体一行业适配”体系，探索发展世界模型。发展超高清视频与新型显示等智能显示终端。推广工业机器人、服务机器人等智能产品。做强AI手机、AI电脑、智能家居、智能网联汽车等产业，支持低空产品研发制造。探索类脑智能等新一代智能终端。",
-   "time": "2026-11-17 17:01:42",
-   "url": "https://finance.eastmoney.com/a/202611173932918873.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "太平洋证券维持鱼跃医疗买入评级 前三季度归母净利润11.31亿元 - 观点网",
+   "title": "“让黄仁勋回归”运动：Nvidia驳斥　特朗普支持 - BBC",
    "summary": "",
-   "time": "2026-11-17 16:37",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHQUE3Z2VaY2NzbHBONmhySnBUaS1MUVFGbzFwOTU2NjNGTkxOTVdKSk5nVWJzLUpzMERucVgwNkJrT0dwMGYzR1RINzhuaExMcEZ6dW5OYkRtZHA5MGNzNGt3?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "APEC期间特朗普与普京将在中国会见金正恩？外交部回应 - ThePaper.cn",
-   "summary": "",
-   "time": "2026-11-17 15:52",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoNFN3Q3lfSDZnR09RLUZXS1pEbzNPSkdRakc5UzBnT242SFhUQTB3NFE0M1Fmc0U0NkFGZzFjZy1XY2lhOUdsRUVla1ViNGxBZ1NoMDV0SEppVXFtT3JJag?oc=5",
+   "time": "2026-11-17 16:55",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCdGUtWmtpVjl0X0NqWFdNdEFESTJTVm1qd0l1WDVmbmlqMWpTYXBCYXlXSDJkcmVwNG1fLWhJU1JoZ2tYRTQ5akdzWkxyVGFDV1ZCTDAyZ3lfVHVVRlpsS3FKVzE0SDjSAWxBVV95cUxQV0dJRTZMYmFOcl9nRlRBdkpneFA4V0hKa0ZxVVZyRTE4T1B1QWdrQncyQVFKUXV4ZlBoaXA2c0p0TGhLQ3NfcUNGMi1jZGxnTXFSdW54VmZlZ3k4Q2JpUk5WOWpUdWM0b1VkRVI?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "京东物流：2026年第三季度收入同比增长16.1%",
+   "title": "洛阳钼业今日大宗交易平价成交599.59万股 成交额7536.9万元",
+   "summary": "【洛阳钼业今日大宗交易平价成交599.59万股 成交额7536.9万元】11月17日，洛阳钼业大宗交易成交599.59万股，成交额7536.9万元，占当日总成交额的3.12%，成交价12.57元，较市场收盘价12.57元持平。",
+   "time": "2026-11-17 17:27:20",
+   "url": "https://finance.eastmoney.com/a/202611173932939486.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "摩根大通上调三航运股盈利预测 中远海控H股目标价升至24港元 - 观点网",
    "summary": "",
-   "time": "2026-11-17 09:04:36",
-   "url": "https://news.10jqka.com.cn/20261117/c681913475.shtml",
+   "time": "2026-11-17 16:48",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB3T1hBVGRSZGFwX20zejYyMVB5Yy12cFE2RVRTYnJsLThIYWphWjhqSzRpZEUyMndUWFY0WElJZmNKSjFlZy1HZGVrSi1POVNRam1wSW4wRlZjMHkzWVZBZ0l3?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "首创期货：碳酸锂逐渐获得支撑，午后拉升涨超5%",
+   "summary": "",
+   "time": "2026-11-17 09:29:29",
+   "url": "https://news.10jqka.com.cn/20261117/c681915517.shtml",
    "source": "同花顺"
   },
   {
-   "title": "机构：英国就业数据未能构成阻止英国央行加息的理由",
+   "title": "香港证监会与金融市场标准委员会签署咨询协议 进一步就全球市场标准及发展交流",
    "summary": "",
-   "time": "2026-11-17 08:56:41",
-   "url": "https://news.futunn.com/flash/1004734188/institution-uk-employment-data-fails-to-provide-grounds-for-preventing",
+   "time": "2026-11-17 09:29:08",
+   "url": "https://news.futunn.com/flash/1004738086/hong-kong-sfc-and-gfma-sign-consultation-agreement-to-further",
    "source": "富途"
   },
   {
@@ -1803,45 +1814,45 @@
    "source": "财新"
   },
   {
-   "title": "京东物流第三季度营收639.5亿元人民币，预估639.5亿元人民币。\n\n第三季度非国际财务准则盈利21.6亿元人民币。\n\n第三季度研发支出12.2亿元人民币，预估12.3亿元人民币。\n\n第三季度销售费用17.6亿元人民币，预估17.2亿元人",
-   "summary": "京东物流第三季度营收639.5亿元人民币，预估639.5亿元人民币。\n\n第三季度非国际财务准则盈利21.6亿元人民币。\n\n第三季度研发支出12.2亿元人民币，预估12.3亿元人民币。\n\n第三季度销售费用17.6亿元人民币，预估17.2亿元人民币。\n\n第三季度一般及行政开支12.8亿元人民币，预估11.9亿元人民币。",
-   "time": "2026-11-17 17:01",
-   "url": "https://wallstreetcn.com/livenews/3201175",
+   "title": "美股股指期货延续跌势，纳指期货、标普500指数期货跌近0.5%，触及盘中低点。",
+   "summary": "美股股指期货延续跌势，纳指期货、标普500指数期货跌近0.5%，触及盘中低点。",
+   "time": "2026-11-17 17:09",
+   "url": "https://wallstreetcn.com/livenews/3201183",
    "source": "华尔街见闻"
   },
   {
-   "title": "俄罗斯称下一轮乌克兰问题会谈还没有具体日期",
-   "summary": "俄罗斯称下一轮乌克兰问题会谈还没有具体日期。",
-   "time": "2026-11-17 17:00:30",
-   "url": "https://finance.eastmoney.com/a/202611173932919287.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "国海证券首予锐科激光“买入”评级预计2026年营收40.02亿元_公司新闻_财经 - 证券之星",
+   "title": "万斯否认与特朗普存在分歧，明年将决定是否参加2028年大选-市场参考 - 金十数据",
    "summary": "",
-   "time": "2026-11-17 15:57",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1NDRmLTBHdUlxTDFwRkNnMTVweU1STlZzVm4tbWdLTHVzSnA3eUg1bTdpRUhVVl9xcDFZZVZ5YWxxZi1ZT1JVUDJTX25YX0hwcVQwdFR3QnpyZlRwR3FKSw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "南方财经全媒体集团 - 南方财经",
-   "summary": "",
-   "time": "2026-11-17 15:36",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16dl9OR0VtUWJ0d2Y0N0ZqSnlwRGMyQ09HUk10U05DT3dkYTZCQzFVMERNTjlHV21ZVEU1bHRGa2t6ZTVxVmh5V2ZmOTZyeDYyM05jazI0eHlmLVpjdWYxX3RralZYQ2c?oc=5",
+   "time": "2026-11-17 16:29",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IaTBPXzQ3QjcxYlQ3UFRsbmhiTUFLOFo0R1hHVDJXeDc3TThELWI2cVpYUnFuMVpNX1hGdjlyYm9MU1p6QVk4NjNyNU45Tms?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "兆驰股份：拟以1亿元-1.5亿元回购公司股份",
+   "title": "亚洲10ppm硫含量柴油现货价差转为贴水",
+   "summary": "【亚洲10ppm硫含量柴油现货价差转为贴水】数据显示，亚洲10ppm硫含量柴油现货价差转为贴水，跌至两年多来的最低水平。",
+   "time": "2026-11-17 17:26:51",
+   "url": "https://finance.eastmoney.com/a/202611173932939185.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "太平洋证券维持鱼跃医疗买入评级 前三季度归母净利润11.31亿元 - 观点网",
    "summary": "",
-   "time": "2026-11-17 09:03:35",
-   "url": "https://news.10jqka.com.cn/20261117/c681913390.shtml",
+   "time": "2026-11-17 16:37",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBHQUE3Z2VaY2NzbHBONmhySnBUaS1MUVFGbzFwOTU2NjNGTkxOTVdKSk5nVWJzLUpzMERucVgwNkJrT0dwMGYzR1RINzhuaExMcEZ6dW5OYkRtZHA5MGNzNGt3?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "顺网科技：董事长提议以5000万元-1亿元回购公司股份",
+   "summary": "",
+   "time": "2026-11-17 09:28:38",
+   "url": "https://news.10jqka.com.cn/20261117/c681915466.shtml",
    "source": "同花顺"
   },
   {
-   "title": "数字广东建设“十五五”规划：培育光通信芯片、光传感芯片等产业集群",
+   "title": "英伟达财报难消黄仁勋离任阴影？未来最坏或损失10%营收",
    "summary": "",
-   "time": "2026-11-17 08:55:34",
-   "url": "https://news.futunn.com/flash/1004734046/15th-five-year-plan-for-the-construction-of-digital-guangdong",
+   "time": "2026-11-17 09:26:47",
+   "url": "https://news.futunn.com/flash/1004737937/can-nvidia-s-earnings-report-dispel-the-shadow-of-jensen",
    "source": "富途"
   },
   {
@@ -1852,10 +1863,10 @@
    "source": "财新"
   },
   {
-   "title": "微博第三季度净营收4.102亿美元，预估4.131亿美元。\n\n第三季度调整后每股收益0.060美元，预估0.24美元。\n\n第三季度每股收益0.10美元，上年同期0.83美元，预估0.17美元。\n\n第三季度调整后息税折旧及摊销前利润7,520",
-   "summary": "微博第三季度净营收4.102亿美元，预估4.131亿美元。\n\n第三季度调整后每股收益0.060美元，预估0.24美元。\n\n第三季度每股收益0.10美元，上年同期0.83美元，预估0.17美元。\n\n第三季度调整后息税折旧及摊销前利润7,520万美元，同比下降48%，预估8,670万美元。\n\n第三季度月活跃用户5.5亿，同比下降4.7%，预估5.6亿。\n\n第三季度日活跃用户2.5亿，同比下降1.2%，",
-   "time": "2026-11-17 17:00",
-   "url": "https://wallstreetcn.com/livenews/3201174",
+   "title": "通光线缆：终止与长飞光纤成立合资公司事项",
+   "summary": "通光线缆公告称，公司基于商业考量，经与长飞光纤友好协商，一致同意终止合资协议并解散合资公司江苏通飞科技有限公司。公司原拟与长飞光纤共同出资6亿元设立合资公司，其中公司认缴3.39亿元，占比56.5%。截至协议签署日，公司已实缴出资40万元，长飞光纤未实缴出资。双方将按原出资比例承担清算费用并分配剩余财产，本次终止事项不会对公司主营业务及财务状况造成重大影响。",
+   "time": "2026-11-17 17:07",
+   "url": "https://wallstreetcn.com/livenews/3201182",
    "source": "华尔街见闻"
   }
  ],
@@ -1863,7 +1874,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(20)",
+   "富途": "ok(15)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1873,9 +1884,9 @@
   },
   "counts": {
    "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
    "东财国际": 7,
    "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
