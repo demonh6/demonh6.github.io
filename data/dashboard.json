@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-17 12:44:31 CST",
- "generated_at_iso": "2026-11-17T12:44:31+08:00",
+ "generated_at": "2026-11-17 12:52:48 CST",
+ "generated_at_iso": "2026-11-17T12:52:48+08:00",
  "date": "2026-11-17",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3874.835,
-    "change": 21.835,
-    "change_pct": 0.57,
-    "quote_time": "12:44:24 2026-11-17"
+    "price": 3877.772,
+    "change": 24.772,
+    "change_pct": 0.64,
+    "quote_time": "12:52:52 2026-11-17"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.45,
-    "change": 0.591,
-    "change_pct": 1.26,
-    "quote_time": "12:44:20 2026-11-17"
+    "price": 47.504,
+    "change": 0.645,
+    "change_pct": 1.38,
+    "quote_time": "12:52:45 2026-11-17"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.076,
-    "change": -0.644,
-    "change_pct": -0.75,
-    "quote_time": "12:44:08 2026-11-17"
+    "price": 84.961,
+    "change": -0.759,
+    "change_pct": -0.89,
+    "quote_time": "12:52:51 2026-11-17"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.826,
-    "change": -0.614,
-    "change_pct": -0.66,
-    "quote_time": "12:44:33 2026-11-17"
+    "price": 91.647,
+    "change": -0.793,
+    "change_pct": -0.86,
+    "quote_time": "12:52:47 2026-11-17"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 65040.4,
-    "change": 171.9,
-    "change_pct": 0.26,
+    "price": 64997.8,
+    "change": 175.7,
+    "change_pct": 0.27,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1831.88,
-    "change": 12.74,
-    "change_pct": 0.7,
+    "price": 1833.87,
+    "change": 15.82,
+    "change_pct": 0.87,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.93,
-    "change": 1.39,
-    "change_pct": 1.94,
+    "price": 72.83,
+    "change": 1.33,
+    "change_pct": 1.86,
     "source": "okx"
    }
   ],
@@ -1333,13 +1333,13 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6657,
-    "change": 0.001,
-    "change_pct": 0.02,
+    "price": 6.6663,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-17",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1442,13 +1442,13 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 72.7,
-   "label": "偏热",
-   "color": "#8ac96f",
+   "score": 75.2,
+   "label": "过热",
+   "color": "#26a56b",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 73.0,
-    "structure": 72.2
+    "structure": 78.6
    }
   }
  },
@@ -1946,9 +1946,9 @@
   "date": "2026-11-17",
   "zt_count": 42,
   "dt_count": 19,
-  "zb_count": 7,
-  "qs_count": 134,
-  "seal_rate": 85.7,
+  "zb_count": 0,
+  "qs_count": 0,
+  "seal_rate": 100.0,
   "first_board": 35,
   "continued": 7,
   "max_streak": 4,
@@ -2131,11 +2131,11 @@
    }
   ],
   "index_pct": -0.01,
-  "score": 72.2,
-  "score_label": "偏热",
+  "score": 78.6,
+  "score_label": "过热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
-   "封板率 86%（炸板 7 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
+   "封板率 100%（炸板 0 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 7 家 / 涨停 42 家（17%）：以首板为主，持续性待验证",
    "涨停最集中的 光学光电 也只占 10%：热点分散，没有单一主线。",
@@ -2320,10 +2320,10 @@
     "date": "2026-11-17",
     "zt": 42,
     "dt": 19,
-    "zb": 7,
-    "seal": 85.7,
+    "zb": 0,
+    "seal": 100.0,
     "max_streak": 4,
-    "score": 72.2,
+    "score": 78.6,
     "index_pct": -0.01
    }
   ],
