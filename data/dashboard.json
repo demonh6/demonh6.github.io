@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 06:52:57 CST",
- "generated_at_iso": "2026-11-19T06:52:57+08:00",
+ "generated_at": "2026-11-19 07:01:13 CST",
+ "generated_at_iso": "2026-11-19T07:01:13+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1054,9 +1054,9 @@
      10902.56,
      10881.55,
      10689.87,
-     10561.25
+     10551.17
     ],
-    "sigma": 0.822,
+    "sigma": 0.828,
     "volume": 0.0,
     "vol_pctile": 100.0,
     "vol_hist": [
@@ -1256,28 +1256,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3727.32,
-    "change": -136.88,
-    "change_pct": -3.54,
-    "quote_time": "05:59:59 2026-11-19"
+    "price": 3730.897,
+    "change": -11.003,
+    "change_pct": -0.29,
+    "quote_time": "07:01:10 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.94,
-    "change": -2.417,
-    "change_pct": -5.1,
-    "quote_time": "05:59:58 2026-11-19"
+    "price": 45.061,
+    "change": 0.002,
+    "change_pct": 0.0,
+    "quote_time": "07:01:11 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.835,
-    "change": -2.815,
-    "change_pct": -3.33,
-    "quote_time": "05:59:59 2026-11-19"
+    "price": 81.987,
+    "change": -0.323,
+    "change_pct": -0.39,
+    "quote_time": "07:01:15 2026-11-19"
    },
    {
     "name": "布伦特原油",
@@ -1286,7 +1286,7 @@
     "price": 91.343,
     "change": -1.797,
     "change_pct": -1.93,
-    "quote_time": "06:52:46 2026-11-19"
+    "quote_time": "06:57:57 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 62269.6,
-    "change": -2489.5,
-    "change_pct": -3.84,
-    "source": "okx"
+    "price": 62368.0,
+    "change": -2434.3,
+    "change_pct": -3.76,
+    "source": "okx",
+    "hist": [
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     62382.9
+    ],
+    "sigma": 2.017
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1755.85,
-    "change": -59.0,
-    "change_pct": -3.25,
-    "source": "okx"
+    "price": 1761.28,
+    "change": -55.08,
+    "change_pct": -3.03,
+    "source": "okx",
+    "hist": [
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1762.14
+    ],
+    "sigma": 2.943
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.5,
-    "change": -1.55,
-    "change_pct": -2.09,
-    "source": "okx"
+    "price": 72.73,
+    "change": -1.39,
+    "change_pct": -1.88,
+    "source": "okx",
+    "hist": [
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     72.79
+    ],
+    "sigma": 3.018
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.79,
-    "change": -0.01,
-    "change_pct": -0.01,
+    "price": 103.8,
+    "change": 0.0,
+    "change_pct": 0.0,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6676,
-    "change": -0.0016,
+    "price": 6.6677,
+    "change": -0.0015,
     "change_pct": -0.02,
     "dec": 4,
     "date": "",
@@ -1454,13 +1553,35 @@
  },
  "speakers": [
   {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "马斯克：没有任何人对乌克兰的帮助超过了我。",
+   "summary": "马斯克：没有任何人对乌克兰的帮助超过了我。",
+   "time": "2026-11-19 06:56",
+   "url": "https://wallstreetcn.com/livenews/3202220",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储会议纪要显示几乎所有官员预计还需加息 - 新浪财经",
+   "title": "黄金一夜跌超120美元，创14个月新低，美联储12月加息预期飙升 - 同花顺",
    "summary": "",
-   "time": "2026-11-19 03:52",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNenB2ZXlFTVo1SkxkbWt0Nlc3ZTNFbHk4U3l0bk9BV0xNdmlRODliZzdOWWxrdTl5Wk9KMkxhRVIyTDA3U0stNHl4LTdsY2l0OS1IUDNqSVpacFhha2M0bFhCSWdqR0hoOEhld1F0TVNCN3JyREN2cXMxd0o1NUVjVGR3Ym1MQ2c?oc=5",
+   "time": "2026-11-19 06:52",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzbXFfV09PSkFEM3ItcFl5NUx0QnQ2ZHVqSnlWbXVxbDliSThLZldYYVNLWlBpQnI4QnRhSGJiaHlGa21KLVgtTXE5bF9kcTJZQnR5Vk5Jbk8wNU1tWFNVejZn?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "借与习近平和特朗普合影，俄罗斯驳斥普京被国际社会边缘化的说法 - RFI",
+   "summary": "",
+   "time": "2026-11-19 06:50",
+   "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxOZHg1UGt1bll4UnBlQkF0WnA5dUgtTERBbjBRSndUZHFGZkdYMUFvbGVGZmVVUXFla3FyX1hJXzBrM01rcGdkTUNFTXZPei12RXNDVUJ6WHJXSGdfMGZkaUJCNllRRnJORXk2QVFNZWpPU3hyOTRnSjB5NEk3NEhvbUx0V1NzbWtPdTlvV1NPYThybFpuM2paUl81TFNVN2xObF9WczlJTllGZHZ2Y0tXQWFXNnRNdFlweGxwNXc2TWhmTDBqeHlVb21UeFlzSm85UWRraTItTVR0YjUwc1FQcHp6c05IXzZaeWZHZzBBTXJGNkNVX2ZKX2NZWTJhM0ZtVEZ3NjQzc1BuWVgtT3pLdWhkV2Z3NEo4TnNVUEF4V0pQOU9kZmEweUNkVjgwWXlDTkhYcFFNM3lfZkZ0T0swRG1UdDU5MkZtaDVXMWJ6UGpZeFRyR3QtUTBfTjhPcW1lclZJUVVqeGJ3SFZzTFZhNW9ITUdST2J3YlB4bUJiaHVXb1dtVTJxTTJhYjdVVDFBNEh4WHB6YXFnXzZlMHY0RWJkN3NONWMxU2lkcUlPNFBVZUtQRjRleVlKeE93X1NsU01iaWY1bw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
   },
@@ -1537,23 +1658,23 @@
   ],
   "reports": [
    {
-    "title": "穆迪：预计美国将继续其由独立的美联储主导的非常有效的货币政策长期历史。",
+    "title": "穆迪：下调英伟达评级展望 - 全天候科技",
     "org": "穆迪",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://wallstreetcn.com/livenews/3202200",
+    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5KUU9HN09UaFFmTFVaSndLclVoV0M4bmNOTm1JVVZURmV6Uk5Ib0cyU1NycWZwbHpkNHZLU21pQnZCZE4zMUR0bkdB?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "OpenAI将进军手机市场 供应链人士：立讯精密或因资源配置考量 未承接其手机组装业务",
-    "org": "天风",
+    "title": "穆迪：美国经济表现强于预期，预计今年增长2.3%",
+    "org": "穆迪",
     "rating": "",
     "stock": "",
     "industry": "",
-    "date": "2026-11-19",
-    "url": "https://finance.eastmoney.com/a/202611183934326212.html",
+    "date": "2026-11-18",
+    "url": "https://news.futunn.com/flash/1004950010/moody-s-us-economy-outperforms-expectations-growth-projected-at-2",
     "source": "机构观点"
    },
    {
@@ -1567,13 +1688,13 @@
     "source": "机构观点"
    },
    {
-    "title": "高盛、摩根士丹利与AI行情深度绑定，华尔街投行的好日子还能持续多久？ - 华尔街见闻",
-    "org": "高盛",
+    "title": "从押注科技到均衡对冲 华尔街巨头集体调仓",
+    "org": "桥水",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QQWoyVDR0bkRsUG1yRUFOdkhMN0NXUFlVV1lZVzc4d1V6X3JOU0w2YkhuWVNzMkc3aFJuU2FldXpjaVozNUF0c0xfX2oxc1ctUHRv?oc=5",
+    "url": "https://finance.eastmoney.com/a/202611193934375637.html",
     "source": "机构观点"
    },
    {
@@ -1698,64 +1819,56 @@
    }
   ]
  },
- "alerts": [
-  {
-   "level": "warning",
-   "asset": "COMEX白银",
-   "message": "COMEX白银单日跌5.10%，达20日历史波动率的 2.8 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-19 06:53",
-   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
-  }
- ],
+ "alerts": [],
  "news": [
   {
-   "title": "铜铝价格回落 家电业盈利修复添动能",
-   "summary": "【铜铝价格回落 家电业盈利修复添动能】11月以来，铜、铝等大宗商品价格高位回调，持续承压的家电行业迎来成本端的一丝松动。此外，9至10月家电出口明显提速，叠加去年四季度低基数影响，今年四季度家电出口有望延续增长。",
-   "time": "2026-11-19 06:31:19",
-   "url": "https://finance.eastmoney.com/a/202611193934376269.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 07:50 日本9月核心机械订单；\n\n② 08:30 澳大利亚10月就业人口、失业率；\n\n③ 时间待定 习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤，2026脑机接口大会在京启幕，2026世界计算大会在长沙开幕（11月19-21日）；\n\n④ 09:00 韩国股市晚一小时开始交易；\n\n⑤ 10:00 新西兰联储首席经济学家Conway谈论经济；\n\n⑥ 港股收盘之后 阿里巴巴、拼多多",
-   "time": "2026-11-19 06:30",
-   "url": "https://wallstreetcn.com/livenews/3202212",
+   "title": "生猪市场仍处磨底阶段，业内人士称趋势性反转尚待时日",
+   "summary": "11月初以来，生猪期货市场迎来阶段性反弹，主力2701合约价格一度重返1万元/吨关口。但随着价格回升，市场上行动力逐渐减弱，期价再度承压回落，一度跌至9500元/吨下方。业内人士表示，近期生猪价格反弹主要受到超跌修复、季节性需求预期改善以及市场情绪回暖等因素推动，但当前生猪出栏压力仍然较大，冻品库存处于高位，终端消费改善力度有限，供需宽松格局尚未发生根本性改变。短期生猪价格或延续底部震荡走势，趋势",
+   "time": "2026-11-19 06:59",
+   "url": "https://wallstreetcn.com/livenews/3202223",
    "source": "华尔街见闻"
   },
   {
-   "title": "VOA今日焦点 (2026年11月18日) 特朗普总统出席APEC会议 美中俄三方会谈聚焦核武问题 - 美国之音",
+   "title": "黄金一夜跌超120美元，创14个月新低，美联储12月加息预期飙升 - 同花顺",
    "summary": "",
-   "time": "2026-11-19 06:17",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5KVE94akU2TFY3Y1dnaUhrZFBqYnk4RXQ0UW5LamkwUzl2WXcyVF9sNldKczJLdmdsVzFPNW1hTDE5dzBMOWpjR3RZNl9RWnNkOUw4cTNTMTluRnBSUWJ3RUZLNktROHdHQi1v0gFuQVVfeXFMUDk3S0lsVTJRZGlCVHZKT2pwc0dwRlJwRGQ0QWxKaC1nUHc1anpKLU1UWmcwSzhVQlFyVUhlMHhMYWJ6MHRiV0FXZk15NWNWTGFDczVkS0Uyc0dNV2kyek8xaThQYXJaNVBBNWIwWFE?oc=5",
+   "time": "2026-11-19 06:52",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzbXFfV09PSkFEM3ItcFl5NUx0QnQ2ZHVqSnlWbXVxbDliSThLZldYYVNLWlBpQnI4QnRhSGJiaHlGa21KLVgtTXE5bF9kcTJZQnR5Vk5Jbk8wNU1tWFNVejZn?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
+   "title": "科技厂商加码AI眼镜 产品研发路线持续分化",
+   "summary": "【科技厂商加码AI眼镜 产品研发路线持续分化】今年以来，Meta、阿里千问等科技公司接连上新AI眼镜，雷鸟创新、影目科技、Rokid、XREAL等垂直厂商也密集推出新品。近期行业再迎重磅消息：三星与谷歌宣布合作，将推出搭载Gemini大模型的智能眼镜。产品快速迭代之际，行业逐渐分化出两条清晰的产品路线：带显示的AI眼镜聚焦光学技术瓶颈突破，挖掘细分场景机遇；无显示轻量化AI眼镜主打轻便体验，成为推动AI眼镜品类加速普及的主力。与此同时，A股产业链竞逐同步升温。光学显示与芯片厂商、深度绑定海外头部客户的供应链企业，以及检测、软件适配等配套服务商正在打开新的增长空间。",
+   "time": "2026-11-19 06:44:55",
+   "url": "https://finance.eastmoney.com/a/202611193934376355.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "穆迪：下调英伟达评级展望 - 全天候科技",
+   "summary": "",
+   "time": "2026-11-19 06:35",
+   "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5KUU9HN09UaFFmTFVaSndLclVoV0M4bmNOTm1JVVZURmV6Uk5Ib0cyU1NycWZwbHpkNHZLU21pQnZCZE4zMUR0bkdB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
    "title": "东方财富财经早餐 11月19日周四",
-   "summary": "1、英伟达临时CEO称将不再向中国出货H200芯片，外交部回应。2、中际旭创要开启第二波回购：回购金额20亿元—40亿元。3、美联储理事沃勒：若不释放1月加息的信号，应在12月加息50个基点。",
+   "summary": "【东方财富财经早餐 11月19日周四】1、英伟达临时CEO称将不再向中国出货H200芯片，外交部回应。2、中际旭创要开启第二波回购：回购金额20亿元—40亿元。3、美联储理事沃勒：若不释放1月加息的信号，应在12月加息50个基点。",
    "time": "2026-11-19 06:00:07",
    "url": "http://finance.eastmoney.com/a/202611183934326351.html",
    "source": "东财早报"
   },
   {
-   "title": "壹评级发布中国西电首次评级 - 第一财经",
+   "title": "热门基金相继解除限购，机构资金“候场”转“入场”",
    "summary": "",
-   "time": "2026-11-19 05:10",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zNWcyY0FDS0dXZkhpNm9jVDhYZ2NuVjNFYmVIRDBrMUZqa1NzNXFqcUJsZDhhZUNyMTlReEJSZkQxcUZsSlRaTUVOaGUwUWxHSjlN?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "估值1.5万亿美元 Anthropic据悉IPO定价为83美元",
-   "summary": "",
-   "time": "2026-11-18 22:33:11",
-   "url": "https://news.futunn.com/flash/1004949555/anthropic-reportedly-prices-ipo-at-83-implying-a-1-5",
-   "source": "富途"
-  },
-  {
-   "title": "穆迪将英伟达前景展望由正面调整为稳定",
-   "summary": "",
-   "time": "2026-11-18 22:14:12",
-   "url": "https://news.10jqka.com.cn/20261119/c681973362.shtml",
+   "time": "2026-11-18 23:01:19",
+   "url": "https://news.10jqka.com.cn/20261119/c681973723.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "穆迪：美国经济表现强于预期，预计今年增长2.3%",
+   "summary": "",
+   "time": "2026-11-18 22:40:55",
+   "url": "https://news.futunn.com/flash/1004950010/moody-s-us-economy-outperforms-expectations-growth-projected-at-2",
+   "source": "富途"
   },
   {
    "title": "Andy Jassy看好Anthropic增长前景，称亚马逊有多种渠道支持AI基础设施投资",
@@ -1765,25 +1878,32 @@
    "source": "财新"
   },
   {
-   "title": "从押注科技到均衡对冲 华尔街巨头集体调仓",
-   "summary": "【从押注科技到均衡对冲 华尔街巨头集体调仓】随着美国证监会（SEC）三季度13F文件披露收官，海外长线资金与对冲基金截至三季度末的持仓情况浮出水面。数据显示，华尔街多家机构出于对后市的谨慎看法，集体减持了标普500和纳斯达克等宽基ETF。与此同时，多家机构在科技板块内部进行了调仓换股，桥水、文艺复兴科技等知名对冲基金在兑现头部科技巨头收益的同时，将资金向半导体上游环节迁移。",
-   "time": "2026-11-19 06:30:00",
-   "url": "https://finance.eastmoney.com/a/202611193934375637.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "“冲量”冲不动了，银行重算票据经营账",
-   "summary": "转贴现利率持续低位运行，票据业务盈利空间不断收窄，自业内获悉，已有国有大行计划年底精简票据部门架构。这一动作背后，是今年票据“冲量”冲不动也不赚钱的现实。业内机构判断，票据“去信贷化”或将渐进落地。过去依靠票据冲贷款规模的模式逐步退场，银行票据业务正从信贷调节工具，转向聚焦真实贸易融资、同业交易的资产，盈利模式、风控体系也随之迎来重塑。（上证报）",
-   "time": "2026-11-19 06:29",
-   "url": "https://wallstreetcn.com/livenews/3202211",
+   "title": "回购公告显示机构扎堆，资金博弈热门人气股",
+   "summary": "近日上市公司回购公告频现，最新前十大股东明细出炉，为市场观察机构调仓动向提供了参考。颇有看点的是，虽然三季度以来市场整体回调，但不少个股出现知名公募基金、牛散等多路资金逆势加仓的举动。其中，人气旺盛的半导体测试产业链标的尤受机构青睐，甚至有个股前十大流通股东被机构“包场”。不过，行情波动之下，市场博弈现象较为突出，机构操作方向时常大相径庭。（中证报）",
+   "time": "2026-11-19 06:57",
+   "url": "https://wallstreetcn.com/livenews/3202221",
    "source": "华尔街见闻"
   },
   {
-   "title": "美中俄三方会谈在即 专家建议这么谈 - 美国之音",
+   "title": "借与习近平和特朗普合影，俄罗斯驳斥普京被国际社会边缘化的说法 - RFI",
    "summary": "",
-   "time": "2026-11-19 04:20",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa1VycW1hLWxhUHBlYTA4NktfYU85ZG9oa2hDY1c5b0RDV3N5X3AxYkRRXzhlSUdqUW54UFdkTkhuVHNJS0o0WWpCeF9BQTRZdWxVVUpOUXdhcnF5cXhWNWVwNEVOMjNrMkcwdDFVTGQwc0dTSXRSb2NKME9GaHFGYmdyd3VNNmsxaWVLbGNKU1BYTUZEYVEzQWZCOHHSAZ8BQVVfeXFMUDd0OFBiZmJEWkVUM2c0ZXkyYkNoRlJ3MnBZZXo5a2RDZ3h5ZHREUzNjT1l1SnBRMGZNVlhqMW1ELVpScjdCVk1XVkxsUFFhbkdacU42N1BGSmM5RFU3cjkyUFVPeWNjX1Bsa1N1eHBuSGp0NkZYZFJIT3VSajJtMWpXLW1PMmhpWFNNTll4Nnl2ZmUyYXBmdlNpNV9OSzNn?oc=5",
+   "time": "2026-11-19 06:50",
+   "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxOZHg1UGt1bll4UnBlQkF0WnA5dUgtTERBbjBRSndUZHFGZkdYMUFvbGVGZmVVUXFla3FyX1hJXzBrM01rcGdkTUNFTXZPei12RXNDVUJ6WHJXSGdfMGZkaUJCNllRRnJORXk2QVFNZWpPU3hyOTRnSjB5NEk3NEhvbUx0V1NzbWtPdTlvV1NPYThybFpuM2paUl81TFNVN2xObF9WczlJTllGZHZ2Y0tXQWFXNnRNdFlweGxwNXc2TWhmTDBqeHlVb21UeFlzSm85UWRraTItTVR0YjUwc1FQcHp6c05IXzZaeWZHZzBBTXJGNkNVX2ZKX2NZWTJhM0ZtVEZ3NjQzc1BuWVgtT3pLdWhkV2Z3NEo4TnNVUEF4V0pQOU9kZmEweUNkVjgwWXlDTkhYcFFNM3lfZkZ0T0swRG1UdDU5MkZtaDVXMWJ6UGpZeFRyR3QtUTBfTjhPcW1lclZJUVVqeGJ3SFZzTFZhNW9ITUdST2J3YlB4bUJiaHVXb1dtVTJxTTJhYjdVVDFBNEh4WHB6YXFnXzZlMHY0RWJkN3NONWMxU2lkcUlPNFBVZUtQRjRleVlKeE93X1NsU01iaWY1bw?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "铜铝价格回落 家电业盈利修复添动能",
+   "summary": "【铜铝价格回落 家电业盈利修复添动能】11月以来，铜、铝等大宗商品价格高位回调，持续承压的家电行业迎来成本端的一丝松动。此外，9至10月家电出口明显提速，叠加去年四季度低基数影响，今年四季度家电出口有望延续增长。",
+   "time": "2026-11-19 06:31:19",
+   "url": "https://finance.eastmoney.com/a/202611193934376269.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "壹评级发布中国西电首次评级 - 第一财经",
+   "summary": "",
+   "time": "2026-11-19 05:10",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zNWcyY0FDS0dXZkhpNm9jVDhYZ2NuVjNFYmVIRDBrMUZqa1NzNXFqcUJsZDhhZUNyMTlReEJSZkQxcUZsSlRaTUVOaGUwUWxHSjlN?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1793,25 +1913,18 @@
    "source": "东财早报"
   },
   {
-   "title": "壹评级发布江海股份首次评级 - 第一财经",
+   "title": "穆迪将英伟达前景展望由正面调整为稳定",
    "summary": "",
-   "time": "2026-11-19 05:10",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qZUdDendOUnl5S3VFbm5FdlZUTVR3WXhMbkhiT1dzRkFReEh5VS1Yb1lPbUJvS1hYdGNNakxQWmFzQmZKMS1ldkpuRWR4MlVJWk84?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "民调：过半员工盼黄仁勋回归，副总裁巴克成最佳备选",
-   "summary": "",
-   "time": "2026-11-18 21:59:35",
-   "url": "https://news.futunn.com/flash/1004947010/poll-over-half-of-employees-hope-for-jensen-huang-s",
-   "source": "富途"
-  },
-  {
-   "title": "86%的经济学家预计日本央行12月将利率上调至1.50%",
-   "summary": "",
-   "time": "2026-11-18 22:07:11",
-   "url": "https://news.10jqka.com.cn/20261119/c681972989.shtml",
+   "time": "2026-11-18 22:14:12",
+   "url": "https://news.10jqka.com.cn/20261119/c681973362.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "估值1.5万亿美元 Anthropic据悉IPO定价为83美元",
+   "summary": "",
+   "time": "2026-11-18 22:33:11",
+   "url": "https://news.futunn.com/flash/1004949555/anthropic-reportedly-prices-ipo-at-83-implying-a-1-5",
+   "source": "富途"
   },
   {
    "title": "CNBC援引知情人士称发行价可能落在80美元出头，市场关注上市后股价表现",
@@ -1821,25 +1934,32 @@
    "source": "财新"
   },
   {
-   "title": "主动ETF上市前夜 重仓股名单“浮出水面”",
-   "summary": "【主动ETF上市前夜 重仓股名单“浮出水面”】11月17日晚间，首批18只主动ETF集中披露上市交易公告书。至此，这批广受关注的产品走完了上市前所有流程，正站在起跑线上等待发令枪响。公告显示，该批产品将于11月23日集中上市，当前仍处于建仓期。总体来看，18只产品股票仓位平均在50%以上，部分产品仓位超过90%。根据基金合同，产品上市前需要达到合同约定的80%股票仓位底线，部分市场人士预计接下来几个交易日该批产品将加快建仓节奏，为市场带来更多的增量资金。",
-   "time": "2026-11-19 06:29:06",
-   "url": "https://finance.eastmoney.com/a/202611193934376069.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "赎回压力边际缓和，债市延续修复行情",
-   "summary": "11月18日，债市延续修复行情。继前一交易日跌破1.60%后，10年期国债收益率进一步下行至1.5899%，10年期、30年期国债期货主力合约双双收涨。从机构交易动向看，前期连续卖债的基金已重新买入长债，部分银行理财子公司也开始买入期限较短的信用债。多家机构认为，随着债券基金赎回压力边际缓和，机构卖债变现的需求有所减弱，带动债市回暖。不过，各类债券修复步伐不一，后续行情能否延续，仍取决于基金申赎能",
-   "time": "2026-11-19 06:24",
-   "url": "https://wallstreetcn.com/livenews/3202210",
+   "title": "马斯克：没有任何人对乌克兰的帮助超过了我。",
+   "summary": "马斯克：没有任何人对乌克兰的帮助超过了我。",
+   "time": "2026-11-19 06:56",
+   "url": "https://wallstreetcn.com/livenews/3202220",
    "source": "华尔街见闻"
   },
   {
-   "title": "美联储会议纪要显示几乎所有官员预计还需加息 - 新浪财经",
+   "title": "特朗普、普京和习近平星期四深圳会晤：乌克兰、台湾、伊朗、人工智能、核武器等领域受关注 - RFI",
    "summary": "",
-   "time": "2026-11-19 03:52",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNenB2ZXlFTVo1SkxkbWt0Nlc3ZTNFbHk4U3l0bk9BV0xNdmlRODliZzdOWWxrdTl5Wk9KMkxhRVIyTDA3U0stNHl4LTdsY2l0OS1IUDNqSVpacFhha2M0bFhCSWdqR0hoOEhld1F0TVNCN3JyREN2cXMxd0o1NUVjVGR3Ym1MQ2c?oc=5",
+   "time": "2026-11-19 06:41",
+   "url": "https://news.google.com/rss/articles/CBMilwRBVV95cUxQNHRRWWtvd29HZzh5bXZlaXg1Njg5a0ZNMTRvZWVZLTJ0Z19qMGRoak1CY3hTdVNrQjI2SXRIVFpoY01xZ203cUVYTTZFZzdJNmFSNk5qaEJWTkoxMGtpSVVuYUl0Wnc5QWtPMWdPOXdkWENDWGwxOXVSaXg1QjJYRTlWZWkxRVBpMmxJSEpENGhtTzBFNG1RWVZ5OFJrX3g5eGM3aU1ES1oyS19nWkppV2xjUGRyTzBoS1R6MGc3ZTg1TnhKSDhlS2o4X2c2YmxOd1A3RlR0Zko4cDJPM2xZdDZHNnRRY2F3ZXgxYTc5eXNPRG1JZ1FfbG8tMUtSZ0htZHV0S2xJNk5pck11SFVfOVNDeTZILWZ4a0Z0Rk9vbkV0b0c5ZG9Rcy1LODdpaDEzUmI4UVpXcXBmeUpxU1VwT1llbTJMSWdRYVN3Z2RlZHNVZHRSc2Z4UVB1ZjM5V09DNElsRTVFblM4Nl9oTEczdUVzcWQwZkJVNy1UY2ZvX2F0SGRjcUsyQmFQQmpEZ0FsY1BDZy1KQXdoZ1FwU0YyczBCeTlrQXJhVGJRNzRyQmhPVGE3QkR1SmdmdGtnNEQ1X2tFNlZmZzZ1SlE5UzJ0OS0yNW5GLU90amhkS21IMi1PU09FSjlucDZqNVRwZWZPblRvTkRfdy1aVXA0YzhhTU16LVRXUHJ5VmNpdVV6Ul9OS3A4eWIw?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "从押注科技到均衡对冲 华尔街巨头集体调仓",
+   "summary": "【从押注科技到均衡对冲 华尔街巨头集体调仓】随着美国证监会（SEC）三季度13F文件披露收官，海外长线资金与对冲基金截至三季度末的持仓情况浮出水面。数据显示，华尔街多家机构出于对后市的谨慎看法，集体减持了标普500和纳斯达克等宽基ETF。与此同时，多家机构在科技板块内部进行了调仓换股，桥水、文艺复兴科技等知名对冲基金在兑现头部科技巨头收益的同时，将资金向半导体上游环节迁移。",
+   "time": "2026-11-19 06:30:00",
+   "url": "https://finance.eastmoney.com/a/202611193934375637.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "壹评级发布江海股份首次评级 - 第一财经",
+   "summary": "",
+   "time": "2026-11-19 05:10",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qZUdDendOUnl5S3VFbm5FdlZUTVR3WXhMbkhiT1dzRkFReEh5VS1Yb1lPbUJvS1hYdGNNakxQWmFzQmZKMS1ldkpuRWR4MlVJWk84?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1849,25 +1969,18 @@
    "source": "东财早报"
   },
   {
-   "title": "瑞穗证券上调开市客目标价，但将其移出\"首选股\"名单 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "86%的经济学家预计日本央行12月将利率上调至1.50%",
    "summary": "",
-   "time": "2026-11-19 04:03",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2Ym9iWEJHemRmSWMtZ1B2bEJRVHYzYTFjZlhKeGtXT0NRYmJicWd6MUFBQXAtWTBjWUVDNDAxTHVYMXNTbGlhQXFJeV94MVpfaVE5Vk9CTWxPd2lCQnI0LTRNekpDSFUtZEsyai1uOFQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美联储会议纪要：官员支持加息的理由有哪些？",
-   "summary": "",
-   "time": "2026-11-18 21:54:48",
-   "url": "https://news.futunn.com/flash/1004946838/fed-meeting-minutes-what-were-the-officials-arguments-in-favor",
-   "source": "富途"
-  },
-  {
-   "title": "SpaceX：目标不早于11月20日让“龙”飞船脱离空间站",
-   "summary": "",
-   "time": "2026-11-18 21:50:51",
-   "url": "https://news.10jqka.com.cn/20261119/c681972771.shtml",
+   "time": "2026-11-18 22:07:11",
+   "url": "https://news.10jqka.com.cn/20261119/c681972989.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "民调：过半员工盼黄仁勋回归，副总裁巴克成最佳备选",
+   "summary": "",
+   "time": "2026-11-18 21:59:35",
+   "url": "https://news.futunn.com/flash/1004947010/poll-over-half-of-employees-hope-for-jensen-huang-s",
+   "source": "富途"
   },
   {
    "title": "近期暴露的授权审核风险，正是一个外国IP运营者在中国这片庞大市场深耕时绕不开的考题：如何在跨文化的商业扩张中，守住不同市场都认同的价值标尺",
@@ -1890,13 +2003,13 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
-   "东财早报": 3,
+   "东财国际": 7,
    "谷歌新闻·研报": 7,
-   "富途": 4,
+   "东财早报": 3,
    "同花顺": 7,
+   "富途": 4,
    "财新": 6
   }
  },
