@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 01:15:53 CST",
- "generated_at_iso": "2026-11-19T01:15:53+08:00",
+ "generated_at": "2026-11-19 01:24:07 CST",
+ "generated_at_iso": "2026-11-19T01:24:07+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50264.0898,
-    "change": -495.33,
-    "change_pct": -0.98,
-    "quote_time": "2026-11-19 01:15:46",
+    "price": 50370.8984,
+    "change": -388.52,
+    "change_pct": -0.77,
+    "quote_time": "2026-11-19 01:24:04",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24348.3605,
-    "change": 19.9775,
-    "change_pct": 0.08,
-    "quote_time": "2026-11-19 01:15:53",
+    "price": 24456.5666,
+    "change": 128.1836,
+    "change_pct": 0.53,
+    "quote_time": "2026-11-19 01:24:04",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7318.0698,
-    "change": -22.46,
-    "change_pct": -0.31,
-    "quote_time": "2026-11-19 01:15:44",
+    "price": 7340.6299,
+    "change": 0.1,
+    "change_pct": 0.0,
+    "quote_time": "2026-11-19 01:24:04",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3744.98,
-    "change": -119.22,
-    "change_pct": -3.09,
-    "quote_time": "01:15:51 2026-11-19"
+    "price": 3748.013,
+    "change": -116.187,
+    "change_pct": -3.01,
+    "quote_time": "01:24:10 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.884,
-    "change": -2.473,
-    "change_pct": -5.22,
-    "quote_time": "01:15:55 2026-11-19"
+    "price": 45.015,
+    "change": -2.342,
+    "change_pct": -4.95,
+    "quote_time": "01:24:10 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.371,
-    "change": -3.279,
-    "change_pct": -3.87,
-    "quote_time": "01:15:55 2026-11-19"
+    "price": 81.467,
+    "change": -3.183,
+    "change_pct": -3.76,
+    "quote_time": "01:24:10 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 90.709,
-    "change": -2.431,
-    "change_pct": -2.61,
-    "quote_time": "01:15:55 2026-11-19"
+    "price": 90.871,
+    "change": -2.269,
+    "change_pct": -2.44,
+    "quote_time": "01:24:09 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 62721.8,
-    "change": -1196.9,
-    "change_pct": -1.87,
+    "price": 63251.2,
+    "change": -591.6,
+    "change_pct": -0.93,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1752.78,
-    "change": -35.08,
-    "change_pct": -1.96,
+    "price": 1772.58,
+    "change": -11.61,
+    "change_pct": -0.65,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.9,
-    "change": 0.23,
-    "change_pct": 0.32,
+    "price": 73.89,
+    "change": 1.46,
+    "change_pct": 2.02,
     "source": "okx"
    }
   ],
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6688,
-    "change": 0.0018,
-    "change_pct": 0.03,
+    "price": 6.6684,
+    "change": 0.0014,
+    "change_pct": 0.02,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1692,15 +1692,15 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌5.22%，达20日历史波动率的 2.9 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-19 01:16",
+   "message": "COMEX白银单日跌4.95%，达20日历史波动率的 2.8 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-19 01:24",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "warning",
    "asset": "WTI原油",
-   "message": "WTI原油单日跌3.87%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-19 01:16",
+   "message": "WTI原油单日跌3.76%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-19 01:24",
    "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
   }
  ],
