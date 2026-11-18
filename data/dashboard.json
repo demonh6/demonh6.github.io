@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 20:00:11 CST",
- "generated_at_iso": "2026-11-18T20:00:11+08:00",
+ "generated_at": "2026-11-18 20:09:07 CST",
+ "generated_at_iso": "2026-11-18T20:09:07+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -900,11 +900,11 @@
      58775.5,
      60459.58,
      61248.59,
-     60819.36,
-     61142.35,
-     59662.02,
-     58860.43,
-     59024.28
+     60819.3594,
+     61142.3516,
+     59662.0195,
+     58860.4297,
+     59024.2813
     ],
     "sigma": 2.002,
     "volume": 0.0,
@@ -982,9 +982,9 @@
      5067.4399
     ],
     "sigma": 3.236,
-    "volume": 192708.0,
-    "vol_chg_pct": -15.7,
-    "vol_pctile": 0.8,
+    "volume": 219090.0,
+    "vol_chg_pct": -4.1,
+    "vol_pctile": 3.6,
     "vol_hist": [
      270000.0,
      302500.0,
@@ -1015,15 +1015,15 @@
      247800.0,
      221300.0,
      194000.0,
-     192708.0
+     219090.0
     ]
    },
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10642.99,
-    "change": -46.88,
-    "change_pct": -0.44,
+    "price": 10639.31,
+    "change": -50.56,
+    "change_pct": -0.47,
     "hist": [
      10458.5,
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8219.4,
-    "change": 2.62,
-    "change_pct": 0.03,
+    "price": 8213.29,
+    "change": -3.49,
+    "change_pct": -0.04,
     "hist": [
      7769.21,
      7729.69,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6226.2,
-    "change": 14.09,
-    "change_pct": 0.23,
+    "price": 6223.22,
+    "change": 11.11,
+    "change_pct": 0.18,
     "hist": [
      6180.3,
      6126.74,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3766.88,
-    "change": -97.32,
-    "change_pct": -2.52,
-    "quote_time": "20:00:14 2026-11-18"
+    "price": 3772.91,
+    "change": -91.29,
+    "change_pct": -2.36,
+    "quote_time": "20:09:06 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.633,
-    "change": -1.724,
-    "change_pct": -3.64,
-    "quote_time": "20:00:14 2026-11-18"
+    "price": 45.711,
+    "change": -1.646,
+    "change_pct": -3.48,
+    "quote_time": "20:09:01 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.978,
-    "change": -0.672,
-    "change_pct": -0.79,
-    "quote_time": "20:00:14 2026-11-18"
+    "price": 84.05,
+    "change": -0.6,
+    "change_pct": -0.71,
+    "quote_time": "20:09:06 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.717,
-    "change": -0.423,
-    "change_pct": -0.45,
-    "quote_time": "20:00:12 2026-11-18"
+    "price": 92.794,
+    "change": -0.346,
+    "change_pct": -0.37,
+    "quote_time": "20:09:06 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,9 +1294,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64265.4,
-    "change": -724.5,
-    "change_pct": -1.11,
+    "price": 64226.1,
+    "change": -650.2,
+    "change_pct": -1.0,
     "source": "okx",
     "hist": [
      82610.4,
@@ -1328,17 +1328,17 @@
      64747.7,
      64466.2,
      64112.8,
-     64159.9
+     64211.1
     ],
-    "sigma": 2.22
+    "sigma": 2.222
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1801.9,
-    "change": -19.53,
-    "change_pct": -1.07,
+    "price": 1801.14,
+    "change": -13.71,
+    "change_pct": -0.76,
     "source": "okx",
     "hist": [
      2441.27,
@@ -1370,17 +1370,17 @@
      1811.03,
      1820.08,
      1785.28,
-     1798.71
+     1800.02
     ],
-    "sigma": 3.156
+    "sigma": 3.159
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.5,
-    "change": 1.07,
-    "change_pct": 1.46,
+    "price": 74.54,
+    "change": 1.24,
+    "change_pct": 1.69,
     "source": "okx",
     "hist": [
      105.88,
@@ -1412,18 +1412,18 @@
      71.24,
      70.79,
      72.46,
-     74.35
+     74.49
     ],
-    "sigma": 3.379
+    "sigma": 3.391
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.84,
-    "change": 0.28,
-    "change_pct": 0.27,
+    "price": 103.81,
+    "change": 0.25,
+    "change_pct": 0.24,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1432,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.667,
-    "change": 0.0,
+    "price": 6.6667,
+    "change": -0.0003,
     "change_pct": 0.0,
     "dec": 4,
     "date": "",
@@ -1472,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 24.22,
-   "change": -1.24,
-   "change_pct": -4.8704,
+   "value": 24.24,
+   "change": -1.22,
+   "change_pct": -4.7918,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1511,7 +1511,7 @@
     25.46
    ],
    "vix3m": 24.98,
-   "term": "contango(正常)"
+   "term": "持平"
   },
   "term_structure": {
    "points": [
@@ -1522,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 24.22,
-     "change_pct": -4.8704
+     "value": 24.24,
+     "change_pct": -4.7918
     },
     {
      "t": "VIX3M",
@@ -1553,15 +1553,26 @@
  },
  "speakers": [
   {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行副行长武伊契奇：12月加息的可能性非常大",
+   "summary": "【欧洲央行副行长武伊契奇：12月加息的可能性非常大】欧洲央行副行长武伊契奇称，就目前情况来看，12月加息的可能性非常大。",
+   "time": "2026-11-18 20:02:53",
+   "url": "https://finance.eastmoney.com/a/202611183934144737.html",
+   "source": "东财国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "大国外交最前线丨特朗普总统抵达，深圳之行有哪些看点 - ThePaper.cn",
+   "title": "特朗普抵达深圳习近平亲赴机场接机– 普通话主页 - Radio Free Asia",
    "summary": "",
-   "time": "2026-11-18 19:55",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oNXpNaWR0ckNlWjUyZmJmUl90M3FVVFNzXzY4T1Q4VkhxVFVhbFM1TVRpS2xNSWhXbEVYMWxDSU1NUWJodk8tREVGUkVpdW5UakZxbzJ2UHBxNmdSRlZKNA?oc=5",
+   "time": "2026-11-18 20:00",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbXZldDJPVTlFcHVyM3Jta0dCTDNpVDQ3Rm5rN1lYeXBhUFhUcHZmTGl2d2xUYUdCNXZXWE9tSEJxNkFrN1BncjJaVHVxdmZQUm9fSlh4RUl0UG1UdkhseDZ5b0RtZEZ5SGs0WmVGczFVNjl3T2dhYVEtVjJFZ213TTR4dWVDNXNxem1SSw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 3
   }
  ],
  "research": {
@@ -1642,6 +1653,16 @@
     "industry": "",
     "date": "",
     "url": "https://database.caixin.com/2026-11-18/102506113.html?cxapp_link=true",
+    "source": "机构观点"
+   },
+   {
+    "title": "惠誉评级：中资银行业净息差预计温和回升",
+    "org": "惠誉",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-18",
+    "url": "https://finance.eastmoney.com/a/202611183934139543.html",
     "source": "机构观点"
    },
    {
@@ -1766,35 +1787,27 @@
    }
   ]
  },
- "alerts": [
-  {
-   "level": "warning",
-   "asset": "COMEX白银",
-   "message": "COMEX白银单日跌3.64%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-18 20:01",
-   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
-  }
- ],
+ "alerts": [],
  "news": [
   {
-   "title": "美国11月13日当周MBA抵押贷款申请活动指数周环比 -2.3%，前值 6.2%。",
-   "summary": "美国11月13日当周MBA抵押贷款申请活动指数周环比 -2.3%，前值 6.2%。",
-   "time": "2026-11-18 20:00",
-   "url": "https://wallstreetcn.com/livenews/3201944",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "5股拉响面值退市警报！A股低股价公司还有谁",
-   "summary": "【5股拉响面值退市警报！A股低股价公司还有谁】A股面值退市警报接连拉响。近日，*ST美丽（000010）、金科股份、山鹰国际、*ST华幸、荣盛发展等5股相继发布公告称，公司股票存在可能因股价低于1元而终止上市风险。经统计，截至11月18日收盘，包含上述5股在内，A股收盘价低于1元的个股共10只；除此之外，还有95股当日收盘价落在1—2元之间。从上市板块看，前述105只面值低于2元的个股中，近九成集中于沪深主板。",
-   "time": "2026-11-18 19:55:40",
-   "url": "https://finance.eastmoney.com/a/202611183934136792.html",
+   "title": "欧洲央行副行长武伊契奇：12月加息的可能性非常大",
+   "summary": "【欧洲央行副行长武伊契奇：12月加息的可能性非常大】欧洲央行副行长武伊契奇称，就目前情况来看，12月加息的可能性非常大。",
+   "time": "2026-11-18 20:02:53",
+   "url": "https://finance.eastmoney.com/a/202611183934144737.html",
    "source": "东财国际"
   },
   {
-   "title": "大国外交最前线丨特朗普总统抵达，深圳之行有哪些看点 - ThePaper.cn",
+   "title": "欧洲央行副行长Vujcic：就目前情况来看，12月加息看起来非常有可能。\n\n目前看来，滞胀不太可能发生。\n\n2027年“肯定”会出现第二轮效应。\n\n市场对2027年的定价并非不合理。\n\n欧洲央行将很快讨论主要再融资利率（MRR）。\n\n财政问",
+   "summary": "欧洲央行副行长Vujcic：就目前情况来看，12月加息看起来非常有可能。\n\n目前看来，滞胀不太可能发生。\n\n2027年“肯定”会出现第二轮效应。\n\n市场对2027年的定价并非不合理。\n\n欧洲央行将很快讨论主要再融资利率（MRR）。\n\n财政问题必须通过财政政策来解决。",
+   "time": "2026-11-18 20:00",
+   "url": "https://wallstreetcn.com/livenews/3201945",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普抵达深圳习近平亲赴机场接机– 普通话主页 - Radio Free Asia",
    "summary": "",
-   "time": "2026-11-18 19:55",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oNXpNaWR0ckNlWjUyZmJmUl90M3FVVFNzXzY4T1Q4VkhxVFVhbFM1TVRpS2xNSWhXbEVYMWxDSU1NUWJodk8tREVGUkVpdW5UakZxbzJ2UHBxNmdSRlZKNA?oc=5",
+   "time": "2026-11-18 20:00",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbXZldDJPVTlFcHVyM3Jta0dCTDNpVDQ3Rm5rN1lYeXBhUFhUcHZmTGl2d2xUYUdCNXZXWE9tSEJxNkFrN1BncjJaVHVxdmZQUm9fSlh4RUl0UG1UdkhseDZ5b0RtZEZ5SGs0WmVGczFVNjl3T2dhYVEtVjJFZ213TTR4dWVDNXNxem1SSw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1805,18 +1818,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "Java严重漏洞引美韩警告，英国敦促各组织及时打补丁",
+   "summary": "",
+   "time": "2026-11-18 12:03:24",
+   "url": "https://news.futunn.com/flash/1004902773/critical-java-vulnerability-prompts-warnings-from-us-and-south-korea",
+   "source": "富途"
+  },
+  {
    "title": "“中国品牌全球行·匠心服务计划”在渝启动",
    "summary": "",
    "time": "2026-11-18 12:00:18",
    "url": "https://news.10jqka.com.cn/20261118/c681967549.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "《GTA6》发售前预购收入已经突破15亿美元",
-   "summary": "",
-   "time": "2026-11-18 11:21:00",
-   "url": "https://news.futunn.com/flash/1004898079/pre-order-revenue-for-gta-6-has-already-surpassed-1",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1833,24 +1846,24 @@
    "source": "财新"
   },
   {
-   "title": "英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产",
-   "summary": "日前，英伟达宣布扩大与台积电、矽品精密、景硕科技、三星电机、安靠科技、富士康等供应链企业的合作，以扩大基板、先进封装、晶圆和合同制造的产能。其中，英伟达将通过数十亿美元资金支持矽品精密在中国台湾扩大先进封装产能，相关产能计划于2029年年中前增加。此外，景硕科技计划将其桃园幼狮厂专供英伟达的先进ABF封装基板产能扩大至目前的3.5倍以上，预计2027年下半年启动相关生产，计划在2028年第三季度增",
-   "time": "2026-11-18 19:55",
-   "url": "https://wallstreetcn.com/livenews/3201942",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "叮当快药流感相关药品销量增速明显 玛巴洛沙韦等涨幅居前",
-   "summary": "【叮当快药流感相关药品销量增速明显 玛巴洛沙韦等涨幅居前】11月18日，即时送药平台叮当快药销售数据显示，甲流、乙流等呼吸道疾病相关用药需求上升。叮当快药全国范围内，玛巴洛沙韦近一周（11月9日—11月15日）销量较上周（11月2日—11月8日）环比增长97%，奥司他韦增长77%，各类退热类产品也有一定幅度上涨，例如退热贴销量环比增长28%。",
-   "time": "2026-11-18 19:51:11",
-   "url": "https://finance.eastmoney.com/a/202611183934134276.html",
+   "title": "北京商报侃股：谨慎抄底跌停股",
+   "summary": "【北京商报侃股：谨慎抄底跌停股】在A股市场中，部分投资者喜欢抄底买入股票，尤其面对快速下跌、出现跌停走势的个股，容易产生价格回落到位、存在反弹空间的判断，认为个股短期快速杀跌后成本更低，入场性价比更高，于是选择在跌停位置博弈反弹行情。但从实际交易结果来看，盲目抄底跌停股，是普通投资者最容易亏损的操作方式之一，潜在风险往往被忽视。",
+   "time": "2026-11-18 19:59:27",
+   "url": "https://finance.eastmoney.com/a/202611183934138565.html",
    "source": "东财国际"
   },
   {
-   "title": "资产配置周报丨美联储会议纪要本周公布；全球大类资产波动或加剧 - 21财经",
+   "title": "美国11月13日当周MBA抵押贷款申请活动指数周环比 -2.3%，前值 6.2%。",
+   "summary": "美国11月13日当周MBA抵押贷款申请活动指数周环比 -2.3%，前值 6.2%。",
+   "time": "2026-11-18 20:00",
+   "url": "https://wallstreetcn.com/livenews/3201944",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "大国外交最前线丨特朗普总统抵达，深圳之行有哪些看点 - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-18 19:38",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdDNZd0ptaTFwenVka3lnTG9BaG1PYzIzRVJsQ0h4X0hnQnRDc1JVYUhrS0ZxUlFxWTZoc1BLZ1pVaFYyMlFTdXBYQlI3bmZVNUlEWVQwMDF6LWhkd01Ha1A4N0VMRHFaNHFQb2VnVXNiZGxUNjRtZUVTUVFiWnJUMUh4c0tKYnA3ZWVHLW9mMkdMNHlu?oc=5",
+   "time": "2026-11-18 19:55",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oNXpNaWR0ckNlWjUyZmJmUl90M3FVVFNzXzY4T1Q4VkhxVFVhbFM1TVRpS2xNSWhXbEVYMWxDSU1NUWJodk8tREVGUkVpdW5UakZxbzJ2UHBxNmdSRlZKNA?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1861,18 +1874,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "《GTA6》发售前预购收入已经突破15亿美元",
+   "summary": "",
+   "time": "2026-11-18 11:21:00",
+   "url": "https://news.futunn.com/flash/1004898079/pre-order-revenue-for-gta-6-has-already-surpassed-1",
+   "source": "富途"
+  },
+  {
    "title": "鹭燕医药：吴迪当选董事长并获聘总经理",
    "summary": "",
    "time": "2026-11-18 11:50:48",
    "url": "https://news.10jqka.com.cn/20261118/c681967391.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "澜起科技：截至2026年11月18日累计回购331.39万股支付5亿元",
-   "summary": "",
-   "time": "2026-11-18 11:12:21",
-   "url": "https://news.futunn.com/flash/1004897475/montage-technology-cumulative-repurchase-of-3-3139-million-shares-with",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1889,24 +1902,24 @@
    "source": "财新"
   },
   {
-   "title": "南非主要股指下跌3%，至107,282.80点。",
-   "summary": "南非主要股指下跌3%，至107,282.80点。",
-   "time": "2026-11-18 19:48",
-   "url": "https://wallstreetcn.com/livenews/3201941",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "康弘药业：KHN923注射液药物临床试验获批准",
-   "summary": "【康弘药业：KHN923注射液药物临床试验获批准】康弘药业(002773)11月18日公告，近日，公司子公司成都康弘生物科技有限公司收到国家药品监督管理局签发的KHN923注射液《药物临床试验批准通知书》，同意该药品开展临床试验。该药品适应症为阿尔茨海默病。",
-   "time": "2026-11-18 19:51:00",
-   "url": "https://finance.eastmoney.com/a/202611183934136584.html",
+   "title": "惠誉评级：中资银行业净息差预计温和回升",
+   "summary": "【惠誉评级：中资银行业净息差预计温和回升】11月18日，惠誉评级亚太区金融机构评级高级董事胡月明在“2026惠誉看中国”媒体交流会上对界面新闻记者表示，惠誉已将中资银行经营环境评分由“bbb-”/稳定上调至“bbb”/稳定，反映出监管持续完善、信贷纪律加强及影子银行风险下降。",
+   "time": "2026-11-18 19:56:51",
+   "url": "https://finance.eastmoney.com/a/202611183934139543.html",
    "source": "东财国际"
   },
   {
-   "title": "（深圳APEC）美国总统特朗普乘专机抵达深圳 - 中国新闻网",
+   "title": "英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产",
+   "summary": "日前，英伟达宣布扩大与台积电、矽品精密、景硕科技、三星电机、安靠科技、富士康等供应链企业的合作，以扩大基板、先进封装、晶圆和合同制造的产能。其中，英伟达将通过数十亿美元资金支持矽品精密在中国台湾扩大先进封装产能，相关产能计划于2029年年中前增加。此外，景硕科技计划将其桃园幼狮厂专供英伟达的先进ABF封装基板产能扩大至目前的3.5倍以上，预计2027年下半年启动相关生产，计划在2028年第三季度增",
+   "time": "2026-11-18 19:55",
+   "url": "https://wallstreetcn.com/livenews/3201942",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "大国外交最前线丨特朗普总统抵达 深圳之行有哪些看点 - 央视网",
    "summary": "",
-   "time": "2026-11-18 19:33",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iYVVRUW1Tci03NkhkMUFXSU9LdlhJZ2lVaEZrNERtbl85SHNiVTluVjRFbjlPUVFrbS1ubHphZ3A5N1NjYVJwemRhLV9tU0hPTG1BaW81eG5veG8tUXlOcndRY0lla2NjeWdhNkVuUWw?oc=5",
+   "time": "2026-11-18 19:45",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OUVI2dXJsV0xLdlRzcXV5dkg2UW1uUU1qVXpZUkFwU2lySmdDZExpX1JZdWRna3Q0Umhvc0ZvTVdKZkZrVUVWQmRMQUpfbXd1QjdjZ0xqN1h2bktMZTZxblM0MmlKSTZIR2t2UHkxXzJySzdBalhiRQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1917,18 +1930,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "澜起科技：截至2026年11月18日累计回购331.39万股支付5亿元",
+   "summary": "",
+   "time": "2026-11-18 11:12:21",
+   "url": "https://news.futunn.com/flash/1004897475/montage-technology-cumulative-repurchase-of-3-3139-million-shares-with",
+   "source": "富途"
+  },
+  {
    "title": "ST天圣：申请撤销其他风险警示，尚需深交所审核",
    "summary": "",
    "time": "2026-11-18 11:48:05",
    "url": "https://news.10jqka.com.cn/20261118/c681967346.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "伦敦内城区房价创2009年以来最大年度跌幅",
-   "summary": "",
-   "time": "2026-11-18 11:12:04",
-   "url": "https://news.futunn.com/flash/1004897455/inner-london-house-prices-record-largest-annual-decline-since-2009",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1949,7 +1962,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(16)",
+   "富途": "ok(14)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1958,12 +1971,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 6,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 3,
    "财新": 6
   }
