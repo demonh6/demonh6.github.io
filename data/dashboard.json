@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 07:56:08 CST",
- "generated_at_iso": "2026-11-18T07:56:08+08:00",
+ "generated_at": "2026-11-18 08:04:25 CST",
+ "generated_at_iso": "2026-11-18T08:04:25+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 58860.43,
-    "change": -801.59,
-    "change_pct": -1.34,
+    "price": 59320.73,
+    "change": 460.3,
+    "change_pct": 0.78,
     "hist": [
      69946.86,
      70683.98,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 4968.48,
-    "change": -132.02,
-    "change_pct": -2.59,
+    "price": 5099.16,
+    "change": 130.68,
+    "change_pct": 2.63,
     "hist": [
      6941.39,
      6803.9,
@@ -1256,28 +1256,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3853.084,
-    "change": -11.116,
-    "change_pct": -0.29,
-    "quote_time": "07:56:05 2026-11-18"
+    "price": 3844.068,
+    "change": -20.132,
+    "change_pct": -0.52,
+    "quote_time": "08:04:28 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 47.376,
-    "change": 0.019,
-    "change_pct": 0.04,
-    "quote_time": "07:55:59 2026-11-18"
+    "price": 47.264,
+    "change": -0.093,
+    "change_pct": -0.2,
+    "quote_time": "08:04:21 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.575,
-    "change": -0.075,
-    "change_pct": -0.09,
-    "quote_time": "07:56:05 2026-11-18"
+    "price": 84.643,
+    "change": -0.007,
+    "change_pct": -0.01,
+    "quote_time": "08:04:25 2026-11-18"
    },
    {
     "name": "布伦特原油",
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64917.7,
-    "change": -18.6,
-    "change_pct": -0.03,
-    "source": "okx"
+    "price": 64869.2,
+    "change": 120.8,
+    "change_pct": 0.19,
+    "source": "okx",
+    "hist": [
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     64880.6
+    ],
+    "sigma": 2.265
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1822.83,
-    "change": 1.16,
-    "change_pct": 0.06,
-    "source": "okx"
+    "price": 1823.71,
+    "change": 7.02,
+    "change_pct": 0.39,
+    "source": "okx",
+    "hist": [
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1824.02
+    ],
+    "sigma": 3.217
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 75.14,
-    "change": 3.57,
-    "change_pct": 4.99,
-    "source": "okx"
+    "price": 75.07,
+    "change": 3.65,
+    "change_pct": 5.11,
+    "source": "okx",
+    "hist": [
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     75.05
+    ],
+    "sigma": 3.444
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.6,
-    "change": 0.04,
-    "change_pct": 0.04,
+    "price": 103.67,
+    "change": 0.11,
+    "change_pct": 0.11,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1432,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6666,
-    "change": -0.0004,
-    "change_pct": -0.01,
+    "price": 6.6678,
+    "change": 0.0008,
+    "change_pct": 0.01,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1356,11 +1455,11 @@
  },
  "sentiment": {
   "fear_greed": {
-   "value": 12,
+   "value": 11,
    "classification": "Extreme Fear",
    "label": "极度恐惧",
    "color": "#f04a3d",
-   "timestamp": "2026-11-17",
+   "timestamp": "2026-11-18",
    "source": "alternative.me"
   },
   "a_share_breadth": {
@@ -1454,6 +1553,17 @@
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "打消50基点预期？美联储“三把手”：当前无需激进举措，加息节奏看AI！ - 财联社",
+   "summary": "",
+   "time": "2026-11-18 07:36",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tWHlXN0I4VlA2cEoxN3BoOVg0eWp2NFlBZFZMU2MxeUg4RGIteVVtdWNXc2haTHpudXNwN0lpc0pZVVBvdXhXNw?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1526,13 +1636,13 @@
   ],
   "reports": [
    {
-    "title": "瑞银将谷歌母公司Alphabet目标价从380美元下调至320美元 - 东方财富",
-    "org": "瑞银",
+    "title": "韩国首尔综指开盘上涨2.6%，SK海力士涨超5%，三星电子涨近4%。日经225指数高开0.25%。",
+    "org": "日经",
     "rating": "",
     "stock": "",
     "industry": "",
-    "date": "2026-11-17",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MSUZ6aVRWaHZpU29rXzNlTGdFeDQwOXR3MVhBc0lFSzkxcF92d29xN0JaRXo1TkdTRUs2QWNTZHNqRVNYaG93d1dIMzFsdGRTQ2dvUGhUZDl5aTFvaFBqTA?oc=5",
+    "date": "2026-11-18",
+    "url": "https://wallstreetcn.com/livenews/3201597",
     "source": "机构观点"
    },
    {
@@ -1544,6 +1654,46 @@
     "date": "",
     "url": "https://database.caixin.com/2026-11-17/102505623.html?cxapp_link=true",
     "source": "机构观点"
+   },
+   {
+    "title": "瑞银将谷歌母公司Alphabet目标价从380美元下调至320美元 - 东方财富",
+    "org": "瑞银",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MSUZ6aVRWaHZpU29rXzNlTGdFeDQwOXR3MVhBc0lFSzkxcF92d29xN0JaRXo1TkdTRUs2QWNTZHNqRVNYaG93d1dIMzFsdGRTQ2dvUGhUZDl5aTFvaFBqTA?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "日韩股市集体高开",
+    "org": "日经",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-18",
+    "url": "https://finance.eastmoney.com/a/202611183933529719.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "特朗普中期选举受挫后重返世界舞台 - 华尔街日报中文网",
+    "org": "华尔街日报",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-18",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEdUSkxFOW9nY2Y1MG5vemNEWmJaRF9pczE2VUlZRFcyOGlwY0FMNjRDNk45YmlGOXJ0YnJyQVBMR2JzNTMxLWJTREJ2OXhWV0V2bmRNWW1NR0R1NFpwcXZ1M082ZjNsVWJxc0I1RjVwa1ZhLTFOTXFrRXFfR1ZrdlFTSnBDSTFyMHdpUFFack4?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "交通运输行业周报：适航验证推进产品定型，关注eVTOL产业化落地进程",
+    "org": "中银证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-18",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831804618",
+    "source": "东财研报·行业"
    },
    {
     "title": "AI电源开始起量",
@@ -1654,16 +1804,6 @@
     "date": "2026-11-17",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831782162",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "生产经营平稳运行，前三季度业绩创同期新高",
-    "org": "中银证券",
-    "rating": "买入",
-    "stock": "中国石油",
-    "industry": "炼化及贸易",
-    "date": "2026-11-17",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611171831781581",
-    "source": "东财研报·个股"
    }
   ]
  },
@@ -1672,37 +1812,37 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.78%，突破 2σ 警戒线）",
-   "time": "2026-11-18 07:56",
+   "time": "2026-11-18 08:05",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 07:56",
+   "time": "2026-11-18 08:05",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "理财产品提前退场常态化，行业竞争转向质量优先",
-   "summary": "近期，银行理财产品提前终止的节奏明显加快。Wind数据显示，截至11月17日，四季度以来已有近200款产品被宣布提前终止；仅11月以来，理财子公司发布的提前终止或部分份额提前终止公告就达89则，涉及招银理财、浦银理财、信银理财、杭银理财、华夏理财等多家机构，退场品类以固定收益类为主。这一轮“退场潮”并非净值波动下的被动清盘，而是止盈触发、份额萎缩、底层资产退出等多重因素交织下的市场化出清，折射出理",
-   "time": "2026-11-18 07:39",
-   "url": "https://wallstreetcn.com/livenews/3201587",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "大功率柴油发电机组全球紧俏 龙头企业订单排至2028年",
-   "summary": "【大功率柴油发电机组全球紧俏 龙头企业订单排至2028年】随着全球AI（人工智能）算力基础设施建设提速，作为保障数据中心安全可靠运行的备用电源，大功率柴油发电机组正变得供不应求，海内外头部厂商在手订单已普遍排至2027年乃至2028年。从需求端来看，中国内燃机工业协会秘书长贾滨预测，2026年国内数据中心柴油发电机组需求将突破6000台，市场规模超百亿元。",
-   "time": "2026-11-18 07:38:00",
-   "url": "https://finance.eastmoney.com/a/202611183933299754.html",
+   "title": "通用机器人公司Genesis完成5亿美元A轮融资，估值35亿美元",
+   "summary": "【通用机器人公司Genesis完成5亿美元A轮融资，估值35亿美元】通用机器人公司GenesisAI创始人兼CEO周衔通过社交平台宣布，公司已完成5亿美元A轮融资，投后估值达到35亿美元。本轮融资由PremjiInvest、KhoslaVentures、Eclipse联合领投，参投机构包括DurableCapitalPartners、法国公共投资银行Bpifrance、HSG，以及英伟达旗下NVentures、AMD风投、Zoom风投、三星Next、爱立信风投等科技巨头战略投资部门。",
+   "time": "2026-11-18 08:03:23",
+   "url": "https://finance.eastmoney.com/a/202611183933530111.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普中期选举受挫后重返世界舞台 - 华尔街日报中文网",
+   "title": "韩国首尔综指开盘上涨2.6%，SK海力士涨超5%，三星电子涨近4%。日经225指数高开0.25%。",
+   "summary": "韩国首尔综指开盘上涨2.6%，SK海力士涨超5%，三星电子涨近4%。日经225指数高开0.25%。",
+   "time": "2026-11-18 08:02",
+   "url": "https://wallstreetcn.com/livenews/3201597",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "连续加息四次？这一美联储官员，释放了迄今最鹰派信号 - 凤凰网财经",
    "summary": "",
-   "time": "2026-11-18 07:30",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEdUSkxFOW9nY2Y1MG5vemNEWmJaRF9pczE2VUlZRFcyOGlwY0FMNjRDNk45YmlGOXJ0YnJyQVBMR2JzNTMxLWJTREJ2OXhWV0V2bmRNWW1NR0R1NFpwcXZ1M082ZjNsVWJxc0I1RjVwa1ZhLTFOTXFrRXFfR1ZrdlFTSnBDSTFyMHdpUFFack4?oc=5",
+   "time": "2026-11-18 07:45",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTOERSakRUMUJWanhNX1hZQ20tNnY4VjQxa1J4T3lUbmVLQWFDbXlidXRmSDhYaVkyMFdxT0VjbXpFc1E5WmptcW9HejhoUW5X?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1720,17 +1860,17 @@
    "source": "东财早报"
   },
   {
-   "title": "英伟达临时CEO：仍在评估新出口管制的潜在影响",
+   "title": "日韩股市高开",
    "summary": "",
-   "time": "2026-11-17 23:36:08",
-   "url": "https://news.futunn.com/flash/1004813910/nvidia-interim-ceo-still-assessing-potential-impact-of-new-export",
+   "time": "2026-11-18 00:01:17",
+   "url": "https://news.futunn.com/flash/1004815490/japanese-and-south-korean-stock-markets-opened-higher",
    "source": "富途"
   },
   {
-   "title": "新加坡总理黄循财人民日报撰文：新中携手，共创开放互联的未来",
+   "title": "纽约期金失守3850美元/盎司",
    "summary": "",
-   "time": "2026-11-17 23:34:48",
-   "url": "https://news.10jqka.com.cn/20261118/c681927487.shtml",
+   "time": "2026-11-17 23:46:06",
+   "url": "https://news.10jqka.com.cn/20261118/c681927676.shtml",
    "source": "同花顺"
   },
   {
@@ -1741,80 +1881,24 @@
    "source": "财新"
   },
   {
-   "title": "大功率柴油发电机组全球紧俏，龙头企业订单排至2028年",
-   "summary": "随着全球AI（人工智能）算力基础设施建设提速，作为保障数据中心安全可靠运行的备用电源，大功率柴油发电机组正变得供不应求，海内外头部厂商在手订单已普遍排至2027年乃至2028年。从需求端来看，中国内燃机工业协会秘书长贾滨预测，2026年国内数据中心柴油发电机组需求将突破6000台，市场规模超百亿元。出口端同样保持高增长，海关总署数据显示，2026年1月份至9月份，输出功率大于2兆伏安的压燃式内燃机",
-   "time": "2026-11-18 07:39",
-   "url": "https://wallstreetcn.com/livenews/3201586",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "互联网龙头密集“交卷” 港股科技板块迎盈利与AI投入检验",
-   "summary": "【互联网龙头密集“交卷” 港股科技板块迎盈利与AI投入检验】本周（11月16日至19日），港股互联网龙头进入密集财报披露窗口，百度集团-W、京东集团-SW、腾讯控股、阿里巴巴-W将陆续交出最新季度业绩单。分析人士认为，港股科技板块估值经历重新消化后，本轮财报季市场的关注重心已从单纯的收入增速转向盈利改善的能见度、AI资本开支的回报周期以及现金流的安全边际。科技股能否借此契机展开进一步修复，仍需基本面给出扎实验证。",
-   "time": "2026-11-18 07:35:28",
-   "url": "https://finance.eastmoney.com/a/202611183933346063.html",
+   "title": "比亚迪王传福：出海坚持属地化生产 我赢你输的局面不可能长久",
+   "summary": "【比亚迪王传福：出海坚持属地化生产 我赢你输的局面不可能长久】11月17日，2026年APEC工商领导人峰会在深圳开幕。在“打造亚太可持续发展新范式”专题研讨上，比亚迪股份有限公司董事长兼总裁王传福晒出了一组出海数据：比亚迪目前拥有约102万名员工，其中海外员工约6万名。比亚迪在出口产品的同时坚持属地化生产，把就业和税收留在当地。“外界对中国制造有些误会，以为我们抢了他们的饭碗，其实我们是填补当地空白。”",
+   "time": "2026-11-18 08:02:00",
+   "url": "https://finance.eastmoney.com/a/202611173932976738.html",
    "source": "东财国际"
   },
   {
-   "title": "美国安局机密通信网现短暂故障 特朗普淡化影响 - 联合早报",
-   "summary": "",
-   "time": "2026-11-18 07:19",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9GTVBQSFdVNTJmZm1TZEVQbVpEMjQyZTg5ZnZLVmkxeEhXVURkS1huNDVURXFtdE5Zd2NIcm9FQlJfSzdOVjNTV2N5WVBvakRFaVg2NE5vQ0F0MElIbjNsa0VYQkpQLTJkM2V3?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "杰富瑞将纽蒙特矿业目标价从155美元下调至149美元 - 东方财富",
-   "summary": "",
-   "time": "2026-11-17 23:57",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40aWQzLTJGZHNIalA3SVp2ejZYQ1BxZDJodU9ySWQ1aEFlcl8zcUFsYWFCdHZ4UEpHekNBcnd2am5mdENKeER4QlFqTkFpSTRxX3ZhYXB2cW5Ub0V0bGlhM0RJZkU?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "东方财富财经早餐 11月17日周二",
-   "summary": "【东方财富财经早餐 11月17日周二】1、调用量冲上全球第一，DeepSeek开始对免费用户“限额”了。2、机构下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%。3、15天10板文投控股紧急公告：可能被*ST。",
-   "time": "2026-11-17 06:00:14",
-   "url": "http://finance.eastmoney.com/a/202611163932144347.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "英伟达称安全问题是CEO遴选的关键关注点",
-   "summary": "",
-   "time": "2026-11-17 23:33:03",
-   "url": "https://news.futunn.com/flash/1004813809/nvidia-states-that-security-issues-are-a-key-concern-in",
-   "source": "富途"
-  },
-  {
-   "title": "英伟达：安全问题是CEO遴选的关键关注点",
-   "summary": "",
-   "time": "2026-11-17 23:31:12",
-   "url": "https://news.10jqka.com.cn/20261118/c681927410.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "创始人Brad Gerstner预计上市估值达1.4万亿至1.5万亿美元，看好AI行业长期增长空间",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-17/102505613.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "校准截止日期临近，基金密集调整风险等级",
-   "summary": "校准基金产品风险等级，是为了落实投资者适当性管理，让基金产品销售给合适的投资者。近期，20余家基金公司密集发布公告，调整旗下基金风险等级。今年6月，监管部门要求基金公司在6个月内，按照相关要求完善基金风险等级划分体系、完成相关系统改造。随着过渡窗口期临近，基金公司近期正密集校准产品风险等级。（上证报）",
-   "time": "2026-11-18 07:37",
-   "url": "https://wallstreetcn.com/livenews/3201584",
+   "title": "中国即将发行或正在发行的地方政府债",
+   "summary": "中国即将发行或正在发行的地方政府债",
+   "time": "2026-11-18 08:00",
+   "url": "https://wallstreetcn.com/livenews/3201596",
    "source": "华尔街见闻"
   },
   {
-   "title": "海外市场波动幅度加大 QDII基金经理：均衡配置正当时",
-   "summary": "【海外市场波动幅度加大 QDII基金经理：均衡配置正当时】近期海外市场大幅波动，QDII基金的业绩随之出现调整。一些基金全年大部分收益在下半年遭遇回吐，甚至有基金从上半年收益翻倍到目前出现负收益。不过，在近期QDII产品净值普遍回撤的背景下，也有资金逆势流入。有基金经理在接受采访时表示，美股短期预计仍维持高波动，但中期的胜率和赔率均相对较优，在后续组合管理中，将采取更加均衡的持仓策略。",
-   "time": "2026-11-18 07:34:14",
-   "url": "https://finance.eastmoney.com/a/202611183933349438.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "昔日对头变权力搭档，米勒与鲁比奥如何影响特朗普政府政治议程 - ThePaper.cn",
+   "title": "打消50基点预期？美联储“三把手”：当前无需激进举措，加息节奏看AI！ - 财联社",
    "summary": "",
-   "time": "2026-11-18 07:17",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA1Tkt3alhqTjNCQTR5UXdXLTgzYlFuRmRiUl9iWjN3Nk9YbmhVaEJXeXhIWnFRWGR6UGpiRXM2RW42N0RrWDE5OUVmSTlKNE42TkdoQTZEcndWX2VvVGkyVQ?oc=5",
+   "time": "2026-11-18 07:36",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tWHlXN0I4VlA2cEoxN3BoOVg0eWp2NFlBZFZMU2MxeUg4RGIteVVtdWNXc2haTHpudXNwN0lpc0pZVVBvdXhXNw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1825,6 +1909,62 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "东方财富财经早餐 11月17日周二",
+   "summary": "【东方财富财经早餐 11月17日周二】1、调用量冲上全球第一，DeepSeek开始对免费用户“限额”了。2、机构下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%。3、15天10板文投控股紧急公告：可能被*ST。",
+   "time": "2026-11-17 06:00:14",
+   "url": "http://finance.eastmoney.com/a/202611163932144347.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "英伟达临时CEO：仍在评估新出口管制的潜在影响",
+   "summary": "",
+   "time": "2026-11-17 23:36:08",
+   "url": "https://news.futunn.com/flash/1004813910/nvidia-interim-ceo-still-assessing-potential-impact-of-new-export",
+   "source": "富途"
+  },
+  {
+   "title": "胡塞武装称已夺取也门西南两省的10个地区",
+   "summary": "",
+   "time": "2026-11-17 23:44:12",
+   "url": "https://news.10jqka.com.cn/20261118/c681927638.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "创始人Brad Gerstner预计上市估值达1.4万亿至1.5万亿美元，看好AI行业长期增长空间",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-17/102505613.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "日韩股市集体高开",
+   "summary": "【日韩股市集体高开】韩国KOSPI指数涨2.6%，SK海力士涨超5%，三星电子涨超3%。日经225指数高开0.25%。",
+   "time": "2026-11-18 08:00:16",
+   "url": "https://finance.eastmoney.com/a/202611183933529719.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "中国即将发行或正在发行的国债和政策性金融债",
+   "summary": "中国即将发行或正在发行的国债和政策性金融债",
+   "time": "2026-11-18 08:00",
+   "url": "https://wallstreetcn.com/livenews/3201595",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普中期选举受挫后重返世界舞台 - 华尔街日报中文网",
+   "summary": "",
+   "time": "2026-11-18 07:30",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOdEdUSkxFOW9nY2Y1MG5vemNEWmJaRF9pczE2VUlZRFcyOGlwY0FMNjRDNk45YmlGOXJ0YnJyQVBMR2JzNTMxLWJTREJ2OXhWV0V2bmRNWW1NR0R1NFpwcXZ1M082ZjNsVWJxc0I1RjVwa1ZhLTFOTXFrRXFfR1ZrdlFTSnBDSTFyMHdpUFFack4?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "华创证券维持华东医药“推荐”评级，称创新药销售高增长 - 金融界",
+   "summary": "",
+   "time": "2026-11-17 22:23",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBHNTdvd1lnQWR2UW41RFdMaTd2dmFPemFiSWJHazZwMXhCYThRaVB1MHNUTS10SndvUlNHS3k0SjRCM29nSGwyV29XeHRyV0V3dnFJS2Nkc01FeHY3ZkJPVE5IMDg0UQ?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
    "title": "东方财富财经早餐 11月16日周一",
    "summary": "【东方财富财经早餐 11月16日周一】1、12位APEC经济体领导人将出席APEC工商领导人峰会。2、伊朗：就霍尔木兹海峡航道与两个沿岸国家达成协议。3、天普股份：股票交易严重异常波动，11月16日起停牌核查。",
    "time": "2026-11-16 06:00:48",
@@ -1832,17 +1972,17 @@
    "source": "东财早报"
   },
   {
-   "title": "微软高管：英伟达风波或促使客户寻求AI芯片替代方案",
+   "title": "英伟达称安全问题是CEO遴选的关键关注点",
    "summary": "",
-   "time": "2026-11-17 23:22:45",
-   "url": "https://news.futunn.com/flash/1004813206/microsoft-executives-nvidia-turmoil-may-prompt-customers-to-seek-ai",
+   "time": "2026-11-17 23:33:03",
+   "url": "https://news.futunn.com/flash/1004813809/nvidia-states-that-security-issues-are-a-key-concern-in",
    "source": "富途"
   },
   {
-   "title": "本月118家上市公司获海外机构调研 多数业绩表现较好",
+   "title": "以色列议长换人来自埃森科特阵营的卡哈纳当选",
    "summary": "",
-   "time": "2026-11-17 23:29:56",
-   "url": "https://news.10jqka.com.cn/20261118/c681927376.shtml",
+   "time": "2026-11-17 23:44:09",
+   "url": "https://news.10jqka.com.cn/20261118/c681927636.shtml",
    "source": "同花顺"
   },
   {
@@ -1857,7 +1997,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(5)",
+   "富途": "ok(6)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1866,12 +2006,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 7,
+   "谷歌新闻·研报": 6,
    "东财早报": 3,
-   "富途": 5,
+   "富途": 6,
    "同花顺": 6,
    "财新": 6
   }
