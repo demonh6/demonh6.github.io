@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 01:32:22 CST",
- "generated_at_iso": "2026-11-19T01:32:22+08:00",
+ "generated_at": "2026-11-19 01:41:39 CST",
+ "generated_at_iso": "2026-11-19T01:41:39+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50433.2695,
-    "change": -326.15,
-    "change_pct": -0.64,
-    "quote_time": "2026-11-19 01:32:04",
+    "price": 50328.3086,
+    "change": -431.11,
+    "change_pct": -0.85,
+    "quote_time": "2026-11-19 01:41:30",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24528.35,
-    "change": 199.967,
-    "change_pct": 0.82,
-    "quote_time": "2026-11-19 01:32:20",
+    "price": 24422.0952,
+    "change": 93.7122,
+    "change_pct": 0.39,
+    "quote_time": "2026-11-19 01:41:36",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7356.1699,
-    "change": 15.64,
-    "change_pct": 0.21,
-    "quote_time": "2026-11-19 01:32:04",
+    "price": 7331.3901,
+    "change": -9.14,
+    "change_pct": -0.12,
+    "quote_time": "2026-11-19 01:41:22",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3749.703,
-    "change": -114.497,
-    "change_pct": -2.96,
-    "quote_time": "01:32:24 2026-11-19"
+    "price": 3742.332,
+    "change": -121.868,
+    "change_pct": -3.15,
+    "quote_time": "01:41:40 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.069,
-    "change": -2.288,
-    "change_pct": -4.83,
-    "quote_time": "01:32:23 2026-11-19"
+    "price": 44.943,
+    "change": -2.414,
+    "change_pct": -5.1,
+    "quote_time": "01:41:41 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.773,
-    "change": -2.877,
-    "change_pct": -3.4,
-    "quote_time": "01:32:25 2026-11-19"
+    "price": 81.695,
+    "change": -2.955,
+    "change_pct": -3.49,
+    "quote_time": "01:41:40 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.114,
-    "change": -2.026,
-    "change_pct": -2.18,
-    "quote_time": "01:32:25 2026-11-19"
+    "price": 91.087,
+    "change": -2.053,
+    "change_pct": -2.2,
+    "quote_time": "01:41:41 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63404.1,
-    "change": -330.8,
-    "change_pct": -0.52,
+    "price": 63229.8,
+    "change": -471.2,
+    "change_pct": -0.74,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1780.19,
-    "change": -2.87,
-    "change_pct": -0.16,
+    "price": 1774.61,
+    "change": -5.03,
+    "change_pct": -0.28,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.13,
-    "change": 1.92,
-    "change_pct": 2.66,
+    "price": 73.72,
+    "change": 1.5,
+    "change_pct": 2.08,
     "source": "okx"
    }
   ],
@@ -1333,8 +1333,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6683,
-    "change": 0.0013,
+    "price": 6.6684,
+    "change": 0.0014,
     "change_pct": 0.02,
     "dec": 4,
     "date": "",
@@ -1348,9 +1348,9 @@
     "change": 0.71,
     "change_pct": 0.53,
     "dec": 2,
-    "date": "2026-11-18",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1442,13 +1442,13 @@
    "source": "CBOE"
   },
   "composite": {
-   "score": 29.8,
+   "score": 22.9,
    "label": "冰点",
-   "color": "#f58a3d",
+   "color": "#f04a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 0.0,
-    "structure": 74.5
+    "structure": 57.3
    }
   }
  },
@@ -1681,8 +1681,8 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.83%，达20日历史波动率的 2.7 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-19 01:33",
+   "message": "COMEX白银单日跌5.10%，达20日历史波动率的 2.8 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-19 01:41",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
@@ -1958,9 +1958,9 @@
  "structure": {
   "date": "2026-11-18",
   "zt_count": 41,
-  "dt_count": 0,
+  "dt_count": 40,
   "zb_count": 24,
-  "qs_count": 0,
+  "qs_count": 135,
   "seal_rate": 63.1,
   "first_board": 33,
   "continued": 8,
@@ -2039,7 +2039,28 @@
     "share": 2.4
    }
   ],
-  "dt_industries": [],
+  "dt_industries": [
+   {
+    "name": "一般零售",
+    "count": 4
+   },
+   {
+    "name": "游戏Ⅱ",
+    "count": 4
+   },
+   {
+    "name": "光伏设备",
+    "count": 3
+   },
+   {
+    "name": "影视院线",
+    "count": 3
+   },
+   {
+    "name": "装修装饰",
+    "count": 2
+   }
+  ],
   "leaders": [
    {
     "name": "华东重机",
@@ -2096,14 +2117,39 @@
     "broken": 1
    }
   ],
-  "dt_leaders": [],
+  "dt_leaders": [
+   {
+    "name": "九阳股份",
+    "code": "002242",
+    "industry": "小家电",
+    "change_pct": -9.99
+   },
+   {
+    "name": "中国稀土",
+    "code": "000831",
+    "industry": "小金属",
+    "change_pct": -10.0
+   },
+   {
+    "name": "阳光照明",
+    "code": "600261",
+    "industry": "照明设备",
+    "change_pct": -10.0
+   },
+   {
+    "name": "凯撒文化",
+    "code": "002425",
+    "industry": "游戏Ⅱ",
+    "change_pct": -9.89
+   }
+  ],
   "index_pct": 0.09,
-  "score": 74.5,
-  "score_label": "偏热",
+  "score": 57.3,
+  "score_label": "中性",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
    "封板率 63%（炸板 24 家）：多空分歧居中，涨停质量一般。",
-   "无跌停且涨停 41 家：当日风险偏好偏高，属于普涨式做多环境。",
+   "跌停 40 家：个股层面的风险在释放，注意高位股与题材补跌。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 8 家 / 涨停 41 家（20%）：以首板为主，持续性待验证",
    "涨停最集中的 IT服务Ⅱ 也只占 17%：热点分散，没有单一主线。"
@@ -2296,11 +2342,11 @@
    {
     "date": "2026-11-18",
     "zt": 41,
-    "dt": 0,
+    "dt": 40,
     "zb": 24,
     "seal": 63.1,
     "max_streak": 4,
-    "score": 74.5,
+    "score": 57.3,
     "index_pct": 0.09
    }
   ],
