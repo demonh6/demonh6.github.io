@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 18:51:58 CST",
- "generated_at_iso": "2026-11-18T18:51:58+08:00",
+ "generated_at": "2026-11-18 19:00:13 CST",
+ "generated_at_iso": "2026-11-18T19:00:13+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10662.14,
-    "change": -27.73,
-    "change_pct": -0.26,
+    "price": 10656.47,
+    "change": -33.4,
+    "change_pct": -0.31,
     "hist": [
      10458.5,
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8220.98,
-    "change": 4.2,
-    "change_pct": 0.05,
+    "price": 8224.04,
+    "change": 7.26,
+    "change_pct": 0.09,
     "hist": [
      7769.21,
      7729.69,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6223.61,
-    "change": 11.5,
-    "change_pct": 0.19,
+    "price": 6228.53,
+    "change": 16.42,
+    "change_pct": 0.26,
     "hist": [
      6180.3,
      6126.74,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3770.784,
-    "change": -93.416,
-    "change_pct": -2.42,
-    "quote_time": "18:51:56 2026-11-18"
+    "price": 3772.656,
+    "change": -91.544,
+    "change_pct": -2.37,
+    "quote_time": "19:00:16 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.69,
-    "change": -1.667,
-    "change_pct": -3.52,
-    "quote_time": "18:51:29 2026-11-18"
+    "price": 45.747,
+    "change": -1.61,
+    "change_pct": -3.4,
+    "quote_time": "19:00:11 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.126,
-    "change": -1.524,
-    "change_pct": -1.8,
-    "quote_time": "18:51:59 2026-11-18"
+    "price": 83.463,
+    "change": -1.187,
+    "change_pct": -1.4,
+    "quote_time": "19:00:17 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.003,
-    "change": -1.137,
-    "change_pct": -1.22,
-    "quote_time": "18:51:58 2026-11-18"
+    "price": 92.514,
+    "change": -0.626,
+    "change_pct": -0.67,
+    "quote_time": "19:00:16 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64373.6,
-    "change": 170.0,
-    "change_pct": 0.26,
-    "source": "okx"
+    "price": 64372.4,
+    "change": 201.2,
+    "change_pct": 0.31,
+    "source": "okx",
+    "hist": [
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     64308.8
+    ],
+    "sigma": 2.227
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1806.42,
-    "change": 14.11,
-    "change_pct": 0.79,
-    "source": "okx"
+    "price": 1806.78,
+    "change": 16.61,
+    "change_pct": 0.93,
+    "source": "okx",
+    "hist": [
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1804.11
+    ],
+    "sigma": 3.167
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.73,
-    "change": 2.48,
-    "change_pct": 3.43,
-    "source": "okx"
+    "price": 74.7,
+    "change": 2.5,
+    "change_pct": 3.46,
+    "source": "okx",
+    "hist": [
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     74.61
+    ],
+    "sigma": 3.402
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.75,
-    "change": 0.19,
-    "change_pct": 0.18,
+    "price": 103.77,
+    "change": 0.21,
+    "change_pct": 0.2,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1373,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 23.71,
-   "change": -1.75,
-   "change_pct": -6.8735,
+   "value": 23.63,
+   "change": -1.83,
+   "change_pct": -7.1877,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1423,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 23.71,
-     "change_pct": -6.8735
+     "value": 23.63,
+     "change_pct": -7.1877
     },
     {
      "t": "VIX3M",
@@ -1452,19 +1551,7 @@
    }
   }
  },
- "speakers": [
-  {
-   "keyword": "国务院",
-   "label": "国务院",
-   "hint": "国务院级经济政策影响宏观环境",
-   "title": "丁薛祥在江西调研时强调 立足特色和优势加快壮大新动能 推动高质量发展不断取得新成效",
-   "summary": "11月16日至18日，中共中央政治局常委、国务院副总理丁薛祥在江西赣州、南昌调研。他强调，要聚焦“走在前、勇争先、善作为”目标要求，立足特色和优势，推动江西经济社会高质量发展不断取得新成效。（新华社）",
-   "time": "2026-11-18 18:33",
-   "url": "https://wallstreetcn.com/livenews/3201892",
-   "source": "华尔街见闻",
-   "mentions": 1
-  }
- ],
+ "speakers": [],
  "research": {
   "digest": [
    {
@@ -1526,23 +1613,23 @@
   ],
   "reports": [
    {
-    "title": "惠誉上调四家中资中型银行的评级 - 东方财富",
-    "org": "惠誉",
+    "title": "高盛：市场大幅上调SK海力士2027年HBM利润预期，幅度近30%",
+    "org": "高盛",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-18",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WdTktTjYwdlA5WVVmQzgzdWRXeGV4dFM1Z0FsUFoyOS1TajBINFlKQnNtbThxbHh2eG5MRDd2cm15N3lTUmpPUmU4S1k3TnNyX3laRzhxcnhrUlVJMExGeVl4RQ?oc=5",
+    "url": "https://news.futunn.com/flash/1004895260/goldman-sachs-the-market-has-significantly-raised-its-2027-hbm",
     "source": "机构观点"
    },
    {
-    "title": "摩根士丹利重申SpaceX买入评级及300美元目标价_公司新闻_财经 - 证券之星",
-    "org": "摩根士丹利",
+    "title": "山西证券：给予百利天恒买入评级_券商研报_数据解析 - 证券之星",
+    "org": "山西证券",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-18",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RTmpOXzFxQnZsX1pBcExsUmhyMjN4LUY2QTd4ZWlCUnA1ZHVHM3F0dV9nS04xWTJ4aWYyck1qdUtIdUg0akl4S3BKV0VnY3l5dk9CRWV2RDgycjA3UWdpSA?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GZ0pSd0tGbTFQNEdDTWRseDdmZ1c0Z3ctanB2X1NsdWpWUURnVURkMTY0d01OeTQ5SHZ5YkNRRW9zMGIza0JJOE5yM05WbHd4Tzd3V0xudkdnb1BsQ1BCRHNR?oc=5",
     "source": "机构观点"
    },
    {
@@ -1556,13 +1643,13 @@
     "source": "机构观点"
    },
    {
-    "title": "大行评级丨大摩：上调纽柯钢铁目标价至310美元，评级升至“跑赢大市”_股市直播_市场 - 中金在线",
-    "org": "大摩",
+    "title": "开源证券：给予恒立钻具增持评级_券商研报_数据解析 - 证券之星",
+    "org": "开源证券",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-18",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pTWc3SVVDNWZ2cF8zNEpYSVp4Ri1feXZLR1pHbDdnMml5TmNJd3d3VE1fVFJ4WkMwTTJfNllwZGhudmZlbFM5YlRubHR6QnctcXZ6ak5nWVZaZndPLVNKRE04cHhxelg0N25OZg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0QmxROHYwNmNqcW96WkVQS1VFOE8tM0RXcmtQdXYzZVZCckRLaWw5Q3p0dlhjbnhWTURYb1hkZkFGb2dXQ2hKSzA0akkzdGxrdHZBbmRHT3Z6V3ZoQTlIcjFn?oc=5",
     "source": "机构观点"
    },
    {
@@ -1690,45 +1777,45 @@
  "alerts": [],
  "news": [
   {
-   "title": "Momenta、Uber在德国启动免费自动驾驶出租车试运营",
-   "summary": "中国自动驾驶技术公司Momenta与Uber宣布在德国慕尼黑启动自动驾驶出租车试运营，这是Uber首次在德国通过其平台向乘客提供自动驾驶出行服务。根据Momenta周三发布的声明，试运营初期将覆盖慕尼黑北部大部分地区，包括奥林匹克公园周边街区\n\n乘客可通过Uber App报名，符合资格的用户在呼叫指定网约车服务时有机会免费搭乘自动驾驶车辆。（彭博）",
-   "time": "2026-11-18 18:35",
-   "url": "https://wallstreetcn.com/livenews/3201899",
+   "title": "江苏：持续完善全省一体化算力监测调度平台功能，强化长三角算力枢纽节点功能",
+   "summary": "江苏省人民政府办公厅近日印发《促进平台经济创新和规范健康发展若干措施》。其中提到，构建智能算力服务平台。鼓励重点企业、基础电信运营商与各地共建行业专属算力节点。鼓励发展标准化、可扩展的算力云服务。探索建立市场化算力交易机制。持续完善全省一体化算力监测调度平台功能，强化长三角算力枢纽节点功能。加快建设省公共算力中心。探索多元异构智能算力体系和绿电直供智算中心新模式，提升智算中心绿电使用比例。支持有条",
+   "time": "2026-11-18 19:00",
+   "url": "https://wallstreetcn.com/livenews/3201923",
    "source": "华尔街见闻"
   },
   {
-   "title": "洲际交易所推出新工具 评估美国数据中心建设延误或停工风险",
-   "summary": "【洲际交易所推出新工具 评估美国数据中心建设延误或停工风险】洲际交易所当地时间11月17日推出新工具ICE Data Center Site Analytics Tool，旨在评估美国数据中心项目遭延误或停工的风险。",
-   "time": "2026-11-18 18:30:57",
-   "url": "https://finance.eastmoney.com/a/202611183934097571.html",
+   "title": "胜宏科技：取得不超过2.7亿元股票回购专项贷款承诺函",
+   "summary": "【胜宏科技：取得不超过2.7亿元股票回购专项贷款承诺函】胜宏科技(300476.SZ)公告称，公司于2026年11月17日取得工商银行惠州分行出具的《贷款承诺函》，承诺为公司本次回购股份提供不超过2.7亿元专项贷款额度，且不超过回购金额上限的90%，贷款期限不超过三年。此前公司拟以1.5亿元至3亿元自有资金或自筹资金回购股份，回购价格不超过240.49元/股。",
+   "time": "2026-11-18 18:58:27",
+   "url": "https://finance.eastmoney.com/a/202611183934108412.html",
    "source": "东财国际"
   },
   {
-   "title": "华龙证券：给予中材科技增持评级_券商研报_数据解析 - 证券之星",
+   "title": "壹评级发布中国西电首次评级 - 第一财经",
    "summary": "",
-   "time": "2026-11-18 18:24",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBiTmFvQTU0eWM5dm8tOWM4VnlfTVp2elhHel9EdGNDbjNFeWJGdjNLcElnRS02SUFjMGM2MWIxRmxpTHlYVTJSNTJrNkhYMTAzNHczSy1teDVRRzlsbEluSEtn?oc=5",
+   "time": "2026-11-18 18:40",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zNWcyY0FDS0dXZkhpNm9jVDhYZ2NuVjNFYmVIRDBrMUZqa1NzNXFqcUJsZDhhZUNyMTlReEJSZkQxcUZsSlRaTUVOaGUwUWxHSjlN?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "习近平迎接美国总统特朗普 - 央广网",
+   "title": "新华图讯丨习近平迎接美国总统特朗普 - 新华网",
    "summary": "",
-   "time": "2026-11-18 18:17",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA1QmVNb3BaMnJRenMya2tLZjVwVVB2REk1WlpMbkRpY0c2dGIwdmVhc2pEWmZ4a25VcEpuemRRUFozRDZfWkJlZm01ek9RZHlfUGkxRDF5aDVPdW82dVdRVkVHV05CYVM4cWVsQ3UwY0JodWZFWnc?oc=5",
+   "time": "2026-11-18 18:37",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV0p6WEw3OS0ya2RLbU9BQzZMUmZXM1RtOElGUl9nYjVkVG01NUU2NEFxb05oOVNmbjZ3Zk9adWs5VXRJSmpSbkNJbGhlUTlzUjNVY0t1Ymtsc0RJbkhMS3VMX1RET3VBQWh3VW9fR3BBZzItWXZOeTFGVEV0RXBWX05iUjV5SmFuOFRCakx3?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "广电运通：中标农业银行超级柜台项目预计金额约3亿元",
+   "title": "胜宏科技：取得股票回购专项贷款承诺函，额度不超过2.7亿元",
    "summary": "",
-   "time": "2026-11-18 10:33:58",
-   "url": "https://news.10jqka.com.cn/20261118/c681965217.shtml",
+   "time": "2026-11-18 10:57:49",
+   "url": "https://news.10jqka.com.cn/20261118/c681965666.shtml",
    "source": "同花顺"
   },
   {
-   "title": "路德科技：核心发酵基地产能利用率正逐步攀升",
+   "title": "高盛：市场大幅上调SK海力士2027年HBM利润预期，幅度近30%",
    "summary": "",
-   "time": "2026-11-18 10:32:44",
-   "url": "https://news.futunn.com/flash/1004893071/lude-technology-capacity-utilization-at-core-fermentation-bases-is-steadily",
+   "time": "2026-11-18 10:51:42",
+   "url": "https://news.futunn.com/flash/1004895260/goldman-sachs-the-market-has-significantly-raised-its-2027-hbm",
    "source": "富途"
   },
   {
@@ -1739,45 +1826,52 @@
    "source": "东财早报"
   },
   {
-   "title": "丁薛祥在江西调研时强调 立足特色和优势加快壮大新动能 推动高质量发展不断取得新成效",
-   "summary": "11月16日至18日，中共中央政治局常委、国务院副总理丁薛祥在江西赣州、南昌调研。他强调，要聚焦“走在前、勇争先、善作为”目标要求，立足特色和优势，推动江西经济社会高质量发展不断取得新成效。（新华社）",
-   "time": "2026-11-18 18:33",
-   "url": "https://wallstreetcn.com/livenews/3201892",
+   "title": "Andy Jassy看好Anthropic增长前景，称亚马逊有多种渠道支持AI基础设施投资",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-18/102506116.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "陈吉宁会见瑞士罗氏集团董事会主席施万",
+   "summary": "上海市委书记陈吉宁今天（11月18日）上午会见了瑞士罗氏集团董事会主席施万一行。陈吉宁介绍了上海卫生健康事业及生物医药产业发展最新情况。他说，罗氏作为上海市市长国际企业家咨询会议成员，与上海有着长期良好合作，为城市发展积极建言献策。欢迎把握科技创新加速、消费市场变化等发展机遇，加强卫生健康各领域务实合作，围绕推动人工智能赋能生物医药全产业链创新、促进健康保险发展和产品开发等方面深化交流互鉴，在沪落",
+   "time": "2026-11-18 18:55",
+   "url": "https://wallstreetcn.com/livenews/3201920",
    "source": "华尔街见闻"
   },
   {
-   "title": "民主党筹备数据中心电力改革方案 运营商10年内或需多付350亿美元",
-   "summary": "【民主党筹备数据中心电力改革方案 运营商10年内或需多付350亿美元】民主党赢得国会两院之后，正在着手准备一项新的联邦许可规则改革，其可能加快对各类能源项目的联邦环境审查，从而使数据中心运营商更容易获得电力。然而，这一改革更像是裹了蜜糖的一颗诱饵，因为民主党同时希望数据中心在接入电网时支付额外的费用。这可能将颠覆美国数十年以来的电力规则。",
-   "time": "2026-11-18 18:30:34",
-   "url": "https://finance.eastmoney.com/a/202611183934094624.html",
+   "title": "江海股份：拟2000万元—4000万元回购股份",
+   "summary": "【江海股份：拟2000万元—4000万元回购股份】江海股份(002484)11月18日公告，公司拟以2000万元—4000万元回购股份，用于股权激励或员工持股计划。回购价格不超过40元/股。",
+   "time": "2026-11-18 18:56:00",
+   "url": "https://finance.eastmoney.com/a/202611183934108397.html",
    "source": "东财国际"
   },
   {
-   "title": "惠誉上调四家中资中型银行的评级 - 东方财富",
+   "title": "山西证券：给予百利天恒买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-18 17:55",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WdTktTjYwdlA5WVVmQzgzdWRXeGV4dFM1Z0FsUFoyOS1TajBINFlKQnNtbThxbHh2eG5MRDd2cm15N3lTUmpPUmU4S1k3TnNyX3laRzhxcnhrUlVJMExGeVl4RQ?oc=5",
+   "time": "2026-11-18 18:40",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GZ0pSd0tGbTFQNEdDTWRseDdmZ1c0Z3ctanB2X1NsdWpWUURnVURkMTY0d01OeTQ5SHZ5YkNRRW9zMGIza0JJOE5yM05WbHd4Tzd3V0xudkdnb1BsQ1BCRHNR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "（深圳APEC）习近平迎接美国总统特朗普 - 中国新闻网",
+   "title": "习近平迎接美国总统特朗普_中华人民共和国驻开普敦总领事馆 - capetown.china-consulate.gov.cn",
    "summary": "",
-   "time": "2026-11-18 18:08",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54VkRCYzBwNjFzS3hfQWExUkZvZlg2TWZNRmJ6TURqSW93THR6NlYtUXdwa01JUlN0V0w3OXIxRTJaUVFObTAwWjJiUGRneUh6cW9Wc2hkbWhaaVZBc3BsbENGcnRERkNF?oc=5",
+   "time": "2026-11-18 18:29",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SLTk4VW1YRlh5Z2ZmU0xMNHdLYVd2dlMyQWFVRmttc2IzVGdyZTVad0NpYUU0X0JUM25ud1VRMVRGSXc1dm1XTzJRRHNHeENCX1Y5T2JoRnJ5eW9sNUQ0aVNZUThKeW9Oclk2VlhOcm8yMnlqR012OThBRkhwUjg?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "永兴材料：实控人、董事长提议回购公司股份，资金总额1亿元-2亿元",
+   "title": "苏林：中国发展成就证明改革开放正确性",
    "summary": "",
-   "time": "2026-11-18 10:33:41",
-   "url": "https://news.10jqka.com.cn/20261118/c681965210.shtml",
+   "time": "2026-11-18 10:46:03",
+   "url": "https://news.10jqka.com.cn/20261118/c681965450.shtml",
    "source": "同花顺"
   },
   {
-   "title": "武汉：到2030年阳逻港集装箱最大通过能力达到379万标箱",
+   "title": "印英贸易协定墨迹未干，印度散装威士忌关税反升至162.5%",
    "summary": "",
-   "time": "2026-11-18 10:31:22",
-   "url": "https://news.futunn.com/flash/1004892794/wuhan-by-2030-the-maximum-container-throughput-capacity-of-yangluo",
+   "time": "2026-11-18 10:44:18",
+   "url": "https://news.futunn.com/flash/1004894249/as-the-ink-dries-on-the-india-uk-trade-agreement",
    "source": "富途"
   },
   {
@@ -1788,45 +1882,52 @@
    "source": "东财早报"
   },
   {
-   "title": "天普股份：停牌核查完成，股票将于11月19日开市起复牌。",
-   "summary": "天普股份：停牌核查完成，股票将于11月19日开市起复牌。",
-   "time": "2026-11-18 18:17",
-   "url": "https://wallstreetcn.com/livenews/3201884",
+   "title": "CNBC援引知情人士称发行价可能落在80美元出头，市场关注上市后股价表现",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-18/102506113.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "以色列议会选举卡哈纳为新任议长",
+   "summary": "以色列议会11月17日晚以66票赞成、52票反对的表决结果，选举正直党议员马坦·卡哈纳为新任议长，接替来自利库德集团的阿米尔·奥哈纳。（新华社）",
+   "time": "2026-11-18 18:54",
+   "url": "https://wallstreetcn.com/livenews/3201919",
    "source": "华尔街见闻"
   },
   {
-   "title": "新易盛：目前不存在需求预期下修或砍单情形 1.6T光模块已进入大规模放量阶段",
-   "summary": "【新易盛：目前不存在需求预期下修或砍单情形 1.6T光模块已进入大规模放量阶段】新易盛(300502.SZ)发布关于公司近期生产经营情况的公告，当前客户对光模块的需求指引明确，在手订单充足，目前不存在需求预期下修或砍单情形，公司对今年四季度及明年订单需求增长持积极预期。生产布局方面，公司成都与泰国生产基地均在快速增加产能，以满足日益增长的订单交付需求。800G和1.6T光模块为公司今年的主力产品，1.6T光模块已进入大规模放量阶段。",
-   "time": "2026-11-18 18:29:20",
-   "url": "https://finance.eastmoney.com/a/202611183934093662.html",
+   "title": "江苏：推进5G-A网络部署、万兆光网建设和工业5G专网建设 前瞻布局第六代移动通信技术",
+   "summary": "【江苏：推进5G-A网络部署、万兆光网建设和工业5G专网建设 前瞻布局第六代移动通信技术】江苏省人民政府办公厅发布《促进平台经济创新和规范健康发展若干措施》。其中提到，夯实数字基础设施。推进5G-A网络部署、万兆光网建设和工业5G专网建设，前瞻布局第六代移动通信技术（6G）。推进IPv6规模部署和应用。加快建设覆盖全省、高效畅通的城域“毫秒用算”网络体系。",
+   "time": "2026-11-18 18:54:47",
+   "url": "https://finance.eastmoney.com/a/202611183934108190.html",
    "source": "东财国际"
   },
   {
-   "title": "摩根士丹利重申SpaceX买入评级及300美元目标价_公司新闻_财经 - 证券之星",
+   "title": "开源证券：给予恒立钻具增持评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-18 17:19",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RTmpOXzFxQnZsX1pBcExsUmhyMjN4LUY2QTd4ZWlCUnA1ZHVHM3F0dV9nS04xWTJ4aWYyck1qdUtIdUg0akl4S3BKV0VnY3l5dk9CRWV2RDgycjA3UWdpSA?oc=5",
+   "time": "2026-11-18 18:34",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB0QmxROHYwNmNqcW96WkVQS1VFOE8tM0RXcmtQdXYzZVZCckRLaWw5Q3p0dlhjbnhWTURYb1hkZkFGb2dXQ2hKSzA0akkzdGxrdHZBbmRHT3Z6V3ZoQTlIcjFn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "习近平迎接美国总统特朗普 - 中国新闻网",
+   "title": "特朗普政府留学生实习限制令 被联邦法官叫停 - 联合早报",
    "summary": "",
-   "time": "2026-11-18 17:58",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BZHFhRWNPa0tqOGRFeTJmaFBoUFJqWTctbldTMGVkUjRFa3RlWHRQRWM0ZEVKNlBOaHdSc3NFc3R2dExMZnlrcUJwSWRzSnREaWZLWnE5UzRvNkNzUHRUOHNhWUFrbEo0?oc=5",
+   "time": "2026-11-18 18:17",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFSVB2QzNPSXBiLThYWWIxRWh1emFuZ1ZhZWNCRW8zVUNPVlIwaEd3bGh1SURYZ2dxMWZfMHYwTUZBLXd6amFUVWFrdVBWTVdKSGVUYUhZcFhRNFgzaEdIYzdpUmVIa3ZXbDR3?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "江苏国泰：首次回购公司股份20万股，支付153.52万元",
+   "title": "麦格米特：控股股东、实控人及部分董监高拟增持公司股份",
    "summary": "",
-   "time": "2026-11-18 10:32:32",
-   "url": "https://news.10jqka.com.cn/20261118/c681965185.shtml",
+   "time": "2026-11-18 10:44:27",
+   "url": "https://news.10jqka.com.cn/20261118/c681965416.shtml",
    "source": "同花顺"
   },
   {
-   "title": "苏州市委书记范波会见阿里巴巴集团千问AI硬件总裁宋刚一行",
+   "title": "路德科技：核心发酵基地产能利用率正逐步攀升",
    "summary": "",
-   "time": "2026-11-18 10:29:20",
-   "url": "https://news.futunn.com/flash/1004892426/fan-bo-secretary-of-the-suzhou-municipal-committee-of-the",
+   "time": "2026-11-18 10:32:44",
+   "url": "https://news.futunn.com/flash/1004893071/lude-technology-capacity-utilization-at-core-fermentation-bases-is-steadily",
    "source": "富途"
   },
   {
@@ -1837,47 +1938,34 @@
    "source": "东财早报"
   },
   {
-   "title": "美国民主党高层Garcia要求特朗普儿子及核心幕僚保存好文件。（华盛顿邮报）",
-   "summary": "美国民主党高层Garcia要求特朗普儿子及核心幕僚保存好文件。（华盛顿邮报）",
-   "time": "2026-11-18 18:10",
-   "url": "https://wallstreetcn.com/livenews/3201872",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "范波会见阿里巴巴集团千问AI硬件总裁宋刚一行",
-   "summary": "【范波会见阿里巴巴集团千问AI硬件总裁宋刚一行】苏州日报消息，11月18日，苏州市委书记范波会见了阿里巴巴集团千问AI硬件总裁宋刚一行。",
-   "time": "2026-11-18 18:28:00",
-   "url": "https://finance.eastmoney.com/a/202611183934097466.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "风口研报 - 财联社",
+   "title": "近期暴露的授权审核风险，正是一个外国IP运营者在中国这片庞大市场深耕时绕不开的考题：如何在跨文化的商业扩张中，守住不同市场都认同的价值标尺",
    "summary": "",
-   "time": "2026-11-18 17:17",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBiR3BxV0xwTlVySEttdGREWUJGdjYzRENwcFdxVFFtdnJ5cDNVeWw4dVZLVGhhUVN1azNYTUpwOV9XU1RFOUllYw?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-18/102506095.html?cxapp_link=true",
+   "source": "财新"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(21)",
+   "富途": "ok(20)",
    "同花顺": "ok(20)",
-   "财新": "FAIL:ReadTimeout",
+   "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 8,
-   "东财国际": 8,
-   "谷歌新闻·研报": 8,
-   "谷歌新闻·国际": 7,
-   "同花顺": 7,
-   "富途": 7,
-   "东财早报": 3
+   "华尔街见闻": 7,
+   "东财国际": 7,
+   "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 6,
+   "同花顺": 6,
+   "富途": 6,
+   "东财早报": 3,
+   "财新": 6
   }
  },
  "wuxing": {
