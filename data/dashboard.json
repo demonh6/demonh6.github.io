@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 12:30:13 CST",
- "generated_at_iso": "2026-11-18T12:30:13+08:00",
+ "generated_at": "2026-11-18 12:38:52 CST",
+ "generated_at_iso": "2026-11-18T12:38:52+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 59250.34,
-    "change": 389.91,
-    "change_pct": 0.66,
+    "price": 59054.14,
+    "change": 193.71,
+    "change_pct": 0.33,
     "hist": [
      70683.98,
      70035.71,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5070.63,
-    "change": 102.15,
-    "change_pct": 2.06,
+    "price": 5033.35,
+    "change": 64.87,
+    "change_pct": 1.31,
     "hist": [
      6803.9,
      6625.93,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3786.941,
-    "change": -77.259,
-    "change_pct": -2.0,
-    "quote_time": "12:30:14 2026-11-18"
+    "price": 3785.504,
+    "change": -78.696,
+    "change_pct": -2.04,
+    "quote_time": "12:38:49 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.844,
-    "change": -1.513,
-    "change_pct": -3.19,
-    "quote_time": "12:30:14 2026-11-18"
+    "price": 45.805,
+    "change": -1.552,
+    "change_pct": -3.28,
+    "quote_time": "12:38:48 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.74,
-    "change": -0.91,
-    "change_pct": -1.08,
-    "quote_time": "12:30:14 2026-11-18"
+    "price": 83.724,
+    "change": -0.926,
+    "change_pct": -1.09,
+    "quote_time": "12:38:05 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.637,
-    "change": -0.503,
-    "change_pct": -0.54,
-    "quote_time": "12:30:09 2026-11-18"
+    "price": 92.625,
+    "change": -0.515,
+    "change_pct": -0.55,
+    "quote_time": "12:38:02 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64515.1,
-    "change": -458.6,
-    "change_pct": -0.71,
+    "price": 64462.9,
+    "change": -561.2,
+    "change_pct": -0.86,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1806.81,
-    "change": -20.85,
-    "change_pct": -1.14,
+    "price": 1803.54,
+    "change": -27.52,
+    "change_pct": -1.5,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.96,
-    "change": 2.31,
-    "change_pct": 3.18,
+    "price": 75.06,
+    "change": 2.17,
+    "change_pct": 2.98,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.66,
-    "change": 0.1,
-    "change_pct": 0.1,
+    "price": 103.63,
+    "change": 0.07,
+    "change_pct": 0.07,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1333,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6666,
-    "change": -0.0004,
+    "price": 6.6664,
+    "change": -0.0006,
     "change_pct": -0.01,
     "dec": 4,
     "date": "",
@@ -1344,8 +1344,8 @@
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 133.16,
-    "change": 0.42,
+    "price": 133.17,
+    "change": 0.43,
     "change_pct": 0.32,
     "dec": 2,
     "date": "",
@@ -1454,6 +1454,17 @@
  },
  "speakers": [
   {
+   "keyword": "证监会",
+   "label": "证监会",
+   "hint": "A股核心监管机构的政策直接影响市场情绪",
+   "title": "中国证监会新闻发言人答记者问",
+   "summary": "中国证监会新闻发言人答记者问。问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实？\n\n答：该信息不属实。公募基金投资运作依照《证券投资基金法》等法律法规和基金合同约定进行，投资标的、投资比例由基金管理人按照基金合同和内部投资决策程序自主确定。中国证监会依法履行监管职责，未向基金管理人提出相关数据报送要求。",
+   "time": "2026-11-18 12:28",
+   "url": "https://wallstreetcn.com/livenews/3201701",
+   "source": "华尔街见闻",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1462,18 +1473,7 @@
    "time": "2026-11-18 12:22",
    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VZjh3NFVMMkdZOGJPLVJuNVdJd19hMUVxeXNvTUMwZGRmY05BT3RMMlpkbzlFRUJKZ0FpSzc3MHlWZU9EdFFNcTRXLTJFU1VlYWpuZmhPR0kzUkMwVUVhRGxRakNyNkVkRE1lXzNLU0xXU3N2OFhfcUl5MA?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
-  },
-  {
-   "keyword": "证监会",
-   "label": "证监会",
-   "hint": "A股核心监管机构的政策直接影响市场情绪",
-   "title": "中国证监会新闻发言人回应：监管要求基金公司上报全部产品AI敞口",
-   "summary": "",
-   "time": "2026-11-18 04:28:58",
-   "url": "https://news.futunn.com/flash/1004848931/china-securities-regulatory-commission-spokesperson-responds-regulators-require-fund-companies",
-   "source": "富途",
-   "mentions": 3
+   "mentions": 2
   }
  ],
  "research": {
@@ -1693,30 +1693,37 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.78%，突破 2σ 警戒线）",
-   "time": "2026-11-18 12:30",
+   "time": "2026-11-18 12:39",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 12:30",
+   "time": "2026-11-18 12:39",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "网传“监管要求基金公司上报全部产品AI敞口” 证监会新闻发言人回应",
-   "summary": "【网传“监管要求基金公司上报全部产品AI敞口” 证监会新闻发言人回应】问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实？答：该信息不属实。公募基金投资运作依照《证券投资基金法》等法律法规和基金合同约定进行，投资标的、投资比例由基金管理人按照基金合同和内部投资决策程序自主确定。",
-   "time": "2026-11-18 12:27:02",
-   "url": "https://finance.eastmoney.com/a/202611183933861858.html",
+   "title": "“反内卷”下市场竞争趋于理性 中通快递Q3单票收入同比上涨13.7%｜财报解读",
+   "summary": "【“反内卷”下市场竞争趋于理性 中通快递Q3单票收入同比上涨13.7%｜财报解读】快递“反内卷”持续推动，中通快递Q3单票收入出现较明显增长。今日，中通快递（02057.HK）公布2026年第三季度未经审计业绩。期内，公司实现营业收入143.62亿元，同比增长21.0%；净利润同比增长1.4%，调整后净利润同比增长2.6%。完成包裹量102.41亿件，同比增长7.0%，核心快递业务单票收入同比上涨13.7%。",
+   "time": "2026-11-18 12:36:39",
+   "url": "https://finance.eastmoney.com/a/202611183933862224.html",
    "source": "东财国际"
   },
   {
-   "title": "风口研报 - 财联社电报",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 15:00 英国10月CPI；\n\n② 15:30 英国央行行长贝利在韩国参与一场炉边闲聊（预先录制）；\n\n③ 港股盘后 腾讯控股发布业绩报告；\n\n④ 17:00 欧洲央行副行长Vujcic递交金融稳定性评估报告，欧洲央行管委Dolenc讲话；\n\n⑤ 18:00 欧元区10月CPI终值；\n\n⑥ 时间待定 黄仁勋出席美国国会听证会；\n\n⑦ 21:30 美国10月新屋开工，营建许可；\n\n⑧ 22:0",
+   "time": "2026-11-18 12:30",
+   "url": "https://wallstreetcn.com/livenews/3201702",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "风口研报 - 财联社",
    "summary": "",
    "time": "2026-11-18 12:23",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLQVd0aFA0UkI0NTl0VXpCNjlucnZZcUhQbkZuVnZSbW9qcDZJT09Wa1VWZ3VjUlRjMDRON2Rham1mRDV0aTJfU0F5MG1LVlFvbHVMU3piMGwtellNczdzekZ3?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ITkxlcTdrVFlnaHBXcWtwOHlweFdRcHBNN3BzMW1hTHJjUHFPSkptcFU3ZXZsbF9nVDVVUFcwMXNxMS11VGlQbQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1727,13 +1734,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "石药集团9个月净利润70.8亿元人民币，上年同期35.1亿元人民币；营收252.6亿元人民币；每股收益0.6199元人民币。",
-   "summary": "石药集团9个月净利润70.8亿元人民币，上年同期35.1亿元人民币；营收252.6亿元人民币；每股收益0.6199元人民币。",
-   "time": "2026-11-18 12:10",
-   "url": "https://wallstreetcn.com/livenews/3201698",
-   "source": "华尔街见闻"
-  },
-  {
    "title": "东方财富财经早餐 11月18日周三",
    "summary": "【东方财富财经早餐 11月18日周三】1、美商务部发布限制远程获取先进半导体相关措施，中方回应。2、英伟达预计第四季度营收1261亿至1339亿美元，高于市场预期。3、18只主动ETF下周一上市！上市前股票仓位需不低于80%。",
    "time": "2026-11-18 06:00:20",
@@ -1741,17 +1741,17 @@
    "source": "东财早报"
   },
   {
-   "title": "腾讯混元开源Hy4 flash",
+   "title": "沙特称对胡塞目标实施精确打击",
    "summary": "",
-   "time": "2026-11-18 04:30:17",
-   "url": "https://news.10jqka.com.cn/20261118/c681943980.shtml",
+   "time": "2026-11-18 04:33:44",
+   "url": "https://news.10jqka.com.cn/20261118/c681944128.shtml",
    "source": "同花顺"
   },
   {
-   "title": "中国证监会新闻发言人回应：监管要求基金公司上报全部产品AI敞口",
+   "title": "腾讯混元 Hy4 flash 开源",
    "summary": "",
-   "time": "2026-11-18 04:28:58",
-   "url": "https://news.futunn.com/flash/1004848931/china-securities-regulatory-commission-spokesperson-responds-regulators-require-fund-companies",
+   "time": "2026-11-18 04:32:12",
+   "url": "https://news.futunn.com/flash/1004849529/tencent-hunyuan-open-sources-hy4-flash",
    "source": "富途"
   },
   {
@@ -1762,17 +1762,24 @@
    "source": "财新"
   },
   {
-   "title": "纷美包装：股票继续暂停买卖",
-   "summary": "【纷美包装：股票继续暂停买卖】纷美包装（00468.HK）公告，公司发布有关复牌情况的季度更新。公司股份自2025年2月19日起暂停买卖，并将维持暂停买卖直至另行通知。复牌进展方面，公司第二阶段调查已完成，内部控制审查的后续审查已完成，已刊发所有尚未刊发的财务业绩。目前公司公众持股量约占2.24%，由公众股东持有的3145.35万股股份代表，公司正推进拟议收购及股份奖励计划以恢复最低公众持股量。业务方面，截至2026年9月30日止九个月，公司合并收入约12.99亿元，合并净利润约1280万元。",
-   "time": "2026-11-18 12:25:00",
-   "url": "https://finance.eastmoney.com/a/202611183933862861.html",
+   "title": "沙特联军称对胡塞武装目标实施精确打击",
+   "summary": "【沙特联军称对胡塞武装目标实施精确打击】当地时间11月18日，沙特阿拉伯主导的多国联军发言人图尔基·马利基在社交媒体上发文称，联军对也门胡塞武装的60个军事目标实施了精确打击。行动重点是削弱胡塞武装的弹道导弹与无人机能力、消除海上威胁，并摧毁相关地下设施和无人机装配储存场所。",
+   "time": "2026-11-18 12:30:10",
+   "url": "https://finance.eastmoney.com/a/202611183933863578.html",
    "source": "东财国际"
   },
   {
-   "title": "野村指京东第三季业绩大致符合预期 第四季零售展望偏弱 - 观点网",
+   "title": "早间要闻汇总",
+   "summary": "习近平在亚太经合组织工商领导人峰会上的主旨演讲（全文）发布。\n\n习近平会见俄罗斯总统普京。\n\n中国证监会：“监管要求基金公司上报全部产品AI敞口”信息不属实。\n\n人民币兑美元中间价创2022年以来新高，报6.7118，较上日上调14点。\n\n现货黄金跌破每盎司3,800美元，为去年9月份来首次。\n\n创业板指高开低走，早盘收跌0.58%，算力租赁概念逆势大涨。\n\n恒指半日跌1.1%，恒生科技指数跌1.",
+   "time": "2026-11-18 12:30",
+   "url": "https://wallstreetcn.com/livenews/3201703",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "惠誉评级：人民币国际化与跨境需求带动香港业务增长，不同券商表现或分化 - 金融界",
    "summary": "",
-   "time": "2026-11-18 11:47",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aUFFKalM5MXRhdUM0TGNCVVhpelplLXJsZ1ViUDhsMXhFaXBmNE04X2NmLVV2dE95UGpVZ0FPRHNIT1hMeTE5R3hYMUZDeXdTNlRkbTByelNIWHZHUVBYLVB3?oc=5",
+   "time": "2026-11-18 12:14",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3YXFEaWU1cUk4ZkV3LWNQZHBtVWV3VWMxd2JJLUZHc3lCam15OU8yRWRVUGVLc2kzZFo1alMzcHBuNU5qbEtlUURMd09aVDhJVjRwQ3djOWMyQ2pKQlVSdVFmU1N2SUEzaGV5M3c0NC10Tm5R?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1783,13 +1790,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "特朗普：与伊朗的关系进展非常顺利。",
-   "summary": "特朗普：与伊朗的关系进展非常顺利。",
-   "time": "2026-11-18 11:48",
-   "url": "https://wallstreetcn.com/livenews/3201692",
-   "source": "华尔街见闻"
-  },
-  {
    "title": "东方财富财经早餐 11月17日周二",
    "summary": "【东方财富财经早餐 11月17日周二】1、调用量冲上全球第一，DeepSeek开始对免费用户“限额”了。2、机构下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%。3、15天10板文投控股紧急公告：可能被*ST。",
    "time": "2026-11-17 06:00:14",
@@ -1797,17 +1797,17 @@
    "source": "东财早报"
   },
   {
-   "title": "中国证监会新闻发言人答记者问",
+   "title": "腾讯混元开源Hy4 flash",
    "summary": "",
-   "time": "2026-11-18 04:27:02",
-   "url": "https://news.10jqka.com.cn/20261118/c681943835.shtml",
+   "time": "2026-11-18 04:30:17",
+   "url": "https://news.10jqka.com.cn/20261118/c681943980.shtml",
    "source": "同花顺"
   },
   {
-   "title": "印度尼西亚总统普拉博沃抵达深圳",
+   "title": "监管要求基金公司上报全部产品AI敞口？证监会：不属实",
    "summary": "",
-   "time": "2026-11-18 04:15:57",
-   "url": "https://news.futunn.com/flash/1004847901/indonesian-president-prabowo-arrives-in-shenzhen",
+   "time": "2026-11-18 04:28:00",
+   "url": "https://news.futunn.com/flash/1004848931/do-regulatory-requirements-mandate-that-fund-companies-report-the-ai",
    "source": "富途"
   },
   {
@@ -1818,11 +1818,18 @@
    "source": "财新"
   },
   {
-   "title": "摩根大通将迪士尼（DIS.N）的目标价从137美元上调至140美元",
-   "summary": "摩根大通将迪士尼（DIS.N）的目标价从137美元上调至140美元。",
-   "time": "2026-11-18 12:16:32",
-   "url": "https://finance.eastmoney.com/a/202611183933860075.html",
+   "title": "网传“监管要求基金公司上报全部产品AI敞口” 证监会新闻发言人回应",
+   "summary": "【网传“监管要求基金公司上报全部产品AI敞口” 证监会新闻发言人回应】问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实？答：该信息不属实。公募基金投资运作依照《证券投资基金法》等法律法规和基金合同约定进行，投资标的、投资比例由基金管理人按照基金合同和内部投资决策程序自主确定。",
+   "time": "2026-11-18 12:27:02",
+   "url": "https://finance.eastmoney.com/a/202611183933861858.html",
    "source": "东财国际"
+  },
+  {
+   "title": "中国证监会新闻发言人答记者问",
+   "summary": "中国证监会新闻发言人答记者问。问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实？\n\n答：该信息不属实。公募基金投资运作依照《证券投资基金法》等法律法规和基金合同约定进行，投资标的、投资比例由基金管理人按照基金合同和内部投资决策程序自主确定。中国证监会依法履行监管职责，未向基金管理人提出相关数据报送要求。",
+   "time": "2026-11-18 12:28",
+   "url": "https://wallstreetcn.com/livenews/3201701",
+   "source": "华尔街见闻"
   },
   {
    "title": "大行评级｜中银国际：降小鹏港股目标价至60港元，第四季交付指引胜预期惟产品组合拖累利润率 - 金融界",
@@ -1839,13 +1846,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "特朗普：鉴于核能是安全的，我们现在非常重视核能。",
-   "summary": "特朗普：鉴于核能是安全的，我们现在非常重视核能。",
-   "time": "2026-11-18 11:41",
-   "url": "https://wallstreetcn.com/livenews/3201691",
-   "source": "华尔街见闻"
-  },
-  {
    "title": "东方财富财经早餐 11月16日周一",
    "summary": "【东方财富财经早餐 11月16日周一】1、12位APEC经济体领导人将出席APEC工商领导人峰会。2、伊朗：就霍尔木兹海峡航道与两个沿岸国家达成协议。3、天普股份：股票交易严重异常波动，11月16日起停牌核查。",
    "time": "2026-11-16 06:00:48",
@@ -1860,10 +1860,10 @@
    "source": "同花顺"
   },
   {
-   "title": "行云科技回应“拿卡渠道影响”：华为、平头哥等头部厂商产品已纳入供应链体系",
+   "title": "印度尼西亚总统普拉博沃抵达深圳",
    "summary": "",
-   "time": "2026-11-18 04:13:28",
-   "url": "https://news.futunn.com/flash/1004847739/xingyun-technology-responds-to-concerns-over-gpu-procurement-channel-impacts",
+   "time": "2026-11-18 04:15:57",
+   "url": "https://news.futunn.com/flash/1004847901/indonesian-president-prabowo-arrives-in-shenzhen",
    "source": "富途"
   },
   {
@@ -1878,7 +1878,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(14)",
+   "富途": "ok(15)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1888,9 +1888,9 @@
   },
   "counts": {
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 7,
-   "华尔街见闻": 6,
+   "谷歌新闻·国际": 6,
    "东财早报": 3,
    "同花顺": 6,
    "富途": 6,
