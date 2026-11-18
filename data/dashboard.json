@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 16:52:48 CST",
- "generated_at_iso": "2026-11-18T16:52:48+08:00",
+ "generated_at": "2026-11-18 17:01:07 CST",
+ "generated_at_iso": "2026-11-18T17:01:07+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -719,7 +719,7 @@
     "price": 24328.383,
     "change": -181.3746,
     "change_pct": -0.74,
-    "quote_time": "2026-11-18 06:30:00",
+    "quote_time": "2026-11-18 09:22:34",
     "hist": [
      27477.3105,
      27599.791,
@@ -904,7 +904,7 @@
      61142.35,
      59662.02,
      58860.43,
-     59024.2813
+     59024.28
     ],
     "sigma": 2.002,
     "volume": 0.0,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10651.45,
-    "change": -38.42,
-    "change_pct": -0.36,
+    "price": 10655.77,
+    "change": -34.1,
+    "change_pct": -0.32,
     "hist": [
      10458.5,
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8213.0,
-    "change": -3.78,
-    "change_pct": -0.05,
+    "price": 8221.83,
+    "change": 5.05,
+    "change_pct": 0.06,
     "hist": [
      7769.21,
      7729.69,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6220.41,
-    "change": 8.3,
-    "change_pct": 0.13,
+    "price": 6227.33,
+    "change": 15.22,
+    "change_pct": 0.25,
     "hist": [
      6180.3,
      6126.74,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3769.023,
-    "change": -95.177,
-    "change_pct": -2.46,
-    "quote_time": "16:52:46 2026-11-18"
+    "price": 3770.875,
+    "change": -93.325,
+    "change_pct": -2.42,
+    "quote_time": "17:01:05 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.622,
-    "change": -1.735,
-    "change_pct": -3.66,
-    "quote_time": "16:52:52 2026-11-18"
+    "price": 45.676,
+    "change": -1.681,
+    "change_pct": -3.55,
+    "quote_time": "17:01:09 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.632,
-    "change": -2.018,
-    "change_pct": -2.38,
-    "quote_time": "16:52:52 2026-11-18"
+    "price": 82.794,
+    "change": -1.856,
+    "change_pct": -2.19,
+    "quote_time": "17:01:07 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.288,
-    "change": -1.852,
-    "change_pct": -1.99,
-    "quote_time": "16:52:48 2026-11-18"
+    "price": 91.589,
+    "change": -1.551,
+    "change_pct": -1.67,
+    "quote_time": "17:01:06 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64726.0,
-    "change": 347.5,
-    "change_pct": 0.54,
-    "source": "okx"
+    "price": 64721.6,
+    "change": 501.6,
+    "change_pct": 0.78,
+    "source": "okx",
+    "hist": [
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     64739.4
+    ],
+    "sigma": 2.254
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
     "price": 1813.33,
-    "change": -9.06,
-    "change_pct": -0.5,
-    "source": "okx"
+    "change": -2.53,
+    "change_pct": -0.14,
+    "source": "okx",
+    "hist": [
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1814.12
+    ],
+    "sigma": 3.19
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.78,
-    "change": 2.29,
-    "change_pct": 3.16,
-    "source": "okx"
+    "price": 74.86,
+    "change": 2.6,
+    "change_pct": 3.6,
+    "source": "okx",
+    "hist": [
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     74.89
+    ],
+    "sigma": 3.428
    }
   ],
   "fx": [
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6661,
-    "change": -0.0009,
+    "price": 6.6664,
+    "change": -0.0006,
     "change_pct": -0.01,
     "dec": 4,
     "date": "",
@@ -1373,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 24.19,
-   "change": -1.27,
-   "change_pct": -4.9882,
+   "value": 23.85,
+   "change": -1.61,
+   "change_pct": -6.3236,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1423,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 24.19,
-     "change_pct": -4.9882
+     "value": 23.85,
+     "change_pct": -6.3236
     },
     {
      "t": "VIX3M",
@@ -1457,12 +1556,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普开启访亚行程 美中俄或发表联合公报 - 共同网",
+   "title": "抵达深圳前，特朗普盛赞美菲同盟关系 - RFI",
    "summary": "",
-   "time": "2026-11-18 15:59",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hRDBlQnV0ZmZyeGtXd3VCVzNXVjIwa0E2VmhsenppQ295NlBwQm5jN1B5dFJNQ2tHZHBMcDNVU25Bb2lnUFIzRFZ2dndDSkMwOHB3V0xRNA?oc=5",
+   "time": "2026-11-18 16:58",
+   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPWFBZTjFjNVpObS1hdEtVcW9zUjdRMTRGR3Y1VXdsYU5aMDNkM0N1N1h6MnFQeDd2MXQxUjBOT3pnMjVLcV9pSUhrVHV5dk9xN3Z0eDloX1FBekVqMjJ4cEoyM1JCYko5SGNIaE0zY3lCT3Bsb25Ta1o3VWtDaEoxMlFobnVJUzVkZHR2LUlyNDRiS2MyNjFQLWFKcW9CeWRURHoxRTY2NzlRZWZsd05HcFRGNjVnNGVhYU53cUEyOW8yY0RtQUF2V0VFM1ROWENWTzZTRGpOYkdMenNIaEpCN01ULTJ4TDd0YUJlbjkwRjJ3T1lEXzlVS1Bod0ZjZUJGbXlGS3ZtNERJUndGTnczSS1WaHFYcHBFZW1pY1BhcGNkT2EyZ3I0NjdJSQ?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
+  },
+  {
+   "keyword": "证监会",
+   "label": "证监会",
+   "hint": "A股核心监管机构的政策直接影响市场情绪",
+   "title": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
+   "summary": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
+   "time": "2026-11-18 16:54",
+   "url": "https://wallstreetcn.com/livenews/3201821",
+   "source": "华尔街见闻",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1526,6 +1636,26 @@
   ],
   "reports": [
    {
+    "title": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
+    "org": "中信证券",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-18",
+    "url": "https://wallstreetcn.com/livenews/3201821",
+    "source": "机构观点"
+   },
+   {
+    "title": "巴克莱：霍尔木兹若进一步受扰，卡塔尔GDP和预算将继续承压",
+    "org": "巴克莱",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-18",
+    "url": "https://news.futunn.com/flash/1004880839/barclays-further-disruptions-in-the-strait-of-hormuz-to-keep",
+    "source": "机构观点"
+   },
+   {
     "title": "CNBC援引知情人士称发行价可能落在80美元出头，市场关注上市后股价表现",
     "org": "CNBC",
     "rating": "",
@@ -1536,14 +1666,64 @@
     "source": "机构观点"
    },
    {
-    "title": "美国银行：不排除美联储12月加息50个基点",
-    "org": "美国银行",
+    "title": "瑞银财富管理预计MSCI新兴市场指数2027年底将达到1770点",
+    "org": "瑞银",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-18",
-    "url": "https://finance.eastmoney.com/a/202611183933973165.html",
+    "url": "https://finance.eastmoney.com/a/202611183934019448.html",
     "source": "机构观点"
+   },
+   {
+    "title": "瑞银财富管理预计美国10年期公债收益率2027年底将达到4.75%",
+    "org": "瑞银",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-18",
+    "url": "https://finance.eastmoney.com/a/202611183934017728.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "北交所信息更新：硬质合金涨价冲击成本，金属陶瓷替代与提价传导改善可期",
+    "org": "开源证券",
+    "rating": "增持",
+    "stock": "恒立钻具",
+    "industry": "工程机械",
+    "date": "2026-11-18",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611181831829371",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "事件点评报告：公司业绩稳步抬升，回购彰显发展信心",
+    "org": "华龙证券",
+    "rating": "增持",
+    "stock": "中材科技",
+    "industry": "玻璃玻纤",
+    "date": "2026-11-18",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611181831823485",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "2026年三季报点评：全球工程机械龙头，矿山机械与全球化再启新程",
+    "org": "西南证券",
+    "rating": "买入",
+    "stock": "徐工机械",
+    "industry": "工程机械",
+    "date": "2026-11-18",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611181831823229",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "余热锅炉受益于全球燃机景气，多业务协同共振",
+    "org": "西南证券",
+    "rating": "买入",
+    "stock": "西子洁能",
+    "industry": "其他电源设备Ⅱ",
+    "date": "2026-11-18",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611181831823176",
+    "source": "东财研报·个股"
    },
    {
     "title": "珠玉在前启新程，老牌啤酒企业焕新春",
@@ -1586,16 +1766,6 @@
     "source": "东财研报·个股"
    },
    {
-    "title": "北交所新股申购报告：天广实：自研肾病特效药全球唯一+罕见病国产首个，红斑狼疮在研、海外授权催化",
-    "org": "开源证券",
-    "rating": "",
-    "stock": "天广实",
-    "industry": "生物制品",
-    "date": "2026-11-18",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611181831812991",
-    "source": "东财研报·个股"
-   },
-   {
     "title": "华安证券2026年三季报点评：股权投资驱动业绩高增，资本实力显著增强",
     "org": "太平洋",
     "rating": "增持",
@@ -1616,107 +1786,62 @@
     "source": "东财研报·个股"
    },
    {
-    "title": "传媒行业快评报告：2026年10月游戏市场收入环比增长，出海市场表现突出",
-    "org": "万联证券",
+    "title": "电气设备：“十五五”储能规划出台，发展目标与路径明确",
+    "org": "五矿证券",
     "rating": "增持",
     "stock": "",
     "industry": "",
     "date": "2026-11-18",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831820122",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831823486",
     "source": "东财研报·行业"
    },
    {
-    "title": "11月消费观察：10月消费继续弱增长",
-    "org": "国投证券(香港)",
+    "title": "通信技术革命：低轨通信星座开启太空“大基建”新时代",
+    "org": "艾瑞股份",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-18",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831817907",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "汽车：Robotaxi专题点评报告-Cybercab面向个人销售，助推FSD订阅&个人车主运营",
-    "org": "华龙证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831816756",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "计算机行业跟踪报告：2026年Q3基金重仓持股环比提升，向IT基础设施、软件应用和网络安全倾斜",
-    "org": "万联证券",
-    "rating": "中性",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831816415",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "社服与消费视角点评10月国内宏观数据：10月社零同比+0.4%，增幅环比回落",
-    "org": "中银证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831814393",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831823310",
     "source": "东财研报·行业"
    }
   ]
  },
- "alerts": [
-  {
-   "level": "warning",
-   "asset": "COMEX白银",
-   "message": "COMEX白银单日跌3.66%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-18 16:53",
-   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
-  }
- ],
+ "alerts": [],
  "news": [
   {
-   "title": "浦项集团与宁德时代签署长期锂供应合同",
-   "summary": "浦项集团与宁德时代签署长期锂供应合同。",
-   "time": "2026-11-18 16:33:46",
-   "url": "https://finance.eastmoney.com/a/202611183934001948.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "腾讯控股第三季度资本支出814.3亿元人民币，预估554亿元人民币。\n\n腾讯控股第三季度自由现金流691亿元人民币。",
-   "summary": "腾讯控股第三季度资本支出814.3亿元人民币，预估554亿元人民币。\n\n腾讯控股第三季度自由现金流691亿元人民币。",
-   "time": "2026-11-18 16:33",
-   "url": "https://wallstreetcn.com/livenews/3201805",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "浙商证券维持浙江荣泰买入评级 26Q3营收增45%超预期 - 观点网",
+   "title": "抵达深圳前，特朗普盛赞美菲同盟关系 - RFI",
    "summary": "",
-   "time": "2026-11-18 16:27",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9jM0ZpNXlCaTFpRkZBVGNCWloyMXBjaHk4R2Y2cDJEZC00RTBJOWFodlhrUzlidFNHNnpneGI0Q05aQW12MGNtR1AwdHltSmF3VndSbmNTQ2ZMbXNYUWN1ZkNB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普开启访亚行程 美中俄或发表联合公报 - 共同网",
-   "summary": "",
-   "time": "2026-11-18 15:59",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1hRDBlQnV0ZmZyeGtXd3VCVzNXVjIwa0E2VmhsenppQ295NlBwQm5jN1B5dFJNQ2tHZHBMcDNVU25Bb2lnUFIzRFZ2dndDSkMwOHB3V0xRNA?oc=5",
+   "time": "2026-11-18 16:58",
+   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPWFBZTjFjNVpObS1hdEtVcW9zUjdRMTRGR3Y1VXdsYU5aMDNkM0N1N1h6MnFQeDd2MXQxUjBOT3pnMjVLcV9pSUhrVHV5dk9xN3Z0eDloX1FBekVqMjJ4cEoyM1JCYko5SGNIaE0zY3lCT3Bsb25Ta1o3VWtDaEoxMlFobnVJUzVkZHR2LUlyNDRiS2MyNjFQLWFKcW9CeWRURHoxRTY2NzlRZWZsd05HcFRGNjVnNGVhYU53cUEyOW8yY0RtQUF2V0VFM1ROWENWTzZTRGpOYkdMenNIaEpCN01ULTJ4TDd0YUJlbjkwRjJ3T1lEXzlVS1Bod0ZjZUJGbXlGS3ZtNERJUndGTnczSS1WaHFYcHBFZW1pY1BhcGNkT2EyZ3I0NjdJSQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "澳大利亚总理：中国发展成就有利整个地区",
+   "title": "小马智行Q3 Robotaxi收入同比增165.4% 加速扩大海内外城市覆盖与车队规模",
+   "summary": "【小马智行Q3 Robotaxi收入同比增165.4% 加速扩大海内外城市覆盖与车队规模】11月18日，小马智行发布2026年第三季度财报。三季度总营收2.99亿元，同比增长75.2%，由Robotaxi与Robotruck业务共同驱动。其中，Robotaxi业务收入1.19亿元，同比大幅增长165.4%，环比增长47.1%，营收占比升至39.9%。",
+   "time": "2026-11-18 16:55:34",
+   "url": "https://finance.eastmoney.com/a/202611183934024784.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
+   "summary": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
+   "time": "2026-11-18 16:54",
+   "url": "https://wallstreetcn.com/livenews/3201821",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "美股中概股盘前涨跌互现，蔚来涨1%",
    "summary": "",
-   "time": "2026-11-18 08:35:47",
-   "url": "https://news.10jqka.com.cn/20261118/c681957110.shtml",
+   "time": "2026-11-18 09:01:18",
+   "url": "https://news.10jqka.com.cn/20261118/c681960199.shtml",
    "source": "同花顺"
   },
   {
-   "title": "腾讯控股：2026年第三季度收入同比增长8%",
+   "title": "巴克莱：霍尔木兹若进一步受扰，卡塔尔GDP和预算将继续承压",
    "summary": "",
-   "time": "2026-11-18 08:35:18",
-   "url": "https://news.futunn.com/flash/1004876437/tencent-q3-2026-revenue-up-8-year-on-year",
+   "time": "2026-11-18 08:58:24",
+   "url": "https://news.futunn.com/flash/1004880839/barclays-further-disruptions-in-the-strait-of-hormuz-to-keep",
    "source": "富途"
   },
   {
@@ -1734,45 +1859,38 @@
    "source": "财新"
   },
   {
-   "title": "腾讯控股第三季度营收2073.4亿元 同比增长8%",
-   "summary": "【腾讯控股第三季度营收2073.4亿元 同比增长8%】腾讯控股第三季度营收2,073.4亿元人民币，同比增长8%，市场预估2,105.3亿元；营业利润591.5亿元人民币，同比减少7%，市场预估665.9亿元；调整后净利润665.2亿元人民币，同比减少6%，预估665亿元。",
-   "time": "2026-11-18 16:33:24",
-   "url": "https://finance.eastmoney.com/a/202611183934001422.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "【腾讯控股第三季度营收2,073.4亿元人民币，预估2,105.3亿元人民币】腾讯控股第三季度净利润636.1亿元人民币，预估576.1亿元人民币",
-   "summary": "【腾讯控股第三季度营收2,073.4亿元人民币，预估2,105.3亿元人民币】腾讯控股第三季度净利润636.1亿元人民币，预估576.1亿元人民币",
-   "time": "2026-11-18 16:31",
-   "url": "https://wallstreetcn.com/livenews/3201804",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "华纳药厂跌10.17% 国盛证券昨天给予买入评级话音刚落_证券要闻 - 中金在线",
+   "title": "深圳：机场迎接仪式准备中，欢迎特朗普总统 - 京报网",
    "summary": "",
-   "time": "2026-11-18 16:19",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9FM2RQNFVCb1I3Y1lDY2wwaVRmX0MyUzZwbXVicjA0V1pnNEdhN3VrMDdLRmJ4REdFRUd0a21hOEppYmhkYTFjcTdoSWx3ekVGUjZpeHZRbXU3bnlJRmxnRDRpMWFKelhvTXFUeTJB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "黄金大跌！高盛却做出一个大胆的未来预测 - 上观新闻",
-   "summary": "",
-   "time": "2026-11-18 15:25",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE51RUp0LVd0WW1zbEJIODdTaUxBRGlRZUF6Mko4R2FKam16NXZpdXlKS2FmLWpNZTNuek9KbjdRR3U0NTBvQlluT1lsNENtZWVaUFB5LUVYQnFOdw?oc=5",
+   "time": "2026-11-18 16:50",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFX1E4YW01TzYwd3htX0ZjT3RiNGZXc21MblN5LVM5bDFVMkxZbm85OGpob0Ztb0dYWEwzRHpCRVVJQnNjYnlkWlNxOEtidHNhV05taTFPYVVmSHVvX1E?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "我武生物：终止皮炎诊断贴剂研发项目，减少2026年度利润总额791.97万元",
+   "title": "美元指数升至近19个月高点",
+   "summary": "美元指数升至103.844，为近19个月高点。",
+   "time": "2026-11-18 16:54:36",
+   "url": "https://finance.eastmoney.com/a/202611183934018684.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "英国国债价格延续涨势，30年期国债收益率下跌5个基点至5.77%。",
+   "summary": "英国国债价格延续涨势，30年期国债收益率下跌5个基点至5.77%。",
+   "time": "2026-11-18 16:49",
+   "url": "https://wallstreetcn.com/livenews/3201819",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "美股大型科技股盘前多数上涨，SK海力士涨超4%",
    "summary": "",
-   "time": "2026-11-18 08:34:12",
-   "url": "https://news.10jqka.com.cn/20261118/c681956918.shtml",
+   "time": "2026-11-18 09:01:13",
+   "url": "https://news.10jqka.com.cn/20261118/c681960192.shtml",
    "source": "同花顺"
   },
   {
-   "title": "*ST闻泰：控股股东所持全部股份解除司法冻结",
+   "title": "美元走强与加息预期双重施压 黄金大跌2.5%",
    "summary": "",
-   "time": "2026-11-18 08:19:48",
-   "url": "https://news.futunn.com/flash/1004873686/st-wingtech-all-shares-held-by-the-controlling-shareholder-released",
+   "time": "2026-11-18 08:56:17",
+   "url": "https://news.futunn.com/flash/1004880677/gold-plunges-2-5-amid-dual-pressure-from-stronger-dollar",
    "source": "富途"
   },
   {
@@ -1790,45 +1908,38 @@
    "source": "财新"
   },
   {
-   "title": "三星电机与英伟达扩大AI芯片组件合作",
-   "summary": "【三星电机与英伟达扩大AI芯片组件合作】据11月18日声明，三星电机与英伟达进一步扩大AI领域合作。三星电机将在扩大半导体封装基板供应的同时，与英伟达就多层陶瓷电容器（MLCC）开展合作，英伟达也在考虑为三星电机扩建生产设施提供追加资金。",
-   "time": "2026-11-18 16:32:00",
-   "url": "https://finance.eastmoney.com/a/202611183934001728.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "欧元兑美元下跌0.3%至1.0965，创19个月新低。",
-   "summary": "欧元兑美元下跌0.3%至1.0965，创19个月新低。",
-   "time": "2026-11-18 16:22",
-   "url": "https://wallstreetcn.com/livenews/3201797",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "浙商证券维持圣农发展买入评级 前三季度归母净利8.08亿元 - 观点网",
+   "title": "独家视频丨美国总统特朗普将抵达深圳 - 新浪新闻_手机新浪网",
    "summary": "",
-   "time": "2026-11-18 16:06",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9LYmVTNmZYdHhiM2ltMGphbGN5ek9NSWtXQVhTamF4d0VkU0tTUUtKYmRuZFVGY1NVSG5ydUpKMUl5NFRjMXMxWWhyMTRSbjZjSndmNVRYZFRFS0JiVy02eHdR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "下一站，深圳！特朗普登机离开菲律宾 - 凤凰网",
-   "summary": "",
-   "time": "2026-11-18 14:51",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rUlVZUnVWeEk1aW50RFkwLVZ5ZlppclBrVnZCZ0RRRE4ycE4xYURJcW9VWlNuUW1SSFlPUGpwN1dwNXM5WXdwc1dIVjg?oc=5",
+   "time": "2026-11-18 16:47",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW9qcjlvZ1JiUEVpeWUxRzQycS1WQ2hQNzhUbUt5aW16eHh5aG81MnVWM05oS3h6VUxVZXpod19EczRNR1lfV2UyXzBpcmRIN2RTckFRN2xnVlNJZmVGSWZaYkszMXR1Q0lxWTg1UU45NjNMUkhhSmF1ejh4b0FSbC1FZWlYUFJqaDVRNGxPcGVPcjVUOTM2NQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "及时澄清股市造谣“小作文” 合力守护市场清朗环境",
+   "title": "瑞银财富管理预计MSCI新兴市场指数2027年底将达到1770点",
+   "summary": "瑞银财富管理预计MSCI新兴市场指数2027年底将达到1,770点。",
+   "time": "2026-11-18 16:53:35",
+   "url": "https://finance.eastmoney.com/a/202611183934019448.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "腾讯控股：第三季的一般及行政开支同比增长29% 至人民币441亿元，主要由于研发开支增加，以升级Hy系列模型、推进微信AI举措及开发我们各项产品与服务的AI能力。若剔除研发开支，一般及行政开支同比增长2% 至人民币117亿元，体现我们对非A",
+   "summary": "腾讯控股：第三季的一般及行政开支同比增长29% 至人民币441亿元，主要由于研发开支增加，以升级Hy系列模型、推进微信AI举措及开发我们各项产品与服务的AI能力。若剔除研发开支，一般及行政开支同比增长2% 至人民币117亿元，体现我们对非AI相关开支的管控。",
+   "time": "2026-11-18 16:43",
+   "url": "https://wallstreetcn.com/livenews/3201818",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "中国银行股份有限公司原党委委员、副行长林景臻受贿案一审宣判",
    "summary": "",
-   "time": "2026-11-18 08:32:11",
-   "url": "https://news.10jqka.com.cn/20261118/c681956684.shtml",
+   "time": "2026-11-18 09:00:49",
+   "url": "https://news.10jqka.com.cn/20261118/c681960167.shtml",
    "source": "同花顺"
   },
   {
-   "title": "2026年前10个月我与APEC其他经济体进出口占我总值达60.4%",
+   "title": "雷军：明年小米汽车正式出海",
    "summary": "",
-   "time": "2026-11-18 08:18:48",
-   "url": "https://news.futunn.com/flash/1004873567/in-the-first-ten-months-of-2026-trade-between-china",
+   "time": "2026-11-18 08:48:55",
+   "url": "https://news.futunn.com/flash/1004879277/lei-jun-xiaomi-auto-to-officially-enter-overseas-markets-next",
    "source": "富途"
   },
   {
@@ -1844,29 +1955,49 @@
    "time": "",
    "url": "https://database.caixin.com/2026-11-18/102506095.html?cxapp_link=true",
    "source": "财新"
+  },
+  {
+   "title": "美国总统特朗普抵达深圳 - 新湖南",
+   "summary": "",
+   "time": "2026-11-18 16:41",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMR25FSE1nZlNnQWh0cENtVGNmckJxTjNzNXZ6cjAxQTF2bXI2Ti1NTTIwLTZmTVhvTVVOQm1jdVV6M01kdzFoWmdsQmF0WkpxeVhmaXZvaUhWa1VBNHlr?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "瑞银财富管理预计美国10年期公债收益率2027年底将达到4.75%",
+   "summary": "瑞银财富管理预计美国10年期公债收益率2027年底将达到4.75%。",
+   "time": "2026-11-18 16:49:09",
+   "url": "https://finance.eastmoney.com/a/202611183934017728.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "腾讯控股：三季度本土市场游戏收入为人民币476亿元，同比增长11%",
+   "summary": "腾讯控股：增值服务业务二零二六年第三季的收入同比增长3%至人民币983亿元。本土市场游戏收入为人民币476亿元，同比增长11%，受《三角洲行动》、《无畏契约：源能行动》及《王者荣耀》等游戏的收入增长所驱动。国际市场游戏收入为人民币189亿元，同比下降9%（按固定汇率计算下降4%），主要受去年同期Supercell旗下若干游戏在社交媒体引发热烈反响及《消逝的光芒：困兽》上线所带来的较高基数影响。社交",
+   "time": "2026-11-18 16:43",
+   "url": "https://wallstreetcn.com/livenews/3201816",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(15)",
+   "富途": "ok(18)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
-   "谷歌新闻·研报": "ok(30)"
+   "谷歌新闻·研报": "FAIL:HTTPError"
   },
   "counts": {
-   "东财国际": 7,
-   "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
-   "同花顺": 6,
-   "富途": 6,
+   "谷歌新闻·国际": 8,
+   "东财国际": 8,
+   "华尔街见闻": 8,
+   "同花顺": 7,
+   "富途": 7,
    "东财早报": 3,
-   "财新": 6
+   "财新": 7
   }
  },
  "wuxing": {
