@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 02:57:04 CST",
- "generated_at_iso": "2026-11-19T02:57:04+08:00",
+ "generated_at": "2026-11-19 03:05:16 CST",
+ "generated_at_iso": "2026-11-19T03:05:16+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50379.5508,
-    "change": -379.87,
-    "change_pct": -0.75,
-    "quote_time": "2026-11-19 02:57:02",
+    "price": 50282.6094,
+    "change": -476.81,
+    "change_pct": -0.94,
+    "quote_time": "2026-11-19 03:05:09",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24519.7816,
-    "change": 191.3986,
-    "change_pct": 0.79,
-    "quote_time": "2026-11-19 02:56:59",
+    "price": 24456.3054,
+    "change": 127.9224,
+    "change_pct": 0.53,
+    "quote_time": "2026-11-19 03:05:15",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7350.8198,
-    "change": 10.29,
-    "change_pct": 0.14,
-    "quote_time": "2026-11-19 02:57:02",
+    "price": 7334.9102,
+    "change": -5.62,
+    "change_pct": -0.08,
+    "quote_time": "2026-11-19 03:05:04",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3739.288,
-    "change": -124.912,
-    "change_pct": -3.23,
-    "quote_time": "02:57:06 2026-11-19"
+    "price": 3737.85,
+    "change": -126.35,
+    "change_pct": -3.27,
+    "quote_time": "03:05:18 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.122,
-    "change": -2.235,
-    "change_pct": -4.72,
-    "quote_time": "02:57:06 2026-11-19"
+    "price": 45.092,
+    "change": -2.265,
+    "change_pct": -4.78,
+    "quote_time": "03:05:16 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.77,
-    "change": -2.88,
-    "change_pct": -3.4,
-    "quote_time": "02:57:04 2026-11-19"
+    "price": 81.846,
+    "change": -2.804,
+    "change_pct": -3.31,
+    "quote_time": "03:05:16 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.257,
-    "change": -1.883,
-    "change_pct": -2.02,
-    "quote_time": "02:57:06 2026-11-19"
+    "price": 91.375,
+    "change": -1.765,
+    "change_pct": -1.89,
+    "quote_time": "03:05:18 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63200.3,
-    "change": -554.3,
-    "change_pct": -0.87,
-    "source": "okx"
+    "price": 62895.7,
+    "change": -914.7,
+    "change_pct": -1.43,
+    "source": "okx",
+    "hist": [
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     62809.0
+    ],
+    "sigma": 2.02
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1771.53,
-    "change": -18.96,
-    "change_pct": -1.06,
-    "source": "okx"
+    "price": 1760.92,
+    "change": -30.29,
+    "change_pct": -1.69,
+    "source": "okx",
+    "hist": [
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1758.89
+    ],
+    "sigma": 2.941
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.92,
-    "change": 1.43,
-    "change_pct": 1.97,
-    "source": "okx"
+    "price": 73.51,
+    "change": 0.99,
+    "change_pct": 1.37,
+    "source": "okx",
+    "hist": [
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.45
+    ],
+    "sigma": 3.029
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.77,
-    "change": 0.21,
-    "change_pct": 0.2,
+    "price": 103.82,
+    "change": 0.26,
+    "change_pct": 0.25,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6684,
-    "change": 0.0014,
+    "price": 6.6686,
+    "change": 0.0016,
     "change_pct": 0.02,
     "dec": 4,
     "date": "",
@@ -1373,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 24.37,
-   "change": -1.09,
-   "change_pct": -4.2812,
+   "value": 23.56,
+   "change": -1.9,
+   "change_pct": -7.4627,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1411,33 +1510,33 @@
     22.91,
     25.46
    ],
-   "vix3m": 24.11,
+   "vix3m": 23.54,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 24.36,
-     "change_pct": -8.764
+     "value": 23.34,
+     "change_pct": -12.5843
     },
     {
      "t": "VIX",
-     "value": 24.37,
-     "change_pct": -4.2812
+     "value": 23.56,
+     "change_pct": -7.4627
     },
     {
      "t": "VIX3M",
-     "value": 24.11,
-     "change_pct": -3.4828
+     "value": 23.54,
+     "change_pct": -5.7646
     },
     {
      "t": "VIX6M",
-     "value": 24.6,
-     "change_pct": -3.0351
+     "value": 24.2,
+     "change_pct": -4.6117
     }
    ],
-   "ratio_9d_3m": 1.01,
+   "ratio_9d_3m": 0.992,
    "shape": "平坦",
    "source": "CBOE"
   },
@@ -1454,26 +1553,26 @@
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储会议纪要：一些官员称12月加息超过25个基点或是合理的",
+   "summary": "美联储会议纪要显示，一些官员称12月加息超过25个基点或是合理的，几乎所有官员都认为采取进一步行动或是合适的。",
+   "time": "2026-11-19 03:02:08",
+   "url": "https://finance.eastmoney.com/a/202611193934380933.html",
+   "source": "东财国际",
+   "mentions": 6
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普团队18日傍晚抵深圳下榻酒店，车队红旗打头 - 手机新浪网",
+   "title": "特朗普抵达深圳：机场高规格迎接，三方峰会能带来哪些成果？ - 西雅图中文电台 Chinese Radio Seattle",
    "summary": "",
-   "time": "2026-11-19 02:21",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0VHI1T2tPTmZhLURDamVVRU90bDd2bmlDWkIyV3BScmxmdHN2T181dEMxdFp6SjlrRGhxZ0ZFNmJPTGdxTngyOWVwSXJydUg2NUlwcVNJZ1dubFRtZFh3ZDZXaG50S2ZlcThfNl8wa05ia1NwYjZpaFk0SGpTN0U?oc=5",
+   "time": "2026-11-19 02:44",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLRFh6dkY0QVVFX3VNMm42UFd6UlctN2h1MVRrY0pPOFFLNDdjci1YVmZGR3BPSDNNeFdsNWJJdVZWY1VLMGtmemhEYUx0aVRPVFpPaG04R1hXVDMwem9mSXFCdXZqYXUtSXEtWVpFTmp2T1JpUHRqcHNR?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "AI算力租赁商CoreWeave淡化黄仁勋离任影响 称英伟达仍是关键合作伙伴",
-   "summary": "AI算力租赁商CoreWeave淡化黄仁勋离任影响，称英伟达仍是关键合作伙伴。",
-   "time": "2026-11-19 02:00:31",
-   "url": "https://finance.eastmoney.com/a/202611193934378217.html",
-   "source": "东财国际",
-   "mentions": 1
+   "mentions": 3
   }
  ],
  "research": {
@@ -1547,16 +1646,6 @@
     "source": "机构观点"
    },
    {
-    "title": "瑞银下调英伟达目标价 - 东方财富",
-    "org": "瑞银",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84YXNEN0ZJajIwLTdqNXJkT1NiNDgwa0ppYl9UYkhLdW5xUk9zcFRBNGNnbG1NNG9GRkt3c3RsOXhOeXhBbmJkb2dDcTFFNFk1YUNsSGNBNjhBdzFJdTFyN1d6VQ?oc=5",
-    "source": "机构观点"
-   },
-   {
     "title": "CNBC援引知情人士称发行价可能落在80美元出头，市场关注上市后股价表现",
     "org": "CNBC",
     "rating": "",
@@ -1564,26 +1653,6 @@
     "industry": "",
     "date": "",
     "url": "https://database.caixin.com/2026-11-18/102506113.html?cxapp_link=true",
-    "source": "机构观点"
-   },
-   {
-    "title": "CoreWeave淡化黄仁勋离任影响，称英伟达仍是关键合作伙伴",
-    "org": "彭博",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-19",
-    "url": "https://wallstreetcn.com/livenews/3202107",
-    "source": "机构观点"
-   },
-   {
-    "title": "瑞银下调Meta目标价至815美元估Muse带来600亿至1000亿美元增量收入_公司新闻_财经 - 证券之星",
-    "org": "瑞银",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tRlU3cm4zUDF0UGU0amprSFBfdmdjeUVnTU9Nckc3eWNscGJVczhtMmRJZ1Q0UU5ON24wYllrSUxMSHF4ellKM2RUcDhpazUxaWU3ak5uMjZWMEhkSFViRA?oc=5",
     "source": "机构观点"
    },
    {
@@ -1712,32 +1781,32 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.72%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-19 02:57",
+   "message": "COMEX白银单日跌4.78%，达20日历史波动率的 2.7 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-19 03:06",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "上期所原油期货2701合约夜盘收跌4.8%，报561.10元人民币/桶。\n\n沪金夜盘收跌2.4%，沪银收跌4.23%。",
-   "summary": "上期所原油期货2701合约夜盘收跌4.8%，报561.10元人民币/桶。\n\n沪金夜盘收跌2.4%，沪银收跌4.23%。",
-   "time": "2026-11-19 02:30",
-   "url": "https://wallstreetcn.com/livenews/3202115",
+   "title": "墨西哥比索、南非兰特跌幅扩大至至少1.9%，刷新日低，美联储发布了10月FOMC货币政策会议的纪要。",
+   "summary": "墨西哥比索、南非兰特跌幅扩大至至少1.9%，刷新日低，美联储发布了10月FOMC货币政策会议的纪要。",
+   "time": "2026-11-19 03:04",
+   "url": "https://wallstreetcn.com/livenews/3202126",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普团队18日傍晚抵深圳下榻酒店，车队红旗打头 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-19 02:21",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0VHI1T2tPTmZhLURDamVVRU90bDd2bmlDWkIyV3BScmxmdHN2T181dEMxdFp6SjlrRGhxZ0ZFNmJPTGdxTngyOWVwSXJydUg2NUlwcVNJZ1dubFRtZFh3ZDZXaG50S2ZlcThfNl8wa05ia1NwYjZpaFk0SGpTN0U?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "美联储会议纪要：一些官员称12月加息超过25个基点或是合理的",
+   "summary": "美联储会议纪要显示，一些官员称12月加息超过25个基点或是合理的，几乎所有官员都认为采取进一步行动或是合适的。",
+   "time": "2026-11-19 03:02:08",
+   "url": "https://finance.eastmoney.com/a/202611193934380933.html",
+   "source": "东财国际"
   },
   {
-   "title": "谷歌表示：Genie4现已可用 称其是最逼真、最具交互性的世界模型",
-   "summary": "谷歌表示，Genie4现已可用，称其是最逼真、最具交互性的世界模型。",
-   "time": "2026-11-19 02:18:55",
-   "url": "https://finance.eastmoney.com/a/202611193934380385.html",
-   "source": "东财国际"
+   "title": "特朗普抵达深圳：机场高规格迎接，三方峰会能带来哪些成果？ - 西雅图中文电台 Chinese Radio Seattle",
+   "summary": "",
+   "time": "2026-11-19 02:44",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBLRFh6dkY0QVVFX3VNMm42UFd6UlctN2h1MVRrY0pPOFFLNDdjci1YVmZGR3BPSDNNeFdsNWJJdVZWY1VLMGtmemhEYUx0aVRPVFpPaG04R1hXVDMwem9mSXFCdXZqYXUtSXEtWVpFTmp2T1JpUHRqcHNR?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "壹评级发布中国西电首次评级 - 第一财经",
@@ -1747,18 +1816,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "洛杉矶港和长滩港安保人员谈判陷入僵局，周六或面临罢工",
+   "title": "恒生指数主连夜盘收跌0.54%，恒生科技指数主连夜盘收跌0.86%",
    "summary": "",
-   "time": "2026-11-18 18:20:37",
-   "url": "https://news.futunn.com/flash/1004934711/negotiations-for-security-personnel-at-the-ports-of-los-angeles",
-   "source": "富途"
+   "time": "2026-11-18 19:04:51",
+   "url": "https://news.10jqka.com.cn/20261119/c681972569.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "谷歌：Genie4现已可用",
+   "title": "Arm CEO哈斯曾与英伟达的猎头公司接洽",
    "summary": "",
-   "time": "2026-11-18 18:19:25",
-   "url": "https://news.10jqka.com.cn/20261119/c681972514.shtml",
-   "source": "同花顺"
+   "time": "2026-11-18 18:59:18",
+   "url": "https://news.futunn.com/flash/1004936519/arm-ceo-haas-has-been-in-contact-with-nvidia-s",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1775,25 +1844,25 @@
    "source": "财新"
   },
   {
-   "title": "PHP：安全团队宣布将于11月19日发布安全版本。\n\n安全版本将修复影响所有受支持PHP版本的安全漏洞。",
-   "summary": "PHP：安全团队宣布将于11月19日发布安全版本。\n\n安全版本将修复影响所有受支持PHP版本的安全漏洞。",
-   "time": "2026-11-19 02:29",
-   "url": "https://wallstreetcn.com/livenews/3202114",
+   "title": "恒生指数主连夜盘收跌0.54%，报23100点。\n\n恒生科技指数主连夜盘收跌0.86%，报3691点。",
+   "summary": "恒生指数主连夜盘收跌0.54%，报23100点。\n\n恒生科技指数主连夜盘收跌0.86%，报3691点。",
+   "time": "2026-11-19 03:01",
+   "url": "https://wallstreetcn.com/livenews/3202125",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普抵达中国，将与习近平、普京会晤 - 美国之音",
-   "summary": "",
-   "time": "2026-11-19 00:55",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNVN3cTNnNGRVNG54eGVQV0RiR2dCUE92RE43dEZIRHB3bW1KbkxQcklmbHdVd0ZydjZrbU9mVTVROTViSk9uUUotTXpQRmlvRk50Y1Z3eW15TUs1Yjl3Yk1KQTFYVWlKc0s5LUF3bkNXckxHQlJab2JzTzYxcjRPWm5JRnN1dHhtQ0Q0N3lRdVpoQXfSAZYBQVVfeXFMUElUU1JxMEVjWWtEZjl1NUVlU2Y4Yy01elY1RTY5TWk3WW1rNDlBby1qMXlBdDNrV0V6aGN4Zm43bmlyZkR2aUppeVJwV3FGLXpFTmM0VjN1T1VJYlI0Z0o5VTVOMGFnZ1Jpa3NQLUduUmlPa2NXSVpmNVVuSWV0bFNxNi1kYjl2MnQ1U0VoTmpRVGN0VUVn?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "美联储巴尔讲话后 美国国债收益率收窄跌幅",
+   "summary": "美联储巴尔讲话后，美国国债收益率收窄跌幅；10年期美国国债收益率最新下跌3.87个基点，报5.064%。",
+   "time": "2026-11-19 02:46:37",
+   "url": "https://finance.eastmoney.com/a/202611193934380678.html",
+   "source": "东财国际"
   },
   {
-   "title": "美国20年期国债中标收益率为5.459% 与发售前预发行收益率持平",
-   "summary": "美国20年期国债中标收益率为5.459%，与发售前预发行收益率持平。",
-   "time": "2026-11-19 02:03:20",
-   "url": "https://finance.eastmoney.com/a/202611193934378338.html",
-   "source": "东财国际"
+   "title": "特朗普团队18日傍晚抵深圳下榻酒店，车队红旗打头 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-19 02:21",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0VHI1T2tPTmZhLURDamVVRU90bDd2bmlDWkIyV3BScmxmdHN2T181dEMxdFp6SjlrRGhxZ0ZFNmJPTGdxTngyOWVwSXJydUg2NUlwcVNJZ1dubFRtZFh3ZDZXaG50S2ZlcThfNl8wa05ia1NwYjZpaFk0SGpTN0U?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "高盛、摩根士丹利与AI行情深度绑定，华尔街投行的好日子还能持续多久？ - 华尔街见闻",
@@ -1803,18 +1872,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国防长赫格塞思突访委内瑞拉，会见代理总统罗德里格斯",
+   "title": "美国天然气价格跳涨5%",
    "summary": "",
-   "time": "2026-11-18 18:07:03",
-   "url": "https://news.futunn.com/flash/1004934128/us-secretary-of-defense-hegseth-makes-surprise-visit-to-venezuela",
-   "source": "富途"
+   "time": "2026-11-18 18:56:15",
+   "url": "https://news.10jqka.com.cn/20261119/c681972566.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "LME期铜收跌756美元，LME期铝收跌112美元，LME期锌收跌191美元",
+   "title": "阿克曼质疑英伟达董事会仓促处理黄仁勋婚外情风波",
    "summary": "",
-   "time": "2026-11-18 18:00:18",
-   "url": "https://news.10jqka.com.cn/20261119/c681972484.shtml",
-   "source": "同花顺"
+   "time": "2026-11-18 18:41:46",
+   "url": "https://news.futunn.com/flash/1004935863/ackman-questions-nvidia-board-s-hasty-handling-of-the-jensen",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1831,46 +1900,46 @@
    "source": "财新"
   },
   {
-   "title": "美国国防部长赫格塞思：美国、委内瑞拉通过五角大楼签署石油协议。\n\n这削弱霍尔木兹海峡的地位，使其成为“非关键因素”。",
-   "summary": "美国国防部长赫格塞思：美国、委内瑞拉通过五角大楼签署石油协议。\n\n这削弱霍尔木兹海峡的地位，使其成为“非关键因素”。",
-   "time": "2026-11-19 02:22",
-   "url": "https://wallstreetcn.com/livenews/3202113",
+   "title": "美联储会议纪要：两名官员称12月加息超25个基点是有保障的，几乎所有与会者认为继续行动可能适宜",
+   "summary": "美联储会议纪要显示，几乎所有参加美联储10月27-28日会议的与会者都认为，进一步加息与政策制定者9月预测基本一致，可能是合适的。\n\n大多数与会者表示支持10月会议不加息。\n\n少数与会者指出，如果后续通胀数据不利，12月会议可以考虑加息超过25个基点。\n\n少数与会者认为，通胀可能比预期更具粘性，有必要转向更紧缩的政策立场。\n\n部分与会者支持10月会议加息25个基点，强调通胀过高，且几乎看不到缓解迹",
+   "time": "2026-11-19 03:00",
+   "url": "https://wallstreetcn.com/livenews/3202122",
    "source": "华尔街见闻"
   },
   {
-   "title": "习近平机场亲自迎接特朗普 高市获接机规格明显低于他人 - 联合早报",
-   "summary": "",
-   "time": "2026-11-19 00:14",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tbTI4YnBsTHZVYVNwWTc2YU1NMW1PSzh5bnMyLWNtd3hZLXd4QjNtZi10SmhQSzhCNWZxTE9WenoyRHFDQjBnazdZWkthcFUwd2xKdzRnQ0xfMGFrSXNXdVB1d1NIc2ZOV3hN?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "AI算力租赁商CoreWeave淡化黄仁勋离任影响 称英伟达仍是关键合作伙伴",
-   "summary": "AI算力租赁商CoreWeave淡化黄仁勋离任影响，称英伟达仍是关键合作伙伴。",
-   "time": "2026-11-19 02:00:31",
-   "url": "https://finance.eastmoney.com/a/202611193934378217.html",
+   "title": "美联储理事巴尔表示，通胀“过高”，正给许多家庭带来压力，称若经济表现符合预期，支持进一步加息",
+   "summary": "美联储理事巴尔表示，通胀“过高”，正给许多家庭带来压力，称若经济表现符合预期，支持进一步加息。",
+   "time": "2026-11-19 02:36:39",
+   "url": "https://finance.eastmoney.com/a/202611193934380533.html",
    "source": "东财国际"
   },
   {
-   "title": "瑞银下调英伟达目标价 - 东方财富",
+   "title": "特朗普抵达中国，将与习近平、普京会晤 - 美国之音",
    "summary": "",
-   "time": "2026-11-18 22:34",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84YXNEN0ZJajIwLTdqNXJkT1NiNDgwa0ppYl9UYkhLdW5xUk9zcFRBNGNnbG1NNG9GRkt3c3RsOXhOeXhBbmJkb2dDcTFFNFk1YUNsSGNBNjhBdzFJdTFyN1d6VQ?oc=5",
+   "time": "2026-11-19 00:55",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNVN3cTNnNGRVNG54eGVQV0RiR2dCUE92RE43dEZIRHB3bW1KbkxQcklmbHdVd0ZydjZrbU9mVTVROTViSk9uUUotTXpQRmlvRk50Y1Z3eW15TUs1Yjl3Yk1KQTFYVWlKc0s5LUF3bkNXckxHQlJab2JzTzYxcjRPWm5JRnN1dHhtQ0Q0N3lRdVpoQXfSAZYBQVVfeXFMUElUU1JxMEVjWWtEZjl1NUVlU2Y4Yy01elY1RTY5TWk3WW1rNDlBby1qMXlBdDNrV0V6aGN4Zm43bmlyZkR2aUppeVJwV3FGLXpFTmM0VjN1T1VJYlI0Z0o5VTVOMGFnZ1Jpa3NQLUduUmlPa2NXSVpmNVVuSWV0bFNxNi1kYjl2MnQ1U0VoTmpRVGN0VUVn?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "Summit Insights下调Nvidia评级，黄仁勋离任后前景存不确定性 提供者 Investing.com - 英为财情 Investing.com",
+   "summary": "",
+   "time": "2026-11-18 23:32",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92VjF5dk9fbXhxMVUwN2xhLVVMcDdNc09aejJQWmFpLU1BQjV5WHltVDRXZGw0OFJjT1F4Sk52NWdfN1ZkQXdWdVRnME5vNFM5YUs0VVFEWTNhQ2RET3FzNmFBaWZvS1BxLWRVRkF6TGg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "Anthropic期权最快下周一挂牌，市场预计投资者需求旺盛",
+   "title": "美联储巴尔讲话后，美国国债收益率收窄跌幅",
    "summary": "",
-   "time": "2026-11-18 18:03:13",
-   "url": "https://news.futunn.com/flash/1004934021/anthropic-options-are-set-to-be-listed-as-early-as",
-   "source": "富途"
+   "time": "2026-11-18 18:49:30",
+   "url": "https://news.10jqka.com.cn/20261119/c681972561.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "纳斯达克100指数短线拉升，涨幅扩大至0.8%",
+   "title": "美联储理事巴尔支持进一步加息，称通胀仍然过高",
    "summary": "",
-   "time": "2026-11-18 17:35:24",
-   "url": "https://news.10jqka.com.cn/20261119/c681972445.shtml",
-   "source": "同花顺"
+   "time": "2026-11-18 18:39:46",
+   "url": "https://news.futunn.com/flash/1004935604/fed-governor-barr-supports-further-interest-rate-hikes-citing-persistently",
+   "source": "富途"
   },
   {
    "title": "近期暴露的授权审核风险，正是一个外国IP运营者在中国这片庞大市场深耕时绕不开的考题：如何在跨文化的商业扩张中，守住不同市场都认同的价值标尺",
@@ -1880,10 +1949,10 @@
    "source": "财新"
   },
   {
-   "title": "谷歌：Genie 4现已上线。\n\nGenie 4是其最逼真且交互性最强的世界模型。",
-   "summary": "谷歌：Genie 4现已上线。\n\nGenie 4是其最逼真且交互性最强的世界模型。",
-   "time": "2026-11-19 02:17",
-   "url": "https://wallstreetcn.com/livenews/3202112",
+   "title": "巴西雷亚尔兑美元跌1.2%。",
+   "summary": "巴西雷亚尔兑美元跌1.2%。",
+   "time": "2026-11-19 02:55",
+   "url": "https://wallstreetcn.com/livenews/3202120",
    "source": "华尔街见闻"
   }
  ],
@@ -1891,7 +1960,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(7)",
+   "富途": "ok(9)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1901,11 +1970,11 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "富途": 6,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
    "财新": 6
   }
