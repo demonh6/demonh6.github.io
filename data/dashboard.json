@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 20:26:13 CST",
- "generated_at_iso": "2026-11-18T20:26:13+08:00",
+ "generated_at": "2026-11-18 20:34:30 CST",
+ "generated_at_iso": "2026-11-18T20:34:30+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10639.31,
-    "change": -50.56,
-    "change_pct": -0.47,
+    "price": 10638.67,
+    "change": -51.2,
+    "change_pct": -0.48,
     "hist": [
      10458.5,
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8213.29,
-    "change": -3.49,
-    "change_pct": -0.04,
+    "price": 8209.94,
+    "change": -6.84,
+    "change_pct": -0.08,
     "hist": [
      7769.21,
      7729.69,
@@ -1169,8 +1169,8 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6223.22,
-    "change": 11.11,
+    "price": 6223.15,
+    "change": 11.04,
     "change_pct": 0.18,
     "hist": [
      6180.3,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3768.4,
-    "change": -95.8,
-    "change_pct": -2.48,
-    "quote_time": "20:26:16 2026-11-18"
+    "price": 3766.052,
+    "change": -98.148,
+    "change_pct": -2.54,
+    "quote_time": "20:34:33 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.664,
-    "change": -1.693,
-    "change_pct": -3.57,
-    "quote_time": "20:26:13 2026-11-18"
+    "price": 45.607,
+    "change": -1.75,
+    "change_pct": -3.7,
+    "quote_time": "20:34:33 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.378,
-    "change": -0.272,
-    "change_pct": -0.32,
-    "quote_time": "20:26:16 2026-11-18"
+    "price": 84.246,
+    "change": -0.404,
+    "change_pct": -0.48,
+    "quote_time": "20:34:28 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.17,
-    "change": 0.03,
-    "change_pct": 0.03,
-    "quote_time": "20:26:04 2026-11-18"
+    "price": 93.076,
+    "change": -0.064,
+    "change_pct": -0.07,
+    "quote_time": "20:34:31 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64290.9,
-    "change": -655.5,
-    "change_pct": -1.01,
+    "price": 64206.7,
+    "change": -691.8,
+    "change_pct": -1.07,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1802.59,
-    "change": -15.79,
-    "change_pct": -0.87,
+    "price": 1800.49,
+    "change": -15.9,
+    "change_pct": -0.88,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.62,
-    "change": 1.2,
-    "change_pct": 1.63,
+    "price": 74.49,
+    "change": 1.04,
+    "change_pct": 1.42,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.81,
-    "change": 0.25,
-    "change_pct": 0.24,
+    "price": 103.82,
+    "change": 0.26,
+    "change_pct": 0.25,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6665,
-    "change": -0.0005,
-    "change_pct": -0.01,
+    "price": 6.6667,
+    "change": -0.0003,
+    "change_pct": 0.0,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 24.24,
-   "change": -1.22,
-   "change_pct": -4.7918,
+   "value": 24.09,
+   "change": -1.37,
+   "change_pct": -5.381,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1412,7 +1412,7 @@
     25.46
    ],
    "vix3m": 24.98,
-   "term": "持平"
+   "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
@@ -1423,8 +1423,8 @@
     },
     {
      "t": "VIX",
-     "value": 24.24,
-     "change_pct": -4.7918
+     "value": 24.09,
+     "change_pct": -5.381
     },
     {
      "t": "VIX3M",
@@ -1454,26 +1454,26 @@
  },
  "speakers": [
   {
-   "keyword": "欧洲央行",
-   "label": "欧洲央行",
-   "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "欧洲央行副行长武伊契奇：12月加息的可能性非常大",
-   "summary": "【欧洲央行副行长武伊契奇：12月加息的可能性非常大】欧洲央行副行长武伊契奇称，就目前情况来看，12月加息的可能性非常大。",
-   "time": "2026-11-18 20:02:53",
-   "url": "https://finance.eastmoney.com/a/202611183934144737.html",
-   "source": "东财国际",
-   "mentions": 2
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普抵达深圳习近平亲赴机场接机– 普通话主页 - Radio Free Asia",
-   "summary": "",
-   "time": "2026-11-18 20:00",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbXZldDJPVTlFcHVyM3Jta0dCTDNpVDQ3Rm5rN1lYeXBhUFhUcHZmTGl2d2xUYUdCNXZXWE9tSEJxNkFrN1BncjJaVHVxdmZQUm9fSlh4RUl0UG1UdkhseDZ5b0RtZEZ5SGs0WmVGczFVNjl3T2dhYVEtVjJFZ213TTR4dWVDNXNxem1SSw?oc=5",
-   "source": "谷歌新闻·国际",
+   "title": "卡尼与特朗普在深圳APEC会议间隙会面。（彭博）",
+   "summary": "卡尼与特朗普在深圳APEC会议间隙会面。（彭博）",
+   "time": "2026-11-18 20:35",
+   "url": "https://wallstreetcn.com/livenews/3201953",
+   "source": "华尔街见闻",
    "mentions": 3
+  },
+  {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行副行长Vujcic：就目前情况来看，12月加息看起来非常有可能。\n\n目前看来，滞胀不太可能发生。\n\n2027年“肯定”会出现第二轮效应。\n\n市场对2027年的定价并非不合理。\n\n欧洲央行将很快讨论主要再融资利率（MRR）。\n\n财政问",
+   "summary": "欧洲央行副行长Vujcic：就目前情况来看，12月加息看起来非常有可能。\n\n目前看来，滞胀不太可能发生。\n\n2027年“肯定”会出现第二轮效应。\n\n市场对2027年的定价并非不合理。\n\n欧洲央行将很快讨论主要再融资利率（MRR）。\n\n财政问题必须通过财政政策来解决。",
+   "time": "2026-11-18 20:00",
+   "url": "https://wallstreetcn.com/livenews/3201945",
+   "source": "华尔街见闻",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1688,21 +1688,36 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "warning",
+   "asset": "COMEX白银",
+   "message": "COMEX白银单日跌3.70%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-18 20:35",
+   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
+  }
+ ],
  "news": [
   {
-   "title": "欧洲央行副行长武伊契奇：12月加息的可能性非常大",
-   "summary": "【欧洲央行副行长武伊契奇：12月加息的可能性非常大】欧洲央行副行长武伊契奇称，就目前情况来看，12月加息的可能性非常大。",
-   "time": "2026-11-18 20:02:53",
-   "url": "https://finance.eastmoney.com/a/202611183934144737.html",
-   "source": "东财国际"
+   "title": "卡尼与特朗普在深圳APEC会议间隙会面。（彭博）",
+   "summary": "卡尼与特朗普在深圳APEC会议间隙会面。（彭博）",
+   "time": "2026-11-18 20:35",
+   "url": "https://wallstreetcn.com/livenews/3201953",
+   "source": "华尔街见闻"
   },
   {
-   "title": "欧洲央行副行长Vujcic：就目前情况来看，12月加息看起来非常有可能。\n\n目前看来，滞胀不太可能发生。\n\n2027年“肯定”会出现第二轮效应。\n\n市场对2027年的定价并非不合理。\n\n欧洲央行将很快讨论主要再融资利率（MRR）。\n\n财政问",
-   "summary": "欧洲央行副行长Vujcic：就目前情况来看，12月加息看起来非常有可能。\n\n目前看来，滞胀不太可能发生。\n\n2027年“肯定”会出现第二轮效应。\n\n市场对2027年的定价并非不合理。\n\n欧洲央行将很快讨论主要再融资利率（MRR）。\n\n财政问题必须通过财政政策来解决。",
-   "time": "2026-11-18 20:00",
-   "url": "https://wallstreetcn.com/livenews/3201945",
-   "source": "华尔街见闻"
+   "title": "江苏银行对公客户ESG风险评级模型4.0版本正式上线 - 紫牛新闻",
+   "summary": "",
+   "time": "2026-11-18 20:31",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wQm5iemlLOXZLLVpJdFRFYWs0bHhadTFRcHlLb0xaYkRjNXl6Sm1YeEVsUThqcDh6ODFsakQ3UlprOTl2eFZ4dDF3bGh3bHpUVi1pMEUzUGV3RFJUNGJ4R29tcWFXajdC?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "山鹰国际：筹划重大事项 股票停牌",
+   "summary": "【山鹰国际：筹划重大事项 股票停牌】山鹰国际(600567.SH)公告称，公司接到相关方通知，获悉相关方正在筹划涉及公司的重大事项，该事项尚存在重大不确定性。为保证公平信息披露，维护投资者利益，公司股票将于2026年11月19日开市起停牌，预计停牌时间不超过2个交易日。",
+   "time": "2026-11-18 20:30:17",
+   "url": "https://finance.eastmoney.com/a/202611183934171858.html",
+   "source": "东财国际"
   },
   {
    "title": "特朗普抵达深圳习近平亲赴机场接机– 普通话主页 - Radio Free Asia",
@@ -1712,25 +1727,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "豆包工作上线3个月日活破800万，企业客户ARR突破20亿元",
    "summary": "",
-   "time": "2026-11-18 19:54",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FS0UxWGNCR0FkRkhyMkJCa1Y2bGV1NnBoVVhaRzN2RkxET2RyTUJvV1JPRy1ET2llb1dLU2xNMUlvcjNvWGRhdA?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "Java严重漏洞引美韩警告，英国敦促各组织及时打补丁",
-   "summary": "",
-   "time": "2026-11-18 12:03:24",
-   "url": "https://news.futunn.com/flash/1004902773/critical-java-vulnerability-prompts-warnings-from-us-and-south-korea",
-   "source": "富途"
-  },
-  {
-   "title": "“中国品牌全球行·匠心服务计划”在渝启动",
-   "summary": "",
-   "time": "2026-11-18 12:00:18",
-   "url": "https://news.10jqka.com.cn/20261118/c681967549.shtml",
+   "time": "2026-11-18 12:35:02",
+   "url": "https://news.10jqka.com.cn/20261118/c681969036.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "日本超算“富岳”遭入侵，科研数据安全引发担忧",
+   "summary": "",
+   "time": "2026-11-18 12:34:16",
+   "url": "https://news.futunn.com/flash/1004905626/japan-s-supercomputer-fugaku-breached-raising-concerns-over-scientific-data",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1747,18 +1755,25 @@
    "source": "财新"
   },
   {
-   "title": "北京商报侃股：谨慎抄底跌停股",
-   "summary": "【北京商报侃股：谨慎抄底跌停股】在A股市场中，部分投资者喜欢抄底买入股票，尤其面对快速下跌、出现跌停走势的个股，容易产生价格回落到位、存在反弹空间的判断，认为个股短期快速杀跌后成本更低，入场性价比更高，于是选择在跌停位置博弈反弹行情。但从实际交易结果来看，盲目抄底跌停股，是普通投资者最容易亏损的操作方式之一，潜在风险往往被忽视。",
-   "time": "2026-11-18 19:59:27",
-   "url": "https://finance.eastmoney.com/a/202611183934138565.html",
-   "source": "东财国际"
+   "title": "发言人证实德国提名Brunnermeier出任欧洲央行职位。（彭博）",
+   "summary": "发言人证实德国提名Brunnermeier出任欧洲央行职位。（彭博）",
+   "time": "2026-11-18 20:28",
+   "url": "https://wallstreetcn.com/livenews/3201950",
+   "source": "华尔街见闻"
   },
   {
-   "title": "美国11月13日当周MBA抵押贷款申请活动指数周环比 -2.3%，前值 6.2%。",
-   "summary": "美国11月13日当周MBA抵押贷款申请活动指数周环比 -2.3%，前值 6.2%。",
-   "time": "2026-11-18 20:00",
-   "url": "https://wallstreetcn.com/livenews/3201944",
-   "source": "华尔街见闻"
+   "title": "壹评级发布中国西电首次评级 - 第一财经",
+   "summary": "",
+   "time": "2026-11-18 20:10",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zNWcyY0FDS0dXZkhpNm9jVDhYZ2NuVjNFYmVIRDBrMUZqa1NzNXFqcUJsZDhhZUNyMTlReEJSZkQxcUZsSlRaTUVOaGUwUWxHSjlN?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "高油价推动英国通胀率创一年来新高",
+   "summary": "【高油价推动英国通胀率创一年来新高】据新华社，英国国家统计局18日公布的数据显示，英国10月消费者价格指数（CPI）同比涨幅由9月的3.5%升至3.6%，为12个月以来最高水平。英国央行同日表示，由于能源价格压力持续累积，明年英国通胀率将持续上升。",
+   "time": "2026-11-18 20:27:52",
+   "url": "https://finance.eastmoney.com/a/202611183934170754.html",
+   "source": "东财国际"
   },
   {
    "title": "大国外交最前线丨特朗普总统抵达，深圳之行有哪些看点 - ThePaper.cn",
@@ -1768,25 +1783,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "惠誉上调民生、广发、平安、华夏四家中资中型银行评级 - 观点网",
+   "title": "The Tjx美股盘前涨超5%",
    "summary": "",
-   "time": "2026-11-18 19:19",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5ZjJDRHhJU3U4cXY1Mnh6VkhBc0JZTkdqMUJkZ3Jhbjc0MHl0VUVwM25JZjdBT25IaGQ1dlFIZFdMaFB5elJlVVdiWDlucTgtS2Y3U3ZPd285bzNuX0d2LXNB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "《GTA6》发售前预购收入已经突破15亿美元",
-   "summary": "",
-   "time": "2026-11-18 11:21:00",
-   "url": "https://news.futunn.com/flash/1004898079/pre-order-revenue-for-gta-6-has-already-surpassed-1",
-   "source": "富途"
-  },
-  {
-   "title": "鹭燕医药：吴迪当选董事长并获聘总经理",
-   "summary": "",
-   "time": "2026-11-18 11:50:48",
-   "url": "https://news.10jqka.com.cn/20261118/c681967391.shtml",
+   "time": "2026-11-18 12:33:48",
+   "url": "https://news.10jqka.com.cn/20261118/c681968760.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "英国央行拟明确大型银行资本缓冲下调规则",
+   "summary": "",
+   "time": "2026-11-18 12:28:44",
+   "url": "https://news.futunn.com/flash/1004904914/bank-of-england-proposes-to-clarify-rules-for-reducing-capital",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1803,46 +1811,46 @@
    "source": "财新"
   },
   {
-   "title": "惠誉评级：中资银行业净息差预计温和回升",
-   "summary": "【惠誉评级：中资银行业净息差预计温和回升】11月18日，惠誉评级亚太区金融机构评级高级董事胡月明在“2026惠誉看中国”媒体交流会上对界面新闻记者表示，惠誉已将中资银行经营环境评分由“bbb-”/稳定上调至“bbb”/稳定，反映出监管持续完善、信贷纪律加强及影子银行风险下降。",
-   "time": "2026-11-18 19:56:51",
-   "url": "https://finance.eastmoney.com/a/202611183934139543.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产",
-   "summary": "日前，英伟达宣布扩大与台积电、矽品精密、景硕科技、三星电机、安靠科技、富士康等供应链企业的合作，以扩大基板、先进封装、晶圆和合同制造的产能。其中，英伟达将通过数十亿美元资金支持矽品精密在中国台湾扩大先进封装产能，相关产能计划于2029年年中前增加。此外，景硕科技计划将其桃园幼狮厂专供英伟达的先进ABF封装基板产能扩大至目前的3.5倍以上，预计2027年下半年启动相关生产，计划在2028年第三季度增",
-   "time": "2026-11-18 19:55",
-   "url": "https://wallstreetcn.com/livenews/3201942",
+   "title": "欧洲央行副行长Vujcic：就目前情况来看，12月加息看起来非常有可能。\n\n目前看来，滞胀不太可能发生。\n\n2027年“肯定”会出现第二轮效应。\n\n市场对2027年的定价并非不合理。\n\n欧洲央行将很快讨论主要再融资利率（MRR）。\n\n财政问",
+   "summary": "欧洲央行副行长Vujcic：就目前情况来看，12月加息看起来非常有可能。\n\n目前看来，滞胀不太可能发生。\n\n2027年“肯定”会出现第二轮效应。\n\n市场对2027年的定价并非不合理。\n\n欧洲央行将很快讨论主要再融资利率（MRR）。\n\n财政问题必须通过财政政策来解决。",
+   "time": "2026-11-18 20:00",
+   "url": "https://wallstreetcn.com/livenews/3201945",
    "source": "华尔街见闻"
   },
   {
-   "title": "大国外交最前线丨特朗普总统抵达 深圳之行有哪些看点 - 央视网",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-18 19:45",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OUVI2dXJsV0xLdlRzcXV5dkg2UW1uUU1qVXpZUkFwU2lySmdDZExpX1JZdWRna3Q0Umhvc0ZvTVdKZkZrVUVWQmRMQUpfbXd1QjdjZ0xqN1h2bktMZTZxblM0MmlKSTZIR2t2UHkxXzJySzdBalhiRQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "B.Riley下调Hyperfine Inc目标价，反映估值调整 提供者 Investing.com - 英为财情 Investing.com",
-   "summary": "",
-   "time": "2026-11-18 18:48",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FbTlLd0NjSm5HUFBfSnBqZ09ITThqZlRrRUFHR1kxaWtmWWFoNF8wdG5YTjlibUJoTlFYTGRjTkRnSGI3WTQyaUU3TkpNcWQybGpqRTQwUXZGMnhHZHBtbHRpVW1LZE5XcmhCS0hfUTNrRmVj?oc=5",
+   "time": "2026-11-18 19:54",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FS0UxWGNCR0FkRkhyMkJCa1Y2bGV1NnBoVVhaRzN2RkxET2RyTUJvV1JPRy1ET2llb1dLU2xNMUlvcjNvWGRhdA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "澜起科技：截至2026年11月18日累计回购331.39万股支付5亿元",
-   "summary": "",
-   "time": "2026-11-18 11:12:21",
-   "url": "https://news.futunn.com/flash/1004897475/montage-technology-cumulative-repurchase-of-3-3139-million-shares-with",
-   "source": "富途"
+   "title": "Anthropic冲刺史上最大IPO 据悉获近七倍超额认购",
+   "summary": "【Anthropic冲刺史上最大IPO 据悉获近七倍超额认购】Anthropic PBC即将为可能成为史上规模最大的首次公开募股(IPO)定价，尽管科技股已连续多日震荡，可能给这家初创公司期待已久的上市带来压力。周二有报道称，这家AI模型开发商正引导潜在IPO投资者，预计将发行价定在价格区间上端或更高水平。",
+   "time": "2026-11-18 20:27:09",
+   "url": "https://finance.eastmoney.com/a/202611183934169237.html",
+   "source": "东财国际"
   },
   {
-   "title": "ST天圣：申请撤销其他风险警示，尚需深交所审核",
+   "title": "习近平迎接美国总统特朗普 - 央视网",
    "summary": "",
-   "time": "2026-11-18 11:48:05",
-   "url": "https://news.10jqka.com.cn/20261118/c681967346.shtml",
+   "time": "2026-11-18 19:48",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6ZXFoRWNNakNMZEJ2Qi1FaDhOWmNxd0t6LVNEcHgxMkxROHh0OElWTXk4V3llLTQ2T0tVNVZZZ3dqNWhvLVIwVExNYTVjNk9JNmlmRXBVNHBZVlpJbGFjWGZJZXQ5N2FEbHBBeHF2bFV0czA1QlFyQQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "国家电网公司董事长张智刚会见中电控股有限公司董事会副主席斐历·嘉道理",
+   "summary": "",
+   "time": "2026-11-18 12:33:26",
+   "url": "https://news.10jqka.com.cn/20261118/c681968670.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "北京经开区“出海方案”正式印发",
+   "summary": "",
+   "time": "2026-11-18 12:18:33",
+   "url": "https://news.futunn.com/flash/1004904094/the-beijing-e-town-overseas-expansion-plan-has-been-officially",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1863,7 +1871,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(14)",
+   "富途": "ok(10)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1872,12 +1880,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 6,
-   "富途": 6,
+   "谷歌新闻·研报": 7,
+   "东财国际": 7,
+   "谷歌新闻·国际": 6,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 3,
    "财新": 6
   }
