@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 04:55:14 CST",
- "generated_at_iso": "2026-11-19T04:55:14+08:00",
+ "generated_at": "2026-11-19 05:03:27 CST",
+ "generated_at_iso": "2026-11-19T05:03:27+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50215.7617,
-    "change": -543.66,
-    "change_pct": -1.07,
-    "quote_time": "2026-11-19 04:55:06",
+    "price": 50198.0508,
+    "change": -561.37,
+    "change_pct": -1.11,
+    "quote_time": "2026-11-19 05:02:57",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24439.535,
-    "change": 111.152,
-    "change_pct": 0.46,
-    "quote_time": "2026-11-19 04:55:11",
+    "price": 24429.8847,
+    "change": 101.5017,
+    "change_pct": 0.42,
+    "quote_time": "2026-11-19 05:03:24",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7329.9702,
-    "change": -10.56,
-    "change_pct": -0.14,
-    "quote_time": "2026-11-19 04:55:06",
+    "price": 7323.5498,
+    "change": -16.98,
+    "change_pct": -0.23,
+    "quote_time": "2026-11-19 05:02:52",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1212,13 +1212,12 @@
   "bond": {
    "name": "美国10年期国债收益率",
    "sym": "US10Y",
-   "value": 5.1,
+   "value": 5.07,
    "unit": "%",
-   "change_bp": -2.0,
-   "date": "2026-11-17",
+   "change_bp": -3.0,
+   "date": "2026-11-18",
    "source": "美财政部",
    "hist": [
-    5.31,
     5.27,
     5.28,
     5.22,
@@ -1247,7 +1246,8 @@
     5.1,
     5.15,
     5.12,
-    5.1
+    5.1,
+    5.07
    ],
    "sigma_bp": 6.29
   },
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3730.445,
-    "change": -133.755,
-    "change_pct": -3.46,
-    "quote_time": "04:55:15 2026-11-19"
+    "price": 3727.897,
+    "change": -136.303,
+    "change_pct": -3.53,
+    "quote_time": "05:03:30 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.969,
-    "change": -2.388,
-    "change_pct": -5.04,
-    "quote_time": "04:55:15 2026-11-19"
+    "price": 44.901,
+    "change": -2.456,
+    "change_pct": -5.19,
+    "quote_time": "05:03:25 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.862,
-    "change": -2.788,
-    "change_pct": -3.29,
-    "quote_time": "04:55:16 2026-11-19"
+    "price": 81.805,
+    "change": -2.845,
+    "change_pct": -3.36,
+    "quote_time": "05:03:29 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.453,
-    "change": -1.687,
-    "change_pct": -1.81,
-    "quote_time": "04:55:16 2026-11-19"
+    "price": 91.416,
+    "change": -1.724,
+    "change_pct": -1.85,
+    "quote_time": "05:03:16 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 62550.7,
-    "change": -1365.8,
-    "change_pct": -2.14,
-    "source": "okx"
+    "price": 62594.8,
+    "change": -1448.2,
+    "change_pct": -2.26,
+    "source": "okx",
+    "hist": [
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     62603.1
+    ],
+    "sigma": 2.017
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1752.68,
-    "change": -43.24,
-    "change_pct": -2.41,
-    "source": "okx"
+    "price": 1755.5,
+    "change": -48.72,
+    "change_pct": -2.7,
+    "source": "okx",
+    "hist": [
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1756.36
+    ],
+    "sigma": 2.94
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.02,
-    "change": 0.08,
-    "change_pct": 0.11,
-    "source": "okx"
+    "price": 73.15,
+    "change": -0.09,
+    "change_pct": -0.12,
+    "source": "okx",
+    "hist": [
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.2
+    ],
+    "sigma": 3.023
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.77,
-    "change": 0.21,
-    "change_pct": 0.2,
+    "price": 103.78,
+    "change": 0.22,
+    "change_pct": 0.21,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.669,
-    "change": 0.002,
+    "price": 6.6691,
+    "change": 0.0021,
     "change_pct": 0.03,
     "dec": 4,
     "date": "",
@@ -1373,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 24.68,
-   "change": -0.78,
-   "change_pct": -3.0636,
+   "value": 24.61,
+   "change": -0.85,
+   "change_pct": -3.3386,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1411,33 +1510,33 @@
     22.91,
     25.46
    ],
-   "vix3m": 24.41,
+   "vix3m": 24.31,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 24.43,
-     "change_pct": -8.5019
+     "value": 24.26,
+     "change_pct": -9.1386
     },
     {
      "t": "VIX",
-     "value": 24.68,
-     "change_pct": -3.0636
+     "value": 24.61,
+     "change_pct": -3.3386
     },
     {
      "t": "VIX3M",
-     "value": 24.41,
-     "change_pct": -2.2818
+     "value": 24.34,
+     "change_pct": -2.562
     },
     {
      "t": "VIX6M",
-     "value": 24.81,
-     "change_pct": -2.2073
+     "value": 24.76,
+     "change_pct": -2.4044
     }
    ],
-   "ratio_9d_3m": 1.001,
+   "ratio_9d_3m": 0.997,
    "shape": "平坦",
    "source": "CBOE"
   },
@@ -1454,17 +1553,6 @@
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "受美元走强与大宗商品价格走低拖累，拉美汇市与股市双双下跌",
-   "summary": "随着交易员继续押注美联储未来将进一步加息，美元走强导致多数拉丁美洲货币承压下跌，同时大宗商品价格走弱也加剧了市场的低迷情绪。\n\n美元的全面走强引发了拉美货币的普遍下跌。MSCI拉美广义货币指数下跌1.35%至10个月低点，而追踪该地区股市的基准指数下跌2.97%，跌至2025年12月以来的最低水平。\n\n墨西哥比索贬值约2.49%，在连续三个交易日上涨后，恐创2025年4月以来的最大单日跌幅。\n\n巴",
-   "time": "2026-11-19 04:27",
-   "url": "https://wallstreetcn.com/livenews/3202157",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1473,18 +1561,7 @@
    "time": "2026-11-19 03:41",
    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcmxjQ2NHYW1oNEFkdE9KSFlsc1JqZXJmZVdkN2F3dzQ2cVFfVjQ2aVZVUnZOZXU3VDNxMWZzVG40eUhzb1Q0cHcxSEVXQm9JT2tFcE5UY1NyRGRBTWJ6SjBxSks5Q0p1WGVheG1IcDgzMnE0QkVySkE5TnNrNVRHRHo2VWk5bUp5SXNXb1FENktYS3dkaFNkbzRCS1lJZVZnM2UxVDJIM2twamVMajYxSXp0dzl4V3lFY242T3JRNlLSAcMBQVVfeXFMTjNya2pEVzNzSWZKd0NUUU1rQ2ZXSTRtenk4dnJlY01TRHJKcEFTWEk2d0U0bnNUR0d1QzRnd1ZjTjNZZVcxWUIyODZvd1NobEZ5X1M4eklTZUxuSmN6RWl3bHZCN3lic2VwSHZXQmlIVmhOX01qQk9yNDZLUTAwdkhRZk9Qb211U2IzeW1JOVNaeTdUemtWZENadGVxc1NOUnFLNUl6al9INDJjNlJtaFFfMjZBUENNbWlLSGdPWklYZ3VF?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
-  },
-  {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "马斯克的基金会在2025年捐出的近4亿美元超3.1亿美元流向了“The Foundation”",
-   "summary": "",
-   "time": "2026-11-18 19:43:46",
-   "url": "https://news.10jqka.com.cn/20261119/c681972589.shtml",
-   "source": "同花顺",
-   "mentions": 1
+   "mentions": 2
   }
  ],
  "research": {
@@ -1548,13 +1625,23 @@
   ],
   "reports": [
    {
-    "title": "芝加哥小麦期货跌超3.8%，大豆油跌超3.7%，玉米跌2.4%",
-    "org": "彭博",
+    "title": "纳斯达克中国金龙指数收跌1.35%",
+    "org": "国金",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://wallstreetcn.com/livenews/3202143",
+    "url": "https://finance.eastmoney.com/a/202611193934389423.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "派拓网络PAWN将按45亿美元收购Applied Compute。（华尔街日报）",
+    "org": "华尔街日报",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://wallstreetcn.com/livenews/3202172",
     "source": "机构观点"
    },
    {
@@ -1578,13 +1665,13 @@
     "source": "机构观点"
    },
    {
-    "title": "瑞银下调英伟达目标价 - 东方财富",
+    "title": "瑞银下调Meta目标价至815美元 估Muse带来600亿至1000亿美元增量收入 - 金融界",
     "org": "瑞银",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-18",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84YXNEN0ZJajIwLTdqNXJkT1NiNDgwa0ppYl9UYkhLdW5xUk9zcFRBNGNnbG1NNG9GRkt3c3RsOXhOeXhBbmJkb2dDcTFFNFk1YUNsSGNBNjhBdzFJdTFyN1d6VQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3V09WcFdDOVBWaGFKMF8wNlA0NlMwZlRsOEp5UVo1NjV5WnFJcHRfWW5pUUlHb2E1TXVGRzlJZDZpVVBKM1lxTEpRbEp0REF5OTlBOEpHVEE1bkIya0NEQTJoWlNOQQ?oc=5",
     "source": "机构观点"
    },
    {
@@ -1713,25 +1800,25 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌5.04%，达20日历史波动率的 2.8 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-19 04:55",
+   "message": "COMEX白银单日跌5.19%，达20日历史波动率的 2.9 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-19 05:04",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "美国一支航母打击群驶离波斯湾前往日本，当地仍留两支",
-   "summary": "两名美国官员表示，为执行对伊朗海上封锁而部署在波斯湾地区的三支美国航母打击群中，有一支已经离开该地区，可能正在返回母港。截至周三，“乔治·华盛顿”号航母打击群可能正在驶往其位于日本横须贺的母港。周一抵达的“西奥多·罗斯福”号航母打击群被认为可以在美国总统唐纳德·特朗普选择重启对伊军事行动时，为其提供更多军事选项。",
-   "time": "2026-11-19 04:38",
-   "url": "https://wallstreetcn.com/livenews/3202160",
-   "source": "华尔街见闻"
+   "title": "纳斯达克中国金龙指数收跌1.35%",
+   "summary": "【纳斯达克中国金龙指数收跌1.35%】纳斯达克中国金龙指数收跌1.30%。虎虎科技跌17.86%，爱奇艺跌17.44%，AIFU跌14.42%，世纪互联跌11.52%，JDZG跌8.89%。",
+   "time": "2026-11-19 05:02:31",
+   "url": "https://finance.eastmoney.com/a/202611193934389423.html",
+   "source": "东财国际"
   },
   {
-   "title": "胡塞武装：沙特主导的联军空袭也门伊卜省一村镇 已致3死2伤",
-   "summary": "【胡塞武装：沙特主导的联军空袭也门伊卜省一村镇 已致3死2伤】据也门胡塞武装18日晚间消息，沙特主导的联军针对也门伊卜省一村镇的空袭造成3人死亡、2人受伤。",
-   "time": "2026-11-19 04:29:41",
-   "url": "https://finance.eastmoney.com/a/202611193934384780.html",
-   "source": "东财国际"
+   "title": "派拓网络PAWN将按45亿美元收购Applied Compute。（华尔街日报）",
+   "summary": "派拓网络PAWN将按45亿美元收购Applied Compute。（华尔街日报）",
+   "time": "2026-11-19 05:02",
+   "url": "https://wallstreetcn.com/livenews/3202172",
+   "source": "华尔街见闻"
   },
   {
    "title": "美中俄三方会谈在即 专家建议这么谈 - 美国之音",
@@ -1748,17 +1835,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国“华盛顿”号航母离开波斯湾，中东仍留两艘航母",
+   "title": "美股收盘：三大股指涨跌不一 英伟达跌近3%",
    "summary": "",
-   "time": "2026-11-18 20:33:22",
-   "url": "https://news.futunn.com/flash/1004941434/us-aircraft-carrier-washington-departs-persian-gulf-two-carriers-remain",
+   "time": "2026-11-18 21:02:47",
+   "url": "https://news.futunn.com/flash/1004942995/us-market-close-major-indices-mixed-nvidia-falls-nearly-3",
    "source": "富途"
   },
   {
-   "title": "英伟达董事会主席：黄仁勋不会回归",
+   "title": "美股收评：纳指收涨0.42% 芯片股表现分化",
    "summary": "",
-   "time": "2026-11-18 20:17:07",
-   "url": "https://news.10jqka.com.cn/20261119/c681972627.shtml",
+   "time": "2026-11-18 21:01:25",
+   "url": "https://news.10jqka.com.cn/20261119/c681972708.shtml",
    "source": "同花顺"
   },
   {
@@ -1776,18 +1863,18 @@
    "source": "财新"
   },
   {
-   "title": "伊朗武装部队总参谋长：德黑兰对美国任何新袭击的回应将“更具毁灭性”，不仅针对美国，还将波及美国的盟友。",
-   "summary": "伊朗武装部队总参谋长：德黑兰对美国任何新袭击的回应将“更具毁灭性”，不仅针对美国，还将波及美国的盟友。",
-   "time": "2026-11-19 04:32",
-   "url": "https://wallstreetcn.com/livenews/3202159",
-   "source": "华尔街见闻"
+   "title": "纳指收涨0.42% 芯片股表现分化",
+   "summary": "【纳指收涨0.42% 芯片股表现分化】美股三大股指收盘涨跌不一，道琼斯指数跌1.11%，标普500指数跌0.23%，纳斯达克综合指数涨0.42%。芯片股表现分化，英伟达跌近3%，美光科技跌1%，英特尔跌近1%；AMD涨超5%，博通涨超3%。权重科技股多数走高，亚马逊涨近4%，SpaceX涨超1%，苹果小幅跟涨。",
+   "time": "2026-11-19 05:01:38",
+   "url": "https://finance.eastmoney.com/a/202611193934389182.html",
+   "source": "东财国际"
   },
   {
-   "title": "英伟达董事会主席在员工大会上表示 黄仁勋不会回归",
-   "summary": "英伟达董事会主席在员工大会上表示，黄仁勋不会回归。",
-   "time": "2026-11-19 04:16:18",
-   "url": "https://finance.eastmoney.com/a/202611193934384013.html",
-   "source": "东财国际"
+   "title": "加拿大股市下跌2.1%，创2020年11月以来最大单日跌幅。",
+   "summary": "加拿大股市下跌2.1%，创2020年11月以来最大单日跌幅。",
+   "time": "2026-11-19 05:01",
+   "url": "https://wallstreetcn.com/livenews/3202171",
+   "source": "华尔街见闻"
   },
   {
    "title": "特习三会，特朗普“确信”习近平会提台湾” 专家认为会谈难有实质变化 - 美国之音",
@@ -1804,17 +1891,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美元指数18日上涨",
+   "title": "Anthropic IPO最高定价或达85美元 总募资规模有望突破960亿美元",
    "summary": "",
-   "time": "2026-11-18 20:31:42",
-   "url": "https://news.futunn.com/flash/1004941383/the-us-dollar-index-rose-on-the-18th",
+   "time": "2026-11-18 20:54:09",
+   "url": "https://news.futunn.com/flash/1004942428/anthropic-s-ipo-price-cap-may-reach-85-total-fundraising",
    "source": "富途"
   },
   {
-   "title": "纳斯达克中国金龙指数跌幅扩大，现跌1.0%",
+   "title": "潘兴广场CEO阿克曼：仍看好微软，认为其股价被低估",
    "summary": "",
-   "time": "2026-11-18 20:08:02",
-   "url": "https://news.10jqka.com.cn/20261119/c681972621.shtml",
+   "time": "2026-11-18 20:42:08",
+   "url": "https://news.10jqka.com.cn/20261119/c681972682.shtml",
    "source": "同花顺"
   },
   {
@@ -1832,18 +1919,18 @@
    "source": "财新"
   },
   {
-   "title": "周三（11月18日）纽约尾盘，美元兑日元跌0.04%，报159.32日元，日内交投区间为159.65-159.13日元，亚太早盘刷新日高，11月11日以来高位企稳——13日曾达到160.19日元。\n\n欧元兑日元跌0.29%，报174.81日",
-   "summary": "周三（11月18日）纽约尾盘，美元兑日元跌0.04%，报159.32日元，日内交投区间为159.65-159.13日元，亚太早盘刷新日高，11月11日以来高位企稳——13日曾达到160.19日元。\n\n欧元兑日元跌0.29%，报174.81日元，亚太午盘显著走低；英镑兑日元跌0.51%，报209.434日元，亚太时段也显著走低，欧股开盘以来低位震荡；日元兑离岸人民币涨0.10%，报4.1874元。",
-   "time": "2026-11-19 04:32",
-   "url": "https://wallstreetcn.com/livenews/3202158",
-   "source": "华尔街见闻"
+   "title": "英伟达临时CEO承诺向员工发放加薪和股权激励",
+   "summary": "英伟达临时CEO承诺向员工发放加薪和股权激励。",
+   "time": "2026-11-19 04:44:52",
+   "url": "https://finance.eastmoney.com/a/202611193934387190.html",
+   "source": "东财国际"
   },
   {
-   "title": "纳斯达克中国金龙指数跌幅扩大",
-   "summary": "纳斯达克中国金龙指数跌幅扩大，现跌1.0%，最新报5310.06点。",
-   "time": "2026-11-19 04:06:12",
-   "url": "https://finance.eastmoney.com/a/202611193934384219.html",
-   "source": "东财国际"
+   "title": "纳斯达克金龙中国指数初步收跌1.3%。\n\n热门中概股里，腾讯ADR初步收跌3.6%，百度跌2.7%，阿里跌2.4%，小米ADR跌1%，新东方涨1.3%，日月光半导体涨2%，联想ADR涨4.2%。\n\nETF中，KWEB跌1.5%，CQQQ涨0",
+   "summary": "纳斯达克金龙中国指数初步收跌1.3%。\n\n热门中概股里，腾讯ADR初步收跌3.6%，百度跌2.7%，阿里跌2.4%，小米ADR跌1%，新东方涨1.3%，日月光半导体涨2%，联想ADR涨4.2%。\n\nETF中，KWEB跌1.5%，CQQQ涨0.1%。",
+   "time": "2026-11-19 05:00",
+   "url": "https://wallstreetcn.com/livenews/3202170",
+   "source": "华尔街见闻"
   },
   {
    "title": "特朗普抵达深圳：机场高规格迎接，三方峰会能带来哪些成果？ - 西雅图中文电台 Chinese Radio Seattle",
@@ -1853,24 +1940,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "瑞银下调英伟达目标价 - 东方财富",
+   "title": "瑞银下调Meta目标价至815美元 估Muse带来600亿至1000亿美元增量收入 - 金融界",
    "summary": "",
-   "time": "2026-11-18 22:34",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE84YXNEN0ZJajIwLTdqNXJkT1NiNDgwa0ppYl9UYkhLdW5xUk9zcFRBNGNnbG1NNG9GRkt3c3RsOXhOeXhBbmJkb2dDcTFFNFk1YUNsSGNBNjhBdzFJdTFyN1d6VQ?oc=5",
+   "time": "2026-11-18 22:31",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3V09WcFdDOVBWaGFKMF8wNlA0NlMwZlRsOEp5UVo1NjV5WnFJcHRfWW5pUUlHb2E1TXVGRzlJZDZpVVBKM1lxTEpRbEp0REF5OTlBOEpHVEE1bkIya0NEQTJoWlNOQQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "国际油价18日显著下跌",
+   "title": "英伟达提前数月发放加薪及股权奖励 应对员工士气压力",
    "summary": "",
-   "time": "2026-11-18 20:27:56",
-   "url": "https://news.futunn.com/flash/1004941014/international-oil-prices-fell-significantly-on-the-18th",
+   "time": "2026-11-18 20:53:15",
+   "url": "https://news.futunn.com/flash/1004942424/nvidia-advances-salary-increases-and-equity-awards-by-several-months",
    "source": "富途"
   },
   {
-   "title": "马斯克的基金会在2025年捐出的近4亿美元超3.1亿美元流向了“The Foundation”",
+   "title": "英伟达董事会主席：黄仁勋不会回归",
    "summary": "",
-   "time": "2026-11-18 19:43:46",
-   "url": "https://news.10jqka.com.cn/20261119/c681972589.shtml",
+   "time": "2026-11-18 20:17:07",
+   "url": "https://news.10jqka.com.cn/20261119/c681972627.shtml",
    "source": "同花顺"
   },
   {
@@ -1881,18 +1968,18 @@
    "source": "财新"
   },
   {
-   "title": "受美元走强与大宗商品价格走低拖累，拉美汇市与股市双双下跌",
-   "summary": "随着交易员继续押注美联储未来将进一步加息，美元走强导致多数拉丁美洲货币承压下跌，同时大宗商品价格走弱也加剧了市场的低迷情绪。\n\n美元的全面走强引发了拉美货币的普遍下跌。MSCI拉美广义货币指数下跌1.35%至10个月低点，而追踪该地区股市的基准指数下跌2.97%，跌至2025年12月以来的最低水平。\n\n墨西哥比索贬值约2.49%，在连续三个交易日上涨后，恐创2025年4月以来的最大单日跌幅。\n\n巴",
-   "time": "2026-11-19 04:27",
-   "url": "https://wallstreetcn.com/livenews/3202157",
-   "source": "华尔街见闻"
+   "title": "潘兴广场CEO阿克曼表示 仍看好微软 认为其股价被低估",
+   "summary": "潘兴广场CEO阿克曼表示，仍看好微软，认为其股价被低估。",
+   "time": "2026-11-19 04:41:20",
+   "url": "https://finance.eastmoney.com/a/202611193934386614.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(11)",
+   "富途": "ok(16)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1901,8 +1988,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "富途": 6,
