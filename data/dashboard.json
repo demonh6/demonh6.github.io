@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 12:21:59 CST",
- "generated_at_iso": "2026-11-18T12:21:59+08:00",
+ "generated_at": "2026-11-18 12:30:13 CST",
+ "generated_at_iso": "2026-11-18T12:30:13+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 58946.0,
-    "change": 85.57,
-    "change_pct": 0.15,
+    "price": 59250.34,
+    "change": 389.91,
+    "change_pct": 0.66,
     "hist": [
      70683.98,
      70035.71,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5027.21,
-    "change": 58.73,
-    "change_pct": 1.18,
+    "price": 5070.63,
+    "change": 102.15,
+    "change_pct": 2.06,
     "hist": [
      6803.9,
      6625.93,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3790.396,
-    "change": -73.804,
-    "change_pct": -1.91,
-    "quote_time": "12:22:01 2026-11-18"
+    "price": 3786.941,
+    "change": -77.259,
+    "change_pct": -2.0,
+    "quote_time": "12:30:14 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.917,
-    "change": -1.44,
-    "change_pct": -3.04,
-    "quote_time": "12:22:02 2026-11-18"
+    "price": 45.844,
+    "change": -1.513,
+    "change_pct": -3.19,
+    "quote_time": "12:30:14 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.816,
-    "change": -0.834,
-    "change_pct": -0.99,
-    "quote_time": "12:21:57 2026-11-18"
+    "price": 83.74,
+    "change": -0.91,
+    "change_pct": -1.08,
+    "quote_time": "12:30:14 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.655,
-    "change": -0.485,
-    "change_pct": -0.52,
-    "quote_time": "12:21:37 2026-11-18"
+    "price": 92.637,
+    "change": -0.503,
+    "change_pct": -0.54,
+    "quote_time": "12:30:09 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64588.8,
-    "change": -389.4,
-    "change_pct": -0.6,
+    "price": 64515.1,
+    "change": -458.6,
+    "change_pct": -0.71,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1808.71,
-    "change": -19.87,
-    "change_pct": -1.09,
+    "price": 1806.81,
+    "change": -20.85,
+    "change_pct": -1.14,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.98,
-    "change": 2.12,
-    "change_pct": 2.91,
+    "price": 74.96,
+    "change": 2.31,
+    "change_pct": 3.18,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.65,
-    "change": 0.09,
-    "change_pct": 0.09,
+    "price": 103.66,
+    "change": 0.1,
+    "change_pct": 0.1,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6667,
-    "change": -0.0003,
-    "change_pct": 0.0,
+    "price": 6.6666,
+    "change": -0.0004,
+    "change_pct": -0.01,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1344,9 +1344,9 @@
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 133.15,
-    "change": 0.41,
-    "change_pct": 0.31,
+    "price": 133.16,
+    "change": 0.42,
+    "change_pct": 0.32,
     "dec": 2,
     "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
@@ -1457,12 +1457,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：与伊朗的关系进展非常顺利。",
-   "summary": "特朗普：与伊朗的关系进展非常顺利。",
-   "time": "2026-11-18 11:48",
-   "url": "https://wallstreetcn.com/livenews/3201692",
-   "source": "华尔街见闻",
+   "title": "特朗普短暂出席东盟峰会，淡化国内外担忧 - 纽约时报中文网",
+   "summary": "",
+   "time": "2026-11-18 12:22",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VZjh3NFVMMkdZOGJPLVJuNVdJd19hMUVxeXNvTUMwZGRmY05BT3RMMlpkbzlFRUJKZ0FpSzc3MHlWZU9EdFFNcTRXLTJFU1VlYWpuZmhPR0kzUkMwVUVhRGxRakNyNkVkRE1lXzNLU0xXU3N2OFhfcUl5MA?oc=5",
+   "source": "谷歌新闻·国际",
    "mentions": 4
+  },
+  {
+   "keyword": "证监会",
+   "label": "证监会",
+   "hint": "A股核心监管机构的政策直接影响市场情绪",
+   "title": "中国证监会新闻发言人回应：监管要求基金公司上报全部产品AI敞口",
+   "summary": "",
+   "time": "2026-11-18 04:28:58",
+   "url": "https://news.futunn.com/flash/1004848931/china-securities-regulatory-commission-spokesperson-responds-regulators-require-fund-companies",
+   "source": "富途",
+   "mentions": 3
   }
  ],
  "research": {
@@ -1682,31 +1693,80 @@
    "level": "warning",
    "asset": "英国富时100",
    "message": "英国富时100单日跌1.76%，达20日历史波动率的 2.3 倍（σ=0.78%，突破 2σ 警戒线）",
-   "time": "2026-11-18 12:22",
+   "time": "2026-11-18 12:30",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-18 12:22",
+   "time": "2026-11-18 12:30",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
  "news": [
   {
-   "title": "国家能源局原副局长吴吟：新能源行业竞争应从规模竞争转向价值竞争",
-   "summary": "【国家能源局原副局长吴吟：新能源行业竞争应从规模竞争转向价值竞争】11月18日，在2026第九届国际光伏与储能产业大会上，国家能源局原副局长吴吟表示，新能源产业发展需要直面消纳、储能收益以及与电网系统如何协同等问题。他提到，随着能耗双控向碳排放双控转变，地方政府对能源发展的关注重点也将发生变化，新能源发展不能只关注装机规模，还要关注碳排放和实际利用效果。他认为，行业应从规模竞争走向价值竞争，未来需要直面三方面问题，一是新能源消纳如何突破，二是储能收益如何解决，三是新能源与电网的系统关系如何定义。在他看来，新能源产业发展还需要接受工程、市场和实际应用的检验，最终形成可靠、可交易、可交付的绿色生产力。",
-   "time": "2026-11-18 11:59:00",
-   "url": "https://finance.eastmoney.com/a/202611183933858388.html",
+   "title": "网传“监管要求基金公司上报全部产品AI敞口” 证监会新闻发言人回应",
+   "summary": "【网传“监管要求基金公司上报全部产品AI敞口” 证监会新闻发言人回应】问：近日，发现互联网上传播“监管要求基金公司上报全部产品AI敞口”相关信息，请问这一情况是否属实？答：该信息不属实。公募基金投资运作依照《证券投资基金法》等法律法规和基金合同约定进行，投资标的、投资比例由基金管理人按照基金合同和内部投资决策程序自主确定。",
+   "time": "2026-11-18 12:27:02",
+   "url": "https://finance.eastmoney.com/a/202611183933861858.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：与伊朗的关系进展非常顺利。",
-   "summary": "特朗普：与伊朗的关系进展非常顺利。",
-   "time": "2026-11-18 11:48",
-   "url": "https://wallstreetcn.com/livenews/3201692",
+   "title": "风口研报 - 财联社电报",
+   "summary": "",
+   "time": "2026-11-18 12:23",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLQVd0aFA0UkI0NTl0VXpCNjlucnZZcUhQbkZuVnZSbW9qcDZJT09Wa1VWZ3VjUlRjMDRON2Rham1mRDV0aTJfU0F5MG1LVlFvbHVMU3piMGwtellNczdzekZ3?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普短暂出席东盟峰会，淡化国内外担忧 - 纽约时报中文网",
+   "summary": "",
+   "time": "2026-11-18 12:22",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VZjh3NFVMMkdZOGJPLVJuNVdJd19hMUVxeXNvTUMwZGRmY05BT3RMMlpkbzlFRUJKZ0FpSzc3MHlWZU9EdFFNcTRXLTJFU1VlYWpuZmhPR0kzUkMwVUVhRGxRakNyNkVkRE1lXzNLU0xXU3N2OFhfcUl5MA?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "石药集团9个月净利润70.8亿元人民币，上年同期35.1亿元人民币；营收252.6亿元人民币；每股收益0.6199元人民币。",
+   "summary": "石药集团9个月净利润70.8亿元人民币，上年同期35.1亿元人民币；营收252.6亿元人民币；每股收益0.6199元人民币。",
+   "time": "2026-11-18 12:10",
+   "url": "https://wallstreetcn.com/livenews/3201698",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "东方财富财经早餐 11月18日周三",
+   "summary": "【东方财富财经早餐 11月18日周三】1、美商务部发布限制远程获取先进半导体相关措施，中方回应。2、英伟达预计第四季度营收1261亿至1339亿美元，高于市场预期。3、18只主动ETF下周一上市！上市前股票仓位需不低于80%。",
+   "time": "2026-11-18 06:00:20",
+   "url": "http://finance.eastmoney.com/a/202611173933231630.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "腾讯混元开源Hy4 flash",
+   "summary": "",
+   "time": "2026-11-18 04:30:17",
+   "url": "https://news.10jqka.com.cn/20261118/c681943980.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "中国证监会新闻发言人回应：监管要求基金公司上报全部产品AI敞口",
+   "summary": "",
+   "time": "2026-11-18 04:28:58",
+   "url": "https://news.futunn.com/flash/1004848931/china-securities-regulatory-commission-spokesperson-responds-regulators-require-fund-companies",
+   "source": "富途"
+  },
+  {
+   "title": "Andy Jassy看好Anthropic增长前景，称亚马逊有多种渠道支持AI基础设施投资",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-18/102506116.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "纷美包装：股票继续暂停买卖",
+   "summary": "【纷美包装：股票继续暂停买卖】纷美包装（00468.HK）公告，公司发布有关复牌情况的季度更新。公司股份自2025年2月19日起暂停买卖，并将维持暂停买卖直至另行通知。复牌进展方面，公司第二阶段调查已完成，内部控制审查的后续审查已完成，已刊发所有尚未刊发的财务业绩。目前公司公众持股量约占2.24%，由公众股东持有的3145.35万股股份代表，公司正推进拟议收购及股份奖励计划以恢复最低公众持股量。业务方面，截至2026年9月30日止九个月，公司合并收入约12.99亿元，合并净利润约1280万元。",
+   "time": "2026-11-18 12:25:00",
+   "url": "https://finance.eastmoney.com/a/202611183933862861.html",
+   "source": "东财国际"
   },
   {
    "title": "野村指京东第三季业绩大致符合预期 第四季零售展望偏弱 - 观点网",
@@ -1723,46 +1783,46 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "东方财富财经早餐 11月18日周三",
-   "summary": "【东方财富财经早餐 11月18日周三】1、美商务部发布限制远程获取先进半导体相关措施，中方回应。2、英伟达预计第四季度营收1261亿至1339亿美元，高于市场预期。3、18只主动ETF下周一上市！上市前股票仓位需不低于80%。",
-   "time": "2026-11-18 06:00:20",
-   "url": "http://finance.eastmoney.com/a/202611173933231630.html",
+   "title": "特朗普：与伊朗的关系进展非常顺利。",
+   "summary": "特朗普：与伊朗的关系进展非常顺利。",
+   "time": "2026-11-18 11:48",
+   "url": "https://wallstreetcn.com/livenews/3201692",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "东方财富财经早餐 11月17日周二",
+   "summary": "【东方财富财经早餐 11月17日周二】1、调用量冲上全球第一，DeepSeek开始对免费用户“限额”了。2、机构下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%。3、15天10板文投控股紧急公告：可能被*ST。",
+   "time": "2026-11-17 06:00:14",
+   "url": "http://finance.eastmoney.com/a/202611163932144347.html",
    "source": "东财早报"
   },
   {
-   "title": "习近平会见俄罗斯总统普京",
+   "title": "中国证监会新闻发言人答记者问",
    "summary": "",
-   "time": "2026-11-18 04:03:15",
-   "url": "https://news.10jqka.com.cn/20261118/c681942674.shtml",
+   "time": "2026-11-18 04:27:02",
+   "url": "https://news.10jqka.com.cn/20261118/c681943835.shtml",
    "source": "同花顺"
   },
   {
-   "title": "韩国家庭贷款增速放缓，降至2025年以来最低水平",
+   "title": "印度尼西亚总统普拉博沃抵达深圳",
    "summary": "",
-   "time": "2026-11-18 03:54:13",
-   "url": "https://news.futunn.com/flash/1004845654/the-growth-rate-of-household-loans-in-south-korea-slowed",
+   "time": "2026-11-18 04:15:57",
+   "url": "https://news.futunn.com/flash/1004847901/indonesian-president-prabowo-arrives-in-shenzhen",
    "source": "富途"
   },
   {
-   "title": "Andy Jassy看好Anthropic增长前景，称亚马逊有多种渠道支持AI基础设施投资",
+   "title": "CNBC援引知情人士称发行价可能落在80美元出头，市场关注上市后股价表现",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-18/102506116.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-18/102506113.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "东百集团在兰州成立经营管理新公司",
-   "summary": "【东百集团在兰州成立经营管理新公司】企查查APP显示，近日，兰州东百经营管理有限公司成立，经营范围包含金银制品销售；珠宝首饰零售；五金产品零售；服装服饰零售等。企查查股权穿透显示，该公司由东百集团全资持股。",
-   "time": "2026-11-18 11:54:22",
-   "url": "https://finance.eastmoney.com/a/202611183933856855.html",
+   "title": "摩根大通将迪士尼（DIS.N）的目标价从137美元上调至140美元",
+   "summary": "摩根大通将迪士尼（DIS.N）的目标价从137美元上调至140美元。",
+   "time": "2026-11-18 12:16:32",
+   "url": "https://finance.eastmoney.com/a/202611183933860075.html",
    "source": "东财国际"
-  },
-  {
-   "title": "特朗普：鉴于核能是安全的，我们现在非常重视核能。",
-   "summary": "特朗普：鉴于核能是安全的，我们现在非常重视核能。",
-   "time": "2026-11-18 11:41",
-   "url": "https://wallstreetcn.com/livenews/3201691",
-   "source": "华尔街见闻"
   },
   {
    "title": "大行评级｜中银国际：降小鹏港股目标价至60港元，第四季交付指引胜预期惟产品组合拖累利润率 - 金融界",
@@ -1779,60 +1839,11 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "东方财富财经早餐 11月17日周二",
-   "summary": "【东方财富财经早餐 11月17日周二】1、调用量冲上全球第一，DeepSeek开始对免费用户“限额”了。2、机构下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%。3、15天10板文投控股紧急公告：可能被*ST。",
-   "time": "2026-11-17 06:00:14",
-   "url": "http://finance.eastmoney.com/a/202611163932144347.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "港股午评：恒生指数跌1.13%，恒生科技指数跌1.47%",
-   "summary": "",
-   "time": "2026-11-18 04:02:00",
-   "url": "https://news.10jqka.com.cn/20261118/c681942601.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "日本20年期国债发行需求低于过去12个月均值",
-   "summary": "",
-   "time": "2026-11-18 03:50:52",
-   "url": "https://news.futunn.com/flash/1004845206/demand-for-japan-s-20-year-government-bond-issuance-was",
-   "source": "富途"
-  },
-  {
-   "title": "CNBC援引知情人士称发行价可能落在80美元出头，市场关注上市后股价表现",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-18/102506113.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "ETF两市成交额3055.36亿 同比增加282.38亿",
-   "summary": "【ETF两市成交额3055.36亿 同比增加282.38亿】截至午间收盘，ETF两市成交额报3055.36亿元，较昨日此时增加282.38亿元。",
-   "time": "2026-11-18 11:53:15",
-   "url": "https://finance.eastmoney.com/a/202611183933857085.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "日本拍卖20年期国债，认购倍数3.64，过去12个月均值为3.92。",
-   "summary": "日本拍卖20年期国债，认购倍数3.64，过去12个月均值为3.92。",
-   "time": "2026-11-18 11:40",
-   "url": "https://wallstreetcn.com/livenews/3201690",
+   "title": "特朗普：鉴于核能是安全的，我们现在非常重视核能。",
+   "summary": "特朗普：鉴于核能是安全的，我们现在非常重视核能。",
+   "time": "2026-11-18 11:41",
+   "url": "https://wallstreetcn.com/livenews/3201691",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "大行评级｜瑞银：上调腾讯音乐目标价至10美元，第四季前景优于市场忧虑 - 金融界",
-   "summary": "",
-   "time": "2026-11-18 11:13",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLNHVzWVlRSzJ3LVl3VlB4eXpBMXpXZ1V5WEdrRGxTd1BMcU1MQ1BFX2Y4RXROSkQzWXZjeXlnU1R5RVd3ZEpZZGsyeDRYenNudTY0NVladjBnY2NLcm4xR0ZBcExpdENNTjh1MFgyN0ZPX3Zf?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普：我非常期待这次中国之行，我们会讨论一些重要的事情，这将是一件美好的事 - 新浪新闻_手机新浪网",
-   "summary": "",
-   "time": "2026-11-18 10:49",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNOHFKYkRyOU9BdDFleGRWcWlmNmIxY0hBQUNrMGctODlJUUVQS29uZzFUYlBnbklKV3F5Njh6V3NBWlJWWlpIVUFoeGd0MXVkX2dOeHpWLVBlLWtSSjVBcXV1ay1td0tGWmd0LUk3bklRMnJIUEwwQVRaVzdFZzA?oc=5",
-   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月16日周一",
@@ -1842,17 +1853,17 @@
    "source": "东财早报"
   },
   {
-   "title": "美的成立启略企管合伙企业 出资额30亿元",
+   "title": "思路迪医药股份：3D189全球III期REGAL试验达到主要终点，死亡风险降低41%",
    "summary": "",
-   "time": "2026-11-18 04:01:03",
-   "url": "https://news.10jqka.com.cn/20261118/c681942565.shtml",
+   "time": "2026-11-18 04:11:05",
+   "url": "https://news.10jqka.com.cn/20261118/c681943083.shtml",
    "source": "同花顺"
   },
   {
-   "title": "韩国悬赏7.5万美元，打击考场AI作弊行为",
+   "title": "行云科技回应“拿卡渠道影响”：华为、平头哥等头部厂商产品已纳入供应链体系",
    "summary": "",
-   "time": "2026-11-18 03:48:35",
-   "url": "https://news.futunn.com/flash/1004844955/south-korea-offers-75000-reward-to-combat-ai-enabled-cheating",
+   "time": "2026-11-18 04:13:28",
+   "url": "https://news.futunn.com/flash/1004847739/xingyun-technology-responds-to-concerns-over-gpu-procurement-channel-impacts",
    "source": "富途"
   },
   {
@@ -1867,7 +1878,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(13)",
+   "富途": "ok(14)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1877,9 +1888,9 @@
   },
   "counts": {
    "东财国际": 7,
-   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
+   "谷歌新闻·国际": 7,
+   "华尔街见闻": 6,
    "东财早报": 3,
    "同花顺": 6,
    "富途": 6,
