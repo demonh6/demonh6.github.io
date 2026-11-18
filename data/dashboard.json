@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 17:26:39 CST",
- "generated_at_iso": "2026-11-18T17:26:39+08:00",
+ "generated_at": "2026-11-18 17:34:59 CST",
+ "generated_at_iso": "2026-11-18T17:34:59+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10655.77,
-    "change": -34.1,
-    "change_pct": -0.32,
+    "price": 10664.62,
+    "change": -25.25,
+    "change_pct": -0.24,
     "hist": [
      10458.5,
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8221.83,
-    "change": 5.05,
-    "change_pct": 0.06,
+    "price": 8205.08,
+    "change": -11.7,
+    "change_pct": -0.14,
     "hist": [
      7769.21,
      7729.69,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6227.33,
-    "change": 15.22,
-    "change_pct": 0.25,
+    "price": 6213.37,
+    "change": 1.26,
+    "change_pct": 0.02,
     "hist": [
      6180.3,
      6126.74,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3775.968,
-    "change": -88.232,
-    "change_pct": -2.28,
-    "quote_time": "17:26:41 2026-11-18"
+    "price": 3779.975,
+    "change": -84.225,
+    "change_pct": -2.18,
+    "quote_time": "17:35:01 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.719,
-    "change": -1.638,
-    "change_pct": -3.46,
-    "quote_time": "17:26:37 2026-11-18"
+    "price": 45.777,
+    "change": -1.58,
+    "change_pct": -3.34,
+    "quote_time": "17:34:58 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.985,
-    "change": -1.665,
-    "change_pct": -1.97,
-    "quote_time": "17:26:37 2026-11-18"
+    "price": 83.308,
+    "change": -1.342,
+    "change_pct": -1.59,
+    "quote_time": "17:35:01 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.791,
-    "change": -1.349,
-    "change_pct": -1.45,
-    "quote_time": "17:26:38 2026-11-18"
+    "price": 92.344,
+    "change": -0.796,
+    "change_pct": -0.85,
+    "quote_time": "17:34:56 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,26 +1294,26 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64652.8,
-    "change": 290.1,
-    "change_pct": 0.45,
+    "price": 64719.6,
+    "change": 304.7,
+    "change_pct": 0.47,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1812.21,
-    "change": 3.04,
-    "change_pct": 0.17,
+    "price": 1814.47,
+    "change": 1.22,
+    "change_pct": 0.07,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.78,
-    "change": 2.5,
+    "price": 74.95,
+    "change": 2.51,
     "change_pct": 3.46,
     "source": "okx"
    }
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.81,
-    "change": 0.25,
-    "change_pct": 0.24,
+    "price": 103.79,
+    "change": 0.23,
+    "change_pct": 0.22,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6663,
-    "change": -0.0007,
-    "change_pct": -0.01,
+    "price": 6.666,
+    "change": -0.001,
+    "change_pct": -0.02,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1457,22 +1457,11 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "抵达深圳前，特朗普盛赞美菲同盟关系 - RFI",
+   "title": "【美国总统特朗普将抵达深圳】11月18日下午，美国总统特朗普乘专机将抵达深圳，出席亚太经合组织第三十三次领导人非正式会议。#美国总统特朗普抵达深圳 #特朗普乘专机抵达深圳 #APEC （来源 央视新闻 编辑 柳爽） - Sohu",
    "summary": "",
-   "time": "2026-11-18 16:58",
-   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPWFBZTjFjNVpObS1hdEtVcW9zUjdRMTRGR3Y1VXdsYU5aMDNkM0N1N1h6MnFQeDd2MXQxUjBOT3pnMjVLcV9pSUhrVHV5dk9xN3Z0eDloX1FBekVqMjJ4cEoyM1JCYko5SGNIaE0zY3lCT3Bsb25Ta1o3VWtDaEoxMlFobnVJUzVkZHR2LUlyNDRiS2MyNjFQLWFKcW9CeWRURHoxRTY2NzlRZWZsd05HcFRGNjVnNGVhYU53cUEyOW8yY0RtQUF2V0VFM1ROWENWTzZTRGpOYkdMenNIaEpCN01ULTJ4TDd0YUJlbjkwRjJ3T1lEXzlVS1Bod0ZjZUJGbXlGS3ZtNERJUndGTnczSS1WaHFYcHBFZW1pY1BhcGNkT2EyZ3I0NjdJSQ?oc=5",
+   "time": "2026-11-18 17:06",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZDRQemxfTU16NW5ERFlPUEFveWhudGRKTjdScXAyVXQtNHNUVl9ZUS1NaVRkU01FdkR4dW8tX0dCTmNHaW9YM2txcGZFSk1BZzV3eUw0Wndsb0Zxa0dSTDlYOUV0TE54b21TTXhmdkEtUnJ5SkdLYU5KNk85ZFdna0t6TVN0WHdN?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "证监会",
-   "label": "证监会",
-   "hint": "A股核心监管机构的政策直接影响市场情绪",
-   "title": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
-   "summary": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
-   "time": "2026-11-18 16:54",
-   "url": "https://wallstreetcn.com/livenews/3201821",
-   "source": "华尔街见闻",
    "mentions": 1
   }
  ],
@@ -1711,38 +1700,45 @@
  "alerts": [],
  "news": [
   {
-   "title": "抵达深圳前，特朗普盛赞美菲同盟关系 - RFI",
-   "summary": "",
-   "time": "2026-11-18 16:58",
-   "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPWFBZTjFjNVpObS1hdEtVcW9zUjdRMTRGR3Y1VXdsYU5aMDNkM0N1N1h6MnFQeDd2MXQxUjBOT3pnMjVLcV9pSUhrVHV5dk9xN3Z0eDloX1FBekVqMjJ4cEoyM1JCYko5SGNIaE0zY3lCT3Bsb25Ta1o3VWtDaEoxMlFobnVJUzVkZHR2LUlyNDRiS2MyNjFQLWFKcW9CeWRURHoxRTY2NzlRZWZsd05HcFRGNjVnNGVhYU53cUEyOW8yY0RtQUF2V0VFM1ROWENWTzZTRGpOYkdMenNIaEpCN01ULTJ4TDd0YUJlbjkwRjJ3T1lEXzlVS1Bod0ZjZUJGbXlGS3ZtNERJUndGTnczSS1WaHFYcHBFZW1pY1BhcGNkT2EyZ3I0NjdJSQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "小马智行Q3 Robotaxi收入同比增165.4% 加速扩大海内外城市覆盖与车队规模",
-   "summary": "【小马智行Q3 Robotaxi收入同比增165.4% 加速扩大海内外城市覆盖与车队规模】11月18日，小马智行发布2026年第三季度财报。三季度总营收2.99亿元，同比增长75.2%，由Robotaxi与Robotruck业务共同驱动。其中，Robotaxi业务收入1.19亿元，同比大幅增长165.4%，环比增长47.1%，营收占比升至39.9%。",
-   "time": "2026-11-18 16:55:34",
-   "url": "https://finance.eastmoney.com/a/202611183934024784.html",
+   "title": "南京银行：获批发行不超过600亿元资本工具",
+   "summary": "【南京银行：获批发行不超过600亿元资本工具】南京银行(601009.SH)公告称，公司收到江苏金融监管局批复，同意发行不超过600亿元人民币的资本工具，品种为无固定期限资本债券。公司可在批准额度内自主决定发行时间、批次和规模，并于批准后24个月内完成发行。",
+   "time": "2026-11-18 17:32:43",
+   "url": "https://finance.eastmoney.com/a/202611183934052720.html",
    "source": "东财国际"
   },
   {
-   "title": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
-   "summary": "中信证券：获中国证监会批准发行不超过200亿元科技创新公司债券。",
-   "time": "2026-11-18 16:54",
-   "url": "https://wallstreetcn.com/livenews/3201821",
+   "title": "英国9月DCLG房价指数同比 1.2%，前值 0.9%。",
+   "summary": "英国9月DCLG房价指数同比 1.2%，前值 0.9%。",
+   "time": "2026-11-18 17:30",
+   "url": "https://wallstreetcn.com/livenews/3201847",
    "source": "华尔街见闻"
   },
   {
-   "title": "美股中概股盘前涨跌互现，蔚来涨1%",
+   "title": "摩根士丹利重申SpaceX买入评级及300美元目标价 - 观点网",
    "summary": "",
-   "time": "2026-11-18 09:01:18",
-   "url": "https://news.10jqka.com.cn/20261118/c681960199.shtml",
+   "time": "2026-11-18 17:19",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBnWFN3aWJac2Z2Y3l0cVM0Z1Z5S1lZUnk1TUwxVWZQdXhmSDRtZzBWb3l1TUxPaWV4U3U2M0lJTUt5VEVaMnR2aDBsOHRNVDBqN2s0VUtBUVVpMm9ZSGVmQTVR?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "习近平迎接美国总统特朗普 - 央视网",
+   "summary": "",
+   "time": "2026-11-18 17:12",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE82TFhYZHF1VDJvb3RzYUtEWW5HLTNEanBkX2R3UnEydnQtUkpmbVpzVDJkUFRpWWEzMzYySzdyUy1FSDRPa2tzWDl0cUxTS0FkQzM3NUJ3YWlGV1hLbVRDSGJYVW9kWk5vd3NYc2hfSi1ORWtNZTFKRA?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "华兰生物：参股公司度普利尤单抗注射液临床试验申请获受理",
+   "summary": "",
+   "time": "2026-11-18 09:34:17",
+   "url": "https://news.10jqka.com.cn/20261118/c681962712.shtml",
    "source": "同花顺"
   },
   {
-   "title": "巴克莱：霍尔木兹若进一步受扰，卡塔尔GDP和预算将继续承压",
+   "title": "王小洪会见马来西亚内政部部长赛义夫丁",
    "summary": "",
-   "time": "2026-11-18 08:58:24",
-   "url": "https://news.futunn.com/flash/1004880839/barclays-further-disruptions-in-the-strait-of-hormuz-to-keep",
+   "time": "2026-11-18 09:33:00",
+   "url": "https://news.futunn.com/flash/1004885726/wang-xiaohong-meets-with-malaysian-minister-of-home-affairs-saifuddin",
    "source": "富途"
   },
   {
@@ -1760,38 +1756,45 @@
    "source": "财新"
   },
   {
-   "title": "深圳：机场迎接仪式准备中，欢迎特朗普总统 - 京报网",
-   "summary": "",
-   "time": "2026-11-18 16:50",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFX1E4YW01TzYwd3htX0ZjT3RiNGZXc21MblN5LVM5bDFVMkxZbm85OGpob0Ztb0dYWEwzRHpCRVVJQnNjYnlkWlNxOEtidHNhV05taTFPYVVmSHVvX1E?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "美元指数升至近19个月高点",
-   "summary": "美元指数升至103.844，为近19个月高点。",
-   "time": "2026-11-18 16:54:36",
-   "url": "https://finance.eastmoney.com/a/202611183934018684.html",
+   "title": "美股盘前AI硬件股普遍反弹：英伟达、台积电涨逾3% 光通信板块表现强势",
+   "summary": "【美股盘前AI硬件股普遍反弹：英伟达、台积电涨逾3% 光通信板块表现强势】受英伟达财报及营收展望好于市场预期提振，美股盘前AI硬件股普遍走高。英伟达涨3.33%，台积电涨3.56%，博通涨2.27%，美光科技涨3.80%，SK海力士涨4.42%，AMD涨3.05%，英特尔涨2.05%，ARM涨3.60%，闪迪涨4.58%，西部数据涨3.52%，希捷科技涨4.08%。光通信板块表现强势，Lumentum涨5.01%，Coherent涨6.50%。三倍做多半导体ETF（SOXL）涨7.93%。",
+   "time": "2026-11-18 17:27:28",
+   "url": "https://finance.eastmoney.com/a/202611183934045430.html",
    "source": "东财国际"
   },
   {
-   "title": "英国国债价格延续涨势，30年期国债收益率下跌5个基点至5.77%。",
-   "summary": "英国国债价格延续涨势，30年期国债收益率下跌5个基点至5.77%。",
-   "time": "2026-11-18 16:49",
-   "url": "https://wallstreetcn.com/livenews/3201819",
+   "title": "香港特区行政长官李家超与文莱苏丹哈桑纳尔会面",
+   "summary": "香港特区行政长官李家超今天（11月18日）与文莱苏丹哈桑纳尔举行双边会谈。李家超表示，《香港第一个五年规划》和北部都会区发展正为香港注入强大动能，他欢迎文莱企业把握当中的庞大机遇，亦期望香港能积极担当“超级联系人”和“超级增值人”的角色，为文莱企业发掘商机同时，协助内地出海企业与文莱伙伴对接，实现合作共赢。（大湾区之声）",
+   "time": "2026-11-18 17:22",
+   "url": "https://wallstreetcn.com/livenews/3201855",
    "source": "华尔街见闻"
   },
   {
-   "title": "美股大型科技股盘前多数上涨，SK海力士涨超4%",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-18 09:01:13",
-   "url": "https://news.10jqka.com.cn/20261118/c681960192.shtml",
+   "time": "2026-11-18 17:17",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBiR3BxV0xwTlVySEttdGREWUJGdjYzRENwcFdxVFFtdnJ5cDNVeWw4dVZLVGhhUVN1azNYTUpwOV9XU1RFOUllYw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "习近平迎接美国总统特朗普 - 中国新闻网",
+   "summary": "",
+   "time": "2026-11-18 17:12",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wczNlOHBQVGdwcmZNUFJTekpDdVhWNG9DcmJuUEVnd3RjdVZkR21iWlpMRlJyclM5VGI5bUJYcVlIUDRmSHVDdTBDNjFVV3lfemJTVXE1VjNqU1JjZUpNMkF3WmVwaXZp?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "神马电力：巴西子公司签署6279.56万雷亚尔销售合同",
+   "summary": "",
+   "time": "2026-11-18 09:33:50",
+   "url": "https://news.10jqka.com.cn/20261118/c681962688.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美元走强与加息预期双重施压 黄金大跌2.5%",
+   "title": "分析师：单论业绩，英伟达本该涨10%",
    "summary": "",
-   "time": "2026-11-18 08:56:17",
-   "url": "https://news.futunn.com/flash/1004880677/gold-plunges-2-5-amid-dual-pressure-from-stronger-dollar",
+   "time": "2026-11-18 09:27:36",
+   "url": "https://news.futunn.com/flash/1004884771/analyst-based-on-performance-alone-nvidia-should-have-risen-by",
    "source": "富途"
   },
   {
@@ -1809,38 +1812,45 @@
    "source": "财新"
   },
   {
-   "title": "独家视频丨美国总统特朗普将抵达深圳 - 新浪新闻_手机新浪网",
-   "summary": "",
-   "time": "2026-11-18 16:47",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdW9qcjlvZ1JiUEVpeWUxRzQycS1WQ2hQNzhUbUt5aW16eHh5aG81MnVWM05oS3h6VUxVZXpod19EczRNR1lfV2UyXzBpcmRIN2RTckFRN2xnVlNJZmVGSWZaYkszMXR1Q0lxWTg1UU45NjNMUkhhSmF1ejh4b0FSbC1FZWlYUFJqaDVRNGxPcGVPcjVUOTM2NQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "瑞银财富管理预计MSCI新兴市场指数2027年底将达到1770点",
-   "summary": "瑞银财富管理预计MSCI新兴市场指数2027年底将达到1,770点。",
-   "time": "2026-11-18 16:53:35",
-   "url": "https://finance.eastmoney.com/a/202611183934019448.html",
+   "title": "北新路桥：中标1.45亿元S249线南山口至哈密段改扩建项目",
+   "summary": "【北新路桥：中标1.45亿元S249线南山口至哈密段改扩建项目】北新路桥(002307)11月18日公告，公司近日收到《中标通知书》，公司确定为S249线南山口至哈密段改扩建项目（施工三标段）中标人，中标金额为1.45亿元，占公司2025年度经审计营业收入的1.29%。",
+   "time": "2026-11-18 17:25:00",
+   "url": "https://finance.eastmoney.com/a/202611183934048951.html",
    "source": "东财国际"
   },
   {
-   "title": "腾讯控股：第三季的一般及行政开支同比增长29% 至人民币441亿元，主要由于研发开支增加，以升级Hy系列模型、推进微信AI举措及开发我们各项产品与服务的AI能力。若剔除研发开支，一般及行政开支同比增长2% 至人民币117亿元，体现我们对非A",
-   "summary": "腾讯控股：第三季的一般及行政开支同比增长29% 至人民币441亿元，主要由于研发开支增加，以升级Hy系列模型、推进微信AI举措及开发我们各项产品与服务的AI能力。若剔除研发开支，一般及行政开支同比增长2% 至人民币117亿元，体现我们对非AI相关开支的管控。",
-   "time": "2026-11-18 16:43",
-   "url": "https://wallstreetcn.com/livenews/3201818",
+   "title": "中国银行股份有限公司原党委委员、副行长林景臻受贿案一审宣判",
+   "summary": "11月18日，浙江省杭州市中级人民法院一审公开宣判中国银行股份有限公司原党委委员、副行长林景臻受贿案，对被告人林景臻以受贿罪判处有期徒刑十三年，并处罚金人民币三百万元；对林景臻犯罪所得财物及孳息依法予以追缴，上缴国库。",
+   "time": "2026-11-18 17:14",
+   "url": "https://wallstreetcn.com/livenews/3201828",
    "source": "华尔街见闻"
   },
   {
-   "title": "中国银行股份有限公司原党委委员、副行长林景臻受贿案一审宣判",
+   "title": "大行评级丨大摩：上调纽柯钢铁目标价至310美元，评级升至“跑赢大市”_股市直播_市场 - 中金在线",
    "summary": "",
-   "time": "2026-11-18 09:00:49",
-   "url": "https://news.10jqka.com.cn/20261118/c681960167.shtml",
+   "time": "2026-11-18 17:14",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pTWc3SVVDNWZ2cF8zNEpYSVp4Ri1feXZLR1pHbDdnMml5TmNJd3d3VE1fVFJ4WkMwTTJfNllwZGhudmZlbFM5YlRubHR6QnctcXZ6ak5nWVZaZndPLVNKRE04cHhxelg0N25OZg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "【美国总统特朗普将抵达深圳】11月18日下午，美国总统特朗普乘专机将抵达深圳，出席亚太经合组织第三十三次领导人非正式会议。#美国总统特朗普抵达深圳 #特朗普乘专机抵达深圳 #APEC （来源 央视新闻 编辑 柳爽） - Sohu",
+   "summary": "",
+   "time": "2026-11-18 17:06",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZDRQemxfTU16NW5ERFlPUEFveWhudGRKTjdScXAyVXQtNHNUVl9ZUS1NaVRkU01FdkR4dW8tX0dCTmNHaW9YM2txcGZFSk1BZzV3eUw0Wndsb0Zxa0dSTDlYOUV0TE54b21TTXhmdkEtUnJ5SkdLYU5KNk85ZFdna0t6TVN0WHdN?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "安诺其：全资子公司完成工商注册，注册资本3亿元",
+   "summary": "",
+   "time": "2026-11-18 09:33:44",
+   "url": "https://news.10jqka.com.cn/20261118/c681962682.shtml",
    "source": "同花顺"
   },
   {
-   "title": "雷军：明年小米汽车正式出海",
+   "title": "《国家中小企业公共服务示范平台（基地）基地类建设指引》印发",
    "summary": "",
-   "time": "2026-11-18 08:48:55",
-   "url": "https://news.futunn.com/flash/1004879277/lei-jun-xiaomi-auto-to-officially-enter-overseas-markets-next",
+   "time": "2026-11-18 09:27:07",
+   "url": "https://news.futunn.com/flash/1004884718/guidelines-for-the-construction-of-national-public-service-demonstration-platforms",
    "source": "富途"
   },
   {
@@ -1856,49 +1866,29 @@
    "time": "",
    "url": "https://database.caixin.com/2026-11-18/102506095.html?cxapp_link=true",
    "source": "财新"
-  },
-  {
-   "title": "美国总统特朗普抵达深圳 - 新湖南",
-   "summary": "",
-   "time": "2026-11-18 16:41",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMR25FSE1nZlNnQWh0cENtVGNmckJxTjNzNXZ6cjAxQTF2bXI2Ti1NTTIwLTZmTVhvTVVOQm1jdVV6M01kdzFoWmdsQmF0WkpxeVhmaXZvaUhWa1VBNHlr?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "瑞银财富管理预计美国10年期公债收益率2027年底将达到4.75%",
-   "summary": "瑞银财富管理预计美国10年期公债收益率2027年底将达到4.75%。",
-   "time": "2026-11-18 16:49:09",
-   "url": "https://finance.eastmoney.com/a/202611183934017728.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "腾讯控股：三季度本土市场游戏收入为人民币476亿元，同比增长11%",
-   "summary": "腾讯控股：增值服务业务二零二六年第三季的收入同比增长3%至人民币983亿元。本土市场游戏收入为人民币476亿元，同比增长11%，受《三角洲行动》、《无畏契约：源能行动》及《王者荣耀》等游戏的收入增长所驱动。国际市场游戏收入为人民币189亿元，同比下降9%（按固定汇率计算下降4%），主要受去年同期Supercell旗下若干游戏在社交媒体引发热烈反响及《消逝的光芒：困兽》上线所带来的较高基数影响。社交",
-   "time": "2026-11-18 16:43",
-   "url": "https://wallstreetcn.com/livenews/3201816",
-   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(18)",
+   "富途": "ok(8)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
-   "谷歌新闻·研报": "FAIL:HTTPError"
+   "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 8,
-   "东财国际": 8,
-   "华尔街见闻": 8,
-   "同花顺": 7,
-   "富途": 7,
+   "东财国际": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 6,
+   "同花顺": 6,
+   "富途": 6,
    "东财早报": 3,
-   "财新": 7
+   "财新": 6
   }
  },
  "wuxing": {
