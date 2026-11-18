@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 19:00:13 CST",
- "generated_at_iso": "2026-11-18T19:00:13+08:00",
+ "generated_at": "2026-11-18 19:09:17 CST",
+ "generated_at_iso": "2026-11-18T19:09:17+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -900,11 +900,11 @@
      58775.5,
      60459.58,
      61248.59,
-     60819.36,
-     61142.35,
-     59662.02,
-     58860.43,
-     59024.28
+     60819.3594,
+     61142.3516,
+     59662.0195,
+     58860.4297,
+     59024.2813
     ],
     "sigma": 2.002,
     "volume": 0.0,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10656.47,
-    "change": -33.4,
-    "change_pct": -0.31,
+    "price": 10646.91,
+    "change": -42.96,
+    "change_pct": -0.4,
     "hist": [
      10458.5,
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8224.04,
-    "change": 7.26,
-    "change_pct": 0.09,
+    "price": 8223.19,
+    "change": 6.41,
+    "change_pct": 0.08,
     "hist": [
      7769.21,
      7729.69,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6228.53,
-    "change": 16.42,
-    "change_pct": 0.26,
+    "price": 6229.75,
+    "change": 17.64,
+    "change_pct": 0.28,
     "hist": [
      6180.3,
      6126.74,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3772.656,
-    "change": -91.544,
-    "change_pct": -2.37,
-    "quote_time": "19:00:16 2026-11-18"
+    "price": 3767.42,
+    "change": -96.78,
+    "change_pct": -2.5,
+    "quote_time": "19:09:16 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.747,
-    "change": -1.61,
-    "change_pct": -3.4,
-    "quote_time": "19:00:11 2026-11-18"
+    "price": 45.657,
+    "change": -1.7,
+    "change_pct": -3.59,
+    "quote_time": "19:09:15 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.463,
-    "change": -1.187,
-    "change_pct": -1.4,
-    "quote_time": "19:00:17 2026-11-18"
+    "price": 83.887,
+    "change": -0.763,
+    "change_pct": -0.9,
+    "quote_time": "19:09:21 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.514,
-    "change": -0.626,
-    "change_pct": -0.67,
-    "quote_time": "19:00:16 2026-11-18"
+    "price": 92.751,
+    "change": -0.389,
+    "change_pct": -0.42,
+    "quote_time": "19:09:21 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,9 +1294,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64372.4,
-    "change": 201.2,
-    "change_pct": 0.31,
+    "price": 64187.9,
+    "change": -62.7,
+    "change_pct": -0.1,
     "source": "okx",
     "hist": [
      82610.4,
@@ -1328,17 +1328,17 @@
      64747.7,
      64466.2,
      64112.8,
-     64308.8
+     64165.4
     ],
-    "sigma": 2.227
+    "sigma": 2.22
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1806.78,
-    "change": 16.61,
-    "change_pct": 0.93,
+    "price": 1799.2,
+    "change": 4.79,
+    "change_pct": 0.27,
     "source": "okx",
     "hist": [
      2441.27,
@@ -1370,17 +1370,17 @@
      1811.03,
      1820.08,
      1785.28,
-     1804.11
+     1798.14
     ],
-    "sigma": 3.167
+    "sigma": 3.155
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.7,
-    "change": 2.5,
-    "change_pct": 3.46,
+    "price": 74.4,
+    "change": 1.88,
+    "change_pct": 2.59,
     "source": "okx",
     "hist": [
      105.88,
@@ -1412,18 +1412,18 @@
      71.24,
      70.79,
      72.46,
-     74.61
+     74.36
     ],
-    "sigma": 3.402
+    "sigma": 3.38
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.77,
-    "change": 0.21,
-    "change_pct": 0.2,
+    "price": 103.8,
+    "change": 0.24,
+    "change_pct": 0.23,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1432,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6669,
-    "change": -0.0001,
+    "price": 6.667,
+    "change": 0.0,
     "change_pct": 0.0,
     "dec": 4,
     "date": "",
@@ -1472,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 23.63,
-   "change": -1.83,
-   "change_pct": -7.1877,
+   "value": 23.61,
+   "change": -1.85,
+   "change_pct": -7.2663,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1522,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 23.63,
-     "change_pct": -7.1877
+     "value": 23.61,
+     "change_pct": -7.2663
     },
     {
      "t": "VIX3M",
@@ -1551,7 +1551,19 @@
    }
   }
  },
- "speakers": [],
+ "speakers": [
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普总统抵达深圳 中国国家主席习近平机场迎接 - 美国之音",
+   "summary": "",
+   "time": "2026-11-18 18:55",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdFBZQkREQTAzbDFUNS1tWDBVU0NDdWhsaXI0eHlwNHJCM3BIc1NCLUxpTlZJdDRkbm01WEJyeDJtczBybHJqQXh3c3hJYm1NQ3ZFWFoxQVVrZ19KS19xOVZvaGl2RnE3dFZzVEotSE1Ka2JJbzhfTUFaMWFYNXk4eVdGcXIxc1Q4aVZKMHloYUJ0YTJ5NWhnNGVKOEhWejlpZGfSAaQBQVVfeXFMTUx4SjhkWEJUemV3aFdKcFVYWDMxMWJjQzhKaUJMN1ZWbjcyeVQ5V2o1N0V2dVg0TmxKa0tSWUY2dVpfRGN1bUFzbUM4UXhtQ29xYkVkWXJtekV0cDh1NlVReXowUF9XVWYzbHZhcmtsWnMtaUJaQ09LRHNpMEU5M2VWMUhER0s5OXVleGxnUlZyZ3QtOE93WXA2NEZWby1pU1NZSzY?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  }
+ ],
  "research": {
   "digest": [
    {
@@ -1612,16 +1624,6 @@
    }
   ],
   "reports": [
-   {
-    "title": "高盛：市场大幅上调SK海力士2027年HBM利润预期，幅度近30%",
-    "org": "高盛",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://news.futunn.com/flash/1004895260/goldman-sachs-the-market-has-significantly-raised-its-2027-hbm",
-    "source": "机构观点"
-   },
    {
     "title": "山西证券：给予百利天恒买入评级_券商研报_数据解析 - 证券之星",
     "org": "山西证券",
@@ -1777,6 +1779,13 @@
  "alerts": [],
  "news": [
   {
+   "title": "阿里健康：12月9日起 公司股票每手买卖单位由2000股改为500股",
+   "summary": "【阿里健康：12月9日起 公司股票每手买卖单位由2000股改为500股】阿里健康在港交所发布公告称，公司股票每手买卖单位将由2,000股股份更改为500股股份，自2026年12月9日（星期三）上午9时正起生效。",
+   "time": "2026-11-18 19:05:08",
+   "url": "https://finance.eastmoney.com/a/202611183934113774.html",
+   "source": "东财国际"
+  },
+  {
    "title": "江苏：持续完善全省一体化算力监测调度平台功能，强化长三角算力枢纽节点功能",
    "summary": "江苏省人民政府办公厅近日印发《促进平台经济创新和规范健康发展若干措施》。其中提到，构建智能算力服务平台。鼓励重点企业、基础电信运营商与各地共建行业专属算力节点。鼓励发展标准化、可扩展的算力云服务。探索建立市场化算力交易机制。持续完善全省一体化算力监测调度平台功能，强化长三角算力枢纽节点功能。加快建设省公共算力中心。探索多元异构智能算力体系和绿电直供智算中心新模式，提升智算中心绿电使用比例。支持有条",
    "time": "2026-11-18 19:00",
@@ -1784,11 +1793,11 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "胜宏科技：取得不超过2.7亿元股票回购专项贷款承诺函",
-   "summary": "【胜宏科技：取得不超过2.7亿元股票回购专项贷款承诺函】胜宏科技(300476.SZ)公告称，公司于2026年11月17日取得工商银行惠州分行出具的《贷款承诺函》，承诺为公司本次回购股份提供不超过2.7亿元专项贷款额度，且不超过回购金额上限的90%，贷款期限不超过三年。此前公司拟以1.5亿元至3亿元自有资金或自筹资金回购股份，回购价格不超过240.49元/股。",
-   "time": "2026-11-18 18:58:27",
-   "url": "https://finance.eastmoney.com/a/202611183934108412.html",
-   "source": "东财国际"
+   "title": "特朗普总统抵达深圳 中国国家主席习近平机场迎接 - 美国之音",
+   "summary": "",
+   "time": "2026-11-18 18:55",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdFBZQkREQTAzbDFUNS1tWDBVU0NDdWhsaXI0eHlwNHJCM3BIc1NCLUxpTlZJdDRkbm01WEJyeDJtczBybHJqQXh3c3hJYm1NQ3ZFWFoxQVVrZ19KS19xOVZvaGl2RnE3dFZzVEotSE1Ka2JJbzhfTUFaMWFYNXk4eVdGcXIxc1Q4aVZKMHloYUJ0YTJ5NWhnNGVKOEhWejlpZGfSAaQBQVVfeXFMTUx4SjhkWEJUemV3aFdKcFVYWDMxMWJjQzhKaUJMN1ZWbjcyeVQ5V2o1N0V2dVg0TmxKa0tSWUY2dVpfRGN1bUFzbUM4UXhtQ29xYkVkWXJtekV0cDh1NlVReXowUF9XVWYzbHZhcmtsWnMtaUJaQ09LRHNpMEU5M2VWMUhER0s5OXVleGxnUlZyZ3QtOE93WXA2NEZWby1pU1NZSzY?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "壹评级发布中国西电首次评级 - 第一财经",
@@ -1798,24 +1807,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "新华图讯丨习近平迎接美国总统特朗普 - 新华网",
+   "title": "澜起科技：2026年第二次回购实施完毕，累计回购331.39万股支付5亿元",
    "summary": "",
-   "time": "2026-11-18 18:37",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV0p6WEw3OS0ya2RLbU9BQzZMUmZXM1RtOElGUl9nYjVkVG01NUU2NEFxb05oOVNmbjZ3Zk9adWs5VXRJSmpSbkNJbGhlUTlzUjNVY0t1Ymtsc0RJbkhMS3VMX1RET3VBQWh3VW9fR3BBZzItWXZOeTFGVEV0RXBWX05iUjV5SmFuOFRCakx3?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "胜宏科技：取得股票回购专项贷款承诺函，额度不超过2.7亿元",
-   "summary": "",
-   "time": "2026-11-18 10:57:49",
-   "url": "https://news.10jqka.com.cn/20261118/c681965666.shtml",
+   "time": "2026-11-18 11:09:46",
+   "url": "https://news.10jqka.com.cn/20261118/c681966734.shtml",
    "source": "同花顺"
   },
   {
-   "title": "高盛：市场大幅上调SK海力士2027年HBM利润预期，幅度近30%",
+   "title": "水利部出台新规加强评标专家管理",
    "summary": "",
-   "time": "2026-11-18 10:51:42",
-   "url": "https://news.futunn.com/flash/1004895260/goldman-sachs-the-market-has-significantly-raised-its-2027-hbm",
+   "time": "2026-11-18 11:07:32",
+   "url": "https://news.futunn.com/flash/1004896831/ministry-of-water-resources-introduces-new-regulations-to-strengthen-management",
    "source": "富途"
   },
   {
@@ -1833,6 +1835,13 @@
    "source": "财新"
   },
   {
+   "title": "迪拜美团无人机索降航线将投入使用 “无人机外卖”加速出海",
+   "summary": "【迪拜美团无人机索降航线将投入使用 “无人机外卖”加速出海】迪拜时间11月18日，美团无人机第四代索降机型 M-Drone 4L 在海外首次亮相，迪拜美团无人机索降航线将于近期正式投入使用。截至目前，美团无人机已在迪拜开展近2年的商业运营。",
+   "time": "2026-11-18 19:03:00",
+   "url": "https://finance.eastmoney.com/a/202611183934115870.html",
+   "source": "东财国际"
+  },
+  {
    "title": "陈吉宁会见瑞士罗氏集团董事会主席施万",
    "summary": "上海市委书记陈吉宁今天（11月18日）上午会见了瑞士罗氏集团董事会主席施万一行。陈吉宁介绍了上海卫生健康事业及生物医药产业发展最新情况。他说，罗氏作为上海市市长国际企业家咨询会议成员，与上海有着长期良好合作，为城市发展积极建言献策。欢迎把握科技创新加速、消费市场变化等发展机遇，加强卫生健康各领域务实合作，围绕推动人工智能赋能生物医药全产业链创新、促进健康保险发展和产品开发等方面深化交流互鉴，在沪落",
    "time": "2026-11-18 18:55",
@@ -1840,11 +1849,11 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "江海股份：拟2000万元—4000万元回购股份",
-   "summary": "【江海股份：拟2000万元—4000万元回购股份】江海股份(002484)11月18日公告，公司拟以2000万元—4000万元回购股份，用于股权激励或员工持股计划。回购价格不超过40元/股。",
-   "time": "2026-11-18 18:56:00",
-   "url": "https://finance.eastmoney.com/a/202611183934108397.html",
-   "source": "东财国际"
+   "title": "新华图讯丨习近平迎接美国总统特朗普 - 新华网",
+   "summary": "",
+   "time": "2026-11-18 18:37",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOV0p6WEw3OS0ya2RLbU9BQzZMUmZXM1RtOElGUl9nYjVkVG01NUU2NEFxb05oOVNmbjZ3Zk9adWs5VXRJSmpSbkNJbGhlUTlzUjNVY0t1Ymtsc0RJbkhMS3VMX1RET3VBQWh3VW9fR3BBZzItWXZOeTFGVEV0RXBWX05iUjV5SmFuOFRCakx3?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "山西证券：给予百利天恒买入评级_券商研报_数据解析 - 证券之星",
@@ -1854,24 +1863,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "习近平迎接美国总统特朗普_中华人民共和国驻开普敦总领事馆 - capetown.china-consulate.gov.cn",
+   "title": "三生国健：拟以2000万元-4000万元回购公司股份",
    "summary": "",
-   "time": "2026-11-18 18:29",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SLTk4VW1YRlh5Z2ZmU0xMNHdLYVd2dlMyQWFVRmttc2IzVGdyZTVad0NpYUU0X0JUM25ud1VRMVRGSXc1dm1XTzJRRHNHeENCX1Y5T2JoRnJ5eW9sNUQ0aVNZUThKeW9Oclk2VlhOcm8yMnlqR012OThBRkhwUjg?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "苏林：中国发展成就证明改革开放正确性",
-   "summary": "",
-   "time": "2026-11-18 10:46:03",
-   "url": "https://news.10jqka.com.cn/20261118/c681965450.shtml",
+   "time": "2026-11-18 11:04:54",
+   "url": "https://news.10jqka.com.cn/20261118/c681966493.shtml",
    "source": "同花顺"
   },
   {
-   "title": "印英贸易协定墨迹未干，印度散装威士忌关税反升至162.5%",
+   "title": "德国政府提名布鲁纳迈尔出任欧洲央行执委会成员",
    "summary": "",
-   "time": "2026-11-18 10:44:18",
-   "url": "https://news.futunn.com/flash/1004894249/as-the-ink-dries-on-the-india-uk-trade-agreement",
+   "time": "2026-11-18 11:07:31",
+   "url": "https://news.futunn.com/flash/1004896830/the-german-government-has-nominated-brunnermeier-as-a-member-of",
    "source": "富途"
   },
   {
@@ -1889,6 +1891,13 @@
    "source": "财新"
   },
   {
+   "title": "兴发集团：拟出资20.4亿元设立控股子公司布局磷矿资源",
+   "summary": "【兴发集团：拟出资20.4亿元设立控股子公司布局磷矿资源】兴发集团(600141.SH)公告称，公司拟与铜陵万桥矿业有限公司共同出资设立控股子公司远安兴华汇矿业有限公司，注册资本40亿元。其中公司以货币认缴出资20.4亿元，出资占比51%；铜陵万桥认缴出资19.6亿元，占比49%。标的公司主要开展磷矿矿权获取、开发及下游磷酸等磷化工产品布局。",
+   "time": "2026-11-18 19:02:44",
+   "url": "https://finance.eastmoney.com/a/202611183934111779.html",
+   "source": "东财国际"
+  },
+  {
    "title": "以色列议会选举卡哈纳为新任议长",
    "summary": "以色列议会11月17日晚以66票赞成、52票反对的表决结果，选举正直党议员马坦·卡哈纳为新任议长，接替来自利库德集团的阿米尔·奥哈纳。（新华社）",
    "time": "2026-11-18 18:54",
@@ -1896,11 +1905,11 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "江苏：推进5G-A网络部署、万兆光网建设和工业5G专网建设 前瞻布局第六代移动通信技术",
-   "summary": "【江苏：推进5G-A网络部署、万兆光网建设和工业5G专网建设 前瞻布局第六代移动通信技术】江苏省人民政府办公厅发布《促进平台经济创新和规范健康发展若干措施》。其中提到，夯实数字基础设施。推进5G-A网络部署、万兆光网建设和工业5G专网建设，前瞻布局第六代移动通信技术（6G）。推进IPv6规模部署和应用。加快建设覆盖全省、高效畅通的城域“毫秒用算”网络体系。",
-   "time": "2026-11-18 18:54:47",
-   "url": "https://finance.eastmoney.com/a/202611183934108190.html",
-   "source": "东财国际"
+   "title": "习近平迎接美国总统特朗普_中华人民共和国驻开普敦总领事馆 - capetown.china-consulate.gov.cn",
+   "summary": "",
+   "time": "2026-11-18 18:29",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SLTk4VW1YRlh5Z2ZmU0xMNHdLYVd2dlMyQWFVRmttc2IzVGdyZTVad0NpYUU0X0JUM25ud1VRMVRGSXc1dm1XTzJRRHNHeENCX1Y5T2JoRnJ5eW9sNUQ0aVNZUThKeW9Oclk2VlhOcm8yMnlqR012OThBRkhwUjg?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "开源证券：给予恒立钻具增持评级_券商研报_数据解析 - 证券之星",
@@ -1910,24 +1919,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普政府留学生实习限制令 被联邦法官叫停 - 联合早报",
+   "title": "苏州天脉：董事会提议向下修正天脉转债转股价格，当前转股价267.33元/股",
    "summary": "",
-   "time": "2026-11-18 18:17",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBFSVB2QzNPSXBiLThYWWIxRWh1emFuZ1ZhZWNCRW8zVUNPVlIwaEd3bGh1SURYZ2dxMWZfMHYwTUZBLXd6amFUVWFrdVBWTVdKSGVUYUhZcFhRNFgzaEdIYzdpUmVIa3ZXbDR3?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "麦格米特：控股股东、实控人及部分董监高拟增持公司股份",
-   "summary": "",
-   "time": "2026-11-18 10:44:27",
-   "url": "https://news.10jqka.com.cn/20261118/c681965416.shtml",
+   "time": "2026-11-18 11:01:45",
+   "url": "https://news.10jqka.com.cn/20261118/c681966017.shtml",
    "source": "同花顺"
   },
   {
-   "title": "路德科技：核心发酵基地产能利用率正逐步攀升",
+   "title": "阿里健康：公司股票每手买卖单位由2000股改为500股",
    "summary": "",
-   "time": "2026-11-18 10:32:44",
-   "url": "https://news.futunn.com/flash/1004893071/lude-technology-capacity-utilization-at-core-fermentation-bases-is-steadily",
+   "time": "2026-11-18 11:06:08",
+   "url": "https://news.futunn.com/flash/1004896743/ali-health-board-lot-size-for-company-shares-adjusted-from",
    "source": "富途"
   },
   {
@@ -1949,19 +1951,19 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(20)",
+   "富途": "ok(24)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "ok(30)",
+   "百度财经": "FAIL:RuntimeError",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
+   "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 6,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 3,
