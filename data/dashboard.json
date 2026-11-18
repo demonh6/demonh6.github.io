@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 21:00:15 CST",
- "generated_at_iso": "2026-11-18T21:00:15+08:00",
+ "generated_at": "2026-11-18 21:09:13 CST",
+ "generated_at_iso": "2026-11-18T21:09:13+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10632.24,
-    "change": -57.63,
-    "change_pct": -0.54,
+    "price": 10621.75,
+    "change": -68.12,
+    "change_pct": -0.64,
     "hist": [
      10458.5,
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8187.66,
-    "change": -29.12,
-    "change_pct": -0.35,
+    "price": 8192.31,
+    "change": -24.47,
+    "change_pct": -0.3,
     "hist": [
      7769.21,
      7729.69,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6201.86,
-    "change": -10.25,
-    "change_pct": -0.17,
+    "price": 6202.95,
+    "change": -9.16,
+    "change_pct": -0.15,
     "hist": [
      6180.3,
      6126.74,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3748.513,
-    "change": -115.687,
-    "change_pct": -2.99,
-    "quote_time": "21:00:19 2026-11-18"
+    "price": 3763.913,
+    "change": -100.287,
+    "change_pct": -2.6,
+    "quote_time": "21:09:17 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.086,
-    "change": -2.271,
-    "change_pct": -4.8,
-    "quote_time": "21:00:19 2026-11-18"
+    "price": 45.514,
+    "change": -1.843,
+    "change_pct": -3.89,
+    "quote_time": "21:09:16 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.215,
-    "change": -0.435,
-    "change_pct": -0.51,
-    "quote_time": "21:00:20 2026-11-18"
+    "price": 84.433,
+    "change": -0.217,
+    "change_pct": -0.26,
+    "quote_time": "21:09:16 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 93.028,
-    "change": -0.112,
-    "change_pct": -0.12,
-    "quote_time": "21:00:13 2026-11-18"
+    "price": 93.312,
+    "change": 0.172,
+    "change_pct": 0.18,
+    "quote_time": "21:09:11 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,9 +1294,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64073.9,
-    "change": -997.5,
-    "change_pct": -1.53,
+    "price": 64019.5,
+    "change": -1080.0,
+    "change_pct": -1.66,
     "source": "okx",
     "hist": [
      82610.4,
@@ -1328,17 +1328,17 @@
      64747.7,
      64466.2,
      64112.8,
-     64078.6
+     64055.5
     ],
-    "sigma": 2.216
+    "sigma": 2.215
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1795.12,
-    "change": -28.71,
-    "change_pct": -1.57,
+    "price": 1796.01,
+    "change": -28.38,
+    "change_pct": -1.56,
     "source": "okx",
     "hist": [
      2441.27,
@@ -1370,17 +1370,17 @@
      1811.03,
      1820.08,
      1785.28,
-     1795.55
+     1797.44
     ],
-    "sigma": 3.151
+    "sigma": 3.154
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.31,
-    "change": 0.6,
-    "change_pct": 0.81,
+    "price": 74.24,
+    "change": 0.28,
+    "change_pct": 0.38,
     "source": "okx",
     "hist": [
      105.88,
@@ -1412,18 +1412,18 @@
      71.24,
      70.79,
      72.46,
-     74.32
+     74.37
     ],
-    "sigma": 3.376
+    "sigma": 3.38
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.83,
-    "change": 0.27,
-    "change_pct": 0.26,
+    "price": 103.79,
+    "change": 0.23,
+    "change_pct": 0.22,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1432,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6676,
-    "change": 0.0006,
+    "price": 6.6674,
+    "change": 0.0004,
     "change_pct": 0.01,
     "dec": 4,
     "date": "",
@@ -1472,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 24.74,
-   "change": -0.72,
-   "change_pct": -2.828,
+   "value": 24.61,
+   "change": -0.85,
+   "change_pct": -3.3386,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1522,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 24.74,
-     "change_pct": -2.828
+     "value": 24.61,
+     "change_pct": -3.3386
     },
     {
      "t": "VIX3M",
@@ -1556,12 +1556,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普抵达深圳习近平亲赴机场接机– 普通话主页 - Radio Free Asia",
+   "title": "追上特朗普专机，马斯克又来了 - 凤凰网",
    "summary": "",
-   "time": "2026-11-18 20:00",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbXZldDJPVTlFcHVyM3Jta0dCTDNpVDQ3Rm5rN1lYeXBhUFhUcHZmTGl2d2xUYUdCNXZXWE9tSEJxNkFrN1BncjJaVHVxdmZQUm9fSlh4RUl0UG1UdkhseDZ5b0RtZEZ5SGs0WmVGczFVNjl3T2dhYVEtVjJFZ213TTR4dWVDNXNxem1SSw?oc=5",
+   "time": "2026-11-18 20:51",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE13SVZpSEtDSmJjSTEyQVEwMENEY3daeFAtb2QzdGZGejZEU0JVb3p2TFlSN1MtSDNtUXIwcDFlOWYzZmNtb0JFaTdZWlU?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 3
   },
   {
    "keyword": "欧洲央行",
@@ -1644,6 +1644,16 @@
     "date": "",
     "url": "https://database.caixin.com/2026-11-18/102506113.html?cxapp_link=true",
     "source": "机构观点"
+   },
+   {
+    "title": "端侧AI赋能场景数字化，物理AI与科学仪器拓展成长空间",
+    "org": "东吴证券",
+    "rating": "买入",
+    "stock": "海康威视",
+    "industry": "计算机设备",
+    "date": "2026-11-18",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611181831835378",
+    "source": "东财研报·个股"
    },
    {
     "title": "FIC双抗ADC宜泽康商业化落地，多管线开启全球III期临床",
@@ -1754,16 +1764,6 @@
     "date": "2026-11-18",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611181831809254",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "银行理财周度跟踪：股债双弱推升破净率，总量显韧性、结构转防御",
-    "org": "华宝证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611181831834938",
-    "source": "东财研报·行业"
    }
   ]
  },
@@ -1771,25 +1771,32 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.80%，达20日历史波动率的 2.7 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-18 21:01",
+   "message": "COMEX白银单日跌3.89%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-18 21:10",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "夜盘期货开盘，沪银、沪锡跌超4%，沪金、沪铜跌超2%，棉纱、合成橡胶、乙二醇、LPG、丙烯等跌超1%。",
-   "summary": "夜盘期货开盘，沪银、沪锡跌超4%，沪金、沪铜跌超2%，棉纱、合成橡胶、乙二醇、LPG、丙烯等跌超1%。",
-   "time": "2026-11-18 21:00",
-   "url": "https://wallstreetcn.com/livenews/3201966",
+   "title": "俄罗斯客机在接到炸弹威胁后降落在安塔利亚。（NTV）",
+   "summary": "俄罗斯客机在接到炸弹威胁后降落在安塔利亚。（NTV）",
+   "time": "2026-11-18 21:05",
+   "url": "https://wallstreetcn.com/livenews/3201967",
    "source": "华尔街见闻"
   },
   {
-   "title": "SpaceX 400亿美元芯片融资将不体现在资产负债表上",
-   "summary": "SpaceX400亿美元芯片融资将不体现在资产负债表上。",
-   "time": "2026-11-18 20:57:15",
-   "url": "https://finance.eastmoney.com/a/202611183934207058.html",
+   "title": "LME伦铜跌超4%",
+   "summary": "LME伦铜跌幅扩大，现跌4.06%，最新报12689.865美元/吨。",
+   "time": "2026-11-18 21:04:20",
+   "url": "https://finance.eastmoney.com/a/202611183934210942.html",
    "source": "东财国际"
+  },
+  {
+   "title": "追上特朗普专机，马斯克又来了 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-18 20:51",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE13SVZpSEtDSmJjSTEyQVEwMENEY3daeFAtb2QzdGZGejZEU0JVb3p2TFlSN1MtSDNtUXIwcDFlOWYzZmNtb0JFaTdZWlU?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社电报",
@@ -1799,17 +1806,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普抵达深圳习近平亲赴机场接机– 普通话主页 - Radio Free Asia",
+   "title": "黑龙江围绕产业需求优化调整学科专业",
    "summary": "",
-   "time": "2026-11-18 20:00",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbXZldDJPVTlFcHVyM3Jta0dCTDNpVDQ3Rm5rN1lYeXBhUFhUcHZmTGl2d2xUYUdCNXZXWE9tSEJxNkFrN1BncjJaVHVxdmZQUm9fSlh4RUl0UG1UdkhseDZ5b0RtZEZ5SGs0WmVGczFVNjl3T2dhYVEtVjJFZ213TTR4dWVDNXNxem1SSw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "期市夜盘开盘，国内期货主力合约多数下跌",
-   "summary": "",
-   "time": "2026-11-18 13:00:07",
-   "url": "https://news.10jqka.com.cn/20261118/c681970484.shtml",
+   "time": "2026-11-18 13:08:15",
+   "url": "https://news.10jqka.com.cn/20261118/c681970698.shtml",
    "source": "同花顺"
   },
   {
@@ -1834,18 +1834,25 @@
    "source": "财新"
   },
   {
-   "title": "墨西哥总统辛鲍姆称与特朗普会晤“非常富有成效”",
-   "summary": "墨西哥总统克劳迪娅·辛鲍姆在X平台发文称，与美国总统唐纳德·特朗普及其团队举行了一场“非常富有成效”的会晤。我们继续在共同议程上取得进展。",
-   "time": "2026-11-18 20:59",
-   "url": "https://wallstreetcn.com/livenews/3201964",
+   "title": "夜盘期货开盘，沪银、沪锡跌超4%，沪金、沪铜跌超2%，棉纱、合成橡胶、乙二醇、LPG、丙烯等跌超1%。",
+   "summary": "夜盘期货开盘，沪银、沪锡跌超4%，沪金、沪铜跌超2%，棉纱、合成橡胶、乙二醇、LPG、丙烯等跌超1%。",
+   "time": "2026-11-18 21:00",
+   "url": "https://wallstreetcn.com/livenews/3201966",
    "source": "华尔街见闻"
   },
   {
-   "title": "吉贝尔：氢溴酸特吉西汀原料药上市申请获受理",
-   "summary": "【吉贝尔：氢溴酸特吉西汀原料药上市申请获受理】吉贝尔(688566.SH)公告称，公司近日收到国家药品监督管理局核准签发的《受理通知书》，在研抗抑郁新药氢溴酸特吉西汀原料药上市申请已获受理。该药是公司研发的具有新型多受体作用机制的抗抑郁一类新药，可明显延长药物半衰期，安全性和耐受性良好，有望成为新型抗抑郁症药物。",
-   "time": "2026-11-18 20:56:15",
-   "url": "https://finance.eastmoney.com/a/202611183934207161.html",
+   "title": "腾讯高管谈最新收紧限制对AI影响：短期算力与训练承压 长期将加速国产供应链建设",
+   "summary": "【腾讯高管谈最新收紧限制对AI影响：短期算力与训练承压 长期将加速国产供应链建设】针对最新收紧限制对AI业务的影响，腾讯高管表示，这是现实问题，但有几个方面需要说明。第一，这确实让所有人都受到影响，当前实际可用的算力减少，无论是租赁还是自建算力都受到影响。第二，训练会受到影响，腾讯现在使用混元Hy4精度训练的效率其实很高；但混元版本下一代可能需要更长时间才能推出。",
+   "time": "2026-11-18 21:00:32",
+   "url": "https://finance.eastmoney.com/a/202611183934207830.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普抵达深圳习近平亲赴机场接机– 普通话主页 - Radio Free Asia",
+   "summary": "",
+   "time": "2026-11-18 20:00",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbXZldDJPVTlFcHVyM3Jta0dCTDNpVDQ3Rm5rN1lYeXBhUFhUcHZmTGl2d2xUYUdCNXZXWE9tSEJxNkFrN1BncjJaVHVxdmZQUm9fSlh4RUl0UG1UdkhseDZ5b0RtZEZ5SGs0WmVGczFVNjl3T2dhYVEtVjJFZ213TTR4dWVDNXNxem1SSw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "江苏银行对公客户ESG风险评级模型4.0版本正式上线 - 紫牛新闻",
@@ -1855,17 +1862,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "大国外交最前线丨特朗普总统抵达，深圳之行有哪些看点 - ThePaper.cn",
+   "title": "LME铜主力合约跌超4%",
    "summary": "",
-   "time": "2026-11-18 19:55",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oNXpNaWR0ckNlWjUyZmJmUl90M3FVVFNzXzY4T1Q4VkhxVFVhbFM1TVRpS2xNSWhXbEVYMWxDSU1NUWJodk8tREVGUkVpdW5UakZxbzJ2UHBxNmdSRlZKNA?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "NYMEX铂金主力合约大跌5%",
-   "summary": "",
-   "time": "2026-11-18 12:52:02",
-   "url": "https://news.10jqka.com.cn/20261118/c681970403.shtml",
+   "time": "2026-11-18 13:04:26",
+   "url": "https://news.10jqka.com.cn/20261118/c681970605.shtml",
    "source": "同花顺"
   },
   {
@@ -1890,18 +1890,25 @@
    "source": "财新"
   },
   {
-   "title": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元",
-   "summary": "11月18日，豆包官方宣布，上线仅三个月的豆包工作日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR）突破 20 亿元。",
-   "time": "2026-11-18 20:58",
-   "url": "https://wallstreetcn.com/livenews/3201963",
+   "title": "墨西哥总统辛鲍姆称与特朗普会晤“非常富有成效”",
+   "summary": "墨西哥总统克劳迪娅·辛鲍姆在X平台发文称，与美国总统唐纳德·特朗普及其团队举行了一场“非常富有成效”的会晤。我们继续在共同议程上取得进展。",
+   "time": "2026-11-18 20:59",
+   "url": "https://wallstreetcn.com/livenews/3201964",
    "source": "华尔街见闻"
   },
   {
-   "title": "现货铂金跌幅一度扩大至5%",
-   "summary": "【现货铂金跌幅一度扩大至5%】现货铂金跌幅一度扩大至5%，至每盎司1357.75美元。",
-   "time": "2026-11-18 20:56:09",
-   "url": "https://finance.eastmoney.com/a/202611183934206931.html",
+   "title": "国内商品期货夜盘开盘 主力合约大面积飘绿",
+   "summary": "【国内商品期货夜盘开盘 主力合约大面积飘绿】国内商品期货夜盘开盘，主力合约大面积飘绿。跌幅方面，沪锡、沪银跌超4%，沪铜、沪金跌超2%，沪镍、丙烯、LPG、乙二醇、丁二烯胶等跌超1%；涨幅方面，烧碱、螺纹钢、铁矿石、玉米、热卷等小幅上涨。",
+   "time": "2026-11-18 21:00:05",
+   "url": "https://finance.eastmoney.com/a/202611183934207688.html",
    "source": "东财国际"
+  },
+  {
+   "title": "大国外交最前线丨特朗普总统抵达，深圳之行有哪些看点 - ThePaper.cn",
+   "summary": "",
+   "time": "2026-11-18 19:55",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9oNXpNaWR0ckNlWjUyZmJmUl90M3FVVFNzXzY4T1Q4VkhxVFVhbFM1TVRpS2xNSWhXbEVYMWxDSU1NUWJodk8tREVGUkVpdW5UakZxbzJ2UHBxNmdSRlZKNA?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "壹评级发布中国西电首次评级 - 第一财经",
@@ -1911,17 +1918,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "习近平迎接美国总统特朗普 - 央视网",
+   "title": "日本多个民间团体要求政府坚持“无核三原则”",
    "summary": "",
-   "time": "2026-11-18 19:48",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB6ZXFoRWNNakNMZEJ2Qi1FaDhOWmNxd0t6LVNEcHgxMkxROHh0OElWTXk4V3llLTQ2T0tVNVZZZ3dqNWhvLVIwVExNYTVjNk9JNmlmRXBVNHBZVlpJbGFjWGZJZXQ5N2FEbHBBeHF2bFV0czA1QlFyQQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "COMEX黄金期货跌超3%",
-   "summary": "",
-   "time": "2026-11-18 12:51:39",
-   "url": "https://news.10jqka.com.cn/20261118/c681970402.shtml",
+   "time": "2026-11-18 13:04:18",
+   "url": "https://news.10jqka.com.cn/20261118/c681970599.shtml",
    "source": "同花顺"
   },
   {
@@ -1961,8 +1961,8 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 6,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 3,
