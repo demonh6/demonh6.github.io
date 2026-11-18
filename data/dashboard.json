@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 21:59:48 CST",
- "generated_at_iso": "2026-11-18T21:59:48+08:00",
+ "generated_at": "2026-11-18 22:08:03 CST",
+ "generated_at_iso": "2026-11-18T22:08:03+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -900,11 +900,11 @@
      58775.5,
      60459.58,
      61248.59,
-     60819.36,
-     61142.35,
-     59662.02,
-     58860.43,
-     59024.28
+     60819.3594,
+     61142.3516,
+     59662.0195,
+     58860.4297,
+     59024.2813
     ],
     "sigma": 2.002,
     "volume": 0.0,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10630.96,
-    "change": -58.91,
-    "change_pct": -0.55,
+    "price": 10639.48,
+    "change": -50.39,
+    "change_pct": -0.47,
     "hist": [
      10458.5,
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8192.52,
-    "change": -24.26,
-    "change_pct": -0.3,
+    "price": 8197.58,
+    "change": -19.2,
+    "change_pct": -0.23,
     "hist": [
      7769.21,
      7729.69,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6201.17,
-    "change": -10.94,
-    "change_pct": -0.18,
+    "price": 6206.81,
+    "change": -5.3,
+    "change_pct": -0.09,
     "hist": [
      6180.3,
      6126.74,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3781.768,
-    "change": -82.432,
-    "change_pct": -2.13,
-    "quote_time": "21:59:50 2026-11-18"
+    "price": 3784.185,
+    "change": -80.015,
+    "change_pct": -2.07,
+    "quote_time": "22:08:10 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.682,
-    "change": -1.675,
-    "change_pct": -3.54,
-    "quote_time": "21:59:49 2026-11-18"
+    "price": 45.651,
+    "change": -1.706,
+    "change_pct": -3.6,
+    "quote_time": "22:08:11 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.005,
-    "change": -0.645,
-    "change_pct": -0.76,
-    "quote_time": "21:59:51 2026-11-18"
+    "price": 84.151,
+    "change": -0.499,
+    "change_pct": -0.59,
+    "quote_time": "22:08:10 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.822,
-    "change": -0.318,
-    "change_pct": -0.34,
-    "quote_time": "21:59:44 2026-11-18"
+    "price": 92.958,
+    "change": -0.182,
+    "change_pct": -0.2,
+    "quote_time": "22:08:10 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,47 +1294,146 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63937.1,
-    "change": -1203.4,
-    "change_pct": -1.85,
-    "source": "okx"
+    "price": 63947.5,
+    "change": -993.8,
+    "change_pct": -1.53,
+    "source": "okx",
+    "hist": [
+     82610.4,
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63987.2
+    ],
+    "sigma": 2.213
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1790.35,
-    "change": -38.87,
-    "change_pct": -2.12,
-    "source": "okx"
+    "price": 1792.92,
+    "change": -31.33,
+    "change_pct": -1.72,
+    "source": "okx",
+    "hist": [
+     2441.27,
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1793.33
+    ],
+    "sigma": 3.147
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.22,
-    "change": 0.44,
-    "change_pct": 0.6,
-    "source": "okx"
+    "price": 74.37,
+    "change": 0.73,
+    "change_pct": 0.99,
+    "source": "okx",
+    "hist": [
+     105.88,
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     74.36
+    ],
+    "sigma": 3.38
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.8,
-    "change": 0.24,
+    "price": 103.798,
+    "change": 0.236,
     "change_pct": 0.23,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-18",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6682,
-    "change": 0.0012,
+    "price": 6.6686,
+    "change": 0.0016,
     "change_pct": 0.02,
     "dec": 4,
     "date": "",
@@ -1348,9 +1447,9 @@
     "change": 0.71,
     "change_pct": 0.53,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-18",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1363,19 +1462,10 @@
    "timestamp": "2026-11-18",
    "source": "alternative.me"
   },
-  "a_share_breadth": {
-   "up": 1310,
-   "down": 3853,
-   "flat": 131,
-   "total": 5294,
-   "breadth_pct": 24.7,
-   "score": 0.0,
-   "source": "东财"
-  },
   "vix": {
-   "value": 24.63,
-   "change": -0.83,
-   "change_pct": -3.26,
+   "value": 23.81,
+   "change": -1.65,
+   "change_pct": -6.4808,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1412,7 +1502,7 @@
     25.46
    ],
    "vix3m": 24.98,
-   "term": "持平"
+   "term": "contango(正常)"
   },
   "term_structure": {
    "points": [
@@ -1423,8 +1513,8 @@
     },
     {
      "t": "VIX",
-     "value": 24.63,
-     "change_pct": -3.26
+     "value": 23.81,
+     "change_pct": -6.4808
     },
     {
      "t": "VIX3M",
@@ -1440,28 +1530,18 @@
    "ratio_9d_3m": 1.069,
    "shape": "backwardation(短期恐慌升温)",
    "source": "CBOE"
-  },
-  "composite": {
-   "score": 22.9,
-   "label": "冰点",
-   "color": "#f04a3d",
-   "basis": "A股广度 60% + 盘面结构 40%",
-   "parts": {
-    "breadth": 0.0,
-    "structure": 57.3
-   }
   }
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储理事沃勒：如果不想释放1月加息的信号，就应该在12月加息50个基点 - 华尔街见闻",
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "美参议员：黄仁勋与卢特尼克将赴参议院作证，目标圣诞节前完成",
    "summary": "",
-   "time": "2026-11-18 21:13",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5jSkpwMFZpLTBhd3djS2VSaHRNcjA1YVhPSUpkYU02amNubjdCLUhJMnpZc2hDWkZnRGNrS1VhdEpBVzl2d0owRl93bGVEbXh0M3Zz?oc=5",
-   "source": "谷歌新闻·国际",
+   "time": "2026-11-18 13:43:54",
+   "url": "https://news.futunn.com/flash/1004912402/us-senator-jensen-huang-and-lutnick-to-testify-before-senate",
+   "source": "富途",
    "mentions": 1
   }
  ],
@@ -1657,48 +1737,56 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "warning",
+   "asset": "COMEX白银",
+   "message": "COMEX白银单日跌3.60%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-18 22:09",
+   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
+  }
+ ],
  "news": [
   {
-   "title": "美国10月营建许可总数129.5万户 预期137.7万户",
-   "summary": "【美国10月营建许可总数129.5万户 预期137.7万户】美国10月营建许可总数129.5万户，预期137.7万户，前值139.8万户。",
-   "time": "2026-11-18 21:30:35",
-   "url": "https://finance.eastmoney.com/a/202611183934230598.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "美国10月营建许可初值 129.5万户，预期 137.5万户，前值 139.8万户。",
-   "summary": "美国10月营建许可初值 129.5万户，预期 137.5万户，前值 139.8万户。",
-   "time": "2026-11-18 21:30",
-   "url": "https://wallstreetcn.com/livenews/3201979",
+   "title": "Meta Platforms：Loblaw成为Muse在加拿大的第一个零售伙伴。\n\n在加拿大推出移动端、网页版、Mac端Muse语音功能。",
+   "summary": "Meta Platforms：Loblaw成为Muse在加拿大的第一个零售伙伴。\n\n在加拿大推出移动端、网页版、Mac端Muse语音功能。",
+   "time": "2026-11-18 22:08",
+   "url": "https://wallstreetcn.com/livenews/3201996",
    "source": "华尔街见闻"
   },
   {
-   "title": "President Xi Jinping Welcomes U.S. President Donald J. Trump - 中华人民共和国驻大韩民国大使馆",
+   "title": "游族网络与大普微达成战略合作",
+   "summary": "【游族网络与大普微达成战略合作】据游族网络消息，11月17日，游族网络与国内企业级存储企业大普微达成战略合作。双方将围绕产研协同、存储服务与资源共享，面向AIGC内容生成、AI智能体推理等业务场景，联合探索存算协同的推理优化路径。",
+   "time": "2026-11-18 22:04:00",
+   "url": "https://finance.eastmoney.com/a/202611183934283897.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "习近平迎接美国总统特朗普 - 习近平外交思想和新时代中国外交",
    "summary": "",
-   "time": "2026-11-18 21:22",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlV3QxeDBaQ3pDME9vTl9xVzBkb0FNc1BLbmNGMkZKMHNvdllIakFLaXl3azktNkFoTUY1VVFyaU9BQlQ1VE9fb3ZmdXVWSjZlN1A5RFZtWFJSbGlHeEVXblp4eFpwQjl3MnZjcllQekRfdUhzSUw5dUVqSQ?oc=5",
+   "time": "2026-11-18 21:55",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9GV0ljeFRfSXhRLUJFelhkTjNFT202bTJWQ2NyNm14VGUtUTVoXzFhY1ptWVNpQllxUXJiczN1Z2J0bFZsZHo1VU1rWUNrNTZhdWlReDUxN3BTSGZDeDVibTg2ZnVWLURjSXpuc2QzQzF3N2RIcXc?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "12公司获得增持评级-更新中 - 中财网",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-18 21:16",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQMUgtS192WVRMZ1ZmQnpjUG01S212NmVwLXJITmdkcGxLQVYtSkRRT0ZYZ3UxVFdPNHczcC1GUHhpeXRPcmJzbWFvWjdhcm1ubDBPVE1R?oc=5",
+   "time": "2026-11-18 21:42",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5kRDdqb3Rxbjl4a3JGZ21ZZ2QyU3BxVjRsNnhYdElPSG4xUWd1aFh6bE5od2I4VXZwMnBmcy12THNwdm4xUFcteA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "劳氏美股盘前跌超5%",
+   "title": "秘鲁西南部海域发生6.0级地震",
    "summary": "",
-   "time": "2026-11-18 13:28:17",
-   "url": "https://news.10jqka.com.cn/20261118/c681970996.shtml",
+   "time": "2026-11-18 14:04:56",
+   "url": "https://news.10jqka.com.cn/20261118/c681971581.shtml",
    "source": "同花顺"
   },
   {
-   "title": "俄一客机遭炸弹威胁后在土耳其降落",
+   "title": "巴基斯坦成功试射“法塔赫-3”超音速巡航导弹",
    "summary": "",
-   "time": "2026-11-18 13:20:46",
-   "url": "https://news.futunn.com/flash/1004909907/russian-passenger-aircraft-lands-in-turkey-following-bomb-threat",
+   "time": "2026-11-18 14:00:15",
+   "url": "https://news.futunn.com/flash/1004913713/pakistan-successfully-test-fires-fateh-3-supersonic-cruise-missile",
    "source": "富途"
   },
   {
@@ -1716,45 +1804,45 @@
    "source": "财新"
   },
   {
-   "title": "美国10月新宅开工季调后折年率为130.9万 预估为125万",
-   "summary": "【美国10月新宅开工季调后折年率为130.9万 预估为125万】美国10月新宅开工季调后折年率为130.9万，预估为125万，前值为122.1万。",
-   "time": "2026-11-18 21:30:22",
-   "url": "https://finance.eastmoney.com/a/202611183934230844.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "美国10月营建许可环比初值 -7.4%，预期 -1.7%，前值 -0.4%。",
-   "summary": "美国10月营建许可环比初值 -7.4%，预期 -1.7%，前值 -0.4%。",
-   "time": "2026-11-18 21:30",
-   "url": "https://wallstreetcn.com/livenews/3201978",
+   "title": "苏州4宗涉宅用地20.68亿元底价成交",
+   "summary": "苏州市本级范围内有4宗涉宅用地出让，总土地出让面积131069.2㎡，总规划建筑面积201422.7㎡，总起始价20.68亿元。最终4宗地块均底价成交，总成交金额20.68亿元。（证券时报）",
+   "time": "2026-11-18 22:06",
+   "url": "https://wallstreetcn.com/livenews/3201995",
    "source": "华尔街见闻"
   },
   {
-   "title": "时政Vlog丨美国总统特朗普前往晚宴合影区 - 央广网",
+   "title": "字节跳动据悉正与微软洽谈扩大其微软Azure合同",
+   "summary": "【字节跳动据悉正与微软洽谈扩大其微软Azure合同】字节跳动据悉正与微软洽谈扩大其微软Azure合同，计划额外增加约5亿美元，用于采购OpenAI模型服务。",
+   "time": "2026-11-18 22:03:55",
+   "url": "https://finance.eastmoney.com/a/202611183934281478.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "沃勒再提加息50基点，揭示美联储FOMC激进抗通胀想法? 美债收益率应声走高 - 金融界",
    "summary": "",
-   "time": "2026-11-18 21:16",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9IZFM4VmRIUXhWamVKVlBVN2JTUnZRZlJGVy12M3RGeHg5QzF6TjRIcHV4OUdwc1Z0dUYzZDVQNmE0bEpWX19scU1Sdm9GT0p6b3hrXzVjdlJlcE5xdmtBMUtvOGkyV3laQmIwc3RCT1NMOUJkTWc?oc=5",
+   "time": "2026-11-18 21:51",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE52My1JVTAyOWtVaEdHZkVfNzNDdlB5Z01vVjF5aHVGOFM5ejh0RWZXNTE5MmdBLXpTbXFWVWJRbnZsNkt5OXdMSVRDSi1FOG4zM3RNSzFYNU1qZVZwZTVqVFRNcw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社电报",
+   "title": "12公司获得增持评级-更新中 - 中财网",
    "summary": "",
-   "time": "2026-11-18 20:32",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XdGtTZXR1dWNFQlNtSjdlemNwWElBM1J6Skc2TEFxWmNVQ0xzYW5PX3NlTWxPcnhCVENJXy04RXVpTTF0b19wclYyU2cxT09DakJTR3BTZlhhYnRZa2RrQU1R?oc=5",
+   "time": "2026-11-18 21:16",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBQMUgtS192WVRMZ1ZmQnpjUG01S212NmVwLXJITmdkcGxLQVYtSkRRT0ZYZ3UxVFdPNHczcC1GUHhpeXRPcmJzbWFvWjdhcm1ubDBPVE1R?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "重庆路桥：重庆信托拟增持5000万元～1亿元",
+   "title": "COMEX铜期货大跌5%",
    "summary": "",
-   "time": "2026-11-18 13:14:31",
-   "url": "https://news.10jqka.com.cn/20261118/c681970812.shtml",
+   "time": "2026-11-18 14:04:40",
+   "url": "https://news.10jqka.com.cn/20261118/c681971579.shtml",
    "source": "同花顺"
   },
   {
-   "title": "英特尔再传裁员",
+   "title": "美参议员：黄仁勋与卢特尼克将赴参议院作证，目标圣诞节前完成",
    "summary": "",
-   "time": "2026-11-18 13:18:37",
-   "url": "https://news.futunn.com/flash/1004909692/intel-faces-further-layoff-reports",
+   "time": "2026-11-18 13:43:54",
+   "url": "https://news.futunn.com/flash/1004912402/us-senator-jensen-huang-and-lutnick-to-testify-before-senate",
    "source": "富途"
   },
   {
@@ -1772,45 +1860,45 @@
    "source": "财新"
   },
   {
-   "title": "全国集成电路计量技术委员会成立",
-   "summary": "【全国集成电路计量技术委员会成立】全国产业计量融合创新发展会议暨2026测量科学与产业计量测试技术报告会11月18日在安徽合肥举办。全国集成电路计量技术委员会（MTC50）成立仪式同期举行。",
-   "time": "2026-11-18 21:29:53",
-   "url": "https://finance.eastmoney.com/a/202611183934230939.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "美国10月新屋开工 130.9万户，预期 125万户，前值 122.1万户。",
-   "summary": "美国10月新屋开工 130.9万户，预期 125万户，前值 122.1万户。",
-   "time": "2026-11-18 21:30",
-   "url": "https://wallstreetcn.com/livenews/3201977",
+   "title": "报道：字节跳动将通过微软使用OpenAI的模型",
+   "summary": "据The Information报道，字节跳动正与微软洽谈，拟将用于OpenAI模型的Azure云服务合同金额再增加约5亿美元。（新浪）",
+   "time": "2026-11-18 22:03",
+   "url": "https://wallstreetcn.com/livenews/3201993",
    "source": "华尔街见闻"
   },
   {
-   "title": "美联储理事沃勒：如果不想释放1月加息的信号，就应该在12月加息50个基点 - 华尔街见闻",
+   "title": "巴基斯坦成功试射“法塔赫－3”超音速巡航导弹",
+   "summary": "【巴基斯坦成功试射“法塔赫－3”超音速巡航导弹】巴基斯坦三军新闻局18日发表声明说，巴陆军当天成功试射“法塔赫－3”超音速巡航导弹。声明说，“法塔赫－3”超音速巡航导弹配备了先进的导航和推进系统，能对远距离目标实施高精度、高杀伤力打击，将显著提升巴陆军火箭部队的作战灵活性和打击范围。",
+   "time": "2026-11-18 21:56:41",
+   "url": "https://finance.eastmoney.com/a/202611183934276731.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "President Xi Jinping Welcomes U.S. President Donald J. Trump - 中华人民共和国驻大韩民国大使馆",
    "summary": "",
-   "time": "2026-11-18 21:13",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5jSkpwMFZpLTBhd3djS2VSaHRNcjA1YVhPSUpkYU02amNubjdCLUhJMnpZc2hDWkZnRGNrS1VhdEpBVzl2d0owRl93bGVEbXh0M3Zz?oc=5",
+   "time": "2026-11-18 21:22",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBlV3QxeDBaQ3pDME9vTl9xVzBkb0FNc1BLbmNGMkZKMHNvdllIakFLaXl3azktNkFoTUY1VVFyaU9BQlQ1VE9fb3ZmdXVWSjZlN1A5RFZtWFJSbGlHeEVXblp4eFpwQjl3MnZjcllQekRfdUhzSUw5dUVqSQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "江苏银行对公客户ESG风险评级模型4.0版本正式上线 - 紫牛新闻",
+   "title": "风口研报 - 财联社电报",
    "summary": "",
-   "time": "2026-11-18 20:31",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9wQm5iemlLOXZLLVpJdFRFYWs0bHhadTFRcHlLb0xaYkRjNXl6Sm1YeEVsUThqcDh6ODFsakQ3UlprOTl2eFZ4dDF3bGh3bHpUVi1pMEUzUGV3RFJUNGJ4R29tcWFXajdC?oc=5",
+   "time": "2026-11-18 20:32",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XdGtTZXR1dWNFQlNtSjdlemNwWElBM1J6Skc2TEFxWmNVQ0xzYW5PX3NlTWxPcnhCVENJXy04RXVpTTF0b19wclYyU2cxT09DakJTR3BTZlhhYnRZa2RrQU1R?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "我国首款电动商用飞机有了“中国心”",
+   "title": "劳氏美股盘前跌超5%",
    "summary": "",
-   "time": "2026-11-18 13:13:46",
-   "url": "https://news.10jqka.com.cn/20261118/c681970796.shtml",
+   "time": "2026-11-18 13:28:17",
+   "url": "https://news.10jqka.com.cn/20261118/c681970996.shtml",
    "source": "同花顺"
   },
   {
-   "title": "豆包工作：日活突破800万 企业客户ARR突破20亿元",
+   "title": "腾讯：可能需要更长时间才能推出下一个版本模型",
    "summary": "",
-   "time": "2026-11-18 13:16:39",
-   "url": "https://news.futunn.com/flash/1004909597/doubao-weekday-dau-surpasses-8-million-enterprise-client-arr-exceeds",
+   "time": "2026-11-18 13:42:02",
+   "url": "https://news.futunn.com/flash/1004912318/tencent-it-may-take-longer-to-release-the-next-version",
    "source": "富途"
   },
   {
@@ -1832,7 +1920,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(12)",
+   "富途": "ok(15)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1841,8 +1929,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 6,
    "同花顺": 6,
