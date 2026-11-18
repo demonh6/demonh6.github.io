@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-18 16:19:30 CST",
- "generated_at_iso": "2026-11-18T16:19:30+08:00",
+ "generated_at": "2026-11-18 16:27:47 CST",
+ "generated_at_iso": "2026-11-18T16:27:47+08:00",
  "date": "2026-11-18",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 23304.529,
-    "change": -203.641,
-    "change_pct": -0.87,
+    "price": 23294.75,
+    "change": -213.42,
+    "change_pct": -0.91,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3741.21,
-    "change": -16.96,
-    "change_pct": -0.45,
+    "price": 3736.33,
+    "change": -21.84,
+    "change_pct": -0.58,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 7841.89,
-    "change": -62.48,
-    "change_pct": -0.79,
+    "price": 7836.271,
+    "change": -68.099,
+    "change_pct": -0.86,
     "hist": [
      8030.54,
      8051.6704,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3763.228,
-    "change": -100.972,
-    "change_pct": -2.61,
-    "quote_time": "16:19:34 2026-11-18"
+    "price": 3768.578,
+    "change": -95.622,
+    "change_pct": -2.47,
+    "quote_time": "16:27:50 2026-11-18"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.581,
-    "change": -1.776,
-    "change_pct": -3.75,
-    "quote_time": "16:19:31 2026-11-18"
+    "price": 45.756,
+    "change": -1.601,
+    "change_pct": -3.38,
+    "quote_time": "16:27:49 2026-11-18"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.952,
-    "change": -1.698,
-    "change_pct": -2.01,
-    "quote_time": "16:19:26 2026-11-18"
+    "price": 83.035,
+    "change": -1.615,
+    "change_pct": -1.91,
+    "quote_time": "16:27:45 2026-11-18"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.78,
-    "change": -1.36,
-    "change_pct": -1.46,
-    "quote_time": "16:19:34 2026-11-18"
+    "price": 91.758,
+    "change": -1.382,
+    "change_pct": -1.48,
+    "quote_time": "16:27:49 2026-11-18"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 64600.2,
-    "change": 82.6,
-    "change_pct": 0.13,
+    "price": 64707.1,
+    "change": 248.8,
+    "change_pct": 0.39,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1808.85,
-    "change": -19.96,
-    "change_pct": -1.09,
+    "price": 1811.03,
+    "change": -16.62,
+    "change_pct": -0.91,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.73,
-    "change": 2.1,
-    "change_pct": 2.89,
+    "price": 74.84,
+    "change": 2.23,
+    "change_pct": 3.07,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.81,
-    "change": 0.25,
-    "change_pct": 0.24,
+    "price": 103.83,
+    "change": 0.27,
+    "change_pct": 0.26,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6658,
-    "change": -0.0012,
-    "change_pct": -0.02,
+    "price": 6.6662,
+    "change": -0.0008,
+    "change_pct": -0.01,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1678,15 +1678,7 @@
    }
   ]
  },
- "alerts": [
-  {
-   "level": "warning",
-   "asset": "COMEX白银",
-   "message": "COMEX白银单日跌3.75%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-18 16:19",
-   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
-  }
- ],
+ "alerts": [],
  "news": [
   {
    "title": "AI股票虽遭抛售 加密期货押注料Anthropic估值可达1.7万亿美元",
