@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 00:27:09 CST",
- "generated_at_iso": "2026-11-20T00:27:09+08:00",
+ "generated_at": "2026-11-20 00:35:27 CST",
+ "generated_at_iso": "2026-11-20T00:35:27+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 49640.5195,
-    "change": -557.65,
-    "change_pct": -1.11,
-    "quote_time": "2026-11-20 00:26:46",
+    "price": 49697.9883,
+    "change": -500.18,
+    "change_pct": -1.0,
+    "quote_time": "2026-11-20 00:35:06",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24489.5809,
-    "change": 59.6962,
-    "change_pct": 0.24,
-    "quote_time": "2026-11-20 00:27:08",
+    "price": 24486.2668,
+    "change": 56.3821,
+    "change_pct": 0.23,
+    "quote_time": "2026-11-20 00:35:26",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7299.1299,
-    "change": -24.5,
-    "change_pct": -0.33,
-    "quote_time": "2026-11-20 00:26:46",
+    "price": 7305.8799,
+    "change": -17.75,
+    "change_pct": -0.24,
+    "quote_time": "2026-11-20 00:35:03",
     "hist": [
      7773.9502,
      7818.9302,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5137.89,
-    "change": 70.45,
-    "change_pct": 1.39,
+    "price": 5067.4399,
+    "change": 98.96,
+    "change_pct": 1.99,
     "hist": [
      6803.9,
      6625.93,
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83021.75,
+    "change": 989.94,
+    "change_pct": 1.21
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 38426.89,
+    "change": -1768.02,
+    "change_pct": -4.4
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25620.39,
+    "change": -115.85,
+    "change_pct": -0.45
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10465.25,
-    "change": -85.92,
-    "change_pct": -0.81,
+    "price": 10551.17,
+    "change": -138.7,
+    "change_pct": -1.3,
     "hist": [
      10441.6,
      10552.05,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8103.34,
-    "change": -43.49,
-    "change_pct": -0.53,
+    "price": 8135.23,
+    "change": -11.6,
+    "change_pct": -0.14,
     "hist": [
      7803.33,
      7832.88,
@@ -1169,9 +1190,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6129.47,
-    "change": -24.92,
-    "change_pct": -0.4,
+    "price": 6154.4,
+    "change": -57.72,
+    "change_pct": -0.93,
     "hist": [
      6126.74,
      6173.38,
@@ -1205,6 +1226,13 @@
      6154.4
     ],
     "sigma": 1.096
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2412.69,
+    "change": -58.12,
+    "change_pct": -2.35
    }
   ]
  },
@@ -1256,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3677.319,
-    "change": -64.581,
-    "change_pct": -1.73,
-    "quote_time": "00:27:13 2026-11-20"
+    "price": 3685.4,
+    "change": -56.5,
+    "change_pct": -1.51,
+    "quote_time": "00:35:30 2026-11-20"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.52,
-    "change": -0.539,
-    "change_pct": -1.2,
-    "quote_time": "00:27:13 2026-11-20"
+    "price": 44.594,
+    "change": -0.465,
+    "change_pct": -1.03,
+    "quote_time": "00:35:30 2026-11-20"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.514,
-    "change": 1.204,
-    "change_pct": 1.46,
-    "quote_time": "00:27:12 2026-11-20"
+    "price": 83.527,
+    "change": 1.217,
+    "change_pct": 1.48,
+    "quote_time": "00:35:30 2026-11-20"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.744,
-    "change": 0.794,
-    "change_pct": 0.86,
-    "quote_time": "00:27:13 2026-11-20"
+    "price": 92.755,
+    "change": 0.805,
+    "change_pct": 0.88,
+    "quote_time": "00:35:29 2026-11-20"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63054.5,
-    "change": 582.9,
-    "change_pct": 0.93,
+    "price": 63069.0,
+    "change": 557.9,
+    "change_pct": 0.89,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1777.08,
-    "change": 25.13,
-    "change_pct": 1.43,
+    "price": 1778.06,
+    "change": 26.62,
+    "change_pct": 1.52,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.48,
-    "change": 0.79,
-    "change_pct": 1.09,
+    "price": 73.54,
+    "change": 0.92,
+    "change_pct": 1.27,
     "source": "okx"
    }
   ],
@@ -1322,24 +1350,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.86,
-    "change": 0.06,
+    "price": 103.854,
+    "change": 0.061,
     "change_pct": 0.06,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6906,
-    "change": 0.0214,
-    "change_pct": 0.32,
+    "price": 6.6911,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1373,9 +1401,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 25.69,
-   "change": 1.13,
-   "change_pct": 4.601,
+   "value": 25.27,
+   "change": 0.71,
+   "change_pct": 2.8909,
    "label": "高波动",
    "color": "#f58a3d",
    "source": "CBOE",
@@ -1411,34 +1439,34 @@
     25.46,
     24.56
    ],
-   "vix3m": 24.96,
+   "vix3m": 24.75,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 26.02,
-     "change_pct": 8.643
+     "value": 25.09,
+     "change_pct": 4.7599
     },
     {
      "t": "VIX",
-     "value": 25.69,
-     "change_pct": 4.601
+     "value": 25.27,
+     "change_pct": 2.8909
     },
     {
      "t": "VIX3M",
-     "value": 24.96,
-     "change_pct": 2.7583
+     "value": 24.75,
+     "change_pct": 1.8938
     },
     {
      "t": "VIX6M",
-     "value": 25.2,
-     "change_pct": 1.8182
+     "value": 25.06,
+     "change_pct": 1.2525
     }
    ],
-   "ratio_9d_3m": 1.042,
-   "shape": "backwardation(短期恐慌升温)",
+   "ratio_9d_3m": 1.014,
+   "shape": "平坦",
    "source": "CBOE"
   },
   "composite": {
@@ -1459,20 +1487,9 @@
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
    "title": "特朗普最放松？习近平最含蓄？专家这样解读三人的肢体语言和互动 - DW.com",
    "summary": "",
-   "time": "2026-11-19 22:45",
+   "time": "2026-11-19 23:14",
    "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPdWlodHhJM3RVSjZrN0tqdXM0VWNQYW1uR2J4d2NEUjU3MnMwM3lnMXA2eWoyWTRoN0VFWVZmWDNPc21QYXRLVzVlaE9DYkJRbTQyNXBXVjRKdi1SRlh2TExveFo1WXM2bDFNQTg3d1AxOUQ5QUROMEt6OEU5YmdTOGo4ZWN5LU5RVWlXZVBkNmZlQ19UZDgwRXgyLW9YQWFiSmNsaGZNc2J3Yno1NGN0Tng2X2pMamdoV21YMWF5bG5lcF82TkUwWU5MQ2pzdjBKalJNVDZDS3k5YjlfelZYamxweU1pc0QzNTk3amszYndPLXFUT1d1SEFiU1ptaGVBVTduMnJ4NkNQVW9keXdkbG1lS0FyOWVOZV9QNHpqb2xXMlJxSmRSc01QZUlxVUM1TWpXVDR5LVdFWGIyQ1pqSGdHcEFwWENmVGRLZ1ZyYkNnY0FON2NiQ3JSb25LVk51UHVtZmRoY3PSAegCQVVfeXFMUG56aExIcUZwd3F5U0RpUkk4QUhEZkxwWUI0a3dMbHRKV3R0MXY2VFBWNHdvbjhwWEZ6RW5GMDJLd0oyNEFyeFE0MTRMdTAxdDZ3RE12UTZDWkFtc2ZZclRpUXk3Sm9TN1pkMkRLUzIxZ3FvMHlDamtNNkxCSWtGd01uVnVQZEl4SVMwczhINGR6MFYxR2N1WVRvRXJSd0JvT3JOTGtqQWdmX1ppLXBQRFNKdm9CanF4X3EyQ1NRT0xsbG1jeXJDdXItbk5QTy1sdW5UTkJFcnE1enc2eVZaVUFZRll1bHdzYjBzc1NOU09MSk9LUzRQNkxkU214ZGFvbGZvVjdWU2JLUDBDUnl5a05oYkZwR2pYTGFGV1RrdzItLWtoLXR6bDZVc3JRaV81d1ZwUWF1Rmp1eG9pUTlYbzN5cElBR1BIM1hZWWRHb1FMa1VmV1R6QS1XVXJHSnRqYU1USDNGaF92?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "丹斯克银行：美国内需韧性有望支撑美元，美联储加息周期或更持久",
-   "summary": "",
-   "time": "2026-11-19 15:23:01",
-   "url": "https://news.futunn.com/flash/1005063161/danske-bank-resilient-us-domestic-demand-expected-to-support-dollar",
-   "source": "富途",
    "mentions": 1
   },
   {
@@ -1699,21 +1716,43 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌4.40%，达20日历史波动率的 3.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-20 00:37",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "全球股指",
+   "message": "台湾加权、英国富时100、俄罗斯MOEX等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-20 00:37",
+   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
+  }
+ ],
  "news": [
   {
-   "title": "纳斯达克总裁Nelson Griggs：Anthropic散户配售接近13%。（彭博电视）",
-   "summary": "纳斯达克总裁Nelson Griggs：Anthropic散户配售接近13%。（彭博电视）",
-   "time": "2026-11-20 00:09",
-   "url": "https://wallstreetcn.com/livenews/3202701",
+   "title": "美国众议院议员们组建新版跨党派人工智能（AI）党团干部会议。（Politico）",
+   "summary": "美国众议院议员们组建新版跨党派人工智能（AI）党团干部会议。（Politico）",
+   "time": "2026-11-20 00:36",
+   "url": "https://wallstreetcn.com/livenews/3202713",
    "source": "华尔街见闻"
   },
   {
-   "title": "Anthropic股票在纳斯达克上市首日开盘价预计为每股106美元 而IPO发行价为每股83美元",
-   "summary": "Anthropic股票在纳斯达克上市首日开盘价预计为每股106美元，而IPO发行价为每股83美元。",
-   "time": "2026-11-20 00:04:02",
-   "url": "https://finance.eastmoney.com/a/202611203935419966.html",
+   "title": "谷歌母公司Alphabet将通过加拿大债券发行筹集至少35亿美元",
+   "summary": "谷歌母公司Alphabet将通过加拿大债券发行筹集至少35亿美元。",
+   "time": "2026-11-20 00:18:35",
+   "url": "https://finance.eastmoney.com/a/202611203935422020.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普最放松？习近平最含蓄？专家这样解读三人的肢体语言和互动 - DW.com",
+   "summary": "",
+   "time": "2026-11-19 23:14",
+   "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPdWlodHhJM3RVSjZrN0tqdXM0VWNQYW1uR2J4d2NEUjU3MnMwM3lnMXA2eWoyWTRoN0VFWVZmWDNPc21QYXRLVzVlaE9DYkJRbTQyNXBXVjRKdi1SRlh2TExveFo1WXM2bDFNQTg3d1AxOUQ5QUROMEt6OEU5YmdTOGo4ZWN5LU5RVWlXZVBkNmZlQ19UZDgwRXgyLW9YQWFiSmNsaGZNc2J3Yno1NGN0Tng2X2pMamdoV21YMWF5bG5lcF82TkUwWU5MQ2pzdjBKalJNVDZDS3k5YjlfelZYamxweU1pc0QzNTk3amszYndPLXFUT1d1SEFiU1ptaGVBVTduMnJ4NkNQVW9keXdkbG1lS0FyOWVOZV9QNHpqb2xXMlJxSmRSc01QZUlxVUM1TWpXVDR5LVdFWGIyQ1pqSGdHcEFwWENmVGRLZ1ZyYkNnY0FON2NiQ3JSb25LVk51UHVtZmRoY3PSAegCQVVfeXFMUG56aExIcUZwd3F5U0RpUkk4QUhEZkxwWUI0a3dMbHRKV3R0MXY2VFBWNHdvbjhwWEZ6RW5GMDJLd0oyNEFyeFE0MTRMdTAxdDZ3RE12UTZDWkFtc2ZZclRpUXk3Sm9TN1pkMkRLUzIxZ3FvMHlDamtNNkxCSWtGd01uVnVQZEl4SVMwczhINGR6MFYxR2N1WVRvRXJSd0JvT3JOTGtqQWdmX1ppLXBQRFNKdm9CanF4X3EyQ1NRT0xsbG1jeXJDdXItbk5QTy1sdW5UTkJFcnE1enc2eVZaVUFZRll1bHdzYjBzc1NOU09MSk9LUzRQNkxkU214ZGFvbGZvVjdWU2JLUDBDUnl5a05oYkZwR2pYTGFGV1RrdzItLWtoLXR6bDZVc3JRaV81d1ZwUWF1Rmp1eG9pUTlYbzN5cElBR1BIM1hZWWRHb1FMa1VmV1R6QS1XVXJHSnRqYU1USDNGaF92?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "Citizens Bank首次覆盖Anthropic 给予跑赢大盘评级及125美元目标价 - 观点网",
@@ -1723,24 +1762,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普最放松？习近平最含蓄？专家这样解读三人的肢体语言和互动 - DW.com",
+   "title": "德国DAX 30指数初步收跌0.75%，报25543.13点",
    "summary": "",
-   "time": "2026-11-19 22:45",
-   "url": "https://news.google.com/rss/articles/CBMi6AJBVV95cUxPdWlodHhJM3RVSjZrN0tqdXM0VWNQYW1uR2J4d2NEUjU3MnMwM3lnMXA2eWoyWTRoN0VFWVZmWDNPc21QYXRLVzVlaE9DYkJRbTQyNXBXVjRKdi1SRlh2TExveFo1WXM2bDFNQTg3d1AxOUQ5QUROMEt6OEU5YmdTOGo4ZWN5LU5RVWlXZVBkNmZlQ19UZDgwRXgyLW9YQWFiSmNsaGZNc2J3Yno1NGN0Tng2X2pMamdoV21YMWF5bG5lcF82TkUwWU5MQ2pzdjBKalJNVDZDS3k5YjlfelZYamxweU1pc0QzNTk3amszYndPLXFUT1d1SEFiU1ptaGVBVTduMnJ4NkNQVW9keXdkbG1lS0FyOWVOZV9QNHpqb2xXMlJxSmRSc01QZUlxVUM1TWpXVDR5LVdFWGIyQ1pqSGdHcEFwWENmVGRLZ1ZyYkNnY0FON2NiQ3JSb25LVk51UHVtZmRoY3PSAegCQVVfeXFMUG56aExIcUZwd3F5U0RpUkk4QUhEZkxwWUI0a3dMbHRKV3R0MXY2VFBWNHdvbjhwWEZ6RW5GMDJLd0oyNEFyeFE0MTRMdTAxdDZ3RE12UTZDWkFtc2ZZclRpUXk3Sm9TN1pkMkRLUzIxZ3FvMHlDamtNNkxCSWtGd01uVnVQZEl4SVMwczhINGR6MFYxR2N1WVRvRXJSd0JvT3JOTGtqQWdmX1ppLXBQRFNKdm9CanF4X3EyQ1NRT0xsbG1jeXJDdXItbk5QTy1sdW5UTkJFcnE1enc2eVZaVUFZRll1bHdzYjBzc1NOU09MSk9LUzRQNkxkU214ZGFvbGZvVjdWU2JLUDBDUnl5a05oYkZwR2pYTGFGV1RrdzItLWtoLXR6bDZVc3JRaV81d1ZwUWF1Rmp1eG9pUTlYbzN5cElBR1BIM1hZWWRHb1FMa1VmV1R6QS1XVXJHSnRqYU1USDNGaF92?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "Anthropic预计开盘报105美元 较IPO发行价上涨近27%",
-   "summary": "",
-   "time": "2026-11-19 16:09:37",
-   "url": "https://news.10jqka.com.cn/20261120/c682019736.shtml",
+   "time": "2026-11-19 16:30:57",
+   "url": "https://news.10jqka.com.cn/20261120/c682019805.shtml",
    "source": "同花顺"
   },
   {
-   "title": "NASA确认“旅行者1号”飞越距地球一个光日的里程碑",
+   "title": "AMD遭做空机构Hunterbrook狙击 股价一度暴跌11%",
    "summary": "",
-   "time": "2026-11-19 15:44:47",
-   "url": "https://news.futunn.com/flash/1005065397/nasa-confirms-voyager-1-reaches-one-light-day-milestone-from",
+   "time": "2026-11-19 16:26:33",
+   "url": "https://news.futunn.com/flash/1005068772/amd-targeted-by-short-seller-hunterbrook-stock-plunges-11-at",
    "source": "富途"
   },
   {
@@ -1758,32 +1790,32 @@
    "source": "财新"
   },
   {
-   "title": "CoreWeave联合创始人买入3000万美元公司债，计划持有到期展现信心",
-   "summary": "CoreWeave联合创始人布莱恩·文图罗表示，他买入了3000万美元这家AI算力服务商的公司债券，并计划持有至到期。同时担任首席战略官的文图罗在领英发帖称，他上周购入这批无担保债券，到期日为2031年10月。“创办CoreWeave的时候，我根本想象不到如今客户依托我们搭建的业务规模。我相信他们所做的事业，也为我们搭建起支撑这项业务的团队感到自豪。我对CoreWeave的信心前所未有。”",
-   "time": "2026-11-20 00:04",
-   "url": "https://wallstreetcn.com/livenews/3202700",
+   "title": "美国财政部拍卖四周期国债，得标利率4.050%，投标倍数2.55。\n\n拍卖八周期国债，得标利率4.110%，投标倍数2.72。",
+   "summary": "美国财政部拍卖四周期国债，得标利率4.050%，投标倍数2.55。\n\n拍卖八周期国债，得标利率4.110%，投标倍数2.72。",
+   "time": "2026-11-20 00:33",
+   "url": "https://wallstreetcn.com/livenews/3202712",
    "source": "华尔街见闻"
   },
   {
-   "title": "AMD股价跌幅收窄至8% 此前一度跌11%",
-   "summary": "AMD股价跌幅收窄至8%，此前一度跌11%。",
-   "time": "2026-11-20 00:00:57",
-   "url": "https://finance.eastmoney.com/a/202611203935419446.html",
+   "title": "Anthropic预计开盘报105美元 较IPO发行价上涨近27%",
+   "summary": "【Anthropic预计开盘报105美元 较IPO发行价上涨近27%】据知情人士消息，人工智能公司Anthropic股票预计将在未来一小时内开始交易，当前指示性开盘价为105美元/股，较83美元/股的IPO发行价上涨近27%。",
+   "time": "2026-11-20 00:09:07",
+   "url": "https://finance.eastmoney.com/a/202611203935420412.html",
    "source": "东财国际"
   },
   {
-   "title": "伯恩斯坦下调米其林评级，警告2027年轮胎行业前景趋难 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "特朗普与习近平同搭扶梯 亲北京港媒：罕见一幕 - 联合早报",
    "summary": "",
-   "time": "2026-11-19 22:33",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lSFoybUtOTzZjeGtWWlBVN3pSSVQzdFZGYWM3cmhkRUtoTml5aU51emxWcURCMlZrNEd2aGlrbnhMUE1SVVBGZkFTUm9QUEZFSEVWOWxCekRmV3RHMW9ZV3M3SU9yRHZSZUctZ2FFYXk?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-19 23:00",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE83T3kzaXB1cFRiZ3FER1pybFVOTkRNbzc0d1hhVi1wY3ZSeTFtdF9EcFVaNFVjVTRMWEpWMlRZdWJ3VTlBWXlLZklvbjl5TVctN19QZ1NhWExic0lVOUkyVjJwY2R5T0pkRThF?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "传特朗普离开中国时 白宫收走随行记者手机 - 联合早报",
+   "title": "瑞银将Workday目标价从210美元下调至200美元 - 东方财富",
    "summary": "",
-   "time": "2026-11-19 22:36",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40Nng4YzFZaE5WeVRqWmxpYjBIODUtRXpyNnZrWlhtRWphNzVlbUxOVHlXSVNZYVppV3FHNnFQcUJrcmtBZ2p2ME9qT1hjMW5GOHRlS1F1RVBiWGQ4THJhN0MzeWJvcXhVYnZZ?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-19 22:24",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiejZKTmFXRGZXWVE1amRXSEhPV1psdXRCUzNoNlFwaGlvU1N3U2FNZkFtX01FQXQ2MW5CZUtwdll4ZGxjZnlkOTVINU5aTUZvM1hsQjNYd2xMbzZIdmt5RFJ6SQ?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "上期所氧化铝主力合约涨超2%",
@@ -1793,10 +1825,10 @@
    "source": "同花顺"
   },
   {
-   "title": "盘中期权异动：美国超微公司盘中下跌8.2%，现最高成交额的看跌期权涨跌幅为+330%，成交量达到9,822张",
+   "title": "沙特首都最高建筑遭袭受损",
    "summary": "",
-   "time": "2026-11-19 15:41:34",
-   "url": "https://news.futunn.com/flash/1005065276/unusual-options-activity-advanced-micro-devices-down-8-2-the",
+   "time": "2026-11-19 16:20:20",
+   "url": "https://news.futunn.com/flash/1005068351/tallest-building-in-saudi-capital-damaged-in-attack",
    "source": "富途"
   },
   {
@@ -1814,32 +1846,32 @@
    "source": "财新"
   },
   {
-   "title": "中基宁波集团交易员Jiang Hang：（铜市场）现货升水可能进一步上升，现货市场可能变得更加吃紧。\n\n因为价格下跌刺激新一轮买盘。",
-   "summary": "中基宁波集团交易员Jiang Hang：（铜市场）现货升水可能进一步上升，现货市场可能变得更加吃紧。\n\n因为价格下跌刺激新一轮买盘。",
-   "time": "2026-11-20 00:02",
-   "url": "https://wallstreetcn.com/livenews/3202698",
+   "title": "欧洲STOXX 600指数初步收跌0.68%，报639.65点。",
+   "summary": "欧洲STOXX 600指数初步收跌0.68%，报639.65点。",
+   "time": "2026-11-20 00:30",
+   "url": "https://wallstreetcn.com/livenews/3202710",
    "source": "华尔街见闻"
   },
   {
-   "title": "COMEX铝期货跌超3% 现报2764.25美元/公吨",
-   "summary": "COMEX铝期货跌超3%，现报2764.25美元/公吨。",
-   "time": "2026-11-20 00:00:32",
-   "url": "https://finance.eastmoney.com/a/202611203935419538.html",
+   "title": "Anthropic股票在纳斯达克上市首日开盘价预计为每股106美元 而IPO发行价为每股83美元",
+   "summary": "Anthropic股票在纳斯达克上市首日开盘价预计为每股106美元，而IPO发行价为每股83美元。",
+   "time": "2026-11-20 00:04:02",
+   "url": "https://finance.eastmoney.com/a/202611203935419966.html",
    "source": "东财国际"
   },
   {
-   "title": "瑞银将Workday目标价从210美元下调至200美元 - 东方财富",
+   "title": "传特朗普离开中国时 白宫收走随行记者手机 - 联合早报",
    "summary": "",
-   "time": "2026-11-19 22:24",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBiejZKTmFXRGZXWVE1amRXSEhPV1psdXRCUzNoNlFwaGlvU1N3U2FNZkFtX01FQXQ2MW5CZUtwdll4ZGxjZnlkOTVINU5aTUZvM1hsQjNYd2xMbzZIdmt5RFJ6SQ?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-19 22:36",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE40Nng4YzFZaE5WeVRqWmxpYjBIODUtRXpyNnZrWlhtRWphNzVlbUxOVHlXSVNZYVppV3FHNnFQcUJrcmtBZ2p2ME9qT1hjMW5GOHRlS1F1RVBiWGQ4THJhN0MzeWJvcXhVYnZZ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "特朗普：今天我们创造了历史 - 新京报",
+   "title": "西南证券：给予浙江鼎力买入评级，目标价74.97元 - 同花顺",
    "summary": "",
-   "time": "2026-11-19 22:13",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xaVlfV1VuQWJuVGpKcl9HeEw0ZHdrZ2hSbWlrWGpMYkJhQTNIUlRmYkZNUk1lZ3VMQlJLNjVlOTd3bWduRHlvbzBBVlpicUJwbGljOGZvSEhUb2htTUd5b2Z0ZE4?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-19 21:57",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9TZEF4NUsyQTlDQUlCQmM0cjE1b2QyUFR3cEdBMTJPWjBsN3FmRkV5RUhldUhFRTlnSnExY3R4WnJjVUVlWXM5ekxRd3NETC15T1ZFTnowRk9xbDdnLVE?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "乌克兰政府债券下跌幅度高达1.8美分，创下近一个月来最大跌幅",
@@ -1849,10 +1881,10 @@
    "source": "同花顺"
   },
   {
-   "title": "丹斯克银行：美国内需韧性有望支撑美元，美联储加息周期或更持久",
+   "title": "NASA确认“旅行者1号”飞越距地球一个光日的里程碑",
    "summary": "",
-   "time": "2026-11-19 15:23:01",
-   "url": "https://news.futunn.com/flash/1005063161/danske-bank-resilient-us-domestic-demand-expected-to-support-dollar",
+   "time": "2026-11-19 15:44:47",
+   "url": "https://news.futunn.com/flash/1005065397/nasa-confirms-voyager-1-reaches-one-light-day-milestone-from",
    "source": "富途"
   },
   {
@@ -1863,10 +1895,10 @@
    "source": "财新"
   },
   {
-   "title": "COMEX铝期货跌超3%，现报2764.25美元/公吨。",
-   "summary": "COMEX铝期货跌超3%，现报2764.25美元/公吨。",
-   "time": "2026-11-20 00:00",
-   "url": "https://wallstreetcn.com/livenews/3202696",
+   "title": "Anthropic美国IPO首日开盘可能会达到110美元。（彭博）",
+   "summary": "Anthropic美国IPO首日开盘可能会达到110美元。（彭博）",
+   "time": "2026-11-20 00:24",
+   "url": "https://wallstreetcn.com/livenews/3202708",
    "source": "华尔街见闻"
   }
  ],
@@ -1874,7 +1906,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(4)",
+   "富途": "ok(5)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1885,12 +1917,12 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "同花顺": 7,
-   "富途": 4,
+   "富途": 5,
    "东财早报": 2,
-   "财新": 7
+   "财新": 6
   }
  },
  "wuxing": {
