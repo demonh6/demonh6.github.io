@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 06:23:17 CST",
- "generated_at_iso": "2026-11-20T06:23:17+08:00",
+ "generated_at": "2026-11-20 06:31:32 CST",
+ "generated_at_iso": "2026-11-20T06:31:32+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -719,7 +719,7 @@
     "price": 23879.1993,
     "change": -550.6854,
     "change_pct": -2.25,
-    "quote_time": "2026-11-20 06:23:00",
+    "quote_time": "2026-11-20 06:30:00",
     "hist": [
      27477.3105,
      27599.791,
@@ -1283,10 +1283,10 @@
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.801,
-    "change": 0.851,
-    "change_pct": 0.93,
-    "quote_time": "06:18:08 2026-11-20"
+    "price": 92.771,
+    "change": 0.821,
+    "change_pct": 0.89,
+    "quote_time": "06:28:56 2026-11-20"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61992.7,
-    "change": -549.4,
-    "change_pct": -0.88,
+    "price": 62173.2,
+    "change": -408.7,
+    "change_pct": -0.65,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1754.25,
-    "change": -10.37,
-    "change_pct": -0.59,
+    "price": 1760.18,
+    "change": -4.87,
+    "change_pct": -0.28,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.74,
-    "change": -0.18,
-    "change_pct": -0.25,
+    "price": 73.07,
+    "change": 0.12,
+    "change_pct": 0.16,
     "source": "okx"
    }
   ],
@@ -1333,8 +1333,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6938,
-    "change": 0.0014,
+    "price": 6.6935,
+    "change": 0.0011,
     "change_pct": 0.02,
     "dec": 4,
     "date": "",
@@ -1372,75 +1372,6 @@
    "score": 0.0,
    "source": "东财"
   },
-  "vix": {
-   "value": 28.44,
-   "change": 3.88,
-   "change_pct": 15.798,
-   "label": "高波动",
-   "color": "#f58a3d",
-   "source": "CBOE",
-   "spark": [
-    15.41,
-    14.84,
-    15.21,
-    15.27,
-    16.87,
-    16.46,
-    19.99,
-    18.44,
-    17.31,
-    16.68,
-    19.03,
-    19.45,
-    18.39,
-    17.52,
-    16.91,
-    17.2,
-    19.42,
-    21.15,
-    20.83,
-    16.61,
-    28.18,
-    25.64,
-    19.92,
-    19.46,
-    17.49,
-    18.7,
-    19.3,
-    22.91,
-    25.46,
-    24.56
-   ],
-   "vix3m": 27.03,
-   "term": "backwardation(恐慌加剧)"
-  },
-  "term_structure": {
-   "points": [
-    {
-     "t": "VIX9D",
-     "value": 29.26,
-     "change_pct": 22.1712
-    },
-    {
-     "t": "VIX",
-     "value": 28.44,
-     "change_pct": 15.798
-    },
-    {
-     "t": "VIX3M",
-     "value": 27.03,
-     "change_pct": 11.2804
-    },
-    {
-     "t": "VIX6M",
-     "value": 26.85,
-     "change_pct": 8.4848
-    }
-   ],
-   "ratio_9d_3m": 1.083,
-   "shape": "backwardation(短期恐慌升温)",
-   "source": "CBOE"
-  },
   "composite": {
    "score": 17.3,
    "label": "冰点",
@@ -1454,6 +1385,17 @@
  },
  "speakers": [
   {
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "据报道：美国白宫国家网络总监肖恩·凯恩克罗斯即将离职",
+   "summary": "据报道，美国白宫国家网络总监肖恩·凯恩克罗斯（Sean Cairncross）即将离职。",
+   "time": "2026-11-20 06:18:03",
+   "url": "https://finance.eastmoney.com/a/202611203935468265.html",
+   "source": "东财国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1463,17 +1405,6 @@
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjMyaU1WNjhlX1Y4STNfZmduUGVLYUZxdW42ekl0S1RBTnZhWTZnR3ZaMkFlZVNZVlFuTDIzRGNlcm83QTNDODlHSDUwMVVheTByRDdpX0Y3b1NKOHVsby0tbHFhMW1Vdl9pVlp4c1NOOU45S0F4b0kwZnBLVUgzOU85em55ZWl1VVJkb3pvdmhKMERVcHRtQTJjUkJuSHRDU01PWHlhcnVqcG1OWDlBWTJrVGJwdE8xa2pFVtIBvwFBVV95cUxOelhqcFhUVnkyNTN3dWlNZ1BpTHI0LVpJWlFvSGM4LUpxSVJ3UVFUVFMzNi1FMm1tLXFsbVJ2bll2a3B0ZEdwbG9NQkp1UmY3YTBTVFA5STNrZzhzYnJSR2xOeEZaUlZ3TGlMa2hxQXpaUHJ3NE90dlBjOEpoYUFaZWppNkNMSUdPOUIxYnA2aUlNakRFM2hXdmRQOVgzOU1kYnZ6YUhOSVpEdTJHTGdDX0R1M1M2dDVGVU5lSjlucw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储12月加息25个基点的概率为96.4%",
-   "summary": "",
-   "time": "2026-11-19 22:01:34",
-   "url": "https://news.futunn.com/flash/1005089990/the-probability-of-a-25-basis-point-rate-hike-by",
-   "source": "富途",
-   "mentions": 1
   },
   {
    "keyword": "马斯克",
@@ -1724,24 +1655,31 @@
    "level": "warning",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌4.99%，达20日历史波动率的 2.8 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 06:23",
+   "time": "2026-11-20 06:32",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "英伟达将参加12月1日的瑞银集团科技与AI活动。",
-   "summary": "英伟达将参加12月1日的瑞银集团科技与AI活动。",
-   "time": "2026-11-20 06:00",
-   "url": "https://wallstreetcn.com/livenews/3202830",
+   "title": "部分基金经理“抄底”科技股，外资巨头频频加仓，上市公司回购公告透底机构动向",
+   "summary": "进入四季度以来，科技板块再度震荡调整，临近年底，机构是如何操作的？近期上市公司回购公告披露的股东变动信息显示，部分知名基金经理开始“抄底”科技股，外资机构也开始加仓部分标的。在机构看来，A股当前整体估值处于历史偏低分位点，具备较高的安全边际，成长板块依然是获取超额收益的主战场，但要注意投资逻辑的变化。（上证报）",
+   "time": "2026-11-20 06:28",
+   "url": "https://wallstreetcn.com/livenews/3202839",
    "source": "华尔街见闻"
   },
   {
-   "title": "长鑫科技回购方案再生变！新增护盘式回购上限30亿元 注销上限增至40亿元",
-   "summary": "【长鑫科技回购方案再生变！新增护盘式回购上限30亿元 注销上限增至40亿元】11月19日，科创板存储龙头长鑫科技（688825.SH）披露《关于调整以集中竞价交易方式回购公司股份方案的公告》，明确本次股份回购中15亿—30亿元的部分将用于维护公司价值及股东权益（即“护盘式回购”），相关股份在回购完成后予以注销并减少注册资本。按方案安排，该部分回购自股东会审议通过本次方案之日起即可实施，实施期限为3个月。",
-   "time": "2026-11-20 05:57:47",
-   "url": "https://finance.eastmoney.com/a/202611193935404897.html",
+   "title": "量身定制融资方案 银行加码支持“六张网”建设",
+   "summary": "【量身定制融资方案 银行加码支持“六张网”建设】政策层面引导金融资源向“六张网”建设领域集聚，银行业也加码布局，为相关项目量身定制融资方案。业内人士普遍认为，银行支持“六张网”建设，既有利于稳定基建投资、扩大有效需求，也有助于优化金融资源配置，为银行业提供优化资产结构、培育新的信贷增长点等机遇。",
+   "time": "2026-11-20 06:22:16",
+   "url": "https://finance.eastmoney.com/a/202611203935444585.html",
    "source": "东财国际"
+  },
+  {
+   "title": "东方财富财经早餐 11月20日周五",
+   "summary": "1、习近平主持中俄美元首会晤。2、Anthropic上市首日收涨17%，市值一度达到1.5万亿美元。3、摩根大通：预计美联储将加息三次，分别在12月、1月和3月。",
+   "time": "2026-11-20 06:00:18",
+   "url": "http://finance.eastmoney.com/a/202611193935354438.html",
+   "source": "东财早报"
   },
   {
    "title": "丹麦议会批准与美国和格陵兰岛达成的安全协议 - 美国之音",
@@ -1751,13 +1689,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "东方财富财经早餐 11月20日周五",
-   "summary": "1、习近平主持中俄美元首会晤。2、Anthropic上市首日开盘涨34%，市值达到1.5万亿美元。3、摩根大通：预计美联储将加息三次，分别在12月、1月和3月。",
-   "time": "2026-11-20 05:17:18",
-   "url": "http://finance.eastmoney.com/a/202611193935354438.html",
-   "source": "东财早报"
-  },
-  {
    "title": "TD Cowen将可口可乐列为2027年首选股，目标价上调至$112 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
    "time": "2026-11-20 04:18",
@@ -1765,10 +1696,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储12月加息25个基点的概率为96.4%",
+   "title": "白宫国家网络总监据悉即将离职",
    "summary": "",
-   "time": "2026-11-19 22:01:34",
-   "url": "https://news.futunn.com/flash/1005089990/the-probability-of-a-25-basis-point-rate-hike-by",
+   "time": "2026-11-19 22:23:53",
+   "url": "https://news.futunn.com/flash/1005091696/white-house-national-cyber-director-reportedly-set-to-depart",
    "source": "富途"
   },
   {
@@ -1786,25 +1717,18 @@
    "source": "财新"
   },
   {
-   "title": "委内瑞拉代总统罗德里格斯：委内瑞拉国家石油公司（PDVSA）已签署84项油气协议。",
-   "summary": "委内瑞拉代总统罗德里格斯：委内瑞拉国家石油公司（PDVSA）已签署84项油气协议。",
-   "time": "2026-11-20 05:59",
-   "url": "https://wallstreetcn.com/livenews/3202829",
+   "title": "美国能源部长Wright：相信国会山将批准能源许可改革。",
+   "summary": "美国能源部长Wright：相信国会山将批准能源许可改革。",
+   "time": "2026-11-20 06:27",
+   "url": "https://wallstreetcn.com/livenews/3202838",
    "source": "华尔街见闻"
   },
   {
-   "title": "福特官宣“正式进入电池业务” 底层技术来自中国合作伙伴",
-   "summary": "【福特官宣“正式进入电池业务” 底层技术来自中国合作伙伴】美国本土汽车产量最高的车企福特确认，其位于密歇根州的电池工厂已开始发运首批磷酸铁锂（LFP）方形电芯。",
-   "time": "2026-11-20 05:53:29",
-   "url": "https://finance.eastmoney.com/a/202611193935355975.html",
+   "title": "赣锋锂业拟最高4亿元回购A股“护盘” 股价较年内高点回撤超60%",
+   "summary": "【赣锋锂业拟最高4亿元回购A股“护盘” 股价较年内高点回撤超60%】在股价持续震荡走低之际，锂矿龙头正式端出了回购方案。赣锋锂业（SZ002460，股价34.20元，市值717.07亿元）披露公告称，公司拟使用自有资金或自筹资金，以集中竞价方式回购部分A股股份，回购资金总额在2亿元至4亿元之间，用于维护公司价值及股东权益。",
+   "time": "2026-11-20 06:19:32",
+   "url": "https://finance.eastmoney.com/a/202611193935355084.html",
    "source": "东财国际"
-  },
-  {
-   "title": "特朗普加强与东盟国家的纽带 - VOA - Voice of America English News",
-   "summary": "",
-   "time": "2026-11-20 03:49",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjMyaU1WNjhlX1Y4STNfZmduUGVLYUZxdW42ekl0S1RBTnZhWTZnR3ZaMkFlZVNZVlFuTDIzRGNlcm83QTNDODlHSDUwMVVheTByRDdpX0Y3b1NKOHVsby0tbHFhMW1Vdl9pVlp4c1NOOU45S0F4b0kwZnBLVUgzOU85em55ZWl1VVJkb3pvdmhKMERVcHRtQTJjUkJuSHRDU01PWHlhcnVqcG1OWDlBWTJrVGJwdE8xa2pFVtIBvwFBVV95cUxOelhqcFhUVnkyNTN3dWlNZ1BpTHI0LVpJWlFvSGM4LUpxSVJ3UVFUVFMzNi1FMm1tLXFsbVJ2bll2a3B0ZEdwbG9NQkp1UmY3YTBTVFA5STNrZzhzYnJSR2xOeEZaUlZ3TGlMa2hxQXpaUHJ3NE90dlBjOEpoYUFaZWppNkNMSUdPOUIxYnA2aUlNakRFM2hXdmRQOVgzOU1kYnZ6YUhOSVpEdTJHTGdDX0R1M1M2dDVGVU5lSjlucw?oc=5",
-   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月19日周四",
@@ -1814,6 +1738,13 @@
    "source": "东财早报"
   },
   {
+   "title": "特朗普加强与东盟国家的纽带 - VOA - Voice of America English News",
+   "summary": "",
+   "time": "2026-11-20 03:49",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjMyaU1WNjhlX1Y4STNfZmduUGVLYUZxdW42ekl0S1RBTnZhWTZnR3ZaMkFlZVNZVlFuTDIzRGNlcm83QTNDODlHSDUwMVVheTByRDdpX0Y3b1NKOHVsby0tbHFhMW1Vdl9pVlp4c1NOOU45S0F4b0kwZnBLVUgzOU85em55ZWl1VVJkb3pvdmhKMERVcHRtQTJjUkJuSHRDU01PWHlhcnVqcG1OWDlBWTJrVGJwdE8xa2pFVtIBvwFBVV95cUxOelhqcFhUVnkyNTN3dWlNZ1BpTHI0LVpJWlFvSGM4LUpxSVJ3UVFUVFMzNi1FMm1tLXFsbVJ2bll2a3B0ZEdwbG9NQkp1UmY3YTBTVFA5STNrZzhzYnJSR2xOeEZaUlZ3TGlMa2hxQXpaUHJ3NE90dlBjOEpoYUFaZWppNkNMSUdPOUIxYnA2aUlNakRFM2hXdmRQOVgzOU1kYnZ6YUhOSVpEdTJHTGdDX0R1M1M2dDVGVU5lSjlucw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
    "title": "摩根士丹利上调CAE评级，转型进展提振投资前景 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
    "time": "2026-11-20 03:42",
@@ -1821,10 +1752,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "据悉苹果正开发自主AI智能体",
+   "title": "英伟达将出席12月1日瑞银全球科技与AI大会",
    "summary": "",
-   "time": "2026-11-19 21:55:15",
-   "url": "https://news.futunn.com/flash/1005089484/it-is-reported-that-apple-is-developing-autonomous-ai-agents",
+   "time": "2026-11-19 22:12:01",
+   "url": "https://news.futunn.com/flash/1005090973/nvidia-to-attend-ubs-global-technology-and-ai-conference-on",
    "source": "富途"
   },
   {
@@ -1842,25 +1773,18 @@
    "source": "财新"
   },
   {
-   "title": "国际金价跌约2.8%，现货白银跌超4.8%，纽约铜跌穿5.7美元",
-   "summary": "周四（11月19日）纽约尾盘，现货黄金跌2.78%，报3620.11美元/盎司，彭博数据显示，继续逼近2025年9月11日盘中最低位3614.02美元、当年9月2日底部3470.34美元。\n\n现货白银跌4.86%，报42.8850美元/盎司，也创2025年下半年以来新低。\n\nCOMEX铜期货跌1.18%，报5.6875美元/磅，延续11月18日重挫的表现。\n\n在美股时段交易的费城金银指数收跌4%，",
-   "time": "2026-11-20 05:59",
-   "url": "https://wallstreetcn.com/livenews/3202820",
+   "title": "信用债行情延续修复，大行二级资本债领涨",
+   "summary": "11月19日上午，信用债市场延续前两个交易日的修复行情。大型银行二级资本债表现突出，部分个券收益率下行4个基点；中低评级信用债走势仍有分化，部分个券收益率继续上行。同期银行间资金面延续宽松，10年期国债活跃券收益率降至1.58%以下。机构认为，资金利率回落为信用债修复提供了支撑。从近期交易表现看，部分信用事件引发的偿债压力主要反映在相关个券定价上；银行理财的预防性赎回是否阶段性结束、前期流出的资金",
+   "time": "2026-11-20 06:26",
+   "url": "https://wallstreetcn.com/livenews/3202837",
    "source": "华尔街见闻"
   },
   {
-   "title": "现货白银短线跳水 跌幅扩大至5%",
-   "summary": "【现货白银短线跳水 跌幅扩大至5%】现货黄金价格跌2.75%，报3622.39美元/盎司；现货白银价格跌5.02%，报42.77美元/盎司。",
-   "time": "2026-11-20 05:49:12",
-   "url": "https://finance.eastmoney.com/a/202611203935461160.html",
+   "title": "据报道：美国白宫国家网络总监肖恩·凯恩克罗斯即将离职",
+   "summary": "据报道，美国白宫国家网络总监肖恩·凯恩克罗斯（Sean Cairncross）即将离职。",
+   "time": "2026-11-20 06:18:03",
+   "url": "https://finance.eastmoney.com/a/202611203935468265.html",
    "source": "东财国际"
-  },
-  {
-   "title": "特朗普称三方会谈“意义重大且影响深远” 国会两党看法不尽相同 - 美国之音",
-   "summary": "",
-   "time": "2026-11-20 03:32",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVpYTWxwUDNwT3JpbF9ROWNiSEZyOTl3bURPdlF4d0o0aWdnbWx3OEVIVDAtQ1R1Rlctd1N1dm05YnVlRmZTRGRFVE9sTEJQMV96cEt5bGJTQy13WG1oOXZsaXIyTVRxYXBmVmM5dWxhbkRFdkZhcmZuRjRyY2JoZ2hwcldsRE9LRU04MWxRWmdCYzVMM1JldTFUbWtxZEZET252MEE0dkM5TkphM2xEV9IBswFBVV95cUxNSFR6QU9VdnJybTRyZXd0bDhlem9ERWJIZVBxLTk4VGtHX09RN0ZmOFF5ZWtodmtTVGdkRnZ1V1M2S1Y2eWFxaDRZS1hzcXpyNlNSdFk5c2l6WmxCbDNKRy1XYklvTWpfejBmUzE0UXFrUndpSTIyYUNiQlVONE8tSWhGQ3BORk40TGs2VUlYejM4ZFNNazlncXVLdXNBTWVjclFrZk5Gb294el82Qloyc2ozaw?oc=5",
-   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1870,17 +1794,24 @@
    "source": "东财早报"
   },
   {
-   "title": "瑞银上调Palo Alto Networks Inc目标价，强劲业绩获肯定 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "特朗普称三方会谈“意义重大且影响深远” 国会两党看法不尽相同 - 美国之音",
    "summary": "",
-   "time": "2026-11-20 03:24",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2MzhxODJ2dmdqd2VzNWdDTDdnNThBYjQwbUdHZUVnLWFxS2xvclhqZUg4bmIwWDFaNF9MNmVwc2lycXc0MU5kYVlaUzVxelR2WWpJYWN1WU12YW5pbU1CeXZIeFlMMnFTTktWc1Fjb0l4SEZL?oc=5",
+   "time": "2026-11-20 03:32",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYVpYTWxwUDNwT3JpbF9ROWNiSEZyOTl3bURPdlF4d0o0aWdnbWx3OEVIVDAtQ1R1Rlctd1N1dm05YnVlRmZTRGRFVE9sTEJQMV96cEt5bGJTQy13WG1oOXZsaXIyTVRxYXBmVmM5dWxhbkRFdkZhcmZuRjRyY2JoZ2hwcldsRE9LRU04MWxRWmdCYzVMM1JldTFUbWtxZEZET252MEE0dkM5TkphM2xEV9IBswFBVV95cUxNSFR6QU9VdnJybTRyZXd0bDhlem9ERWJIZVBxLTk4VGtHX09RN0ZmOFF5ZWtodmtTVGdkRnZ1V1M2S1Y2eWFxaDRZS1hzcXpyNlNSdFk5c2l6WmxCbDNKRy1XYklvTWpfejBmUzE0UXFrUndpSTIyYUNiQlVONE8tSWhGQ3BORk40TGs2VUlYejM4ZFNNazlncXVLdXNBTWVjclFrZk5Gb294el82Qloyc2ozaw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "金达威目标价涨幅超46%；昆药集团评级被调低｜券商评级观察- 21世纪经济报道 - 21财经",
+   "summary": "",
+   "time": "2026-11-20 02:39",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWZZSm0wNUtzd3U2RjlfeWpQZDRUSmhpNF8ydGtJd2NtaWJJcnBjakhCR2tPZ1lKeHJmeHVjT3ZjdzBZVnV0RnZ1VWYyNVVfeWhvaXBrZFBWY2hjc0xKQkNlT2ZCYWJfSW9TTnlDaEVXdW9yY0xuMXZjTW8wRmZhLXBOT2NJWEdQVk9NWDRFWE1PNzlM?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "金银继续大跌 AI资产抛售及美联储鹰派立场形成双重压力",
+   "title": "Visa、万事达卡和摩根大通客户数据遭黑客泄露",
    "summary": "",
-   "time": "2026-11-19 21:51:32",
-   "url": "https://news.futunn.com/flash/1005089233/gold-and-silver-continue-to-plunge-under-dual-pressure-from",
+   "time": "2026-11-19 22:08:53",
+   "url": "https://news.futunn.com/flash/1005090457/customer-data-of-visa-mastercard-and-jpmorgan-leaked-by-hackers",
    "source": "富途"
   },
   {
@@ -1902,7 +1833,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(14)",
+   "富途": "ok(16)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1913,8 +1844,8 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
    "东财早报": 3,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 6,
    "富途": 6,
    "同花顺": 6,
