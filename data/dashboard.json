@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 21:26:33 CST",
- "generated_at_iso": "2026-11-19T21:26:33+08:00",
+ "generated_at": "2026-11-19 21:34:49 CST",
+ "generated_at_iso": "2026-11-19T21:34:49+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,8 +1021,8 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10504.6,
-    "change": -46.57,
+    "price": 10504.73,
+    "change": -46.44,
     "change_pct": -0.44,
     "hist": [
      10441.6,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8150.74,
-    "change": 3.91,
-    "change_pct": 0.05,
+    "price": 8139.25,
+    "change": -7.58,
+    "change_pct": -0.09,
     "hist": [
      7729.69,
      7803.33,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6176.98,
-    "change": 22.59,
-    "change_pct": 0.37,
+    "price": 6168.03,
+    "change": 13.64,
+    "change_pct": 0.22,
     "hist": [
      6126.74,
      6173.38,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3718.08,
-    "change": -23.82,
-    "change_pct": -0.64,
-    "quote_time": "21:26:35 2026-11-19"
+    "price": 3717.729,
+    "change": -24.171,
+    "change_pct": -0.65,
+    "quote_time": "21:34:52 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.184,
-    "change": 0.125,
-    "change_pct": 0.28,
-    "quote_time": "21:26:34 2026-11-19"
+    "price": 45.02,
+    "change": -0.039,
+    "change_pct": -0.09,
+    "quote_time": "21:34:53 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.238,
-    "change": 0.928,
-    "change_pct": 1.13,
-    "quote_time": "21:26:36 2026-11-19"
+    "price": 83.471,
+    "change": 1.161,
+    "change_pct": 1.41,
+    "quote_time": "21:34:52 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.7,
-    "change": 0.75,
-    "change_pct": 0.82,
-    "quote_time": "21:26:36 2026-11-19"
+    "price": 92.892,
+    "change": 0.942,
+    "change_pct": 1.02,
+    "quote_time": "21:34:50 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63672.1,
-    "change": -384.9,
-    "change_pct": -0.6,
+    "price": 63703.9,
+    "change": -457.0,
+    "change_pct": -0.71,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1802.12,
-    "change": 5.86,
-    "change_pct": 0.33,
+    "price": 1804.64,
+    "change": 7.6,
+    "change_pct": 0.42,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.72,
-    "change": 0.42,
-    "change_pct": 0.57,
+    "price": 74.87,
+    "change": 0.45,
+    "change_pct": 0.6,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.71,
-    "change": -0.09,
-    "change_pct": -0.09,
+    "price": 103.68,
+    "change": -0.12,
+    "change_pct": -0.12,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 22.31,
-   "change": -2.25,
-   "change_pct": -9.1612,
+   "value": 22.21,
+   "change": -2.35,
+   "change_pct": -9.5684,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1423,8 +1423,8 @@
     },
     {
      "t": "VIX",
-     "value": 22.31,
-     "change_pct": -9.1612
+     "value": 22.21,
+     "change_pct": -9.5684
     },
     {
      "t": "VIX3M",
@@ -1453,17 +1453,6 @@
   }
  },
  "speakers": [
-  {
-   "keyword": "白宫",
-   "label": "白宫",
-   "hint": "美国官方政策表态的权威渠道",
-   "title": "报道：白宫寻求评估伊朗对不同打击情景的潜在反应",
-   "summary": "Axios记者在X上称，白宫正要求五角大楼和情报专家评估伊朗可能如何回应各种打击方案。特朗普政府希望了解，能否避免伊朗以袭击海湾地区能源设施作为报复。",
-   "time": "2026-11-19 20:53",
-   "url": "https://wallstreetcn.com/livenews/3202593",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
   {
    "keyword": "马斯克",
    "label": "马斯克",
@@ -1681,32 +1670,46 @@
  "alerts": [],
  "news": [
   {
-   "title": "谷歌“太阳捕手”（Project Suncatcher）项目将于2029年部署卫星。（彭博）",
-   "summary": "谷歌“太阳捕手”（Project Suncatcher）项目将于2029年部署卫星。（彭博）",
-   "time": "2026-11-19 21:00",
-   "url": "https://wallstreetcn.com/livenews/3202599",
+   "title": "加拿大10月原材料价格指数环比 -1%，预期 1%，前值 4.8%。",
+   "summary": "加拿大10月原材料价格指数环比 -1%，预期 1%，前值 4.8%。",
+   "time": "2026-11-19 21:32",
+   "url": "https://wallstreetcn.com/livenews/3202616",
    "source": "华尔街见闻"
   },
   {
-   "title": "风口研报 - 财联社电报",
+   "title": "深市月内回购金额超200亿元 产业资本真金白银投票",
+   "summary": "【深市月内回购金额超200亿元 产业资本真金白银投票】近期，A股上市公司及重要股东持续发力回购增持。以深市为例，月内深市披露回购增持计划相关公告448单，其中回购计划82单，回购金额上限为203.36亿元，回购进展298单；重要股东增持计划31单，增持金额上限为44.11亿元，增持进展37单。",
+   "time": "2026-11-19 21:31:15",
+   "url": "https://finance.eastmoney.com/a/202611193935281198.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "中美俄领导人会晤并发表《和平宣言》 - DW.com",
    "summary": "",
-   "time": "2026-11-19 20:34",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBxeEltRmdiQnIybENfV1V6RVFRWEVhMFQ2VEg3X1lnWmoybmpWQlJWdlRLZ0dCZlFYQnh0NHdoT2dVcy1hbEF3cEo1RThNb09YQzlIWlJKall4OTZXdHdadDdB?oc=5",
+   "time": "2026-11-19 21:13",
+   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQM2tMSy1pTzNndk5yYzVUNlBPRUpOMkItV01kTVg1ZnVaMTNiMWd5bnAxTG1uckU0MXJ3blBDVnYtYkFVdGxFeVozZ2FvODY3YXdVYmoyd0sxSzc4UllmM1E1SGUwUVRyMU91MWNXVU43RUZQb29TWU5GTzZHSXAzRkF4enpROU5jX0tFT2tmQXF6UjFrNnBKQ3hiNTZxRy0tb0JtZ2JwZ3BQQXRmcDlRUS1MMk05eWw1SUVXMTI1Nkx5OUdVTDE5Q3V4b2N1X3hpTUNiR05ETTNOT0x1ZENVTmctZU96TGZIMWV1ZVFDbnlwUHRmU1NYak9QQ3pUWFhwZE5aM3lEQ2ViY29jUVNxQU9UaTlXLVExb184ZnlZTknSAaACQVVfeXFMTVZFbGN2OUJRVUR1cVE0UU9JTTZiaFJnMzNUcmVVNWh0U3RGZzJiNGltNzh3VFdDTHBtMXNFOElwczBfNVNKcy1VLUxXb3U0MzYwSEUzSzd3eVNWRl9aN2loUXNZbkJrTlcwUlhRWnllcVYtS19BcGxOV2lwWF9DMXFmYVkxbWZCTENrM2RoN3RxUFNCZU1PVmQzejFHYVVpX1RfLXhjeTlpa2lBS1RnY3dKbkhKN3dFZm5wZXIwbXR3WWFQdm5rUEZHSGVZaVY0UjAxVTFwUERqR2lJb2tfdGt2SkwxNGs0ZzhSYkpzQ1ptVkRpWmk0a09Uclk1ZjcxeHluVXlhUVY3REhpUnZNbGFIc2FSWmlwalRIYlphT2VU?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "AI巨兽上市，投行也狂欢！Anthropic(ANT.US)IPO承销团落袋5.5亿美元，SpaceX(SPCX.US)纪录作古 - 证券之星",
+   "summary": "",
+   "time": "2026-11-19 21:03",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tSXNueEdUZ21mRW9Xc0Z0NTlQZHplYXZiMEdPY0lPRjJMT2VaNWwtNmMzMlk2c3RiYTBFUHZVQ3dkVTZqOUZjUGFQSGxyOUduVm5zNjgxYjhyMHZjRzhKSA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "期市夜盘开盘，国内期货主力合约多数上涨",
+   "title": "韦德布什上调英伟达目标价，认为股价已反映领导层变动风险",
    "summary": "",
-   "time": "2026-11-19 13:00:01",
-   "url": "https://news.10jqka.com.cn/20261119/c682017923.shtml",
-   "source": "同花顺"
+   "time": "2026-11-19 13:32:06",
+   "url": "https://news.futunn.com/flash/1005050478/wedbush-raises-nvidia-price-target-believing-stock-price-already-reflects",
+   "source": "富途"
   },
   {
-   "title": "胡塞武装袭击致沙特主权基金大楼受损",
+   "title": "美国至11月14日当周初请失业金人数20.3万人，预期19.7万人，前值由20万人修正为20.2万人",
    "summary": "",
-   "time": "2026-11-19 12:47:55",
-   "url": "https://news.futunn.com/flash/1005045900/houthi-attack-damages-building-of-saudi-sovereign-wealth-fund",
-   "source": "富途"
+   "time": "2026-11-19 13:30:31",
+   "url": "https://news.10jqka.com.cn/20261119/c682018433.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月19日周四",
@@ -1723,32 +1726,46 @@
    "source": "财新"
   },
   {
-   "title": "夜盘期货开盘，原油涨逾3%，沥青涨逾2%，焦煤、PTA、低硫燃油、纯苯、瓶片涨逾1%；沪锡、沪镍、沪铜跌逾1%。",
-   "summary": "夜盘期货开盘，原油涨逾3%，沥青涨逾2%，焦煤、PTA、低硫燃油、纯苯、瓶片涨逾1%；沪锡、沪镍、沪铜跌逾1%。",
-   "time": "2026-11-19 21:00",
-   "url": "https://wallstreetcn.com/livenews/3202598",
+   "title": "加拿大10月工业品价格指数环比 0.3%，预期 0.5%，前值 2%。",
+   "summary": "加拿大10月工业品价格指数环比 0.3%，预期 0.5%，前值 2%。",
+   "time": "2026-11-19 21:31",
+   "url": "https://wallstreetcn.com/livenews/3202615",
    "source": "华尔街见闻"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "美国上周首次申领失业救济人数为20.3万人 高于市场预期",
+   "summary": "美国上周首次申领失业救济人数为20.3万人，预估为19.8万人，前值为20万人。",
+   "time": "2026-11-19 21:30:42",
+   "url": "https://finance.eastmoney.com/a/202611193935279113.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "普京称与习近平特朗普会谈中的自由讨论最有意思 - 联合早报",
    "summary": "",
-   "time": "2026-11-19 20:11",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5yUERKWmJyX0E4U1FYeGd0S2Z2dTYzeHpCU3VYeGh0M2s4YktZUTdWcHpYckdKVDVQb0pHemdhd2FVNG9hSi1JQw?oc=5",
+   "time": "2026-11-19 20:47",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RX3VHRlA0TTI2LVdSOElHakJwbVNyMFNjVUNiS2MzN18xbDc3VG5JTHJPY0tWSzlIYndEcldGaVZlUkYwMGhXR01OR19FNi1UeVA0NmptcS1Nb1J2OUkxOUhmdGJCWUhRMGww?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "太平洋：给予国元证券买入评级_券商研报_数据解析 - 证券之星",
+   "summary": "",
+   "time": "2026-11-19 20:55",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00TzdvYVpyOEZqeVNFdG5fWENZYlB0VUtPLWk2NlhyOUZyVDVGUUpOXzFzaU8xQVBIWEJ1UDd2NmxYX3R5YklYQ0ZWcUFkYi15LUt2MFpzR2xHWlhVa1JpWXVn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "*ST香雪：法院裁定受理公司重整并指定管理人，股票被叠加实施退市风险警示",
+   "title": "紫金矿业：拟以20亿元-30亿元回购A股股份",
    "summary": "",
-   "time": "2026-11-19 12:56:10",
-   "url": "https://news.10jqka.com.cn/20261119/c682017873.shtml",
-   "source": "同花顺"
+   "time": "2026-11-19 13:26:10",
+   "url": "https://news.futunn.com/flash/1005049596/zijin-mining-plans-to-repurchase-a-shares-for-rmb-2",
+   "source": "富途"
   },
   {
-   "title": "宁德时代：11月19日回购85.05万股A股股份 回购总金额为1.9998亿元",
+   "title": "深微芯创完成近亿元天使轮融资",
    "summary": "",
-   "time": "2026-11-19 12:41:51",
-   "url": "https://news.futunn.com/flash/1005045478/catl-repurchased-850500-a-shares-on-november-19-with-a",
-   "source": "富途"
+   "time": "2026-11-19 13:29:09",
+   "url": "https://news.10jqka.com.cn/20261119/c682018414.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1765,32 +1782,46 @@
    "source": "财新"
   },
   {
-   "title": "普京重申外国军队进驻乌克兰不可接受。（塔斯社）",
-   "summary": "普京重申外国军队进驻乌克兰不可接受。（塔斯社）",
-   "time": "2026-11-19 20:57",
-   "url": "https://wallstreetcn.com/livenews/3202596",
+   "title": "美国11月费城联储制造业指数 6.3，预期 21，前值 20.9。",
+   "summary": "美国11月费城联储制造业指数 6.3，预期 21，前值 20.9。",
+   "time": "2026-11-19 21:30",
+   "url": "https://wallstreetcn.com/livenews/3202614",
    "source": "华尔街见闻"
   },
   {
-   "title": "14公司获得增持评级-更新中 - 中财网",
+   "title": "美国11月费城联储制造业指数为6.3 预估为20.55",
+   "summary": "【美国11月费城联储制造业指数为6.3 预估为20.55】美国11月费城联储制造业指数为6.3，预估为20.55，前值为20.9。",
+   "time": "2026-11-19 21:30:34",
+   "url": "https://finance.eastmoney.com/a/202611193935280668.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美中俄三方会谈结束 特朗普：有责任保持开放、尊重且富有成效的对话 - 美国之音",
    "summary": "",
-   "time": "2026-11-19 20:06",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hdWZ6RWl6YTFDbjRJYzJ3ZjhEcGE3QnFQME0tLVhYT2JYelNjY0VSUjd1anVKeEQteHZXN09pdGExSURXS1Q5RGdnanFiS2xkMUktQjFn?oc=5",
+   "time": "2026-11-19 20:00",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVjhwdDRNY0o2ZHFJUW43dUtiYzV6WHlnN0FzYVZZR1dYa2I5TXFUOGV5cVVacGpNVFB1U1FaZGRRUDgyVEJvY0lOaXlEb3d1aDNiZEswbFNkOERWbU1UNFBuaHFLQ0NmNkJGOXdJdlBRZlFxQ2tPT0pCXzFYN0JUR2ZjdnJpNzlHM0JhMGxPUXlMbHRweHAxa1RNQdIBngFBVV95cUxOREpWRndPeHBXY1Z1cVdKU0VsR25CX2c0TVV1WU0xVHRMSm41MVBleTR4QnZySk55elNwZUktcEJzMndDbWFyRGMtb1ZrSnNuVmFyMmtQNnFqMW1vUy1LX3RKVFotSjNLRVVJUmpENnE5SHY3TDZ2Vl9ld3ZjNDJkeHh1Z0JySHRIU2JmbGE1Qm9sdHM4amQwa05wVnUwQQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "太平洋：给予仕佳光子买入评级_券商研报_数据解析 - 证券之星",
+   "summary": "",
+   "time": "2026-11-19 20:55",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kdTVkY01UeWloMl9zTjJkYm5WWktCWWROQWFOMm5tTEprUnZ0OXVpTUJYZ2p5dEcwQXBMX1FYRzhlUE91TnhfWk5RTmRGakoxM0JneEVjNUJHZTMtM1VzVWx3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "*ST香雪：法院许可公司在重整期间继续营业",
+   "title": "印度允许超20年船龄的船舶经审批加入本国船队",
    "summary": "",
-   "time": "2026-11-19 12:55:59",
-   "url": "https://news.10jqka.com.cn/20261119/c682017871.shtml",
-   "source": "同花顺"
+   "time": "2026-11-19 13:25:04",
+   "url": "https://news.futunn.com/flash/1005049517/india-allows-vessels-older-than-20-years-to-join-its",
+   "source": "富途"
   },
   {
-   "title": "盘前期权异动：美光科技盘前上涨5.0%，现最高成交额的看涨期权涨跌幅为+79%，成交量达到11张",
+   "title": "中国滑雪杖全球爆单",
    "summary": "",
-   "time": "2026-11-19 12:41:41",
-   "url": "https://news.futunn.com/flash/1005045476/unusual-options-activity-micron-technology-up-5-0-premarket-the",
-   "source": "富途"
+   "time": "2026-11-19 13:28:14",
+   "url": "https://news.10jqka.com.cn/20261119/c682018404.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1805,69 +1836,29 @@
    "time": "",
    "url": "https://database.caixin.com/2026-11-19/102506474.html?cxapp_link=true",
    "source": "财新"
-  },
-  {
-   "title": "普京不排除出席在迈阿密举行的G20峰会 但尚未做出决定",
-   "summary": "俄罗斯总统普京不排除出席在迈阿密举行的G20峰会。他表示感谢邀请，但尚未作出决定，将对此加以考虑。普京表示，他首先必须考虑俄罗斯国内的情况，对他来说，过于频繁地出国访问“并不是特别方便”。普京表示，应首先与欧洲展开对话，之后再在国际平台上接触，否则可能会导致一种不恰当的“讨价还价”。",
-   "time": "2026-11-19 20:56",
-   "url": "https://wallstreetcn.com/livenews/3202594",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "蒙特利尔银行上调杜克能源目标价 - 东方财富",
-   "summary": "",
-   "time": "2026-11-19 20:00",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OR2Mtbzh2dzV0eFUyQkpOei1VUkVUN3lnYUdEb1d0R0hfNjB5ZlowUDIwRDlaNXVEdmVYcGEwTmpQS1dYZmhISkh4bnNuR2ZsR2E2cm9WbElPN1RyYTM5OHlXUQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "阿里即时零售三季度非餐饮部分线上交易额同比增长40%",
-   "summary": "",
-   "time": "2026-11-19 12:55:18",
-   "url": "https://news.10jqka.com.cn/20261119/c682017866.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "普京：有兴趣结束俄乌冲突，但乌克兰必须接受妥协",
-   "summary": "",
-   "time": "2026-11-19 12:39:30",
-   "url": "https://news.futunn.com/flash/1005045046/putin-interested-in-ending-the-russia-ukraine-conflict-but-ukraine",
-   "source": "富途"
-  },
-  {
-   "title": "奥特伯格执掌下的波音，陷入了一场漫长的减速修复中",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-19/102506472.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "报道：白宫寻求评估伊朗对不同打击情景的潜在反应",
-   "summary": "Axios记者在X上称，白宫正要求五角大楼和情报专家评估伊朗可能如何回应各种打击方案。特朗普政府希望了解，能否避免伊朗以袭击海湾地区能源设施作为报复。",
-   "time": "2026-11-19 20:53",
-   "url": "https://wallstreetcn.com/livenews/3202593",
-   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
-   "东财国际": "FAIL:ChunkedEncodingError",
+   "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(7)",
+   "富途": "ok(12)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "ok(30)",
+   "百度财经": "FAIL:RuntimeError",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "FAIL:HTTPError",
+   "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 10,
-   "谷歌新闻·研报": 10,
-   "同花顺": 9,
-   "富途": 7,
+   "华尔街见闻": 7,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 6,
+   "富途": 6,
+   "同花顺": 6,
    "东财早报": 3,
-   "财新": 9
+   "财新": 6
   }
  },
  "wuxing": {
