@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 19:01:01 CST",
- "generated_at_iso": "2026-11-19T19:01:01+08:00",
+ "generated_at": "2026-11-19 19:09:51 CST",
+ "generated_at_iso": "2026-11-19T19:09:51+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -900,11 +900,11 @@
      60459.58,
      61248.59,
      60819.36,
-     61142.35,
-     59662.02,
-     58860.43,
-     59024.28,
-     59444.21
+     61142.3516,
+     59662.0195,
+     58860.4297,
+     59024.2813,
+     59444.2109
     ],
     "sigma": 1.998,
     "volume": 0.0,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10527.76,
-    "change": -23.41,
-    "change_pct": -0.22,
+    "price": 10523.58,
+    "change": -27.59,
+    "change_pct": -0.26,
     "hist": [
      10441.6,
      10552.05,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8169.92,
-    "change": 23.09,
-    "change_pct": 0.28,
+    "price": 8173.86,
+    "change": 27.03,
+    "change_pct": 0.33,
     "hist": [
      7729.69,
      7803.33,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6190.5,
-    "change": 36.11,
-    "change_pct": 0.59,
+    "price": 6196.92,
+    "change": 42.53,
+    "change_pct": 0.69,
     "hist": [
      6126.74,
      6173.38,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3738.708,
-    "change": -3.192,
-    "change_pct": -0.09,
-    "quote_time": "19:01:01 2026-11-19"
+    "price": 3734.202,
+    "change": -7.698,
+    "change_pct": -0.21,
+    "quote_time": "19:09:53 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.263,
-    "change": 0.204,
-    "change_pct": 0.45,
-    "quote_time": "19:00:55 2026-11-19"
+    "price": 45.166,
+    "change": 0.107,
+    "change_pct": 0.24,
+    "quote_time": "19:09:53 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.514,
-    "change": 0.204,
-    "change_pct": 0.25,
-    "quote_time": "19:01:03 2026-11-19"
+    "price": 82.687,
+    "change": 0.377,
+    "change_pct": 0.46,
+    "quote_time": "19:09:43 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.984,
-    "change": 0.034,
-    "change_pct": 0.04,
-    "quote_time": "19:01:04 2026-11-19"
+    "price": 92.345,
+    "change": 0.395,
+    "change_pct": 0.43,
+    "quote_time": "19:09:51 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,9 +1294,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63792.1,
-    "change": -524.4,
-    "change_pct": -0.82,
+    "price": 63737.5,
+    "change": -450.9,
+    "change_pct": -0.7,
     "source": "okx",
     "hist": [
      84539.5,
@@ -1328,17 +1328,17 @@
      64466.2,
      64112.8,
      63123.6,
-     63782.2
+     63710.6
     ],
-    "sigma": 2.068
+    "sigma": 2.063
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1803.15,
-    "change": -0.96,
-    "change_pct": -0.05,
+    "price": 1803.62,
+    "change": 4.55,
+    "change_pct": 0.25,
     "source": "okx",
     "hist": [
      2512.69,
@@ -1370,17 +1370,17 @@
      1820.08,
      1785.28,
      1768.48,
-     1803.41
+     1802.59
     ],
-    "sigma": 3.017
+    "sigma": 3.014
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.42,
-    "change": -0.19,
-    "change_pct": -0.25,
+    "price": 74.49,
+    "change": 0.07,
+    "change_pct": 0.09,
     "source": "okx",
     "hist": [
      108.5,
@@ -1412,18 +1412,18 @@
      70.79,
      72.46,
      73.48,
-     74.43
+     74.47
     ],
-    "sigma": 3.069
+    "sigma": 3.071
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.61,
-    "change": -0.19,
-    "change_pct": -0.18,
+    "price": 103.62,
+    "change": -0.18,
+    "change_pct": -0.17,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1432,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6677,
-    "change": -0.0015,
+    "price": 6.6676,
+    "change": -0.0016,
     "change_pct": -0.02,
     "dec": 4,
     "date": "",
@@ -1472,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 22.08,
-   "change": -2.48,
-   "change_pct": -10.0977,
+   "value": 21.95,
+   "change": -2.61,
+   "change_pct": -10.627,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1522,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 22.08,
-     "change_pct": -10.0977
+     "value": 21.95,
+     "change_pct": -10.627
     },
     {
      "t": "VIX3M",
@@ -1552,6 +1552,17 @@
   }
  },
  "speakers": [
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "美中俄三方会谈 特朗普总统：我们正在创造历史，许多议题待讨论 - 美国之音",
+   "summary": "",
+   "time": "2026-11-19 18:01",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZlVYWDFnVEo0OVUxZ05nbFRyVlQxNUpyVTVjSy1HTDl5MVVNUW5vSjNCajlqUmJiVTg5d1ItdS10ODM2Tm92RHpJWUExWkhWcGJGbjlyUFVrZkxXQ000ZEFrckYtM2VDSnE1Ri1scGxTUm1kU1VoMzBKQlI5SjBMUjlWa2dOZ0VQX2NkdjZ3dFVlT0czWUQ0QlUwM1RQUUY0Y01HczJJQy1Tc1A1X0hpZWRXQU1ZTUplZkN3M29ha0QtUlFGc1o5TElSR2hZdFdqc3k00gHWAUFVX3lxTE1pMzd4ZUhINFZPNU8ySk9OUnI0c3B0bDlVNjYyWVRQQlhPamRoRFRHUEdod05tem56M0R0cTkxSEFfUEpJSktHR1lQX2prdXhacXBrbmJXMFZXM2ZtZ1c0T3cyVGdPMlQ5Q1NZS0dsLXd3amktNzhTbnpJUnYxUDFRZjFyWEtpclBqeWhRN085MWwxaFNMUjFJQldDVXV1bDItWHNrVjNKWldNRmVsY2l4dVdtTzZpYVlQOGprQWNxdjRFai1BZDJRNnN0SXBaVHhRRW54RkE?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
   {
    "keyword": "马斯克",
    "label": "马斯克",
@@ -1625,13 +1636,33 @@
   ],
   "reports": [
    {
-    "title": "Anthropic的IPO据悉吸引近10亿美元的英国散户需求。（彭博）",
-    "org": "彭博",
+    "title": "大摩：仍看好黄金，2027年目标价5250美元 - 中新经纬",
+    "org": "大摩",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://wallstreetcn.com/livenews/3202529",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mR2dlQUJ5bHgwUTNEWU91MkhZcXFpcXB1QjNDdjhtYzhSOG9UYUhqREQyOW5RMkhhTnNXbUZhbFd4MDVqelR3RE41aHQ3R1huMkxCd1EwWVFYN1kxWk9vS1paWkE?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "东吴证券维持海康威视买入评级 上调2026至2027年净利预测 - 观点网",
+    "org": "东吴",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBNSTlEOXBYODQyZ3pOWm80SXhIbWoxVnROZ0k4Ry12bGhNYnF3d2dSeUNXV3dNOFEzbFRrcVVtSy1kaVQ0QWE2ZkN1eFJORVdUUWhrR3VodWRtSW1COFB3ZGhR?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "中邮证券：给予贵州茅台买入评级_券商研报_数据解析 - 证券之星",
+    "org": "中邮证券",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41WVpfeEdFR0JFZml0TVJpaTI2SjVLQnU5UzNwbnhfRFZkbVU4UTJUTmxLS1djVG95R2ZBU1FFT2RHZkZpdFdSTGdPei1ITzJnaGJSNnQwT2tVMVVranZLa3R3?oc=5",
     "source": "机构观点"
    },
    {
@@ -1759,32 +1790,46 @@
  "alerts": [],
  "news": [
   {
-   "title": "英国11月CBI工业物价预期差值 20，前值 24。",
-   "summary": "英国11月CBI工业物价预期差值 20，前值 24。",
-   "time": "2026-11-19 19:00",
-   "url": "https://wallstreetcn.com/livenews/3202551",
+   "title": "燧原科技：在手订单充沛，并正在与多家国内半导体产业伙伴进行合作",
+   "summary": "燧原科技11月19日公告，公司股票交易连续三个交易日内（2026年11月17日、11月18日、11月19日）收盘价格跌幅偏离值累计达到30%以上，根据《上海证券交易所交易规则》的有关规定，属于股票交易异常波动情形。公司注意到近期相关产业新闻引发了大量关注和讨论。公司在手订单充沛，并正在与多家国内半导体产业伙伴进行合作，打造基于国产供应链的云端AI芯片产品，构建稳定的供应链体系，支撑公司业务发展。公",
+   "time": "2026-11-19 19:05",
+   "url": "https://wallstreetcn.com/livenews/3202552",
    "source": "华尔街见闻"
   },
   {
-   "title": "习近平：三国会晤播下的种子必将生根发芽、开花结果",
-   "summary": "【习近平：三国会晤播下的种子必将生根发芽、开花结果】习近平指出，今天的中俄美元首会晤是积极的、建设性的，也是富有成果的，三国在维护世界和平上看法是一致的。我们都记得二战期间并肩作战的历史，强调要珍惜来之不易的和平。我们都同意大国应该重视各国合理安全关切。我们都主张对话谈判是化解分歧的正确选择。只要对话不停止、大门不关上，和平就有希望。我们都认为合作是应对挑战的必由之路，要基于共同利益加强合作，以合作促和平、谋共赢。今天三国会晤播下的种子，必将生根发芽、开花结果。中俄美三国要落实好会晤共识，继续加强沟通，以对话聚共识，以担当迎挑战，以合作促和平，共同推动建设一个更加美好的世界。",
-   "time": "2026-11-19 18:56:45",
-   "url": "https://finance.eastmoney.com/a/202611193935155734.html",
+   "title": "世界黄金协会展望中国市场：金饰消费有望继续改善 金价回落或将进一步带动购金需求",
+   "summary": "【世界黄金协会展望中国市场：金饰消费有望继续改善 金价回落或将进一步带动购金需求】世界黄金协会发布对中国市场未来展望：当前宏观环境或将继续为金条金币投资提供支撑，但若股市持续回暖，可能会分散投资者对黄金ETF的部分关注。受季节性因素提振，金饰消费有望继续改善，而金价回落或将进一步带动购金需求。",
+   "time": "2026-11-19 19:02:00",
+   "url": "https://finance.eastmoney.com/a/202611193935159594.html",
    "source": "东财国际"
   },
   {
-   "title": "燧原科技：在手订单充沛 并正在与多家国内半导体产业伙伴进行合作",
+   "title": "深圳“特习会”落幕　分析:美中关系表面稳定，私下较劲激烈 - 美国之音",
    "summary": "",
-   "time": "2026-11-19 11:00:30",
-   "url": "https://news.futunn.com/flash/1005034366/enflame-technology-robust-order-backlog-and-ongoing-collaboration-with-multiple",
-   "source": "富途"
+   "time": "2026-11-19 18:55",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ25PM3dBTTZnNDMyVHJGc3FvbjVQVGdlQ1I5V3R0X2czbGlZT2pybVpFTERPYzBiMEhfTUhpd0M0WENjWHpraHJHT1dFcWM5N01tczdfMjZOVHFQRTl3ZGNabGEwQml6cy1TMl9KYkhtQ09SY25CNS05SERPb1RWVUkyNTFsOE5BS1RoZFFR0gGQAUFVX3lxTFBhZzEzOVVLNWZMdkUzYWZGQUl4VjFnaDlhYVU2WDVQVE1yekpSMHRsTVJSOFBONVRtNGJkSzM0WG5zM2FhX1dVX2h0VkNDSWdmV2ZFSGxSWF96TE5RNFRMeWJHOEZJWjZRNHQxbjBodERaWENPd3VlYlVTTnllZzVDbmFVYW45MkRZdFF5MnlXUA?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "燧原科技：正与多家国内半导体产业伙伴合作，打造基于国产供应链的云端AI芯片产品",
+   "title": "大摩：仍看好黄金，2027年目标价5250美元 - 中新经纬",
    "summary": "",
-   "time": "2026-11-19 10:58:47",
-   "url": "https://news.10jqka.com.cn/20261119/c682012918.shtml",
+   "time": "2026-11-19 18:47",
+   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mR2dlQUJ5bHgwUTNEWU91MkhZcXFpcXB1QjNDdjhtYzhSOG9UYUhqREQyOW5RMkhhTnNXbUZhbFd4MDVqelR3RE41aHQ3R1huMkxCd1EwWVFYN1kxWk9vS1paWkE?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "西部数据美股盘前涨超5%",
+   "summary": "",
+   "time": "2026-11-19 11:10:18",
+   "url": "https://news.10jqka.com.cn/20261119/c682013395.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "傲拓科技：科创板IPO发行价确定为18.18元/股",
+   "summary": "",
+   "time": "2026-11-19 11:02:30",
+   "url": "https://news.futunn.com/flash/1005034944/aotuo-technology-star-market-ipo-issue-price-set-at-rmb",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月19日周四",
@@ -1801,18 +1846,39 @@
    "source": "财新"
   },
   {
-   "title": "英国11月CBI工业订单差值 -12，前值 -32。",
-   "summary": "英国11月CBI工业订单差值 -12，前值 -32。",
+   "title": "英国11月CBI工业物价预期差值 20，前值 24。",
+   "summary": "英国11月CBI工业物价预期差值 20，前值 24。",
    "time": "2026-11-19 19:00",
-   "url": "https://wallstreetcn.com/livenews/3202550",
+   "url": "https://wallstreetcn.com/livenews/3202551",
    "source": "华尔街见闻"
   },
   {
-   "title": "阿斯麦美股盘前涨超4%",
-   "summary": "阿斯麦美股盘前涨超4%，现报1452.84美元。",
-   "time": "2026-11-19 18:56:05",
-   "url": "https://finance.eastmoney.com/a/202611193935155328.html",
+   "title": "中航光电：网传公司中标19亿消息不属实",
+   "summary": "【中航光电：网传公司中标19亿消息不属实】有投资者问，请问最近市场上流传公司中标19亿的消息是否属实？中航光电在互动平台表示，上述网传信息不属实。",
+   "time": "2026-11-19 19:00:27",
+   "url": "https://finance.eastmoney.com/a/202611193935159356.html",
    "source": "东财国际"
+  },
+  {
+   "title": "President Xi Jinping Meets with U.S. President Donald J. Trump - 中华人民共和国驻大韩民国大使馆",
+   "summary": "",
+   "time": "2026-11-19 18:07",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SZ05fVnNDeGI3cnlGSHY1YVk4R2hQUUl0elZ3aG03TGxxMmY5ajJNXzctZmVJNldBSmxCVGg1NFYyZjVlcmVBRTFMU1ludGpBY2wtTDRtMlAyMmhuYVl6NFJVVzJpdTd1MVE5X1FSVU5VWTd1bU5ud1JVZw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "东吴证券维持海康威视买入评级 上调2026至2027年净利预测 - 观点网",
+   "summary": "",
+   "time": "2026-11-19 18:36",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBNSTlEOXBYODQyZ3pOWm80SXhIbWoxVnROZ0k4Ry12bGhNYnF3d2dSeUNXV3dNOFEzbFRrcVVtSy1kaVQ0QWE2ZkN1eFJORVdUUWhrR3VodWRtSW1COFB3ZGhR?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "远翔新材：董事会成员人数由9名调整为6名，三名董事同日离职",
+   "summary": "",
+   "time": "2026-11-19 11:08:08",
+   "url": "https://news.10jqka.com.cn/20261119/c682013261.shtml",
+   "source": "同花顺"
   },
   {
    "title": "ST汇洲：撤销其他风险警示，股票简称变更为汇洲智能",
@@ -1820,13 +1886,6 @@
    "time": "2026-11-19 10:51:53",
    "url": "https://news.futunn.com/flash/1005033746/st-huizhou-other-risk-warning-lifted-stock-abbreviation-changed-to",
    "source": "富途"
-  },
-  {
-   "title": "联合化学：控股股东终止协议转让7.00%公司股份",
-   "summary": "",
-   "time": "2026-11-19 10:56:34",
-   "url": "https://news.10jqka.com.cn/20261119/c682012889.shtml",
-   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1843,18 +1902,39 @@
    "source": "财新"
   },
   {
-   "title": "克里姆林宫称普京即将举行新闻发布会。（IFX）",
-   "summary": "克里姆林宫称普京即将举行新闻发布会。（IFX）",
-   "time": "2026-11-19 18:57",
-   "url": "https://wallstreetcn.com/livenews/3202549",
+   "title": "英国11月CBI工业订单差值 -12，前值 -32。",
+   "summary": "英国11月CBI工业订单差值 -12，前值 -32。",
+   "time": "2026-11-19 19:00",
+   "url": "https://wallstreetcn.com/livenews/3202550",
    "source": "华尔街见闻"
   },
   {
-   "title": "伊朗驻国际原子能机构代表：在面临进一步袭击威胁的情况下 德黑兰不会移交敏感核数据",
-   "summary": "伊朗驻国际原子能机构代表表示，在面临进一步袭击威胁的情况下，德黑兰不会移交敏感核数据。",
-   "time": "2026-11-19 18:53:18",
-   "url": "https://finance.eastmoney.com/a/202611193935154426.html",
+   "title": "燧原科技：在手订单充沛 并正在与多家国内半导体产业伙伴进行合作",
+   "summary": "【燧原科技：在手订单充沛 并正在与多家国内半导体产业伙伴进行合作】燧原科技(688801.SH)发布异动公告，公司注意到近期相关产业新闻引发了大量关注和讨论。公司在手订单充沛，并正在与多家国内半导体产业伙伴进行合作，打造基于国产供应链的云端AI芯片产品，构建稳定的供应链体系，支撑公司业务发展。公司目前按计划正常开展生产经营。",
+   "time": "2026-11-19 18:59:19",
+   "url": "https://finance.eastmoney.com/a/202611193935159094.html",
    "source": "东财国际"
+  },
+  {
+   "title": "美中俄三方会谈 特朗普总统：我们正在创造历史，许多议题待讨论 - 美国之音",
+   "summary": "",
+   "time": "2026-11-19 18:01",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZlVYWDFnVEo0OVUxZ05nbFRyVlQxNUpyVTVjSy1HTDl5MVVNUW5vSjNCajlqUmJiVTg5d1ItdS10ODM2Tm92RHpJWUExWkhWcGJGbjlyUFVrZkxXQ000ZEFrckYtM2VDSnE1Ri1scGxTUm1kU1VoMzBKQlI5SjBMUjlWa2dOZ0VQX2NkdjZ3dFVlT0czWUQ0QlUwM1RQUUY0Y01HczJJQy1Tc1A1X0hpZWRXQU1ZTUplZkN3M29ha0QtUlFGc1o5TElSR2hZdFdqc3k00gHWAUFVX3lxTE1pMzd4ZUhINFZPNU8ySk9OUnI0c3B0bDlVNjYyWVRQQlhPamRoRFRHUEdod05tem56M0R0cTkxSEFfUEpJSktHR1lQX2prdXhacXBrbmJXMFZXM2ZtZ1c0T3cyVGdPMlQ5Q1NZS0dsLXd3amktNzhTbnpJUnYxUDFRZjFyWEtpclBqeWhRN085MWwxaFNMUjFJQldDVXV1bDItWHNrVjNKWldNRmVsY2l4dVdtTzZpYVlQOGprQWNxdjRFai1BZDJRNnN0SXBaVHhRRW54RkE?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "中邮证券：给予贵州茅台买入评级_券商研报_数据解析 - 证券之星",
+   "summary": "",
+   "time": "2026-11-19 18:36",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE41WVpfeEdFR0JFZml0TVJpaTI2SjVLQnU5UzNwbnhfRFZkbVU4UTJUTmxLS1djVG95R2ZBU1FFT2RHZkZpdFdSTGdPei1ITzJnaGJSNnQwT2tVMVVranZLa3R3?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "青岛双星：拟对轮胎工业增资8亿元、东风轮胎增资4.5亿元",
+   "summary": "",
+   "time": "2026-11-19 11:08:03",
+   "url": "https://news.10jqka.com.cn/20261119/c682013258.shtml",
+   "source": "同花顺"
   },
   {
    "title": "我国自主研发酶设计基座大模型“按需定制”工业酶",
@@ -1862,13 +1942,6 @@
    "time": "2026-11-19 10:51:33",
    "url": "https://news.futunn.com/flash/1005033639/china-s-independently-developed-foundational-large-model-for-enzyme-design",
    "source": "富途"
-  },
-  {
-   "title": "蒙古国议会批准总统呼日勒苏赫辞职请求",
-   "summary": "",
-   "time": "2026-11-19 10:53:10",
-   "url": "https://news.10jqka.com.cn/20261119/c682012844.shtml",
-   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月17日周二",
@@ -1883,69 +1956,29 @@
    "time": "",
    "url": "https://database.caixin.com/2026-11-19/102506474.html?cxapp_link=true",
    "source": "财新"
-  },
-  {
-   "title": "Anthropic的IPO据悉吸引近10亿美元的英国散户需求。（彭博）",
-   "summary": "Anthropic的IPO据悉吸引近10亿美元的英国散户需求。（彭博）",
-   "time": "2026-11-19 18:29",
-   "url": "https://wallstreetcn.com/livenews/3202529",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "扬子江船业集团太仓基地二期项目签约",
-   "summary": "【扬子江船业集团太仓基地二期项目签约】计划总投资50亿元的扬子江船业集团太仓基地二期项目签约。苏州市委书记范波会见了江苏扬子江船业集团董事长任乐天一行，共同见证项目签约。",
-   "time": "2026-11-19 18:52:43",
-   "url": "https://finance.eastmoney.com/a/202611193935154373.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "瑞士银行家协会呼吁修改银行改革方案，指出监管扩权过度",
-   "summary": "",
-   "time": "2026-11-19 10:29:44",
-   "url": "https://news.futunn.com/flash/1005030931/the-swiss-bankers-association-has-called-for-revisions-to-the",
-   "source": "富途"
-  },
-  {
-   "title": "申通快递：2026年10月快递服务业务收入56.96亿元，同比增长15.05%",
-   "summary": "",
-   "time": "2026-11-19 10:50:33",
-   "url": "https://news.10jqka.com.cn/20261119/c682012798.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "奥特伯格执掌下的波音，陷入了一场漫长的减速修复中",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-19/102506472.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "阿里云单季收入突破600亿元，外部收入增速64%、AI收入连续13季三位数增长",
-   "summary": "11月19日晚间，阿里巴巴集团发布最新季度业绩，阿里云外部客户收入同比增长64%，较上一季度的45%显著加快，刷新近六年来的增速高点。季度内，AI相关产品收入连续第13个季度实现三位数增长，驱动阿里云收入增长再创新高。",
-   "time": "2026-11-19 18:27",
-   "url": "https://wallstreetcn.com/livenews/3202527",
-   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(14)",
+   "富途": "ok(15)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "FAIL:HTTPError",
-   "谷歌新闻·研报": "FAIL:HTTPError"
+   "谷歌新闻·国际": "ok(30)",
+   "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 9,
-   "东财国际": 9,
-   "富途": 9,
-   "同花顺": 9,
+   "华尔街见闻": 7,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 6,
+   "同花顺": 6,
+   "富途": 6,
    "东财早报": 3,
-   "财新": 9
+   "财新": 6
   }
  },
  "wuxing": {
