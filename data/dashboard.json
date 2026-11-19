@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 05:24:24 CST",
- "generated_at_iso": "2026-11-20T05:24:24+08:00",
+ "generated_at": "2026-11-20 05:32:39 CST",
+ "generated_at_iso": "2026-11-20T05:32:39+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -719,7 +719,7 @@
     "price": 23879.1993,
     "change": -550.6854,
     "change_pct": -2.25,
-    "quote_time": "2026-11-20 05:24:21",
+    "quote_time": "2026-11-20 05:32:39",
     "hist": [
      27477.3105,
      27599.791,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3644.708,
-    "change": -97.192,
-    "change_pct": -2.6,
-    "quote_time": "05:24:27 2026-11-20"
+    "price": 3631.928,
+    "change": -109.972,
+    "change_pct": -2.94,
+    "quote_time": "05:32:41 2026-11-20"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 43.4,
-    "change": -1.659,
-    "change_pct": -3.68,
-    "quote_time": "05:24:26 2026-11-20"
+    "price": 43.545,
+    "change": -2.05,
+    "change_pct": -4.5,
+    "quote_time": "05:32:42 2026-11-20"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.264,
-    "change": 0.954,
-    "change_pct": 1.16,
-    "quote_time": "05:24:22 2026-11-20"
+    "price": 83.246,
+    "change": 0.936,
+    "change_pct": 1.14,
+    "quote_time": "05:32:40 2026-11-20"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.85,
-    "change": 0.9,
-    "change_pct": 0.98,
-    "quote_time": "05:23:58 2026-11-20"
+    "price": 92.834,
+    "change": 0.884,
+    "change_pct": 0.96,
+    "quote_time": "05:32:39 2026-11-20"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61571.0,
-    "change": -942.2,
-    "change_pct": -1.51,
+    "price": 61466.1,
+    "change": -962.9,
+    "change_pct": -1.54,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1745.0,
-    "change": -16.22,
-    "change_pct": -0.92,
+    "price": 1741.6,
+    "change": -20.88,
+    "change_pct": -1.18,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.53,
-    "change": -0.57,
-    "change_pct": -0.78,
+    "price": 72.32,
+    "change": -0.71,
+    "change_pct": -0.97,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.95,
-    "change": 0.15,
-    "change_pct": 0.14,
+    "price": 103.96,
+    "change": 0.16,
+    "change_pct": 0.15,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.694,
-    "change": 0.0248,
-    "change_pct": 0.37,
+    "price": 6.6944,
+    "change": 0.0252,
+    "change_pct": 0.38,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1373,9 +1373,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 28.01,
-   "change": 3.45,
-   "change_pct": 14.0472,
+   "value": 28.44,
+   "change": 3.88,
+   "change_pct": 15.798,
    "label": "高波动",
    "color": "#f58a3d",
    "source": "CBOE",
@@ -1411,33 +1411,33 @@
     25.46,
     24.56
    ],
-   "vix3m": 26.64,
+   "vix3m": 27.03,
    "term": "backwardation(恐慌加剧)"
   },
   "term_structure": {
    "points": [
     {
      "t": "VIX9D",
-     "value": 28.27,
-     "change_pct": 18.0376
+     "value": 29.26,
+     "change_pct": 22.1712
     },
     {
      "t": "VIX",
-     "value": 28.01,
-     "change_pct": 14.0472
+     "value": 28.44,
+     "change_pct": 15.798
     },
     {
      "t": "VIX3M",
-     "value": 26.64,
-     "change_pct": 9.6748
+     "value": 27.03,
+     "change_pct": 11.2804
     },
     {
      "t": "VIX6M",
-     "value": 26.56,
-     "change_pct": 7.3131
+     "value": 26.85,
+     "change_pct": 8.4848
     }
    ],
-   "ratio_9d_3m": 1.061,
+   "ratio_9d_3m": 1.083,
    "shape": "backwardation(短期恐慌升温)",
    "source": "CBOE"
   },
@@ -1454,17 +1454,6 @@
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "法巴银行强化美联储加息预期 现预计将连续三次加息",
-   "summary": "【法巴银行强化美联储加息预期 现预计将连续三次加息】法国巴黎银行（BNPParibas）在其预测中增加了一次3月的美联储加息，预计在12月和1月行动之后，将迎来连续第三次25个基点的加息。",
-   "time": "2026-11-20 04:51:05",
-   "url": "https://finance.eastmoney.com/a/202611203935452776.html",
-   "source": "东财国际",
-   "mentions": 3
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1473,7 +1462,7 @@
    "time": "2026-11-20 03:49",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjMyaU1WNjhlX1Y4STNfZmduUGVLYUZxdW42ekl0S1RBTnZhWTZnR3ZaMkFlZVNZVlFuTDIzRGNlcm83QTNDODlHSDUwMVVheTByRDdpX0Y3b1NKOHVsby0tbHFhMW1Vdl9pVlp4c1NOOU45S0F4b0kwZnBLVUgzOU85em55ZWl1VVJkb3pvdmhKMERVcHRtQTJjUkJuSHRDU01PWHlhcnVqcG1OWDlBWTJrVGJwdE8xa2pFVtIBvwFBVV95cUxOelhqcFhUVnkyNTN3dWlNZ1BpTHI0LVpJWlFvSGM4LUpxSVJ3UVFUVFMzNi1FMm1tLXFsbVJ2bll2a3B0ZEdwbG9NQkp1UmY3YTBTVFA5STNrZzhzYnJSR2xOeEZaUlZ3TGlMa2hxQXpaUHJ3NE90dlBjOEpoYUFaZWppNkNMSUdPOUIxYnA2aUlNakRFM2hXdmRQOVgzOU1kYnZ6YUhOSVpEdTJHTGdDX0R1M1M2dDVGVU5lSjlucw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 4
   },
   {
    "keyword": "马斯克",
@@ -1703,32 +1692,25 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌3.68%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 05:24",
+   "message": "COMEX白银单日跌4.50%，达20日历史波动率的 2.5 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-20 05:33",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "周四（11月19日），彭博电动汽车价格回报指数跌1.29%，报2701.20点，仅仅亚太盘初短线地交投于平盘附近，亚太早盘显著下跌——亚欧时段呈现出V形走势，美股开盘后持续扩大跌幅。",
-   "summary": "周四（11月19日），彭博电动汽车价格回报指数跌1.29%，报2701.20点，仅仅亚太盘初短线地交投于平盘附近，亚太早盘显著下跌——亚欧时段呈现出V形走势，美股开盘后持续扩大跌幅。",
-   "time": "2026-11-20 05:05",
-   "url": "https://wallstreetcn.com/livenews/3202812",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "美三大股指高开低走均跌超2% Anthropic首秀市值站上1.27万亿美元",
-   "summary": "【美三大股指高开低走均跌超2% Anthropic首秀市值站上1.27万亿美元】美三大股指集体收跌。道琼斯指数跌2.19%，标普500指数跌2.02%，纳斯达克综合指数跌2.25%。Anthropic纳斯达克首秀，较发行价上涨17.1%，报97.17美元/股，市值达1.27万亿美元。AMD重挫近8%，做空机构Hunterbrook警告称其采用了与英伟达类似的“循环交易”。受此拖累，芯片股高开低走，英伟达跌超3%，美光科技跌超2%。",
-   "time": "2026-11-20 05:00:35",
-   "url": "https://finance.eastmoney.com/a/202611203935453672.html",
+   "title": "现货黄金价格跌超2% 失守3650美元",
+   "summary": "【现货黄金价格跌超2% 失守3650美元】现货黄金价格跌2.18%，报3643.38美元/盎司；现货白银价格跌3.55%，报43.43美元/盎司。",
+   "time": "2026-11-20 05:26:33",
+   "url": "https://finance.eastmoney.com/a/202611203935457444.html",
    "source": "东财国际"
   },
   {
-   "title": "TD Cowen将可口可乐列为2027年首选股，目标价上调至$112 提供者 Investing.com - 英为财情 Investing.com",
-   "summary": "",
-   "time": "2026-11-20 04:18",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83dHJ1VGtPaFZ1Szc3NmNwaWhYVnZMTnpsV3NYTzRlMzkyT0VhVGwzZkQyNnhHYl96OS1LejMxM053ZTg4bTBSdWt5eUNPeFJiU0Jfb0dUSDRRV3NRdEY5UEF2elhTa0pCcko2bjB0dEI?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "现货黄金日内跌幅达2.0%，报3649.82美元/盎司；纽约银日内跌幅达3.5%，报43.48美元/盎司。",
+   "summary": "现货黄金日内跌幅达2.0%，报3649.82美元/盎司；纽约银日内跌幅达3.5%，报43.48美元/盎司。",
+   "time": "2026-11-20 05:24",
+   "url": "https://wallstreetcn.com/livenews/3202820",
+   "source": "华尔街见闻"
   },
   {
    "title": "特朗普加强与东盟国家的纽带 - VOA - Voice of America English News",
@@ -1738,17 +1720,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美股收盘：三大股指跌超2% Anthropic首日收涨17",
+   "title": "摩根士丹利上调CAE评级，转型进展提振投资前景 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-19 21:02:59",
-   "url": "https://news.futunn.com/flash/1005085207/us-stock-market-close-three-major-indices-fall-over-2",
+   "time": "2026-11-20 03:42",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80cjBGX3A2c2VfcklicUJpalJ6cEZmc3pXY2JtTXRwajlqR2dRSU44c01PZDl3WGlVZ3ZjTDNEYy1KN0VWWndUM0tDNzNmRW5QMXFwUEFaaVdXdnJtamMwdDNmLUNwVEhKdzFpVjdZVFA?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "Anthropic获MSCI提前纳入全球标准指数",
+   "summary": "",
+   "time": "2026-11-19 21:26:28",
+   "url": "https://news.futunn.com/flash/1005087099/anthropic-to-be-early-included-in-msci-global-standard-index",
    "source": "富途"
   },
   {
-   "title": "美股收评：美三大股指高开低走均跌超2% Anthropic首秀上涨17%",
+   "title": "现货白银跌超3%，现货黄金跌近2%",
    "summary": "",
-   "time": "2026-11-19 21:00:58",
-   "url": "https://news.10jqka.com.cn/20261120/c682020192.shtml",
+   "time": "2026-11-19 21:22:39",
+   "url": "https://news.10jqka.com.cn/20261120/c682020237.shtml",
    "source": "同花顺"
   },
   {
@@ -1766,25 +1755,18 @@
    "source": "财新"
   },
   {
-   "title": "Anthropic美国IPO首日收涨17.07%，报97.17美元。",
-   "summary": "Anthropic美国IPO首日收涨17.07%，报97.17美元。",
-   "time": "2026-11-20 05:03",
-   "url": "https://wallstreetcn.com/livenews/3202811",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "法巴银行强化美联储加息预期 现预计将连续三次加息",
-   "summary": "【法巴银行强化美联储加息预期 现预计将连续三次加息】法国巴黎银行（BNPParibas）在其预测中增加了一次3月的美联储加息，预计在12月和1月行动之后，将迎来连续第三次25个基点的加息。",
-   "time": "2026-11-20 04:51:05",
-   "url": "https://finance.eastmoney.com/a/202611203935452776.html",
+   "title": "Anthropic上市首日收涨17% 开盘涨34% 市值一度达到1.5万亿美元",
+   "summary": "【Anthropic上市首日开盘涨34% 市值一度达到1.5万亿美元】人工智能公司Anthropic（ANT）今日正式登陆纳斯达克，发行价为83美元/股，开盘报111.5美元，较发行价上涨34%。按开盘价计算，公司市值约为1.5万亿美元。本次IPO发行9.8亿股，发行总额约813.4亿美元，其中公司发行9.5635亿股，老股东出售2364.86万股。",
+   "time": "2026-11-20 05:22:48",
+   "url": "https://finance.eastmoney.com/a/202611203935424713.html",
    "source": "东财国际"
   },
   {
-   "title": "瑞银上调Palo Alto Networks Inc目标价，强劲业绩获肯定 提供者 Investing.com - 英为财情 Investing.com",
-   "summary": "",
-   "time": "2026-11-20 03:24",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2MzhxODJ2dmdqd2VzNWdDTDdnNThBYjQwbUdHZUVnLWFxS2xvclhqZUg4bmIwWDFaNF9MNmVwc2lycXc0MU5kYVlaUzVxelR2WWpJYWN1WU12YW5pbU1CeXZIeFlMMnFTTktWc1Fjb0l4SEZL?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "明晟公司（MSCI）：12月1日，将把Anthropic纳入大盘股指数。",
+   "summary": "明晟公司（MSCI）：12月1日，将把Anthropic纳入大盘股指数。",
+   "time": "2026-11-20 05:21",
+   "url": "https://wallstreetcn.com/livenews/3202819",
+   "source": "华尔街见闻"
   },
   {
    "title": "特朗普称三方会谈“意义重大且影响深远” 国会两党看法不尽相同 - 美国之音",
@@ -1794,17 +1776,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美联储古尔斯比：高通胀下所有选项均在考虑范围内 不排除大幅加息",
+   "title": "瑞银上调Palo Alto Networks Inc目标价，强劲业绩获肯定 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-19 20:55:38",
-   "url": "https://news.futunn.com/flash/1005084537/fed-s-goolsbee-all-options-under-consideration-amid-high-inflation",
+   "time": "2026-11-20 03:24",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA2MzhxODJ2dmdqd2VzNWdDTDdnNThBYjQwbUdHZUVnLWFxS2xvclhqZUg4bmIwWDFaNF9MNmVwc2lycXc0MU5kYVlaUzVxelR2WWpJYWN1WU12YW5pbU1CeXZIeFlMMnFTTktWc1Fjb0l4SEZL?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普表示不会在新年前“仓促”决定对伊朗行动",
+   "summary": "",
+   "time": "2026-11-19 21:21:00",
+   "url": "https://news.futunn.com/flash/1005086769/trump-stated-he-would-not-make-a-hasty-decision-on",
    "source": "富途"
   },
   {
-   "title": "现货黄金失守3660美元/盎司",
+   "title": "富时中国A50指数期货夜盘收跌1.12%",
    "summary": "",
-   "time": "2026-11-19 21:00:04",
-   "url": "https://news.10jqka.com.cn/20261120/c682020191.shtml",
+   "time": "2026-11-19 21:16:50",
+   "url": "https://news.10jqka.com.cn/20261120/c682020229.shtml",
    "source": "同花顺"
   },
   {
@@ -1822,25 +1811,18 @@
    "source": "财新"
   },
   {
-   "title": "AMD收跌7.7%，盘中一度重挫11%。",
-   "summary": "AMD收跌7.7%，盘中一度重挫11%。",
-   "time": "2026-11-20 05:01",
-   "url": "https://wallstreetcn.com/livenews/3202810",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "比特币跌至四个月来新低",
-   "summary": "比特币跌至四个月来新低，最新下跌0.6%，至61,876.23美元。",
-   "time": "2026-11-20 04:39:51",
-   "url": "https://finance.eastmoney.com/a/202611203935451985.html",
+   "title": "MSCI将于12月1日将ANTHROPIC纳入大盘股指数",
+   "summary": "MSCI将于12月1日将ANTHROPIC纳入大盘股指数。",
+   "time": "2026-11-20 05:21:50",
+   "url": "https://finance.eastmoney.com/a/202611203935456649.html",
    "source": "东财国际"
   },
   {
-   "title": "金达威目标价涨幅超46%；昆药集团评级被调低｜券商评级观察- 21世纪经济报道 - 21财经",
-   "summary": "",
-   "time": "2026-11-20 02:39",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWZZSm0wNUtzd3U2RjlfeWpQZDRUSmhpNF8ydGtJd2NtaWJJcnBjakhCR2tPZ1lKeHJmeHVjT3ZjdzBZVnV0RnZ1VWYyNVVfeWhvaXBrZFBWY2hjc0xKQkNlT2ZCYWJfSW9TTnlDaEVXdW9yY0xuMXZjTW8wRmZhLXBOT2NJWEdQVk9NWDRFWE1PNzlM?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "Gap的Banana Republic和Old Navy表现疲软，下调业绩指引。\n\n该公司三季度净销售40.1亿美元，分析师预期40.3亿美元。\n\n预计全年净销售将持平，公司原本预计会增长1%-1.5%。\n\nGap盘后跌3%。",
+   "summary": "Gap的Banana Republic和Old Navy表现疲软，下调业绩指引。\n\n该公司三季度净销售40.1亿美元，分析师预期40.3亿美元。\n\n预计全年净销售将持平，公司原本预计会增长1%-1.5%。\n\nGap盘后跌3%。",
+   "time": "2026-11-20 05:20",
+   "url": "https://wallstreetcn.com/livenews/3202818",
+   "source": "华尔街见闻"
   },
   {
    "title": "特朗普总统：伊朗可能正在转向使用毒气和生物武器 - 美国之音",
@@ -1850,17 +1832,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美联储古尔斯比：AI投资热潮可能令美国经济过热",
+   "title": "金达威目标价涨幅超46%；昆药集团评级被调低｜券商评级观察- 21世纪经济报道 - 21财经",
    "summary": "",
-   "time": "2026-11-19 20:45:44",
-   "url": "https://news.futunn.com/flash/1005083886/fed-s-goolsbee-ai-investment-boom-could-overheat-us-economy",
+   "time": "2026-11-20 02:39",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNWZZSm0wNUtzd3U2RjlfeWpQZDRUSmhpNF8ydGtJd2NtaWJJcnBjakhCR2tPZ1lKeHJmeHVjT3ZjdzBZVnV0RnZ1VWYyNVVfeWhvaXBrZFBWY2hjc0xKQkNlT2ZCYWJfSW9TTnlDaEVXdW9yY0xuMXZjTW8wRmZhLXBOT2NJWEdQVk9NWDRFWE1PNzlM?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "美股收盘：三大股指跌超2% Anthropic首日收涨17",
+   "summary": "",
+   "time": "2026-11-19 21:02:59",
+   "url": "https://news.futunn.com/flash/1005085207/us-stock-market-close-three-major-indices-fall-over-2",
    "source": "富途"
   },
   {
-   "title": "美能源部长：波斯湾成品油、俄柴油供给增加，美国柴油价料持续下行",
+   "title": "Anthropic超级IPO之后 人才留存迎来考验",
    "summary": "",
-   "time": "2026-11-19 20:52:01",
-   "url": "https://news.10jqka.com.cn/20261120/c682020183.shtml",
+   "time": "2026-11-19 21:12:18",
+   "url": "https://news.10jqka.com.cn/20261120/c682020227.shtml",
    "source": "同花顺"
   },
   {
@@ -1871,18 +1860,18 @@
    "source": "财新"
   },
   {
-   "title": "财捷Intuit第一财季净营收43.5亿美元，分析师预期43.1亿美元。\n\n公司达成出售Mailchimp给Bendings Spoons的协议。",
-   "summary": "财捷Intuit第一财季净营收43.5亿美元，分析师预期43.1亿美元。\n\n公司达成出售Mailchimp给Bendings Spoons的协议。",
-   "time": "2026-11-20 05:01",
-   "url": "https://wallstreetcn.com/livenews/3202809",
-   "source": "华尔街见闻"
+   "title": "普京：克里米亚大桥遭袭后 不再讨论海上停火",
+   "summary": "【普京：克里米亚大桥遭袭后 不再讨论海上停火】俄罗斯总统普京19日表示，在克里米亚大桥遭袭后，俄方不会就海上停火或停止攻击能源设施与有关方面进行谈判。",
+   "time": "2026-11-20 05:17:18",
+   "url": "https://finance.eastmoney.com/a/202611203935455568.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(7)",
+   "富途": "ok(9)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1891,10 +1880,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "富途": 6,
    "同花顺": 6,
    "东财早报": 2,
