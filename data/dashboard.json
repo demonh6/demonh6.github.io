@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 16:51:50 CST",
- "generated_at_iso": "2026-11-19T16:51:50+08:00",
+ "generated_at": "2026-11-19 17:00:06 CST",
+ "generated_at_iso": "2026-11-19T17:00:06+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -719,7 +719,7 @@
     "price": 24429.8847,
     "change": 101.5017,
     "change_pct": 0.42,
-    "quote_time": "2026-11-19 06:30:00",
+    "quote_time": "2026-11-19 09:24:33",
     "hist": [
      27477.3105,
      27599.791,
@@ -900,10 +900,10 @@
      60459.58,
      61248.59,
      60819.36,
-     61142.3516,
-     59662.0195,
-     58860.4297,
-     59024.2813,
+     61142.35,
+     59662.02,
+     58860.43,
+     59024.28,
      59444.2109
     ],
     "sigma": 1.998,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10549.04,
-    "change": -2.13,
-    "change_pct": -0.02,
+    "price": 10550.12,
+    "change": -1.05,
+    "change_pct": -0.01,
     "hist": [
      10441.6,
      10552.05,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8180.87,
-    "change": 34.04,
-    "change_pct": 0.42,
+    "price": 8190.61,
+    "change": 43.78,
+    "change_pct": 0.54,
     "hist": [
      7729.69,
      7803.33,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6197.68,
-    "change": 43.29,
-    "change_pct": 0.7,
+    "price": 6205.89,
+    "change": 51.5,
+    "change_pct": 0.84,
     "hist": [
      6126.74,
      6173.38,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3737.339,
-    "change": -4.561,
-    "change_pct": -0.12,
-    "quote_time": "16:51:49 2026-11-19"
+    "price": 3739.92,
+    "change": -1.98,
+    "change_pct": -0.05,
+    "quote_time": "17:00:05 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.004,
-    "change": -0.055,
-    "change_pct": -0.12,
-    "quote_time": "16:51:49 2026-11-19"
+    "price": 45.213,
+    "change": 0.154,
+    "change_pct": 0.34,
+    "quote_time": "17:00:02 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.57,
-    "change": 0.26,
+    "price": 82.576,
+    "change": 0.266,
     "change_pct": 0.32,
-    "quote_time": "16:51:48 2026-11-19"
+    "quote_time": "17:00:06 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.503,
-    "change": 0.553,
-    "change_pct": 0.6,
-    "quote_time": "16:51:46 2026-11-19"
+    "price": 92.485,
+    "change": 0.535,
+    "change_pct": 0.58,
+    "quote_time": "17:00:04 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63590.8,
-    "change": -1162.8,
-    "change_pct": -1.8,
-    "source": "okx"
+    "price": 63705.9,
+    "change": -1015.7,
+    "change_pct": -1.57,
+    "source": "okx",
+    "hist": [
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63712.7
+    ],
+    "sigma": 2.063
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1799.6,
-    "change": -14.53,
-    "change_pct": -0.8,
-    "source": "okx"
+    "price": 1803.02,
+    "change": -10.31,
+    "change_pct": -0.57,
+    "source": "okx",
+    "hist": [
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1803.0
+    ],
+    "sigma": 3.016
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.41,
-    "change": -0.39,
-    "change_pct": -0.52,
-    "source": "okx"
+    "price": 74.54,
+    "change": -0.32,
+    "change_pct": -0.43,
+    "source": "okx",
+    "hist": [
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     74.58
+    ],
+    "sigma": 3.077
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.77,
-    "change": -0.03,
-    "change_pct": -0.03,
+    "price": 103.73,
+    "change": -0.07,
+    "change_pct": -0.07,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1432,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.667,
-    "change": -0.0022,
-    "change_pct": -0.03,
+    "price": 6.6665,
+    "change": -0.0027,
+    "change_pct": -0.04,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1373,9 +1472,9 @@
    "source": "东财"
   },
   "vix": {
-   "value": 21.96,
-   "change": -2.6,
-   "change_pct": -10.5863,
+   "value": 21.91,
+   "change": -2.65,
+   "change_pct": -10.7899,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1423,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 21.96,
-     "change_pct": -10.5863
+     "value": 21.91,
+     "change_pct": -10.7899
     },
     {
      "t": "VIX3M",
@@ -1462,7 +1561,7 @@
    "time": "2026-11-19 16:20",
    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yMzREODl5NG9vY2VaczRyNEpZdXlHRGYtT0dIT1c2bDRaVXBUSEFNXzNYZ1VsSFZyVWUxTUN1SEl1T1lFdVFyNE56bzFMMldVamtTVTV0c0l2RDBaNWFORQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
   },
   {
    "keyword": "马斯克",
@@ -1537,33 +1636,53 @@
   ],
   "reports": [
    {
-    "title": "大行评级｜花旗：下调腾讯目标价至629港元，维持“买入”评级_股市直播_市场 - 中金在线",
-    "org": "花旗",
+    "title": "大行评级｜大华继显：降腾讯目标价至500港元，人工智能相关成本拖累盈利能力_股市直播_市场 - 中金在线",
+    "org": "中金",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kWWpKQURXcnNmTHFkcjRFSjFkekF1c1Y2aldLMzRTR3pQekVMSUhZOGZQaFRON29aWjlfZ3JQQXp2RFlUbnFsX210SURfMkpIWnJJeWd3a2hTZ1ZkeWZlVEcwX2pfSlAybEk2Mg?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YZXZlU3JCVEZKd0VHR3QyeG9xNXVyVjVrNXBwUGNReU9oaVg3czZBVjBRTHJ5Q2FlTDFrWkNTTmhzUXpEaTNJUkhEempONHpSZDg2RGlUTnZEcU5POWpxOC1XS1daU1MwOW9VdA?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "花旗：予腾讯控股(00700)目标价755港元评级“买入”_股市直播_市场 - 中金在线",
-    "org": "花旗",
+    "title": "瑞银下调英伟达目标价至220美元 维持买入评级 - 观点网",
+    "org": "瑞银",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NVnlfS0dfUEhvc1R4Mloxdndsem5zRW5zdDNmSFNtSGw1YVRkaHBTLW9iYkJZZk43TExqbDZLSEZoUzJmYnREQUhDZmhHdXAtTHZYTlBvUUVxV3R1dVV4aUNIVTE2M3FtbW82Xw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53WjBWUS1qeEMwQUJJZ29MdUJzWjhYSmVxOWptZERjZG00aVJoODdqVVdlX21CeUlJYWdLQmM4bjR0TW4tQ0x4SGhUMFpKVjUwNjdPdTQ4bF9HVmJmdXFJcmtR?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "膳食纤维快速增长，转债落地加深全球布局",
+    "title": "2026年三季报点评：全球高空作业平台龙头，欧美稳增，新兴市场放量",
+    "org": "西南证券",
+    "rating": "买入",
+    "stock": "浙江鼎力",
+    "industry": "工程机械",
+    "date": "2026-11-19",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831862327",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "上游成本压力之下，饲料业务稳步前行",
     "org": "山西证券",
     "rating": "买入",
-    "stock": "百龙创园",
-    "industry": "化学制品",
+    "stock": "海大集团",
+    "industry": "饲料",
     "date": "2026-11-19",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831853570",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831862179",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "行业低谷期，生猪养殖业务增效降本",
+    "org": "山西证券",
+    "rating": "增持",
+    "stock": "巨星农牧",
+    "industry": "养殖业",
+    "date": "2026-11-19",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831861753",
     "source": "东财研报·个股"
    },
    {
@@ -1655,71 +1774,51 @@
     "date": "2026-11-19",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831845362",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "AI系列之模型速评｜OpenAI：GPT-6.2 Astra单任务成本大降，3D交互评测登顶",
-    "org": "西南证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-19",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831857618",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "房地产行业月报：二手房成交保持活跃，开发端调整延续",
-    "org": "东吴证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-19",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831853740",
-    "source": "东财研报·行业"
    }
   ]
  },
  "alerts": [],
  "news": [
   {
-   "title": "在岸人民币兑美元收盘报6.6651",
-   "summary": "【在岸人民币兑美元收盘报6.6651】11月19日消息，在岸人民币兑美元收盘报6.6651，较上一交易日上涨2点。",
-   "time": "2026-11-19 16:31:46",
-   "url": "https://finance.eastmoney.com/a/202611193935058956.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "网易第三季度营收279亿元人民币，预估303.8亿元人民币；第三季度经调整每股ADS持续经营净收益 14.21元人民币，预估16.36元人民币。",
-   "summary": "网易第三季度营收279亿元人民币，预估303.8亿元人民币；第三季度经调整每股ADS持续经营净收益 14.21元人民币，预估16.36元人民币。",
-   "time": "2026-11-19 16:30",
-   "url": "https://wallstreetcn.com/livenews/3202446",
+   "title": "欧元区9月季调后经常帐 124.74亿欧元，前值 87亿欧元。",
+   "summary": "欧元区9月季调后经常帐 124.74亿欧元，前值 87亿欧元。",
+   "time": "2026-11-19 17:00",
+   "url": "https://wallstreetcn.com/livenews/3202465",
    "source": "华尔街见闻"
   },
   {
-   "title": "习近平会见美国总统特朗普 - 华尔街见闻",
-   "summary": "",
-   "time": "2026-11-19 16:21",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uazF2NHhiT3RnVU1EQnFSVGxobWtkdllDUTZsSHhYVFBud3JnREJSbHF1Ty14aVF3WnY4ODl1Q3dVTURRdXRoUkctUEdLdmh3cjk4?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "印度Sensex指数涨幅扩大至1%",
+   "summary": "印度Sensex指数涨幅扩大至1%。",
+   "time": "2026-11-19 16:57:22",
+   "url": "https://finance.eastmoney.com/a/202611193935075731.html",
+   "source": "东财国际"
   },
   {
-   "title": "东方证券维持汇顶科技买入评级 目标价下调至80.64元 - 观点网",
+   "title": "大行评级｜大华继显：降腾讯目标价至500港元，人工智能相关成本拖累盈利能力_股市直播_市场 - 中金在线",
    "summary": "",
-   "time": "2026-11-19 15:56",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UN0FWMjhqRGdJd3luWW9tMzVtRDFJbF94cDhuNDhQN1VHOXRTWDl0Z0xRN1ktMm9qdTNGamtNSHBWc0tmTmdjaTMxSmprbXVpV3I2bHFfMVgxZHFTR2hNXy13?oc=5",
+   "time": "2026-11-19 16:41",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1YZXZlU3JCVEZKd0VHR3QyeG9xNXVyVjVrNXBwUGNReU9oaVg3czZBVjBRTHJ5Q2FlTDFrWkNTTmhzUXpEaTNJUkhEempONHpSZDg2RGlUTnZEcU5POWpxOC1XS1daU1MwOW9VdA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "习近平：大国和，则世界安；大国斗，则世界乱",
+   "title": "习近平会见美国总统特朗普 - 国务院港澳事务办公室",
    "summary": "",
-   "time": "2026-11-19 08:33:54",
-   "url": "https://news.10jqka.com.cn/20261119/c682003977.shtml",
+   "time": "2026-11-19 16:36",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ERnVZWmIwZVhxVVZXUDQ3UktCSl9KWXBzc19lcENjU1hwMlZhTUNhS1M5Q0t1cHV3Z3hVLWNKVFJ1alAxTzNpcHFhaGI1Tkk2LXVhdmNfU1pMVE12OEI4ZEw5ZF9pazFpaUQ3d3lyY0FJT0t1QXUwR2J3?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "恒瑞医药：子公司注射用磷罗拉匹坦帕洛诺司琼获批新增MEC止吐适应症",
+   "summary": "",
+   "time": "2026-11-19 09:00:17",
+   "url": "https://news.10jqka.com.cn/20261119/c682007455.shtml",
    "source": "同花顺"
   },
   {
-   "title": "网易：第三季度在线游戏服务净收入229.4亿元",
+   "title": "受寒冷天气预期及库存偏低支撑，欧洲TTF天然气价格反弹回升",
    "summary": "",
-   "time": "2026-11-19 08:33:45",
-   "url": "https://news.futunn.com/flash/1005014763/netease-net-revenue-from-online-game-services-in-the-third",
+   "time": "2026-11-19 08:58:59",
+   "url": "https://news.futunn.com/flash/1005019164/european-ttf-natural-gas-prices-rebounded-supported-by-expectations-of",
    "source": "富途"
   },
   {
@@ -1737,18 +1836,25 @@
    "source": "财新"
   },
   {
-   "title": "三星称云服务商仅占整体市场约8% 认为不会显著威胁AI行业增长",
-   "summary": "【三星称云服务商仅占整体市场约8% 认为不会显著威胁AI行业增长】三星电子11月18日在新加坡举行的摩根士丹利会议上表示，高负债云服务商（Neocloud）在整体市场中的占比相对有限，约为8%，相关风险不会对AI行业整体增长趋势构成重大威胁。",
-   "time": "2026-11-19 16:31:46",
-   "url": "https://finance.eastmoney.com/a/202611193935058881.html",
+   "title": "快手：第三季度直播业务收入78亿元，同比下降19%",
+   "summary": "快手在港交所公告，2026年第三季度，直播业务收入为人民币78亿元，同比下降19.0%。其他服务收入由2025年同期的人民币59亿元增加1.5%至2026年第三季度的人民币60亿元，主要是由于游戏及可灵AI业务收入增加，部分被电商收入减少所抵销。",
+   "time": "2026-11-19 16:50",
+   "url": "https://wallstreetcn.com/livenews/3202463",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "*ST雅博：控股股东拟增持5000万元至1亿元股份",
+   "summary": "【*ST雅博：控股股东拟增持5000万元至1亿元股份】*ST雅博(002323.SZ)公告称，公司控股股东枣庄市财金控股集团拟自公告披露之日起6个月内，通过深交所交易系统以集中竞价方式增持公司股份，累计增持金额不低于5000万元且不超过1亿元，增持价格上限2元/股。",
+   "time": "2026-11-19 16:48:49",
+   "url": "https://finance.eastmoney.com/a/202611193935069240.html",
    "source": "东财国际"
   },
   {
-   "title": "韩国成为全球第四个年出口额突破1万亿美元的国家",
-   "summary": "韩国政府发布声明，韩国年度出口额于当地时间11月19日下午2:09首次突破1万亿美元。继德国、美国和中国之后，韩国成为全球第四个年出口额达到1万亿美元的国家。随着全球科技公司加大人工智能投资，半导体和计算机出口引领了增长。在9个主要地区中，有7个地区的出口额增长，中小企业的出口额也创下历史新高。（彭博）",
-   "time": "2026-11-19 16:14",
-   "url": "https://wallstreetcn.com/livenews/3202433",
-   "source": "华尔街见闻"
+   "title": "瑞银下调英伟达目标价至220美元 维持买入评级 - 观点网",
+   "summary": "",
+   "time": "2026-11-19 16:23",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE53WjBWUS1qeEMwQUJJZ29MdUJzWjhYSmVxOWptZERjZG00aVJoODdqVVdlX21CeUlJYWdLQmM4bjR0TW4tQ0x4SGhUMFpKVjUwNjdPdTQ4bF9HVmJmdXFJcmtR?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "金正恩与特朗普是否会举行会晤？外交部回应 - ThePaper.cn",
@@ -1758,24 +1864,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "大行评级｜花旗：下调腾讯目标价至629港元，维持“买入”评级_股市直播_市场 - 中金在线",
+   "title": "2027届全国普通高校毕业生规模预计1299万人",
    "summary": "",
-   "time": "2026-11-19 15:48",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kWWpKQURXcnNmTHFkcjRFSjFkekF1c1Y2aldLMzRTR3pQekVMSUhZOGZQaFRON29aWjlfZ3JQQXp2RFlUbnFsX210SURfMkpIWnJJeWd3a2hTZ1ZkeWZlVEcwX2pfSlAybEk2Mg?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "诺唯赞：控股股东增持计划实施完毕，累计增持2.2230%股份",
-   "summary": "",
-   "time": "2026-11-19 08:27:28",
-   "url": "https://news.10jqka.com.cn/20261119/c682003158.shtml",
+   "time": "2026-11-19 08:59:56",
+   "url": "https://news.10jqka.com.cn/20261119/c682007406.shtml",
    "source": "同花顺"
   },
   {
-   "title": "特朗普：双方应保持美中关系稳定发展势头，在农产品、能源、超级智能等领域加强合作",
+   "title": "快手：2026年第三季度收入315.92亿元 同比下降11.1%",
    "summary": "",
-   "time": "2026-11-19 08:20:00",
-   "url": "https://news.futunn.com/flash/1005011702/trump-both-sides-should-maintain-the-momentum-of-stable-development",
+   "time": "2026-11-19 08:36:00",
+   "url": "https://news.futunn.com/flash/1005015128/kuaishou-q3-2026-revenue-rmb-31-592-billion-down-11",
    "source": "富途"
   },
   {
@@ -1793,45 +1892,45 @@
    "source": "财新"
   },
   {
-   "title": "欧盟对华光缆发起第一次反倾销日落复审调查",
-   "summary": "【欧盟对华光缆发起第一次反倾销日落复审调查】欧盟委员会2026年11月17日发布公告，应欧洲行业协会Europacable于2026年8月18日提交的申请，对原产于中国的光缆（Optical Fibre Cables）发起第一次反倾销日落复审调查。",
-   "time": "2026-11-19 16:29:50",
-   "url": "https://finance.eastmoney.com/a/202611193935058757.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "恒生指数收盘跌1.95%，恒生科技指数跌2.33%，腾讯控股跌6.55%",
-   "summary": "恒生指数收盘跌1.95%，报22841.62点；恒生科技指数收跌2.33%，报3649.14点，创2024年9月17日以来的最低。万国数据跌7.41%，小马智行跌7.93%，京东健康跌7%，联想集团跌5.52%，微博跌5.77%，阿里巴巴跌5.51%。",
-   "time": "2026-11-19 16:10",
-   "url": "https://wallstreetcn.com/livenews/3202432",
+   "title": "快手：公司在可灵AI及整体AI战略上的持续投入将继续带来成本影响，第四季度收入和盈利能力可能持续承压",
+   "summary": "快手在港交所公告，展望2026年第四季度，短期经营环境依然充满挑战，消费者和营销客户的支出意愿相对保守，市场竞争激烈。此外，公司的流量趋势已出现疲软，将进一步对商业化能力造成压力。公司在可灵AI及整体AI战略上的持续投入，也将继续带来成本影响，并在短期内对盈利能力形成压力。因此，2026年第四季度，收入和盈利能力可能持续承压。",
+   "time": "2026-11-19 16:50",
+   "url": "https://wallstreetcn.com/livenews/3202462",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普总统在深圳对习近平说，希望美中共同推动结束俄乌战争 - 美国之音",
-   "summary": "",
-   "time": "2026-11-19 15:56",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOT3pNbV9ab0J5NmprckdBOVBSZmN5cUZmTnk3U1BsVmphWXVrNEVSLW03cVAzSmFKQ3FTUUV3TFd3bE9iV2JCaXo4YXQwSmFHZUt3MFhndVJjTTNsMGk1dHVKazVNV3p3QWVGM1J4dkplTG1FMmYzYjZybmJNLXJZaFhRQ0xpZTQ5b1hzY3p2Q1BhWXc5bEZOMlVVSFJNWm5wMWVsOW02bGVrLTB0M2dZSHQ2aHJ4bTVrSmg3ZVZjUzTSAcMBQVVfeXFMTnlGUjIwdlZ2bzI4cm80ZEM2bEtwaFRod3VadmxWazFyRXVJbFZmY1FCLTgtcUVldDM1VU5BaWJJNEFVM0p5SmdCNHItVDc4OXJjQ1J0Q1NzSmNCX1BSVDFBNG5adDVBb1Q5NzhBSUh1aV9BRHM4dUhlSXdsOXdGb1RYVGRpOWFtUXU3aTlvLTVwOXlUamloQmxzT2dXM3RUdlk3Y0UtNGphdE1vbEtGcVNEQnVnVWVqSWlucUs4MlhFcDJj?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "莱宝高科：控股子公司39.37亿元资产抵押用于MED项目贷款",
+   "summary": "【莱宝高科：控股子公司39.37亿元资产抵押用于MED项目贷款】莱宝高科(002106.SZ)公告称，公司控股子公司浙江莱宝显示科技有限公司为满足微腔电子纸显示器件(MED)项目资金需求，与银团签署《最高额抵押合同》，将机器设备作为抵押物。截至2026年11月18日，抵押资产账面价值合计39.37亿元，占总资产113.89亿元的34.57%。",
+   "time": "2026-11-19 16:48:11",
+   "url": "https://finance.eastmoney.com/a/202611193935070487.html",
+   "source": "东财国际"
   },
   {
-   "title": "研报掘金｜中邮证券：维持长高电气“买入”评级，看好GIS新产品的持续开拓_股市直播_市场 - 中金在线",
+   "title": "东方证券维持汇顶科技买入评级 目标价下调至80.64元 - 观点网",
    "summary": "",
-   "time": "2026-11-19 15:48",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSC1ET1gxNnM5UDVTcmNzWWEyZFZoU0w3TVppeDh6RVdLeUZaajVaMzJSRVZ5QkU5VE5Mcmlaek41XzNtdHE3QS1SUUZOeGY4eHRES0h3S3ZWbGEtb1lnbUhQRWJvZzZOZWM4VA?oc=5",
+   "time": "2026-11-19 15:56",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UN0FWMjhqRGdJd3luWW9tMzVtRDFJbF94cDhuNDhQN1VHOXRTWDl0Z0xRN1ktMm9qdTNGamtNSHBWc0tmTmdjaTMxSmprbXVpV3I2bHFfMVgxZHFTR2hNXy13?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "中俄美元首会晤开始举行",
+   "title": "特朗普：美国不支持“台独” - 凤凰网",
    "summary": "",
-   "time": "2026-11-19 08:26:44",
-   "url": "https://news.10jqka.com.cn/20261119/c682003077.shtml",
+   "time": "2026-11-19 16:17",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE56cG1meTh5azQ3dExLWEdLNEprVXZxRERpdF9vbHhQbGtza3h5bGoyeGljQ0tBV3E1MU9IcWhGajlNM1FuUENxU3Jfbmw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "乘联分会：10月狭义乘用车零售164.8万辆，同比下降26.9%",
+   "summary": "",
+   "time": "2026-11-19 08:59:34",
+   "url": "https://news.10jqka.com.cn/20261119/c682007387.shtml",
    "source": "同花顺"
   },
   {
-   "title": "中美同意制定建设性战略稳定关系行动计划",
+   "title": "网易：第三季度在线游戏服务净收入229.4亿元",
    "summary": "",
-   "time": "2026-11-19 08:18:00",
-   "url": "https://news.futunn.com/flash/1005011911/china-and-the-united-states-have-agreed-to-develop-an",
+   "time": "2026-11-19 08:33:45",
+   "url": "https://news.futunn.com/flash/1005014763/netease-net-revenue-from-online-game-services-in-the-third",
    "source": "富途"
   },
   {
@@ -1853,7 +1952,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(19)",
+   "富途": "ok(17)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1862,10 +1961,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 6,
+   "东财国际": 7,
+   "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 6,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 3,
