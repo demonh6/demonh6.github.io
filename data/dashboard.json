@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 15:43:48 CST",
- "generated_at_iso": "2026-11-19T15:43:48+08:00",
+ "generated_at": "2026-11-19 15:52:03 CST",
+ "generated_at_iso": "2026-11-19T15:52:03+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 22857.969,
-    "change": -436.781,
-    "change_pct": -1.88,
+    "price": 22833.52,
+    "change": -461.23,
+    "change_pct": -1.98,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3659.34,
-    "change": -76.99,
-    "change_pct": -2.06,
+    "price": 3649.15,
+    "change": -87.18,
+    "change_pct": -2.33,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 7698.56,
-    "change": -137.71,
-    "change_pct": -1.76,
+    "price": 7691.72,
+    "change": -144.55,
+    "change_pct": -1.84,
     "hist": [
      8030.54,
      8051.6704,
@@ -1284,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3736.538,
-    "change": -5.362,
-    "change_pct": -0.14,
-    "quote_time": "15:43:41 2026-11-19"
+    "price": 3735.476,
+    "change": -6.424,
+    "change_pct": -0.17,
+    "quote_time": "15:52:03 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.316,
-    "change": 0.257,
-    "change_pct": 0.57,
-    "quote_time": "15:43:46 2026-11-19"
+    "price": 45.295,
+    "change": 0.236,
+    "change_pct": 0.52,
+    "quote_time": "15:51:24 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.5,
-    "change": 0.19,
-    "change_pct": 0.23,
-    "quote_time": "15:43:38 2026-11-19"
+    "price": 82.191,
+    "change": -0.119,
+    "change_pct": -0.14,
+    "quote_time": "15:52:06 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.335,
-    "change": 0.385,
-    "change_pct": 0.42,
-    "quote_time": "15:43:46 2026-11-19"
+    "price": 91.974,
+    "change": 0.024,
+    "change_pct": 0.03,
+    "quote_time": "15:52:06 2026-11-19"
    }
   ],
   "crypto": [
@@ -1322,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63615.5,
-    "change": -947.7,
-    "change_pct": -1.47,
+    "price": 63712.8,
+    "change": -1094.7,
+    "change_pct": -1.69,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1802.02,
-    "change": -8.73,
-    "change_pct": -0.48,
+    "price": 1803.48,
+    "change": -14.07,
+    "change_pct": -0.77,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.75,
-    "change": -0.14,
-    "change_pct": -0.19,
+    "price": 74.83,
+    "change": -0.32,
+    "change_pct": -0.43,
     "source": "okx"
    }
   ],
@@ -1350,9 +1350,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.84,
-    "change": 0.04,
-    "change_pct": 0.04,
+    "price": 103.83,
+    "change": 0.03,
+    "change_pct": 0.03,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1361,20 +1361,20 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6655,
-    "change": -0.0037,
-    "change_pct": -0.06,
+    "price": 6.6652,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-19",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 135.12,
-    "change": 1.67,
-    "change_pct": 1.25,
+    "price": 135.11,
+    "change": 1.66,
+    "change_pct": 1.24,
     "dec": 2,
     "date": "2026-11-19",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
@@ -1742,7 +1742,7 @@
    "level": "warning",
    "asset": "台湾加权",
    "message": "台湾加权单日跌3.46%，达20日历史波动率的 2.9 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-19 15:44",
+   "time": "2026-11-19 15:52",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
