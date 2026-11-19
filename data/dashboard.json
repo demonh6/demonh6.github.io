@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 20:52:27 CST",
- "generated_at_iso": "2026-11-19T20:52:27+08:00",
+ "generated_at": "2026-11-19 21:00:44 CST",
+ "generated_at_iso": "2026-11-19T21:00:44+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -871,7 +871,7 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 59444.2109,
+    "price": 59444.21,
     "change": 419.93,
     "change_pct": 0.71,
     "hist": [
@@ -900,11 +900,11 @@
      60459.58,
      61248.59,
      60819.36,
-     61142.3516,
-     59662.0195,
-     58860.4297,
-     59024.2813,
-     59444.2109
+     61142.35,
+     59662.02,
+     58860.43,
+     59024.28,
+     59444.21
     ],
     "sigma": 1.998,
     "volume": 0.0,
@@ -946,7 +946,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5137.8901,
+    "price": 5137.89,
     "change": 70.45,
     "change_pct": 1.39,
     "hist": [
@@ -1019,32 +1019,11 @@
     ]
    },
    {
-    "name": "印度SENSEX",
-    "sym": "BSESN",
-    "price": 83021.75,
-    "change": 989.94,
-    "change_pct": 1.21
-   },
-   {
-    "name": "台湾加权",
-    "sym": "TWII",
-    "price": 38802.71,
-    "change": -1392.2,
-    "change_pct": -3.46
-   },
-   {
-    "name": "德国DAX",
-    "sym": "DAX",
-    "price": 25736.24,
-    "change": -309.13,
-    "change_pct": -1.19
-   },
-   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10551.17,
-    "change": -138.7,
-    "change_pct": -1.3,
+    "price": 10504.6,
+    "change": -46.57,
+    "change_pct": -0.44,
     "hist": [
      10441.6,
      10552.05,
@@ -1116,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8146.83,
-    "change": -69.95,
-    "change_pct": -0.85,
+    "price": 8150.74,
+    "change": 3.91,
+    "change_pct": 0.05,
     "hist": [
      7729.69,
      7803.33,
@@ -1190,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6154.4,
-    "change": -57.72,
-    "change_pct": -0.93,
+    "price": 6176.98,
+    "change": 22.59,
+    "change_pct": 0.37,
     "hist": [
      6126.74,
      6173.38,
@@ -1226,13 +1205,6 @@
      6154.4
     ],
     "sigma": 1.096
-   },
-   {
-    "name": "俄罗斯MOEX",
-    "sym": "MOEX",
-    "price": 2473.17,
-    "change": -22.69,
-    "change_pct": -0.91
    }
   ]
  },
@@ -1284,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3716.46,
-    "change": -25.44,
-    "change_pct": -0.68,
-    "quote_time": "20:52:28 2026-11-19"
+    "price": 3722.56,
+    "change": -19.34,
+    "change_pct": -0.52,
+    "quote_time": "21:00:49 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.966,
-    "change": -0.093,
-    "change_pct": -0.21,
-    "quote_time": "20:52:30 2026-11-19"
+    "price": 45.198,
+    "change": 0.139,
+    "change_pct": 0.31,
+    "quote_time": "21:00:48 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.234,
-    "change": 0.924,
-    "change_pct": 1.12,
-    "quote_time": "20:52:28 2026-11-19"
+    "price": 83.17,
+    "change": 0.86,
+    "change_pct": 1.04,
+    "quote_time": "21:00:49 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.948,
-    "change": 0.998,
-    "change_pct": 1.09,
-    "quote_time": "20:52:30 2026-11-19"
+    "price": 92.874,
+    "change": 0.924,
+    "change_pct": 1.0,
+    "quote_time": "21:00:44 2026-11-19"
    }
   ],
   "crypto": [
@@ -1322,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63957.6,
-    "change": -164.6,
-    "change_pct": -0.26,
-    "source": "okx"
+    "price": 63899.2,
+    "change": -170.3,
+    "change_pct": -0.27,
+    "source": "okx",
+    "hist": [
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63875.4
+    ],
+    "sigma": 2.076
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1807.21,
-    "change": 11.18,
-    "change_pct": 0.62,
-    "source": "okx"
+    "price": 1807.82,
+    "change": 12.87,
+    "change_pct": 0.72,
+    "source": "okx",
+    "hist": [
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1808.71
+    ],
+    "sigma": 3.032
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.89,
-    "change": 0.57,
-    "change_pct": 0.77,
-    "source": "okx"
+    "price": 74.92,
+    "change": 0.62,
+    "change_pct": 0.83,
+    "source": "okx",
+    "hist": [
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     74.94
+    ],
+    "sigma": 3.1
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.69,
-    "change": -0.11,
-    "change_pct": -0.11,
+    "price": 103.68,
+    "change": -0.12,
+    "change_pct": -0.12,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1361,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6687,
-    "change": -0.0005,
+    "price": 6.6688,
+    "change": -0.0004,
     "change_pct": -0.01,
     "dec": 4,
     "date": "",
@@ -1391,10 +1462,19 @@
    "timestamp": "2026-11-19",
    "source": "alternative.me"
   },
+  "a_share_breadth": {
+   "up": 647,
+   "down": 4594,
+   "flat": 53,
+   "total": 5294,
+   "breadth_pct": 12.2,
+   "score": 0.0,
+   "source": "东财"
+  },
   "vix": {
-   "value": 22.26,
-   "change": -2.3,
-   "change_pct": -9.3648,
+   "value": 22.31,
+   "change": -2.25,
+   "change_pct": -9.1612,
    "label": "升高",
    "color": "#d9b23c",
    "source": "CBOE",
@@ -1442,8 +1522,8 @@
     },
     {
      "t": "VIX",
-     "value": 22.26,
-     "change_pct": -9.3648
+     "value": 22.31,
+     "change_pct": -9.1612
     },
     {
      "t": "VIX3M",
@@ -1459,9 +1539,30 @@
    "ratio_9d_3m": 0.986,
    "shape": "平坦",
    "source": "CBOE"
+  },
+  "composite": {
+   "score": 17.3,
+   "label": "冰点",
+   "color": "#f04a3d",
+   "basis": "A股广度 60% + 盘面结构 40%",
+   "parts": {
+    "breadth": 0.0,
+    "structure": 43.3
+   }
   }
  },
  "speakers": [
+  {
+   "keyword": "白宫",
+   "label": "白宫",
+   "hint": "美国官方政策表态的权威渠道",
+   "title": "报道：白宫寻求评估伊朗对不同打击情景的潜在反应",
+   "summary": "Axios记者在X上称，白宫正要求五角大楼和情报专家评估伊朗可能如何回应各种打击方案。特朗普政府希望了解，能否避免伊朗以袭击海湾地区能源设施作为报复。",
+   "time": "2026-11-19 20:53",
+   "url": "https://wallstreetcn.com/livenews/3202593",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
   {
    "keyword": "马斯克",
    "label": "马斯克",
@@ -1535,6 +1636,16 @@
   ],
   "reports": [
    {
+    "title": "谷歌“太阳捕手”（Project Suncatcher）项目将于2029年部署卫星。（彭博）",
+    "org": "彭博",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://wallstreetcn.com/livenews/3202599",
+    "source": "机构观点"
+   },
+   {
     "title": "蒙特利尔银行上调杜克能源目标价 - 东方财富",
     "org": "蒙特利尔银行",
     "rating": "",
@@ -1545,24 +1656,24 @@
     "source": "机构观点"
    },
    {
-    "title": "奇安信集团董事长齐向东：工业互联网企业应加快部署安全垂直领域大模型",
-    "org": "安信",
-    "rating": "",
-    "stock": "",
-    "industry": "",
+    "title": "国元证券2026年三季报点评：核心收入占比提升，联营投资收益高增",
+    "org": "太平洋",
+    "rating": "买入",
+    "stock": "国元证券",
+    "industry": "证券Ⅱ",
     "date": "2026-11-19",
-    "url": "https://news.futunn.com/flash/1005040654/qi-xiangdong-chairman-of-qi-anxin-technology-group-industrial-internet",
-    "source": "机构观点"
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831868501",
+    "source": "东财研报·个股"
    },
    {
-    "title": "摩根大通下调戴尔目标价 - 东方财富网",
-    "org": "摩根大通",
-    "rating": "",
-    "stock": "",
-    "industry": "",
+    "title": "稀缺双平台IDM企业，无源+有源产品加速放量",
+    "org": "太平洋",
+    "rating": "买入",
+    "stock": "仕佳光子",
+    "industry": "通信设备",
     "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TWVJ6ZDdUdnRXRmJTMjNfQTItNGdwNGpNWFdJUHVYRVdycGNwZ1p2VEdBcXJXRVdKS1VhYWJqbVhqNGFZdVBrcXRUNFFyOURROGNFMlN4QVFidlpzVHUxUA?oc=5",
-    "source": "机构观点"
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831868497",
+    "source": "东财研报·个股"
    },
    {
     "title": "精密光学平台深化，光通信元件持续放量",
@@ -1663,65 +1774,37 @@
     "date": "2026-11-19",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831848324",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "公司事件点评报告：产品结构改善，输变电盈利增长提速",
-    "org": "华鑫证券",
-    "rating": "买入",
-    "stock": "中国西电",
-    "industry": "电网设备",
-    "date": "2026-11-19",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831848296",
-    "source": "东财研报·个股"
-   },
-   {
-    "title": "国家能源局力推流域水风光一体化，“十五五”水电设备市场空间广阔",
-    "org": "国信证券",
-    "rating": "增持",
-    "stock": "东方电气",
-    "industry": "其他电源设备Ⅱ",
-    "date": "2026-11-19",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831845912",
-    "source": "东财研报·个股"
    }
   ]
  },
- "alerts": [
-  {
-   "level": "warning",
-   "asset": "台湾加权",
-   "message": "台湾加权单日跌3.46%，达20日历史波动率的 2.9 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-19 20:52",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  }
- ],
+ "alerts": [],
  "news": [
   {
-   "title": "快手CFO金秉：公司将继续执行160亿港元三年期股份回购计划",
-   "summary": "11月19日，在快手2026年第三季度业绩电话会上，快手CFO金秉表示，公司将持续把提升股东回报作为重要资本配置方向，并在今年剩余时间继续执行160亿港元的三年期股份回购计划。根据快手三季报，该季度快手累计回购金额约14.1亿港元。金秉表示，明年快手将结合业务表现、现金流状况及资本市场环境，持续评估股份回购和现金分红等工具的组合使用，平衡股东回报与长期发展所需的资金储备。",
-   "time": "2026-11-19 20:34",
-   "url": "https://wallstreetcn.com/livenews/3202584",
+   "title": "谷歌“太阳捕手”（Project Suncatcher）项目将于2029年部署卫星。（彭博）",
+   "summary": "谷歌“太阳捕手”（Project Suncatcher）项目将于2029年部署卫星。（彭博）",
+   "time": "2026-11-19 21:00",
+   "url": "https://wallstreetcn.com/livenews/3202599",
    "source": "华尔街见闻"
   },
   {
-   "title": "阿里巴巴：预计明年云业务营收将增长30%-45%",
-   "summary": "阿里巴巴表示，预计明年云业务营收将增长30%-45%。",
-   "time": "2026-11-19 20:27:25",
-   "url": "https://finance.eastmoney.com/a/202611193935216858.html",
-   "source": "东财国际"
+   "title": "风口研报 - 财联社电报",
+   "summary": "",
+   "time": "2026-11-19 20:34",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBxeEltRmdiQnIybENfV1V6RVFRWEVhMFQ2VEg3X1lnWmoybmpWQlJWdlRLZ0dCZlFYQnh0NHdoT2dVcy1hbEF3cEo1RThNb09YQzlIWlJKall4OTZXdHdadDdB?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "WTI原油涨超1%",
+   "title": "期市夜盘开盘，国内期货主力合约多数上涨",
    "summary": "",
-   "time": "2026-11-19 12:35:08",
-   "url": "https://news.10jqka.com.cn/20261119/c682016357.shtml",
+   "time": "2026-11-19 13:00:01",
+   "url": "https://news.10jqka.com.cn/20261119/c682017923.shtml",
    "source": "同花顺"
   },
   {
-   "title": "快手：后续资本开支及AI相关投入对现金流的压力将逐步减轻",
+   "title": "胡塞武装袭击致沙特主权基金大楼受损",
    "summary": "",
-   "time": "2026-11-19 12:30:21",
-   "url": "https://news.futunn.com/flash/1005044013/kuaishou-the-pressure-on-cash-flow-from-subsequent-capital-expenditures",
+   "time": "2026-11-19 12:47:55",
+   "url": "https://news.futunn.com/flash/1005045900/houthi-attack-damages-building-of-saudi-sovereign-wealth-fund",
    "source": "富途"
   },
   {
@@ -1739,31 +1822,31 @@
    "source": "财新"
   },
   {
-   "title": "欧洲天然气价格一度上涨5.2%，至每兆瓦时85.03欧元。",
-   "summary": "欧洲天然气价格一度上涨5.2%，至每兆瓦时85.03欧元。",
-   "time": "2026-11-19 20:29",
-   "url": "https://wallstreetcn.com/livenews/3202582",
+   "title": "夜盘期货开盘，原油涨逾3%，沥青涨逾2%，焦煤、PTA、低硫燃油、纯苯、瓶片涨逾1%；沪锡、沪镍、沪铜跌逾1%。",
+   "summary": "夜盘期货开盘，原油涨逾3%，沥青涨逾2%，焦煤、PTA、低硫燃油、纯苯、瓶片涨逾1%；沪锡、沪镍、沪铜跌逾1%。",
+   "time": "2026-11-19 21:00",
+   "url": "https://wallstreetcn.com/livenews/3202598",
    "source": "华尔街见闻"
   },
   {
-   "title": "快手：AI短剧为重要方向 拟建设短剧频道入口",
-   "summary": "【快手：AI短剧为重要方向 拟建设短剧频道入口】快手CEO程一笑在今日的业绩会上表示，快手会将AI短剧作为丰富平台内容生态的重要方向。下一阶段，快手将通过精品剧集孵化、IP合作和创作者扶持扩大优质供给，并结合流量支持及多元分账机制，提高优质内容的商业回报；同时，平台将围绕悬疑、科幻、体育等细分赛道探索差异化内容，并建设短剧频道入口，进一步承接用户主动找剧和沉浸式观看需求。",
-   "time": "2026-11-19 20:27:24",
-   "url": "https://finance.eastmoney.com/a/202611193935216731.html",
-   "source": "东财国际"
+   "title": "风口研报 - 财联社",
+   "summary": "",
+   "time": "2026-11-19 20:11",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5yUERKWmJyX0E4U1FYeGd0S2Z2dTYzeHpCU3VYeGh0M2s4YktZUTdWcHpYckdKVDVQb0pHemdhd2FVNG9hSi1JQw?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "湖南省政府与紫金矿业集团签署战略合作协议",
+   "title": "*ST香雪：法院裁定受理公司重整并指定管理人，股票被叠加实施退市风险警示",
    "summary": "",
-   "time": "2026-11-19 12:29:30",
-   "url": "https://news.10jqka.com.cn/20261119/c682015451.shtml",
+   "time": "2026-11-19 12:56:10",
+   "url": "https://news.10jqka.com.cn/20261119/c682017873.shtml",
    "source": "同花顺"
   },
   {
-   "title": "普京：乌克兰和欧洲尚未准备妥协 将对大桥遭袭进行报复",
+   "title": "宁德时代：11月19日回购85.05万股A股股份 回购总金额为1.9998亿元",
    "summary": "",
-   "time": "2026-11-19 12:23:49",
-   "url": "https://news.futunn.com/flash/1005043543/putin-ukraine-and-europe-not-yet-ready-to-compromise-retaliation",
+   "time": "2026-11-19 12:41:51",
+   "url": "https://news.futunn.com/flash/1005045478/catl-repurchased-850500-a-shares-on-november-19-with-a",
    "source": "富途"
   },
   {
@@ -1781,31 +1864,31 @@
    "source": "财新"
   },
   {
-   "title": "远大医药全球创新雾化吸入剂获批I期临床，自主研发新药或填补RSV治疗空白",
-   "summary": "11月19日，远大医药（0512.HK）公告，公司自主研发的用于治疗呼吸道合胞病毒（RSV）的全球创新雾化吸入剂GPN01564已获国家药监局批准开展I期临床研究。",
-   "time": "2026-11-19 20:25",
-   "url": "https://wallstreetcn.com/livenews/3202580",
+   "title": "普京重申外国军队进驻乌克兰不可接受。（塔斯社）",
+   "summary": "普京重申外国军队进驻乌克兰不可接受。（塔斯社）",
+   "time": "2026-11-19 20:57",
+   "url": "https://wallstreetcn.com/livenews/3202596",
    "source": "华尔街见闻"
   },
   {
-   "title": "中信建投证券：半导体材料需求整体进入景气扩张期",
-   "summary": "【中信建投证券：半导体材料需求整体进入景气扩张期】中信建投证券近日发布研报称，存储的高景气驱动全行业持续扩产，叠加先进逻辑制程代工和先进封装的产业发展，全球半导体制造投资持续增长，半导体设备和材料细分领域蓬勃发展。",
-   "time": "2026-11-19 20:26:22",
-   "url": "https://finance.eastmoney.com/a/202611193935216940.html",
-   "source": "东财国际"
+   "title": "14公司获得增持评级-更新中 - 中财网",
+   "summary": "",
+   "time": "2026-11-19 20:06",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hdWZ6RWl6YTFDbjRJYzJ3ZjhEcGE3QnFQME0tLVhYT2JYelNjY0VSUjd1anVKeEQteHZXN09pdGExSURXS1Q5RGdnanFiS2xkMUktQjFn?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "快手程一笑：Kling 4.0已经进入游戏和具身智能等场景",
+   "title": "*ST香雪：法院许可公司在重整期间继续营业",
    "summary": "",
-   "time": "2026-11-19 12:28:48",
-   "url": "https://news.10jqka.com.cn/20261119/c682015443.shtml",
+   "time": "2026-11-19 12:55:59",
+   "url": "https://news.10jqka.com.cn/20261119/c682017871.shtml",
    "source": "同花顺"
   },
   {
-   "title": "托伦斯：随着产能释放 毛利率有望明显修复",
+   "title": "盘前期权异动：美光科技盘前上涨5.0%，现最高成交额的看涨期权涨跌幅为+79%，成交量达到11张",
    "summary": "",
-   "time": "2026-11-19 12:14:34",
-   "url": "https://news.futunn.com/flash/1005042583/torrens-gross-profit-margins-are-expected-to-recover-significantly-as",
+   "time": "2026-11-19 12:41:41",
+   "url": "https://news.futunn.com/flash/1005045476/unusual-options-activity-micron-technology-up-5-0-premarket-the",
    "source": "富途"
   },
   {
@@ -1823,31 +1906,31 @@
    "source": "财新"
   },
   {
-   "title": "阿里巴巴首席执行官：AI相关产品收入连续13个季度保持三位数增长，年化收入已突破100亿美元。\n\n基于自研国产算力的基础设施，正在成为阿里全栈AI技术的支撑底座。\n\n保持对2030日历年云外部收入1,000亿美元，利润率超过20%的目标不变",
-   "summary": "阿里巴巴首席执行官：AI相关产品收入连续13个季度保持三位数增长，年化收入已突破100亿美元。\n\n基于自研国产算力的基础设施，正在成为阿里全栈AI技术的支撑底座。\n\n保持对2030日历年云外部收入1,000亿美元，利润率超过20%的目标不变。\n\n真武V900的超节点集群将会在2027年二季度规模化上市。",
-   "time": "2026-11-19 20:10",
-   "url": "https://wallstreetcn.com/livenews/3202576",
+   "title": "普京不排除出席在迈阿密举行的G20峰会 但尚未做出决定",
+   "summary": "俄罗斯总统普京不排除出席在迈阿密举行的G20峰会。他表示感谢邀请，但尚未作出决定，将对此加以考虑。普京表示，他首先必须考虑俄罗斯国内的情况，对他来说，过于频繁地出国访问“并不是特别方便”。普京表示，应首先与欧洲展开对话，之后再在国际平台上接触，否则可能会导致一种不恰当的“讨价还价”。",
+   "time": "2026-11-19 20:56",
+   "url": "https://wallstreetcn.com/livenews/3202594",
    "source": "华尔街见闻"
   },
   {
-   "title": "英力特：控股股东拟协议转让公司股份 11月20日起继续停牌",
-   "summary": "【英力特：控股股东拟协议转让公司股份 11月20日起继续停牌】英力特11月19日公告，截至本公告披露日，相关各方正在积极推进本次股份转让和发行股份购买资产交易的各项工作，公司预计无法在2026年11月20日（星期五）上午开市起复牌。经公司申请，公司证券自2026年11月20日（星期五）上午开市起继续停牌，预计继续停牌时间不超过5个交易日。",
-   "time": "2026-11-19 20:21:39",
-   "url": "https://finance.eastmoney.com/a/202611193935212470.html",
-   "source": "东财国际"
+   "title": "蒙特利尔银行上调杜克能源目标价 - 东方财富",
+   "summary": "",
+   "time": "2026-11-19 20:00",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OR2Mtbzh2dzV0eFUyQkpOei1VUkVUN3lnYUdEb1d0R0hfNjB5ZlowUDIwRDlaNXVEdmVYcGEwTmpQS1dYZmhISkh4bnNuR2ZsR2E2cm9WbElPN1RyYTM5OHlXUQ?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "奥飞数据：拟5000万元投资产业投资基金，认缴比例90.9091%",
+   "title": "阿里即时零售三季度非餐饮部分线上交易额同比增长40%",
    "summary": "",
-   "time": "2026-11-19 12:21:38",
-   "url": "https://news.10jqka.com.cn/20261119/c682015352.shtml",
+   "time": "2026-11-19 12:55:18",
+   "url": "https://news.10jqka.com.cn/20261119/c682017866.shtml",
    "source": "同花顺"
   },
   {
-   "title": "意法半导体CEO：明年下半年毛利率应会加速改善",
+   "title": "普京：有兴趣结束俄乌冲突，但乌克兰必须接受妥协",
    "summary": "",
-   "time": "2026-11-19 12:14:20",
-   "url": "https://news.futunn.com/flash/1005042570/stmicroelectronics-ceo-gross-margin-expected-to-accelerate-improvement-in-second",
+   "time": "2026-11-19 12:39:30",
+   "url": "https://news.futunn.com/flash/1005045046/putin-interested-in-ending-the-russia-ukraine-conflict-but-ukraine",
    "source": "富途"
   },
   {
@@ -1858,32 +1941,32 @@
    "source": "财新"
   },
   {
-   "title": "拼多多美股盘前涨超10%。",
-   "summary": "拼多多美股盘前涨超10%。",
-   "time": "2026-11-19 20:10",
-   "url": "https://wallstreetcn.com/livenews/3202575",
+   "title": "报道：白宫寻求评估伊朗对不同打击情景的潜在反应",
+   "summary": "Axios记者在X上称，白宫正要求五角大楼和情报专家评估伊朗可能如何回应各种打击方案。特朗普政府希望了解，能否避免伊朗以袭击海湾地区能源设施作为报复。",
+   "time": "2026-11-19 20:53",
+   "url": "https://wallstreetcn.com/livenews/3202593",
    "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
-   "东财国际": "ok(30)",
+   "东财国际": "FAIL:ChunkedEncodingError",
    "东财早报": "ok(30)",
-   "富途": "ok(5)",
+   "富途": "ok(7)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "FAIL:HTTPError",
-   "谷歌新闻·研报": "FAIL:HTTPError"
+   "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 11,
-   "东财国际": 10,
-   "同花顺": 10,
-   "富途": 4,
+   "华尔街见闻": 10,
+   "谷歌新闻·研报": 10,
+   "同花顺": 9,
+   "富途": 7,
    "东财早报": 3,
-   "财新": 10
+   "财新": 9
   }
  },
  "wuxing": {
