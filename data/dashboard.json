@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 08:44:22 CST",
- "generated_at_iso": "2026-11-19T08:44:22+08:00",
+ "generated_at": "2026-11-19 08:52:40 CST",
+ "generated_at_iso": "2026-11-19T08:52:40+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,28 +1256,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3754.972,
-    "change": 13.072,
-    "change_pct": 0.35,
-    "quote_time": "08:44:26 2026-11-19"
+    "price": 3755.576,
+    "change": 13.676,
+    "change_pct": 0.37,
+    "quote_time": "08:52:43 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.661,
-    "change": 0.602,
-    "change_pct": 1.34,
-    "quote_time": "08:44:23 2026-11-19"
+    "price": 45.666,
+    "change": 0.607,
+    "change_pct": 1.35,
+    "quote_time": "08:52:41 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.834,
-    "change": -0.476,
-    "change_pct": -0.58,
-    "quote_time": "08:43:55 2026-11-19"
+    "price": 81.863,
+    "change": -0.447,
+    "change_pct": -0.54,
+    "quote_time": "08:52:32 2026-11-19"
    },
    {
     "name": "布伦特原油",
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63138.7,
-    "change": -1583.6,
-    "change_pct": -2.45,
+    "price": 63214.5,
+    "change": -1519.2,
+    "change_pct": -2.35,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1782.4,
-    "change": -35.68,
-    "change_pct": -1.96,
+    "price": 1784.51,
+    "change": -34.85,
+    "change_pct": -1.92,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.72,
-    "change": -1.44,
-    "change_pct": -1.92,
+    "price": 73.69,
+    "change": -1.4,
+    "change_pct": -1.86,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.81,
-    "change": 0.01,
-    "change_pct": 0.01,
+    "price": 103.8,
+    "change": 0.0,
+    "change_pct": 0.0,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1333,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6674,
-    "change": -0.0018,
+    "price": 6.667,
+    "change": -0.0022,
     "change_pct": -0.03,
     "dec": 4,
     "date": "",
@@ -2394,6 +2394,8 @@
   ],
   "backfill_done": true
  },
- "errors": {},
+ "errors": {
+  "盘面结构": "RuntimeError: 涨停/跌停池均返回空（非交易日或接口变更）"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
