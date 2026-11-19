@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 04:50:52 CST",
- "generated_at_iso": "2026-11-20T04:50:52+08:00",
+ "generated_at": "2026-11-20 04:59:07 CST",
+ "generated_at_iso": "2026-11-20T04:59:07+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 49196.8203,
-    "change": -1001.35,
-    "change_pct": -1.99,
-    "quote_time": "2026-11-20 04:50:45",
+    "price": 49100.9219,
+    "change": -1097.25,
+    "change_pct": -2.19,
+    "quote_time": "2026-11-20 04:59:04",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 23942.4165,
-    "change": -487.4682,
-    "change_pct": -2.0,
-    "quote_time": "2026-11-20 04:50:49",
+    "price": 23875.8177,
+    "change": -554.067,
+    "change_pct": -2.27,
+    "quote_time": "2026-11-20 04:59:06",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7191.0298,
-    "change": -132.6,
-    "change_pct": -1.81,
-    "quote_time": "2026-11-20 04:50:44",
+    "price": 7175.27,
+    "change": -148.36,
+    "change_pct": -2.03,
+    "quote_time": "2026-11-20 04:59:09",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1284,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3666.849,
-    "change": -75.051,
-    "change_pct": -2.01,
-    "quote_time": "04:50:53 2026-11-20"
+    "price": 3661.228,
+    "change": -80.672,
+    "change_pct": -2.16,
+    "quote_time": "04:59:11 2026-11-20"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 43.945,
-    "change": -1.114,
-    "change_pct": -2.47,
-    "quote_time": "04:50:54 2026-11-20"
+    "price": 43.824,
+    "change": -1.235,
+    "change_pct": -2.74,
+    "quote_time": "04:59:08 2026-11-20"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.237,
-    "change": 0.927,
-    "change_pct": 1.13,
-    "quote_time": "04:50:53 2026-11-20"
+    "price": 83.137,
+    "change": 0.827,
+    "change_pct": 1.0,
+    "quote_time": "04:59:10 2026-11-20"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.736,
-    "change": 0.786,
-    "change_pct": 0.85,
-    "quote_time": "04:50:53 2026-11-20"
+    "price": 92.663,
+    "change": 0.713,
+    "change_pct": 0.78,
+    "quote_time": "04:59:09 2026-11-20"
    }
   ],
   "crypto": [
@@ -1322,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 62252.6,
-    "change": -256.6,
-    "change_pct": -0.41,
+    "price": 62093.4,
+    "change": -543.6,
+    "change_pct": -0.87,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1765.1,
-    "change": 15.09,
-    "change_pct": 0.86,
+    "price": 1759.29,
+    "change": 4.83,
+    "change_pct": 0.28,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.13,
-    "change": 0.16,
-    "change_pct": 0.22,
+    "price": 73.03,
+    "change": -0.04,
+    "change_pct": -0.05,
     "source": "okx"
    }
   ],
@@ -1361,9 +1361,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6927,
-    "change": 0.0235,
-    "change_pct": 0.35,
+    "price": 6.6929,
+    "change": 0.0237,
+    "change_pct": 0.36,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1742,14 +1742,14 @@
    "level": "danger",
    "asset": "台湾加权",
    "message": "台湾加权单日跌4.40%，达20日历史波动率的 3.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-20 04:51",
+   "time": "2026-11-20 04:59",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
-   "level": "warning",
+   "level": "danger",
    "asset": "全球股指",
-   "message": "道琼斯、台湾加权、俄罗斯MOEX等 3 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-20 04:51",
+   "message": "道琼斯、标普500、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-20 04:59",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   }
  ],
