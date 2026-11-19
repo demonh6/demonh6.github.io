@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 07:51:52 CST",
- "generated_at_iso": "2026-11-19T07:51:52+08:00",
+ "generated_at": "2026-11-19 08:00:07 CST",
+ "generated_at_iso": "2026-11-19T08:00:07+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -950,7 +950,6 @@
     "change": 98.96,
     "change_pct": 1.99,
     "hist": [
-     6941.39,
      6803.9,
      6625.93,
      6384.24,
@@ -977,11 +976,12 @@
      5239.13,
      5375.36,
      5342.73,
-     5290.5298,
+     5290.53,
      5100.5,
-     4968.48
+     4968.48,
+     5067.44
     ],
-    "sigma": 3.299,
+    "sigma": 3.236,
     "volume": 219090.0,
     "vol_chg_pct": -4.1,
     "vol_pctile": 3.6,
@@ -1256,28 +1256,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3741.148,
-    "change": -0.752,
-    "change_pct": -0.02,
-    "quote_time": "07:51:55 2026-11-19"
+    "price": 3742.344,
+    "change": 0.444,
+    "change_pct": 0.01,
+    "quote_time": "08:00:09 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 45.387,
-    "change": 0.328,
-    "change_pct": 0.73,
-    "quote_time": "07:51:34 2026-11-19"
+    "price": 45.377,
+    "change": 0.318,
+    "change_pct": 0.71,
+    "quote_time": "08:00:10 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.992,
-    "change": -0.318,
-    "change_pct": -0.39,
-    "quote_time": "07:51:45 2026-11-19"
+    "price": 82.014,
+    "change": -0.296,
+    "change_pct": -0.36,
+    "quote_time": "08:00:01 2026-11-19"
    },
    {
     "name": "布伦特原油",
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63221.5,
-    "change": -1716.5,
-    "change_pct": -2.64,
-    "source": "okx"
+    "price": 63041.7,
+    "change": -1880.9,
+    "change_pct": -2.9,
+    "source": "okx",
+    "hist": [
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     62920.6
+    ],
+    "sigma": 2.023
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1781.23,
-    "change": -42.65,
-    "change_pct": -2.34,
-    "source": "okx"
+    "price": 1776.53,
+    "change": -49.12,
+    "change_pct": -2.69,
+    "source": "okx",
+    "hist": [
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1773.92
+    ],
+    "sigma": 2.956
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.87,
-    "change": -1.22,
-    "change_pct": -1.62,
-    "source": "okx"
+    "price": 73.59,
+    "change": -1.62,
+    "change_pct": -2.15,
+    "source": "okx",
+    "hist": [
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.49
+    ],
+    "sigma": 3.03
    }
   ],
   "fx": [
@@ -1333,9 +1432,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6681,
-    "change": -0.0011,
-    "change_pct": -0.02,
+    "price": 6.6682,
+    "change": -0.001,
+    "change_pct": -0.01,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1356,11 +1455,11 @@
  },
  "sentiment": {
   "fear_greed": {
-   "value": 11,
+   "value": 10,
    "classification": "Extreme Fear",
    "label": "极度恐惧",
    "color": "#f04a3d",
-   "timestamp": "2026-11-18",
+   "timestamp": "2026-11-19",
    "source": "alternative.me"
   },
   "a_share_breadth": {
@@ -1454,36 +1553,25 @@
  },
  "speakers": [
   {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "马斯克：特斯拉将生产无方向盘的自动驾驶款MODEL Y。",
-   "summary": "马斯克：特斯拉将生产无方向盘的自动驾驶款MODEL Y。",
-   "time": "2026-11-19 07:27",
-   "url": "https://wallstreetcn.com/livenews/3202234",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储宣战，收割转向，美国或将用黄金偿还美债 - 凤凰网财经",
-   "summary": "",
-   "time": "2026-11-19 07:06",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CQ1BIZlBacml2VzZTREZ6QlhLVnk2Tzk0QVk5Nk8zQjZDSHJyeFFNX2xWRGlHamV5dGhiSDVwSGluS3RqWWtXUU9KRnJOVWFW?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "以色列推波助澜 特朗普正权衡对伊朗发动新一轮大规模打击",
+   "title": "民主党拟定针对特朗普的调查重点 - 华尔街日报中文网",
    "summary": "",
-   "time": "2026-11-18 23:26:27",
-   "url": "https://news.futunn.com/flash/1004952601/israel-escalates-pressure-as-trump-weighs-new-round-of-large",
-   "source": "富途",
+   "time": "2026-11-19 07:58",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY3FIbmNUY3QwVkc4V0ZqZU81ZUZVV0ZlNGpYdkpqcEJibEc5LXMzbHRnZ3ZiUXdVeEp4dE80UDloOXB5Tkc4dUZNM3RCRmtkZk5YQUY5cGQyd3hZejQ0cmlhU1E5QXFFT2huWUxNYjliYUlqWjNIeG04VDZzNlNvQkNJcGlWdw?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "马斯克称，SpaceX正在开发AI模型Grok 4.8。\n\n特斯拉将在未来两个月内进行Optimus机器人演示。",
+   "summary": "马斯克称，SpaceX正在开发AI模型Grok 4.8。\n\n特斯拉将在未来两个月内进行Optimus机器人演示。",
+   "time": "2026-11-19 07:58",
+   "url": "https://wallstreetcn.com/livenews/3202247",
+   "source": "华尔街见闻",
    "mentions": 1
   }
  ],
@@ -1548,6 +1636,26 @@
   ],
   "reports": [
    {
+    "title": "民主党拟定针对特朗普的调查重点 - 华尔街日报中文网",
+    "org": "华尔街日报",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY3FIbmNUY3QwVkc4V0ZqZU81ZUZVV0ZlNGpYdkpqcEJibEc5LXMzbHRnZ3ZiUXdVeEp4dE80UDloOXB5Tkc4dUZNM3RCRmtkZk5YQUY5cGQyd3hZejQ0cmlhU1E5QXFFT2huWUxNYjliYUlqWjNIeG04VDZzNlNvQkNJcGlWdw?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "穆迪将英伟达评级展望由正面调整为稳定 - 东方财富",
+    "org": "穆迪",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SaDh3NlVrMVFmUC1TU0dtRUprWUpxSC1zQ3hkcXp4Rmh4Ny0tZEdfdkg3ckVlTElBOWZ2S0p0eXp1cmJCUzhkeHUtb2ZQZ1ZnUnUyUWRfMFJER216OXVTdzI5VQ?oc=5",
+    "source": "机构观点"
+   },
+   {
     "title": "穆迪：下调英伟达评级展望 - 全天候科技",
     "org": "穆迪",
     "rating": "",
@@ -1555,16 +1663,6 @@
     "industry": "",
     "date": "2026-11-19",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5KUU9HN09UaFFmTFVaSndLclVoV0M4bmNOTm1JVVZURmV6Uk5Ib0cyU1NycWZwbHpkNHZLU21pQnZCZE4zMUR0bkdB?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "穆迪：美国经济表现强于预期，预计今年增长2.3%",
-    "org": "穆迪",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-18",
-    "url": "https://news.futunn.com/flash/1004950010/moody-s-us-economy-outperforms-expectations-growth-projected-at-2",
     "source": "机构观点"
    },
    {
@@ -1578,14 +1676,14 @@
     "source": "机构观点"
    },
    {
-    "title": "从押注科技到均衡对冲 华尔街巨头集体调仓",
-    "org": "桥水",
-    "rating": "",
+    "title": "非银金融行业深度报告：券商IT——核心系统进入新一轮升级周期，AI融合打开增量空间",
+    "org": "东吴证券",
+    "rating": "增持",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://finance.eastmoney.com/a/202611193934375637.html",
-    "source": "机构观点"
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831840542",
+    "source": "东财研报·行业"
    },
    {
     "title": "端侧AI赋能场景数字化，物理AI与科学仪器拓展成长空间",
@@ -1648,16 +1746,6 @@
     "source": "东财研报·个股"
    },
    {
-    "title": "珠玉在前启新程，老牌啤酒企业焕新春",
-    "org": "东吴证券",
-    "rating": "增持",
-    "stock": "惠泉啤酒",
-    "industry": "非白酒",
-    "date": "2026-11-18",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611181831818610",
-    "source": "东财研报·个股"
-   },
-   {
     "title": "公司首次覆盖报告：AI时代能源“卖铲人”，AI端侧/AIDC/机器人多曲线成长",
     "org": "开源证券",
     "rating": "买入",
@@ -1712,24 +1800,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "Anthropic股票将于11月19日在纳斯达克开始交易。（彭博）",
-   "summary": "Anthropic股票将于11月19日在纳斯达克开始交易。（彭博）",
-   "time": "2026-11-19 07:33",
-   "url": "https://wallstreetcn.com/livenews/3202235",
+   "title": "中国即将发行或正在发行的地方政府债",
+   "summary": "中国即将发行或正在发行的地方政府债",
+   "time": "2026-11-19 08:00",
+   "url": "https://wallstreetcn.com/livenews/3202249",
    "source": "华尔街见闻"
   },
   {
-   "title": "认清谣言 筑牢稳市场压舱石",
-   "summary": "【认清谣言 筑牢稳市场压舱石】资本市场是一个“信息+信心”的市场，在市场调整之际，一条编造的股市“小作文”，足以让资金调头，板块失色，必须全方位压缩造谣获利空间，大幅抬高造谣违法成本，让“小作文”产业链无利可图、无处藏身，以净化市场投资生态，引导资本持续流向优质上市公司，助力资本市场高质量发展。",
-   "time": "2026-11-19 07:32:35",
-   "url": "https://finance.eastmoney.com/a/202611193934379922.html",
+   "title": "床位总量下行，养老院还进得去吗",
+   "summary": "【床位总量下行，养老院还进得去吗】过去很长一段时间，养老床位在增加，养老机构在扩张，“到了晚年有没有一张养老院的床”似乎不是一个需要认真考虑的问题。但《2025年度国家老龄事业发展公报》给出的数字，让这个问题又浮出水面。截至2025年末，全国养老床位合计767.9万张，自2020年达823.8万张的峰值后连续下行；每千名老年人口拥有床位约23.7张，创下近10年新低。与此同时，60周岁及以上老年人口已达32338万人，占总人口的23.0%。",
+   "time": "2026-11-19 07:59:17",
+   "url": "https://finance.eastmoney.com/a/202611193934397622.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普与普京料在深圳会谈 也将与习近平举行三方会晤 - 联合早报",
+   "title": "民主党拟定针对特朗普的调查重点 - 华尔街日报中文网",
    "summary": "",
-   "time": "2026-11-19 07:29",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fSXdnM19mTXdFcGZhUUFzRC14bEZIUXNjdmgtYWJUY1FFb2xaQ1pVbGxpRXdncDduemZUbmlDZEhGd1F6dEctdHZmSGZmM1RnSnhhbkpsb01zSEFjVWxja3lNZHpJLXNWM0pF?oc=5",
+   "time": "2026-11-19 07:58",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNY3FIbmNUY3QwVkc4V0ZqZU81ZUZVV0ZlNGpYdkpqcEJibEc5LXMzbHRnZ3ZiUXdVeEp4dE80UDloOXB5Tkc4dUZNM3RCRmtkZk5YQUY5cGQyd3hZejQ0cmlhU1E5QXFFT2huWUxNYjliYUlqWjNIeG04VDZzNlNvQkNJcGlWdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1747,17 +1835,17 @@
    "source": "东财早报"
   },
   {
-   "title": "从押注科技到均衡对冲 华尔街巨头集体调仓",
+   "title": "镇江市市长张克会见欧洲先进产业与投资合作访华团",
    "summary": "",
-   "time": "2026-11-18 23:35:05",
-   "url": "https://news.10jqka.com.cn/20261119/c681974325.shtml",
+   "time": "2026-11-18 23:57:01",
+   "url": "https://news.10jqka.com.cn/20261119/c681974724.shtml",
    "source": "同花顺"
   },
   {
-   "title": "微软CEO警告网络故障或成新常态",
+   "title": "Anthropic IPO定价出炉：每股83美元，发行9.8亿股",
    "summary": "",
-   "time": "2026-11-18 23:32:54",
-   "url": "https://news.futunn.com/flash/1004953104/microsoft-ceo-warns-that-cyber-outages-may-become-the-new",
+   "time": "2026-11-18 23:37:00",
+   "url": "https://news.futunn.com/flash/1004953286/anthropic-ipo-pricing-announced-83-per-share-with-980-million",
    "source": "富途"
   },
   {
@@ -1768,24 +1856,24 @@
    "source": "财新"
   },
   {
-   "title": "马斯克：特斯拉将生产无方向盘的自动驾驶款MODEL Y。",
-   "summary": "马斯克：特斯拉将生产无方向盘的自动驾驶款MODEL Y。",
-   "time": "2026-11-19 07:27",
-   "url": "https://wallstreetcn.com/livenews/3202234",
+   "title": "中国即将发行或正在发行的国债和政策性金融债",
+   "summary": "中国即将发行或正在发行的国债和政策性金融债",
+   "time": "2026-11-19 08:00",
+   "url": "https://wallstreetcn.com/livenews/3202248",
    "source": "华尔街见闻"
   },
   {
-   "title": "R星游戏《GTA6》正式发售",
-   "summary": "【R星游戏《GTA6》正式发售】北京时间11月19日凌晨，《侠盗猎车手》系列游戏开发商RockstarGames年度新作《侠盗猎车手6》（GTA6）正式发售，首发登陆PlayStation5和XboxSeriesX|S平台，PC版本暂未推出。",
-   "time": "2026-11-19 07:31:55",
-   "url": "https://finance.eastmoney.com/a/202611193934437231.html",
+   "title": "高端农机驶向全链自主可控",
+   "summary": "【高端农机驶向全链自主可控】粮安天下，装备筑基。我国是世界第一农机制造大国，农机国产化水平持续提升，为农业稳产保供提供了坚实底气。在2026年度农机产业链高质量发展研讨会上，与会人士认为，要推动上下游企业协同创新、融通发展，持续提升国产农机装备自主可控水平，为夯实国家粮食安全根基、加快建设农业强国提供更加坚实的装备支撑。",
+   "time": "2026-11-19 07:58:18",
+   "url": "https://finance.eastmoney.com/a/202611193934396830.html",
    "source": "东财国际"
   },
   {
-   "title": "20位共和党众议员联名呼吁特朗普总统在深圳向习近平提出政治犯问题 - 美国之音",
+   "title": "特朗普与普京料在深圳会谈 也将与习近平举行三方会晤 - 联合早报",
    "summary": "",
    "time": "2026-11-19 07:29",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS3lkeXdtS2hNQkIyZC1GV2ZpY2kyNmlVLS1mX25uWFJicGpEUFBjc1FYa0VtV2dTdFNlYnM3ZUlBSVNPVUU2ZG8xRUtteGkzQmZRYTkxOHZBNWJ6NC1YeC04c2lvLTQwUmZyNWEtVjBEOUQyY251dE4yRy1lc3V3S3UxclA0ZlVKLUJmU0dVSTRNc2JndndRcjZoUUxRTS11cVNGTnh2aGg2eFBYcGVhOFRSQXhXelllZjFUdTFwM2tvT0cwbWpZNGpR0gHMAUFVX3lxTE1GQUREX09NbUxUdzF5LWtyc3FJeG1uUzNGelJvdWF6djlRUXFXa1poaVd2WVowWFhWdXR4dGlycmZROXNiOVpWV1R1Z3hLS04tbDVwYV81WExZVXhZZ25PYUVEYmNSbkh2YnpNWndDSmxKU3gtelRQUFhLRlZiSG14Y08wUTBHeDZCUUJjX3dkd2daaEw1UjgxV194eTFLc3JUMTNGUjVRczFIS0FvUFB3Yzh2ZVZ3b2pEazNZMlE1UExtSzRYNTIyTXcxcQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fSXdnM19mTXdFcGZhUUFzRC14bEZIUXNjdmgtYWJUY1FFb2xaQ1pVbGxpRXdncDduemZUbmlDZEhGd1F6dEctdHZmSGZmM1RnSnhhbkpsb01zSEFjVWxja3lNZHpJLXNWM0pF?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1803,17 +1891,17 @@
    "source": "东财早报"
   },
   {
-   "title": "现货黄金站上3740美元/盎司",
+   "title": "月内652家私募机构调研A股公司 五大行业热度较高",
    "summary": "",
-   "time": "2026-11-18 23:26:14",
-   "url": "https://news.10jqka.com.cn/20261119/c681974155.shtml",
+   "time": "2026-11-18 23:48:04",
+   "url": "https://news.10jqka.com.cn/20261119/c681974569.shtml",
    "source": "同花顺"
   },
   {
-   "title": "以色列推波助澜 特朗普正权衡对伊朗发动新一轮大规模打击",
+   "title": "微软CEO警告网络故障或成新常态",
    "summary": "",
-   "time": "2026-11-18 23:26:27",
-   "url": "https://news.futunn.com/flash/1004952601/israel-escalates-pressure-as-trump-weighs-new-round-of-large",
+   "time": "2026-11-18 23:32:54",
+   "url": "https://news.futunn.com/flash/1004953104/microsoft-ceo-warns-that-cyber-outages-may-become-the-new",
    "source": "富途"
   },
   {
@@ -1824,24 +1912,24 @@
    "source": "财新"
   },
   {
-   "title": "澳洲矿业股普跌，追随隔夜黄金、铜价格下跌的表现。\n\n澳大利亚悉尼上市的必和必拓一度跌4.4%，力拓跌3.3%，Sandfire跌6.6%，Northern Star跌4.7%。",
-   "summary": "澳洲矿业股普跌，追随隔夜黄金、铜价格下跌的表现。\n\n澳大利亚悉尼上市的必和必拓一度跌4.4%，力拓跌3.3%，Sandfire跌6.6%，Northern Star跌4.7%。",
-   "time": "2026-11-19 07:25",
-   "url": "https://wallstreetcn.com/livenews/3202233",
+   "title": "马斯克称，SpaceX正在开发AI模型Grok 4.8。\n\n特斯拉将在未来两个月内进行Optimus机器人演示。",
+   "summary": "马斯克称，SpaceX正在开发AI模型Grok 4.8。\n\n特斯拉将在未来两个月内进行Optimus机器人演示。",
+   "time": "2026-11-19 07:58",
+   "url": "https://wallstreetcn.com/livenews/3202247",
    "source": "华尔街见闻"
   },
   {
-   "title": "不能正常履职上市公司董事长 金融老将翁振杰动向引关注",
-   "summary": "【不能正常履职上市公司董事长 金融老将翁振杰动向引关注】11月18日，重庆路桥公告称，近日收到股东重庆国际信托股份有限公司告知函，公司董事长翁振杰因个人原因暂不能正常履行董事长及董事会相关专门委员会委员等职务，公司已对相关工作进行了妥善安排。作为长期活跃在信托、券商、银行等领域的金融老将，翁振杰在2000年初曾经带领重庆信托进行重组，后又牵头重组资不抵债的万州商业银行（现三峡银行）。",
-   "time": "2026-11-19 07:31:08",
-   "url": "https://finance.eastmoney.com/a/202611193934378740.html",
+   "title": "AI创作不容变换名头偷税",
+   "summary": "【AI创作不容变换名头偷税】随着AI视频、AI写作、AI音乐、数字人直播等新业态不断涌现，一个问题备受关注：AI创作者的收入该如何纳税？国家广播电视总局数据显示，今年前8个月，全国上线微短剧43万部，是去年全年的13倍，其中AI剧超九成，凸显了当前人工智能生成内容（AIGC）迅猛的发展势头。",
+   "time": "2026-11-19 07:56:18",
+   "url": "https://finance.eastmoney.com/a/202611193934398139.html",
    "source": "东财国际"
   },
   {
-   "title": "美联储宣战，收割转向，美国或将用黄金偿还美债 - 凤凰网财经",
+   "title": "20位共和党众议员联名呼吁特朗普总统在深圳向习近平提出政治犯问题 - 美国之音",
    "summary": "",
-   "time": "2026-11-19 07:06",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CQ1BIZlBacml2VzZTREZ6QlhLVnk2Tzk0QVk5Nk8zQjZDSHJyeFFNX2xWRGlHamV5dGhiSDVwSGluS3RqWWtXUU9KRnJOVWFW?oc=5",
+   "time": "2026-11-19 07:29",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS3lkeXdtS2hNQkIyZC1GV2ZpY2kyNmlVLS1mX25uWFJicGpEUFBjc1FYa0VtV2dTdFNlYnM3ZUlBSVNPVUU2ZG8xRUtteGkzQmZRYTkxOHZBNWJ6NC1YeC04c2lvLTQwUmZyNWEtVjBEOUQyY251dE4yRy1lc3V3S3UxclA0ZlVKLUJmU0dVSTRNc2JndndRcjZoUUxRTS11cVNGTnh2aGg2eFBYcGVhOFRSQXhXelllZjFUdTFwM2tvT0cwbWpZNGpR0gHMAUFVX3lxTE1GQUREX09NbUxUdzF5LWtyc3FJeG1uUzNGelJvdWF6djlRUXFXa1poaVd2WVowWFhWdXR4dGlycmZROXNiOVpWV1R1Z3hLS04tbDVwYV81WExZVXhZZ25PYUVEYmNSbkh2YnpNWndDSmxKU3gtelRQUFhLRlZiSG14Y08wUTBHeDZCUUJjX3dkd2daaEw1UjgxV194eTFLc3JUMTNGUjVRczFIS0FvUFB3Yzh2ZVZ3b2pEazNZMlE1UExtSzRYNTIyTXcxcQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1859,17 +1947,17 @@
    "source": "东财早报"
   },
   {
-   "title": "生猪市场仍处磨底阶段，业内人士称趋势性反转尚待时日",
+   "title": "NYMEX铂金主力合约涨超1%",
    "summary": "",
-   "time": "2026-11-18 23:16:22",
-   "url": "https://news.10jqka.com.cn/20261119/c681974009.shtml",
+   "time": "2026-11-18 23:45:12",
+   "url": "https://news.10jqka.com.cn/20261119/c681974506.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美国家安全局大范围IT故障波及中东关键情报设施",
+   "title": "以色列推波助澜 特朗普正权衡对伊朗发动新一轮大规模打击",
    "summary": "",
-   "time": "2026-11-18 23:10:11",
-   "url": "https://news.futunn.com/flash/1004951562/widespread-it-outage-at-us-nsa-affects-key-intelligence-facility",
+   "time": "2026-11-18 23:26:27",
+   "url": "https://news.futunn.com/flash/1004952601/israel-escalates-pressure-as-trump-weighs-new-round-of-large",
    "source": "富途"
   },
   {
