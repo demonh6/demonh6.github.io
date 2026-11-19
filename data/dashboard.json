@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-19 11:53:06 CST",
- "generated_at_iso": "2026-11-19T11:53:06+08:00",
+ "generated_at": "2026-11-19 12:01:19 CST",
+ "generated_at_iso": "2026-11-19T12:01:19+08:00",
  "date": "2026-11-19",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 22854.76,
-    "change": -439.99,
-    "change_pct": -1.89,
+    "price": 22846.23,
+    "change": -448.52,
+    "change_pct": -1.93,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3662.1,
-    "change": -74.23,
-    "change_pct": -1.99,
+    "price": 3657.89,
+    "change": -78.44,
+    "change_pct": -2.1,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 7695.51,
-    "change": -140.76,
-    "change_pct": -1.8,
+    "price": 7692.871,
+    "change": -143.4,
+    "change_pct": -1.83,
     "hist": [
      8030.54,
      8051.6704,
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 59145.87,
-    "change": 121.59,
-    "change_pct": 0.21,
+    "price": 59465.81,
+    "change": 441.53,
+    "change_pct": 0.75,
     "hist": [
      70035.71,
      69042.11,
@@ -904,12 +904,12 @@
      59662.02,
      58860.43,
      59024.28,
-     59032.6719
+     59140.8711
     ],
-    "sigma": 1.984,
+    "sigma": 1.986,
     "volume": 0.0,
     "vol_chg_pct": -100.0,
-    "vol_pctile": 35.2,
+    "vol_pctile": 34.8,
     "vol_hist": [
      0.0,
      0.0,
@@ -939,16 +939,16 @@
      145000000.0,
      138200000.0,
      138500000.0,
-     0.0,
+     142400000.0,
      0.0
     ]
    },
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5043.48,
-    "change": -23.96,
-    "change_pct": -0.47,
+    "price": 5074.14,
+    "change": 6.7,
+    "change_pct": 0.13,
     "hist": [
      6625.93,
      6384.24,
@@ -978,12 +978,12 @@
      5290.5298,
      5100.5,
      4968.48,
-     5067.44,
-     4992.8101
+     5067.4399,
+     4981.3999
     ],
-    "sigma": 3.172,
-    "volume": 53129.0,
-    "vol_chg_pct": -76.4,
+    "sigma": 3.176,
+    "volume": 86025.0,
+    "vol_chg_pct": -61.8,
     "vol_pctile": 0.8,
     "vol_hist": [
      302500.0,
@@ -1014,8 +1014,8 @@
      247800.0,
      221300.0,
      194000.0,
-     219090.0,
-     53129.0
+     219100.0,
+     86025.0
     ]
    },
    {
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3712.32,
-    "change": -29.58,
-    "change_pct": -0.79,
-    "quote_time": "11:53:08 2026-11-19"
+    "price": 3719.331,
+    "change": -22.569,
+    "change_pct": -0.6,
+    "quote_time": "12:01:17 2026-11-19"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.851,
-    "change": -0.208,
-    "change_pct": -0.46,
-    "quote_time": "11:53:07 2026-11-19"
+    "price": 45.013,
+    "change": -0.046,
+    "change_pct": -0.1,
+    "quote_time": "12:01:10 2026-11-19"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.966,
-    "change": -0.344,
-    "change_pct": -0.42,
-    "quote_time": "11:53:03 2026-11-19"
+    "price": 82.002,
+    "change": -0.308,
+    "change_pct": -0.37,
+    "quote_time": "12:01:17 2026-11-19"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.845,
-    "change": -0.105,
-    "change_pct": -0.11,
-    "quote_time": "11:53:04 2026-11-19"
+    "price": 91.867,
+    "change": -0.083,
+    "change_pct": -0.09,
+    "quote_time": "12:01:11 2026-11-19"
    }
   ],
   "crypto": [
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63085.4,
-    "change": -1475.6,
-    "change_pct": -2.29,
-    "source": "okx"
+    "price": 63254.3,
+    "change": -1178.7,
+    "change_pct": -1.83,
+    "source": "okx",
+    "hist": [
+     84539.5,
+     81678.9,
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63412.4
+    ],
+    "sigma": 2.044
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1786.01,
-    "change": -21.61,
-    "change_pct": -1.2,
-    "source": "okx"
+    "price": 1796.25,
+    "change": -9.2,
+    "change_pct": -0.51,
+    "source": "okx",
+    "hist": [
+     2512.69,
+     2398.86,
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1800.12
+    ],
+    "sigma": 3.008
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 74.03,
-    "change": -0.97,
-    "change_pct": -1.29,
-    "source": "okx"
+    "price": 74.3,
+    "change": -0.54,
+    "change_pct": -0.72,
+    "source": "okx",
+    "hist": [
+     108.5,
+     104.63,
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     74.47
+    ],
+    "sigma": 3.071
    }
   ],
   "fx": [
@@ -1333,24 +1432,24 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6669,
-    "change": null,
-    "change_pct": null,
+    "price": 6.667,
+    "change": -0.0022,
+    "change_pct": -0.03,
     "dec": 4,
-    "date": "2026-11-19",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 134.23,
-    "change": 0.78,
-    "change_pct": 0.58,
+    "price": 134.08,
+    "change": 0.63,
+    "change_pct": 0.47,
     "dec": 2,
-    "date": "2026-11-19",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1454,37 +1553,37 @@
  },
  "speakers": [
   {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "马斯克：特斯拉会继续在中国提高产量",
+   "summary": "【马斯克：特斯拉会继续在中国提高产量】中国贸促会会长任鸿斌11月19日会见特斯拉公司首席执行官埃隆·马斯克。马斯克表示，他是中国的超级粉丝，中国有太多宏伟壮观的建筑与自然景观，他尤其点赞了中国的铁路系统。他还表示，特斯拉会继续在中国提高产量。据悉，这是马斯克首次公开到访深圳。",
+   "time": "2026-11-19 11:57:14",
+   "url": "https://finance.eastmoney.com/a/202611193934923858.html",
+   "source": "东财国际",
+   "mentions": 5
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
    "title": "特朗普抵达APEC领导人非正式会议现场 - 新浪财经",
    "summary": "",
-   "time": "2026-11-19 11:35",
+   "time": "2026-11-19 11:34",
    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lYjM5TmctMndfQ0xmd2VNdGtnZGFRVzhmSmdvMnczM28zdHpiQ3NsZk9PQjU1NXVoZ3ZvMEdIWWVfNGFSWGZPLUhQZVFIU2dwZEU4TGlWOW95V1BVZFdJaVVpa1hoREtBX0QtejBGakVrdw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 3
   },
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "期货午评：美联储加息预期引爆金属！沪铜、沪银暴跌近6%",
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "特朗普：必须善待黄仁勋和马斯克这样的天才",
    "summary": "",
-   "time": "2026-11-19 03:31:54",
-   "url": "https://news.10jqka.com.cn/20261119/c681989060.shtml",
+   "time": "2026-11-19 03:39:45",
+   "url": "https://news.10jqka.com.cn/20261119/c681989519.shtml",
    "source": "同花顺",
-   "mentions": 2
-  },
-  {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "马斯克强调星链对乌克兰通信的重要性，反对利用其通信服务支持进攻性无人机打击",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-19/102506488.html?cxapp_link=true",
-   "source": "财新",
-   "mentions": 2
+   "mentions": 1
   }
  ],
  "research": {
@@ -1548,24 +1647,44 @@
   ],
   "reports": [
    {
-    "title": "向实而行向新而进渤海银行投行业务赋能经济高质量发展_产业经济 - 中金在线",
+    "title": "研报掘金｜中金：降腾讯目标价至470港元，维持“跑赢行业”评级，AI投入期利润受压 - Moomoo",
     "org": "中金",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBQUJsMHVrNzgyNWhpT0hHd1RyQW9LeE5xRzRqdnZLZzNMZHFyS2ZFSGNKbHhPa0JzZUVEcUtaT2xsaktWUW9kNFU3N09DWHhSNF9LY0dSRFVZeHd5TzdUWElELVVoWmxUUlE?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBtdlY5ZHB6anVxMjhIOG1uYWp1R216amVNbWFadFBkTVExd0E2bG02OFhUMnFVd2NiQjhuR2swTWZEaTFHT1JtX2Y1Yi0xb0tTZ0ZUMzhHVmpxRHB1?oc=5",
     "source": "机构观点"
    },
    {
-    "title": "截至早盘收盘，日经225指数涨0.2%，东证指数跌0.3%。",
-    "org": "日经",
+    "title": "临近午盘，部分宽基ETF成交放量，科创50ETF易方达（588080）目前成交38亿，中证500ETF南方（510500）成交超30亿元，均超上一日全天成交额，",
+    "org": "华泰",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-19",
-    "url": "https://wallstreetcn.com/livenews/3202307",
+    "url": "https://wallstreetcn.com/livenews/3202322",
     "source": "机构观点"
+   },
+   {
+    "title": "什么信号？穆迪下调英伟达评级展望：黄仁勋事件引发治理担忧 - 凤凰网科技",
+    "org": "穆迪",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rR1ZFOUJrb1NNVldmZXJEbExoMGN0UExzWmk5cml5M0RDd0ZFYjNCekZrMjl6TkxfdTdaVXJvNGVoaV95ZUc0QUl1ckE?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "事件点评报告：紧抓电子布行业机会，回购彰显发展信心",
+    "org": "华龙证券",
+    "rating": "增持",
+    "stock": "中国巨石",
+    "industry": "玻璃玻纤",
+    "date": "2026-11-19",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611191831852232",
+    "source": "东财研报·个股"
    },
    {
     "title": "OLED材料把握上行，Q布继续扎实推进",
@@ -1628,6 +1747,26 @@
     "source": "东财研报·个股"
    },
    {
+    "title": "传媒互联网行业周报：Anthropic发布Claude Fable 5.2与Mythos 5.2，字节发布Seedream 5.5",
+    "org": "国元证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831852610",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "通信行业专题研究点评：星舰二级“筷子”回收取得里程碑突破，可复用技术进阶打开商业航天成长空间",
+    "org": "华龙证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-19",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831852242",
+    "source": "东财研报·行业"
+   },
+   {
     "title": "计算机行业周报：大模型持续迭代，Token经济火热",
     "org": "上海证券",
     "rating": "增持",
@@ -1656,61 +1795,31 @@
     "date": "2026-11-19",
     "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831847419",
     "source": "东财研报·行业"
-   },
-   {
-    "title": "有色金属行业点评报告：加息方向渐成共识，节奏幅度分歧凸显",
-    "org": "华龙证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-19",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831846816",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "纺织服装海外跟踪系列八十：亚玛芬三季度收入利润表现均超预期，管理层再次上调全年指引",
-    "org": "国信证券",
-    "rating": "增持",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-19",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831845913",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "耐用消费产业行业研究：AI散热系列之一：金刚石传统业务修复，散热应用启新程",
-    "org": "国金证券",
-    "rating": "买入",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-19",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611191831844201",
-    "source": "东财研报·行业"
    }
   ]
  },
  "alerts": [],
  "news": [
   {
-   "title": "特朗普抵达APEC领导人非正式会议现场 - 新浪财经",
-   "summary": "",
-   "time": "2026-11-19 11:35",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lYjM5TmctMndfQ0xmd2VNdGtnZGFRVzhmSmdvMnczM28zdHpiQ3NsZk9PQjU1NXVoZ3ZvMEdIWWVfNGFSWGZPLUhQZVFIU2dwZEU4TGlWOW95V1BVZFdJaVVpa1hoREtBX0QtejBGakVrdw?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "我国首款电动商用飞机装上“中国心”",
+   "summary": "11月18日获悉，中国科学院电工研究所自研的10台分布式电涵道推进电机系统近日完成实飞验证，系统总功率2兆瓦，为中国自主研制的首款电动商用飞机CE-25A提供全部动力。未来，这颗“中国心”将为中国新能源飞机动力核心部件自主可控筑牢基础，助力中国航空工业迈向绿色化、智能化。（新华社）",
+   "time": "2026-11-19 12:01",
+   "url": "https://wallstreetcn.com/livenews/3202333",
+   "source": "华尔街见闻"
   },
   {
-   "title": "今年流感有何新特点？呼吸科专家：三毒株叠加流行 防护千万别松懈",
-   "summary": "【今年流感有何新特点？呼吸科专家：三毒株叠加流行 防护千万别松懈】中国疾控中心最新监测数据显示，当前我国流感活动整体呈波动上升趋势。与往年单一毒株主导流行的模式不同，今年流感流行呈现全新特征，甲型H1N1、甲型H3N2、乙型流感三种毒株同步活跃，毒株构成更为复杂。多毒株共存的流行格局，不仅拉长了整体流感流行周期，还大幅提升了人群短时间内重复感染不同毒株的风险，给秋冬流感防控带来新挑战。",
-   "time": "2026-11-19 11:30:00",
-   "url": "https://finance.eastmoney.com/a/202611193934916673.html",
+   "title": "马斯克：特斯拉会继续在中国提高产量",
+   "summary": "【马斯克：特斯拉会继续在中国提高产量】中国贸促会会长任鸿斌11月19日会见特斯拉公司首席执行官埃隆·马斯克。马斯克表示，他是中国的超级粉丝，中国有太多宏伟壮观的建筑与自然景观，他尤其点赞了中国的铁路系统。他还表示，特斯拉会继续在中国提高产量。据悉，这是马斯克首次公开到访深圳。",
+   "time": "2026-11-19 11:57:14",
+   "url": "https://finance.eastmoney.com/a/202611193934923858.html",
    "source": "东财国际"
   },
   {
-   "title": "11月19日午间收评：科创50指数半日涨近1%，光刻胶、先进封装概念逆势活跃",
-   "summary": "1、市场早间低开低走，三大指数延续调整。光刻机概念股逆势拉升，盛剑科技3连板，格林达涨停。先进封装、存储芯片概念局部活跃，蓝箭电子、时空科技、大港股份涨停。下跌方面，AI漫剧概念继续下挫，慈文传媒、横店影视、文投控股3连跌停；算力芯片股持续下挫，燧原科技触及20cm跌停，沐曦股份跌超10%。个股跌多涨少，沪深京三市超4500股飘绿，上午半天成交7917亿。午间收盘沪指跌0.44%，深成指跌0.51",
-   "time": "2026-11-19 11:30",
-   "url": "https://wallstreetcn.com/livenews/3202327",
-   "source": "华尔街见闻"
+   "title": "深视频 | APEC峰会上，普京与特朗普再度握手 - 上观新闻",
+   "summary": "",
+   "time": "2026-11-19 11:39",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1jN2Y3MEhDRTVNLTlDLUlRYkh2dHhfUkM0NUNqZ1NOa0QzNEJEdUJVTzQ0UUViWkVEMnJJMVVlSHY0a1NjNXozaFNaRjZtVy1SNHFEcmZNbVdPR0gt?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社",
@@ -1727,46 +1836,46 @@
    "source": "东财早报"
   },
   {
-   "title": "ETF两市成交额报2594.0亿元，较昨日此时缩量461.58亿元",
+   "title": "特朗普：我们必须善待天才",
    "summary": "",
-   "time": "2026-11-19 03:33:42",
-   "url": "https://news.10jqka.com.cn/20261119/c681989136.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "部分宽基ETF成交放量",
-   "summary": "",
-   "time": "2026-11-19 03:24:21",
-   "url": "https://news.futunn.com/flash/1004981766/trading-volumes-for-several-broad-based-etfs-have-surged",
+   "time": "2026-11-19 03:57:40",
+   "url": "https://news.futunn.com/flash/1004985328/trump-we-must-treat-geniuses-well",
    "source": "富途"
   },
   {
-   "title": "马斯克强调星链对乌克兰通信的重要性，反对利用其通信服务支持进攻性无人机打击",
+   "title": "招银国际：下调腾讯控股目标价至670港元 维持“买入”评级",
+   "summary": "",
+   "time": "2026-11-19 03:55:47",
+   "url": "https://news.10jqka.com.cn/20261119/c681990262.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "马斯克称AI和机器人技术推动两家公司业务趋同，合并或带来更多优势",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-19/102506488.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-19/102506506.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "【期股联动】沪金盘中重挫超3%！美联储12月加息概率100%紧缩预期压顶贵金属 - 同花顺",
-   "summary": "",
-   "time": "2026-11-19 11:05",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9KY1V6SldGLV9YRkNQQ0txUWs4TmhRT08taDJ6U2d1WmliVEFaejlqU3VROVlFMU5pc01jWWVLWW1TbDU4NTBSdWNTZG1HWlozTTdkY1RXOHB4aVlaekh4SDdn?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "11月19日午间收评：科创50指数半日涨近1%，光刻胶概念股逆势活跃",
+   "summary": "1、市场早间低开低走，三大指数延续调整。光刻机概念股逆势拉升，盛剑科技3连板，格林达涨停。先进封装、存储芯片概念局部活跃，蓝箭电子、时空科技、大港股份涨停。下跌方面，AI漫剧概念继续下挫，慈文传媒、横店影视、文投控股3连跌停；算力芯片股持续下挫，燧原科技触及20cm跌停，沐曦股份跌超10%。个股跌多涨少，沪深京三市超4500股飘绿，上午半天成交7917亿。午间收盘沪指跌0.44%，深成指跌0.51",
+   "time": "2026-11-19 11:30",
+   "url": "https://wallstreetcn.com/livenews/3202327",
+   "source": "华尔街见闻"
   },
   {
-   "title": "我国新增34家领航级智能工厂",
-   "summary": "【我国新增34家领航级智能工厂】工业和信息化部等六部门今天公布了新一批34家领航级智能工厂培育名单。从区域分布来看，东北、西北、西南、中部、东部地区全覆盖；从行业来看，在装备制造、钢铁、电子信息等领域外，消费品领域医药、服装等企业首次入选，覆盖范围从大国重器延伸至百姓民生。",
-   "time": "2026-11-19 11:27:16",
-   "url": "https://finance.eastmoney.com/a/202611193934915634.html",
+   "title": "报告称非洲数字化进程有进展 互联网使用鸿沟仍突出",
+   "summary": "【报告称非洲数字化进程有进展 互联网使用鸿沟仍突出】全球移动通信系统协会18日在南非立法首都开普敦发布《2026数字非洲指数》报告。报告显示，非洲在数字化发展及其政策环境方面取得可观进展，但在缩小互联网使用鸿沟方面仍面临严峻挑战。",
+   "time": "2026-11-19 11:55:55",
+   "url": "https://finance.eastmoney.com/a/202611193934923660.html",
    "source": "东财国际"
   },
   {
-   "title": "临近午盘，部分宽基ETF成交放量，科创50ETF易方达（588080）目前成交38亿，中证500ETF南方（510500）成交超30亿元，均超上一日全天成交额，沪深300ETF华泰柏瑞（510300）15分钟内成交超10亿元。",
-   "summary": "临近午盘，部分宽基ETF成交放量，科创50ETF易方达（588080）目前成交38亿，中证500ETF南方（510500）成交超30亿元，均超上一日全天成交额，沪深300ETF华泰柏瑞（510300）15分钟内成交超10亿元。",
-   "time": "2026-11-19 11:23",
-   "url": "https://wallstreetcn.com/livenews/3202322",
-   "source": "华尔街见闻"
+   "title": "特朗普抵达APEC领导人非正式会议现场 - 新浪财经",
+   "summary": "",
+   "time": "2026-11-19 11:34",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lYjM5TmctMndfQ0xmd2VNdGtnZGFRVzhmSmdvMnczM28zdHpiQ3NsZk9PQjU1NXVoZ3ZvMEdIWWVfNGFSWGZPLUhQZVFIU2dwZEU4TGlWOW95V1BVZFdJaVVpa1hoREtBX0QtejBGakVrdw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "研报掘金｜中金：降腾讯目标价至470港元，维持“跑赢行业”评级，AI投入期利润受压 - Moomoo",
@@ -1783,52 +1892,52 @@
    "source": "东财早报"
   },
   {
-   "title": "期货午评：美联储加息预期引爆金属！沪铜、沪银暴跌近6%",
+   "title": "马斯克说要继续在中国加大产量",
    "summary": "",
-   "time": "2026-11-19 03:31:54",
-   "url": "https://news.10jqka.com.cn/20261119/c681989060.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "习近平谈建设亚太共同体",
-   "summary": "",
-   "time": "2026-11-19 03:02:54",
-   "url": "https://news.futunn.com/flash/1004972616/discusses-building-an-asia-pacific-community",
+   "time": "2026-11-19 03:57:15",
+   "url": "https://news.futunn.com/flash/1004985310/musk-stated-that-he-intends-to-further-increase-production-in",
    "source": "富途"
   },
   {
-   "title": "马斯克称巨额投入未取得预期效果，认为金钱对美国选举结果的影响有限",
+   "title": "开拍全面接入WorkBuddy 打造一站式AI剪辑工作台",
+   "summary": "",
+   "time": "2026-11-19 03:52:33",
+   "url": "https://news.10jqka.com.cn/20261119/c681990109.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "马斯克强调星链对乌克兰通信的重要性，反对利用其通信服务支持进攻性无人机打击",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-19/102506474.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-19/102506488.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "特朗普暗示未来或允许英伟达向中国出售Blackwell晶片 - 联合早报",
-   "summary": "",
-   "time": "2026-11-19 10:58",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HZ3RSOFcyakhUeFVlSk14Z3dHNlRDcXh0OUpsVnJsTFE0cUZYc1kyUjExYW8zSlNGYVI5Qi0yRWV5T044UkVIX1d6aEtMbjVyZlJ5bVU4OFkxQThoZjdMT1E5clFPSGFCbXdB?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "临近午盘部分宽基ETF显著放量 科创50ETF易方达成交近40亿",
-   "summary": "【临近午盘部分宽基ETF显著放量 科创50ETF易方达成交近40亿】临近午盘，多只宽基ETF显著放量，科创50ETF易方达（588080）放量拉升翻红，成交近40亿，中证500ETF南方（510500）成交超30亿元，均超上一日全天成交额，沪深300ETF华泰柏瑞（510300）15分钟内成交超10亿元。",
-   "time": "2026-11-19 11:24:36",
-   "url": "https://finance.eastmoney.com/a/202611193934914855.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "湖北发行3年期土储专项地方债，规模12.6300亿元，发行利率1.2500%，边际倍数2.44倍，倍数预期1.26；\n\n湖北发行5年期土储专项地方债，规模2.8700亿元，发行利率1.3400%，边际倍数2.09倍，倍数预期1.34；\n\n湖",
-   "summary": "湖北发行3年期土储专项地方债，规模12.6300亿元，发行利率1.2500%，边际倍数2.44倍，倍数预期1.26；\n\n湖北发行5年期土储专项地方债，规模2.8700亿元，发行利率1.3400%，边际倍数2.09倍，倍数预期1.34；\n\n湖北发行20年期其他专项地方债，规模8.6100亿元，发行利率2.1000%，边际倍数1.16倍，倍数预期2.14；\n\n湖北发行30年期其他专项地方债，规模2.8",
-   "time": "2026-11-19 11:18",
-   "url": "https://wallstreetcn.com/livenews/3202320",
+   "title": "临近午盘，部分宽基ETF成交放量，科创50ETF易方达（588080）目前成交38亿，中证500ETF南方（510500）成交超30亿元，均超上一日全天成交额，沪深300ETF华泰柏瑞（510300）15分钟内成交超10亿元。",
+   "summary": "临近午盘，部分宽基ETF成交放量，科创50ETF易方达（588080）目前成交38亿，中证500ETF南方（510500）成交超30亿元，均超上一日全天成交额，沪深300ETF华泰柏瑞（510300）15分钟内成交超10亿元。",
+   "time": "2026-11-19 11:23",
+   "url": "https://wallstreetcn.com/livenews/3202322",
    "source": "华尔街见闻"
   },
   {
-   "title": "财信证券：A股政策底已确认 市场仍处磨底阶段 - 观点网",
+   "title": "金饰克价年内暴跌近600元",
+   "summary": "【金饰克价年内暴跌近600元】受国际金价传导，国内品牌金饰价格连续8个交易日下跌。11月19日，记者发现，老庙黄金足金饰品报1125元/克，8日跌去108元，较年内高点1722元/克暴跌597元；老凤祥报1132元/克，8日跌去104元，较高点跌去581元；周大福报1132元/克，8日跌去107元，较高点跌去574元。目前多家品牌金饰克价较年内高点回撤幅度均在三成以上，其中老庙跌幅已接近35%。",
+   "time": "2026-11-19 11:45:26",
+   "url": "https://finance.eastmoney.com/a/202611193934922377.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普：中美俄元首峰会尚未举行就已是“胜利” - 联合早报",
    "summary": "",
-   "time": "2026-11-19 11:07",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9qSmVjOHJTRnZZOUt1djdCMFZRWmlLb3V6QXhrNWtRQVpzR01UN0JiMnlybzRrRFNIQ2lhZGc3X2FiaUdMN2owSVY1bG1seHBqWXhFcGlUMFVtbDJMLUgwQnNR?oc=5",
+   "time": "2026-11-19 11:18",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5mdmlPeERIX0lrSFlDeWFzQXloSTZhdXlHVjk4Y005dFR4SFNzVko0NUt3TUFjYzd1cS1MSjR2U1Q1V0R6TmhxbkVzcHBrSmY3bEFzOVBvM1dIYXZXYkROcTRpZ292b2h6bjUw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "什么信号？穆迪下调英伟达评级展望：黄仁勋事件引发治理担忧 - 凤凰网科技",
+   "summary": "",
+   "time": "2026-11-19 10:18",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9rR1ZFOUJrb1NNVldmZXJEbExoMGN0UExzWmk5cml5M0RDd0ZFYjNCekZrMjl6TkxfdTdaVXJvNGVoaV95ZUc0QUl1ckE?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1839,24 +1948,24 @@
    "source": "东财早报"
   },
   {
-   "title": "ETF午评：半导体设备ETF领涨1.89%，云计算ETF领跌5.77%",
+   "title": "沙特方面承认胡塞武装导弹袭击造成一定破坏",
    "summary": "",
-   "time": "2026-11-19 03:31:08",
-   "url": "https://news.10jqka.com.cn/20261119/c681989019.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "习近平：携手搭建亚太共同体的“四梁八柱”",
-   "summary": "",
-   "time": "2026-11-19 03:02:37",
-   "url": "https://news.futunn.com/flash/1004972212/join-hands-to-build-the-four-beams-and-eight-pillars",
+   "time": "2026-11-19 03:39:35",
+   "url": "https://news.futunn.com/flash/1004983339/saudi-authorities-acknowledged-that-the-houthi-missile-attack-caused-some",
    "source": "富途"
   },
   {
-   "title": "奥特伯格执掌下的波音，陷入了一场漫长的减速修复中",
+   "title": "特朗普：必须善待黄仁勋和马斯克这样的天才",
+   "summary": "",
+   "time": "2026-11-19 03:39:45",
+   "url": "https://news.10jqka.com.cn/20261119/c681989519.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "马斯克称巨额投入未取得预期效果，认为金钱对美国选举结果的影响有限",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-19/102506472.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-19/102506474.html?cxapp_link=true",
    "source": "财新"
   }
  ],
@@ -1864,7 +1973,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(15)",
+   "富途": "ok(16)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1873,13 +1982,13 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 7,
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 6,
    "东财早报": 3,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "财新": 6
   }
  },
