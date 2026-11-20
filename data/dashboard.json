@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 17:24:06 CST",
- "generated_at_iso": "2026-11-20T17:24:06+08:00",
+ "generated_at": "2026-11-20 17:32:20 CST",
+ "generated_at_iso": "2026-11-20T17:32:20+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10385.59,
-    "change": -67.09,
-    "change_pct": -0.64,
+    "price": 10384.3,
+    "change": -68.38,
+    "change_pct": -0.65,
     "hist": [
      10552.05,
      10656.28,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8012.42,
-    "change": -68.32,
-    "change_pct": -0.85,
+    "price": 7991.53,
+    "change": -89.21,
+    "change_pct": -1.1,
     "hist": [
      7803.33,
      7832.88,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6027.24,
-    "change": -86.62,
-    "change_pct": -1.42,
+    "price": 6003.75,
+    "change": -110.11,
+    "change_pct": -1.8,
     "hist": [
      6173.38,
      6201.22,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3587.43,
-    "change": -98.07,
-    "change_pct": -2.66,
-    "quote_time": "17:24:07 2026-11-20"
+    "price": 3568.536,
+    "change": -116.964,
+    "change_pct": -3.17,
+    "quote_time": "17:32:20 2026-11-20"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 43.004,
-    "change": -1.877,
-    "change_pct": -4.18,
-    "quote_time": "17:24:00 2026-11-20"
+    "price": 42.769,
+    "change": -2.112,
+    "change_pct": -4.71,
+    "quote_time": "17:32:17 2026-11-20"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.508,
-    "change": -0.932,
-    "change_pct": -1.13,
-    "quote_time": "17:24:08 2026-11-20"
+    "price": 81.366,
+    "change": -1.074,
+    "change_pct": -1.3,
+    "quote_time": "17:32:23 2026-11-20"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 90.869,
-    "change": -1.111,
-    "change_pct": -1.21,
-    "quote_time": "17:24:09 2026-11-20"
+    "price": 90.731,
+    "change": -1.249,
+    "change_pct": -1.36,
+    "quote_time": "17:32:19 2026-11-20"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61832.2,
-    "change": -1966.5,
-    "change_pct": -3.08,
+    "price": 61618.5,
+    "change": -2164.1,
+    "change_pct": -3.39,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1751.24,
-    "change": -52.24,
-    "change_pct": -2.9,
+    "price": 1744.58,
+    "change": -57.91,
+    "change_pct": -3.21,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.29,
-    "change": -2.17,
-    "change_pct": -2.91,
+    "price": 72.07,
+    "change": -2.33,
+    "change_pct": -3.13,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.85,
-    "change": -0.1,
-    "change_pct": -0.1,
+    "price": 103.81,
+    "change": -0.14,
+    "change_pct": -0.13,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6819,
-    "change": -0.0105,
-    "change_pct": -0.16,
+    "price": 6.6824,
+    "change": -0.01,
+    "change_pct": -0.15,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1388,21 +1388,21 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "是否曾被特朗普称为“我的朋友”？泽连斯基苦笑：应该有过，但我不记得了 - ThePaper.cn",
+   "title": "特朗普离开时，白宫罕见收缴“空军一号”上记者手机 - RFI",
    "summary": "",
-   "time": "2026-11-20 14:54",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wZVRJQ0g2WThzVURubnBhM0R3LXlBcHdFbzNYNW9renhNWlpLTE81WEplYW5XNUFPMUVUQkRfSVFxZXJ0bnM0X1JsdVgxcTlMVFBCZzYwUmhlejM4Q0ppTg?oc=5",
+   "time": "2026-11-20 17:24",
+   "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOdkRjR1M5NE53ZV9oTzFYYjR6cUFtU3prX3FNalRLNXBacTBDbEM3S0VJdDg5RGIyS2FfMkp1MFVENFVMXzVhcXN1WGFMUmVfWFRtNnNvdkVqbFVKekY1WFlGbmFyRTBLQkZFOGhjWEpxa2ZTLTJETHNyd3A0X2ZsSmVRMkkxWlhqTUtBdmVLRkhJZzN6LVRsaDlMazV0Y3BFcFEtcnV0a3NPa2JQakxWUzFFQXNlRnp6a1MtaXhLV0xkYThjY2g3TFllZ0ExdGlLVE9NRVgxeTVpTENjY1gxT2lkT2toSFZKckItNnpnTE90bEMwVjR6aWJLT0QyLUlPUkE0Q1JTMUJlVEJ3Ylota3FvZ0ItSE9GSF82QjdDaEVNSlRsekhHRGtMVEI4ZHNoOS1QZFQyNm1jdnJEdU90MThCcXRPb1pPR0hENDdTNzlWMVFxaTgyU0xtMjJlWm9OUzl0RVY3SkNoUQ?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
   },
   {
-   "keyword": "商务部",
-   "label": "商务部",
-   "hint": "中美贸易与出口管制的对口部门",
-   "title": "商务部：2026年1-10月全国吸收外资6069.3亿元人民币",
+   "keyword": "拉加德",
+   "label": "拉加德",
+   "hint": "欧央行行长",
+   "title": "拉加德呼吁加快推进资本市场联盟，警告拖延将加剧欧洲储蓄外流",
    "summary": "",
-   "time": "2026-11-20 09:00:57",
-   "url": "https://news.futunn.com/flash/1005166862/ministry-of-commerce-nationwide-foreign-capital-absorption-reached-rmb-606",
+   "time": "2026-11-20 09:30:04",
+   "url": "https://news.futunn.com/flash/1005171014/lagarde-called-for-accelerating-the-development-of-the-capital-markets",
    "source": "富途",
    "mentions": 1
   }
@@ -1633,53 +1633,60 @@
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 8 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-20 17:24",
+   "message": "深证成指、创业板指、中证500等 9 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-20 17:33",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 17:24",
+   "time": "2026-11-20 17:33",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 17:24",
+   "time": "2026-11-20 17:33",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-20 17:24",
+   "time": "2026-11-20 17:33",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.18%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 17:24",
+   "message": "COMEX白银单日跌4.71%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-20 17:33",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "国家市场监督管理总局对百度（香港）有限公司收购欢聚集团部分业务违法实施经营者集中案作出行政处罚决定。",
-   "summary": "国家市场监督管理总局对百度（香港）有限公司收购欢聚集团部分业务违法实施经营者集中案作出行政处罚决定。",
-   "time": "2026-11-20 17:07",
-   "url": "https://wallstreetcn.com/livenews/3203136",
+   "title": "纳指期货持续走低，现跌约1.6%。美股盘前，美光科技跌超4%，闪迪跌超6%，特斯拉跌超2%。",
+   "summary": "纳指期货持续走低，现跌约1.6%。美股盘前，美光科技跌超4%，闪迪跌超6%，特斯拉跌超2%。",
+   "time": "2026-11-20 17:32",
+   "url": "https://wallstreetcn.com/livenews/3203200",
    "source": "华尔街见闻"
   },
   {
-   "title": "美股光通信板块盘前普跌",
-   "summary": "【美股光通信板块盘前普跌】美股光通信板块盘前普跌，Coherent跌约4%，Credo跌约4%，Lumentum跌约3%，迈威尔科技跌约3%，康宁跌约4%。",
-   "time": "2026-11-20 17:04:06",
-   "url": "https://finance.eastmoney.com/a/202611203936152143.html",
+   "title": "英伟达盘前跌幅扩大至2%",
+   "summary": "英伟达盘前跌幅扩大至2%，台积电跌幅扩大至3.7%。",
+   "time": "2026-11-20 17:28:55",
+   "url": "https://finance.eastmoney.com/a/202611203936172244.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普离开时，白宫罕见收缴“空军一号”上记者手机 - RFI",
+   "summary": "",
+   "time": "2026-11-20 17:24",
+   "url": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxOdkRjR1M5NE53ZV9oTzFYYjR6cUFtU3prX3FNalRLNXBacTBDbEM3S0VJdDg5RGIyS2FfMkp1MFVENFVMXzVhcXN1WGFMUmVfWFRtNnNvdkVqbFVKekY1WFlGbmFyRTBLQkZFOGhjWEpxa2ZTLTJETHNyd3A0X2ZsSmVRMkkxWlhqTUtBdmVLRkhJZzN6LVRsaDlMazV0Y3BFcFEtcnV0a3NPa2JQakxWUzFFQXNlRnp6a1MtaXhLV0xkYThjY2g3TFllZ0ExdGlLVE9NRVgxeTVpTENjY1gxT2lkT2toSFZKckItNnpnTE90bEMwVjR6aWJLT0QyLUlPUkE0Q1JTMUJlVEJ3Ylota3FvZ0ItSE9GSF82QjdDaEVNSlRsekhHRGtMVEI4ZHNoOS1QZFQyNm1jdnJEdU90MThCcXRPb1pPR0hENDdTNzlWMVFxaTgyU0xtMjJlWm9OUzl0RVY3SkNoUQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "国海证券首予中国联通买入评级 前三季度归母净利58亿元 - 观点网",
@@ -1689,24 +1696,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "是否曾被特朗普称为“我的朋友”？泽连斯基苦笑：应该有过，但我不记得了 - ThePaper.cn",
+   "title": "Arm Holdings美股盘前跌超5%",
    "summary": "",
-   "time": "2026-11-20 14:54",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wZVRJQ0g2WThzVURubnBhM0R3LXlBcHdFbzNYNW9renhNWlpLTE81WEplYW5XNUFPMUVUQkRfSVFxZXJ0bnM0X1JsdVgxcTlMVFBCZzYwUmhlejM4Q0ppTg?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "国家市场监督管理总局发布百度（香港）有限公司收购欢聚集团部分业务违法实施经营者集中案行政处罚决定书",
-   "summary": "",
-   "time": "2026-11-20 09:07:09",
-   "url": "https://news.10jqka.com.cn/20261120/c682055062.shtml",
+   "time": "2026-11-20 09:32:54",
+   "url": "https://news.10jqka.com.cn/20261120/c682057398.shtml",
    "source": "同花顺"
   },
   {
-   "title": "荷兰国际：英欧将宣布贸易新协议，英镑不太可能因此大涨",
+   "title": "拉加德呼吁加快推进资本市场联盟，警告拖延将加剧欧洲储蓄外流",
    "summary": "",
-   "time": "2026-11-20 09:03:11",
-   "url": "https://news.futunn.com/flash/1005167451/ing-uk-and-eu-to-announce-new-trade-agreement-sterling",
+   "time": "2026-11-20 09:30:04",
+   "url": "https://news.futunn.com/flash/1005171014/lagarde-called-for-accelerating-the-development-of-the-capital-markets",
    "source": "富途"
   },
   {
@@ -1724,18 +1724,25 @@
    "source": "财新"
   },
   {
-   "title": "泡泡玛特于11月20日回购了价值6870万港元的股份。",
-   "summary": "泡泡玛特于11月20日回购了价值6870万港元的股份。",
-   "time": "2026-11-20 17:03",
-   "url": "https://wallstreetcn.com/livenews/3203135",
+   "title": "欧洲债券涨幅扩大，10年期德国国债收益率下行6个基点至3.34%。",
+   "summary": "欧洲债券涨幅扩大，10年期德国国债收益率下行6个基点至3.34%。",
+   "time": "2026-11-20 17:12",
+   "url": "https://wallstreetcn.com/livenews/3203138",
    "source": "华尔街见闻"
   },
   {
-   "title": "Anthropic美股盘前跌超6%",
-   "summary": "Anthropic美股盘前跌超6%，该股昨日上市首日大涨超17%。",
-   "time": "2026-11-20 17:01:44",
-   "url": "https://finance.eastmoney.com/a/202611203936150885.html",
+   "title": "余承东：享界V8现在用的是L2辅助驾驶 开车不能睡觉",
+   "summary": "【余承东：享界V8现在用的是L2辅助驾驶 开车不能睡觉】11月20日，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发文表示，“今天发布会上，有几句话讲的不准确，要纠正一下。享界V8现在给大家用的是L2辅助驾驶，L3的硬件能力已具备，但还没有开放。大家用辅助驾驶要专心开车、按要求握好方向盘。现在还是L2时代，大家一定要注意安全，开车不能睡觉。”",
+   "time": "2026-11-20 17:25:19",
+   "url": "https://finance.eastmoney.com/a/202611203936171273.html",
    "source": "东财国际"
+  },
+  {
+   "title": "世纪晚宴菜单曝光！特朗普、马斯克吃的啥 - 新浪财经_金融信息服务商",
+   "summary": "",
+   "time": "2026-11-20 17:20",
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWUpQMURkZ0w3YWE1TUJSc1pwRE43RDd2aTJINDRhQjFtOXgwUmxTT1pkMWF3Mk4xdmlJcG1YUEVLdE5keVd1WG9ZNlRhTE9JMDBBRDlHT3BjeXk2Skw3VXVsR2VseFhXelhoV1hoWmxLQlIzWXNOTzhtWjNCVGRXZVBpVmZvMEJfLTN1dFZRZFZ6cDVmSlYzRnNob1Vob0JRV3Q3V3V1cFlOR05nbloxNmcyWlN1Q3lqVW1UaEVIQldULTBIZTctam16a01IUUlVLTc5NkRkOA?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "摩根大通维持腾讯音乐中性评级 料盈利下调周期接近结束 - 观点网",
@@ -1745,24 +1752,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "APEC中国时间｜超出计划的访问，特朗普在深圳的27小时 - ThePaper.cn",
+   "title": "金牛化工：关联方恒质集团中标子公司风电项目工程4497.21万元",
    "summary": "",
-   "time": "2026-11-20 14:42",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aVnlRNW1xc2xiM0pERkNMQ2lnbHBLbDlDelYwZ1htQWxST0hXN05kbjVQYlpVRmNGenBBRk03UzdkZ2doM2lRTmJ3ZW8yOGVJWG1lNjdwZXVRSHpTMl9hMQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "安徽建工：联合体中标34.06亿元新安江航道综合整治提升工程特许经营项目",
-   "summary": "",
-   "time": "2026-11-20 09:06:22",
-   "url": "https://news.10jqka.com.cn/20261120/c682054981.shtml",
+   "time": "2026-11-20 09:32:33",
+   "url": "https://news.10jqka.com.cn/20261120/c682057366.shtml",
    "source": "同花顺"
   },
   {
-   "title": "国家网信办：9-10月新增133款生成式人工智能服务完成备案",
+   "title": "娃哈哈董事长许思敏被曝已正式辞职",
    "summary": "",
-   "time": "2026-11-20 09:02:54",
-   "url": "https://news.futunn.com/flash/1005167422/cyberspace-administration-of-china-133-new-generative-artificial-intelligence-services",
+   "time": "2026-11-20 09:26:24",
+   "url": "https://news.futunn.com/flash/1005170606/wahaha-chairman-xu-simin-reported-to-have-officially-resigned",
    "source": "富途"
   },
   {
@@ -1773,25 +1773,32 @@
    "source": "东财早报"
   },
   {
-   "title": "11月20日，“黑色星期五”再现，早盘指数低开低走，呈现单边下跌趋势，沪指一度跌超3.5%、深证成指、创业板指、科创综指均一度跌超4%",
+   "title": "机构人士表示，市场调整计价悲观因素后，恐慌并不比亢奋更理性",
    "summary": "",
    "time": "",
    "url": "https://database.caixin.com/2026-11-20/102506990.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "伦敦金属交易所(LME)：铝库存减少900吨，铜库存增加4500吨，锌库存减少525吨，锡库存增加15吨，铅库存减少4800吨，镍库存增加66吨。",
-   "summary": "伦敦金属交易所(LME)：铝库存减少900吨，铜库存增加4500吨，锌库存减少525吨，锡库存增加15吨，铅库存减少4800吨，镍库存增加66吨。",
-   "time": "2026-11-20 17:02",
-   "url": "https://wallstreetcn.com/livenews/3203133",
+   "title": "百度（香港）有限公司违法实施经营者集中，市场监管总局对其罚款50万元",
+   "summary": "国家市场监督管理总局对百度（香港）有限公司收购欢聚集团部分业务违法实施经营者集中案作出行政处罚决定。本机关认为，百度香港负有依法申报经营者集中的法律义务，申报后未经批准实施集中，违反修改前的《反垄断法》第二十五条规定，构成违法实施经营者集中。依据修改前的《反垄断法》第二十七条规定，评估认为本项集中不具有排除、限制竞争的效果。根据修改前的《反垄断法》第四十八条、第四十九条的规定，决定对百度香港处以5",
+   "time": "2026-11-20 17:07",
+   "url": "https://wallstreetcn.com/livenews/3203136",
    "source": "华尔街见闻"
   },
   {
-   "title": "海亮股份：拟3亿元至5亿元回购股份用于维护公司价值及股东权益",
-   "summary": "【海亮股份：拟3亿元至5亿元回购股份用于维护公司价值及股东权益】海亮股份(002203.SZ)公告称，公司拟使用自有资金或自筹资金以集中竞价方式回购股份，回购资金总额不低于3亿元且不超过5亿元，回购价格不超过21.20元/股。",
-   "time": "2026-11-20 17:01:24",
-   "url": "https://finance.eastmoney.com/a/202611203936151473.html",
+   "title": "巴克莱下调阿里巴巴目标价",
+   "summary": "【巴克莱下调阿里巴巴目标价】巴克莱将阿里巴巴目标价从200美元下调至155美元。",
+   "time": "2026-11-20 17:22:58",
+   "url": "https://finance.eastmoney.com/a/202611203936170119.html",
    "source": "东财国际"
+  },
+  {
+   "title": "外媒：特朗普在返美飞机上电话“痛骂”，批欧盟等为乌克兰提供700亿欧元，称普京希望和平，应集中精力推动和平，而不是向乌提供更多资金 - 21财经",
+   "summary": "",
+   "time": "2026-11-20 16:48",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdmxUaXpaUU4yUlZPUEN1a0pqaHZiTjNwemFOUlp5Q2kyOURRd0F4dHZGZk1ZQ1AwVXVUUUdmWHJ5clkzeExYWTZyTUx6SUdNYmxPQXpZbGdFMC1sV2tZdUx3NEhCTWpibzBpVjI0M3ZaaGRDRFVRWnZaR1VtR0xnc0ZlY3kxNmdBRHI2NFNHZw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "大摩：维持腾讯控股(00700)“增持”评级目标价480港元_股市直播_市场_中金在线 - 中金在线",
@@ -1801,24 +1808,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "历时14小时！特朗普返回美国，下飞机就发重大预告 - 凤凰网",
+   "title": "Meta美股盘前跌超2%",
    "summary": "",
-   "time": "2026-11-20 14:22",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBSLWNIbUJXeE5pbTdWdzNEeVZyZGN0dXR1WmQtUkRpT1E3WEh5UFFJbWt6Z093cnlDTlJrMWJleXRjWDZrLU9JRUMzN0M?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "蓝特光学：控股股东、实际控制人、董事长兼总经理徐云明提议回购公司股份，回购资金总额不低于3000万元且不超过5000万元",
-   "summary": "",
-   "time": "2026-11-20 09:03:10",
-   "url": "https://news.10jqka.com.cn/20261120/c682054665.shtml",
+   "time": "2026-11-20 09:31:59",
+   "url": "https://news.10jqka.com.cn/20261120/c682057340.shtml",
    "source": "同花顺"
   },
   {
-   "title": "商务部：2026年1-10月全国吸收外资6069.3亿元人民币",
+   "title": "闪迪完成1拆8 股票预计周五开盘按拆股调整价交易",
    "summary": "",
-   "time": "2026-11-20 09:00:57",
-   "url": "https://news.futunn.com/flash/1005166862/ministry-of-commerce-nationwide-foreign-capital-absorption-reached-rmb-606",
+   "time": "2026-11-20 09:21:47",
+   "url": "https://news.futunn.com/flash/1005170087/sandisk-completes-8-for-1-stock-split-shares-expected-to",
    "source": "富途"
   },
   {
@@ -1840,7 +1840,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(19)",
+   "富途": "ok(20)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1851,8 +1851,8 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 6,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 3,
