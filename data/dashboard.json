@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 08:22:13 CST",
- "generated_at_iso": "2026-11-20T08:22:13+08:00",
+ "generated_at": "2026-11-20 08:30:30 CST",
+ "generated_at_iso": "2026-11-20T08:30:30+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1417,28 +1417,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3621.36,
-    "change": -64.14,
-    "change_pct": -1.74,
-    "quote_time": "08:22:14 2026-11-20"
+    "price": 3617.716,
+    "change": -67.784,
+    "change_pct": -1.84,
+    "quote_time": "08:30:34 2026-11-20"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 43.368,
-    "change": -1.513,
-    "change_pct": -3.37,
-    "quote_time": "08:22:08 2026-11-20"
+    "price": 43.397,
+    "change": -1.484,
+    "change_pct": -3.31,
+    "quote_time": "08:29:59 2026-11-20"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.901,
-    "change": 0.461,
-    "change_pct": 0.56,
-    "quote_time": "08:21:01 2026-11-20"
+    "price": 82.848,
+    "change": 0.408,
+    "change_pct": 0.49,
+    "quote_time": "08:30:28 2026-11-20"
    },
    {
     "name": "布伦特原油",
@@ -1455,27 +1455,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 62205.4,
-    "change": -472.4,
-    "change_pct": -0.75,
+    "price": 62102.4,
+    "change": -788.7,
+    "change_pct": -1.25,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1760.9,
-    "change": -9.1,
-    "change_pct": -0.51,
+    "price": 1755.84,
+    "change": -23.32,
+    "change_pct": -1.31,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.23,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 73.07,
+    "change": -0.41,
+    "change_pct": -0.56,
     "source": "okx"
    }
   ],
@@ -1483,24 +1483,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.91,
-    "change": -0.04,
-    "change_pct": -0.04,
+    "price": 103.911,
+    "change": -0.031,
+    "change_pct": -0.03,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6856,
-    "change": -0.0068,
-    "change_pct": -0.1,
+    "price": 6.6844,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1509,9 +1509,9 @@
     "change": 1.55,
     "change_pct": 1.16,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-19",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1523,39 +1523,9 @@
    "color": "#f04a3d",
    "timestamp": "2026-11-20",
    "source": "alternative.me"
-  },
-  "a_share_breadth": {
-   "up": 647,
-   "down": 4594,
-   "flat": 53,
-   "total": 5294,
-   "breadth_pct": 12.2,
-   "score": 0.0,
-   "source": "东财"
-  },
-  "composite": {
-   "score": 17.3,
-   "label": "冰点",
-   "color": "#f04a3d",
-   "basis": "A股广度 60% + 盘面结构 40%",
-   "parts": {
-    "breadth": 0.0,
-    "structure": 43.3
-   }
   }
  },
  "speakers": [
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "与特朗普和习近平的峰会表明，普京与权势人物的友谊也有局限 - 华尔街日报中文网",
-   "summary": "",
-   "time": "2026-11-20 07:56",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU0JpRUVaS0tGU0JLWmIxdjlONDdGRVAtVDZFRjVNVUd6Yml5anMxSjBtRXhTTlJCMFRBbWhKcTF1bktmQTFlVmJMY3NUY2lDQ3BSRGRrVnZjazlraDJJZUZwdUpycEhVb0ZPb2dVTkNjbFJ3SUVaeVVpbVRjbmgxMDU2WU1QQ2U4d2IzRmFHb3c1VktMS1BEMUxlM3BnWXNGZllzUTVGaw?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
-  },
   {
    "keyword": "美联储",
    "label": "美联储",
@@ -1565,7 +1535,7 @@
    "time": "2026-11-19 23:54:45",
    "url": "https://news.futunn.com/flash/1005097778/fed-s-paulson-october-pause-in-rate-hikes-is-merely",
    "source": "富途",
-   "mentions": 2
+   "mentions": 1
   },
   {
    "keyword": "马斯克",
@@ -1846,44 +1816,37 @@
    "level": "danger",
    "asset": "全球股指",
    "message": "道琼斯、标普500、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-20 08:22",
+   "time": "2026-11-20 08:31",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "俄罗斯MOEX",
    "message": "俄罗斯MOEX单日跌2.08%，达20日历史波动率的 2.1 倍（σ=0.99%，突破 2σ 警戒线）",
-   "time": "2026-11-20 08:22",
+   "time": "2026-11-20 08:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   }
  ],
  "news": [
   {
-   "title": "日本经济财政大臣城内实：日本经济正呈现乐见的迹象，工资与物价稳定同步上涨。",
-   "summary": "日本经济财政大臣城内实：日本经济正呈现乐见的迹象，工资与物价稳定同步上涨。",
-   "time": "2026-11-20 08:04",
-   "url": "https://wallstreetcn.com/livenews/3202883",
+   "title": "澳洲联储货币政策委员会委员ry-McKibbin：澳洲联储研究的核心重点是政策权衡。\n\n澳洲联储委员会成员可能在如何应对政策权衡上存在分歧。\n\n政策权衡不容忽视，当前正处于这种局面。",
+   "summary": "澳洲联储货币政策委员会委员ry-McKibbin：澳洲联储研究的核心重点是政策权衡。\n\n澳洲联储委员会成员可能在如何应对政策权衡上存在分歧。\n\n政策权衡不容忽视，当前正处于这种局面。",
+   "time": "2026-11-20 08:29",
+   "url": "https://wallstreetcn.com/livenews/3202896",
    "source": "华尔街见闻"
   },
   {
-   "title": "日韩股市集体低开 韩国KOSPI指数开盘下跌4.08%",
-   "summary": "【日韩股市集体低开 韩国KOSPI指数开盘下跌4.08%】韩国KOSPI指数开盘下跌4.08%，SK海力士跌逾6%，三星电子跌逾4%。日经225指数开盘下跌1.50%报58551.56点。",
-   "time": "2026-11-20 08:01:19",
-   "url": "https://finance.eastmoney.com/a/202611203935660352.html",
+   "title": "三星电子任命存储与移动业务新负责人 联席 CEO 全永铉、卢泰文留任",
+   "summary": "【三星电子任命存储与移动业务新负责人 联席 CEO 全永铉、卢泰文留任】据韩媒《朝鲜日报》今日报道，三星电子发布电子邮件声明，宣布调整核心业务管理架构，在联席 CEO 全永铉和卢泰文的领导下，分别任命存储业务和移动业务负责人。",
+   "time": "2026-11-20 08:28:36",
+   "url": "https://finance.eastmoney.com/a/202611203935702780.html",
    "source": "东财国际"
   },
   {
-   "title": "与特朗普和习近平的峰会表明，普京与权势人物的友谊也有局限 - 华尔街日报中文网",
+   "title": "太平洋：给予安图生物买入评级 - 同花顺",
    "summary": "",
-   "time": "2026-11-20 07:56",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU0JpRUVaS0tGU0JLWmIxdjlONDdGRVAtVDZFRjVNVUd6Yml5anMxSjBtRXhTTlJCMFRBbWhKcTF1bktmQTFlVmJMY3NUY2lDQ3BSRGRrVnZjazlraDJJZUZwdUpycEhVb0ZPb2dVTkNjbFJ3SUVaeVVpbVRjbmgxMDU2WU1QQ2U4d2IzRmFHb3c1VktMS1BEMUxlM3BnWXNGZllzUTVGaw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "太平洋：给予安图生物买入评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-20 07:55",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAzenRjNlFxQzVyY3R6NEozakt5cWpCQVhaQTJuYWtrQmZtNlo0Wm94Q0w1ZXNWV1RwY1ctU0k0azBwNEtDVmtpQ2M0T3dONkpReW5yVVpOT1k0VWpzNFNteXNn?oc=5",
+   "time": "2026-11-20 08:08",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GWC0xd25IR1l5OXMzeGlSYmVHUlFvMDNScVF5WGRRN2N3N292N3pwT0NmcTBWdThSUWdFdnBvcGdlQmhRWkQ4a0dqbndQLTdBUTBSS2RlVTVIbFhKbHdCdzVB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1894,10 +1857,10 @@
    "source": "东财早报"
   },
   {
-   "title": "日经225指数跌幅扩大至2%",
+   "title": "三星电子任命存储和移动业务新负责人，联席CEO人选不变",
    "summary": "",
-   "time": "2026-11-20 00:04:00",
-   "url": "https://news.10jqka.com.cn/20261120/c682022521.shtml",
+   "time": "2026-11-20 00:21:01",
+   "url": "https://news.10jqka.com.cn/20261120/c682024862.shtml",
    "source": "同花顺"
   },
   {
@@ -1915,25 +1878,18 @@
    "source": "财新"
   },
   {
-   "title": "日经225指数跌超2%，MSCI亚太指数跌1.1%。",
-   "summary": "日经225指数跌超2%，MSCI亚太指数跌1.1%。",
-   "time": "2026-11-20 08:04",
-   "url": "https://wallstreetcn.com/livenews/3202882",
+   "title": "美国费城联储主席Paulson：通胀似乎正在影响定价行为。\n\n美联储不应在通胀问题上“玩火”。\n\n长期通胀预期保持稳定，显示美联储具有公信力。\n\n工资增长与2%的通胀水平相符，这是个好迹象。",
+   "summary": "美国费城联储主席Paulson：通胀似乎正在影响定价行为。\n\n美联储不应在通胀问题上“玩火”。\n\n长期通胀预期保持稳定，显示美联储具有公信力。\n\n工资增长与2%的通胀水平相符，这是个好迹象。",
+   "time": "2026-11-20 08:28",
+   "url": "https://wallstreetcn.com/livenews/3202895",
    "source": "华尔街见闻"
   },
   {
-   "title": "苹果被曝开发主动型AI智能体 可替用户编程、控制应用",
-   "summary": "【苹果被曝开发主动型AI智能体 可替用户编程、控制应用】北京时间11月20日，据彭博社报道，苹果公司正在开发自己的自主AI智能体，可代替用户完成任务，寻求进入一个由OpenAI、Anthropic以及Meta等公司已经在布局的快速增长市场。",
-   "time": "2026-11-20 08:00:26",
-   "url": "https://finance.eastmoney.com/a/202611203935659589.html",
+   "title": "比亚迪发布折叠方向盘 10秒钟可边泊车边折叠",
+   "summary": "【比亚迪发布折叠方向盘 10秒钟可边泊车边折叠】11月19日晚，比亚迪发布折叠智舱，核心看点就是方向盘可以折叠收纳，首搭比亚迪旗下方程豹钛9车型。方程豹汽车总经理熊甜波表示，早在2016年，业内就曾提出过折叠方向盘的概念，但一直未量产。得益于线控技术打破传统机械的连接，比亚迪的折叠方向盘能够边泊车边折叠，只需要10秒钟。",
+   "time": "2026-11-20 08:26:00",
+   "url": "https://finance.eastmoney.com/a/202611193935385316.html",
    "source": "东财国际"
-  },
-  {
-   "title": "美国总统特朗普：美国不支持“台独” - 杭州新闻",
-   "summary": "",
-   "time": "2026-11-20 07:50",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1kMS1ONFdKXzNlcUlhRWptblRkc2hoVTREOE5QRFFkcjNSNUdmNW51alJFR0d2Z3lqZ1hWZ1B6ZElwclFMYkhqSjF2Zkg0UmlIdk9FMDZTVDNoQ081bW5iM2c5YTgxVjBBeTRLczdpUTM1dEhVMms0WTJRU2M?oc=5",
-   "source": "谷歌新闻·国际"
   },
   {
    "title": "国金证券：给予国轩高科买入评级_券商研报_数据解析 - 证券之星",
@@ -1950,17 +1906,17 @@
    "source": "东财早报"
   },
   {
-   "title": "日韩股市集体低开",
+   "title": "现货白银涨超1%",
    "summary": "",
-   "time": "2026-11-20 00:01:35",
-   "url": "https://news.10jqka.com.cn/20261120/c682022409.shtml",
+   "time": "2026-11-20 00:15:34",
+   "url": "https://news.10jqka.com.cn/20261120/c682024767.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美联储保尔森：10月加息暂停只是调整节奏",
+   "title": "中信证券：房地产相关权益资产价值可能在2027年见底向上",
    "summary": "",
-   "time": "2026-11-19 23:54:45",
-   "url": "https://news.futunn.com/flash/1005097778/fed-s-paulson-october-pause-in-rate-hikes-is-merely",
+   "time": "2026-11-19 23:55:10",
+   "url": "https://news.futunn.com/flash/1005097794/citic-securities-the-value-of-equity-assets-related-to-real",
    "source": "富途"
   },
   {
@@ -1971,31 +1927,24 @@
    "source": "财新"
   },
   {
-   "title": "美国费城联储主席Paulson：我们还需要进一步收紧政策。\n\n以审慎的步伐加息能给经济留出调整时间。",
-   "summary": "美国费城联储主席Paulson：我们还需要进一步收紧政策。\n\n以审慎的步伐加息能给经济留出调整时间。",
-   "time": "2026-11-20 08:03",
-   "url": "https://wallstreetcn.com/livenews/3202881",
+   "title": "日本东证指数下跌2%。",
+   "summary": "日本东证指数下跌2%。",
+   "time": "2026-11-20 08:27",
+   "url": "https://wallstreetcn.com/livenews/3202894",
    "source": "华尔街见闻"
   },
   {
-   "title": "中信证券：2027年黄金仍看好 但预计幅度弱于2025年",
-   "summary": "【中信证券：2027年黄金仍看好 但预计幅度弱于2025年】中信证券研报称，2027年黄金仍看好，但预计幅度弱于2025年，启动要等两个条件反转。今年下跌是基本面与资金面双重不利：美元利率预期由降息转加息压住定价锚，资金被美股AI行情和原油供给逻辑吸走。明年反转也靠这两条线，美联储宽松与否决定基本面，美股和原油的行情能否走完决定资金回流。",
-   "time": "2026-11-20 07:59:00",
-   "url": "https://finance.eastmoney.com/a/202611203935659256.html",
+   "title": "AI“存储荒”还要加剧？美光总裁：2027年供需形势将比今年更紧张！",
+   "summary": "【AI“存储荒”还要加剧？美光总裁：2027年供需形势将比今年更紧张！】人工智能（AI）需求持续扩张，但存储芯片供给跟不上增长节奏。美光科技高管近期接连表示，供给短缺短期内难以缓解，2027年、2028年的供需失衡局面或将比2026年更为严峻。",
+   "time": "2026-11-20 08:25:25",
+   "url": "https://finance.eastmoney.com/a/202611203935699328.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：不会在新年前“仓促”决定对伊朗的行动 - 凤凰网",
+   "title": "开源晨会 - 证券之星",
    "summary": "",
-   "time": "2026-11-20 07:48",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE82TTlUWVZxNjQ4YUJseXJIWG5LaVU4dE92T1F6eTNCTDFLUzZmNUFVeXVyYXNRNEVMWklyczhkLUtEd2VXa2dPYWx3NjM?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "蒙特利尔银行上调杜克能源目标价 - 东方财富",
-   "summary": "",
-   "time": "2026-11-20 05:02",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OR2Mtbzh2dzV0eFUyQkpOei1VUkVUN3lnYUdEb1d0R0hfNjB5ZlowUDIwRDlaNXVEdmVYcGEwTmpQS1dYZmhISkh4bnNuR2ZsR2E2cm9WbElPN1RyYTM5OHlXUQ?oc=5",
+   "time": "2026-11-20 07:43",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81M2FONmM1QjVTY201NDJ4cF9Tb2I2ZDNoU3lFaEZFT2FzY29QQjBELWFHU29mTWVsdlhuczU2ZExFd1BFLS03anVrQUlLQjQ3NkpEVnZ2ZDZ5enVXUEp6N05n?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -2006,17 +1955,17 @@
    "source": "东财早报"
   },
   {
-   "title": "维立志博－Ｂ：董事长康小强拟增持公司H股，总代价不超过2000万港元",
+   "title": "日本铠侠控股公司股价下跌9.7%",
    "summary": "",
-   "time": "2026-11-20 00:00:09",
-   "url": "https://news.10jqka.com.cn/20261120/c682022316.shtml",
+   "time": "2026-11-20 00:14:44",
+   "url": "https://news.10jqka.com.cn/20261120/c682024750.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美联储保尔森：有效沟通重在相互理解，而非提供政策指引",
+   "title": "美联储保尔森：10月加息暂停只是调整节奏",
    "summary": "",
-   "time": "2026-11-19 23:48:04",
-   "url": "https://news.futunn.com/flash/1005097267/fed-s-paulson-effective-communication-prioritizes-mutual-understanding-over-policy",
+   "time": "2026-11-19 23:54:45",
+   "url": "https://news.futunn.com/flash/1005097778/fed-s-paulson-october-pause-in-rate-hikes-is-merely",
    "source": "富途"
   },
   {
@@ -2025,29 +1974,49 @@
    "time": "",
    "url": "https://database.caixin.com/2026-11-19/102506474.html?cxapp_link=true",
    "source": "财新"
+  },
+  {
+   "title": "美国费城联储主席Paulson：货币供应量指标对美联储官员的参考价值有限。",
+   "summary": "美国费城联储主席Paulson：货币供应量指标对美联储官员的参考价值有限。",
+   "time": "2026-11-20 08:17",
+   "url": "https://wallstreetcn.com/livenews/3202892",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "多肽产品近年来市场需求明显扩大 相关上市公司有望迎来订单释放",
+   "summary": "【多肽产品近年来市场需求明显扩大 相关上市公司有望迎来订单释放】据报道，上月底，美国卫生与公共服务部（HHS）宣布，放宽对六种缺乏充分验证的肽类物质的管控，即不再对销售这些药物的药房采取执法行动。在此之后，远程医疗服务提供商和美容企业纷纷开始布局这些尚未获得正式监管批准的注射类产品，推动这些颇具争议的物质进一步进入美国主流市场。",
+   "time": "2026-11-20 08:24:00",
+   "url": "https://finance.eastmoney.com/a/202611203935696388.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "蒙特利尔银行上调杜克能源目标价 - 东方财富",
+   "summary": "",
+   "time": "2026-11-20 05:02",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OR2Mtbzh2dzV0eFUyQkpOei1VUkVUN3lnYUdEb1d0R0hfNjB5ZlowUDIwRDlaNXVEdmVYcGEwTmpQS1dYZmhISkh4bnNuR2ZsR2E2cm9WbElPN1RyYTM5OHlXUQ?oc=5",
+   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(21)",
+   "富途": "ok(14)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "ok(30)",
+   "谷歌新闻·国际": "FAIL:HTTPError",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "东财国际": 7,
-   "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 6,
+   "华尔街见闻": 8,
+   "东财国际": 8,
+   "谷歌新闻·研报": 8,
    "东财早报": 3,
-   "同花顺": 6,
-   "富途": 6,
-   "财新": 6
+   "同花顺": 7,
+   "富途": 7,
+   "财新": 7
   }
  },
  "wuxing": {
