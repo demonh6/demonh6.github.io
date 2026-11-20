@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 08:39:11 CST",
- "generated_at_iso": "2026-11-20T08:39:11+08:00",
+ "generated_at": "2026-11-20 08:48:07 CST",
+ "generated_at_iso": "2026-11-20T08:48:07+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1417,28 +1417,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3600.8,
-    "change": -84.7,
-    "change_pct": -2.3,
-    "quote_time": "08:39:14 2026-11-20"
+    "price": 3592.728,
+    "change": -92.772,
+    "change_pct": -2.52,
+    "quote_time": "08:48:07 2026-11-20"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.987,
-    "change": -1.894,
-    "change_pct": -4.22,
-    "quote_time": "08:38:59 2026-11-20"
+    "price": 42.835,
+    "change": -2.046,
+    "change_pct": -4.56,
+    "quote_time": "08:47:48 2026-11-20"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.805,
-    "change": 0.365,
-    "change_pct": 0.44,
-    "quote_time": "08:39:10 2026-11-20"
+    "price": 82.777,
+    "change": 0.337,
+    "change_pct": 0.41,
+    "quote_time": "08:47:37 2026-11-20"
    },
    {
     "name": "布伦特原油",
@@ -1455,8 +1455,8 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 62038.6,
-    "change": -1094.7,
+    "price": 62035.0,
+    "change": -1093.5,
     "change_pct": -1.73,
     "source": "okx"
    },
@@ -1464,18 +1464,18 @@
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1755.21,
-    "change": -27.78,
-    "change_pct": -1.56,
+    "price": 1752.08,
+    "change": -29.88,
+    "change_pct": -1.68,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.87,
-    "change": -0.79,
-    "change_pct": -1.07,
+    "price": 72.81,
+    "change": -0.82,
+    "change_pct": -1.11,
     "source": "okx"
    }
   ],
@@ -1483,24 +1483,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.88,
-    "change": -0.07,
-    "change_pct": -0.07,
+    "price": 103.884,
+    "change": -0.058,
+    "change_pct": -0.06,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6864,
-    "change": -0.006,
-    "change_pct": -0.09,
+    "price": 6.6862,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1509,9 +1509,9 @@
     "change": 1.55,
     "change_pct": 1.16,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-19",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1846,21 +1846,21 @@
    "level": "danger",
    "asset": "全球股指",
    "message": "道琼斯、标普500、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-20 08:40",
+   "time": "2026-11-20 08:48",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "俄罗斯MOEX",
    "message": "俄罗斯MOEX单日跌2.08%，达20日历史波动率的 2.1 倍（σ=0.99%，突破 2σ 警戒线）",
-   "time": "2026-11-20 08:40",
+   "time": "2026-11-20 08:48",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.22%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 08:40",
+   "message": "COMEX白银单日跌4.56%，达20日历史波动率的 2.5 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-20 08:48",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
@@ -2537,6 +2537,8 @@
   ],
   "backfill_done": true
  },
- "errors": {},
+ "errors": {
+  "盘面结构": "RuntimeError: 涨停/跌停池均返回空（非交易日或接口变更）"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
