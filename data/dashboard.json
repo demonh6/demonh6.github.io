@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 08:30:30 CST",
- "generated_at_iso": "2026-11-20T08:30:30+08:00",
+ "generated_at": "2026-11-20 08:39:11 CST",
+ "generated_at_iso": "2026-11-20T08:39:11+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1417,28 +1417,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3617.716,
-    "change": -67.784,
-    "change_pct": -1.84,
-    "quote_time": "08:30:34 2026-11-20"
+    "price": 3600.8,
+    "change": -84.7,
+    "change_pct": -2.3,
+    "quote_time": "08:39:14 2026-11-20"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 43.397,
-    "change": -1.484,
-    "change_pct": -3.31,
-    "quote_time": "08:29:59 2026-11-20"
+    "price": 42.987,
+    "change": -1.894,
+    "change_pct": -4.22,
+    "quote_time": "08:38:59 2026-11-20"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.848,
-    "change": 0.408,
-    "change_pct": 0.49,
-    "quote_time": "08:30:28 2026-11-20"
+    "price": 82.805,
+    "change": 0.365,
+    "change_pct": 0.44,
+    "quote_time": "08:39:10 2026-11-20"
    },
    {
     "name": "布伦特原油",
@@ -1455,27 +1455,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 62102.4,
-    "change": -788.7,
-    "change_pct": -1.25,
+    "price": 62038.6,
+    "change": -1094.7,
+    "change_pct": -1.73,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1755.84,
-    "change": -23.32,
-    "change_pct": -1.31,
+    "price": 1755.21,
+    "change": -27.78,
+    "change_pct": -1.56,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.07,
-    "change": -0.41,
-    "change_pct": -0.56,
+    "price": 72.87,
+    "change": -0.79,
+    "change_pct": -1.07,
     "source": "okx"
    }
   ],
@@ -1483,24 +1483,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.911,
-    "change": -0.031,
-    "change_pct": -0.03,
+    "price": 103.88,
+    "change": -0.07,
+    "change_pct": -0.07,
     "dec": 2,
-    "date": "2026-11-20",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6844,
-    "change": null,
-    "change_pct": null,
+    "price": 6.6864,
+    "change": -0.006,
+    "change_pct": -0.09,
     "dec": 4,
-    "date": "2026-11-20",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1509,9 +1509,9 @@
     "change": 1.55,
     "change_pct": 1.16,
     "dec": 2,
-    "date": "2026-11-19",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1523,6 +1523,25 @@
    "color": "#f04a3d",
    "timestamp": "2026-11-20",
    "source": "alternative.me"
+  },
+  "a_share_breadth": {
+   "up": 647,
+   "down": 4594,
+   "flat": 53,
+   "total": 5294,
+   "breadth_pct": 12.2,
+   "score": 0.0,
+   "source": "东财"
+  },
+  "composite": {
+   "score": 17.3,
+   "label": "冰点",
+   "color": "#f04a3d",
+   "basis": "A股广度 60% + 盘面结构 40%",
+   "parts": {
+    "breadth": 0.0,
+    "structure": 43.3
+   }
   }
  },
  "speakers": [
@@ -1530,12 +1549,23 @@
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储保尔森：10月加息暂停只是调整节奏",
-   "summary": "",
-   "time": "2026-11-19 23:54:45",
-   "url": "https://news.futunn.com/flash/1005097778/fed-s-paulson-october-pause-in-rate-hikes-is-merely",
-   "source": "富途",
+   "title": "美联储主席沃什：AI可能带来繁荣 但也需警惕风险",
+   "summary": "【美联储主席沃什：AI可能带来繁荣 但也需警惕风险】美联储主席凯文·沃什表示，美联储工作人员已开始推演AI加速普及可能对美国经济产生的影响，包括三种不同情景。根据他的描述，一种情景是AI推动经济增长和生产率提升，带来雇主和劳动者共享收益的繁荣。第二种情景是经济活动增加带来的好处被大规模失业所抵消。第三种情景是AI技术最终未能达到预期，在大量资本投入和股市上涨后，投资回报下降、股票估值回落，进而导致经济放缓及失业率上升，经济最终复苏但未能获得生产率提升。",
+   "time": "2026-11-20 08:35:07",
+   "url": "https://finance.eastmoney.com/a/202611193935369886.html",
+   "source": "东财国际",
    "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普谈中俄美元首会晤：满分10分，我打12分 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-20 07:46",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE10cUZPMHYtc1J0ckVFUE52WFBQY3ptdUxfU3FQUDhfOXRCTG9hQUhQZC00TlNkd3laOUFuV3plUDFlMW05NEYwUHBxZV8?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
   },
   {
    "keyword": "马斯克",
@@ -1816,38 +1846,52 @@
    "level": "danger",
    "asset": "全球股指",
    "message": "道琼斯、标普500、台湾加权等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-20 08:31",
+   "time": "2026-11-20 08:40",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "俄罗斯MOEX",
    "message": "俄罗斯MOEX单日跌2.08%，达20日历史波动率的 2.1 倍（σ=0.99%，突破 2σ 警戒线）",
-   "time": "2026-11-20 08:31",
+   "time": "2026-11-20 08:40",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "COMEX白银",
+   "message": "COMEX白银单日跌4.22%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-20 08:40",
+   "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "澳洲联储货币政策委员会委员ry-McKibbin：澳洲联储研究的核心重点是政策权衡。\n\n澳洲联储委员会成员可能在如何应对政策权衡上存在分歧。\n\n政策权衡不容忽视，当前正处于这种局面。",
-   "summary": "澳洲联储货币政策委员会委员ry-McKibbin：澳洲联储研究的核心重点是政策权衡。\n\n澳洲联储委员会成员可能在如何应对政策权衡上存在分歧。\n\n政策权衡不容忽视，当前正处于这种局面。",
-   "time": "2026-11-20 08:29",
-   "url": "https://wallstreetcn.com/livenews/3202896",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "三星电子任命存储与移动业务新负责人 联席 CEO 全永铉、卢泰文留任",
-   "summary": "【三星电子任命存储与移动业务新负责人 联席 CEO 全永铉、卢泰文留任】据韩媒《朝鲜日报》今日报道，三星电子发布电子邮件声明，宣布调整核心业务管理架构，在联席 CEO 全永铉和卢泰文的领导下，分别任命存储业务和移动业务负责人。",
-   "time": "2026-11-20 08:28:36",
-   "url": "https://finance.eastmoney.com/a/202611203935702780.html",
+   "title": "婚假“加时”之后：一场关于时间与消费的新联动",
+   "summary": "【婚假“加时”之后：一场关于时间与消费的新联动】婚假延长正在多地落地，并开始与消费场景衔接。据不完全统计，全国已有29个省区市完成婚假延长的地方立法或政策修订，山西、甘肃以30天居首，四川、河南、黑龙江在叠加婚检奖励后可达25至28天。与天数延长同步推进的，是一批更实惠的便民与促消费举措：结婚消费券、喜宴立减、票根折扣、景区免票，以及将婚假与带薪年休假合并使用的“组合假期”安排。",
+   "time": "2026-11-20 08:37:03",
+   "url": "https://finance.eastmoney.com/a/202611193935371627.html",
    "source": "东财国际"
   },
   {
-   "title": "太平洋：给予安图生物买入评级 - 同花顺",
+   "title": "日经225指数跌幅扩大至4%，芯片相关股票跌幅扩大。",
+   "summary": "日经225指数跌幅扩大至4%，芯片相关股票跌幅扩大。",
+   "time": "2026-11-20 08:36",
+   "url": "https://wallstreetcn.com/livenews/3202898",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "券商晨会观点速递 - 第一财经",
    "summary": "",
-   "time": "2026-11-20 08:08",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GWC0xd25IR1l5OXMzeGlSYmVHUlFvMDNScVF5WGRRN2N3N292N3pwT0NmcTBWdThSUWdFdnBvcGdlQmhRWkQ4a0dqbndQLTdBUTBSS2RlVTVIbFhKbHdCdzVB?oc=5",
+   "time": "2026-11-20 08:20",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YSUIwNlFFQjl6blNBeFh3RW9oWmoyRExWVGNwYldlejVmSlZhckJ4c3Rud2hHWHJINUlodHBSSmllT3lZcUFiRERwNzlQY3paT0Fj?oc=5",
    "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "“俄罗斯同意欧洲参与多边谈判”，特朗普女婿库什纳透露俄乌谈判进展 - 上观新闻",
+   "summary": "",
+   "time": "2026-11-20 08:12",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KNDFIdnVFYk5nb1NyVVQzZWtQekJ3Mm9TRE9oSVQ2Y3lrcnJta0p3UE9Ubkd2WXJRbzhiOFNsam1oTy1UNnk5NmFiUTR4alR2VWtGem53RlV3Zw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "东方财富财经早餐 11月20日周五",
@@ -1857,10 +1901,10 @@
    "source": "东财早报"
   },
   {
-   "title": "三星电子任命存储和移动业务新负责人，联席CEO人选不变",
+   "title": "澳大利亚央行货币政策委员会委员FRY-MCKIBBIN：澳洲联储研究的核心重点是政策权衡",
    "summary": "",
-   "time": "2026-11-20 00:21:01",
-   "url": "https://news.10jqka.com.cn/20261120/c682024862.shtml",
+   "time": "2026-11-20 00:32:13",
+   "url": "https://news.10jqka.com.cn/20261120/c682025111.shtml",
    "source": "同花顺"
   },
   {
@@ -1878,6 +1922,69 @@
    "source": "财新"
   },
   {
+   "title": "日经225指数跌幅扩大至4%",
+   "summary": "日经225指数跌幅扩大至4%，现报57059.12点。",
+   "time": "2026-11-20 08:37:03",
+   "url": "https://finance.eastmoney.com/a/202611203935704755.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "澳洲联储货币政策委员会委员ry-McKibbin：澳洲联储研究的核心重点是政策权衡。\n\n澳洲联储委员会成员可能在如何应对政策权衡上存在分歧。\n\n政策权衡不容忽视，当前正处于这种局面。",
+   "summary": "澳洲联储货币政策委员会委员ry-McKibbin：澳洲联储研究的核心重点是政策权衡。\n\n澳洲联储委员会成员可能在如何应对政策权衡上存在分歧。\n\n政策权衡不容忽视，当前正处于这种局面。",
+   "time": "2026-11-20 08:29",
+   "url": "https://wallstreetcn.com/livenews/3202896",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "太平洋：给予安图生物买入评级 - 同花顺",
+   "summary": "",
+   "time": "2026-11-20 08:08",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5GWC0xd25IR1l5OXMzeGlSYmVHUlFvMDNScVF5WGRRN2N3N292N3pwT0NmcTBWdThSUWdFdnBvcGdlQmhRWkQ4a0dqbndQLTdBUTBSS2RlVTVIbFhKbHdCdzVB?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普谈中俄美元首会晤：满分10分，我打12分 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-20 07:46",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE10cUZPMHYtc1J0ckVFUE52WFBQY3ptdUxfU3FQUDhfOXRCTG9hQUhQZC00TlNkd3laOUFuV3plUDFlMW05NEYwUHBxZV8?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "东方财富财经早餐 11月19日周四",
+   "summary": "【东方财富财经早餐 11月19日周四】1、英伟达临时CEO称将不再向中国出货H200芯片，外交部回应。2、中际旭创要开启第二波回购：回购金额20亿元—40亿元。3、美联储理事沃勒：若不释放1月加息的信号，应在12月加息50个基点。",
+   "time": "2026-11-19 06:00:07",
+   "url": "http://finance.eastmoney.com/a/202611183934326351.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "三星电子任命存储和移动业务新负责人，联席CEO人选不变",
+   "summary": "",
+   "time": "2026-11-20 00:21:01",
+   "url": "https://news.10jqka.com.cn/20261120/c682024862.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "中信证券：2027年黄金仍看好 但预计幅度弱于2025年",
+   "summary": "",
+   "time": "2026-11-19 23:59:51",
+   "url": "https://news.futunn.com/flash/1005097899/citic-securities-gold-remains-favored-for-2027-but-expected-gains",
+   "source": "富途"
+  },
+  {
+   "title": "马斯克强调星链对乌克兰通信的重要性，反对利用其通信服务支持进攻性无人机打击",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-19/102506488.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "美联储主席沃什：AI可能带来繁荣 但也需警惕风险",
+   "summary": "【美联储主席沃什：AI可能带来繁荣 但也需警惕风险】美联储主席凯文·沃什表示，美联储工作人员已开始推演AI加速普及可能对美国经济产生的影响，包括三种不同情景。根据他的描述，一种情景是AI推动经济增长和生产率提升，带来雇主和劳动者共享收益的繁荣。第二种情景是经济活动增加带来的好处被大规模失业所抵消。第三种情景是AI技术最终未能达到预期，在大量资本投入和股市上涨后，投资回报下降、股票估值回落，进而导致经济放缓及失业率上升，经济最终复苏但未能获得生产率提升。",
+   "time": "2026-11-20 08:35:07",
+   "url": "https://finance.eastmoney.com/a/202611193935369886.html",
+   "source": "东财国际"
+  },
+  {
    "title": "美国费城联储主席Paulson：通胀似乎正在影响定价行为。\n\n美联储不应在通胀问题上“玩火”。\n\n长期通胀预期保持稳定，显示美联储具有公信力。\n\n工资增长与2%的通胀水平相符，这是个好迹象。",
    "summary": "美国费城联储主席Paulson：通胀似乎正在影响定价行为。\n\n美联储不应在通胀问题上“玩火”。\n\n长期通胀预期保持稳定，显示美联储具有公信力。\n\n工资增长与2%的通胀水平相符，这是个好迹象。",
    "time": "2026-11-20 08:28",
@@ -1885,24 +1992,24 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "比亚迪发布折叠方向盘 10秒钟可边泊车边折叠",
-   "summary": "【比亚迪发布折叠方向盘 10秒钟可边泊车边折叠】11月19日晚，比亚迪发布折叠智舱，核心看点就是方向盘可以折叠收纳，首搭比亚迪旗下方程豹钛9车型。方程豹汽车总经理熊甜波表示，早在2016年，业内就曾提出过折叠方向盘的概念，但一直未量产。得益于线控技术打破传统机械的连接，比亚迪的折叠方向盘能够边泊车边折叠，只需要10秒钟。",
-   "time": "2026-11-20 08:26:00",
-   "url": "https://finance.eastmoney.com/a/202611193935385316.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "国金证券：给予国轩高科买入评级_券商研报_数据解析 - 证券之星",
+   "title": "大华继显：下调腾讯控股(00700)目标价至500港元维持“买入”评级_市场分析 - 中金在线",
    "summary": "",
-   "time": "2026-11-20 07:55",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBfcWVVZGNGQ0cxT3FCVUZsRmRyd0hwbHpMQUJERWU0Z2Flb18xLW1qUnhhb1QtSC1mQWhfRjQ5Z0VZZEV2OFN0eC1tZUFfTGFUZVA4T2JPeFpMaGt6bHZQTWxB?oc=5",
+   "time": "2026-11-20 08:08",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yaFNYM2NiOWVtX25CanlTOEdIWGVocWwyLXRRMWtCbVFCMU90NFdETEVSVEZ4VGZUQV9JTGRvN2JkR2V1cFREdlFkSHctQXVwNjJPRzI4MzRkX0t2VktneDBUVENoUk5VZ0tLdkktRQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "东方财富财经早餐 11月19日周四",
-   "summary": "【东方财富财经早餐 11月19日周四】1、英伟达临时CEO称将不再向中国出货H200芯片，外交部回应。2、中际旭创要开启第二波回购：回购金额20亿元—40亿元。3、美联储理事沃勒：若不释放1月加息的信号，应在12月加息50个基点。",
-   "time": "2026-11-19 06:00:07",
-   "url": "http://finance.eastmoney.com/a/202611183934326351.html",
+   "title": "特朗普习近平深圳峰会 台湾议题未见新说法 - 美国之音",
+   "summary": "",
+   "time": "2026-11-20 07:41",
+   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQVl2TDhVdW1TaEVfSnNjdWY2aV9jeXpISURXYldRMFp4cEJSZzBVWVJkTXAxa2hwSmVXNEVqTC1rQl8zV3BmZGw3N09NYTJMd3ZPRWpNUUZGN3hRMHlPd2U0RGRhY0tnWDF0YTJfRV9KbGpCNmpNSjRLTHZnTmFudGQ0aUlES0hkak5PaG5mUTdUN0JVUTRqb216R3o1MVV4NlUzUElZQWNoTThfUXBieTM3RzdZd3ZzYTROZEU1TTNsdmF1MktPeTVZSjRNT3VWQVRoSnBqbjJtSG_SAd4BQVVfeXFMT2xEd0l2RXFDSTRoY05fYjdvZFlMZkE3eUFFenc2WTJxNzhRb3hOQmdUaF9iSC1TeWgzSzNTZ3NGcUQ4NmNobDllblJfb1ctVms5bmVYM1plNkZkXzBtMkRVTDdQTkdldnpoWkdQZ214M214UkZWZmVnT05kUC15aExBQ2pTQnVtakdNWVFveEtFd1E3UFNXUnZ1UHRCTlhBNlRqOV92d3RvMDVRQk1FX0pHcWg1VUVjdWZWQV8zSlRudmhHZzN2RXYtTjBUNnFuQTc4UG1lY2JoWDRQX2N3?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "东方财富财经早餐 11月18日周三",
+   "summary": "【东方财富财经早餐 11月18日周三】1、美商务部发布限制远程获取先进半导体相关措施，中方回应。2、英伟达预计第四季度营收1261亿至1339亿美元，高于市场预期。3、18只主动ETF下周一上市！上市前股票仓位需不低于80%。",
+   "time": "2026-11-18 06:00:20",
+   "url": "http://finance.eastmoney.com/a/202611173933231630.html",
    "source": "东财早报"
   },
   {
@@ -1920,81 +2027,11 @@
    "source": "富途"
   },
   {
-   "title": "马斯克强调星链对乌克兰通信的重要性，反对利用其通信服务支持进攻性无人机打击",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-19/102506488.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "日本东证指数下跌2%。",
-   "summary": "日本东证指数下跌2%。",
-   "time": "2026-11-20 08:27",
-   "url": "https://wallstreetcn.com/livenews/3202894",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "AI“存储荒”还要加剧？美光总裁：2027年供需形势将比今年更紧张！",
-   "summary": "【AI“存储荒”还要加剧？美光总裁：2027年供需形势将比今年更紧张！】人工智能（AI）需求持续扩张，但存储芯片供给跟不上增长节奏。美光科技高管近期接连表示，供给短缺短期内难以缓解，2027年、2028年的供需失衡局面或将比2026年更为严峻。",
-   "time": "2026-11-20 08:25:25",
-   "url": "https://finance.eastmoney.com/a/202611203935699328.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "开源晨会 - 证券之星",
-   "summary": "",
-   "time": "2026-11-20 07:43",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE81M2FONmM1QjVTY201NDJ4cF9Tb2I2ZDNoU3lFaEZFT2FzY29QQjBELWFHU29mTWVsdlhuczU2ZExFd1BFLS03anVrQUlLQjQ3NkpEVnZ2ZDZ5enVXUEp6N05n?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "东方财富财经早餐 11月18日周三",
-   "summary": "【东方财富财经早餐 11月18日周三】1、美商务部发布限制远程获取先进半导体相关措施，中方回应。2、英伟达预计第四季度营收1261亿至1339亿美元，高于市场预期。3、18只主动ETF下周一上市！上市前股票仓位需不低于80%。",
-   "time": "2026-11-18 06:00:20",
-   "url": "http://finance.eastmoney.com/a/202611173933231630.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "日本铠侠控股公司股价下跌9.7%",
-   "summary": "",
-   "time": "2026-11-20 00:14:44",
-   "url": "https://news.10jqka.com.cn/20261120/c682024750.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "美联储保尔森：10月加息暂停只是调整节奏",
-   "summary": "",
-   "time": "2026-11-19 23:54:45",
-   "url": "https://news.futunn.com/flash/1005097778/fed-s-paulson-october-pause-in-rate-hikes-is-merely",
-   "source": "富途"
-  },
-  {
    "title": "马斯克称巨额投入未取得预期效果，认为金钱对美国选举结果的影响有限",
    "summary": "",
    "time": "",
    "url": "https://database.caixin.com/2026-11-19/102506474.html?cxapp_link=true",
    "source": "财新"
-  },
-  {
-   "title": "美国费城联储主席Paulson：货币供应量指标对美联储官员的参考价值有限。",
-   "summary": "美国费城联储主席Paulson：货币供应量指标对美联储官员的参考价值有限。",
-   "time": "2026-11-20 08:17",
-   "url": "https://wallstreetcn.com/livenews/3202892",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "多肽产品近年来市场需求明显扩大 相关上市公司有望迎来订单释放",
-   "summary": "【多肽产品近年来市场需求明显扩大 相关上市公司有望迎来订单释放】据报道，上月底，美国卫生与公共服务部（HHS）宣布，放宽对六种缺乏充分验证的肽类物质的管控，即不再对销售这些药物的药房采取执法行动。在此之后，远程医疗服务提供商和美容企业纷纷开始布局这些尚未获得正式监管批准的注射类产品，推动这些颇具争议的物质进一步进入美国主流市场。",
-   "time": "2026-11-20 08:24:00",
-   "url": "https://finance.eastmoney.com/a/202611203935696388.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "蒙特利尔银行上调杜克能源目标价 - 东方财富",
-   "summary": "",
-   "time": "2026-11-20 05:02",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OR2Mtbzh2dzV0eFUyQkpOei1VUkVUN3lnYUdEb1d0R0hfNjB5ZlowUDIwRDlaNXVEdmVYcGEwTmpQS1dYZmhISkh4bnNuR2ZsR2E2cm9WbElPN1RyYTM5OHlXUQ?oc=5",
-   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
@@ -2006,17 +2043,18 @@
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "FAIL:HTTPError",
+   "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 8,
-   "东财国际": 8,
-   "谷歌新闻·研报": 8,
+   "东财国际": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 6,
    "东财早报": 3,
-   "同花顺": 7,
-   "富途": 7,
-   "财新": 7
+   "同花顺": 6,
+   "富途": 6,
+   "财新": 6
   }
  },
  "wuxing": {
