@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-20 20:22:20 CST",
- "generated_at_iso": "2026-11-20T20:22:20+08:00",
+ "generated_at": "2026-11-20 20:30:36 CST",
+ "generated_at_iso": "2026-11-20T20:30:36+08:00",
  "date": "2026-11-20",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10384.36,
-    "change": -68.32,
-    "change_pct": -0.65,
+    "price": 10364.61,
+    "change": -88.07,
+    "change_pct": -0.84,
     "hist": [
      10552.05,
      10656.28,
@@ -1095,8 +1095,8 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 7969.82,
-    "change": -110.92,
+    "price": 7970.35,
+    "change": -110.39,
     "change_pct": -1.37,
     "hist": [
      7803.33,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 5988.49,
-    "change": -125.37,
-    "change_pct": -2.05,
+    "price": 5988.16,
+    "change": -125.7,
+    "change_pct": -2.06,
     "hist": [
      6173.38,
      6201.22,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3583.721,
-    "change": -101.779,
-    "change_pct": -2.76,
-    "quote_time": "20:22:23 2026-11-20"
+    "price": 3569.546,
+    "change": -115.954,
+    "change_pct": -3.15,
+    "quote_time": "20:30:36 2026-11-20"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.817,
-    "change": -2.064,
-    "change_pct": -4.6,
-    "quote_time": "20:21:54 2026-11-20"
+    "price": 42.755,
+    "change": -2.126,
+    "change_pct": -4.74,
+    "quote_time": "20:30:32 2026-11-20"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.342,
-    "change": -0.098,
-    "change_pct": -0.12,
-    "quote_time": "20:22:19 2026-11-20"
+    "price": 82.314,
+    "change": -0.126,
+    "change_pct": -0.15,
+    "quote_time": "20:30:39 2026-11-20"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.751,
-    "change": -0.229,
-    "change_pct": -0.25,
-    "quote_time": "20:22:22 2026-11-20"
+    "price": 91.786,
+    "change": -0.194,
+    "change_pct": -0.21,
+    "quote_time": "20:30:36 2026-11-20"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61570.0,
-    "change": -2159.6,
-    "change_pct": -3.39,
+    "price": 61543.3,
+    "change": -2222.9,
+    "change_pct": -3.49,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1739.64,
-    "change": -63.48,
-    "change_pct": -3.52,
+    "price": 1738.95,
+    "change": -57.97,
+    "change_pct": -3.23,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.21,
-    "change": -3.45,
-    "change_pct": -4.62,
+    "price": 71.11,
+    "change": -3.2,
+    "change_pct": -4.31,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.87,
-    "change": -0.08,
-    "change_pct": -0.08,
+    "price": 103.84,
+    "change": -0.11,
+    "change_pct": -0.11,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6815,
-    "change": -0.0109,
-    "change_pct": -0.16,
+    "price": 6.6802,
+    "change": -0.0122,
+    "change_pct": -0.18,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1624,87 +1624,80 @@
    "level": "danger",
    "asset": "全球股指",
    "message": "深证成指、创业板指、中证500等 10 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-20 20:22",
+   "time": "2026-11-20 20:31",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 20:22",
+   "time": "2026-11-20 20:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 20:22",
+   "time": "2026-11-20 20:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-20 20:22",
+   "time": "2026-11-20 20:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
-   "message": "欧洲斯托克50单日跌2.05%，达20日历史波动率的 2.0 倍（σ=1.02%，突破 2σ 警戒线）",
-   "time": "2026-11-20 20:22",
+   "message": "欧洲斯托克50单日跌2.06%，达20日历史波动率的 2.0 倍（σ=1.02%，突破 2σ 警戒线）",
+   "time": "2026-11-20 20:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.60%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-20 20:22",
+   "message": "COMEX白银单日跌4.74%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-20 20:31",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "SpaceX美股盘前跌幅扩大至5%",
-   "summary": "SpaceX美股盘前跌幅扩大至5%。",
-   "time": "2026-11-20 20:03:17",
-   "url": "https://finance.eastmoney.com/a/202611203936288766.html",
+   "title": "我国海缆巡检成功实现量子磁测实战应用",
+   "summary": "【我国海缆巡检成功实现量子磁测实战应用】国网浙江电力11月20日在台州大陈岛海域应用自主研发的量子磁测装置，顺利完成35千伏柔性低频海缆全链路巡检，标志着量子精密测量技术在我国海缆巡检领域成功实现实战应用。",
+   "time": "2026-11-20 20:27:55",
+   "url": "https://finance.eastmoney.com/a/202611203936302373.html",
    "source": "东财国际"
   },
   {
-   "title": "SpaceX为AI芯片筹资320亿美元 债务收益率超过8%",
-   "summary": "SpaceX为获取人工智能芯片而进行的320亿美元债务融资，可能成为类似交易的范本。随着AI热潮催生的下一轮融资启动，这类融资对借款企业而言可能代价不菲。这项结构复杂的融资中，大部分债务以超过8%的收益率售出。这一水平通常不会出现在投资级债务市场，反映出投资者普遍担忧AI巨额支出可能无法获得相应回报。",
-   "time": "2026-11-20 20:03",
-   "url": "https://wallstreetcn.com/livenews/3203370",
+   "title": "美股盘前：纳斯达克100指数期货跌1.8%，Anthropic跌10％，SpaceX跌近6%",
+   "summary": "美股盘前，美股期货走低，纳斯达克100指数期货跌1.8%，标普500指数期货跌近1%，道指期货跌0.1%。 大型科技股下跌，SpaceX跌近6%，Anthropic跌10％，美光科技跌近5%，戴尔科技跌超5%，英特尔跌超4%。",
+   "time": "2026-11-20 20:24",
+   "url": "https://wallstreetcn.com/livenews/3203378",
    "source": "华尔街见闻"
   },
   {
-   "title": "富瑞上调莎莎目标价至1.81港元 纯利预测最高升34% - 观点网",
+   "title": "中美元首共同观看特朗普竞选神曲《YMCA》歌舞表演 - 联合早报",
    "summary": "",
-   "time": "2026-11-20 19:59",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4zRmtmd2Z1QWtJNE1QMVNBb3JWYU9iUVpuTnIwWHFlbkJjalA0YVhVel9tUjFuLUhVbjNGdFE3NXh5VUdJenVHWnNyOGlyVENNOGk1RkR5Vlk3VkwwMk9wNDNR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "高市早苗拍特朗普后背套近乎被无视，日网民连呼“没眼看” - 凤凰网",
-   "summary": "",
-   "time": "2026-11-20 19:22",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fdVZwSjhzWGVQVzRJZzlPTU5NX2ZhLWZzeGhObG5MY25JMmtOd3JPY0xKbTI1a0tSVFA4WWt4UjZMTXlxNy1FMWJtU0E?oc=5",
+   "time": "2026-11-20 20:12",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuMHdFSk02T19uYzRxSExlWnJqT0pybmVaNzBCd1pMSl9fSkpjb0xXLWJCV0lJWU45R09sYmlHWkZlczNXSFVoV0NZQThicm43alNpZC1oTUEtQXUtbTc1Y0RWRV82SUxyUHJN?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "Anthropic美股盘前跌超8%",
+   "title": "建设银行发布贵金属业务市场风险提示",
    "summary": "",
-   "time": "2026-11-20 12:03:53",
-   "url": "https://news.10jqka.com.cn/20261120/c682062830.shtml",
-   "source": "同花顺"
+   "time": "2026-11-20 12:30:37",
+   "url": "https://news.futunn.com/flash/1005190906/china-construction-bank-issues-market-risk-warning-for-precious-metals",
+   "source": "富途"
   },
   {
-   "title": "摩根士丹利：电信运营商正利用AI智能体与竞争对手博弈",
+   "title": "东方盛虹：拟向三家全资子公司合计增资65.4亿元",
    "summary": "",
-   "time": "2026-11-20 11:48:20",
-   "url": "https://news.futunn.com/flash/1005187095/morgan-stanley-telecom-operators-are-leveraging-ai-agents-to-compete",
-   "source": "富途"
+   "time": "2026-11-20 12:30:07",
+   "url": "https://news.10jqka.com.cn/20261120/c682063368.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月20日周五",
@@ -1721,46 +1714,39 @@
    "source": "财新"
   },
   {
-   "title": "拓荆科技：董事长提议回购2亿元至3亿元股份",
-   "summary": "【拓荆科技：董事长提议回购2亿元至3亿元股份】拓荆科技(688072.SH)公告称，公司董事长吕光泉提议公司以集中竞价交易方式回购部分A股股份，回购资金总额不低于2亿元且不超过3亿元，回购股份拟用于员工持股计划或股权激励，回购期限为董事会审议通过方案之日起12个月内。",
-   "time": "2026-11-20 19:59:57",
-   "url": "https://finance.eastmoney.com/a/202611203936287834.html",
+   "title": "比特币创4.5个月新低",
+   "summary": "【比特币创4.5个月新低】比特币跌至61,225美元，创4.5个月新低。",
+   "time": "2026-11-20 20:26:03",
+   "url": "https://finance.eastmoney.com/a/202611203936301652.html",
    "source": "东财国际"
   },
   {
-   "title": "欢瑞世纪：因2022年年报存在虚假记载，公司股票自2026年11月24日起被实施其他风险警示，简称变更为“ST欢瑞”，日涨跌幅限制仍为10%。股票11月23日停牌一天、11月24日复牌。",
-   "summary": "欢瑞世纪：因2022年年报存在虚假记载，公司股票自2026年11月24日起被实施其他风险警示，简称变更为“ST欢瑞”，日涨跌幅限制仍为10%。股票11月23日停牌一天、11月24日复牌。",
-   "time": "2026-11-20 19:53",
-   "url": "https://wallstreetcn.com/livenews/3203364",
+   "title": "Alphabet通过发行加拿大债券筹集41.9亿美元",
+   "summary": "据周五向美国证券交易委员会提交的定价条款清单显示，Alphabet通过分四批发行的加拿大债券，筹集了60亿加元 (合41.9亿美元)。谷歌母公司在这份文件中表示 ，所筹集的资金将用于一般企业用途，其中可能包括偿还未偿债务。Alphabet预计在扣除承销折扣（即银行手续费）且未扣除相关费用后，将获得约59.7亿加元。此次发行的定价于11月19日确定，计划于11月24日交割。（路透）",
+   "time": "2026-11-20 20:17",
+   "url": "https://wallstreetcn.com/livenews/3203374",
    "source": "华尔街见闻"
   },
   {
-   "title": "高盛：AI债务扭曲评级逻辑，AA反而不如BBB评级“安全” - 华尔街见闻",
+   "title": "Anthropic，突然重挫！美股AI巨头，盘前全线下跌！美联储，重大警告 - 21财经",
    "summary": "",
-   "time": "2026-11-20 19:21",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1PVG9odXNwS3FpcXNDZy1mV19mUzZrVGlheExEODg1aDhNQlVOamdKbE51ZnJzZDZmWjRWSFFrV1p1OWFFdWxTeGRScWU4Sm5vT0p3?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "多名美联储官员继续释放加息信号，幅度和节奏存分歧 - ThePaper.cn",
-   "summary": "",
-   "time": "2026-11-20 18:50",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hVW81VjZPSVBDRG1DMGZ5Y01vck5qRWJkWHBSVl80bGRkdkxFZk1ZMWRxaHlXVmdlclBzMzZnRGM2OU1QVW8xdGhtRWxQN2RiaWVNekF4VmgzOWcza240Zg?oc=5",
+   "time": "2026-11-20 19:57",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd2xSZkMyX3JCTzBHRFAyN25BT2x1eHViZzJPZ3pZSEo4Y2xvdVBsS1JYbDI1TEI5TVZIbG1aUmNKUHhjcFJaNVpIZm9nOUpYU1hodElUQzgzdUtZSVZBczduczQwaGNRdnF6bXhPRV81Mmh2eWo2RWhiREFIUF9QRzZlZGVhbm53YlpUQWN4RQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "11月20日 周五《新闻联播》要闻16条",
+   "title": "摩根大通：本轮厄尔尼诺影响可能比以往更持久",
    "summary": "",
-   "time": "2026-11-20 11:56:41",
-   "url": "https://news.10jqka.com.cn/20261120/c682062679.shtml",
-   "source": "同花顺"
+   "time": "2026-11-20 12:29:03",
+   "url": "https://news.futunn.com/flash/1005190789/jpmorgan-current-el-ni-o-impacts-may-be-more-prolonged",
+   "source": "富途"
   },
   {
-   "title": "文远知行：第三季度AI基础设施业务收入近翻倍",
+   "title": "魅视科技：签署算力服务备忘录最高金额11.64亿元",
    "summary": "",
-   "time": "2026-11-20 11:44:59",
-   "url": "https://news.futunn.com/flash/1005186781/weride-ai-infrastructure-business-revenue-nearly-doubles-in-third-quarter",
-   "source": "富途"
+   "time": "2026-11-20 12:27:46",
+   "url": "https://news.10jqka.com.cn/20261120/c682063328.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月19日周四",
@@ -1777,46 +1763,39 @@
    "source": "财新"
   },
   {
-   "title": "ST天圣：撤销其他风险警示 11月24日起证券简称变更为“天圣制药”",
-   "summary": "【ST天圣：撤销其他风险警示 11月24日起证券简称变更为“天圣制药”】ST天圣(002872.SZ)公告称，公司撤销其他风险警示的申请已获深交所审核同意。公司股票将于11月23日停牌一天，11月24日复牌并撤销其他风险警示，证券简称由“ST天圣”变更为“天圣制药”，股票代码不变，日涨跌幅限制仍为10%。",
-   "time": "2026-11-20 19:59:01",
-   "url": "https://finance.eastmoney.com/a/202611203936287145.html",
+   "title": "法兴银行预计标普500指数将在2028年底前达到8800点",
+   "summary": "法兴银行预计标普500指数将在2028年底前达到8800点。",
+   "time": "2026-11-20 20:24:18",
+   "url": "https://finance.eastmoney.com/a/202611203936301911.html",
    "source": "东财国际"
   },
   {
-   "title": "文远知行第三季度营收3.215亿元人民币，同比增长88.0%",
-   "summary": "文远知行第三季度营收3.215亿元人民币，同比增长88.0%，环比增长38.8%，预估2.688亿元人民币。\n\n第三季度净亏损3.100亿元人民币，预估亏损3.997亿元人民币。\n\n第三季度毛利率达到43.0%，同比提升10.1个百分点。\n\n第三季度研发支出4.653亿元人民币，同比增长47%。\n\n文远知行美股盘前涨近8%。",
-   "time": "2026-11-20 19:40",
-   "url": "https://wallstreetcn.com/livenews/3203358",
+   "title": "SpaceX美股盘前跌近5%。\n\nAnthropic美股盘前跌超8％。",
+   "summary": "SpaceX美股盘前跌近5%。\n\nAnthropic美股盘前跌超8％。",
+   "time": "2026-11-20 20:06",
+   "url": "https://wallstreetcn.com/livenews/3203371",
    "source": "华尔街见闻"
   },
   {
-   "title": "Susquehanna重申对Woodward Inc股票的积极评级，目标价$423 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "高市早苗拍特朗普后背套近乎被无视，日网民连呼“没眼看” - 凤凰网",
    "summary": "",
-   "time": "2026-11-20 19:18",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53aHdNRUFzSDRmTlBPR1dvc0Z4dUNBWk5fdi1iTDZ4SG9EWFJyTmQwZkdZRnBLWUczZFhTeDRBVXVLTmZmUlp4eEh3S2l1T0JyOHBlTTZ2SUpCUjVYeHRfMlBBdnliX0w2Vm9XVEVVMjVqYUR1?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "专家看美中俄峰会：普京重返强权主桌成最大赢家 - DW.com",
-   "summary": "",
-   "time": "2026-11-20 18:48",
-   "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQVk9wZzlmd1IzdFRpSWxhTlU5OEM5dFdCQjRaMnFWdENYRnZGdjYxd1pqeU5pbjVLbVgyeklHSzhDdUh6OXJ1WmJicUpHTVc3dFlpaV9NSEhERWlmSUMzbW9IUFlEdVBzdVpSamxValBFcGNHREY1eTgxa1hVUndsZjlabTg4RVVwald6VVZuTk0wTWMwWV9UWWpwSWJINjlCaFVyb2dqSk81OTZYUDQxZ0h4M0o2RTRFSGI1QWZHb3hZVjgxWngzNEJKSVBGLWhQLW1VNTFrTGVWVlJqbUp4QnBQajVKZjQ3VGhzTnRTcHZhWmJxcGVBLUdpWGR4QW9GNEhzblN1TmZaNEswTDg0V3FhaVdUcVZnT3U0Y2NQOF_SAaACQVVfeXFMUDhJUS1ySVJ1bnp3S0dTOVVXLUNkNlJVMkxzcUdfZkNIMTFUWnB5b1B3LVp1dkV3VU4xQkQ2cVdRY2pzb08wMU1xUzRRSWVJZGN3b0pmTHhXMHZhMlRzblp2VXQxMnZ6WWhQTGNiT3VEMWdMbHFXUjF6ZGNYdjNxTmtCbk9HUzdXQW1PcDJWSFc0azduVVUxVE85OWdvWFAtd0hRRUExNHU3UmZ0Mno4RTVxc2syZzI5dWxGYzl0QlVsZXVGMm9tbElfMlB4Mm1DNzJLWE5xbzB0NzM5Q3VNa3dPRk5iZEp6cDJlTkRNUkQ1aldDaUFxanRtbXBuS3dfNjhLY1Rrckg4MXdaVjRoU2hBdktEbXl6NnNBeDNXRVZw?oc=5",
+   "time": "2026-11-20 19:22",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5fdVZwSjhzWGVQVzRJZzlPTU5NX2ZhLWZzeGhObG5MY25JMmtOd3JPY0xKbTI1a0tSVFA4WWt4UjZMTXlxNy1FMWJtU0E?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "“丝路心相通”中埃民间友好交流活动在埃及举行",
+   "title": "中泰证券：完成回购股份，累计耗资近2亿元",
    "summary": "",
-   "time": "2026-11-20 11:54:08",
-   "url": "https://news.10jqka.com.cn/20261120/c682062573.shtml",
-   "source": "同花顺"
+   "time": "2026-11-20 12:19:46",
+   "url": "https://news.futunn.com/flash/1005189949/zhongtai-securities-share-repurchase-completed-with-cumulative-expenditure-nearing-rmb",
+   "source": "富途"
   },
   {
-   "title": "文远知行：截至2026年10月31 日，公司全球L4车队规模约为4,100辆",
+   "title": "魅视科技：董事会审议通过签订技术服务采购框架协议及算力服务项目备忘录议案",
    "summary": "",
-   "time": "2026-11-20 11:44:22",
-   "url": "https://news.futunn.com/flash/1005186753/weride-as-of-october-31-2026-the-company-s-global",
-   "source": "富途"
+   "time": "2026-11-20 12:27:34",
+   "url": "https://news.10jqka.com.cn/20261120/c682063326.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月18日周三",
@@ -1831,29 +1810,49 @@
    "time": "",
    "url": "https://database.caixin.com/2026-11-20/102506990.html?cxapp_link=true",
    "source": "财新"
+  },
+  {
+   "title": "Anthropic美股盘前大跌10%",
+   "summary": "【Anthropic美股盘前大跌10%】截至发稿，报87.46美元/股，较IPO发行价83美元仅高出约5.4%。该股周四上市首日开盘报111.5美元，盘中一度冲高至115美元，收报97.17美元，较发行价上涨17.1%。按最新盘前报价计算，股价较首日开盘价已回落约21.5%，上市首日的涨幅基本回吐。",
+   "time": "2026-11-20 20:24:05",
+   "url": "https://finance.eastmoney.com/a/202611203936298356.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "SpaceX为AI芯片筹资320亿美元 债务收益率超过8%",
+   "summary": "SpaceX为获取人工智能芯片而进行的320亿美元债务融资，可能成为类似交易的范本。随着AI热潮催生的下一轮融资启动，这类融资对借款企业而言可能代价不菲。这项结构复杂的融资中，大部分债务以超过8%的收益率售出。这一水平通常不会出现在投资级债务市场，反映出投资者普遍担忧AI巨额支出可能无法获得相应回报。",
+   "time": "2026-11-20 20:03",
+   "url": "https://wallstreetcn.com/livenews/3203370",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "多名美联储官员继续释放加息信号，幅度和节奏存分歧 - ThePaper.cn",
+   "summary": "",
+   "time": "2026-11-20 18:50",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hVW81VjZPSVBDRG1DMGZ5Y01vck5qRWJkWHBSVl80bGRkdkxFZk1ZMWRxaHlXVmdlclBzMzZnRGM2OU1QVW8xdGhtRWxQN2RiaWVNekF4VmgzOWcza240Zg?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(15)",
+   "富途": "ok(19)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
-   "谷歌新闻·研报": "ok(30)"
+   "谷歌新闻·研报": "FAIL:HTTPError"
   },
   "counts": {
-   "东财国际": 7,
-   "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
-   "同花顺": 6,
-   "富途": 6,
+   "东财国际": 8,
+   "华尔街见闻": 8,
+   "谷歌新闻·国际": 8,
+   "富途": 7,
+   "同花顺": 7,
    "东财早报": 3,
-   "财新": 6
+   "财新": 7
   }
  },
  "wuxing": {
