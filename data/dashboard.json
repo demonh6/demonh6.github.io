@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-21 06:29:50 CST",
- "generated_at_iso": "2026-11-21T06:29:50+08:00",
+ "generated_at": "2026-11-21 06:38:06 CST",
+ "generated_at_iso": "2026-11-21T06:38:06+08:00",
  "date": "2026-11-21",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -719,7 +719,7 @@
     "price": 22617.733,
     "change": -1261.4663,
     "change_pct": -5.28,
-    "quote_time": "2026-11-21 06:29:30",
+    "quote_time": "2026-11-21 06:30:00",
     "hist": [
      27477.3105,
      27599.791,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 4869.96,
-    "change": -267.93,
-    "change_pct": -5.21,
+    "price": 5137.8901,
+    "change": 70.45,
+    "change_pct": 1.39,
     "hist": [
      6625.93,
      6384.24,
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83021.75,
+    "change": 989.94,
+    "change_pct": 1.21
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 36033.29,
+    "change": -2393.6,
+    "change_pct": -6.23
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 24802.78,
+    "change": -661.03,
+    "change_pct": -2.6
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10346.34,
-    "change": -106.34,
-    "change_pct": -1.02,
+    "price": 10369.25,
+    "change": -83.43,
+    "change_pct": -0.8,
     "hist": [
      10656.28,
      10650.33,
@@ -1205,6 +1226,13 @@
      5941.95
     ],
     "sigma": 1.19
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2351.56,
+    "change": -67.87,
+    "change_pct": -2.81
    }
   ]
  },
@@ -1283,10 +1311,10 @@
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.767,
-    "change": 0.787,
-    "change_pct": 0.86,
-    "quote_time": "06:26:38 2026-11-21"
+    "price": 92.557,
+    "change": 0.577,
+    "change_pct": 0.63,
+    "quote_time": "06:38:08 2026-11-21"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59133.7,
-    "change": -3034.5,
-    "change_pct": -4.88,
+    "price": 59127.4,
+    "change": -3175.2,
+    "change_pct": -5.1,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1624.15,
-    "change": -135.09,
-    "change_pct": -7.68,
+    "price": 1623.71,
+    "change": -140.33,
+    "change_pct": -7.96,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.18,
-    "change": -3.87,
-    "change_pct": -5.3,
+    "price": 69.28,
+    "change": -3.95,
+    "change_pct": -5.39,
     "source": "okx"
    }
   ],
@@ -1621,117 +1649,145 @@
  "alerts": [
   {
    "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-21 06:38",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-21 06:30",
+   "message": "深证成指、创业板指、中证500等 13 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-21 06:38",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "德国DAX",
+   "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-21 06:38",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "俄罗斯MOEX",
+   "message": "俄罗斯MOEX单日跌2.81%，达20日历史波动率的 2.3 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-21 06:38",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "以太坊",
-   "message": "以太坊单日跌7.68%，达20日历史波动率的 2.2 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 06:30",
+   "message": "以太坊单日跌7.96%，达20日历史波动率的 2.3 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-21 06:38",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-21 06:30",
+   "time": "2026-11-21 06:38",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "美国弗吉尼亚州通报当地首例麻疹死亡病例，2026年迄今美国累计死亡12例。",
-   "summary": "美国弗吉尼亚州通报当地首例麻疹死亡病例，2026年迄今美国累计死亡12例。",
-   "time": "2026-11-21 06:00",
-   "url": "https://wallstreetcn.com/livenews/3203603",
+   "title": "两年期美债收益率周五跌超10个基点，本周累跌超19个基点",
+   "summary": "周五（11月20日）纽约尾盘，美国10年期基准国债收益率下跌10.24个基点，报4.9438%，连续五个交易日回撤，本周累计下跌19.14个基点，交投于5.1494%-4.9039%区间，11月16-19日平缓地持续走低、19日（Anthropic美国IPO首日）美股开盘以来加速下跌。\n\n两年期美债收益率跌11.49个基点，报4.6469%，也几乎完全回吐11月10-12日的大幅上涨，本周累跌19",
+   "time": "2026-11-21 06:33",
+   "url": "https://wallstreetcn.com/livenews/3203611",
    "source": "华尔街见闻"
   },
   {
-   "title": "标准普尔将Snap评级上调至\"BB\"，看好利润率扩张与广告变现能力提升 提供者 Investing.com - 英为财情 Investing.com",
-   "summary": "",
-   "time": "2026-11-21 05:51",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxSi1mdXZjclhaY0M4Mk5US294bHdmYzNpX3A5endpTTVPd0RNVURJLVFobXV6cE55ZmUxcGpsU2JsUDRLY0NkZHVnQVFwU29NYVprcW94S1R6c21zaWdjOHVBRlV0Vm1OUFZaLW8zSnQ?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "互袭持续 胡塞武装称重创沙特发电站和港口 沙特剑指胡塞弹道导弹能力",
+   "summary": "【互袭持续 胡塞武装称重创沙特发电站和港口 沙特剑指胡塞弹道导弹能力】当地时间20日，胡塞武装称打击沙特吉赞省发电站和港口设施，沙特联军称袭击胡塞武装多个军事目标。胡塞武装与沙特联军持续互袭。根据胡塞武装方面发布的消息，自新一轮军事升级以来，沙特联军发动的袭击总数已达5429次，总死亡人数已达到438人。",
+   "time": "2026-11-21 06:17:19",
+   "url": "https://finance.eastmoney.com/a/202611213936590315.html",
+   "source": "东财国际"
   },
   {
-   "title": "特朗普总统：伊朗想要达成协议，但所提条件无法接受 - 美国之音",
+   "title": "世纪晚宴菜单曝光！特朗普、马斯克吃的啥 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-21 05:49",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ2JOdDJ3SzVWNDNKaWNCRzN6SldZaU5pSEVRQzNTdVg0b0ZpUlFHb3RVM2cxeVBONy01UG5VZW9LRjZEYTQ4V3J0VElJS3JvbGNhSjlhRkg0Z3FMc0R4N24ySkhmd1ZXMHd1UGFQaGQtWGpIRW1PaWdqcFpiU2hQRHFPYm5Dc256SkV6aG1FTnFCM2ZrbzRxM3FsU01EUWU3c09WRm51TTEyRnd4NHZOZ3VWU1p3Vllfc1paQzk0M0tLU2Y00gHHAUFVX3lxTE5YdEZLVDZkXzMxa2FWZTJRWkRBakdFbm95dWRYSGZ1ODFFUkVKa2JiOC1jU2U5YW01SVZOWk9Jem55aDI0OHJPc2lYejlnZVNRUWluemdkYTZHd2JLMEM1R3p6TkhLb0o4LWl1RDE4WHBkU2tDakQ1YW5pRFZKZDNaRDEtbE5ZV2tPSmRuOHktbkh3UHJXbWlzSC12cFZmVm5UaUd4dXdwRk9tRjVIRThnZjVhSFJFTHdhOTgtV3l0THAxUVZGRG8?oc=5",
+   "time": "2026-11-21 06:11",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOT2MwTnZ3d3ktUHVWR2ZTdTllLXRmOXdnTmRXU1hmVDh0STVWeEk4ZU5ZdGhKT1BtSkVfMW5DeXBIVEJlUHdLeHk2WDRxNGNxSkhGNkg5azBQaGJSWS0tSmNJZnJ1Ry1fa0tUOWF4ZTRGbEZYNjJpR0ctLVdacy1NVWtsZ3djQkFLZURhaXo2eURzZGpvR1N1N3NER1FpWWN0R3JaQmZuSW1fN3ZuTHYzNzR1LUEycWtzcTFGVjF6RUFIaTM3RkJCMS1JUHA4ZVFHTGZ2Vmk3cjg?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "穆迪将匈牙利评级展望由负面上调至稳定",
-   "summary": "穆迪将匈牙利评级展望由负面上调至稳定。",
-   "time": "2026-11-21 05:46:18",
-   "url": "https://finance.eastmoney.com/a/202611213936583877.html",
-   "source": "东财国际"
+   "title": "标普将乌兹别克斯坦主权信用评级上调至\"BB+\" 提供者 Investing.com - 英为财情 Investing.com",
+   "summary": "",
+   "time": "2026-11-21 05:56",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4anlmR2tNcUJpWVJGUHRRcEhpekJDd0ZnbU5GQzRjLXRSOGxYOE92ajVyWWIyTzRialFVcHpqamowVFpGN2hRMjJJY2w0UnZNdnVzbkJwT1h5TkNMUFVsSnBvT0c2TVU?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "第二次英欧峰会召开 双方达成72项共识",
+   "summary": "",
+   "time": "2026-11-20 22:37:38",
+   "url": "https://news.10jqka.com.cn/20261121/c682069241.shtml",
+   "source": "同花顺"
   },
   {
    "title": "标普500指数重挫 VIX恐慌指数一度升至40",
@@ -1739,13 +1795,6 @@
    "time": "2026-11-20 21:35:48",
    "url": "https://news.futunn.com/flash/1005230626/s-p-500-plunges-vix-fear-gauge-hits-40",
    "source": "富途"
-  },
-  {
-   "title": "甲骨文：已筹足OpenAI合同所需资金，相关负面报道不实",
-   "summary": "",
-   "time": "2026-11-20 21:34:31",
-   "url": "https://news.10jqka.com.cn/20261121/c682068616.shtml",
-   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月20日周五",
@@ -1762,32 +1811,39 @@
    "source": "财新"
   },
   {
-   "title": "穆迪对英国的评级：AA3评级平衡了富裕、多元化的经济和强大的机构，以及温和的增长前景和充满挑战的财政前景。\n\n与欧盟更紧密的经济合作以及人工智能带来的生产力提升，为经济增长带来了中期上行风险。\n\n随着通胀放缓，预计债务负担能力将趋于稳定，但",
-   "summary": "穆迪对英国的评级：AA3评级平衡了富裕、多元化的经济和强大的机构，以及温和的增长前景和充满挑战的财政前景。\n\n与欧盟更紧密的经济合作以及人工智能带来的生产力提升，为经济增长带来了中期上行风险。\n\n随着通胀放缓，预计债务负担能力将趋于稳定，但利息支出相对于财政收入仍将处于高位。\n\n预计英国财政赤字将在2026年收窄至4.5%，2027年收窄至4%。\n\n到本十年末，英国政府债务将从2025年占GDP的",
-   "time": "2026-11-21 05:59",
-   "url": "https://wallstreetcn.com/livenews/3203602",
+   "title": "惠誉预测，到2029年底，比利时的债务将升至GDP的115%以上。",
+   "summary": "惠誉预测，到2029年底，比利时的债务将升至GDP的115%以上。",
+   "time": "2026-11-21 06:25",
+   "url": "https://wallstreetcn.com/livenews/3203610",
    "source": "华尔街见闻"
   },
   {
-   "title": "Wells Fargo维持Globant“中性”评级，目标价从48美元下调至44美元 - TradingView",
-   "summary": "",
-   "time": "2026-11-21 01:43",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5acGNxakk1ZHRtSTgyaGJFaE44NUFqeTJWS2ZWbldDcGx3eFlmV2xyV0lQZDVQTkZpb1Y3WEVQRzVEZUhHS3JNMS13YzVPNHFhTFhlcE41S29kZnk4UWJQSDhLWFc3bXZFN2lmbA?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "水泥行业觅新机：错峰托底 并购突围",
+   "summary": "【水泥行业觅新机：错峰托底 并购突围】2026年前三季度，水泥需求延续下滑走势，价格走低，加之煤炭价格上涨推高生产成本，19家水泥上市公司中，仅华新建材凭借海外业务放量有效对冲国内业务下滑，营业收入实现正增长。记者注意到，进入四季度，错峰生产全面加码，提价函密集发布，水泥价格出现阶段性回升，但需求下行与产能过剩的根本性矛盾并未缓解。与此同时，海螺水泥、华新建材等龙头在国内外密集落子，以并购整合与多元化布局对冲周期下行。",
+   "time": "2026-11-21 06:10:16",
+   "url": "https://finance.eastmoney.com/a/202611213936558350.html",
+   "source": "东财国际"
   },
   {
-   "title": "美民主党议员批特朗普遭习近平普京利用 指美中俄峰会毫无成果 - RFI",
+   "title": "特朗普总统：伊朗想要达成协议，但所提条件无法接受 - 美国之音",
    "summary": "",
-   "time": "2026-11-21 05:39",
-   "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOMkQ2UTZWOV9lMUR3RVNLR29ONWZ6YnB6U0FkbDkwdVc4RVFIQkhVVFJSYl9wWGo4ZjhQRktnOUNOLU5mN0pKQWJnNmpaZTgwR3N6XzA2by1iQ0JSUEJYR19SX1c1RkxtNGNjTEFrd2E1blhkNVZqeTZpcGlKbEx5cmVzNW1Pc2Z1WXc4R2pJaTVYdU5UNkYxbnFpdHl5aHhuQW1yWVZIbEtScXBKemFzSFlnUktqVXotQmdaWTFRQVJXajRPbTRDeEhFVE5KcU9VazJVcXJRdFlIV3dDSUNNZVNPU3BHb0E2REpMeEZTWFA1ai1mR3Q1d2xQbTFZMWJ5cHhJdVV6dnhFN0ZqWV96VlJ2WXo0YmtCQ3BHNlRHRWtmcUcySlU2YWx6NF9zcWZ1RW5ndGVXa3kxbXZMNGpQVXJsWHpIMGFPaXZuWWotR0dCU1R6LWplOEZlN1dTUElsTHFIbVBSbUllUDhfa1NianRKak1Yelo0QjBoT3NDM3Vfa1pFUXhoVmhCWERjaWdUdllsdWZkX2JlOHVFTE5VUlllOTdFNDlSM1dSVk81bEo?oc=5",
+   "time": "2026-11-21 05:49",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ2JOdDJ3SzVWNDNKaWNCRzN6SldZaU5pSEVRQzNTdVg0b0ZpUlFHb3RVM2cxeVBONy01UG5VZW9LRjZEYTQ4V3J0VElJS3JvbGNhSjlhRkg0Z3FMc0R4N24ySkhmd1ZXMHd1UGFQaGQtWGpIRW1PaWdqcFpiU2hQRHFPYm5Dc256SkV6aG1FTnFCM2ZrbzRxM3FsU01EUWU3c09WRm51TTEyRnd4NHZOZ3VWU1p3Vllfc1paQzk0M0tLU2Y00gHHAUFVX3lxTE5YdEZLVDZkXzMxa2FWZTJRWkRBakdFbm95dWRYSGZ1ODFFUkVKa2JiOC1jU2U5YW01SVZOWk9Jem55aDI0OHJPc2lYejlnZVNRUWluemdkYTZHd2JLMEM1R3p6TkhLb0o4LWl1RDE4WHBkU2tDakQ1YW5pRFZKZDNaRDEtbE5ZV2tPSmRuOHktbkh3UHJXbWlzSC12cFZmVm5UaUd4dXdwRk9tRjVIRThnZjVhSFJFTHdhOTgtV3l0THAxUVZGRG8?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "Crowdstrike据悉洽购Zscaler 或缔造网络安全行业史上最大交易之一",
-   "summary": "【Crowdstrike据悉洽购Zscaler 或缔造网络安全行业史上最大交易之一】据知情人士透露，CrowdStrike正在洽谈收购Zscaler，这笔交易将成为网络安全行业史上规模最大的交易之一，并将缔造一家合计市值约2,650亿美元的公司。",
-   "time": "2026-11-21 05:35:43",
-   "url": "https://finance.eastmoney.com/a/202611213936583091.html",
-   "source": "东财国际"
+   "title": "标准普尔将Snap评级上调至\"BB\"，看好利润率扩张与广告变现能力提升 提供者 Investing.com - 英为财情 Investing.com",
+   "summary": "",
+   "time": "2026-11-21 05:51",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxSi1mdXZjclhaY0M4Mk5US294bHdmYzNpX3A5endpTTVPd0RNVURJLVFobXV6cE55ZmUxcGpsU2JsUDRLY0NkZHVnQVFwU29NYVprcW94S1R6c21zaWdjOHVBRlV0Vm1OUFZaLW8zSnQ?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "阿拉格齐：美方兑现承诺后伊朗将开放霍尔木兹海峡",
+   "summary": "",
+   "time": "2026-11-20 22:13:00",
+   "url": "https://news.10jqka.com.cn/20261121/c682069159.shtml",
+   "source": "同花顺"
   },
   {
    "title": "美元指数20日下跌",
@@ -1795,13 +1851,6 @@
    "time": "2026-11-20 21:06:49",
    "url": "https://news.futunn.com/flash/1005228842/us-dollar-index-falls-on-the-20th",
    "source": "富途"
-  },
-  {
-   "title": "纳斯达克100指数ETF盘后上涨0.3%",
-   "summary": "",
-   "time": "2026-11-20 21:22:29",
-   "url": "https://news.10jqka.com.cn/20261121/c682068596.shtml",
-   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月19日周四",
@@ -1818,32 +1867,39 @@
    "source": "财新"
   },
   {
-   "title": "伊朗：德黑兰已与调解人讨论了建立信任措施的形式和性质。\n\n有可能获得高浓缩铀配方。\n\n有可能就高浓缩铀问题达成安排。",
-   "summary": "伊朗：德黑兰已与调解人讨论了建立信任措施的形式和性质。\n\n有可能获得高浓缩铀配方。\n\n有可能就高浓缩铀问题达成安排。",
-   "time": "2026-11-21 05:55",
-   "url": "https://wallstreetcn.com/livenews/3203601",
+   "title": "美国交通部监察机构将审计“FAA对波音公司的监管情况”",
+   "summary": "美国交通部 监察长办公室周五表示，将对联邦航空管理局（FAA）对波音及其他飞机制造商和航空航天供应商的监管工作进行审计 。\n\n监察长办公室还希望审查近期对FAA针对制造商的监管风险评估做法的最新更新，以及FAA对飞机制造商“针对国内外供应商的质量保证体系”的监管情况。",
+   "time": "2026-11-21 06:23",
+   "url": "https://wallstreetcn.com/livenews/3203609",
    "source": "华尔街见闻"
   },
   {
-   "title": "美股异动| 遭汇丰大幅下调目标价小鹏集团(XPEV.US)跌逾8%_全球市场_财经 - 证券之星",
-   "summary": "",
-   "time": "2026-11-20 23:41",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56ckFzem1WcEx4OTljdEU0cEZKdkJoSlBleEtWbFRCa2FJa005TmN6bWRfSjFwZi1oYU9iRENzd2NCSlF4RFNKelpWQV9Kcm1wUWJZZDdrZ2Vfdm1WcE55eA?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "积存金价格跌至“7字头” 银行纷纷提示贵金属市场波动风险",
+   "summary": "【积存金价格跌至“7字头” 银行纷纷提示贵金属市场波动风险】11月20日，国际金价跌破3600美元/盎司，与其高度联动的积存金价格随之下探进入“7字头”区间。截至上海证券报记者发稿时，工银积存金报769元/克，当日跌幅达3.5%。同日，工商银行发布关于贵金属市场波动风险的提示。同日，建设银行、招商银行、宁波银行等也发布相关风险提示。受访人士建议，在金价尚未企稳时不宜一次性重仓抄底，建议以定投方式分批建仓、摊薄成本，把黄金作为资产配置中的防御性配置，而非波段交易工具。",
+   "time": "2026-11-21 05:56:13",
+   "url": "https://finance.eastmoney.com/a/202611213936558077.html",
+   "source": "东财国际"
   },
   {
-   "title": "特别直播：美国总统特朗普亚洲行后记者会 (同声传译) - 美国之音",
+   "title": "美民主党议员批特朗普遭习近平普京利用 指美中俄峰会毫无成果 - RFI",
    "summary": "",
-   "time": "2026-11-21 05:28",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRXFxZ0Y5emNDVWM5cjZ3cWdiblVTcTVNcW9OaFdXYW8wSVNGMnVNVW9VQ0lSTnVqZDkwY3pjQUNmXzh3OWlUcDdSSHVhZ0hmaXp4NFZZbWFzM21FcGRVOUliVjVkWm5kdUphZjZ4eVM5Ymx0Z2hjZW05U1Fkd2VZcDN1eGFMbkNXRERVa3FhNFJPaHhhRnB3cEQtenVySC1SVy0xbVMySdIBqgFBVV95cUxQdzlYYV9YZnRBT0JISlIwSjdEQkZMdGotMmhKUzhJZ3lSTEotWDVLcTljN3RfcExodncyb3ZPaGFwVTQySTZudU5MamE3ak9KZW43WEtyUmwwRWc5ZXpfMnV1Ri1UZWM5NksxYS1oYTNIX180MTlaVG1YcVRxeUtQeXZXZTRoY0Zrc0RFUEtULUtobWI0WWFDR2dEelFlUnA1VGVUSTNwbm9QQQ?oc=5",
+   "time": "2026-11-21 05:39",
+   "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxOMkQ2UTZWOV9lMUR3RVNLR29ONWZ6YnB6U0FkbDkwdVc4RVFIQkhVVFJSYl9wWGo4ZjhQRktnOUNOLU5mN0pKQWJnNmpaZTgwR3N6XzA2by1iQ0JSUEJYR19SX1c1RkxtNGNjTEFrd2E1blhkNVZqeTZpcGlKbEx5cmVzNW1Pc2Z1WXc4R2pJaTVYdU5UNkYxbnFpdHl5aHhuQW1yWVZIbEtScXBKemFzSFlnUktqVXotQmdaWTFRQVJXajRPbTRDeEhFVE5KcU9VazJVcXJRdFlIV3dDSUNNZVNPU3BHb0E2REpMeEZTWFA1ai1mR3Q1d2xQbTFZMWJ5cHhJdVV6dnhFN0ZqWV96VlJ2WXo0YmtCQ3BHNlRHRWtmcUcySlU2YWx6NF9zcWZ1RW5ndGVXa3kxbXZMNGpQVXJsWHpIMGFPaXZuWWotR0dCU1R6LWplOEZlN1dTUElsTHFIbVBSbUllUDhfa1NianRKak1Yelo0QjBoT3NDM3Vfa1pFUXhoVmhCWERjaWdUdllsdWZkX2JlOHVFTE5VUlllOTdFNDlSM1dSVk81bEo?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "MSCI新兴市场股票指数收盘较6月高点下跌21%",
-   "summary": "MSCI新兴市场股票指数收盘较6月高点下跌21%。",
-   "time": "2026-11-21 05:31:45",
-   "url": "https://finance.eastmoney.com/a/202611213936581925.html",
-   "source": "东财国际"
+   "title": "Wells Fargo维持Globant“中性”评级，目标价从48美元下调至44美元 - TradingView",
+   "summary": "",
+   "time": "2026-11-21 01:43",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5acGNxakk1ZHRtSTgyaGJFaE44NUFqeTJWS2ZWbldDcGx3eFlmV2xyV0lQZDVQTkZpb1Y3WEVQRzVEZUhHS3JNMS13YzVPNHFhTFhlcE41S29kZnk4UWJQSDhLWFc3bXZFN2lmbA?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "甲骨文：已筹足OpenAI合同所需资金，相关负面报道不实",
+   "summary": "",
+   "time": "2026-11-20 21:34:31",
+   "url": "https://news.10jqka.com.cn/20261121/c682068616.shtml",
+   "source": "同花顺"
   },
   {
    "title": "美股收盘：三大股指低收 Anthropic跌超8%",
@@ -1853,13 +1909,6 @@
    "source": "富途"
   },
   {
-   "title": "安理会举行联合国秘书长遴选第九轮意向性投票",
-   "summary": "",
-   "time": "2026-11-20 21:18:37",
-   "url": "https://news.10jqka.com.cn/20261121/c682068583.shtml",
-   "source": "同花顺"
-  },
-  {
    "title": "机构人士表示，市场调整计价悲观因素后，恐慌并不比亢奋更理性",
    "summary": "",
    "time": "",
@@ -1867,10 +1916,10 @@
    "source": "财新"
   },
   {
-   "title": "伊朗外长阿拉格奇对伊朗报纸表示：伊朗希望得到美国认真谈判的保证，然后再进一步推进。\n\n伊朗在《不扩散核武器条约》问题上的官方立场保持不变，该国的核政策也没有改变。",
-   "summary": "伊朗外长阿拉格奇对伊朗报纸表示：伊朗希望得到美国认真谈判的保证，然后再进一步推进。\n\n伊朗在《不扩散核武器条约》问题上的官方立场保持不变，该国的核政策也没有改变。",
-   "time": "2026-11-21 05:55",
-   "url": "https://wallstreetcn.com/livenews/3203600",
+   "title": "周五（11月20日）纽约尾盘，标普500股指期货最终跌3.14%，道指期货跌1.57%，纳斯达克100股指期货跌4.88%。\n\n罗素2000股指期货跌2.31%。",
+   "summary": "周五（11月20日）纽约尾盘，标普500股指期货最终跌3.14%，道指期货跌1.57%，纳斯达克100股指期货跌4.88%。\n\n罗素2000股指期货跌2.31%。",
+   "time": "2026-11-21 06:19",
+   "url": "https://wallstreetcn.com/livenews/3203608",
    "source": "华尔街见闻"
   }
  ],
@@ -1888,11 +1937,11 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
-   "富途": 6,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
    "财新": 6
   }
