@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-21 11:57:54 CST",
- "generated_at_iso": "2026-11-21T11:57:54+08:00",
+ "generated_at": "2026-11-21 12:06:06 CST",
+ "generated_at_iso": "2026-11-21T12:06:06+08:00",
  "date": "2026-11-21",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -907,9 +907,9 @@
      56436.65
     ],
     "sigma": 2.193,
-    "volume": 0.0,
-    "vol_chg_pct": -100.0,
-    "vol_pctile": 34.8,
+    "volume": 174600000.0,
+    "vol_chg_pct": 24.3,
+    "vol_pctile": 82.8,
     "vol_hist": [
      0.0,
      0.0,
@@ -940,7 +940,7 @@
      138500000.0,
      142400000.0,
      138300000.0,
-     0.0
+     174600000.0
     ]
    },
    {
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 56734.2,
-    "change": -5422.3,
-    "change_pct": -8.72,
-    "source": "okx"
+    "price": 55829.3,
+    "change": -6024.2,
+    "change_pct": -9.74,
+    "source": "okx",
+    "hist": [
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     55918.7
+    ],
+    "sigma": 2.436
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1571.56,
-    "change": -175.82,
-    "change_pct": -10.06,
-    "source": "okx"
+    "price": 1551.61,
+    "change": -184.14,
+    "change_pct": -10.61,
+    "source": "okx",
+    "hist": [
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1556.1
+    ],
+    "sigma": 3.302
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 66.26,
-    "change": -6.66,
-    "change_pct": -9.13,
-    "source": "okx"
+    "price": 65.61,
+    "change": -7.01,
+    "change_pct": -9.65,
+    "source": "okx",
+    "hist": [
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     65.68
+    ],
+    "sigma": 3.273
    }
   ],
   "fx": [
@@ -1385,17 +1484,6 @@
  },
  "speakers": [
   {
-   "keyword": "贝森特",
-   "label": "贝森特",
-   "hint": "美国财长，关税与财政政策的关键传声筒",
-   "title": "美财长称仍居住在军事基地",
-   "summary": "【美财长称仍居住在军事基地】美国财政部长贝森特20日称，他依然面临来自伊朗方面的安全“威胁”，因此目前仍居住在军事基地里。",
-   "time": "2026-11-21 11:04:14",
-   "url": "https://finance.eastmoney.com/a/202611213936793192.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1405,6 +1493,17 @@
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GMU9XMUduaGdzZHpKcW1DcG1MZUdDUDN0QlBPNmlLVlJleFRISzlIenBPY2hPaWhvRnI3RVFwVWJtOWs2UlQ3ZlNISk5GcnQyb0Z4dWlQME8tbjRSai00M0VWZmUzVE00MkQzSWxQTVloSzg?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
+  },
+  {
+   "keyword": "发改委",
+   "label": "发改委",
+   "hint": "产业政策与价格调控影响行业",
+   "title": "国家发改委召开视频会议调度督促政府投资资金支付使用和项目储备工作",
+   "summary": "",
+   "time": "2026-11-21 03:49:38",
+   "url": "https://news.10jqka.com.cn/20261121/c682072481.shtml",
+   "source": "同花顺",
+   "mentions": 2
   },
   {
    "keyword": "黄仁勋",
@@ -1479,16 +1578,6 @@
   ],
   "reports": [
    {
-    "title": "穆迪将匈牙利主权评级展望上调至稳定，确认Baa2评级 提供者 Investing.com - 英为财情 Investing.com",
-    "org": "穆迪",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-21",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Lb2RYN24xVHBwQUxmcWk1azZObmNnSzFFOGgtbGpPTzN2d3N6RTZ3dmZ1aE9tYWhzQjNKSnM5VHRTb1VuVWx4MXlxT1F3RTRGdVV1Ml95MERyTklURmxFUzRYYUZScWc?oc=5",
-    "source": "机构观点"
-   },
-   {
     "title": "东方财富财经早餐 11月20日周五",
     "org": "摩根大通",
     "rating": "",
@@ -1496,6 +1585,16 @@
     "industry": "",
     "date": "2026-11-20",
     "url": "http://finance.eastmoney.com/a/202611193935354438.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "穆迪将匈牙利主权评级展望上调至稳定，确认Baa2评级 提供者 Investing.com - 英为财情 Investing.com",
+    "org": "穆迪",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-21",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Lb2RYN24xVHBwQUxmcWk1azZObmNnSzFFOGgtbGpPTzN2d3N6RTZ3dmZ1aE9tYWhzQjNKSnM5VHRTb1VuVWx4MXlxT1F3RTRGdVV1Ml95MERyTklURmxFUzRYYUZScWc?oc=5",
     "source": "机构观点"
    },
    {
@@ -1635,108 +1734,115 @@
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
+  },
+  {
+   "level": "danger",
+   "asset": "比特币",
+   "message": "比特币单日跌9.74%，达20日历史波动率的 4.0 倍（σ=2.44%，突破 3σ 高危线）",
+   "time": "2026-11-21 12:07",
+   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
+  },
+  {
+   "level": "danger",
+   "asset": "以太坊",
+   "message": "以太坊单日跌10.61%，达20日历史波动率的 3.2 倍（σ=3.30%，突破 3σ 高危线）",
+   "time": "2026-11-21 12:07",
+   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
-   "asset": "比特币",
-   "message": "比特币单日跌8.72%，达20日历史波动率的 2.5 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 11:58",
-   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
-  },
-  {
-   "level": "warning",
-   "asset": "以太坊",
-   "message": "以太坊单日跌10.06%，达20日历史波动率的 2.9 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 11:58",
-   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
-  },
-  {
-   "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌9.13%，达20日历史波动率的 2.6 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 11:58",
+   "message": "Solana单日跌9.65%，达20日历史波动率的 2.9 倍（σ=3.27%，突破 2σ 警戒线）",
+   "time": "2026-11-21 12:07",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-21 11:58",
+   "time": "2026-11-21 12:07",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "产业规模破万亿元！高铁直达、夜场升级 冰雪消费提前升温",
-   "summary": "【产业规模破万亿元！高铁直达、夜场升级 冰雪消费提前升温】新一轮冰雪季开启，我国冰雪消费呈现出不少新变化：秋假带动亲子冰雪游提前升温，南方游客持续涌入北方雪场，冰雪产业规模突破万亿元。冰雪游正从季节性运动体验，向亲子研学、休闲度假和综合消费延伸，为冬季文旅市场注入新活力。",
-   "time": "2026-11-21 11:23:11",
-   "url": "https://finance.eastmoney.com/a/202611213936797338.html",
+   "title": "多地上演“豪宅热”：上海再现“日光盘” 杭州有项目连签亿元大单 专家称“市场尚未筑底”",
+   "summary": "【多地上演“豪宅热”：上海再现“日光盘” 杭州有项目连签亿元大单 专家称“市场尚未筑底”】近期，一出出“豪宅大戏”正在全国多个城市上演。在上海，有高端项目认购率超600%，开盘再现“日光”盛况；在杭州，有叠墅项目首开一周签下三笔亿元级大单；在深圳，有顶层公寓入市，备案单价突破43万元/m2，刷新深圳住宅备案单价纪录。不过，整体来看，重点城市高端住宅成交仍呈下行趋势。",
+   "time": "2026-11-21 12:02:13",
+   "url": "https://finance.eastmoney.com/a/202611213936798920.html",
    "source": "东财国际"
+  },
+  {
+   "title": "国投证券再收警示函，投行收入短期高增难掩内控短板 - Sohu",
+   "summary": "",
+   "time": "2026-11-21 11:43",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRThhdlNCWFAtY3FuNVZrNkFSNEVCaFF4RUNpX2c5Y3hiRzNEd2VCVW1xbnBFaDRuMUF5WWxBV3dRdTlaSFE2Q0VFT1JXaDhubEY1SVJtSFQzdGtsWjJMOHJaeVZZNGR2ek9yNl9KTUc4bkxmMXN2ZW03akE4QkN0SlV0cHVFRm9T?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "美中俄峰会谁是赢家？余茂春分析特朗普应对习、普策略 - 美国之音",
@@ -1753,25 +1859,18 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "穆迪将匈牙利主权评级展望上调至稳定，确认Baa2评级 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "国家发改委召开视频会议调度督促政府投资资金支付使用和项目储备工作",
    "summary": "",
-   "time": "2026-11-21 06:39",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Lb2RYN24xVHBwQUxmcWk1azZObmNnSzFFOGgtbGpPTzN2d3N6RTZ3dmZ1aE9tYWhzQjNKSnM5VHRTb1VuVWx4MXlxT1F3RTRGdVV1Ml95MERyTklURmxFUzRYYUZScWc?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "黄河内蒙古段进入2026至2027年度凌汛期",
-   "summary": "",
-   "time": "2026-11-21 03:21:17",
-   "url": "https://news.futunn.com/flash/1005249470/the-inner-mongolia-section-of-the-yellow-river-enters-the",
-   "source": "富途"
-  },
-  {
-   "title": "美财长称仍面临伊朗安全“威胁” 目前住在军事基地",
-   "summary": "",
-   "time": "2026-11-21 03:18:38",
-   "url": "https://news.10jqka.com.cn/20261121/c682072368.shtml",
+   "time": "2026-11-21 03:49:38",
+   "url": "https://news.10jqka.com.cn/20261121/c682072481.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "发改委召开视频会议调度督促政府投资资金支付使用和项目储备工作",
+   "summary": "",
+   "time": "2026-11-21 03:49:01",
+   "url": "https://news.futunn.com/flash/1005250539/the-ndrc-convenes-a-video-conference-to-coordinate-and-supervise",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月20日周五",
@@ -1788,11 +1887,18 @@
    "source": "财新"
   },
   {
-   "title": "美国今年麻疹确诊病例已超5800例",
-   "summary": "【美国今年麻疹确诊病例已超5800例】美国疾病控制和预防中心20日公布的最新数据显示，截至19日，美国今年累计报告麻疹确诊病例5838例，且病例数持续上升。数据显示，今年以来，美国47个州和地区共报告5820例麻疹病例，另有18例为赴美国际访客。目前，已有646名患者住院治疗，约占确诊病例总数的11%。约96%的确诊病例未接种过麻疹疫苗或接种情况不明。",
-   "time": "2026-11-21 11:16:04",
-   "url": "https://finance.eastmoney.com/a/202611213936794355.html",
+   "title": "阿根廷政府批准该国规模最大投资项目",
+   "summary": "【阿根廷政府批准该国规模最大投资项目】阿根廷政府11月20日宣布批准将一个液化天然气项目纳入大型投资激励计划。阿根廷经济部长路易斯·卡普托在社交媒体上说，这是该国历史上规模最大的投资项目，到2050年累计投资额将达约507亿美元。",
+   "time": "2026-11-21 11:57:22",
+   "url": "https://finance.eastmoney.com/a/202611213936798811.html",
    "source": "东财国际"
+  },
+  {
+   "title": "穆迪将匈牙利主权评级展望上调至稳定，确认Baa2评级 提供者 Investing.com - 英为财情 Investing.com",
+   "summary": "",
+   "time": "2026-11-21 06:39",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Lb2RYN24xVHBwQUxmcWk1azZObmNnSzFFOGgtbGpPTzN2d3N6RTZ3dmZ1aE9tYWhzQjNKSnM5VHRTb1VuVWx4MXlxT1F3RTRGdVV1Ml95MERyTklURmxFUzRYYUZScWc?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "对万斯不满？特朗普回应 - 观察者网",
@@ -1809,25 +1915,18 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "穆迪将匈牙利评级展望由负面上调至稳定 - 东方财富",
+   "title": "美财长称仍面临伊朗安全“威胁” 目前住在军事基地",
    "summary": "",
-   "time": "2026-11-21 06:04",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ENmVDYWx1ODJEQUItaWxrOC1vSGFBMW81dlp6ZlB1T0tCLTlRM3Z3Y0FWLXBnaHNLVzV3bXpwZkhGaEtPbjZrLThDTzlLQmtvclNEN0lvaWJjZ3h5ZkpoZWNKTQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美媒：美国联邦调查局国家犯罪信息中心遭黑客攻击",
-   "summary": "",
-   "time": "2026-11-21 02:20:12",
-   "url": "https://news.futunn.com/flash/1005246590/us-media-fbi-s-national-crime-information-center-hacked",
-   "source": "富途"
-  },
-  {
-   "title": "黄仁勋获特朗普支持",
-   "summary": "",
-   "time": "2026-11-21 02:55:56",
-   "url": "https://news.10jqka.com.cn/20261121/c682072261.shtml",
+   "time": "2026-11-21 03:18:38",
+   "url": "https://news.10jqka.com.cn/20261121/c682072368.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "黄河内蒙古段进入2026至2027年度凌汛期",
+   "summary": "",
+   "time": "2026-11-21 03:21:17",
+   "url": "https://news.futunn.com/flash/1005249470/the-inner-mongolia-section-of-the-yellow-river-enters-the",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月19日周四",
@@ -1844,11 +1943,18 @@
    "source": "财新"
   },
   {
-   "title": "中际旭创：光模块行业需求仍然强劲 订单能见度延伸至2028年",
-   "summary": "【中际旭创：光模块行业需求仍然强劲 订单能见度延伸至2028年】中际旭创股份有限公司近期披露，当前行业需求依然强劲，公司主要客户订单已基本覆盖2027年全年，目前已有至少一家重点客户给出2028年明确需求指引，且需求强劲，其他客户的需求指引仍在持续收集中，预计公司800G、1.6T产品订单需求仍将保持快速增长。",
-   "time": "2026-11-21 11:14:00",
-   "url": "https://finance.eastmoney.com/a/202611213936793646.html",
+   "title": "元气森林唐彬森：今年外星人电解质水与好自在产品线均实现双位数增长",
+   "summary": "【元气森林唐彬森：今年外星人电解质水与好自在产品线均实现双位数增长】11月20日，元气森林2026年度全国经销商大会在珠海举行。元气森林创始人唐彬森在主题演讲中表示，2026年是公司“做减法、实现增长”的一年。他介绍，外星人电解质水与好自在两条产品线均实现双位数增长。",
+   "time": "2026-11-21 11:53:22",
+   "url": "https://finance.eastmoney.com/a/202611213936798760.html",
    "source": "东财国际"
+  },
+  {
+   "title": "穆迪将匈牙利评级展望由负面上调至稳定 - 东方财富",
+   "summary": "",
+   "time": "2026-11-21 06:21",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ENmVDYWx1ODJEQUItaWxrOC1vSGFBMW81dlp6ZlB1T0tCLTlRM3Z3Y0FWLXBnaHNLVzV3bXpwZkhGaEtPbjZrLThDTzlLQmtvclNEN0lvaWJjZ3h5ZkpoZWNKTQ?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "特朗普称中俄美元首会晤史无前例、意义重大 - 凤凰网",
@@ -1865,25 +1971,18 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "标普将乌兹别克斯坦主权信用评级上调至\"BB+\" 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "黄仁勋获特朗普支持",
    "summary": "",
-   "time": "2026-11-21 05:56",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4anlmR2tNcUJpWVJGUHRRcEhpekJDd0ZnbU5GQzRjLXRSOGxYOE92ajVyWWIyTzRialFVcHpqamowVFpGN2hRMjJJY2w0UnZNdnVzbkJwT1h5TkNMUFVsSnBvT0c2TVU?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美国收紧对加防务合作限制，美加传统盟友关系再现裂痕",
-   "summary": "",
-   "time": "2026-11-21 01:56:32",
-   "url": "https://news.futunn.com/flash/1005245352/us-tightens-restrictions-on-defense-cooperation-with-canada-cracks-reappear",
-   "source": "富途"
-  },
-  {
-   "title": "软银集团董事长孙正义曾探讨以1万亿美元收购SK海力士",
-   "summary": "",
-   "time": "2026-11-21 02:31:26",
-   "url": "https://news.10jqka.com.cn/20261121/c682072143.shtml",
+   "time": "2026-11-21 02:55:56",
+   "url": "https://news.10jqka.com.cn/20261121/c682072261.shtml",
    "source": "同花顺"
+  },
+  {
+   "title": "美媒：美国联邦调查局国家犯罪信息中心遭黑客攻击",
+   "summary": "",
+   "time": "2026-11-21 02:20:12",
+   "url": "https://news.futunn.com/flash/1005246590/us-media-fbi-s-national-crime-information-center-hacked",
+   "source": "富途"
   },
   {
    "title": "【本文系数据通用户提前专享】长期被视为高净值人群专属的信托，尝试应对普通家庭的养老需求，前景如何？",
@@ -1893,10 +1992,10 @@
    "source": "财新"
   },
   {
-   "title": "美财长称仍居住在军事基地",
-   "summary": "【美财长称仍居住在军事基地】美国财政部长贝森特20日称，他依然面临来自伊朗方面的安全“威胁”，因此目前仍居住在军事基地里。",
-   "time": "2026-11-21 11:04:14",
-   "url": "https://finance.eastmoney.com/a/202611213936793192.html",
+   "title": "国家发展改革委召开视频会议调度督促政府投资资金支付使用和项目储备工作",
+   "summary": "【国家发展改革委召开视频会议调度督促政府投资资金支付使用和项目储备工作】11月20日，国家发展改革委召开政府投资资金支付使用和项目储备工作视频会议，委党组成员、副主任岳修虎同志出席并讲话。会议通报了各地政府投资资金支付使用和重大项目储备工作情况，浙江、河南、广东、黑龙江、安徽、陕西等6省发展改革委负责同志作了交流发言。",
+   "time": "2026-11-21 11:49:22",
+   "url": "https://finance.eastmoney.com/a/202611213936798685.html",
    "source": "东财国际"
   }
  ],
@@ -1904,7 +2003,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(15)",
+   "富途": "ok(16)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1914,11 +2013,11 @@
   },
   "counts": {
    "东财国际": 7,
+   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
-   "富途": 6,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
    "财新": 6
   }
