@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-21 10:59:05 CST",
- "generated_at_iso": "2026-11-21T10:59:05+08:00",
+ "generated_at": "2026-11-21 11:07:18 CST",
+ "generated_at_iso": "2026-11-21T11:07:18+08:00",
  "date": "2026-11-21",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -946,11 +946,10 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5137.8901,
-    "change": 70.45,
-    "change_pct": 1.39,
+    "price": 4869.96,
+    "change": -267.93,
+    "change_pct": -5.21,
     "hist": [
-     6625.93,
      6384.24,
      6035.35,
      6008.81,
@@ -979,10 +978,11 @@
      5100.5,
      4968.48,
      5067.4399,
-     5137.8901
+     5137.8901,
+     4869.96
     ],
-    "sigma": 3.188,
-    "volume": 206729.0,
+    "sigma": 3.357,
+    "volume": 206700.0,
     "vol_chg_pct": -4.1,
     "vol_pctile": 2.8,
     "vol_hist": [
@@ -1015,29 +1015,8 @@
      194000.0,
      219100.0,
      195700.0,
-     206729.0
+     206700.0
     ]
-   },
-   {
-    "name": "印度SENSEX",
-    "sym": "BSESN",
-    "price": 83021.75,
-    "change": 989.94,
-    "change_pct": 1.21
-   },
-   {
-    "name": "台湾加权",
-    "sym": "TWII",
-    "price": 36033.29,
-    "change": -2393.6,
-    "change_pct": -6.23
-   },
-   {
-    "name": "德国DAX",
-    "sym": "DAX",
-    "price": 24802.78,
-    "change": -661.03,
-    "change_pct": -2.6
    },
    {
     "name": "英国富时100",
@@ -1226,13 +1205,6 @@
      5941.95
     ],
     "sigma": 1.19
-   },
-   {
-    "name": "俄罗斯MOEX",
-    "sym": "MOEX",
-    "price": 2351.56,
-    "change": -67.87,
-    "change_pct": -2.81
    }
   ]
  },
@@ -1322,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 58612.7,
-    "change": -3660.3,
-    "change_pct": -5.88,
-    "source": "okx"
+    "price": 58233.6,
+    "change": -3769.1,
+    "change_pct": -6.08,
+    "source": "okx",
+    "hist": [
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     58259.9
+    ],
+    "sigma": 2.226
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1620.64,
-    "change": -129.3,
-    "change_pct": -7.39,
-    "source": "okx"
+    "price": 1608.1,
+    "change": -134.21,
+    "change_pct": -7.7,
+    "source": "okx",
+    "hist": [
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1609.11
+    ],
+    "sigma": 3.17
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 68.62,
-    "change": -4.36,
-    "change_pct": -5.97,
-    "source": "okx"
+    "price": 67.91,
+    "change": -4.62,
+    "change_pct": -6.37,
+    "source": "okx",
+    "hist": [
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     67.94
+    ],
+    "sigma": 3.242
    }
   ],
   "fx": [
@@ -1413,15 +1484,37 @@
  },
  "speakers": [
   {
+   "keyword": "贝森特",
+   "label": "贝森特",
+   "hint": "美国财长，关税与财政政策的关键传声筒",
+   "title": "美财长称仍居住在军事基地",
+   "summary": "【美财长称仍居住在军事基地】美国财政部长贝森特20日称，他依然面临来自伊朗方面的安全“威胁”，因此目前仍居住在军事基地里。",
+   "time": "2026-11-21 11:04:14",
+   "url": "https://finance.eastmoney.com/a/202611213936793192.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称无法接受伊朗想达成的协议 重申伊朗“永远不会拥有核武器” - 中国新闻网",
+   "title": "对万斯不满？特朗普回应 - 观察者网",
    "summary": "",
-   "time": "2026-11-21 10:31",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xMTQySm1kY2tMZnJrUU0xS0h6MU85YlpnQTk1aEZwNDV5TUMzZ0JKQTN0NnBoRi1obUJMM21EMVFTR2VUMUhrTXZQdWpoYmZIUVVjcmdGMXFlTVJibDRuWS1fYVQ1RU12?oc=5",
+   "time": "2026-11-21 10:56",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GMU9XMUduaGdzZHpKcW1DcG1MZUdDUDN0QlBPNmlLVlJleFRISzlIenBPY2hPaWhvRnI3RVFwVWJtOWs2UlQ3ZlNISk5GcnQyb0Z4dWlQME8tbjRSai00M0VWZmUzVE00MkQzSWxQTVloSzg?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 6
+   "mentions": 3
+  },
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "黄仁勋获特朗普支持",
+   "summary": "",
+   "time": "2026-11-21 02:55:56",
+   "url": "https://news.10jqka.com.cn/20261121/c682072261.shtml",
+   "source": "同花顺",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1485,13 +1578,13 @@
   ],
   "reports": [
    {
-    "title": "德意志银行启动对冠城国际的覆盖，给予持有评级，目标价为$96 - Moomoo",
-    "org": "德意志银行",
+    "title": "穆迪将匈牙利主权评级展望上调至稳定，确认Baa2评级 提供者 Investing.com - 英为财情 Investing.com",
+    "org": "穆迪",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-21",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZFk2eWxjaE41SmFEcW5KM1Y0YUhsZ1h3ZWZqdkc2dHM3LThidk9DRE40dnIyNmdNLWVHRnBna1pVZHo1cElZY29LX1JZLV9wQTB5NWsyZkF2LTBJUXNpU2k1WExsUTMweEZlTHhwandjeW1TSjVzOTVPZnlZRm94VHI4OWhPV0E5WVZmZVVsVVJHeDV5RmQwR3VnMnE4WTZ5bXhxUXR5ZklfcUc2bU0wbnJnTkQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Lb2RYN24xVHBwQUxmcWk1azZObmNnSzFFOGgtbGpPTzN2d3N6RTZ3dmZ1aE9tYWhzQjNKSnM5VHRTb1VuVWx4MXlxT1F3RTRGdVV1Ml95MERyTklURmxFUzRYYUZScWc?oc=5",
     "source": "机构观点"
    },
    {
@@ -1639,130 +1732,116 @@
  "alerts": [
   {
    "level": "danger",
-   "asset": "台湾加权",
-   "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-21 10:59",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 13 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-21 10:59",
+   "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-21 11:08",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 10:59",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "warning",
-   "asset": "德国DAX",
-   "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 10:59",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "warning",
-   "asset": "俄罗斯MOEX",
-   "message": "俄罗斯MOEX单日跌2.81%，达20日历史波动率的 2.3 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
+   "asset": "比特币",
+   "message": "比特币单日跌6.08%，达20日历史波动率的 2.7 倍（σ=2.23%，突破 2σ 警戒线）",
+   "time": "2026-11-21 11:08",
+   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
+  },
+  {
+   "level": "warning",
    "asset": "以太坊",
-   "message": "以太坊单日跌7.39%，达20日历史波动率的 2.1 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 10:59",
+   "message": "以太坊单日跌7.70%，达20日历史波动率的 2.4 倍（σ=3.17%，突破 2σ 警戒线）",
+   "time": "2026-11-21 11:08",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-21 10:59",
+   "time": "2026-11-21 11:08",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "特朗普称无法接受伊朗想达成的协议 重申伊朗“永远不会拥有核武器” - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-21 10:31",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xMTQySm1kY2tMZnJrUU0xS0h6MU85YlpnQTk1aEZwNDV5TUMzZ0JKQTN0NnBoRi1obUJMM21EMVFTR2VUMUhrTXZQdWpoYmZIUVVjcmdGMXFlTVJibDRuWS1fYVQ1RU12?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "美国FBI正在调查刑事信息数据库遭入侵事件",
-   "summary": "据报道，美国FBI正在调查刑事信息数据库遭入侵事件。",
-   "time": "2026-11-21 10:29:37",
-   "url": "https://finance.eastmoney.com/a/202611213936791229.html",
+   "title": "美财长称仍居住在军事基地",
+   "summary": "【美财长称仍居住在军事基地】美国财政部长贝森特20日称，他依然面临来自伊朗方面的安全“威胁”，因此目前仍居住在军事基地里。",
+   "time": "2026-11-21 11:04:14",
+   "url": "https://finance.eastmoney.com/a/202611213936793192.html",
    "source": "东财国际"
   },
   {
-   "title": "机构：需求降温，11月电视、显示器及笔电面板价格或全面持平",
-   "summary": "11月20日，TrendForce集邦咨询公布了11月面板价格：2026年11月，电视、显示器、笔电面板价格与前月一致。电视面板方面，进入11月，电视面板逐步转入淡季循环，需求转弱，预计第四季主要电视品牌的采购动能将季减6%左右；目前预估11月电视面板价格仍将维持全面持平态势。",
-   "time": "2026-11-21 10:17",
-   "url": "https://wallstreetcn.com/livenews/3203633",
+   "title": "美中俄峰会谁是赢家？余茂春分析特朗普应对习、普策略 - 美国之音",
+   "summary": "",
+   "time": "2026-11-21 11:00",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZm5DM0VQWXFzTDc0Nl9EMVVfYTcwVkhiWlNNQ1dfdHl1TkdLMnBCVFNRMmFkSkluWGsyYTh3QU10S3hjb2ZoTHFjR3FpekFncTFobzNsbERnanhLNDNJZ2pLNEdLbnkzTEE2dTRwcW9hNVpDVVdBQUxUeXlZbEVWR2JmYlZhSldiNExIMGhrbXhQd1pMb21XbXk1Q3VMdFhXSlBXeFVObFdMSjZrN2ZKU0x2aWRNX3pTbmFJUFlB0gHAAUFVX3lxTE5ZNmh1SGQwMEpHRHR1RWl5NFAyRnpxLWIzQ0MzUnIxNHNYcVFteUlzbkNTYTN1bWJUWDZ5d1dVZ2VSOXdvN2J1Sm80RS04bmw0eHpnRll1VFpZNzRkNWpEOUJTYUpWNUwxNTk2R1hDZnNoblhUQlVMb1NsMTZkQWg0czlncW1vbmNrMDNrTkFVOVAwTkdJZkNLQTUwU1lNOF9HejVIUlB2Tm44Tm1WQmRRTGZ4YnY5TXRqOUJNeU1RVg?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "腾讯姚顺雨团队深夜回应一切：下一代模型将大幅扩容，小尺寸模型已在路线图上",
+   "summary": "今日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员在 Reddit 上进行了一场 AMA（Ask Me Anything）。",
+   "time": "2026-11-21 10:56",
+   "url": "https://wallstreetcn.com/livenews/3203636",
    "source": "华尔街见闻"
   },
   {
@@ -1773,10 +1852,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "软银集团董事长孙正义曾探讨以1万亿美元收购SK海力士",
+   "title": "黄仁勋获特朗普支持",
    "summary": "",
-   "time": "2026-11-21 02:31:26",
-   "url": "https://news.10jqka.com.cn/20261121/c682072143.shtml",
+   "time": "2026-11-21 02:55:56",
+   "url": "https://news.10jqka.com.cn/20261121/c682072261.shtml",
    "source": "同花顺"
   },
   {
@@ -1801,24 +1880,24 @@
    "source": "财新"
   },
   {
-   "title": "菲军方拒绝特朗普：这事儿，真不行 - 观察者网",
-   "summary": "",
-   "time": "2026-11-21 10:13",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ESUZDbmJzajh4eXBDNmlGT1JaVnZIMmU1X2pzWTFMYkRqWEFCRjRhOVJYOV9mWlRWUHdjYTFJSF9YUkMyYW05aXRSb1NnM0hBZ3JqbkFsd1BPajJOTThQMWxwNjhnSnRjRWNSQXA1LTAxQVE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "2026新西兰—中国商品博览会开幕",
-   "summary": "【2026新西兰—中国商品博览会开幕】20日，2026新西兰—中国商品博览会在新西兰最大城市奥克兰开幕，展会共持续三天。本次博览会总共设有13个行业展区，涉及食品饮料、轻工纺织、数字电子、光伏储能、文化旅游、电子商务等领域，同时展示中国非物质文化遗产相关产品和技艺。活动现场还举办了“出口中国”新西兰专场活动和中国—新西兰经贸企业对接活动。",
-   "time": "2026-11-21 10:27:22",
-   "url": "https://finance.eastmoney.com/a/202611213936790750.html",
+   "title": "伊朗称击落第58架美军“死神”无人机",
+   "summary": "【伊朗称击落第58架美军“死神”无人机】伊朗伊斯兰革命卫队公共关系部门11月21日在社交媒体上说，一架美军MQ-9型“死神”无人机当天在霍尔木兹海峡上空被伊斯兰革命卫队新型防空系统拦截并击落。这是伊方击落的第58架美军“死神”无人机。根据所搭载的传感器和武器不同类型，一架MQ-9型“死神”无人机的造价在3000万美元至5000万美元之间。",
+   "time": "2026-11-21 11:01:49",
+   "url": "https://finance.eastmoney.com/a/202611213936793396.html",
    "source": "东财国际"
   },
   {
-   "title": "量子计算机“高速内存”全球首次真机实现",
-   "summary": "浙江大学西溪校区物理学院超导量子计算实验室内，形似巨型金属圆筒的稀释制冷机内部，一枚由浙江大学微纳加工中心制备、指甲盖大小的超导量子芯片躺在最低温区的混合室上，四周密布着铝线和微波同轴线缆。这枚芯片名为“天目2号”，此前在这里完成了一项重大突破——QRAM（量子随机存储器）的全球首次真机实现，这项成果相当于给量子计算机装上了“高速内存”。该研究由浙江大学物理学院、计算机学院、软件学院和宁波国际科创",
-   "time": "2026-11-21 10:16",
-   "url": "https://wallstreetcn.com/livenews/3203632",
+   "title": "对万斯不满？特朗普回应 - 观察者网",
+   "summary": "",
+   "time": "2026-11-21 10:56",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GMU9XMUduaGdzZHpKcW1DcG1MZUdDUDN0QlBPNmlLVlJleFRISzlIenBPY2hPaWhvRnI3RVFwVWJtOWs2UlQ3ZlNISk5GcnQyb0Z4dWlQME8tbjRSai00M0VWZmUzVE00MkQzSWxQTVloSzg?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "机构：需求降温，11月电视、显示器及笔电面板价格或全面持平",
+   "summary": "11月20日，TrendForce集邦咨询公布了11月面板价格：2026年11月，电视、显示器、笔电面板价格与前月一致。电视面板方面，进入11月，电视面板逐步转入淡季循环，需求转弱，预计第四季主要电视品牌的采购动能将季减6%左右；目前预估11月电视面板价格仍将维持全面持平态势。",
+   "time": "2026-11-21 10:17",
+   "url": "https://wallstreetcn.com/livenews/3203633",
    "source": "华尔街见闻"
   },
   {
@@ -1829,10 +1908,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "联合国呼吁也门冲突各方重返谈判",
+   "title": "软银集团董事长孙正义曾探讨以1万亿美元收购SK海力士",
    "summary": "",
-   "time": "2026-11-21 02:22:52",
-   "url": "https://news.10jqka.com.cn/20261121/c682072115.shtml",
+   "time": "2026-11-21 02:31:26",
+   "url": "https://news.10jqka.com.cn/20261121/c682072143.shtml",
    "source": "同花顺"
   },
   {
@@ -1857,38 +1936,38 @@
    "source": "财新"
   },
   {
-   "title": "特朗普：中俄美元首会晤具有重大历史意义 - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-21 10:04",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TSXhGSHk1MTNuMmlpVXVKdkdORGNNMndCSlItMV9TY0hQZUhjMTVtQl90ZVB6TUJlRHUzTGJRM25vOGR4YTJqdEZmMF9KYjFwNEtBcHg3al9mRU5PT0hIQkotSkFpUWlr?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "特朗普公开场合再次力挺黄仁勋：英伟达应该接受道歉 让他回来工作",
-   "summary": "【特朗普公开场合再次力挺黄仁勋：英伟达应该接受道歉 让他回来工作】当地时间11月20日，特朗普在白宫记者会上再次公开支持英伟达前首席执行官黄仁勋回归。据《华尔街日报》发布的一段视频，特朗普在记者会上说：“他是个好人。他做过一些错误决定，但他确实是个非常有才华的人。”",
-   "time": "2026-11-21 10:27:06",
-   "url": "https://finance.eastmoney.com/a/202611213936790462.html",
+   "title": "2026脑机接口十五项标志性成果发布",
+   "summary": "【2026脑机接口十五项标志性成果发布】今日，在2026脑机接口大会上，十五项脑机接口标志性创新成果对外发布，主要包括芯智达“北脑一号”智能脑机系统、中电云脑非侵入式高精度脑电采集计算芯片、品驰医疗植入式脑机接口神经刺激器、阶梯医疗无线植入式超柔性脑机接口系统、神舞科技ND系列多模态信号采集系统等。这批成果集中展现国内在侵入式设备、脑电芯片、信号采集、医疗康复及工业安全等方向的最新进展。",
+   "time": "2026-11-21 11:01:44",
+   "url": "https://finance.eastmoney.com/a/202611213936793282.html",
    "source": "东财国际"
   },
   {
-   "title": "积存金价格跌至“7字头”，银行纷纷提示贵金属市场波动风险",
-   "summary": "11月20日，国际金价跌破3600美元/盎司，与其高度联动的积存金价格随之下探进入“7字头”区间。截至发稿时，工银积存金报769元/克，当日跌幅达3.5%。同日，工商银行发布关于贵金属市场波动风险的提示。同日，建设银行、招商银行、宁波银行等也发布相关风险提示。受访人士建议，在金价尚未企稳时不宜一次性重仓抄底，建议以定投方式分批建仓、摊薄成本，把黄金作为资产配置中的防御性配置，而非波段交易工具。（上",
-   "time": "2026-11-21 08:42",
-   "url": "https://wallstreetcn.com/livenews/3203628",
+   "title": "特朗普点赞深圳：这个城市干净无瑕，而我们有些城市脏得让人恶心 - 凤凰网",
+   "summary": "",
+   "time": "2026-11-21 10:21",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBVZkk0SWhTOE1yZUEwcEF6cEgweGJHdlpkcnpoQTFCTFA3MXhYYlVSNGQwUnA3RDZpc2g4ZjgzaWFRY3lzMkZOMGJxVms?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "量子计算机“高速内存”全球首次真机实现",
+   "summary": "浙江大学西溪校区物理学院超导量子计算实验室内，形似巨型金属圆筒的稀释制冷机内部，一枚由浙江大学微纳加工中心制备、指甲盖大小的超导量子芯片躺在最低温区的混合室上，四周密布着铝线和微波同轴线缆。这枚芯片名为“天目2号”，此前在这里完成了一项重大突破——QRAM（量子随机存储器）的全球首次真机实现，这项成果相当于给量子计算机装上了“高速内存”。该研究由浙江大学物理学院、计算机学院、软件学院和宁波国际科创",
+   "time": "2026-11-21 10:16",
+   "url": "https://wallstreetcn.com/livenews/3203632",
    "source": "华尔街见闻"
   },
   {
-   "title": "标准普尔将赞比亚信用评级上调至\"B-/B\"，铜价走强与债务重组进展获认可 提供者 Investing.com - 英为财情 Investing.com",
+   "title": "标普将乌兹别克斯坦主权信用评级上调至\"BB+\" 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-21 05:53",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44ZHZXTUMzTExyX3E2Nmh1T29hRWloUDhwM2xsLV9wdzlTdUVud0pkb2hmUzBzTUx3cjlLeEZLeG5iUzAzNUJnS1BZS1NsRXJXN3ItUWY3enBmYXJiS0RRQlB4NXJycnc?oc=5",
+   "time": "2026-11-21 05:56",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4anlmR2tNcUJpWVJGUHRRcEhpekJDd0ZnbU5GQzRjLXRSOGxYOE92ajVyWWIyTzRialFVcHpqamowVFpGN2hRMjJJY2w0UnZNdnVzbkJwT1h5TkNMUFVsSnBvT0c2TVU?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普评价中俄美元首会晤：“史无前例”“意义重大”",
+   "title": "联合国呼吁也门冲突各方重返谈判",
    "summary": "",
-   "time": "2026-11-21 02:15:17",
-   "url": "https://news.10jqka.com.cn/20261121/c682072083.shtml",
+   "time": "2026-11-21 02:22:52",
+   "url": "https://news.10jqka.com.cn/20261121/c682072115.shtml",
    "source": "同花顺"
   },
   {
@@ -1906,11 +1985,11 @@
    "source": "财新"
   },
   {
-   "title": "特朗普：深圳干净整洁，一尘不染 - 观察者网",
-   "summary": "",
-   "time": "2026-11-21 09:32",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pYlZUal9RTXpPSXlJcDdLa2stZDZ5QjYtVFhyX0ZrcGtJc2pHUXk4SmZFMTVqR2Y5eEl3eWFDdG5VNThuM3d6VjJNdkFWVHhWS0VxVDJYUElnNFlzYVFNMHRuYVlyN1dBbXlsV09EN19wYTg?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "市值一夜蒸发近5000亿美元！英伟达遭遇重挫 黄仁勋回归变数加大",
+   "summary": "【市值一夜蒸发近5000亿美元！英伟达遭遇重挫 黄仁勋回归变数加大】美股11月20日，英伟达暴跌14.01%，市值3.03万亿美元，一夜蒸发4928亿美元市值，市值回到一年多以前的水平。英伟达已连跌7天，累计跌去27.74%。对比10月6日的股价高点，在45天时间内，英伟达则已累计跌去47.53%，股价几近腰斩。",
+   "time": "2026-11-21 10:59:10",
+   "url": "https://finance.eastmoney.com/a/202611213936792957.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
@@ -1926,8 +2005,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 6,
