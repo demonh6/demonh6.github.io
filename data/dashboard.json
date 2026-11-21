@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-21 21:26:54 CST",
- "generated_at_iso": "2026-11-21T21:26:54+08:00",
+ "generated_at": "2026-11-21 21:35:12 CST",
+ "generated_at_iso": "2026-11-21T21:35:12+08:00",
  "date": "2026-11-21",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1094,6 +1094,13 @@
     ]
    },
    {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 36033.29,
+    "change": -2393.6,
+    "change_pct": -6.23
+   },
+   {
     "name": "德国DAX",
     "sym": "DAX",
     "price": 24802.78,
@@ -1483,27 +1490,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59735.6,
-    "change": -1732.4,
-    "change_pct": -2.82,
+    "price": 59847.8,
+    "change": -1513.3,
+    "change_pct": -2.47,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1680.0,
-    "change": -52.53,
-    "change_pct": -3.03,
+    "price": 1683.54,
+    "change": -46.4,
+    "change_pct": -2.68,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.93,
-    "change": -0.83,
-    "change_pct": -1.17,
+    "price": 69.78,
+    "change": -0.84,
+    "change_pct": -1.19,
     "source": "okx"
    }
   ],
@@ -1512,23 +1519,23 @@
     "name": "美元指数",
     "sym": "DXY",
     "price": 103.84,
-    "change": -0.11,
-    "change_pct": -0.11,
+    "change": -0.102,
+    "change_pct": -0.1,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-21",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6752,
-    "change": -0.0172,
-    "change_pct": -0.26,
+    "price": 6.6737,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-21",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1537,9 +1544,9 @@
     "change": 2.68,
     "change_pct": 1.99,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1574,15 +1581,26 @@
  },
  "speakers": [
   {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "第三次喊话力挺黄仁勋，特朗普向英伟达董事会下“政治通牒”：希望黄仁勋重返英伟达担任CEO，强调要保护像他这样的“人才” - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-21 21:33",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rclFuYzdfTUV0eVlaSHJsMUJ5Q0JxYmN6SEZpbGpwYjRFSF9RTDlvUjJQdkc5RHRSZTluOG93WGwxWE9mN1BkRk1VSTNlUE9oY3JUYTlnODhVRzNuSlRYcTdON0JpU3JFRDVoTzh0X00?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称中国大举扩充核武，他和普京习近平“关系好极了”，泽连斯基回应：普京是杀人凶手 - DW.com",
+   "title": "不改“特朗普”了，福特级四号舰维持黑人水兵命名 - 观察者网",
    "summary": "",
-   "time": "2026-11-21 20:12",
-   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPem1mZkJjWjNvREJwYkJRSS03MENNNHBSOFE0LTdBTFlVVUpQVnZlTFRwel9NX1BXX1phaWUxaDNrdkR2SlhvbzNBTTdvTG40R0xjOThoWFBSM3hKUHJvNE40aEc4N01GR3REZlN2TmVZTkZNdFpOZzh1RUdISEdYRDZITUhJNUZOUXhUMjQ0RVVGaTZsNDNpMmFER1RJUUFhd0FYTmlfa1M3b1B1WDhYbExvd3FhdTJULUxQWXlPbkl3ajZsZlBZWEpZRDNJZTZJdWRiaS0wa2Q2c0J0MXFOeUYxNnN3N3o4NVNZWEFSUUtHN09IOTBQSDdBckRER0s4YktUVDJ3MW9kTkFTcWU2eURObGJzZmU4UFBqWkdtOHFKcmxpV3VpeDhXZ2tXZTFkOWdubkdwZ0hLNE5lSFBVdHZNblLSAcQCQVVfeXFMT3pHakxJNVprLXg2dkJFUFF5aEwxanBPOHcwN1piR2JFd3k5OEd5a0ZETkpsNkhBU2xmVkVyMTM4dDRwNjRpZkpTRVJOc0hFSkRvdTdFQ3p1cUQtYTA2dlZnVGZHaVdUQjdQWl9POEtMenIxck9xNkhOV01SaklIaHFwMU5yZDhaV2JsR3RfWThaTWpPMUpMb0JfdUFmbnJBRVpUakhEbVJldmhRWmhWdU1YYVRjLWlNaGcyc1RSVnZWcEZRamFvMlloLUJFdmVHZmtuU0g1UmFhUUlhbEZQdVB4TVJtUjNzUllQalN4MDRWWXAtWlowZFZsMlFLR2hGbDZkSzFhVHplU1l6c0FOcWVrQi1KOElaTjQzZ0MwZEV5S0o1b215d1ZuWnNrMk8yQjlBbHlKNXhqYkVLVnVtZl9RQmIt?oc=5",
+   "time": "2026-11-21 20:29",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pZ0tHRGVHMUhmTWpSY0wwZml1el81YldOQkFsZVFXVlNaMFVRQTl3TndSengyWm5UcVJxcnZ0MW4tZXAzRkhCbjdpYzRpejRTb2xUQ0VLdjhMc3VzVTlvZEo5UQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 1
   }
  ],
  "research": {
@@ -1790,124 +1808,131 @@
  "alerts": [
   {
    "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-21 21:36",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 13 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-21 21:27",
+   "message": "深证成指、创业板指、中证500等 14 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-21 21:36",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "德国DAX",
    "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.1 倍（σ=1.26%，突破 2σ 警戒线）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "俄罗斯MOEX",
    "message": "俄罗斯MOEX单日跌2.69%，达20日历史波动率的 2.4 倍（σ=1.12%，突破 2σ 警戒线）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-21 21:27",
+   "time": "2026-11-21 21:36",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "泽连斯基会见英国国防大臣，讨论乌防空能力建设",
-   "summary": "11月21日，乌克兰总统泽连斯基在基辅会见到访的英国国防大臣斯特里廷。双方重点就乌防空能力建设、“爱国者”防空系统所用拦截弹供应、联合武器生产、远程打击能力等议题进行磋商。在联合武器生产与远程打击能力建设方面，双方认为该领域具备深化合作的空间。通过联合生产与技术协作，能够助力乌克兰推进本土导弹研发计划。此外，泽连斯基还表示，英国提供的新一批国防与人道主义援助总额超过5亿英镑。（央视）",
-   "time": "2026-11-21 21:07",
-   "url": "https://wallstreetcn.com/livenews/3203681",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "泽连斯基会见英国国防大臣 讨论乌防空能力建设",
-   "summary": "【泽连斯基会见英国国防大臣，讨论乌防空能力建设】当地时间11月21日，乌克兰总统泽连斯基在基辅会见到访的英国国防大臣斯特里廷。双方重点就乌防空能力建设、“爱国者”防空系统所用拦截弹供应、联合武器生产、远程打击能力等议题进行磋商。",
-   "time": "2026-11-21 21:06:55",
-   "url": "https://finance.eastmoney.com/a/202611213936842937.html",
+   "title": "伊朗称击中一架F-16战机",
+   "summary": "【伊朗称击中一架F-16战机】据伊朗媒体21日报道，伊朗军队防空系统20日在波斯湾上空拦截并击中一架F-16战机，该战机受损，在某机场紧急降落。",
+   "time": "2026-11-21 21:34:04",
+   "url": "https://finance.eastmoney.com/a/202611213936846972.html",
    "source": "东财国际"
   },
   {
-   "title": "高盛上调中国H股评级，预计2027年盈利增速加快 提供者 Investing.com - 英为财情 Investing.com",
-   "summary": "",
-   "time": "2026-11-21 20:54",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYMzAwbnZ5YkxCM18yeGRqdjdOeHFmUDNiS3dkVlNrZDc1Zm1xNWh6dWloR0Z0SU5zRDhmNGZWemdGNW94cDl6bWNaNERjZmtsdExaNnJxMVJicE9tQW83a2syUkFsLTlWX2c?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "伊朗军方称其防空导弹在波斯湾上空击中一架美军F-16战斗机，迫使其紧急降落。",
+   "summary": "伊朗军方称其防空导弹在波斯湾上空击中一架美军F-16战斗机，迫使其紧急降落。",
+   "time": "2026-11-21 21:33",
+   "url": "https://wallstreetcn.com/livenews/3203684",
+   "source": "华尔街见闻"
   },
   {
-   "title": "在深圳坐车不拉窗帘看什么？特朗普回白宫自曝：路面修补的痕迹都没看到 - 新浪财经",
+   "title": "第三次喊话力挺黄仁勋，特朗普向英伟达董事会下“政治通牒”：希望黄仁勋重返英伟达担任CEO，强调要保护像他这样的“人才” - 手机新浪网",
    "summary": "",
-   "time": "2026-11-21 20:49",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWndWbDl5MmpKV2pCRU9QNlhrYkUzR0pVRGV6YkJFSDQxaXFJcjBJUEl5WjFMVXhBZGdneW9TZGVHaDA3cEJNVUNEWXQxRE5PZUpTcVNpT2EwcU83SUZ2MDFSTUpTTENhOUw3a3hZSkI2Y2hma0U0NzdzR3JIcFRVYmRFZTdTQnZNY2tITDhVaVp5VHdUY1p5NEdVSTljRlNNUXRqZ1dheHc2b0NLYTFISHZvT1lKNXBvdXl0VUpNWjN3SEpTSFVTSFE5SkJfRmRVcUkxRFVybFNveGdKMlp3cg?oc=5",
+   "time": "2026-11-21 21:33",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rclFuYzdfTUV0eVlaSHJsMUJ5Q0JxYmN6SEZpbGpwYjRFSF9RTDlvUjJQdkc5RHRSZTluOG93WGwxWE9mN1BkRk1VSTNlUE9oY3JUYTlnODhVRzNuSlRYcTdON0JpU3JFRDVoTzh0X00?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "亚投行签署协定推进在港设办事处 - 紫荆网",
+   "summary": "",
+   "time": "2026-11-21 21:33",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS2VVWWI3XzFER0MxYXNOM1dYRF9DeGwyMU5lUURnd3EzTUNFclFVNG5hcnB3YXMyVTRkbG9reEpUQ2RpTm5XN3VTUFZRazBPRk5EeDBTVkVxckh5enBaN09WWGdwNEFvZlZnUm1ZMHhyYm45S0x5d1BRMnRvWk5hNW13ajdPOE9JMEF1Unc1LUpScGJY?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "我国“5G+工业互联网”项目达2.7万个 已覆盖全部41个工业大类",
@@ -1938,32 +1963,32 @@
    "source": "财新"
   },
   {
-   "title": "以军袭击加沙城一辆汽车，致3死多伤",
-   "summary": "据巴勒斯坦方面当地时间21日消息，以色列军方战机当天中午袭击了加沙地带加沙城西南部的一辆汽车，造成3名巴勒斯坦人死亡、另有数人受伤。据目击者称，遭袭车辆当时正在向加沙城内的一处流离失所民众营地运送慈善组织提供的食物。（央视）",
-   "time": "2026-11-21 21:07",
-   "url": "https://wallstreetcn.com/livenews/3203680",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "美国火车盗窃团伙落网 案值逾2000万美元",
-   "summary": "【美国火车盗窃团伙落网 案值逾2000万美元】11月21日消息，美国司法部说，日前抓获一个专门盗窃货运列车的团伙。该团伙共有14人，年龄从21岁至38岁不等。2024年2月至2026年8月期间，这一团伙在加州南部持续作案，盗窃至少36趟货运列车，失窃货物总值约2250万美元。",
-   "time": "2026-11-21 21:02:37",
-   "url": "https://finance.eastmoney.com/a/202611213936843092.html",
+   "title": "数万家智能工厂背后 AI到底改变了什么？",
+   "summary": "【数万家智能工厂背后 AI到底改变了什么？】“过去靠看风口亮度、听异响、摸水温来判断炉况，现在，我们给高炉装上了‘透视眼’。”南钢人工智能研究院院长李瑾彦说，高炉周边布设了上千个传感器，实时采集温度、压力、图像等多维数据，铁水一级品率提升了10个百分点，217个产品和技术达到国际领先水平。印象中“傻大黑粗”的钢铁企业，依靠“智改数转网联”，实现了从依赖个人经验的“手工作坊式”操作，到依靠数据算法的标准化、精准化生产的转变。",
+   "time": "2026-11-21 21:25:24",
+   "url": "https://finance.eastmoney.com/a/202611213936845370.html",
    "source": "东财国际"
   },
   {
-   "title": "亚投行签署协定 推进在香港开设办公室 - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-21 19:56",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUFzdlpTOGxaT2tGWFdzN1lSY1dia0Zxbk4xT3Vna3BIcDlwR2hUd015NlQyOFh6Y1lBb1E1R3lxZGRvcFlXOWhQa1IxUExNS25TVXU0cGJTTWVwMFRKQ3ZtU19vcloyZkE?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "欧盟领导人会议主席：提议进一步削减2028-34年欧盟预算草案，并开征数字税",
+   "summary": "欧盟领导人峰会主席周六提议进一步削减欧盟委员会提出的2028-2034年欧盟预算草案，并建议开辟新的收入来源，包括征收数字税，以帮助为欧盟政策提供资金。\n\n作为欧盟领导人峰会主席的安东尼奥·科斯塔提出的削减方案，将使七年期预算总额较爱尔兰轮值主席国于10月提交的提案减少400亿欧元，降至1.582万亿欧元；与欧盟委员会最初的提案相比，则减少1806亿欧元。",
+   "time": "2026-11-21 21:25",
+   "url": "https://wallstreetcn.com/livenews/3203683",
+   "source": "华尔街见闻"
   },
   {
-   "title": "特朗普称中国大举扩充核武，他和普京习近平“关系好极了”，泽连斯基回应：普京是杀人凶手 - DW.com",
+   "title": "在深圳坐车不拉窗帘看什么？特朗普回白宫自曝：路面修补的痕迹都没看到 - 新浪财经",
    "summary": "",
-   "time": "2026-11-21 20:12",
-   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPem1mZkJjWjNvREJwYkJRSS03MENNNHBSOFE0LTdBTFlVVUpQVnZlTFRwel9NX1BXX1phaWUxaDNrdkR2SlhvbzNBTTdvTG40R0xjOThoWFBSM3hKUHJvNE40aEc4N01GR3REZlN2TmVZTkZNdFpOZzh1RUdISEdYRDZITUhJNUZOUXhUMjQ0RVVGaTZsNDNpMmFER1RJUUFhd0FYTmlfa1M3b1B1WDhYbExvd3FhdTJULUxQWXlPbkl3ajZsZlBZWEpZRDNJZTZJdWRiaS0wa2Q2c0J0MXFOeUYxNnN3N3o4NVNZWEFSUUtHN09IOTBQSDdBckRER0s4YktUVDJ3MW9kTkFTcWU2eURObGJzZmU4UFBqWkdtOHFKcmxpV3VpeDhXZ2tXZTFkOWdubkdwZ0hLNE5lSFBVdHZNblLSAcQCQVVfeXFMT3pHakxJNVprLXg2dkJFUFF5aEwxanBPOHcwN1piR2JFd3k5OEd5a0ZETkpsNkhBU2xmVkVyMTM4dDRwNjRpZkpTRVJOc0hFSkRvdTdFQ3p1cUQtYTA2dlZnVGZHaVdUQjdQWl9POEtMenIxck9xNkhOV01SaklIaHFwMU5yZDhaV2JsR3RfWThaTWpPMUpMb0JfdUFmbnJBRVpUakhEbVJldmhRWmhWdU1YYVRjLWlNaGcyc1RSVnZWcEZRamFvMlloLUJFdmVHZmtuU0g1UmFhUUlhbEZQdVB4TVJtUjNzUllQalN4MDRWWXAtWlowZFZsMlFLR2hGbDZkSzFhVHplU1l6c0FOcWVrQi1KOElaTjQzZ0MwZEV5S0o1b215d1ZuWnNrMk8yQjlBbHlKNXhqYkVLVnVtZl9RQmIt?oc=5",
+   "time": "2026-11-21 20:49",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWndWbDl5MmpKV2pCRU9QNlhrYkUzR0pVRGV6YkJFSDQxaXFJcjBJUEl5WjFMVXhBZGdneW9TZGVHaDA3cEJNVUNEWXQxRE5PZUpTcVNpT2EwcU83SUZ2MDFSTUpTTENhOUw3a3hZSkI2Y2hma0U0NzdzR3JIcFRVYmRFZTdTQnZNY2tITDhVaVp5VHdUY1p5NEdVSTljRlNNUXRqZ1dheHc2b0NLYTFISHZvT1lKNXBvdXl0VUpNWjN3SEpTSFVTSFE5SkJfRmRVcUkxRFVybFNveGdKMlp3cg?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "高盛上调中国H股评级，预计2027年盈利增速加快 提供者 Investing.com - 英为财情 Investing.com",
+   "summary": "",
+   "time": "2026-11-21 20:54",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYMzAwbnZ5YkxCM18yeGRqdjdOeHFmUDNiS3dkVlNrZDc1Zm1xNWh6dWloR0Z0SU5zRDhmNGZWemdGNW94cDl6bWNaNERjZmtsdExaNnJxMVJicE9tQW83a2syUkFsLTlWX2c?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "泽连斯基：在基辅与英国国防大臣会晤，英方提供超5亿英镑新援助",
@@ -1994,32 +2019,32 @@
    "source": "财新"
   },
   {
-   "title": "乌克兰：俄罗斯清理克里米亚大桥拱门残骸需耗时数月",
-   "summary": "乌克兰预计，连接俄罗斯本土与克里米亚半岛的大桥在本周一系列袭击中受损后，俄方清理桥梁残骸将耗时数月。乌克兰国防部长Yevheniy Khmara表示：“他们正在进行勘察——他们已经派潜水员下水，正在拆解并研究将大桥受损部分打捞出来的方法。我们估计，他们将这一结构吊起并清理到一旁至少需要几个月的时间。”\n\n在周一至周四的一系列无人机和导弹袭击中，乌克兰瞄准了大桥上一对被证明是薄弱环节的支撑拱门，成功",
-   "time": "2026-11-21 21:06",
-   "url": "https://wallstreetcn.com/livenews/3203679",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "欧盟再对乌提供10亿欧元军事支持",
-   "summary": "【欧盟再对乌提供10亿欧元军事支持】欧盟理事会11月20日通过两项决定，批准通过欧洲和平基金再向乌克兰提供10亿欧元军事支持，用于为乌克兰武装部队采购军事装备。这批装备包括无人机、防空装备、弹药、电子战设备和雷达系统等，计划于2027年底前交付。",
-   "time": "2026-11-21 20:36:15",
-   "url": "https://finance.eastmoney.com/a/202611213936842490.html",
+   "title": "泽连斯基会见英国国防大臣 讨论乌防空能力建设",
+   "summary": "【泽连斯基会见英国国防大臣，讨论乌防空能力建设】当地时间11月21日，乌克兰总统泽连斯基在基辅会见到访的英国国防大臣斯特里廷。双方重点就乌防空能力建设、“爱国者”防空系统所用拦截弹供应、联合武器生产、远程打击能力等议题进行磋商。",
+   "time": "2026-11-21 21:06:55",
+   "url": "https://finance.eastmoney.com/a/202611213936842937.html",
    "source": "东财国际"
   },
   {
-   "title": "亚投行与中国中央政府和港府签协议 确立在香港设办事处 - 联合早报",
-   "summary": "",
-   "time": "2026-11-21 18:13",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5RGJOQzREYkxrb29EY19XWFJWQlg1WjJXNi0tU3BlU0x3Z0x6N29yVV9sWnIzUmRPaWl5MmU0TFRkUHhZNGdwQmExWm1xeHEzWDBUNzhybTVOX1BvZkxaZXlhVjFvamI2ZWMw?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "泽连斯基会见英国国防大臣，讨论乌防空能力建设",
+   "summary": "11月21日，乌克兰总统泽连斯基在基辅会见到访的英国国防大臣斯特里廷。双方重点就乌防空能力建设、“爱国者”防空系统所用拦截弹供应、联合武器生产、远程打击能力等议题进行磋商。在联合武器生产与远程打击能力建设方面，双方认为该领域具备深化合作的空间。通过联合生产与技术协作，能够助力乌克兰推进本土导弹研发计划。此外，泽连斯基还表示，英国提供的新一批国防与人道主义援助总额超过5亿英镑。（央视）",
+   "time": "2026-11-21 21:07",
+   "url": "https://wallstreetcn.com/livenews/3203681",
+   "source": "华尔街见闻"
   },
   {
-   "title": "特朗普、普京、李在明等APEC与会领导人感谢中国，点赞深圳：“这是历史性的一页” - 中国新闻网",
+   "title": "不改“特朗普”了，福特级四号舰维持黑人水兵命名 - 观察者网",
    "summary": "",
-   "time": "2026-11-21 18:41",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GMkw5dUpkR1QxZmk2Umdnd0duelZINWRjTmItQzFmRUR4N1pNVzdaSXVjY0c2ZTRvamt1d3kwSm8wRmFFdHB0X2xaSHhwZTgwZl9ZR0VtUGE5N0VZclJGUXkyVC1XSEtQ?oc=5",
+   "time": "2026-11-21 20:29",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pZ0tHRGVHMUhmTWpSY0wwZml1el81YldOQkFsZVFXVlNaMFVRQTl3TndSengyWm5UcVJxcnZ0MW4tZXAzRkhCbjdpYzRpejRTb2xUQ0VLdjhMc3VzVTlvZEo5UQ?oc=5",
    "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "10股获买入评级 最新:三星电气 - 中财网",
+   "summary": "",
+   "time": "2026-11-21 20:36",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhWnItUDNzM0hRMHFRam9Hb2VQckpqN08zWFVyOHYwejgxdWdLVjQ2TVVHMEd4NUllOW42SXF4X0dMTmlHUlcwb3VmZ21ZdjNoYmFQaHRR?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "泽连斯基：打击克里米亚大桥是对俄军袭击乌桥梁的回应",
@@ -2043,18 +2068,18 @@
    "source": "财新"
   },
   {
-   "title": "行业报告：中国脑机接口产业集聚于三大城市群",
-   "summary": "21日于北京举行的2026脑机接口大会主论坛发布《脑机接口创新发展研究报告(2026)》。\n\n报告显示，中国脑机接口产业集聚于京津冀、长三角和粤港澳三大城市群，已初步形成重视原创、转化、制造的优质协同链条。2026年，全球脑机接口企业数量达1175家，相比2025年有较快增长。脑机接口国际产业发展环境不断完善，产业格局面临洗牌。中国、美国等从技术、应用、生态、治理等方面推进，积极争取产业话语权。脑",
-   "time": "2026-11-21 20:43",
-   "url": "https://wallstreetcn.com/livenews/3203677",
-   "source": "华尔街见闻"
+   "title": "美国火车盗窃团伙落网 案值逾2000万美元",
+   "summary": "【美国火车盗窃团伙落网 案值逾2000万美元】11月21日消息，美国司法部说，日前抓获一个专门盗窃货运列车的团伙。该团伙共有14人，年龄从21岁至38岁不等。2024年2月至2026年8月期间，这一团伙在加州南部持续作案，盗窃至少36趟货运列车，失窃货物总值约2250万美元。",
+   "time": "2026-11-21 21:02:37",
+   "url": "https://finance.eastmoney.com/a/202611213936843092.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(28)",
+   "富途": "ok(27)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2063,10 +2088,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
