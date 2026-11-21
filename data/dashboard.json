@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-21 08:27:37 CST",
- "generated_at_iso": "2026-11-21T08:27:37+08:00",
+ "generated_at": "2026-11-21 08:35:54 CST",
+ "generated_at_iso": "2026-11-21T08:35:54+08:00",
  "date": "2026-11-21",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 4869.96,
-    "change": -267.93,
-    "change_pct": -5.21,
+    "price": 5137.8901,
+    "change": 70.45,
+    "change_pct": 1.39,
     "hist": [
      6384.24,
      6035.35,
@@ -1017,6 +1017,27 @@
      195700.0,
      206729.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83021.75,
+    "change": 989.94,
+    "change_pct": 1.21
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 36033.29,
+    "change": -2393.6,
+    "change_pct": -6.23
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 24802.78,
+    "change": -661.03,
+    "change_pct": -2.6
    },
    {
     "name": "英国富时100",
@@ -1205,6 +1226,13 @@
      5941.95
     ],
     "sigma": 1.19
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2351.56,
+    "change": -67.87,
+    "change_pct": -2.81
    }
   ]
  },
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59032.8,
-    "change": -3067.5,
-    "change_pct": -4.94,
+    "price": 59111.9,
+    "change": -2985.6,
+    "change_pct": -4.81,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1624.29,
-    "change": -132.16,
-    "change_pct": -7.52,
+    "price": 1627.71,
+    "change": -128.1,
+    "change_pct": -7.3,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.02,
-    "change": -4.02,
-    "change_pct": -5.5,
+    "price": 69.12,
+    "change": -3.82,
+    "change_pct": -5.24,
     "source": "okx"
    }
   ],
@@ -1388,12 +1416,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普证实将白宫网络安全总监凯恩克罗斯解职 - 美国之音",
+   "title": "特朗普：此次亚洲行未能见金正恩 总有一天会见面 - 中国新闻网",
    "summary": "",
-   "time": "2026-11-21 07:47",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFZyV2RLaFBNLUJhU0ZrRVBNSm9YcHotUGRTNGZFeExKQnhrNjF2ZEVyNU81TjN4a1BSR09iajJzSjhEVDRJUlg3NFZQRHpybjhEdjFCTXo0bTJGVGdkRThoLWRVUTR3a08tQ2JWQnJ0Y001SVhzMjZ1eDZyYmJ3ZDV4bWJkdjg4QmlXcmJaeXVjVkNUYTlsWVAyb1hVNWVhd0pjTUR6aDZwWDVKRWZGMUJvYW1Hd9IBuAFBVV95cUxOUDMwNUt4d0NPX0p0ZlNKbzA5QkRFZTNSMEFZVFo1RzBFYTdLblRkQS1DYVBrcUloZ1NjSk5fZHMxMXBxVGJRWmppTE5GbVdJWnBySktiWUlXWloyUjROT2ItZXkzRldscG96TEc5Wmc0QmR2dVdEd1FFeDlna1ByOHdoQ3lzZWpiM3kySGk3WWNFbDRQcThsN0daQTdNYVkyRzlyU2JleW5PM3FfZEVDZUwxY0FzZ0lt?oc=5",
+   "time": "2026-11-21 08:21",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zSG5PeFk0Y1NQQnd5MHpXREpyblpfdjUtUUZsclVjSjVZQVdFOEJON0k2QldrbXViYVhmWTVxTHVMWkItb2VhUGdNTmxyS0VjWHVNa3dUSWZwMmhpdEYyXzUxZVN3WXJw?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 3
   }
  ],
  "research": {
@@ -1621,110 +1649,131 @@
  "alerts": [
   {
    "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-21 08:36",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-21 08:27",
+   "message": "深证成指、创业板指、中证500等 13 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-21 08:36",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "德国DAX",
+   "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-21 08:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "俄罗斯MOEX",
+   "message": "俄罗斯MOEX单日跌2.81%，达20日历史波动率的 2.3 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-21 08:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "以太坊",
-   "message": "以太坊单日跌7.52%，达20日历史波动率的 2.1 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 08:27",
+   "message": "以太坊单日跌7.30%，达20日历史波动率的 2.1 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-21 08:36",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-21 08:27",
+   "time": "2026-11-21 08:36",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "丰田将在美国召回314029辆配备高田安全气囊充气装置的汽车",
-   "summary": "丰田将在美国召回314,029辆配备高田安全气囊充气装置的汽车。",
-   "time": "2026-11-21 07:59:29",
-   "url": "https://finance.eastmoney.com/a/202611213936762828.html",
+   "title": "年内险资调研A股公司超1.46万次 电子元件、集成电路以及医疗保健设备等领域受关注",
+   "summary": "今年以来，险资在积极布局资本市场的同时，也在不断探索符合资金需求的优质标的，其调研方向成为观察险资布局与关注焦点的风向标。万得数据显示，今年以来险资调研A股公司合计达14633次，主要关注电子元件、工业机械、集成电路以及医疗保健设备等领域。",
+   "time": "2026-11-21 08:30",
+   "url": "https://wallstreetcn.com/livenews/3203624",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "零跑汽车回应“A10后备厢被几箱啤酒压穿底”：系下层独立储物盒受损 非底板或整车承载结构损坏",
+   "summary": "【零跑汽车回应“A10后备厢被几箱啤酒压穿底”：系下层独立储物盒受损 非底板或整车承载结构损坏】11月20日晚，针对网传零跑A10后备厢被几箱啤酒压穿底一事，@零跑汽车发布《关于零跑A10后备厢储物盒的情况说明》称，近日关注到网络上流传的零跑A10后备厢下层储物盒受损的相关视频。公司高度重视，第一时间联系用户并对车辆进行了检测。经核实，本次受损部件为后备厢盖板下方的独立储物盒，系装载物品超过其设计承重上限所致，并非后备厢底板或整车承载结构受损。",
+   "time": "2026-11-21 08:29:56",
+   "url": "https://finance.eastmoney.com/a/202611213936778087.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普证实将白宫网络安全总监凯恩克罗斯解职 - 美国之音",
+   "title": "特朗普：此次亚洲行未能见金正恩 总有一天会见面 - 中国新闻网",
    "summary": "",
-   "time": "2026-11-21 07:47",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFZyV2RLaFBNLUJhU0ZrRVBNSm9YcHotUGRTNGZFeExKQnhrNjF2ZEVyNU81TjN4a1BSR09iajJzSjhEVDRJUlg3NFZQRHpybjhEdjFCTXo0bTJGVGdkRThoLWRVUTR3a08tQ2JWQnJ0Y001SVhzMjZ1eDZyYmJ3ZDV4bWJkdjg4QmlXcmJaeXVjVkNUYTlsWVAyb1hVNWVhd0pjTUR6aDZwWDVKRWZGMUJvYW1Hd9IBuAFBVV95cUxOUDMwNUt4d0NPX0p0ZlNKbzA5QkRFZTNSMEFZVFo1RzBFYTdLblRkQS1DYVBrcUloZ1NjSk5fZHMxMXBxVGJRWmppTE5GbVdJWnBySktiWUlXWloyUjROT2ItZXkzRldscG96TEc5Wmc0QmR2dVdEd1FFeDlna1ByOHdoQ3lzZWpiM3kySGk3WWNFbDRQcThsN0daQTdNYVkyRzlyU2JleW5PM3FfZEVDZUwxY0FzZ0lt?oc=5",
+   "time": "2026-11-21 08:21",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zSG5PeFk0Y1NQQnd5MHpXREpyblpfdjUtUUZsclVjSjVZQVdFOEJON0k2QldrbXViYVhmWTVxTHVMWkItb2VhUGdNTmxyS0VjWHVNa3dUSWZwMmhpdEYyXzUxZVN3WXJw?oc=5",
    "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "报道：加拿大向Stellantis提供备选方案以保住安大略省工厂",
-   "summary": "据知情人士透露，加拿大联邦政府、安大略省政府以及代表该厂工人的工会已达成一致，决不让欧洲车企斯泰兰蒂斯Stellantis NV出售其位于多伦多附近的一座闲置汽车工厂。\n\n11月20日，加拿大工业部长乔利（Mélanie Joly）、安大略省省长福特（Doug Ford）以及加拿大汽车工人工会（Unifor）全国主席佩恩（Lana Payne）等人，就Stellantis计划将其位于安大略省布兰普",
-   "time": "2026-11-21 07:21",
-   "url": "https://wallstreetcn.com/livenews/3203620",
-   "source": "华尔街见闻"
   },
   {
    "title": "穆迪将匈牙利主权评级展望上调至稳定，确认Baa2评级 提供者 Investing.com - 英为财情 Investing.com",
@@ -1734,17 +1783,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "Anthropic数学家称与Claude合作证明黎曼猜想",
+   "title": "秘鲁发生地震　首都利马震感强烈",
    "summary": "",
-   "time": "2026-11-20 23:52:35",
-   "url": "https://news.10jqka.com.cn/20261121/c682069573.shtml",
+   "time": "2026-11-21 00:22:50",
+   "url": "https://news.10jqka.com.cn/20261121/c682071396.shtml",
    "source": "同花顺"
   },
   {
-   "title": "标普500指数重挫 VIX恐慌指数一度升至40",
+   "title": "特朗普：中俄美元首会晤“史无前例”“意义重大”",
    "summary": "",
-   "time": "2026-11-20 21:35:48",
-   "url": "https://news.futunn.com/flash/1005230626/s-p-500-plunges-vix-fear-gauge-hits-40",
+   "time": "2026-11-21 00:11:24",
+   "url": "https://news.futunn.com/flash/1005237948/trump-trilateral-summit-between-china-russia-and-the-us-unprecedented",
    "source": "富途"
   },
   {
@@ -1755,32 +1804,32 @@
    "source": "东财早报"
   },
   {
-   "title": "鹰派预期升温与流动性收紧共振，金融属性承压，银价大幅下挫",
+   "title": "在AI算力、电力的卖方市场下，提前锁定燃机产能的模式，存在较高的退出代价。且企业在美大规模基建投资的回报周期也受到审视",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-20/102507190.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-21/102507377.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "ETF与国资相继举牌 市场再迎增量资金",
-   "summary": "【ETF与国资相继举牌 市场再迎增量资金】近日，华夏上证科创板半导体材料设备主题ETF增持安集科技79.92万股，持股比例升至5.00%，触及举牌线，值得注意的是，这也是年内ETF首次举牌A股上市公司；同期，中国国新旗下国新产业资本披露，其对黔源电力的持股比例已升至6%，并计划未来3个月内继续增持不少于600万股。一边是ETF频频加仓甚至被动“买到”举牌线，一边是国有资本主动举牌后连续增持，A股市场正迎来新的增量资金。",
-   "time": "2026-11-21 07:58:32",
-   "url": "https://finance.eastmoney.com/a/202611203936464112.html",
+   "title": "秘鲁发生6.7级地震",
+   "summary": "据美国地质调查局（USGS），秘鲁Carhuamayo东北方向9公里发生6.7级地震。\n\n秘鲁中部发生地震，首都利马有震感。",
+   "time": "2026-11-21 08:28",
+   "url": "https://wallstreetcn.com/livenews/3203623",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "1到10月白酒累计产量下跌超4% 行业去库存到了关键期？",
+   "summary": "【1到10月白酒累计产量下跌超4% 行业去库存到了关键期？】白酒渠道去库存同时，酒厂的产量也在同步下降。近日，国家统计局发布的酒类产量数据显示，1至10月，规上白酒企业（折65度，商品量）产量累计259.2万千升，同比下降4.3%。其中10月（折65度，商品量）产量23.9万千升，同比下降8.1%。",
+   "time": "2026-11-21 08:27:00",
+   "url": "https://finance.eastmoney.com/a/202611203936313439.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：仍相信卢特尼克 望黄仁勋郑重道歉并回归 - 联合早报",
+   "title": "特朗普：目前谈判的一大困难，是普京与泽连斯基之间存在“深刻仇恨” - 凤凰网",
    "summary": "",
-   "time": "2026-11-21 07:40",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hUlhtOG1aeWhtd3JBVlRSdTFoS0MxZTlzaVV2dXdIT0tiM2IzZGRpWHNGZXNycThBOExIZXUyU3huRHZSeHZtYW9EYm5xLWZVWUV5SUdNV2JGdGQ3eFJkTC1ncm92T1VvY1o0?oc=5",
+   "time": "2026-11-21 08:20",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE10aHZxZ2F2LXRMR29IZXZGSDlMVEN6Z1pNTGZTMG5jM1B4dkFXOHltZUo3ZmJiQzlDV25SQVdFS0ZOQlo5ZDJBZU9sWnA?oc=5",
    "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "机构：美国政府债务上限“X日”若在8月到来将“问题重重”",
-   "summary": "加拿大帝国商业银行（CIBC）策略师Michael Cloherty、Ian Pollick和Arjun Ananth在一份报告中表示，债务上限可能在8月中下旬触及所谓的“最后期限”（drop-dead date，即X日）。这将是一个棘手的问题，因为它不仅会对约850亿美元的息票支付构成理论上的违约风险，还会迫使投资者必须持有更多现金或抵押品作为缓冲。他们写道：“我们认为，美国财政部有很大概率能撑",
-   "time": "2026-11-21 07:00",
-   "url": "https://wallstreetcn.com/livenews/3203619",
-   "source": "华尔街见闻"
   },
   {
    "title": "穆迪将匈牙利评级展望由负面上调至稳定 - 东方财富",
@@ -1790,17 +1839,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "Databricks正初步洽谈融资 目标估值2250亿美元",
+   "title": "新华社发起亚太媒体合作伙伴计划，首批310家机构覆盖41个国家和地区",
    "summary": "",
-   "time": "2026-11-20 23:37:32",
-   "url": "https://news.10jqka.com.cn/20261121/c682069533.shtml",
+   "time": "2026-11-21 00:02:55",
+   "url": "https://news.10jqka.com.cn/20261121/c682069672.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美元指数20日下跌",
+   "title": "标普500指数重挫 VIX恐慌指数一度升至40",
    "summary": "",
-   "time": "2026-11-20 21:06:49",
-   "url": "https://news.futunn.com/flash/1005228842/us-dollar-index-falls-on-the-20th",
+   "time": "2026-11-20 21:35:48",
+   "url": "https://news.futunn.com/flash/1005230626/s-p-500-plunges-vix-fear-gauge-hits-40",
    "source": "富途"
   },
   {
@@ -1811,32 +1860,32 @@
    "source": "东财早报"
   },
   {
-   "title": "得州采取的ERCOT机制有明显的低价优势，但在极端情况下面临停电风险；得州居民担心数据中心的能耗负担转嫁给民生，各类电价中，居民电价最贵且涨幅最大",
+   "title": "鹰派预期升温与流动性收紧共振，金融属性承压，银价大幅下挫",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-20/102507056.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-20/102507190.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "硬科技企业如何赢得资本青睐？",
-   "summary": "【硬科技企业如何赢得资本青睐？】一边是国内大模型企业DeepSeek完成新一轮产业资本入股，一边是海外AI（人工智能）龙头Anthropic登陆纳斯达克创下史上最大IPO（首次公开募股）。近期，AI赛道接连发生的两起标志性资本事件，为观察硬科技企业成长逻辑与资本选择方向提供了新的窗口。",
-   "time": "2026-11-21 07:55:00",
-   "url": "https://finance.eastmoney.com/a/202611213936556321.html",
+   "title": "报道：加拿大向Stellantis提供备选方案以保住安大略省工厂",
+   "summary": "据知情人士透露，加拿大联邦政府、安大略省政府以及代表该厂工人的工会已达成一致，决不让欧洲车企斯泰兰蒂斯Stellantis NV出售其位于多伦多附近的一座闲置汽车工厂。\n\n11月20日，加拿大工业部长乔利（Mélanie Joly）、安大略省省长福特（Doug Ford）以及加拿大汽车工人工会（Unifor）全国主席佩恩（Lana Payne）等人，就Stellantis计划将其位于安大略省布兰普",
+   "time": "2026-11-21 07:21",
+   "url": "https://wallstreetcn.com/livenews/3203620",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "第100家央企“满月”答卷：数据要素改革“实体操盘”提速",
+   "summary": "【第100家央企“满月”答卷：数据要素改革“实体操盘”提速】10月20日揭牌，11月20日满月。短短一个月，国家数据集团有限公司完成了从“亮相”到“起步”的切换：国务院国资委监管央企名录扩容至100家，数据要素市场化改革从制度设计迈入实体化运营，治理架构、股东协同、雄安场景、全国数据市场、AI供给五条线同步铺开。这家备受瞩目的新央企，轮廓日渐清晰。",
+   "time": "2026-11-21 08:26:25",
+   "url": "https://finance.eastmoney.com/a/202611213936777867.html",
    "source": "东财国际"
   },
   {
-   "title": "世纪晚宴菜单曝光！特朗普、马斯克吃的啥 - 新浪财经_金融信息服务商",
+   "title": "特朗普未收回对普京“朋友”称呼 但回避上升至国家层面 - 联合早报",
    "summary": "",
-   "time": "2026-11-21 07:36",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOREN5SlN2SG9GNElFY3JucHFld3JJS3RBc3IxemVwc2xVR2xqc3FXVWtfbUJ2RnFOSGJMMGhVN3lUcTFkNzExODI2YTF5WkczM1ZTcWx1aERJb3M3SWJzT3RNTThmYUJ3TGgySlFEN3kxTVRFNnJCcEduUkpfNGJlN2pyOWpMRlFMX0djazdTZHgyX0Y5cUNDT3hNa2NmR1kyanJsUGcwR2t3TU1VT1FjQ01jZVNrbGxBemVDMkpHS3VJdVhqWl9kWmRNeHctbDV1M1RKVHV2dw?oc=5",
+   "time": "2026-11-21 08:03",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FWHVyYjhFNUNoUHRRdEhVQ29yMHktWHlPLVYtODdwRWVMVTRTb0VUTEhQV0VjOFpHNmV1UGFPeXd1QmFaUnNKYXZYR25XS1R5SlhhZWNWMHV5VFhzS3pQazFjQzdaVTc1OHFN?oc=5",
    "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "报道：卢特尼克曾要求电池初创企业Pure Lithium接受美方接管，但被拒绝",
-   "summary": "路透社查阅的文件及一位直接了解该请求的人士透露，美国商务部长霍华德·卢特尼克曾在7月份要求电池初创企业Pure Lithium向华盛顿方面出让51%的控股权，以此作为换取建设制造工厂资金的先决条件，且协议规定该公司将不拥有或控制该工厂。\n\n7月和8月的文件显示，该公司拒绝了这一提议，理由是这样规模的国有控股权势必会引发公众的严格审查，危及未来的融资能力，且带来的风险将远远超过对股东的任何潜在收益。",
-   "time": "2026-11-21 06:56",
-   "url": "https://wallstreetcn.com/livenews/3203618",
-   "source": "华尔街见闻"
   },
   {
    "title": "标普将乌兹别克斯坦主权信用评级上调至\"BB+\" 提供者 Investing.com - 英为财情 Investing.com",
@@ -1846,39 +1895,39 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "微软正在为Outlook问题开发辅助修复方案",
+   "title": "Anthropic数学家称与Claude合作证明黎曼猜想",
    "summary": "",
-   "time": "2026-11-20 22:56:45",
-   "url": "https://news.10jqka.com.cn/20261121/c682069326.shtml",
+   "time": "2026-11-20 23:52:35",
+   "url": "https://news.10jqka.com.cn/20261121/c682069573.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美股收盘：三大股指低收 Anthropic跌超8%",
+   "title": "美元指数20日下跌",
    "summary": "",
-   "time": "2026-11-20 21:02:00",
-   "url": "https://news.futunn.com/flash/1005228625/us-stock-market-close-major-indices-end-lower-anthropic-drops",
+   "time": "2026-11-20 21:06:49",
+   "url": "https://news.futunn.com/flash/1005228842/us-dollar-index-falls-on-the-20th",
    "source": "富途"
   },
   {
-   "title": "机构人士表示，市场调整计价悲观因素后，恐慌并不比亢奋更理性",
+   "title": "得州采取的ERCOT机制有明显的低价优势，但在极端情况下面临停电风险；得州居民担心数据中心的能耗负担转嫁给民生，各类电价中，居民电价最贵且涨幅最大",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-20/102506990.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-20/102507056.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "年内险资调研A股公司超1.46万次",
-   "summary": "【年内险资调研A股公司超1.46万次】今年以来，险资在积极布局资本市场的同时，也在不断探索符合资金需求的优质标的，其调研方向成为观察险资布局与关注焦点的风向标。数据显示，今年以来险资调研A股公司合计达14633次，主要关注电子元件、工业机械、集成电路以及医疗保健设备等领域。",
-   "time": "2026-11-21 07:54:00",
-   "url": "https://finance.eastmoney.com/a/202611213936556633.html",
-   "source": "东财国际"
+   "title": "机构：美国政府债务上限“X日”若在8月到来将“问题重重”",
+   "summary": "加拿大帝国商业银行（CIBC）策略师Michael Cloherty、Ian Pollick和Arjun Ananth在一份报告中表示，债务上限可能在8月中下旬触及所谓的“最后期限”（drop-dead date，即X日）。这将是一个棘手的问题，因为它不仅会对约850亿美元的息票支付构成理论上的违约风险，还会迫使投资者必须持有更多现金或抵押品作为缓冲。他们写道：“我们认为，美国财政部有很大概率能撑",
+   "time": "2026-11-21 07:00",
+   "url": "https://wallstreetcn.com/livenews/3203619",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(7)",
+   "富途": "ok(10)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1887,9 +1936,9 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
+   "华尔街见闻": 7,
    "东财国际": 7,
    "谷歌新闻·国际": 7,
-   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 6,
    "富途": 6,
