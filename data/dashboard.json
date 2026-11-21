@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-21 20:51:53 CST",
- "generated_at_iso": "2026-11-21T20:51:53+08:00",
+ "generated_at": "2026-11-21 21:00:11 CST",
+ "generated_at_iso": "2026-11-21T21:00:11+08:00",
  "date": "2026-11-21",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,27 +1019,6 @@
     ]
    },
    {
-    "name": "印度SENSEX",
-    "sym": "BSESN",
-    "price": 83919.7109,
-    "change": 897.96,
-    "change_pct": 1.08
-   },
-   {
-    "name": "台湾加权",
-    "sym": "TWII",
-    "price": 36033.29,
-    "change": -2393.6,
-    "change_pct": -6.23
-   },
-   {
-    "name": "德国DAX",
-    "sym": "DAX",
-    "price": 24802.78,
-    "change": -661.03,
-    "change_pct": -2.6
-   },
-   {
     "name": "英国富时100",
     "sym": "FTSE",
     "price": 10346.34,
@@ -1226,13 +1205,6 @@
      5941.95
     ],
     "sigma": 1.19
-   },
-   {
-    "name": "俄罗斯MOEX",
-    "sym": "MOEX",
-    "price": 2354.4,
-    "change": -65.03,
-    "change_pct": -2.69
    }
   ]
  },
@@ -1322,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 58813.5,
-    "change": -2871.7,
-    "change_pct": -4.66,
-    "source": "okx"
+    "price": 58822.6,
+    "change": -2741.0,
+    "change_pct": -4.45,
+    "source": "okx",
+    "hist": [
+     81680.3,
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     58845.2
+    ],
+    "sigma": 2.222
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1663.24,
-    "change": -79.79,
-    "change_pct": -4.58,
-    "source": "okx"
+    "price": 1662.76,
+    "change": -76.98,
+    "change_pct": -4.42,
+    "source": "okx",
+    "hist": [
+     2407.63,
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1663.84
+    ],
+    "sigma": 3.191
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.18,
-    "change": -2.17,
-    "change_pct": -3.04,
-    "source": "okx"
+    "price": 69.16,
+    "change": -1.93,
+    "change_pct": -2.71,
+    "source": "okx",
+    "hist": [
+     104.78,
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     69.18
+    ],
+    "sigma": 3.293
    }
   ],
   "fx": [
@@ -1485,6 +1556,16 @@
   ],
   "reports": [
    {
+    "title": "高盛上调中国H股评级，预计2027年盈利增速加快 提供者 Investing.com - 英为财情 Investing.com",
+    "org": "高盛",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-21",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYMzAwbnZ5YkxCM18yeGRqdjdOeHFmUDNiS3dkVlNrZDc1Zm1xNWh6dWloR0Z0SU5zRDhmNGZWemdGNW94cDl6bWNaNERjZmtsdExaNnJxMVJicE9tQW83a2syUkFsLTlWX2c?oc=5",
+    "source": "机构观点"
+   },
+   {
     "title": "东方财富财经早餐 11月20日周五",
     "org": "摩根大通",
     "rating": "",
@@ -1513,6 +1594,26 @@
     "date": "2026-11-21",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611211831910684",
     "source": "东财研报·个股"
+   },
+   {
+    "title": "医药健康行业研究：医疗服务价格立项指南跟踪：项目规则全面统一，质量与效率驱动行业分化",
+    "org": "国金证券",
+    "rating": "买入",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-21",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611211831922351",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "保险Ⅱ行业点评报告：26Q3保险资金运用数据点评：逆势加仓股票投资，债券占比明显提升",
+    "org": "东吴证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-21",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611201831909981",
+    "source": "东财研报·行业"
    },
    {
     "title": "以光之名，照亮未来",
@@ -1593,170 +1694,136 @@
     "date": "2026-11-20",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611201831889395",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "2026Q3净利润大幅增长，盈利明显改善",
-    "org": "华安证券",
-    "rating": "买入",
-    "stock": "亚辉龙",
-    "industry": "医疗器械",
-    "date": "2026-11-20",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611201831886013",
-    "source": "东财研报·个股"
-   },
-   {
-    "title": "CT+IT全栈技术领先，定制化加自有品牌超节点开始放量",
-    "org": "山西证券",
-    "rating": "买入",
-    "stock": "紫光股份",
-    "industry": "IT服务Ⅱ",
-    "date": "2026-11-20",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611201831885707",
-    "source": "东财研报·个股"
    }
   ]
  },
  "alerts": [
   {
    "level": "danger",
-   "asset": "台湾加权",
-   "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-21 20:52",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 14 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-21 20:52",
+   "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-21 21:01",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 20:52",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "warning",
-   "asset": "德国DAX",
-   "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-21 20:52",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "warning",
-   "asset": "俄罗斯MOEX",
-   "message": "俄罗斯MOEX单日跌2.69%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
+  },
+  {
+   "level": "warning",
+   "asset": "比特币",
+   "message": "比特币单日跌4.45%，达20日历史波动率的 2.0 倍（σ=2.22%，突破 2σ 警戒线）",
+   "time": "2026-11-21 21:01",
+   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-21 20:52",
+   "time": "2026-11-21 21:01",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "公司产品会否提价吗？光威复材回复",
-   "summary": "【公司产品会否提价吗？光威复材回复】有投资者在互动平台向光威复材提问：“中复神鹰于8月份开始对全系列产品提价5%～10％，请问贵公司会同步提价吗？”光威复材回复：公司产品价格依据具体产品、应用领域、合同约定、市场供需、产品成本等因素确定，公司会密切关注市场状况变化，及时合理调整市场策略积极应对市场环境变化。",
-   "time": "2026-11-21 20:13:00",
-   "url": "https://finance.eastmoney.com/a/202611213936841243.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "特朗普称中国大举扩充核武，他和普京习近平“关系好极了”，泽连斯基回应：普京是杀人凶手 - DW.com",
+   "title": "高盛上调中国H股评级，预计2027年盈利增速加快 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-21 20:12",
-   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPem1mZkJjWjNvREJwYkJRSS03MENNNHBSOFE0LTdBTFlVVUpQVnZlTFRwel9NX1BXX1phaWUxaDNrdkR2SlhvbzNBTTdvTG40R0xjOThoWFBSM3hKUHJvNE40aEc4N01GR3REZlN2TmVZTkZNdFpOZzh1RUdISEdYRDZITUhJNUZOUXhUMjQ0RVVGaTZsNDNpMmFER1RJUUFhd0FYTmlfa1M3b1B1WDhYbExvd3FhdTJULUxQWXlPbkl3ajZsZlBZWEpZRDNJZTZJdWRiaS0wa2Q2c0J0MXFOeUYxNnN3N3o4NVNZWEFSUUtHN09IOTBQSDdBckRER0s4YktUVDJ3MW9kTkFTcWU2eURObGJzZmU4UFBqWkdtOHFKcmxpV3VpeDhXZ2tXZTFkOWdubkdwZ0hLNE5lSFBVdHZNblLSAcQCQVVfeXFMT3pHakxJNVprLXg2dkJFUFF5aEwxanBPOHcwN1piR2JFd3k5OEd5a0ZETkpsNkhBU2xmVkVyMTM4dDRwNjRpZkpTRVJOc0hFSkRvdTdFQ3p1cUQtYTA2dlZnVGZHaVdUQjdQWl9POEtMenIxck9xNkhOV01SaklIaHFwMU5yZDhaV2JsR3RfWThaTWpPMUpMb0JfdUFmbnJBRVpUakhEbVJldmhRWmhWdU1YYVRjLWlNaGcyc1RSVnZWcEZRamFvMlloLUJFdmVHZmtuU0g1UmFhUUlhbEZQdVB4TVJtUjNzUllQalN4MDRWWXAtWlowZFZsMlFLR2hGbDZkSzFhVHplU1l6c0FOcWVrQi1KOElaTjQzZ0MwZEV5S0o1b215d1ZuWnNrMk8yQjlBbHlKNXhqYkVLVnVtZl9RQmIt?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "欧盟与印尼签署贸易和投资协定",
-   "summary": "欧盟委员会主席冯德莱恩称，欧盟与印度尼西亚（印尼）签署了综合性经济合作伙伴协议与投资保护协议，以期促进贸易与投资。\n\n欧盟委员会在一份新闻稿中表示，协议取消了欧盟商品出口到印尼的98.5%税目项下的进口关税。这两项协议现在都需要欧洲议会的批准。\n\n印尼当局也在进行其内部的批准程序。",
-   "time": "2026-11-21 20:06",
-   "url": "https://wallstreetcn.com/livenews/3203673",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "亚投行签署协定 推进在香港开设办公室 - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-21 19:56",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUFzdlpTOGxaT2tGWFdzN1lSY1dia0Zxbk4xT3Vna3BIcDlwR2hUd015NlQyOFh6Y1lBb1E1R3lxZGRvcFlXOWhQa1IxUExNS25TVXU0cGJTTWVwMFRKQ3ZtU19vcloyZkE?oc=5",
+   "time": "2026-11-21 20:54",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYMzAwbnZ5YkxCM18yeGRqdjdOeHFmUDNiS3dkVlNrZDc1Zm1xNWh6dWloR0Z0SU5zRDhmNGZWemdGNW94cDl6bWNaNERjZmtsdExaNnJxMVJicE9tQW83a2syUkFsLTlWX2c?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "欧盟再对乌提供10亿欧元军事支持",
+   "title": "在深圳坐车不拉窗帘看什么？特朗普回白宫自曝：路面修补的痕迹都没看到 - 新浪财经",
    "summary": "",
-   "time": "2026-11-21 12:32:41",
-   "url": "https://news.10jqka.com.cn/20261121/c682074244.shtml",
+   "time": "2026-11-21 20:49",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPWndWbDl5MmpKV2pCRU9QNlhrYkUzR0pVRGV6YkJFSDQxaXFJcjBJUEl5WjFMVXhBZGdneW9TZGVHaDA3cEJNVUNEWXQxRE5PZUpTcVNpT2EwcU83SUZ2MDFSTUpTTENhOUw3a3hZSkI2Y2hma0U0NzdzR3JIcFRVYmRFZTdTQnZNY2tITDhVaVp5VHdUY1p5NEdVSTljRlNNUXRqZ1dheHc2b0NLYTFISHZvT1lKNXBvdXl0VUpNWjN3SEpTSFVTSFE5SkJfRmRVcUkxRFVybFNveGdKMlp3cg?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "行业报告：中国脑机接口产业集聚于三大城市群",
+   "summary": "21日于北京举行的2026脑机接口大会主论坛发布《脑机接口创新发展研究报告(2026)》。\n\n报告显示，中国脑机接口产业集聚于京津冀、长三角和粤港澳三大城市群，已初步形成重视原创、转化、制造的优质协同链条。2026年，全球脑机接口企业数量达1175家，相比2025年有较快增长。脑机接口国际产业发展环境不断完善，产业格局面临洗牌。中国、美国等从技术、应用、生态、治理等方面推进，积极争取产业话语权。脑",
+   "time": "2026-11-21 20:43",
+   "url": "https://wallstreetcn.com/livenews/3203677",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "欧盟再对乌提供10亿欧元军事支持",
+   "summary": "【欧盟再对乌提供10亿欧元军事支持】欧盟理事会11月20日通过两项决定，批准通过欧洲和平基金再向乌克兰提供10亿欧元军事支持，用于为乌克兰武装部队采购军事装备。这批装备包括无人机、防空装备、弹药、电子战设备和雷达系统等，计划于2027年底前交付。",
+   "time": "2026-11-21 20:36:15",
+   "url": "https://finance.eastmoney.com/a/202611213936842490.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "我国“5G+工业互联网”项目达2.7万个 已覆盖全部41个工业大类",
+   "summary": "",
+   "time": "2026-11-21 12:58:00",
+   "url": "https://news.10jqka.com.cn/20261121/c682074296.shtml",
    "source": "同花顺"
   },
   {
-   "title": "法国总统府称欧盟最新预算提案“非常令人失望”",
+   "title": "欧盟领导人会议主席提议进一步削减2028-2034年欧盟预算草案，并建议开征数字税",
    "summary": "",
-   "time": "2026-11-21 12:08:39",
-   "url": "https://news.futunn.com/flash/1005267918/the-french-presidency-described-the-eu-s-latest-budget-proposal",
+   "time": "2026-11-21 12:52:32",
+   "url": "https://news.futunn.com/flash/1005269061/the-president-of-the-european-council-has-proposed-further-cuts",
    "source": "富途"
   },
   {
@@ -1774,32 +1841,32 @@
    "source": "财新"
   },
   {
-   "title": "泽连斯基称乌欧美俄四方会谈时间取决于美方协调",
-   "summary": "【泽连斯基称乌欧美俄四方会谈时间取决于美方协调】当地时间11月21日，乌克兰总统泽连斯基在会晤英国国防大臣斯特里廷时表示，下一轮乌克兰、美国、欧洲、俄罗斯四方会谈的举办时间与形式，取决于美方和各方就会议议程协调一致的进度。他称，“美方会尽力推动会谈尽快举行，但预计俄方可能采取行动拖延会议”。",
-   "time": "2026-11-21 20:00:38",
-   "url": "https://finance.eastmoney.com/a/202611213936840844.html",
-   "source": "东财国际"
+   "title": "亚投行签署协定 推进在香港开设办公室 - 中国新闻网",
+   "summary": "",
+   "time": "2026-11-21 19:56",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5xSUFzdlpTOGxaT2tGWFdzN1lSY1dia0Zxbk4xT3Vna3BIcDlwR2hUd015NlQyOFh6Y1lBb1E1R3lxZGRvcFlXOWhQa1IxUExNS25TVXU0cGJTTWVwMFRKQ3ZtU19vcloyZkE?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
-   "title": "在深圳坐车不拉窗帘看什么？特朗普回白宫自曝：路面修补的痕迹都没看到 - 新浪财经",
+   "title": "特朗普称中国大举扩充核武，他和普京习近平“关系好极了”，泽连斯基回应：普京是杀人凶手 - DW.com",
    "summary": "",
-   "time": "2026-11-21 19:43",
-   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPLXB6blRTUmo1aTg0N3lKMThNZVpCSDE1dHNVdFpEeDdNRWZZN2xmQ0FpcVRvYlk2cUhWSFlrYUhiRklSSm05d3AxYlJGZnpUREN4NDVWNzBrS09jcmdkX1F4YjdmTlBZV1ZUa0JSY0l6b2NrUTNVeUJGWWdiSU9ULWpOMEJsXzRvVEpwUFZpakhGaVJ6UHM5Yy1yVGN5ck9lU3MyV3F6SGVJa0JRZDc3NlZXa0VfQU9sYk4xdU1UMHZoVzZ6VDMtQlEtR0pMZVNwc0UtbHpuTUY0aXdIbHAweQ?oc=5",
+   "time": "2026-11-21 20:12",
+   "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxPem1mZkJjWjNvREJwYkJRSS03MENNNHBSOFE0LTdBTFlVVUpQVnZlTFRwel9NX1BXX1phaWUxaDNrdkR2SlhvbzNBTTdvTG40R0xjOThoWFBSM3hKUHJvNE40aEc4N01GR3REZlN2TmVZTkZNdFpOZzh1RUdISEdYRDZITUhJNUZOUXhUMjQ0RVVGaTZsNDNpMmFER1RJUUFhd0FYTmlfa1M3b1B1WDhYbExvd3FhdTJULUxQWXlPbkl3ajZsZlBZWEpZRDNJZTZJdWRiaS0wa2Q2c0J0MXFOeUYxNnN3N3o4NVNZWEFSUUtHN09IOTBQSDdBckRER0s4YktUVDJ3MW9kTkFTcWU2eURObGJzZmU4UFBqWkdtOHFKcmxpV3VpeDhXZ2tXZTFkOWdubkdwZ0hLNE5lSFBVdHZNblLSAcQCQVVfeXFMT3pHakxJNVprLXg2dkJFUFF5aEwxanBPOHcwN1piR2JFd3k5OEd5a0ZETkpsNkhBU2xmVkVyMTM4dDRwNjRpZkpTRVJOc0hFSkRvdTdFQ3p1cUQtYTA2dlZnVGZHaVdUQjdQWl9POEtMenIxck9xNkhOV01SaklIaHFwMU5yZDhaV2JsR3RfWThaTWpPMUpMb0JfdUFmbnJBRVpUakhEbVJldmhRWmhWdU1YYVRjLWlNaGcyc1RSVnZWcEZRamFvMlloLUJFdmVHZmtuU0g1UmFhUUlhbEZQdVB4TVJtUjNzUllQalN4MDRWWXAtWlowZFZsMlFLR2hGbDZkSzFhVHplU1l6c0FOcWVrQi1KOElaTjQzZ0MwZEV5S0o1b215d1ZuWnNrMk8yQjlBbHlKNXhqYkVLVnVtZl9RQmIt?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美国洛杉矶港口罢工威胁因达成临时协议而解除",
-   "summary": "雇主代表组织表示，美国最繁忙港口的约250名安保人员已就新劳资合同条款达成临时协议，从而避免了可能造成严重中断的罢工威胁。\n\n太平洋海事协会（PMA）在一份声明中称，该协议由太平洋海事协会与国际码头和仓库工会（ILWU）第26分会达成，涵盖洛杉矶港和长滩港的工人，尚需获得第26分会成员的投票批准。在协议等待批准期间，现行合同将予以延长。\n\n根据太平洋海事协会早前的估算，受影响码头的任何运营中断都将",
-   "time": "2026-11-21 19:56",
-   "url": "https://wallstreetcn.com/livenews/3203671",
+   "title": "欧盟与印尼签署贸易和投资协定",
+   "summary": "欧盟委员会主席冯德莱恩称，欧盟与印度尼西亚（印尼）签署了综合性经济合作伙伴协议与投资保护协议，以期促进贸易与投资。\n\n欧盟委员会在一份新闻稿中表示，协议取消了欧盟商品出口到印尼的98.5%税目项下的进口关税。这两项协议现在都需要欧洲议会的批准。\n\n印尼当局也在进行其内部的批准程序。",
+   "time": "2026-11-21 20:06",
+   "url": "https://wallstreetcn.com/livenews/3203673",
    "source": "华尔街见闻"
   },
   {
-   "title": "亚投行与中国中央政府和港府签协议 确立在香港设办事处 - 联合早报",
-   "summary": "",
-   "time": "2026-11-21 18:13",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5RGJOQzREYkxrb29EY19XWFJWQlg1WjJXNi0tU3BlU0x3Z0x6N29yVV9sWnIzUmRPaWl5MmU0TFRkUHhZNGdwQmExWm1xeHEzWDBUNzhybTVOX1BvZkxaZXlhVjFvamI2ZWMw?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "公司产品会否提价吗？光威复材回复",
+   "summary": "【公司产品会否提价吗？光威复材回复】有投资者在互动平台向光威复材提问：“中复神鹰于8月份开始对全系列产品提价5%～10％，请问贵公司会同步提价吗？”光威复材回复：公司产品价格依据具体产品、应用领域、合同约定、市场供需、产品成本等因素确定，公司会密切关注市场状况变化，及时合理调整市场策略积极应对市场环境变化。",
+   "time": "2026-11-21 20:13:00",
+   "url": "https://finance.eastmoney.com/a/202611213936841243.html",
+   "source": "东财国际"
   },
   {
    "title": "泽连斯基：在基辅与英国国防大臣会晤，英方提供超5亿英镑新援助",
@@ -1809,10 +1876,10 @@
    "source": "同花顺"
   },
   {
-   "title": "俄罗斯称一艘货船遭无人机袭击，芬兰称该船在其水域起火",
+   "title": "法国总统府称欧盟最新预算提案“非常令人失望”",
    "summary": "",
-   "time": "2026-11-21 12:06:53",
-   "url": "https://news.futunn.com/flash/1005267893/russia-reports-cargo-ship-struck-by-drones-finland-says-vessel",
+   "time": "2026-11-21 12:08:39",
+   "url": "https://news.futunn.com/flash/1005267918/the-french-presidency-described-the-eu-s-latest-budget-proposal",
    "source": "富途"
   },
   {
@@ -1830,11 +1897,11 @@
    "source": "财新"
   },
   {
-   "title": "青海德令哈发生5.6级地震 初步排查未发现人员伤亡和房屋倒塌事件",
-   "summary": "【青海德令哈发生5.6级地震，初步排查未发现人员伤亡和房屋倒塌事件】11月21日，德令哈市融媒体中心发布情况通报：11月21日18时45分在青海海西州德令哈市发生5.6级地震，震源深度10公里，震中位于北纬37.14度，东经96.62度。",
-   "time": "2026-11-21 19:40:04",
-   "url": "https://finance.eastmoney.com/a/202611213936836510.html",
-   "source": "东财国际"
+   "title": "亚投行与中国中央政府和港府签协议 确立在香港设办事处 - 联合早报",
+   "summary": "",
+   "time": "2026-11-21 18:13",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5RGJOQzREYkxrb29EY19XWFJWQlg1WjJXNi0tU3BlU0x3Z0x6N29yVV9sWnIzUmRPaWl5MmU0TFRkUHhZNGdwQmExWm1xeHEzWDBUNzhybTVOX1BvZkxaZXlhVjFvamI2ZWMw?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "特朗普、普京、李在明等APEC与会领导人感谢中国，点赞深圳：“这是历史性的一页” - 中国新闻网",
@@ -1844,18 +1911,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "神舟二十号航天员乘组返回任务取得圆满成功。(央视新闻)",
-   "summary": "神舟二十号航天员乘组返回任务取得圆满成功。(央视新闻)",
-   "time": "2026-11-21 19:45",
-   "url": "https://wallstreetcn.com/livenews/3203669",
+   "title": "美国洛杉矶港口罢工威胁因达成临时协议而解除",
+   "summary": "雇主代表组织表示，美国最繁忙港口的约250名安保人员已就新劳资合同条款达成临时协议，从而避免了可能造成严重中断的罢工威胁。\n\n太平洋海事协会（PMA）在一份声明中称，该协议由太平洋海事协会与国际码头和仓库工会（ILWU）第26分会达成，涵盖洛杉矶港和长滩港的工人，尚需获得第26分会成员的投票批准。在协议等待批准期间，现行合同将予以延长。\n\n根据太平洋海事协会早前的估算，受影响码头的任何运营中断都将",
+   "time": "2026-11-21 19:56",
+   "url": "https://wallstreetcn.com/livenews/3203671",
    "source": "华尔街见闻"
   },
   {
-   "title": "亚投行将在港设办公室 陈茂波称彰显香港汇聚国际资本独特角色 - 香港電台",
-   "summary": "",
-   "time": "2026-11-21 17:34",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN3VMRUo1alJydXA5SkZFNnV3U2xhbWJ5YVR0Z29RRHp5c1dCcUVXTFBXOUlOeWhFY19xMHdrMWtvQ2t2TFdFakV0YzA0RlZaQ0hEdmhGMnoyak93dzlaaHlPby1nazJRV2ZMcWYzNzl3LWlDUkV1dEhhRExDdFhWWGxTbEJaanFPaEF3?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "泽连斯基称乌欧美俄四方会谈时间取决于美方协调",
+   "summary": "【泽连斯基称乌欧美俄四方会谈时间取决于美方协调】当地时间11月21日，乌克兰总统泽连斯基在会晤英国国防大臣斯特里廷时表示，下一轮乌克兰、美国、欧洲、俄罗斯四方会谈的举办时间与形式，取决于美方和各方就会议议程协调一致的进度。他称，“美方会尽力推动会谈尽快举行，但预计俄方可能采取行动拖延会议”。",
+   "time": "2026-11-21 20:00:38",
+   "url": "https://finance.eastmoney.com/a/202611213936840844.html",
+   "source": "东财国际"
   },
   {
    "title": "泽连斯基：打击克里米亚大桥是对俄军袭击乌桥梁的回应",
@@ -1865,10 +1932,10 @@
    "source": "同花顺"
   },
   {
-   "title": "一小时内，阿曼附近霍尔木兹海峡两艘油轮遭不明飞行物袭击",
+   "title": "俄罗斯称一艘货船遭无人机袭击，芬兰称该船在其水域起火",
    "summary": "",
-   "time": "2026-11-21 08:34:51",
-   "url": "https://news.futunn.com/flash/1005260983/within-one-hour-two-oil-tankers-in-the-strait-of",
+   "time": "2026-11-21 12:06:53",
+   "url": "https://news.futunn.com/flash/1005267893/russia-reports-cargo-ship-struck-by-drones-finland-says-vessel",
    "source": "富途"
   },
   {
@@ -1879,11 +1946,11 @@
    "source": "财新"
   },
   {
-   "title": "唐人神：生猪出栏规划会结合市场行情等因素动态优化",
-   "summary": "【唐人神：生猪出栏规划会结合市场行情等因素动态优化】唐人神在投资者关系活动中表示，公司将积极响应国家生猪产能调控相关政策导向，在现有产能下做好自身生产经营，公司生猪出栏规划会结合市场行情、生物安全、现金流等因素动态优化，持续夯实生产稳定性、聚焦提质增效。",
-   "time": "2026-11-21 18:57:00",
-   "url": "https://finance.eastmoney.com/a/202611213936833814.html",
-   "source": "东财国际"
+   "title": "亚投行将在港设办公室 陈茂波称彰显香港汇聚国际资本独特角色 - 香港電台",
+   "summary": "",
+   "time": "2026-11-21 17:34",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQN3VMRUo1alJydXA5SkZFNnV3U2xhbWJ5YVR0Z29RRHp5c1dCcUVXTFBXOUlOeWhFY19xMHdrMWtvQ2t2TFdFakV0YzA0RlZaQ0hEdmhGMnoyak93dzlaaHlPby1nazJRV2ZMcWYzNzl3LWlDUkV1dEhhRExDdFhWWGxTbEJaanFPaEF3?oc=5",
+   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
@@ -1899,10 +1966,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
+   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
+   "东财国际": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
