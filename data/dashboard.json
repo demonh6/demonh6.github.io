@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-22 16:22:00 CST",
- "generated_at_iso": "2026-11-22T16:22:00+08:00",
+ "generated_at": "2026-11-22 16:31:02 CST",
+ "generated_at_iso": "2026-11-22T16:31:02+08:00",
  "date": "2026-11-22",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59668.9,
-    "change": 1994.9,
-    "change_pct": 3.46,
+    "price": 59769.0,
+    "change": 2108.9,
+    "change_pct": 3.66,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1687.33,
-    "change": 64.92,
-    "change_pct": 4.0,
+    "price": 1683.75,
+    "change": 59.83,
+    "change_pct": 3.68,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.97,
-    "change": 2.91,
-    "change_pct": 4.34,
+    "price": 69.85,
+    "change": 2.88,
+    "change_pct": 4.3,
     "source": "okx"
    }
   ],
@@ -1323,12 +1323,12 @@
     "name": "美元指数",
     "sym": "DXY",
     "price": 103.84,
-    "change": -0.102,
-    "change_pct": -0.1,
+    "change": -0.11,
+    "change_pct": -0.11,
     "dec": 2,
-    "date": "2026-11-21",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
@@ -1373,36 +1373,25 @@
    "source": "东财"
   },
   "composite": {
-   "score": 25.0,
+   "score": 21.4,
    "label": "冰点",
-   "color": "#f58a3d",
+   "color": "#f04a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 0.0,
-    "structure": 62.5
+    "structure": 53.5
    }
   }
  },
  "speakers": [
   {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "特斯拉官宣“上新”",
-   "summary": "【特斯拉官宣“上新”】美国时间11月21日，特斯拉宣布，特斯拉辅助驾驶15版本在北美市场现已开始推送。公司首席执行官埃隆·马斯克当天早些时候表示，该版本将于今年12月大范围推送。",
-   "time": "2026-11-22 15:58:00",
-   "url": "https://finance.eastmoney.com/a/202611223936895612.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "美国总统特朗普点赞深圳道路“没有坑洼，连修补痕迹都没有”，深圳的路何以经得起细看？ - Sohu",
+   "title": "特朗普连发30多张照片盛赞APEC会议，照片配文“GOAT”（有史以来最伟大的） - Sohu",
    "summary": "",
-   "time": "2026-11-22 15:13",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Md3RQekVkNEFoTk45b0xEdDZ3Mk9yUDhTQzhub1ZhM3hPbERmRkJYeWpxV3ExQkhBbVZKTFBQWXJBOGl2YnpjRDk0d0tmbWNVdjl3RVZ3?oc=5",
+   "time": "2026-11-22 16:11",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVmdBSkxVSkllcnpLSnMwYVBZa3dkN3ROM2ZBZzBxdmk5Zko1ZkxQMWlRYWxxcXpOQ2p2aEZsbnpCaF92S0hsRmFyeGpfSkM3RzJhU244STBJTFRKcWp3S1E5d2ZtTnJ5djhqY05qd3pwTjZZUzJQV09lN3ZjODhKVlNUcVRMSTVKZ0VyMA?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
   },
@@ -1626,94 +1615,101 @@
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-22 16:23",
+   "time": "2026-11-22 16:31",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "阿福健康生态大会，蚂蚁CEO韩歆毅谈AI如何服务患者、医生和医学",
-   "summary": "11月22日，在广州举行的2026蚂蚁阿福医疗健康生态大会上，蚂蚁集团CEO韩歆毅提出医疗AI的四个应用方向：延伸院外照护、辅助临床判断、支持真实世界研究和培养青年医生。",
-   "time": "2026-11-22 15:59",
-   "url": "https://wallstreetcn.com/livenews/3203726",
+   "title": "俄国防部称打击乌能源、港口设施并击落乌无人机",
+   "summary": "【俄国防部称打击乌能源、港口设施并击落乌无人机】俄罗斯国防部22日通报说，21日夜间至22日凌晨，俄武装部队使用无人机打击为乌军服务的能源设施、港口基础设施和船只，俄防空部队击落170架乌克兰无人机。",
+   "time": "2026-11-22 16:21:56",
+   "url": "https://finance.eastmoney.com/a/202611223936909177.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台",
+   "summary": "11月22日，蚂蚁阿福医生版发布PC工作台（电脑端）版本，同时接入威科集团循证医学临床决策支持解决方案UpToDate，成为国内首个接入该专业功能的AI平台。即日起，全国医生、护士及药师等卫生专业技术人员都可通过阿福医生版限时免费试用UpToDate。",
+   "time": "2026-11-22 16:11",
+   "url": "https://wallstreetcn.com/livenews/3203727",
    "source": "华尔街见闻"
   },
   {
-   "title": "特斯拉官宣“上新”",
-   "summary": "【特斯拉官宣“上新”】美国时间11月21日，特斯拉宣布，特斯拉辅助驾驶15版本在北美市场现已开始推送。公司首席执行官埃隆·马斯克当天早些时候表示，该版本将于今年12月大范围推送。",
-   "time": "2026-11-22 15:58:00",
-   "url": "https://finance.eastmoney.com/a/202611223936895612.html",
-   "source": "东财国际"
+   "title": "特朗普连发30多张照片盛赞APEC会议，照片配文“GOAT”（有史以来最伟大的） - Sohu",
+   "summary": "",
+   "time": "2026-11-22 16:11",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVmdBSkxVSkllcnpLSnMwYVBZa3dkN3ROM2ZBZzBxdmk5Zko1ZkxQMWlRYWxxcXpOQ2p2aEZsbnpCaF92S0hsRmFyeGpfSkM3RzJhU244STBJTFRKcWp3S1E5d2ZtTnJ5djhqY05qd3pwTjZZUzJQV09lN3ZjODhKVlNUcVRMSTVKZ0VyMA?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社",
@@ -1723,24 +1719,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "习主席主持中俄美元首会晤，普京、特朗普先后发言 - Sohu",
+   "title": "华友钴业：拟10.00亿元至15.00亿元回购公司股份",
    "summary": "",
-   "time": "2026-11-22 15:46",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aTHBqaktiTzZLMF8zMDJJcXBPVVRfXzFjdUFDeF9lRkxRVjJKc2dkaENjTFRxNGhqY3k4YlZVZ1lBYlg1VDV0STlDREJOeXM?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "燃油成本已压缩美国航班，年底又逢停摆风险",
-   "summary": "",
-   "time": "2026-11-22 07:45:03",
-   "url": "https://news.futunn.com/flash/1005278923/rising-fuel-costs-have-constrained-us-flight-operations-while-the",
+   "time": "2026-11-22 08:30:57",
+   "url": "https://news.futunn.com/flash/1005279445/huayou-cobalt-plans-to-repurchase-company-shares-for-rmb-1",
    "source": "富途"
   },
   {
-   "title": "天阳科技：收到证监会立案告知书",
+   "title": "三安光电：因个人身体原因 副董事长兼总经理林科闯辞职",
    "summary": "",
-   "time": "2026-11-22 07:35:20",
-   "url": "https://news.10jqka.com.cn/20261122/c682076056.shtml",
+   "time": "2026-11-22 07:45:00",
+   "url": "https://news.10jqka.com.cn/20261122/c682076098.shtml",
    "source": "同花顺"
   },
   {
@@ -1758,18 +1747,25 @@
    "source": "财新"
   },
   {
-   "title": "英国等11国加入北约“卫星联合发射计划”",
-   "summary": "英国政府官方网站22日发布通告称，英国已与德国、加拿大等其他10国共同签署文件，加入由北约主导的“卫星联合发射计划”，以获取“可靠、灵活”的卫星发射服务，并依托太空产业拉动经济增长。该通告称，北约“卫星联合发射计划”旨在依托商业卫星发射服务商与基础设施，在签约国领土内打造卫星发射网络，构建韧性更强、响应更迅速、性价比更高的入轨通道。（新华社）",
-   "time": "2026-11-22 15:49",
-   "url": "https://wallstreetcn.com/livenews/3203724",
+   "title": "联合光电：并购重组委定于11月27日审核公司发行股份购买资产事项",
+   "summary": "【联合光电：并购重组委定于11月27日审核公司发行股份购买资产事项】联合光电(300691.SZ)公告称，公司拟以发行股份方式购买东莞市长益光电股份有限公司92.62%股份并募集配套资金。根据深圳证券交易所并购重组审核委员会2026年第20次审议会议公告，深交所并购重组审核委员会定于2026年11月27日召开会议，审核公司本次交易事项。",
+   "time": "2026-11-22 16:15:11",
+   "url": "https://finance.eastmoney.com/a/202611223936908323.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "阿福健康生态大会，蚂蚁CEO韩歆毅谈AI如何服务患者、医生和医学",
+   "summary": "11月22日，在广州举行的2026蚂蚁阿福医疗健康生态大会上，蚂蚁集团CEO韩歆毅提出医疗AI的四个应用方向：延伸院外照护、辅助临床判断、支持真实世界研究和培养青年医生。",
+   "time": "2026-11-22 15:59",
+   "url": "https://wallstreetcn.com/livenews/3203726",
    "source": "华尔街见闻"
   },
   {
-   "title": "下周3只新股打新 光模块领域“小巨人”来了",
-   "summary": "【下周3只新股打新 光模块领域“小巨人”来了】根据目前发行安排，下周有3只新股可申购。11月23日可申购上交所科创板新股傲拓科技，11月25日可申购北交所新股天广实，11月26日可申购深交所创业板新股猎奇智能。其中，猎奇智能是国内光模块智能制造装备的主要供应商之一，产品覆盖光模块封装测试的核心环节，包括贴片、耦合、老化测试等关键工序。",
-   "time": "2026-11-22 15:55:58",
-   "url": "https://finance.eastmoney.com/a/202611223936896793.html",
-   "source": "东财国际"
+   "title": "习主席主持中俄美元首会晤，普京、特朗普先后发言 - Sohu",
+   "summary": "",
+   "time": "2026-11-22 15:46",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aTHBqaktiTzZLMF8zMDJJcXBPVVRfXzFjdUFDeF9lRkxRVjJKc2dkaENjTFRxNGhqY3k4YlZVZ1lBYlg1VDV0STlDREJOeXM?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "风口研报 - 财联社电报",
@@ -1779,24 +1775,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国总统特朗普点赞深圳道路“没有坑洼，连修补痕迹都没有”，深圳的路何以经得起细看？ - Sohu",
+   "title": "瑞士央行副行长警告通胀正在加速",
    "summary": "",
-   "time": "2026-11-22 15:13",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Md3RQekVkNEFoTk45b0xEdDZ3Mk9yUDhTQzhub1ZhM3hPbERmRkJYeWpxV3ExQkhBbVZKTFBQWXJBOGl2YnpjRDk0d0tmbWNVdjl3RVZ3?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "曾呼吁非必要不买金，莫迪称金价暴跌很多人感谢他",
-   "summary": "",
-   "time": "2026-11-22 07:32:21",
-   "url": "https://news.futunn.com/flash/1005278758/modi-who-previously-urged-citizens-not-to-buy-gold-unless",
+   "time": "2026-11-22 08:27:49",
+   "url": "https://news.futunn.com/flash/1005279417/snb-vice-chairman-warns-of-accelerating-inflation",
    "source": "富途"
   },
   {
-   "title": "中超控股：定增完成 董监高持股比例被动稀释",
+   "title": "天阳科技：收到证监会立案告知书",
    "summary": "",
-   "time": "2026-11-22 07:33:08",
-   "url": "https://news.10jqka.com.cn/20261122/c682076045.shtml",
+   "time": "2026-11-22 07:35:20",
+   "url": "https://news.10jqka.com.cn/20261122/c682076056.shtml",
    "source": "同花顺"
   },
   {
@@ -1807,25 +1796,18 @@
    "source": "财新"
   },
   {
-   "title": "四川雅安市石棉县发生3.3级地震，震源深度13公里",
-   "summary": "中国地震台网正式测定：11月22日14时30分，在四川雅安市石棉县（北纬29.28度，东经102.19度）发生3.3级地震，震源深度13公里。（央视新闻）",
-   "time": "2026-11-22 14:41",
-   "url": "https://wallstreetcn.com/livenews/3203717",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "广百股份：连续3个交易日收盘价跌幅偏离值累超20%",
-   "summary": "【广百股份：连续3个交易日收盘价跌幅偏离值累超20%】广百股份发布股票交易异常波动公告，公司股票于2026年11月18日至11月20日连续3个交易日收盘价格跌幅偏离值累计超过20%。",
-   "time": "2026-11-22 15:55:00",
-   "url": "https://finance.eastmoney.com/a/202611223936896889.html",
+   "title": "天孚通信：拟在南昌投建新一代高速光器件研发和生产制造项目",
+   "summary": "【天孚通信：拟在南昌投建新一代高速光器件研发和生产制造项目】天孚通信(300394.SZ)公告称，公司与南昌经济技术开发区管理委员会签署《产业项目投资发展合作协议》，拟在该区域投资建设新一代高速光器件研发和生产制造建设项目，产品用于全球超算中心或大型数据中心等。",
+   "time": "2026-11-22 16:14:31",
+   "url": "https://finance.eastmoney.com/a/202611223936908269.html",
    "source": "东财国际"
   },
   {
-   "title": "11股获买入评级 最新:电投产融 - 中财网",
-   "summary": "",
-   "time": "2026-11-22 14:21",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GZUZlZlRaMzVIc0lJd3hleWt5Zi01b3NNaTBGVkg3WEl1R0phUk9IdTQ4dC1odW5BbHlYRTJqbUFndTdtSzN6alZ2TjY4ZktDVkt5eURn?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "英国等11国加入北约“卫星联合发射计划”",
+   "summary": "英国政府官方网站22日发布通告称，英国已与德国、加拿大等其他10国共同签署文件，加入由北约主导的“卫星联合发射计划”，以获取“可靠、灵活”的卫星发射服务，并依托太空产业拉动经济增长。该通告称，北约“卫星联合发射计划”旨在依托商业卫星发射服务商与基础设施，在签约国领土内打造卫星发射网络，构建韧性更强、响应更迅速、性价比更高的入轨通道。（新华社）",
+   "time": "2026-11-22 15:49",
+   "url": "https://wallstreetcn.com/livenews/3203724",
+   "source": "华尔街见闻"
   },
   {
    "title": "下周重磅日程：“美联储最爱通胀指标”、小米、美团、B站、戴尔财报 - 上海有色金属网",
@@ -1835,17 +1817,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "俄国防部：俄防空系统夜间击落170架乌克兰无人机",
+   "title": "南方财经全媒体集团 - 南方财经",
    "summary": "",
-   "time": "2026-11-22 07:16:08",
-   "url": "https://news.futunn.com/flash/1005278531/russian-ministry-of-defense-russian-air-defense-systems-shot-down",
+   "time": "2026-11-22 15:42",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfTGUxamIzSy12WUpLbG1PZEQxLW92Ulg0TjFzOFBXRUx3Q2FUbHRkWV9xV0d5VUFtcTNhdmk0QkZFWlJ1Zkdfa2NnRlNES0lfbzdseWVrTTk3aTRvWFRMZ3l6MWNHRm8?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "伊朗革命卫队：击落美国第20架MQ-1无人机",
+   "summary": "",
+   "time": "2026-11-22 08:17:32",
+   "url": "https://news.futunn.com/flash/1005279311/iranian-revolutionary-guards-20th-us-mq-1-drone-shot-down",
    "source": "富途"
   },
   {
-   "title": "伊拉克计划采购10艘油轮扩充运力",
+   "title": "中超控股：定增完成 董监高持股比例被动稀释",
    "summary": "",
-   "time": "2026-11-22 06:51:48",
-   "url": "https://news.10jqka.com.cn/20261122/c682075923.shtml",
+   "time": "2026-11-22 07:33:08",
+   "url": "https://news.10jqka.com.cn/20261122/c682076045.shtml",
    "source": "同花顺"
   },
   {
@@ -1856,18 +1845,18 @@
    "source": "财新"
   },
   {
-   "title": "国家数据局局长刘烈宏赴江西省调研数据要素市场化配置改革工作推进情况",
-   "summary": "近日，国家数据局党组书记、局长刘烈宏带队赴江西省南昌市，实地调研江西省数字产业集团有限公司、华润江中药业股份有限公司、江西一脉阳光集团股份有限公司、江西时刻互动科技股份有限公司，并召开数字中国建设调研座谈会，深入了解地方推进数据要素市场化配置改革的问题和意见建议。调研组希望江西省深入贯彻落实“十五五”数字中国建设任务部署，以更大力度推进数字江西建设，深入推进数据要素市场化配置改革，探索形成更多具有",
-   "time": "2026-11-22 13:43",
-   "url": "https://wallstreetcn.com/livenews/3203715",
-   "source": "华尔街见闻"
+   "title": "陈茂波：世界湾区经济合作联盟倡议为香港发展提供新机遇",
+   "summary": "【陈茂波：世界湾区经济合作联盟倡议为香港发展提供新机遇】香港特区政府财政司司长陈茂波22日发表网志表示，中方在亚太经合组织（APEC）工商领导人峰会上提出支持成立世界湾区经济合作联盟，深化各湾区交流互动，探索亚太经济合作新路径，为具备内联外通独特优势的香港提供更好发挥优势的机会。",
+   "time": "2026-11-22 16:12:29",
+   "url": "https://finance.eastmoney.com/a/202611223936908064.html",
+   "source": "东财国际"
   },
   {
-   "title": "苏州：1—10月全市实现规模以上工业总产值43054.8亿元 同比增长7.3%",
-   "summary": "【苏州：1—10月全市实现规模以上工业总产值43054.8亿元 同比增长7.3%】据苏州统计公众号，2026年1—10月苏州市经济运行情况发布，1—10月，全市实现规模以上工业总产值43054.8亿元，同比增长7.3%。规模以上工业增加值增长9.2%，其中10月增长9.6%，比9月提高0.8个百分点。",
-   "time": "2026-11-22 15:52:36",
-   "url": "https://finance.eastmoney.com/a/202611223936896532.html",
-   "source": "东财国际"
+   "title": "四川雅安市石棉县发生3.3级地震，震源深度13公里",
+   "summary": "中国地震台网正式测定：11月22日14时30分，在四川雅安市石棉县（北纬29.28度，东经102.19度）发生3.3级地震，震源深度13公里。（央视新闻）",
+   "time": "2026-11-22 14:41",
+   "url": "https://wallstreetcn.com/livenews/3203717",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
@@ -1883,10 +1872,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "富途": 7,
    "同花顺": 6,
    "东财早报": 1,
@@ -1968,9 +1957,9 @@
   "date": "2026-11-20",
   "zt_count": 28,
   "dt_count": 58,
-  "zb_count": 0,
+  "zb_count": 7,
   "qs_count": 62,
-  "seal_rate": 100.0,
+  "seal_rate": 80.0,
   "first_board": 25,
   "continued": 3,
   "max_streak": 4,
@@ -2153,11 +2142,11 @@
    }
   ],
   "index_pct": -1.22,
-  "score": 62.5,
-  "score_label": "偏热",
+  "score": 53.5,
+  "score_label": "中性",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
-   "封板率 100%（炸板 0 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
+   "封板率 80%（炸板 7 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
    "跌停 58 家：个股层面的风险在释放，注意高位股与题材补跌。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 3 家 / 涨停 28 家（11%）：以首板为主，持续性待验证",
@@ -2372,10 +2361,10 @@
     "date": "2026-11-20",
     "zt": 28,
     "dt": 58,
-    "zb": 0,
-    "seal": 100.0,
+    "zb": 7,
+    "seal": 80.0,
     "max_streak": 4,
-    "score": 62.5,
+    "score": 53.5,
     "index_pct": -1.22
    }
   ],
