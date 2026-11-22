@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-22 19:22:41 CST",
- "generated_at_iso": "2026-11-22T19:22:41+08:00",
+ "generated_at": "2026-11-22 19:31:01 CST",
+ "generated_at_iso": "2026-11-22T19:31:01+08:00",
  "date": "2026-11-22",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,6 +1019,27 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83919.7109,
+    "change": 897.96,
+    "change_pct": 1.08
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 36033.29,
+    "change": -2393.6,
+    "change_pct": -6.23
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 24802.78,
+    "change": -661.03,
+    "change_pct": -2.6
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
     "price": 10346.34,
@@ -1093,80 +1114,6 @@
     ]
    },
    {
-    "name": "法国CAC40",
-    "sym": "CAC40",
-    "price": 7927.75,
-    "change": -152.99,
-    "change_pct": -1.89,
-    "hist": [
-     7832.88,
-     7827.63,
-     7873.11,
-     7934.7,
-     7956.7,
-     7868.05,
-     7838.49,
-     7921.68,
-     7811.26,
-     7782.82,
-     7847.32,
-     7887.14,
-     7886.96,
-     7970.0,
-     7969.42,
-     8047.69,
-     8020.31,
-     8177.89,
-     8205.37,
-     8139.0,
-     8233.3,
-     8278.59,
-     8332.87,
-     8361.36,
-     8368.91,
-     8352.0,
-     8216.78,
-     8146.83,
-     8080.74,
-     7927.75
-    ],
-    "sigma": 0.933,
-    "volume": 0.0,
-    "vol_pctile": 100.0,
-    "vol_hist": [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0
-    ]
-   },
-   {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
     "price": 5941.95,
@@ -1205,6 +1152,13 @@
      5941.95
     ],
     "sigma": 1.19
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2326.05,
+    "change": -28.35,
+    "change_pct": -1.2
    }
   ]
  },
@@ -1294,27 +1248,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60965.2,
-    "change": 3068.3,
-    "change_pct": 5.3,
+    "price": 60985.7,
+    "change": 2883.1,
+    "change_pct": 4.96,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1710.27,
-    "change": 69.72,
-    "change_pct": 4.25,
+    "price": 1709.21,
+    "change": 62.21,
+    "change_pct": 3.78,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.87,
-    "change": 2.65,
-    "change_pct": 3.88,
+    "price": 70.76,
+    "change": 2.06,
+    "change_pct": 3.0,
     "source": "okx"
    }
   ],
@@ -1385,6 +1339,17 @@
  },
  "speakers": [
   {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普点赞中俄美元首会晤气氛“热烈”，是“多年来最具重大意义”的国际会晤之一 - Sohu",
+   "summary": "",
+   "time": "2026-11-22 19:12",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSVpJZVlndWlDckZwZXJXMXd6X2hLSGZqUERJeXowZ0twbGsweWFka01iV0lxNjJFMk5zclVyQ2N6TS1EekRzcG83MjVxUTN3ZUdDcDFHRXBOc1AyYlZLa0FYX1RuVUN3dktBTWlDeGNpOV9BZ00zUmtVbEJsYWwxdndDcGQ1TzRJ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
    "keyword": "证监会",
    "label": "证监会",
    "hint": "A股核心监管机构的政策直接影响市场情绪",
@@ -1393,7 +1358,7 @@
    "time": "2026-11-22 18:44",
    "url": "https://wallstreetcn.com/livenews/3203741",
    "source": "华尔街见闻",
-   "mentions": 2
+   "mentions": 1
   },
   {
    "keyword": "美联储",
@@ -1407,15 +1372,15 @@
    "mentions": 1
   },
   {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
    "title": "特朗普称要保护好黄仁勋等顶尖人才 - 手机新浪网",
    "summary": "",
    "time": "2026-11-22 17:43",
    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9abHYxd0xiMlZWNnVrV2h4dmY0Wl9NWGEyUUJrRGJlVkpaUExBd0pjU1JUVUxrampmbzlWRC1KTUVsNFg3SDRIWF9Nd04yYmkxYXktOUFwdWU4QjZvT3hZSURQR0NrTXRkLUNaNG02RkI3Rmc?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 1
   }
  ],
  "research": {
@@ -1623,89 +1588,103 @@
  "alerts": [
   {
    "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-22 19:32",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-22 19:23",
+   "message": "深证成指、创业板指、中证500等 12 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-22 19:32",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
-   "asset": "法国CAC40",
-   "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-22 19:23",
+   "asset": "德国DAX",
+   "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-22 19:32",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-22 19:23",
+   "time": "2026-11-22 19:32",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "上交所正推动修订科创板做市商规则",
-   "summary": "【上交所正推动修订科创板做市商规则】11月22日，证券时报记者获悉，近期上交所正推动修订《上海证券交易所证券交易业务指南第8号——科创板股票做市》。规则修订聚焦优化做市报价义务指标、完善做市商竞争评价机制、提升做市周转效率、强化风险防控要求等方面，兼顾做市商交易能力提升和做市业务规范管理，提高做市商履行义务要求，激励做市商扩大报价规模，促进做市业务形成良性生态，引导做市商更加规范、持续、稳定供给流动性，推动做市报价进一步提质增效。",
-   "time": "2026-11-22 18:56:56",
-   "url": "https://finance.eastmoney.com/a/202611223936927537.html",
+   "title": "今年流感季优势毒株快速切换",
+   "summary": "【今年流感季优势毒株快速切换】据了解，今年甲型H1N1、甲型H3N2与乙型Victoria系三种毒株同时活跃，且占比持续变动。今年10月，甲型H3N2毒株流行还占据绝对优势。到了11月，甲型H1N1毒株占比持续走高，成为主流优势毒株，而甲型H3N2毒株已回落到不足两成，乙型Victoria系毒株占比相对稳定，持续流行。",
+   "time": "2026-11-22 19:23:36",
+   "url": "https://finance.eastmoney.com/a/202611223936929621.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普点赞中俄美元首会晤气氛“热烈”，是“多年来最具重大意义”的国际会晤之一 - Sohu",
+   "summary": "",
+   "time": "2026-11-22 19:12",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSVpJZVlndWlDckZwZXJXMXd6X2hLSGZqUERJeXowZ0twbGsweWFka01iV0lxNjJFMk5zclVyQ2N6TS1EekRzcG83MjVxUTN3ZUdDcDFHRXBOc1AyYlZLa0FYX1RuVUN3dktBTWlDeGNpOV9BZ00zUmtVbEJsYWwxdndDcGQ1TzRJ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "银河证券发布研报：震荡市推荐杠铃策略 布局成长与红利两端 - 观点网",
@@ -1722,17 +1701,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "美银Hartnett：美股回吐2026年涨幅是阻止美联储加息最快方式_公司新闻_财经 - 证券之星",
+   "title": "Anthropic与SpaceX创纪录IPO背后：承销行抱怨交易流程复杂",
    "summary": "",
-   "time": "2026-11-22 17:56",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56QjlyajFhdDl3dXpLM0hOeDZzWUg5QkNEcDhTdGdSZmJ6Yjg1d2g4MnJDXzRWRW9WRm91dEpHNXVYRU96WmUyMlVncW8xbER2THh1aU1DX0dYZFhpd2FpZg?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "沪深北交易所：适当降低融资保证金比例，有助于适度提高杠杆比例、释放融资空间、提升市场流动性",
-   "summary": "",
-   "time": "2026-11-22 10:46:10",
-   "url": "https://news.futunn.com/flash/1005281065/shanghai-shenzhen-and-beijing-stock-exchanges-an-appropriate-reduction-in",
+   "time": "2026-11-22 11:25:49",
+   "url": "https://news.futunn.com/flash/1005281640/behind-the-record-breaking-ipos-of-anthropic-and-spacex-underwriters",
    "source": "富途"
   },
   {
@@ -1757,17 +1729,24 @@
    "source": "财新"
   },
   {
-   "title": "韩国将推出分阶段措施以稳定市场波动",
-   "summary": "【韩国将推出分阶段措施以稳定市场波动】韩国高层金融官员在周日召开的紧急会议后表示，鉴于市场波动加剧，韩国宣布了分阶段措施以稳定市场，其中包括确保股票稳定基金就绪，以便在必要时采取行动。",
-   "time": "2026-11-22 18:56:15",
-   "url": "https://finance.eastmoney.com/a/202611223936927486.html",
+   "title": "发放1163亿元 国开行已完成今年国家助学贷款发放工作",
+   "summary": "【发放1163亿元 国开行已完成今年国家助学贷款发放工作】国开行目前已全面完成所承办的2026年度国家助学贷款发放工作，共向753万名家庭经济困难学生发放国家助学贷款1163亿元。",
+   "time": "2026-11-22 19:09:29",
+   "url": "https://finance.eastmoney.com/a/202611223936927720.html",
    "source": "东财国际"
   },
   {
-   "title": "中信证券：A股极端估值结构可能在明年生变 建议分散聚焦龙头 - 观点网",
+   "title": "伟达：特朗普下半场何以收官：国际优先 - 联合早报",
    "summary": "",
-   "time": "2026-11-22 18:27",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6eHg3Wl9Cc2JPSkdiVnloZHFDVjlDcV8xQTd6QS02aWtHNXFuS2hILThhZmk2X05xcXQwbVZRUnRaeHdldkZNY0JhcFdla3BTVE5XWjBmRG9KUWxMVDZNNk13?oc=5",
+   "time": "2026-11-22 19:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2RGpEV2pSWlZHTXZTeEhQLWVJTFdLWGlsby04T1Z4c1dDNjdwUnU3RkNVSkpjNkVsOEk4Q2pyRlJrRnFGendKQnEzZ3k1b1VrWmdxeXFWVDI1R0ZOZGVXNjZURU5BSTlBdWtHSw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "华福证券发布有色金属研报稀土价格上行科达制造周涨8.16%_公司新闻_财经 - 证券之星",
+   "summary": "",
+   "time": "2026-11-22 18:00",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GUWJETFR5Umx6ZFBFS0ZqQnIzWUZ1MEw4aFd1VUpNWndNNUFuNXdwOHJJemRlcDU4dlJFUUxwbGNSTG9BcXYyLTJTNGx0YXZqa09JSnZWcE9ERDI1QlQtMw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1778,17 +1757,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普称要保护好黄仁勋等顶尖人才 - 手机新浪网",
+   "title": "沪深北交易所：适当降低融资保证金比例，有助于适度提高杠杆比例、释放融资空间、提升市场流动性",
    "summary": "",
-   "time": "2026-11-22 17:43",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9abHYxd0xiMlZWNnVrV2h4dmY0Wl9NWGEyUUJrRGJlVkpaUExBd0pjU1JUVUxrampmbzlWRC1KTUVsNFg3SDRIWF9Nd04yYmkxYXktOUFwdWU4QjZvT3hZSURQR0NrTXRkLUNaNG02RkI3Rmc?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "融资保证金比例下限降至80% 真金白银维稳市场",
-   "summary": "",
-   "time": "2026-11-22 10:39:59",
-   "url": "https://news.futunn.com/flash/1005280971/minimum-financing-margin-requirement-lowered-to-80-providing-tangible-support",
+   "time": "2026-11-22 10:46:10",
+   "url": "https://news.futunn.com/flash/1005281065/shanghai-shenzhen-and-beijing-stock-exchanges-an-appropriate-reduction-in",
    "source": "富途"
   },
   {
@@ -1806,17 +1778,24 @@
    "source": "财新"
   },
   {
-   "title": "沪深交易所、中国结算推出一揽子降费措施",
-   "summary": "【沪深交易所、中国结算推出一揽子降费措施】记者11月22日从中国证监会了解到，沪深交易所推出新一批降费措施，包括免收交易单元使用费等，并将今年年初已实施的免收上市费、债券交易经手费等措施有效期再延长两年至2028年。中国结算明确，自2027年1月1日起至2028年12月31日，继续暂免收取绿色公司债券、科技创新公司债券和民营企业公司债券（不含可转换公司债券）发行人服务费及债券结算费。",
-   "time": "2026-11-22 18:41:42",
-   "url": "https://finance.eastmoney.com/a/202611223936924891.html",
+   "title": "上交所正推动修订科创板做市商规则",
+   "summary": "【上交所正推动修订科创板做市商规则】11月22日，证券时报记者获悉，近期上交所正推动修订《上海证券交易所证券交易业务指南第8号——科创板股票做市》。规则修订聚焦优化做市报价义务指标、完善做市商竞争评价机制、提升做市周转效率、强化风险防控要求等方面，兼顾做市商交易能力提升和做市业务规范管理，提高做市商履行义务要求，激励做市商扩大报价规模，促进做市业务形成良性生态，引导做市商更加规范、持续、稳定供给流动性，推动做市报价进一步提质增效。",
+   "time": "2026-11-22 18:56:56",
+   "url": "https://finance.eastmoney.com/a/202611223936927537.html",
    "source": "东财国际"
   },
   {
-   "title": "华福证券发布有色金属研报稀土价格上行科达制造周涨8.16%_公司新闻_财经 - 证券之星",
+   "title": "美银Hartnett：美股回吐2026年涨幅是阻止美联储加息最快方式_公司新闻_财经 - 证券之星",
    "summary": "",
-   "time": "2026-11-22 18:00",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GUWJETFR5Umx6ZFBFS0ZqQnIzWUZ1MEw4aFd1VUpNWndNNUFuNXdwOHJJemRlcDU4dlJFUUxwbGNSTG9BcXYyLTJTNGx0YXZqa09JSnZWcE9ERDI1QlQtMw?oc=5",
+   "time": "2026-11-22 17:56",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56QjlyajFhdDl3dXpLM0hOeDZzWUg5QkNEcDhTdGdSZmJ6Yjg1d2g4MnJDXzRWRW9WRm91dEpHNXVYRU96WmUyMlVncW8xbER2THh1aU1DX0dYZFhpd2FpZg?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "太平洋：给予龙源电力买入评级_券商研报_数据解析 - 证券之星",
+   "summary": "",
+   "time": "2026-11-22 17:00",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fT2p0MmtjQXRFSGEwWkFJSWxDR2RxdkMtWmlNNmtmR3lPSExEeHlqcUxnYjFSTEU0LWNXTVlQcjQ0Y3BDUjFIU1JaMWpPbm5CR1VqRE9WZ2NPUDRDTEVZVjd3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1827,17 +1806,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普称将与伊朗达成一项永久性协议；A股回购公告密集来袭丨周末要闻速递 - 21财经",
+   "title": "融资保证金比例下限降至80% 真金白银维稳市场",
    "summary": "",
-   "time": "2026-11-22 17:31",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOX091WDZXdHN2UGVKQlFaUzRKdlNreUpOZDRUWnVkRkwzNkYwcVh4UDFHX0NGeVlPV1R1SjIyUUMxZHlPaXpEanRLYlQ5ME5lQUp6TnFiRlktOTlHTXAyNEx5dllHanhzYnBRRjFxRy1ENmNoRnFXazlnYVNQVEI1YVlkMVdlQWJEMWNkLThB?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "深交所发布《关于进一步减免相关费用的通知》",
-   "summary": "",
-   "time": "2026-11-22 10:34:51",
-   "url": "https://news.futunn.com/flash/1005280919/the-shenzhen-stock-exchange-szse-issued-the-notice-on-further",
+   "time": "2026-11-22 10:39:59",
+   "url": "https://news.futunn.com/flash/1005280971/minimum-financing-margin-requirement-lowered-to-80-providing-tangible-support",
    "source": "富途"
   },
   {
@@ -1855,18 +1827,18 @@
    "source": "财新"
   },
   {
-   "title": "沪深北交易所降低融资保证金比例下限至80% 理论上可带来增量资金近4000亿元",
-   "summary": "【沪深北交易所降低融资保证金比例下限至80% 理论上可带来增量资金近4000亿元】经证监会批准，沪深北交易所将融资保证金比例下限从100%降低至80%，此次调整将自2026年11月30日起实施。据测算，此次调整理论上可带来增量资金近4000亿元。",
-   "time": "2026-11-22 18:37:21",
-   "url": "https://finance.eastmoney.com/a/202611223936924279.html",
+   "title": "韩国将推出分阶段措施以稳定市场波动",
+   "summary": "【韩国将推出分阶段措施以稳定市场波动】韩国高层金融官员在周日召开的紧急会议后表示，鉴于市场波动加剧，韩国宣布了分阶段措施以稳定市场，其中包括确保股票稳定基金就绪，以便在必要时采取行动。",
+   "time": "2026-11-22 18:56:15",
+   "url": "https://finance.eastmoney.com/a/202611223936927486.html",
    "source": "东财国际"
   },
   {
-   "title": "太平洋：给予龙源电力买入评级_券商研报_数据解析 - 证券之星",
+   "title": "特朗普称要保护好黄仁勋等顶尖人才 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-22 17:00",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fT2p0MmtjQXRFSGEwWkFJSWxDR2RxdkMtWmlNNmtmR3lPSExEeHlqcUxnYjFSTEU0LWNXTVlQcjQ0Y3BDUjFIU1JaMWpPbm5CR1VqRE9WZ2NPUDRDTEVZVjd3?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-22 17:43",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9abHYxd0xiMlZWNnVrV2h4dmY0Wl9NWGEyUUJrRGJlVkpaUExBd0pjU1JUVUxrampmbzlWRC1KTUVsNFg3SDRIWF9Nd04yYmkxYXktOUFwdWU4QjZvT3hZSURQR0NrTXRkLUNaNG02RkI3Rmc?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
@@ -1876,16 +1848,16 @@
    "富途": "ok(30)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "ok(30)",
+   "百度财经": "FAIL:RuntimeError",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
    "富途": 7,
    "同花顺": 6,
    "东财早报": 1,
