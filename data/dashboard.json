@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-22 22:22:17 CST",
- "generated_at_iso": "2026-11-22T22:22:17+08:00",
+ "generated_at": "2026-11-22 22:30:32 CST",
+ "generated_at_iso": "2026-11-22T22:30:32+08:00",
  "date": "2026-11-22",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60742.0,
-    "change": 329.9,
-    "change_pct": 0.55,
+    "price": 60629.0,
+    "change": 249.5,
+    "change_pct": 0.41,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1708.05,
-    "change": 13.14,
-    "change_pct": 0.78,
+    "price": 1703.42,
+    "change": 10.04,
+    "change_pct": 0.59,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.33,
-    "change": -0.39,
-    "change_pct": -0.55,
+    "price": 70.1,
+    "change": -0.49,
+    "change_pct": -0.69,
     "source": "okx"
    }
   ],
@@ -1394,6 +1394,17 @@
    "url": "https://finance.eastmoney.com/a/202611223936959882.html",
    "source": "东财国际",
    "mentions": 5
+  },
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "特朗普称必须善待黄仁勋马斯克 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-22 20:26",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRjFmNnVUNG1kTG5lOVdaOWdrOC13QjRBaU9iNF9ZQjRjeVlTOUh6NEdYMlRJeXNMb2VxMVdXeXREcVpJc19hZk0zUTFVZnlaanFNZ190TEwwYzhPa2prZkpRd3o1M3AzOUw5STgzMmRrVGVnd0M4SmRHcldQMDhNag?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1603,86 +1614,86 @@
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-22 22:22",
+   "time": "2026-11-22 22:31",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "美国总统特朗普表示：如果Chuck Schumer（舒默）出任参议院多数党领导人 我们将很难合作",
-   "summary": "美国总统特朗普表示，如果Chuck Schumer（舒默）出任参议院多数党领导人，我们将很难合作。",
-   "time": "2026-11-22 21:56:56",
-   "url": "https://finance.eastmoney.com/a/202611223936959882.html",
+   "title": "印尼糖果厂火灾现场整理出24个尸袋",
+   "summary": "【印尼糖果厂火灾现场整理出24个尸袋】印度尼西亚警方22日表示，救援人员已从该国21日晚发生火灾的糖果厂现场整理出24个尸袋，另有约30人失联。",
+   "time": "2026-11-22 22:28:06",
+   "url": "https://finance.eastmoney.com/a/202611223936967623.html",
    "source": "东财国际"
   },
   {
@@ -1693,13 +1704,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普谈“中俄美元首会晤”：美国“再获尊重”，气氛热烈，我们三人之间的关系非常融洽 - Sohu",
-   "summary": "",
-   "time": "2026-11-22 21:49",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVExqZFV3czVheUJxaEtrRVFCNEdPUWxzS2Y5UlhSN0ZnSHJ5WVY5clRTMkJHbVpGNVhHdW80TWVzS3prTGUwbXlGVUJFZ0RFVHg3M1Iybk9OYUd5SjZ0eDFBVWpfeW1KSDNfckxBY1Z1RGkzUXE5NW9SeVM3bE5ndktidl8wRElu?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "美国总统特朗普：如果Chuck Schumer（舒默）出任参议院多数党领导人，我们将很难合作。",
    "summary": "美国总统特朗普：如果Chuck Schumer（舒默）出任参议院多数党领导人，我们将很难合作。",
    "time": "2026-11-22 21:48",
@@ -1707,10 +1711,17 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "MiniMax进军AI4S研究，公布密码分析研究成果",
+   "title": "美国总统特朗普：若参议院民主党领袖舒默成为多数党领袖，将难以与其合作。 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-22 13:33:54",
-   "url": "https://news.futunn.com/flash/1005283294/minimax-enters-ai4s-research-announces-cryptanalysis-findings",
+   "time": "2026-11-22 21:47",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBocjZ4YTBmTWpWVHItaDNnZkpEdlY0NXZ1RGJ0eXgwU3J5WHE5N1hVMlBHZ3BKZEt0bUFVaUV3aDJlM3hZMmxpeVZmOA?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "美国交通部长表示，航班将于周一恢复正常",
+   "summary": "",
+   "time": "2026-11-22 14:27:34",
+   "url": "https://news.futunn.com/flash/1005283857/the-us-secretary-of-transportation-stated-that-flights-would-return",
    "source": "富途"
   },
   {
@@ -1735,10 +1746,10 @@
    "source": "财新"
   },
   {
-   "title": "柬埔寨时隔两年半再现猴痘病例",
-   "summary": "【柬埔寨时隔两年半再现猴痘病例】柬埔寨卫生部22日宣布，时隔两年半，该国再次发现一例猴痘病例。柬埔寨卫生部在通报中说，该患者于20日确诊，目前正在医院接受治疗。卫生部呼吁民众采取严格的预防措施，以防猴痘进一步传播。",
-   "time": "2026-11-22 21:51:29",
-   "url": "https://finance.eastmoney.com/a/202611223936958212.html",
+   "title": "新疆阿克苏地区拜城县发生3.7级地震 震源深度14千米",
+   "summary": "【新疆阿克苏地区拜城县发生3.7级地震 震源深度14千米】中国地震台网正式测定：11月22日21时43分在新疆阿克苏地区拜城县（北纬41.94度，东经82.46度）发生3.7级地震，震源深度14千米。",
+   "time": "2026-11-22 22:16:13",
+   "url": "https://finance.eastmoney.com/a/202611223936964943.html",
    "source": "东财国际"
   },
   {
@@ -1749,13 +1760,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国总统特朗普：若参议院民主党领袖舒默成为多数党领袖，将难以与其合作。 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-22 21:47",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzRnB4UXJiQ1k0S3VCcTlUM0JEME95bUVFX1NFMW9lNFNrT2swZ3VURjY0VUVnbWZDRGtaTWNsMDlpMmpocmpMbF96Zkhfdkk?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "报道：美国民主党将寻求推翻特朗普的税收和关税政策",
    "summary": "美国民主党将在明年掌控美国国会后举行听证会，研究如何撤销特朗普经济政策中的关键内容，包括关税和税收政策。众议院负责贸易和税收事务的民主党最高级别议员理查德·尼尔表示，他计划对特朗普实施的各项关税政策展开全面调查。尼尔表示，他还将审查特朗普政府推出的税收优惠政策，包括加剧美国财政赤字的大规模减税措施，并将恢复数百万美国人享有的政府医疗补贴列为优先事项。",
    "time": "2026-11-22 21:31",
@@ -1763,10 +1767,17 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "报道：AI服务器厂商涨价幅度最高达45%",
+   "title": "特朗普返美后连发三十余张深圳APEC会议照片 盛赞本届会议为“史上最佳” - 紫荆网",
    "summary": "",
-   "time": "2026-11-22 13:32:55",
-   "url": "https://news.futunn.com/flash/1005283286/report-ai-server-manufacturers-raise-prices-by-up-to-45",
+   "time": "2026-11-22 21:11",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMl9YSTZfMU16YTRKZnRwUmhHbVYyRENxcWg1ZDlkVGEwTjA4NU5aV0pOMUd2c1RTX0ZncG51MFVFTzZ1d2pQbDlPZmVFVEtfMURTXzFLcGFtWWF5RWJEbmRGMkJ3YV9pd3ZnN0FfazJ2TENaY1lJaVlrU1o4YmVMaXgxbm11aXZ3NnJJVXBueUJPVGtG?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "MiniMax进军AI4S研究，公布密码分析研究成果",
+   "summary": "",
+   "time": "2026-11-22 13:33:54",
+   "url": "https://news.futunn.com/flash/1005283294/minimax-enters-ai4s-research-announces-cryptanalysis-findings",
    "source": "富途"
   },
   {
@@ -1784,25 +1795,18 @@
    "source": "财新"
   },
   {
-   "title": "泽连斯基催促美方批准移交“爱国者”拦截弹",
-   "summary": "【泽连斯基催促美方批准移交“爱国者”拦截弹】乌克兰总统泽连斯基22日在社交媒体发文说，过去一周，乌克兰20个州遭到俄军空袭，乌方必须加强防空，当务之急是美方批准移交“爱国者”拦截弹。",
-   "time": "2026-11-22 21:43:52",
-   "url": "https://finance.eastmoney.com/a/202611223936955075.html",
+   "title": "乌称基辅州一住宅楼遭袭 已致2死4伤",
+   "summary": "【乌称基辅州一住宅楼遭袭 已致2死4伤】当地时间22日，乌克兰国家紧急情况局基辅州分局通报称，俄军对基辅州一栋五层住宅楼的袭击已造成2人死亡、4人受伤，伤者包括一名儿童，另有11人失联。现场搜救工作仍在持续，伤亡及失联人员信息正在进一步核实中。",
+   "time": "2026-11-22 22:03:12",
+   "url": "https://finance.eastmoney.com/a/202611223936961354.html",
    "source": "东财国际"
   },
   {
-   "title": "招商证券发布研报：多项指标趋近历史底部 加息25bp仍是基准情形 - 观点网",
+   "title": "招商证券发布研报：多项指标趋近历史底部加息25bp仍是基准情形_公司新闻_财经 - 证券之星",
    "summary": "",
    "time": "2026-11-22 21:36",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBpS2dILW96a3VsZFJwdzd2VnBtVFB3TVo2V1dxQUVjRVV5TWlZVXRzWGFIMGE4blNXODBVeW1NNVU2S3lwYlBuejdHc28zTW1QRHAyeWVFR3JiTjlJUUE5RHlB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zTGcxU3A2dWtfSmJUd0R5TFJDQlRJQk9TQ2NscWd1UEhBeEtteWZZYTloQll3UDFENWMzWWpWMXc4M3RLbkE4RFhXdlpwaTlzbXVZa1ppTG9GVHlBdzc3TA?oc=5",
    "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普返美后连发三十余张深圳APEC会议照片 盛赞本届会议为“史上最佳” - 紫荆网",
-   "summary": "",
-   "time": "2026-11-22 21:11",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMl9YSTZfMU16YTRKZnRwUmhHbVYyRENxcWg1ZDlkVGEwTjA4NU5aV0pOMUd2c1RTX0ZncG51MFVFTzZ1d2pQbDlPZmVFVEtfMURTXzFLcGFtWWF5RWJEbmRGMkJ3YV9pd3ZnN0FfazJ2TENaY1lJaVlrU1o4YmVMaXgxbm11aXZ3NnJJVXBueUJPVGtG?oc=5",
-   "source": "谷歌新闻·国际"
   },
   {
    "title": "台湾地区拟下调融资保证金比例至120%以稳定股市",
@@ -1812,10 +1816,17 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "英媒：美国民主党将寻求推翻特朗普的税收和关税政策",
+   "title": "特朗普称必须善待黄仁勋马斯克 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-22 13:26:33",
-   "url": "https://news.futunn.com/flash/1005283186/uk-media-us-democrats-to-seek-reversal-of-trump-s",
+   "time": "2026-11-22 20:26",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRjFmNnVUNG1kTG5lOVdaOWdrOC13QjRBaU9iNF9ZQjRjeVlTOUh6NEdYMlRJeXNMb2VxMVdXeXREcVpJc19hZk0zUTFVZnlaanFNZ190TEwwYzhPa2prZkpRd3o1M3AzOUw5STgzMmRrVGVnd0M4SmRHcldQMDhNag?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "报道：AI服务器厂商涨价幅度最高达45%",
+   "summary": "",
+   "time": "2026-11-22 13:32:55",
+   "url": "https://news.futunn.com/flash/1005283286/report-ai-server-manufacturers-raise-prices-by-up-to-45",
    "source": "富途"
   },
   {
@@ -1833,10 +1844,10 @@
    "source": "财新"
   },
   {
-   "title": "AI服务器厂商涨价幅度最高达45%",
-   "summary": "【AI服务器厂商涨价幅度最高达45%】有媒体报道称，戴尔、慧与科技（HPE）、联想和超微电脑正在要求提高AI服务器的价格，涨幅最高达45%，即使是几个月前已签署的协议也不例外。这些更高的成本正在影响交易公司及其他客户。",
-   "time": "2026-11-22 21:43:34",
-   "url": "https://finance.eastmoney.com/a/202611223936954566.html",
+   "title": "美国总统特朗普表示：如果Chuck Schumer（舒默）出任参议院多数党领导人 我们将很难合作",
+   "summary": "美国总统特朗普表示，如果Chuck Schumer（舒默）出任参议院多数党领导人，我们将很难合作。",
+   "time": "2026-11-22 21:56:56",
+   "url": "https://finance.eastmoney.com/a/202611223936959882.html",
    "source": "东财国际"
   },
   {
@@ -1862,8 +1873,8 @@
   "counts": {
    "东财国际": 7,
    "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 7,
    "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
    "富途": 7,
    "同花顺": 6,
    "东财早报": 1,
