@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-22 20:30:44 CST",
- "generated_at_iso": "2026-11-22T20:30:44+08:00",
+ "generated_at": "2026-11-22 20:39:20 CST",
+ "generated_at_iso": "2026-11-22T20:39:20+08:00",
  "date": "2026-11-22",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,6 +1019,27 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83919.7109,
+    "change": 897.96,
+    "change_pct": 1.08
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 36033.29,
+    "change": -2393.6,
+    "change_pct": -6.23
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 24802.78,
+    "change": -661.03,
+    "change_pct": -2.6
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
     "price": 10346.34,
@@ -1205,6 +1226,13 @@
      5941.95
     ],
     "sigma": 1.19
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2326.05,
+    "change": -28.35,
+    "change_pct": -1.2
    }
   ]
  },
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60753.3,
-    "change": 2290.7,
-    "change_pct": 3.92,
+    "price": 60523.2,
+    "change": 1684.5,
+    "change_pct": 2.86,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1706.22,
-    "change": 48.28,
-    "change_pct": 2.91,
+    "price": 1701.04,
+    "change": 34.17,
+    "change_pct": 2.05,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.29,
-    "change": 1.2,
-    "change_pct": 1.74,
+    "price": 70.07,
+    "change": 0.69,
+    "change_pct": 0.99,
     "source": "okx"
    }
   ],
@@ -1385,17 +1413,6 @@
  },
  "speakers": [
   {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称必须善待黄仁勋马斯克 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-22 20:26",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRjFmNnVUNG1kTG5lOVdaOWdrOC13QjRBaU9iNF9ZQjRjeVlTOUh6NEdYMlRJeXNMb2VxMVdXeXREcVpJc19hZk0zUTFVZnlaanFNZ190TEwwYzhPa2prZkpRd3o1M3AzOUw5STgzMmRrVGVnd0M4SmRHcldQMDhNag?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
-  },
-  {
    "keyword": "马斯克",
    "label": "马斯克",
    "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
@@ -1405,6 +1422,17 @@
    "url": "https://wallstreetcn.com/livenews/3203748",
    "source": "华尔街见闻",
    "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "闪评｜特朗普寻求与伊朗达成“永久协议”，美伊僵局如何解？ - 京报网",
+   "summary": "",
+   "time": "2026-11-22 19:47",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RcFA0Ni1UdlZ0MlNCQkhfaWZHbVhOZUsyWE8wOUx3cXJIRkZmLVdtR2MxZnZCMUlkNWlBeVJ1YktrRngtNEV2VWtKYXhpcmt2d3FyNkpNdnlKd3lGOUUzd3ZMcVVxOURCVkF5dHlqbzJyQQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1612,90 +1640,97 @@
  "alerts": [
   {
    "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-22 20:40",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-22 20:31",
+   "message": "深证成指、创业板指、中证500等 13 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-22 20:40",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "德国DAX",
+   "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-22 20:40",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-22 20:31",
+   "time": "2026-11-22 20:40",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
-  {
-   "title": "特朗普称必须善待黄仁勋马斯克 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-22 20:26",
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRjFmNnVUNG1kTG5lOVdaOWdrOC13QjRBaU9iNF9ZQjRjeVlTOUh6NEdYMlRJeXNMb2VxMVdXeXREcVpJc19hZk0zUTFVZnlaanFNZ190TEwwYzhPa2prZkpRd3o1M3AzOUw5STgzMmRrVGVnd0M4SmRHcldQMDhNag?oc=5",
-   "source": "谷歌新闻·国际"
-  },
   {
    "title": "京东健康与中国生物制药深化战略合作",
    "summary": "【京东健康与中国生物制药深化战略合作】据京东健康黑板报，11月22日，京东健康与中国生物制药正式升级战略合作，双方将持续围绕肿瘤、风湿、外科/镇痛、肝病、呼吸、心血管、内分泌等多个治疗领域，在患教科普、医学学术交流、产品商业化及患者健康服务等方面开展更加深入的合作，共同探索医药健康服务与商业化创新融合发展的新模式。",
@@ -1704,11 +1739,25 @@
    "source": "东财国际"
   },
   {
+   "title": "风口研报 - 财联社",
+   "summary": "",
+   "time": "2026-11-22 20:22",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBjM2NwZzQ3WkhlMnNPNGNwc2s5bE9EcEloZncwUjJ4bnVSRktBaWlmSEVjVlh6RlctbXYtMWgtUHctM1FBTmFOXw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
    "title": "马斯克：特斯拉是一款有意识的汽车。\n\n当然，人们对汽车“意识”程度的需求是有限度的。但真的是这样吗？\n\n尤其是当汽车能够接入互联网时，其行动自由度远超数据中心里的GPU。\n\n顺便提一句，你车里的特斯拉AI4硬件实际上可以运行《暗黑破坏神》游",
    "summary": "马斯克：特斯拉是一款有意识的汽车。\n\n当然，人们对汽车“意识”程度的需求是有限度的。但真的是这样吗？\n\n尤其是当汽车能够接入互联网时，其行动自由度远超数据中心里的GPU。\n\n顺便提一句，你车里的特斯拉AI4硬件实际上可以运行《暗黑破坏神》游戏，并能通关至折磨难度II级，预计很快就能达到XII级。",
    "time": "2026-11-22 19:58",
    "url": "https://wallstreetcn.com/livenews/3203748",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "闪评｜特朗普寻求与伊朗达成“永久协议”，美伊僵局如何解？ - 京报网",
+   "summary": "",
+   "time": "2026-11-22 19:47",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RcFA0Ni1UdlZ0MlNCQkhfaWZHbVhOZUsyWE8wOUx3cXJIRkZmLVdtR2MxZnZCMUlkNWlBeVJ1YktrRngtNEV2VWtKYXhpcmt2d3FyNkpNdnlKd3lGOUUzd3ZMcVVxOURCVkF5dHlqbzJyQQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "招商证券：从市场底部特征来看，多项指标逐步趋近历史底部水平",
@@ -1739,13 +1788,6 @@
    "source": "财新"
   },
   {
-   "title": "闪评｜特朗普寻求与伊朗达成“永久协议”，美伊僵局如何解？ - 京报网",
-   "summary": "",
-   "time": "2026-11-22 19:47",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RcFA0Ni1UdlZ0MlNCQkhfaWZHbVhOZUsyWE8wOUx3cXJIRkZmLVdtR2MxZnZCMUlkNWlBeVJ1YktrRngtNEV2VWtKYXhpcmt2d3FyNkpNdnlKd3lGOUUzd3ZMcVVxOURCVkF5dHlqbzJyQQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "沪深交易所再降费：年内整体让利合计超46亿元",
    "summary": "【沪深交易所再降费：年内整体让利合计超46亿元】沪深交易所最新同步发布新一批降费措施，向市场再送\"真金白银\"。其中，上交所免收交易单元使用费、减免数据中心相关服务费用，本次新增让利预计13.68亿元，2026年度整体降费金额超24亿元；深交所免收交易单元使用费、网络投票服务费，减免交易通信服务费用，本次新增让利预计13.9亿元，2026年度整体降费金额超22亿元。两所合计，年内整体让利超46亿元、本次新增让利近28亿元。",
    "time": "2026-11-22 20:23:37",
@@ -1753,11 +1795,25 @@
    "source": "东财国际"
   },
   {
+   "title": "银河证券发布研报：震荡市推荐杠铃策略 布局成长与红利两端 - 观点网",
+   "summary": "",
+   "time": "2026-11-22 18:56",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RTmFvUGxhVTBZS2x3VFNxZGZ6cUZLeTd3ekIzR0V6YjNnc1BHaXRQVnZscG9KZTl6ZzI3NWFlWHU4bUgwVHVuYXhBY0ZfREY1cmJRakNPQi1rR1JHU1dxWUFR?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
    "title": "巴林称伊朗袭击造成2人受伤",
    "summary": "巴林内政部22日在社交媒体上说，伊朗前一日针对巴林的袭击造成1名巴林公民和1名巴基斯坦公民受伤。此前，巴林内政部21日晚在社交媒体上说，该国一处民用工业设施当天遭伊朗袭击，引发火灾。巴林国防军总司令部21日晚发表声明说，该国防空系统当天对伊朗的多次空袭进行拦截，行动导致碎片坠落。伊朗伊斯兰革命卫队21日发表声明称，革命卫队航空航天部队使用导弹和无人机袭击了美国在巴林里法和阿瓦利两处军事基地的防空雷",
    "time": "2026-11-22 19:43",
    "url": "https://wallstreetcn.com/livenews/3203747",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普点赞中俄美元首会晤气氛“热烈”，是“多年来最具重大意义”的国际会晤之一 - 中国新闻网",
+   "summary": "",
+   "time": "2026-11-22 19:12",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wQzhzRTVndTV1QjA2cjYwNG1FNjRVZXlhMG84MDBNX3VqdE1iU1lVSWpteG1aNTNMS2RrdUlINjZRRGY3c2VtUmhBVjlwNF8tbVlGamxsb0I4aDlyZ1hYTUVYQk9SXzdn?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "韩电再曝大规模数据泄露，152万人信息外泄",
@@ -1781,13 +1837,6 @@
    "source": "财新"
   },
   {
-   "title": "特朗普点赞中俄美元首会晤气氛“热烈”，是“多年来最具重大意义”的国际会晤之一 - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-22 19:12",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wQzhzRTVndTV1QjA2cjYwNG1FNjRVZXlhMG84MDBNX3VqdE1iU1lVSWpteG1aNTNMS2RrdUlINjZRRGY3c2VtUmhBVjlwNF8tbVlGamxsb0I4aDlyZ1hYTUVYQk9SXzdn?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元",
    "summary": "【沪深交易所逐年提高降费举措力度 2021年以来已累计让利超70亿元】沪深交易所22日再推新一批降费措施，降费力度逐年加码趋势明显。当日，上交所新增让利预计13.68亿元、2026年度整体降费超24亿元；深交所新增让利预计13.9亿元、2026年度整体降费超22亿元。记者统计发现，在证监会统筹指导下，两所合计2021年以来已累计让利超70亿元。有观点认为，降费覆盖上市、交易、服务各环节，有助于持续降低市场运行成本、优化营商环境、激发市场活力。",
    "time": "2026-11-22 20:07:20",
@@ -1795,11 +1844,25 @@
    "source": "东财国际"
   },
   {
+   "title": "华福证券发布有色金属研报稀土价格上行科达制造周涨8.16%_公司新闻_财经 - 证券之星",
+   "summary": "",
+   "time": "2026-11-22 18:00",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GUWJETFR5Umx6ZFBFS0ZqQnIzWUZ1MEw4aFd1VUpNWndNNUFuNXdwOHJJemRlcDU4dlJFUUxwbGNSTG9BcXYyLTJTNGx0YXZqa09JSnZWcE9ERDI1QlQtMw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
    "title": "与SpaceX如出一辙，Anthropic采用非同寻常的IPO流程，令部分银行家颇为不满",
    "summary": "据知情人士透露，Anthropic告知其22家IPO承销商中的部分机构，将交易团队限制在四名银行家以内。Anthropic要求部分银行高管签署为期六个月的竞业禁止协议，涵盖OpenAI及其他竞争对手。修正后的S-1A文件于纽约时间凌晨2点左右发送，承销行仅有数小时时间予以批准。（路透）",
    "time": "2026-11-22 19:01",
    "url": "https://wallstreetcn.com/livenews/3203745",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "伟达：特朗普下半场何以收官：国际优先 - 联合早报",
+   "summary": "",
+   "time": "2026-11-22 19:00",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2RGpEV2pSWlZHTXZTeEhQLWVJTFdLWGlsby04T1Z4c1dDNjdwUnU3RkNVSkpjNkVsOEk4Q2pyRlJrRnFGendKQnEzZ3k1b1VrWmdxeXFWVDI1R0ZOZGVXNjZURU5BSTlBdWtHSw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "Anthropic与SpaceX创纪录IPO背后：承销行抱怨交易流程复杂",
@@ -1823,13 +1886,6 @@
    "source": "财新"
   },
   {
-   "title": "伟达：特朗普下半场何以收官：国际优先 - 联合早报",
-   "summary": "",
-   "time": "2026-11-22 19:00",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2RGpEV2pSWlZHTXZTeEhQLWVJTFdLWGlsby04T1Z4c1dDNjdwUnU3RkNVSkpjNkVsOEk4Q2pyRlJrRnFGendKQnEzZ3k1b1VrWmdxeXFWVDI1R0ZOZGVXNjZURU5BSTlBdWtHSw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "深天马A：公司非显业务总体规模还很小",
    "summary": "【深天马A：公司非显业务总体规模还很小】深天马A近日接受机构调研时表示，公司持续聚焦显示主业，同时积极推进非显示应用技术开发，建立了MPG平台（多项目玻璃基板技术平台），稳步推进与行业伙伴在面板级智能天线、智能调光玻璃、玻璃基封装基板、微流控生物芯片、指纹识别等领域开展技术开发与合作。截至目前，公司非显业务总体规模还很小，主要还处在孵化和培育期，对公司现有经营业绩无明显影响，未来公司能否实现在相关领域的规模量产及预期效益，存在不确定性。",
    "time": "2026-11-22 19:57:54",
@@ -1837,25 +1893,11 @@
    "source": "东财国际"
   },
   {
-   "title": "2026年全球脑机接口企业数量实现较快增长",
-   "summary": "11月21日至22日，2026脑机接口大会开幕式及多场论坛在北京市昌平区举办。会上发布了《脑机接口创新发展研究报告（2026）》。报告认为，2026年，全球脑机接口取得新进展，企业数量实现较快增长。同时，行业格局出现新变化，信息通信和医疗行业头部企业开始进入赛道。报告显示，2026年全球脑机接口企业数量从800多家增至1175家，相比2025年实现了较快增长。我国脑机接口产业集聚于京津冀、长三角、",
-   "time": "2026-11-22 18:45",
-   "url": "https://wallstreetcn.com/livenews/3203742",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "上交所正推动修订科创板做市商规则",
+   "title": "太平洋：给予龙源电力买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-22 10:55:20",
-   "url": "https://news.futunn.com/flash/1005281206/the-sse-is-promoting-revisions-to-the-market-maker-rules",
-   "source": "富途"
-  },
-  {
-   "title": "深交所组合式推出新一批降费措施 预计向市场让利13.9亿元",
-   "summary": "",
-   "time": "2026-11-22 10:39:16",
-   "url": "https://news.10jqka.com.cn/20261122/c682076825.shtml",
-   "source": "同花顺"
+   "time": "2026-11-22 17:00",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fT2p0MmtjQXRFSGEwWkFJSWxDR2RxdkMtWmlNNmtmR3lPSExEeHlqcUxnYjFSTEU0LWNXTVlQcjQ0Y3BDUjFIU1JaMWpPbm5CR1VqRE9WZ2NPUDRDTEVZVjd3?oc=5",
+   "source": "谷歌新闻·研报"
   }
  ],
  "news_meta": {
@@ -1865,19 +1907,20 @@
    "富途": "ok(30)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "ok(30)",
+   "百度财经": "FAIL:RuntimeError",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
-   "谷歌新闻·研报": "FAIL:HTTPError"
+   "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 8,
-   "东财国际": 8,
-   "华尔街见闻": 8,
-   "富途": 8,
-   "同花顺": 8,
+   "东财国际": 7,
+   "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
+   "富途": 7,
+   "同花顺": 6,
    "东财早报": 1,
-   "财新": 7
+   "财新": 6
   }
  },
  "wuxing": {
