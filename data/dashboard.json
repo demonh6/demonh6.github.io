@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-22 10:51:53 CST",
- "generated_at_iso": "2026-11-22T10:51:53+08:00",
+ "generated_at": "2026-11-22 11:00:05 CST",
+ "generated_at_iso": "2026-11-22T11:00:05+08:00",
  "date": "2026-11-22",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59621.1,
-    "change": 970.0,
-    "change_pct": 1.65,
-    "source": "okx"
+    "price": 59484.5,
+    "change": 982.0,
+    "change_pct": 1.68,
+    "source": "okx",
+    "hist": [
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     59599.9
+    ],
+    "sigma": 2.272
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1673.45,
-    "change": 53.98,
-    "change_pct": 3.33,
-    "source": "okx"
+    "price": 1671.61,
+    "change": 54.07,
+    "change_pct": 3.34,
+    "source": "okx",
+    "hist": [
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1673.75
+    ],
+    "sigma": 3.223
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.62,
-    "change": 0.95,
-    "change_pct": 1.38,
-    "source": "okx"
+    "price": 69.56,
+    "change": 1.15,
+    "change_pct": 1.68,
+    "source": "okx",
+    "hist": [
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     69.63
+    ],
+    "sigma": 3.39
    }
   ],
   "fx": [
@@ -1348,9 +1447,9 @@
     "change": 2.68,
     "change_pct": 1.99,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1385,15 +1484,26 @@
  },
  "speakers": [
   {
+   "keyword": "证监会",
+   "label": "证监会",
+   "hint": "A股核心监管机构的政策直接影响市场情绪",
+   "title": "“张朝阳被证监会出具警示函” 搜狐创始人张朝阳：不是我 AI区别不了同名同姓的人",
+   "summary": "【“张朝阳被证监会出具警示函” 搜狐创始人张朝阳：不是我 AI区别不了同名同姓的人】针对“张朝阳被证监会出具警示函”的消息，搜狐创始人张朝阳公开回应：“搞错了吧，此张朝阳不是我。”张朝阳还提到，自己并没有收到警示函，也没有从事证券咨询业。他随后还略带调侃地补充道：“看来AI还是不行，区别不了同名同姓的人。”",
+   "time": "2026-11-22 10:48:41",
+   "url": "https://finance.eastmoney.com/a/202611223936876063.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：将寻求与伊朗达成一项“永久性”协议 - 星岛环球网",
+   "title": "特朗普谈黄仁勋与马斯克：称必须保护美国最杰出人才 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-22 10:04",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BR25zaGd5LUs0NWtHQ242NUp3VlJVdUJPaDFMc1NrQmNiclowUkpQaGh4OWRQTHU0UmI2VFVsWmY1dENTX2c4dFliREtBREdOeUo5NmNPSmstZ2l4LUJKYjlvZHdwOU0?oc=5",
+   "time": "2026-11-22 10:40",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wOUNVVGMyOGhjU0pZVFVRbXFlTExDbE1BVkxiazZCTFNlN1BFUTdDaXh0WG5CZDMzM3NUMDB3b2JNM2RUalVweENEem1OUTZ0a0dROG9adV8zRkpsRW93UkxUSlVVakxFeUlSQmtNZmFnZWc?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
   },
   {
    "keyword": "商务部",
@@ -1478,6 +1588,26 @@
     "source": "机构观点"
    },
    {
+    "title": "亚马逊用接近75亿美元收购以色列AI 芯片初创公司 目标是对付英伟达",
+    "org": "金融时报",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-22",
+    "url": "https://finance.eastmoney.com/a/202611223936874337.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "澜起科技：内存接口芯片市场持续成长，持续投入研发巩固竞争优势",
+    "org": "华安证券",
+    "rating": "买入",
+    "stock": "澜起科技",
+    "industry": "半导体",
+    "date": "2026-11-22",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611221831931176",
+    "source": "东财研报·个股"
+   },
+   {
     "title": "新品群放量叠加出海兑现，创新疫苗平台迎来收获期",
     "org": "华安证券",
     "rating": "买入",
@@ -1486,6 +1616,26 @@
     "date": "2026-11-22",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611221831929821",
     "source": "东财研报·个股"
+   },
+   {
+    "title": "周期行业ETF双周报：天然气价格上涨",
+    "org": "金融街证券",
+    "rating": "持有",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-22",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611221831930691",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "食品饮料行业11月ETF策略：10月食饮板块逆势上涨，个股分化",
+    "org": "金融街证券",
+    "rating": "持有",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-22",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611221831930607",
+    "source": "东财研报·行业"
    },
    {
     "title": "光学光电子：产业链位置的毛利率分层",
@@ -1505,16 +1655,6 @@
     "industry": "半导体",
     "date": "2026-11-21",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611211831921894",
-    "source": "东财研报·个股"
-   },
-   {
-    "title": "彩印主业筑基，薄膜成长添翼",
-    "org": "华安证券",
-    "rating": "买入",
-    "stock": "永新股份",
-    "industry": "包装印刷",
-    "date": "2026-11-21",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611211831910684",
     "source": "东财研报·个股"
    },
    {
@@ -1576,26 +1716,6 @@
     "date": "2026-11-20",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611201831906363",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "出海商业化元年，从单品走向平台型创新药企",
-    "org": "山西证券",
-    "rating": "增持",
-    "stock": "海创药业",
-    "industry": "化学制药",
-    "date": "2026-11-20",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611201831893535",
-    "source": "东财研报·个股"
-   },
-   {
-    "title": "公司首次覆盖报告：无源器件强通胀时代的MPO&DFAU领军企业",
-    "org": "开源证券",
-    "rating": "买入",
-    "stock": "致尚科技",
-    "industry": "消费电子",
-    "date": "2026-11-20",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611201831891382",
-    "source": "东财研报·个股"
    }
   ]
  },
@@ -1604,101 +1724,101 @@
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-22 10:52",
+   "time": "2026-11-22 11:01",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "分析：APEC上与习近平、特朗普历史性会晤，对普京是一场重大胜利 - BBC",
-   "summary": "",
-   "time": "2026-11-22 10:15",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45NkZnNG16REF4QkNEa1dKZGhNTXRsRmtTNWxONlhLbkxLMTItQkdpdzg0N2RnV0NIdlY2WnJYbW9sZGw4M1NfSEEzc2x3VXE2Y2NEZEtUR2NodWFjUmlJTTFWblkwNEnSAWxBVV95cUxPOTZreE5JRDNEaWdta0VxRUw0UTJwSU9TbGo3WFcyTTQwbnR3NENYX2VpNHF4Nk9jWHpCUGQyVmt5UE9YNjdIalRvc1BCWlFycGpDcnlkR3NVLXlRWmR3RmVaZXZKNnBjV0k3LVM?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "亚马逊用接近75亿美元收购以色列AI 芯片初创公司 目标是对付英伟达",
-   "summary": "【亚马逊用接近75亿美元收购以色列AI 芯片初创公司 目标是对付英伟达】据英国《金融时报》中文网22日报道，亚马逊接近达成75亿美元收购AI初创公司Decart的交易，此举凸显科技巨头增强AI能力的强烈意愿。",
-   "time": "2026-11-22 10:07:06",
-   "url": "https://finance.eastmoney.com/a/202611223936874337.html",
+   "title": "“张朝阳被证监会出具警示函” 搜狐创始人张朝阳：不是我 AI区别不了同名同姓的人",
+   "summary": "【“张朝阳被证监会出具警示函” 搜狐创始人张朝阳：不是我 AI区别不了同名同姓的人】针对“张朝阳被证监会出具警示函”的消息，搜狐创始人张朝阳公开回应：“搞错了吧，此张朝阳不是我。”张朝阳还提到，自己并没有收到警示函，也没有从事证券咨询业。他随后还略带调侃地补充道：“看来AI还是不行，区别不了同名同姓的人。”",
+   "time": "2026-11-22 10:48:41",
+   "url": "https://finance.eastmoney.com/a/202611223936876063.html",
    "source": "东财国际"
   },
   {
-   "title": "国家中医药管理局认证中心：未与任何大模型企业合作，亦未开展测评",
-   "summary": "11月21日晚，国家中医药管理局中医师资格认证中心就近期部分人工智能大模型产品及其运营、推广主体宣称其大模型经过了中医类别医师资格考试试题测试等事宜，发布声明：中心从未与任何人工智能大模型企业、平台或相关机构建立合作关系；未授权任何主体使用中心名称、简称、标识、考试数据及考试资料用于大模型训练、产品宣传或者商业推广；中心未对任何大模型产品开展过测评、认证、认可或者推荐。",
-   "time": "2026-11-22 09:39",
-   "url": "https://wallstreetcn.com/livenews/3203705",
+   "title": "各方核心症结待解，COP31大会继续延期",
+   "summary": "原定20日闭幕的《联合国气候变化框架公约》第三十一次缔约方大会（COP31），由于各方未能就部分核心议题达成一致，当晚进入加时阶段。截至当地时间21日晚，大会仍然继续进行，暂无具体的闭幕时间。据美国方面21日消息，本次气候变化大会延期闭幕的最大症结在于，大会的最终成果文件是否应该提及化石燃料使用问题，以及成果文件是否应该包含对较贫穷国家应对气候变化的支持。（央视新闻）",
+   "time": "2026-11-22 10:42",
+   "url": "https://wallstreetcn.com/livenews/3203706",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普谈黄仁勋与马斯克：称必须保护美国最杰出人才 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-22 10:40",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1wOUNVVGMyOGhjU0pZVFVRbXFlTExDbE1BVkxiazZCTFNlN1BFUTdDaXh0WG5CZDMzM3NUMDB3b2JNM2RUalVweENEem1OUTZ0a0dROG9adV8zRkpsRW93UkxUSlVVakxFeUlSQmtNZmFnZWc?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "上市第二天就“差点破发”！Anthropic的“豪华投行承销团”面临压力 - 华尔街见闻",
@@ -1708,18 +1828,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "中国香港飞巴新客机紧急备降，系国泰航空联号航班！航司回应",
+   "summary": "",
+   "time": "2026-11-22 02:56:01",
+   "url": "https://news.10jqka.com.cn/20261122/c682075447.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "各方核心症结待解 COP31大会继续延期",
    "summary": "",
    "time": "2026-11-22 02:33:53",
    "url": "https://news.futunn.com/flash/1005276453/core-impasses-remain-unresolved-as-cop31-extended",
    "source": "富途"
-  },
-  {
-   "title": "稻城亚丁景区金刚挑战线将封闭管理：冰冻期安全隐患大及生态修复需要",
-   "summary": "",
-   "time": "2026-11-22 02:28:48",
-   "url": "https://news.10jqka.com.cn/20261122/c682075384.shtml",
-   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月20日周五",
@@ -1736,17 +1856,59 @@
    "source": "财新"
   },
   {
-   "title": "特朗普：将寻求与伊朗达成一项“永久性”协议 - 星岛环球网",
+   "title": "困扰数学界167年的黎曼猜想被AI辅助证明？丘成桐回应",
+   "summary": "【困扰数学界167年的黎曼猜想被AI辅助证明？丘成桐回应】北京时间11月21日晚间，著名数学家、清华大学求真书院院长、菲尔兹奖得主丘成桐对该事件发表看法称：“这是一个伟大的贡献，也可以讲震动了全世界，表示数学进入了一个新的纪元。”同时丘成桐强调，数学要向前迈进一大步，一个重要问题是往什么方向走，需要提出新的方案。希望年轻学者，尤其中国年轻数学家，能在此基础上发展出一套自己的理论，这对中国学者也是很好的机会。",
+   "time": "2026-11-22 10:39:09",
+   "url": "https://finance.eastmoney.com/a/202611223936875745.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "国家中医药管理局认证中心：未与任何大模型企业合作，亦未开展测评",
+   "summary": "11月21日晚，国家中医药管理局中医师资格认证中心就近期部分人工智能大模型产品及其运营、推广主体宣称其大模型经过了中医类别医师资格考试试题测试等事宜，发布声明：中心从未与任何人工智能大模型企业、平台或相关机构建立合作关系；未授权任何主体使用中心名称、简称、标识、考试数据及考试资料用于大模型训练、产品宣传或者商业推广；中心未对任何大模型产品开展过测评、认证、认可或者推荐。",
+   "time": "2026-11-22 09:39",
+   "url": "https://wallstreetcn.com/livenews/3203705",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "分析：APEC上与习近平、特朗普历史性会晤，对普京是一场重大胜利 - BBC",
    "summary": "",
-   "time": "2026-11-22 10:04",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BR25zaGd5LUs0NWtHQ242NUp3VlJVdUJPaDFMc1NrQmNiclowUkpQaGh4OWRQTHU0UmI2VFVsWmY1dENTX2c4dFliREtBREdOeUo5NmNPSmstZ2l4LUJKYjlvZHdwOU0?oc=5",
+   "time": "2026-11-22 10:16",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45NkZnNG16REF4QkNEa1dKZGhNTXRsRmtTNWxONlhLbkxLMTItQkdpdzg0N2RnV0NIdlY2WnJYbW9sZGw4M1NfSEEzc2x3VXE2Y2NEZEtUR2NodWFjUmlJTTFWblkwNEnSAWxBVV95cUxPOTZreE5JRDNEaWdta0VxRUw0UTJwSU9TbGo3WFcyTTQwbnR3NENYX2VpNHF4Nk9jWHpCUGQyVmt5UE9YNjdIalRvc1BCWlFycGpDcnlkR3NVLXlRWmR3RmVaZXZKNnBjV0k3LVM?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "伊朗打击美基地博弈再度升温",
-   "summary": "【伊朗打击美基地博弈再度升温】据驻伊朗记者观察，随着伊朗当地时间11月21日晚对巴林境内美军基地实施打击，伊美博弈再度升温，危机走向牵动中东全局。一段时间以来，已经有多艘油轮在霍尔木兹海峡发生触雷起火，此外据伊朗统计，自美以伊40天战争后，伊朗已经陆续击落了数十架美军各型号无人机。伊朗舆论认为，卡塔尔和阿曼等国家做出了许多外交斡旋努力，海湾国家可以在缓和紧张局势方面发挥作用，但他们无法让美国解除对伊制裁，也无法确保伊朗在谈判桌上做出让步，因此，面对当前伊美“非战非和”的局面，双方必须重新审视各自的战略目标。",
-   "time": "2026-11-22 10:06:56",
-   "url": "https://finance.eastmoney.com/a/202611223936874484.html",
+   "title": "图说研报 | 谁在扰动肉牛价格上行的节奏? - Sohu",
+   "summary": "",
+   "time": "2026-11-22 09:23",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdmVTdERzMkJ3N1Q5aEJCelI5XzhQYkJOOU9CWlRLQkYxbGNUa2RMazJYdm1jSVNYNVhBZTZRSHptVUV1VWF2MDNfckFzWVM1cDktVnNjcEM4Wm43STB3b2lBUUY4THZQaUZMRFZ6aXE3ekZhVVp2WlpwZ1V3eWI2ZVg2NXdmQWxvbHRrVw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "零跑汽车回应A10后备厢下层储物盒受损：超过设计承重上限所致",
+   "summary": "",
+   "time": "2026-11-22 02:54:07",
+   "url": "https://news.10jqka.com.cn/20261122/c682075441.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "韩国产业部拟年内完成制定区域增长引擎培育计划",
+   "summary": "",
+   "time": "2026-11-22 02:12:29",
+   "url": "https://news.futunn.com/flash/1005276351/south-korea-s-ministry-of-trade-industry-and-energy-plans",
+   "source": "富途"
+  },
+  {
+   "title": "【本文系数据通用户提前专享】掌舵英伟达33年的黄仁勋站在全球AI革命最中心，他去职的短中长期影响是什么？",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-21/102507386.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "全球股市都在跌 下周A股会不一样吗？回测结果来了",
+   "summary": "【全球股市都在跌 下周A股会不一样吗？回测结果来了】刚过去的交易周（11月16日至20日），A股市场与全球股市共振下跌。全球股市一周累计跌超8%，中国股市总体跌了2.4%，不过在周期制造、科技、医药方向的跌幅也不小。",
+   "time": "2026-11-22 10:17:46",
+   "url": "https://finance.eastmoney.com/a/202611223936874946.html",
    "source": "东财国际"
   },
   {
@@ -1757,53 +1919,11 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "图说研报 | 谁在扰动肉牛价格上行的节奏? - Sohu",
-   "summary": "",
-   "time": "2026-11-22 09:23",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdmVTdERzMkJ3N1Q5aEJCelI5XzhQYkJOOU9CWlRLQkYxbGNUa2RMazJYdm1jSVNYNVhBZTZRSHptVUV1VWF2MDNfckFzWVM1cDktVnNjcEM4Wm43STB3b2lBUUY4THZQaUZMRFZ6aXE3ekZhVVp2WlpwZ1V3eWI2ZVg2NXdmQWxvbHRrVw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "韩国产业部拟年内完成制定区域增长引擎培育计划",
-   "summary": "",
-   "time": "2026-11-22 02:12:29",
-   "url": "https://news.futunn.com/flash/1005276351/south-korea-s-ministry-of-trade-industry-and-energy-plans",
-   "source": "富途"
-  },
-  {
-   "title": "中国空间站多项空间科学实（试）验有序推进",
-   "summary": "",
-   "time": "2026-11-22 02:21:36",
-   "url": "https://news.10jqka.com.cn/20261122/c682075361.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "【本文系数据通用户提前专享】掌舵英伟达33年的黄仁勋站在全球AI革命最中心，他去职的短中长期影响是什么？",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-21/102507386.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
    "title": "新华社消息丨特朗普称寻求与伊朗达成一项永久性协议 - 新华网",
    "summary": "",
    "time": "2026-11-22 10:00",
    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBxUUxqQnYwek11M0FIYmNYQnVEM0ZPQVphczZwQ1ZHNnYyWGJkQXJOVkY3WkJNdE45U0RPc3hsSF93R3ZRMjdXLUVZNzRySVQ4ckJSbWRyazIwbFUtcXhzQXlzNmJ3SjZ3Z012NjVvMDRXcVlCanEwRHFwQUhMdw?oc=5",
    "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "脑机接口报告：全球企业增至1175家 中国三大城市群集聚190余家",
-   "summary": "【脑机接口报告：全球企业增至1175家 中国三大城市群集聚190余家】2026脑机接口大会发布《脑机接口创新发展研究报告（2026）》。《报告》指出，脑机接口产业在2026年取得了新进展，全球企业数量从原有的800多家增长到了1175家，市场变现主要来自两个领域：一是科研，二是医疗。目前中国脑机接口产业集聚在三大城市群，分别为京津冀、长三角和粤港澳。这三大城市群，分布着190多家脑机接口企业，占全国的77.4%。前五大省市分别为广东省、北京市、上海市、江苏省和浙江省。产业的下一个趋势是产业整合分化与治理监管并行，同质化发展会逐渐走向专业深耕与分工。",
-   "time": "2026-11-22 09:52:54",
-   "url": "https://finance.eastmoney.com/a/202611223936873915.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "商务部新闻发言人就美国联邦通信委员会拟禁止中国电信运营商直接获取美国互联网电话号码资源答记者问",
-   "summary": "问：美东时间11月19日，美国联邦通信委员会（FCC）投票通过有关规则，拟禁止中国电信、中国联通、中国移动等被列入“覆盖清单”的电信运营商直接获取美国互联网电话号码资源。请问商务部对此有何评论？\n\n答：我们注意到有关情况。美国联邦通信委员会滥用监管权力，泛化所谓国家安全风险，在缺乏事实依据的情况下，违反非歧视和公平竞争原则，肆意污蔑、恶意打压中国电信企业在美运营。该机构近期持续推动中美两国在电信、",
-   "time": "2026-11-22 09:20",
-   "url": "https://wallstreetcn.com/livenews/3203702",
-   "source": "华尔街见闻"
   },
   {
    "title": "1股获买入评级 最新:康希诺 - 中财网",
@@ -1813,18 +1933,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "神舟二十四号展开全系统合练",
+   "summary": "",
+   "time": "2026-11-22 02:53:31",
+   "url": "https://news.10jqka.com.cn/20261122/c682075439.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "AI工具催生“单人创业者”淘金热，Anthropic上市或加速进程",
    "summary": "",
    "time": "2026-11-22 02:04:32",
    "url": "https://news.futunn.com/flash/1005276279/ai-tools-spark-solopreneur-gold-rush-anthropic-s-ipo-may",
    "source": "富途"
-  },
-  {
-   "title": "印尼万丹省一糖果厂发生火灾　40余人失联",
-   "summary": "",
-   "time": "2026-11-22 02:20:43",
-   "url": "https://news.10jqka.com.cn/20261122/c682075360.shtml",
-   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】长期被视为高净值人群专属的信托，尝试应对普通家庭的养老需求，前景如何？",
@@ -1834,18 +1954,18 @@
    "source": "财新"
   },
   {
-   "title": "特朗普返美后点赞深圳：“那股活力令人赞叹” - 中国日报网",
-   "summary": "",
-   "time": "2026-11-22 10:00",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14TmlNYVRnM0hTTWRoUk1fMmdhalNsQXFSQlhPMlZEaHB0dFdUWjllVWpSX3NSRWNoOElnYjJSQnZjM25RRldoY2NKRXBGTmpOWjNrV2J6RUFhZVNpM3lKVjdxeTJQSGVBWG9RM1ZpbkQ3bFQxVUtfQzJxNA?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "亚马逊用接近75亿美元收购以色列AI 芯片初创公司 目标是对付英伟达",
+   "summary": "【亚马逊用接近75亿美元收购以色列AI 芯片初创公司 目标是对付英伟达】据英国《金融时报》中文网22日报道，亚马逊接近达成75亿美元收购AI初创公司Decart的交易，此举凸显科技巨头增强AI能力的强烈意愿。",
+   "time": "2026-11-22 10:07:06",
+   "url": "https://finance.eastmoney.com/a/202611223936874337.html",
+   "source": "东财国际"
   },
   {
-   "title": "法国连续第6个周六举行示威活动",
-   "summary": "【法国连续第6个周六举行示威活动】法国巴黎等多地民众21日举行新的示威游行。这是法国自10月17日抗议酿成严重骚乱以来，连续第6个周六举行示威活动，但规模创新低。（新华社）",
-   "time": "2026-11-22 09:25:10",
-   "url": "https://finance.eastmoney.com/a/202611223936872933.html",
-   "source": "东财国际"
+   "title": "商务部新闻发言人就美国联邦通信委员会拟禁止中国电信运营商直接获取美国互联网电话号码资源答记者问",
+   "summary": "问：美东时间11月19日，美国联邦通信委员会（FCC）投票通过有关规则，拟禁止中国电信、中国联通、中国移动等被列入“覆盖清单”的电信运营商直接获取美国互联网电话号码资源。请问商务部对此有何评论？\n\n答：我们注意到有关情况。美国联邦通信委员会滥用监管权力，泛化所谓国家安全风险，在缺乏事实依据的情况下，违反非歧视和公平竞争原则，肆意污蔑、恶意打压中国电信企业在美运营。该机构近期持续推动中美两国在电信、",
+   "time": "2026-11-22 09:20",
+   "url": "https://wallstreetcn.com/livenews/3203702",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
@@ -1861,12 +1981,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
    "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "富途": 7,
-   "同花顺": 6,
+   "同花顺": 7,
+   "富途": 6,
    "东财早报": 1,
    "财新": 6
   }
