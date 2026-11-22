@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-22 12:59:21 CST",
- "generated_at_iso": "2026-11-22T12:59:21+08:00",
+ "generated_at": "2026-11-22 13:08:07 CST",
+ "generated_at_iso": "2026-11-22T13:08:07+08:00",
  "date": "2026-11-22",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59353.7,
-    "change": 3052.3,
-    "change_pct": 5.42,
-    "source": "okx"
+    "price": 59156.6,
+    "change": 2835.3,
+    "change_pct": 5.03,
+    "source": "okx",
+    "hist": [
+     79803.6,
+     80637.1,
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     59114.8
+    ],
+    "sigma": 2.266
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1665.11,
-    "change": 103.87,
-    "change_pct": 6.65,
-    "source": "okx"
+    "price": 1661.31,
+    "change": 98.07,
+    "change_pct": 6.27,
+    "source": "okx",
+    "hist": [
+     2306.73,
+     2344.39,
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1660.55
+    ],
+    "sigma": 3.218
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.47,
-    "change": 3.41,
-    "change_pct": 5.16,
-    "source": "okx"
+    "price": 69.26,
+    "change": 3.29,
+    "change_pct": 4.99,
+    "source": "okx",
+    "hist": [
+     99.78,
+     101.63,
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     69.23
+    ],
+    "sigma": 3.39
    }
   ],
   "fx": [
@@ -1323,12 +1422,12 @@
     "name": "美元指数",
     "sym": "DXY",
     "price": 103.84,
-    "change": -0.102,
-    "change_pct": -0.1,
+    "change": -0.11,
+    "change_pct": -0.11,
     "dec": 2,
-    "date": "2026-11-21",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
@@ -1348,9 +1447,9 @@
     "change": 2.68,
     "change_pct": 1.99,
     "dec": 2,
-    "date": "2026-11-20",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1373,25 +1472,36 @@
    "source": "东财"
   },
   "composite": {
-   "score": 25.0,
+   "score": 21.4,
    "label": "冰点",
-   "color": "#f58a3d",
+   "color": "#f04a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 0.0,
-    "structure": 62.5
+    "structure": 53.5
    }
   }
  },
  "speakers": [
   {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "马斯克最新警告：人工智能行业明年可能面临严重的资金短缺 可能需要数千亿美元额外资金投入",
+   "summary": "【马斯克最新警告：人工智能行业明年可能面临严重的资金短缺 可能需要数千亿美元额外资金投入】马斯克称，让如此大规模的算力设备通电、冷却并实现稳定运行，极其困难。人工智能行业明年可能面临严重的资金短缺。如果全行业从支付算力成本到设备能够稳定创收的时间累计推迟数月，仅营运资金就可能需要额外投入数千亿美元，马斯克反问这些资金将从何而来。",
+   "time": "2026-11-22 13:01:00",
+   "url": "https://finance.eastmoney.com/a/202611223936884649.html",
+   "source": "东财国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普连发30多张APEC会议相关照片，还晒出与普京的合影，称“My Friend” - Sohu",
+   "title": "特朗普表示：中俄美元首会晤“史无前例”“意义重大” - 每日经济新闻",
    "summary": "",
-   "time": "2026-11-22 12:25",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWGhBYVNvbWF2ZW44RUhjeThXbENrNkFyRktkTmxpaWZMeTZBVXY5NGlQblBDbFdIQnRfc01jZS0yNzB2TkpQRFBXajlGNXZqNlpIMEdNcUI3YURCY0VEbXRGTHpEVFBxZDd0X0dJRFd6UDNJeWVUVlV3NzFnRXh0ZExNM3Z2TGdU?oc=5",
+   "time": "2026-11-22 12:29",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MUVVPVFlGY1pRTGxZT3dyS3AwNkltYnRUMHM1UXVoVFBIYm5CQ0R2TWFLVnowbmszbEYwTExyb0VCbVBPMXB4czNVMW5YV0hQeEhFTzM4elA1b0Zrd3IyNS1Sc1Bxdw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
   },
@@ -1399,12 +1509,12 @@
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储突传大消息！ - 东方财富网",
+   "title": "美联储，突传大消息！ - 证券之星",
    "summary": "",
-   "time": "2026-11-22 12:24",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yWnpDRUd1MmQtM0FSaU5LSEZBUEdXN1JKQXlHWnBNTElRbU9HUzZHSnljaTBxNUNWaFNaMG15cFA0SUpkOFFzd3RGV00wX0JxbFB1Q0xzWTBPVlN6SWpQRA?oc=5",
+   "time": "2026-11-22 12:25",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tWU56NG9kQzFyUGUxdGxPQXdOVEk0LXZYbWxtc1h0d2dpVEs4WmxhaFJDTExfZllwSEI1LXJLRlN5aTAzRE5vcDJGNjZzLTZDRFlac1Z2QlU0MGk4akFDLQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
+   "mentions": 3
   }
  ],
  "research": {
@@ -1467,6 +1577,16 @@
    }
   ],
   "reports": [
+   {
+    "title": "特朗普表示：中俄美元首会晤“史无前例”“意义重大” - 每日经济新闻",
+    "org": "日经",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-22",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MUVVPVFlGY1pRTGxZT3dyS3AwNkltYnRUMHM1UXVoVFBIYm5CQ0R2TWFLVnowbmszbEYwTExyb0VCbVBPMXB4czNVMW5YV0hQeEhFTzM4elA1b0Zrd3IyNS1Sc1Bxdw?oc=5",
+    "source": "机构观点"
+   },
    {
     "title": "东方财富财经早餐 11月20日周五",
     "org": "摩根大通",
@@ -1604,101 +1724,108 @@
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
+  },
+  {
+   "level": "warning",
+   "asset": "比特币",
+   "message": "比特币单日涨5.03%，达20日历史波动率的 2.2 倍（σ=2.27%，突破 2σ 警戒线）",
+   "time": "2026-11-22 13:09",
+   "chain": "币价急涨 → 空头杠杆被连环强平(轧空) → 强平买单进一步推高价格 → 稳定币加速流入加密市场 → 与纳指联动的高风险偏好扩散"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-22 13:00",
+   "time": "2026-11-22 13:09",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "第二艘国产大型邮轮“爱达·花城号”正式开启商业首航",
-   "summary": "11月22日，第二艘国产大型邮轮“爱达·花城号”搭载3800余名宾客，从广州南沙国际邮轮母港出发，前往中国香港、越南顺化（真美），正式开启6天5晚的商业首航，标志着国产大型邮轮向规模化运营迈出坚实一步。（人民日报）",
-   "time": "2026-11-22 12:31",
-   "url": "https://wallstreetcn.com/livenews/3203714",
-   "source": "华尔街见闻"
+   "title": "马斯克最新警告：人工智能行业明年可能面临严重的资金短缺 可能需要数千亿美元额外资金投入",
+   "summary": "【马斯克最新警告：人工智能行业明年可能面临严重的资金短缺 可能需要数千亿美元额外资金投入】马斯克称，让如此大规模的算力设备通电、冷却并实现稳定运行，极其困难。人工智能行业明年可能面临严重的资金短缺。如果全行业从支付算力成本到设备能够稳定创收的时间累计推迟数月，仅营运资金就可能需要额外投入数千亿美元，马斯克反问这些资金将从何而来。",
+   "time": "2026-11-22 13:01:00",
+   "url": "https://finance.eastmoney.com/a/202611223936884649.html",
+   "source": "东财国际"
   },
   {
-   "title": "特朗普连发30多张APEC会议相关照片，还晒出与普京的合影，称“My Friend” - Sohu",
+   "title": "特朗普表示：中俄美元首会晤“史无前例”“意义重大” - 每日经济新闻",
    "summary": "",
-   "time": "2026-11-22 12:25",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWGhBYVNvbWF2ZW44RUhjeThXbENrNkFyRktkTmxpaWZMeTZBVXY5NGlQblBDbFdIQnRfc01jZS0yNzB2TkpQRFBXajlGNXZqNlpIMEdNcUI3YURCY0VEbXRGTHpEVFBxZDd0X0dJRFd6UDNJeWVUVlV3NzFnRXh0ZExNM3Z2TGdU?oc=5",
+   "time": "2026-11-22 12:29",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MUVVPVFlGY1pRTGxZT3dyS3AwNkltYnRUMHM1UXVoVFBIYm5CQ0R2TWFLVnowbmszbEYwTExyb0VCbVBPMXB4czNVMW5YV0hQeEhFTzM4elA1b0Zrd3IyNS1Sc1Bxdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美联储突传大消息！",
-   "summary": "【美联储突传大消息！】美联储加息，或有变数？美银首席投资策略师Michael Hartnett在最新一期《Flow Show》周报中指出，阻止美联储继续加息的最快方式，是让美国股市回吐2026年的全部涨幅。这一目标位对应标普500指数6845点，而该指数上周五收于6910点，距离触发仅剩65点、约1%的空间。",
-   "time": "2026-11-22 12:20:30",
-   "url": "https://finance.eastmoney.com/a/202611223936880444.html",
-   "source": "东财国际"
+   "title": "特朗普：寻求与伊朗达成永久性协议",
+   "summary": "美国总统特朗普在美国福克斯新闻频道21日播出的采访节目中说，将寻求与伊朗达成一项永久性协议。特朗普说：“我所做的是，我要确保即使四年、十五年或二十年后我们有一位不称职的总统，我达成的协议也将是永久性的。我不会让某人允许他们拥有核武器并对达成的协议出尔反尔。”特朗普还称，没有考虑伊朗政权更迭，“我从来不太在乎政权”。（新华社）",
+   "time": "2026-11-22 12:05",
+   "url": "https://wallstreetcn.com/livenews/3203713",
+   "source": "华尔街见闻"
   },
   {
    "title": "亚投行将在港设办公室，陈茂波：彰显香港汇聚国际资本独特角色 - 中国基金报",
@@ -1708,17 +1835,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "陈文清将赴德国出席第六次中德高级别安全对话并访问德国、奥地利",
+   "title": "今年流感跨毒株感染风险加大，今年流感季三毒株同时活跃",
    "summary": "",
-   "time": "2026-11-22 04:19:02",
-   "url": "https://news.10jqka.com.cn/20261122/c682075646.shtml",
+   "time": "2026-11-22 05:08:30",
+   "url": "https://news.10jqka.com.cn/20261122/c682075724.shtml",
    "source": "同花顺"
   },
   {
-   "title": "澳大利亚情报部门警告数据中心和AI或增加外国干预风险",
+   "title": "战事影响能源供应 伊朗实施限电措施",
    "summary": "",
-   "time": "2026-11-22 03:57:38",
-   "url": "https://news.futunn.com/flash/1005277065/australian-intelligence-agencies-warn-that-data-centers-and-ai-may",
+   "time": "2026-11-22 05:04:18",
+   "url": "https://news.futunn.com/flash/1005277512/conflict-impacts-energy-supply-iran-implements-power-rationing-measures",
    "source": "富途"
   },
   {
@@ -1736,25 +1863,25 @@
    "source": "财新"
   },
   {
-   "title": "特朗普：寻求与伊朗达成永久性协议",
-   "summary": "美国总统特朗普在美国福克斯新闻频道21日播出的采访节目中说，将寻求与伊朗达成一项永久性协议。特朗普说：“我所做的是，我要确保即使四年、十五年或二十年后我们有一位不称职的总统，我达成的协议也将是永久性的。我不会让某人允许他们拥有核武器并对达成的协议出尔反尔。”特朗普还称，没有考虑伊朗政权更迭，“我从来不太在乎政权”。（新华社）",
-   "time": "2026-11-22 12:05",
-   "url": "https://wallstreetcn.com/livenews/3203713",
-   "source": "华尔街见闻"
+   "title": "第二艘国产大型邮轮“爱达·花城号”正式开启商业首航",
+   "summary": "【第二艘国产大型邮轮“爱达·花城号”正式开启商业首航】第二艘国产大型邮轮“爱达·花城号”今天搭载3800余名宾客，从广州南沙国际邮轮母港出发，前往中国香港、越南顺化（真美），正式开启6天5晚的商业首航，标志着国产大型邮轮向规模化运营迈出坚实一步。2027年，“爱达·花城号”将以广州为母港运营50余个国际邮轮航次，兼顾短途休闲与中长线深度探索。",
+   "time": "2026-11-22 12:34:44",
+   "url": "https://finance.eastmoney.com/a/202611223936882096.html",
+   "source": "东财国际"
   },
   {
-   "title": "美联储突传大消息！ - 东方财富网",
+   "title": "美联储，突传大消息！ - 证券之星",
    "summary": "",
-   "time": "2026-11-22 12:24",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1yWnpDRUd1MmQtM0FSaU5LSEZBUEdXN1JKQXlHWnBNTElRbU9HUzZHSnljaTBxNUNWaFNaMG15cFA0SUpkOFFzd3RGV00wX0JxbFB1Q0xzWTBPVlN6SWpQRA?oc=5",
+   "time": "2026-11-22 12:25",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tWU56NG9kQzFyUGUxdGxPQXdOVEk0LXZYbWxtc1h0d2dpVEs4WmxhaFJDTExfZllwSEI1LXJLRlN5aTAzRE5vcDJGNjZzLTZDRFlac1Z2QlU0MGk4akFDLQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美国俄亥俄州发生枪击事件 3死1伤",
-   "summary": "【美国俄亥俄州发生枪击事件 3死1伤】美国当地警方证实，美国俄亥俄州克利夫兰南部郊区21日发生枪击事件，有人在一个婴儿送礼会活动上开枪，造成3人死亡、1人受伤。警方接到报警称，克利夫兰郊区帕尔马镇有两名持枪人员，警方已确认并控制了两名持枪者。",
-   "time": "2026-11-22 12:14:36",
-   "url": "https://finance.eastmoney.com/a/202611223936880523.html",
-   "source": "东财国际"
+   "title": "青藏铁路西格段扣停列车恢复运行，线路区间全面巡检",
+   "summary": "从国铁青藏集团公司了解到，受昨晚（21日）青海省海西州地震影响扣停的部分青藏铁路列车，经铁路部门巡检确认线路设备完好，今天已限速恢复运行。青海省海西州德令哈市5.6级地震，波及青藏铁路西宁至格尔木段部分区间。地震发生后，铁路部门紧急扣停途经列车，并启动应急预案，封锁区间、进行设备全面巡检，同时准备了充足的食品、饮用水等应急物资，保障旅客需求。（央视新闻）",
+   "time": "2026-11-22 11:49",
+   "url": "https://wallstreetcn.com/livenews/3203712",
+   "source": "华尔街见闻"
   },
   {
    "title": "上市第二天就“差点破发”！Anthropic的“豪华投行承销团”面临压力 - 华尔街见闻",
@@ -1764,17 +1891,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国股市或成美联储加息变数",
+   "title": "阿曼石油营销公司获得为期两年的政府车辆燃料供应合同",
    "summary": "",
-   "time": "2026-11-22 04:18:37",
-   "url": "https://news.10jqka.com.cn/20261122/c682075645.shtml",
+   "time": "2026-11-22 05:00:06",
+   "url": "https://news.10jqka.com.cn/20261122/c682075715.shtml",
    "source": "同花顺"
   },
   {
-   "title": "极氪辟谣“召回”短信：系冒名诈骗",
+   "title": "马斯克最新警告：AI行业明年可能面临严重的资金短缺，或需数千亿美元额外资金投入",
    "summary": "",
-   "time": "2026-11-22 03:25:20",
-   "url": "https://news.futunn.com/flash/1005276831/zeekr-debunks-recall-text-messages-identified-as-impersonation-fraud",
+   "time": "2026-11-22 05:03:05",
+   "url": "https://news.futunn.com/flash/1005277494/elon-musk-s-latest-warning-the-ai-industry-may-face",
    "source": "富途"
   },
   {
@@ -1785,11 +1912,11 @@
    "source": "财新"
   },
   {
-   "title": "青藏铁路西格段扣停列车恢复运行，线路区间全面巡检",
-   "summary": "从国铁青藏集团公司了解到，受昨晚（21日）青海省海西州地震影响扣停的部分青藏铁路列车，经铁路部门巡检确认线路设备完好，今天已限速恢复运行。青海省海西州德令哈市5.6级地震，波及青藏铁路西宁至格尔木段部分区间。地震发生后，铁路部门紧急扣停途经列车，并启动应急预案，封锁区间、进行设备全面巡检，同时准备了充足的食品、饮用水等应急物资，保障旅客需求。（央视新闻）",
-   "time": "2026-11-22 11:49",
-   "url": "https://wallstreetcn.com/livenews/3203712",
-   "source": "华尔街见闻"
+   "title": "信用风波冲击债市！后市怎么走？机构这样看",
+   "summary": "【信用风波冲击债市！后市怎么走？机构这样看】近期，受点状信用风险事件、资金面边际收敛以及国债免税政策预期变化等多重因素交织影响，国内债券市场出现一轮明显波动，理财赎回、债基被动卖券的负反馈一度发酵，十年期国债收益率出现阶段性上行。多位机构人士接受记者采访时表示，本轮调整属于阶段性扰动，债市中期运行逻辑并未发生改变，展望后市，利率债大概率维持区间震荡格局，但仍需关注财政供给、监管政策等潜在变量。",
+   "time": "2026-11-22 12:33:33",
+   "url": "https://finance.eastmoney.com/a/202611223936880690.html",
+   "source": "东财国际"
   },
   {
    "title": "阻止美联储加息的最快方式：美股“以死相逼” - 华尔街见闻",
@@ -1799,11 +1926,11 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "金价暴跌 莫迪开心：像我这样的普通人劝大家少买黄金 印度人就真的少买了 听我话的人钱保住了",
-   "summary": "【金价暴跌 莫迪开心：像我这样的普通人劝大家少买黄金 印度人就真的少买了 听我话的人钱保住了】据印度新德里电视台报道，印度总理莫迪21日在北方邦首府勒克瑙出席活动时表示，印度民众听从他此前减少购买黄金的建议，如今金价大幅下跌，许多人因此避免了损失。",
-   "time": "2026-11-22 12:12:30",
-   "url": "https://finance.eastmoney.com/a/202611223936880354.html",
-   "source": "东财国际"
+   "title": "韩国高考AI作弊事件发酵，教育部长引咎辞职",
+   "summary": "当地时间22日，韩国教育部长官崔教振辞去职务，为韩国2027年度大学修学能力考试（韩国高考）期间防范高科技作弊措施不足引发混乱而承担责任。近期，韩国发生多起利用人工智能工具作弊事件，引发民众广泛担忧。",
+   "time": "2026-11-22 11:10",
+   "url": "https://wallstreetcn.com/livenews/3203709",
+   "source": "华尔街见闻"
   },
   {
    "title": "图说研报 | 谁在扰动肉牛价格上行的节奏? - Sohu",
@@ -1813,17 +1940,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "信用风波冲击债市！后市怎么走？机构这样看",
+   "title": "《中国区域创新能力评价报告2026》： 江苏区域创新能力跃居第一",
    "summary": "",
-   "time": "2026-11-22 04:15:19",
-   "url": "https://news.10jqka.com.cn/20261122/c682075635.shtml",
+   "time": "2026-11-22 04:59:53",
+   "url": "https://news.10jqka.com.cn/20261122/c682075714.shtml",
    "source": "同花顺"
   },
   {
-   "title": "韩国教育部长辞职",
+   "title": "泰国拟禁止稀土开采化学品出口及过境，以应对河流污染",
    "summary": "",
-   "time": "2026-11-22 03:01:45",
-   "url": "https://news.futunn.com/flash/1005276663/south-korean-minister-of-education-resigns",
+   "time": "2026-11-22 04:41:23",
+   "url": "https://news.futunn.com/flash/1005277378/thailand-intends-to-ban-the-export-and-transit-of-chemicals",
    "source": "富途"
   },
   {
@@ -1834,11 +1961,11 @@
    "source": "财新"
   },
   {
-   "title": "韩国高考AI作弊事件发酵，教育部长引咎辞职",
-   "summary": "当地时间22日，韩国教育部长官崔教振辞去职务，为韩国2027年度大学修学能力考试（韩国高考）期间防范高科技作弊措施不足引发混乱而承担责任。近期，韩国发生多起利用人工智能工具作弊事件，引发民众广泛担忧。",
-   "time": "2026-11-22 11:10",
-   "url": "https://wallstreetcn.com/livenews/3203709",
-   "source": "华尔街见闻"
+   "title": "美联储突传大消息！",
+   "summary": "【美联储突传大消息！】美联储加息，或有变数？美银首席投资策略师Michael Hartnett在最新一期《Flow Show》周报中指出，阻止美联储继续加息的最快方式，是让美国股市回吐2026年的全部涨幅。这一目标位对应标普500指数6845点，而该指数上周五收于6910点，距离触发仅剩65点、约1%的空间。",
+   "time": "2026-11-22 12:20:30",
+   "url": "https://finance.eastmoney.com/a/202611223936880444.html",
+   "source": "东财国际"
   },
   {
    "title": "特朗普返美后点赞深圳：“那股活力令人赞叹” - 光明网",
@@ -1861,9 +1988,9 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 7,
    "富途": 6,
@@ -1946,9 +2073,9 @@
   "date": "2026-11-20",
   "zt_count": 28,
   "dt_count": 58,
-  "zb_count": 0,
+  "zb_count": 7,
   "qs_count": 62,
-  "seal_rate": 100.0,
+  "seal_rate": 80.0,
   "first_board": 25,
   "continued": 3,
   "max_streak": 4,
@@ -2131,11 +2258,11 @@
    }
   ],
   "index_pct": -1.22,
-  "score": 62.5,
-  "score_label": "偏热",
+  "score": 53.5,
+  "score_label": "中性",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
-   "封板率 100%（炸板 0 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
+   "封板率 80%（炸板 7 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
    "跌停 58 家：个股层面的风险在释放，注意高位股与题材补跌。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 3 家 / 涨停 28 家（11%）：以首板为主，持续性待验证",
@@ -2350,10 +2477,10 @@
     "date": "2026-11-20",
     "zt": 28,
     "dt": 58,
-    "zb": 0,
-    "seal": 100.0,
+    "zb": 7,
+    "seal": 80.0,
     "max_streak": 4,
-    "score": 62.5,
+    "score": 53.5,
     "index_pct": -1.22
    }
   ],
