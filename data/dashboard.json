@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-22 17:22:04 CST",
- "generated_at_iso": "2026-11-22T17:22:04+08:00",
+ "generated_at": "2026-11-22 17:30:28 CST",
+ "generated_at_iso": "2026-11-22T17:30:28+08:00",
  "date": "2026-11-22",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,6 +1019,27 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83919.7109,
+    "change": 897.96,
+    "change_pct": 1.08
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 36033.29,
+    "change": -2393.6,
+    "change_pct": -6.23
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 24802.78,
+    "change": -661.03,
+    "change_pct": -2.6
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
     "price": 10346.34,
@@ -1205,6 +1226,13 @@
      5941.95
     ],
     "sigma": 1.19
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2326.05,
+    "change": -28.35,
+    "change_pct": -1.2
    }
   ]
  },
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60048.2,
-    "change": 2083.7,
-    "change_pct": 3.59,
+    "price": 59975.1,
+    "change": 1981.8,
+    "change_pct": 3.42,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1692.0,
-    "change": 55.93,
-    "change_pct": 3.42,
+    "price": 1688.65,
+    "change": 50.21,
+    "change_pct": 3.06,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.07,
-    "change": 2.24,
-    "change_pct": 3.3,
+    "price": 69.88,
+    "change": 1.87,
+    "change_pct": 2.75,
     "source": "okx"
    }
   ],
@@ -1333,13 +1361,13 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6752,
-    "change": -0.0172,
-    "change_pct": -0.26,
+    "price": 6.6737,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-21",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1388,23 +1416,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普一口气发30多张APEC照片，回味深圳行；还晒出与普京合影，称“My Friend” - 川观新闻",
+   "title": "特朗普无视高市早苗，日本记者逐帧解析现场视频：非常屈辱，其他国家领导人同样没有理会她，孤立无援，根本无人理睬 - Sohu",
    "summary": "",
-   "time": "2026-11-22 16:32",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JWDN5M2d0eW9jbkVxV2s5OE9UZTV0OUpGaUxrTHJzSGMxUHB4MC1JRkRUZnFiWlBjMzVTV042dElySi1jUWd6MlZPaDktQQ?oc=5",
+   "time": "2026-11-22 17:05",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeXRLMzF2eXZLbDlqUWY0Uk12Y2lndUNsazFmdWFvWHk5dlY5LTdtTDV6cGhvRnhBTnlhNTJTa2VaamFhZnZZMWhDSDNoQ09laXVnUHhaUTdqU2x3Xy1LemhIZ3J4MlZCcnhTWEk5RlB4anpXWmlYUXVYVlhySjBhS2xKNVp5WVFj?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
-  },
-  {
-   "keyword": "证监会",
-   "label": "证监会",
-   "hint": "A股核心监管机构的政策直接影响市场情绪",
-   "title": "天阳科技：收到证监会立案告知书",
-   "summary": "",
-   "time": "2026-11-22 07:35:20",
-   "url": "https://news.10jqka.com.cn/20261122/c682076056.shtml",
-   "source": "同花顺",
-   "mentions": 1
   }
  ],
  "research": {
@@ -1602,123 +1619,137 @@
  "alerts": [
   {
    "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-22 17:31",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、中证500等 11 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-22 17:22",
+   "message": "深证成指、创业板指、中证500等 13 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-22 17:31",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "warning",
+   "asset": "德国DAX",
+   "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-22 17:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-22 17:22",
+   "time": "2026-11-22 17:31",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "复星医药：拟2.5亿元至5亿元回购A股股份",
-   "summary": "【复星医药：拟2.5亿元至5亿元回购A股股份】复星医药(600196.SH)公告称，公司董事会审议通过以集中竞价交易方式回购A股方案，回购资金总额不低于2.5亿元且不超过5亿元，回购价格上限为33元/股，回购期限为董事会审议通过之日起12个月内。",
-   "time": "2026-11-22 17:00:11",
-   "url": "https://finance.eastmoney.com/a/202611223936913165.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "华友钴业：拟以10亿元-15亿元回购股份，用于维护公司价值及股东权益",
-   "summary": "华友钴业公告，拟以集中竞价交易方式回购股份，回购金额不低于10亿元且不超过15亿元，价格上限45元/股，预计回购2222.22万股至3333.33万股、占总股本1.17%至1.76%，用于维护公司价值及股东权益，期限为董事会审议通过后3个月内。",
-   "time": "2026-11-22 16:43",
-   "url": "https://wallstreetcn.com/livenews/3203729",
+   "title": "韩国将着手准备设立稳定股市基金。\n\n韩国将为期三个月放宽每日股票回购额度限制。（彭博）",
+   "summary": "韩国将着手准备设立稳定股市基金。\n\n韩国将为期三个月放宽每日股票回购额度限制。（彭博）",
+   "time": "2026-11-22 17:31",
+   "url": "https://wallstreetcn.com/livenews/3203734",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普一口气发30多张APEC照片，回味深圳行；还晒出与普京合影，称“My Friend” - 川观新闻",
+   "title": "后劲太大，美国总统特朗普回国后进入“回忆模式”。当地时间11月21日，他在社交平台连发30多张深圳APEC会议期间照片。 #APEC #特朗普 #普京 #深圳 (记者:邵健彬、赵鹏、刘泳希；编辑：林润祺；审签：郑紫薇) - Sohu",
    "summary": "",
-   "time": "2026-11-22 16:32",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JWDN5M2d0eW9jbkVxV2s5OE9UZTV0OUpGaUxrTHJzSGMxUHB4MC1JRkRUZnFiWlBjMzVTV042dElySi1jUWd6MlZPaDktQQ?oc=5",
+   "time": "2026-11-22 17:23",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPT1I4bmFKUDJmeVNQdFFtckhfdTR1WkN5aU9uSXRQT2V6TFM0NkVzR01LX19ZLTIweTVIMlBRT0RqdmpjZ1ZYZzR3bi1nRHptY3lfbmNJUnJGWnBrZ0JXcDVjcHoyTXJabTJqSTF1WUx1SDRIU3NCbFNjSjkyc2w4bm5uajB5OGRaczB6Wg?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "伊朗军官称伊朗导弹射程已超2000公里",
+   "summary": "【伊朗军官称伊朗导弹射程已超2000公里】伊朗伊斯兰革命卫队下属准军事组织巴斯基民兵副司令戈雷希今天（11月22日）表示，伊朗的导弹最大射程已超过2000公里，但其不能给出具体数值。",
+   "time": "2026-11-22 17:22:30",
+   "url": "https://finance.eastmoney.com/a/202611223936915684.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "太平洋：给予宇瞳光学买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-22 15:52",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aRkZ3eHY0OEE3MlVBRmMzNFNBb2xJcHB0OGtlemI0YVVhNENWMlpkQjJMR25CSHlOTHJqXzlSV1dLMVdhYVF5bw?oc=5",
+   "time": "2026-11-22 16:55",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ueV95UWwwSnZjYlF2QzJZMEZ0cTBZU1FWYUpwRG56anhtbjNGQ2dMOXExLVJxZ3l0NUg4Rl9RcE1iT3JvSEFucGRxdk9FT3RDYk5hZklMMmstNk5NdDRHaFN3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "俄称打击乌克兰能源设施，乌南部电力供应承压",
+   "title": "纳指ETF广发：本基金将于2026年11月23日开市起停牌，当日10:30起复牌",
    "summary": "",
-   "time": "2026-11-22 08:55:28",
-   "url": "https://news.futunn.com/flash/1005279682/russia-claims-strikes-on-ukrainian-energy-facilities-power-supply-under",
+   "time": "2026-11-22 09:15:10",
+   "url": "https://news.futunn.com/flash/1005279939/guangfa-nasdaq-etf-trading-of-this-fund-will-be-suspended",
    "source": "富途"
   },
   {
-   "title": "三安光电：因个人身体原因 副董事长兼总经理林科闯辞职",
+   "title": "天阳科技：因涉嫌信息披露违法违规 证监会决定对公司立案",
    "summary": "",
-   "time": "2026-11-22 07:45:00",
-   "url": "https://news.10jqka.com.cn/20261122/c682076098.shtml",
+   "time": "2026-11-22 08:16:59",
+   "url": "https://news.10jqka.com.cn/20261122/c682076244.shtml",
    "source": "同花顺"
   },
   {
@@ -1736,45 +1767,45 @@
    "source": "财新"
   },
   {
-   "title": "金海通：拟0.5亿元至1亿元回购公司股份",
-   "summary": "【金海通：拟0.5亿元至1亿元回购公司股份】金海通(603061.SH)公告称，公司拟以自有资金通过集中竞价交易方式回购股份，回购金额不低于0.5亿元且不超过1亿元，回购价格不超过230元/股。本次回购的股份拟用于员工持股计划或股权激励，回购期限为自董事会审议通过之日起不超过6个月。",
-   "time": "2026-11-22 16:54:39",
-   "url": "https://finance.eastmoney.com/a/202611223936912877.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "国内首个！蚂蚁阿福医生版上线“循证金标准”UpToDate ，打造全场景医生AI工作台",
-   "summary": "11月22日，蚂蚁阿福医生版发布PC工作台（电脑端）版本，同时接入威科集团循证医学临床决策支持解决方案UpToDate，成为国内首个接入该专业功能的AI平台。即日起，全国医生、护士及药师等卫生专业技术人员都可通过阿福医生版限时免费试用UpToDate。",
-   "time": "2026-11-22 16:11",
-   "url": "https://wallstreetcn.com/livenews/3203727",
+   "title": "新疆乌鲁木齐市乌鲁木齐县附近发生4.7级左右地震",
+   "summary": "中国地震台网自动测定：11月22日17时8分，在新疆乌鲁木齐市乌鲁木齐县附近（北纬43.40度，东经88.04度）发生4.7级左右地震。最终结果以正式速报为准。（央视新闻）",
+   "time": "2026-11-22 17:17",
+   "url": "https://wallstreetcn.com/livenews/3203733",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普连发30多张照片盛赞APEC会议，照片配文“GOAT”（有史以来最伟大的） - Sohu",
+   "title": "特朗普无视高市早苗，日本记者逐帧解析现场视频：非常屈辱，其他国家领导人同样没有理会她，孤立无援，根本无人理睬 - Sohu",
    "summary": "",
-   "time": "2026-11-22 16:11",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVmdBSkxVSkllcnpLSnMwYVBZa3dkN3ROM2ZBZzBxdmk5Zko1ZkxQMWlRYWxxcXpOQ2p2aEZsbnpCaF92S0hsRmFyeGpfSkM3RzJhU244STBJTFRKcWp3S1E5d2ZtTnJ5djhqY05qd3pwTjZZUzJQV09lN3ZjODhKVlNUcVRMSTVKZ0VyMA?oc=5",
+   "time": "2026-11-22 17:05",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeXRLMzF2eXZLbDlqUWY0Uk12Y2lndUNsazFmdWFvWHk5dlY5LTdtTDV6cGhvRnhBTnlhNTJTa2VaamFhZnZZMWhDSDNoQ09laXVnUHhaUTdqU2x3Xy1LemhIZ3J4MlZCcnhTWEk5RlB4anpXWmlYUXVYVlhySjBhS2xKNVp5WVFj?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社电报",
+   "title": "中信证券：极端的估值结构最终会得以修正 变局可能在明年",
+   "summary": "【中信证券：极端的估值结构最终会得以修正 变局可能在明年】11月22日，中信证券最新研报指出，对比中美日韩市场各行业龙头公司估值分位，只有A股呈现“U型杠铃凹陷”，纯进攻型品种和纯防御性品种估值分位较高，而杠铃中段长久期公司估值被系统性打折，并且基本面因素无法完全解释。中信证券认为这种极端的估值结构最终会得以修正，变局可能在明年，“行业分散、聚焦龙头”是切实可行的策略。",
+   "time": "2026-11-22 17:15:05",
+   "url": "https://finance.eastmoney.com/a/202611223936914941.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "太平洋：给予兆易创新买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-22 15:52",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PeXM4YXpjN2haLW10VmJvTlEzb1RlWExVWUtvdko5NWJSa2p3WG9XN0MtcXhqZ1dfMzU5RmJNck1WVW8zckJJYXNLcTZYWnVCVmN0d1B4aVk1ZWVEcXFBWWdn?oc=5",
+   "time": "2026-11-22 16:50",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05R1haUWF6RktiNXl0UkxpUUU5QnVjVk5EWklUdXltZ0diVXdZNHdpby1kS0JkclFDcl8zVGJwN1Jqcy14QmdkZ2p1dV9RUlp6QjhraFBkSkRhX28tT0JTbUxB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "日本文部科学大臣因政治筹款丑闻面临辞职压力",
+   "title": "俄称打击乌克兰能源设施，乌南部电力供应承压",
    "summary": "",
-   "time": "2026-11-22 08:48:45",
-   "url": "https://news.futunn.com/flash/1005279608/japan-s-minister-of-education-culture-sports-science-and-technology",
+   "time": "2026-11-22 08:55:28",
+   "url": "https://news.futunn.com/flash/1005279682/russia-claims-strikes-on-ukrainian-energy-facilities-power-supply-under",
    "source": "富途"
   },
   {
-   "title": "天阳科技：收到证监会立案告知书",
+   "title": "三安光电：因个人身体原因 副董事长兼总经理林科闯辞职",
    "summary": "",
-   "time": "2026-11-22 07:35:20",
-   "url": "https://news.10jqka.com.cn/20261122/c682076056.shtml",
+   "time": "2026-11-22 07:45:00",
+   "url": "https://news.10jqka.com.cn/20261122/c682076098.shtml",
    "source": "同花顺"
   },
   {
@@ -1785,45 +1816,45 @@
    "source": "财新"
   },
   {
-   "title": "华友钴业：拟10亿至15亿元回购公司股份",
-   "summary": "【华友钴业：拟10亿至15亿元回购公司股份】华友钴业(603799.SH)公告称，公司拟以自有资金或自筹资金通过集中竞价交易方式回购股份，回购金额不低于10亿元且不超过15亿元，回购价格不超过45元/股，用于维护公司价值及股东权益。回购期限为董事会审议通过之日起3个月内。",
-   "time": "2026-11-22 16:39:08",
-   "url": "https://finance.eastmoney.com/a/202611223936911573.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "阿福健康生态大会，蚂蚁CEO韩歆毅谈AI如何服务患者、医生和医学",
-   "summary": "11月22日，在广州举行的2026蚂蚁阿福医疗健康生态大会上，蚂蚁集团CEO韩歆毅提出医疗AI的四个应用方向：延伸院外照护、辅助临床判断、支持真实世界研究和培养青年医生。",
-   "time": "2026-11-22 15:59",
-   "url": "https://wallstreetcn.com/livenews/3203726",
+   "title": "东山精密：部分行使超额配售权发行161.79万股H股，额外募资净额约1.39亿港元",
+   "summary": "东山精密公告，超额配售权于2026年11月22日部分行使，涉及161.79万股H股，占全球发售项下可供认购发售股份总数（于超额配售权获行使前）约1.42%，发行价86.80港元/股。H股由1.14亿股增至1.15亿股，占总股本比例由5.85%升至5.93%。",
+   "time": "2026-11-22 17:07",
+   "url": "https://wallstreetcn.com/livenews/3203732",
    "source": "华尔街见闻"
   },
   {
-   "title": "习主席主持中俄美元首会晤，普京、特朗普先后发言 - Sohu",
+   "title": "特朗普一口气发30多张APEC照片，回味深圳行；还晒出与普京合影，称“My Friend” - 川观新闻",
    "summary": "",
-   "time": "2026-11-22 15:46",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aTHBqaktiTzZLMF8zMDJJcXBPVVRfXzFjdUFDeF9lRkxRVjJKc2dkaENjTFRxNGhqY3k4YlZVZ1lBYlg1VDV0STlDREJOeXM?oc=5",
+   "time": "2026-11-22 16:32",
+   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5JWDN5M2d0eW9jbkVxV2s5OE9UZTV0OUpGaUxrTHJzSGMxUHB4MC1JRkRUZnFiWlBjMzVTV042dElySi1jUWd6MlZPaDktQQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "南方财经全媒体集团 - 南方财经",
+   "title": "阿达尼能源达成协议 收购维克拉姆希拉电力公司100%股权",
+   "summary": "阿达尼能源达成协议，收购维克拉姆希拉电力公司100%股权。",
+   "time": "2026-11-22 17:14:50",
+   "url": "https://finance.eastmoney.com/a/202611223936915085.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-22 15:42",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfTGUxamIzSy12WUpLbG1PZEQxLW92Ulg0TjFzOFBXRUx3Q2FUbHRkWV9xV0d5VUFtcTNhdmk0QkZFWlJ1Zkdfa2NnRlNES0lfbzdseWVrTTk3aTRvWFRMZ3l6MWNHRm8?oc=5",
+   "time": "2026-11-22 15:52",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9aRkZ3eHY0OEE3MlVBRmMzNFNBb2xJcHB0OGtlemI0YVVhNENWMlpkQjJMR25CSHlOTHJqXzlSV1dLMVdhYVF5bw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "华友钴业：拟10.00亿元至15.00亿元回购公司股份",
+   "title": "日本文部科学大臣因政治筹款丑闻面临辞职压力",
    "summary": "",
-   "time": "2026-11-22 08:30:57",
-   "url": "https://news.futunn.com/flash/1005279445/huayou-cobalt-plans-to-repurchase-company-shares-for-rmb-1",
+   "time": "2026-11-22 08:48:45",
+   "url": "https://news.futunn.com/flash/1005279608/japan-s-minister-of-education-culture-sports-science-and-technology",
    "source": "富途"
   },
   {
-   "title": "中超控股：定增完成 董监高持股比例被动稀释",
+   "title": "启迪设计：股票将被实施其他风险警示 11月23日停牌一天",
    "summary": "",
-   "time": "2026-11-22 07:33:08",
-   "url": "https://news.10jqka.com.cn/20261122/c682076045.shtml",
+   "time": "2026-11-22 07:36:29",
+   "url": "https://news.10jqka.com.cn/20261122/c682076065.shtml",
    "source": "同花顺"
   },
   {
@@ -1834,18 +1865,18 @@
    "source": "财新"
   },
   {
-   "title": "瑞士央行副行长警告通胀正在加速",
-   "summary": "【瑞士央行副行长警告通胀正在加速】瑞士央行副行长安托万·马丁警告称，自央行9月利率决议以来，消费者价格涨幅有所加快。",
-   "time": "2026-11-22 16:37:52",
-   "url": "https://finance.eastmoney.com/a/202611223936911449.html",
-   "source": "东财国际"
+   "title": "华友钴业：拟以10亿元-15亿元回购股份，用于维护公司价值及股东权益",
+   "summary": "华友钴业公告，拟以集中竞价交易方式回购股份，回购金额不低于10亿元且不超过15亿元，价格上限45元/股，预计回购2222.22万股至3333.33万股、占总股本1.17%至1.76%，用于维护公司价值及股东权益，期限为董事会审议通过后3个月内。",
+   "time": "2026-11-22 16:43",
+   "url": "https://wallstreetcn.com/livenews/3203729",
+   "source": "华尔街见闻"
   },
   {
-   "title": "英国等11国加入北约“卫星联合发射计划”",
-   "summary": "英国政府官方网站22日发布通告称，英国已与德国、加拿大等其他10国共同签署文件，加入由北约主导的“卫星联合发射计划”，以获取“可靠、灵活”的卫星发射服务，并依托太空产业拉动经济增长。该通告称，北约“卫星联合发射计划”旨在依托商业卫星发射服务商与基础设施，在签约国领土内打造卫星发射网络，构建韧性更强、响应更迅速、性价比更高的入轨通道。（新华社）",
-   "time": "2026-11-22 15:49",
-   "url": "https://wallstreetcn.com/livenews/3203724",
-   "source": "华尔街见闻"
+   "title": "习主席主持中俄美元首会晤，普京、特朗普先后发言 - Sohu",
+   "summary": "",
+   "time": "2026-11-22 15:46",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aTHBqaktiTzZLMF8zMDJJcXBPVVRfXzFjdUFDeF9lRkxRVjJKc2dkaENjTFRxNGhqY3k4YlZVZ1lBYlg1VDV0STlDREJOeXM?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
@@ -1861,9 +1892,9 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
+   "东财国际": 7,
    "谷歌新闻·研报": 7,
    "富途": 7,
    "同花顺": 6,
@@ -2359,6 +2390,8 @@
   ],
   "backfill_done": true
  },
- "errors": {},
+ "errors": {
+  "盘面结构": "ReadTimeout: HTTPSConnectionPool(host='push2ex.eastmoney.com', port=443): Read timed out. (read timeout=12)"
+ },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
