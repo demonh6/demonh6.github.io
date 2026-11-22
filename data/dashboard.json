@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-22 18:30:47 CST",
- "generated_at_iso": "2026-11-22T18:30:47+08:00",
+ "generated_at": "2026-11-22 18:39:44 CST",
+ "generated_at_iso": "2026-11-22T18:39:44+08:00",
  "date": "2026-11-22",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1322,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60871.3,
-    "change": 2843.8,
-    "change_pct": 4.9,
+    "price": 60792.3,
+    "change": 2885.7,
+    "change_pct": 4.98,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1710.03,
-    "change": 67.17,
-    "change_pct": 4.09,
+    "price": 1710.54,
+    "change": 69.3,
+    "change_pct": 4.22,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.58,
-    "change": 2.39,
-    "change_pct": 3.5,
+    "price": 70.53,
+    "change": 2.41,
+    "change_pct": 3.54,
     "source": "okx"
    }
   ],
@@ -1376,9 +1376,9 @@
     "change": 2.68,
     "change_pct": 1.99,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-20",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1412,6 +1412,17 @@
   }
  },
  "speakers": [
+  {
+   "keyword": "证监会",
+   "label": "证监会",
+   "hint": "A股核心监管机构的政策直接影响市场情绪",
+   "title": "沪深北交易所降低融资保证金比例下限至80% 理论上可带来增量资金近4000亿元",
+   "summary": "【沪深北交易所降低融资保证金比例下限至80% 理论上可带来增量资金近4000亿元】经证监会批准，沪深北交易所将融资保证金比例下限从100%降低至80%，此次调整将自2026年11月30日起实施。据测算，此次调整理论上可带来增量资金近4000亿元。",
+   "time": "2026-11-22 18:37:21",
+   "url": "https://finance.eastmoney.com/a/202611223936924279.html",
+   "source": "东财国际",
+   "mentions": 2
+  },
   {
    "keyword": "美联储",
    "label": "美联储",
@@ -1662,114 +1673,114 @@
    "level": "danger",
    "asset": "台湾加权",
    "message": "台湾加权单日跌6.23%，达20日历史波动率的 5.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌7.53%，达20日历史波动率的 4.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "深证成指、创业板指、中证500等 13 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.09%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日跌3.54%，达20日历史波动率的 3.0 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "德国DAX",
    "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.2 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日跌4.07%，达20日历史波动率的 2.3 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "金价回落 → 避险盘获利了结 → 黄金ETF持仓下降形成持续抛压 → 黄金股承压 → 资金转出避险资产流向风险市场"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-22 18:31",
+   "time": "2026-11-22 18:41",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   }
  ],
  "news": [
   {
-   "title": "“AI攻克黎曼猜想”获Lean数学社区认证 但读懂它仍需时日",
-   "summary": "【“AI攻克黎曼猜想”获Lean数学社区认证 但读懂它仍需时日】形式化证明系统Lean与其数学库Mathlib的开发者社区发布联合声明，宣布数学家莱文特·阿尔波格（Levent Alpge）11月20日公开的黎曼猜想证明已通过核验。这意味着，这份由人类数学家与AI模型Claude合作完成、约1700万行代码写就的证明，在公开后24小时内获得了形式化数学社区的权威认证。陶哲轩11月20日在博客中提醒，数学界消化这份证明仍需相当长时间。",
-   "time": "2026-11-22 18:28:29",
-   "url": "https://finance.eastmoney.com/a/202611223936923790.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "阿达尼能源宣布收购维克拉姆希拉电力公司100%股权",
-   "summary": "11月22日，阿达尼能源解决方案公司公告称，公司已于印度时间11月21日与REC Power Development and Consultancy Limited（RECPDCL）签署《股份购买协议》，以收购维克拉姆希拉电力传输有限公司（VPTL）100%股权。",
-   "time": "2026-11-22 18:01",
-   "url": "https://wallstreetcn.com/livenews/3203735",
+   "title": "深交所组合式推出新一批降费措施，助力激发市场主体活力",
+   "summary": "11月22日，深交所发布《关于进一步减免相关费用的通知》，推出新一批降费措施，包括免收交易单元使用费、网络投票服务费、减免交易通信服务费、下调数据中心收费标准等，并将今年初已发布的免收上市费、债券经手费等措施有效期再延长两年。本次新推出的降费措施预计向市场让利13.9亿元，预计本年度深市整体降费金额超过22亿元。",
+   "time": "2026-11-22 18:38",
+   "url": "https://wallstreetcn.com/livenews/3203737",
    "source": "华尔街见闻"
   },
   {
-   "title": "华福证券发布有色金属研报稀土价格上行科达制造周涨8.16%_公司新闻_财经 - 证券之星",
+   "title": "沪深北交易所降低融资保证金比例下限至80% 理论上可带来增量资金近4000亿元",
+   "summary": "【沪深北交易所降低融资保证金比例下限至80% 理论上可带来增量资金近4000亿元】经证监会批准，沪深北交易所将融资保证金比例下限从100%降低至80%，此次调整将自2026年11月30日起实施。据测算，此次调整理论上可带来增量资金近4000亿元。",
+   "time": "2026-11-22 18:37:21",
+   "url": "https://finance.eastmoney.com/a/202611223936924279.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "中信证券：A股极端估值结构可能在明年生变 建议分散聚焦龙头 - 观点网",
    "summary": "",
-   "time": "2026-11-22 18:00",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GUWJETFR5Umx6ZFBFS0ZqQnIzWUZ1MEw4aFd1VUpNWndNNUFuNXdwOHJJemRlcDU4dlJFUUxwbGNSTG9BcXYyLTJTNGx0YXZqa09JSnZWcE9ERDI1QlQtMw?oc=5",
+   "time": "2026-11-22 18:27",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB6eHg3Wl9Cc2JPSkdiVnloZHFDVjlDcV8xQTd6QS02aWtHNXFuS2hILThhZmk2X05xcXQwbVZRUnRaeHdldkZNY0JhcFdla3BTVE5XWjBmRG9KUWxMVDZNNk13?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1780,17 +1791,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "中信建投： 建议紧盯微观流动性变化，关注政策出台情况，静待转机",
+   "title": "中国结算：暂免收取部分债券登记结算费用",
    "summary": "",
-   "time": "2026-11-22 10:03:54",
-   "url": "https://news.10jqka.com.cn/20261122/c682076654.shtml",
+   "time": "2026-11-22 10:40:39",
+   "url": "https://news.10jqka.com.cn/20261122/c682076829.shtml",
    "source": "同花顺"
   },
   {
-   "title": "韩国政府准备启动股市稳定基金，放宽回购限制、打击非法卖空",
+   "title": "融资保证金比例下限降至80% 真金白银维稳市场",
    "summary": "",
-   "time": "2026-11-22 09:37:55",
-   "url": "https://news.futunn.com/flash/1005280232/the-south-korean-government-prepares-to-activate-the-stock-market",
+   "time": "2026-11-22 10:39:59",
+   "url": "https://news.futunn.com/flash/1005280971/minimum-financing-margin-requirement-lowered-to-80-providing-tangible-support",
    "source": "富途"
   },
   {
@@ -1808,24 +1819,24 @@
    "source": "财新"
   },
   {
-   "title": "以军大规模拆除巴勒斯坦人房屋",
-   "summary": "【以军大规模拆除巴勒斯坦人房屋】据巴勒斯坦官方通讯社今天（11月22日）报道，以军当天上午在约旦河西岸约旦河谷北部拆毁约50处巴勒斯坦民众的住宅设施和牲畜棚，致使当地多户家庭及牲畜无处栖身。",
-   "time": "2026-11-22 18:27:38",
-   "url": "https://finance.eastmoney.com/a/202611223936923695.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "韩国将着手准备设立稳定股市基金",
-   "summary": "韩国财政部在紧急会议后宣布相关措施。\n\n韩国将在未来三个月内密切监控非法卖空行为。\n\n韩国将在未来三个月内放宽每日股票回购限额。\n\n韩国将着手筹备股市稳定基金。",
-   "time": "2026-11-22 17:31",
-   "url": "https://wallstreetcn.com/livenews/3203734",
+   "title": "阿达尼能源宣布收购维克拉姆希拉电力公司100%股权",
+   "summary": "11月22日，阿达尼能源解决方案公司公告称，公司已于印度时间11月21日与REC Power Development and Consultancy Limited（RECPDCL）签署《股份购买协议》，以收购维克拉姆希拉电力传输有限公司（VPTL）100%股权。",
+   "time": "2026-11-22 18:01",
+   "url": "https://wallstreetcn.com/livenews/3203735",
    "source": "华尔街见闻"
   },
   {
-   "title": "太平洋：给予宇瞳光学买入评级_券商研报_数据解析 - 证券之星",
+   "title": "深交所就创业板做市交易业务相关规则公开征求意见",
+   "summary": "【深交所就《创业板股票做市交易业务细则》公开征求意见】为了贯彻落实中国证监会《关于深化创业板改革更好服务新质生产力发展的意见》，明确创业板股票做市交易业务相关安排，促进增强市场内在稳定性，提高市场定价效率，减少股价波动，提升市场韧性，深交所就《深圳证券交易所创业板股票做市交易业务细则（征求意见稿）》公开征求意见。",
+   "time": "2026-11-22 18:35:47",
+   "url": "https://finance.eastmoney.com/a/202611223936924084.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "华福证券发布有色金属研报稀土价格上行科达制造周涨8.16%_公司新闻_财经 - 证券之星",
    "summary": "",
-   "time": "2026-11-22 16:55",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ueV95UWwwSnZjYlF2QzJZMEZ0cTBZU1FWYUpwRG56anhtbjNGQ2dMOXExLVJxZ3l0NUg4Rl9RcE1iT3JvSEFucGRxdk9FT3RDYk5hZklMMmstNk5NdDRHaFN3?oc=5",
+   "time": "2026-11-22 18:00",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GUWJETFR5Umx6ZFBFS0ZqQnIzWUZ1MEw4aFd1VUpNWndNNUFuNXdwOHJJemRlcDU4dlJFUUxwbGNSTG9BcXYyLTJTNGx0YXZqa09JSnZWcE9ERDI1QlQtMw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1836,17 +1847,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "天阳科技：因涉嫌信息披露违法违规 证监会决定对公司立案",
+   "title": "深交所：进一步减免相关费用",
    "summary": "",
-   "time": "2026-11-22 08:16:59",
-   "url": "https://news.10jqka.com.cn/20261122/c682076244.shtml",
+   "time": "2026-11-22 10:39:16",
+   "url": "https://news.10jqka.com.cn/20261122/c682076825.shtml",
    "source": "同花顺"
   },
   {
-   "title": "纳指ETF广发：本基金将于2026年11月23日开市起停牌，当日10:30起复牌",
+   "title": "深交所发布《关于进一步减免相关费用的通知》",
    "summary": "",
-   "time": "2026-11-22 09:15:10",
-   "url": "https://news.futunn.com/flash/1005279939/guangfa-nasdaq-etf-trading-of-this-fund-will-be-suspended",
+   "time": "2026-11-22 10:34:51",
+   "url": "https://news.futunn.com/flash/1005280919/the-shenzhen-stock-exchange-szse-issued-the-notice-on-further",
    "source": "富途"
   },
   {
@@ -1857,24 +1868,24 @@
    "source": "财新"
   },
   {
-   "title": "十大机构论市：当前位置不必过度悲观 反弹总在逆境中诞生",
-   "summary": "【十大机构论市：当前位置不必过度悲观 反弹总在逆境中诞生】本周沪指下跌2.77%，深证成指下跌6.49%，创业板指下跌8.82%。下周A股将如何运行？我们汇总了各大机构的最新投资策略，供投资者参考。",
-   "time": "2026-11-22 18:20:22",
-   "url": "https://finance.eastmoney.com/a/202611223936922832.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "新疆乌鲁木齐市乌鲁木齐县附近发生4.7级左右地震",
-   "summary": "中国地震台网自动测定：11月22日17时8分，在新疆乌鲁木齐市乌鲁木齐县附近（北纬43.40度，东经88.04度）发生4.7级左右地震。最终结果以正式速报为准。（央视新闻）",
-   "time": "2026-11-22 17:17",
-   "url": "https://wallstreetcn.com/livenews/3203733",
+   "title": "韩国将着手准备设立稳定股市基金",
+   "summary": "韩国财政部在紧急会议后宣布相关措施。\n\n韩国将在未来三个月内密切监控非法卖空行为。\n\n韩国将在未来三个月内放宽每日股票回购限额。\n\n韩国将着手筹备股市稳定基金。",
+   "time": "2026-11-22 17:31",
+   "url": "https://wallstreetcn.com/livenews/3203734",
    "source": "华尔街见闻"
   },
   {
-   "title": "太平洋：给予兆易创新买入评级_券商研报_数据解析 - 证券之星",
+   "title": "沪深北交易所调整融资保证金比例",
+   "summary": "【沪深北交易所调整融资保证金比例】2026年11月22日，经中国证监会批准，沪深北交易所发布通知调整融资保证金比例，将投资者融资买入证券的最低保证金比例由100%调低至80%，相关规则调整自2026年11月30日起施行。",
+   "time": "2026-11-22 18:33:04",
+   "url": "https://finance.eastmoney.com/a/202611223936923898.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "太平洋：给予宇瞳光学买入评级_券商研报_数据解析 - 证券之星",
    "summary": "",
-   "time": "2026-11-22 16:50",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE05R1haUWF6RktiNXl0UkxpUUU5QnVjVk5EWklUdXltZ0diVXdZNHdpby1kS0JkclFDcl8zVGJwN1Jqcy14QmdkZ2p1dV9RUlp6QjhraFBkSkRhX28tT0JTbUxB?oc=5",
+   "time": "2026-11-22 16:55",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ueV95UWwwSnZjYlF2QzJZMEZ0cTBZU1FWYUpwRG56anhtbjNGQ2dMOXExLVJxZ3l0NUg4Rl9RcE1iT3JvSEFucGRxdk9FT3RDYk5hZklMMmstNk5NdDRHaFN3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1885,17 +1896,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "思特威：拟向武汉楚兴增资15亿元 用以补齐高端CMOS图像传感器领域代工产能短板",
+   "title": "创业板拟引入做市商制度",
    "summary": "",
-   "time": "2026-11-22 07:45:19",
-   "url": "https://news.10jqka.com.cn/20261122/c682076100.shtml",
+   "time": "2026-11-22 10:35:51",
+   "url": "https://news.10jqka.com.cn/20261122/c682076803.shtml",
    "source": "同花顺"
   },
   {
-   "title": "俄称打击乌克兰能源设施，乌南部电力供应承压",
+   "title": "韩国政府准备启动股市稳定基金，放宽回购限制、打击非法卖空",
    "summary": "",
-   "time": "2026-11-22 08:55:28",
-   "url": "https://news.futunn.com/flash/1005279682/russia-claims-strikes-on-ukrainian-energy-facilities-power-supply-under",
+   "time": "2026-11-22 09:37:55",
+   "url": "https://news.futunn.com/flash/1005280232/the-south-korean-government-prepares-to-activate-the-stock-market",
    "source": "富途"
   },
   {
@@ -1906,18 +1917,18 @@
    "source": "财新"
   },
   {
-   "title": "小鹏G9L在泰国、印尼上市",
-   "summary": "【小鹏G9L在泰国、印尼上市】11月22日，据小鹏集团消息，小鹏近日在泰国曼谷、印度尼西亚雅加达同步发布小鹏G9L，两地售价分别折合人民币约47.15万元和47.6万元。",
-   "time": "2026-11-22 18:19:22",
-   "url": "https://finance.eastmoney.com/a/202611223936922982.html",
-   "source": "东财国际"
+   "title": "新疆乌鲁木齐市乌鲁木齐县附近发生4.7级左右地震",
+   "summary": "中国地震台网自动测定：11月22日17时8分，在新疆乌鲁木齐市乌鲁木齐县附近（北纬43.40度，东经88.04度）发生4.7级左右地震。最终结果以正式速报为准。（央视新闻）",
+   "time": "2026-11-22 17:17",
+   "url": "https://wallstreetcn.com/livenews/3203733",
+   "source": "华尔街见闻"
   },
   {
-   "title": "东山精密：部分行使超额配售权发行161.79万股H股，额外募资净额约1.39亿港元",
-   "summary": "东山精密公告，超额配售权于2026年11月22日部分行使，涉及161.79万股H股，占全球发售项下可供认购发售股份总数（于超额配售权获行使前）约1.42%，发行价86.80港元/股。H股由1.14亿股增至1.15亿股，占总股本比例由5.85%升至5.93%。",
-   "time": "2026-11-22 17:07",
-   "url": "https://wallstreetcn.com/livenews/3203732",
-   "source": "华尔街见闻"
+   "title": "“AI攻克黎曼猜想”获Lean数学社区认证 但读懂它仍需时日",
+   "summary": "【“AI攻克黎曼猜想”获Lean数学社区认证 但读懂它仍需时日】形式化证明系统Lean与其数学库Mathlib的开发者社区发布联合声明，宣布数学家莱文特·阿尔波格（Levent Alpge）11月20日公开的黎曼猜想证明已通过核验。这意味着，这份由人类数学家与AI模型Claude合作完成、约1700万行代码写就的证明，在公开后24小时内获得了形式化数学社区的权威认证。陶哲轩11月20日在博客中提醒，数学界消化这份证明仍需相当长时间。",
+   "time": "2026-11-22 18:28:29",
+   "url": "https://finance.eastmoney.com/a/202611223936923790.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
@@ -1933,8 +1944,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
    "同花顺": 7,
