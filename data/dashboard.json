@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-23 09:22:34 CST",
- "generated_at_iso": "2026-11-23T09:22:34+08:00",
+ "generated_at": "2026-11-23 09:31:34 CST",
+ "generated_at_iso": "2026-11-23T09:31:34+08:00",
  "date": "2026-11-23",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -11,9 +11,9 @@
     "name": "上证指数",
     "code": "sh000001",
     "sym": "000001.SH",
-    "price": 3533.7917,
-    "change": -0.0012,
-    "change_pct": -0.0,
+    "price": 3489.2146,
+    "change": -44.5783,
+    "change_pct": -1.26,
     "hist": [
      3823.621,
      3830.451,
@@ -84,12 +84,28 @@
     ]
    },
    {
+    "name": "深证成指",
+    "code": "sz399001",
+    "sym": "399001.SZ",
+    "price": 10204.326,
+    "change": -52.063,
+    "change_pct": -0.51
+   },
+   {
+    "name": "创业板指",
+    "code": "sz399006",
+    "sym": "399006.SZ",
+    "price": 2207.775,
+    "change": -4.352,
+    "change_pct": -0.2
+   },
+   {
     "name": "科创50",
     "code": "sh000688",
     "sym": "000688.SH",
-    "price": 1231.089,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 1207.7316,
+    "change": -23.3574,
+    "change_pct": -1.9,
     "hist": [
      1555.98,
      1569.338,
@@ -163,9 +179,9 @@
     "name": "沪深300",
     "code": "sh000300",
     "sym": "000300.SH",
-    "price": 3954.4682,
-    "change": -0.0968,
-    "change_pct": -0.0,
+    "price": 3919.8911,
+    "change": -34.6739,
+    "change_pct": -0.88,
     "hist": [
      4340.755,
      4345.209,
@@ -239,9 +255,9 @@
     "name": "上证50",
     "code": "sh000016",
     "sym": "000016.SH",
-    "price": 2785.9206,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 2748.7041,
+    "change": -37.2165,
+    "change_pct": -1.34,
     "hist": [
      2806.942,
      2810.117,
@@ -315,9 +331,9 @@
     "name": "中证500",
     "code": "sh000905",
     "sym": "000905.SH",
-    "price": 6006.0136,
-    "change": -0.0661,
-    "change_pct": -0.0,
+    "price": 5965.7093,
+    "change": -40.3704,
+    "change_pct": -0.67,
     "hist": [
      7402.295,
      7439.627,
@@ -930,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 4680.05,
-    "change": -189.91,
-    "change_pct": -3.9,
+    "price": 4715.55,
+    "change": -154.41,
+    "change_pct": -3.17,
     "hist": [
      6384.24,
      6035.35,
@@ -1240,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3613.224,
-    "change": 97.824,
-    "change_pct": 2.78,
-    "quote_time": "09:22:36 2026-11-23"
+    "price": 3615.708,
+    "change": 100.308,
+    "change_pct": 2.85,
+    "quote_time": "09:31:36 2026-11-23"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.555,
-    "change": 0.996,
-    "change_pct": 2.4,
-    "quote_time": "09:22:27 2026-11-23"
+    "price": 42.731,
+    "change": 1.172,
+    "change_pct": 2.82,
+    "quote_time": "09:31:04 2026-11-23"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.081,
-    "change": -0.329,
-    "change_pct": -0.39,
-    "quote_time": "09:22:32 2026-11-23"
+    "price": 83.108,
+    "change": -0.302,
+    "change_pct": -0.36,
+    "quote_time": "09:31:36 2026-11-23"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.124,
-    "change": -0.446,
-    "change_pct": -0.48,
-    "quote_time": "09:22:31 2026-11-23"
+    "price": 92.195,
+    "change": -0.375,
+    "change_pct": -0.41,
+    "quote_time": "09:31:20 2026-11-23"
    }
   ],
   "crypto": [
@@ -1278,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60966.6,
-    "change": 744.1,
-    "change_pct": 1.24,
+    "price": 61220.8,
+    "change": 1110.6,
+    "change_pct": 1.85,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1715.3,
-    "change": 27.43,
-    "change_pct": 1.63,
+    "price": 1720.0,
+    "change": 35.37,
+    "change_pct": 2.1,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.64,
-    "change": 0.28,
-    "change_pct": 0.4,
+    "price": 70.7,
+    "change": 0.41,
+    "change_pct": 0.58,
     "source": "okx"
    }
   ],
@@ -1306,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.75,
-    "change": -0.09,
-    "change_pct": -0.09,
+    "price": 103.76,
+    "change": -0.08,
+    "change_pct": -0.08,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1317,7 +1333,7 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6743,
+    "price": 6.6748,
     "change": null,
     "change_pct": null,
     "dec": 4,
@@ -1328,11 +1344,11 @@
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 137.68,
-    "change": 2.68,
-    "change_pct": 1.99,
+    "price": 137.41,
+    "change": -0.27,
+    "change_pct": -0.2,
     "dec": 2,
-    "date": "2026-11-20",
+    "date": "2026-11-23",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
     "source": "新浪"
    }
@@ -1346,9 +1362,39 @@
    "color": "#f04a3d",
    "timestamp": "2026-11-23",
    "source": "alternative.me"
+  },
+  "a_share_breadth": {
+   "up": 507,
+   "down": 4689,
+   "flat": 94,
+   "total": 5290,
+   "breadth_pct": 9.6,
+   "score": 0.0,
+   "source": "东财"
+  },
+  "composite": {
+   "score": 21.4,
+   "label": "冰点",
+   "color": "#f04a3d",
+   "basis": "A股广度 60% + 盘面结构 40%",
+   "parts": {
+    "breadth": 0.0,
+    "structure": 53.5
+   }
   }
  },
  "speakers": [
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "高盛：美联储有望明年底降息 推动货币政策回归常态",
+   "summary": "【高盛：美联储有望明年底降息 推动货币政策回归常态】高盛预计，2027年全球实际国内生产总值（GDP）增速为2.8%，略高于该机构对2026年2.7%的预测，但整体风险偏向下行。高盛预计，明年全球主要经济体将出现金融条件收紧、财政政策回归中性，不过这一变动对全球经济带来的拖累，将被走低的能源价格以及依旧旺盛的人工智能资本开支所对冲。",
+   "time": "2026-11-23 09:29:14",
+   "url": "https://finance.eastmoney.com/a/202611233937066561.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
   {
    "keyword": "特朗普",
    "label": "特朗普",
@@ -1358,18 +1404,7 @@
    "time": "2026-11-23 08:54",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QTkFsS2VIUnpmWHlXS05vU1drMWVTWFdDd2ZrOFJrUkFhazlYSFJ1QmdpazlJMHVYdmo0a1RMMWlTUWN3UzdZd1F2NXh4dkhaWmdOOV9BRWwtSGlxcFBSU2FDU1ByeVpWc214ZUFPTjY?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "阿克曼呼吁美联储放弃2%的通胀目标 称3%更现实",
-   "summary": "",
-   "time": "2026-11-23 00:46:01",
-   "url": "https://news.futunn.com/flash/1005290919/ackman-calls-on-the-federal-reserve-to-abandon-the-2",
-   "source": "富途",
-   "mentions": 1
+   "mentions": 2
   }
  ],
  "research": {
@@ -1568,80 +1603,87 @@
   {
    "level": "danger",
    "asset": "全球股指",
-   "message": "道琼斯、纳斯达克、标普500等 6 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-23 09:23",
+   "message": "上证50、道琼斯、纳斯达克等 7 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-23 09:32",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
+  },
+  {
+   "level": "warning",
+   "asset": "上证50",
+   "message": "上证50单日跌1.34%，达20日历史波动率的 2.1 倍（σ=0.64%，突破 2σ 警戒线）",
+   "time": "2026-11-23 09:32",
+   "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "纳斯达克",
    "message": "纳斯达克单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.84%，突破 2σ 警戒线）",
-   "time": "2026-11-23 09:23",
+   "time": "2026-11-23 09:32",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "标普500",
    "message": "标普500单日跌3.70%，达20日历史波动率的 2.8 倍（σ=1.34%，突破 2σ 警戒线）",
-   "time": "2026-11-23 09:23",
+   "time": "2026-11-23 09:32",
    "chain": "指数急跌 → 期权对冲卖压放大跌幅 → 保证金追缴触发杠杆基金强制抛售 → 风险平价/CTA策略集体减仓 → 全球基金卖出亚洲持仓回补美元流动性 → 亚太市场次日低开"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-23 09:23",
+   "time": "2026-11-23 09:32",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "法国CAC40",
    "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-23 09:23",
+   "time": "2026-11-23 09:32",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "欧洲斯托克50",
    "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-23 09:23",
+   "time": "2026-11-23 09:32",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-23 09:23",
+   "time": "2026-11-23 09:32",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   },
   {
    "level": "warning",
    "asset": "避险情绪",
-   "message": "黄金单日上涨 2.78%（1.5倍σ），同时道琼斯、纳斯达克走跌，避险情绪与风险资产分化。",
-   "time": "2026-11-23 09:23",
+   "message": "黄金单日上涨 2.85%（1.6倍σ），同时上证50、道琼斯走跌，避险情绪与风险资产分化。",
+   "time": "2026-11-23 09:32",
    "chain": "黄金与股指走势背离 → 避险资金从股票流出转向黄金/美债 → 防御板块(公用事业/医药)与成长板块分化 → 行业轮动加速"
   }
  ],
  "news": [
   {
-   "title": "深交所：深港通下港股通标的证券名单调入东山精密",
-   "summary": "深交所公告，深港通下的港股通标的证券名单调入东山精密（02384.HK）、应星控股（02963.HK），调出深演智能（旧）（02947.HK）、应星控股（01440.HK），自2026年11月23日起生效。",
-   "time": "2026-11-23 09:05",
-   "url": "https://wallstreetcn.com/livenews/3203829",
+   "title": "中证转债指数开盘下跌0.12%。微导转债、精测转2、运机转债、晶瑞转2、银轮转债跌幅居前，分别跌3.60%、3.16%、2.78%、2.64%、2.43%。爱科转债、三江转债、丰茂转债、宝钛转债、盛德转债涨幅居前，分别涨3.12%、2.98",
+   "summary": "中证转债指数开盘下跌0.12%。微导转债、精测转2、运机转债、晶瑞转2、银轮转债跌幅居前，分别跌3.60%、3.16%、2.78%、2.64%、2.43%。爱科转债、三江转债、丰茂转债、宝钛转债、盛德转债涨幅居前，分别涨3.12%、2.98%、2.59%、2.50%、1.91%。",
+   "time": "2026-11-23 09:30",
+   "url": "https://wallstreetcn.com/livenews/3203845",
    "source": "华尔街见闻"
   },
   {
-   "title": "韩国KOSPI指数跌幅扩大至4%",
-   "summary": "韩国KOSPI指数跌幅扩大至4%。三星电子跌近5%，SK海力士跌近4%。",
-   "time": "2026-11-23 09:02:47",
-   "url": "https://finance.eastmoney.com/a/202611233937051398.html",
+   "title": "上海黄金交易所发布关于做好近期市场风险控制工作的通知",
+   "summary": "【上海黄金交易所发布关于做好近期市场风险控制工作的通知】近期影响市场不稳定的因素较多，不确定性持续上升，贵金属价格波动显著加剧，请各会员单位密切关注市场行情变化，做细做好风险应急预案，维护市场平稳运行。同时，提示投资者做好风险防范工作，合理控制仓位，理性投资。",
+   "time": "2026-11-23 09:29:56",
+   "url": "https://finance.eastmoney.com/a/202611233937066428.html",
    "source": "东财国际"
   },
   {
-   "title": "太平洋：给予新乳业买入评级 - 同花顺",
+   "title": "中信建投研报：大模型竞争转向商业兑现 OpenAI旗舰降价20% - 观点网",
    "summary": "",
-   "time": "2026-11-23 09:01",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12a2VLTGtVb1JQQ0RJUWp6WmdwT24zV2FpVnFHQWx5cjJNZThxYnNjRWEzYUpuT18wLUlvY3p4X2FNbkVUODR0Q1NFUmFyMG0wVmZTS092cW1rRjRBRjVhLWxR?oc=5",
+   "time": "2026-11-23 09:18",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE01UlRlVHZoY3dtM1lFYi0xVGlPc0dSR2tOOGFpUzE3NXp0N1JfVzZGN3dzOGQ3eVBOYzU2czBBcGlEeEkzUXZOSE1Rb0Q3UHJobmRxdkE2eG5ua1lWMVN2eVRR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1659,17 +1701,17 @@
    "source": "东财早报"
   },
   {
-   "title": "现货黄金站上3590美元/盎司",
+   "title": "元件板块直线拉升，中京电子涨停",
    "summary": "",
-   "time": "2026-11-23 01:05:38",
-   "url": "https://news.10jqka.com.cn/20261123/c682082398.shtml",
+   "time": "2026-11-23 01:31:49",
+   "url": "https://news.10jqka.com.cn/20261123/c682085153.shtml",
    "source": "同花顺"
   },
   {
-   "title": "伊朗革命卫队：美国正通过经济施压和心理战削弱伊朗",
+   "title": "港股开市：恒指开盘跌1.08%，恒科指跌1.92%",
    "summary": "",
-   "time": "2026-11-23 00:58:58",
-   "url": "https://news.futunn.com/flash/1005291186/islamic-revolutionary-guard-corps-the-united-states-is-weakening-iran",
+   "time": "2026-11-23 01:20:00",
+   "url": "https://news.futunn.com/flash/1005292442",
    "source": "富途"
   },
   {
@@ -1680,45 +1722,45 @@
    "source": "财新"
   },
   {
-   "title": "韩国首尔综指跌幅扩大至4%。\n\nMSCI新兴市场股票指数抹去了年初至今的涨幅。",
-   "summary": "韩国首尔综指跌幅扩大至4%。\n\nMSCI新兴市场股票指数抹去了年初至今的涨幅。",
-   "time": "2026-11-23 09:02",
-   "url": "https://wallstreetcn.com/livenews/3203828",
+   "title": "沪指跌破3500点关口，日内跌超1%。",
+   "summary": "沪指跌破3500点关口，日内跌超1%。",
+   "time": "2026-11-23 09:30",
+   "url": "https://wallstreetcn.com/livenews/3203844",
    "source": "华尔街见闻"
   },
   {
-   "title": "台交所加权股价指数下跌1.1%",
-   "summary": "台交所加权股价指数下跌1.1%至35,644.14点。",
-   "time": "2026-11-23 09:01:43",
-   "url": "https://finance.eastmoney.com/a/202611233937052433.html",
+   "title": "高盛：美联储有望明年底降息 推动货币政策回归常态",
+   "summary": "【高盛：美联储有望明年底降息 推动货币政策回归常态】高盛预计，2027年全球实际国内生产总值（GDP）增速为2.8%，略高于该机构对2026年2.7%的预测，但整体风险偏向下行。高盛预计，明年全球主要经济体将出现金融条件收紧、财政政策回归中性，不过这一变动对全球经济带来的拖累，将被走低的能源价格以及依旧旺盛的人工智能资本开支所对冲。",
+   "time": "2026-11-23 09:29:14",
+   "url": "https://finance.eastmoney.com/a/202611233937066561.html",
    "source": "东财国际"
   },
   {
-   "title": "太平洋：给予兆易创新买入评级 - 同花顺",
+   "title": "谷歌TPU订单分流至联发科，高盛下调博通(AVGO.US)目标价至460美元：新兴云商订单可持续性成疑 - 证券之星",
    "summary": "",
-   "time": "2026-11-23 08:51",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIVkRvQURSQ3U3b3BMYWFpeDFmWldUNmFWQnpqS0E0MDRtSlpxaUVuWGFmRXVfOGNsX2dnN3AtaU0tUmIzSFgtZWlBTE1hRnNpdFRIRVdlWFlTT05JZTltTXZR?oc=5",
+   "time": "2026-11-23 09:10",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jbFQ5bG1fOTBUVmVCbUlBZlNnM2p1bE53NnZmempOYTQ2RVlfWVExTHhBRERNMk1OQU9DMERDX3g2TVBwcW56em4wY0MyTnlKZzUwcXRhNEljd3RpOWpIQg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普称未对卢特尼克失去信心，希望看到黄仁勋郑重道歉后回来 - Sohu",
+   "title": "下月加息概率不再100%！一文读懂：美股大跌会如何影响美联储？ - Sohu",
    "summary": "",
-   "time": "2026-11-23 08:31",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbUFwQ3NIRUgwUkZCOVAwN3NtVWREUWVMZmZ4V3ItX3AzOUtHamVUY2FCZ0hOa3gtbHdUTTJZT1cycC10RDNwNDJKaVBDUzdXWF9tMzJZUjNOMUFYRHpjY1lvbnAzVExuX2lMNVE1MXI3TjhmWDNUR2xtQ3I1TUgtUGxsa1JGVkhFZkoyMg?oc=5",
+   "time": "2026-11-23 08:43",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa2x4dzdWQ2tOUUI4MzdDR3B3Qm9rTkFXRjZMY3RpcVNJcUVvemluWW05N0VSb1Q2Q2VWN3pIQ3pCWUZDa3NpaFJoWW5pWGZjTGtFc2RiMHNZUVdDTC1EazNHNHJKeHIyYlJ5WDhjQnF2MGdjakNDM2w4UUtfNjNfSXFGOFd0cy02RHJN?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "韩国综指跌幅扩大至4%",
+   "title": "沪指盘初跌破3500点，现跌1.17%",
    "summary": "",
-   "time": "2026-11-23 01:01:58",
-   "url": "https://news.10jqka.com.cn/20261123/c682082229.shtml",
+   "time": "2026-11-23 01:30:26",
+   "url": "https://news.10jqka.com.cn/20261123/c682085012.shtml",
    "source": "同花顺"
   },
   {
-   "title": "阿克曼呼吁美联储放弃2%的通胀目标 称3%更现实",
+   "title": "国产大型邮轮“爱达·花城号”首航抵达香港",
    "summary": "",
-   "time": "2026-11-23 00:46:01",
-   "url": "https://news.futunn.com/flash/1005290919/ackman-calls-on-the-federal-reserve-to-abandon-the-2",
+   "time": "2026-11-23 01:16:50",
+   "url": "https://news.futunn.com/flash/1005292260/china-s-domestically-built-large-cruise-ship-adora-flower-city",
    "source": "富途"
   },
   {
@@ -1729,45 +1771,45 @@
    "source": "财新"
   },
   {
-   "title": "台湾证交所加权股价指数低开0.4%，报35,899.48点。",
-   "summary": "台湾证交所加权股价指数低开0.4%，报35,899.48点。",
-   "time": "2026-11-23 09:01",
-   "url": "https://wallstreetcn.com/livenews/3203827",
+   "title": "国债期货开盘，30年期主力合约涨0.16%，10年期主力合约涨0.01%，5年期主力合约跌0.01%，2年期主力合约跌0.01%。",
+   "summary": "国债期货开盘，30年期主力合约涨0.16%，10年期主力合约涨0.01%，5年期主力合约跌0.01%，2年期主力合约跌0.01%。",
+   "time": "2026-11-23 09:29",
+   "url": "https://wallstreetcn.com/livenews/3203841",
    "source": "华尔街见闻"
   },
   {
-   "title": "全球大型药企称人工智能正在缩短药物研发周期",
-   "summary": "【全球大型药企称人工智能正在缩短药物研发周期】据全球大型药企科研人员透露，今年人工智能已经加快了部分国际顶尖药企的药物早期研发工作，将新分子合成并推进至临床试验阶段的时长最多缩短了一半。葛兰素史克、百时美施贵宝、诺华、礼来、诺和诺德、阿斯利康以及赛诺菲均表示，它们早已不只是把AI用在准备监管申报材料这类相对基础的工作上。如今，企业正在利用这项技术设计分子、筛选潜力最优的候选分子，同时识别安全风险。",
-   "time": "2026-11-23 09:00:46",
-   "url": "https://finance.eastmoney.com/a/202611233937051093.html",
+   "title": "贵金属板块高开 赤峰黄金涨5%",
+   "summary": "贵金属板块高开，赤峰黄金涨5%，晓程科技、山金国际、中金黄金、湖南黄金跟涨。",
+   "time": "2026-11-23 09:27:30",
+   "url": "https://finance.eastmoney.com/a/202611233937065450.html",
    "source": "东财国际"
   },
   {
-   "title": "南方财经全媒体集团 杨柳婵 2026-11-23 08:51:43 - 南方财经",
+   "title": "中信建投研报：三季度海外封测营收772亿元 国内327亿元 - 观点网",
    "summary": "",
-   "time": "2026-11-23 08:51",
-   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwamlDSG9jOVhISlpyV3JHeUNXQVhRLXRZU2cwLU03Z291Q2NSUllmM2JtdmtQLWdlZld3dG5hRmxYRDlhNTFkWDl2UXNrWmgxZWV6eWZ4MVNieXg1Z1Iybk5iSktSS1N6UHc?oc=5",
+   "time": "2026-11-23 09:08",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94OVRlMzFCbGEyN3NhNnVHRjVxRmYzVzlCU2hwYWFsY1lGcnQ2LUU3aTdxU3M0bzR5dVRRb1R4ZXNTTnlJbnJ5VHZMZkdGeEFUNVRLWm1Sb0wweTlZYUxvSDJ3?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "刚刚，全线拉升！特朗普，最新发声！ - 同花顺",
+   "title": "特朗普劝欧洲别再烧钱援乌，泽连斯基回应：这并非威胁 - Sohu",
    "summary": "",
-   "time": "2026-11-23 08:17",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVUmdHaFFyVTdQT0tpcEY0T3k1MGxCLXQxaGpuRjBtVjVrY3pfVU9Gc01yeE1VMXRIOXNuLXhXSjdoTUQ1SlV6NGdYRnp3MW5FVUE0bkE5Y3NsYXBCdFE?oc=5",
+   "time": "2026-11-23 08:39",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNDRWVWVTN2N5SzF3OEtqWnh3aGsxR2pPaXFmMjFoOEowOG1ET3ZaOGpfYnBhbGhDcEluaGtRQnN4UXFTYjU3SHNmNWRBOTFyZGc3UENBbnUtZjNiVHV0LXlwM3g3RVdtVWpSOWgzRGNXTUs1OW1rR1N0eHVvdi1MQVItUXZtNkpq?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "期市早盘开盘，国内期货主力合约多数下跌",
+   "title": "股指期货早盘开盘 主力合约多数低开",
    "summary": "",
-   "time": "2026-11-23 00:59:57",
-   "url": "https://news.10jqka.com.cn/20261123/c682081673.shtml",
+   "time": "2026-11-23 01:29:37",
+   "url": "https://news.10jqka.com.cn/20261123/c682084983.shtml",
    "source": "同花顺"
   },
   {
-   "title": "中信证券：银行板块短期仍受资金面影响",
+   "title": "伊朗革命卫队：美国正通过经济施压和心理战削弱伊朗",
    "summary": "",
-   "time": "2026-11-23 00:25:28",
-   "url": "https://news.futunn.com/flash/1005290469/citic-securities-the-banking-sector-remains-influenced-by-liquidity-conditions",
+   "time": "2026-11-23 00:58:58",
+   "url": "https://news.futunn.com/flash/1005291186/islamic-revolutionary-guard-corps-the-united-states-is-weakening-iran",
    "source": "富途"
   },
   {
@@ -1778,17 +1820,17 @@
    "source": "财新"
   },
   {
-   "title": "商品期货开盘，液化气主力合约跌超6%，沪银跌超4%，燃料油、20号胶跌超3%。铝合金涨超1%。",
-   "summary": "商品期货开盘，液化气主力合约跌超6%，沪银跌超4%，燃料油、20号胶跌超3%。铝合金涨超1%。",
-   "time": "2026-11-23 09:00",
-   "url": "https://wallstreetcn.com/livenews/3203826",
+   "title": "上证指数开盘报3503.52点，跌0.86%。\n\n深证成指开盘报10155.60点，跌0.98%。\n\n创业板指开盘报2195.52点，跌0.75%。\n\n沪深300开盘报3931.47点，跌0.58%。\n\n科创50开盘报1211.44点，跌1",
+   "summary": "上证指数开盘报3503.52点，跌0.86%。\n\n深证成指开盘报10155.60点，跌0.98%。\n\n创业板指开盘报2195.52点，跌0.75%。\n\n沪深300开盘报3931.47点，跌0.58%。\n\n科创50开盘报1211.44点，跌1.60%。\n\n中证500开盘报5932.57点，跌1.22%。\n\n中证1000开盘报5563.29点，跌1.51%。",
+   "time": "2026-11-23 09:25",
+   "url": "https://wallstreetcn.com/livenews/3203840",
    "source": "华尔街见闻"
   },
   {
-   "title": "富时中国A50指数期货盘初跌0.10%",
-   "summary": "富时中国A50指数期货在上一交易日夜盘收跌0.84%的基础上高开，盘初跌0.10%。",
-   "time": "2026-11-23 09:00:13",
-   "url": "https://finance.eastmoney.com/a/202611233937050987.html",
+   "title": "A股开盘：三大指数集体低开",
+   "summary": "【A股开盘：三大指数集体低开】A股开盘，上证指数低开0.86%，深证成指低开0.98%，创业板指低开0.75%。影视院线、光刻机、半导体板块跌幅居前。",
+   "time": "2026-11-23 09:25:46",
+   "url": "https://finance.eastmoney.com/a/202611233937063222.html",
    "source": "东财国际"
   }
  ],
@@ -1796,7 +1838,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(26)",
+   "富途": "ok(22)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2309,7 +2351,7 @@
   "backfill_done": true
  },
  "errors": {
-  "盘面结构": "RuntimeError: 涨停/跌停池均返回空（非交易日或接口变更）"
+  "盘面结构": "HTTPError: 502 Server Error: Bad Gateway for url: https://push2ex.eastmoney.com/getTopicZTPool?ut=7eea3edcaed734bea9cbfc24409ed989&dpt=wz.ztzt&Pageindex=0&pagesize=100&sort=fbt%3Aasc&date=20261123"
  },
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
