@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-23 23:27:25 CST",
- "generated_at_iso": "2026-11-23T23:27:25+08:00",
+ "generated_at": "2026-11-23 23:35:40 CST",
+ "generated_at_iso": "2026-11-23T23:35:40+08:00",
  "date": "2026-11-23",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 49697.6406,
-    "change": 1550.3101,
-    "change_pct": 3.22,
-    "quote_time": "2026-11-23 23:27:22",
+    "price": 49754.4219,
+    "change": 1607.09,
+    "change_pct": 3.34,
+    "quote_time": "2026-11-23 23:35:23",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24324.1031,
-    "change": 1706.3701,
-    "change_pct": 7.54,
-    "quote_time": "2026-11-23 23:27:21",
+    "price": 24273.4327,
+    "change": 1655.6997,
+    "change_pct": 7.32,
+    "quote_time": "2026-11-23 23:35:35",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7285.4502,
-    "change": 375.06,
-    "change_pct": 5.43,
-    "quote_time": "2026-11-23 23:27:22",
+    "price": 7279.2202,
+    "change": 368.83,
+    "change_pct": 5.34,
+    "quote_time": "2026-11-23 23:35:23",
     "hist": [
      7773.9502,
      7818.9302,
@@ -871,7 +871,7 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 56436.6484,
+    "price": 56436.65,
     "change": -3007.56,
     "change_pct": -5.06,
     "hist": [
@@ -944,132 +944,18 @@
     ]
    },
    {
-    "name": "印度SENSEX",
-    "sym": "BSESN",
-    "price": 82435.9922,
-    "change": -1483.72,
-    "change_pct": -1.77
-   },
-   {
-    "name": "台湾加权",
-    "sym": "TWII",
-    "price": 35894.58,
-    "change": -138.71,
-    "change_pct": -0.38,
-    "hist": [
-     49313.44,
-     49301.96,
-     48341.31,
-     48625.83,
-     46969.87,
-     47111.26,
-     46822.08,
-     46292.93,
-     46887.77,
-     46041.43,
-     46096.23,
-     47035.58,
-     46368.33,
-     45211.83,
-     44920.14,
-     43307.54,
-     42948.91,
-     41574.72,
-     39701.64,
-     41661.7,
-     42711.92,
-     44257.15,
-     43091.87,
-     43675.12,
-     41040.08,
-     40092.11,
-     40194.91,
-     38426.89,
-     36033.29,
-     35894.58
-    ],
-    "sigma": 3.01
-   },
-   {
-    "name": "德国DAX",
-    "sym": "DAX",
-    "price": 24802.78,
-    "change": -661.03,
-    "change_pct": -2.6,
-    "hist": [
-     25277.68,
-     25259.9,
-     25298.61,
-     25382.62,
-     25622.61,
-     25319.77,
-     25304.42,
-     25645.04,
-     25371.75,
-     25181.65,
-     25410.84,
-     25590.77,
-     25704.02,
-     26039.68,
-     25818.21,
-     25981.09,
-     25864.62,
-     26437.67,
-     26325.01,
-     25820.36,
-     26267.19,
-     26347.45,
-     26662.77,
-     26771.88,
-     26749.95,
-     26598.64,
-     26045.37,
-     25736.24,
-     25463.81,
-     24802.78
-    ],
-    "sigma": 1.262,
-    "volume": 0.0,
-    "vol_pctile": 100.0,
-    "vol_hist": [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0
-    ]
+    "name": "韩国KOSPI",
+    "sym": "KS11",
+    "price": 4708.54,
+    "change": -161.42,
+    "change_pct": -3.31
    },
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10346.34,
-    "change": -106.34,
-    "change_pct": -1.02,
+    "price": 10472.87,
+    "change": 126.53,
+    "change_pct": 1.22,
     "hist": [
      10656.28,
      10650.33,
@@ -1141,9 +1027,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 7927.75,
-    "change": -152.99,
-    "change_pct": -1.89,
+    "price": 8039.14,
+    "change": 111.39,
+    "change_pct": 1.41,
     "hist": [
      7832.88,
      7827.63,
@@ -1215,9 +1101,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 5941.95,
-    "change": -171.91,
-    "change_pct": -2.81,
+    "price": 6075.8,
+    "change": 133.85,
+    "change_pct": 2.25,
     "hist": [
      6201.22,
      6167.02,
@@ -1251,46 +1137,6 @@
      5941.95
     ],
     "sigma": 1.19
-   },
-   {
-    "name": "俄罗斯MOEX",
-    "sym": "MOEX",
-    "price": 2385.95,
-    "change": 34.41,
-    "change_pct": 1.46,
-    "hist": [
-     2469.36,
-     2491.83,
-     2524.06,
-     2522.93,
-     2496.26,
-     2509.26,
-     2510.92,
-     2515.89,
-     2459.53,
-     2446.64,
-     2442.1,
-     2458.46,
-     2476.7,
-     2482.7,
-     2487.01,
-     2470.07,
-     2445.6,
-     2494.77,
-     2505.95,
-     2511.1,
-     2514.85,
-     2509.67,
-     2475.7,
-     2495.86,
-     2470.81,
-     2419.43,
-     2354.4,
-     2326.05,
-     2351.54,
-     2385.95
-    ],
-    "sigma": 1.151
    }
   ]
  },
@@ -1342,37 +1188,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3680.972,
-    "change": 165.572,
-    "change_pct": 4.71,
-    "quote_time": "23:27:27 2026-11-23"
+    "price": 3672.37,
+    "change": 156.97,
+    "change_pct": 4.47,
+    "quote_time": "23:35:43 2026-11-23"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.192,
-    "change": 2.633,
-    "change_pct": 6.34,
-    "quote_time": "23:27:25 2026-11-23"
+    "price": 44.078,
+    "change": 2.519,
+    "change_pct": 6.06,
+    "quote_time": "23:35:37 2026-11-23"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 80.476,
-    "change": -2.934,
-    "change_pct": -3.52,
-    "quote_time": "23:27:27 2026-11-23"
+    "price": 80.576,
+    "change": -2.834,
+    "change_pct": -3.4,
+    "quote_time": "23:35:42 2026-11-23"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 89.178,
-    "change": -3.392,
-    "change_pct": -3.66,
-    "quote_time": "23:27:24 2026-11-23"
+    "price": 89.346,
+    "change": -3.224,
+    "change_pct": -3.48,
+    "quote_time": "23:35:40 2026-11-23"
    }
   ],
   "crypto": [
@@ -1380,27 +1226,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 63578.4,
-    "change": 2607.2,
-    "change_pct": 4.28,
+    "price": 63129.7,
+    "change": 2263.4,
+    "change_pct": 3.72,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1794.93,
-    "change": 75.53,
-    "change_pct": 4.39,
+    "price": 1779.95,
+    "change": 62.67,
+    "change_pct": 3.65,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 76.77,
-    "change": 6.33,
-    "change_pct": 8.99,
+    "price": 75.89,
+    "change": 5.58,
+    "change_pct": 7.94,
     "source": "okx"
    }
   ],
@@ -1408,9 +1254,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 104.32,
-    "change": 0.48,
-    "change_pct": 0.46,
+    "price": 104.29,
+    "change": 0.45,
+    "change_pct": 0.43,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1419,8 +1265,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6666,
-    "change": -0.0086,
+    "price": 6.6665,
+    "change": -0.0087,
     "change_pct": -0.13,
     "dec": 4,
     "date": "",
@@ -1474,34 +1320,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "美国总统特朗普：强烈认为黄仁勋应该复出。\n\n我们必须保护我们的天才。（CNBC）",
-   "summary": "美国总统特朗普：强烈认为黄仁勋应该复出。\n\n我们必须保护我们的天才。（CNBC）",
-   "time": "2026-11-23 23:08",
-   "url": "https://wallstreetcn.com/livenews/3204384",
+   "title": "美国总统特朗普：上周与马斯克谈到了黄仁勋和英伟达。",
+   "summary": "美国总统特朗普：上周与马斯克谈到了黄仁勋和英伟达。",
+   "time": "2026-11-23 23:34",
+   "url": "https://wallstreetcn.com/livenews/3204399",
    "source": "华尔街见闻",
-   "mentions": 5
-  },
-  {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "马斯克回应黄仁勋回归英伟达：错误得到修正",
-   "summary": "【马斯克回应黄仁勋回归英伟达：错误得到修正】11月23日，在英伟达宣布重新任命黄仁勋为首席执行官后，马斯克在社交平台发文称“Itisdone（尘埃落定）。”此外，马斯克还转发英伟达官方声明并评论道：“错误得到了修正”。",
-   "time": "2026-11-23 23:01:32",
-   "url": "https://finance.eastmoney.com/a/202611233937664929.html",
-   "source": "东财国际",
-   "mentions": 1
+   "mentions": 6
   },
   {
    "keyword": "黄仁勋",
    "label": "黄仁勋",
    "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "黄仁勋回归 特朗普发声 - 东方财富",
-   "summary": "",
-   "time": "2026-11-23 22:54",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tRHhRdTk3U29WMU15dDd3cDE5V1VFQ1RDbjkzZ2h0bUlUQnZpdkxhUEh5WXVBR2MxajJvT284MTZhTWdjZTBHczhwMDlqU2xOMjhYQXBPYXdlUU9FLTZ3akNkTQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
+   "title": "美国总统特朗普：黄仁勋已经在规划后面三代芯片。\n\n黄仁勋不构成威胁，失去他才构成威胁。",
+   "summary": "美国总统特朗普：黄仁勋已经在规划后面三代芯片。\n\n黄仁勋不构成威胁，失去他才构成威胁。",
+   "time": "2026-11-23 23:34",
+   "url": "https://wallstreetcn.com/livenews/3204398",
+   "source": "华尔街见闻",
+   "mentions": 2
   },
   {
    "keyword": "美联储",
@@ -1721,136 +1556,108 @@
   {
    "level": "danger",
    "asset": "纳斯达克",
-   "message": "纳斯达克单日涨7.54%，达20日历史波动率的 4.1 倍（σ=1.84%，突破 3σ 高危线）",
-   "time": "2026-11-23 23:27",
+   "message": "纳斯达克单日涨7.32%，达20日历史波动率的 4.0 倍（σ=1.84%，突破 3σ 高危线）",
+   "time": "2026-11-23 23:36",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "danger",
    "asset": "标普500",
-   "message": "标普500单日涨5.43%，达20日历史波动率的 4.0 倍（σ=1.34%，突破 3σ 高危线）",
-   "time": "2026-11-23 23:27",
+   "message": "标普500单日涨5.34%，达20日历史波动率的 4.0 倍（σ=1.34%，突破 3σ 高危线）",
+   "time": "2026-11-23 23:36",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日涨6.34%，达20日历史波动率的 3.5 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-23 23:27",
+   "message": "COMEX白银单日涨6.06%，达20日历史波动率的 3.4 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-23 23:36",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
-  },
-  {
-   "level": "danger",
-   "asset": "全球股指",
-   "message": "日经225、德国DAX、法国CAC40等 4 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-23 23:27",
-   "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "创业板指",
    "message": "创业板指单日涨3.08%，达20日历史波动率的 2.6 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-23 23:27",
+   "time": "2026-11-23 23:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "warning",
    "asset": "道琼斯",
-   "message": "道琼斯单日涨3.22%，达20日历史波动率的 2.6 倍（σ=1.25%，突破 2σ 警戒线）",
-   "time": "2026-11-23 23:27",
+   "message": "道琼斯单日涨3.34%，达20日历史波动率的 2.7 倍（σ=1.25%，突破 2σ 警戒线）",
+   "time": "2026-11-23 23:36",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "warning",
    "asset": "日经225",
    "message": "日经225单日跌5.06%，达20日历史波动率的 2.3 倍（σ=2.19%，突破 2σ 警戒线）",
-   "time": "2026-11-23 23:27",
+   "time": "2026-11-23 23:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
-   "asset": "德国DAX",
-   "message": "德国DAX单日跌2.60%，达20日历史波动率的 2.1 倍（σ=1.26%，突破 2σ 警戒线）",
-   "time": "2026-11-23 23:27",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "warning",
-   "asset": "法国CAC40",
-   "message": "法国CAC40单日跌1.89%，达20日历史波动率的 2.0 倍（σ=0.93%，突破 2σ 警戒线）",
-   "time": "2026-11-23 23:27",
-   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
-  },
-  {
-   "level": "warning",
-   "asset": "欧洲斯托克50",
-   "message": "欧洲斯托克50单日跌2.81%，达20日历史波动率的 2.4 倍（σ=1.19%，突破 2σ 警戒线）",
-   "time": "2026-11-23 23:27",
+   "asset": "韩国KOSPI",
+   "message": "韩国KOSPI单日跌3.31%，达20日历史波动率的 2.8 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-23 23:36",
    "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
-   "message": "COMEX黄金单日涨4.71%，达20日历史波动率的 2.6 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-23 23:27",
+   "message": "COMEX黄金单日涨4.47%，达20日历史波动率的 2.5 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-23 23:36",
    "chain": "避险资金涌入黄金ETF与期货 → 金价上行压低实际利率预期 → 美元信用担忧升温 → 黄金股/贵金属板块联动走强 → 通胀对冲需求进一步放大涨幅"
   },
   {
    "level": "warning",
-   "asset": "布伦特原油",
-   "message": "布伦特原油单日跌3.66%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-23 23:27",
-   "chain": "油价急跌 → 通胀预期降温、债券收益率下行 → 能源股与产油国货币承压 → 航空/化工成本改善受益 → 通缩交易抬头"
-  },
-  {
-   "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日涨8.99%，达20日历史波动率的 2.6 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-23 23:27",
+   "message": "Solana单日涨7.94%，达20日历史波动率的 2.3 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-23 23:36",
    "chain": "币价急涨 → 空头杠杆被连环强平(轧空) → 强平买单进一步推高价格 → 稳定币加速流入加密市场 → 与纳指联动的高风险偏好扩散"
   },
   {
    "level": "warning",
    "asset": "美国10年期国债收益率",
    "message": "美国10年期国债收益率单日变动 -12.0bp（收益率下行），达20日历史波动率的 2.1 倍（σ=5.7bp，突破 2σ 警戒线）",
-   "time": "2026-11-23 23:27",
+   "time": "2026-11-23 23:36",
    "chain": "收益率下行 → 债券价格上涨、资金从美元固收转向风险资产 → 贴现率下行支撑成长股估值 → 新兴市场流动性改善 → 北向资金回流A股/港股"
   },
   {
    "level": "warning",
    "asset": "全球股指",
-   "message": "深证成指、创业板指、道琼斯等 5 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-23 23:27",
+   "message": "深证成指、创业板指、道琼斯等 7 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
+   "time": "2026-11-23 23:36",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   },
   {
    "level": "warning",
    "asset": "避险情绪",
-   "message": "黄金单日上涨 4.71%（2.6倍σ），同时日经225、德国DAX走跌，避险情绪与风险资产分化。",
-   "time": "2026-11-23 23:27",
+   "message": "黄金单日上涨 4.47%（2.5倍σ），同时日经225、韩国KOSPI走跌，避险情绪与风险资产分化。",
+   "time": "2026-11-23 23:36",
    "chain": "黄金与股指走势背离 → 避险资金从股票流出转向黄金/美债 → 防御板块(公用事业/医药)与成长板块分化 → 行业轮动加速"
   }
  ],
  "news": [
   {
-   "title": "美国总统特朗普：强烈认为黄仁勋应该复出。\n\n我们必须保护我们的天才。（CNBC）",
-   "summary": "美国总统特朗普：强烈认为黄仁勋应该复出。\n\n我们必须保护我们的天才。（CNBC）",
-   "time": "2026-11-23 23:08",
-   "url": "https://wallstreetcn.com/livenews/3204384",
+   "title": "美国总统特朗普：上周与马斯克谈到了黄仁勋和英伟达。",
+   "summary": "美国总统特朗普：上周与马斯克谈到了黄仁勋和英伟达。",
+   "time": "2026-11-23 23:34",
+   "url": "https://wallstreetcn.com/livenews/3204399",
    "source": "华尔街见闻"
   },
   {
-   "title": "富国银行投资研究所将美国大盘股评级从“有利（Favorable）”上调至“最有利（Most Favorable）”",
-   "summary": "富国银行投资研究所将美国大盘股评级从“有利（Favorable）”上调至“最有利（MostFavorable）”。",
-   "time": "2026-11-23 23:05:08",
-   "url": "https://finance.eastmoney.com/a/202611233937663281.html",
+   "title": "美国众议院原定举行的黄仁勋听证会计划暂未发生变化",
+   "summary": "美国众议院原定举行的黄仁勋听证会计划暂未发生变化。",
+   "time": "2026-11-23 23:33:39",
+   "url": "https://finance.eastmoney.com/a/202611233937691514.html",
    "source": "东财国际"
   },
   {
-   "title": "黄仁勋回归 特朗普发声 - 东方财富",
+   "title": "黄仁勋复职英伟达股价暴涨 特朗普持股数千万美元 - 联合早报",
    "summary": "",
-   "time": "2026-11-23 22:54",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1tRHhRdTk3U29WMU15dDd3cDE5V1VFQ1RDbjkzZ2h0bUlUQnZpdkxhUEh5WXVBR2MxajJvT284MTZhTWdjZTBHczhwMDlqU2xOMjhYQXBPYXdlUU9FLTZ3akNkTQ?oc=5",
+   "time": "2026-11-23 23:29",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xYkp5OW5YcjJZNkUzOElfcmFPU3Q3ckVlZmh4SEo3RG90MHdHbFdXd2RRY0drYUZoN3hWbVBZWFFrcVFLWjZCS3lVWk5TTkliZE1NSllQeW5ydWdfSW1GRkFUUWdjZzBEdFpJ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1861,17 +1668,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国商业活动扩张速度降至四个月来最低",
+   "title": "特朗普仍将选举后的股市下跌归咎于民主党",
    "summary": "",
-   "time": "2026-11-23 15:09:35",
-   "url": "https://news.futunn.com/flash/1005364167/us-business-activity-expansion-slows-to-four-month-low",
+   "time": "2026-11-23 15:29:10",
+   "url": "https://news.futunn.com/flash/1005365806/trump-continues-to-blame-the-democrats-for-the-post-election",
    "source": "富途"
   },
   {
-   "title": "英伟达涨幅一度扩大至35%，刷新日高",
+   "title": "美国总统特朗普：目前不担心人工智能泡沫",
    "summary": "",
-   "time": "2026-11-23 15:03:36",
-   "url": "https://news.10jqka.com.cn/20261123/c682125322.shtml",
+   "time": "2026-11-23 15:26:16",
+   "url": "https://news.10jqka.com.cn/20261123/c682125458.shtml",
    "source": "同花顺"
   },
   {
@@ -1882,31 +1689,31 @@
    "source": "东财早报"
   },
   {
-   "title": "地方政府较强的支持意愿以及相对宽松的融资环境仍可提供缓冲，但不足以完全抵消平台自身信用指标走弱的压力",
+   "title": "以人工智能为主的科技板块持续调整，叠加海外加息预期升温，资金偏好由进取转向防御，高股息的银行股因此受到追捧",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-23/102508109.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-23/102508117.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "美国参议院民主党成员Ruben Gallego：英伟达声明发布之前的交易必须接受调查。\n\n我们需要调查这项公告发布前有哪些股票头寸被建立。",
-   "summary": "美国参议院民主党成员Ruben Gallego：英伟达声明发布之前的交易必须接受调查。\n\n我们需要调查这项公告发布前有哪些股票头寸被建立。",
-   "time": "2026-11-23 23:08",
-   "url": "https://wallstreetcn.com/livenews/3204383",
+   "title": "美国总统特朗普：黄仁勋已经在规划后面三代芯片。\n\n黄仁勋不构成威胁，失去他才构成威胁。",
+   "summary": "美国总统特朗普：黄仁勋已经在规划后面三代芯片。\n\n黄仁勋不构成威胁，失去他才构成威胁。",
+   "time": "2026-11-23 23:34",
+   "url": "https://wallstreetcn.com/livenews/3204398",
    "source": "华尔街见闻"
   },
   {
-   "title": "国际足联据悉选中美国牵头的申办方案主办2031年女足世界杯 选中英国申办方案主办2035年女足世界杯",
-   "summary": "国际足联据悉选中美国牵头的申办方案主办2031年女足世界杯，选中英国申办方案主办2035年女足世界杯。",
-   "time": "2026-11-23 23:04:07",
-   "url": "https://finance.eastmoney.com/a/202611233937662842.html",
+   "title": "比特币、以太坊目前维持4%的日内涨幅 分别报63200美元、1800美元",
+   "summary": "比特币、以太坊目前维持4%的日内涨幅，分别报63200美元、1800美元。",
+   "time": "2026-11-23 23:31:33",
+   "url": "https://finance.eastmoney.com/a/202611233937691069.html",
    "source": "东财国际"
   },
   {
-   "title": "黄仁勋重返英伟达执行长职位， 特朗普总统：董事会做出了“正确且恰当的决定” - 美国之音",
+   "title": "黄仁勋复任英伟达CEO，特朗普：正确且恰当，美国政府没有证据表明黄仁勋有不合法行为；英伟达：董事会“已听取美国政府高层的意见” - 华龙网",
    "summary": "",
-   "time": "2026-11-23 22:44",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOV9IbHlYaGxfZjR3LUJPQXY3YXJkTHJKMUpHVWlGSy1zM0tKbUF0LWlmeUtZMkNMNHoxTk45c3l0TEJ4WFhFLUxTVmEwMHlMVGpaSWVGYmIyRUE2NDdHVVhWUEZxTTQtb0lMS0JsOVEzbUkxRnlkZmlWeU96azJ4SUpDQUVlMU5xU3BOVDBLMWZ1Vm9RVUl5UDczYldvOEJTZzZYVjlXbDdwbXZlTVZ4RjdtM29rOFNwZlBLcTBVZ0zSAcMBQVVfeXFMTWJYdXg5TDBvZGU1cVVYcURiTzhiYTB6aWlEdkZYeGNNczlWTS1wUFVtVmllY0hwcE1MbnNFQ2VKNDQ3MGdMYWJrQ19Vb1NUMVczVk41RmFuVVdKQkhPOGhidnI1VzJDdnZOTUU4ZWpvT2h4RFlhR3pxenVSWW8wZjZVYTdkZDlXQTZmTnEzRmlIcnFXbGZjc3dMaWIzbGRTNmNTWXpQa3FaaElILVRHbEZzZ1l4cWlRcF9JbW1vVzJ2QllB?oc=5",
+   "time": "2026-11-23 23:21",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5DemhpZ2RfU3JBWUNHU3IxQTZQUlFGU1F3T0FWcWVocDI3N3hhR3ZqYXlPWEJBLTRNeVRMX3hpVkR2cmpVZ1J2NmswNmRHM2otMU8yaEVHZVJ1b01xRXNDVTFLekpMVHpPMFBF?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1917,45 +1724,45 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英伟达创2003年以来最大盘中涨幅 带飞一众AI概念股",
+   "title": "欧盟委员会提议对俄实施第22轮制裁",
    "summary": "",
-   "time": "2026-11-23 15:08:20",
-   "url": "https://news.futunn.com/flash/1005364078/nvidia-records-largest-intraday-gain-since-2003-lifting-a-host",
+   "time": "2026-11-23 15:22:54",
+   "url": "https://news.futunn.com/flash/1005365456/the-european-commission-proposes-the-22nd-round-of-sanctions-against",
    "source": "富途"
   },
   {
-   "title": "期市夜盘收盘，国内期货主力合约多数上涨，沥青跌超2%",
+   "title": "费城半导体指数日内涨15%",
    "summary": "",
-   "time": "2026-11-23 15:00:55",
-   "url": "https://news.10jqka.com.cn/20261123/c682125301.shtml",
+   "time": "2026-11-23 15:23:08",
+   "url": "https://news.10jqka.com.cn/20261123/c682125449.shtml",
    "source": "同花顺"
   },
   {
-   "title": "近期机构仍重点关注外围市场扰动，包括美联储加息以及美股科技板块走势对A股的影响",
+   "title": "地方政府较强的支持意愿以及相对宽松的融资环境仍可提供缓冲，但不足以完全抵消平台自身信用指标走弱的压力",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-23/102507822.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-23/102508109.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "美国总统特朗普通过连线参加了英伟达董事会会议。\n\n特朗普主张让黄仁勋复出。（Semafor）",
-   "summary": "美国总统特朗普通过连线参加了英伟达董事会会议。\n\n特朗普主张让黄仁勋复出。（Semafor）",
-   "time": "2026-11-23 23:05",
-   "url": "https://wallstreetcn.com/livenews/3204382",
+   "title": "标普500指数涨幅扩大至5.5%，道指涨1654点、涨幅3.3%，纳指涨7.6%，纳斯达克100指数涨7.9%，半导体指数涨14.3%。",
+   "summary": "标普500指数涨幅扩大至5.5%，道指涨1654点、涨幅3.3%，纳指涨7.6%，纳斯达克100指数涨7.9%，半导体指数涨14.3%。",
+   "time": "2026-11-23 23:33",
+   "url": "https://wallstreetcn.com/livenews/3204397",
    "source": "华尔街见闻"
   },
   {
-   "title": "英伟达涨幅一度扩大至35% 刷新日高",
-   "summary": "英伟达涨幅一度扩大至35%，刷新日高。",
-   "time": "2026-11-23 23:01:59",
-   "url": "https://finance.eastmoney.com/a/202611233937659690.html",
+   "title": "美国总统特朗普表示：目前不担心人工智能泡沫",
+   "summary": "美国总统特朗普表示，目前不担心人工智能泡沫。",
+   "time": "2026-11-23 23:25:19",
+   "url": "https://finance.eastmoney.com/a/202611233937686660.html",
    "source": "东财国际"
   },
   {
-   "title": "黄仁勋复职 特朗普火速点赞 - 东方财富",
+   "title": "特朗普再次发文：“祝贺英伟达作出了一个在我看来绝对出色的决定” - 东方财富",
    "summary": "",
-   "time": "2026-11-23 22:39",
-   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9Fd0M3ZXRzYXp2cHlMSVprQUxQek56c3JCZVhiMjNnd1JaX0NaaHRMeVNSbWJDaVNiREhGUW5EcWZVTjdpRUtQcUhzSHF3cUZHM2ZCOEE1LVNDaTAzVDFTNDBqVQ?oc=5",
+   "time": "2026-11-23 23:19",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1QajZJZkhtVGZaM1lOdFVXbnhLRTlMQUdvLW5jc2NkZEZ4VHFFMFhOLUpjZHZUMVVfRjNQTFNvaGw3cXFLanpCRDQzRXFPXzJkYUpmeXJxNDVzSDgydTc1TzJ4VQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1966,38 +1773,38 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普再次发文祝贺黄仁勋回归英伟达",
+   "title": "欧盟对玻璃纤维及相关化学品进口启动贸易调查",
    "summary": "",
-   "time": "2026-11-23 14:52:34",
-   "url": "https://news.futunn.com/flash/1005362038/trump-posted-again-to-congratulate-jensen-huang-on-his-return",
+   "time": "2026-11-23 15:20:00",
+   "url": "https://news.futunn.com/flash/1005365028/eu-launches-trade-investigation-into-imports-of-glass-fiber-and",
    "source": "富途"
   },
   {
-   "title": "纽约联储数据：上个交易日SOFR报3.92%",
+   "title": "英伟达涨幅一度扩大至35%，刷新日高",
    "summary": "",
-   "time": "2026-11-23 14:52:41",
-   "url": "https://news.10jqka.com.cn/20261123/c682125234.shtml",
+   "time": "2026-11-23 15:03:36",
+   "url": "https://news.10jqka.com.cn/20261123/c682125322.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美伊调解仍处僵持状态，伊方重申“两天方案”有效性。上周一艘VLCC、一艘LPG船于海峡触雷严重起火",
+   "title": "近期机构仍重点关注外围市场扰动，包括美联储加息以及美股科技板块走势对A股的影响",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-23/102507804.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-23/102507822.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "荣耀CEO李健：中档手机面临成本压力或高于旗舰，阔折叠产品即将发布",
-   "summary": "在荣耀700系列手机发布后的媒体群访中，荣耀CEO李健表示，荣耀也曾思考“到底是该进还是该退”，但最终选择坚持真诚对待用户、持续创新，“想尽一切办法把困难留给自己”。\n\n李健还特别提到，中档位手机面临的成本压力甚至可能比旗舰机更大。今年内存价格上涨，行业成本压力持续加大，为了守住价格，一些产品不得不在芯片、影像和内存规格上作出取舍。“有的芯片往回退，有的影像往回退，有的内存往回退，靠规格拼凑来找平",
-   "time": "2026-11-23 23:04",
-   "url": "https://wallstreetcn.com/livenews/3204381",
+   "title": "以色列组阁“牵头人”称伊朗尚不构成特定威胁",
+   "summary": "据以色列媒体23日报道，以正直党领导人加迪·艾森科特当天称，他目前没有看到伊朗构成需要以色列在新政府组建前采取军事行动的“直接威胁”。（新华社）",
+   "time": "2026-11-23 23:31",
+   "url": "https://wallstreetcn.com/livenews/3204395",
    "source": "华尔街见闻"
   },
   {
-   "title": "马斯克回应黄仁勋回归英伟达：错误得到修正",
-   "summary": "【马斯克回应黄仁勋回归英伟达：错误得到修正】11月23日，在英伟达宣布重新任命黄仁勋为首席执行官后，马斯克在社交平台发文称“Itisdone（尘埃落定）。”此外，马斯克还转发英伟达官方声明并评论道：“错误得到了修正”。",
-   "time": "2026-11-23 23:01:32",
-   "url": "https://finance.eastmoney.com/a/202611233937664929.html",
+   "title": "美股新云服务商集体上涨",
+   "summary": "【美股新云服务商集体上涨】美股新云服务商CoreWeave涨26%，IREN涨34%，Nebius27%。",
+   "time": "2026-11-23 23:22:52",
+   "url": "https://finance.eastmoney.com/a/202611233937682169.html",
    "source": "东财国际"
   }
  ],
@@ -2005,7 +1812,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(9)",
+   "富途": "ok(6)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2018,8 +1825,8 @@
    "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "富途": 7,
-   "同花顺": 6,
+   "富途": 6,
+   "同花顺": 7,
    "东财早报": 1,
    "财新": 6
   }
