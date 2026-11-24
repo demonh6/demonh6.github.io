@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-24 21:27:23 CST",
- "generated_at_iso": "2026-11-24T21:27:23+08:00",
+ "generated_at": "2026-11-24 21:35:40 CST",
+ "generated_at_iso": "2026-11-24T21:35:40+08:00",
  "date": "2026-11-24",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -946,7 +946,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 5006.03,
+    "price": 5006.0298,
     "change": 297.49,
     "change_pct": 6.32,
     "hist": [
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 82435.9922,
+    "change": -1483.72,
+    "change_pct": -1.77
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 40136.7,
+    "change": 3324.81,
+    "change_pct": 9.03
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25337.27,
+    "change": 534.49,
+    "change_pct": 2.15
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10457.1,
-    "change": -23.72,
-    "change_pct": -0.23,
+    "price": 10480.82,
+    "change": 134.48,
+    "change_pct": 1.3,
     "hist": [
      10650.33,
      10724.86,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8062.49,
-    "change": 17.65,
-    "change_pct": 0.22,
+    "price": 8044.84,
+    "change": 117.09,
+    "change_pct": 1.48,
     "hist": [
      7827.63,
      7873.11,
@@ -1169,9 +1190,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6039.72,
-    "change": -34.75,
-    "change_pct": -0.57,
+    "price": 6074.48,
+    "change": 132.53,
+    "change_pct": 2.23,
     "hist": [
      6167.02,
      6190.38,
@@ -1205,6 +1226,13 @@
      6074.48
     ],
     "sigma": 1.282
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2372.97,
+    "change": 21.43,
+    "change_pct": 0.91
    }
   ]
  },
@@ -1256,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3654.48,
-    "change": -27.22,
-    "change_pct": -0.74,
-    "quote_time": "21:27:25 2026-11-24"
+    "price": 3649.027,
+    "change": -32.673,
+    "change_pct": -0.89,
+    "quote_time": "21:35:42 2026-11-24"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.514,
-    "change": -1.195,
-    "change_pct": -2.73,
-    "quote_time": "21:27:23 2026-11-24"
+    "price": 42.41,
+    "change": -1.299,
+    "change_pct": -2.97,
+    "quote_time": "21:35:43 2026-11-24"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 80.617,
-    "change": 0.447,
-    "change_pct": 0.56,
-    "quote_time": "21:27:25 2026-11-24"
+    "price": 80.837,
+    "change": 0.667,
+    "change_pct": 0.83,
+    "quote_time": "21:35:45 2026-11-24"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 87.432,
-    "change": 0.752,
-    "change_pct": 0.87,
-    "quote_time": "21:27:21 2026-11-24"
+    "price": 87.545,
+    "change": 0.865,
+    "change_pct": 1.0,
+    "quote_time": "21:35:43 2026-11-24"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60143.6,
-    "change": -1263.0,
-    "change_pct": -2.06,
+    "price": 60085.8,
+    "change": -1101.8,
+    "change_pct": -1.8,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1694.44,
-    "change": -32.85,
-    "change_pct": -1.9,
+    "price": 1694.28,
+    "change": -28.4,
+    "change_pct": -1.65,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.98,
-    "change": -2.73,
-    "change_pct": -3.75,
+    "price": 69.9,
+    "change": -2.55,
+    "change_pct": -3.52,
     "source": "okx"
    }
   ],
@@ -1322,9 +1350,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.92,
-    "change": -0.42,
-    "change_pct": -0.4,
+    "price": 103.94,
+    "change": -0.4,
+    "change_pct": -0.38,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1361,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6671,
-    "change": 0.0008,
-    "change_pct": 0.01,
+    "price": 6.6677,
+    "change": 0.0014,
+    "change_pct": 0.02,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1385,17 +1413,6 @@
  },
  "speakers": [
   {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普展示深圳接机画面，感叹深圳夜景如黄金时代美国 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-24 20:24",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWOFNIZDNlQjR4TmlsQm96SE5VUGFLbzdCekZUNm0zR2hSbi02TDhDQW9lYW1QdkRHOE1IcFh4SGVRT1MyUnlxVkFsQ3l1ZFlzcUpvUnBVRUw4ekxENEt0bzF6aWo2Y1ktSGZEQTBfZDlpckk?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 2
-  },
-  {
    "keyword": "黄仁勋",
    "label": "黄仁勋",
    "hint": "英伟达动向是全球AI行情的风向标",
@@ -1405,6 +1422,28 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNUklkWXNTRGlqLUc4X1I4ekdHVUcyeWJycEtQVkVhWFJsTnEwcnNuQ016WUlfMWZ4ektSaHg3NjNpR1VlNDdUNVRnYWVMbjNlNmE3QVZCdkhmeUxZMWc?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "市场已经替美联储“加息”100个基点，华尔街却恐难等来政策转向-市场参考 - 金十数据",
+   "summary": "",
+   "time": "2026-11-24 20:16",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05VGl4ZGdOcG54bkwwRUpWTWV5aWYzWjhDVHl4ZEduUXpER3F0UncyTjc5ODJHa1VEU0FaNUZkOE9lTnFiNGdvX2o3VllmalU?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普称英伟达股价大跌使说服董事会变得更容易，强调介入公司管理层事务是为了美国利益",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-24/102508181.html?cxapp_link=true",
+   "source": "财新",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1614,73 +1653,80 @@
    "level": "danger",
    "asset": "纳斯达克",
    "message": "纳斯达克单日涨6.51%，达20日历史波动率的 3.5 倍（σ=1.84%，突破 3σ 高危线）",
-   "time": "2026-11-24 21:27",
+   "time": "2026-11-24 21:36",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "danger",
    "asset": "标普500",
    "message": "标普500单日涨4.73%，达20日历史波动率的 3.5 倍（σ=1.34%，突破 3σ 高危线）",
-   "time": "2026-11-24 21:27",
+   "time": "2026-11-24 21:36",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
+  },
+  {
+   "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日涨9.03%，达20日历史波动率的 7.5 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-24 21:36",
+   "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
   },
   {
    "level": "warning",
    "asset": "道琼斯",
    "message": "道琼斯单日涨3.01%，达20日历史波动率的 2.4 倍（σ=1.25%，突破 2σ 警戒线）",
-   "time": "2026-11-24 21:27",
+   "time": "2026-11-24 21:36",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "warning",
    "asset": "全球股指",
-   "message": "道琼斯、纳斯达克、标普500等 5 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-24 21:27",
+   "message": "道琼斯、纳斯达克、标普500等 9 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
+   "time": "2026-11-24 21:36",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "有英伟达内部人士对记者透露，没有听到公司有返聘因黄仁勋一度辞职而离职员工的相关安排。（一财）",
-   "summary": "有英伟达内部人士对记者透露，没有听到公司有返聘因黄仁勋一度辞职而离职员工的相关安排。（一财）",
-   "time": "2026-11-24 21:07",
-   "url": "https://wallstreetcn.com/livenews/3205039",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "中信建投：AI科研取得突破 办公Agent需求增长",
-   "summary": "【中信建投：AI科研取得突破 办公Agent需求增长】中信建投证券研究报告称，AI能力向科研与实际工作持续拓展，继续看好模型领先、拥有应用入口的头部平台。",
-   "time": "2026-11-24 21:03:08",
-   "url": "https://finance.eastmoney.com/a/202611243938687610.html",
+   "title": "布伦特原油日内涨1%",
+   "summary": "布伦特原油日内涨1%，现报87.56美元/桶。",
+   "time": "2026-11-24 21:32:51",
+   "url": "https://finance.eastmoney.com/a/202611243938705396.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普展示深圳接机画面，感叹深圳夜景如黄金时代美国 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-24 20:24",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWOFNIZDNlQjR4TmlsQm96SE5VUGFLbzdCekZUNm0zR2hSbi02TDhDQW9lYW1QdkRHOE1IcFh4SGVRT1MyUnlxVkFsQ3l1ZFlzcUpvUnBVRUw4ekxENEt0bzF6aWo2Y1ktSGZEQTBfZDlpckk?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "天齐锂业：拟通过全资子公司以现金方式收购关联方持有的润丰矿业76.5269%股权、天齐兴宇100%股权及上都布探矿权，交易合计对价约77.9256亿元。",
+   "summary": "天齐锂业：拟通过全资子公司以现金方式收购关联方持有的润丰矿业76.5269%股权、天齐兴宇100%股权及上都布探矿权，交易合计对价约77.9256亿元。",
+   "time": "2026-11-24 21:32",
+   "url": "https://wallstreetcn.com/livenews/3205048",
+   "source": "华尔街见闻"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "一个月两轮调整信用债高位回落进度不均，高等级二永债修复6BP，低评级长端城投债仅修复1BP - 东方财富网",
    "summary": "",
-   "time": "2026-11-24 20:22",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9WQmE5WmRUa1RxN052Y3NiT29hX3Y5LTFoRGlpampqLTM3alR0RXk4VkpkM1J1VkdhMk9DSVJwX3dZUmNubHp4VA?oc=5",
+   "time": "2026-11-24 21:29",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9zRTJPUnhoY1B1Vjd3ZGJtM1poT3FRSll3a093aXdFdS1xVS10cUZkdVVCSzNoclhwTXBPMk1PNk96Q3p1a0NCSk9oWXlpcFJFaDg0SHFQbjE5R0doWXltWWdoY3lVdw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "应用材料美股盘前跌超5%",
+   "title": "快看视频 | 黄仁勋闪辞11天后回归，特朗普亲自推动，这场大戏还没完？ - 上观新闻",
    "summary": "",
-   "time": "2026-11-24 13:09:10",
-   "url": "https://news.10jqka.com.cn/20261124/c682171042.shtml",
-   "source": "同花顺"
+   "time": "2026-11-24 20:23",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNUklkWXNTRGlqLUc4X1I4ekdHVUcyeWJycEtQVkVhWFJsTnEwcnNuQ016WUlfMWZ4ektSaHg3NjNpR1VlNDdUNVRnYWVMbjNlNmE3QVZCdkhmeUxZMWc?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "TrendForce：AI抢占玻纤布产能垫高PCB价格 第四季COB/SMD LED显示荧幕成本季增2%",
+   "title": "天齐锂业：董事会同意全资子公司收购两家公司股权及上都布探矿权",
    "summary": "",
-   "time": "2026-11-24 13:04:44",
-   "url": "https://news.futunn.com/flash/1005482407/trendforce-ai-demand-captures-fiberglass-cloth-capacity-driving-up-pcb",
+   "time": "2026-11-24 13:28:14",
+   "url": "https://news.futunn.com/flash/1005484372/tianqi-lithium-the-board-of-directors-has-approved-the-acquisition",
    "source": "富途"
+  },
+  {
+   "title": "祖名股份：控股股东等拟协议转让17%股份引入海南优赣及孙艳",
+   "summary": "",
+   "time": "2026-11-24 13:27:34",
+   "url": "https://news.10jqka.com.cn/20261124/c682171286.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月24日周二",
@@ -1697,46 +1743,46 @@
    "source": "财新"
   },
   {
-   "title": "英国央行货币政策委员格林：需要确凿证据证明存在显著影响，才会支持50个基点。",
-   "summary": "英国央行货币政策委员格林：需要确凿证据证明存在显著影响，才会支持50个基点。",
-   "time": "2026-11-24 20:58",
-   "url": "https://wallstreetcn.com/livenews/3205036",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "波罗的海干散货运价指数涨2.27%",
-   "summary": "波罗的海干散货运价指数涨2.27%，至3068点。",
-   "time": "2026-11-24 21:02:40",
-   "url": "https://finance.eastmoney.com/a/202611243938679134.html",
+   "title": "天齐锂业：拟收购润丰矿业及上都布探矿权等资产",
+   "summary": "【天齐锂业：拟收购润丰矿业及上都布探矿权等资产】天齐锂业(002466.SZ)公告称，公司董事会审议通过全资子公司购买资产暨关联交易议案，拟通过天齐成都收购润丰矿业76.5269%股权及天齐兴宇100%股权，并通过雅江矿业收购上都布探矿权，交易完成后相关资产将纳入合并报表。同时，公司拟向天齐成都增资，并将商品期货套期保值业务额度调整为保证金及权利金上限不超过6亿元，最高合约价值不超过20亿元。",
+   "time": "2026-11-24 21:25:50",
+   "url": "https://finance.eastmoney.com/a/202611243938701133.html",
    "source": "东财国际"
   },
   {
-   "title": "快看视频 | 黄仁勋闪辞11天后回归，特朗普亲自推动，这场大戏还没完？ - 上观新闻",
-   "summary": "",
-   "time": "2026-11-24 20:23",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNUklkWXNTRGlqLUc4X1I4ekdHVUcyeWJycEtQVkVhWFJsTnEwcnNuQ016WUlfMWZ4ektSaHg3NjNpR1VlNDdUNVRnYWVMbjNlNmE3QVZCdkhmeUxZMWc?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "周二美股盘前你需要了解的全球要闻",
+   "summary": "美股股指期货持续走低，纳指100期货跌超2%，英伟达盘前跌6%，Anthropic跌破发行价。\n\n英伟达股价飙升重创空头，杠杆做空产品跌幅高达92%。\n\n报道：Anthropic、OpenAI员工担忧模型不安全，不宜对外发布。\n\n报道：三星或独供iPhone Duo折叠屏至少五年，苹果议价空间受限。\n\n小米Q3营收超预期，存储涨价挤压手机毛利，汽车收入同比下降19.9%，增程SUV首月锁单超7万。",
+   "time": "2026-11-24 21:32",
+   "url": "https://wallstreetcn.com/livenews/3205047",
+   "source": "华尔街见闻"
   },
   {
-   "title": "15股获买入评级 最新:舍得酒业 - 中财网",
+   "title": "胡金标控股订单创新高 华侨银行予“买入”评级 - 联合早报",
    "summary": "",
-   "time": "2026-11-24 20:13",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1NdDhaeng2bWg0cmVxMkpiWklTcmYxZ0ZGWHVGem1rVmpQdzgxcUZKM3dCWnJmMzd2Z2ljTS05eE45S0JWVUlFUmpyVHZrZHF3NWk1azRB?oc=5",
+   "time": "2026-11-24 21:03",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sMXQwMXVERWFDV3VSR3FndkE5eEtvTFJ5VGd4eGpuV0xpcVdpZjBPUlV2V0dPdFBvUlBETWlTX0JqN29DNFVOOW5OZkRXRFUwY0V1LUJfNXN4REtpY2MzRUxlX3VRSTFuR19La1RGQjlpY3lO?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "德州仪器美股盘前跌超5%",
+   "title": "市场已经替美联储“加息”100个基点，华尔街却恐难等来政策转向-市场参考 - 金十数据",
    "summary": "",
-   "time": "2026-11-24 13:09:04",
-   "url": "https://news.10jqka.com.cn/20261124/c682171031.shtml",
-   "source": "同花顺"
+   "time": "2026-11-24 20:16",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05VGl4ZGdOcG54bkwwRUpWTWV5aWYzWjhDVHl4ZEduUXpER3F0UncyTjc5ODJHa1VEU0FaNUZkOE9lTnFiNGdvX2o3VllmalU?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "云汉芯城：拟以3000万元-5000万元回购公司股份",
+   "title": "B站陈睿：生成式AI至少让视频产业的价值提高10倍",
    "summary": "",
-   "time": "2026-11-24 13:02:39",
-   "url": "https://news.futunn.com/flash/1005482283/yunhan-xincheng-plans-to-repurchase-company-shares-with-rmb-30",
+   "time": "2026-11-24 13:26:26",
+   "url": "https://news.futunn.com/flash/1005484282/bilibili-s-chen-rui-generative-ai-to-boost-video-industry",
    "source": "富途"
+  },
+  {
+   "title": "神雾节能：公司股票被实施其他风险警示，11月26日起简称变更为ST节能",
+   "summary": "",
+   "time": "2026-11-24 13:27:10",
+   "url": "https://news.10jqka.com.cn/20261124/c682171278.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月23日周一",
@@ -1753,18 +1799,25 @@
    "source": "财新"
   },
   {
-   "title": "胜宏科技：拟每10股派发现金股利10元，预计现金分红约9.83亿元",
-   "summary": "胜宏科技：拟每10股派发现金股利10元（含税），预计现金分红约9.83亿元，约占2026年前三季度归母净利润的29.04%，不送红股、不转增。",
-   "time": "2026-11-24 20:57",
-   "url": "https://wallstreetcn.com/livenews/3205035",
+   "title": "神雾节能：收到行政处罚事先告知书 公司股票将被实施其他风险警示",
+   "summary": "【神雾节能：收到行政处罚事先告知书 公司股票将被实施其他风险警示】神雾节能(000820.SZ)公告称，公司及相关当事人收到江西证监局下发的《行政处罚事先告知书》。经查明，公司子公司通过虚增承包的光伏电站建设项目施工合同金额、工程量等方式，虚增2024年营收6945.83万元、营业成本5648.94万元、利润总额1296.89万元，导致2024年年报存在虚假记载。",
+   "time": "2026-11-24 21:25:46",
+   "url": "https://finance.eastmoney.com/a/202611243938699729.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "民调：更多德国人不再支持军援乌克兰",
+   "summary": "德国媒体24日援引德国科贝尔基金会一项研究报道，越来越多德国人反对向乌克兰提供军事援助。如今，大约53%的德国人希望停止向乌克兰提供武器。（新华社）",
+   "time": "2026-11-24 21:25",
+   "url": "https://wallstreetcn.com/livenews/3205046",
    "source": "华尔街见闻"
   },
   {
-   "title": "国内商品期货夜盘开盘 主力合约多数上涨",
-   "summary": "【国内商品期货夜盘开盘 主力合约多数上涨】国内商品期货夜盘开盘，主力合约多数上涨。涨幅方面，乙二醇涨超2%，烧碱涨近2%，甲醇、对二甲苯、纸浆、PTA、棕榈油等涨超1%；跌幅方面，国际铜跌超3%，沪铜跌超2%，沪锡跌近2%，沪铝、沪银、铸造铝跌超1%。",
-   "time": "2026-11-24 21:00:08",
-   "url": "https://finance.eastmoney.com/a/202611243938678095.html",
-   "source": "东财国际"
+   "title": "9公司获得增持评级-更新中 - 中财网",
+   "summary": "",
+   "time": "2026-11-24 20:46",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WemlJNzl3MkhfN3NmV2JjcW13a25UOURUa0hHVVZsMEF3VEN0aElTODBpaEd4bUZhbTZQVEpOS3F1d2E0U1dtNUVQOGc0Q0d0a0VLby1R?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "直接介入助黄仁勋复职 特朗普打破“跛脚鸭”规则 - 联合早报",
@@ -1774,25 +1827,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "西南证券：给予万向钱潮增持评级_券商研报_数据解析 - 证券之星",
+   "title": "据华尔街日报：美国准备提高对多个国家的关税",
    "summary": "",
-   "time": "2026-11-24 18:48",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5rRjFwNmp3NWoxS2Y4MkJKQ2dJM3lDaHdSM002cElGdE9wTXhzalJtNGlWclFQTVJCQWQxTF9ORXJvcjdqWkFGaEtieDNIR0M3M2Q5eFhuMlFYX0x0NmdHZTZB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "上期所沪银主力合约失守1万元/千克",
-   "summary": "",
-   "time": "2026-11-24 13:08:42",
-   "url": "https://news.10jqka.com.cn/20261124/c682171027.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "胜宏科技：首次回购公司股份9000股，支付103.44万元",
-   "summary": "",
-   "time": "2026-11-24 12:57:53",
-   "url": "https://news.futunn.com/flash/1005481676/shenghong-technology-first-share-repurchase-of-9000-shares-with-a",
+   "time": "2026-11-24 13:10:00",
+   "url": "https://news.futunn.com/flash/1005482871/according-to-the-wall-street-journal-the-united-states-is",
    "source": "富途"
+  },
+  {
+   "title": "TPG美股盘前涨超10%",
+   "summary": "",
+   "time": "2026-11-24 13:25:35",
+   "url": "https://news.10jqka.com.cn/20261124/c682171264.shtml",
+   "source": "同花顺"
   },
   {
    "title": "特朗普称英伟达股价大跌使说服董事会变得更容易，强调介入公司管理层事务是为了美国利益",
@@ -1802,11 +1848,11 @@
    "source": "财新"
   },
   {
-   "title": "英国央行货币政策委员格林：企业预计工资协议将定在3.6%，这一水平过高。\n\n现在必须对二轮效应作出判断。\n\n劳动力市场闲置可能已达峰值。\n\n二轮效应风险更高。\n\n指标显示工资增长停留在3.5%。\n\n“无二轮效应”情景“不可能”。\n\n进一步收",
-   "summary": "英国央行货币政策委员格林：企业预计工资协议将定在3.6%，这一水平过高。\n\n现在必须对二轮效应作出判断。\n\n劳动力市场闲置可能已达峰值。\n\n二轮效应风险更高。\n\n指标显示工资增长停留在3.5%。\n\n“无二轮效应”情景“不可能”。\n\n进一步收紧政策是合适的。\n\n需出现数据逆转或战争缓和才能改变观点。",
-   "time": "2026-11-24 20:49",
-   "url": "https://wallstreetcn.com/livenews/3205032",
-   "source": "华尔街见闻"
+   "title": "美股股指期货扩大跌幅",
+   "summary": "【美股股指期货扩大跌幅】美股股指期货扩大跌幅，道指期货现跌0.8%，标普500指数期货跌约1.3%，纳指期货跌约2.3%。据新浪财经，此前，美国媒体称美国准备对数十个国家提高关税。",
+   "time": "2026-11-24 21:20:49",
+   "url": "https://finance.eastmoney.com/a/202611243938697479.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
@@ -1816,18 +1862,18 @@
    "富途": "ok(18)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
-   "百度财经": "ok(30)",
+   "百度财经": "FAIL:RuntimeError",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 6,
+   "谷歌新闻·国际": 7,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
