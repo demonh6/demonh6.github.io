@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-24 17:59:39 CST",
- "generated_at_iso": "2026-11-24T17:59:39+08:00",
+ "generated_at": "2026-11-24 18:08:19 CST",
+ "generated_at_iso": "2026-11-24T18:08:19+08:00",
  "date": "2026-11-24",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -901,10 +901,10 @@
      61142.35,
      59662.02,
      58860.43,
-     59024.2813,
-     59444.2109,
-     56436.6484,
-     58644.6289
+     59024.28,
+     59444.21,
+     56436.65,
+     58644.63
     ],
     "sigma": 2.396,
     "volume": 0.0,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10485.26,
-    "change": 4.44,
-    "change_pct": 0.04,
+    "price": 10478.0,
+    "change": -2.82,
+    "change_pct": -0.03,
     "hist": [
      10650.33,
      10724.86,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8064.15,
-    "change": 19.31,
-    "change_pct": 0.24,
+    "price": 8059.92,
+    "change": 15.08,
+    "change_pct": 0.19,
     "hist": [
      7827.63,
      7873.11,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6055.8,
-    "change": -18.67,
-    "change_pct": -0.31,
+    "price": 6052.89,
+    "change": -21.58,
+    "change_pct": -0.36,
     "hist": [
      6167.02,
      6190.38,
@@ -1256,28 +1256,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3648.76,
-    "change": -32.94,
-    "change_pct": -0.89,
-    "quote_time": "17:59:35 2026-11-24"
+    "price": 3648.18,
+    "change": -33.52,
+    "change_pct": -0.91,
+    "quote_time": "18:08:19 2026-11-24"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.266,
-    "change": -1.443,
-    "change_pct": -3.3,
-    "quote_time": "17:59:35 2026-11-24"
+    "price": 42.217,
+    "change": -1.492,
+    "change_pct": -3.41,
+    "quote_time": "18:08:14 2026-11-24"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 80.085,
-    "change": -0.085,
-    "change_pct": -0.11,
-    "quote_time": "17:59:24 2026-11-24"
+    "price": 80.07,
+    "change": -0.1,
+    "change_pct": -0.12,
+    "quote_time": "18:08:22 2026-11-24"
    },
    {
     "name": "布伦特原油",
@@ -1286,7 +1286,7 @@
     "price": 86.702,
     "change": 0.022,
     "change_pct": 0.03,
-    "quote_time": "17:59:34 2026-11-24"
+    "quote_time": "18:08:20 2026-11-24"
    }
   ],
   "crypto": [
@@ -1294,48 +1294,147 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59979.0,
-    "change": -1459.9,
-    "change_pct": -2.38,
-    "source": "okx"
+    "price": 60041.7,
+    "change": -1331.6,
+    "change_pct": -2.17,
+    "source": "okx",
+    "hist": [
+     80430.0,
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     60053.8
+    ],
+    "sigma": 2.431
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1683.8,
-    "change": -39.49,
-    "change_pct": -2.29,
-    "source": "okx"
+    "price": 1686.12,
+    "change": -37.11,
+    "change_pct": -2.15,
+    "source": "okx",
+    "hist": [
+     2328.52,
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1686.92
+    ],
+    "sigma": 3.128
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.73,
-    "change": -1.74,
-    "change_pct": -2.4,
-    "source": "okx"
+    "price": 70.82,
+    "change": -1.6,
+    "change_pct": -2.21,
+    "source": "okx",
+    "hist": [
+     101.91,
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     70.84
+    ],
+    "sigma": 3.961
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 104.165,
-    "change": -0.16,
-    "change_pct": -0.15,
+    "price": 104.16,
+    "change": -0.18,
+    "change_pct": -0.17,
     "dec": 2,
-    "date": "2026-11-24",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6647,
-    "change": -0.0016,
-    "change_pct": -0.02,
+    "price": 6.6644,
+    "change": -0.0019,
+    "change_pct": -0.03,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1348,9 +1447,9 @@
     "change": 0.78,
     "change_pct": 0.57,
     "dec": 2,
-    "date": "2026-11-24",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1388,21 +1487,21 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：黄仁勋是国家财富，不能让中国得到他！ - 电子工程专辑EE Times China",
+   "title": "黄仁勋突然复职 特朗普所持英伟达股票价值或增长多达1500万美元 - RFI",
    "summary": "",
-   "time": "2026-11-24 17:14",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xZTFNUDEwYUFJWU9MdTBYTzgxMFBQTHAtUi1UazhDcjlLRmFYRUZvbGZrNlVTM1hnQVFnbndWalc2TUVWbGU1WWVCbUF5bGNnSHdn?oc=5",
+   "time": "2026-11-24 18:01",
+   "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNeHF5eTJWVlZ4YnJKR0lIMVRPaXNzWGZHMVdoOTBiMFozYjU1T09hcnJmZjlFM0pBSzl0eHBPNElIUk80WEVtVllqZmNBNHRkdUtTRDlCb25rNTVfcXVOSmw2UHBURjhXdkZjUDk5c080TFFXc1M5TkJBbGRiTkpEdTJEaE9GY2c4eGNhTWxlNEJmODlnOGU3YVN1T1hKa2RDNnJoVndQNzZGTkJUU2ZLYmJaMVFIZFhUaXZNRU9DSVAxUUNyTGJaM0NEaUJjTzVqVGd2WG1NNGhJWklpcnpCRUQ2NjlucVh5VHBOQkpYc0dHUFROcUVtN3kzWWZCaXhTaXdGRmtBa2lNZDZDZGdEZnk3NVEybldEc1NYWEphRDFtVDlObXVXa0tBaXN6bHYzcndQbWwtdUNVVFJTM0gxUlN2emFWMTZEUEpSQm5EaWR6bmZlM1NzYWNscXpMTUhRQm41T2hMdV9pdFhCY3hnRlFITnMydllfbnZYT0RhUGR6cVVROVBJb3E4YWF2MWxKN0FFYjhNVGNGTGRvaVRfSVpNVkY2RVJIMEE?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
+   "mentions": 3
   },
   {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "专访安联汤继成：美联储加息未至终点，AI红利重塑亚太格局 - 21财经",
+   "title": "美联储高官面临违反内部规定调查，民主党开始发力了？ - Sohu",
    "summary": "",
-   "time": "2026-11-24 16:33",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTG9VcTBoTWx0Q0c2X3pZZFFkbU1FWld4a29tMGc1V2ZWaVFkNmk2Ui1Nc0djOU9oUG5tdXY3d0pTRk0tRWxBLXBlb3dtTWR6V0V1ZUJSa0czTUVOai1qNV85cjhzNjNyQTZMcGxINEt6bXl6LUhyeU5lVXlZczR1TW80NTVyMHBiMXRpeWU1Yw?oc=5",
+   "time": "2026-11-24 17:31",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmdnU2lXTnlaNzVscm80MWVPVTJWSUFNazA0UnlUbzhRUXZhVUpDOFpXdy1RdEp3TWV4cS1lRDdZTmpVRjFFN244Z0sxc3Z3a3N3NHhzTlc1VURPQXVTZ2o3RFEwblRMX3dTRDRtaFpYY1dXLVFvV3ltby1aQmdFZ0hzU1JJMWZuWDdN?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
   },
@@ -1410,12 +1509,12 @@
    "keyword": "黄仁勋",
    "label": "黄仁勋",
    "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "特朗普透露黄仁勋已与妻子和解",
+   "title": "分析指出，黄仁勋重返英伟达掌舵，最核心的意义就是给市场以及整个AI生态系统重新注入信心",
    "summary": "",
-   "time": "2026-11-24 09:28:42",
-   "url": "https://news.futunn.com/flash/1005458965/trump-reveals-that-jensen-huang-has-reconciled-with-his-wife",
-   "source": "富途",
-   "mentions": 3
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-24/102508195.html?cxapp_link=true",
+   "source": "财新",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1479,6 +1578,36 @@
   ],
   "reports": [
    {
+    "title": "高盛：维持智谱(02513)“买入”评级 目标价1,560港元-证券之星 - 证券之星",
+    "org": "高盛",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-24",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sMlJyTmlUTVBmbVpHTnM1ZlRFVEcteERYVUNESFlnY0U5VHRUZDlaN0dITlVoZG5HRTgyR2h6RDBoMldFSV9XLUlZUGZaeXI2OUdrSmtoMl9aeVdveHc?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "厦门银行：福州分行提起诉讼追讨借款本金3.94亿元，法院已立案未开庭",
+    "org": "厦门银行",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-24",
+    "url": "https://news.10jqka.com.cn/20261124/c682164505.shtml",
+    "source": "机构观点"
+   },
+   {
+    "title": "2026年三季报点评：轴承底盘业务构筑基本盘，机器人布局拓展成长空间",
+    "org": "西南证券",
+    "rating": "增持",
+    "stock": "万向钱潮",
+    "industry": "汽车零部件",
+    "date": "2026-11-24",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611241831994975",
+    "source": "东财研报·个股"
+   },
+   {
     "title": "2026年三季报点评：单季利润提速，募投扩产打开成长空间",
     "org": "东莞证券",
     "rating": "",
@@ -1539,7 +1668,17 @@
     "source": "东财研报·个股"
    },
    {
-    "title": "新材料行业周报：新材料周报（261116-1120）乳酸涨价后下游丙交酯顺价顺利，重视乳酸产业链发展机遇",
+    "title": "低空经济周报（第48周）：各地加速低空经济场景应用落地",
+    "org": "金元证券",
+    "rating": "买入",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-24",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611241831993488",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "新材料周报：乳酸涨价后下游丙交酯顺价顺利，重视乳酸产业链发展机遇",
     "org": "山西证券",
     "rating": "增持",
     "stock": "",
@@ -1577,26 +1716,6 @@
     "date": "2026-11-24",
     "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611241831983388",
     "source": "东财研报·行业"
-   },
-   {
-    "title": "2026年中国乘用车NVH表现与用户预期分析",
-    "org": "凯睿赛驰咨询(北京)",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-24",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611241831983324",
-    "source": "东财研报·行业"
-   },
-   {
-    "title": "2026年Q3移动互联网行业数据研究报告",
-    "org": "极光月狐数据",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-24",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611241831983334",
-    "source": "东财研报·行业"
    }
   ]
  },
@@ -1605,51 +1724,51 @@
    "level": "danger",
    "asset": "纳斯达克",
    "message": "纳斯达克单日涨6.51%，达20日历史波动率的 3.5 倍（σ=1.84%，突破 3σ 高危线）",
-   "time": "2026-11-24 18:00",
+   "time": "2026-11-24 18:09",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "danger",
    "asset": "标普500",
    "message": "标普500单日涨4.73%，达20日历史波动率的 3.5 倍（σ=1.34%，突破 3σ 高危线）",
-   "time": "2026-11-24 18:00",
+   "time": "2026-11-24 18:09",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "warning",
    "asset": "道琼斯",
    "message": "道琼斯单日涨3.01%，达20日历史波动率的 2.4 倍（σ=1.25%，突破 2σ 警戒线）",
-   "time": "2026-11-24 18:00",
+   "time": "2026-11-24 18:09",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、纳斯达克、标普500等 5 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-24 18:00",
+   "time": "2026-11-24 18:09",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "小米集团：新能源汽车收入由2025年第三季度的人民币283亿元减少19.9%至2026年第三季度的人民币227亿元，主要是由于汽车交付量减少及产品结构变化（包括小米SU7 Ultra交付量占比下降）所致。",
-   "summary": "小米集团：新能源汽车收入由2025年第三季度的人民币283亿元减少19.9%至2026年第三季度的人民币227亿元，主要是由于汽车交付量减少及产品结构变化（包括小米SU7 Ultra交付量占比下降）所致。",
-   "time": "2026-11-24 17:34",
-   "url": "https://wallstreetcn.com/livenews/3204893",
+   "title": "唯品会 第三季度净营收204亿元人民币，预估203.8亿元人民币。\n\n第三季度调整后每ADS收益 2.64元人民币，预估2.66元人民币。",
+   "summary": "唯品会 第三季度净营收204亿元人民币，预估203.8亿元人民币。\n\n第三季度调整后每ADS收益 2.64元人民币，预估2.66元人民币。",
+   "time": "2026-11-24 18:08",
+   "url": "https://wallstreetcn.com/livenews/3204924",
    "source": "华尔街见闻"
   },
   {
-   "title": "小米三季度手机平均售价同比增长39.8% 创历史新高",
-   "summary": "【小米三季度手机平均售价同比增长39.8% 创历史新高】小米集团公告显示，2026年第三季度，公司全球智能手机平均售价（ASP）同比增长39.8%至1486元人民币，创历史新高；期内智能手机收入456亿元，毛利率为9.2%。小米称，第三季度全球智能手机出货量为3070万台，市场份额为12.1%。",
-   "time": "2026-11-24 17:31:16",
-   "url": "https://finance.eastmoney.com/a/202611243938514230.html",
+   "title": "中英签署新的教育领域合作框架协议",
+   "summary": "【中英签署新的教育领域合作框架协议】今天，中英教育部长磋商会时隔九年再次举办。中英两国教育部部长签署《关于加强教育领域合作的框架协议》，这是中英两国教育领域新的全方位的合作协议，涵盖学前教育、基础教育与教师培训、职业教育与培训、高等教育、跨境教育、终身学习、特殊教育、语言教学、数字与人工智能教育等九大领域。",
+   "time": "2026-11-24 18:04:49",
+   "url": "https://finance.eastmoney.com/a/202611243938541448.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：黄仁勋是国家财富，不能让中国得到他！ - 电子工程专辑EE Times China",
+   "title": "黄仁勋突然复职 特朗普所持英伟达股票价值或增长多达1500万美元 - RFI",
    "summary": "",
-   "time": "2026-11-24 17:14",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5xZTFNUDEwYUFJWU9MdTBYTzgxMFBQTHAtUi1UazhDcjlLRmFYRUZvbGZrNlVTM1hnQVFnbndWalc2TUVWbGU1WWVCbUF5bGNnSHdn?oc=5",
+   "time": "2026-11-24 18:01",
+   "url": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxNeHF5eTJWVlZ4YnJKR0lIMVRPaXNzWGZHMVdoOTBiMFozYjU1T09hcnJmZjlFM0pBSzl0eHBPNElIUk80WEVtVllqZmNBNHRkdUtTRDlCb25rNTVfcXVOSmw2UHBURjhXdkZjUDk5c080TFFXc1M5TkJBbGRiTkpEdTJEaE9GY2c4eGNhTWxlNEJmODlnOGU3YVN1T1hKa2RDNnJoVndQNzZGTkJUU2ZLYmJaMVFIZFhUaXZNRU9DSVAxUUNyTGJaM0NEaUJjTzVqVGd2WG1NNGhJWklpcnpCRUQ2NjlucVh5VHBOQkpYc0dHUFROcUVtN3kzWWZCaXhTaXdGRmtBa2lNZDZDZGdEZnk3NVEybldEc1NYWEphRDFtVDlObXVXa0tBaXN6bHYzcndQbWwtdUNVVFJTM0gxUlN2emFWMTZEUEpSQm5EaWR6bmZlM1NzYWNscXpMTUhRQm41T2hMdV9pdFhCY3hnRlFITnMydllfbnZYT0RhUGR6cVVROVBJb3E4YWF2MWxKN0FFYjhNVGNGTGRvaVRfSVpNVkY2RVJIMEE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1660,17 +1779,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "渝昆高铁宜宾至昆明南段进入静态验收阶段",
+   "title": "德必集团：回购股份比例达2%，已回购307.19万股支付3833.44万元",
    "summary": "",
-   "time": "2026-11-24 09:33:17",
-   "url": "https://news.10jqka.com.cn/20261124/c682162296.shtml",
+   "time": "2026-11-24 10:08:24",
+   "url": "https://news.10jqka.com.cn/20261124/c682164519.shtml",
    "source": "同花顺"
   },
   {
-   "title": "特朗普透露黄仁勋已与妻子和解",
+   "title": "哔哩哔哩：Q3营收83.2亿元，同比增加8%；经调整净利润8.28亿元",
    "summary": "",
-   "time": "2026-11-24 09:28:42",
-   "url": "https://news.futunn.com/flash/1005458965/trump-reveals-that-jensen-huang-has-reconciled-with-his-wife",
+   "time": "2026-11-24 10:00:00",
+   "url": "https://news.futunn.com/flash/1005463734/bilibili-q3-revenue-was-rmb-8-32-billion-up-8",
    "source": "富途"
   },
   {
@@ -1688,24 +1807,24 @@
    "source": "财新"
   },
   {
-   "title": "小米集团：本季度，资本开支约为人民币36亿元，包括新能源汽车及AI等创新业务分部的资本开支人民币23亿元。",
-   "summary": "小米集团：本季度，资本开支约为人民币36亿元，包括新能源汽车及AI等创新业务分部的资本开支人民币23亿元。",
-   "time": "2026-11-24 17:32",
-   "url": "https://wallstreetcn.com/livenews/3204890",
+   "title": "美国会民主党人着手调查万斯",
+   "summary": "明年将成为美国国会参议院国土安全与政府事务委员会主席的民主党籍议员玛吉·哈桑已着手调查共和党籍副总统万斯，事关万斯涉嫌在美国对委内瑞拉动武前一周密会一名“金主”，后者所在油企后来拿下合同，帮助美国政府销售委内瑞拉石油。（新华社）",
+   "time": "2026-11-24 18:08",
+   "url": "https://wallstreetcn.com/livenews/3204923",
    "source": "华尔街见闻"
   },
   {
-   "title": "工行开展支持上市公司股票回购增持专项行动",
-   "summary": "【工行开展支持上市公司股票回购增持专项行动】据工商银行消息，近日，中国人民银行会同金融监管总局、中国证监会等部门召开股票回购增持再贷款座谈会。截至目前，工商银行已为超两百家上市公司提供股票回购增持贷款服务，回购增持贷款合同签订金额近1800亿元。",
-   "time": "2026-11-24 17:30:24",
-   "url": "https://finance.eastmoney.com/a/202611243938515058.html",
+   "title": "日本考虑对海外高收入者增税",
+   "summary": "据日本方面消息，日本考虑对海外高收入者增税。",
+   "time": "2026-11-24 18:04:31",
+   "url": "https://finance.eastmoney.com/a/202611243938542556.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普称是自己促成黄仁勋复职：股价大跌他们更容易听劝 - 新浪财经_金融信息服务商",
+   "title": "美联储高官面临违反内部规定调查，民主党开始发力了？ - Sohu",
    "summary": "",
-   "time": "2026-11-24 17:05",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrT2w0b1hTRnpjT2dzNWR0UDRYZEtpOG5ZbElUTUdfWlo4OHJoWi1Kd09GVlMyWk05bkFhQ25OOUxqdGEtaVEtRmIzRUdwNXc3UWJEREEzdmljbHlreHZMOXMyZkc5R2RhM1kzdzVBcTVKZw?oc=5",
+   "time": "2026-11-24 17:31",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVmdnU2lXTnlaNzVscm80MWVPVTJWSUFNazA0UnlUbzhRUXZhVUpDOFpXdy1RdEp3TWV4cS1lRDdZTmpVRjFFN244Z0sxc3Z3a3N3NHhzTlc1VURPQXVTZ2o3RFEwblRMX3dTRDRtaFpYY1dXLVFvV3ltby1aQmdFZ0hzU1JJMWZuWDdN?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1716,17 +1835,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "自变量机器人与马来西亚国家邮政达成合作",
+   "title": "宁波华翔：PEEK改性和成型研发中心已投入使用，2000吨合成产能计划2027年投入使用",
    "summary": "",
-   "time": "2026-11-24 09:31:58",
-   "url": "https://news.10jqka.com.cn/20261124/c682162227.shtml",
+   "time": "2026-11-24 10:08:12",
+   "url": "https://news.10jqka.com.cn/20261124/c682164510.shtml",
    "source": "同花顺"
   },
   {
-   "title": "小米Q3营收1072.4亿元超预期，经调整净利润同比下降56.8%",
+   "title": "美股新云与数据中心类股盘前下跌",
    "summary": "",
-   "time": "2026-11-24 09:27:00",
-   "url": "https://news.futunn.com/flash/1005458785/xiaomi-s-q3-revenue-of-rmb-107-24-billion-exceeded",
+   "time": "2026-11-24 09:58:21",
+   "url": "https://news.futunn.com/flash/1005463442/us-stocks-in-the-new-cloud-and-data-center-sectors",
    "source": "富途"
   },
   {
@@ -1744,24 +1863,24 @@
    "source": "财新"
   },
   {
-   "title": "小米集团：2026年第三季度，新能源汽车及AI等创新业务分部收入为人民币239亿元。其中，新能源汽车收入为人民币227亿元，其他相关业务收入为人民币12亿元（包括AI业务收入）。本季度，新能源汽车及AI等创新业务分部毛利率为19.2%，经营",
-   "summary": "小米集团：2026年第三季度，新能源汽车及AI等创新业务分部收入为人民币239亿元。其中，新能源汽车收入为人民币227亿元，其他相关业务收入为人民币12亿元（包括AI业务收入）。本季度，新能源汽车及AI等创新业务分部毛利率为19.2%，经营亏损为人民币34亿元。",
-   "time": "2026-11-24 17:29",
-   "url": "https://wallstreetcn.com/livenews/3204885",
+   "title": "南方航空：控股子公司厦门航空与波音公司签署协议，购买50架B737-8飞机，目录价格约74亿美元（约人民币496.62亿元），实际价格低于目录价格，计划于2031年至2034年分批交付。",
+   "summary": "南方航空：控股子公司厦门航空与波音公司签署协议，购买50架B737-8飞机，目录价格约74亿美元（约人民币496.62亿元），实际价格低于目录价格，计划于2031年至2034年分批交付。",
+   "time": "2026-11-24 18:07",
+   "url": "https://wallstreetcn.com/livenews/3204922",
    "source": "华尔街见闻"
   },
   {
-   "title": "小米集团：三季度交付新车100975辆 澎湃系列首销月锁单超7万台",
-   "summary": "【小米集团：三季度交付新车100975辆 澎湃系列首销月锁单超7万台】小米集团公告显示，2026年第三季度，公司交付新车100975辆，其中澎湃系列交付量超过1万辆。",
-   "time": "2026-11-24 17:29:09",
-   "url": "https://finance.eastmoney.com/a/202611243938512433.html",
+   "title": "润丰股份：拟1亿元—2亿元回购公司股份",
+   "summary": "【润丰股份：拟1亿元—2亿元回购公司股份】润丰股份(301035)11月24日公告，拟1亿元—2亿元回购公司股份，用于注销并减少公司注册资本，回购价格不超过60元/股。",
+   "time": "2026-11-24 18:04:00",
+   "url": "https://finance.eastmoney.com/a/202611243938542743.html",
    "source": "东财国际"
   },
   {
-   "title": "专访安联汤继成：美联储加息未至终点，AI红利重塑亚太格局 - 21财经",
+   "title": "特朗普称是自己促成黄仁勋复职：股价大跌他们更容易听劝 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-24 16:33",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTG9VcTBoTWx0Q0c2X3pZZFFkbU1FWld4a29tMGc1V2ZWaVFkNmk2Ui1Nc0djOU9oUG5tdXY3d0pTRk0tRWxBLXBlb3dtTWR6V0V1ZUJSa0czTUVOai1qNV85cjhzNjNyQTZMcGxINEt6bXl6LUhyeU5lVXlZczR1TW80NTVyMHBiMXRpeWU1Yw?oc=5",
+   "time": "2026-11-24 17:05",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrT2w0b1hTRnpjT2dzNWR0UDRYZEtpOG5ZbElUTUdfWlo4OHJoWi1Kd09GVlMyWk05bkFhQ25OOUxqdGEtaVEtRmIzRUdwNXc3UWJEREEzdmljbHlreHZMOXMyZkc5R2RhM1kzdzVBcTVKZw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1772,17 +1891,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "南向资金今日净买入62.04亿港元 小米集团-W获净买入居前",
+   "title": "厦门银行：福州分行提起诉讼追讨借款本金3.94亿元，法院已立案未开庭",
    "summary": "",
-   "time": "2026-11-24 09:31:27",
-   "url": "https://news.10jqka.com.cn/20261124/c682162211.shtml",
+   "time": "2026-11-24 10:07:48",
+   "url": "https://news.10jqka.com.cn/20261124/c682164505.shtml",
    "source": "同花顺"
   },
   {
-   "title": "万华化学：宁波MDI二期装置12月1日起停产检修，预计30天左右",
+   "title": "Enagas首席执行官：西班牙能源供应稳健",
    "summary": "",
-   "time": "2026-11-24 09:25:26",
-   "url": "https://news.futunn.com/flash/1005458634/wanhua-chemical-phase-ii-mdi-unit-in-ningbo-to-undergo",
+   "time": "2026-11-24 09:45:47",
+   "url": "https://news.futunn.com/flash/1005461598/enagas-ceo-spain-s-energy-supply-is-robust",
    "source": "富途"
   },
   {
@@ -1793,10 +1912,10 @@
    "source": "财新"
   },
   {
-   "title": "小米集团 第三季度营收1,072.4亿元人民币，预估1,064.4亿元人民币；第三季度净利润38.8亿元人民币，预估44.9亿元人民币。",
-   "summary": "小米集团 第三季度营收1,072.4亿元人民币，预估1,064.4亿元人民币；第三季度净利润38.8亿元人民币，预估44.9亿元人民币。",
-   "time": "2026-11-24 17:26",
-   "url": "https://wallstreetcn.com/livenews/3204876",
+   "title": "面向视障人群，我国布局人工智能人机交互新赛道",
+   "summary": "人工智能怎样帮助视障人士更方便地使用智能设备、获取信息？市场监管总局今天（11月24日）的发布会上介绍，我国正在布局人工智能人机交互新赛道，面向视障人群的智能体无障碍交互标准预研项目，将推动人工智能交互技术更好地适应不同人群的使用需求。",
+   "time": "2026-11-24 18:07",
+   "url": "https://wallstreetcn.com/livenews/3204921",
    "source": "华尔街见闻"
   }
  ],
@@ -1804,7 +1923,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(17)",
+   "富途": "ok(20)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
