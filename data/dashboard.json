@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 04:30:44 CST",
- "generated_at_iso": "2026-11-25T04:30:44+08:00",
+ "generated_at": "2026-11-25 04:39:20 CST",
+ "generated_at_iso": "2026-11-25T04:39:20+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 49905.3281,
-    "change": 310.02,
-    "change_pct": 0.63,
-    "quote_time": "2026-11-25 04:30:27",
+    "price": 49892.6602,
+    "change": 297.35,
+    "change_pct": 0.6,
+    "quote_time": "2026-11-25 04:39:10",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 23635.7323,
-    "change": -453.8254,
-    "change_pct": -1.88,
-    "quote_time": "2026-11-25 04:30:44",
+    "price": 23608.9537,
+    "change": -480.604,
+    "change_pct": -2.0,
+    "quote_time": "2026-11-25 04:39:20",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7177.0298,
-    "change": -60.14,
-    "change_pct": -0.83,
-    "quote_time": "2026-11-25 04:30:28",
+    "price": 7173.6499,
+    "change": -63.52,
+    "change_pct": -0.88,
+    "quote_time": "2026-11-25 04:39:05",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3580.431,
-    "change": -101.269,
-    "change_pct": -2.75,
-    "quote_time": "04:30:40 2026-11-25"
+    "price": 3575.301,
+    "change": -106.399,
+    "change_pct": -2.89,
+    "quote_time": "04:39:14 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.025,
-    "change": -2.684,
-    "change_pct": -6.14,
-    "quote_time": "04:30:45 2026-11-25"
+    "price": 40.992,
+    "change": -2.717,
+    "change_pct": -6.22,
+    "quote_time": "04:39:11 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.587,
-    "change": 1.417,
-    "change_pct": 1.77,
-    "quote_time": "04:30:48 2026-11-25"
+    "price": 81.5,
+    "change": 1.33,
+    "change_pct": 1.66,
+    "quote_time": "04:39:23 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 88.318,
-    "change": 1.638,
-    "change_pct": 1.89,
-    "quote_time": "04:30:42 2026-11-25"
+    "price": 88.242,
+    "change": 1.562,
+    "change_pct": 1.8,
+    "quote_time": "04:38:29 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59593.2,
-    "change": -1704.4,
-    "change_pct": -2.78,
+    "price": 59528.8,
+    "change": -1686.4,
+    "change_pct": -2.75,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1671.55,
-    "change": -59.4,
-    "change_pct": -3.43,
+    "price": 1669.27,
+    "change": -56.75,
+    "change_pct": -3.29,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.08,
-    "change": -4.09,
-    "change_pct": -5.59,
+    "price": 68.93,
+    "change": -3.99,
+    "change_pct": -5.47,
     "source": "okx"
    }
   ],
@@ -1405,17 +1405,6 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY2JwNVV1ZkJhWWd0VGRRbU81aXA1MVZJWHoxLTFNcmtfYlFyTWJaQjJPVHFkS2gwOGRuNEVBblFrZlBmVnFwR2N5UGNPQldlY3J5VWFvV2hEQThaRDZxaDVpeXo4V0ItY0xldklxV0dhX2l4bk5IYzNUYVM0bWd6NkhDdnNzLThQMFB2eVlPRDlqSENqVG9TQTlHWUHSAZ8BQVVfeXFMTUt6RTF1NnQ3b0pnMkh5dm5VVGNmRXZzZHNiRkVrcjIwZzRISWgwMEdlVzRJSGlLUHBTampQTVJkYldFcjB4WEtnbXktQ3JkQ2xtMWNaZjE0TkJKV2I2SzFaT1NKNzdmYnZkUUlPQ0RFUHhmMmhEeFlrVnowcVpELXFLVTMtVEJTSDgyR1d1ajd6eWV1dU9NSVNOVU43bWN3?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 4
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储10月贴现利率会议纪要：8家地方联储建议上调贴现利率",
-   "summary": "",
-   "time": "2026-11-24 20:09:00",
-   "url": "https://news.futunn.com/flash/1005513787/october-discount-rate-meeting-minutes-eight-regional-federal-reserve-banks",
-   "source": "富途",
-   "mentions": 1
   },
   {
    "keyword": "黄仁勋",
@@ -1645,24 +1634,24 @@
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌6.14%，达20日历史波动率的 3.4 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-25 04:31",
+   "message": "COMEX白银单日跌6.22%，达20日历史波动率的 3.5 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-25 04:40",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "warning",
    "asset": "风险偏好",
-   "message": "黄金单日下跌 2.75%（1.5倍σ），同时日经225、韩国KOSPI走强，资金流向风险资产。",
-   "time": "2026-11-25 04:31",
+   "message": "黄金单日下跌 2.89%（1.6倍σ），同时日经225、韩国KOSPI走强，资金流向风险资产。",
+   "time": "2026-11-25 04:40",
    "chain": "黄金回落与股指同强 → 避险盘撤出、资金回流股市 → 风险偏好回升 → 成长/周期板块受益"
   }
  ],
  "news": [
   {
-   "title": "美国10年期国债收益率跌约4个基点",
-   "summary": "周二（11月24日）纽约尾盘，美国10年期国债收益率跌3.99个基点，报4.9038%，逼近11月10日底部4.8555%，延续11月13日（涨至5.1718%）以来持续回撤的趋势。\n\n两年期美债收益率跌2.33个基点，报4.6705%，几乎全天处于下跌状态，整体呈现出W形走势、北京时间19:15刷新日低至4.6271%；30年期美债收益率跌1.25个基点，报5.2944%。\n\n2/10年期美债收",
-   "time": "2026-11-25 04:31",
-   "url": "https://wallstreetcn.com/livenews/3205208",
+   "title": "伊朗军队防空部队在波斯湾上空击落两架无人机",
+   "summary": "当地时间24日，伊朗军队宣布，不久前其防空系统在霍尔木兹海峡西部上空，击落了一架属于美国的“卢卡斯”型无人机。此外，在另一次行动中，伊朗军队防空系统在霍尔木兹海峡东部上空击中并摧毁了另一架属于美国的MQ-9无人机。",
+   "time": "2026-11-25 04:37",
+   "url": "https://wallstreetcn.com/livenews/3205212",
    "source": "华尔街见闻"
   },
   {
@@ -1687,18 +1676,18 @@
    "source": "谷歌新闻·国际"
   },
   {
+   "title": "日媒：日本政府或删除武器出口文件中“无核三原则”相关表述",
+   "summary": "",
+   "time": "2026-11-24 20:37:19",
+   "url": "https://news.futunn.com/flash/1005515197/japanese-media-japanese-government-may-remove-references-to-the-three",
+   "source": "富途"
+  },
+  {
    "title": "摩根大通预计标普500指数2027年底将达到8200点。",
    "summary": "",
    "time": "2026-11-24 20:28:38",
    "url": "https://news.10jqka.com.cn/20261125/c682172922.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "国际油价24日上涨",
-   "summary": "",
-   "time": "2026-11-24 20:24:47",
-   "url": "https://news.futunn.com/flash/1005514623/international-oil-prices-rose-on-the-24th",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月24日周二",
@@ -1715,10 +1704,10 @@
    "source": "财新"
   },
   {
-   "title": "法国总统马克龙：2026年法国企业将在本国投资425亿欧元，涉及273个项目，其中今天宣布的81个项目投资额达149亿欧元。\n\n这些投资将建设工厂，创造并保住就业岗位，让一些地区重新焕发生机。",
-   "summary": "法国总统马克龙：2026年法国企业将在本国投资425亿欧元，涉及273个项目，其中今天宣布的81个项目投资额达149亿欧元。\n\n这些投资将建设工厂，创造并保住就业岗位，让一些地区重新焕发生机。",
-   "time": "2026-11-25 04:12",
-   "url": "https://wallstreetcn.com/livenews/3205204",
+   "title": "加拿大阿尔伯塔省长就天然气管道短缺问题抨击TC Energy",
+   "summary": "加拿大石油重镇阿尔伯塔省省长表示，该省的天然气管道基础设施正在阻碍石油项目的扩张，并借此对管道运营商TC Energy Corp.进行了口头抨击。\n\n丹妮尔·史密斯政府于周一宣布了一项新立法，为阿尔伯塔省在必要时成立自己的能源传输公司建立了框架。作为阿尔伯塔省主要的天然气传输公司，TC Energy已威胁称，如果省政府推进该计划，将取消其当地管道网络的拟议扩建项目。",
+   "time": "2026-11-25 04:36",
+   "url": "https://wallstreetcn.com/livenews/3205210",
    "source": "华尔街见闻"
   },
   {
@@ -1743,18 +1732,18 @@
    "source": "谷歌新闻·国际"
   },
   {
+   "title": "Anthropic期权交易热度不及预期 散户热情随股价破发降温",
+   "summary": "",
+   "time": "2026-11-24 20:34:19",
+   "url": "https://news.futunn.com/flash/1005515114/trading-activity-in-anthropic-options-falls-short-of-expectations-retail",
+   "source": "富途"
+  },
+  {
    "title": "新思科技在成交量激增中下挫，最新下跌2.9%",
    "summary": "",
    "time": "2026-11-24 19:46:29",
    "url": "https://news.10jqka.com.cn/20261125/c682172902.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "美元指数24日下跌",
-   "summary": "",
-   "time": "2026-11-24 20:17:04",
-   "url": "https://news.futunn.com/flash/1005514202/the-us-dollar-index-fell-on-the-24th",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月23日周一",
@@ -1771,10 +1760,10 @@
    "source": "财新"
   },
   {
-   "title": "美元指数跌约0.5%，撤离去年3月以来最高位，退守104下方",
-   "summary": "周二（11月24日）纽约尾盘，ICE美元指数跌0.47%，报103.824点，日内交投区间为104.403-103.749点，亚太时段窄幅震荡于104.3附近、形成日内顶部，北京时间15:04刷新日高，之后持续下挫，美股盘初刷新日低，脱离11月23日顶部104.530——2025年3月26日以来最高位。\n\n彭博美元指数跌0.22%，报1244.02点，日内交投区间为1247.48-1242.63点",
-   "time": "2026-11-25 04:11",
-   "url": "https://wallstreetcn.com/livenews/3205203",
+   "title": "科技故障引发美国消费者恐慌，地下室避难所必需品价格飙升",
+   "summary": "在一系列技术故障导致美国消费者恐慌并囤积脱离电网生存所需物资后，发电机、卫生纸和冻干食品的价格大幅飙升。在影响空中交通、银行甚至美国国家安全局的系统中断发生后，本月冻干食品、发电机和卫生纸等应急物资的在线价格出现了超常规的暴涨。数据显示，在一年中通常因零售商提前开启“黑五”和“网络星期一”促销而价格走低的时期，地下室避难所必需品的成本却出现大幅飙升。",
+   "time": "2026-11-25 04:34",
+   "url": "https://wallstreetcn.com/livenews/3205209",
    "source": "华尔街见闻"
   },
   {
@@ -1799,18 +1788,18 @@
    "source": "谷歌新闻·国际"
   },
   {
+   "title": "Anthropic上市表现疲软或打乱OpenAI上市计划",
+   "summary": "",
+   "time": "2026-11-24 20:33:30",
+   "url": "https://news.futunn.com/flash/1005515106/anthropic-s-weak-listing-performance-may-disrupt-openai-s-ipo",
+   "source": "富途"
+  },
+  {
    "title": "黄仁勋在全员会议上向英伟达员工道歉",
    "summary": "",
    "time": "2026-11-24 18:31:19",
    "url": "https://news.10jqka.com.cn/20261125/c682172831.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "美联储10月贴现利率会议纪要：8家地方联储建议上调贴现利率",
-   "summary": "",
-   "time": "2026-11-24 20:09:00",
-   "url": "https://news.futunn.com/flash/1005513787/october-discount-rate-meeting-minutes-eight-regional-federal-reserve-banks",
-   "source": "富途"
   },
   {
    "title": "特朗普称英伟达股价大跌使说服董事会变得更容易，强调介入公司管理层事务是为了美国利益",
@@ -1820,10 +1809,10 @@
    "source": "财新"
   },
   {
-   "title": "BioNTech联席创始人Ugur Sahin、Ozlem Tureci与潜在投资者洽谈为新公司Arife融资大约10亿美元。（英国金融时报）",
-   "summary": "BioNTech联席创始人Ugur Sahin、Ozlem Tureci与潜在投资者洽谈为新公司Arife融资大约10亿美元。（英国金融时报）",
-   "time": "2026-11-25 04:01",
-   "url": "https://wallstreetcn.com/livenews/3205201",
+   "title": "美国10年期国债收益率跌约4个基点",
+   "summary": "周二（11月24日）纽约尾盘，美国10年期国债收益率跌3.99个基点，报4.9038%，逼近11月10日底部4.8555%，延续11月13日（涨至5.1718%）以来持续回撤的趋势。\n\n两年期美债收益率跌2.33个基点，报4.6705%，几乎全天处于下跌状态，整体呈现出W形走势、北京时间19:15刷新日低至4.6271%；30年期美债收益率跌1.25个基点，报5.2944%。\n\n2/10年期美债收",
+   "time": "2026-11-25 04:31",
+   "url": "https://wallstreetcn.com/livenews/3205208",
    "source": "华尔街见闻"
   }
  ],
@@ -1831,7 +1820,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(10)",
+   "富途": "ok(13)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1844,8 +1833,8 @@
    "谷歌新闻·研报": 7,
    "东财国际": 7,
    "谷歌新闻·国际": 7,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
