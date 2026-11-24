@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 05:13:27 CST",
- "generated_at_iso": "2026-11-25T05:13:27+08:00",
+ "generated_at": "2026-11-25 05:21:41 CST",
+ "generated_at_iso": "2026-11-25T05:21:41+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -642,7 +642,7 @@
     "price": 50018.6992,
     "change": 423.39,
     "change_pct": 0.85,
-    "quote_time": "2026-11-25 05:13:13",
+    "quote_time": "2026-11-25 05:20:14",
     "hist": [
      51267.8984,
      51521.2812,
@@ -719,7 +719,7 @@
     "price": 23733.5353,
     "change": -356.0224,
     "change_pct": -1.48,
-    "quote_time": "2026-11-25 05:13:24",
+    "quote_time": "2026-11-25 05:21:37",
     "hist": [
      27477.3105,
      27599.791,
@@ -796,7 +796,7 @@
     "price": 7201.0898,
     "change": -36.08,
     "change_pct": -0.5,
-    "quote_time": "2026-11-25 05:13:13",
+    "quote_time": "2026-11-25 05:20:14",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3578.095,
-    "change": -103.605,
-    "change_pct": -2.81,
-    "quote_time": "05:13:15 2026-11-25"
+    "price": 3581.636,
+    "change": -100.064,
+    "change_pct": -2.72,
+    "quote_time": "05:21:42 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.015,
-    "change": -2.694,
-    "change_pct": -6.16,
-    "quote_time": "05:12:43 2026-11-25"
+    "price": 41.103,
+    "change": -2.606,
+    "change_pct": -5.96,
+    "quote_time": "05:21:18 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.538,
-    "change": 1.368,
-    "change_pct": 1.71,
-    "quote_time": "05:13:30 2026-11-25"
+    "price": 81.525,
+    "change": 1.355,
+    "change_pct": 1.69,
+    "quote_time": "05:21:19 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 88.402,
-    "change": 1.722,
-    "change_pct": 1.99,
-    "quote_time": "05:13:20 2026-11-25"
+    "price": 88.375,
+    "change": 1.695,
+    "change_pct": 1.96,
+    "quote_time": "05:21:06 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59750.0,
-    "change": -1637.3,
-    "change_pct": -2.67,
+    "price": 59918.5,
+    "change": -1360.4,
+    "change_pct": -2.22,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1674.37,
-    "change": -52.33,
-    "change_pct": -3.03,
+    "price": 1681.06,
+    "change": -38.53,
+    "change_pct": -2.24,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.25,
-    "change": -3.56,
-    "change_pct": -4.89,
+    "price": 69.46,
+    "change": -3.04,
+    "change_pct": -4.19,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.83,
-    "change": -0.51,
-    "change_pct": -0.49,
+    "price": 103.81,
+    "change": -0.53,
+    "change_pct": -0.51,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6649,
-    "change": -0.0014,
-    "change_pct": -0.02,
+    "price": 6.6646,
+    "change": -0.0017,
+    "change_pct": -0.03,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1614,15 +1614,15 @@
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌6.16%，达20日历史波动率的 3.4 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-25 05:13",
+   "message": "COMEX白银单日跌5.96%，达20日历史波动率的 3.3 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-25 05:21",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "warning",
    "asset": "风险偏好",
-   "message": "黄金单日下跌 2.81%（1.6倍σ），同时日经225、韩国KOSPI走强，资金流向风险资产。",
-   "time": "2026-11-25 05:13",
+   "message": "黄金单日下跌 2.72%（1.5倍σ），同时日经225、韩国KOSPI走强，资金流向风险资产。",
+   "time": "2026-11-25 05:21",
    "chain": "黄金回落与股指同强 → 避险盘撤出、资金回流股市 → 风险偏好回升 → 成长/周期板块受益"
   }
  ],
