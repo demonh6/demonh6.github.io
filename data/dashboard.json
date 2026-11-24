@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-24 22:36:12 CST",
- "generated_at_iso": "2026-11-24T22:36:12+08:00",
+ "generated_at": "2026-11-24 22:44:52 CST",
+ "generated_at_iso": "2026-11-24T22:44:52+08:00",
  "date": "2026-11-24",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 49461.8008,
-    "change": -133.51,
-    "change_pct": -0.27,
-    "quote_time": "2026-11-24 22:36:04",
+    "price": 49683.2188,
+    "change": 87.91,
+    "change_pct": 0.18,
+    "quote_time": "2026-11-24 22:44:49",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 23670.512,
-    "change": -419.0457,
-    "change_pct": -1.74,
-    "quote_time": "2026-11-24 22:36:12",
+    "price": 23757.8204,
+    "change": -331.7373,
+    "change_pct": -1.38,
+    "quote_time": "2026-11-24 22:44:49",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7155.5698,
-    "change": -81.6,
-    "change_pct": -1.13,
-    "quote_time": "2026-11-24 22:36:04",
+    "price": 7182.3101,
+    "change": -54.86,
+    "change_pct": -0.76,
+    "quote_time": "2026-11-24 22:44:49",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,28 +1256,28 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3648.13,
-    "change": -33.57,
-    "change_pct": -0.91,
-    "quote_time": "22:36:15 2026-11-24"
+    "price": 3655.74,
+    "change": -25.96,
+    "change_pct": -0.71,
+    "quote_time": "22:44:55 2026-11-24"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.563,
-    "change": -1.146,
-    "change_pct": -2.62,
-    "quote_time": "22:36:08 2026-11-24"
+    "price": 42.577,
+    "change": -1.132,
+    "change_pct": -2.59,
+    "quote_time": "22:44:55 2026-11-24"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.204,
-    "change": 1.034,
-    "change_pct": 1.29,
-    "quote_time": "22:36:16 2026-11-24"
+    "price": 81.26,
+    "change": 1.09,
+    "change_pct": 1.36,
+    "quote_time": "22:44:55 2026-11-24"
    },
    {
     "name": "布伦特原油",
@@ -1286,7 +1286,7 @@
     "price": 87.951,
     "change": 1.271,
     "change_pct": 1.47,
-    "quote_time": "22:36:11 2026-11-24"
+    "quote_time": "22:44:49 2026-11-24"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60140.3,
-    "change": -3247.7,
-    "change_pct": -5.12,
+    "price": 60489.3,
+    "change": -2848.3,
+    "change_pct": -4.5,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1685.78,
-    "change": -123.72,
-    "change_pct": -6.84,
+    "price": 1696.2,
+    "change": -103.16,
+    "change_pct": -5.73,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.58,
-    "change": -7.8,
-    "change_pct": -10.08,
+    "price": 69.88,
+    "change": -6.98,
+    "change_pct": -9.08,
     "source": "okx"
    }
   ],
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6638,
-    "change": -0.0025,
-    "change_pct": -0.04,
+    "price": 6.6632,
+    "change": -0.0031,
+    "change_pct": -0.05,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1614,8 +1614,8 @@
   {
    "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌10.08%，达20日历史波动率的 2.9 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-24 22:36",
+   "message": "Solana单日跌9.08%，达20日历史波动率的 2.6 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-24 22:45",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   }
  ],
