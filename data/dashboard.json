@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 04:56:17 CST",
- "generated_at_iso": "2026-11-25T04:56:17+08:00",
+ "generated_at": "2026-11-25 05:04:32 CST",
+ "generated_at_iso": "2026-11-25T05:04:32+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 49980.1914,
-    "change": 384.88,
-    "change_pct": 0.78,
-    "quote_time": "2026-11-25 04:56:04",
+    "price": 50019.7695,
+    "change": 424.46,
+    "change_pct": 0.86,
+    "quote_time": "2026-11-25 05:04:16",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 23723.2319,
-    "change": -366.3258,
-    "change_pct": -1.52,
-    "quote_time": "2026-11-25 04:56:12",
+    "price": 23733.5353,
+    "change": -356.0224,
+    "change_pct": -1.48,
+    "quote_time": "2026-11-25 05:04:35",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7193.96,
-    "change": -43.21,
-    "change_pct": -0.6,
-    "quote_time": "2026-11-25 04:56:04",
+    "price": 7201.0801,
+    "change": -36.09,
+    "change_pct": -0.5,
+    "quote_time": "2026-11-25 05:04:13",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1212,13 +1212,12 @@
   "bond": {
    "name": "美国10年期国债收益率",
    "sym": "US10Y",
-   "value": 4.92,
+   "value": 4.91,
    "unit": "%",
-   "change_bp": 0.0,
-   "date": "2026-11-23",
+   "change_bp": -1.0,
+   "date": "2026-11-24",
    "source": "美财政部",
    "hist": [
-    5.24,
     5.21,
     5.19,
     5.1,
@@ -1247,7 +1246,8 @@
     5.07,
     5.04,
     4.92,
-    4.92
+    4.92,
+    4.91
    ],
    "sigma_bp": 5.64
   },
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3581.544,
-    "change": -100.156,
-    "change_pct": -2.72,
-    "quote_time": "04:56:10 2026-11-25"
+    "price": 3578.095,
+    "change": -103.605,
+    "change_pct": -2.81,
+    "quote_time": "05:04:08 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.078,
-    "change": -2.631,
-    "change_pct": -6.02,
-    "quote_time": "04:56:12 2026-11-25"
+    "price": 41.001,
+    "change": -2.708,
+    "change_pct": -6.2,
+    "quote_time": "05:04:24 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.468,
-    "change": 1.298,
+    "price": 81.466,
+    "change": 1.296,
     "change_pct": 1.62,
-    "quote_time": "04:56:05 2026-11-25"
+    "quote_time": "05:04:36 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 88.276,
-    "change": 1.596,
-    "change_pct": 1.84,
-    "quote_time": "04:56:03 2026-11-25"
+    "price": 88.315,
+    "change": 1.635,
+    "change_pct": 1.89,
+    "quote_time": "05:04:37 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59763.7,
-    "change": -1408.2,
-    "change_pct": -2.3,
-    "source": "okx"
+    "price": 59726.4,
+    "change": -1524.7,
+    "change_pct": -2.49,
+    "source": "okx",
+    "hist": [
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     59711.6
+    ],
+    "sigma": 2.318
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1675.53,
-    "change": -47.06,
-    "change_pct": -2.73,
-    "source": "okx"
+    "price": 1673.88,
+    "change": -51.1,
+    "change_pct": -2.96,
+    "source": "okx",
+    "hist": [
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1673.09
+    ],
+    "sigma": 2.916
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.38,
-    "change": -3.37,
-    "change_pct": -4.63,
-    "source": "okx"
+    "price": 69.29,
+    "change": -3.44,
+    "change_pct": -4.73,
+    "source": "okx",
+    "hist": [
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     69.3
+    ],
+    "sigma": 3.982
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.82,
-    "change": -0.52,
-    "change_pct": -0.5,
+    "price": 103.83,
+    "change": -0.51,
+    "change_pct": -0.49,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1385,17 +1484,6 @@
  },
  "speakers": [
   {
-   "keyword": "外交部",
-   "label": "外交部",
-   "hint": "地缘政治表态影响风险偏好",
-   "title": "波兰外交部召见俄罗斯大使 抗议领空遭侵犯",
-   "summary": "【波兰外交部召见俄罗斯大使 抗议领空遭侵犯】当地时间24日，波兰外交部发言人韦维乌尔说，俄罗斯驻波兰大使米赫诺当天被召至外交部，波方就俄军袭击乌克兰期间发生的波兰领空遭侵犯事件向俄方提出强烈抗议，并递交外交照会。",
-   "time": "2026-11-25 03:57:44",
-   "url": "https://finance.eastmoney.com/a/202611253938863896.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1407,15 +1495,26 @@
    "mentions": 4
   },
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储10月贴现利率会议纪要：8家地方联储建议上调贴现利率",
+   "summary": "",
+   "time": "2026-11-24 20:56:48",
+   "url": "https://news.futunn.com/flash/1005513787/october-discount-rate-meeting-minutes-eight-regional-federal-reserve-banks",
+   "source": "富途",
+   "mentions": 1
+  },
+  {
    "keyword": "黄仁勋",
    "label": "黄仁勋",
    "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "黄仁勋在全员会议上向英伟达员工道歉",
+   "title": "分析指出，黄仁勋重返英伟达掌舵，最核心的意义就是给市场以及整个AI生态系统重新注入信心",
    "summary": "",
-   "time": "2026-11-24 18:31:19",
-   "url": "https://news.10jqka.com.cn/20261125/c682172831.shtml",
-   "source": "同花顺",
-   "mentions": 2
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-24/102508195.html?cxapp_link=true",
+   "source": "财新",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1479,33 +1578,13 @@
   ],
   "reports": [
    {
-    "title": "BioNTech联席创始人Ugur Sahin、Ozlem Tureci与潜在投资者洽谈为新公司Arife融资大约10亿美元。（英国金融时报）",
-    "org": "国金",
+    "title": "摩根大通预计标普500指数2027年底将达到8200点",
+    "org": "摩根大通",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-25",
-    "url": "https://wallstreetcn.com/livenews/3205201",
-    "source": "机构观点"
-   },
-   {
-    "title": "据知情人士透露，Advent考虑收购检测公司Bureau Veritas。（彭博）",
-    "org": "彭博",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-25",
-    "url": "https://wallstreetcn.com/livenews/3205200",
-    "source": "机构观点"
-   },
-   {
-    "title": "芝加哥小麦期货跌1.1%，大豆油跌约2.4%，豆粕涨超1.7%",
-    "org": "彭博",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-25",
-    "url": "https://wallstreetcn.com/livenews/3205199",
+    "url": "https://finance.eastmoney.com/a/202611253938868685.html",
     "source": "机构观点"
    },
    {
@@ -1634,39 +1713,39 @@
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌6.02%，达20日历史波动率的 3.3 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-25 04:56",
+   "message": "COMEX白银单日跌6.20%，达20日历史波动率的 3.4 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-25 05:05",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "warning",
    "asset": "风险偏好",
-   "message": "黄金单日下跌 2.72%（1.5倍σ），同时日经225、韩国KOSPI走强，资金流向风险资产。",
-   "time": "2026-11-25 04:56",
+   "message": "黄金单日下跌 2.81%（1.6倍σ），同时日经225、韩国KOSPI走强，资金流向风险资产。",
+   "time": "2026-11-25 05:05",
    "chain": "黄金回落与股指同强 → 避险盘撤出、资金回流股市 → 风险偏好回升 → 成长/周期板块受益"
   }
  ],
  "news": [
   {
-   "title": "伊朗军队防空部队在波斯湾上空击落两架无人机",
-   "summary": "当地时间24日，伊朗军队宣布，不久前其防空系统在霍尔木兹海峡西部上空，击落了一架属于美国的“卢卡斯”型无人机。此外，在另一次行动中，伊朗军队防空系统在霍尔木兹海峡东部上空击中并摧毁了另一架属于美国的MQ-9无人机。",
-   "time": "2026-11-25 04:37",
-   "url": "https://wallstreetcn.com/livenews/3205212",
+   "title": "Autodesk美股盘后跌4%。",
+   "summary": "Autodesk美股盘后跌4%。",
+   "time": "2026-11-25 05:04",
+   "url": "https://wallstreetcn.com/livenews/3205226",
    "source": "华尔街见闻"
   },
   {
-   "title": "Anthropic上市第四个交易日即破发 股价能否企稳？ - 财联社电报",
-   "summary": "",
-   "time": "2026-11-25 04:04",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBUS3VObWhjdERfSGJ5eER4anVhbG0yY01zM3Z5c25KTEplbTJORDQ5TWRmQnhQYWZidWNLYXZMUE9CNmhRQ0E?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "美三大指数表现分化 费城半导体指数跌近8% 医疗、消费板块走高",
+   "summary": "【美三大指数表现分化 费城半导体指数跌近8% 医疗、消费板块走高】美三大股指表现分化，道琼斯指数涨0.86%，标普500指数跌0.49%，纳斯达克综合指数跌1.48%。AI硬件板块疲软，费城半导体指数重挫近8%，英伟达跌近6%，AMD跌近9%，美光跌11%，台积电跌近4%，Lumentum跌超10%。医疗保健、消费零售板块走高，礼来、诺和诺德涨超3%，联合健康涨近2%，耐克涨近6%，可口可乐、沃尔玛涨约2%。",
+   "time": "2026-11-25 05:02:15",
+   "url": "https://finance.eastmoney.com/a/202611253938869285.html",
+   "source": "东财国际"
   },
   {
-   "title": "美国大型私募基金宏安资本（Advent）据悉正考虑收购检测公司Bureau Veritas",
-   "summary": "美国大型私募基金宏安资本（Advent）据悉正考虑收购检测公司BureauVeritas。",
-   "time": "2026-11-25 03:59:45",
-   "url": "https://finance.eastmoney.com/a/202611253938863916.html",
-   "source": "东财国际"
+   "title": "标普将斯克里普斯传媒评级上调至\"B-\"，看好其削减成本与降债进展 提供者 Investing.com - 英为财情 Investing.com",
+   "summary": "",
+   "time": "2026-11-25 04:24",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HeW9oU3BfbmZHWjRuTk5kVlRkY1MxajhsWWFjRVB3MjFYcVh5LW1tM002anFCTVlOcE1NRERBdVpaZjhLV05KWDF5ZTBnZXdjMjRUNEFkYWR4dzMyZXlxb3pMRFhYNGItVzVHQ1BIZDQ?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "特朗普将与北约秘书长吕特举行会谈 - 美国之音",
@@ -1676,18 +1755,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "日媒：日本政府或删除武器出口文件中“无核三原则”相关表述",
+   "title": "美三大指数表现分化：纳指跌近1.5% 英伟达跌近6% Anthropic破发",
    "summary": "",
-   "time": "2026-11-24 20:37:19",
-   "url": "https://news.futunn.com/flash/1005515197/japanese-media-japanese-government-may-remove-references-to-the-three",
-   "source": "富途"
+   "time": "2026-11-24 21:03:34",
+   "url": "https://news.10jqka.com.cn/20261125/c682172943.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "摩根大通预计标普500指数2027年底将达到8200点。",
+   "title": "美股收盘：纳指跌近1.5% 英伟达跌近6% Anthropic破发",
    "summary": "",
-   "time": "2026-11-24 20:28:38",
-   "url": "https://news.10jqka.com.cn/20261125/c682172922.shtml",
-   "source": "同花顺"
+   "time": "2026-11-24 21:01:25",
+   "url": "https://news.futunn.com/flash/1005516650/us-market-close-nasdaq-drops-nearly-1-5-nvidia-falls",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月24日周二",
@@ -1704,25 +1783,25 @@
    "source": "财新"
   },
   {
-   "title": "加拿大阿尔伯塔省长就天然气管道短缺问题抨击TC Energy",
-   "summary": "加拿大石油重镇阿尔伯塔省省长表示，该省的天然气管道基础设施正在阻碍石油项目的扩张，并借此对管道运营商TC Energy Corp.进行了口头抨击。\n\n丹妮尔·史密斯政府于周一宣布了一项新立法，为阿尔伯塔省在必要时成立自己的能源传输公司建立了框架。作为阿尔伯塔省主要的天然气传输公司，TC Energy已威胁称，如果省政府推进该计划，将取消其当地管道网络的拟议扩建项目。",
-   "time": "2026-11-25 04:36",
-   "url": "https://wallstreetcn.com/livenews/3205210",
+   "title": "OpenAI GPT-6无需专用生物模型即可完成蛋白质设计。",
+   "summary": "OpenAI GPT-6无需专用生物模型即可完成蛋白质设计。",
+   "time": "2026-11-25 05:04",
+   "url": "https://wallstreetcn.com/livenews/3205225",
    "source": "华尔街见闻"
   },
   {
-   "title": "君正股份（300223.SZ）壹评级首次评级 - 第一财经",
-   "summary": "",
-   "time": "2026-11-25 01:28",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3N20zMHFSQ1pFZG9qZ1BYTlctdm5URFdWd2xzd0FlbXI4TktPd3R2RzJlZEZxSVl4OFNLZ0lJZ2E0R0NyMGFqY3NhUG5oRkJJNnZZ?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "俄气公司表示 别洛戈尔斯克-哈巴罗夫斯克天然气管道建设完成近99%",
+   "summary": "俄气公司表示，别洛戈尔斯克-哈巴罗夫斯克天然气管道建设完成近99%。",
+   "time": "2026-11-25 04:57:46",
+   "url": "https://finance.eastmoney.com/a/202611253938868840.html",
+   "source": "东财国际"
   },
   {
-   "title": "波兰外交部召见俄罗斯大使 抗议领空遭侵犯",
-   "summary": "【波兰外交部召见俄罗斯大使 抗议领空遭侵犯】当地时间24日，波兰外交部发言人韦维乌尔说，俄罗斯驻波兰大使米赫诺当天被召至外交部，波方就俄军袭击乌克兰期间发生的波兰领空遭侵犯事件向俄方提出强烈抗议，并递交外交照会。",
-   "time": "2026-11-25 03:57:44",
-   "url": "https://finance.eastmoney.com/a/202611253938863896.html",
-   "source": "东财国际"
+   "title": "Anthropic上市第四个交易日即破发 股价能否企稳？ - 财联社电报",
+   "summary": "",
+   "time": "2026-11-25 04:04",
+   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBUS3VObWhjdERfSGJ5eER4anVhbG0yY01zM3Z5c25KTEplbTJORDQ5TWRmQnhQYWZidWNLYXZMUE9CNmhRQ0E?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "美国财政部：特朗普账户已收到来自亲友的超过10亿美元直接缴款 - 新浪财经",
@@ -1732,18 +1811,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "Anthropic期权交易热度不及预期 散户热情随股价破发降温",
+   "title": "现货黄金失守3550美元/盎司，日内跌2.36%",
    "summary": "",
-   "time": "2026-11-24 20:34:19",
-   "url": "https://news.futunn.com/flash/1005515114/trading-activity-in-anthropic-options-falls-short-of-expectations-retail",
-   "source": "富途"
+   "time": "2026-11-24 20:51:25",
+   "url": "https://news.10jqka.com.cn/20261125/c682172932.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "新思科技在成交量激增中下挫，最新下跌2.9%",
+   "title": "美联储10月贴现利率会议纪要：8家地方联储建议上调贴现利率",
    "summary": "",
-   "time": "2026-11-24 19:46:29",
-   "url": "https://news.10jqka.com.cn/20261125/c682172902.shtml",
-   "source": "同花顺"
+   "time": "2026-11-24 20:56:48",
+   "url": "https://news.futunn.com/flash/1005513787/october-discount-rate-meeting-minutes-eight-regional-federal-reserve-banks",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月23日周一",
@@ -1760,25 +1839,25 @@
    "source": "财新"
   },
   {
-   "title": "科技故障引发美国消费者恐慌，地下室避难所必需品价格飙升",
-   "summary": "在一系列技术故障导致美国消费者恐慌并囤积脱离电网生存所需物资后，发电机、卫生纸和冻干食品的价格大幅飙升。在影响空中交通、银行甚至美国国家安全局的系统中断发生后，本月冻干食品、发电机和卫生纸等应急物资的在线价格出现了超常规的暴涨。数据显示，在一年中通常因零售商提前开启“黑五”和“网络星期一”促销而价格走低的时期，地下室避难所必需品的成本却出现大幅飙升。",
-   "time": "2026-11-25 04:34",
-   "url": "https://wallstreetcn.com/livenews/3205209",
+   "title": "神舟二十四号载人飞船瞄准今天8点18分发射，飞船将搭乘长征二号F遥二十四火箭在酒泉卫星发射中心升空。\n\n航天员汤洪波、武毅以及巴基斯坦航天员穆罕默德·齐尚·阿里将开启他们的太空之旅。（CCTV国际时讯）",
+   "summary": "神舟二十四号载人飞船瞄准今天8点18分发射，飞船将搭乘长征二号F遥二十四火箭在酒泉卫星发射中心升空。\n\n航天员汤洪波、武毅以及巴基斯坦航天员穆罕默德·齐尚·阿里将开启他们的太空之旅。（CCTV国际时讯）",
+   "time": "2026-11-25 05:02",
+   "url": "https://wallstreetcn.com/livenews/3205223",
    "source": "华尔街见闻"
   },
   {
-   "title": "B of A Securities维持Box“买入”评级，目标价从50美元上调至55美元 - TradingView",
-   "summary": "",
-   "time": "2026-11-25 01:01",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ycERCRlkzakNfcGI3NnpQd3JSb3NEbnFtMTRZTXl6Nlh1bmMwa18xS1ctYjJpNzRxMFRwRUkxdXFNcHdwWmlNZ2QzMjhoblRLNXMtdlYtRXNKZlJjbjhONWxCbVVmME4wRk5HRQ?oc=5",
-   "source": "谷歌新闻·研报"
+   "title": "摩根大通预计标普500指数2027年底将达到8200点",
+   "summary": "摩根大通预计标普500指数2027年底将达到8200点。",
+   "time": "2026-11-25 04:47:38",
+   "url": "https://finance.eastmoney.com/a/202611253938868685.html",
+   "source": "东财国际"
   },
   {
-   "title": "趋势追踪量化基金削减美债空头头寸 股市抛售重燃避险需求",
-   "summary": "【趋势追踪量化基金削减美债空头头寸 股市抛售重燃避险需求】随着股市抛售重新激发对政府债券的避险需求，追逐趋势的量化基金正在削减长期持有的美国国债空头头寸，进一步推动债市上涨。美国银行的模型显示，旨在从各类资产价格走势中获利的商品交易顾问(CTA)已将美国国债空头头寸减少至9月峰值的一半左右。",
-   "time": "2026-11-25 03:48:40",
-   "url": "https://finance.eastmoney.com/a/202611253938863742.html",
-   "source": "东财国际"
+   "title": "君正股份（300223.SZ）壹评级首次评级 - 第一财经",
+   "summary": "",
+   "time": "2026-11-25 03:06",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3N20zMHFSQ1pFZG9qZ1BYTlctdm5URFdWd2xzd0FlbXI4TktPd3R2RzJlZEZxSVl4OFNLZ0lJZ2E0R0NyMGFqY3NhUG5oRkJJNnZZ?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "特朗普、普京与习近平进行三方对话 - VOA - Voice of America English News",
@@ -1788,18 +1867,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "Anthropic上市表现疲软或打乱OpenAI上市计划",
+   "title": "新思科技在成交量激增中下挫，最新下跌2.9%",
    "summary": "",
-   "time": "2026-11-24 20:33:30",
-   "url": "https://news.futunn.com/flash/1005515106/anthropic-s-weak-listing-performance-may-disrupt-openai-s-ipo",
-   "source": "富途"
+   "time": "2026-11-24 19:46:29",
+   "url": "https://news.10jqka.com.cn/20261125/c682172902.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "黄仁勋在全员会议上向英伟达员工道歉",
+   "title": "以媒：以防长称伊朗“正在研发化学武器”",
    "summary": "",
-   "time": "2026-11-24 18:31:19",
-   "url": "https://news.10jqka.com.cn/20261125/c682172831.shtml",
-   "source": "同花顺"
+   "time": "2026-11-24 20:56:45",
+   "url": "https://news.futunn.com/flash/1005516182/israeli-media-israeli-defense-minister-claims-iran-is-developing-chemical",
+   "source": "富途"
   },
   {
    "title": "特朗普称英伟达股价大跌使说服董事会变得更容易，强调介入公司管理层事务是为了美国利益",
@@ -1809,10 +1888,10 @@
    "source": "财新"
   },
   {
-   "title": "美国10年期国债收益率跌约4个基点",
-   "summary": "周二（11月24日）纽约尾盘，美国10年期国债收益率跌3.99个基点，报4.9038%，逼近11月10日底部4.8555%，延续11月13日（涨至5.1718%）以来持续回撤的趋势。\n\n两年期美债收益率跌2.33个基点，报4.6705%，几乎全天处于下跌状态，整体呈现出W形走势、北京时间19:15刷新日低至4.6271%；30年期美债收益率跌1.25个基点，报5.2944%。\n\n2/10年期美债收",
-   "time": "2026-11-25 04:31",
-   "url": "https://wallstreetcn.com/livenews/3205208",
+   "title": "Anthropic收盘破发",
+   "summary": "英伟达收跌5.9%，创11月20日以来收盘新低。\n\nAnthropic收跌6.54%，报81.91美元，低于83美元的IPO发行价。",
+   "time": "2026-11-25 05:01",
+   "url": "https://wallstreetcn.com/livenews/3205222",
    "source": "华尔街见闻"
   }
  ],
@@ -1820,7 +1899,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(13)",
+   "富途": "ok(17)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1830,11 +1909,11 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
    "东财国际": 7,
+   "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
-   "富途": 6,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
    "财新": 6
   }
