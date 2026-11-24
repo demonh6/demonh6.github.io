@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-24 23:18:35 CST",
- "generated_at_iso": "2026-11-24T23:18:35+08:00",
+ "generated_at": "2026-11-24 23:26:50 CST",
+ "generated_at_iso": "2026-11-24T23:26:50+08:00",
  "date": "2026-11-24",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 49777.4609,
-    "change": 182.15,
-    "change_pct": 0.37,
-    "quote_time": "2026-11-24 23:18:24",
+    "price": 49679.6094,
+    "change": 84.3,
+    "change_pct": 0.17,
+    "quote_time": "2026-11-24 23:26:50",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 23732.0469,
-    "change": -357.5108,
-    "change_pct": -1.48,
-    "quote_time": "2026-11-24 23:18:35",
+    "price": 23636.1078,
+    "change": -453.4499,
+    "change_pct": -1.88,
+    "quote_time": "2026-11-24 23:26:52",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7192.6299,
-    "change": -44.54,
-    "change_pct": -0.62,
-    "quote_time": "2026-11-24 23:18:24",
+    "price": 7171.5601,
+    "change": -65.61,
+    "change_pct": -0.91,
+    "quote_time": "2026-11-24 23:26:45",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3616.929,
-    "change": -64.771,
-    "change_pct": -1.76,
-    "quote_time": "23:18:37 2026-11-24"
+    "price": 3619.508,
+    "change": -62.192,
+    "change_pct": -1.69,
+    "quote_time": "23:26:51 2026-11-24"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.793,
-    "change": -1.916,
-    "change_pct": -4.38,
-    "quote_time": "23:18:39 2026-11-24"
+    "price": 41.818,
+    "change": -1.891,
+    "change_pct": -4.33,
+    "quote_time": "23:26:55 2026-11-24"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.236,
-    "change": 1.066,
-    "change_pct": 1.33,
-    "quote_time": "23:18:38 2026-11-24"
+    "price": 80.731,
+    "change": 0.561,
+    "change_pct": 0.7,
+    "quote_time": "23:26:54 2026-11-24"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 87.909,
-    "change": 1.229,
-    "change_pct": 1.42,
-    "quote_time": "23:18:38 2026-11-24"
+    "price": 87.458,
+    "change": 0.778,
+    "change_pct": 0.9,
+    "quote_time": "23:26:51 2026-11-24"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59785.8,
-    "change": -3328.4,
-    "change_pct": -5.27,
+    "price": 59922.4,
+    "change": -3705.3,
+    "change_pct": -5.82,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1676.14,
-    "change": -107.59,
-    "change_pct": -6.03,
+    "price": 1679.53,
+    "change": -116.08,
+    "change_pct": -6.46,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 68.77,
-    "change": -7.24,
-    "change_pct": -9.53,
+    "price": 68.9,
+    "change": -7.85,
+    "change_pct": -10.23,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.87,
-    "change": -0.47,
-    "change_pct": -0.45,
+    "price": 103.82,
+    "change": -0.52,
+    "change_pct": -0.5,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1613,15 +1613,15 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌4.38%，达20日历史波动率的 2.4 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-24 23:18",
+   "message": "COMEX白银单日跌4.33%，达20日历史波动率的 2.4 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-24 23:27",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌9.53%，达20日历史波动率的 2.7 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-24 23:18",
+   "message": "Solana单日跌10.23%，达20日历史波动率的 2.9 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-24 23:27",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   }
  ],
