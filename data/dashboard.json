@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-24 22:11:27 CST",
- "generated_at_iso": "2026-11-24T22:11:27+08:00",
+ "generated_at": "2026-11-24 22:19:39 CST",
+ "generated_at_iso": "2026-11-24T22:19:39+08:00",
  "date": "2026-11-24",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,19 +1256,19 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3646.001,
-    "change": -35.699,
-    "change_pct": -0.97,
-    "quote_time": "22:11:28 2026-11-24"
+    "price": 3646.583,
+    "change": -35.117,
+    "change_pct": -0.95,
+    "quote_time": "22:19:35 2026-11-24"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.481,
-    "change": -1.228,
-    "change_pct": -2.81,
-    "quote_time": "22:11:18 2026-11-24"
+    "price": 42.495,
+    "change": -1.214,
+    "change_pct": -2.78,
+    "quote_time": "22:19:36 2026-11-24"
    },
    {
     "name": "WTI原油",
@@ -1277,16 +1277,16 @@
     "price": 81.215,
     "change": 1.045,
     "change_pct": 1.3,
-    "quote_time": "22:11:28 2026-11-24"
+    "quote_time": "22:19:42 2026-11-24"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 87.844,
-    "change": 1.164,
-    "change_pct": 1.34,
-    "quote_time": "22:11:29 2026-11-24"
+    "price": 87.931,
+    "change": 1.251,
+    "change_pct": 1.44,
+    "quote_time": "22:19:35 2026-11-24"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60371.9,
-    "change": -2881.7,
-    "change_pct": -4.56,
+    "price": 60397.5,
+    "change": -3238.4,
+    "change_pct": -5.09,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1699.3,
-    "change": -100.59,
-    "change_pct": -5.59,
+    "price": 1698.28,
+    "change": -121.04,
+    "change_pct": -6.65,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.15,
-    "change": -5.64,
-    "change_pct": -7.44,
+    "price": 70.09,
+    "change": -6.74,
+    "change_pct": -8.77,
     "source": "okx"
    }
   ],
@@ -1322,24 +1322,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.84,
-    "change": -0.5,
-    "change_pct": -0.48,
+    "price": 103.808,
+    "change": -0.516,
+    "change_pct": -0.5,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-24",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6652,
-    "change": -0.0011,
-    "change_pct": -0.02,
+    "price": 6.6647,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-24",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1348,9 @@
     "change": 0.78,
     "change_pct": 0.57,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-24",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1584,8 +1584,8 @@
   {
    "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌7.44%，达20日历史波动率的 2.1 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-24 22:11",
+   "message": "Solana单日跌8.77%，达20日历史波动率的 2.5 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-24 22:19",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   }
  ],
