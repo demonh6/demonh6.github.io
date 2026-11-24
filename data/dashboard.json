@@ -1,8 +1,8 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-24 23:52:12 CST",
- "generated_at_iso": "2026-11-24T23:52:12+08:00",
- "date": "2026-11-24",
+ "generated_at": "2026-11-25 00:00:30 CST",
+ "generated_at_iso": "2026-11-25T00:00:30+08:00",
+ "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
  "markets": {
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 49613.1719,
-    "change": 17.86,
-    "change_pct": 0.04,
-    "quote_time": "2026-11-24 23:52:05",
+    "price": 49629.2383,
+    "change": 33.93,
+    "change_pct": 0.07,
+    "quote_time": "2026-11-25 00:00:12",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 23546.8556,
-    "change": -542.7021,
-    "change_pct": -2.25,
-    "quote_time": "2026-11-24 23:52:13",
+    "price": 23558.1078,
+    "change": -531.4499,
+    "change_pct": -2.21,
+    "quote_time": "2026-11-25 00:00:30",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7156.2402,
-    "change": -80.93,
-    "change_pct": -1.12,
-    "quote_time": "2026-11-24 23:52:05",
+    "price": 7163.4399,
+    "change": -73.73,
+    "change_pct": -1.02,
+    "quote_time": "2026-11-24 23:59:44",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10474.27,
-    "change": -6.55,
-    "change_pct": -0.06,
+    "price": 10455.06,
+    "change": -25.76,
+    "change_pct": -0.25,
     "hist": [
      10650.33,
      10724.86,
@@ -1095,11 +1095,10 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8044.55,
-    "change": -0.29,
-    "change_pct": 0.0,
+    "price": 8044.05,
+    "change": -0.79,
+    "change_pct": -0.01,
     "hist": [
-     7827.63,
      7873.11,
      7934.7,
      7956.7,
@@ -1128,9 +1127,10 @@
      8146.83,
      8080.74,
      7927.75,
-     8044.84
+     8044.84,
+     8065.96
     ],
-    "sigma": 0.968,
+    "sigma": 0.965,
     "volume": 0.0,
     "vol_pctile": 100.0,
     "vol_hist": [
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6020.45,
-    "change": -54.02,
-    "change_pct": -0.89,
+    "price": 6010.21,
+    "change": -64.26,
+    "change_pct": -1.06,
     "hist": [
      6167.02,
      6190.38,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3606.1,
-    "change": -75.6,
-    "change_pct": -2.05,
-    "quote_time": "23:52:16 2026-11-24"
+    "price": 3597.658,
+    "change": -84.042,
+    "change_pct": -2.28,
+    "quote_time": "00:00:34 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.402,
-    "change": -2.307,
-    "change_pct": -5.28,
-    "quote_time": "23:52:13 2026-11-24"
+    "price": 41.245,
+    "change": -2.464,
+    "change_pct": -5.64,
+    "quote_time": "00:00:31 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 79.512,
-    "change": -0.658,
-    "change_pct": -0.82,
-    "quote_time": "23:52:15 2026-11-24"
+    "price": 79.871,
+    "change": -0.299,
+    "change_pct": -0.37,
+    "quote_time": "00:00:35 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 86.332,
-    "change": -0.348,
-    "change_pct": -0.4,
-    "quote_time": "23:52:01 2026-11-24"
+    "price": 86.611,
+    "change": -0.069,
+    "change_pct": -0.08,
+    "quote_time": "00:00:35 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59852.5,
-    "change": -2947.6,
-    "change_pct": -4.69,
-    "source": "okx"
+    "price": 59758.9,
+    "change": -3130.9,
+    "change_pct": -4.98,
+    "source": "okx",
+    "hist": [
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     59694.3
+    ],
+    "sigma": 2.317
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1679.37,
-    "change": -92.02,
-    "change_pct": -5.19,
-    "source": "okx"
+    "price": 1679.26,
+    "change": -94.33,
+    "change_pct": -5.32,
+    "source": "okx",
+    "hist": [
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1677.42
+    ],
+    "sigma": 2.922
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.08,
-    "change": -6.43,
-    "change_pct": -8.52,
-    "source": "okx"
+    "price": 69.11,
+    "change": -6.65,
+    "change_pct": -8.78,
+    "source": "okx",
+    "hist": [
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     69.03
+    ],
+    "sigma": 3.975
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.84,
-    "change": -0.5,
-    "change_pct": -0.48,
+    "price": 103.82,
+    "change": -0.52,
+    "change_pct": -0.5,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1432,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6656,
-    "change": -0.0007,
-    "change_pct": -0.01,
+    "price": 6.6651,
+    "change": -0.0012,
+    "change_pct": -0.02,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1393,7 +1492,7 @@
    "time": "2026-11-24 22:00",
    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMWRPeU0ybEpkZDd6NDk5dEhpTzdwSEpQdTdsOXI2Q1FkS0dra1FRSzhsUF82Zll1dmxudk9MWHRjaUplY25YM2YwM0tFZXRHMldJeFlKc3h5dC13QjNMZm5XakJTaWthT0xoWU9IRTFxLXRRRFZ1RXNhSnRaWF9rZnZtSjkyaTZHbnc?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 1
   },
   {
    "keyword": "特朗普",
@@ -1489,13 +1588,13 @@
     "source": "机构观点"
    },
    {
-    "title": "小摩展望2027年大宗商品：黄金有望重返4500美元",
-    "org": "小摩",
+    "title": "法国巴黎银行下调美光科技评级，警告2028年超大规模数据中心扩容计划面临风险提供者Investing.com - 英为财情 Investing.com",
+    "org": "法国巴黎银行",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-24",
-    "url": "https://news.futunn.com/flash/1005491045/jpmorgan-s-2027-commodities-outlook-gold-poised-to-return-to",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1GWXhsVml2djFqbUJaTkh3VE5mc0pTOFNJUFdabmlrUnF1YVB3ZlN2VWhxSFZVLXdNb3FLdmR2TzFpMXVxLUpZSFJNajVQWDdVd0RXSFhTZkNkR29vdkhRUVo0SFJDWmRWQ1VnRUpuVEQ?oc=5",
     "source": "机构观点"
    },
    {
@@ -1622,34 +1721,41 @@
  },
  "alerts": [
   {
-   "level": "warning",
+   "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日跌5.28%，达20日历史波动率的 2.9 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-24 23:52",
+   "message": "COMEX白银单日跌5.64%，达20日历史波动率的 3.1 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-25 00:01",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   },
   {
    "level": "warning",
+   "asset": "比特币",
+   "message": "比特币单日跌4.98%，达20日历史波动率的 2.1 倍（σ=2.32%，突破 2σ 警戒线）",
+   "time": "2026-11-25 00:01",
+   "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
+  },
+  {
+   "level": "warning",
    "asset": "Solana",
-   "message": "Solana单日跌8.52%，达20日历史波动率的 2.4 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-24 23:52",
+   "message": "Solana单日跌8.78%，达20日历史波动率的 2.2 倍（σ=3.98%，突破 2σ 警戒线）",
+   "time": "2026-11-25 00:01",
    "chain": "币价急跌 → 多头杠杆连环爆仓 → 爆仓卖压加深跌势形成螺旋 → 稳定币脱锚担忧升温、链上流动性收缩 → 纳指科技股风险偏好被拖累"
   }
  ],
  "news": [
   {
-   "title": "现货白银日内跌幅扩大至4% 报41.4美元/盎司",
-   "summary": "现货白银日内跌幅扩大至4%，报41.4美元/盎司。",
-   "time": "2026-11-24 23:29:15",
-   "url": "https://finance.eastmoney.com/a/202611243938824571.html",
-   "source": "东财国际"
+   "title": "现货白银日内跌幅达5.0%，报40.98美元/盎司；纽约银日内跌幅达5.5%，报41.27美元/盎司。",
+   "summary": "现货白银日内跌幅达5.0%，报40.98美元/盎司；纽约银日内跌幅达5.5%，报41.27美元/盎司。",
+   "time": "2026-11-25 00:00",
+   "url": "https://wallstreetcn.com/livenews/3205119",
+   "source": "华尔街见闻"
   },
   {
-   "title": "LME收紧大额头寸规则，来应对铝市场逼空",
-   "summary": "伦敦金属交易所（LME）采取行动，以应对扰乱铝市场的严重逼仓事件，将监管矛头直指持有大额头寸的交易商。\n\n该交易所表示，其应对逼仓的主要机制——即所谓的“次日/隔夜（tom-next）借贷指引”——现在将适用于持有超过30%可用库存的交易商，该门槛较目前的50%大幅下调。",
-   "time": "2026-11-24 23:26",
-   "url": "https://wallstreetcn.com/livenews/3205110",
-   "source": "华尔街见闻"
+   "title": "俄国防部称打击乌能源设施和海上船只",
+   "summary": "【俄国防部称打击乌能源设施和海上船只】俄罗斯国防部24日晚间发布通报称，俄武装部队当天使用无人机打击了为乌克兰武装部队提供保障的能源基础设施和海上船只。通报称，俄军打击了位于乌克兰文尼察市、切尔尼戈夫州和罗夫诺州的三处变电站。在乌克兰敖德萨西南方向的黑海水域，俄军打击了一艘为乌军运送军民两用物资的干货船。",
+   "time": "2026-11-24 23:57:50",
+   "url": "https://finance.eastmoney.com/a/202611243938839093.html",
+   "source": "东财国际"
   },
   {
    "title": "瑞银上调特斯拉目标价 - 东方财富",
@@ -1666,18 +1772,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "进步派议员挑战领袖职位，民主党恐以更大力度对抗特朗普",
+   "title": "普京表示，俄罗斯燃料市场形势依然严峻，俄罗斯将对炼油厂遭袭事件作出回应",
    "summary": "",
-   "time": "2026-11-24 15:33:56",
-   "url": "https://news.futunn.com/flash/1005497573/progressive-lawmakers-challenge-for-leadership-democrats-may-confront-trump-with",
-   "source": "富途"
+   "time": "2026-11-24 15:55:53",
+   "url": "https://news.10jqka.com.cn/20261124/c682172374.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "美国众议员Meeks：黄仁勋应赴众议院外交事务委员会公开作证",
+   "title": "LME收紧大额持仓规则，以应对铝市场逼仓",
    "summary": "",
-   "time": "2026-11-24 15:26:03",
-   "url": "https://news.10jqka.com.cn/20261124/c682172292.shtml",
-   "source": "同花顺"
+   "time": "2026-11-24 15:52:16",
+   "url": "https://news.futunn.com/flash/1005499269/lme-tightens-rules-on-large-positions-to-address-aluminum-market",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月24日周二",
@@ -1694,18 +1800,18 @@
    "source": "财新"
   },
   {
-   "title": "费城半导体指数跌幅扩大至8%",
-   "summary": "【费城半导体指数跌幅扩大至8%】费城半导体指数跌幅扩大至8%，报8808.35点。闪迪跌超12%，AMD、美光科技跌超10%，海力士跌超9%，希捷科技跌超8%，恩智浦、应用材料、英特尔、英伟达、西部数据、拉姆研究跌超7%。",
-   "time": "2026-11-24 23:25:54",
-   "url": "https://finance.eastmoney.com/a/202611243938822573.html",
-   "source": "东财国际"
+   "title": "美国芝加哥商业交易所（CME）集团单日成交量达到7150万手合约，创纪录新高，主要由利率产品交易放量带动。",
+   "summary": "美国芝加哥商业交易所（CME）集团单日成交量达到7150万手合约，创纪录新高，主要由利率产品交易放量带动。",
+   "time": "2026-11-24 23:53",
+   "url": "https://wallstreetcn.com/livenews/3205117",
+   "source": "华尔街见闻"
   },
   {
-   "title": "沙特：也门胡塞武装打击利雅得金融中心，造成11人受伤。",
-   "summary": "沙特：也门胡塞武装打击利雅得金融中心，造成11人受伤。",
-   "time": "2026-11-24 23:19",
-   "url": "https://wallstreetcn.com/livenews/3205108",
-   "source": "华尔街见闻"
+   "title": "芝商所单日成交量创历史新高 达7146万份合约",
+   "summary": "【芝商所单日成交量创历史新高 达7146万份合约】芝加哥商品交易所集团（CME Group）表示，受利率类产品成交量强劲推动，公司11月23日单日成交量达到7145.7万份合约，创历史新高，超过此前2025年2月25日创下的6712.4571万份合约纪录。",
+   "time": "2026-11-24 23:57:28",
+   "url": "https://finance.eastmoney.com/a/202611243938838683.html",
+   "source": "东财国际"
   },
   {
    "title": "法国巴黎银行下调美光科技评级，警告2028年超大规模数据中心扩容计划面临风险提供者Investing.com - 英为财情 Investing.com",
@@ -1722,18 +1828,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "PCE通胀公布前美联储鹰派信号升温 金价下挫",
+   "title": "Anthropic跌幅扩大至10%，总市值约1.03万亿美元，刷新上市以来新低",
    "summary": "",
-   "time": "2026-11-24 15:24:58",
-   "url": "https://news.futunn.com/flash/1005496545/gold-prices-drop-as-hawkish-fed-signals-intensify-ahead-of",
-   "source": "富途"
+   "time": "2026-11-24 15:46:40",
+   "url": "https://news.10jqka.com.cn/20261124/c682172351.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "期市夜盘收盘，国内期货主力合约多数上涨，沥青涨超3%",
+   "title": "莫德纳年内飙升650%，个性化癌症疫苗已容不得半点差错",
    "summary": "",
-   "time": "2026-11-24 15:00:28",
-   "url": "https://news.10jqka.com.cn/20261124/c682172155.shtml",
-   "source": "同花顺"
+   "time": "2026-11-24 15:44:05",
+   "url": "https://news.futunn.com/flash/1005498478/moderna-surges-650-year-to-date-personalized-cancer-vaccine-allows",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月23日周一",
@@ -1750,18 +1856,18 @@
    "source": "财新"
   },
   {
-   "title": "沙特称胡塞武装袭击利雅得金融中心 造成11人受伤",
-   "summary": "沙特称胡塞武装袭击利雅得金融中心，造成11人受伤。",
-   "time": "2026-11-24 23:21:18",
-   "url": "https://finance.eastmoney.com/a/202611243938819890.html",
-   "source": "东财国际"
+   "title": "AI热潮仍具发展势头，但BCA预见即将到来的崩盘",
+   "summary": "据BCA Research称，AI投资热潮可能推动市场持续走高，鉴于对计算能力的需求持续超过供应，2027年尚无明确因素会阻碍AI支出。\n\n在《2027年全球市场展望》报告中，BCA表示其大部分策略师预计明年股市表现将优于债市，并认为尽管近期市场波动较大，但牛市仍有上涨空间。\n\n该机构预计近期科技股的抛售行情将逆转，大盘可能在2027年或2028年见顶。\n\nBCA表示，如果生产率提升能遍及各行业，",
+   "time": "2026-11-24 23:51",
+   "url": "https://wallstreetcn.com/livenews/3205115",
+   "source": "华尔街见闻"
   },
   {
-   "title": "纽约银日内跌幅达4.0%，报41.95美元/盎司。",
-   "summary": "纽约银日内跌幅达4.0%，报41.95美元/盎司。",
-   "time": "2026-11-24 23:15",
-   "url": "https://wallstreetcn.com/livenews/3205107",
-   "source": "华尔街见闻"
+   "title": "费城半导体指数跌幅扩大至9% 报8721.36点",
+   "summary": "费城半导体指数跌幅扩大至9%，报8721.36点。",
+   "time": "2026-11-24 23:52:34",
+   "url": "https://finance.eastmoney.com/a/202611243938836021.html",
+   "source": "东财国际"
   },
   {
    "title": "伯恩斯坦：下调CrowdStrike(CRWD.US)目标价至174美元收购Zscaler具备战略与财务价值_全球市场_财经 - 证券之星",
@@ -1778,18 +1884,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "费城半导体指数日内跌8%",
+   "title": "LME伦铜日内跌超5.00%，现报11859.500美元/吨",
    "summary": "",
-   "time": "2026-11-24 15:24:36",
-   "url": "https://news.futunn.com/flash/1005496538/the-philadelphia-semiconductor-index-fell-8-intraday",
-   "source": "富途"
+   "time": "2026-11-24 15:46:14",
+   "url": "https://news.10jqka.com.cn/20261124/c682172346.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "星海图发布新一代具身基础模型 G0.7",
+   "title": "进步派议员挑战领袖职位，民主党恐以更大力度对抗特朗普",
    "summary": "",
-   "time": "2026-11-24 14:48:30",
-   "url": "https://news.10jqka.com.cn/20261124/c682172062.shtml",
-   "source": "同花顺"
+   "time": "2026-11-24 15:33:56",
+   "url": "https://news.futunn.com/flash/1005497573/progressive-lawmakers-challenge-for-leadership-democrats-may-confront-trump-with",
+   "source": "富途"
   },
   {
    "title": "特朗普称英伟达股价大跌使说服董事会变得更容易，强调介入公司管理层事务是为了美国利益",
@@ -1799,18 +1905,18 @@
    "source": "财新"
   },
   {
-   "title": "现货黄金失守3590美元/盎司",
-   "summary": "现货黄金失守3590美元/盎司，日内跌1.26%。",
-   "time": "2026-11-24 23:19:39",
-   "url": "https://finance.eastmoney.com/a/202611243938818258.html",
-   "source": "东财国际"
+   "title": "Anthropic股价较83美元的IPO发行价跌5%，日内当前跌幅11%。",
+   "summary": "Anthropic股价较83美元的IPO发行价跌5%，日内当前跌幅11%。",
+   "time": "2026-11-24 23:42",
+   "url": "https://wallstreetcn.com/livenews/3205113",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(20)",
+   "富途": "ok(18)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1819,51 +1925,47 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 7,
-   "富途": 6,
    "同花顺": 6,
+   "富途": 6,
    "东财早报": 2,
    "财新": 6
   }
  },
  "wuxing": {
-  "date": "2026-11-24",
-  "weekday": "二",
-  "lunar_date": "十月十六",
+  "date": "2026-11-25",
+  "weekday": "三",
+  "lunar_date": "十月十七",
   "year_gz": "丙午",
-  "day_gz": "壬寅",
+  "day_gz": "癸卯",
   "day_nayin": "金箔金",
   "gan": {
-   "char": "壬",
+   "char": "癸",
    "wuxing": "水"
   },
   "zhi": {
-   "char": "寅",
+   "char": "卯",
    "wuxing": "木"
   },
   "day_master": "水",
   "yi": [
-   "出行",
-   "纳财",
-   "开市",
-   "交易",
-   "立券",
-   "动土",
-   "移徙",
-   "入宅"
+   "嫁娶",
+   "纳采",
+   "订盟",
+   "祭祀",
+   "斋醮",
+   "开光",
+   "安香",
+   "出火"
   ],
   "ji": [
-   "造庙",
-   "谢土",
-   "作灶",
-   "作梁",
-   "伐木",
-   "安葬",
-   "行丧",
-   "修坟"
+   "置产",
+   "掘井",
+   "词讼",
+   "栽种"
   ],
   "favorable_sectors": [
    "水务",
