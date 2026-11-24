@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-24 21:00:39 CST",
- "generated_at_iso": "2026-11-24T21:00:39+08:00",
+ "generated_at": "2026-11-24 21:09:45 CST",
+ "generated_at_iso": "2026-11-24T21:09:45+08:00",
  "date": "2026-11-24",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -901,10 +901,10 @@
      61142.35,
      59662.02,
      58860.43,
-     59024.28,
-     59444.21,
-     56436.65,
-     58644.63
+     59024.2813,
+     59444.2109,
+     56436.6484,
+     58644.6289
     ],
     "sigma": 2.396,
     "volume": 0.0,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10469.19,
-    "change": -11.63,
-    "change_pct": -0.11,
+    "price": 10457.1,
+    "change": -23.72,
+    "change_pct": -0.23,
     "hist": [
      10650.33,
      10724.86,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8061.14,
-    "change": 16.3,
-    "change_pct": 0.2,
+    "price": 8062.49,
+    "change": 17.65,
+    "change_pct": 0.22,
     "hist": [
      7827.63,
      7873.11,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6039.16,
-    "change": -35.31,
-    "change_pct": -0.58,
+    "price": 6039.72,
+    "change": -34.75,
+    "change_pct": -0.57,
     "hist": [
      6167.02,
      6190.38,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3665.464,
-    "change": -16.236,
-    "change_pct": -0.44,
-    "quote_time": "21:00:43 2026-11-24"
+    "price": 3657.23,
+    "change": -24.47,
+    "change_pct": -0.66,
+    "quote_time": "21:09:44 2026-11-24"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.64,
-    "change": -1.069,
-    "change_pct": -2.45,
-    "quote_time": "21:00:43 2026-11-24"
+    "price": 42.503,
+    "change": -1.206,
+    "change_pct": -2.76,
+    "quote_time": "21:09:46 2026-11-24"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 80.371,
-    "change": 0.201,
-    "change_pct": 0.25,
-    "quote_time": "21:00:43 2026-11-24"
+    "price": 80.41,
+    "change": 0.24,
+    "change_pct": 0.3,
+    "quote_time": "21:09:48 2026-11-24"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 87.124,
-    "change": 0.444,
-    "change_pct": 0.51,
-    "quote_time": "21:00:42 2026-11-24"
+    "price": 87.158,
+    "change": 0.478,
+    "change_pct": 0.55,
+    "quote_time": "21:09:45 2026-11-24"
    }
   ],
   "crypto": [
@@ -1294,9 +1294,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60432.1,
-    "change": -895.4,
-    "change_pct": -1.46,
+    "price": 60045.1,
+    "change": -1187.4,
+    "change_pct": -1.94,
     "source": "okx",
     "hist": [
      80430.0,
@@ -1328,17 +1328,17 @@
      59938.8,
      60890.5,
      62892.8,
-     60429.0
+     59891.5
     ],
-    "sigma": 2.396
+    "sigma": 2.448
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1702.85,
-    "change": -19.33,
-    "change_pct": -1.12,
+    "price": 1687.06,
+    "change": -34.39,
+    "change_pct": -2.0,
     "source": "okx",
     "hist": [
      2328.52,
@@ -1370,17 +1370,17 @@
      1684.69,
      1718.38,
      1773.75,
-     1703.96
+     1682.52
     ],
-    "sigma": 3.086
+    "sigma": 3.141
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.63,
-    "change": -1.64,
-    "change_pct": -2.27,
+    "price": 70.13,
+    "change": -2.14,
+    "change_pct": -2.96,
     "source": "okx",
     "hist": [
      101.91,
@@ -1412,18 +1412,18 @@
      70.42,
      70.33,
      75.67,
-     70.68
+     69.77
     ],
-    "sigma": 3.974
+    "sigma": 4.059
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.9,
-    "change": -0.44,
-    "change_pct": -0.42,
+    "price": 103.88,
+    "change": -0.46,
+    "change_pct": -0.44,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1432,9 +1432,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6623,
-    "change": -0.004,
-    "change_pct": -0.06,
+    "price": 6.6668,
+    "change": 0.0005,
+    "change_pct": 0.01,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1484,37 +1484,26 @@
  },
  "speakers": [
   {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "黄仁勋闪电回归，是不是特朗普的功劳？丨夜观天下 - 川观新闻",
-   "summary": "",
-   "time": "2026-11-24 20:31",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rNjFKbmoyNTQ3bU5sMERBbDV6cEJCZ1BOakRxNlUyTmZJcXh2eUlHSWgtNlhwOW90SXR5U01NdkJicElfSTQ2RGY5ZzI2Zw?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "市场已经替美联储“加息”100个基点，华尔街却恐难等来政策转向-市场参考 - 金十数据",
-   "summary": "",
-   "time": "2026-11-24 20:16",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05VGl4ZGdOcG54bkwwRUpWTWV5aWYzWjhDVHl4ZEduUXpER3F0UncyTjc5ODJHa1VEU0FaNUZkOE9lTnFiNGdvX2o3VllmalU?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称英伟达股价大跌使说服董事会变得更容易，强调介入公司管理层事务是为了美国利益",
+   "title": "特朗普展示深圳接机画面，感叹深圳夜景如黄金时代美国 - 手机新浪网",
    "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-24/102508181.html?cxapp_link=true",
-   "source": "财新",
-   "mentions": 1
+   "time": "2026-11-24 20:24",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWOFNIZDNlQjR4TmlsQm96SE5VUGFLbzdCekZUNm0zR2hSbi02TDhDQW9lYW1QdkRHOE1IcFh4SGVRT1MyUnlxVkFsQ3l1ZFlzcUpvUnBVRUw4ekxENEt0bzF6aWo2Y1ktSGZEQTBfZDlpckk?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "快看视频 | 黄仁勋闪辞11天后回归，特朗普亲自推动，这场大戏还没完？ - 上观新闻",
+   "summary": "",
+   "time": "2026-11-24 20:23",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNUklkWXNTRGlqLUc4X1I4ekdHVUcyeWJycEtQVkVhWFJsTnEwcnNuQ016WUlfMWZ4ektSaHg3NjNpR1VlNDdUNVRnYWVMbjNlNmE3QVZCdkhmeUxZMWc?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1578,13 +1567,13 @@
   ],
   "reports": [
    {
-    "title": "高盛策略师：人工智能回报比英伟达风波更重要",
-    "org": "高盛",
+    "title": "中信建投：AI科研取得突破 办公Agent需求增长",
+    "org": "中信建投",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-24",
-    "url": "https://news.futunn.com/flash/1005481591/goldman-sachs-strategist-ai-returns-matter-more-than-nvidia-turmoil",
+    "url": "https://finance.eastmoney.com/a/202611243938687610.html",
     "source": "机构观点"
    },
    {
@@ -1724,51 +1713,51 @@
    "level": "danger",
    "asset": "纳斯达克",
    "message": "纳斯达克单日涨6.51%，达20日历史波动率的 3.5 倍（σ=1.84%，突破 3σ 高危线）",
-   "time": "2026-11-24 21:01",
+   "time": "2026-11-24 21:10",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "danger",
    "asset": "标普500",
    "message": "标普500单日涨4.73%，达20日历史波动率的 3.5 倍（σ=1.34%，突破 3σ 高危线）",
-   "time": "2026-11-24 21:01",
+   "time": "2026-11-24 21:10",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "warning",
    "asset": "道琼斯",
    "message": "道琼斯单日涨3.01%，达20日历史波动率的 2.4 倍（σ=1.25%，突破 2σ 警戒线）",
-   "time": "2026-11-24 21:01",
+   "time": "2026-11-24 21:10",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "道琼斯、纳斯达克、标普500等 5 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-24 21:01",
+   "time": "2026-11-24 21:10",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "英国央行货币政策委员格林：需要确凿证据证明存在显著影响，才会支持50个基点。",
-   "summary": "英国央行货币政策委员格林：需要确凿证据证明存在显著影响，才会支持50个基点。",
-   "time": "2026-11-24 20:58",
-   "url": "https://wallstreetcn.com/livenews/3205036",
+   "title": "有英伟达内部人士对记者透露，没有听到公司有返聘因黄仁勋一度辞职而离职员工的相关安排。（一财）",
+   "summary": "有英伟达内部人士对记者透露，没有听到公司有返聘因黄仁勋一度辞职而离职员工的相关安排。（一财）",
+   "time": "2026-11-24 21:07",
+   "url": "https://wallstreetcn.com/livenews/3205039",
    "source": "华尔街见闻"
   },
   {
-   "title": "胜宏科技：2026年前三季度拟每10股派现10元 预计本次现金分红金额约9.83亿元",
-   "summary": "【胜宏科技：2026年前三季度拟每10股派现10元 预计本次现金分红金额约9.83亿元】胜宏科技(300476.SZ)公告称，公司第五届董事会第二十一次会议审议通过2026年前三季度利润分配方案，拟以实施权益分派时股权登记日的总股本扣除回购专用证券账户股数为基数，向全体股东每10股派发现金股利10元(含税)。以截至本公告披露日公司扣除回购专户的总股本初步测算，预计本次现金分红金额约为人民币9.83亿元，约占公司2026年前三季度归母净利润的29.04%。",
-   "time": "2026-11-24 20:55:44",
-   "url": "https://finance.eastmoney.com/a/202611243938676993.html",
+   "title": "中信建投：AI科研取得突破 办公Agent需求增长",
+   "summary": "【中信建投：AI科研取得突破 办公Agent需求增长】中信建投证券研究报告称，AI能力向科研与实际工作持续拓展，继续看好模型领先、拥有应用入口的头部平台。",
+   "time": "2026-11-24 21:03:08",
+   "url": "https://finance.eastmoney.com/a/202611243938687610.html",
    "source": "东财国际"
   },
   {
-   "title": "黄仁勋闪电回归，是不是特朗普的功劳？丨夜观天下 - 川观新闻",
+   "title": "特朗普展示深圳接机画面，感叹深圳夜景如黄金时代美国 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-24 20:31",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rNjFKbmoyNTQ3bU5sMERBbDV6cEJCZ1BOakRxNlUyTmZJcXh2eUlHSWgtNlhwOW90SXR5U01NdkJicElfSTQ2RGY5ZzI2Zw?oc=5",
+   "time": "2026-11-24 20:24",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWOFNIZDNlQjR4TmlsQm96SE5VUGFLbzdCekZUNm0zR2hSbi02TDhDQW9lYW1QdkRHOE1IcFh4SGVRT1MyUnlxVkFsQ3l1ZFlzcUpvUnBVRUw4ekxENEt0bzF6aWo2Y1ktSGZEQTBfZDlpckk?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1779,17 +1768,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "期市夜盘开盘，国内期货主力合约多数上涨，国际铜跌超3%",
+   "title": "应用材料美股盘前跌超5%",
    "summary": "",
-   "time": "2026-11-24 12:59:48",
-   "url": "https://news.10jqka.com.cn/20261124/c682170858.shtml",
+   "time": "2026-11-24 13:09:10",
+   "url": "https://news.10jqka.com.cn/20261124/c682171042.shtml",
    "source": "同花顺"
   },
   {
-   "title": "胜宏科技：首次回购公司股份9000股，支付103.44万元",
+   "title": "TrendForce：AI抢占玻纤布产能垫高PCB价格 第四季COB/SMD LED显示荧幕成本季增2%",
    "summary": "",
-   "time": "2026-11-24 12:57:53",
-   "url": "https://news.futunn.com/flash/1005481676/shenghong-technology-first-share-repurchase-of-9000-shares-with-a",
+   "time": "2026-11-24 13:04:44",
+   "url": "https://news.futunn.com/flash/1005482407/trendforce-ai-demand-captures-fiberglass-cloth-capacity-driving-up-pcb",
    "source": "富途"
   },
   {
@@ -1807,17 +1796,17 @@
    "source": "财新"
   },
   {
-   "title": "胜宏科技：拟每10股派发现金股利10元，预计现金分红约9.83亿元",
-   "summary": "胜宏科技：拟每10股派发现金股利10元（含税），预计现金分红约9.83亿元，约占2026年前三季度归母净利润的29.04%，不送红股、不转增。",
-   "time": "2026-11-24 20:57",
-   "url": "https://wallstreetcn.com/livenews/3205035",
+   "title": "英国央行货币政策委员格林：需要确凿证据证明存在显著影响，才会支持50个基点。",
+   "summary": "英国央行货币政策委员格林：需要确凿证据证明存在显著影响，才会支持50个基点。",
+   "time": "2026-11-24 20:58",
+   "url": "https://wallstreetcn.com/livenews/3205036",
    "source": "华尔街见闻"
   },
   {
-   "title": "涉CAD软件授权问题 中望软件与相关国际组织起纠纷 公司将支付560万美元达成和解",
-   "summary": "【涉CAD软件授权问题 中望软件与相关国际组织起纠纷 公司将支付560万美元达成和解】中望软件海外知识产权仲裁案件迎来实质性进展。11月24日，中望软件召开第六届董事会第三十次会议，审议通过了关于达成仲裁和解并签署和解协议的议案。根据协议安排，公司拟向国际CAD软件技术联盟支付560万美元（约合3758.22万元人民币）和解款项。",
-   "time": "2026-11-24 20:48:10",
-   "url": "https://finance.eastmoney.com/a/202611243938670560.html",
+   "title": "波罗的海干散货运价指数涨2.27%",
+   "summary": "波罗的海干散货运价指数涨2.27%，至3068点。",
+   "time": "2026-11-24 21:02:40",
+   "url": "https://finance.eastmoney.com/a/202611243938679134.html",
    "source": "东财国际"
   },
   {
@@ -1835,17 +1824,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "云汉芯城：拟以3000万元-5000万元回购公司股份",
+   "title": "德州仪器美股盘前跌超5%",
    "summary": "",
-   "time": "2026-11-24 12:58:35",
-   "url": "https://news.10jqka.com.cn/20261124/c682170835.shtml",
+   "time": "2026-11-24 13:09:04",
+   "url": "https://news.10jqka.com.cn/20261124/c682171031.shtml",
    "source": "同花顺"
   },
   {
-   "title": "高盛策略师：人工智能回报比英伟达风波更重要",
+   "title": "云汉芯城：拟以3000万元-5000万元回购公司股份",
    "summary": "",
-   "time": "2026-11-24 12:55:47",
-   "url": "https://news.futunn.com/flash/1005481591/goldman-sachs-strategist-ai-returns-matter-more-than-nvidia-turmoil",
+   "time": "2026-11-24 13:02:39",
+   "url": "https://news.futunn.com/flash/1005482283/yunhan-xincheng-plans-to-repurchase-company-shares-with-rmb-30",
    "source": "富途"
   },
   {
@@ -1863,24 +1852,24 @@
    "source": "财新"
   },
   {
-   "title": "英国央行货币政策委员格林：企业预计工资协议将定在3.6%，这一水平过高。\n\n现在必须对二轮效应作出判断。\n\n劳动力市场闲置可能已达峰值。\n\n二轮效应风险更高。\n\n指标显示工资增长停留在3.5%。\n\n“无二轮效应”情景“不可能”。\n\n进一步收",
-   "summary": "英国央行货币政策委员格林：企业预计工资协议将定在3.6%，这一水平过高。\n\n现在必须对二轮效应作出判断。\n\n劳动力市场闲置可能已达峰值。\n\n二轮效应风险更高。\n\n指标显示工资增长停留在3.5%。\n\n“无二轮效应”情景“不可能”。\n\n进一步收紧政策是合适的。\n\n需出现数据逆转或战争缓和才能改变观点。",
-   "time": "2026-11-24 20:49",
-   "url": "https://wallstreetcn.com/livenews/3205032",
+   "title": "胜宏科技：拟每10股派发现金股利10元，预计现金分红约9.83亿元",
+   "summary": "胜宏科技：拟每10股派发现金股利10元（含税），预计现金分红约9.83亿元，约占2026年前三季度归母净利润的29.04%，不送红股、不转增。",
+   "time": "2026-11-24 20:57",
+   "url": "https://wallstreetcn.com/livenews/3205035",
    "source": "华尔街见闻"
   },
   {
-   "title": "英国央行货币政策委员格林：适宜进一步收紧政策",
-   "summary": "【英国央行货币政策委员格林：适宜进一步收紧政策】英国央行货币政策委员格林称，适宜进一步收紧政策。需以不同方式思考连续冲击，货币政策在锚定通胀预期方面发挥作用，获得更细致的价格数据变得更加重要，迄今二轮效应证据仍不多。",
-   "time": "2026-11-24 20:46:06",
-   "url": "https://finance.eastmoney.com/a/202611243938668777.html",
+   "title": "国内商品期货夜盘开盘 主力合约多数上涨",
+   "summary": "【国内商品期货夜盘开盘 主力合约多数上涨】国内商品期货夜盘开盘，主力合约多数上涨。涨幅方面，乙二醇涨超2%，烧碱涨近2%，甲醇、对二甲苯、纸浆、PTA、棕榈油等涨超1%；跌幅方面，国际铜跌超3%，沪铜跌超2%，沪锡跌近2%，沪铝、沪银、铸造铝跌超1%。",
+   "time": "2026-11-24 21:00:08",
+   "url": "https://finance.eastmoney.com/a/202611243938678095.html",
    "source": "东财国际"
   },
   {
-   "title": "市场已经替美联储“加息”100个基点，华尔街却恐难等来政策转向-市场参考 - 金十数据",
+   "title": "直接介入助黄仁勋复职 特朗普打破“跛脚鸭”规则 - 联合早报",
    "summary": "",
-   "time": "2026-11-24 20:16",
-   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05VGl4ZGdOcG54bkwwRUpWTWV5aWYzWjhDVHl4ZEduUXpER3F0UncyTjc5ODJHa1VEU0FaNUZkOE9lTnFiNGdvX2o3VllmalU?oc=5",
+   "time": "2026-11-24 20:06",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ocERpTW8wb0pFb2wyQUxkMzF5Y0hubE5ac0kyaC1kdmlZbU9zTFdoajJqQVNBcEZzUnZtRWs4ZE5keGoxZVJockUzZi1yd0JwT2VuMWVJcmNDZ21Jc2p2WnZTR2ZGVWFIVzZZ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1891,17 +1880,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "刚果（金）一反政府武装宣布停止攻势",
+   "title": "上期所沪银主力合约失守1万元/千克",
    "summary": "",
-   "time": "2026-11-24 12:56:10",
-   "url": "https://news.10jqka.com.cn/20261124/c682170799.shtml",
+   "time": "2026-11-24 13:08:42",
+   "url": "https://news.10jqka.com.cn/20261124/c682171027.shtml",
    "source": "同花顺"
   },
   {
-   "title": "挪威国家石油公司与德国VNG签署18年天然气供应协议",
+   "title": "胜宏科技：首次回购公司股份9000股，支付103.44万元",
    "summary": "",
-   "time": "2026-11-24 12:52:31",
-   "url": "https://news.futunn.com/flash/1005481379/equinor-signs-18-year-natural-gas-supply-agreement-with-germany",
+   "time": "2026-11-24 12:57:53",
+   "url": "https://news.futunn.com/flash/1005481676/shenghong-technology-first-share-repurchase-of-9000-shares-with-a",
    "source": "富途"
   },
   {
@@ -1912,10 +1901,10 @@
    "source": "财新"
   },
   {
-   "title": "韩国称俄军机进入韩防空识别区 已召见俄武官",
-   "summary": "韩国军方24日说，数架俄罗斯军用飞机当天上午进入韩国东部海域防空识别区，随后接近郁陵岛，郁陵郡一度发布警戒警报。另据韩国国防部的消息，国防部已于当天下午召见俄罗斯驻韩武官。（新华社）",
-   "time": "2026-11-24 20:45",
-   "url": "https://wallstreetcn.com/livenews/3205029",
+   "title": "英国央行货币政策委员格林：企业预计工资协议将定在3.6%，这一水平过高。\n\n现在必须对二轮效应作出判断。\n\n劳动力市场闲置可能已达峰值。\n\n二轮效应风险更高。\n\n指标显示工资增长停留在3.5%。\n\n“无二轮效应”情景“不可能”。\n\n进一步收",
+   "summary": "英国央行货币政策委员格林：企业预计工资协议将定在3.6%，这一水平过高。\n\n现在必须对二轮效应作出判断。\n\n劳动力市场闲置可能已达峰值。\n\n二轮效应风险更高。\n\n指标显示工资增长停留在3.5%。\n\n“无二轮效应”情景“不可能”。\n\n进一步收紧政策是合适的。\n\n需出现数据逆转或战争缓和才能改变观点。",
+   "time": "2026-11-24 20:49",
+   "url": "https://wallstreetcn.com/livenews/3205032",
    "source": "华尔街见闻"
   }
  ],
@@ -1923,7 +1912,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(17)",
+   "富途": "ok(18)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
