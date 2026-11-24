@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-24 12:10:13 CST",
- "generated_at_iso": "2026-11-24T12:10:13+08:00",
+ "generated_at": "2026-11-24 12:18:28 CST",
+ "generated_at_iso": "2026-11-24T12:18:28+08:00",
  "date": "2026-11-24",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 22298.609,
-    "change": -85.131,
-    "change_pct": -0.38,
+    "price": 22295.939,
+    "change": -87.801,
+    "change_pct": -0.39,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3471.39,
-    "change": -36.61,
-    "change_pct": -1.04,
+    "price": 3473.44,
+    "change": -34.56,
+    "change_pct": -0.98,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,8 +561,8 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 7468.11,
-    "change": -59.87,
+    "price": 7467.74,
+    "change": -60.24,
     "change_pct": -0.8,
     "hist": [
      8030.54,
@@ -1256,19 +1256,19 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3660.081,
-    "change": -21.619,
-    "change_pct": -0.59,
-    "quote_time": "12:10:12 2026-11-24"
+    "price": 3657.945,
+    "change": -23.755,
+    "change_pct": -0.65,
+    "quote_time": "12:18:16 2026-11-24"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.948,
-    "change": -0.761,
-    "change_pct": -1.74,
-    "quote_time": "12:09:34 2026-11-24"
+    "price": 42.945,
+    "change": -0.764,
+    "change_pct": -1.75,
+    "quote_time": "12:17:40 2026-11-24"
    },
    {
     "name": "WTI原油",
@@ -1277,16 +1277,16 @@
     "price": 79.778,
     "change": -0.392,
     "change_pct": -0.49,
-    "quote_time": "12:09:42 2026-11-24"
+    "quote_time": "12:17:19 2026-11-24"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 86.354,
-    "change": -0.326,
-    "change_pct": -0.38,
-    "quote_time": "12:09:52 2026-11-24"
+    "price": 86.345,
+    "change": -0.335,
+    "change_pct": -0.39,
+    "quote_time": "12:18:00 2026-11-24"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60374.4,
-    "change": -877.9,
-    "change_pct": -1.43,
+    "price": 60468.4,
+    "change": -888.4,
+    "change_pct": -1.45,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1697.54,
-    "change": -33.55,
-    "change_pct": -1.94,
+    "price": 1699.85,
+    "change": -32.9,
+    "change_pct": -1.9,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.5,
-    "change": 0.22,
-    "change_pct": 0.31,
+    "price": 71.78,
+    "change": 0.45,
+    "change_pct": 0.63,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 104.28,
-    "change": -0.06,
-    "change_pct": -0.06,
+    "price": 104.29,
+    "change": -0.05,
+    "change_pct": -0.05,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1594,28 +1594,28 @@
    "level": "danger",
    "asset": "纳斯达克",
    "message": "纳斯达克单日涨6.51%，达20日历史波动率的 3.5 倍（σ=1.84%，突破 3σ 高危线）",
-   "time": "2026-11-24 12:10",
+   "time": "2026-11-24 12:18",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "danger",
    "asset": "标普500",
    "message": "标普500单日涨4.73%，达20日历史波动率的 3.5 倍（σ=1.34%，突破 3σ 高危线）",
-   "time": "2026-11-24 12:10",
+   "time": "2026-11-24 12:18",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "warning",
    "asset": "道琼斯",
    "message": "道琼斯单日涨3.01%，达20日历史波动率的 2.4 倍（σ=1.25%，突破 2σ 警戒线）",
-   "time": "2026-11-24 12:10",
+   "time": "2026-11-24 12:18",
    "chain": "指数急涨 → 看跌期权对冲盘平仓压低VIX → CTA与波动率目标基金按模型机械加仓股票 → 追涨盘拥挤、仓位偏高 → 次日亚太市场高开跟随"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "创业板指、道琼斯、纳斯达克等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-24 12:10",
+   "time": "2026-11-24 12:18",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
