@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 06:28:39 CST",
- "generated_at_iso": "2026-11-25T06:28:39+08:00",
+ "generated_at": "2026-11-25 06:36:52 CST",
+ "generated_at_iso": "2026-11-25T06:36:52+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -719,7 +719,7 @@
     "price": 23733.5353,
     "change": -356.0224,
     "change_pct": -1.48,
-    "quote_time": "2026-11-25 06:28:30",
+    "quote_time": "2026-11-25 06:30:00",
     "hist": [
      27477.3105,
      27599.791,
@@ -1283,10 +1283,10 @@
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 88.366,
-    "change": 1.686,
-    "change_pct": 1.95,
-    "quote_time": "06:28:15 2026-11-25"
+    "price": 88.336,
+    "change": 1.656,
+    "change_pct": 1.91,
+    "quote_time": "06:31:04 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59978.6,
-    "change": -1295.8,
-    "change_pct": -2.11,
+    "price": 60058.0,
+    "change": -1116.9,
+    "change_pct": -1.83,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1684.16,
-    "change": -34.11,
-    "change_pct": -1.99,
+    "price": 1686.46,
+    "change": -23.71,
+    "change_pct": -1.39,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.71,
-    "change": -2.55,
-    "change_pct": -3.53,
+    "price": 69.9,
+    "change": -2.1,
+    "change_pct": -2.92,
     "source": "okx"
    }
   ],
@@ -1322,24 +1322,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.85,
-    "change": 0.02,
-    "change_pct": 0.02,
+    "price": 103.818,
+    "change": -0.007,
+    "change_pct": -0.01,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-25",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
     "price": 6.6654,
-    "change": 0.0005,
-    "change_pct": 0.01,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-25",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1348,9 @@
     "change": 0.78,
     "change_pct": 0.57,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-24",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1385,6 +1385,17 @@
  },
  "speakers": [
   {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "美媒披露黄仁勋重返英伟达内幕：万斯发挥了重要作用 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-25 05:16",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNck9EYTVCcTdwWFMyT21VQ1RZbzR2YnZUNnlBRG9RMHBHZnduOTJzQ2VHOXJzVG1lV2N1dXRneFFwRFNWX1FOa1BwYTRKTEp6Vk0zckQxSUVlVHVHMzIzQnd3cHZmNTQ3a21GM0lVU0pLTnpCYmtxZTN1ZXE0T0pXdWFqcEhEVFRwdm16eUhB?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1399,23 +1410,12 @@
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储12月加息25个基点的概率为97.4%",
+   "title": "CME“美联储观察”数据显示，美联储12月加息25个基点的概率为97.4%",
    "summary": "",
-   "time": "2026-11-24 22:01:31",
-   "url": "https://news.futunn.com/flash/1005521110/the-probability-of-a-25-basis-point-rate-hike-by",
-   "source": "富途",
-   "mentions": 1
-  },
-  {
-   "keyword": "黄仁勋",
-   "label": "黄仁勋",
-   "hint": "英伟达动向是全球AI行情的风向标",
-   "title": "分析指出，黄仁勋重返英伟达掌舵，最核心的意义就是给市场以及整个AI生态系统重新注入信心",
-   "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-24/102508195.html?cxapp_link=true",
-   "source": "财新",
-   "mentions": 1
+   "time": "2026-11-24 22:04:08",
+   "url": "https://news.10jqka.com.cn/20261125/c682173221.shtml",
+   "source": "同花顺",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1615,45 +1615,52 @@
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日跌5.85%，达20日历史波动率的 3.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-25 06:28",
+   "time": "2026-11-25 06:37",
    "chain": "白银急跌 → 金银比价走高 → 工业抛压与避险盘同时撤出 → 光伏/电子成本端短期改善"
   }
  ],
  "news": [
   {
-   "title": "乌匈就能源和基础设施合作达成协议",
-   "summary": "乌克兰总统泽连斯基24日晚在社交媒体发文称，他当天与匈牙利总理毛焦尔·彼得在乌西部城市乌日哥罗德举行会晤，双方在政治、能源、基础设施等多个领域达成合作协议。",
-   "time": "2026-11-25 06:02",
-   "url": "https://wallstreetcn.com/livenews/3205246",
+   "title": "首批主动ETF迎“私募首秀”，业内看好多元配置逻辑",
+   "summary": "本周，首批主动ETF的上市成为市场关注焦点。私募排排网数据显示，共有22家私募证券管理人或旗下产品出现在15只首批上市的主动ETF前十大持有人名单中，合计持有份额5.24亿份。伴随首批主动ETF上市公告书披露，私募在主动ETF上的“首秀”轮廓逐渐清晰。",
+   "time": "2026-11-25 06:34",
+   "url": "https://wallstreetcn.com/livenews/3205262",
    "source": "华尔街见闻"
   },
   {
+   "title": "半导体 基本面未变订单足 沿光互连外溢上游",
+   "summary": "【半导体 基本面未变订单足 沿光互连外溢上游】记者近日梳理发现，第四季度以来，国内半导体上市公司订单或大额合同的披露密度明显提升。如果将时间轴拉长，有更多公司在三季报中就披露了订单情况。值得关注的是，这一轮订单不是只落在AI芯片本身，而是沿着光互连一路向上传导至磷化铟衬底、薄膜铌酸锂，再落到晶圆厂和封装厂的扩产清单上，也让这些赛道有望成为这轮景气里“长坡厚雪”的一段。",
+   "time": "2026-11-25 06:29:18",
+   "url": "https://finance.eastmoney.com/a/202611253938856862.html",
+   "source": "东财国际"
+  },
+  {
    "title": "东方财富财经早餐 11月25日周三",
-   "summary": "1、央行出手！今天5000亿+8000亿，保持银行体系流动性充裕。2、知情人士：美国准备对数十个国家和地区上调关税。3、欧盟宣布对混动汽车采取临时保障措施，商务部回应：坚决维护中国相关产业正当权益。",
+   "summary": "1、8000亿元MLF+5000亿元逆回购，央行长短“组合拳”今日落地。2、商务部：《关于加强相关两用物项对美国出口管制的公告》第二款暂停实施。3、欧盟宣布对混动汽车采取临时保障措施，商务部回应：坚决维护中国相关产业正当权益。",
    "time": "2026-11-25 06:00:58",
    "url": "http://finance.eastmoney.com/a/202611243938774940.html",
    "source": "东财早报"
   },
   {
-   "title": "戴尔表示 客户短期内将预算优先投向服务器和存储 选择推迟部分PC相关更新",
-   "summary": "戴尔表示，客户短期内将预算优先投向服务器和存储，选择推迟部分PC相关更新。",
-   "time": "2026-11-25 05:50:00",
-   "url": "https://finance.eastmoney.com/a/202611253938878798.html",
-   "source": "东财国际"
+   "title": "美媒披露黄仁勋重返英伟达内幕：万斯发挥了重要作用 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-25 05:16",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNck9EYTVCcTdwWFMyT21VQ1RZbzR2YnZUNnlBRG9RMHBHZnduOTJzQ2VHOXJzVG1lV2N1dXRneFFwRFNWX1FOa1BwYTRKTEp6Vk0zckQxSUVlVHVHMzIzQnd3cHZmNTQ3a21GM0lVU0pLTnpCYmtxZTN1ZXE0T0pXdWFqcEhEVFRwdm16eUhB?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "Anthropic上市第四个交易日即破发 股价能否企稳？ - 财联社电报",
+   "title": "惠誉将地缘集团评级上调至\"BB\"，债务削减与现金流改善成关键驱动力 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-25 04:04",
-   "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBUS3VObWhjdERfSGJ5eER4anVhbG0yY01zM3Z5c25KTEplbTJORDQ5TWRmQnhQYWZidWNLYXZMUE9CNmhRQ0E?oc=5",
+   "time": "2026-11-25 04:32",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZWnpqamhGNmNJQndBZkhyU0d1aUh2V2NRc2xkNTI4aFpZczA5d2FTM3p5UnRjeTE0TnZ6LUJqY1hCUFR1dmR4azJSYUZVRFJRLWVxNERNV0lPdnlOTkhGSDdJN2NIOEJpWXZjTjdHeHk?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普将与北约秘书长吕特举行会谈 - 美国之音",
+   "title": "CME“美联储观察”数据显示，美联储12月加息25个基点的概率为97.4%",
    "summary": "",
-   "time": "2026-11-25 03:27",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY2JwNVV1ZkJhWWd0VGRRbU81aXA1MVZJWHoxLTFNcmtfYlFyTWJaQjJPVHFkS2gwOGRuNEVBblFrZlBmVnFwR2N5UGNPQldlY3J5VWFvV2hEQThaRDZxaDVpeXo4V0ItY0xldklxV0dhX2l4bk5IYzNUYVM0bWd6NkhDdnNzLThQMFB2eVlPRDlqSENqVG9TQTlHWUHSAZ8BQVVfeXFMTUt6RTF1NnQ3b0pnMkh5dm5VVGNmRXZzZHNiRkVrcjIwZzRISWgwMEdlVzRJSGlLUHBTampQTVJkYldFcjB4WEtnbXktQ3JkQ2xtMWNaZjE0TkJKV2I2SzFaT1NKNzdmYnZkUUlPQ0RFUHhmMmhEeFlrVnowcVpELXFLVTMtVEJTSDgyR1d1ajd6eWV1dU9NSVNOVU43bWN3?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-24 22:04:08",
+   "url": "https://news.10jqka.com.cn/20261125/c682173221.shtml",
+   "source": "同花顺"
   },
   {
    "title": "美联储12月加息25个基点的概率为97.4%",
@@ -1663,13 +1670,6 @@
    "source": "富途"
   },
   {
-   "title": "戴尔表示，客户短期内将预算优先投向服务器和存储，选择推迟部分PC相关更新",
-   "summary": "",
-   "time": "2026-11-24 22:00:51",
-   "url": "https://news.10jqka.com.cn/20261125/c682173213.shtml",
-   "source": "同花顺"
-  },
-  {
    "title": "A股主要指数普遍收跌，中小盘及科技成长板块承压，银行、食品饮料等防御性板块相对抗跌。港股同步走弱，市场风险偏好持续收缩",
    "summary": "",
    "time": "",
@@ -1677,11 +1677,18 @@
    "source": "财新"
   },
   {
-   "title": "神二十四航天员到达发射塔架 等待进舱",
-   "summary": "11月25日，搭载神舟二十四号载人飞船的长征二号F遥二十四运载火箭将在酒泉卫星发射中心发射升空。目前，三名航天员已经到达发射塔架，正在等待进舱。（央视新闻）",
-   "time": "2026-11-25 05:49",
-   "url": "https://wallstreetcn.com/livenews/3205244",
+   "title": "电子布年内价格大涨200%，拉动上游设备需求",
+   "summary": "在AI算力需求大增的拉动下，作为PCB（印刷电路板）原材料的玻纤电子布在2026年实现价格节节攀升。卓创资讯数据显示，11月13日至19日，电子纱G75主流市场成交均价约为29200元/吨，7628型号主流电子布成交价格在14.5元/米至14.8元/米不等，较年初上涨约200%。",
+   "time": "2026-11-25 06:30",
+   "url": "https://wallstreetcn.com/livenews/3205260",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "从逆势加仓到结构调仓 险资寻求资产配置再平衡",
+   "summary": "【从逆势加仓到结构调仓 险资寻求资产配置再平衡】经历三季度逆势加仓股票后，保险资金正转向配置再平衡。记者近日从业内调研获悉，2026年第三季度，在股票市场持续回调的过程中，保险资金逆势加仓了股票资产；四季度以来，随着市场震荡回调，保险资金在风控、偿付能力等约束下，转向权益资产配置的再平衡。",
+   "time": "2026-11-25 06:25:12",
+   "url": "https://finance.eastmoney.com/a/202611253938855886.html",
+   "source": "东财国际"
   },
   {
    "title": "东方财富财经早餐 11月24日周二",
@@ -1691,25 +1698,25 @@
    "source": "东财早报"
   },
   {
-   "title": "法国将建立稀土及关键金属战略储备 约20种原材料纳入计划",
-   "summary": "【法国将建立稀土及关键金属战略储备 约20种原材料纳入计划】法国正计划建立稀土及关键金属战略储备，仿效石油储备机制，以增强工业供应链的安全性，应对关键原材料供应中断带来的风险。该计划将由法国国家储蓄与投资银行负责管理，并配套建立联合采购和价格保障机制，力争在2027年正式启动。",
-   "time": "2026-11-25 05:43:52",
-   "url": "https://finance.eastmoney.com/a/202611243938827583.html",
-   "source": "东财国际"
+   "title": "特朗普将与北约秘书长吕特举行会谈 - 美国之音",
+   "summary": "",
+   "time": "2026-11-25 03:27",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY2JwNVV1ZkJhWWd0VGRRbU81aXA1MVZJWHoxLTFNcmtfYlFyTWJaQjJPVHFkS2gwOGRuNEVBblFrZlBmVnFwR2N5UGNPQldlY3J5VWFvV2hEQThaRDZxaDVpeXo4V0ItY0xldklxV0dhX2l4bk5IYzNUYVM0bWd6NkhDdnNzLThQMFB2eVlPRDlqSENqVG9TQTlHWUHSAZ8BQVVfeXFMTUt6RTF1NnQ3b0pnMkh5dm5VVGNmRXZzZHNiRkVrcjIwZzRISWgwMEdlVzRJSGlLUHBTampQTVJkYldFcjB4WEtnbXktQ3JkQ2xtMWNaZjE0TkJKV2I2SzFaT1NKNzdmYnZkUUlPQ0RFUHhmMmhEeFlrVnowcVpELXFLVTMtVEJTSDgyR1d1ajd6eWV1dU9NSVNOVU43bWN3?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "君正股份（300223.SZ）壹评级首次评级 - 第一财经",
+   "title": "标普将PROG Holdings评级展望上调至稳定，收购后去杠杆进展迅速 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-25 03:06",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3N20zMHFSQ1pFZG9qZ1BYTlctdm5URFdWd2xzd0FlbXI4TktPd3R2RzJlZEZxSVl4OFNLZ0lJZ2E0R0NyMGFqY3NhUG5oRkJJNnZZ?oc=5",
+   "time": "2026-11-25 04:29",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pTXJRMGlnRFFoZGZSX2ZzMjNRVmh3RUk4MURPSnBNaG51cGhlT3NZOFpBTHFVSjJ2QjQ0MUJNMExrazlhd1NOY3E3MmwxQnQzdW4zZXZQeVB0U3pFSUtoS0JFYzd1bTBkS0JEVnBwQW4?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国财政部：特朗普账户已收到来自亲友的超过10亿美元直接缴款 - 新浪财经",
+   "title": "戴尔表示，客户短期内将预算优先投向服务器和存储，选择推迟部分PC相关更新",
    "summary": "",
-   "time": "2026-11-25 02:33",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR0ttUlprWTZ2X3dCMHo1QU5GU011U1BjNGpxRGoxa0cxUXp0S1NKQzRPMUtMZi1SM1plUkg2T3k1MTVfZkdIMGo5ZEFYLVhRM0xwWnRqTGg0eFpUVkpKWmhRWko0QWx3TF9SLUZxT0tWanVNQ2tVRGdmejNPeF9Ia3o1WnJxOVFOMkdDdVJQWlBMV0x5MnN4VFJrQVY?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-24 22:00:51",
+   "url": "https://news.10jqka.com.cn/20261125/c682173213.shtml",
+   "source": "同花顺"
   },
   {
    "title": "小摩2027年标普500目标位为8200点 低于华尔街共识",
@@ -1719,13 +1726,6 @@
    "source": "富途"
   },
   {
-   "title": "惠普股价盘后转跌，最新下跌4%，此前一度上涨15%",
-   "summary": "",
-   "time": "2026-11-24 21:39:35",
-   "url": "https://news.10jqka.com.cn/20261125/c682173012.shtml",
-   "source": "同花顺"
-  },
-  {
    "title": "分析指出，黄仁勋重返英伟达掌舵，最核心的意义就是给市场以及整个AI生态系统重新注入信心",
    "summary": "",
    "time": "",
@@ -1733,11 +1733,18 @@
    "source": "财新"
   },
   {
-   "title": "周二（11月24日）纽约尾盘，现货黄金跌2.23%，报3553.67美元/盎司。\n\n现货白银跌5.12%，报40.8717美元/盎司。\n\nCOMEX铜期货跌4.19%，报5.4825美元/磅。\n\n在美股时段交易的费城金银指数收跌1.86%，",
-   "summary": "周二（11月24日）纽约尾盘，现货黄金跌2.23%，报3553.67美元/盎司。\n\n现货白银跌5.12%，报40.8717美元/盎司。\n\nCOMEX铜期货跌4.19%，报5.4825美元/磅。\n\n在美股时段交易的费城金银指数收跌1.86%，原材料指数收跌0.11%，金属与矿业指数收跌2.85%。\n\n在全球市场全天交易的纽约证交所ARCA金矿开采商指数跌1.36%，报2051.66点。",
-   "time": "2026-11-25 05:48",
-   "url": "https://wallstreetcn.com/livenews/3205243",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 08:30 澳大利亚10月CPI；\n\n② 15:00 德国三季度GDP终值；\n\n③ 港股收盘之后 美团、理想汽车发布业绩报告；\n\n④ 美股盘前 迪尔农机/约翰迪尔发布业绩报告；\n\n⑤ 20:30 欧洲央行发布10月28-29日货币政策会议的纪要文件；\n\n⑥ 21:30 美国三季度GDP修正值，10月实际个人消费支出（PCE）、个人收入、耐用品订单环比初值，11月21日当周首次申请失业救济人数；",
+   "time": "2026-11-25 06:30",
+   "url": "https://wallstreetcn.com/livenews/3205259",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "半导体ETF接连举牌上市公司 机构看好科技板块配置价值",
+   "summary": "【半导体ETF接连举牌上市公司 机构看好科技板块配置价值】ETF正在成为推动科技板块趋稳的重要力量，两家科技行业上市公司近日接连被ETF举牌。从最新动向看，在近期震荡行情中，大量资金借道ETF积极入市，半导体主题ETF本月净流入超过260亿元。在部分业内人士看来，从市场情绪与产业基本面的匹配度来看，AI板块有望迎来阶段性反弹，从中长期看也具有配置价值。",
+   "time": "2026-11-25 06:22:17",
+   "url": "https://finance.eastmoney.com/a/202611253938856520.html",
+   "source": "东财国际"
   },
   {
    "title": "东方财富财经早餐 11月23日周一",
@@ -1747,25 +1754,25 @@
    "source": "东财早报"
   },
   {
-   "title": "小米三季报出炉 卢伟冰：“从业以来最难的一个季度”",
-   "summary": "【小米三季报出炉 卢伟冰：“从业以来最难的一个季度”】11月24日，小米集团发布2026年第三季度业绩报告。集团单季营收1072亿元，同比下滑5.2%，环比下滑1.5%；经营利润65.72亿元，同比下滑56.5%，环比下滑39.5%；经调整净利润48.84亿元，同比下滑56.8%，环比下滑21.5%。",
-   "time": "2026-11-25 05:42:56",
-   "url": "https://finance.eastmoney.com/a/202611243938812756.html",
-   "source": "东财国际"
+   "title": "美国财政部：特朗普账户已收到来自亲友的超过10亿美元直接缴款 - 新浪财经",
+   "summary": "",
+   "time": "2026-11-25 02:33",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR0ttUlprWTZ2X3dCMHo1QU5GU011U1BjNGpxRGoxa0cxUXp0S1NKQzRPMUtMZi1SM1plUkg2T3k1MTVfZkdIMGo5ZEFYLVhRM0xwWnRqTGg0eFpUVkpKWmhRWko0QWx3TF9SLUZxT0tWanVNQ2tVRGdmejNPeF9Ia3o1WnJxOVFOMkdDdVJQWlBMV0x5MnN4VFJrQVY?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "B of A Securities维持Box“买入”评级，目标价从50美元上调至55美元 - TradingView",
+   "title": "标普将斯克里普斯传媒评级上调至\"B-\"，看好其削减成本与降债进展 提供者 Investing.com - 英为财情 Investing.com",
    "summary": "",
-   "time": "2026-11-25 01:01",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ycERCRlkzakNfcGI3NnpQd3JSb3NEbnFtMTRZTXl6Nlh1bmMwa18xS1ctYjJpNzRxMFRwRUkxdXFNcHdwWmlNZ2QzMjhoblRLNXMtdlYtRXNKZlJjbjhONWxCbVVmME4wRk5HRQ?oc=5",
+   "time": "2026-11-25 04:24",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9HeW9oU3BfbmZHWjRuTk5kVlRkY1MxajhsWWFjRVB3MjFYcVh5LW1tM002anFCTVlOcE1NRERBdVpaZjhLV05KWDF5ZTBnZXdjMjRUNEFkYWR4dzMyZXlxb3pMRFhYNGItVzVHQ1BIZDQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "亿万富翁比尔·阿克曼警告：美联储“即将犯下另一个错误” - 新浪财经",
+   "title": "惠普股价盘后转跌，最新下跌4%，此前一度上涨15%",
    "summary": "",
-   "time": "2026-11-25 02:28",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVlloNmdtVFE1MEJNLXB0ZkhnNm9RQ1RSSzRLSVg3VUJjQ0pGaGpqSWN3Vjl6ZkVseU5Wd0VtNzFROVBZN1QtcUJ0SE5KT3BFTi1GNnlid0tiS0wwa21KajBMaWhXSExMam1YOG1WX05mVnBmckxTQk0ta09qZTdYMjVORVZqem8?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-24 21:39:35",
+   "url": "https://news.10jqka.com.cn/20261125/c682173012.shtml",
+   "source": "同花顺"
   },
   {
    "title": "美股收盘：纳指跌近1.5% 英伟达跌近6% Anthropic破发",
@@ -1773,13 +1780,6 @@
    "time": "2026-11-24 21:01:25",
    "url": "https://news.futunn.com/flash/1005516650/us-market-close-nasdaq-drops-nearly-1-5-nvidia-falls",
    "source": "富途"
-  },
-  {
-   "title": "惠普股价盘后上涨14.5%，此前公布业绩",
-   "summary": "",
-   "time": "2026-11-24 21:26:10",
-   "url": "https://news.10jqka.com.cn/20261125/c682172985.shtml",
-   "source": "同花顺"
   },
   {
    "title": "特朗普称英伟达股价大跌使说服董事会变得更容易，强调介入公司管理层事务是为了美国利益",
@@ -1793,7 +1793,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(15)",
+   "富途": "ok(12)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1803,12 +1803,12 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "东财早报": 3,
    "东财国际": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
-   "富途": 6,
+   "东财早报": 3,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 6,
    "同花顺": 6,
+   "富途": 6,
    "财新": 6
   }
  },
