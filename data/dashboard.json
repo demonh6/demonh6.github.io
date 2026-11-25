@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 12:10:43 CST",
- "generated_at_iso": "2026-11-25T12:10:43+08:00",
+ "generated_at": "2026-11-25 12:19:17 CST",
+ "generated_at_iso": "2026-11-25T12:19:17+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 22268.621,
-    "change": 48.971,
-    "change_pct": 0.22,
+    "price": 22267.439,
+    "change": 47.789,
+    "change_pct": 0.21,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3475.28,
-    "change": 8.41,
-    "change_pct": 0.24,
+    "price": 3472.58,
+    "change": 5.71,
+    "change_pct": 0.17,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 7488.32,
-    "change": 35.76,
-    "change_pct": 0.48,
+    "price": 7487.06,
+    "change": 34.5,
+    "change_pct": 0.46,
     "hist": [
      8030.54,
      8051.6704,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3570.64,
-    "change": -20.46,
-    "change_pct": -0.57,
-    "quote_time": "12:10:43 2026-11-25"
+    "price": 3584.744,
+    "change": -6.356,
+    "change_pct": -0.18,
+    "quote_time": "12:19:16 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 40.969,
-    "change": -0.283,
-    "change_pct": -0.69,
-    "quote_time": "12:10:43 2026-11-25"
+    "price": 41.144,
+    "change": -0.108,
+    "change_pct": -0.26,
+    "quote_time": "12:19:19 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 80.684,
-    "change": -1.366,
-    "change_pct": -1.66,
-    "quote_time": "12:10:35 2026-11-25"
+    "price": 80.791,
+    "change": -1.259,
+    "change_pct": -1.53,
+    "quote_time": "12:19:06 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 87.456,
-    "change": -1.324,
-    "change_pct": -1.49,
-    "quote_time": "12:10:41 2026-11-25"
+    "price": 87.576,
+    "change": -1.204,
+    "change_pct": -1.36,
+    "quote_time": "12:18:50 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59210.2,
-    "change": -1283.1,
-    "change_pct": -2.12,
+    "price": 59370.8,
+    "change": -1098.1,
+    "change_pct": -1.82,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1659.8,
-    "change": -40.07,
-    "change_pct": -2.36,
+    "price": 1666.21,
+    "change": -33.85,
+    "change_pct": -1.99,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.08,
-    "change": -2.51,
-    "change_pct": -3.51,
+    "price": 69.37,
+    "change": -2.41,
+    "change_pct": -3.36,
     "source": "okx"
    }
   ],
@@ -1322,18 +1322,18 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.973,
-    "change": 0.148,
+    "price": 103.98,
+    "change": 0.15,
     "change_pct": 0.14,
     "dec": 2,
-    "date": "2026-11-25",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.673,
+    "price": 6.6717,
     "change": null,
     "change_pct": null,
     "dec": 4,
@@ -1373,13 +1373,13 @@
    "source": "东财"
   },
   "composite": {
-   "score": 65.8,
+   "score": 65.3,
    "label": "偏热",
    "color": "#8ac96f",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 55.0,
-    "structure": 82.0
+    "structure": 80.8
    }
   }
  },
@@ -1907,9 +1907,9 @@
  "structure": {
   "date": "2026-11-25",
   "zt_count": 60,
-  "dt_count": 0,
+  "dt_count": 2,
   "zb_count": 14,
-  "qs_count": 0,
+  "qs_count": 67,
   "seal_rate": 81.1,
   "first_board": 49,
   "continued": 11,
@@ -1988,7 +1988,16 @@
     "share": 3.3
    }
   ],
-  "dt_industries": [],
+  "dt_industries": [
+   {
+    "name": "化学原料",
+    "count": 1
+   },
+   {
+    "name": "通信服务",
+    "count": 1
+   }
+  ],
   "leaders": [
    {
     "name": "克来机电",
@@ -2045,14 +2054,26 @@
     "broken": 1
    }
   ],
-  "dt_leaders": [],
+  "dt_leaders": [
+   {
+    "name": "北纬科技",
+    "code": "002148",
+    "industry": "通信服务",
+    "change_pct": -9.99
+   },
+   {
+    "name": "英 力 特",
+    "code": "000635",
+    "industry": "化学原料",
+    "change_pct": -10.0
+   }
+  ],
   "index_pct": -1.01,
-  "score": 82.0,
+  "score": 80.8,
   "score_label": "过热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
    "封板率 81%（炸板 14 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
-   "无跌停且涨停 60 家：当日风险偏好偏高，属于普涨式做多环境。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 11 家 / 涨停 60 家（18%）：以首板为主，持续性待验证",
    "涨停最集中的 化学制药 也只占 17%：热点分散，没有单一主线。",
@@ -2296,11 +2317,11 @@
    {
     "date": "2026-11-25",
     "zt": 60,
-    "dt": 0,
+    "dt": 2,
     "zb": 14,
     "seal": 81.1,
     "max_streak": 4,
-    "score": 82.0,
+    "score": 80.8,
     "index_pct": -1.01
    }
   ],
