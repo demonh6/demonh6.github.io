@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 21:19:18 CST",
- "generated_at_iso": "2026-11-25T21:19:18+08:00",
+ "generated_at": "2026-11-25 21:27:30 CST",
+ "generated_at_iso": "2026-11-25T21:27:30+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1485,37 +1485,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3527.28,
-    "change": -63.82,
-    "change_pct": -1.78,
-    "quote_time": "21:19:19 2026-11-25"
+    "price": 3529.71,
+    "change": -61.39,
+    "change_pct": -1.71,
+    "quote_time": "21:27:32 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 39.849,
-    "change": -1.403,
-    "change_pct": -3.4,
-    "quote_time": "21:19:20 2026-11-25"
+    "price": 40.156,
+    "change": -1.096,
+    "change_pct": -2.66,
+    "quote_time": "21:27:31 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.468,
-    "change": 0.418,
-    "change_pct": 0.51,
-    "quote_time": "21:19:19 2026-11-25"
+    "price": 82.579,
+    "change": 0.529,
+    "change_pct": 0.64,
+    "quote_time": "21:27:27 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 89.164,
-    "change": 0.384,
-    "change_pct": 0.43,
-    "quote_time": "21:19:18 2026-11-25"
+    "price": 89.262,
+    "change": 0.482,
+    "change_pct": 0.54,
+    "quote_time": "21:27:30 2026-11-25"
    }
   ],
   "crypto": [
@@ -1523,27 +1523,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 58663.1,
-    "change": -1513.2,
-    "change_pct": -2.51,
+    "price": 58855.2,
+    "change": -1291.8,
+    "change_pct": -2.15,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1645.87,
-    "change": -47.84,
-    "change_pct": -2.82,
+    "price": 1652.05,
+    "change": -42.33,
+    "change_pct": -2.5,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 67.7,
-    "change": -2.37,
-    "change_pct": -3.38,
+    "price": 67.92,
+    "change": -2.01,
+    "change_pct": -2.87,
     "source": "okx"
    }
   ],
@@ -1551,9 +1551,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.989,
-    "change": 0.164,
-    "change_pct": 0.16,
+    "price": 103.953,
+    "change": 0.128,
+    "change_pct": 0.12,
     "dec": 2,
     "date": "2026-11-25",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1562,13 +1562,13 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6744,
-    "change": null,
-    "change_pct": null,
+    "price": 6.6724,
+    "change": 0.0075,
+    "change_pct": 0.11,
     "dec": 4,
-    "date": "2026-11-25",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1577,9 +1577,9 @@
     "change": 1.77,
     "change_pct": 1.29,
     "dec": 2,
-    "date": "2026-11-25",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1824,28 +1824,28 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.19%，达20日历史波动率的 3.5 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-25 21:19",
+   "time": "2026-11-25 21:27",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-25 21:19",
+   "time": "2026-11-25 21:27",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "上证指数",
    "message": "上证指数单日跌2.03%，达20日历史波动率的 2.2 倍（σ=0.94%，突破 2σ 警戒线）",
-   "time": "2026-11-25 21:19",
+   "time": "2026-11-25 21:27",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.24%，达20日历史波动率的 2.7 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-25 21:19",
+   "time": "2026-11-25 21:27",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
