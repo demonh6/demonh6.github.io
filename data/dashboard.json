@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 06:28:19 CST",
- "generated_at_iso": "2026-11-26T06:28:19+08:00",
+ "generated_at": "2026-11-26 06:36:34 CST",
+ "generated_at_iso": "2026-11-26T06:36:34+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -719,7 +719,7 @@
     "price": 23585.8023,
     "change": -147.733,
     "change_pct": -0.62,
-    "quote_time": "2026-11-26 06:28:00",
+    "quote_time": "2026-11-26 06:30:00",
     "hist": [
      27477.3105,
      27599.791,
@@ -1283,10 +1283,10 @@
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 90.77,
-    "change": 1.99,
+    "price": 90.768,
+    "change": 1.988,
     "change_pct": 2.24,
-    "quote_time": "06:27:14 2026-11-26"
+    "quote_time": "06:34:55 2026-11-26"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60072.1,
-    "change": 77.8,
-    "change_pct": 0.13,
+    "price": 60215.4,
+    "change": 157.8,
+    "change_pct": 0.26,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1683.58,
-    "change": -1.16,
-    "change_pct": -0.07,
+    "price": 1687.11,
+    "change": 0.9,
+    "change_pct": 0.05,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.42,
-    "change": 0.68,
-    "change_pct": 0.98,
+    "price": 70.55,
+    "change": 0.66,
+    "change_pct": 0.94,
     "source": "okx"
    }
   ],
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6681,
-    "change": 0.0006,
-    "change_pct": 0.01,
+    "price": 6.6665,
+    "change": -0.001,
+    "change_pct": -0.01,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1394,6 +1394,17 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFN3QkVPM2czWFBUX2NzeVFBNXY3Y0JPcHc5QnluQThhYUdrTlg5bG0wQTZDaVZGaUtEMy1BVFVYQXYzTmFIdzhjRzFzalFDZkpNNnRZbUNLbF9EbTV5amphb3ctb3pPUWxpZUtNeWtMbkRHVFZwdUlHQnRXd2NTNnE2YmNJWG8?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普：明年1月将邀民主党领袖赴白宫会谈",
+   "summary": "",
+   "time": "2026-11-25 22:26:49",
+   "url": "https://news.futunn.com/flash/1005664226/trump-to-invite-democratic-leaders-to-white-house-for-talks",
+   "source": "富途",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1603,45 +1614,59 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.19%，达20日历史波动率的 3.5 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-26 06:28",
+   "time": "2026-11-26 06:37",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 6 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-26 06:28",
+   "time": "2026-11-26 06:37",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "上证指数",
    "message": "上证指数单日跌2.03%，达20日历史波动率的 2.2 倍（σ=0.94%，突破 2σ 警戒线）",
-   "time": "2026-11-26 06:28",
+   "time": "2026-11-26 06:37",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.24%，达20日历史波动率的 2.7 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-26 06:28",
+   "time": "2026-11-26 06:37",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
  "news": [
   {
-   "title": "国际金价涨超0.7%",
-   "summary": "周三（11月25日）纽约尾盘，现货黄金涨0.72%，报3580.93美元/盎司，全天实现V形反转，北京时间23:19曾跌至3426.77美元，逼近2025年8月29日盘中最低位3404.41美元、当年4月9日底部2970.17美元。\n\n现货白银涨0.91%，报41.2411美元/盎司，23:17曾跌至38.2115美元。\n\nCOMEX铜期货涨0.44%，报5.4770美元/磅，23:18曾跌至5.",
-   "time": "2026-11-26 05:59",
-   "url": "https://wallstreetcn.com/livenews/3205944",
+   "title": "爱奇艺：收到纳斯达克不合规通知，暂不停牌，180日内整改",
+   "summary": "爱奇艺发文称，已收到纳斯达克的书面通知。该通知属于纳斯达克上市规则下的常规程序性沟通，仅为不合规通知，不会导致公司的美国存托票据（ADS）被立即退市或暂停交易。公司的ADS目前将继续以现有股票代码在纳斯达克保持上市和交易。公司收到该通知不会影响公司的业务运营，公司向美国证券交易委员会履行的信息披露义务保持不变。公司目前正在评估各种可行方案，以在180个自然日内重新符合纳斯达克的持续上市要求，维持上",
+   "time": "2026-11-26 06:36",
+   "url": "https://wallstreetcn.com/livenews/3205962",
    "source": "华尔街见闻"
   },
   {
-   "title": "为科技创新输送金融活水 科创债年内发行规模达1.7万亿元",
-   "summary": "【为科技创新输送金融活水 科创债年内发行规模达1.7万亿元】作为债券市场服务科技创新的重要载体，科创债发行规模持续保持在高位水平。数据显示，以发行起始日为统计口径，截至11月25日，科创债发行规模年内已达1.70万亿元，发行数量1730只。与此同时，二级市场配套机制同步完善，24只科创债ETF总规模达3364亿元，与成立之初的规模相比增长明显，不断吸引增量资金入场。业内人士指出，科创债快速扩容，标志着债市“科技板”建设取得实质性成效。但也要看到，部分硬科技细分赛道发债规模仍相对有限，后续还需进一步完善增信工具与风险分担机制，扩大债券融资对科创企业的覆盖范围。",
-   "time": "2026-11-26 05:52:45",
-   "url": "https://finance.eastmoney.com/a/202611263939929188.html",
+   "title": "电力设备龙头企业迎来订单爆发期",
+   "summary": "【电力设备龙头企业迎来订单爆发期】在多重需求共振带动下，电力设备赛道景气度上行，产业链龙头企业迎来订单爆发期。国家电网电子商务平台近日发布2026年第五次变电设备公开招标中标公告。本次招标共涵盖18项物资、468个物资包（其中1包流标），投标报价合计约109.69亿元，共有233家企业入围中标名单。根据中国西电电气股份有限公司近日披露的公告，该公司12家子公司中标变压器、电抗器、组合电器等多类产品，合计11.1464亿元。此外，河南平高电气股份有限公司、长高电气集团股份公司、金冠电气股份有限公司等多家电力设备上市公司也相继公告斩获订单。",
+   "time": "2026-11-26 06:33:00",
+   "url": "https://finance.eastmoney.com/a/202611263939936950.html",
    "source": "东财国际"
+  },
+  {
+   "title": "穆迪维持英伟达评级及展望不变 - 东方财富",
+   "summary": "",
+   "time": "2026-11-26 06:21",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zMkxPZEp2bEZ2aXRPWWdkUkpodUZIcXZzYjRDNGlodDZqb1A2dXlrTnprbkZkcUstRWZoNVFPdFBjbDZtZlQxODRMelZrcjZ0ajg5VWFHX093TUxHRmhLNDk2UQ?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "东方财富财经早餐 11月26日周四",
+   "summary": "1、美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄。2、多只宽基ETF尾盘放量！近两个月股票型ETF净流入超7600亿元。3、美媒：美政府正重新考虑或将伊朗高层列为打击目标。",
+   "time": "2026-11-26 06:00:37",
+   "url": "http://finance.eastmoney.com/a/202611253939893751.html",
+   "source": "东财早报"
   },
   {
    "title": "法国世界报 - 英伟达\"闹剧\"：习近平的\"稳定\"与特朗普的\"混乱\"之最新一章 - RFI",
@@ -1651,31 +1676,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "东方财富财经早餐 11月26日周四",
-   "summary": "1、美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄。2、多只宽基ETF尾盘放量！近两个月股票型ETF净流入超7600亿元。3、美媒：美政府正重新考虑或将伊朗高层列为打击目标。",
-   "time": "2026-11-26 05:38:37",
-   "url": "http://finance.eastmoney.com/a/202611253939893751.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "标普将英伟达列入“信用观察负面”名单，治理风险成评级焦点 - 华尔街见闻",
+   "title": "美股尾盘收复失地 亚洲市场有望跟随反弹",
    "summary": "",
-   "time": "2026-11-26 04:56",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrQ1VFUVlyNnluSTJwTmoxR0NFZWdHcllRV2JyVnctTGlpZGYxUlhBQmlwTlNjLTBXSmhJR1drRWVaazJzOEFnUzVIYWcyWVRfbmlV?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "美联储12月加息25个基点的概率为97.2%",
-   "summary": "",
-   "time": "2026-11-25 22:01:55",
-   "url": "https://news.futunn.com/flash/1005662782/the-probability-of-the-federal-reserve-raising-interest-rates-by",
+   "time": "2026-11-25 22:29:10",
+   "url": "https://news.futunn.com/flash/1005664298/us-stocks-recover-late-day-losses-asian-markets-poised-to",
    "source": "富途"
   },
   {
-   "title": "Tempus AI签订3.85亿美元定期贷款及1.15亿美元循环信贷额度",
+   "title": "上市公司回购增持升温 银行加快投放专项贷款",
    "summary": "",
-   "time": "2026-11-25 21:40:26",
-   "url": "https://news.10jqka.com.cn/20261126/c682221436.shtml",
+   "time": "2026-11-25 22:21:55",
+   "url": "https://news.10jqka.com.cn/20261126/c682222087.shtml",
    "source": "同花顺"
   },
   {
@@ -1686,25 +1697,25 @@
    "source": "财新"
   },
   {
-   "title": "网红券商Robinhood没能在体彩集体诉讼中实现强迫仲裁。",
-   "summary": "网红券商Robinhood没能在体彩集体诉讼中实现强迫仲裁。",
-   "time": "2026-11-26 05:53",
-   "url": "https://wallstreetcn.com/livenews/3205943",
+   "title": "韩国将推出电动汽车电池租赁计划。（韩国经济日报）",
+   "summary": "韩国将推出电动汽车电池租赁计划。（韩国经济日报）",
+   "time": "2026-11-26 06:35",
+   "url": "https://wallstreetcn.com/livenews/3205961",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国三季度GDP增速大幅上修至4.3% AI投资成经济增长核心引擎",
-   "summary": "【美国三季度GDP增速大幅上修至4.3% AI投资成经济增长核心引擎】尽管高利率环境持续对房地产等领域形成压力，但强劲的消费支出和人工智能(AI)相关投资为美国经济注入了强劲动力，推动三季度GDP增速大幅上修至三年来最快水平。",
-   "time": "2026-11-26 05:50:54",
-   "url": "https://finance.eastmoney.com/a/202611253939913989.html",
+   "title": "年末“冲量”提前启动 个人养老金将迎增量资金",
+   "summary": "【年末“冲量”提前启动 个人养老金将迎增量资金】临近12月，银行的个人养老金缴存推广活动提前铺开，基金公司也在为相关产品积极拓展代销渠道。同时，上海证券报记者获悉，近日有基金公司收到监管方口头通知，旗下“固收+”基金有望申请增设Y类份额，新一批产品后续有望亮相。部分业内人士认为，岁末往往是个人养老金的缴存高峰期，随着更多含权产品进入个人养老金基金池，市场或迎来新的长期增量资金。",
+   "time": "2026-11-26 06:25:31",
+   "url": "https://finance.eastmoney.com/a/202611263939939727.html",
    "source": "东财国际"
   },
   {
-   "title": "美联储褐皮书显示经济温和增长 薪资压力上升 - 新浪财经",
+   "title": "敏华控股(01999.HK)发布公告，于2026年11月25日斥资1224.04万港元回购588.48万股-证券之星 - 证券之星",
    "summary": "",
-   "time": "2026-11-26 04:52",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFN3QkVPM2czWFBUX2NzeVFBNXY3Y0JPcHc5QnluQThhYUdrTlg5bG0wQTZDaVZGaUtEMy1BVFVYQXYzTmFIdzhjRzFzalFDZkpNNnRZbUNLbF9EbTV5amphb3ctb3pPUWxpZUtNeWtMbkRHVFZwdUlHQnRXd2NTNnE2YmNJWG8?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-26 06:20",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BbTRpcXVROHFiNnVWY0RGcDZXWXJja1h1cVZQeVh0MVFFVFhvQW5IVTVaTEpCcVdjVkxKUHBVeXFoSXBHVV9xQlJyRHVqd1FsRkF4bzY4QzhIWGpraVE?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "东方财富财经早餐 11月25日周三",
@@ -1714,24 +1725,24 @@
    "source": "东财早报"
   },
   {
-   "title": "洋河股份：经销商库存得到有效去化 - 第一财经",
+   "title": "美联储褐皮书显示经济温和增长 薪资压力上升 - 新浪财经",
    "summary": "",
-   "time": "2026-11-26 03:56",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iNUtqaXN2N3JJWTNqamFsUTJNd1M5ZWhaNUg3cWtiR1NTcWpSS0pHS2c3ZjJ3blpuYm9GOVRMYzRYbWJUWUZJeTJ6TlVSQmJycllB?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-26 04:52",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFN3QkVPM2czWFBUX2NzeVFBNXY3Y0JPcHc5QnluQThhYUdrTlg5bG0wQTZDaVZGaUtEMy1BVFVYQXYzTmFIdzhjRzFzalFDZkpNNnRZbUNLbF9EbTV5amphb3ctb3pPUWxpZUtNeWtMbkRHVFZwdUlHQnRXd2NTNnE2YmNJWG8?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "PANW公司前经理指控其存在会计欺诈行为",
+   "title": "特朗普：明年1月将邀民主党领袖赴白宫会谈",
    "summary": "",
-   "time": "2026-11-25 22:00:00",
-   "url": "https://news.futunn.com/flash/1005662406/a-former-manager-of-panw-has-accused-the-company-of",
+   "time": "2026-11-25 22:26:49",
+   "url": "https://news.futunn.com/flash/1005664226/trump-to-invite-democratic-leaders-to-white-house-for-talks",
    "source": "富途"
   },
   {
-   "title": "纳斯达克中国金龙指数收涨1.87%，报5243.02点。",
+   "title": "Tempus AI签订3.85亿美元定期贷款及1.15亿美元循环信贷额度",
    "summary": "",
-   "time": "2026-11-25 21:08:18",
-   "url": "https://news.10jqka.com.cn/20261126/c682221400.shtml",
+   "time": "2026-11-25 21:40:26",
+   "url": "https://news.10jqka.com.cn/20261126/c682221436.shtml",
    "source": "同花顺"
   },
   {
@@ -1742,25 +1753,25 @@
    "source": "财新"
   },
   {
-   "title": "黄金储备公司对委内瑞拉认定Siembra Minera为该国最具战略价值矿业资产之一表示欢迎。\n\n确认已准备好重启运营并解决未决索赔事项。",
-   "summary": "黄金储备公司对委内瑞拉认定Siembra Minera为该国最具战略价值矿业资产之一表示欢迎。\n\n确认已准备好重启运营并解决未决索赔事项。",
-   "time": "2026-11-26 05:45",
-   "url": "https://wallstreetcn.com/livenews/3205942",
+   "title": "震荡行情拾筹码，社保基金频出手",
+   "summary": "在震荡调整行情中，社保基金频频出手。上市公司近期公告显示，社保基金不仅加仓了多家有色金属龙头公司，还买入了多家科技公司的股票。在部分业内人士看来，作为长线资金的代表，社保基金持仓看重长期价值，在震荡行情中主动出手，有利于提振市场信心。（上证报）",
+   "time": "2026-11-26 06:33",
+   "url": "https://wallstreetcn.com/livenews/3205960",
    "source": "华尔街见闻"
   },
   {
-   "title": "现货黄金下破3500美元、白银失守40美元 什么原因？",
-   "summary": "【现货黄金下破3500美元、白银失守40美元 什么原因？】国际金价击穿3500美元。11月25日，国际现货黄金（伦敦金现）价格持续下挫，盘中跌破3500美元/盎司整数关口，创2025年9月以来新低。",
-   "time": "2026-11-26 05:48:30",
-   "url": "https://finance.eastmoney.com/a/202611253939867318.html",
+   "title": "2027年智能眼镜全球出货或超2600万台",
+   "summary": "【2027年智能眼镜全球出货或超2600万台】11月24日，国际数据公司（IDC）发布2027年中国智能眼镜市场洞察报告，预计2027年智能眼镜全球出货量将突破2622.1万台，中国市场突破450.6万台。随着行业加速发展，智能眼镜产品的AI能力、硬件体验和生态协同持续提升，市场定位和发展方向日益清晰。",
+   "time": "2026-11-26 06:18:00",
+   "url": "https://finance.eastmoney.com/a/202611263939937642.html",
    "source": "东财国际"
   },
   {
-   "title": "美联储“褐皮书”显示美国物价整体温和上涨 - 新浪财经",
+   "title": "标普将英伟达列入“信用观察负面”名单，治理风险成评级焦点 - 华尔街见闻",
    "summary": "",
-   "time": "2026-11-26 03:56",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1raWV6ajlydkd1TUxLMWlrbTVUWC1ub0cxVzVMUTZlTllvRlFINTU1M1JBMjdtZFRvNFlVNlROZ0puX01KREFfWW9fZW11dk1QRUNvdmdkTzdrbXd3Mk4temZEQmdoM1FmbDA1N2V0SVRFWjZYdEVGbQ?oc=5",
-   "source": "谷歌新闻·国际"
+   "time": "2026-11-26 04:56",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrQ1VFUVlyNnluSTJwTmoxR0NFZWdHcllRV2JyVnctTGlpZGYxUlhBQmlwTlNjLTBXSmhJR1drRWVaazJzOEFnUzVIYWcyWVRfbmlV?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "东方财富财经早餐 11月24日周二",
@@ -1770,24 +1781,24 @@
    "source": "东财早报"
   },
   {
-   "title": "多空辩论更新：长城证券十五五战略与香港展业落地，增速回落是基数还是趋势 - 证券之星",
+   "title": "美联储“褐皮书”显示美国物价整体温和上涨 - 新浪财经",
    "summary": "",
-   "time": "2026-11-26 00:20",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPeXJPTWtKcWl3Smg4OHVneVBtX2hSb0pMYVZaN2puTXU4ZWxoYjZ0VExuZkpMdVBGOGoycVg1NnctWmZLcng5OEp2aUl5X3NOeUQ0VG04WU1sYUZmQnZ2OHBB?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-26 03:56",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1raWV6ajlydkd1TUxLMWlrbTVUWC1ub0cxVzVMUTZlTllvRlFINTU1M1JBMjdtZFRvNFlVNlROZ0puX01KREFfWW9fZW11dk1QRUNvdmdkTzdrbXd3Mk4temZEQmdoM1FmbDA1N2V0SVRFWjZYdEVGbQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "美强化金融制裁 伊警告海峡通航风险 双方陷消耗战",
+   "title": "美联储12月加息25个基点的概率为97.2%",
    "summary": "",
-   "time": "2026-11-25 21:52:25",
-   "url": "https://news.futunn.com/flash/1005662198/us-tightens-financial-sanctions-iran-warns-of-navigation-risks-in",
+   "time": "2026-11-25 22:01:55",
+   "url": "https://news.futunn.com/flash/1005662782/the-probability-of-the-federal-reserve-raising-interest-rates-by",
    "source": "富途"
   },
   {
-   "title": "SpaceX将投资下一代，为每个特朗普账户配发1股A类普通股",
+   "title": "纳斯达克中国金龙指数收涨1.87%，报5243.02点。",
    "summary": "",
-   "time": "2026-11-25 19:25:12",
-   "url": "https://news.10jqka.com.cn/20261126/c682221316.shtml",
+   "time": "2026-11-25 21:08:18",
+   "url": "https://news.10jqka.com.cn/20261126/c682221400.shtml",
    "source": "同花顺"
   },
   {
@@ -1813,9 +1824,9 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 7,
    "东财早报": 3,
-   "谷歌新闻·研报": 6,
+   "谷歌新闻·国际": 6,
    "富途": 6,
    "同花顺": 6,
    "财新": 6
