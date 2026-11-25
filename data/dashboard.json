@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 17:27:02 CST",
- "generated_at_iso": "2026-11-25T17:27:02+08:00",
+ "generated_at": "2026-11-25 17:35:17 CST",
+ "generated_at_iso": "2026-11-25T17:35:17+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -871,7 +871,7 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 57011.62,
+    "price": 57011.6211,
     "change": -1633.01,
     "change_pct": -2.78,
     "hist": [
@@ -946,7 +946,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 4697.51,
+    "price": 4697.5098,
     "change": -308.52,
     "change_pct": -6.16,
     "hist": [
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83899.7969,
+    "change": 1463.8,
+    "change_pct": 1.78
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 37169.37,
+    "change": -2952.98,
+    "change_pct": -7.36
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25017.81,
+    "change": -319.46,
+    "change_pct": -1.26
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10526.7,
-    "change": 59.63,
-    "change_pct": 0.57,
+    "price": 10467.07,
+    "change": -13.75,
+    "change_pct": -0.13,
     "hist": [
      10724.86,
      10840.35,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8139.96,
-    "change": 99.47,
-    "change_pct": 1.24,
+    "price": 8040.49,
+    "change": -4.35,
+    "change_pct": -0.05,
     "hist": [
      7873.11,
      7934.7,
@@ -1169,9 +1190,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6033.07,
-    "change": 29.31,
-    "change_pct": 0.49,
+    "price": 6003.77,
+    "change": -70.71,
+    "change_pct": -1.16,
     "hist": [
      6190.38,
      6168.27,
@@ -1205,6 +1226,13 @@
      6003.77
     ],
     "sigma": 1.29
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2323.08,
+    "change": -49.89,
+    "change_pct": -2.1
    }
   ]
  },
@@ -1256,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3552.371,
-    "change": -38.729,
+    "price": 3552.33,
+    "change": -38.77,
     "change_pct": -1.08,
-    "quote_time": "17:27:05 2026-11-25"
+    "quote_time": "17:35:11 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 40.484,
-    "change": -0.768,
-    "change_pct": -1.86,
-    "quote_time": "17:27:05 2026-11-25"
+    "price": 40.43,
+    "change": -0.822,
+    "change_pct": -1.99,
+    "quote_time": "17:34:46 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.7,
-    "change": -0.35,
-    "change_pct": -0.43,
-    "quote_time": "17:27:05 2026-11-25"
+    "price": 81.852,
+    "change": -0.198,
+    "change_pct": -0.24,
+    "quote_time": "17:35:18 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 88.46,
-    "change": -0.32,
-    "change_pct": -0.36,
-    "quote_time": "17:26:57 2026-11-25"
+    "price": 88.63,
+    "change": -0.15,
+    "change_pct": -0.17,
+    "quote_time": "17:35:17 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59110.7,
-    "change": -754.6,
-    "change_pct": -1.26,
+    "price": 58909.7,
+    "change": -1134.6,
+    "change_pct": -1.89,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1643.95,
-    "change": -39.4,
-    "change_pct": -2.34,
+    "price": 1640.38,
+    "change": -46.62,
+    "change_pct": -2.76,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 67.7,
-    "change": -3.06,
-    "change_pct": -4.32,
+    "price": 67.56,
+    "change": -3.35,
+    "change_pct": -4.72,
     "source": "okx"
    }
   ],
@@ -1322,9 +1350,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 104.03,
-    "change": 0.2,
-    "change_pct": 0.19,
+    "price": 104.07,
+    "change": 0.24,
+    "change_pct": 0.23,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,7 +1361,7 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6754,
+    "price": 6.6767,
     "change": null,
     "change_pct": null,
     "dec": 4,
@@ -1385,15 +1413,26 @@
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "12月加息概率100%？美联储重磅来袭，“华尔街之狼”警告 - 凤凰网财经",
+   "summary": "",
+   "time": "2026-11-25 17:19",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6UjRYLXBmSm5rc0ZFNWhNQlNJY1dEcERJM0JBUkpULUkxbjdMUUNvS0ZEYWtqZmZhU2tQcmVHd1NldmVjLVhUaE9QRXBFeW1N?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普喊话民主党：不要“仓促收场”对伊朗行动",
-   "summary": "据美国《纽约邮报》24日报道，美国总统特朗普表示，美国对伊朗军事行动的经费可支撑到明年1月底。\n\n特朗普在白宫接受该报采访时说，民主党明年1月掌控国会后，他对伊朗的军事选项可能受到制约，但他希望民主党不要将这场冲突“仓促收场”。\n\n“他们（民主党人）会把一场全面胜利变成失败……如果（民主党人）那样做，他们就会将胜局弄成败局。”特朗普说。",
-   "time": "2026-11-25 16:59",
-   "url": "https://wallstreetcn.com/livenews/3205553",
-   "source": "华尔街见闻",
-   "mentions": 4
+   "title": "新闻加油站｜特朗普：美国对伊朗军事行动的经费可支撑到明年1月底 - 京报网",
+   "summary": "",
+   "time": "2026-11-25 17:01",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDMEE5Um5BSURIcXFJN3Z0TEFWaGNQcF9QTm1Fay1pWU1LZXJHWGpPel9JX01qR2FFTFQ2aWlxLXRUenVYb3lCLVRLTU1WMlN1NDE5NHFwM1c0NHlSQkFoMVZfWEtzMFlGOC1TcElPUHlsdw?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 2
   }
  ],
  "research": {
@@ -1623,73 +1662,80 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.19%，达20日历史波动率的 3.5 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-25 17:27",
+   "time": "2026-11-25 17:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌7.36%，达20日历史波动率的 6.1 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-25 17:36",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "全球股指",
-   "message": "上证指数、深证成指、创业板指等 6 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-25 17:27",
+   "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-25 17:36",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "上证指数",
    "message": "上证指数单日跌2.03%，达20日历史波动率的 2.2 倍（σ=0.94%，突破 2σ 警戒线）",
-   "time": "2026-11-25 17:27",
+   "time": "2026-11-25 17:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.24%，达20日历史波动率的 2.7 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-25 17:27",
+   "time": "2026-11-25 17:36",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
  "news": [
   {
-   "title": "获刑十一年 高以忱受贿、利用影响力受贿案一审宣判",
-   "summary": "据央视，2026年11月25日，浙江省杭州市中级人民法院一审公开宣判原中央防范和处理邪教问题领导小组办公室副主任、国务院防范和处理邪教问题办公室副主任高以忱受贿、利用影响力受贿案，对被告人高以忱以受贿罪判处有期徒刑五年，并处罚金人民币五十万元，以利用影响力受贿罪判处有期徒刑八年，并处罚金人民币四百五十万元，数罪并罚，决定执行有期徒刑十一年，并处罚金人民币五百万元；对追缴在案的高以忱犯罪所得财物及孳",
-   "time": "2026-11-25 17:00",
-   "url": "https://wallstreetcn.com/livenews/3205555",
+   "title": "据报道，韩国寻求扩大股市稳定基金规模。",
+   "summary": "据报道，韩国寻求扩大股市稳定基金规模。",
+   "time": "2026-11-25 17:33",
+   "url": "https://wallstreetcn.com/livenews/3205601",
    "source": "华尔街见闻"
   },
   {
-   "title": "三星、SK海力士面临招工难 韩国政府计划动员退伍军人及其他人员",
-   "summary": "【三星、SK海力士面临招工难 韩国政府计划动员退伍军人及其他人员】三星电子和SK海力士正在投资数十亿美元扩建半导体工厂，但其在韩国的扩张却面临着技术工人短缺的问题。最新报告显示，到2030年，两家公司预计需要26万名员工才能建成下一代芯片制造工厂。针对这一难题，韩国政府决定向三星和SK海力士提供退伍军人和其他人员来弥补劳动力缺口。",
-   "time": "2026-11-25 16:59:22",
-   "url": "https://finance.eastmoney.com/a/202611253939575118.html",
+   "title": "美股恐慌指数VIX拉升至29上方",
+   "summary": "【美股恐慌指数VIX拉升至29上方】美股恐慌指数VIX拉升，升至29上方，日内上涨超10%。截至目前，标普500指数期货跌1.37%，纳斯达克100指数期货跌2.32%。",
+   "time": "2026-11-25 17:32:45",
+   "url": "https://finance.eastmoney.com/a/202611253939602387.html",
    "source": "东财国际"
   },
   {
-   "title": "事关美伊战事！特朗普称资金还能撑2个月 喊话民主党别仓促收场 - 财联社",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-25 16:57",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9YNlU1NjBCX3hhZVlfeXNlc2NyM1JaUWpjeldvZHhDVzY0UEhOZVFBMU9xSHJtaDFHcndQdzJhdW1Nem5jM0FCcg?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "摩根士丹利：维持SpaceX增持评级 目标价300美元 - 观点网",
-   "summary": "",
-   "time": "2026-11-25 16:33",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HWEtPazM2eTRGMHo3Yy15QXZOd0wxbW5wWXN3NUNBQUlrY0tQQXVxYVUwekI2QlFNRml3RkVKU1RRTWg5TnJ0NE41cldab1VvVjFYT1JtRzM4V3JYQXF4WFRB?oc=5",
+   "time": "2026-11-25 17:20",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0wcUVHSkdua3NYQ09wUGtQdmE3SjVBNlk2TXdCTmxRU05xb1JyemdhRjlxVEVod2Q2VXhLRVlYMHBaYzlOQldFNA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "泰禾智能：控股股东阳光新能源增持计划实施进展，持股比例增至28.13%",
+   "title": "12月加息概率100%？美联储重磅来袭，“华尔街之狼”警告 - 凤凰网财经",
    "summary": "",
-   "time": "2026-11-25 09:01:52",
-   "url": "https://news.10jqka.com.cn/20261125/c682205445.shtml",
-   "source": "同花顺"
+   "time": "2026-11-25 17:19",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB6UjRYLXBmSm5rc0ZFNWhNQlNJY1dEcERJM0JBUkpULUkxbjdMUUNvS0ZEYWtqZmZhU2tQcmVHd1NldmVjLVhUaE9QRXBFeW1N?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "部分CSP需求下修影响价格展望 2027年存储器产值增速放缓",
+   "title": "英国推进养老金改革，允许固定收益计划更灵活使用盈余资金",
    "summary": "",
-   "time": "2026-11-25 08:57:39",
-   "url": "https://news.futunn.com/flash/1005590331/downward-revisions-to-demand-from-some-csps-affect-price-outlook",
+   "time": "2026-11-25 09:35:21",
+   "url": "https://news.futunn.com/flash/1005598460/uk-advances-pension-reforms-allowing-defined-benefit-schemes-greater-flexibility",
    "source": "富途"
+  },
+  {
+   "title": "瑞松科技：2026年度向特定对象发行A股股票申请获上交所审核通过",
+   "summary": "",
+   "time": "2026-11-25 09:34:03",
+   "url": "https://news.10jqka.com.cn/20261125/c682209256.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月25日周三",
@@ -1706,46 +1752,46 @@
    "source": "财新"
   },
   {
-   "title": "瑞士11月投资者信心指数 2.3，前值 -15.3。",
-   "summary": "瑞士11月投资者信心指数 2.3，前值 -15.3。",
-   "time": "2026-11-25 17:00",
-   "url": "https://wallstreetcn.com/livenews/3205554",
+   "title": "英国国债延续涨势，10年期收益率下行5个基点至5.14%。",
+   "summary": "英国国债延续涨势，10年期收益率下行5个基点至5.14%。",
+   "time": "2026-11-25 17:25",
+   "url": "https://wallstreetcn.com/livenews/3205597",
    "source": "华尔街见闻"
   },
   {
-   "title": "2连板百傲化学：首次回购股份99.5万股",
-   "summary": "【2连板百傲化学：首次回购股份99.5万股】百傲化学(603360.SH)公告称，2026年11月25日通过集中竞价方式首次回购股份99.5万股，占总股本0.14%，回购金额1007.41万元，价格区间9.84元/股至10.47元/股。此前公司披露回购方案，拟以2亿元至3亿元回购股份，用于维护公司价值及股东权益。",
-   "time": "2026-11-25 16:55:07",
-   "url": "https://finance.eastmoney.com/a/202611253939571266.html",
+   "title": "报道：韩国寻求扩大股市稳定基金规模",
+   "summary": "据报道，韩国寻求扩大股市稳定基金规模。",
+   "time": "2026-11-25 17:32:37",
+   "url": "https://finance.eastmoney.com/a/202611253939603359.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：如有必要，愿意赦免黄仁勋 - 新浪军事",
+   "title": "多空辩论更新：中泰证券投行储备15单在审、近200单债券待发，单季业绩拐点之争 - 证券之星",
    "summary": "",
-   "time": "2026-11-25 16:57",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlN1JfZ0JZekFDUmp5THBrQzFpbWNwRVc1dmMzVnhRSGlaWk1fVFJ2OW5POVEzNFhydFBobmRFRjZ5ODVaODdIWG9ZOGYzVEE3SzYzTzJHbTJiaTE0ODBlTnNiM0d5RWxTNlZYWmlOYi1hUlk?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "【券商聚焦】天风证券：资金分层显现维持银行业强于大市评级_滚动新闻_财经 - 证券之星",
-   "summary": "",
-   "time": "2026-11-25 16:26",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSdXJFQzlpaGNlR3QtcWUwZHZ4cXRNWmhkcl9ta25oMVJ4NHpNRDlVSjZ2RjY3dmp5ZGFRM0hfWEJSR295OXA3bmVFTlBjRkM2LVFQZXkzcU5kYk54V1RPTQ?oc=5",
+   "time": "2026-11-25 17:02",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5YT1JMUGtaM252SHlMUlJjSGppY2FOQW9zUzB2dkZxTGN3S2F6SHlPeXlzSUhfVmNLbExCamJPejQydHNOdV9IZmJZQWtreGJIRXZYTTJLRW83WjBvcS1wVDNB?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美股大型科技股盘前集体下跌，美光科技跌超4%",
+   "title": "新闻加油站｜特朗普：美国对伊朗军事行动的经费可支撑到明年1月底 - 京报网",
    "summary": "",
-   "time": "2026-11-25 09:01:11",
-   "url": "https://news.10jqka.com.cn/20261125/c682205403.shtml",
-   "source": "同花顺"
+   "time": "2026-11-25 17:01",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDMEE5Um5BSURIcXFJN3Z0TEFWaGNQcF9QTm1Fay1pWU1LZXJHWGpPel9JX01qR2FFTFQ2aWlxLXRUenVYb3lCLVRLTU1WMlN1NDE5NHFwM1c0NHlSQkFoMVZfWEtzMFlGOC1TcElPUHlsdw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "恒瑞医药：子公司HRS-9308片获药物临床试验批准通知书",
+   "title": "洛阳钼业：累计回购2793.89万股，支付3.3亿元",
    "summary": "",
-   "time": "2026-11-25 08:55:08",
-   "url": "https://news.futunn.com/flash/1005590054/hengrui-pharma-subsidiary-receives-notice-of-approval-for-clinical-trial",
+   "time": "2026-11-25 09:31:29",
+   "url": "https://news.futunn.com/flash/1005598080/luoyang-molybdenum-cumulative-repurchase-of-27-9389-million-shares-with",
    "source": "富途"
+  },
+  {
+   "title": "重庆：政府项目农民工工资试点由建设单位直接发放",
+   "summary": "",
+   "time": "2026-11-25 09:30:32",
+   "url": "https://news.10jqka.com.cn/20261125/c682208796.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月24日周二",
@@ -1762,46 +1808,46 @@
    "source": "财新"
   },
   {
-   "title": "特朗普喊话民主党：不要“仓促收场”对伊朗行动",
-   "summary": "据美国《纽约邮报》24日报道，美国总统特朗普表示，美国对伊朗军事行动的经费可支撑到明年1月底。\n\n特朗普在白宫接受该报采访时说，民主党明年1月掌控国会后，他对伊朗的军事选项可能受到制约，但他希望民主党不要将这场冲突“仓促收场”。\n\n“他们（民主党人）会把一场全面胜利变成失败……如果（民主党人）那样做，他们就会将胜局弄成败局。”特朗普说。",
-   "time": "2026-11-25 16:59",
-   "url": "https://wallstreetcn.com/livenews/3205553",
+   "title": "金山软件第三季度营收24.4亿元人民币，预估25.9亿元人民币。\n\n第三季度净亏损2.041亿元人民币。",
+   "summary": "金山软件第三季度营收24.4亿元人民币，预估25.9亿元人民币。\n\n第三季度净亏损2.041亿元人民币。",
+   "time": "2026-11-25 17:21",
+   "url": "https://wallstreetcn.com/livenews/3205581",
    "source": "华尔街见闻"
   },
   {
-   "title": "保时捷首款纯电动718 Boxster将于明年一季度发布",
-   "summary": "【保时捷首款纯电动718 Boxster将于明年一季度发布】11月25日，据保时捷消息，其首款纯电动双门公路跑车718 Boxster量产车型研发已进入最后冲刺阶段。全系采用后轮驱动，旗舰车型零百加速不到3秒，最高车速超过250公里/小时。该车型将于2027年第一季度全球首发，并在斯图加特祖文豪森工厂生产。",
-   "time": "2026-11-25 16:54:40",
-   "url": "https://finance.eastmoney.com/a/202611253939567440.html",
+   "title": "北欧大西洋航空股价跌幅扩大 目前下跌70%",
+   "summary": "北欧大西洋航空股价跌幅扩大，目前下跌70%。",
+   "time": "2026-11-25 17:30:18",
+   "url": "https://finance.eastmoney.com/a/202611253939603652.html",
    "source": "东财国际"
   },
   {
-   "title": "美媒：特朗普称必要时愿意赦免黄仁勋 - 新浪财经",
+   "title": "【财经分析】信用债分层修复 结构性补涨窗口开启 - 21财经",
    "summary": "",
-   "time": "2026-11-25 16:39",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1ONDl1VVQwM3dYTmRNbHBWTmpmaDFaR3Jld0kwbDRkYmszNHB5em1WTG5IRENuRGJfMHN5RUZPTGVrWFF4Zk02NlBpemladmZJTU13MUZ3QjBPOTdnaWVOWjdwVzBZb3VYazl1ZHNUQVBIRTNSYTYzZw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "【券商聚焦】国盛证券维持电力增持评级新能源及高技术用电强劲_滚动新闻_财经 - 证券之星",
-   "summary": "",
-   "time": "2026-11-25 16:19",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9TbzBpY1Q1QU1ZcDg5eVBxdG9yZXNnZGZ1cHlmQjBud0c4ZXJnRG1tNm5RZUhsNmpyZTQxLThnSlVGWXg1eS1YRm5EQndZV3Z1RERiQjZxbWcwNHFFRm05Vw?oc=5",
+   "time": "2026-11-25 16:35",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWVhlRXRkRWdreXRVWWpJQ1laTEk0Tll1bldCQkV2Tjl3SmZXUjh0WnlSaEs1cEp2T1dVNW9ZNEo4MTdhMHJIdkxzWGpPSnlkbS1jUDczWWZlLTFDNVNEY3RJYzZfUnpmc0duT0ZUbV9ZcVMtbEtLbUMyeThTTUZmOHhOTV9qOFkxY3l0dXQtNA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英伟达美股盘前跌超4%",
+   "title": "事关美伊战事！特朗普称资金还能撑2个月 喊话民主党别仓促收场 - 财联社",
    "summary": "",
-   "time": "2026-11-25 09:00:57",
-   "url": "https://news.10jqka.com.cn/20261125/c682205396.shtml",
-   "source": "同花顺"
+   "time": "2026-11-25 16:57",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9YNlU1NjBCX3hhZVlfeXNlc2NyM1JaUWpjeldvZHhDVzY0UEhOZVFBMU9xSHJtaDFHcndQdzJhdW1Nem5jM0FCcg?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "西安奕材：拟以1亿元至2亿元回购股份用于员工持股计划或股权激励",
+   "title": "受干旱天气影响，印度延长食糖免税进口期限",
    "summary": "",
-   "time": "2026-11-25 08:52:59",
-   "url": "https://news.futunn.com/flash/1005589856/xi-an-yicai-plans-to-repurchase-shares-worth-rmb-100",
+   "time": "2026-11-25 09:29:02",
+   "url": "https://news.futunn.com/flash/1005597602/affected-by-drought-conditions-india-extends-the-period-for-duty",
    "source": "富途"
+  },
+  {
+   "title": "博亚精工：累计回购公司股份278.42万股，占总股本2.3675%",
+   "summary": "",
+   "time": "2026-11-25 09:29:40",
+   "url": "https://news.10jqka.com.cn/20261125/c682208661.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月23日周一",
@@ -1822,7 +1868,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(17)",
+   "富途": "ok(19)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1833,10 +1879,10 @@
   "counts": {
    "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 6,
-   "同花顺": 6,
+   "谷歌新闻·研报": 7,
+   "谷歌新闻·国际": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 3,
    "财新": 6
   }
