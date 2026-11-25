@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 18:51:50 CST",
- "generated_at_iso": "2026-11-25T18:51:50+08:00",
+ "generated_at": "2026-11-25 19:00:05 CST",
+ "generated_at_iso": "2026-11-25T19:00:05+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -904,7 +904,7 @@
      59444.21,
      56436.65,
      58644.63,
-     57011.6211
+     57011.62
     ],
     "sigma": 2.455,
     "volume": 0.0,
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10514.11,
-    "change": 47.04,
-    "change_pct": 0.45,
+    "price": 10516.71,
+    "change": 49.64,
+    "change_pct": 0.47,
     "hist": [
      10724.86,
      10840.35,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8111.83,
-    "change": 71.34,
-    "change_pct": 0.89,
+    "price": 8118.15,
+    "change": 77.66,
+    "change_pct": 0.97,
     "hist": [
      7873.11,
      7934.7,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6004.63,
-    "change": 0.87,
-    "change_pct": 0.01,
+    "price": 6002.38,
+    "change": -1.38,
+    "change_pct": -0.02,
     "hist": [
      6190.38,
      6168.27,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3556.744,
-    "change": -34.356,
-    "change_pct": -0.96,
-    "quote_time": "18:51:51 2026-11-25"
+    "price": 3557.388,
+    "change": -33.712,
+    "change_pct": -0.94,
+    "quote_time": "19:00:05 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 40.492,
-    "change": -0.76,
-    "change_pct": -1.84,
-    "quote_time": "18:51:43 2026-11-25"
+    "price": 40.531,
+    "change": -0.721,
+    "change_pct": -1.75,
+    "quote_time": "19:00:01 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.169,
-    "change": -0.881,
-    "change_pct": -1.07,
-    "quote_time": "18:51:51 2026-11-25"
+    "price": 81.482,
+    "change": -0.568,
+    "change_pct": -0.69,
+    "quote_time": "19:00:08 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 87.968,
-    "change": -0.812,
-    "change_pct": -0.91,
-    "quote_time": "18:51:43 2026-11-25"
+    "price": 88.261,
+    "change": -0.519,
+    "change_pct": -0.58,
+    "quote_time": "19:00:03 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 58930.0,
-    "change": -591.7,
-    "change_pct": -0.99,
-    "source": "okx"
+    "price": 58887.2,
+    "change": -882.3,
+    "change_pct": -1.48,
+    "source": "okx",
+    "hist": [
+     80556.7,
+     80554.4,
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58877.9
+    ],
+    "sigma": 2.303
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1647.19,
-    "change": -29.72,
-    "change_pct": -1.77,
-    "source": "okx"
+    "price": 1648.12,
+    "change": -34.84,
+    "change_pct": -2.07,
+    "source": "okx",
+    "hist": [
+     2346.96,
+     2334.93,
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.09
+    ],
+    "sigma": 2.905
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 67.79,
-    "change": -2.45,
-    "change_pct": -3.49,
-    "source": "okx"
+    "price": 67.83,
+    "change": -2.6,
+    "change_pct": -3.69,
+    "source": "okx",
+    "hist": [
+     100.96,
+     101.05,
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.81
+    ],
+    "sigma": 3.967
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.97,
-    "change": 0.14,
-    "change_pct": 0.13,
+    "price": 104.04,
+    "change": 0.21,
+    "change_pct": 0.2,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1385,6 +1484,17 @@
  },
  "speakers": [
   {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行管委Kocher：欧洲央行可能在12月上调通胀展望。",
+   "summary": "欧洲央行管委Kocher：欧洲央行可能在12月上调通胀展望。",
+   "time": "2026-11-25 18:59",
+   "url": "https://wallstreetcn.com/livenews/3205662",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1394,17 +1504,6 @@
    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNa3BYRWM5QmM4cW9RVTBuWmJadTIxMHdvSHp5R0F4bXpaeW1KTTEtTVNsT0ZuUTE1RkJOYjBzNnMtZDl1cFd1TlRabnYyOUM1RmhIQng5QlQtRHhlYndmekhGdHBPNFZwYWo2cE05LURjVFNQTFgtOWgzS0FuMDBCc2t0eUdiemNMWkgyTThNWW9pOGJiTGRXUVJwWGpBXzNaT19qM1BZbDdsQ1hpNEpwTkkyYTAwTUdlUHV0X1JodXB5LV94U2pLc0VIdWVQa3NLanJkTXc3N3k5Mk1EQnp3M1NwLWbSAeQBQVVfeXFMTW1IMGdzUUc0QWFpUGtheWhWdGJMMnY5clhRV2RqOVlHdTdhVmdRejBQdkk2dGJDRDBIZGE1LUpvcjlzYzd3Wk5tdEF5dlJjWEhlMnN6SXhmbUZRSVFlVGl4TjNSeFhtcnhrLVA1WmtNcHlzQWt4TmFPeW1GdjJzVGNrS09ZcHdOTW92YlBvMWVpVlVEdXBqcFEyYkdIZnlXQm1mV1hONzcwUDZsMVNidTYxY0FfY21tY0Fjeko0NWhWcTJQUENVcVpaOWhxTnRKRm5QZmt0bHVmbVVzRTNyVjFwUlJO?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
-  },
-  {
-   "keyword": "发改委",
-   "label": "发改委",
-   "hint": "产业政策与价格调控影响行业",
-   "title": "国家发改委副主任王昌林与欧盟委员会经济与金融事务总司长沃威共同主持第十次中欧宏观经济政策对话",
-   "summary": "",
-   "time": "2026-11-25 10:19:10",
-   "url": "https://news.futunn.com/flash/1005603560/wang-changlin-deputy-director-of-the-national-development-and-reform",
-   "source": "富途",
-   "mentions": 1
   }
  ],
  "research": {
@@ -1475,6 +1574,26 @@
     "industry": "",
     "date": "2026-11-25",
     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBzcjRWWHotN1FFckp3b2s4NGMxUjU0Qjktdm5OUUhWMTFsNmxhdm5VdVQ2dTllbjNDMld6NlcwNGI1M2hrMWM0a2FzMDZFV3d1RWhuZjRYOFFsNWxkbDh6WlVBMA?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "德银成最乐观美股多头之一 标普500指数上看9000点",
+    "org": "德银",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-25",
+    "url": "https://news.futunn.com/flash/1005605979/deutsche-bank-emerges-as-one-of-the-most-bullish-voices",
+    "source": "机构观点"
+   },
+   {
+    "title": "中信证券称联想集团Q2经营表现远强于市场担忧维持“买入”评级_公司新闻 - 证券之星",
+    "org": "中信证券",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-25",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mTk8yZ2lsNmQ1ZDdyRWI2SVFUdGh5TGxLVXptTU4tTUJHcmxKSDN5RlZZQXIwU0tzRUVNYmsyQ3JqX3MxOTJrbUl3YzQxUEQweFA2WnhSallDWGItY24zbUVTR1M?oc=5",
     "source": "机构观点"
    },
    {
@@ -1614,45 +1733,45 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.19%，达20日历史波动率的 3.5 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-25 18:52",
+   "time": "2026-11-25 19:00",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 6 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-25 18:52",
+   "time": "2026-11-25 19:00",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "上证指数",
    "message": "上证指数单日跌2.03%，达20日历史波动率的 2.2 倍（σ=0.94%，突破 2σ 警戒线）",
-   "time": "2026-11-25 18:52",
+   "time": "2026-11-25 19:00",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.24%，达20日历史波动率的 2.7 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-25 18:52",
+   "time": "2026-11-25 19:00",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
  "news": [
   {
-   "title": "北汽蓝谷：子公司拟租赁北京长安房山工厂并投16.85亿元实施智能乘用车技改项目",
-   "summary": "北汽蓝谷公告，子公司北汽新能源拟租赁北京长安北京房山工厂土地、房屋建筑物、构筑物等合计192项资产，租赁期限5年，总租金含税3.89亿元、不含税3.57亿元。北汽新能源拟实施智能乘用车技改项目，总投资16.85亿元，导入BE13、BE22 4.0平台新能源汽车产品，建设期12个月，预计2026年12月25日开工，首款车预计2027年6月投产。",
-   "time": "2026-11-25 18:31",
-   "url": "https://wallstreetcn.com/livenews/3205644",
-   "source": "华尔街见闻"
+   "title": "阿斯麦美股盘前跌超4%",
+   "summary": "阿斯麦美股盘前跌超4%。",
+   "time": "2026-11-25 18:59:48",
+   "url": "https://finance.eastmoney.com/a/202611253939671046.html",
+   "source": "东财国际"
   },
   {
-   "title": "欧盟将原定讨论是否批准特斯拉自动驾驶技术的会议推迟至12月15日",
-   "summary": "欧盟将原定讨论是否批准特斯拉自动驾驶技术的会议推迟至12月15日。",
-   "time": "2026-11-25 18:30:46",
-   "url": "https://finance.eastmoney.com/a/202611253939633616.html",
-   "source": "东财国际"
+   "title": "欧洲央行管委Kocher：欧洲央行可能在12月上调通胀展望。",
+   "summary": "欧洲央行管委Kocher：欧洲央行可能在12月上调通胀展望。",
+   "time": "2026-11-25 18:59",
+   "url": "https://wallstreetcn.com/livenews/3205662",
+   "source": "华尔街见闻"
   },
   {
    "title": "晚报丨美联储“最青睐”的通胀数据PCE今晚21:30公布；英伟达盘前跌超5%，AI股抛售压力正从股市蔓延至信用市场；韩国拟扩大股市稳定基金规模；2027年存储器产值增速或放缓 - 东方财富网",
@@ -1669,17 +1788,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "建设银行：已与百余家客户签订超千亿元股票回购增持贷款合同",
+   "title": "奥拓电子：拟以1000万元至2000万元回购股份用于股权激励或员工持股计划",
    "summary": "",
-   "time": "2026-11-25 10:30:50",
-   "url": "https://news.10jqka.com.cn/20261125/c682213164.shtml",
+   "time": "2026-11-25 10:57:55",
+   "url": "https://news.10jqka.com.cn/20261125/c682213829.shtml",
    "source": "同花顺"
   },
   {
-   "title": "中国银行发布关于加强贵金属市场风险防范的提示",
+   "title": "美伊冲突令中东地区私募资本交易额暴跌近90%",
    "summary": "",
-   "time": "2026-11-25 10:28:54",
-   "url": "https://news.futunn.com/flash/1005604831/bank-of-china-issues-notice-on-strengthening-risk-prevention-in",
+   "time": "2026-11-25 10:41:02",
+   "url": "https://news.futunn.com/flash/1005606519/us-iran-conflict-causes-nearly-90-plunge-in-private-capital",
    "source": "富途"
   },
   {
@@ -1697,18 +1816,18 @@
    "source": "财新"
   },
   {
-   "title": "浙商银行：浙银金租增资获监管批复，本次增资扩股发行股份共7亿股，增资价格1.9875元/股；公司认购5亿股，认购价款9.94亿元，舟山海投按相同价格认购2亿股。增资完成后，公司、省创新投资集团、舟山海投分别持有浙银金租54.04%、24.6",
-   "summary": "浙商银行：浙银金租增资获监管批复，本次增资扩股发行股份共7亿股，增资价格1.9875元/股；公司认购5亿股，认购价款9.94亿元，舟山海投按相同价格认购2亿股。增资完成后，公司、省创新投资集团、舟山海投分别持有浙银金租54.04%、24.68%、21.28%股份。",
-   "time": "2026-11-25 18:21",
-   "url": "https://wallstreetcn.com/livenews/3205638",
-   "source": "华尔街见闻"
+   "title": "华东重机：芯片设计及解决方案业务尚处于培育阶段 未形成规模化盈利贡献",
+   "summary": "【华东重机：芯片设计及解决方案业务尚处于培育阶段 未形成规模化盈利贡献】华东重机(002685.SZ)公告称，公司主营业务聚焦集装箱装卸设备业务，芯片设计及解决方案业务尚处于培育阶段，未形成规模化盈利贡献。芯片设计及解决方案业务整体规模较小，2026年上半年该业务实现营业收入1,759.98万元，收入占比约2.32%，实现净利润-203.30万元，与该业务2026年度业绩承诺目标（净利润3,000万元）存在较大差距。",
+   "time": "2026-11-25 18:52:14",
+   "url": "https://finance.eastmoney.com/a/202611253939670941.html",
+   "source": "东财国际"
   },
   {
-   "title": "北汽蓝谷：子公司拟投资16.85亿元实施智能乘用车技改项目",
-   "summary": "【北汽蓝谷：子公司拟投资16.85亿元实施智能乘用车技改项目】北汽蓝谷(600733.SH)公告称，公司子公司北汽新能源拟租赁北京长安房山工厂，租赁期限5年，总租金含税金额3.89亿元。北汽新能源拟在租赁后实施智能乘用车技改项目，总投资16.85亿元，以满足BE13、BE224.0平台新产品生产规划要求。",
-   "time": "2026-11-25 18:30:38",
-   "url": "https://finance.eastmoney.com/a/202611253939633727.html",
-   "source": "东财国际"
+   "title": "东易日盛：控股股东拟无偿捐赠华著智算85%股权，公司将取得控股权",
+   "summary": "东易日盛公告，控股股东华著集团拟将其持有的北京华著智算科技有限公司85%股权无偿、无条件捐赠给公司，交易金额0元，公司无需支付对价。交易完成后，华著智算成为公司控股子公司，其及全资子公司云著智算纳入合并报表范围。股权捐赠工商变更登记完成后10个工作日内，华著集团将向华著智算无偿捐赠2000万元用于项目建设。华著集团及实际控制人张建华承诺，和林格尔智算中心一期项目2027年至2029年各年度净利润均",
+   "time": "2026-11-25 18:55",
+   "url": "https://wallstreetcn.com/livenews/3205660",
+   "source": "华尔街见闻"
   },
   {
    "title": "特朗普不排除赦免黄仁勋，但认为没有必要 - DW.com",
@@ -1725,17 +1844,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "丁薛祥会见荷兰外交大臣贝伦德森",
+   "title": "科达制造：梁桐灿拟15元/股转让5%股份予森大公司",
    "summary": "",
-   "time": "2026-11-25 10:30:30",
-   "url": "https://news.10jqka.com.cn/20261125/c682213143.shtml",
+   "time": "2026-11-25 10:56:55",
+   "url": "https://news.10jqka.com.cn/20261125/c682213815.shtml",
    "source": "同花顺"
   },
   {
-   "title": "国家发改委副主任王昌林与欧盟委员会经济与金融事务总司长沃威共同主持第十次中欧宏观经济政策对话",
+   "title": "德银成最乐观美股多头之一 标普500指数上看9000点",
    "summary": "",
-   "time": "2026-11-25 10:19:10",
-   "url": "https://news.futunn.com/flash/1005603560/wang-changlin-deputy-director-of-the-national-development-and-reform",
+   "time": "2026-11-25 10:37:59",
+   "url": "https://news.futunn.com/flash/1005605979/deutsche-bank-emerges-as-one-of-the-most-bullish-voices",
    "source": "富途"
   },
   {
@@ -1753,24 +1872,24 @@
    "source": "财新"
   },
   {
-   "title": "小鹏汽车CEO何小鹏：特斯拉FSD V15还没用过，实景渲染功能技术上实现不难",
-   "summary": "小鹏集团发布会媒体QA环节，CEO何小鹏在谈及特斯拉最新推出的FSD V15时表示，自己尚未用过该版本，仅在网上看过视频，“也许它还处在一个比较科研的阶段，具体不太了解”。",
-   "time": "2026-11-25 18:19",
-   "url": "https://wallstreetcn.com/livenews/3205634",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "珂玛科技：拟7000万元-1.2亿元回购公司股份",
-   "summary": "【珂玛科技：拟7000万元-1.2亿元回购公司股份】珂玛科技11月25日公告，拟以集中竞价交易方式回购公司股份，回购总金额不低于7000万元且不超过1.2亿元。回购价格不超过100.14元/股。回购股份将用于股权激励或员工持股计划。回购期限为自董事会审议通过回购股份方案之日起12个月内。",
-   "time": "2026-11-25 18:29:15",
-   "url": "https://finance.eastmoney.com/a/202611253939633149.html",
+   "title": "安永：明年港股IPO市场预计呈现“前承压、后回暖”的走势",
+   "summary": "【安永：明年港股IPO市场预计呈现“前承压、后回暖”的走势】安永11月25日发布的报告显示，2027年，港股IPO市场预计呈现“前承压、后回暖”的走势，全年筹资规模或低于2026年的高位。",
+   "time": "2026-11-25 18:52:00",
+   "url": "https://finance.eastmoney.com/a/202611253939668792.html",
    "source": "东财国际"
   },
   {
-   "title": "小特朗普，被调查！民主党已向多家公司索要记录 - 新浪财经",
+   "title": "福龙马：拟以集中竞价交易方式回购股份，回购金额不低于5000万元且不超过1亿元，价格上限18元/股，用于股权激励或员工持股计划，预计回购277.78万股至555.56万股，占总股本0.67%~1.34%，期限为董事会审议通过之日起6个月内。",
+   "summary": "福龙马：拟以集中竞价交易方式回购股份，回购金额不低于5000万元且不超过1亿元，价格上限18元/股，用于股权激励或员工持股计划，预计回购277.78万股至555.56万股，占总股本0.67%~1.34%，期限为董事会审议通过之日起6个月内。",
+   "time": "2026-11-25 18:43",
+   "url": "https://wallstreetcn.com/livenews/3205653",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普喊话民主党：不要“仓促收场”对伊朗行动 - 新华网",
    "summary": "",
-   "time": "2026-11-25 17:33",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Oc2pONVRhZE1oZ0NvbVFVeld5T2lkMmdmUXd3NlBOTzkwYV81Slp3eWthdlp4cHVQdURIUE9XZHB1c1NUcllyY2lvSF8zdV9nRXZDb3FFNFVoaDIwR3pMWGY0cU9Ob0JDTlZqX1BQSjFySXRFRVRQbg?oc=5",
+   "time": "2026-11-25 17:20",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYZ1VnMnlrMVF4bUZ3djA2UnBZV2xhcGVpeXpjM3dDWjlaY3Fla3Y2QjE0aTI3clhTZUFmZnVwa1VjcVR5NGdwNWJDOTVHaThtVUREdlhBbndKWlQ0cVltYmV4UlhlV19iM3hmSWJvVWpONURYWGljNl9TNExLZms?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1781,17 +1900,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "和元生物：完成回购857.7万股，支付4998.69万元",
+   "title": "前10个月义乌进口破千亿元 超去年全年",
    "summary": "",
-   "time": "2026-11-25 10:29:10",
-   "url": "https://news.10jqka.com.cn/20261125/c682213051.shtml",
+   "time": "2026-11-25 10:56:24",
+   "url": "https://news.10jqka.com.cn/20261125/c682213808.shtml",
    "source": "同花顺"
   },
   {
-   "title": "Anthropic主张部分决策权交给AI 引发同行反对",
+   "title": "中国银行发布关于加强贵金属市场风险防范的提示",
    "summary": "",
-   "time": "2026-11-25 10:08:05",
-   "url": "https://news.futunn.com/flash/1005602295/anthropic-s-proposal-to-cede-partial-decision-making-authority-to",
+   "time": "2026-11-25 10:28:54",
+   "url": "https://news.futunn.com/flash/1005604831/bank-of-china-issues-notice-on-strengthening-risk-prevention-in",
    "source": "富途"
   },
   {
@@ -1822,8 +1941,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 6,
    "同花顺": 6,
