@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 09:00:31 CST",
- "generated_at_iso": "2026-11-25T09:00:31+08:00",
+ "generated_at": "2026-11-25 09:09:53 CST",
+ "generated_at_iso": "2026-11-25T09:09:53+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -855,11 +855,10 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 58644.63,
-    "change": 2207.98,
-    "change_pct": 3.91,
+    "price": 57105.4414,
+    "change": -1539.19,
+    "change_pct": -2.62,
     "hist": [
-     69030.92,
      67777.52,
      67744.29,
      64425.95,
@@ -886,16 +885,16 @@
      59662.02,
      58860.43,
      59024.28,
-     59444.21,
-     56436.65,
-     58644.63
+     59444.2109,
+     56436.6484,
+     58644.63,
+     57105.4414
     ],
-    "sigma": 2.396,
+    "sigma": 2.448,
     "volume": 0.0,
     "vol_chg_pct": -100.0,
-    "vol_pctile": 34.8,
+    "vol_pctile": 35.2,
     "vol_hist": [
-     0.0,
      0.0,
      0.0,
      0.0,
@@ -924,6 +923,7 @@
      142400000.0,
      138300000.0,
      174600000.0,
+     0.0,
      0.0
     ]
    },
@@ -1469,37 +1469,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3571.83,
-    "change": -19.27,
-    "change_pct": -0.54,
-    "quote_time": "09:00:36 2026-11-25"
+    "price": 3566.345,
+    "change": -24.755,
+    "change_pct": -0.69,
+    "quote_time": "09:09:49 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.09,
-    "change": -0.162,
-    "change_pct": -0.39,
-    "quote_time": "09:00:36 2026-11-25"
+    "price": 41.03,
+    "change": -0.222,
+    "change_pct": -0.54,
+    "quote_time": "09:09:55 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.796,
-    "change": -0.254,
-    "change_pct": -0.31,
-    "quote_time": "09:00:33 2026-11-25"
+    "price": 81.743,
+    "change": -0.307,
+    "change_pct": -0.37,
+    "quote_time": "09:09:57 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 88.578,
-    "change": -0.202,
-    "change_pct": -0.23,
-    "quote_time": "09:00:34 2026-11-25"
+    "price": 88.5,
+    "change": -0.28,
+    "change_pct": -0.32,
+    "quote_time": "09:09:57 2026-11-25"
    }
   ],
   "crypto": [
@@ -1507,9 +1507,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59617.4,
-    "change": -1705.0,
-    "change_pct": -2.78,
+    "price": 59516.6,
+    "change": -2017.3,
+    "change_pct": -3.28,
     "source": "okx",
     "hist": [
      80556.7,
@@ -1541,17 +1541,17 @@
      60890.5,
      62892.8,
      59718.6,
-     59630.3
+     59582.5
     ],
-    "sigma": 2.314
+    "sigma": 2.313
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1672.05,
-    "change": -39.3,
-    "change_pct": -2.3,
+    "price": 1667.23,
+    "change": -51.2,
+    "change_pct": -2.98,
     "source": "okx",
     "hist": [
      2346.96,
@@ -1583,17 +1583,17 @@
      1718.38,
      1773.75,
      1677.67,
-     1672.46
+     1669.79
     ],
-    "sigma": 2.915
+    "sigma": 2.912
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 69.58,
-    "change": -2.59,
-    "change_pct": -3.59,
+    "price": 69.46,
+    "change": -3.0,
+    "change_pct": -4.14,
     "source": "okx",
     "hist": [
      100.96,
@@ -1625,33 +1625,33 @@
      70.33,
      75.67,
      69.06,
-     69.59
+     69.53
     ],
-    "sigma": 3.991
+    "sigma": 3.989
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.86,
-    "change": 0.03,
-    "change_pct": 0.03,
+    "price": 103.874,
+    "change": 0.049,
+    "change_pct": 0.05,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-25",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6646,
-    "change": -0.0003,
-    "change_pct": 0.0,
+    "price": 6.6634,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-25",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1681,10 +1681,10 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普忘了菜名 却惦记着那顶帽子！网友猜起了深圳那道菜 - 驱动之家",
+   "title": "特朗普：在深圳吃到了很棒的中国菜，但不知道叫什么，只记得很好吃 - 观察者网",
    "summary": "",
-   "time": "2026-11-25 08:49",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pUVdfSS15VWRjV0RWbXNKMkxWREFwMjYtVEFlM2VPMjlVdU9ZR05zeWxOT2kwcWpqcVhuNVhieldxcU5GRUp4T0JfR016ZWU1SW5Jamx5Q2k?oc=5",
+   "time": "2026-11-25 09:03",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WekhYM1Y5eEw0ZjVKRE0tbEhUbGpaWDlfRFhzdnpxTklYSHN3VUhLcjZpcGVsQ1duSDUyRUZFNUpfRndQVEFzcndFOVhwOUMxcWlZUWFXWGhpYk0zdEd4c0JnOTN1R3RWTEV1YWhIU3hPcjA?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 4
   },
@@ -1778,6 +1778,16 @@
     "industry": "",
     "date": "2026-11-25",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE45NEFRSWQ4OWdrUWkzVjBSVDNQMGFsWnFDOEFHamQ1UjNjMS1rdFY3amdyUUdYUVhVcWVMVjlaekphQ2otN3Y4RDk4YjgwZElrWjhqWHo3TGRtdHNwSzBOLTZR?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "惠誉将2027年全球主权评级展望定为“中性” - Sohu",
+    "org": "惠誉",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-25",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcnhpb296TW16WVVMa21mUDNBTS1yN2ttbUdka1RaZ0diWmJZT1I2Yk0tN1h2MDZJYTQyN09tWThjMHZZTjI1TmhSUnJ3UUxHajVGdTExZXdlZ1Q3V0ZKRUxSczFOSXFPRUlNVnBKRkJGTXJBaldNY0JER3BkY19KWkJUTWNFZlllT3RVbw?oc=5",
     "source": "机构观点"
    },
    {
@@ -1907,38 +1917,31 @@
    "level": "warning",
    "asset": "台湾加权",
    "message": "台湾加权单日涨8.99%，达20日历史波动率的 2.4 倍（σ=3.79%，突破 2σ 警戒线）",
-   "time": "2026-11-25 09:01",
+   "time": "2026-11-25 09:11",
    "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
-  },
-  {
-   "level": "warning",
-   "asset": "全球股指",
-   "message": "日经225、韩国KOSPI、台湾加权等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-25 09:01",
-   "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
+  {
+   "title": "台交所加权股价指数下跌5.1%",
+   "summary": "台交所加权股价指数下跌5.1%至38,061.05点。",
+   "time": "2026-11-25 09:07:30",
+   "url": "https://finance.eastmoney.com/a/202611253939233659.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普：在深圳吃到了很棒的中国菜，但不知道叫什么，只记得很好吃 - 观察者网",
+   "summary": "",
+   "time": "2026-11-25 09:03",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WekhYM1Y5eEw0ZjVKRE0tbEhUbGpaWDlfRFhzdnpxTklYSHN3VUhLcjZpcGVsQ1duSDUyRUZFNUpfRndQVEFzcndFOVhwOUMxcWlZUWFXWGhpYk0zdEd4c0JnOTN1R3RWTEV1YWhIU3hPcjA?oc=5",
+   "source": "谷歌新闻·国际"
+  },
   {
    "title": "台湾证交所加权股价指数盘初下跌2.9%至38,975.65点。",
    "summary": "台湾证交所加权股价指数盘初下跌2.9%至38,975.65点。",
    "time": "2026-11-25 09:00",
    "url": "https://wallstreetcn.com/livenews/3205314",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "医疗企业出海英国：信任是最难的一关",
-   "summary": "【医疗企业出海英国：信任是最难的一关】第三届伦敦生命科学周刚刚落幕。在不同的论坛和会议上，记者遇到了不少来自中国的企业和机构代表，有代表告诉记者，今年派来参会的人比去年更多。他们来伦敦，不只是为了卖产品。“我们是带着非常清晰的双向诉求。”塞力医疗业务发展总监温天羽对第一财经记者表示，公司一方面希望吸引海外的投资资本和创新资本，另一方面也希望自己的创新项目更好地走出去。",
-   "time": "2026-11-25 08:57:27",
-   "url": "https://finance.eastmoney.com/a/202611243938595120.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "特朗普忘了菜名 却惦记着那顶帽子！网友猜起了深圳那道菜 - 驱动之家",
-   "summary": "",
-   "time": "2026-11-25 08:49",
-   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pUVdfSS15VWRjV0RWbXNKMkxWREFwMjYtVEFlM2VPMjlVdU9ZR05zeWxOT2kwcWpqcVhuNVhieldxcU5GRUp4T0JfR016ZWU1SW5Jamx5Q2k?oc=5",
-   "source": "谷歌新闻·国际"
   },
   {
    "title": "国泰海通发布两份研报 聚焦AI算力与疫苗处方制度 - 观点网",
@@ -1955,10 +1958,10 @@
    "source": "东财早报"
   },
   {
-   "title": "中国台湾加权指数低开0.35%",
+   "title": "台湾加权指数跌超5%",
    "summary": "",
-   "time": "2026-11-25 01:01:06",
-   "url": "https://news.10jqka.com.cn/20261125/c682178969.shtml",
+   "time": "2026-11-25 01:07:43",
+   "url": "https://news.10jqka.com.cn/20261125/c682179696.shtml",
    "source": "同花顺"
   },
   {
@@ -1976,25 +1979,25 @@
    "source": "财新"
   },
   {
+   "title": "碳酸锂期货主力合约日内跌幅达4.6%",
+   "summary": "碳酸锂期货主力合约日内跌幅达4.6%，报85740元/吨。",
+   "time": "2026-11-25 09:06:26",
+   "url": "https://finance.eastmoney.com/a/202611253939238594.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普忘了菜名 却惦记着那顶帽子！网友猜起了深圳那道菜 - 驱动之家",
+   "summary": "",
+   "time": "2026-11-25 08:49",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pUVdfSS15VWRjV0RWbXNKMkxWREFwMjYtVEFlM2VPMjlVdU9ZR05zeWxOT2kwcWpqcVhuNVhieldxcU5GRUp4T0JfR016ZWU1SW5Jamx5Q2k?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
    "title": "商品期货开盘，沪银主力合约跌超6%，沪锡、国际铜、钯跌超5%，沪铜跌近5%，铂跌超3%。沥青涨超3%，纯苯涨近3%。",
    "summary": "商品期货开盘，沪银主力合约跌超6%，沪锡、国际铜、钯跌超5%，沪铜跌近5%，铂跌超3%。沥青涨超3%，纯苯涨近3%。",
    "time": "2026-11-25 09:00",
    "url": "https://wallstreetcn.com/livenews/3205313",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "戴尔Q3业绩大幅超预期 AI服务器营收同比暴涨291%",
-   "summary": "【戴尔Q3业绩大幅超预期 AI服务器营收同比暴涨291%】美东时间周二盘后，戴尔公布第三财季业绩，不仅盈利、营收双双超出华尔街预期，同时给出强劲的第四财季业绩指引。财报发布后，戴尔盘后股价走高。",
-   "time": "2026-11-25 08:55:26",
-   "url": "https://finance.eastmoney.com/a/202611253939160492.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "美股芯片股集体重挫 - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-25 08:44",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ2hRVWoxWFFEQ05jZGsxNWdaRGFITlFTN2tQUjhDbjFXX3VKSFVQSHdUNkExM3QzeGZfQjY3eWUwRTMzTWZJcHYtNElrekFzUzQ0WlV1OEZkZkNlMllpdUFCYzVta1FWZXVtekNPbWRZamE3NVBjWXZycjRWTi1MQ0hB?oc=5",
-   "source": "谷歌新闻·国际"
   },
   {
    "title": "国泰海通研报：煤炭短期需求集中释放或已结束 供给仍有提升空间 - 观点网",
@@ -2011,10 +2014,10 @@
    "source": "东财早报"
   },
   {
-   "title": "富时中国A50指数期货盘初跌0.57%",
+   "title": "广期所碳酸锂主力合约大跌5%",
    "summary": "",
-   "time": "2026-11-25 01:00:21",
-   "url": "https://news.10jqka.com.cn/20261125/c682178800.shtml",
+   "time": "2026-11-25 01:07:09",
+   "url": "https://news.10jqka.com.cn/20261125/c682179680.shtml",
    "source": "同花顺"
   },
   {
@@ -2032,6 +2035,20 @@
    "source": "财新"
   },
   {
+   "title": "MSCI亚太指数下跌2%",
+   "summary": "MSCI亚太指数下跌2%至236.89点。",
+   "time": "2026-11-25 09:05:50",
+   "url": "https://finance.eastmoney.com/a/202611253939244238.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "美股芯片股集体重挫 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-25 08:44",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZ2hRVWoxWFFEQ05jZGsxNWdaRGFITlFTN2tQUjhDbjFXX3VKSFVQSHdUNkExM3QzeGZfQjY3eWUwRTMzTWZJcHYtNElrekFzUzQ0WlV1OEZkZkNlMllpdUFCYzVta1FWZXVtekNPbWRZamE3NVBjWXZycjRWTi1MQ0hB?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
    "title": "富时中国A50指数期货盘初跌0.66%，上一个交易日夜盘收跌0.58%。",
    "summary": "富时中国A50指数期货盘初跌0.66%，上一个交易日夜盘收跌0.58%。",
    "time": "2026-11-25 09:00",
@@ -2039,24 +2056,10 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "天洋新材成立实业与国际贸易新公司",
-   "summary": "【天洋新材成立实业与国际贸易新公司】企查查APP显示，近日，天洋启力（上海）实业有限公司、天洋启辰（上海）国际贸易有限公司成立，注册资本均为100万元，前者经营范围包含国内贸易代理；橡胶制品销售；新型膜材料销售等；后者经营范围包含货物进出口；技术进出口；新型膜材料销售等。企查查股权穿透显示，二者皆由天洋新材全资持股。",
-   "time": "2026-11-25 08:53:37",
-   "url": "https://finance.eastmoney.com/a/202611253939153697.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "特朗普：对美国政府入股英伟达持开放态度 - 财联社",
+   "title": "惠誉将2027年全球主权评级展望定为“中性” - Sohu",
    "summary": "",
-   "time": "2026-11-25 08:39",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE11MHFZZ2FUdUxLb2REYXh0d0ItQWJMdGNBcW40MnlCTkMtQmdWR1Nob0dBUDZuNlVmSXdOR3V6TXBDNmpNLUhleA?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "太平洋：给予翱捷科技买入评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-25 08:40",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wWHBsZEJOWmllNzNwOVBKZ3lxUXh5SVJPRWozU2x1aE5DWHE4eEUtZUdMWnFSVVFtb0lLMzk4LV9sTEFSbnc5OHB0UXhXWmZrQm05QnJNcTRVM1dIb1c2elRn?oc=5",
+   "time": "2026-11-25 08:41",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcnhpb296TW16WVVMa21mUDNBTS1yN2ttbUdka1RaZ0diWmJZT1I2Yk0tN1h2MDZJYTQyN09tWThjMHZZTjI1TmhSUnJ3UUxHajVGdTExZXdlZ1Q3V0ZKRUxSczFOSXFPRUlNVnBKRkJGTXJBaldNY0JER3BkY19KWkJUTWNFZlllT3RVbw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -2067,10 +2070,10 @@
    "source": "东财早报"
   },
   {
-   "title": "期市早盘开盘，国内期货主力合约多数上涨",
+   "title": "MSCI亚太指数下跌2%至236.89点",
    "summary": "",
-   "time": "2026-11-25 00:59:59",
-   "url": "https://news.10jqka.com.cn/20261125/c682178423.shtml",
+   "time": "2026-11-25 01:04:44",
+   "url": "https://news.10jqka.com.cn/20261125/c682179108.shtml",
    "source": "同花顺"
   },
   {
@@ -2092,7 +2095,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(10)",
+   "富途": "ok(9)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2101,9 +2104,9 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
    "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·研报": 6,
    "东财早报": 3,
    "同花顺": 6,
