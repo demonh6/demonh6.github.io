@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 05:29:22 CST",
- "generated_at_iso": "2026-11-26T05:29:22+08:00",
+ "generated_at": "2026-11-26 05:37:35 CST",
+ "generated_at_iso": "2026-11-26T05:37:35+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -642,7 +642,7 @@
     "price": 50182.9492,
     "change": 164.25,
     "change_pct": 0.33,
-    "quote_time": "2026-11-26 05:20:23",
+    "quote_time": "2026-11-26 05:32:23",
     "hist": [
      51267.8984,
      51521.2812,
@@ -719,7 +719,7 @@
     "price": 23585.8023,
     "change": -147.733,
     "change_pct": -0.62,
-    "quote_time": "2026-11-26 05:29:18",
+    "quote_time": "2026-11-26 05:37:32",
     "hist": [
      27477.3105,
      27599.791,
@@ -796,7 +796,7 @@
     "price": 7182.7798,
     "change": -18.31,
     "change_pct": -0.25,
-    "quote_time": "2026-11-26 05:20:23",
+    "quote_time": "2026-11-26 05:32:23",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 82435.9922,
+    "change": -1483.72,
+    "change_pct": -1.77
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 38195.43,
+    "change": -1926.92,
+    "change_pct": -4.8
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 24861.18,
+    "change": -156.63,
+    "change_pct": -0.63
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10426.94,
-    "change": -40.13,
-    "change_pct": -0.38,
+    "price": 10444.9,
+    "change": -22.17,
+    "change_pct": -0.21,
     "hist": [
      10840.35,
      10881.9,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 7980.57,
-    "change": -59.92,
-    "change_pct": -0.75,
+    "price": 8059.4,
+    "change": 18.91,
+    "change_pct": 0.24,
     "hist": [
      7934.7,
      7956.7,
@@ -1170,7 +1191,7 @@
     "name": "欧洲斯托克50",
     "sym": "SX5E",
     "price": 5894.46,
-    "change": -109.3,
+    "change": -109.31,
     "change_pct": -1.82,
     "hist": [
      6168.27,
@@ -1205,6 +1226,13 @@
      5894.46
     ],
     "sigma": 1.341
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2357.04,
+    "change": 33.96,
+    "change_pct": 1.46
    }
   ]
  },
@@ -1212,13 +1240,12 @@
   "bond": {
    "name": "美国10年期国债收益率",
    "sym": "US10Y",
-   "value": 4.91,
+   "value": 4.85,
    "unit": "%",
-   "change_bp": -1.0,
-   "date": "2026-11-24",
+   "change_bp": -6.0,
+   "date": "2026-11-25",
    "source": "美财政部",
    "hist": [
-    5.21,
     5.19,
     5.1,
     5.09,
@@ -1247,46 +1274,47 @@
     5.04,
     4.92,
     4.92,
-    4.91
+    4.91,
+    4.85
    ],
-   "sigma_bp": 5.64
+   "sigma_bp": 5.77
   },
   "commodities": [
    {
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3611.61,
-    "change": 20.51,
-    "change_pct": 0.57,
-    "quote_time": "05:29:23 2026-11-26"
+    "price": 3604.14,
+    "change": 13.04,
+    "change_pct": 0.36,
+    "quote_time": "05:37:32 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.52,
-    "change": 0.268,
-    "change_pct": 0.65,
-    "quote_time": "05:29:12 2026-11-26"
+    "price": 41.41,
+    "change": 0.158,
+    "change_pct": 0.38,
+    "quote_time": "05:37:34 2026-11-26"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.199,
-    "change": 2.149,
-    "change_pct": 2.62,
-    "quote_time": "05:29:23 2026-11-26"
+    "price": 84.163,
+    "change": 2.113,
+    "change_pct": 2.58,
+    "quote_time": "05:37:34 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 90.857,
-    "change": 2.077,
-    "change_pct": 2.34,
-    "quote_time": "05:29:10 2026-11-26"
+    "price": 90.795,
+    "change": 2.015,
+    "change_pct": 2.27,
+    "quote_time": "05:37:40 2026-11-26"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60340.0,
-    "change": 405.3,
-    "change_pct": 0.68,
+    "price": 60383.0,
+    "change": 460.3,
+    "change_pct": 0.77,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1691.09,
-    "change": 9.69,
-    "change_pct": 0.58,
+    "price": 1691.6,
+    "change": 11.0,
+    "change_pct": 0.65,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.69,
-    "change": 1.16,
-    "change_pct": 1.67,
+    "price": 70.88,
+    "change": 1.37,
+    "change_pct": 1.97,
     "source": "okx"
    }
   ],
@@ -1333,8 +1361,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6672,
-    "change": 0.0023,
+    "price": 6.6668,
+    "change": 0.0019,
     "change_pct": 0.03,
     "dec": 4,
     "date": "",
@@ -1385,26 +1413,15 @@
  },
  "speakers": [
   {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "马斯克旗下脑机接口公司Neuralink已获得FDA批准推出Link 这是美国首个植入式脑机接口的关键性试验",
-   "summary": "马斯克旗下脑机接口公司Neuralink已获得FDA批准推出Link，这是美国首个植入式脑机接口的关键性试验。",
-   "time": "2026-11-26 04:57:05",
-   "url": "https://finance.eastmoney.com/a/202611263939947418.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储“褐皮书”显示美国物价整体温和上涨 - 新浪财经",
+   "title": "美联储褐皮书显示经济温和增长 薪资压力上升 - 新浪财经",
    "summary": "",
-   "time": "2026-11-26 03:56",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1raWV6ajlydkd1TUxLMWlrbTVUWC1ub0cxVzVMUTZlTllvRlFINTU1M1JBMjdtZFRvNFlVNlROZ0puX01KREFfWW9fZW11dk1QRUNvdmdkTzdrbXd3Mk4temZEQmdoM1FmbDA1N2V0SVRFWjZYdEVGbQ?oc=5",
+   "time": "2026-11-26 04:52",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFN3QkVPM2czWFBUX2NzeVFBNXY3Y0JPcHc5QnluQThhYUdrTlg5bG0wQTZDaVZGaUtEMy1BVFVYQXYzTmFIdzhjRzFzalFDZkpNNnRZbUNLbF9EbTV5amphb3ctb3pPUWxpZUtNeWtMbkRHVFZwdUlHQnRXd2NTNnE2YmNJWG8?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 2
   },
   {
    "keyword": "特朗普",
@@ -1615,72 +1632,79 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.19%，达20日历史波动率的 3.5 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-26 05:29",
+   "time": "2026-11-26 05:38",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "danger",
+   "asset": "台湾加权",
+   "message": "台湾加权单日跌4.80%，达20日历史波动率的 4.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-26 05:38",
+   "chain": "欧/亚股指走弱 → 全球股票基金遭净赎回 → 被动资金机械卖出 → 避险资金流向美债与美元 → 美股时段联动下挫"
+  },
+  {
+   "level": "danger",
    "asset": "全球股指",
-   "message": "上证指数、深证成指、创业板指等 6 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-26 05:29",
+   "message": "上证指数、深证成指、创业板指等 7 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
+   "time": "2026-11-26 05:38",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "上证指数",
    "message": "上证指数单日跌2.03%，达20日历史波动率的 2.2 倍（σ=0.94%，突破 2σ 警戒线）",
-   "time": "2026-11-26 05:29",
+   "time": "2026-11-26 05:38",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.24%，达20日历史波动率的 2.7 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-26 05:29",
+   "time": "2026-11-26 05:38",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
  "news": [
   {
-   "title": "英伟达两日跌9.5%。",
-   "summary": "英伟达两日跌9.5%。",
-   "time": "2026-11-26 05:01",
-   "url": "https://wallstreetcn.com/livenews/3205929",
+   "title": "美股大类资产类ETF多数收涨，布油基金涨超2.8%，纳指ETF跌超0.6%",
+   "summary": "周三（11月25日），恐慌指数做多收涨3.97%，美国布伦特油价基金涨2.86%，美国房地产ETF涨0.93%，美国国债20+年ETF涨0.92%，罗素2000指数ETF涨0.65%，黄金ETF涨0.61%，大豆基金、道指ETF、欧元做多至多涨0.36%。\n\n日元做多收平，巴克莱美国可转债ETF跌0.02%，做多美元指数跌0.1%，标普500 ETF跌0.29%，新兴市场ETF跌0.51%，纳斯达",
+   "time": "2026-11-26 05:33",
+   "url": "https://wallstreetcn.com/livenews/3205940",
    "source": "华尔街见闻"
   },
   {
-   "title": "美股收盘：道指翻红 芯片股继续调整 英伟达跌近4%",
-   "summary": "【美股收盘：道指翻红 芯片股继续调整 英伟达跌近4%】美三大股指低开后震荡回升，盘中持续修复。道琼斯指数涨0.33%，标普500指数跌0.25%，纳斯达克综合指数跌0.62%。芯片股继续调整，抛压有所消化，费城半导体指数收跌0.65%，其中英伟达跌近4%，AMD跌近2%，美光科技跌4.5%。大型科技股表现分化，Meta涨超3%，SpaceX涨超1%；亚马逊跌约3%，谷歌跌2%。",
-   "time": "2026-11-26 05:00:06",
-   "url": "https://finance.eastmoney.com/a/202611263939947513.html",
+   "title": "美国能源基础设施公司Targa据悉正洽谈收购Kinetik 以进行重大管道整合",
+   "summary": "美国能源基础设施公司Targa据悉正洽谈收购Kinetik，以进行重大管道整合。",
+   "time": "2026-11-26 05:23:46",
+   "url": "https://finance.eastmoney.com/a/202611263939952973.html",
    "source": "东财国际"
   },
   {
-   "title": "标普将英伟达列入“信用观察负面”名单，治理风险成评级焦点 - Sohu",
+   "title": "标普将英伟达列入“信用观察负面”名单，治理风险成评级焦点 - 华尔街见闻",
    "summary": "",
    "time": "2026-11-26 04:56",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWFNSSXVQUzJ2emozd255N1RkcWRBQTVNeFkwbFdlZjVRWDk5Z3V3R0xIRHFSUm9BS3BXM0pxZHVHd0hYa3N0TmIwcFEtaENvT2VZWXhDelFtamExUnRuTjFQWUFfX2FhNUN2VkhtRzRBaV9uc0xYLU4wRm1pMURwWm5JbXpXcGV1?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrQ1VFUVlyNnluSTJwTmoxR0NFZWdHcllRV2JyVnctTGlpZGYxUlhBQmlwTlNjLTBXSmhJR1drRWVaazJzOEFnUzVIYWcyWVRfbmlV?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储“褐皮书”显示美国物价整体温和上涨 - 新浪财经",
+   "title": "美联储褐皮书显示经济温和增长 薪资压力上升 - 新浪财经",
    "summary": "",
-   "time": "2026-11-26 03:56",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1raWV6ajlydkd1TUxLMWlrbTVUWC1ub0cxVzVMUTZlTllvRlFINTU1M1JBMjdtZFRvNFlVNlROZ0puX01KREFfWW9fZW11dk1QRUNvdmdkTzdrbXd3Mk4temZEQmdoM1FmbDA1N2V0SVRFWjZYdEVGbQ?oc=5",
+   "time": "2026-11-26 04:52",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFN3QkVPM2czWFBUX2NzeVFBNXY3Y0JPcHc5QnluQThhYUdrTlg5bG0wQTZDaVZGaUtEMy1BVFVYQXYzTmFIdzhjRzFzalFDZkpNNnRZbUNLbF9EbTV5amphb3ctb3pPUWxpZUtNeWtMbkRHVFZwdUlHQnRXd2NTNnE2YmNJWG8?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美股收盘：三大股指较低点大幅反弹 英伟达跌近4%",
+   "title": "摩根大通：AI资本支出明年逼近1.4万亿美元 2028年或迎增长拐点",
    "summary": "",
-   "time": "2026-11-25 21:01:41",
-   "url": "https://news.futunn.com/flash/1005658804/us-stocks-close-three-major-indices-rebound-sharply-from-lows",
+   "time": "2026-11-25 21:29:22",
+   "url": "https://news.futunn.com/flash/1005660491/jpmorgan-ai-capital-expenditure-to-approach-1-4-trillion-next",
    "source": "富途"
   },
   {
-   "title": "SpaceX将投资下一代，为每个特朗普账户配发1股A类普通股",
+   "title": "纳斯达克中国金龙指数收涨1.87%，报5243.02点。",
    "summary": "",
-   "time": "2026-11-25 19:25:12",
-   "url": "https://news.10jqka.com.cn/20261126/c682221316.shtml",
+   "time": "2026-11-25 21:08:18",
+   "url": "https://news.10jqka.com.cn/20261126/c682221400.shtml",
    "source": "同花顺"
   },
   {
@@ -1698,17 +1722,17 @@
    "source": "财新"
   },
   {
-   "title": "脑机接口公司Neuralink：已获得美国食品药品监督管理局（FDA）批准，启动Link项目。\n\n这是美国首项针对可植入式脑机接口开展的关键性临床试验。",
-   "summary": "脑机接口公司Neuralink：已获得美国食品药品监督管理局（FDA）批准，启动Link项目。\n\n这是美国首项针对可植入式脑机接口开展的关键性临床试验。",
-   "time": "2026-11-26 05:01",
-   "url": "https://wallstreetcn.com/livenews/3205928",
+   "title": "标普500指数的11个板块中，可选消费板块收跌0.98%，信息技术/科技板块跌0.97%，工业、房地产板块至少涨0.82%，原材料板块涨1.84%。",
+   "summary": "标普500指数的11个板块中，可选消费板块收跌0.98%，信息技术/科技板块跌0.97%，工业、房地产板块至少涨0.82%，原材料板块涨1.84%。",
+   "time": "2026-11-26 05:19",
+   "url": "https://wallstreetcn.com/livenews/3205938",
    "source": "华尔街见闻"
   },
   {
-   "title": "马斯克旗下脑机接口公司Neuralink已获得FDA批准推出Link 这是美国首个植入式脑机接口的关键性试验",
-   "summary": "马斯克旗下脑机接口公司Neuralink已获得FDA批准推出Link，这是美国首个植入式脑机接口的关键性试验。",
-   "time": "2026-11-26 04:57:05",
-   "url": "https://finance.eastmoney.com/a/202611263939947418.html",
+   "title": "富时A50期指连续夜盘收涨0.56% 报12689点",
+   "summary": "富时A50期指连续夜盘收涨0.56%，报12689点。",
+   "time": "2026-11-26 05:17:02",
+   "url": "https://finance.eastmoney.com/a/202611263939949714.html",
    "source": "东财国际"
   },
   {
@@ -1719,24 +1743,24 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普总统警告，切断针对伊朗的军事行动经费是不可取的 - 美国之音",
+   "title": "美联储“褐皮书”显示美国物价整体温和上涨 - 新浪财经",
    "summary": "",
-   "time": "2026-11-26 03:19",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYklhSmJjODFXLTFYQ3N0UHFXaHBFYS1qa2dIMVVjWS1SVHM5Uy1TbGxhcWc3QmZxaHdRSlpFUm5KemN0VUFUMXBtdmRock9RWmc0ek0wMEZIYTBiR2dlWTNUUWhRZElrSEZKc3V3MkZvODVsMTFKcGZCNDIyRVlHS2Zjclc3MG9HaUVhUVF2TEJVRHFpdW5KZ0NRSjNEbkV1d2FWOFdoYjk2RVV2MUFULTJKLW5mV2Nadko1SjZYeUFMNEHSAcMBQVVfeXFMUGJJYUpiYzgxVy0xWENzdFBxV2hwRWEtamtnSDFVY1ktUlRzOVMtU2xsYXFnN0JmcWh3UUpaRVJuSnpjdFVBVDFwbXZkaHJPUVpnNHpNMDBGSGEwYkdnZVkzVFFoUWRJa0hGSnN1dzJGbzg1bDExSnBmQjQyMkVZR0tmY3JXNzBvR2lFYVFRdkxCVURxaXVuSmdDUUozRG5FdXdhVjhXaGI5NkVVdjFBVC0ySi1uZldjWnZKNUo2WHlBTDRB?oc=5",
+   "time": "2026-11-26 03:56",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1raWV6ajlydkd1TUxLMWlrbTVUWC1ub0cxVzVMUTZlTllvRlFINTU1M1JBMjdtZFRvNFlVNlROZ0puX01KREFfWW9fZW11dk1QRUNvdmdkTzdrbXd3Mk4temZEQmdoM1FmbDA1N2V0SVRFWjZYdEVGbQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "国际油价25日上涨",
+   "title": "瑞士：对朝鲜关闭瑞士驻平壤外交办事处表示遗憾",
    "summary": "",
-   "time": "2026-11-25 20:50:38",
-   "url": "https://news.futunn.com/flash/1005658074/international-oil-prices-rose-on-the-25th",
+   "time": "2026-11-25 21:20:26",
+   "url": "https://news.futunn.com/flash/1005659853/switzerland-regrets-expressed-over-closure-of-swiss-diplomatic-office-in",
    "source": "富途"
   },
   {
-   "title": "美国投资公司协会（ICI）数据：美国货币市场基金资产规模升至7.979万亿美元",
+   "title": "SpaceX将投资下一代，为每个特朗普账户配发1股A类普通股",
    "summary": "",
-   "time": "2026-11-25 19:05:00",
-   "url": "https://news.10jqka.com.cn/20261126/c682221299.shtml",
+   "time": "2026-11-25 19:25:12",
+   "url": "https://news.10jqka.com.cn/20261126/c682221316.shtml",
    "source": "同花顺"
   },
   {
@@ -1754,17 +1778,17 @@
    "source": "财新"
   },
   {
-   "title": "美股费城半导体指数初步跌0.6%，存储芯片指数跌3.9%，半导体制造指数跌3%，科技股七巨头指数跌1.4%、超大市值科技股指数跌1.1%。\n\n标普500指数初步收跌0.1%，科技板块跌1%，可选消费板块跌0.8%，工业、房地产板块涨1%，原",
-   "summary": "美股费城半导体指数初步跌0.6%，存储芯片指数跌3.9%，半导体制造指数跌3%，科技股七巨头指数跌1.4%、超大市值科技股指数跌1.1%。\n\n标普500指数初步收跌0.1%，科技板块跌1%，可选消费板块跌0.8%，工业、房地产板块涨1%，原材料板块涨2.1%。\n\n纳斯达克100指数初步收跌0.5%，成分股中，泛林集团初步收跌6.6%，闪迪跌6.2%，美光科技跌5.1%，应用材料跌4.4%，Data",
-   "time": "2026-11-26 05:00",
-   "url": "https://wallstreetcn.com/livenews/3205927",
+   "title": "周三（11月25日），美股行业ETF全球科技股指数ETF收跌1.03%，半导体ETF跌1.01%，全球航空业ETF跌0.88%，科技行业ETF跌0.83%，金融业ETF、能源业ETF至多涨0.74%，工业指数ETF涨0.83%。",
+   "summary": "周三（11月25日），美股行业ETF全球科技股指数ETF收跌1.03%，半导体ETF跌1.01%，全球航空业ETF跌0.88%，科技行业ETF跌0.83%，金融业ETF、能源业ETF至多涨0.74%，工业指数ETF涨0.83%。",
+   "time": "2026-11-26 05:17",
+   "url": "https://wallstreetcn.com/livenews/3205937",
    "source": "华尔街见闻"
   },
   {
-   "title": "深圳A股上市公司前三季度营收净利增速创五年新高",
-   "summary": "【深圳A股上市公司前三季度营收净利增速创五年新高】11月25日，记者从深圳证监局了解到，今年前三季度，432家深圳上市公司实现营业收入5.91万亿元，归属母公司股东的净利润达5101.57亿元，两项核心指标增速均优于全国平均水平，创近5年新高。经营活动产生的现金净流入1.40万亿元，同比增加58.80%，反映上市公司主业“造血能力”增强，利润质量较高。前三季度，深圳制造业上市公司释放增长新动能，研发创新能力不断增强，新质生产力加快培育。287家制造业上市公司共实现营业收入3.33万亿元、净利润1928.28亿元，分别同比增长25.20%、41.50%，成为支撑深圳实体产业的核心力量。",
-   "time": "2026-11-26 04:56:41",
-   "url": "https://finance.eastmoney.com/a/202611263939928537.html",
+   "title": "乌克兰首都基辅遭弹道导弹袭击",
+   "summary": "【乌克兰首都基辅遭弹道导弹袭击】当地时间25日22时46分许，乌克兰首都基辅响起强烈爆炸声。基辅市市长克利奇科在社交媒体发文称，基辅市正遭受弹道导弹袭击，提醒民众做好防护。",
+   "time": "2026-11-26 05:16:29",
+   "url": "https://finance.eastmoney.com/a/202611263939949444.html",
    "source": "东财国际"
   },
   {
@@ -1775,24 +1799,24 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "民主党议员扬言明年国会掌权后反击特朗普关税政策 - RFI",
+   "title": "特朗普总统警告，切断针对伊朗的军事行动经费是不可取的 - 美国之音",
    "summary": "",
-   "time": "2026-11-26 03:18",
-   "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQSHYtamh0cEkwenZHTjIwOS1zUGV6NVo4NEpaVHJZbEtPZ2pXMTlYWmxFZGZQMERPTkpxNDd0QWFNMVpIQmVCODg2Z1hWaEdRSEtyMEROVzBJUElxX2lITU52QXpXVlRjcV9xcE5OS203ZXNkTXlfejVuYnlyTkxKd2ppZzFjcnVZemlqbllPV1AtcVdVX2tnM0syTXN5Yzl3c2dnNElJRTJqS1NzRHFpV0FXLUFoVF9Kc3BpZ0tMSm11bVJCX2hDdGNacS1OcHRoLWFHdzBkZWtyOEpTdWl4R3VxeGYzakdjaVdrX1RfRXhzTURNV2FqU1hCQjhZbWxrb3JMTHM5OG5RWmVENk9JRUpQVVJoX29SUUdQZWg1VkFxemxVRFcyN09jem5kTHBoV0ZnaDZaWlNybnhXSTRCNXptYlFQX3ZYUzJwZzZXaXhyWFNESW1wa29iZkFXNnUzSXltS2YybzNOb1NCY29PcmphZw?oc=5",
+   "time": "2026-11-26 03:19",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYklhSmJjODFXLTFYQ3N0UHFXaHBFYS1qa2dIMVVjWS1SVHM5Uy1TbGxhcWc3QmZxaHdRSlpFUm5KemN0VUFUMXBtdmRock9RWmc0ek0wMEZIYTBiR2dlWTNUUWhRZElrSEZKc3V3MkZvODVsMTFKcGZCNDIyRVlHS2Zjclc3MG9HaUVhUVF2TEJVRHFpdW5KZ0NRSjNEbkV1d2FWOFdoYjk2RVV2MUFULTJKLW5mV2Nadko1SjZYeUFMNEHSAcMBQVVfeXFMUGJJYUpiYzgxVy0xWENzdFBxV2hwRWEtamtnSDFVY1ktUlRzOVMtU2xsYXFnN0JmcWh3UUpaRVJuSnpjdFVBVDFwbXZkaHJPUVpnNHpNMDBGSGEwYkdnZVkzVFFoUWRJa0hGSnN1dzJGbzg1bDExSnBmQjQyMkVZR0tmY3JXNzBvR2lFYVFRdkxCVURxaXVuSmdDUUozRG5FdXdhVjhXaGI5NkVVdjFBVC0ySi1uZldjWnZKNUo2WHlBTDRB?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美元指数25日下跌",
+   "title": "美股收盘：三大股指较低点大幅反弹 英伟达跌近4%",
    "summary": "",
-   "time": "2026-11-25 20:46:30",
-   "url": "https://news.futunn.com/flash/1005657823/us-dollar-index-declines-on-the-25th",
+   "time": "2026-11-25 21:01:41",
+   "url": "https://news.futunn.com/flash/1005658804/us-stocks-close-three-major-indices-rebound-sharply-from-lows",
    "source": "富途"
   },
   {
-   "title": "美国副总统万斯：我们被告知黄仁勋没有受到调查",
+   "title": "美国投资公司协会（ICI）数据：美国货币市场基金资产规模升至7.979万亿美元",
    "summary": "",
-   "time": "2026-11-25 19:00:37",
-   "url": "https://news.10jqka.com.cn/20261126/c682221297.shtml",
+   "time": "2026-11-25 19:05:00",
+   "url": "https://news.10jqka.com.cn/20261126/c682221299.shtml",
    "source": "同花顺"
   },
   {
@@ -1803,10 +1827,10 @@
    "source": "财新"
   },
   {
-   "title": "纳斯达克金龙中国指数初步收涨1.9%。\n\n热门中概股里，联想初步收跌3.8%，腾讯跌0.3%，百度涨0.1%，拼多多涨0.2%，日月光半导体涨0.6%，阿里涨1.7%，网易涨3.6%。\n\nETF中，KWEB涨0.2%，CQQQ跌2.2%。",
-   "summary": "纳斯达克金龙中国指数初步收涨1.9%。\n\n热门中概股里，联想初步收跌3.8%，腾讯跌0.3%，百度涨0.1%，拼多多涨0.2%，日月光半导体涨0.6%，阿里涨1.7%，网易涨3.6%。\n\nETF中，KWEB涨0.2%，CQQQ跌2.2%。",
-   "time": "2026-11-26 05:00",
-   "url": "https://wallstreetcn.com/livenews/3205925",
+   "title": "巴西政府声明：对美国决定建议对进口飞机和糖征收新关税表示愤慨。\n\n很明显，这项新建议意在向政府施压，迫使其对国家监管措施作出改变。\n\n将继续寻求谈判解决方案，不排除采取对等措施的可能性。",
+   "summary": "巴西政府声明：对美国决定建议对进口飞机和糖征收新关税表示愤慨。\n\n很明显，这项新建议意在向政府施压，迫使其对国家监管措施作出改变。\n\n将继续寻求谈判解决方案，不排除采取对等措施的可能性。",
+   "time": "2026-11-26 05:13",
+   "url": "https://wallstreetcn.com/livenews/3205933",
    "source": "华尔街见闻"
   }
  ],
@@ -1814,7 +1838,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(12)",
+   "富途": "ok(13)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
