@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-25 18:18:33 CST",
- "generated_at_iso": "2026-11-25T18:18:33+08:00",
+ "generated_at": "2026-11-25 18:26:48 CST",
+ "generated_at_iso": "2026-11-25T18:26:48+08:00",
  "date": "2026-11-25",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3558.99,
-    "change": -32.11,
-    "change_pct": -0.89,
-    "quote_time": "18:18:33 2026-11-25"
+    "price": 3557.472,
+    "change": -33.628,
+    "change_pct": -0.94,
+    "quote_time": "18:26:47 2026-11-25"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 40.533,
-    "change": -0.719,
-    "change_pct": -1.74,
-    "quote_time": "18:18:21 2026-11-25"
+    "price": 40.5,
+    "change": -0.752,
+    "change_pct": -1.82,
+    "quote_time": "18:26:47 2026-11-25"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 81.898,
-    "change": -0.152,
-    "change_pct": -0.19,
-    "quote_time": "18:18:33 2026-11-25"
+    "price": 81.694,
+    "change": -0.356,
+    "change_pct": -0.43,
+    "quote_time": "18:26:50 2026-11-25"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 88.615,
-    "change": -0.165,
-    "change_pct": -0.19,
-    "quote_time": "18:18:33 2026-11-25"
+    "price": 88.4,
+    "change": -0.38,
+    "change_pct": -0.43,
+    "quote_time": "18:26:49 2026-11-25"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 58994.3,
-    "change": -970.3,
-    "change_pct": -1.62,
+    "price": 59004.8,
+    "change": -936.1,
+    "change_pct": -1.56,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1645.78,
-    "change": -40.21,
-    "change_pct": -2.38,
+    "price": 1646.11,
+    "change": -41.91,
+    "change_pct": -2.48,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 67.73,
-    "change": -3.03,
-    "change_pct": -4.28,
+    "price": 67.72,
+    "change": -3.12,
+    "change_pct": -4.4,
     "source": "okx"
    }
   ],
@@ -1322,24 +1322,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 104.01,
-    "change": 0.18,
+    "price": 103.997,
+    "change": 0.172,
     "change_pct": 0.17,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-25",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
     "price": 6.6773,
-    "change": 0.0124,
-    "change_pct": 0.19,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-25",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1614,28 +1614,28 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日跌4.19%，达20日历史波动率的 3.5 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-25 18:18",
+   "time": "2026-11-25 18:27",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "danger",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 6 个主要股指单日齐跌且均超1.5倍σ，全球风险资产共振走弱，警惕连锁抛售。",
-   "time": "2026-11-25 18:18",
+   "time": "2026-11-25 18:27",
    "chain": "多市场共振下跌 → VIX飙升 → 风险平价/波动率目标基金被模型强制减仓 → CTA翻空追加卖压 → 保证金追缴引发跨资产抛售螺旋 → 警惕流动性挤兑"
   },
   {
    "level": "warning",
    "asset": "上证指数",
    "message": "上证指数单日跌2.03%，达20日历史波动率的 2.2 倍（σ=0.94%，突破 2σ 警戒线）",
-   "time": "2026-11-25 18:18",
+   "time": "2026-11-25 18:27",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   },
   {
    "level": "warning",
    "asset": "深证成指",
    "message": "深证成指单日跌3.24%，达20日历史波动率的 2.7 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-25 18:18",
+   "time": "2026-11-25 18:27",
    "chain": "权重股下杀击穿量化风控线 → 两融强平盘涌出放大跌幅 → 止损单连锁触发 → 行业ETF遭净赎回、被动卖出成分股 → 中小盘流动性挤兑，跌势自我强化"
   }
  ],
