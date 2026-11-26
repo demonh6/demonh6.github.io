@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 19:26:41 CST",
- "generated_at_iso": "2026-11-26T19:26:41+08:00",
+ "generated_at": "2026-11-26 19:34:57 CST",
+ "generated_at_iso": "2026-11-26T19:34:57+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 84328.5938,
+    "change": 390.31,
+    "change_pct": 0.46
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 38937.29,
+    "change": 741.86,
+    "change_pct": 1.94
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 24702.13,
+    "change": -315.68,
+    "change_pct": -1.26
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10576.32,
-    "change": 149.38,
-    "change_pct": 1.43,
+    "price": 10426.94,
+    "change": -40.13,
+    "change_pct": -0.38,
     "hist": [
      10840.35,
      10881.9,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8117.34,
-    "change": 136.77,
-    "change_pct": 1.71,
+    "price": 7980.57,
+    "change": -59.92,
+    "change_pct": -0.75,
     "hist": [
      7934.7,
      7956.7,
@@ -1169,9 +1190,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6005.8,
-    "change": 111.34,
-    "change_pct": 1.89,
+    "price": 5894.46,
+    "change": -109.31,
+    "change_pct": -1.82,
     "hist": [
      6168.27,
      6204.24,
@@ -1205,6 +1226,13 @@
      5894.46
     ],
     "sigma": 1.341
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2356.86,
+    "change": 33.78,
+    "change_pct": 1.45
    }
   ]
  },
@@ -1256,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3590.192,
-    "change": 25.592,
-    "change_pct": 0.72,
-    "quote_time": "19:26:39 2026-11-26"
+    "price": 3591.904,
+    "change": 27.304,
+    "change_pct": 0.77,
+    "quote_time": "19:35:00 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.658,
-    "change": 1.12,
-    "change_pct": 2.76,
-    "quote_time": "19:26:25 2026-11-26"
+    "price": 41.698,
+    "change": 1.16,
+    "change_pct": 2.86,
+    "quote_time": "19:35:00 2026-11-26"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.636,
-    "change": 0.956,
-    "change_pct": 1.14,
-    "quote_time": "19:26:44 2026-11-26"
+    "price": 84.739,
+    "change": 1.059,
+    "change_pct": 1.27,
+    "quote_time": "19:35:00 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.207,
-    "change": 0.567,
-    "change_pct": 0.63,
-    "quote_time": "19:26:44 2026-11-26"
+    "price": 91.243,
+    "change": 0.603,
+    "change_pct": 0.67,
+    "quote_time": "19:35:00 2026-11-26"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60674.4,
-    "change": 1932.1,
-    "change_pct": 3.29,
+    "price": 60663.2,
+    "change": 2148.1,
+    "change_pct": 3.67,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1699.81,
-    "change": 54.72,
-    "change_pct": 3.33,
+    "price": 1700.12,
+    "change": 61.95,
+    "change_pct": 3.78,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.8,
-    "change": 3.18,
-    "change_pct": 4.7,
+    "price": 70.76,
+    "change": 3.33,
+    "change_pct": 4.94,
     "source": "okx"
    }
   ],
@@ -1322,20 +1350,20 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.79,
-    "change": 0.08,
+    "price": 103.786,
+    "change": 0.085,
     "change_pct": 0.08,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6621,
-    "change": -0.0054,
-    "change_pct": -0.08,
+    "price": 6.6626,
+    "change": -0.0049,
+    "change_pct": -0.07,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1348,9 +1376,9 @@
     "change": -0.99,
     "change_pct": -0.71,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1388,12 +1416,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普再挥关税大棒：意在证明权力仍在手中 - Sohu",
+   "title": "特朗普表示美国不支持“台独”，国防部答北京日报客户端 - 京报网",
    "summary": "",
-   "time": "2026-11-26 18:45",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTkxNNVVnOVhDZnNtTm1jNE5hdHRyQV90MDdPR2xEcktRNW5MbmNjZjJWTTBtbHFLZmhxSzRJcjhSZzhFQk5vZktobkZQUTQ4U0dqa1Vab1Vla21RcXRSNW9BT09fbTVfbFY3d3FqQmtzWkhCZThtNllldFY1RG44WUJPbjlzVUMw?oc=5",
+   "time": "2026-11-26 19:26",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDcnJoS081WW9qUGJGaktTVlZJR1pfS2o5ZE1xRk1CZzRDdkhjMW1TenFyQnkyOXl4WmpTSUxrN3B5VW5EZjg5SWpKRWxjNU43eGtjcDB4ajJKZjZTZ3c?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "机构：美联储降息救不了美股",
+   "summary": "",
+   "time": "2026-11-26 11:08:56",
+   "url": "https://news.futunn.com/flash/1005745658/institutional-view-fed-rate-cuts-cannot-rescue-us-equities",
+   "source": "富途",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1591,24 +1630,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "华达科技：1-10月获43个项目定点，预计生命周期总销售金额约107.08亿元",
-   "summary": "华达科技公告，公司获11家客户23个车身零部件项目定点，预计生命周期3-8年、总销售金额12.82亿元，其中新能源项目18项、10.42亿元，部分项目自2026年二季度起陆续量产；子公司江苏恒义获6家客户20个电池箱托盘等项目定点，预计生命周期2-4年、总销售金额94.26亿元，部分项目自2026年一季度起陆续量产。项目定点不反映最终采购数量，实际供货以正式协议为准，预计对本年度业绩无重大影响。",
-   "time": "2026-11-26 18:58",
-   "url": "https://wallstreetcn.com/livenews/3206405",
+   "title": "俄乌新一轮阵亡人员遗体交换在白俄罗斯进行",
+   "summary": "记者获悉，俄乌双方11月26日在白俄罗斯“新古塔”口岸进行了新一轮阵亡人员遗体交换。俄方向乌方移交遗体250具，乌方向俄方移交遗体22具。据悉，白俄罗斯在保障人道主义通道等事务上提供了协助。（央视）",
+   "time": "2026-11-26 19:33",
+   "url": "https://wallstreetcn.com/livenews/3206434",
    "source": "华尔街见闻"
   },
   {
-   "title": "中鼎股份：拟1亿元至2亿元回购公司股份",
-   "summary": "【中鼎股份：拟1亿元至2亿元回购公司股份】中鼎股份(000887.SZ)公告称，公司拟使用自有或自筹资金以集中竞价方式回购公司已发行A股股票，回购资金总额不低于1亿元且不超过2亿元，回购价格不超过25元/股。",
-   "time": "2026-11-26 18:56:19",
-   "url": "https://finance.eastmoney.com/a/202611263940737949.html",
+   "title": "鼎龙股份：拟3000万元至5000万元回购公司股份",
+   "summary": "【鼎龙股份：拟3000万元至5000万元回购公司股份】鼎龙股份(300054.SZ)公告称，公司拟使用自有资金或自筹资金以集中竞价交易方式回购公司股份，回购资金总额不低于3000万元且不超过5000万元，回购价格不超过87.50元/股。",
+   "time": "2026-11-26 19:29:10",
+   "url": "https://finance.eastmoney.com/a/202611263940755053.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普再挥关税大棒：意在证明权力仍在手中 - Sohu",
+   "title": "特朗普表示美国不支持“台独”，国防部答北京日报客户端 - 京报网",
    "summary": "",
-   "time": "2026-11-26 18:45",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTkxNNVVnOVhDZnNtTm1jNE5hdHRyQV90MDdPR2xEcktRNW5MbmNjZjJWTTBtbHFLZmhxSzRJcjhSZzhFQk5vZktobkZQUTQ4U0dqa1Vab1Vla21RcXRSNW9BT09fbTVfbFY3d3FqQmtzWkhCZThtNllldFY1RG44WUJPbjlzVUMw?oc=5",
+   "time": "2026-11-26 19:26",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDcnJoS081WW9qUGJGaktTVlZJR1pfS2o5ZE1xRk1CZzRDdkhjMW1TenFyQnkyOXl4WmpTSUxrN3B5VW5EZjg5SWpKRWxjNU43eGtjcDB4ajJKZjZTZ3c?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1619,17 +1658,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特宝生物：回购股份比例达3%，累计回购1235.7万股",
+   "title": "银禧科技：拟以2000万元-4000万元回购公司股份",
    "summary": "",
-   "time": "2026-11-26 10:59:41",
-   "url": "https://news.10jqka.com.cn/20261126/c682260858.shtml",
+   "time": "2026-11-26 11:35:25",
+   "url": "https://news.10jqka.com.cn/20261126/c682262368.shtml",
    "source": "同花顺"
   },
   {
-   "title": "欧盟在乌克兰援助资金问题上存在分歧",
+   "title": "理财公司首次监管评级结果下发 监管评级结果分为1—6级和S级",
    "summary": "",
-   "time": "2026-11-26 10:57:31",
-   "url": "https://news.futunn.com/flash/1005744836/the-eu-is-divided-over-funding-for-ukraine",
+   "time": "2026-11-26 11:30:25",
+   "url": "https://news.futunn.com/flash/1005747426/initial-regulatory-ratings-for-wealth-management-companies-released-ratings-classified",
    "source": "富途"
   },
   {
@@ -1647,24 +1686,24 @@
    "source": "财新"
   },
   {
-   "title": "华为将推出新的智驾品牌",
-   "summary": "记者获悉，华为引望将推出新的智驾品牌。新品牌将在产品设计和价格带上和华为乾崑形成区隔。（第一财经）",
-   "time": "2026-11-26 18:53",
-   "url": "https://wallstreetcn.com/livenews/3206398",
+   "title": "宋城演艺：拟以集中竞价方式回购股份，资金总额不低于1亿元且不超过1.5亿元，价格不超过8.00元/股，回购股份全部用于注销并减少注册资本，预计回购1250万股至1875万股，约占总股本0.48%至0.72%，期限为股东会审议通过后6个月内。",
+   "summary": "宋城演艺：拟以集中竞价方式回购股份，资金总额不低于1亿元且不超过1.5亿元，价格不超过8.00元/股，回购股份全部用于注销并减少注册资本，预计回购1250万股至1875万股，约占总股本0.48%至0.72%，期限为股东会审议通过后6个月内。",
+   "time": "2026-11-26 19:32",
+   "url": "https://wallstreetcn.com/livenews/3206433",
    "source": "华尔街见闻"
   },
   {
-   "title": "镇洋发展：因换股吸收合并事项 A股股票12月4日起连续停牌直至终止上市",
-   "summary": "【镇洋发展：因换股吸收合并事项 A股股票12月4日起连续停牌直至终止上市】镇洋发展(603213.SH)公告称，因浙江沪杭甬换股吸收合并镇洋发展暨关联交易事项，公司A股股票及可转债将于2026年12月4日开市时起连续停牌。其中，A股股票停牌直至终止上市，不再复牌，2026年12月3日为最后一个交易日；可转债及转股停牌直至浙江沪杭甬上市同日复牌并实施转股。",
-   "time": "2026-11-26 18:54:17",
-   "url": "https://finance.eastmoney.com/a/202611263940737390.html",
+   "title": "拜耳拟投资最高5亿欧元扩建北京生产基地 预计2032年投产",
+   "summary": "【拜耳拟投资最高5亿欧元扩建北京生产基地 预计2032年投产】德国拜耳集团宣布，计划投资最高5亿欧元扩建其北京药品生产供应中心，这将成为拜耳迄今在中国最大的单笔制药投资。扩建项目位于北京经济技术开发区现有生产基地，规划建筑面积约1.8万平方米，设有三个可独立运营的生产模块，预计最早于2032年投产。项目计划新增最多300个工作岗位。",
+   "time": "2026-11-26 19:28:09",
+   "url": "https://finance.eastmoney.com/a/202611263940755466.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普念念不忘的“帽子菜”，原来是它 - Sohu",
+   "title": "“含铅爆炸物事件让白宫措手不及，特朗普非常愤怒” - 观察者网",
    "summary": "",
-   "time": "2026-11-26 17:28",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORFlnMU13Um9ESlNsUzFLRmZRWGp6cGtrNzVidU50M2U0SzdEWFo3bHQwMVFBa1hhQjVUQkdqZ1kyZkEzZXJtaDRYTlBJN3E1bDVVMm5PS2dNeXVPbWtPZ25rRXVCMXF2Qk5pNTZYX0ZRbkxPM0o4T2pfaHBvbnpQVlRiOF9VakVX?oc=5",
+   "time": "2026-11-26 19:10",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNazlJX3VIb0p3VUwzOXhYS2s5dXQ0ZTlNYWYyV3JWZ2RCeDFsMFFiRkkzcE1FcnNldTQxaXVjakNaZjFza0E2M3lIbG1ZcURHRUVZVnNLZDVLNzZLOW1FbExKZlk2a2NmM0ZnbkpjYWYwekRyTGRMYUNLR0pWczdFVmN0aw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1675,17 +1714,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英国央行警告全球金融体系面临多重风险",
+   "title": "鸿利智汇：金材科技2026年10月至11月归还逾期本金400万元",
    "summary": "",
-   "time": "2026-11-26 10:57:50",
-   "url": "https://news.10jqka.com.cn/20261126/c682260839.shtml",
+   "time": "2026-11-26 11:32:31",
+   "url": "https://news.10jqka.com.cn/20261126/c682262300.shtml",
    "source": "同花顺"
   },
   {
-   "title": "英国未就业年轻人数量降至95.9万人",
+   "title": "欧佩克+考虑维持现有石油配额",
    "summary": "",
-   "time": "2026-11-26 10:54:50",
-   "url": "https://news.futunn.com/flash/1005744721/number-of-unemployed-young-people-in-the-uk-falls-to",
+   "time": "2026-11-26 11:28:44",
+   "url": "https://news.futunn.com/flash/1005747249/opec-considers-maintaining-existing-oil-quotas",
    "source": "富途"
   },
   {
@@ -1703,24 +1742,24 @@
    "source": "财新"
   },
   {
-   "title": "通富微电：董事长石磊提议以集中竞价交易方式回购公司股份，回购资金总额不低于1.5亿元且不超过3亿元，用于股权激励或员工持股计划，实施期限为董事会审议通过回购方案之日起12个月内。",
-   "summary": "通富微电：董事长石磊提议以集中竞价交易方式回购公司股份，回购资金总额不低于1.5亿元且不超过3亿元，用于股权激励或员工持股计划，实施期限为董事会审议通过回购方案之日起12个月内。",
-   "time": "2026-11-26 18:52",
-   "url": "https://wallstreetcn.com/livenews/3206397",
+   "title": "泰国曼谷炼油厂火灾已致8人受伤",
+   "summary": "当地时间26日，泰国曼谷市市长查察证实，曼谷当天下午发生的炼油厂火灾造成8人受伤，其中5人伤势严重，3人为轻伤，伤者均为炼油厂员工。目前火势已得到控制，他呼吁该地区居民不要恐慌。（央视）",
+   "time": "2026-11-26 19:29",
+   "url": "https://wallstreetcn.com/livenews/3206430",
    "source": "华尔街见闻"
   },
   {
-   "title": "*ST春天：撤销退市风险警示及其他风险警示 11月30日起证券简称变更为“青海春天”",
-   "summary": "【*ST春天：撤销退市风险警示及其他风险警示 11月30日起证券简称变更为“青海春天”】11月26日，*ST春天(600381.SH)公告称，公司撤销退市风险警示及其他风险警示，股票将于2026年11月27日停牌一天，11月30日起复牌，证券简称由“*ST春天”变更为“青海春天”，股票代码不变。",
-   "time": "2026-11-26 18:53:14",
-   "url": "https://finance.eastmoney.com/a/202611263940737572.html",
+   "title": "李强会见亚洲开发银行行长神田真人",
+   "summary": "【李强会见亚洲开发银行行长神田真人】11月26日下午，国务院总理李强在北京人民大会堂会见亚洲开发银行行长神田真人。",
+   "time": "2026-11-26 19:26:21",
+   "url": "https://finance.eastmoney.com/a/202611263940753956.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普重申美方不支持“台独” 国台办回应 - 中国日报网",
+   "title": "特朗普再度加码关税：意在证明权力仍在手中 - Sohu",
    "summary": "",
-   "time": "2026-11-26 17:27",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CSElETmc1Ujg4UWF3UUc0TnE0SEczYmdBWU8xUUZydzR5T0VMVDJZa29rZFdMVTgxWV9kU0pvTGhuWmc1OXNhRmJleG9iS0lYMDAzZUtZV0h6Ymc2dFJ1SDZkRnFZeXp6N1RPcW5vb2M0YThHTThhVEdob1I?oc=5",
+   "time": "2026-11-26 19:02",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOdUdUT1cwck1jcnUyajBIWk1RNUtJVXJiSnhuX2J4RWpMdDhIUzBfWWhyckNWaDZ6ckRRZWcyd09IajRIVXhUSnZQZ3VCd010SU9NYkRCaVlXTi1aamRuWW1QRV9kNkxicjhOUEx6RklvR1N2enhRRGdtbmhEVUdneWl1Nm8?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1731,17 +1770,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "华达科技：2026年1-10月获43个项目定点，预计生命周期总销售金额107.08亿元",
+   "title": "宋城演艺：拟以1亿元-1.5亿元回购公司股份",
    "summary": "",
-   "time": "2026-11-26 10:57:00",
-   "url": "https://news.10jqka.com.cn/20261126/c682260831.shtml",
+   "time": "2026-11-26 11:32:08",
+   "url": "https://news.10jqka.com.cn/20261126/c682262276.shtml",
    "source": "同花顺"
   },
   {
-   "title": "英国净移民人数降至2012年以来最低水平",
+   "title": "机构：美联储降息救不了美股",
    "summary": "",
-   "time": "2026-11-26 10:49:40",
-   "url": "https://news.futunn.com/flash/1005744139/uk-net-migration-falls-to-lowest-level-since-2012",
+   "time": "2026-11-26 11:08:56",
+   "url": "https://news.futunn.com/flash/1005745658/institutional-view-fed-rate-cuts-cannot-rescue-us-equities",
    "source": "富途"
   },
   {
@@ -1763,7 +1802,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(15)",
+   "富途": "ok(18)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
