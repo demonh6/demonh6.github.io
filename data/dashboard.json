@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 12:18:55 CST",
- "generated_at_iso": "2026-11-26T12:18:55+08:00",
+ "generated_at": "2026-11-26 12:27:28 CST",
+ "generated_at_iso": "2026-11-26T12:27:28+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,19 +1256,19 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3614.09,
-    "change": 49.49,
-    "change_pct": 1.39,
-    "quote_time": "12:18:43 2026-11-26"
+    "price": 3618.866,
+    "change": 54.266,
+    "change_pct": 1.52,
+    "quote_time": "12:27:32 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.066,
-    "change": 1.528,
-    "change_pct": 3.77,
-    "quote_time": "12:18:19 2026-11-26"
+    "price": 42.147,
+    "change": 1.609,
+    "change_pct": 3.97,
+    "quote_time": "12:26:23 2026-11-26"
    },
    {
     "name": "WTI原油",
@@ -1277,16 +1277,16 @@
     "price": 84.346,
     "change": 0.666,
     "change_pct": 0.8,
-    "quote_time": "12:18:52 2026-11-26"
+    "quote_time": "12:27:30 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.103,
-    "change": 0.463,
-    "change_pct": 0.51,
-    "quote_time": "12:18:48 2026-11-26"
+    "price": 91.113,
+    "change": 0.473,
+    "change_pct": 0.52,
+    "quote_time": "12:27:32 2026-11-26"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60937.1,
-    "change": 1592.5,
-    "change_pct": 2.68,
+    "price": 61070.0,
+    "change": 1756.0,
+    "change_pct": 2.96,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1702.23,
-    "change": 37.04,
-    "change_pct": 2.22,
+    "price": 1703.91,
+    "change": 40.13,
+    "change_pct": 2.41,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.19,
-    "change": 1.82,
-    "change_pct": 2.62,
+    "price": 71.24,
+    "change": 2.02,
+    "change_pct": 2.92,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.81,
-    "change": 0.1,
-    "change_pct": 0.1,
+    "price": 103.8,
+    "change": 0.09,
+    "change_pct": 0.09,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,7 +1333,7 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6636,
+    "price": 6.6634,
     "change": null,
     "change_pct": null,
     "dec": 4,
@@ -1614,8 +1614,8 @@
   {
    "level": "warning",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日涨3.77%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-26 12:19",
+   "message": "COMEX白银单日涨3.97%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-26 12:27",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   }
  ],
@@ -2343,8 +2343,6 @@
   ],
   "backfill_done": true
  },
- "errors": {
-  "盘面结构": "ReadTimeout: HTTPSConnectionPool(host='push2ex.eastmoney.com', port=443): Read timed out. (read timeout=12)"
- },
+ "errors": {},
  "disclaimer": "行情与新闻数据来自公开来源（东财/富途/同花顺/财新/百度/华尔街见闻/谷歌新闻/CBOE/美财政部/alternative.me），仅供研究参考，不构成投资建议。新闻保留近2天；研报观点仅近1月（券商研报）并提取近2天国际投行观点；微信精读由规则提炼原文关键句，版权归原公众号；均不构成投资建议。传导路径按资产与涨跌方向生成，为程序化示意。"
 }
