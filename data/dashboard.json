@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 01:26:35 CST",
- "generated_at_iso": "2026-11-27T01:26:35+08:00",
+ "generated_at": "2026-11-27 01:34:52 CST",
+ "generated_at_iso": "2026-11-27T01:34:52+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 84328.5938,
+    "change": 390.31,
+    "change_pct": 0.46
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39151.81,
+    "change": 956.38,
+    "change_pct": 2.5
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25236.43,
+    "change": 534.3,
+    "change_pct": 2.16
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10609.3,
-    "change": 182.36,
-    "change_pct": 1.75,
+    "price": 10623.84,
+    "change": 196.9,
+    "change_pct": 1.89,
     "hist": [
      10881.9,
      10764.69,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8108.74,
-    "change": 128.17,
-    "change_pct": 1.61,
+    "price": 8124.14,
+    "change": 143.57,
+    "change_pct": 1.8,
     "hist": [
      7956.7,
      7868.05,
@@ -1169,9 +1190,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6018.65,
-    "change": 124.19,
-    "change_pct": 2.11,
+    "price": 5894.46,
+    "change": -109.31,
+    "change_pct": -1.82,
     "hist": [
      6168.27,
      6204.24,
@@ -1205,6 +1226,13 @@
      5894.46
     ],
     "sigma": 1.341
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2330.79,
+    "change": -26.07,
+    "change_pct": -1.11
    }
   ]
  },
@@ -1256,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3595.443,
-    "change": 30.843,
-    "change_pct": 0.87,
-    "quote_time": "01:26:25 2026-11-27"
+    "price": 3593.65,
+    "change": 29.05,
+    "change_pct": 0.81,
+    "quote_time": "01:34:27 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.733,
-    "change": 1.195,
-    "change_pct": 2.95,
-    "quote_time": "01:25:20 2026-11-27"
+    "price": 41.687,
+    "change": 1.149,
+    "change_pct": 2.83,
+    "quote_time": "01:33:28 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.711,
-    "change": 1.031,
-    "change_pct": 1.23,
-    "quote_time": "01:26:21 2026-11-27"
+    "price": 84.853,
+    "change": 1.173,
+    "change_pct": 1.4,
+    "quote_time": "01:34:52 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.427,
-    "change": 0.787,
-    "change_pct": 0.87,
-    "quote_time": "01:26:37 2026-11-27"
+    "price": 91.638,
+    "change": 0.998,
+    "change_pct": 1.1,
+    "quote_time": "01:34:52 2026-11-27"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60609.9,
-    "change": 1470.4,
-    "change_pct": 2.49,
+    "price": 60544.3,
+    "change": 1109.9,
+    "change_pct": 1.87,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1695.71,
-    "change": 37.25,
-    "change_pct": 2.25,
+    "price": 1693.85,
+    "change": 27.9,
+    "change_pct": 1.67,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.05,
-    "change": 2.49,
-    "change_pct": 3.63,
+    "price": 71.02,
+    "change": 2.11,
+    "change_pct": 3.06,
     "source": "okx"
    }
   ],
@@ -1333,8 +1361,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6617,
-    "change": -0.0058,
+    "price": 6.6616,
+    "change": -0.0059,
     "change_pct": -0.09,
     "dec": 4,
     "date": "",
@@ -1385,6 +1413,17 @@
  },
  "speakers": [
   {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲理事会主席科斯塔表示：欧元区成员国已同意推荐巴勃罗·埃尔南德斯·德科斯（西班牙籍）担任欧洲央行行长",
+   "summary": "欧洲理事会主席科斯塔表示，欧元区成员国已同意推荐巴勃罗·埃尔南德斯·德科斯（西班牙籍）担任欧洲央行行长。",
+   "time": "2026-11-27 01:14:25",
+   "url": "https://finance.eastmoney.com/a/202611273941003846.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
@@ -1404,6 +1443,17 @@
    "time": "2026-11-27 00:12",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVQVVhS2l1OEsyNmFabjBVYi1oUXBVbG8xLTlpQk5NRG1ibkk5Ykl6ZUwwUXJESkVNVW1TLXBVa0VoTElMekpwVFV1NlQ2Y1BFb2ZBUjlkTFM?oc=5",
    "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "外交部",
+   "label": "外交部",
+   "hint": "地缘政治表态影响风险偏好",
+   "title": "伊朗外交部：伊朗外长和巴基斯坦外长通电话",
+   "summary": "",
+   "time": "2026-11-26 17:21:56",
+   "url": "https://news.futunn.com/flash/1005771523/iranian-ministry-of-foreign-affairs-iranian-foreign-minister-holds-phone",
+   "source": "富途",
    "mentions": 1
   }
  ],
@@ -1612,25 +1662,32 @@
  "alerts": [
   {
    "level": "warning",
+   "asset": "台湾加权",
+   "message": "台湾加权单日涨2.50%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-27 01:35",
+   "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
+  },
+  {
+   "level": "warning",
    "asset": "全球股指",
-   "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 01:26",
+   "message": "台湾加权、德国DAX、英国富时100等 4 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
+   "time": "2026-11-27 01:35",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "因隐私担忧，荷兰多个组织要求法院叫停Meta智能眼镜销售",
-   "summary": "荷兰消费者和数字权利组织周四要求法院下令停止Meta Platforms人工智能智能（AI）眼镜在荷兰的销售，理由是该眼镜允许佩戴者在他人不知情的情况下进行拍摄，违反了欧洲隐私法。\n\n尽管该诉讼范围仅限于荷兰，但阿姆斯特丹地方法院针对Meta的这起民事诉讼的简易裁决，可能会在世界各地日益强烈的公众抵制、场所禁令和监管警告中确立一个先例。\n\n预计最迟将于12月24日前作出裁决。",
-   "time": "2026-11-27 01:06",
-   "url": "https://wallstreetcn.com/livenews/3206566",
+   "title": "周四（11月26日）欧市尾盘，法国10年期国债收益率跌1个基点，刷新日低至4.729%，北京时间21:44曾涨至4.763%刷新日高。\n\n两年期法债收益率涨1.7个基点，报3.515%，欧洲股市开盘之前冲高回落——北京时间15:28刷新日高",
+   "summary": "周四（11月26日）欧市尾盘，法国10年期国债收益率跌1个基点，刷新日低至4.729%，北京时间21:44曾涨至4.763%刷新日高。\n\n两年期法债收益率涨1.7个基点，报3.515%，欧洲股市开盘之前冲高回落——北京时间15:28刷新日高至3.572%，随后快速回撤至3.53%附近；30年期法债收益率跌2.4个基点，报5.305%。\n\n意大利10年期国债收益率跌2.5个基点，报4.319%。\n\n",
+   "time": "2026-11-27 01:24",
+   "url": "https://wallstreetcn.com/livenews/3206572",
    "source": "华尔街见闻"
   },
   {
-   "title": "伊朗否认袭击了科威特一处关键设施",
-   "summary": "伊朗否认袭击了科威特一处关键设施。",
-   "time": "2026-11-27 00:52:50",
-   "url": "https://finance.eastmoney.com/a/202611273941001924.html",
+   "title": "欧洲股市反弹 投资者谨慎重返AI交易",
+   "summary": "【欧洲股市反弹 投资者谨慎重返AI交易】欧洲股市周四反弹，结束两连跌，投资者谨慎重返人工智能(AI)交易，推动科技股上涨。此次反弹表明，在经历大幅抛售后，投资者重返股市的意愿正在增强。欧洲市场的AI交易表现突出，瑞银集团编制的一篮子半导体股票上涨3.9%，一篮子AI受益股上涨3.2%。Soitec、意法半导体和阿斯麦等芯片制造商大幅上涨。",
+   "time": "2026-11-27 01:20:49",
+   "url": "https://finance.eastmoney.com/a/202611273941004268.html",
    "source": "东财国际"
   },
   {
@@ -1641,25 +1698,25 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "爱尔眼科目标价涨幅超49%；汇顶科技评级被调低｜券商评级观察 - 21财经",
+   "title": "摩根大通：上调贵州茅台评级至“超配”，目标价1800元 - 每日经济新闻",
    "summary": "",
-   "time": "2026-11-26 23:06",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVXl6OWNKTmtLdVpFUkhkVkwzOFpUYTdOYms3ZDN4RnNHbXdibXAtSnZPclBXOUlFc2dEc2ktRGxGX29xZ0x6MXdFVjFjQjhtRGlmS3pGWkNjQjhnVDFUT3VOTDFROUh6NnEtSmUxaXlTTGtXV01jWk9zUE1TZmxRMXhDWWZMcldCUEQyMTVpMWVrTWhR?oc=5",
+   "time": "2026-11-26 23:59",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tWEhxWjFYMTlJUVRVeXM2eGhKUHI2YklHa1VGRXA2Snp4YXh2OUZuM3V3YTdOWFRLakJacnljN19RaENpLS1NYWRXY2duQ3c0RzFEM0lyc1laQUY3MmpTWExXVmJodw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "夜盘期货收盘：沪锌收涨1.59% 沪铅收涨1.51%",
+   "title": "伊朗外交部：伊朗外长和巴基斯坦外长通电话",
    "summary": "",
-   "time": "2026-11-26 17:03:41",
-   "url": "https://news.10jqka.com.cn/20261127/c682268095.shtml",
-   "source": "同花顺"
+   "time": "2026-11-26 17:21:56",
+   "url": "https://news.futunn.com/flash/1005771523/iranian-ministry-of-foreign-affairs-iranian-foreign-minister-holds-phone",
+   "source": "富途"
   },
   {
-   "title": "面临竞争加剧与需求疲软压力，Stellantis计划未来数周进一步暂停欧洲工厂生产",
+   "title": "ICE罗布斯塔咖啡期货涨超3%，至每吨2856美元",
    "summary": "",
-   "time": "2026-11-26 17:02:05",
-   "url": "https://news.futunn.com/flash/1005770574/facing-pressure-from-intensifying-competition-and-weak-demand-stellantis-plans",
-   "source": "富途"
+   "time": "2026-11-26 17:19:20",
+   "url": "https://news.10jqka.com.cn/20261127/c682268132.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月26日周四",
@@ -1676,17 +1733,17 @@
    "source": "财新"
   },
   {
-   "title": "报道：巴西总统试探布拉德斯科银行董事长，有意邀其加入政府",
-   "summary": "彭博援引知情人士报道称，赢得连任的巴西总统卢拉已就加入其政府一事，试探了布拉德斯科银行（Bradesco）董事长路易斯·卡洛斯·特拉布科·卡皮（Luiz Carlos Trabuco Cappi）的意向。尽管双方尚未正式讨论具体职位，且卢拉也未提出正式邀约，但预计特拉布科将被考虑出任关键的财政部长一职。将特拉布科纳入政府，可能会让担忧公共财政状况恶化的投资者感到宽慰，同时也表明卢拉可能正在考虑为其",
-   "time": "2026-11-27 00:57",
-   "url": "https://wallstreetcn.com/livenews/3206565",
+   "title": "伊朗外长与巴基斯坦外长通话，讨论地区局势。（伊朗媒体Tasnim）",
+   "summary": "伊朗外长与巴基斯坦外长通话，讨论地区局势。（伊朗媒体Tasnim）",
+   "time": "2026-11-27 01:23",
+   "url": "https://wallstreetcn.com/livenews/3206571",
    "source": "华尔街见闻"
   },
   {
-   "title": "联合国贸发会议报告：2026年全球海运贸易量预计零增长",
-   "summary": "【联合国贸发会议报告：2026年全球海运贸易量预计零增长】当地时间11月26日，联合国贸易和发展会议（贸发会议）发布的一份报告显示，2026年全球海运贸易量预计零增长，而这一数据在2025年为1.9%。",
-   "time": "2026-11-27 00:36:53",
-   "url": "https://finance.eastmoney.com/a/202611273941000238.html",
+   "title": "ICE罗布斯塔咖啡期货涨超3% 至每吨2856美元",
+   "summary": "ICE罗布斯塔咖啡期货涨超3%，至每吨2856美元。",
+   "time": "2026-11-27 01:18:20",
+   "url": "https://finance.eastmoney.com/a/202611273941003916.html",
    "source": "东财国际"
   },
   {
@@ -1697,25 +1754,25 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "瑞银研报称美国约40%拟新增数据中心容量受州级政策影响 - 观点网",
+   "title": "爱尔眼科目标价涨幅超49%；汇顶科技评级被调低｜券商评级观察 - 21财经",
    "summary": "",
-   "time": "2026-11-26 21:56",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IaWpYYkdQNTdQSlpfQlpxN2lxQjVaajlpZlEwT2lkNjJKZHdqWGZyblByQlUwT1JIOHdQenl5LWo5NklCZERTNEotOFRCVEJPZEUzWWJYaE11SS1aNVNfX3Jn?oc=5",
+   "time": "2026-11-26 23:06",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVXl6OWNKTmtLdVpFUkhkVkwzOFpUYTdOYms3ZDN4RnNHbXdibXAtSnZPclBXOUlFc2dEc2ktRGxGX29xZ0x6MXdFVjFjQjhtRGlmS3pGWkNjQjhnVDFUT3VOTDFROUh6NnEtSmUxaXlTTGtXV01jWk9zUE1TZmxRMXhDWWZMcldCUEQyMTVpMWVrTWhR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "据报道，德国软件巨头SAP正考虑在重组中裁减至少1万个工作岗位",
+   "title": "面临竞争加剧与需求疲软压力，Stellantis计划未来数周进一步暂停欧洲工厂生产",
    "summary": "",
-   "time": "2026-11-26 16:17:49",
-   "url": "https://news.10jqka.com.cn/20261127/c682267974.shtml",
-   "source": "同花顺"
+   "time": "2026-11-26 17:02:05",
+   "url": "https://news.futunn.com/flash/1005770574/facing-pressure-from-intensifying-competition-and-weak-demand-stellantis-plans",
+   "source": "富途"
   },
   {
-   "title": "泽连斯基任命乌武装部队支援部队新任司令",
+   "title": "欧元区成员国已同意推荐巴勃罗·埃尔南德斯·德科斯（西班牙籍）担任欧洲央行行长",
    "summary": "",
-   "time": "2026-11-26 16:54:34",
-   "url": "https://news.futunn.com/flash/1005770127/zelenskyy-appoints-new-commander-of-the-support-forces-of-the",
-   "source": "富途"
+   "time": "2026-11-26 17:15:22",
+   "url": "https://news.10jqka.com.cn/20261127/c682268124.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月25日周三",
@@ -1732,17 +1789,17 @@
    "source": "财新"
   },
   {
-   "title": "伊拉克与壳牌、埃克森美孚洽谈在Basra开发两个油田。",
-   "summary": "伊拉克与壳牌、埃克森美孚洽谈在Basra开发两个油田。",
-   "time": "2026-11-27 00:53",
-   "url": "https://wallstreetcn.com/livenews/3206563",
+   "title": "墨西哥总统谴责美国缉毒局干涉墨内政",
+   "summary": "11月26日，墨西哥总统辛鲍姆在新闻发布会上谴责美国缉毒局开设面向墨西哥民众的匿名举报渠道，称此举是对墨西哥内政的干涉。\n\n辛鲍姆强调，墨西哥拥有负责打击有组织犯罪的执法机构。她敦促美国缉毒局将精力放在打击美国境内的贩毒活动上，调查与有组织犯罪相关的腐败问题、毒品分销网络及非法资金流向。（央视）",
+   "time": "2026-11-27 01:22",
+   "url": "https://wallstreetcn.com/livenews/3206570",
    "source": "华尔街见闻"
   },
   {
-   "title": "欧洲主要股指集体收涨 德国DAX指数涨超2%",
-   "summary": "【欧洲主要股指集体收涨 德国DAX指数涨超2%】英国富时100指数上涨1.77%；德国DAX指数上涨2.14%，法国CAC40指数上涨1.71%，欧洲STOXX600指数上涨1.83%。",
-   "time": "2026-11-27 00:33:01",
-   "url": "https://finance.eastmoney.com/a/202611273941000158.html",
+   "title": "欧洲理事会主席科斯塔表示：欧元区成员国已同意推荐巴勃罗·埃尔南德斯·德科斯（西班牙籍）担任欧洲央行行长",
+   "summary": "欧洲理事会主席科斯塔表示，欧元区成员国已同意推荐巴勃罗·埃尔南德斯·德科斯（西班牙籍）担任欧洲央行行长。",
+   "time": "2026-11-27 01:14:25",
+   "url": "https://finance.eastmoney.com/a/202611273941003846.html",
    "source": "东财国际"
   },
   {
@@ -1753,25 +1810,25 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "里昂：小米集团-W维持“跑赢大市”评级 目标价35港元 - 新浪财经_金融信息服务商",
+   "title": "瑞银研报称美国约40%拟新增数据中心容量受州级政策影响 - 观点网",
    "summary": "",
-   "time": "2026-11-26 21:52",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeEJwTDVYRHRTWHJRNjRzenlNSER6RW91aTl4dzdYLVptdE9pZkpoV213YlZ1QWt3Z2RCT2hmbU1Gd05DaVlXN0NTX29DaXZEVHlPMjcwUVFOTUxfcGdBa0xIYVp3cmtqcVVEMjZTdnpnWkw5bU5MMVNDSE40VXVZZzVDenNLNmZ0RFlWRXlyYXZKQk9Qc2hudldnRjlqVzJMUERSWWotQ3huUQ?oc=5",
+   "time": "2026-11-26 21:56",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IaWpYYkdQNTdQSlpfQlpxN2lxQjVaajlpZlEwT2lkNjJKZHdqWGZyblByQlUwT1JIOHdQenl5LWo5NklCZERTNEotOFRCVEJPZEUzWWJYaE11SS1aNVNfX3Jn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英国富时100指数上涨2%，至10635.45点",
+   "title": "泽连斯基任命乌武装部队支援部队新任司令",
    "summary": "",
-   "time": "2026-11-26 16:10:32",
-   "url": "https://news.10jqka.com.cn/20261127/c682267930.shtml",
-   "source": "同花顺"
+   "time": "2026-11-26 16:54:34",
+   "url": "https://news.futunn.com/flash/1005770127/zelenskyy-appoints-new-commander-of-the-support-forces-of-the",
+   "source": "富途"
   },
   {
-   "title": "伊朗驻意大利使馆否认伊朗袭击科威特并造成两名意大利人死亡的说法",
+   "title": "据报道，德国软件巨头SAP正考虑在重组中裁减至少1万个工作岗位",
    "summary": "",
-   "time": "2026-11-26 16:53:23",
-   "url": "https://news.futunn.com/flash/1005770053/the-iranian-embassy-in-italy-denied-claims-that-iran-attacked",
-   "source": "富途"
+   "time": "2026-11-26 16:17:49",
+   "url": "https://news.10jqka.com.cn/20261127/c682267974.shtml",
+   "source": "同花顺"
   },
   {
    "title": "拟以被冻结的卢克石油股票置换其海外油气资产，交易仍待美国监管批准",
@@ -1781,10 +1838,10 @@
    "source": "财新"
   },
   {
-   "title": "巴西副总统：美国对巴西加征新关税完全不合理",
-   "summary": "11月26日，巴西副总统阿尔克明表示，美国提出对巴西加征的新关税完全不合理，巴西政府将尽全力扭转这一局面。阿尔克明强调，世界上不存在航空领域的关税，航空这样具有战略意义的领域不征收关税是传统。（央视）",
-   "time": "2026-11-27 00:52",
-   "url": "https://wallstreetcn.com/livenews/3206562",
+   "title": "帝国品牌（IMB.LN）针对可能的收购意向发布公告：公司尚未与Altria Group Inc.（高特利）举行任何磋商。\n\n公司也没有与第三方进行这方面的对话。\n\n公司将考虑任何方案。\n\n公司对自身战略和交易有着强大的信心。",
+   "summary": "帝国品牌（IMB.LN）针对可能的收购意向发布公告：公司尚未与Altria Group Inc.（高特利）举行任何磋商。\n\n公司也没有与第三方进行这方面的对话。\n\n公司将考虑任何方案。\n\n公司对自身战略和交易有着强大的信心。",
+   "time": "2026-11-27 01:20",
+   "url": "https://wallstreetcn.com/livenews/3206569",
    "source": "华尔街见闻"
   }
  ],
@@ -1792,7 +1849,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(22)",
+   "富途": "ok(23)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1805,8 +1862,8 @@
    "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
