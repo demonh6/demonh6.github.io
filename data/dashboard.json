@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 18:26:44 CST",
- "generated_at_iso": "2026-11-26T18:26:44+08:00",
+ "generated_at": "2026-11-26 18:35:34 CST",
+ "generated_at_iso": "2026-11-26T18:35:34+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -944,11 +944,18 @@
     ]
    },
    {
+    "name": "韩国KOSPI",
+    "sym": "KS11",
+    "price": 4711.21,
+    "change": 13.7,
+    "change_pct": 0.29
+   },
+   {
     "name": "印度SENSEX",
     "sym": "BSESN",
-    "price": 83876.1094,
-    "change": -62.17,
-    "change_pct": -0.07,
+    "price": 84291.8594,
+    "change": 353.58,
+    "change_pct": 0.42,
     "hist": [
      72781.89,
      74315.61,
@@ -1017,6 +1024,13 @@
      24100.0,
      0.0
     ]
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 38937.29,
+    "change": 741.86,
+    "change_pct": 1.94
    },
    {
     "name": "德国DAX",
@@ -1174,6 +1188,13 @@
     ]
    },
    {
+    "name": "欧洲斯托克50",
+    "sym": "SX5E",
+    "price": 5894.46,
+    "change": -109.31,
+    "change_pct": -1.82
+   },
+   {
     "name": "俄罗斯MOEX",
     "sym": "MOEX",
     "price": 2356.86,
@@ -1263,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3589.447,
-    "change": 24.847,
-    "change_pct": 0.7,
-    "quote_time": "18:26:47 2026-11-26"
+    "price": 3586.99,
+    "change": 22.39,
+    "change_pct": 0.63,
+    "quote_time": "18:35:38 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.701,
-    "change": 1.163,
-    "change_pct": 2.87,
-    "quote_time": "18:26:30 2026-11-26"
+    "price": 41.58,
+    "change": 1.042,
+    "change_pct": 2.57,
+    "quote_time": "18:35:38 2026-11-26"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.605,
-    "change": -0.075,
-    "change_pct": -0.09,
-    "quote_time": "18:26:41 2026-11-26"
+    "price": 83.667,
+    "change": -0.013,
+    "change_pct": -0.02,
+    "quote_time": "18:35:38 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 90.205,
-    "change": -0.435,
-    "change_pct": -0.48,
-    "quote_time": "18:26:48 2026-11-26"
+    "price": 90.223,
+    "change": -0.417,
+    "change_pct": -0.46,
+    "quote_time": "18:35:31 2026-11-26"
    }
   ],
   "crypto": [
@@ -1301,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60865.6,
-    "change": 1851.4,
-    "change_pct": 3.14,
+    "price": 60786.4,
+    "change": 1788.2,
+    "change_pct": 3.03,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1702.24,
-    "change": 55.88,
-    "change_pct": 3.39,
+    "price": 1701.32,
+    "change": 55.23,
+    "change_pct": 3.36,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.0,
-    "change": 3.27,
-    "change_pct": 4.83,
+    "price": 70.9,
+    "change": 3.09,
+    "change_pct": 4.56,
     "source": "okx"
    }
   ],
@@ -1340,7 +1361,7 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6611,
+    "price": 6.6613,
     "change": null,
     "change_pct": null,
     "dec": 4,
@@ -1373,26 +1394,26 @@
  },
  "speakers": [
   {
-   "keyword": "国务院",
-   "label": "国务院",
-   "hint": "国务院级经济政策影响宏观环境",
-   "title": "美国务院批准对乌克兰6亿多美元军售",
-   "summary": "美国国务院25日发表声明说，已决定批准一项价值6.219亿美元的军售计划，用于向乌克兰出售F－16战机保障维护设备及相关服务。（央视）",
-   "time": "2026-11-26 17:58",
-   "url": "https://wallstreetcn.com/livenews/3206349",
-   "source": "华尔街见闻",
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
+   "title": "黄仁勋被曝辞职后曾邀请好友骑摩托横穿美国",
+   "summary": "",
+   "time": "2026-11-26 10:26:44",
+   "url": "https://news.futunn.com/flash/1005741818/jensen-huang-reportedly-invited-a-close-friend-to-ride-motorcycles",
+   "source": "富途",
    "mentions": 1
   },
   {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普重申美方不支持“台独” 国台办回应 - 中国日报网",
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "预计美联储12月实施“鸽派加息”，警告科技股抛售可能拖累经济增长",
    "summary": "",
-   "time": "2026-11-26 17:27",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CSElETmc1Ujg4UWF3UUc0TnE0SEczYmdBWU8xUUZydzR5T0VMVDJZa29rZFdMVTgxWV9kU0pvTGhuWmc1OXNhRmJleG9iS0lYMDAzZUtZV0h6Ymc2dFJ1SDZkRnFZeXp6N1RPcW5vb2M0YThHTThhVEdob1I?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 3
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-26/102508836.html?cxapp_link=true",
+   "source": "财新",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1590,45 +1611,31 @@
  "alerts": [],
  "news": [
   {
-   "title": "江西省委原常委、统战部原部长李伟严重违纪违法被开除党籍和公职。（央视）",
-   "summary": "江西省委原常委、统战部原部长李伟严重违纪违法被开除党籍和公职。（央视）",
-   "time": "2026-11-26 18:01",
-   "url": "https://wallstreetcn.com/livenews/3206355",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "湖南白银：子公司宝山矿业计划停产检修约15天",
-   "summary": "【湖南白银：子公司宝山矿业计划停产检修约15天】湖南白银(002716.SZ)公告称，公司全资子公司宝山矿业计划于2026年11月26日开始停产检修，检修时长约15天，预计12月10日完成。",
-   "time": "2026-11-26 17:55:14",
-   "url": "https://finance.eastmoney.com/a/202611263940699264.html",
+   "title": "乌克兰多地遭俄罗斯导弹和无人机袭击",
+   "summary": "【乌克兰多地遭俄罗斯导弹和无人机袭击】乌克兰空军26日在社交媒体发文说，25日晚至26日上午，俄罗斯军队使用导弹和无人机对乌境内多地发动袭击，造成人员伤亡。",
+   "time": "2026-11-26 18:34:19",
+   "url": "https://finance.eastmoney.com/a/202611263940725451.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普重申美方不支持“台独” 国台办回应 - 中国日报网",
-   "summary": "",
-   "time": "2026-11-26 17:27",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9CSElETmc1Ujg4UWF3UUc0TnE0SEczYmdBWU8xUUZydzR5T0VMVDJZa29rZFdMVTgxWV9kU0pvTGhuWmc1OXNhRmJleG9iS0lYMDAzZUtZV0h6Ymc2dFJ1SDZkRnFZeXp6N1RPcW5vb2M0YThHTThhVEdob1I?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "英国央行：拟议调整将使英国银行的资本要求降低30个基点。\n\n进一步的资本金变动将损害稳定性。\n\n对冲基金抛售助推了法国国债收益率上升。\n\n英国央行将逆周期资本缓冲维持在2%。\n\n近期人工智能事件显示出对金融稳定的显著威胁。",
+   "summary": "英国央行：拟议调整将使英国银行的资本要求降低30个基点。\n\n进一步的资本金变动将损害稳定性。\n\n对冲基金抛售助推了法国国债收益率上升。\n\n英国央行将逆周期资本缓冲维持在2%。\n\n近期人工智能事件显示出对金融稳定的显著威胁。",
+   "time": "2026-11-26 18:30",
+   "url": "https://wallstreetcn.com/livenews/3206383",
+   "source": "华尔街见闻"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "英国央行下调本土银行资本要求，最大降幅达60个基点",
    "summary": "",
-   "time": "2026-11-26 17:14",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1zeHdBZnR6ZGJuQnBIaWljQjROaGl4UXZTNURMMmdBeHczUFBvUWxjQXZpVi0yY2RPZmRIN2t1eHVJdW1VQUROQQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "中国驻吉达总领馆再次提醒中资机构和中国公民注意安全",
-   "summary": "",
-   "time": "2026-11-26 10:01:05",
-   "url": "https://news.futunn.com/flash/1005739585/the-chinese-consulate-general-in-jeddah-has-reiterated-its-reminder",
+   "time": "2026-11-26 10:34:21",
+   "url": "https://news.futunn.com/flash/1005742709/bank-of-england-reduces-capital-requirements-for-domestic-banks-with",
    "source": "富途"
   },
   {
-   "title": "中央宣传部原副部长，原国家新闻出版广电总局党组书记、局长蔡赴朝严重违纪违法被开除党籍",
+   "title": "俄媒：俄空天军副总司令被捕",
    "summary": "",
-   "time": "2026-11-26 10:00:34",
-   "url": "https://news.10jqka.com.cn/20261126/c682259594.shtml",
+   "time": "2026-11-26 10:28:56",
+   "url": "https://news.10jqka.com.cn/20261126/c682260288.shtml",
    "source": "同花顺"
   },
   {
@@ -1646,45 +1653,31 @@
    "source": "财新"
   },
   {
-   "title": "中国华能原党组成员、总会计师王益华严重违纪违法被开除党籍。（央视）",
-   "summary": "中国华能原党组成员、总会计师王益华严重违纪违法被开除党籍。（央视）",
-   "time": "2026-11-26 18:01",
-   "url": "https://wallstreetcn.com/livenews/3206354",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "刚果（金）埃博拉确诊病例超过1.2万例",
-   "summary": "【刚果（金）埃博拉确诊病例超过1.2万例】刚果（金）卫生部最新数据显示，截至目前，该国本轮埃博拉疫情累计确诊病例已达12021例，死亡病例升至5904例。疫情自今年5月暴发以来，已蔓延至全国8个省份。",
-   "time": "2026-11-26 17:54:08",
-   "url": "https://finance.eastmoney.com/a/202611263940699074.html",
+   "title": "拟议中的监管规则调整将使英国银行的资本要求降低30个基点",
+   "summary": "拟议中的监管规则调整将使英国银行的资本要求降低30个基点。",
+   "time": "2026-11-26 18:30:59",
+   "url": "https://finance.eastmoney.com/a/202611263940725337.html",
    "source": "东财国际"
   },
   {
-   "title": "“考虑入股”尚未立项：特朗普表态如何被AI芯片板块定价成一份政策期权 - 同花顺财经",
-   "summary": "",
-   "time": "2026-11-26 17:11",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1vQ1RlN0F2ZEFvTThIYTZ6TUN3Y083anVpeDItS24xZ08yeGw4eVdTblZLZW90SGU1MjRLWWY3bXRNbUdfYU9jRGNZR0xwZW5oc0RFd3Frc3o2ZmIwMFE?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "凌云光：子公司拟620万美元增资PhotonicX AI",
+   "summary": "凌云光公告，全资子公司凌云光技术国际有限公司拟以自有资金620万美元向PhotonicX AI进行增资。本次交易标的为PhotonicX AI，该公司成立于2024年6月20日，主要从事面向GPU/XPU高速互连的光I/O芯粒及NPO/CPO产品的研究、开发、生产和销售。此次投资后，公司将与PhotonicX AI布局AI光通信增量市场，为公司光通信业务开拓新的市场增长点。",
+   "time": "2026-11-26 18:28",
+   "url": "https://wallstreetcn.com/livenews/3206382",
+   "source": "华尔街见闻"
   },
   {
-   "title": "花旗看好中广核电力及龙源电力 华能、华润电力、华电获沽售评级 - 观点网",
+   "title": "AEON CREDIT：识别到未经授权存取后端系统的情况",
    "summary": "",
-   "time": "2026-11-26 17:07",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE13TVlHR09jNElqUHNfWXZRVGNnLVg2RHY2bFN5VDNDVEc1eXhadXNsUV9CWmt5eVZsNHI1WXBwNEZtNTM5Q3ozZmRrbm9vQk5vb0xoeXg4WFRWbTM2MUVJYUVR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "蓝佛安出席中国与亚行合作40周年庆暨高层论坛并会见亚行行长神田真人",
-   "summary": "",
-   "time": "2026-11-26 09:47:13",
-   "url": "https://news.futunn.com/flash/1005737973/lan-foan-attended-the-40th-anniversary-celebration-and-high-level",
+   "time": "2026-11-26 10:30:17",
+   "url": "https://news.futunn.com/flash/1005742047/aeon-credit-unauthorized-access-to-backend-systems-detected",
    "source": "富途"
   },
   {
-   "title": "容百科技：子公司仙桃容百完成3亿元增资扩股工商变更，交银投资持股15.9811%",
+   "title": "肯尼亚高等法院：政府批准美支持的埃博拉隔离设施项目程序违宪",
    "summary": "",
-   "time": "2026-11-26 09:54:22",
-   "url": "https://news.10jqka.com.cn/20261126/c682259421.shtml",
+   "time": "2026-11-26 10:24:10",
+   "url": "https://news.10jqka.com.cn/20261126/c682260193.shtml",
    "source": "同花顺"
   },
   {
@@ -1702,45 +1695,31 @@
    "source": "财新"
   },
   {
-   "title": "美国务院批准对乌克兰6亿多美元军售",
-   "summary": "美国国务院25日发表声明说，已决定批准一项价值6.219亿美元的军售计划，用于向乌克兰出售F－16战机保障维护设备及相关服务。（央视）",
-   "time": "2026-11-26 17:58",
-   "url": "https://wallstreetcn.com/livenews/3206349",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "龙源电力成立新能源子公司 含风力发电业务",
-   "summary": "【龙源电力成立新能源子公司 含风力发电业务】企查查APP显示，近日，天津龙源经开区新能源有限公司成立，经营范围包含：电气设备修理；风力发电技术服务；新兴能源技术研发；工程和技术研究和试验发展等。企查查股权穿透显示，该公司由龙源电力全资持股。",
-   "time": "2026-11-26 17:48:29",
-   "url": "https://finance.eastmoney.com/a/202611263940691125.html",
+   "title": "*ST沐邦：撤销退市风险警示并继续实施其他风险警示 11月30日起股票简称变更为“ST沐邦”",
+   "summary": "【*ST沐邦：撤销退市风险警示并继续实施其他风险警示 11月30日起股票简称变更为“ST沐邦”】*ST沐邦(603398.SH)公告称，因撤销退市风险警示及继续被实施其他风险警示，公司股票将于2026年11月27日开市起停牌1天，并于11月30日开市起复牌。实施后A股简称变更为“ST沐邦”，日涨跌幅限制仍为10%。",
+   "time": "2026-11-26 18:27:06",
+   "url": "https://finance.eastmoney.com/a/202611263940725151.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普与吕特会晤 喊话俄“避免扩大战事” - 央视网",
-   "summary": "",
-   "time": "2026-11-26 15:33",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tb0xOcWR2OHlHZVVXWUNsZDZmUkpQNTlUb0hPYWRjTUFnTFpLd0FPV1MwTmEwNEVxcWhUaG1NQ0dLNnI2M0V4VGp0aWJlVUpYZUhJbFJXWi1UVXp0Z01zY3pFSmY2ck5BSDkzaGUxNTl0ejJmcl9nNw?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "上交所就股价波动事项向克来机电下发监管工作函。",
+   "summary": "上交所就股价波动事项向克来机电下发监管工作函。",
+   "time": "2026-11-26 18:25",
+   "url": "https://wallstreetcn.com/livenews/3206379",
+   "source": "华尔街见闻"
   },
   {
-   "title": "加皇银行下调Workday目标价至210美元 - 金融界",
+   "title": "黄仁勋被曝辞职后曾邀请好友骑摩托横穿美国",
    "summary": "",
-   "time": "2026-11-26 16:46",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xMmNBNTlQcnRLXzZIVGRWRU94cDMyeGswV2JwSXNjcjg2OUZNRnZXeU00SVJnMGNyM3JWM1oySmEzb2t6djc4S2hfc2l0N1o4RWdUbUFoZVh6dl9CUllqdUl5eE9Idw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "中国加入世贸组织25周年高级别对话会在日内瓦举行",
-   "summary": "",
-   "time": "2026-11-26 09:43:31",
-   "url": "https://news.futunn.com/flash/1005737564/high-level-dialogue-on-the-25th-anniversary-of-china-s",
+   "time": "2026-11-26 10:26:44",
+   "url": "https://news.futunn.com/flash/1005741818/jensen-huang-reportedly-invited-a-close-friend-to-ride-motorcycles",
    "source": "富途"
   },
   {
-   "title": "美湖股份：控股股东及董事长许仲秋增持计划实施完毕，累计增持1102.25万元",
+   "title": "上交所：对克莱机电下发有关股价波动事项的监管工作函",
    "summary": "",
-   "time": "2026-11-26 09:47:36",
-   "url": "https://news.10jqka.com.cn/20261126/c682259222.shtml",
+   "time": "2026-11-26 10:23:38",
+   "url": "https://news.10jqka.com.cn/20261126/c682260181.shtml",
    "source": "同花顺"
   },
   {
@@ -1756,29 +1735,69 @@
    "time": "",
    "url": "https://database.caixin.com/2026-11-26/102508839.html?cxapp_link=true",
    "source": "财新"
+  },
+  {
+   "title": "上交所向克来机电下发监管工作函",
+   "summary": "【上交所向克来机电下发监管工作函】上交所向克来机电下发关于上海克来机电自动化工程股份有限公司有关股价波动事项的监管工作函。该函涉及对象为上市公司，处理事由为关于上海克来机电自动化工程股份有限公司有关股价波动事项的监管工作函。",
+   "time": "2026-11-26 18:24:22",
+   "url": "https://finance.eastmoney.com/a/202611263940718796.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "伊朗称一艘液化气运输船在霍尔木兹海峡触雷爆炸",
+   "summary": "伊朗伊斯兰革命卫队海军25日发表声明说，一艘液化天然气运输船在霍尔木兹海峡触雷，发生爆炸并起火。",
+   "time": "2026-11-26 18:15",
+   "url": "https://wallstreetcn.com/livenews/3206373",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "国家药品监督管理局批准贝普若韦生上市",
+   "summary": "",
+   "time": "2026-11-26 10:22:05",
+   "url": "https://news.futunn.com/flash/1005741480/the-national-medical-products-administration-has-approved-the-market-launch",
+   "source": "富途"
+  },
+  {
+   "title": "*ST尔雅：公司股票可能被终止上市，2025年归母净利润亏损8909.26万元",
+   "summary": "",
+   "time": "2026-11-26 10:19:22",
+   "url": "https://news.10jqka.com.cn/20261126/c682260101.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "预计美联储12月实施“鸽派加息”，警告科技股抛售可能拖累经济增长",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-26/102508836.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "智微智能：智擎系列Thor机器人大脑控制器已为头部具身智能客户批量供货",
+   "summary": "【智微智能：智擎系列Thor机器人大脑控制器已为头部具身智能客户批量供货】智微智能(001339.SZ)发布投资者关系活动记录表公告，目前，公司智擎系列Thor机器人大脑控制器已为头部具身智能客户批量供货，并成为智元机器人首批“A链”供应商。",
+   "time": "2026-11-26 18:22:58",
+   "url": "https://finance.eastmoney.com/a/202611263940719540.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(20)",
+   "富途": "ok(13)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "ok(30)",
-   "谷歌新闻·研报": "ok(30)"
+   "谷歌新闻·国际": "FAIL:HTTPError",
+   "谷歌新闻·研报": "FAIL:HTTPError"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "东财国际": 7,
-   "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 6,
-   "富途": 6,
-   "同花顺": 6,
+   "东财国际": 9,
+   "华尔街见闻": 9,
+   "富途": 9,
+   "同花顺": 9,
    "东财早报": 3,
-   "财新": 6
+   "财新": 9
   }
  },
  "wuxing": {
