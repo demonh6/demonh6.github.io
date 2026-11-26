@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 23:26:39 CST",
- "generated_at_iso": "2026-11-26T23:26:39+08:00",
+ "generated_at": "2026-11-26 23:34:56 CST",
+ "generated_at_iso": "2026-11-26T23:34:56+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 4711.21,
-    "change": 13.7,
-    "change_pct": 0.29,
+    "price": 4697.5098,
+    "change": -308.52,
+    "change_pct": -6.16,
     "hist": [
      5668.05,
      5768.01,
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 84328.5938,
+    "change": 390.31,
+    "change_pct": 0.46
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39151.81,
+    "change": 956.38,
+    "change_pct": 2.5
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 24702.13,
+    "change": -315.68,
+    "change_pct": -1.26
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10621.42,
-    "change": 194.48,
-    "change_pct": 1.87,
+    "price": 10426.94,
+    "change": -40.13,
+    "change_pct": -0.38,
     "hist": [
      10840.35,
      10881.9,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8124.19,
-    "change": 143.62,
-    "change_pct": 1.8,
+    "price": 7980.57,
+    "change": -59.92,
+    "change_pct": -0.75,
     "hist": [
      7934.7,
      7956.7,
@@ -1169,9 +1190,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6017.77,
-    "change": 123.31,
-    "change_pct": 2.09,
+    "price": 5894.46,
+    "change": -109.31,
+    "change_pct": -1.82,
     "hist": [
      6168.27,
      6204.24,
@@ -1205,6 +1226,13 @@
      5894.46
     ],
     "sigma": 1.341
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2330.79,
+    "change": -26.07,
+    "change_pct": -1.11
    }
   ]
  },
@@ -1256,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3599.73,
-    "change": 35.13,
-    "change_pct": 0.99,
-    "quote_time": "23:26:40 2026-11-26"
+    "price": 3599.592,
+    "change": 34.992,
+    "change_pct": 0.98,
+    "quote_time": "23:34:57 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 42.016,
-    "change": 1.478,
-    "change_pct": 3.65,
-    "quote_time": "23:26:39 2026-11-26"
+    "price": 41.972,
+    "change": 1.434,
+    "change_pct": 3.54,
+    "quote_time": "23:34:56 2026-11-26"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.888,
-    "change": 1.208,
-    "change_pct": 1.44,
-    "quote_time": "23:26:42 2026-11-26"
+    "price": 84.862,
+    "change": 1.182,
+    "change_pct": 1.41,
+    "quote_time": "23:34:56 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.464,
-    "change": 0.824,
-    "change_pct": 0.91,
-    "quote_time": "23:26:38 2026-11-26"
+    "price": 91.484,
+    "change": 0.844,
+    "change_pct": 0.93,
+    "quote_time": "23:34:59 2026-11-26"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60333.7,
-    "change": 2234.1,
-    "change_pct": 3.85,
+    "price": 60387.5,
+    "change": 2022.0,
+    "change_pct": 3.46,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1684.57,
-    "change": 48.28,
-    "change_pct": 2.95,
+    "price": 1685.96,
+    "change": 39.23,
+    "change_pct": 2.38,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.58,
-    "change": 3.56,
-    "change_pct": 5.31,
+    "price": 70.65,
+    "change": 3.33,
+    "change_pct": 4.95,
     "source": "okx"
    }
   ],
@@ -1322,9 +1350,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.77,
-    "change": 0.06,
-    "change_pct": 0.06,
+    "price": 103.76,
+    "change": 0.05,
+    "change_pct": 0.05,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1361,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6608,
-    "change": -0.0067,
-    "change_pct": -0.1,
+    "price": 6.6614,
+    "change": -0.0061,
+    "change_pct": -0.09,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1385,26 +1413,15 @@
  },
  "speakers": [
   {
-   "keyword": "欧洲央行",
-   "label": "欧洲央行",
-   "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "In Touch Capital Markets高级外汇分析师Piotr Matys：明年德科斯（Pablo Hernández de Cos）接替拉加德出任欧洲央行行长后，欧洲央行管理委员会在进一步加息方面可能会采取更为谨慎的态度。\n\n德",
-   "summary": "In Touch Capital Markets高级外汇分析师Piotr Matys：明年德科斯（Pablo Hernández de Cos）接替拉加德出任欧洲央行行长后，欧洲央行管理委员会在进一步加息方面可能会采取更为谨慎的态度。\n\n德科斯向来以高度依赖数据（data-driven）而闻名，他在收紧货币政策方面非常审慎，以避免对经济活动造成损害。",
-   "time": "2026-11-26 22:56",
-   "url": "https://wallstreetcn.com/livenews/3206517",
-   "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普表示：希望看到俄罗斯总统普京撤回其在欧洲各地的一切军事行动",
-   "summary": "特朗普表示，希望看到俄罗斯总统普京撤回其在欧洲各地的一切军事行动。",
-   "time": "2026-11-26 22:55:53",
-   "url": "https://finance.eastmoney.com/a/202611263940969140.html",
-   "source": "东财国际",
-   "mentions": 4
+   "title": "特朗普入住深圳酒店后，留下了这样一个礼物...... - 极目新闻",
+   "summary": "",
+   "time": "2026-11-26 22:15",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xdVVTeUNqd3RXa3pNenNCWTJudzNwN0pLMmx3WUEyWWxCMzBWREJoZGhrMnZXdERlZ0lKLVNUY1JPTXpIcWp4V3g3V2dOMktyeThGRmFOWHc2d3M?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
   },
   {
    "keyword": "美联储",
@@ -1623,40 +1640,26 @@
  "alerts": [
   {
    "level": "warning",
-   "asset": "英国富时100",
-   "message": "英国富时100单日涨1.87%，达20日历史波动率的 2.1 倍（σ=0.90%，突破 2σ 警戒线）",
-   "time": "2026-11-26 23:26",
+   "asset": "台湾加权",
+   "message": "台湾加权单日涨2.50%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-26 23:35",
    "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
-  },
-  {
-   "level": "warning",
-   "asset": "COMEX白银",
-   "message": "COMEX白银单日涨3.65%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-26 23:26",
-   "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
-  },
-  {
-   "level": "warning",
-   "asset": "全球股指",
-   "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-26 23:26",
-   "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "铁矿石夜盘收跌约2.3%，螺纹钢涨0.2%，焦炭涨0.7%，低硫燃油涨0.8%。",
-   "summary": "铁矿石夜盘收跌约2.3%，螺纹钢涨0.2%，焦炭涨0.7%，低硫燃油涨0.8%。",
-   "time": "2026-11-26 23:01",
-   "url": "https://wallstreetcn.com/livenews/3206520",
-   "source": "华尔街见闻"
+   "title": "欧盟委员会的会议议程显示：12月15日的会议可能就特斯拉的辅助驾驶系统进行投票",
+   "summary": "欧盟委员会的会议议程显示，12月15日的会议可能就特斯拉的辅助驾驶系统进行投票。",
+   "time": "2026-11-26 23:27:20",
+   "url": "https://finance.eastmoney.com/a/202611263940986341.html",
+   "source": "东财国际"
   },
   {
-   "title": "国内部分商品期货夜盘收盘 主力合约涨多跌少",
-   "summary": "截至23:00，国内部分商品期货夜盘收盘，主力合约涨多跌少。涨幅方面，乙二醇、菜粕涨超2%，短纤、菜油涨超1%；跌幅方面，铁矿石跌超2%，丁二烯胶、纯碱、苯乙烯跌超1%。",
-   "time": "2026-11-26 23:00:16",
-   "url": "https://finance.eastmoney.com/a/202611263940969891.html",
-   "source": "东财国际"
+   "title": "西班牙对外银行（BBVA SA）考虑达成一份协议，希望从一批数据中心贷款中卸下大约5亿欧元风险。\n\n该公司为对冲人工智能（AI）相关基础设施的风险敞口探索诸多方式。",
+   "summary": "西班牙对外银行（BBVA SA）考虑达成一份协议，希望从一批数据中心贷款中卸下大约5亿欧元风险。\n\n该公司为对冲人工智能（AI）相关基础设施的风险敞口探索诸多方式。",
+   "time": "2026-11-26 23:25",
+   "url": "https://wallstreetcn.com/livenews/3206529",
+   "source": "华尔街见闻"
   },
   {
    "title": "特朗普入住深圳酒店后，留下了这样一个礼物...... - 极目新闻",
@@ -1673,18 +1676,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "摩根大通：印度股市有望在2027年进一步上涨",
+   "summary": "",
+   "time": "2026-11-26 15:09:18",
+   "url": "https://news.futunn.com/flash/1005765314/jpmorgan-indian-equity-market-poised-for-further-gains-in-2027",
+   "source": "富途"
+  },
+  {
    "title": "期市夜盘收盘，国内期货主力合约多数上涨，乙二醇涨超2%",
    "summary": "",
    "time": "2026-11-26 15:00:27",
    "url": "https://news.10jqka.com.cn/20261126/c682267623.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "德科斯处于鹰鸽光谱的中间地带 没有理由预期欧洲央行会发生重大政策转向",
-   "summary": "",
-   "time": "2026-11-26 14:56:07",
-   "url": "https://news.futunn.com/flash/1005764362/de-cos-occupies-the-middle-ground-on-the-hawk-dove",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月26日周四",
@@ -1701,18 +1704,18 @@
    "source": "财新"
   },
   {
-   "title": "策略师：德科斯出任欧洲央行之后，不一定就会延续担任西班牙央行行长时期的鸽派立场",
-   "summary": "伦敦RBC Capital Markets全球宏观策略师Peter Schaffrik：市场目前的共识显然是认为德科斯（Pablo Hernández de Cos）偏鸽派，因此会给欧洲央行带来鸽派倾向。\n\n但我们还得拭目以待，因为他此前在欧洲央行管理委员会任职时所处的时代背景已大不相同。\n\n三四周前他发表的一次演讲听起来就相当鹰派。通常情况下是时代塑造行长，而非行长塑造时代。至于他的上任究竟意味",
-   "time": "2026-11-26 23:00",
-   "url": "https://wallstreetcn.com/livenews/3206518",
-   "source": "华尔街见闻"
+   "title": "乌克兰称其在夜间袭击了俄罗斯的斯拉维扬斯克炼油厂",
+   "summary": "乌克兰称其在夜间袭击了俄罗斯的斯拉维扬斯克炼油厂。",
+   "time": "2026-11-26 23:18:38",
+   "url": "https://finance.eastmoney.com/a/202611263940979677.html",
+   "source": "东财国际"
   },
   {
-   "title": "特朗普表示：希望看到俄罗斯总统普京撤回其在欧洲各地的一切军事行动",
-   "summary": "特朗普表示，希望看到俄罗斯总统普京撤回其在欧洲各地的一切军事行动。",
-   "time": "2026-11-26 22:55:53",
-   "url": "https://finance.eastmoney.com/a/202611263940969140.html",
-   "source": "东财国际"
+   "title": "比利时财政大臣Jan Jambon在一份声明中代表首相Bart De Wever表示：政府需要迅速达成预算协议，从而向公民和金融市场释放积极信号。",
+   "summary": "比利时财政大臣Jan Jambon在一份声明中代表首相Bart De Wever表示：政府需要迅速达成预算协议，从而向公民和金融市场释放积极信号。",
+   "time": "2026-11-26 23:21",
+   "url": "https://wallstreetcn.com/livenews/3206528",
+   "source": "华尔街见闻"
   },
   {
    "title": "褐皮书与PCE双重信号：美联储12月加息预期升温，黄金面临政策定价考验 - 同花顺",
@@ -1722,11 +1725,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "独家 | 理财公司首次监管评级结果下发_理财聚焦 - 证券之星",
+   "title": "里昂：小米集团-W维持“跑赢大市”评级 目标价35港元 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-26 21:46",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZV0QyR3prZmNPUXpvcFZUMFFxRlBsWWViN2lkbkxyaFVoWFFvSkl2T2x4aWwzT3lxa3BYQUxEZF9YN2pmWjMxeWJkT0t3MDEycU5XMkxVTkpmQWFHLXRscHRR?oc=5",
+   "time": "2026-11-26 21:52",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeEJwTDVYRHRTWHJRNjRzenlNSER6RW91aTl4dzdYLVptdE9pZkpoV213YlZ1QWt3Z2RCT2hmbU1Gd05DaVlXN0NTX29DaXZEVHlPMjcwUVFOTUxfcGdBa0xIYVp3cmtqcVVEMjZTdnpnWkw5bU5MMVNDSE40VXVZZzVDenNLNmZ0RFlWRXlyYXZKQk9Qc2hudldnRjlqVzJMUERSWWotQ3huUQ?oc=5",
    "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "德科斯处于鹰鸽光谱的中间地带 没有理由预期欧洲央行会发生重大政策转向",
+   "summary": "",
+   "time": "2026-11-26 14:56:07",
+   "url": "https://news.futunn.com/flash/1005764362/de-cos-occupies-the-middle-ground-on-the-hawk-dove",
+   "source": "富途"
   },
   {
    "title": "特朗普表示，希望看到俄罗斯总统普京撤回其在欧洲各地的一切军事行动",
@@ -1734,13 +1744,6 @@
    "time": "2026-11-26 14:58:20",
    "url": "https://news.10jqka.com.cn/20261126/c682267609.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "荷兰国际：德科斯若成为欧洲央行行长 影响力将超越拉加德",
-   "summary": "",
-   "time": "2026-11-26 14:52:47",
-   "url": "https://news.futunn.com/flash/1005764262/ing-if-de-cos-becomes-ecb-president-his-influence-will",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月25日周三",
@@ -1757,18 +1760,18 @@
    "source": "财新"
   },
   {
-   "title": "In Touch Capital Markets高级外汇分析师Piotr Matys：明年德科斯（Pablo Hernández de Cos）接替拉加德出任欧洲央行行长后，欧洲央行管理委员会在进一步加息方面可能会采取更为谨慎的态度。\n\n德",
-   "summary": "In Touch Capital Markets高级外汇分析师Piotr Matys：明年德科斯（Pablo Hernández de Cos）接替拉加德出任欧洲央行行长后，欧洲央行管理委员会在进一步加息方面可能会采取更为谨慎的态度。\n\n德科斯向来以高度依赖数据（data-driven）而闻名，他在收紧货币政策方面非常审慎，以避免对经济活动造成损害。",
-   "time": "2026-11-26 22:56",
-   "url": "https://wallstreetcn.com/livenews/3206517",
-   "source": "华尔街见闻"
+   "title": "星图测控：被禁止参加军事航天部队采购活动2年",
+   "summary": "【星图测控：被禁止参加军事航天部队采购活动2年】星图测控公告，军采网于2026年11月26日发布处理公告，军事航天部队采购管理部门决定自2026年7月14日至2028年7月14日期间禁止公司参加相应范围军队物资工程服务采购活动。本次违规处理的串标事项预计将对公司的经营产生一定影响，公司为军事航天部队及其下属单位提供的业务多集中在定制化开发项目，即公司依托自身技术结合用户航天任务的差异化需求，为其提供航天测控管理、航天数字仿真等业务的定制化系统开发与服务。公司最终用户为军事航天部队及其下属单位的受影响合同金额约占年度预计营业收入的20%-22%。",
+   "time": "2026-11-26 23:16:28",
+   "url": "https://finance.eastmoney.com/a/202611263940979214.html",
+   "source": "东财国际"
   },
   {
-   "title": "沙特牵头的联军表示：胡塞武装袭击了吉赞炼油厂",
-   "summary": "沙特牵头的联军表示，胡塞武装袭击了吉赞炼油厂。",
-   "time": "2026-11-26 22:48:22",
-   "url": "https://finance.eastmoney.com/a/202611263940964385.html",
-   "source": "东财国际"
+   "title": "国家数据局拟进一步完善数据规则赋能人工智能创新发展",
+   "summary": "记者从国家数据局获悉，为推动数据要素赋能人工智能创新发展，国家数据局26日发布《关于完善数据规则 赋能人工智能创新发展的若干意见》（公开征求意见稿），向社会公开征求意见。征求意见稿围绕人工智能发展的数据要素需求，从三大方面提出十二项具体举措，明确推动数据产权制度在人工智能用数领域运用，数据有序、依法合规用于人工智能训练和推理；协调好数据处理者与受托方的关系，支持和鼓励为数据付费，建立人工智能企业输",
+   "time": "2026-11-26 23:17",
+   "url": "https://wallstreetcn.com/livenews/3206527",
+   "source": "华尔街见闻"
   },
   {
    "title": "特朗普反对内塔尼亚胡推动对伊朗采取军事行动，以解决其涉嫌的化学武器计划问题。 - Al-Monitor",
@@ -1778,11 +1781,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "风口研报 - 财联社",
+   "title": "独家 | 理财公司首次监管评级结果下发_理财聚焦 - 证券之星",
    "summary": "",
-   "time": "2026-11-26 21:44",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NUEdTZi1BSGtieDd4WHU0Mmd4OGNyRFA3QXJDcDJKUWU4Zi1nR0dnQ2kycTNNa3o3alMxRUZ1TDkzclFXQ3M0dg?oc=5",
+   "time": "2026-11-26 21:46",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZV0QyR3prZmNPUXpvcFZUMFFxRlBsWWViN2lkbkxyaFVoWFFvSkl2T2x4aWwzT3lxa3BYQUxEZF9YN2pmWjMxeWJkT0t3MDEycU5XMkxVTkpmQWFHLXRscHRR?oc=5",
    "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "荷兰国际：德科斯若成为欧洲央行行长 影响力将超越拉加德",
+   "summary": "",
+   "time": "2026-11-26 14:52:47",
+   "url": "https://news.futunn.com/flash/1005764262/ing-if-de-cos-becomes-ecb-president-his-influence-will",
+   "source": "富途"
   },
   {
    "title": "沙特称西南部一炼油厂遭胡塞武装袭击",
@@ -1790,13 +1800,6 @@
    "time": "2026-11-26 14:57:45",
    "url": "https://news.10jqka.com.cn/20261126/c682267605.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "刘海星分别会见尼泊尔、巴基斯坦客人",
-   "summary": "",
-   "time": "2026-11-26 14:33:30",
-   "url": "https://news.futunn.com/flash/1005763207/liu-haixing-holds-separate-meetings-with-guests-from-nepal-and",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月24日周二",
@@ -1826,12 +1829,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
+   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 6,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 3,
    "财新": 6
   }
