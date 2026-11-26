@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 17:35:01 CST",
- "generated_at_iso": "2026-11-26T17:35:01+08:00",
+ "generated_at": "2026-11-26 17:43:42 CST",
+ "generated_at_iso": "2026-11-26T17:43:42+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3599.41,
-    "change": 34.81,
-    "change_pct": 0.98,
-    "quote_time": "17:34:56 2026-11-26"
+    "price": 3600.22,
+    "change": 35.62,
+    "change_pct": 1.0,
+    "quote_time": "17:43:43 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.928,
-    "change": 1.39,
-    "change_pct": 3.43,
-    "quote_time": "17:35:05 2026-11-26"
+    "price": 41.963,
+    "change": 1.425,
+    "change_pct": 3.52,
+    "quote_time": "17:43:02 2026-11-26"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 83.448,
-    "change": -0.232,
-    "change_pct": -0.28,
-    "quote_time": "17:35:03 2026-11-26"
+    "price": 83.409,
+    "change": -0.271,
+    "change_pct": -0.32,
+    "quote_time": "17:43:44 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 90.056,
-    "change": -0.584,
-    "change_pct": -0.64,
-    "quote_time": "17:34:57 2026-11-26"
+    "price": 90.017,
+    "change": -0.623,
+    "change_pct": -0.69,
+    "quote_time": "17:43:46 2026-11-26"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60808.2,
-    "change": 1930.1,
-    "change_pct": 3.28,
+    "price": 60947.3,
+    "change": 2066.6,
+    "change_pct": 3.51,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1700.79,
-    "change": 60.99,
-    "change_pct": 3.72,
+    "price": 1705.07,
+    "change": 66.46,
+    "change_pct": 4.06,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.02,
-    "change": 3.46,
-    "change_pct": 5.12,
+    "price": 71.22,
+    "change": 3.74,
+    "change_pct": 5.54,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.71,
-    "change": 0.0,
-    "change_pct": 0.0,
+    "price": 103.73,
+    "change": 0.02,
+    "change_pct": 0.02,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,13 +1333,13 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6599,
-    "change": null,
-    "change_pct": null,
+    "price": 6.6605,
+    "change": -0.007,
+    "change_pct": -0.1,
     "dec": 4,
-    "date": "2026-11-26",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1348,9 @@
     "change": -0.99,
     "change_pct": -0.71,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
