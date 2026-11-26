@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 22:44:40 CST",
- "generated_at_iso": "2026-11-26T22:44:40+08:00",
+ "generated_at": "2026-11-26 22:52:56 CST",
+ "generated_at_iso": "2026-11-26T22:52:56+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1485,37 +1485,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3601.984,
-    "change": 37.384,
-    "change_pct": 1.05,
-    "quote_time": "22:44:41 2026-11-26"
+    "price": 3601.004,
+    "change": 36.404,
+    "change_pct": 1.02,
+    "quote_time": "22:52:58 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.959,
-    "change": 1.421,
-    "change_pct": 3.51,
-    "quote_time": "22:44:40 2026-11-26"
+    "price": 41.899,
+    "change": 1.361,
+    "change_pct": 3.36,
+    "quote_time": "22:52:51 2026-11-26"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.643,
-    "change": 0.963,
-    "change_pct": 1.15,
-    "quote_time": "22:44:40 2026-11-26"
+    "price": 84.586,
+    "change": 0.906,
+    "change_pct": 1.08,
+    "quote_time": "22:52:56 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.45,
-    "change": 0.81,
+    "price": 91.443,
+    "change": 0.803,
     "change_pct": 0.89,
-    "quote_time": "22:44:42 2026-11-26"
+    "quote_time": "22:52:57 2026-11-26"
    }
   ],
   "crypto": [
@@ -1523,27 +1523,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60747.6,
-    "change": 3364.7,
-    "change_pct": 5.86,
+    "price": 60737.4,
+    "change": 3158.3,
+    "change_pct": 5.49,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1699.58,
-    "change": 88.63,
-    "change_pct": 5.5,
+    "price": 1697.05,
+    "change": 76.8,
+    "change_pct": 4.74,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.29,
-    "change": 5.36,
-    "change_pct": 8.13,
+    "price": 71.02,
+    "change": 4.5,
+    "change_pct": 6.76,
     "source": "okx"
    }
   ],
@@ -1551,9 +1551,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.69,
-    "change": -0.02,
-    "change_pct": -0.02,
+    "price": 103.73,
+    "change": 0.02,
+    "change_pct": 0.02,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1562,8 +1562,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6607,
-    "change": -0.0068,
+    "price": 6.6608,
+    "change": -0.0067,
     "change_pct": -0.1,
     "dec": 4,
     "date": "",
@@ -1828,15 +1828,7 @@
    }
   ]
  },
- "alerts": [
-  {
-   "level": "warning",
-   "asset": "Solana",
-   "message": "Solana单日涨8.13%，达20日历史波动率的 2.3 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-26 22:44",
-   "chain": "币价急涨 → 空头杠杆被连环强平(轧空) → 强平买单进一步推高价格 → 稳定币加速流入加密市场 → 与纳指联动的高风险偏好扩散"
-  }
- ],
+ "alerts": [],
  "news": [
   {
    "title": "匈牙利总理马扎尔在布鲁塞尔举行的预算谈判期间表示，他认为周四达成协议的可能性“几乎为零”，甚至圣诞节前达成协议的可能性也不大。",
