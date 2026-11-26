@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 06:22:47 CST",
- "generated_at_iso": "2026-11-27T06:22:47+08:00",
+ "generated_at": "2026-11-27 06:31:00 CST",
+ "generated_at_iso": "2026-11-27T06:31:00+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83938.2813,
+    "change": 1502.29,
+    "change_pct": 1.82
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39151.81,
+    "change": 956.38,
+    "change_pct": 2.5
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25215.52,
+    "change": 513.39,
+    "change_pct": 2.08
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10609.3,
-    "change": 182.36,
-    "change_pct": 1.75,
+    "price": 10623.84,
+    "change": 196.9,
+    "change_pct": 1.89,
     "hist": [
      10881.9,
      10764.69,
@@ -1169,8 +1190,8 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6014.74,
-    "change": 120.28,
+    "price": 6014.75,
+    "change": 120.29,
     "change_pct": 2.04,
     "hist": [
      6204.24,
@@ -1205,6 +1226,13 @@
      6014.75
     ],
     "sigma": 1.418
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2331.98,
+    "change": -24.88,
+    "change_pct": -1.06
    }
   ]
  },
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60581.8,
-    "change": 480.8,
-    "change_pct": 0.8,
+    "price": 60597.5,
+    "change": 432.8,
+    "change_pct": 0.72,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1697.59,
-    "change": 13.87,
-    "change_pct": 0.82,
+    "price": 1697.44,
+    "change": 11.79,
+    "change_pct": 0.7,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.24,
-    "change": 0.73,
-    "change_pct": 1.04,
+    "price": 71.25,
+    "change": 0.78,
+    "change_pct": 1.11,
     "source": "okx"
    }
   ],
@@ -1322,24 +1350,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.78,
-    "change": -0.01,
-    "change_pct": -0.01,
+    "price": 103.787,
+    "change": 0.004,
+    "change_pct": 0.0,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-27",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6609,
-    "change": -0.0004,
-    "change_pct": -0.01,
+    "price": 6.6637,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-27",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1376,9 @@
     "change": -0.99,
     "change_pct": -0.71,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1399,12 +1427,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普对美三季度GDP增速大幅上修至4.3% 深表不满 - RFI",
+   "title": "三季度GDP数据大幅上修后，特朗普质疑数据操弄中期选举并要求调查 - 新浪财经",
    "summary": "",
-   "time": "2026-11-27 05:13",
-   "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNMl9vMnZFb2diemtaeG80eFpFTEhtQlZkdXVaanJDZ0xjRUlXTUU4a19RQ1VpY2pyaUJDSjVLTE1jWUNyWkZFeW9HNUZpejdBODdwN1RDNkp1anRRVGpxbXd1NS1abk5idmVWLXREQWw5TjZGM2YxdFRPbG91Y1hzNEF6ZmYzUDFwMjVFNVdZZnN1Z2dZU2x2TVI4bVlHd25UaDNhQzlsT1QxeGJYeG9WNGZzRXYyaXlCQmtQdzUxNlpEOW5tUWlNUWhvYlJfMjg5X3A2Z3l4UG0wTFBoN3AyOTVCdHZ4VElSMVZZdG1rRThSX25TX2NzdDQzOFJkMnlvR1FZRHBJeUoybl9PblV5anlCemkwS3dsaWZndHJrTWhuR0FlQ28tWUIxQWUwYXBlYTB4dWVHUFFpeHM4ZlVGeFpPTG9jdlZTeEhvZg?oc=5",
+   "time": "2026-11-27 06:02",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjNwMmtxYVZaTjNfY1E3V0hEUWF4cm5ZcENfN1ppYUhJUzFVU216ZXVweE5ZS2FLYW9KcEs2LTNwQ1dnWHhzc3pMcFdqZ1c0MHI5V2VzNThPbTFkUDh0WEFYTy10LUNQUFZoS2ROUnRJXzRrbGJNRTNwUkVjcTFtdDNkQ1ljTmRqVkdXV21NbFA3V1I5cDBkdEVwWHQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 1
+  },
+  {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "欧洲央行将迎“稳健之手”：欧元区成员国已同意推荐德科斯担任欧央行行长",
+   "summary": "",
+   "time": "2026-11-26 22:16:02",
+   "url": "https://news.10jqka.com.cn/20261127/c682268632.shtml",
+   "source": "同花顺",
+   "mentions": 2
   },
   {
    "keyword": "美联储",
@@ -1620,28 +1659,50 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "warning",
+   "asset": "台湾加权",
+   "message": "台湾加权单日涨2.50%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-27 06:31",
+   "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
+  },
+  {
+   "level": "warning",
+   "asset": "全球股指",
+   "message": "印度SENSEX、台湾加权、德国DAX等 5 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
+   "time": "2026-11-27 06:31",
+   "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
+  }
+ ],
  "news": [
   {
-   "title": "报道：巴西布拉德斯科银行董事长特拉布科已接受出任巴西财政部长的邀请",
-   "summary": "据知情人士透露，巴西布拉德斯科银行（Bradesco）董事长路易斯·卡洛斯·特拉布科（Luiz Carlos Trabuco）已接受总统卢拉的邀请，将出任巴西下一任财政部长。卢拉已就接掌财政部一事与特拉布科进行了接触。这位银行家与总统保持着多年的密切关系。预计特拉布科与卢拉将于周四晚些时候在巴西利亚会面。（巴西当地杂志Veja，路透）",
-   "time": "2026-11-27 06:05",
-   "url": "https://wallstreetcn.com/livenews/3206624",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 07:30 日本11月东京CPI；\n\n② 09:30 中国10月规模以上工业企业利润；\n\n③ 15:45 法国三季度GDP终值，11月CPI初值，；\n\n④ 16:55 德国11月失业人数，失业率；\n\n⑤ 17:00 欧洲央行1/3年期CPI预期；\n\n⑥ 18:00 欧元区11月消费者信心指数终值；\n\n⑦ 20:15 欧洲央行首席经济学家Lane在爱尔兰与原欧洲央行行长德拉吉讨论欧洲的经济未来和",
+   "time": "2026-11-27 06:30",
+   "url": "https://wallstreetcn.com/livenews/3206635",
    "source": "华尔街见闻"
   },
   {
-   "title": "周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人",
-   "summary": "【周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人】1、特朗普指责自己的政府“蓄意”低报美国经济增长，他抓住一次GDP数据的例行修正，以此作为其提出选举干预指控的依据，要求立即对此展开调查，但并未提供任何证据。2、马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份。",
-   "time": "2026-11-27 06:03:08",
-   "url": "https://finance.eastmoney.com/a/202611273941028398.html",
+   "title": "从逼宫CEO到持股10%：特朗普如何拿捏英特尔 - 新浪财经",
+   "summary": "",
+   "time": "2026-11-27 06:25",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORm1lYlNxdTAtUGdFcW8xSEpHbTk1NXEyMnNPQnE5cWRLZTljWGRybnhzQWkxZzlpMG9uM1JTYVgwUUJJMmhFWVZNWC1QQ3BIdWFieDJVR0l5MEJBZFd1WGh1TklkdkRocGxhbzBna2Z6dnNaNVFyUUU4Vk8xQmZxTzIxRjBLM1p6RHNRaDdZYlZVajZCc1NRLUFDSTFDbXJKYXZCdXVtOA?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "古巴今年已批40个外资参与项目 总额约20亿美元",
+   "summary": "【古巴今年已批40个外资参与项目 总额约20亿美元】古巴副总理兼贸易和外国投资部部长佩雷斯-奥利瓦26日在第42届哈瓦那国际博览会期间表示，古巴今年已批准40个外资参与的投资项目，总投资额约20亿美元。",
+   "time": "2026-11-27 06:23:39",
+   "url": "https://finance.eastmoney.com/a/202611273941033167.html",
    "source": "东财国际"
   },
   {
-   "title": "三季度GDP数据大幅上修后，特朗普质疑数据操弄中期选举并要求调查 - 新浪财经",
-   "summary": "",
-   "time": "2026-11-27 06:02",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjNwMmtxYVZaTjNfY1E3V0hEUWF4cm5ZcENfN1ppYUhJUzFVU216ZXVweE5ZS2FLYW9KcEs2LTNwQ1dnWHhzc3pMcFdqZ1c0MHI5V2VzNThPbTFkUDh0WEFYTy10LUNQUFZoS2ROUnRJXzRrbGJNRTNwUkVjcTFtdDNkQ1ljTmRqVkdXV21NbFA3V1I5cDBkdEVwWHQ?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "东方财富财经早餐 11月27日周五",
+   "summary": "1、商务部：坚决反对美对中国等经济体加征301关税。2、广东：鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模。3、摩根大通将贵州茅台评级上调至超配，目标价1800元。",
+   "time": "2026-11-27 06:00:36",
+   "url": "http://finance.eastmoney.com/a/202611263940986188.html",
+   "source": "东财早报"
   },
   {
    "title": "自动化设备行业ESG评级观察：智造升级 绿色同行 - 东方财富网",
@@ -1651,25 +1712,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "公募密集自购 多路增量资金持续入场",
+   "summary": "",
+   "time": "2026-11-26 22:17:02",
+   "url": "https://news.10jqka.com.cn/20261127/c682268636.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "美联储12月加息25个基点的概率为99.4%",
    "summary": "",
    "time": "2026-11-26 22:02:47",
    "url": "https://news.futunn.com/flash/1005780349/the-probability-of-the-federal-reserve-raising-interest-rates-by",
    "source": "富途"
-  },
-  {
-   "title": "日本JERA计划在发电厂附近建设Anthropic和Meta数据中心",
-   "summary": "",
-   "time": "2026-11-26 21:57:30",
-   "url": "https://news.10jqka.com.cn/20261127/c682268541.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "东方财富财经早餐 11月26日周四",
-   "summary": "【东方财富财经早餐 11月26日周四】1、美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄。2、多只宽基ETF尾盘放量！近两个月股票型ETF净流入超7600亿元。3、美媒：美政府正重新考虑或将伊朗高层列为打击目标。",
-   "time": "2026-11-26 06:00:37",
-   "url": "http://finance.eastmoney.com/a/202611253939893751.html",
-   "source": "东财早报"
   },
   {
    "title": "佑嘉集团收购案与一种叫“收购式创业”的投资模式",
@@ -1679,25 +1733,32 @@
    "source": "财新"
   },
   {
-   "title": "巴西航空工业公司：美国对巴产飞机征收新关税或推高机票价格",
-   "summary": "11月26日，巴西航空工业公司首席执行官弗朗西斯科·戈麦斯·内托表示，美国对巴西产飞机征收10%的从价关税的提议可能会推高机票价格，并给美国通胀带来压力。巴航产E175飞机是目前美国运营最广泛的机型之一，对该机型征收关税将对航司产生影响，需要为飞机支付更多费用。这最终会体现在机票价格上，甚至可能影响通胀。\n\n11月25日，美国贸易代表办公室发布一项提议，要求对从巴西进口的糖征收特定额外关税；取消对",
-   "time": "2026-11-27 06:02",
-   "url": "https://wallstreetcn.com/livenews/3206623",
+   "title": "资金借道ETF入市，7月以来净流入超万亿",
+   "summary": "近日，A股市场持续震荡，大量资金“越跌越买”。11月25日，逾370亿元资金借道ETF入市。值得关注的是，7月以来的市场调整中，ETF成为资金进场的重要通道。Wind数据显示，7月1日至11月25日，全市场ETF累计净流入约1.4万亿元，沪深300等核心宽基指数成为“压舱石”，四只大型沪深300ETF合计净流入超3500亿元。此外，半导体材料设备等细分主题ETF也获资金积极加仓。（中证报）",
+   "time": "2026-11-27 06:28",
+   "url": "https://wallstreetcn.com/livenews/3206634",
    "source": "华尔街见闻"
   },
   {
-   "title": "日本能源集团JERA计划在电厂附近建设Anthropic、Meta数据中心",
-   "summary": "日本能源集团JERA计划在电厂附近建设Anthropic、Meta数据中心，也在与亚马逊、微软和谷歌进行洽谈。",
-   "time": "2026-11-27 05:58:35",
-   "url": "https://finance.eastmoney.com/a/202611273941025968.html",
+   "title": "11月27日外盘头条：特朗普指政府蓄意低报经济增长德科斯将出任欧洲央行行长科威特称伊朗袭击其重要设施 - 新浪财经",
+   "summary": "",
+   "time": "2026-11-27 06:05",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX2RKNmlNN1d4UVNkTlllendZYk95NlVDSDRaYkpnR3BYYWMzcTdNUWZHRWctUHJVOVRyZmF3T0NoNWJNYkNZeV9rZU1PckFET29PWXJLd1FESkxlbllXZFd0aVpYTW9BRmZFV0tHVy1OalYxX3k1YWdoLVlsRFhGWW5MN3hROWs?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "A股上市公司锚定主业积极扩产 海外产能布局成重要投资方向",
+   "summary": "【A股上市公司锚定主业积极扩产 海外产能布局成重要投资方向】梳理发现，近期，多家上市公司相继披露扩产计划，投资领域涵盖电子信息、新能源、先进制造等产业链，部分项目投资额达数十亿元。有上市公司负责人表示，与单纯扩大生产规模不同，此轮投资更多聚焦企业主营业务，既着眼于满足下游需求增长，也注重高端产品布局和全球产能配置，显示出企业深耕主业、谋求长远发展的投资取向。",
+   "time": "2026-11-27 06:17:43",
+   "url": "https://finance.eastmoney.com/a/202611273941005074.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普对美三季度GDP增速大幅上修至4.3% 深表不满 - RFI",
-   "summary": "",
-   "time": "2026-11-27 05:13",
-   "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNMl9vMnZFb2diemtaeG80eFpFTEhtQlZkdXVaanJDZ0xjRUlXTUU4a19RQ1VpY2pyaUJDSjVLTE1jWUNyWkZFeW9HNUZpejdBODdwN1RDNkp1anRRVGpxbXd1NS1abk5idmVWLXREQWw5TjZGM2YxdFRPbG91Y1hzNEF6ZmYzUDFwMjVFNVdZZnN1Z2dZU2x2TVI4bVlHd25UaDNhQzlsT1QxeGJYeG9WNGZzRXYyaXlCQmtQdzUxNlpEOW5tUWlNUWhvYlJfMjg5X3A2Z3l4UG0wTFBoN3AyOTVCdHZ4VElSMVZZdG1rRThSX25TX2NzdDQzOFJkMnlvR1FZRHBJeUoybl9PblV5anlCemkwS3dsaWZndHJrTWhuR0FlQ28tWUIxQWUwYXBlYTB4dWVHUFFpeHM4ZlVGeFpPTG9jdlZTeEhvZg?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "东方财富财经早餐 11月26日周四",
+   "summary": "【东方财富财经早餐 11月26日周四】1、美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄。2、多只宽基ETF尾盘放量！近两个月股票型ETF净流入超7600亿元。3、美媒：美政府正重新考虑或将伊朗高层列为打击目标。",
+   "time": "2026-11-26 06:00:37",
+   "url": "http://finance.eastmoney.com/a/202611253939893751.html",
+   "source": "东财早报"
   },
   {
    "title": "摩根大通：上调贵州茅台评级至“超配”，目标价1800元 - 每日经济新闻",
@@ -1707,25 +1768,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "欧洲央行将迎“稳健之手”：欧元区成员国已同意推荐德科斯担任欧央行行长",
+   "summary": "",
+   "time": "2026-11-26 22:16:02",
+   "url": "https://news.10jqka.com.cn/20261127/c682268632.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "美元指数26日上涨",
    "summary": "",
    "time": "2026-11-26 20:15:36",
    "url": "https://news.futunn.com/flash/1005776745/the-us-dollar-index-rose-on-the-26th",
    "source": "富途"
-  },
-  {
-   "title": "国际原子能机构就扎波罗热核电站第九次局部停火安排与俄乌接触",
-   "summary": "",
-   "time": "2026-11-26 21:01:02",
-   "url": "https://news.10jqka.com.cn/20261127/c682268393.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "东方财富财经早餐 11月25日周三",
-   "summary": "【东方财富财经早餐 11月25日周三】1、8000亿元MLF+5000亿元逆回购，央行长短“组合拳”今日落地。2、商务部：《关于加强相关两用物项对美国出口管制的公告》第二款暂停实施。3、欧盟宣布对混动汽车采取临时保障措施，商务部回应：坚决维护中国相关产业正当权益。",
-   "time": "2026-11-25 06:00:58",
-   "url": "http://finance.eastmoney.com/a/202611243938774940.html",
-   "source": "东财早报"
   },
   {
    "title": "主要股指午后探底回升，沪指仍未收复3500点",
@@ -1735,25 +1789,32 @@
    "source": "财新"
   },
   {
-   "title": "报道：因市场恶化，Caisse基础设施部门暂停债券发行",
-   "summary": "金融市场状况的恶化正阻碍一家加拿大新晋发行人按计划出售债券，尽管其背后有该国最重要的养老基金管理机构之一的支持。\n\n据知情人士透露，La Caisse基础设施融资平台的发行实体CDP Infrastructures Group Inc.已暂停了其规模高达10亿加元（约合7.02亿美元）的债券发行计划。由于信贷市场承压，该公司将不得不以更高的利差出售债券，并可能缩减发行规模。上周开始推介时，这笔潜在",
-   "time": "2026-11-27 05:57",
-   "url": "https://wallstreetcn.com/livenews/3206622",
+   "title": "基金公司出招，助投资者看清主动ETF“明牌”",
+   "summary": "首批18只主动ETF已全部挂牌上市。主动ETF须于每个交易日开市前披露基于前一交易日真实持仓的申购赎回清单（PCF），这一机制提升了基金投资的透明度，但PCF清单格式专业、数据繁杂，普通投资者直接阅读门槛较高。对此，基金公司纷纷出招，易方达基金、华夏基金等近期相继落地或优化了针对主动ETF的持仓查询与解读服务，将“每日亮牌”的监管要求转化为投资者看得清、看得懂的决策参考。（中证报）",
+   "time": "2026-11-27 06:27",
+   "url": "https://wallstreetcn.com/livenews/3206633",
    "source": "华尔街见闻"
   },
   {
-   "title": "强风暴袭击美国东海岸 致数十万用户停电 数千航班受扰",
-   "summary": "【强风暴袭击美国东海岸 致数十万用户停电 数千航班受扰】当地时间11月26日，一场强风暴袭击美国东海岸大部分地区，导致数十万用户停电。弗吉尼亚州、马里兰州、宾夕法尼亚州、新泽西州和北卡罗来纳州等受到电力中断影响。风暴也扰乱了当地的航空出行。截至当天下午早些时候，美国已有400多个航班取消、约1600个航班延误，华盛顿和纽约地区主要机场受影响尤为严重。",
-   "time": "2026-11-27 05:44:33",
-   "url": "https://finance.eastmoney.com/a/202611273941023842.html",
+   "title": "三季度GDP数据大幅上修后，特朗普质疑数据操弄中期选举并要求调查 - 新浪财经",
+   "summary": "",
+   "time": "2026-11-27 06:02",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjNwMmtxYVZaTjNfY1E3V0hEUWF4cm5ZcENfN1ppYUhJUzFVU216ZXVweE5ZS2FLYW9KcEs2LTNwQ1dnWHhzc3pMcFdqZ1c0MHI5V2VzNThPbTFkUDh0WEFYTy10LUNQUFZoS2ROUnRJXzRrbGJNRTNwUkVjcTFtdDNkQ1ljTmRqVkdXV21NbFA3V1I5cDBkdEVwWHQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人",
+   "summary": "【周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人】1、特朗普指责自己的政府“蓄意”低报美国经济增长，他抓住一次GDP数据的例行修正，以此作为其提出选举干预指控的依据，要求立即对此展开调查，但并未提供任何证据。2、马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份。",
+   "time": "2026-11-27 06:03:08",
+   "url": "https://finance.eastmoney.com/a/202611273941028398.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普政府再挥舞301关税大棒，欧盟高官驳斥“荒谬”，亚洲贸易伙伴纷纷反驳回击 - 第一财经",
-   "summary": "",
-   "time": "2026-11-27 05:10",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjNEx1OXlZT005WHhXNnU4V2lWVVc0T2tVYWFRNG1RQVREaTMtNi1hd01ocnRFY1Z3aDJyTkVvVV84b1JCVWdOY2wyZ2wzZHpLTXpB?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "东方财富财经早餐 11月25日周三",
+   "summary": "【东方财富财经早餐 11月25日周三】1、8000亿元MLF+5000亿元逆回购，央行长短“组合拳”今日落地。2、商务部：《关于加强相关两用物项对美国出口管制的公告》第二款暂停实施。3、欧盟宣布对混动汽车采取临时保障措施，商务部回应：坚决维护中国相关产业正当权益。",
+   "time": "2026-11-25 06:00:58",
+   "url": "http://finance.eastmoney.com/a/202611243938774940.html",
+   "source": "东财早报"
   },
   {
    "title": "爱尔眼科目标价涨幅超49%；汇顶科技评级被调低｜券商评级观察 - 21财经",
@@ -1763,6 +1824,13 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "日本JERA计划在发电厂附近建设Anthropic和Meta数据中心",
+   "summary": "",
+   "time": "2026-11-26 21:57:30",
+   "url": "https://news.10jqka.com.cn/20261127/c682268541.shtml",
+   "source": "同花顺"
+  },
+  {
    "title": "墨西哥央行上调经济增长预期",
    "summary": "",
    "time": "2026-11-26 19:18:05",
@@ -1770,32 +1838,18 @@
    "source": "富途"
   },
   {
-   "title": "巴西雷亚尔大涨2.7%，因市场押注特拉布科将加入卢拉政府",
-   "summary": "",
-   "time": "2026-11-26 20:59:38",
-   "url": "https://news.10jqka.com.cn/20261127/c682268389.shtml",
-   "source": "同花顺"
-  },
-  {
    "title": "拟以被冻结的卢克石油股票置换其海外油气资产，交易仍待美国监管批准",
    "summary": "",
    "time": "",
    "url": "https://database.caixin.com/2026-11-26/102508839.html?cxapp_link=true",
    "source": "财新"
-  },
-  {
-   "title": "强风暴袭击美国东海岸，致数十万用户停电 数千航班受扰",
-   "summary": "11月26日，一场强风暴袭击美国东海岸大部分地区，导致数十万用户停电。弗吉尼亚州、马里兰州、宾夕法尼亚州、新泽西州和北卡罗来纳州等受到电力中断影响。风暴也扰乱了当地的航空出行。截至当天下午早些时候，美国已有400多个航班取消、约1600个航班延误，华盛顿和纽约地区主要机场受影响尤为严重。（央视）",
-   "time": "2026-11-27 05:45",
-   "url": "https://wallstreetcn.com/livenews/3206620",
-   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(20)",
+   "富途": "ok(17)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1805,12 +1859,12 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "东财国际": 7,
    "谷歌新闻·国际": 7,
-   "谷歌新闻·研报": 7,
-   "富途": 6,
+   "东财国际": 7,
+   "东财早报": 3,
+   "谷歌新闻·研报": 6,
    "同花顺": 6,
-   "东财早报": 2,
+   "富途": 6,
    "财新": 6
   }
  },
