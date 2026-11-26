@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 00:43:56 CST",
- "generated_at_iso": "2026-11-27T00:43:56+08:00",
+ "generated_at": "2026-11-27 00:52:10 CST",
+ "generated_at_iso": "2026-11-27T00:52:10+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3597.819,
-    "change": 33.219,
-    "change_pct": 0.93,
-    "quote_time": "00:43:59 2026-11-27"
+    "price": 3596.09,
+    "change": 31.49,
+    "change_pct": 0.88,
+    "quote_time": "00:51:56 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.924,
-    "change": 1.386,
-    "change_pct": 3.42,
-    "quote_time": "00:43:57 2026-11-27"
+    "price": 41.876,
+    "change": 1.338,
+    "change_pct": 3.3,
+    "quote_time": "00:52:11 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.77,
-    "change": 1.09,
-    "change_pct": 1.3,
-    "quote_time": "00:43:58 2026-11-27"
+    "price": 84.723,
+    "change": 1.043,
+    "change_pct": 1.25,
+    "quote_time": "00:52:14 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.416,
-    "change": 0.776,
-    "change_pct": 0.86,
-    "quote_time": "00:43:57 2026-11-27"
+    "price": 91.35,
+    "change": 0.71,
+    "change_pct": 0.78,
+    "quote_time": "00:52:14 2026-11-27"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60546.0,
-    "change": 2421.6,
-    "change_pct": 4.17,
+    "price": 60511.6,
+    "change": 2184.4,
+    "change_pct": 3.75,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1691.71,
-    "change": 61.02,
-    "change_pct": 3.74,
+    "price": 1691.08,
+    "change": 51.81,
+    "change_pct": 3.16,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.01,
-    "change": 3.73,
-    "change_pct": 5.54,
+    "price": 70.9,
+    "change": 3.29,
+    "change_pct": 4.87,
     "source": "okx"
    }
   ],
@@ -1322,24 +1322,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.79,
-    "change": 0.08,
+    "price": 103.785,
+    "change": 0.084,
     "change_pct": 0.08,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-27",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6621,
-    "change": -0.0054,
-    "change_pct": -0.08,
+    "price": 6.662,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-27",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1348,9 @@
     "change": -0.99,
     "change_pct": -0.71,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1614,7 +1614,7 @@
    "level": "warning",
    "asset": "全球股指",
    "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 00:44",
+   "time": "2026-11-27 00:52",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
