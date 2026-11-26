@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 05:57:24 CST",
- "generated_at_iso": "2026-11-27T05:57:24+08:00",
+ "generated_at": "2026-11-27 06:05:36 CST",
+ "generated_at_iso": "2026-11-27T06:05:36+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1128,9 +1128,9 @@
      8044.84,
      8040.49,
      7980.57,
-     8124.14
+     8108.74
     ],
-    "sigma": 1.032,
+    "sigma": 1.017,
     "volume": 0.0,
     "vol_pctile": 100.0,
     "vol_hist": [
@@ -1294,52 +1294,151 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60849.8,
-    "change": 540.6,
-    "change_pct": 0.9,
-    "source": "okx"
+    "price": 60639.1,
+    "change": 471.7,
+    "change_pct": 0.78,
+    "source": "okx",
+    "hist": [
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     60634.9
+    ],
+    "sigma": 2.574
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1705.85,
-    "change": 17.99,
-    "change_pct": 1.07,
-    "source": "okx"
+    "price": 1697.96,
+    "change": 14.03,
+    "change_pct": 0.83,
+    "source": "okx",
+    "hist": [
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1698.54
+    ],
+    "sigma": 3.044
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.62,
-    "change": 0.89,
-    "change_pct": 1.26,
-    "source": "okx"
+    "price": 71.23,
+    "change": 0.61,
+    "change_pct": 0.86,
+    "source": "okx",
+    "hist": [
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     71.28
+    ],
+    "sigma": 4.191
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.783,
-    "change": 0.082,
-    "change_pct": 0.08,
+    "price": 103.79,
+    "change": 0.0,
+    "change_pct": 0.0,
     "dec": 2,
-    "date": "2026-11-27",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6613,
-    "change": null,
-    "change_pct": null,
+    "price": 6.6608,
+    "change": -0.0005,
+    "change_pct": -0.01,
     "dec": 4,
-    "date": "2026-11-27",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1447,9 @@
     "change": -0.99,
     "change_pct": -0.71,
     "dec": 2,
-    "date": "2026-11-26",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1388,22 +1487,11 @@
    "keyword": "马斯克",
    "label": "马斯克",
    "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份",
-   "summary": "马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份。",
-   "time": "2026-11-27 05:30:24",
-   "url": "https://finance.eastmoney.com/a/202611273941022938.html",
+   "title": "周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人",
+   "summary": "【周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人】1、特朗普指责自己的政府“蓄意”低报美国经济增长，他抓住一次GDP数据的例行修正，以此作为其提出选举干预指控的依据，要求立即对此展开调查，但并未提供任何证据。2、马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份。",
+   "time": "2026-11-27 06:03:08",
+   "url": "https://finance.eastmoney.com/a/202611273941028398.html",
    "source": "东财国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "摩根大通分析师在一份报告中写道：在两位数盈利增长、低廉估值、超卖起点以及结构性人工智能（AI）资本支出顺风的支撑下，新兴市场股票有望在 2027 年实现强劲表现。\n\n给予拉美地区主权债券“增持”（overweight）评级，但对地区货币持“",
-   "summary": "摩根大通分析师在一份报告中写道：在两位数盈利增长、低廉估值、超卖起点以及结构性人工智能（AI）资本支出顺风的支撑下，新兴市场股票有望在 2027 年实现强劲表现。\n\n给予拉美地区主权债券“增持”（overweight）评级，但对地区货币持“低配”（underweight）立场，因为其预计美联储将会加息。",
-   "time": "2026-11-27 05:28",
-   "url": "https://wallstreetcn.com/livenews/3206615",
-   "source": "华尔街见闻",
    "mentions": 1
   },
   {
@@ -1416,6 +1504,17 @@
    "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNMl9vMnZFb2diemtaeG80eFpFTEhtQlZkdXVaanJDZ0xjRUlXTUU4a19RQ1VpY2pyaUJDSjVLTE1jWUNyWkZFeW9HNUZpejdBODdwN1RDNkp1anRRVGpxbXd1NS1abk5idmVWLXREQWw5TjZGM2YxdFRPbG91Y1hzNEF6ZmYzUDFwMjVFNVdZZnN1Z2dZU2x2TVI4bVlHd25UaDNhQzlsT1QxeGJYeG9WNGZzRXYyaXlCQmtQdzUxNlpEOW5tUWlNUWhvYlJfMjg5X3A2Z3l4UG0wTFBoN3AyOTVCdHZ4VElSMVZZdG1rRThSX25TX2NzdDQzOFJkMnlvR1FZRHBJeUoybl9PblV5anlCemkwS3dsaWZndHJrTWhuR0FlQ28tWUIxQWUwYXBlYTB4dWVHUFFpeHM4ZlVGeFpPTG9jdlZTeEhvZg?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储12月加息25个基点的概率为99.4%",
+   "summary": "",
+   "time": "2026-11-26 22:02:47",
+   "url": "https://news.futunn.com/flash/1005780349/the-probability-of-the-federal-reserve-raising-interest-rates-by",
+   "source": "富途",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1479,13 +1578,23 @@
   ],
   "reports": [
    {
-    "title": "周四（11月26日）纽约尾盘，ICE美元指数涨0.06%，报103.760点，日内交投于103.840-103.625点。\n\n彭博美元指数涨0.12%，报124",
-    "org": "彭博",
+    "title": "报道：巴西布拉德斯科银行董事长特拉布科已接受出任巴西财政部长的邀请",
+    "org": "路透",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-27",
-    "url": "https://wallstreetcn.com/livenews/3206604",
+    "url": "https://wallstreetcn.com/livenews/3206624",
+    "source": "机构观点"
+   },
+   {
+    "title": "摩根大通：上调贵州茅台评级至“超配”，目标价1800元 - 每日经济新闻",
+    "org": "摩根大通",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-26",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tWEhxWjFYMTlJUVRVeXM2eGhKUHI2YklHa1VGRXA2Snp4YXh2OUZuM3V3YTdOWFRLakJacnljN19RaENpLS1NYWRXY2duQ3c0RzFEM0lyc1laQUY3MmpTWExXVmJodw?oc=5",
     "source": "机构观点"
    },
    {
@@ -1613,46 +1722,46 @@
  "alerts": [],
  "news": [
   {
-   "title": "马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份",
-   "summary": "马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份。",
-   "time": "2026-11-27 05:30:24",
-   "url": "https://finance.eastmoney.com/a/202611273941022938.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "通胀数据低于预期提振巴西资产，领涨拉美市场",
-   "summary": "巴西圣保罗证交所指数收涨4.26%，报逼近17.4万点，连续两个交易日反弹——期间累计上涨5.46%。\n\n巴西雷亚尔兑美元涨2.65%，报5.6611雷亚尔，连续四天反弹——期间累涨4.70%，持续脱离11月23日底部6.0058雷亚尔——2025年4月9日（当天最低曾跌至6.0962雷亚尔）以来最低位。\n\n巴西雷亚尔兑墨西哥比索涨2.1%。\n\n明晟公司（MSCI）拉美地区股票指数涨2.9%，相应",
-   "time": "2026-11-27 05:30",
-   "url": "https://wallstreetcn.com/livenews/3206616",
+   "title": "报道：巴西布拉德斯科银行董事长特拉布科已接受出任巴西财政部长的邀请",
+   "summary": "据知情人士透露，巴西布拉德斯科银行（Bradesco）董事长路易斯·卡洛斯·特拉布科（Luiz Carlos Trabuco）已接受总统卢拉的邀请，将出任巴西下一任财政部长。卢拉已就接掌财政部一事与特拉布科进行了接触。这位银行家与总统保持着多年的密切关系。预计特拉布科与卢拉将于周四晚些时候在巴西利亚会面。（巴西当地杂志Veja，路透）",
+   "time": "2026-11-27 06:05",
+   "url": "https://wallstreetcn.com/livenews/3206624",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普对美三季度GDP增速大幅上修至4.3% 深表不满 - RFI",
+   "title": "周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人",
+   "summary": "【周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人】1、特朗普指责自己的政府“蓄意”低报美国经济增长，他抓住一次GDP数据的例行修正，以此作为其提出选举干预指控的依据，要求立即对此展开调查，但并未提供任何证据。2、马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份。",
+   "time": "2026-11-27 06:03:08",
+   "url": "https://finance.eastmoney.com/a/202611273941028398.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "三季度GDP数据大幅上修后，特朗普质疑数据操弄中期选举并要求调查 - 新浪财经",
    "summary": "",
-   "time": "2026-11-27 05:13",
-   "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNMl9vMnZFb2diemtaeG80eFpFTEhtQlZkdXVaanJDZ0xjRUlXTUU4a19RQ1VpY2pyaUJDSjVLTE1jWUNyWkZFeW9HNUZpejdBODdwN1RDNkp1anRRVGpxbXd1NS1abk5idmVWLXREQWw5TjZGM2YxdFRPbG91Y1hzNEF6ZmYzUDFwMjVFNVdZZnN1Z2dZU2x2TVI4bVlHd25UaDNhQzlsT1QxeGJYeG9WNGZzRXYyaXlCQmtQdzUxNlpEOW5tUWlNUWhvYlJfMjg5X3A2Z3l4UG0wTFBoN3AyOTVCdHZ4VElSMVZZdG1rRThSX25TX2NzdDQzOFJkMnlvR1FZRHBJeUoybl9PblV5anlCemkwS3dsaWZndHJrTWhuR0FlQ28tWUIxQWUwYXBlYTB4dWVHUFFpeHM4ZlVGeFpPTG9jdlZTeEhvZg?oc=5",
+   "time": "2026-11-27 06:02",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjNwMmtxYVZaTjNfY1E3V0hEUWF4cm5ZcENfN1ppYUhJUzFVU216ZXVweE5ZS2FLYW9KcEs2LTNwQ1dnWHhzc3pMcFdqZ1c0MHI5V2VzNThPbTFkUDh0WEFYTy10LUNQUFZoS2ROUnRJXzRrbGJNRTNwUkVjcTFtdDNkQ1ljTmRqVkdXV21NbFA3V1I5cDBkdEVwWHQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "摩根大通：上调贵州茅台评级至“超配”，目标价1800元 - 每日经济新闻",
+   "title": "自动化设备行业ESG评级观察：智造升级 绿色同行 - 东方财富网",
    "summary": "",
-   "time": "2026-11-26 23:59",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tWEhxWjFYMTlJUVRVeXM2eGhKUHI2YklHa1VGRXA2Snp4YXh2OUZuM3V3YTdOWFRLakJacnljN19RaENpLS1NYWRXY2duQ3c0RzFEM0lyc1laQUY3MmpTWExXVmJodw?oc=5",
+   "time": "2026-11-27 03:01",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HNHBzckVjREdRRzRFb0RJcHRGdjVtUlloa19lcFhYVFd6SGJnYTNfd3RsZXI1eWhXOFJTMUVVQ191WGhGRTlweXI1enlBQUF0UGs0TVU2UmF1YnphdnlnX0lrRVNJQQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "富时A50期指连续夜盘收跌0.02%，报12511点",
+   "title": "美联储12月加息25个基点的概率为99.4%",
    "summary": "",
-   "time": "2026-11-26 21:31:38",
-   "url": "https://news.10jqka.com.cn/20261127/c682268463.shtml",
-   "source": "同花顺"
+   "time": "2026-11-26 22:02:47",
+   "url": "https://news.futunn.com/flash/1005780349/the-probability-of-the-federal-reserve-raising-interest-rates-by",
+   "source": "富途"
   },
   {
-   "title": "美元指数26日上涨",
+   "title": "日本JERA计划在发电厂附近建设Anthropic和Meta数据中心",
    "summary": "",
-   "time": "2026-11-26 20:15:36",
-   "url": "https://news.futunn.com/flash/1005776745/the-us-dollar-index-rose-on-the-26th",
-   "source": "富途"
+   "time": "2026-11-26 21:57:30",
+   "url": "https://news.10jqka.com.cn/20261127/c682268541.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月26日周四",
@@ -1669,32 +1778,39 @@
    "source": "财新"
   },
   {
-   "title": "多伦多股票指数收盘上涨246.89点 涨幅0.72% 报34426.88点",
-   "summary": "多伦多股票指数收盘上涨246.89点，涨幅0.72%，报34426.88点。",
-   "time": "2026-11-27 05:04:30",
-   "url": "https://finance.eastmoney.com/a/202611273941020094.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "摩根大通分析师在一份报告中写道：在两位数盈利增长、低廉估值、超卖起点以及结构性人工智能（AI）资本支出顺风的支撑下，新兴市场股票有望在 2027 年实现强劲表现。\n\n给予拉美地区主权债券“增持”（overweight）评级，但对地区货币持“",
-   "summary": "摩根大通分析师在一份报告中写道：在两位数盈利增长、低廉估值、超卖起点以及结构性人工智能（AI）资本支出顺风的支撑下，新兴市场股票有望在 2027 年实现强劲表现。\n\n给予拉美地区主权债券“增持”（overweight）评级，但对地区货币持“低配”（underweight）立场，因为其预计美联储将会加息。",
-   "time": "2026-11-27 05:28",
-   "url": "https://wallstreetcn.com/livenews/3206615",
+   "title": "巴西航空工业公司：美国对巴产飞机征收新关税或推高机票价格",
+   "summary": "11月26日，巴西航空工业公司首席执行官弗朗西斯科·戈麦斯·内托表示，美国对巴西产飞机征收10%的从价关税的提议可能会推高机票价格，并给美国通胀带来压力。巴航产E175飞机是目前美国运营最广泛的机型之一，对该机型征收关税将对航司产生影响，需要为飞机支付更多费用。这最终会体现在机票价格上，甚至可能影响通胀。\n\n11月25日，美国贸易代表办公室发布一项提议，要求对从巴西进口的糖征收特定额外关税；取消对",
+   "time": "2026-11-27 06:02",
+   "url": "https://wallstreetcn.com/livenews/3206623",
    "source": "华尔街见闻"
   },
   {
-   "title": "哈马斯拒绝依2025年由特朗普斡旋的协议解除武装；以色列宣布三天内连灭该恐怖组织三名要员 - 美国之音",
+   "title": "日本能源集团JERA计划在电厂附近建设Anthropic、Meta数据中心",
+   "summary": "日本能源集团JERA计划在电厂附近建设Anthropic、Meta数据中心，也在与亚马逊、微软和谷歌进行洽谈。",
+   "time": "2026-11-27 05:58:35",
+   "url": "https://finance.eastmoney.com/a/202611273941025968.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普对美三季度GDP增速大幅上修至4.3% 深表不满 - RFI",
    "summary": "",
-   "time": "2026-11-27 04:40",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0czbE5JeWFGMzhUT2QxZUFpSHFoMEFSWDdwY0ZxemloX2U3amo0YXRvN2RRRU5CeGhuN0Q1TFBlWlJNRzhENnNGeXQ4LV9ITXYwYzZiZ3FVSUxRNzl2TE82eS1BdEJTeGdXOGw0QjdVSnJxMjFnOXNWWUlpa3h3bEVqRUxqWG5LbkxqUlpXdXo3cklWY3FqMEFGeU1aWk5Fa0VZVUl4eFZXMGNodGhYQW9vVTVKSXd0R016NEFhQzllYW55dlHSAcgBQVVfeXFMUDhOcDhBNFFLdndBd3cweVRwTjhVNHBoRnpWLUFtV1V3ODNmeXdrYWo2VzVhaTNrcUJlT05SdTY4Rmk1SncyazNQMEZYbzZpbkRUcFhfRlZsUTM4eDgxWVJkeWxuYUdtWjRJYnNteWtXbjRDc1pvYmF1MDk0WGZEd2FWQjMxcDJhVUtWUjB5VE9YdWtNUXRDOXVEV2lBUXZqR3pEaXhLbGtCbmdDNG0yTUdvMllSazIycTR6ZjJ6bTVFVFdjZm5aWWY?oc=5",
+   "time": "2026-11-27 05:13",
+   "url": "https://news.google.com/rss/articles/CBMizAJBVV95cUxNMl9vMnZFb2diemtaeG80eFpFTEhtQlZkdXVaanJDZ0xjRUlXTUU4a19RQ1VpY2pyaUJDSjVLTE1jWUNyWkZFeW9HNUZpejdBODdwN1RDNkp1anRRVGpxbXd1NS1abk5idmVWLXREQWw5TjZGM2YxdFRPbG91Y1hzNEF6ZmYzUDFwMjVFNVdZZnN1Z2dZU2x2TVI4bVlHd25UaDNhQzlsT1QxeGJYeG9WNGZzRXYyaXlCQmtQdzUxNlpEOW5tUWlNUWhvYlJfMjg5X3A2Z3l4UG0wTFBoN3AyOTVCdHZ4VElSMVZZdG1rRThSX25TX2NzdDQzOFJkMnlvR1FZRHBJeUoybl9PblV5anlCemkwS3dsaWZndHJrTWhuR0FlQ28tWUIxQWUwYXBlYTB4dWVHUFFpeHM4ZlVGeFpPTG9jdlZTeEhvZg?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "爱尔眼科目标价涨幅超49%；汇顶科技评级被调低｜券商评级观察 - 21财经",
+   "title": "摩根大通：上调贵州茅台评级至“超配”，目标价1800元 - 每日经济新闻",
    "summary": "",
-   "time": "2026-11-26 23:06",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVXl6OWNKTmtLdVpFUkhkVkwzOFpUYTdOYms3ZDN4RnNHbXdibXAtSnZPclBXOUlFc2dEc2ktRGxGX29xZ0x6MXdFVjFjQjhtRGlmS3pGWkNjQjhnVDFUT3VOTDFROUh6NnEtSmUxaXlTTGtXV01jWk9zUE1TZmxRMXhDWWZMcldCUEQyMTVpMWVrTWhR?oc=5",
+   "time": "2026-11-26 23:59",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0tWEhxWjFYMTlJUVRVeXM2eGhKUHI2YklHa1VGRXA2Snp4YXh2OUZuM3V3YTdOWFRLakJacnljN19RaENpLS1NYWRXY2duQ3c0RzFEM0lyc1laQUY3MmpTWExXVmJodw?oc=5",
    "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "美元指数26日上涨",
+   "summary": "",
+   "time": "2026-11-26 20:15:36",
+   "url": "https://news.futunn.com/flash/1005776745/the-us-dollar-index-rose-on-the-26th",
+   "source": "富途"
   },
   {
    "title": "国际原子能机构就扎波罗热核电站第九次局部停火安排与俄乌接触",
@@ -1702,13 +1818,6 @@
    "time": "2026-11-26 21:01:02",
    "url": "https://news.10jqka.com.cn/20261127/c682268393.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "墨西哥央行上调经济增长预期",
-   "summary": "",
-   "time": "2026-11-26 19:18:05",
-   "url": "https://news.futunn.com/flash/1005774949/bank-of-mexico-raises-economic-growth-forecast",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月25日周三",
@@ -1725,32 +1834,39 @@
    "source": "财新"
   },
   {
-   "title": "国际原子能机构表示 正与俄罗斯和乌克兰就第九次局部停火的安排进行接触",
-   "summary": "国际原子能机构表示，在扎波罗热核电站再次失去外部供电后，正与俄罗斯和乌克兰就第九次局部停火的安排进行接触。",
-   "time": "2026-11-27 05:00:35",
-   "url": "https://finance.eastmoney.com/a/202611273941019364.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "德国两年期国债收益率涨超3个基点",
-   "summary": "周四（11月26日）欧市尾盘，德国10年期国债收益率涨2.3个基点，报3.250%，日内交投于3.242%-3.270%区间，全天处于上涨状态、北京时间22:32刷新日高。\n\n两年期德债收益率涨3.6个基点，报3.052%，日内交投于3.038%-3.070%区间；30年期德债收益率涨1.4个基点，报3.639%。\n\n2/10年期德债收益率利差跌1.279个基点，报+19.617个基点，整体持续下",
-   "time": "2026-11-27 05:28",
-   "url": "https://wallstreetcn.com/livenews/3206614",
+   "title": "报道：因市场恶化，Caisse基础设施部门暂停债券发行",
+   "summary": "金融市场状况的恶化正阻碍一家加拿大新晋发行人按计划出售债券，尽管其背后有该国最重要的养老基金管理机构之一的支持。\n\n据知情人士透露，La Caisse基础设施融资平台的发行实体CDP Infrastructures Group Inc.已暂停了其规模高达10亿加元（约合7.02亿美元）的债券发行计划。由于信贷市场承压，该公司将不得不以更高的利差出售债券，并可能缩减发行规模。上周开始推介时，这笔潜在",
+   "time": "2026-11-27 05:57",
+   "url": "https://wallstreetcn.com/livenews/3206622",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普总统与北约敦促俄罗斯不要扩大乌克兰战争 - 美国之音",
+   "title": "强风暴袭击美国东海岸 致数十万用户停电 数千航班受扰",
+   "summary": "【强风暴袭击美国东海岸 致数十万用户停电 数千航班受扰】当地时间11月26日，一场强风暴袭击美国东海岸大部分地区，导致数十万用户停电。弗吉尼亚州、马里兰州、宾夕法尼亚州、新泽西州和北卡罗来纳州等受到电力中断影响。风暴也扰乱了当地的航空出行。截至当天下午早些时候，美国已有400多个航班取消、约1600个航班延误，华盛顿和纽约地区主要机场受影响尤为严重。",
+   "time": "2026-11-27 05:44:33",
+   "url": "https://finance.eastmoney.com/a/202611273941023842.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普政府再挥舞301关税大棒，欧盟高官驳斥“荒谬”，亚洲贸易伙伴纷纷反驳回击 - 第一财经",
    "summary": "",
-   "time": "2026-11-27 04:14",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU1VMYzFnYzc3bVRWczk2QktIYjdSRVlrMUxlZDJIS09vZUhzY2VqWXRwREpKS1ppZFR1cGExV0prRUhUYjFIX1NjSWdtN3VjRkNxOFpqM0FrMFd6Zk9uQUNrYlpqZUpGeDRlM2VvUmUycWc0WmZaX0dmMGhYLXFpbDg5VkszS3YwLVk5WUlDTUpQaV9oWWFaNXdtVzNmVW5yX2FwdjBlcDBDdC03N0xFdDZ3?oc=5",
+   "time": "2026-11-27 05:10",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjNEx1OXlZT005WHhXNnU4V2lWVVc0T2tVYWFRNG1RQVREaTMtNi1hd01ocnRFY1Z3aDJyTkVvVV84b1JCVWdOY2wyZ2wzZHpLTXpB?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "汇丰银行将惠普评级从买入下调至持有；目标价从33.4美元下调至29.4美元 - 东方财富网",
+   "title": "爱尔眼科目标价涨幅超49%；汇顶科技评级被调低｜券商评级观察 - 21财经",
    "summary": "",
-   "time": "2026-11-26 22:57",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80SXpMT1ZkYnYxUXRsUjYwWWZsTGZGV0NjdXFBTlVSQkhSeHVpMXVTRHR5SU1UWUVsNzBqY2QyT1RHeS1JQ0c1QklqbUhYZW5MckljQXVmMWlWY3duVVZkdA?oc=5",
+   "time": "2026-11-26 23:06",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVXl6OWNKTmtLdVpFUkhkVkwzOFpUYTdOYms3ZDN4RnNHbXdibXAtSnZPclBXOUlFc2dEc2ktRGxGX29xZ0x6MXdFVjFjQjhtRGlmS3pGWkNjQjhnVDFUT3VOTDFROUh6NnEtSmUxaXlTTGtXV01jWk9zUE1TZmxRMXhDWWZMcldCUEQyMTVpMWVrTWhR?oc=5",
    "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "墨西哥央行上调经济增长预期",
+   "summary": "",
+   "time": "2026-11-26 19:18:05",
+   "url": "https://news.futunn.com/flash/1005774949/bank-of-mexico-raises-economic-growth-forecast",
+   "source": "富途"
   },
   {
    "title": "巴西雷亚尔大涨2.7%，因市场押注特拉布科将加入卢拉政府",
@@ -1760,13 +1876,6 @@
    "source": "同花顺"
   },
   {
-   "title": "土耳其投资基金丑闻冲击资本市场，银行家呼吁全面改革金融监管体系",
-   "summary": "",
-   "time": "2026-11-26 19:14:17",
-   "url": "https://news.futunn.com/flash/1005774902/turkish-investment-fund-scandal-hits-capital-markets-bankers-call-for",
-   "source": "富途"
-  },
-  {
    "title": "拟以被冻结的卢克石油股票置换其海外油气资产，交易仍待美国监管批准",
    "summary": "",
    "time": "",
@@ -1774,11 +1883,11 @@
    "source": "财新"
   },
   {
-   "title": "巴西雷亚尔大涨2.7% 因市场押注特拉布科将加入卢拉政府担任财政部长",
-   "summary": "巴西雷亚尔大涨2.7%，因市场押注特拉布科将加入卢拉政府担任财政部长。",
-   "time": "2026-11-27 04:59:14",
-   "url": "https://finance.eastmoney.com/a/202611273941019039.html",
-   "source": "东财国际"
+   "title": "强风暴袭击美国东海岸，致数十万用户停电 数千航班受扰",
+   "summary": "11月26日，一场强风暴袭击美国东海岸大部分地区，导致数十万用户停电。弗吉尼亚州、马里兰州、宾夕法尼亚州、新泽西州和北卡罗来纳州等受到电力中断影响。风暴也扰乱了当地的航空出行。截至当天下午早些时候，美国已有400多个航班取消、约1600个航班延误，华盛顿和纽约地区主要机场受影响尤为严重。（央视）",
+   "time": "2026-11-27 05:45",
+   "url": "https://wallstreetcn.com/livenews/3206620",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
@@ -1794,12 +1903,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
