@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 02:26:20 CST",
- "generated_at_iso": "2026-11-27T02:26:20+08:00",
+ "generated_at": "2026-11-27 02:34:38 CST",
+ "generated_at_iso": "2026-11-27T02:34:38+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,11 +1019,32 @@
     ]
    },
    {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 84328.5938,
+    "change": 390.31,
+    "change_pct": 0.46
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39151.81,
+    "change": 956.38,
+    "change_pct": 2.5
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25236.43,
+    "change": 534.3,
+    "change_pct": 2.16
+   },
+   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10609.3,
-    "change": 182.36,
-    "change_pct": 1.75,
+    "price": 10623.84,
+    "change": 196.9,
+    "change_pct": 1.89,
     "hist": [
      10881.9,
      10764.69,
@@ -1095,9 +1116,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8108.74,
-    "change": 128.17,
-    "change_pct": 1.61,
+    "price": 8124.14,
+    "change": 143.57,
+    "change_pct": 1.8,
     "hist": [
      7956.7,
      7868.05,
@@ -1169,8 +1190,8 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6014.74,
-    "change": 120.28,
+    "price": 6014.75,
+    "change": 120.29,
     "change_pct": 2.04,
     "hist": [
      6204.24,
@@ -1205,6 +1226,13 @@
      6014.75
     ],
     "sigma": 1.418
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2330.79,
+    "change": -26.07,
+    "change_pct": -1.11
    }
   ]
  },
@@ -1256,37 +1284,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3594.716,
-    "change": 30.116,
+    "price": 3594.553,
+    "change": 29.953,
     "change_pct": 0.84,
-    "quote_time": "02:26:24 2026-11-27"
+    "quote_time": "02:34:12 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.687,
-    "change": 1.149,
-    "change_pct": 2.83,
-    "quote_time": "02:25:34 2026-11-27"
+    "price": 41.717,
+    "change": 1.179,
+    "change_pct": 2.91,
+    "quote_time": "02:33:47 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.871,
-    "change": 1.191,
-    "change_pct": 1.42,
-    "quote_time": "02:26:22 2026-11-27"
+    "price": 84.966,
+    "change": 1.286,
+    "change_pct": 1.54,
+    "quote_time": "02:34:33 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.666,
-    "change": 1.026,
-    "change_pct": 1.13,
-    "quote_time": "02:26:22 2026-11-27"
+    "price": 91.751,
+    "change": 1.111,
+    "change_pct": 1.23,
+    "quote_time": "02:29:58 2026-11-27"
    }
   ],
   "crypto": [
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60578.0,
-    "change": 907.8,
-    "change_pct": 1.52,
+    "price": 60631.8,
+    "change": 1111.1,
+    "change_pct": 1.87,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1694.92,
-    "change": 13.58,
-    "change_pct": 0.81,
+    "price": 1699.83,
+    "change": 21.81,
+    "change_pct": 1.3,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.21,
-    "change": 1.71,
-    "change_pct": 2.46,
+    "price": 71.29,
+    "change": 1.97,
+    "change_pct": 2.84,
     "source": "okx"
    }
   ],
@@ -1322,24 +1350,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.77,
-    "change": 0.06,
-    "change_pct": 0.06,
+    "price": 103.777,
+    "change": 0.076,
+    "change_pct": 0.07,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-27",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6618,
-    "change": -0.0057,
-    "change_pct": -0.09,
+    "price": 6.6617,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-27",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1376,9 @@
     "change": -0.99,
     "change_pct": -0.71,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1362,39 +1390,9 @@
    "color": "#f04a3d",
    "timestamp": "2026-11-26",
    "source": "alternative.me"
-  },
-  "a_share_breadth": {
-   "up": 1730,
-   "down": 3395,
-   "flat": 173,
-   "total": 5298,
-   "breadth_pct": 32.7,
-   "score": 15.4,
-   "source": "东财"
-  },
-  "composite": {
-   "score": 39.6,
-   "label": "偏冷",
-   "color": "#f58a3d",
-   "basis": "A股广度 60% + 盘面结构 40%",
-   "parts": {
-    "breadth": 15.4,
-    "structure": 75.9
-   }
   }
  },
  "speakers": [
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称要求普京撤回对欧洲所有军事行动 促成迅速解决俄乌战事 - 香港電台",
-   "summary": "",
-   "time": "2026-11-27 00:54",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ0V3SF9za19pQmluNmFBbGUtQjUtMVR4QjdkUlA5c2JuMVdYNzJzWDVjU3REcWoyUkRWOVVURkFiNXBCRUctVWdsTUR4WHRuYXV0dEZMYzZGSS1rMExIWEFJRDRvUW1hUU1fSkVjWlBXbnh2ZGZ0d19WZF8tWE1GY19zMjVHRGoxR2RB?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
   {
    "keyword": "美联储",
    "label": "美联储",
@@ -1405,6 +1403,17 @@
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYnBiUVdycDloRDBOT0lSQW9OaTVoN3ByeGRlUE0zNHRCVXVVOGt6QkdFcmRmTUIyOVFHMkNPN3RXNjBtek9GRC1sQUFCbkt1aUJkbmpfRU5BQm1pbXpiQTFYY1NOT1Q2NmhCZmVYMllVZUJ0THd5N1o3cmhZaVFiREtLZ1FnQQ?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
+  },
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "专论：由特朗普总统夸赞深圳说开去 - 中国评论",
+   "summary": "",
+   "time": "2026-11-27 00:12",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVQVVhS2l1OEsyNmFabjBVYi1oUXBVbG8xLTlpQk5NRG1ibkk5Ykl6ZUwwUXJESkVNVW1TLXBVa0VoTElMekpwVFV1NlQ2Y1BFb2ZBUjlkTFM?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1609,27 +1618,42 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "warning",
+   "asset": "台湾加权",
+   "message": "台湾加权单日涨2.50%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-27 02:35",
+   "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
+  },
+  {
+   "level": "warning",
+   "asset": "全球股指",
+   "message": "台湾加权、德国DAX、英国富时100等 4 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
+   "time": "2026-11-27 02:35",
+   "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
+  }
+ ],
  "news": [
   {
-   "title": "报道：沙特阿拉伯吉赞炼油厂遇袭，一些活动暂停",
-   "summary": "据沙特官方媒体SPA报道：沙特阿拉伯吉赞炼油厂遇袭，一人死亡。\n\n吉赞炼油厂因遇袭而暂时中断了一些活动。",
-   "time": "2026-11-27 02:05",
-   "url": "https://wallstreetcn.com/livenews/3206580",
+   "title": "沪银夜盘收涨将近3.6%",
+   "summary": "上期所原油期货2701合约夜盘收涨0.13%，报594.80元人民币/桶。\n\n沪金夜盘收涨1.28%，沪银收涨3.59%。",
+   "time": "2026-11-27 02:30",
+   "url": "https://wallstreetcn.com/livenews/3206590",
    "source": "华尔街见闻"
   },
   {
-   "title": "巴西副总统：美国对巴西加征新关税完全不合理",
-   "summary": "【巴西副总统：美国对巴西加征新关税完全不合理】当地时间11月26日，巴西副总统阿尔克明表示，美国提出对巴西加征的新关税完全不合理，巴西政府将尽全力扭转这一局面。阿尔克明强调，世界上不存在航空领域的关税，航空这样具有战略意义的领域不征收关税是传统。当地时间11月25日，美国贸易代表办公室发布一项提议，要求对从巴西进口的糖征收特定额外关税；取消对巴西成品飞机的关税豁免，征收10%从价关税。据悉，成品飞机是巴西对美出口的主要产品之一，属于豁免清单中的产品，其出口额在巴西2024年对美出口产品中排名第四。",
-   "time": "2026-11-27 01:55:40",
-   "url": "https://finance.eastmoney.com/a/202611273941003534.html",
+   "title": "光伏行业并购升温 中小厂商整合提速",
+   "summary": "【光伏行业并购升温 中小厂商整合提速】进入11月，光伏行业并购、重整等资本运作步伐明显加快，产业资本及跨界投资人等相继入场，部分中小光伏厂商在这轮整合中被“吃掉”，产业资源向头部企业集中。被收购产能是否真正退出，行业供需关系能否有效改善，备受业内关注。由于头部企业现金流尚有支撑，真正影响供需形势的大型兼并尚未看到眉目，业内对于明年即将落地实施的能耗新规抱有期待，但能否助推产能出清还有待检验。",
+   "time": "2026-11-27 02:24:56",
+   "url": "https://finance.eastmoney.com/a/202611273941007053.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普称要求普京撤回对欧洲所有军事行动 促成迅速解决俄乌战事 - 香港電台",
+   "title": "通胀警铃大作，美联储“加息复加息”梦魇恐成真 - 21财经",
    "summary": "",
-   "time": "2026-11-27 00:54",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ0V3SF9za19pQmluNmFBbGUtQjUtMVR4QjdkUlA5c2JuMVdYNzJzWDVjU3REcWoyUkRWOVVURkFiNXBCRUctVWdsTUR4WHRuYXV0dEZMYzZGSS1rMExIWEFJRDRvUW1hUU1fSkVjWlBXbnh2ZGZ0d19WZF8tWE1GY19zMjVHRGoxR2RB?oc=5",
+   "time": "2026-11-27 00:41",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYnBiUVdycDloRDBOT0lSQW9OaTVoN3ByeGRlUE0zNHRCVXVVOGt6QkdFcmRmTUIyOVFHMkNPN3RXNjBtek9GRC1sQUFCbkt1aUJkbmpfRU5BQm1pbXpiQTFYY1NOT1Q2NmhCZmVYMllVZUJ0THd5N1o3cmhZaVFiREtLZ1FnQQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1640,18 +1664,18 @@
    "source": "谷歌新闻·研报"
   },
   {
+   "title": "沙特称吉赞炼油厂遭袭后部分作业暂停",
+   "summary": "",
+   "time": "2026-11-26 18:10:00",
+   "url": "https://news.futunn.com/flash/1005773145/saudi-arabia-reports-partial-suspension-of-operations-at-jizan-refinery",
+   "source": "富途"
+  },
+  {
    "title": "德国总理默茨表示，德国无法接受现有的欧盟2028-2034年预算提案",
    "summary": "",
    "time": "2026-11-26 18:08:11",
    "url": "https://news.10jqka.com.cn/20261127/c682268244.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "据悉思爱普拟在AI重组中裁减至少1万个岗位",
-   "summary": "",
-   "time": "2026-11-26 17:50:44",
-   "url": "https://news.futunn.com/flash/1005772488/it-is-reported-that-sap-plans-to-cut-at-least",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月26日周四",
@@ -1668,24 +1692,24 @@
    "source": "财新"
   },
   {
-   "title": "Anthropic团队主管称，AI正在改变工程师的晋升方式",
-   "summary": "Anthropic团队主管称，AI正在改变工程师的晋升方式",
-   "time": "2026-11-27 02:04",
-   "url": "https://wallstreetcn.com/livenews/3206579",
+   "title": "英国两年期国债收益率涨超6个基点，2/10年期利差显著走低",
+   "summary": "周四（11月26日）欧市尾盘，英国10年期国债收益率涨1.5个基点，报5.147%，全天处于上涨状态，北京时间21:43涨至5.167%刷新日高。\n\n两年期英债收益率涨6.5个基点，报4.848%，跳空高开之后持续上扬、21:38刷新日高至4.865%。\n\n30年期英债收益率跌1.3个基点，00:00以来显著下挫；50年期英债收益率跌1.5个基点。\n\n2/10年期英债收益率利差跌5.003个基点，",
+   "time": "2026-11-27 02:29",
+   "url": "https://wallstreetcn.com/livenews/3206589",
    "source": "华尔街见闻"
   },
   {
-   "title": "尼日利亚中部一村庄遭袭 死亡人数升至74人",
-   "summary": "【尼日利亚中部一村庄遭袭 死亡人数升至74人】尼日利亚中部尼日尔州政府26日说，该州21日发生的一起袭击事件已造成74人死亡。尼日尔州州长穆罕默德·奥马鲁·巴戈26日在冲突事发村庄对媒体说，此次袭击已造成74人死亡，他已下令展开调查。该州政府22日发表声明说，武装人员21日凌晨袭击该州一个村庄，造成至少5人死亡、5人受伤。当地消息人士接受媒体采访时说，此次袭击可能是一起族群冲突后的报复。",
-   "time": "2026-11-27 01:45:09",
-   "url": "https://finance.eastmoney.com/a/202611273941004755.html",
+   "title": "沙特吉赞炼油厂据悉因遇袭而暂时中断了一些活动",
+   "summary": "沙特吉赞炼油厂据悉因遇袭而暂时中断了一些活动。",
+   "time": "2026-11-27 02:10:39",
+   "url": "https://finance.eastmoney.com/a/202611273941008071.html",
    "source": "东财国际"
   },
   {
-   "title": "通胀警铃大作，美联储“加息复加息”梦魇恐成真 - 21财经",
+   "title": "21评论丨美联储12月加息几成定局 - 21财经",
    "summary": "",
-   "time": "2026-11-27 00:41",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYnBiUVdycDloRDBOT0lSQW9OaTVoN3ByeGRlUE0zNHRCVXVVOGt6QkdFcmRmTUIyOVFHMkNPN3RXNjBtek9GRC1sQUFCbkt1aUJkbmpfRU5BQm1pbXpiQTFYY1NOT1Q2NmhCZmVYMllVZUJ0THd5N1o3cmhZaVFiREtLZ1FnQQ?oc=5",
+   "time": "2026-11-27 00:21",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQTJhc1ZQWTQ4REpndEg1WFMya0hab00xQ05NTWFDejFvd3M3RGJFZ1FadmRUWjFEYlZMMXVFc1NRSHZrRVhEZ1JQdnRGSi1JVjNTcUJfR2tOZUpnSGdpWXZSVVJpS3g5UEJYWVc0SWppMnZpZFhWLTVBdFBneUVsMFYzMXNsUQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1696,18 +1720,18 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "Altria和日本烟草探索收购英国烟草公司帝国品牌",
+   "title": "据悉思爱普拟在AI重组中裁减至少1万个岗位",
    "summary": "",
-   "time": "2026-11-26 18:03:21",
-   "url": "https://news.10jqka.com.cn/20261127/c682268223.shtml",
-   "source": "同花顺"
+   "time": "2026-11-26 17:50:44",
+   "url": "https://news.futunn.com/flash/1005772488/it-is-reported-that-sap-plans-to-cut-at-least",
+   "source": "富途"
   },
   {
-   "title": "俄罗斯驳斥德国媒体有关其计划部署核武器太空的报道，称相关说法毫无根据",
+   "title": "伊朗外长在通话中表示，伊朗与袭击科威特一事无关，愿参与调查",
    "summary": "",
-   "time": "2026-11-26 17:41:01",
-   "url": "https://news.futunn.com/flash/1005772304/russia-refuted-german-media-reports-alleging-its-plan-to-deploy",
-   "source": "富途"
+   "time": "2026-11-26 17:42:32",
+   "url": "https://news.10jqka.com.cn/20261127/c682268172.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月25日周三",
@@ -1724,46 +1748,46 @@
    "source": "财新"
   },
   {
-   "title": "伦钴连涨三天，期内累计上涨超38.92%",
-   "summary": "LME期铜收涨222美元，报11872美元/吨。\n\nLME期铝收涨58美元，报2808美元/吨。\n\nLME期锌收涨112美元，报3504美元/吨。\n\nLME期铅收涨40美元，报1871美元/吨。\n\nLME期镍收涨562美元，报15731美元/吨。\n\nLME期锡收涨706美元，报37893美元/吨。\n\nLME期钴收涨2275美元，报46575美元/吨。",
-   "time": "2026-11-27 01:51",
-   "url": "https://wallstreetcn.com/livenews/3206577",
+   "title": "欧盟上调玉米产量预估 但总量仍处于数十年来最低点附近",
+   "summary": "欧盟委员会周四上调了今年欧洲玉米收成的月度预估，但在严重夏季高温天气导致该 bloc（欧盟）部分地区作物枯萎后，预期产量仍处于数十年来的最低水平。\n\n在供需数据中，欧盟委员会将2026/27年度欧盟玉米可用产量定为4800万吨，较上月预测上调100万吨，或2%。\n\n这一修正后的预估仍是欧盟委员会自2002年有记录以来的最低年度玉米产量。",
+   "time": "2026-11-27 02:27",
+   "url": "https://wallstreetcn.com/livenews/3206588",
    "source": "华尔街见闻"
   },
   {
-   "title": "墨西哥总统谴责美国缉毒局干涉墨内政",
-   "summary": "【墨西哥总统谴责美国缉毒局干涉墨内政】当地时间11月26日，墨西哥总统辛鲍姆在新闻发布会上谴责美国缉毒局开设面向墨西哥民众的匿名举报渠道，称此举是对墨西哥内政的干涉。辛鲍姆强调，墨西哥拥有负责打击有组织犯罪的执法机构。她敦促美国缉毒局将精力放在打击美国境内的贩毒活动上，调查与有组织犯罪相关的腐败问题、毒品分销网络及非法资金流向。",
-   "time": "2026-11-27 01:32:25",
-   "url": "https://finance.eastmoney.com/a/202611273941004674.html",
+   "title": "德国总理默茨表示：德国无法接受现有的欧盟2028-2034年预算提案",
+   "summary": "德国总理默茨表示，德国无法接受现有的欧盟2028-2034年预算提案。",
+   "time": "2026-11-27 02:07:20",
+   "url": "https://finance.eastmoney.com/a/202611273941008191.html",
    "source": "东财国际"
   },
   {
-   "title": "21评论丨美联储12月加息几成定局 - 21财经",
+   "title": "专论：由特朗普总统夸赞深圳说开去 - 中国评论",
    "summary": "",
-   "time": "2026-11-27 00:21",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQTJhc1ZQWTQ4REpndEg1WFMya0hab00xQ05NTWFDejFvd3M3RGJFZ1FadmRUWjFEYlZMMXVFc1NRSHZrRVhEZ1JQdnRGSi1JVjNTcUJfR2tOZUpnSGdpWXZSVVJpS3g5UEJYWVc0SWppMnZpZFhWLTVBdFBneUVsMFYzMXNsUQ?oc=5",
+   "time": "2026-11-27 00:12",
+   "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVQVVhS2l1OEsyNmFabjBVYi1oUXBVbG8xLTlpQk5NRG1ibkk5Ykl6ZUwwUXJESkVNVW1TLXBVa0VoTElMekpwVFV1NlQ2Y1BFb2ZBUjlkTFM?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "瑞银研报称美国约40%拟新增数据中心容量受州级政策影响 - 观点网",
+   "title": "汇丰银行将惠普评级从买入下调至持有；目标价从33.4美元下调至29.4美元 - 东方财富网",
    "summary": "",
-   "time": "2026-11-26 21:56",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IaWpYYkdQNTdQSlpfQlpxN2lxQjVaajlpZlEwT2lkNjJKZHdqWGZyblByQlUwT1JIOHdQenl5LWo5NklCZERTNEotOFRCVEJPZEUzWWJYaE11SS1aNVNfX3Jn?oc=5",
+   "time": "2026-11-26 22:57",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80SXpMT1ZkYnYxUXRsUjYwWWZsTGZGV0NjdXFBTlVSQkhSeHVpMXVTRHR5SU1UWUVsNzBqY2QyT1RHeS1JQ0c1QklqbUhYZW5MckljQXVmMWlWY3duVVZkdA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "伊朗外长在通话中表示，伊朗与袭击科威特一事无关，愿参与调查",
+   "title": "俄罗斯驳斥德国媒体有关其计划部署核武器太空的报道，称相关说法毫无根据",
    "summary": "",
-   "time": "2026-11-26 17:42:32",
-   "url": "https://news.10jqka.com.cn/20261127/c682268172.shtml",
-   "source": "同花顺"
+   "time": "2026-11-26 17:41:01",
+   "url": "https://news.futunn.com/flash/1005772304/russia-refuted-german-media-reports-alleging-its-plan-to-deploy",
+   "source": "富途"
   },
   {
-   "title": "伊朗外长与科威特外交大臣通电话",
+   "title": "ICE罗布斯塔咖啡期货涨超3%，至每吨2856美元",
    "summary": "",
-   "time": "2026-11-26 17:39:44",
-   "url": "https://news.futunn.com/flash/1005772152/iranian-foreign-minister-holds-phone-call-with-kuwaiti-foreign-minister",
-   "source": "富途"
+   "time": "2026-11-26 17:19:20",
+   "url": "https://news.10jqka.com.cn/20261127/c682268132.shtml",
+   "source": "同花顺"
   },
   {
    "title": "拟以被冻结的卢克石油股票置换其海外油气资产，交易仍待美国监管批准",
@@ -1773,10 +1797,10 @@
    "source": "财新"
   },
   {
-   "title": "伊朗武装部队否认袭击科威特重要设施",
-   "summary": "据伊朗方面26日消息，伊朗武装部队发言人谢卡尔希当天否认科威特军方有关伊朗军队袭击科威特一处重要设施的指控，称伊朗武装部队未在该地区开展任何军事行动。谢卡尔希说，有关指控意在为继续实施敌对行动提供掩护，并企图加剧地区紧张局势。（央视）",
-   "time": "2026-11-27 01:48",
-   "url": "https://wallstreetcn.com/livenews/3206575",
+   "title": "伊朗外长阿拉格齐：伊朗准备与意大利、科威特共同调查袭击来源。",
+   "summary": "伊朗外长阿拉格齐：伊朗准备与意大利、科威特共同调查袭击来源。",
+   "time": "2026-11-27 02:23",
+   "url": "https://wallstreetcn.com/livenews/3206587",
    "source": "华尔街见闻"
   }
  ],
@@ -1784,7 +1808,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(23)",
+   "富途": "ok(22)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1797,8 +1821,8 @@
    "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
