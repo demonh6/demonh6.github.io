@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 21:26:44 CST",
- "generated_at_iso": "2026-11-26T21:26:44+08:00",
+ "generated_at": "2026-11-26 21:35:00 CST",
+ "generated_at_iso": "2026-11-26T21:35:00+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10583.89,
-    "change": 156.95,
-    "change_pct": 1.51,
+    "price": 10585.84,
+    "change": 158.9,
+    "change_pct": 1.52,
     "hist": [
      10840.35,
      10881.9,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8108.02,
-    "change": 127.45,
-    "change_pct": 1.6,
+    "price": 8108.91,
+    "change": 128.34,
+    "change_pct": 1.61,
     "hist": [
      7934.7,
      7956.7,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6004.47,
-    "change": 110.01,
-    "change_pct": 1.87,
+    "price": 6002.74,
+    "change": 108.28,
+    "change_pct": 1.84,
     "hist": [
      6168.27,
      6204.24,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3593.612,
-    "change": 29.012,
-    "change_pct": 0.81,
-    "quote_time": "21:26:40 2026-11-26"
+    "price": 3596.188,
+    "change": 31.588,
+    "change_pct": 0.89,
+    "quote_time": "21:35:02 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.566,
-    "change": 1.028,
-    "change_pct": 2.54,
-    "quote_time": "21:26:48 2026-11-26"
+    "price": 41.593,
+    "change": 1.055,
+    "change_pct": 2.6,
+    "quote_time": "21:35:04 2026-11-26"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.672,
-    "change": 0.992,
-    "change_pct": 1.19,
-    "quote_time": "21:26:43 2026-11-26"
+    "price": 84.663,
+    "change": 0.983,
+    "change_pct": 1.17,
+    "quote_time": "21:35:03 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.307,
-    "change": 0.667,
-    "change_pct": 0.74,
-    "quote_time": "21:26:40 2026-11-26"
+    "price": 91.361,
+    "change": 0.721,
+    "change_pct": 0.8,
+    "quote_time": "21:34:56 2026-11-26"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60833.3,
-    "change": 1982.0,
-    "change_pct": 3.37,
+    "price": 60850.0,
+    "change": 2433.2,
+    "change_pct": 4.17,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1705.64,
-    "change": 53.42,
-    "change_pct": 3.23,
+    "price": 1704.7,
+    "change": 65.78,
+    "change_pct": 4.01,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.94,
-    "change": 3.01,
-    "change_pct": 4.43,
+    "price": 70.93,
+    "change": 3.65,
+    "change_pct": 5.43,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.74,
-    "change": 0.03,
-    "change_pct": 0.03,
+    "price": 103.71,
+    "change": 0.0,
+    "change_pct": 0.0,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,9 +1333,9 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6614,
-    "change": -0.0061,
-    "change_pct": -0.09,
+    "price": 6.6611,
+    "change": -0.0064,
+    "change_pct": -0.1,
     "dec": 4,
     "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
@@ -1388,12 +1388,23 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：祝贺罗伯特·帕丁森 - 新浪财经_金融信息服务商",
+   "title": "特朗普祝贺罗伯特·帕丁森成为新一任“007”：他看起来不错，祝他好运 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-26 21:05",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa3VvbDFoLXhCQ01rMHVkc2g4NnBiMlBsU2dnU3M1clZoUEp4SkhsVUQtMDExQS1mc21IM2d3blhxeHlMdlI2WHpRZWtsQkdyZnJGc2pxUFI1cGVFU1VacEdrUDlPYXVZZUdEOEwtZWJueEszU0pqS2FqczBLTUpQa2tZQmFxSTJ4cHBv?oc=5",
+   "time": "2026-11-26 21:30",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQVMzbE5xbXViVWI2RVFmQjJyVDJ0bEh6N0xuR0VVTVRpWE9sYkRETmJPVGxTOUhfRVZUY0dxRDNNZHVvNFQyRnA3ejU5OHFXbUNMRkhxQXAwUHptN00tSFRHUGhiZmxZaHF5MTJMTG9kakZ3dks1MDU0MWZ1OXlDT1pDcVI?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 2
+  },
+  {
+   "keyword": "欧洲央行",
+   "label": "欧洲央行",
+   "hint": "欧央行政策影响欧元区与全球流动性",
+   "title": "会议纪要显示 欧洲央行10月份已获得加息的广泛支持",
+   "summary": "",
+   "time": "2026-11-26 13:25:10",
+   "url": "https://news.futunn.com/flash/1005757454/the-meeting-minutes-showed-that-the-european-central-bank-received",
+   "source": "富途",
+   "mentions": 1
   }
  ],
  "research": {
@@ -1591,24 +1602,24 @@
  "alerts": [],
  "news": [
   {
-   "title": "波罗的海干散货指数涨1.45%，至3152点。",
-   "summary": "波罗的海干散货指数涨1.45%，至3152点。",
-   "time": "2026-11-26 21:05",
-   "url": "https://wallstreetcn.com/livenews/3206471",
+   "title": "腾讯以第一单位首登《Nature》！AI 从头设计双靶点多肽，用于减重降糖与肿瘤免疫药物研发",
+   "summary": "在AI赋能药物研发领域，腾讯生命科学实验室取得了新突破。11月26日，国际顶尖学术期刊《Nature》主刊正式刊发腾讯生命科学实验室主导完成的最新研究论文《De novo design of high-potency dual-target therapeutic peptides with ORIDTP》。研究团队构建AI平台ORIDTP，实现高活性双靶点治疗性多肽的从头设计，为破解双靶点药物研",
+   "time": "2026-11-26 21:34",
+   "url": "https://wallstreetcn.com/livenews/3206478",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普：祝贺罗伯特·帕丁森 - 新浪财经_金融信息服务商",
+   "title": "特朗普祝贺罗伯特·帕丁森成为新一任“007”：他看起来不错，祝他好运 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-26 21:05",
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa3VvbDFoLXhCQ01rMHVkc2g4NnBiMlBsU2dnU3M1clZoUEp4SkhsVUQtMDExQS1mc21IM2d3blhxeHlMdlI2WHpRZWtsQkdyZnJGc2pxUFI1cGVFU1VacEdrUDlPYXVZZUdEOEwtZWJueEszU0pqS2FqczBLTUpQa2tZQmFxSTJ4cHBv?oc=5",
+   "time": "2026-11-26 21:30",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQVMzbE5xbXViVWI2RVFmQjJyVDJ0bEh6N0xuR0VVTVRpWE9sYkRETmJPVGxTOUhfRVZUY0dxRDNNZHVvNFQyRnA3ejU5OHFXbUNMRkhxQXAwUHptN00tSFRHUGhiZmxZaHF5MTJMTG9kakZ3dks1MDU0MWZ1OXlDT1pDcVI?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "英国皇家海军总部遭疑似炸弹威胁",
-   "summary": "【英国皇家海军总部遭疑似炸弹威胁】今天（11月26日），位于英国南部港口城市朴次茅斯的英国皇家海军总部遭遇疑似炸弹威胁，警方紧急赶赴现场。英国皇家海军发言人证实，警方及英国国防部人员正在处理一起安全事件，并呼吁公众暂时避开事发区域。",
-   "time": "2026-11-26 21:01:55",
-   "url": "https://finance.eastmoney.com/a/202611263940830127.html",
+   "title": "我国科研团队研制出新型智能纤维 识别准确率100%",
+   "summary": "【我国科研团队研制出新型智能纤维 识别准确率100%】据中国科学技术大学消息，该校教授傅尧团队面向具身智能与绿色可持续发展的双重需求，创制出兼具高强韧性、稳定离子传导和低泄漏特征的生物基智能纤维，并融合深度学习实现复杂人体动作的精准识别，为发展绿色、高性能智能感知材料提供了新思路。相关成果近日在线发表于学术期刊《先进材料》。",
+   "time": "2026-11-26 21:28:02",
+   "url": "https://finance.eastmoney.com/a/202611263940862894.html",
    "source": "东财国际"
   },
   {
@@ -1619,17 +1630,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "科威特军方：重要设施遭伊朗袭击 4人受伤",
+   "title": "阿里加码北美招聘 Qwen团队今年已吸纳数百名AI人才",
    "summary": "",
-   "time": "2026-11-26 13:03:58",
-   "url": "https://news.futunn.com/flash/1005755821/kuwaiti-military-critical-facility-attacked-by-iran-four-injured",
+   "time": "2026-11-26 13:33:28",
+   "url": "https://news.futunn.com/flash/1005758248/alibaba-steps-up-recruitment-in-north-america-qwen-team-has",
    "source": "富途"
   },
   {
-   "title": "期货夜盘开盘，国内期货主力合约涨多跌少",
+   "title": "协创数据：控股子公司光为科技高速光模块已对外供货",
    "summary": "",
-   "time": "2026-11-26 13:02:32",
-   "url": "https://news.10jqka.com.cn/20261126/c682266000.shtml",
+   "time": "2026-11-26 13:25:20",
+   "url": "https://news.10jqka.com.cn/20261126/c682266455.shtml",
    "source": "同花顺"
   },
   {
@@ -1647,45 +1658,45 @@
    "source": "财新"
   },
   {
-   "title": "科威特：伊朗的袭击击中了一处重要设施，袭击造成4人受伤。",
-   "summary": "科威特：伊朗的袭击击中了一处重要设施，袭击造成4人受伤。",
-   "time": "2026-11-26 21:01",
-   "url": "https://wallstreetcn.com/livenews/3206468",
+   "title": "智驾好不好如何判定？蔚来李斌：就看用户订阅率与保险公司认定的事故率",
+   "summary": "“一个是订阅率，还有一个就是事故率，就这两个标准就够了。”11 月 25日晚间，蔚来创始人、董事长兼 CEO 李斌在2026 蔚来创新科技日媒体沟通会上提出，智能驾驶的价值主要可以依据两条标准来判断：一是看用户愿不愿意为这套功能掏钱，二是看保险公司是否认可其安全水平。",
+   "time": "2026-11-26 21:34",
+   "url": "https://wallstreetcn.com/livenews/3206477",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普念念不忘的“帽子”或是冷盘瓷盖，企业负责人：造型灵感来自广东客家围屋，近期销售额达日常10倍左右 - Sohu",
+   "title": "特朗普访华刚结束！马斯克没回美国而是去了菲，火箭发射场将落地 - 手机新浪网",
    "summary": "",
-   "time": "2026-11-26 20:22",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbXhubE9rVGJucHJJSDNKVmRJNEJEbFBvV2UxZTlBMG5yLWJac21Ed0w2THZiNnlNQ3V1Y1Bac1ZYY1BaUXhVNlMzZ0pHc1NYTHU0V0JvS3V2WUF6ZTV1bGJ5TVpBa3g5MWhrakQyTkdRS0JBTEhDZFQ2YklRbmh0cmk1SlBxMS10dVlEbA?oc=5",
+   "time": "2026-11-26 21:27",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB2SGp1Z1RjNUZqcTVHMExGRWpaT3JhcWxibWwzRjFqRFpuMkFlSnRxWGczTG0xMjljdkZJMzBWdGE4bVhsanBPaHU5N0VkXzlrbndKWUZtQUhUYTBGeF9oYkR2d1B0M0huclhCbGVYYlItdw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "我国发布全球首个高效灵活燃煤发电技术",
-   "summary": "【我国发布全球首个高效灵活燃煤发电技术】今天，我国自主研发的全球首个新型高效灵活燃煤发电技术成功发布，多项核心指标达到国际领先水平。",
-   "time": "2026-11-26 21:00:31",
-   "url": "https://finance.eastmoney.com/a/202611263940827683.html",
+   "title": "巴西股市上涨3.4% 创10月5日以来最大单日涨幅",
+   "summary": "巴西股市上涨3.4%，创10月5日以来最大单日涨幅，因财政部长乐观情绪提振。",
+   "time": "2026-11-26 21:23:55",
+   "url": "https://finance.eastmoney.com/a/202611263940858522.html",
    "source": "东财国际"
   },
   {
-   "title": "摩根大通：将贵州茅台评级上调至超配 - Sohu",
+   "title": "外资巨头罕见“翻多”！摩根大通上调贵州茅台评级至“超配”，称还能涨23%，白酒行业泡沫要出清了？ - 金融界",
    "summary": "",
-   "time": "2026-11-26 20:21",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOamxaN0FRaG9CTV9ndktNaXcwQU00bHZMRFlFenJaNW1SUGN4TGp4TEpFRGM5RlpVY2U2aDctT3pHZV8yMDB4WEo0TmNEa2wyOWk2eTJDTm5wd1BGdFNKWjI5bmFPOEhQRWZoeTJkOVlzNmwzR3c0WDZjWVBwMjlVdWlfRW96M2tP?oc=5",
+   "time": "2026-11-26 20:48",
+   "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5xTDUzZk5ZSXR0OTI3bUdyWlF0ZGpTVTducG9DaFQ3TVpRZ3N6MEFFM2MySHlsd0p6RXFZOHRpbURjc29rdHZlcDBhejd6NGJkS2Z4ZHdfcjRMWVRqOENwRmNMcw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "市场监管总局开展网络交易平台信用共治活动",
+   "title": "会议纪要显示 欧洲央行10月份已获得加息的广泛支持",
    "summary": "",
-   "time": "2026-11-26 12:51:44",
-   "url": "https://news.futunn.com/flash/1005754691/the-state-administration-for-market-regulation-launches-a-joint-credit",
+   "time": "2026-11-26 13:25:10",
+   "url": "https://news.futunn.com/flash/1005757454/the-meeting-minutes-showed-that-the-european-central-bank-received",
    "source": "富途"
   },
   {
-   "title": "水利部部长李国英主持召开水利部部务会议",
+   "title": "期货夜盘开盘，国内期货主力合约涨多跌少",
    "summary": "",
-   "time": "2026-11-26 13:02:24",
-   "url": "https://news.10jqka.com.cn/20261126/c682265999.shtml",
+   "time": "2026-11-26 13:02:32",
+   "url": "https://news.10jqka.com.cn/20261126/c682266000.shtml",
    "source": "同花顺"
   },
   {
@@ -1703,45 +1714,45 @@
    "source": "财新"
   },
   {
-   "title": "夜盘期货开盘，沪银涨近4%，乙二醇涨近3%，沪锌、沪镍、沪锡涨超2%，燃料油、短纤、焦煤涨近2%；LPG、氧化铝小幅下跌。",
-   "summary": "夜盘期货开盘，沪银涨近4%，乙二醇涨近3%，沪锌、沪镍、沪锡涨超2%，燃料油、短纤、焦煤涨近2%；LPG、氧化铝小幅下跌。",
-   "time": "2026-11-26 21:00",
-   "url": "https://wallstreetcn.com/livenews/3206466",
+   "title": "Pablo Hernández de Cos将成为下一任欧洲央行行长。（英国金融时报）",
+   "summary": "Pablo Hernández de Cos将成为下一任欧洲央行行长。（英国金融时报）",
+   "time": "2026-11-26 21:31",
+   "url": "https://wallstreetcn.com/livenews/3206476",
    "source": "华尔街见闻"
   },
   {
-   "title": "这次不一样？施罗德投资：美联储或因美股暴跌转向宽松 但反弹恐难持续 - 财联社",
+   "title": "法国报纸摘要 - 《费加罗报》：中国在特朗普的帮助下试图孤立日本 - RFI",
    "summary": "",
-   "time": "2026-11-26 20:13",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Lb3B4NHJOTzRzM0pILTVMQXViZFBBNXNLZ0w1bXJzenIxTzNMY2RiNDZvYmludHF6dkdCS1RXQkFGTXZCc01DNA?oc=5",
+   "time": "2026-11-26 21:25",
+   "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxOSTlYa0JEUDdqOVFQME1EMy1VdXc0bHI5UndhbU9Ncm1LZjhfOE1jZU8xTVBnYl9xdVBZRG9sYUdtVV9VTGphY1ZHcGRndktOak94QUdSZWp3dkM2M05maWU0cXR2LUh2VzNZa0J1aFQ5VGozVHRHdXVwZjg5NV8zMnU4bnhidGZqVERoem4xVUcyQkVGRTFiTzh2ek0tZTljRFlRMUFMRGt4LUNiQVFuSTZVS1Q4NVZOcEI4dzBpdmt2V2RkaUN2OGdJQ1lzY2d6em5CVlpBWDNtR0RJeXl6ZFJEWTN5amhSNm51aWlkcGVwVjlfVnJGNnd3NkhCV3BTa01WWVVXeU01UGNJbkNsbWpzV1oxd3pUZ1hCVXo4Vy0taE80TVlacm9ZXzFIX1JyNHVfNFZNNC1nb19CbTJUZmhGMXJfdHI0VFdjSF9VRlpNRUxDZDF0RkZ2X0RVTEtBbzRMSTVpbGxsSG1mY3gyTHRrWndydWpRQjhZSGNmN3I5aDVUc3I1cDFXTDl4ZjZUZkFQWnR2WHdRWW1wa0hEck5GQmNVR01iS3BUSUNZQVg1QQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "国内商品期货夜盘开盘 主力合约几乎全线上涨",
-   "summary": "【国内商品期货夜盘开盘 主力合约几乎全线上涨】国内商品期货夜盘开盘，主力合约几乎全线上涨。涨幅方面，沪银涨近4%，乙二醇涨近3%，沪锌、沪镍、沪锡涨超2%，燃油、短纤涨近2%，焦煤、低硫燃油、塑料、沪铅、沪金等涨超1%；跌幅方面，LPG、氧化铝、纯碱、豆一、铁矿石小幅下跌。",
-   "time": "2026-11-26 21:00:07",
-   "url": "https://finance.eastmoney.com/a/202611263940827464.html",
+   "title": "巴西雷亚尔兑美元涨幅扩大至1.2%",
+   "summary": "巴西雷亚尔兑美元涨幅扩大至1.2%。",
+   "time": "2026-11-26 21:19:56",
+   "url": "https://finance.eastmoney.com/a/202611263940857510.html",
    "source": "东财国际"
   },
   {
-   "title": "摩通上调贵州茅台评级至超配 目标价1800元-证券之星 - 证券之星",
+   "title": "贵州茅台，被外资投行上调至“超配” - Sohu",
    "summary": "",
-   "time": "2026-11-26 19:50",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVSzBBY2VheGtwZHkzTHlCeFFVV2cwVDdGLWhoLTh2VHFBMEFLbzR1R3dvMEtVbVZrRDNCU2twNFVWNGpRMGNDMDFDZE1ET2dIdERkNjUwdWJVZmpYT1E?oc=5",
+   "time": "2026-11-26 20:45",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeC03dmxFd2Z1NEJQU3BTMi1rUFVXSW5URWtPZUFrZ3JDQVIxd28zdmNXWjE3TldJQXB2M2FnanFNRUJPNlRqeWdtTVFBbGhiUnJkS0dmMHJ0QlFhZVN0RUxoa01aSmt3ZHl5V0pDQmN6aXF2YTJieHNMVjVkVnpXNnljUGRNalVmMU9xSg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "荷兰官员抨击美国嫉妒阿斯麦 称美国不是老板",
+   "title": "英国海军总部遭遇“诈弹”威胁",
    "summary": "",
-   "time": "2026-11-26 12:46:59",
-   "url": "https://news.futunn.com/flash/1005754259/dutch-officials-criticize-us-envy-of-asml-holding-stating-the",
+   "time": "2026-11-26 13:14:09",
+   "url": "https://news.futunn.com/flash/1005756569/uk-naval-headquarters-faces-hoax-bomb-threat",
    "source": "富途"
   },
   {
-   "title": "TCL中环：回购公司股份实施完毕，累计回购5509.09万股",
+   "title": "水利部部长李国英主持召开水利部部务会议",
    "summary": "",
-   "time": "2026-11-26 13:00:49",
-   "url": "https://news.10jqka.com.cn/20261126/c682265964.shtml",
+   "time": "2026-11-26 13:02:24",
+   "url": "https://news.10jqka.com.cn/20261126/c682265999.shtml",
    "source": "同花顺"
   },
   {
