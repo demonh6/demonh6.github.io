@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 00:00:23 CST",
- "generated_at_iso": "2026-11-27T00:00:23+08:00",
+ "generated_at": "2026-11-27 00:09:57 CST",
+ "generated_at_iso": "2026-11-27T00:09:57+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -944,200 +944,86 @@
     ]
    },
    {
-    "name": "印度SENSEX",
-    "sym": "BSESN",
-    "price": 84328.5938,
-    "change": 390.31,
-    "change_pct": 0.46,
+    "name": "韩国KOSPI",
+    "sym": "KS11",
+    "price": 4711.21,
+    "change": 13.7,
+    "change_pct": 0.29,
     "hist": [
-     72781.89,
-     74315.61,
-     74729.27,
-     73852.9,
-     73709.69,
-     73249.39,
-     73123.83,
-     73606.75,
-     73598.67,
-     73246.03,
-     74151.04,
-     74459.53,
-     75692.78,
-     76917.85,
-     77301.4,
-     79310.01,
-     81028.02,
-     80999.4,
-     81106.65,
-     81879.4,
-     81911.01,
-     81592.45,
-     82104.79,
-     82532.19,
-     82031.81,
-     83021.75,
-     83919.7109,
-     82435.9922,
-     83938.2813,
-     84328.5938
+     5554.22,
+     5668.05,
+     5768.01,
+     5552.74,
+     5735.66,
+     5533.77,
+     5550.3,
+     5469.47,
+     5638.34,
+     6012.44,
+     5937.66,
+     5730.74,
+     5859.08,
+     5648.79,
+     5683.8,
+     5383.8,
+     5059.69,
+     5018.85,
+     5239.13,
+     5375.36,
+     5342.73,
+     5290.53,
+     5100.5,
+     4968.48,
+     5067.44,
+     5137.89,
+     4869.96,
+     4708.54,
+     5006.0298,
+     4697.5098
     ],
-    "sigma": 1.0,
-    "volume": 0.0,
-    "vol_chg_pct": -100.0,
-    "vol_pctile": 2.8,
+    "sigma": 3.453,
+    "volume": 170996.0,
+    "vol_chg_pct": -16.2,
+    "vol_pctile": 0.8,
     "vol_hist": [
-     12700.0,
-     23300.0,
-     22000.0,
-     14800.0,
-     16400.0,
-     24400.0,
-     19400.0,
-     10900.0,
-     13600.0,
-     10200.0,
-     20000.0,
-     12200.0,
-     13700.0,
-     12600.0,
-     16800.0,
-     31600.0,
-     17100.0,
-     0.0,
-     19600.0,
-     21500.0,
-     22500.0,
-     12800.0,
-     13100.0,
-     13300.0,
-     16800.0,
-     17100.0,
-     15900.0,
-     17400.0,
-     24100.0,
-     0.0
-    ]
-   },
-   {
-    "name": "台湾加权",
-    "sym": "TWII",
-    "price": 39151.81,
-    "change": 956.38,
-    "change_pct": 2.5,
-    "hist": [
-     48625.83,
-     46969.87,
-     47111.26,
-     46822.08,
-     46292.93,
-     46887.77,
-     46041.43,
-     46096.23,
-     47035.58,
-     46368.33,
-     45211.83,
-     44920.14,
-     43307.54,
-     42948.91,
-     41574.72,
-     39701.64,
-     41661.7,
-     42711.92,
-     44257.15,
-     43091.87,
-     43675.12,
-     41040.08,
-     40092.11,
-     40194.91,
-     38426.89,
-     36033.29,
-     36811.89,
-     40122.35,
-     38195.43,
-     39151.81
-    ],
-    "sigma": 3.914
-   },
-   {
-    "name": "德国DAX",
-    "sym": "DAX",
-    "price": 24702.13,
-    "change": -315.68,
-    "change_pct": -1.26,
-    "hist": [
-     25382.62,
-     25622.61,
-     25319.77,
-     25304.42,
-     25645.04,
-     25371.75,
-     25181.65,
-     25410.84,
-     25590.77,
-     25704.02,
-     26039.68,
-     25818.21,
-     25981.09,
-     25864.62,
-     26437.67,
-     26325.01,
-     25820.36,
-     26267.19,
-     26347.45,
-     26662.77,
-     26771.88,
-     26749.95,
-     26598.64,
-     26045.37,
-     25736.24,
-     25463.81,
-     24802.78,
-     25337.27,
-     25017.81,
-     24702.13
-    ],
-    "sigma": 1.37,
-    "volume": 0.0,
-    "vol_pctile": 100.0,
-    "vol_hist": [
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0,
-     0.0
+     298900.0,
+     292800.0,
+     274700.0,
+     225900.0,
+     217500.0,
+     249500.0,
+     202300.0,
+     196200.0,
+     237300.0,
+     296500.0,
+     228300.0,
+     198100.0,
+     207400.0,
+     276900.0,
+     277300.0,
+     323300.0,
+     248100.0,
+     253900.0,
+     234700.0,
+     244800.0,
+     247800.0,
+     221300.0,
+     194000.0,
+     219100.0,
+     195700.0,
+     206700.0,
+     218600.0,
+     194100.0,
+     205400.0,
+     170996.0
     ]
    },
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10426.94,
-    "change": -40.13,
-    "change_pct": -0.38,
+    "price": 10635.03,
+    "change": 208.09,
+    "change_pct": 2.0,
     "hist": [
      10840.35,
      10881.9,
@@ -1209,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8124.14,
-    "change": 143.57,
-    "change_pct": 1.8,
+    "price": 8126.61,
+    "change": 146.04,
+    "change_pct": 1.83,
     "hist": [
      7956.7,
      7868.05,
@@ -1283,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 5894.46,
-    "change": -109.31,
-    "change_pct": -1.82,
+    "price": 6031.47,
+    "change": 137.01,
+    "change_pct": 2.32,
     "hist": [
      6168.27,
      6204.24,
@@ -1319,46 +1205,6 @@
      5894.46
     ],
     "sigma": 1.341
-   },
-   {
-    "name": "俄罗斯MOEX",
-    "sym": "MOEX",
-    "price": 2330.79,
-    "change": -26.07,
-    "change_pct": -1.11,
-    "hist": [
-     2522.93,
-     2496.26,
-     2509.26,
-     2510.92,
-     2515.89,
-     2459.53,
-     2446.64,
-     2442.1,
-     2458.46,
-     2476.7,
-     2482.7,
-     2487.01,
-     2470.07,
-     2445.6,
-     2494.77,
-     2505.95,
-     2511.1,
-     2514.85,
-     2509.67,
-     2475.7,
-     2495.86,
-     2470.81,
-     2419.43,
-     2354.4,
-     2326.05,
-     2351.54,
-     2372.97,
-     2323.08,
-     2356.86,
-     2330.79
-    ],
-    "sigma": 1.233
    }
   ]
  },
@@ -1410,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3597.844,
-    "change": 33.244,
-    "change_pct": 0.93,
-    "quote_time": "00:00:25 2026-11-27"
+    "price": 3599.41,
+    "change": 34.81,
+    "change_pct": 0.98,
+    "quote_time": "00:09:54 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.733,
-    "change": 1.195,
-    "change_pct": 2.95,
-    "quote_time": "00:00:26 2026-11-27"
+    "price": 41.925,
+    "change": 1.387,
+    "change_pct": 3.42,
+    "quote_time": "00:09:54 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.046,
-    "change": 1.366,
-    "change_pct": 1.63,
-    "quote_time": "00:00:26 2026-11-27"
+    "price": 84.888,
+    "change": 1.208,
+    "change_pct": 1.44,
+    "quote_time": "00:10:00 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.635,
-    "change": 0.995,
-    "change_pct": 1.1,
-    "quote_time": "00:00:23 2026-11-27"
+    "price": 91.466,
+    "change": 0.826,
+    "change_pct": 0.91,
+    "quote_time": "00:09:59 2026-11-27"
    }
   ],
   "crypto": [
@@ -1448,9 +1294,9 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60680.3,
-    "change": 2210.3,
-    "change_pct": 3.78,
+    "price": 60673.6,
+    "change": 2245.6,
+    "change_pct": 3.84,
     "source": "okx",
     "hist": [
      81776.2,
@@ -1482,17 +1328,17 @@
      59718.6,
      58339.9,
      60627.6,
-     60805.6
+     60690.9
     ],
-    "sigma": 2.581
+    "sigma": 2.576
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1693.41,
-    "change": 42.43,
-    "change_pct": 2.57,
+    "price": 1691.98,
+    "change": 46.28,
+    "change_pct": 2.81,
     "source": "okx",
     "hist": [
      2368.95,
@@ -1524,17 +1370,17 @@
      1677.67,
      1648.69,
      1692.56,
-     1697.04
+     1692.38
     ],
-    "sigma": 3.042
+    "sigma": 3.035
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.08,
-    "change": 3.28,
-    "change_pct": 4.84,
+    "price": 71.06,
+    "change": 3.45,
+    "change_pct": 5.1,
     "source": "okx",
     "hist": [
      102.68,
@@ -1566,18 +1412,18 @@
      69.06,
      67.72,
      71.06,
-     71.2
+     71.1
     ],
-    "sigma": 4.19
+    "sigma": 4.188
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.77,
-    "change": 0.06,
-    "change_pct": 0.06,
+    "price": 103.78,
+    "change": 0.07,
+    "change_pct": 0.07,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1586,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6621,
-    "change": -0.0054,
+    "price": 6.6619,
+    "change": -0.0056,
     "change_pct": -0.08,
     "dec": 4,
     "date": "",
@@ -1641,23 +1487,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普称修订后的GDP数据是“伪造的”，并呼吁展开调查 - 华尔街见闻",
+   "title": "特朗普：在与普京会谈中敦促其尽快与乌克兰达成协议 - ThePaper.cn",
    "summary": "",
-   "time": "2026-11-26 23:11",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NTVlkVTUwc2J0aEtZcy0xdjZUbHJKQ2I3NnlwY2ZHVmMxOVM2TUlydDVGTFNwQ3o5aW9EY0NoVFVXTGZ6a19GQ1hGWGlSdTRQdDhr?oc=5",
+   "time": "2026-11-27 00:01",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oU3gxQ0RrbV82bUVaQXdFWkMyaGsxWjFkdEdyWW5XYTRFem9tbFdJR1hPbkFXdUozU19YTE9kTXY2X1lpNDA4dTU2OENlbjFpT21vM2ZBUEtVcjJzMFBqUQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 4
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "褐皮书与PCE双重信号：美联储12月加息预期升温，黄金面临政策定价考验 - 同花顺",
-   "summary": "",
-   "time": "2026-11-26 22:04",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fd200MVNzalJ2RkFibGplWkY2QUktSVphNkRfaWtkUTQzSU1tOEIzNC0tekJwUElQV19hY2VmTXZJa00wRnlCYW9SdS02cUJVb3RHZTU5T0hybmRBZlE?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
+   "mentions": 5
   }
  ],
  "research": {
@@ -1721,16 +1556,6 @@
   ],
   "reports": [
    {
-    "title": "瑞银承诺维持全球业务布局 回应瑞士议会委员会支持加码资本监管",
-    "org": "瑞银",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-26",
-    "url": "https://finance.eastmoney.com/a/202611263940993495.html",
-    "source": "机构观点"
-   },
-   {
     "title": "瑞银研报称美国约40%拟新增数据中心容量受州级政策影响 - 观点网",
     "org": "瑞银",
     "rating": "",
@@ -1738,6 +1563,16 @@
     "industry": "",
     "date": "2026-11-26",
     "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IaWpYYkdQNTdQSlpfQlpxN2lxQjVaajlpZlEwT2lkNjJKZHdqWGZyblByQlUwT1JIOHdQenl5LWo5NklCZERTNEotOFRCVEJPZEUzWWJYaE11SS1aNVNfX3Jn?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "瑞银承诺维持全球业务布局 回应瑞士议会委员会支持加码资本监管",
+    "org": "瑞银",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-26",
+    "url": "https://finance.eastmoney.com/a/202611263940993495.html",
     "source": "机构观点"
    },
    {
@@ -1862,14 +1697,36 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "warning",
+   "asset": "英国富时100",
+   "message": "英国富时100单日涨2.00%，达20日历史波动率的 2.2 倍（σ=0.90%，突破 2σ 警戒线）",
+   "time": "2026-11-27 00:10",
+   "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
+  },
+  {
+   "level": "warning",
+   "asset": "全球股指",
+   "message": "英国富时100、法国CAC40、欧洲斯托克50等 3 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
+   "time": "2026-11-27 00:10",
+   "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
+  }
+ ],
  "news": [
   {
-   "title": "伊拉克石油部长Basim Mohammed Khudair：伊拉克将石油出口提高至360万桶/日，其中大部分将通过霍尔木兹海峡输送。\n\n剩余的石油货物将通过土耳其港口Ceyhan和叙利亚陆路出口。（伊拉克新闻社INA）",
-   "summary": "伊拉克石油部长Basim Mohammed Khudair：伊拉克将石油出口提高至360万桶/日，其中大部分将通过霍尔木兹海峡输送。\n\n剩余的石油货物将通过土耳其港口Ceyhan和叙利亚陆路出口。（伊拉克新闻社INA）",
-   "time": "2026-11-26 23:58",
-   "url": "https://wallstreetcn.com/livenews/3206542",
+   "title": "英国富时100指数涨幅扩大至2%，报10635.45点。",
+   "summary": "英国富时100指数涨幅扩大至2%，报10635.45点。",
+   "time": "2026-11-27 00:08",
+   "url": "https://wallstreetcn.com/livenews/3206543",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普：在与普京会谈中敦促其尽快与乌克兰达成协议 - ThePaper.cn",
+   "summary": "",
+   "time": "2026-11-27 00:01",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oU3gxQ0RrbV82bUVaQXdFWkMyaGsxWjFkdEdyWW5XYTRFem9tbFdJR1hPbkFXdUozU19YTE9kTXY2X1lpNDA4dTU2OENlbjFpT21vM2ZBUEtVcjJzMFBqUQ?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "阿联酋迪拜航空将恢复迪拜至以色列特拉维夫航班",
@@ -1879,17 +1736,10 @@
    "source": "东财国际"
   },
   {
-   "title": "特朗普称修订后的GDP数据是“伪造的”，并呼吁展开调查 - 华尔街见闻",
+   "title": "瑞银研报称美国约40%拟新增数据中心容量受州级政策影响 - 观点网",
    "summary": "",
-   "time": "2026-11-26 23:11",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NTVlkVTUwc2J0aEtZcy0xdjZUbHJKQ2I3NnlwY2ZHVmMxOVM2TUlydDVGTFNwQ3o5aW9EY0NoVFVXTGZ6a19GQ1hGWGlSdTRQdDhr?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "爱尔眼科目标价涨幅超49%；汇顶科技评级被调低｜券商评级观察 - 21财经",
-   "summary": "",
-   "time": "2026-11-26 23:06",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVXl6OWNKTmtLdVpFUkhkVkwzOFpUYTdOYms3ZDN4RnNHbXdibXAtSnZPclBXOUlFc2dEc2ktRGxGX29xZ0x6MXdFVjFjQjhtRGlmS3pGWkNjQjhnVDFUT3VOTDFROUh6NnEtSmUxaXlTTGtXV01jWk9zUE1TZmxRMXhDWWZMcldCUEQyMTVpMWVrTWhR?oc=5",
+   "time": "2026-11-26 21:56",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IaWpYYkdQNTdQSlpfQlpxN2lxQjVaajlpZlEwT2lkNjJKZHdqWGZyblByQlUwT1JIOHdQenl5LWo5NklCZERTNEotOFRCVEJPZEUzWWJYaE11SS1aNVNfX3Jn?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1921,11 +1771,18 @@
    "source": "财新"
   },
   {
-   "title": "裕信银行CEO对德国商业银行进行大刀阔斧的重塑",
-   "summary": "意大利裕信银行（UniCredit SpA）首席执行官Andrea Orcel要求德国商业银行召开临时股东大会，以便将其心腹安插进监事会，并由他本人出任董事长。\n\nOrcel已确定了德国商业银行的潜在成本削减方案，包括裁员和缩减国际业务，此举进一步加剧了市场对其计划替换德国商业银行管理层的预期。\n\n裕信银行召开股东大会的要求，符合德国政府希望快速推进流程并实现控制权有序过渡的利益，旨在确保客户和员",
-   "time": "2026-11-26 23:56",
-   "url": "https://wallstreetcn.com/livenews/3206541",
+   "title": "伊拉克石油部长Basim Mohammed Khudair：伊拉克将石油出口提高至360万桶/日，其中大部分将通过霍尔木兹海峡输送。\n\n剩余的石油货物将通过土耳其港口Ceyhan和叙利亚陆路出口。（伊拉克新闻社INA）",
+   "summary": "伊拉克石油部长Basim Mohammed Khudair：伊拉克将石油出口提高至360万桶/日，其中大部分将通过霍尔木兹海峡输送。\n\n剩余的石油货物将通过土耳其港口Ceyhan和叙利亚陆路出口。（伊拉克新闻社INA）",
+   "time": "2026-11-26 23:58",
+   "url": "https://wallstreetcn.com/livenews/3206542",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普称修订后的GDP数据是“伪造的”，并呼吁展开调查 - 华尔街见闻",
+   "summary": "",
+   "time": "2026-11-26 23:11",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NTVlkVTUwc2J0aEtZcy0xdjZUbHJKQ2I3NnlwY2ZHVmMxOVM2TUlydDVGTFNwQ3o5aW9EY0NoVFVXTGZ6a19GQ1hGWGlSdTRQdDhr?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "瑞银承诺维持全球业务布局 回应瑞士议会委员会支持加码资本监管",
@@ -1935,17 +1792,10 @@
    "source": "东财国际"
   },
   {
-   "title": "特朗普入住深圳酒店后，留下了这样一个礼物...... - 极目新闻",
+   "title": "里昂：小米集团-W维持“跑赢大市”评级 目标价35港元 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-26 22:15",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xdVVTeUNqd3RXa3pNenNCWTJudzNwN0pLMmx3WUEyWWxCMzBWREJoZGhrMnZXdERlZ0lKLVNUY1JPTXpIcWp4V3g3V2dOMktyeThGRmFOWHc2d3M?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "瑞银研报称美国约40%拟新增数据中心容量受州级政策影响 - 观点网",
-   "summary": "",
-   "time": "2026-11-26 21:56",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IaWpYYkdQNTdQSlpfQlpxN2lxQjVaajlpZlEwT2lkNjJKZHdqWGZyblByQlUwT1JIOHdQenl5LWo5NklCZERTNEotOFRCVEJPZEUzWWJYaE11SS1aNVNfX3Jn?oc=5",
+   "time": "2026-11-26 21:52",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeEJwTDVYRHRTWHJRNjRzenlNSER6RW91aTl4dzdYLVptdE9pZkpoV213YlZ1QWt3Z2RCT2hmbU1Gd05DaVlXN0NTX29DaXZEVHlPMjcwUVFOTUxfcGdBa0xIYVp3cmtqcVVEMjZTdnpnWkw5bU5MMVNDSE40VXVZZzVDenNLNmZ0RFlWRXlyYXZKQk9Qc2hudldnRjlqVzJMUERSWWotQ3huUQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -1977,11 +1827,18 @@
    "source": "财新"
   },
   {
-   "title": "欧洲STOXX 600指数涨幅扩大至2%，报638.63点。",
-   "summary": "欧洲STOXX 600指数涨幅扩大至2%，报638.63点。",
-   "time": "2026-11-26 23:55",
-   "url": "https://wallstreetcn.com/livenews/3206540",
+   "title": "裕信银行CEO对德国商业银行进行大刀阔斧的重塑",
+   "summary": "意大利裕信银行（UniCredit SpA）首席执行官Andrea Orcel要求德国商业银行召开临时股东大会，以便将其心腹安插进监事会，并由他本人出任董事长。\n\nOrcel已确定了德国商业银行的潜在成本削减方案，包括裁员和缩减国际业务，此举进一步加剧了市场对其计划替换德国商业银行管理层的预期。\n\n裕信银行召开股东大会的要求，符合德国政府希望快速推进流程并实现控制权有序过渡的利益，旨在确保客户和员",
+   "time": "2026-11-26 23:56",
+   "url": "https://wallstreetcn.com/livenews/3206541",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "特朗普入住深圳酒店后，留下了这样一个礼物...... - 极目新闻",
+   "summary": "",
+   "time": "2026-11-26 22:15",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1xdVVTeUNqd3RXa3pNenNCWTJudzNwN0pLMmx3WUEyWWxCMzBWREJoZGhrMnZXdERlZ0lKLVNUY1JPTXpIcWp4V3g3V2dOMktyeThGRmFOWHc2d3M?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "中国驻欧盟使团发言人就欧洲议会通过涉区锦新案消极动议答记者问",
@@ -1991,17 +1848,10 @@
    "source": "东财国际"
   },
   {
-   "title": "褐皮书与PCE双重信号：美联储12月加息预期升温，黄金面临政策定价考验 - 同花顺",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-26 22:04",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fd200MVNzalJ2RkFibGplWkY2QUktSVphNkRfaWtkUTQzSU1tOEIzNC0tekJwUElQV19hY2VmTXZJa00wRnlCYW9SdS02cUJVb3RHZTU5T0hybmRBZlE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "里昂：小米集团-W维持“跑赢大市”评级 目标价35港元 - 新浪财经_金融信息服务商",
-   "summary": "",
-   "time": "2026-11-26 21:52",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeEJwTDVYRHRTWHJRNjRzenlNSER6RW91aTl4dzdYLVptdE9pZkpoV213YlZ1QWt3Z2RCT2hmbU1Gd05DaVlXN0NTX29DaXZEVHlPMjcwUVFOTUxfcGdBa0xIYVp3cmtqcVVEMjZTdnpnWkw5bU5MMVNDSE40VXVZZzVDenNLNmZ0RFlWRXlyYXZKQk9Qc2hudldnRjlqVzJMUERSWWotQ3huUQ?oc=5",
+   "time": "2026-11-26 21:44",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NUEdTZi1BSGtieDd4WHU0Mmd4OGNyRFA3QXJDcDJKUWU4Zi1nR0dnQ2kycTNNa3o3alMxRUZ1TDkzclFXQ3M0dg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
@@ -2026,10 +1876,10 @@
    "source": "财新"
   },
   {
-   "title": "施耐德电气在意大利工厂扩大冷却产品的产量。",
-   "summary": "施耐德电气在意大利工厂扩大冷却产品的产量。",
+   "title": "欧洲STOXX 600指数涨幅扩大至2%，报638.63点。",
+   "summary": "欧洲STOXX 600指数涨幅扩大至2%，报638.63点。",
    "time": "2026-11-26 23:55",
-   "url": "https://wallstreetcn.com/livenews/3206539",
+   "url": "https://wallstreetcn.com/livenews/3206540",
    "source": "华尔街见闻"
   }
  ],
@@ -2047,8 +1897,8 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "东财国际": 7,
    "谷歌新闻·国际": 7,
+   "东财国际": 7,
    "谷歌新闻·研报": 7,
    "同花顺": 6,
    "富途": 6,
