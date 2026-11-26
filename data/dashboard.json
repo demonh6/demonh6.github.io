@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-26 22:27:15 CST",
- "generated_at_iso": "2026-11-26T22:27:15+08:00",
+ "generated_at": "2026-11-26 22:35:42 CST",
+ "generated_at_iso": "2026-11-26T22:35:42+08:00",
  "date": "2026-11-26",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1485,37 +1485,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3599.448,
-    "change": 34.848,
-    "change_pct": 0.98,
-    "quote_time": "22:27:18 2026-11-26"
+    "price": 3613.28,
+    "change": 48.68,
+    "change_pct": 1.37,
+    "quote_time": "22:35:44 2026-11-26"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 41.687,
-    "change": 1.149,
-    "change_pct": 2.83,
-    "quote_time": "22:27:13 2026-11-26"
+    "price": 42.034,
+    "change": 1.496,
+    "change_pct": 3.69,
+    "quote_time": "22:35:43 2026-11-26"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.784,
-    "change": 1.104,
-    "change_pct": 1.32,
-    "quote_time": "22:27:18 2026-11-26"
+    "price": 84.762,
+    "change": 1.082,
+    "change_pct": 1.29,
+    "quote_time": "22:35:44 2026-11-26"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.583,
-    "change": 0.943,
-    "change_pct": 1.04,
-    "quote_time": "22:27:16 2026-11-26"
+    "price": 91.546,
+    "change": 0.906,
+    "change_pct": 1.0,
+    "quote_time": "22:35:45 2026-11-26"
    }
   ],
   "crypto": [
@@ -1523,27 +1523,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60779.2,
-    "change": 2503.7,
-    "change_pct": 4.3,
+    "price": 60858.5,
+    "change": 3139.2,
+    "change_pct": 5.44,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1701.97,
-    "change": 65.16,
-    "change_pct": 3.98,
+    "price": 1704.51,
+    "change": 84.98,
+    "change_pct": 5.25,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.3,
-    "change": 4.23,
-    "change_pct": 6.31,
+    "price": 71.35,
+    "change": 4.88,
+    "change_pct": 7.34,
     "source": "okx"
    }
   ],
@@ -1551,24 +1551,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.65,
-    "change": -0.06,
-    "change_pct": -0.06,
+    "price": 103.654,
+    "change": -0.047,
+    "change_pct": -0.05,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6604,
-    "change": -0.0071,
-    "change_pct": -0.11,
+    "price": 6.6602,
+    "change": null,
+    "change_pct": null,
     "dec": 4,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "东财"
+    "source": "新浪"
    },
    {
     "name": "AH股溢价",
@@ -1577,9 +1577,9 @@
     "change": -0.99,
     "change_pct": -0.71,
     "dec": 2,
-    "date": "",
+    "date": "2026-11-26",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "东财"
+    "source": "新浪"
    }
   ]
  },
@@ -1602,17 +1602,28 @@
    "source": "东财"
   },
   "composite": {
-   "score": 45.2,
-   "label": "中性",
-   "color": "#d9b23c",
+   "score": 39.6,
+   "label": "偏冷",
+   "color": "#f58a3d",
    "basis": "A股广度 60% + 盘面结构 40%",
    "parts": {
     "breadth": 15.4,
-    "structure": 89.8
+    "structure": 75.9
    }
   }
  },
  "speakers": [
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普敦促对美国GDP数据的修正展开调查",
+   "summary": "特朗普敦促对美国GDP数据的修正展开调查。",
+   "time": "2026-11-26 22:27:58",
+   "url": "https://finance.eastmoney.com/a/202611263940952117.html",
+   "source": "东财国际",
+   "mentions": 3
+  },
   {
    "keyword": "美联储",
    "label": "美联储",
@@ -1621,17 +1632,6 @@
    "summary": "",
    "time": "2026-11-26 22:04",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fd200MVNzalJ2RkFibGplWkY2QUktSVphNkRfaWtkUTQzSU1tOEIzNC0tekJwUElQV19hY2VmTXZJa00wRnlCYW9SdS02cUJVb3RHZTU5T0hybmRBZlE?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普祝贺罗伯特·帕丁森成为新一任“007”：他看起来不错，祝他好运 - 新浪财经_金融信息服务商",
-   "summary": "",
-   "time": "2026-11-26 21:30",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQVMzbE5xbXViVWI2RVFmQjJyVDJ0bEh6N0xuR0VVTVRpWE9sYkRETmJPVGxTOUhfRVZUY0dxRDNNZHVvNFQyRnA3ejU5OHFXbUNMRkhxQXAwUHptN00tSFRHUGhiZmxZaHF5MTJMTG9kakZ3dks1MDU0MWZ1OXlDT1pDcVI?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
   }
@@ -1828,20 +1828,35 @@
    }
   ]
  },
- "alerts": [],
+ "alerts": [
+  {
+   "level": "warning",
+   "asset": "COMEX白银",
+   "message": "COMEX白银单日涨3.69%，达20日历史波动率的 2.0 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-26 22:36",
+   "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
+  },
+  {
+   "level": "warning",
+   "asset": "Solana",
+   "message": "Solana单日涨7.34%，达20日历史波动率的 2.1 倍（σ=3.50%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-26 22:36",
+   "chain": "币价急涨 → 空头杠杆被连环强平(轧空) → 强平买单进一步推高价格 → 稳定币加速流入加密市场 → 与纳指联动的高风险偏好扩散"
+  }
+ ],
  "news": [
   {
-   "title": "北京：支持更多“全球新”药械研发上市",
-   "summary": "记者在26日举行的“首都开局起步‘十五五’”系列主题新闻发布会上获悉，北京将在“十五五”期间支持更多“全球新”药械研发上市，进一步深化药品监管改革，提升政务服务效能，持续激发医药产业创新活力。",
-   "time": "2026-11-26 22:09",
-   "url": "https://wallstreetcn.com/livenews/3206495",
+   "title": "匈牙利总理马扎尔在布鲁塞尔举行的预算谈判期间表示，他认为周四达成协议的可能性“几乎为零”，甚至圣诞节前达成协议的可能性也不大。",
+   "summary": "匈牙利总理马扎尔在布鲁塞尔举行的预算谈判期间表示，他认为周四达成协议的可能性“几乎为零”，甚至圣诞节前达成协议的可能性也不大。",
+   "time": "2026-11-26 22:36",
+   "url": "https://wallstreetcn.com/livenews/3206509",
    "source": "华尔街见闻"
   },
   {
-   "title": "以防长：若哈马斯不解除武装将驱离100万加沙居民",
-   "summary": "【以防长：若哈马斯不解除武装将驱离100万加沙居民】以色列国防部长卡茨26日在社交媒体发表声明称，如果哈马斯不解除武装，以色列国防军将继续发动军事行动，并驱离100万加沙地带居民。",
-   "time": "2026-11-26 22:04:55",
-   "url": "https://finance.eastmoney.com/a/202611263940918925.html",
+   "title": "厄尔尼诺相关降雨灾害已致厄瓜多尔28人死亡",
+   "summary": "【厄尔尼诺相关降雨灾害已致厄瓜多尔28人死亡】当地时间11月25日凌晨，受持续强降雨影响，厄瓜多尔洛斯里奥斯省莫卡切地区发生山体滑坡。据悉，此次灾害已造成2人死亡、1人受伤，另有1名未成年人失踪。当地政府宣布进入紧急状态，并要求部分位于高风险区域的居民撤离。厄瓜多尔国家风险管理秘书处25日发布报告显示，自今年8月29日以来，与厄尔尼诺现象相关的降雨灾害已波及该国24个省，累计造成28人死亡、15人受伤，超12万人受到影响。",
+   "time": "2026-11-26 22:33:41",
+   "url": "https://finance.eastmoney.com/a/202611263940954189.html",
    "source": "东财国际"
   },
   {
@@ -1859,17 +1874,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "英国柴油需求大幅下滑",
+   "title": "刘海星分别会见尼泊尔、巴基斯坦客人",
    "summary": "",
-   "time": "2026-11-26 14:09:54",
-   "url": "https://news.futunn.com/flash/1005761443/sharp-decline-in-uk-diesel-demand",
+   "time": "2026-11-26 14:33:30",
+   "url": "https://news.futunn.com/flash/1005763207/liu-haixing-holds-separate-meetings-with-guests-from-nepal-and",
    "source": "富途"
   },
   {
-   "title": "上海：聚焦重点领域，把握关键抓手，加力形成上海经济高质量发展的有效支撑",
+   "title": "交易提示：美股周四休市一天",
    "summary": "",
-   "time": "2026-11-26 14:00:46",
-   "url": "https://news.10jqka.com.cn/20261126/c682267152.shtml",
+   "time": "2026-11-26 14:29:07",
+   "url": "https://news.10jqka.com.cn/20261126/c682267390.shtml",
    "source": "同花顺"
   },
   {
@@ -1887,45 +1902,45 @@
    "source": "财新"
   },
   {
-   "title": "英国政府斥巨资为潜艇维修“提速”",
-   "summary": "英国国防部26日和英国巴布科克国际集团公司签署总额80亿英镑（1英镑约合1.31美元）的五年期合同，由该公司为英国海军提供潜艇维修等服务，以期缩短潜艇维修时间、更快重返海上部署。",
-   "time": "2026-11-26 22:07",
-   "url": "https://wallstreetcn.com/livenews/3206493",
+   "title": "英国富时100日内涨幅达1.5%，报10603.48点。",
+   "summary": "英国富时100日内涨幅达1.5%，报10603.48点。",
+   "time": "2026-11-26 22:35",
+   "url": "https://wallstreetcn.com/livenews/3206508",
    "source": "华尔街见闻"
   },
   {
-   "title": "中国神华：董事会批准根据一般性授权发行H股方案",
-   "summary": "【中国神华：董事会批准根据一般性授权发行H股方案】中国神华(601088.SH)公告称，公司董事会选举张长岩为第六届董事会董事长及法定代表人，同时批准根据一般性授权发行H股方案，根据市场情况及公司实际需要，在本议案确定的发行规模、定价方式、发行对象、募集资金用途等范围内，决定本次授权发行的具体实施时间、最终发行数量、发行价格、募集资金规模、发行对象及其他配售安排。",
-   "time": "2026-11-26 22:01:54",
-   "url": "https://finance.eastmoney.com/a/202611263940910716.html",
+   "title": "多伦多股票指数开盘上涨124.78点",
+   "summary": "多伦多股票指数开盘上涨124.78点，或0.37%，至34,304.77点。",
+   "time": "2026-11-26 22:31:32",
+   "url": "https://finance.eastmoney.com/a/202611263940953763.html",
    "source": "东财国际"
   },
   {
    "title": "BBC事实查核：纪录显示，特朗普的帐户今年交易了44次Nvidia股票 - BBC",
    "summary": "",
-   "time": "2026-11-26 21:31",
+   "time": "2026-11-26 21:34",
    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ENjR3NG96WnRab2hrcV9PeElkNDMtUWo2blFlWmtoWkRSTkI4NlJxMkZHOGo3X08wNXR1TDVlbU54Q2tIeTlKaDE4VUJydjFWTHU4NS1SSkptQk5QVVk1MTdkNnhkcDDSAWxBVV95cUxQODBjTnVjMHRDSTdaWlllY3FGaDdzUVQ1NWk5aEZkc1NQY3lZZDJqSGxoV3JSZFUzVWtuSTdyUWJDWHFBLXhLU28tNmhrOFdrbmtJR1BmNHk2ekhFY01aVklveGpqTDdPZUplTnU?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "里昂：小米集团-W维持“跑赢大市”评级 目标价35港元 - 新浪财经_金融信息服务商",
+   "title": "独家 | 理财公司首次监管评级结果下发_理财聚焦 - 证券之星",
    "summary": "",
-   "time": "2026-11-26 21:52",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeEJwTDVYRHRTWHJRNjRzenlNSER6RW91aTl4dzdYLVptdE9pZkpoV213YlZ1QWt3Z2RCT2hmbU1Gd05DaVlXN0NTX29DaXZEVHlPMjcwUVFOTUxfcGdBa0xIYVp3cmtqcVVEMjZTdnpnWkw5bU5MMVNDSE40VXVZZzVDenNLNmZ0RFlWRXlyYXZKQk9Qc2hudldnRjlqVzJMUERSWWotQ3huUQ?oc=5",
+   "time": "2026-11-26 21:46",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZV0QyR3prZmNPUXpvcFZUMFFxRlBsWWViN2lkbkxyaFVoWFFvSkl2T2x4aWwzT3lxa3BYQUxEZF9YN2pmWjMxeWJkT0t3MDEycU5XMkxVTkpmQWFHLXRscHRR?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "五国将采购430辆战车，创下北约最大规模采购纪录",
+   "title": "四大商业银行已与上市公司签订股票回购增持贷款合同超6000亿元",
    "summary": "",
-   "time": "2026-11-26 14:00:03",
-   "url": "https://news.futunn.com/flash/1005760435/the-five-countries-will-procure-430-infantry-fighting-vehicles-setting",
+   "time": "2026-11-26 14:28:28",
+   "url": "https://news.futunn.com/flash/1005762759/the-four-major-commercial-banks-have-signed-loan-contracts-exceeding",
    "source": "富途"
   },
   {
-   "title": "挪威一廉航停运面临破产风险",
+   "title": "*ST香雪：确定广药资本为重整投资人，拟3.56元/股受让29.99%股份",
    "summary": "",
-   "time": "2026-11-26 13:56:58",
-   "url": "https://news.10jqka.com.cn/20261126/c682267109.shtml",
+   "time": "2026-11-26 14:22:09",
+   "url": "https://news.10jqka.com.cn/20261126/c682267341.shtml",
    "source": "同花顺"
   },
   {
@@ -1943,17 +1958,17 @@
    "source": "财新"
   },
   {
-   "title": "中国神华董事会批准发行H股，并向海外全资子公司增资19.6亿元",
-   "summary": "中国神华召开第六届董事会第二十四次会议，审议通过根据一般性授权发行H股的议案，授权董事长张长岩全权办理发行相关事宜，包括确定发行时间、数量、价格、募集资金规模及配售安排，并负责申请H股上市及办理相关监管审批手续。公告暂未披露具体发行规模及发行价格。",
-   "time": "2026-11-26 22:06",
-   "url": "https://wallstreetcn.com/livenews/3206492",
+   "title": "Stellantis：在成本上升背景下，维持意大利生产是“每日挑战”",
+   "summary": "汽车制造商斯泰兰蒂斯Stellantis NV欧洲区负责人Emanuele Cappellano表示，由于成本上升和竞争加剧，维持其在意大利的生产是一项挑战，并呼吁行业、政府和地方当局加强合作。\n\n该高管列举了与当前全球冲突相关的生产成本上升、汽车进口增加导致的市场竞争日益激烈，以及与电动化转型相关的成本。公司发言人引用他在维罗纳（Verona）一场会议上的发言称：“在这些条件下，确保意大利所需的",
+   "time": "2026-11-26 22:35",
+   "url": "https://wallstreetcn.com/livenews/3206507",
    "source": "华尔街见闻"
   },
   {
-   "title": "宝马计划在德国提供更多离职补偿方案 聚焦拟裁撤岗位",
-   "summary": "【宝马计划在德国提供更多离职补偿方案 聚焦拟裁撤岗位】宝马计划未来几个月在德国向更多员工提供离职补偿协议，这一次将针对具体拟裁撤岗位。宝马确认，其员工重组计划已于11月完成，并提前实现目标。",
-   "time": "2026-11-26 22:01:21",
-   "url": "https://finance.eastmoney.com/a/202611263940908826.html",
+   "title": "特朗普敦促对美国GDP数据的修正展开调查",
+   "summary": "特朗普敦促对美国GDP数据的修正展开调查。",
+   "time": "2026-11-26 22:27:58",
+   "url": "https://finance.eastmoney.com/a/202611263940952117.html",
    "source": "东财国际"
   },
   {
@@ -1964,24 +1979,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "独家 | 理财公司首次监管评级结果下发_理财聚焦 - 证券之星",
+   "title": "风口研报 - 财联社",
    "summary": "",
-   "time": "2026-11-26 21:46",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZV0QyR3prZmNPUXpvcFZUMFFxRlBsWWViN2lkbkxyaFVoWFFvSkl2T2x4aWwzT3lxa3BYQUxEZF9YN2pmWjMxeWJkT0t3MDEycU5XMkxVTkpmQWFHLXRscHRR?oc=5",
+   "time": "2026-11-26 21:44",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NUEdTZi1BSGtieDd4WHU0Mmd4OGNyRFA3QXJDcDJKUWU4Zi1nR0dnQ2kycTNNa3o3alMxRUZ1TDkzclFXQ3M0dg?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "科威特遭袭 莱茵金属公司两名意大利籍技术人员死亡",
+   "title": "特朗普质疑GDP数据为什么不在大选前上修 将展开调查",
    "summary": "",
-   "time": "2026-11-26 13:55:21",
-   "url": "https://news.futunn.com/flash/1005760124/two-italian-rheinmetall-technicians-killed-in-kuwait-attack",
+   "time": "2026-11-26 14:26:09",
+   "url": "https://news.futunn.com/flash/1005762684/trump-questions-why-gdp-data-was-not-revised-upward-before",
    "source": "富途"
   },
   {
-   "title": "中国与亚行将推动合作伙伴关系提质升级",
+   "title": "上海：聚焦重点领域，把握关键抓手，加力形成上海经济高质量发展的有效支撑",
    "summary": "",
-   "time": "2026-11-26 13:51:36",
-   "url": "https://news.10jqka.com.cn/20261126/c682267024.shtml",
+   "time": "2026-11-26 14:00:46",
+   "url": "https://news.10jqka.com.cn/20261126/c682267152.shtml",
    "source": "同花顺"
   },
   {
@@ -2003,7 +2018,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(18)",
+   "富途": "ok(20)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2100,9 +2115,9 @@
   "date": "2026-11-26",
   "zt_count": 65,
   "dt_count": 5,
-  "zb_count": 0,
+  "zb_count": 29,
   "qs_count": 78,
-  "seal_rate": 100.0,
+  "seal_rate": 69.1,
   "first_board": 51,
   "continued": 14,
   "max_streak": 5,
@@ -2285,11 +2300,11 @@
    }
   ],
   "index_pct": 0.01,
-  "score": 89.8,
+  "score": 75.9,
   "score_label": "过热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
-   "封板率 100%（炸板 0 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
+   "封板率 69%（炸板 29 家）：多空分歧居中，涨停质量一般。",
    "最高 5 连板：存在明确的高度股，短线情绪有主线载体；高度股一旦断板，同题材跟风股通常先调整。",
    "连板 14 家 / 涨停 65 家（22%）：以首板为主，持续性待验证",
    "涨停最集中的 元件 也只占 8%：热点分散，没有单一主线。"
@@ -2543,10 +2558,10 @@
     "date": "2026-11-26",
     "zt": 65,
     "dt": 5,
-    "zb": 0,
-    "seal": 100.0,
+    "zb": 29,
+    "seal": 69.1,
     "max_streak": 5,
-    "score": 89.8,
+    "score": 75.9,
     "index_pct": 0.01
    }
   ],
