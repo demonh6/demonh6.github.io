@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 06:31:00 CST",
- "generated_at_iso": "2026-11-27T06:31:00+08:00",
+ "generated_at": "2026-11-27 06:39:47 CST",
+ "generated_at_iso": "2026-11-27T06:39:47+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1019,32 +1019,11 @@
     ]
    },
    {
-    "name": "印度SENSEX",
-    "sym": "BSESN",
-    "price": 83938.2813,
-    "change": 1502.29,
-    "change_pct": 1.82
-   },
-   {
-    "name": "台湾加权",
-    "sym": "TWII",
-    "price": 39151.81,
-    "change": 956.38,
-    "change_pct": 2.5
-   },
-   {
-    "name": "德国DAX",
-    "sym": "DAX",
-    "price": 25215.52,
-    "change": 513.39,
-    "change_pct": 2.08
-   },
-   {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10623.84,
-    "change": 196.9,
-    "change_pct": 1.89,
+    "price": 10609.3,
+    "change": 182.36,
+    "change_pct": 1.75,
     "hist": [
      10881.9,
      10764.69,
@@ -1190,8 +1169,8 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6014.75,
-    "change": 120.29,
+    "price": 6014.74,
+    "change": 120.28,
     "change_pct": 2.04,
     "hist": [
      6204.24,
@@ -1226,13 +1205,6 @@
      6014.75
     ],
     "sigma": 1.418
-   },
-   {
-    "name": "俄罗斯MOEX",
-    "sym": "MOEX",
-    "price": 2331.98,
-    "change": -24.88,
-    "change_pct": -1.06
    }
   ]
  },
@@ -1322,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60597.5,
-    "change": 432.8,
-    "change_pct": 0.72,
+    "price": 60547.3,
+    "change": 309.0,
+    "change_pct": 0.51,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1697.44,
-    "change": 11.79,
-    "change_pct": 0.7,
+    "price": 1696.23,
+    "change": 7.91,
+    "change_pct": 0.47,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.25,
-    "change": 0.78,
-    "change_pct": 1.11,
+    "price": 71.19,
+    "change": 0.64,
+    "change_pct": 0.91,
     "source": "okx"
    }
   ],
@@ -1350,24 +1322,24 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.787,
-    "change": 0.004,
-    "change_pct": 0.0,
+    "price": 103.76,
+    "change": -0.03,
+    "change_pct": -0.03,
     "dec": 2,
-    "date": "2026-11-27",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6637,
-    "change": null,
-    "change_pct": null,
+    "price": 6.6606,
+    "change": -0.0007,
+    "change_pct": -0.01,
     "dec": 4,
-    "date": "2026-11-27",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1376,9 +1348,9 @@
     "change": -0.99,
     "change_pct": -0.71,
     "dec": 2,
-    "date": "2026-11-26",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1413,26 +1385,15 @@
  },
  "speakers": [
   {
-   "keyword": "马斯克",
-   "label": "马斯克",
-   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
-   "title": "周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人",
-   "summary": "【周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人】1、特朗普指责自己的政府“蓄意”低报美国经济增长，他抓住一次GDP数据的例行修正，以此作为其提出选举干预指控的依据，要求立即对此展开调查，但并未提供任何证据。2、马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份。",
-   "time": "2026-11-27 06:03:08",
-   "url": "https://finance.eastmoney.com/a/202611273941028398.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "三季度GDP数据大幅上修后，特朗普质疑数据操弄中期选举并要求调查 - 新浪财经",
+   "title": "特朗普被指单方面修改北约联合声明 俄乌停战责任再起争议",
    "summary": "",
-   "time": "2026-11-27 06:02",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUjNwMmtxYVZaTjNfY1E3V0hEUWF4cm5ZcENfN1ppYUhJUzFVU216ZXVweE5ZS2FLYW9KcEs2LTNwQ1dnWHhzc3pMcFdqZ1c0MHI5V2VzNThPbTFkUDh0WEFYTy10LUNQUFZoS2ROUnRJXzRrbGJNRTNwUkVjcTFtdDNkQ1ljTmRqVkdXV21NbFA3V1I5cDBkdEVwWHQ?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
+   "time": "2026-11-26 22:35:40",
+   "url": "https://news.futunn.com/flash/1005781553/trump-accused-of-unilaterally-altering-nato-joint-statement-dispute-over",
+   "source": "富途",
+   "mentions": 2
   },
   {
    "keyword": "欧洲央行",
@@ -1659,29 +1620,21 @@
    }
   ]
  },
- "alerts": [
-  {
-   "level": "warning",
-   "asset": "台湾加权",
-   "message": "台湾加权单日涨2.50%，达20日历史波动率的 2.1 倍（σ=1.20%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-27 06:31",
-   "chain": "欧/亚股指走强 → 全球股票基金获净申购 → 被动资金按权重买入成分股 → 跨市场风险偏好抬升 → 美股开盘联动放大涨幅"
-  },
-  {
-   "level": "warning",
-   "asset": "全球股指",
-   "message": "印度SENSEX、台湾加权、德国DAX等 5 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 06:31",
-   "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
-  }
- ],
+ "alerts": [],
  "news": [
   {
-   "title": "提醒：日内请重点关注（以下均为北京时间）",
-   "summary": "① 07:30 日本11月东京CPI；\n\n② 09:30 中国10月规模以上工业企业利润；\n\n③ 15:45 法国三季度GDP终值，11月CPI初值，；\n\n④ 16:55 德国11月失业人数，失业率；\n\n⑤ 17:00 欧洲央行1/3年期CPI预期；\n\n⑥ 18:00 欧元区11月消费者信心指数终值；\n\n⑦ 20:15 欧洲央行首席经济学家Lane在爱尔兰与原欧洲央行行长德拉吉讨论欧洲的经济未来和",
-   "time": "2026-11-27 06:30",
-   "url": "https://wallstreetcn.com/livenews/3206635",
+   "title": "动力电池格局重塑，二线阵营分化明显",
+   "summary": "据统计，今年前三季度，国内8家动力电池及锂电上市公司中，半数实现净利润同比增长。其中宁德时代以645.30亿元归母净利润居首，比亚迪223.45亿元、亿纬锂能52.40亿元紧随其后；从增幅看，鹏辉能源以928.81%领跑，中创新航、亿纬锂能分别增长99.50%和86.11%；降幅最大的为国轩高科，同比下降66.48%。",
+   "time": "2026-11-27 06:40",
+   "url": "https://wallstreetcn.com/livenews/3206639",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "以军称空袭黎巴嫩真主党武装训练营目标",
+   "summary": "【以军称空袭黎巴嫩真主党武装训练营目标】当地时间26日晚间，以色列国防军发表声明说，以军不久前对黎巴嫩南部一处属于黎巴嫩真主党精锐部队“拉德万部队”的训练营实施空袭，摧毁了数十枚火箭弹及发射装置。黎巴嫩真主党方面暂未作出回应。",
+   "time": "2026-11-27 06:38:43",
+   "url": "https://finance.eastmoney.com/a/202611273941034640.html",
+   "source": "东财国际"
   },
   {
    "title": "从逼宫CEO到持股10%：特朗普如何拿捏英特尔 - 新浪财经",
@@ -1691,15 +1644,8 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "古巴今年已批40个外资参与项目 总额约20亿美元",
-   "summary": "【古巴今年已批40个外资参与项目 总额约20亿美元】古巴副总理兼贸易和外国投资部部长佩雷斯-奥利瓦26日在第42届哈瓦那国际博览会期间表示，古巴今年已批准40个外资参与的投资项目，总投资额约20亿美元。",
-   "time": "2026-11-27 06:23:39",
-   "url": "https://finance.eastmoney.com/a/202611273941033167.html",
-   "source": "东财国际"
-  },
-  {
    "title": "东方财富财经早餐 11月27日周五",
-   "summary": "1、商务部：坚决反对美对中国等经济体加征301关税。2、广东：鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模。3、摩根大通将贵州茅台评级上调至超配，目标价1800元。",
+   "summary": "【东方财富财经早餐 11月27日周五】1、商务部：坚决反对美对中国等经济体加征301关税。2、广东：鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模。3、摩根大通将贵州茅台评级上调至超配，目标价1800元。",
    "time": "2026-11-27 06:00:36",
    "url": "http://finance.eastmoney.com/a/202611263940986188.html",
    "source": "东财早报"
@@ -1712,17 +1658,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "公募密集自购 多路增量资金持续入场",
+   "title": "中国进出口银行：前10个月科技贷款投放超7000亿元",
    "summary": "",
-   "time": "2026-11-26 22:17:02",
-   "url": "https://news.10jqka.com.cn/20261127/c682268636.shtml",
+   "time": "2026-11-26 22:39:32",
+   "url": "https://news.10jqka.com.cn/20261127/c682268731.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美联储12月加息25个基点的概率为99.4%",
+   "title": "特朗普被指单方面修改北约联合声明 俄乌停战责任再起争议",
    "summary": "",
-   "time": "2026-11-26 22:02:47",
-   "url": "https://news.futunn.com/flash/1005780349/the-probability-of-the-federal-reserve-raising-interest-rates-by",
+   "time": "2026-11-26 22:35:40",
+   "url": "https://news.futunn.com/flash/1005781553/trump-accused-of-unilaterally-altering-nato-joint-statement-dispute-over",
    "source": "富途"
   },
   {
@@ -1733,11 +1679,18 @@
    "source": "财新"
   },
   {
-   "title": "资金借道ETF入市，7月以来净流入超万亿",
-   "summary": "近日，A股市场持续震荡，大量资金“越跌越买”。11月25日，逾370亿元资金借道ETF入市。值得关注的是，7月以来的市场调整中，ETF成为资金进场的重要通道。Wind数据显示，7月1日至11月25日，全市场ETF累计净流入约1.4万亿元，沪深300等核心宽基指数成为“压舱石”，四只大型沪深300ETF合计净流入超3500亿元。此外，半导体材料设备等细分主题ETF也获资金积极加仓。（中证报）",
-   "time": "2026-11-27 06:28",
-   "url": "https://wallstreetcn.com/livenews/3206634",
+   "title": "日开型产品有序退场，新规重构理财信托合作格局",
+   "summary": "“最近好多信托公司都忙着调整产品线，新设周开型、月开型产品，主要就是为了赶在年底前完成产品整改，适配新规要求。”近日，华东地区某信托公司一位信托经理告诉记者。他所说的“赶在年底前”，与10月30日金融监管总局发布的《资产管理信托管理办法》有关。《办法》规定开放式信托产品开放周期不得低于七天，自2027年1月1日起施行。查询发现，多家信托公司已陆续下架日开型产品，新发行的开放式产品普遍转向周开型、月",
+   "time": "2026-11-27 06:37",
+   "url": "https://wallstreetcn.com/livenews/3206638",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "古巴今年已批40个外资参与项目 总额约20亿美元",
+   "summary": "【古巴今年已批40个外资参与项目 总额约20亿美元】古巴副总理兼贸易和外国投资部部长佩雷斯-奥利瓦26日在第42届哈瓦那国际博览会期间表示，古巴今年已批准40个外资参与的投资项目，总投资额约20亿美元。",
+   "time": "2026-11-27 06:23:39",
+   "url": "https://finance.eastmoney.com/a/202611273941033167.html",
+   "source": "东财国际"
   },
   {
    "title": "11月27日外盘头条：特朗普指政府蓄意低报经济增长德科斯将出任欧洲央行行长科威特称伊朗袭击其重要设施 - 新浪财经",
@@ -1745,13 +1698,6 @@
    "time": "2026-11-27 06:05",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQX2RKNmlNN1d4UVNkTlllendZYk95NlVDSDRaYkpnR3BYYWMzcTdNUWZHRWctUHJVOVRyZmF3T0NoNWJNYkNZeV9rZU1PckFET29PWXJLd1FESkxlbllXZFd0aVpYTW9BRmZFV0tHVy1OalYxX3k1YWdoLVlsRFhGWW5MN3hROWs?oc=5",
    "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "A股上市公司锚定主业积极扩产 海外产能布局成重要投资方向",
-   "summary": "【A股上市公司锚定主业积极扩产 海外产能布局成重要投资方向】梳理发现，近期，多家上市公司相继披露扩产计划，投资领域涵盖电子信息、新能源、先进制造等产业链，部分项目投资额达数十亿元。有上市公司负责人表示，与单纯扩大生产规模不同，此轮投资更多聚焦企业主营业务，既着眼于满足下游需求增长，也注重高端产品布局和全球产能配置，显示出企业深耕主业、谋求长远发展的投资取向。",
-   "time": "2026-11-27 06:17:43",
-   "url": "https://finance.eastmoney.com/a/202611273941005074.html",
-   "source": "东财国际"
   },
   {
    "title": "东方财富财经早餐 11月26日周四",
@@ -1768,17 +1714,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "欧洲央行将迎“稳健之手”：欧元区成员国已同意推荐德科斯担任欧央行行长",
+   "title": "公募密集自购 多路增量资金持续入场",
    "summary": "",
-   "time": "2026-11-26 22:16:02",
-   "url": "https://news.10jqka.com.cn/20261127/c682268632.shtml",
+   "time": "2026-11-26 22:17:02",
+   "url": "https://news.10jqka.com.cn/20261127/c682268636.shtml",
    "source": "同花顺"
   },
   {
-   "title": "美元指数26日上涨",
+   "title": "厄尔尼诺叠加高温 澳大利亚多地山火风险上升",
    "summary": "",
-   "time": "2026-11-26 20:15:36",
-   "url": "https://news.futunn.com/flash/1005776745/the-us-dollar-index-rose-on-the-26th",
+   "time": "2026-11-26 22:34:33",
+   "url": "https://news.futunn.com/flash/1005781488/el-ni-o-coupled-with-high-temperatures-raises-bushfire-risks",
    "source": "富途"
   },
   {
@@ -1789,11 +1735,18 @@
    "source": "财新"
   },
   {
-   "title": "基金公司出招，助投资者看清主动ETF“明牌”",
-   "summary": "首批18只主动ETF已全部挂牌上市。主动ETF须于每个交易日开市前披露基于前一交易日真实持仓的申购赎回清单（PCF），这一机制提升了基金投资的透明度，但PCF清单格式专业、数据繁杂，普通投资者直接阅读门槛较高。对此，基金公司纷纷出招，易方达基金、华夏基金等近期相继落地或优化了针对主动ETF的持仓查询与解读服务，将“每日亮牌”的监管要求转化为投资者看得清、看得懂的决策参考。（中证报）",
-   "time": "2026-11-27 06:27",
-   "url": "https://wallstreetcn.com/livenews/3206633",
+   "title": "债市波动传导至表内表外，银行体系资产负债管理精细化升级",
+   "summary": "10月末以来债市的调整，正在商业银行资产负债表的表内与表外同时留下印记。表内，债券持仓的公允价值浮亏拖累非息收入，部分中小银行此前依靠拉长久期增厚收益的配债模式遭遇考验；表外，银行理财产品净值出现回撤，预防性赎回的负反馈链条开始显现。",
+   "time": "2026-11-27 06:35",
+   "url": "https://wallstreetcn.com/livenews/3206637",
    "source": "华尔街见闻"
+  },
+  {
+   "title": "A股上市公司锚定主业积极扩产 海外产能布局成重要投资方向",
+   "summary": "【A股上市公司锚定主业积极扩产 海外产能布局成重要投资方向】梳理发现，近期，多家上市公司相继披露扩产计划，投资领域涵盖电子信息、新能源、先进制造等产业链，部分项目投资额达数十亿元。有上市公司负责人表示，与单纯扩大生产规模不同，此轮投资更多聚焦企业主营业务，既着眼于满足下游需求增长，也注重高端产品布局和全球产能配置，显示出企业深耕主业、谋求长远发展的投资取向。",
+   "time": "2026-11-27 06:17:43",
+   "url": "https://finance.eastmoney.com/a/202611273941005074.html",
+   "source": "东财国际"
   },
   {
    "title": "三季度GDP数据大幅上修后，特朗普质疑数据操弄中期选举并要求调查 - 新浪财经",
@@ -1803,13 +1756,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人",
-   "summary": "【周五你需要知道的隔夜全球要闻：特朗普指责政府低报经济增长并要求调查；联合国预计今年全球海运贸易“零增长”；欧央行迎来新任掌门人】1、特朗普指责自己的政府“蓄意”低报美国经济增长，他抓住一次GDP数据的例行修正，以此作为其提出选举干预指控的依据，要求立即对此展开调查，但并未提供任何证据。2、马斯克表示将每年向美国所有孩子再捐赠一份SpaceX股份。",
-   "time": "2026-11-27 06:03:08",
-   "url": "https://finance.eastmoney.com/a/202611273941028398.html",
-   "source": "东财国际"
-  },
-  {
    "title": "东方财富财经早餐 11月25日周三",
    "summary": "【东方财富财经早餐 11月25日周三】1、8000亿元MLF+5000亿元逆回购，央行长短“组合拳”今日落地。2、商务部：《关于加强相关两用物项对美国出口管制的公告》第二款暂停实施。3、欧盟宣布对混动汽车采取临时保障措施，商务部回应：坚决维护中国相关产业正当权益。",
    "time": "2026-11-25 06:00:58",
@@ -1817,24 +1763,24 @@
    "source": "东财早报"
   },
   {
-   "title": "爱尔眼科目标价涨幅超49%；汇顶科技评级被调低｜券商评级观察 - 21财经",
+   "title": "广发证券：深耕产业投行 护航硬科技长跑 - 广州日报新花城",
    "summary": "",
-   "time": "2026-11-26 23:06",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVXl6OWNKTmtLdVpFUkhkVkwzOFpUYTdOYms3ZDN4RnNHbXdibXAtSnZPclBXOUlFc2dEc2ktRGxGX29xZ0x6MXdFVjFjQjhtRGlmS3pGWkNjQjhnVDFUT3VOTDFROUh6NnEtSmUxaXlTTGtXV01jWk9zUE1TZmxRMXhDWWZMcldCUEQyMTVpMWVrTWhR?oc=5",
+   "time": "2026-11-26 23:51",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUkdIUi1GQlNwNkVFV095Z0ZDWkdBTkdQNE81b3dnLUJQSzdhMjhTTEFSRUlrSU8xeXFUWFB5RHVGSWJtSGtjcE85TnNoalM3UDRJR09JQTQyZWZlMXl5dnVoRmJPTHQ4QlVBU0NwMFRDWmpram1BdDRpYkpFZUpTYWpyN0htOFJtd0E?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "日本JERA计划在发电厂附近建设Anthropic和Meta数据中心",
+   "title": "欧洲央行将迎“稳健之手”：欧元区成员国已同意推荐德科斯担任欧央行行长",
    "summary": "",
-   "time": "2026-11-26 21:57:30",
-   "url": "https://news.10jqka.com.cn/20261127/c682268541.shtml",
+   "time": "2026-11-26 22:16:02",
+   "url": "https://news.10jqka.com.cn/20261127/c682268632.shtml",
    "source": "同花顺"
   },
   {
-   "title": "墨西哥央行上调经济增长预期",
+   "title": "美联储12月加息25个基点的概率为99.4%",
    "summary": "",
-   "time": "2026-11-26 19:18:05",
-   "url": "https://news.futunn.com/flash/1005774949/bank-of-mexico-raises-economic-growth-forecast",
+   "time": "2026-11-26 22:02:47",
+   "url": "https://news.futunn.com/flash/1005780349/the-probability-of-the-federal-reserve-raising-interest-rates-by",
    "source": "富途"
   },
   {
@@ -1859,8 +1805,8 @@
   },
   "counts": {
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
    "东财国际": 7,
+   "谷歌新闻·国际": 7,
    "东财早报": 3,
    "谷歌新闻·研报": 6,
    "同花顺": 6,
