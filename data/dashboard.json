@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 19:56:24 CST",
- "generated_at_iso": "2026-11-27T19:56:24+08:00",
+ "generated_at": "2026-11-27 20:04:41 CST",
+ "generated_at_iso": "2026-11-27T20:04:41+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10688.8,
-    "change": 79.5,
-    "change_pct": 0.75,
+    "price": 10674.93,
+    "change": 65.63,
+    "change_pct": 0.62,
     "hist": [
      10881.9,
      10764.69,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8135.18,
-    "change": 26.44,
-    "change_pct": 0.33,
+    "price": 8117.31,
+    "change": 8.57,
+    "change_pct": 0.11,
     "hist": [
      7956.7,
      7868.05,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6086.77,
-    "change": 72.03,
-    "change_pct": 1.2,
+    "price": 6069.98,
+    "change": 55.24,
+    "change_pct": 0.92,
     "hist": [
      6204.24,
      6144.82,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3698.58,
-    "change": 133.98,
+    "price": 3698.67,
+    "change": 134.07,
     "change_pct": 3.76,
-    "quote_time": "19:56:25 2026-11-27"
+    "quote_time": "20:04:45 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.369,
-    "change": 3.831,
-    "change_pct": 9.45,
-    "quote_time": "19:56:25 2026-11-27"
+    "price": 44.313,
+    "change": 3.775,
+    "change_pct": 9.31,
+    "quote_time": "20:04:37 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.417,
-    "change": 1.737,
-    "change_pct": 2.08,
-    "quote_time": "19:56:26 2026-11-27"
+    "price": 85.394,
+    "change": 1.714,
+    "change_pct": 2.05,
+    "quote_time": "20:04:45 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.09,
-    "change": 0.42,
-    "change_pct": 0.46,
-    "quote_time": "19:56:22 2026-11-27"
+    "price": 91.986,
+    "change": 0.316,
+    "change_pct": 0.34,
+    "quote_time": "20:04:33 2026-11-27"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61567.5,
-    "change": 838.8,
-    "change_pct": 1.38,
-    "source": "okx"
+    "price": 61693.6,
+    "change": 815.1,
+    "change_pct": 1.34,
+    "source": "okx",
+    "hist": [
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     61637.5
+    ],
+    "sigma": 2.634
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1721.24,
-    "change": 20.14,
-    "change_pct": 1.18,
-    "source": "okx"
+    "price": 1723.99,
+    "change": 16.33,
+    "change_pct": 0.96,
+    "source": "okx",
+    "hist": [
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1722.94
+    ],
+    "sigma": 3.099
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.08,
-    "change": 2.2,
-    "change_pct": 3.1,
-    "source": "okx"
+    "price": 73.15,
+    "change": 2.0,
+    "change_pct": 2.81,
+    "source": "okx",
+    "hist": [
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     73.09
+    ],
+    "sigma": 4.269
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.8,
-    "change": 0.01,
-    "change_pct": 0.01,
+    "price": 103.79,
+    "change": 0.0,
+    "change_pct": 0.0,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6549,
-    "change": -0.0064,
+    "price": 6.6545,
+    "change": -0.0068,
     "change_pct": -0.1,
     "dec": 4,
     "date": "",
@@ -1385,37 +1484,26 @@
  },
  "speakers": [
   {
+   "keyword": "人民银行",
+   "label": "人民银行",
+   "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
+   "title": "中国人民银行发布《中国金融稳定报告（2026）》",
+   "summary": "报告认为，2025年，面对复杂严峻的国内外形势，我国完整准确全面贯彻新发展理念，加快构建新发展格局，着力推动高质量发展，坚持稳中求进工作总基调，统筹国内国际两个大局，统筹发展和安全，经济顶压前行、向新向优发展，圆满实现经济社会发展主要目标任务，“十四五”胜利收官。2025年，我国国内生产总值(GDP)达到140.19万亿元，同比增长5%。就业总体稳定，国际收支基本平衡，对外贸易较快增长，外汇储备规",
+   "time": "2026-11-27 20:04",
+   "url": "https://wallstreetcn.com/livenews/3207090",
+   "source": "华尔街见闻",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普入住深圳酒店后，留下了这样一个礼物...... - 手机新浪网",
+   "title": "特朗普淡化北京和莫斯科对德黑兰的情报支持 - RFI",
    "summary": "",
-   "time": "2026-11-27 19:28",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ21OT3ZObU5iamU5ck93cEw0UUxLUzgtSVctNDhsVHV0cC1vSmtrRnZURFFiNFVXNXl2OTk5WEhmVjNvelZvWXpVbFFBQWMtdVpWdTlPQ0lTM2NmZ0M1S1RBLXlJOU5DbC1wX3ZfVmE?oc=5",
+   "time": "2026-11-27 19:41",
+   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPOTU3cVQ5eWN3bzBFbHIwc0JOX3RSMjNwa0tmaFRtR2FBcXhRQmM0cGlIaFNUOE8xMkpDZm43VGRmVGpMUTV1S1pPS3JmOHFNYTV6OURvNFJodnJyci1sYnp3MnV4YnJ1N0VLYzJ1OEJGSzZwcFJPTGVMSUZlY1NmSlktUU50WHlkSW9sUHRtUVlDUDJXTjNXa3VyVnduS1hpTzJBMmdrSTNiYXV0dDNtY1l0ZjRZTHFDR29pdkExSzFiYXdzTHFqNGhlZ1JxWkxTOWJ1TERsdGdUaE5GM2NfNHRrcl80aDIxXzhIdFJsN0FFUzNlR3B6SUw0ZWFpMVV2c3RXcmpRMkg5YTA4V28zRGRjQ1FUTlQxNmQwb0hKTC1pbHUyM3p0Mm5BTUZrb1NId1E3SmwzZEpnU0VfeXF3UVI3QXNILVYxUkxHRTNydw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
-  },
-  {
-   "keyword": "证监会",
-   "label": "证监会",
-   "hint": "A股核心监管机构的政策直接影响市场情绪",
-   "title": "证监会：推动完善保险、企业年金、社保基金等中长期资金入市支持引导政策",
-   "summary": "【证监会：推动完善保险、企业年金、社保基金等中长期资金入市支持引导政策】11月27日，中国证监会党委书记、主席吴清主持召开党委（扩大）会议，传达学习上午国务院常务会议精神，研究部署贯彻落实举措。会议强调，要进一步壮大中长期投资力量。持续实施好中长期资金入市指导意见及实施方案，推动完善保险、企业年金、社保基金等中长期资金入市支持引导政策，进一步拓宽资金来源、渠道和入市方式，推动全面落实长周期考核等要求，增强股市内在稳定性。",
-   "time": "2026-11-27 19:24:58",
-   "url": "https://finance.eastmoney.com/a/202611273941831437.html",
-   "source": "东财国际",
-   "mentions": 3
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升 - Sohu",
-   "summary": "",
-   "time": "2026-11-27 16:48",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYy1UT3c4RVhDX2d2czRfVzgzc0t6eWNUcmhZa3JqMjBMSjA2MlZqYTlIOVNqc0JfLXJWeEd4cDBVSjVocTMwY0hSdF9kcWNUa2dGem8tbldPQ0h4VE9JU29sdHc4S0E5LXA3VFMtb3hpZlBRVEFGOU9QRnAtcy15WG1BMjZoZ2Fa?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
   }
  ],
  "research": {
@@ -1479,6 +1567,26 @@
   ],
   "reports": [
    {
+    "title": "中国人民银行发布《中国金融稳定报告（2026）》",
+    "org": "国金",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-27",
+    "url": "https://wallstreetcn.com/livenews/3207090",
+    "source": "机构观点"
+   },
+   {
+    "title": "中邮证券：给予昀冢科技买入评级_券商研报_数据解析 - 证券之星",
+    "org": "中邮证券",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-27",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJOFV0NEhzT1BtWHVQYjJuWk1VSzM2Umo2ZXlzd1MzMHU0dXpjWVQ2U01SV2VfNG45X0oweWdCeTRZdHAzSmI4WXBUamp3ZWFBR1hSUFVLWVpfVm9IOU04YlpB?oc=5",
+    "source": "机构观点"
+   },
+   {
     "title": "东方财富财经早餐 11月27日周五",
     "org": "摩根大通",
     "rating": "",
@@ -1486,6 +1594,26 @@
     "industry": "",
     "date": "2026-11-27",
     "url": "http://finance.eastmoney.com/a/202611263940986188.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "中邮证券：首次覆盖福立旺给予买入评级_券商研报_数据解析 - 证券之星",
+    "org": "中邮证券",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-27",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE95OTM0dDA5QlpNdmd1VjhaUmtSZHd5XzhqeHgzWUc5Nmhqcm16bDRMUlprOTVBZmhONkE0Y1ozWnFaNXNwS1VpQ1h6YXF4cGxiVzJnZWljMXJvMmxhSnpMNUNn?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "高盛警告：未来一周全球股市或面临约1000亿美元程序化抛售",
+    "org": "高盛",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-27",
+    "url": "https://news.futunn.com/flash/1005850210/goldman-sachs-warns-global-equities-may-face-approximately-100-billion",
     "source": "机构观点"
    },
    {
@@ -1615,100 +1743,100 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日涨9.45%，达20日历史波动率的 5.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 19:56",
+   "message": "COMEX白银单日涨9.31%，达20日历史波动率的 5.2 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-27 20:05",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
    "message": "COMEX黄金单日涨3.76%，达20日历史波动率的 2.1 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "避险资金涌入黄金ETF与期货 → 金价上行压低实际利率预期 → 美元信用担忧升温 → 黄金股/贵金属板块联动走强 → 通胀对冲需求进一步放大涨幅"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 19:56",
+   "time": "2026-11-27 20:05",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "伊朗称一艘油轮在霍尔木兹海峡触雷爆炸",
-   "summary": "据伊朗伊斯兰共和国广播电视台报道，伊朗伊斯兰革命卫队海军27日发表声明说，一艘油轮当天在霍尔木兹海峡盖奈姆岛北部海域触雷爆炸，另一艘与其同行的油轮被迫返回。",
-   "time": "2026-11-27 19:39",
-   "url": "https://wallstreetcn.com/livenews/3207081",
+   "title": "中国人民银行发布《中国金融稳定报告（2026）》",
+   "summary": "报告认为，2025年，面对复杂严峻的国内外形势，我国完整准确全面贯彻新发展理念，加快构建新发展格局，着力推动高质量发展，坚持稳中求进工作总基调，统筹国内国际两个大局，统筹发展和安全，经济顶压前行、向新向优发展，圆满实现经济社会发展主要目标任务，“十四五”胜利收官。2025年，我国国内生产总值(GDP)达到140.19万亿元，同比增长5%。就业总体稳定，国际收支基本平衡，对外贸易较快增长，外汇储备规",
+   "time": "2026-11-27 20:04",
+   "url": "https://wallstreetcn.com/livenews/3207090",
    "source": "华尔街见闻"
   },
   {
-   "title": "蓝佛安会见国际农业发展基金总裁拉里奥",
-   "summary": "【蓝佛安会见国际农业发展基金总裁拉里奥】财政部部长蓝佛安2026年11月26日在部内会见了国际农业发展基金总裁拉里奥，双方就中国与国际农业发展基金合作等问题交换了意见。财政部副部长廖岷陪同会见。",
-   "time": "2026-11-27 19:30:29",
-   "url": "https://finance.eastmoney.com/a/202611273941834892.html",
+   "title": "美团电话会：预期2026年四季度餐饮外卖UE较二季度明显提升",
+   "summary": "【美团电话会：预期2026年四季度餐饮外卖UE较二季度明显提升】11月27日，美团发布2026年第三季度业绩报告，实现收入1156亿元。随着外卖行业趋于理性，叠加三季度暑期旺季效应，美团各项业务保持稳健增长。",
+   "time": "2026-11-27 20:00:12",
+   "url": "https://finance.eastmoney.com/a/202611273941880294.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普入住深圳酒店后，留下了这样一个礼物...... - 手机新浪网",
+   "title": "特朗普淡化北京和莫斯科对德黑兰的情报支持 - RFI",
    "summary": "",
-   "time": "2026-11-27 19:28",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ21OT3ZObU5iamU5ck93cEw0UUxLUzgtSVctNDhsVHV0cC1vSmtrRnZURFFiNFVXNXl2OTk5WEhmVjNvelZvWXpVbFFBQWMtdVpWdTlPQ0lTM2NmZ0M1S1RBLXlJOU5DbC1wX3ZfVmE?oc=5",
+   "time": "2026-11-27 19:41",
+   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPOTU3cVQ5eWN3bzBFbHIwc0JOX3RSMjNwa0tmaFRtR2FBcXhRQmM0cGlIaFNUOE8xMkpDZm43VGRmVGpMUTV1S1pPS3JmOHFNYTV6OURvNFJodnJyci1sYnp3MnV4YnJ1N0VLYzJ1OEJGSzZwcFJPTGVMSUZlY1NmSlktUU50WHlkSW9sUHRtUVlDUDJXTjNXa3VyVnduS1hpTzJBMmdrSTNiYXV0dDNtY1l0ZjRZTHFDR29pdkExSzFiYXdzTHFqNGhlZ1JxWkxTOWJ1TERsdGdUaE5GM2NfNHRrcl80aDIxXzhIdFJsN0FFUzNlR3B6SUw0ZWFpMVV2c3RXcmpRMkg5YTA4V28zRGRjQ1FUTlQxNmQwb0hKTC1pbHUyM3p0Mm5BTUZrb1NId1E3SmwzZEpnU0VfeXF3UVI3QXNILVYxUkxHRTNydw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1719,17 +1847,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "研究报告：AI成为保险信息新入口",
+   "title": "中国经济社会理事会六届四次全体会议召开",
    "summary": "",
-   "time": "2026-11-27 11:38:25",
-   "url": "https://news.10jqka.com.cn/20261127/c682315029.shtml",
+   "time": "2026-11-27 12:04:25",
+   "url": "https://news.10jqka.com.cn/20261127/c682316279.shtml",
    "source": "同花顺"
   },
   {
-   "title": "伊朗海军：未经许可通过海峡的油轮显著减少 敌人“躲得远远的”",
+   "title": "京东集团与中国东航签署战略合作协议，共建高效协同的现代航空服务体系",
    "summary": "",
-   "time": "2026-11-27 11:26:09",
-   "url": "https://news.futunn.com/flash/1005848939/iranian-navy-significant-drop-in-unauthorized-tanker-transit-through-strait",
+   "time": "2026-11-27 11:56:26",
+   "url": "https://news.futunn.com/flash/1005851189/jdcom-and-china-eastern-airlines-sign-strategic-cooperation-agreement-to",
    "source": "富途"
   },
   {
@@ -1747,24 +1875,24 @@
    "source": "财新"
   },
   {
-   "title": "报告：居民退休准备水平持续提升，养老认知向实际行动转化仍有空间",
-   "summary": "中国居民退休准备水平持续提升，养老认知与实际行动之间仍存在一定差距。\n\n11月26日，同方全球人寿联合清华大学经济管理学院中国保险与风险管理研究中心发布的《2026年中国居民退休准备指数调研报告》（下称《报告》）显示，2026年中国居民退休准备指数为5.68，较2025年的5.49有所提升，创近五年新高。",
-   "time": "2026-11-27 19:34",
-   "url": "https://wallstreetcn.com/livenews/3207080",
+   "title": "2027款极氪7X上市，限时售价21.68万元起",
+   "summary": "2027款极氪7X在广州车展上市，推出三款车型，官方零售价22.98万-26.98万元，上市限时售价21.68万元起。",
+   "time": "2026-11-27 20:01",
+   "url": "https://wallstreetcn.com/livenews/3207088",
    "source": "华尔街见闻"
   },
   {
-   "title": "证监会：推动完善保险、企业年金、社保基金等中长期资金入市支持引导政策",
-   "summary": "【证监会：推动完善保险、企业年金、社保基金等中长期资金入市支持引导政策】11月27日，中国证监会党委书记、主席吴清主持召开党委（扩大）会议，传达学习上午国务院常务会议精神，研究部署贯彻落实举措。会议强调，要进一步壮大中长期投资力量。持续实施好中长期资金入市指导意见及实施方案，推动完善保险、企业年金、社保基金等中长期资金入市支持引导政策，进一步拓宽资金来源、渠道和入市方式，推动全面落实长周期考核等要求，增强股市内在稳定性。",
-   "time": "2026-11-27 19:24:58",
-   "url": "https://finance.eastmoney.com/a/202611273941831437.html",
+   "title": "2026电影贺岁档今日开启 超五十部中外影片定档",
+   "summary": "【2026电影贺岁档今日开启 超五十部中外影片定档】从今天开始，2026年贺岁档（11月27日至12月31日）正式开启。截至目前，已有超五十部中外影片宣布定档。",
+   "time": "2026-11-27 19:59:57",
+   "url": "https://finance.eastmoney.com/a/202611273941880416.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：美国不需要中东的石油，“我们的石油是沙特和俄罗斯总和的两倍” - 上观新闻",
+   "title": "特朗普入住深圳酒店后，留下了这样一个礼物...... - 手机新浪网",
    "summary": "",
-   "time": "2026-11-27 17:16",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ha3BqcTBvcG1qOU1sOFdRSjhFQWhwZFNTWnhhLTYtTDd1T1Q2R25mLU9sVFBXZmRvOVVRSUpSLXFaQm8tOWg0Wlc4bEgtMWgxRHdsT2xoMVM1czN0?oc=5",
+   "time": "2026-11-27 19:28",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ21OT3ZObU5iamU5ck93cEw0UUxLUzgtSVctNDhsVHV0cC1vSmtrRnZURFFiNFVXNXl2OTk5WEhmVjNvelZvWXpVbFFBQWMtdVpWdTlPQ0lTM2NmZ0M1S1RBLXlJOU5DbC1wX3ZfVmE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1775,17 +1903,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "东易日盛：股价异动主要系控股股东无偿捐赠股权资产事项披露，股权捐赠尚未完成交割",
+   "title": "日本流感扩散 近九成地区报告病例数显著增加",
    "summary": "",
-   "time": "2026-11-27 11:37:37",
-   "url": "https://news.10jqka.com.cn/20261127/c682315018.shtml",
+   "time": "2026-11-27 12:04:10",
+   "url": "https://news.10jqka.com.cn/20261127/c682316276.shtml",
    "source": "同花顺"
   },
   {
-   "title": "证监会：强化跨境跨市场跨行业风险监测应对 动态完善政策工具箱",
+   "title": "高盛警告：未来一周全球股市或面临约1000亿美元程序化抛售",
    "summary": "",
-   "time": "2026-11-27 11:12:59",
-   "url": "https://news.futunn.com/flash/1005847563/csrc-strengthen-monitoring-and-response-to-cross-border-cross-market",
+   "time": "2026-11-27 11:42:21",
+   "url": "https://news.futunn.com/flash/1005850210/goldman-sachs-warns-global-equities-may-face-approximately-100-billion",
    "source": "富途"
   },
   {
@@ -1803,24 +1931,24 @@
    "source": "财新"
   },
   {
-   "title": "报道：黑客攻破了美国空军的云计算平台",
-   "summary": "据路透，黑客攻破了美国空军的旗舰云计算平台Cloud One。知情人士表示，这起针对Cloud One的入侵是在过去一个月左右被发现的。美国空军表示，其“不评论特定网络和系统的安全状况、漏洞或运行状态”。",
-   "time": "2026-11-27 19:27",
-   "url": "https://wallstreetcn.com/livenews/3207078",
+   "title": "《北京市民营经济促进条例》明年1月1日起实施，用制度保障民营经济平等便捷高效获取各类要素",
+   "summary": "北京市十六届人大常委会第二十七次会议表决通过《北京市民营经济促进条例》，于2027年1月1日起实施。\n\n《条例》坚持平等对待、公平竞争、同等保护、共同发展的原则，依法鼓励、支持、引导民营经济持续、健康、高质量发展，持续优化稳定公平透明可预期的民营经济发展环境。《条例》明确，本市推进要素市场化配置综合改革，完善要素市场制度和规则，从制度上保障包括民营经济组织在内的各类经济组织平等、便捷、高效获取土地",
+   "time": "2026-11-27 19:49",
+   "url": "https://wallstreetcn.com/livenews/3207083",
    "source": "华尔街见闻"
   },
   {
-   "title": "马士基码头公司将参股广州港南沙国际通用码头",
-   "summary": "【马士基码头公司将参股广州港南沙国际通用码头】11月27日，马士基与广州港集团就广州港南沙国际通用码头项目达成合资协议。马士基旗下的独立码头运营商马士基码头公司拟收购广州南沙国际通用码头有限公司40%的股权。双方将共同投资、开发并运营南沙国际通用码头，整合港口与航运优势，进一步提升该码头的物流服务能力。",
-   "time": "2026-11-27 19:24:20",
-   "url": "https://finance.eastmoney.com/a/202611273941833092.html",
+   "title": "长江证券宏观首席宋筱筱：稳市正由阶段性、应急性操作转向常态化、制度化安排",
+   "summary": "【长江证券宏观首席宋筱筱：稳市正由阶段性、应急性操作转向常态化、制度化安排】国常会今天就稳市机制作出一系列部署。长江证券宏观研究首席分析师宋筱筱受访时提到，本次稳市机制安排体现出三个\"不一样\"，标志着资本市场稳市正由阶段性、应急性操作转向常态化、制度化安排。",
+   "time": "2026-11-27 19:58:32",
+   "url": "https://finance.eastmoney.com/a/202611273941878373.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升 - Sohu",
+   "title": "特朗普：美国不需要中东的石油，“我们的石油是沙特和俄罗斯总和的两倍” - 上观新闻",
    "summary": "",
-   "time": "2026-11-27 16:48",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYy1UT3c4RVhDX2d2czRfVzgzc0t6eWNUcmhZa3JqMjBMSjA2MlZqYTlIOVNqc0JfLXJWeEd4cDBVSjVocTMwY0hSdF9kcWNUa2dGem8tbldPQ0h4VE9JU29sdHc4S0E5LXA3VFMtb3hpZlBRVEFGOU9QRnAtcy15WG1BMjZoZ2Fa?oc=5",
+   "time": "2026-11-27 17:16",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JR09GSGQxUG5SOTNCVEZZZkJsdVJycS1BOFlwRkxLdHUxeTQ0d3gwRTEtRHEtRGFtUnpyNzRkNU50MmRTNHJwMXJwbkVha3BZWFlpQzRva3dtNTM5TUE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1831,17 +1959,17 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "纳尔股份：完成回购注销46.91万股限制性股票",
+   "title": "北京市市长殷勇会见德国拜耳集团处方药事业部全球总裁",
    "summary": "",
-   "time": "2026-11-27 11:36:41",
-   "url": "https://news.10jqka.com.cn/20261127/c682315004.shtml",
+   "time": "2026-11-27 12:00:47",
+   "url": "https://news.10jqka.com.cn/20261127/c682316141.shtml",
    "source": "同花顺"
   },
   {
-   "title": "证监会：要坚持目标导向、问题导向，落实落细各项存量政策 会同有关方面抓紧研究出台相关增量政策",
+   "title": "印度禁止奈飞首部巴基斯坦原创电视剧上架",
    "summary": "",
-   "time": "2026-11-27 11:12:12",
-   "url": "https://news.futunn.com/flash/1005847439/csrc-adhere-to-goal-oriented-and-problem-solving-approaches-thoroughly",
+   "time": "2026-11-27 11:40:53",
+   "url": "https://news.futunn.com/flash/1005850054/india-bans-release-of-netflix-s-first-pakistani-original-series",
    "source": "富途"
   },
   {
