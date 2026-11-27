@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 12:28:06 CST",
- "generated_at_iso": "2026-11-27T12:28:06+08:00",
+ "generated_at": "2026-11-27 12:36:20 CST",
+ "generated_at_iso": "2026-11-27T12:36:20+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -871,9 +871,9 @@
    {
     "name": "日经225",
     "sym": "N225",
-    "price": 57966.8711,
-    "change": 467.71,
-    "change_pct": 0.81,
+    "price": 58491.4883,
+    "change": 992.33,
+    "change_pct": 1.73,
     "hist": [
      64425.95,
      65324.29,
@@ -946,9 +946,9 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 4838.8198,
-    "change": 127.61,
-    "change_pct": 2.71,
+    "price": 4871.9399,
+    "change": 160.73,
+    "change_pct": 3.41,
     "hist": [
      5768.01,
      5552.74,
@@ -1021,9 +1021,9 @@
    {
     "name": "印度SENSEX",
     "sym": "BSESN",
-    "price": 84328.5938,
-    "change": 390.31,
-    "change_pct": 0.46,
+    "price": 84136.0391,
+    "change": -192.55,
+    "change_pct": -0.23,
     "hist": [
      72781.89,
      74315.61,
@@ -1485,37 +1485,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3661.012,
-    "change": 96.412,
-    "change_pct": 2.7,
-    "quote_time": "12:28:09 2026-11-27"
+    "price": 3661.324,
+    "change": 96.724,
+    "change_pct": 2.71,
+    "quote_time": "12:36:24 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 43.757,
-    "change": 3.219,
-    "change_pct": 7.94,
-    "quote_time": "12:27:47 2026-11-27"
+    "price": 43.729,
+    "change": 3.191,
+    "change_pct": 7.87,
+    "quote_time": "12:35:40 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.791,
-    "change": 2.111,
-    "change_pct": 2.52,
-    "quote_time": "12:28:06 2026-11-27"
+    "price": 85.808,
+    "change": 2.128,
+    "change_pct": 2.54,
+    "quote_time": "12:36:19 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.296,
-    "change": 0.626,
-    "change_pct": 0.68,
-    "quote_time": "12:28:06 2026-11-27"
+    "price": 92.339,
+    "change": 0.669,
+    "change_pct": 0.73,
+    "quote_time": "12:35:51 2026-11-27"
    }
   ],
   "crypto": [
@@ -1523,27 +1523,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61468.6,
-    "change": 394.1,
-    "change_pct": 0.65,
+    "price": 61551.8,
+    "change": 559.6,
+    "change_pct": 0.92,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1730.95,
-    "change": 26.76,
-    "change_pct": 1.57,
+    "price": 1734.12,
+    "change": 30.34,
+    "change_pct": 1.78,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.8,
-    "change": 1.55,
-    "change_pct": 2.18,
+    "price": 72.95,
+    "change": 1.78,
+    "change_pct": 2.5,
     "source": "okx"
    }
   ],
@@ -1551,9 +1551,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.74,
-    "change": -0.05,
-    "change_pct": -0.05,
+    "price": 103.75,
+    "change": -0.04,
+    "change_pct": -0.04,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1562,8 +1562,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6632,
-    "change": 0.0019,
+    "price": 6.6634,
+    "change": 0.0021,
     "change_pct": 0.03,
     "dec": 4,
     "date": "",
@@ -1598,22 +1598,44 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普说美国不需要中东的石油",
-   "summary": "【特朗普说美国不需要中东的石油】美国总统特朗普当地时间26日在佛罗里达州海湖庄园回答媒体提问时说，美国没有使用并且也不需要中东的石油，美国在中东驻军和行动是为了保护以色列和中东地区。特朗普强调，算上委内瑞拉，美国拥有的石油比任何国家都多，是沙特阿拉伯和俄罗斯石油总和的两倍，可能接近全球石油总量的50%。",
-   "time": "2026-11-27 11:48:25",
-   "url": "https://finance.eastmoney.com/a/202611273941551740.html",
-   "source": "东财国际",
-   "mentions": 2
+   "title": "为何特朗普新一轮关税的威胁不如以往？ - BBC",
+   "summary": "",
+   "time": "2026-11-27 12:29",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05ZTJRUmx0ckFRcHRjNkduUHRzZTZjQk5Hb0NSLWF0UmFmTWNxbEg3bmxBd3NLZVk5Z19aV3RZS0sxMTV1RWNLOVp2dVdwMURjN1FMVTh2c3RmNTByY1VkWmRUdTg4eTjSAWxBVV95cUxOQlloLXpMZVkyT0ZhTVlidFctUFFPZmoyY1ljSlQ1Qjl2MmRoRmk2TnIza0QtR19SNUl0M3FDdTF2UzJOM1dka19ENE9VR2VHcDN3TVBQSnJ1MFJZODNOTDNXcUxrZ1BQUWdycG0?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
+  },
+  {
+   "keyword": "马斯克",
+   "label": "马斯克",
+   "hint": "特斯拉/SpaceX/X发言影响纳指与加密情绪",
+   "title": "马斯克扩大股票捐赠计划后 SpaceX另类交易平台股价涨逾7%",
+   "summary": "",
+   "time": "2026-11-27 04:30:26",
+   "url": "https://news.futunn.com/flash/1005807456/spacex-shares-rise-over-7-on-alternative-trading-platform-after",
+   "source": "富途",
+   "mentions": 1
+  },
+  {
+   "keyword": "国务院",
+   "label": "国务院",
+   "hint": "国务院级经济政策影响宏观环境",
+   "title": "李强主持召开国务院常务会议，研究持续深化资本市场投融资综合改革工作",
+   "summary": "",
+   "time": "2026-11-27 04:25:00",
+   "url": "https://news.futunn.com/flash/1005807283/li-qiang-presided-over-an-executive-meeting-of-the-state",
+   "source": "富途",
+   "mentions": 1
   },
   {
    "keyword": "美联储",
    "label": "美联储",
    "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "美联储12月或被迫放弃加息！前高盛策略师重磅预警：风险资产恐全面崩跌 - 财联社",
+   "title": "预计美联储12月加息，通胀回归2%目标或至少需要两至三年",
    "summary": "",
-   "time": "2026-11-27 10:49",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIdjlMQjdHYkRtTFZGM1F5WFltSWVUZ0FMLTZHZmlQd0VIc1I1T2ROc3ZlU0QxNnlkMVdiU19nRnpVX01qOVdJNA?oc=5",
-   "source": "谷歌新闻·国际",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-27/102509206.html?cxapp_link=true",
+   "source": "财新",
    "mentions": 1
   }
  ],
@@ -1834,38 +1856,45 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨3.79%，达20日历史波动率的 3.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 12:28",
+   "time": "2026-11-27 12:37",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日涨7.94%，达20日历史波动率的 4.4 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 12:28",
+   "message": "COMEX白银单日涨7.87%，达20日历史波动率的 4.4 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-27 12:37",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "深证成指、创业板指、英国富时100等 4 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 12:28",
+   "time": "2026-11-27 12:37",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "摩根资产管理和贝莱德竞标管理新加坡公共养老基金旗下新投资项目",
-   "summary": "【摩根资产管理和贝莱德竞标管理新加坡公共养老基金旗下新投资项目】在对新加坡7010亿新元（5430亿美元）公共养老基金部分资金的管理权角逐中，摩根资产管理、贝莱德和Endowus Singapore Pte处于领先位置。据知情人士称，这三家公司提交了有关运营一项新投资计划的建议方案，该项目为希望获得高于政府担保回报的中央公积金成员提供另一种选择。",
-   "time": "2026-11-27 11:51:40",
-   "url": "https://finance.eastmoney.com/a/202611273941552957.html",
+   "title": "早间要闻汇总",
+   "summary": "创业板指半日涨3.79%，华为昇腾概念集体爆发。\n\n恒指半日涨0.9%，恒生科技指数涨3.3%，MINIMAX涨超11%，华虹涨近10%。\n\n亚太股市全线走高，韩国股市盘中涨4%，日经225指数涨近2%。\n\n李强主持召开国务院常务会议，研究持续深化资本市场投融资综合改革工作，要求加力发挥“国家队”稳市作用。\n\n中国10月规模以上工业企业利润同比加速增长至20.1%，AI驱动下电子行业1-10月利润",
+   "time": "2026-11-27 12:35",
+   "url": "https://wallstreetcn.com/livenews/3206762",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "泰国SET指数上涨1%",
+   "summary": "泰国SET指数上涨1%至1,428.88点。",
+   "time": "2026-11-27 12:33:05",
+   "url": "https://finance.eastmoney.com/a/202611273941564880.html",
    "source": "东财国际"
   },
   {
-   "title": "小鹏人形机器人计划明年1月量产，汽车全年海外销量预计突破10万辆",
-   "summary": "11月27日，小鹏集团在广州车展公布人形机器人IRON商业化时间表，计划于2027年1月进入硬件量产阶段，一季度以导购身份进入部分小鹏门店实习，二季度面向商业客户正式发布，下半年全球上市。此次车展，8台IRON机器人承担迎宾接待、展区导览及车辆讲解等工作。此外，小鹏宣布成立香港研发中心，聚焦机器人与通用智能研发。",
-   "time": "2026-11-27 11:50",
-   "url": "https://wallstreetcn.com/livenews/3206752",
-   "source": "华尔街见闻"
+   "title": "为何特朗普新一轮关税的威胁不如以往？ - BBC",
+   "summary": "",
+   "time": "2026-11-27 12:29",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05ZTJRUmx0ckFRcHRjNkduUHRzZTZjQk5Hb0NSLWF0UmFmTWNxbEg3bmxBd3NLZVk5Z19aV3RZS0sxMTV1RWNLOVp2dVdwMURjN1FMVTh2c3RmNTByY1VkWmRUdTg4eTjSAWxBVV95cUxOQlloLXpMZVkyT0ZhTVlidFctUFFPZmoyY1ljSlQ1Qjl2MmRoRmk2TnIza0QtR19SNUl0M3FDdTF2UzJOM1dka19ENE9VR2VHcDN3TVBQSnJ1MFJZODNOTDNXcUxrZ1BQUWdycG0?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "1公司获得增持评级-更新中 - 中财网",
@@ -1875,13 +1904,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美国大幅上修GDP至4.3%，特朗普“炮轰”商务部 - 中国新闻网",
-   "summary": "",
-   "time": "2026-11-27 11:25",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43ampudEx2WDhfSTVjX2RsaXNxSEQtbEd1b0JUa0R2aGc0NV9JeWVfN2VLd3g3MGMwNXVucjVzemhHRnpMVlp6NkwzSUNVV2xWSkwzLUFuTlpFck1DLWxZdTBzVVpzWTlF?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "东方财富财经早餐 11月27日周五",
    "summary": "【东方财富财经早餐 11月27日周五】1、商务部：坚决反对美对中国等经济体加征301关税。2、广东：鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模。3、摩根大通将贵州茅台评级上调至超配，目标价1800元。",
    "time": "2026-11-27 06:00:36",
@@ -1889,39 +1911,46 @@
    "source": "东财早报"
   },
   {
-   "title": "11月27日午间公告一览：东诚药业子公司获得药物临床试验批准通知书",
+   "title": "丰田母公司10月全球销量同比下降4.6%至880,087辆",
    "summary": "",
-   "time": "2026-11-27 04:02:46",
-   "url": "https://news.10jqka.com.cn/20261127/c682286882.shtml",
+   "time": "2026-11-27 04:35:55",
+   "url": "https://news.10jqka.com.cn/20261127/c682288496.shtml",
    "source": "同花顺"
   },
   {
-   "title": "外国和机构投资者纷纷抢购 韩国创业板指涨超6%",
+   "title": "马斯克扩大股票捐赠计划后 SpaceX另类交易平台股价涨逾7%",
    "summary": "",
-   "time": "2026-11-27 03:59:34",
-   "url": "https://news.futunn.com/flash/1005805295/foreign-and-institutional-investors-rush-to-buy-as-kosdaq-surges",
+   "time": "2026-11-27 04:30:26",
+   "url": "https://news.futunn.com/flash/1005807456/spacex-shares-rise-over-7-on-alternative-trading-platform-after",
    "source": "富途"
   },
   {
-   "title": "英特尔曾经是不可战胜的名字，如今在AI牌桌上要靠代工和补贴找位置；英伟达眼下握着一手好牌，但客户已经在讨论“第二个供应商”。苏姿丰的12年说明，牌桌上的位置从来不是天生的，是一代产品一代产品打回来的",
+   "title": "固态电池距离规模化量产仍有工艺和成本两道难关，一方面要保证材料质量和电芯制造的稳定性，另一方面，也要降低原料、生产环境控制及设备投入带来的成本",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-27/102509186.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-27/102509207.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "福蓉科技：绿色低碳铝合金新材料项目预计12月进行部分设备调试",
-   "summary": "【福蓉科技：绿色低碳铝合金新材料项目预计12月进行部分设备调试】福蓉科技(603327)在11月27日举行的2026年第三季度业绩说明会上表示，公司绿色低碳铝合金新材料项目建设按计划推进，截至目前，该项目已完成厂房封顶，正在进行地坪硬化、设备安装等，预计12月开始进行部分设备调试，预计在明年上半年投入使用。",
-   "time": "2026-11-27 11:51:00",
-   "url": "https://finance.eastmoney.com/a/202611273941552036.html",
+   "title": "泰国SET指数上涨1%，至1428.88点。",
+   "summary": "泰国SET指数上涨1%，至1428.88点。",
+   "time": "2026-11-27 12:34",
+   "url": "https://wallstreetcn.com/livenews/3206761",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "美团：骑手薪酬均透明可查，不存在网传“工资准时险”",
+   "summary": "【美团：骑手薪酬均透明可查，不存在网传“工资准时险”】11月27日，美团发布声明称，骑手薪酬均透明可查，不存在网传“工资准时险”。",
+   "time": "2026-11-27 12:31:44",
+   "url": "https://finance.eastmoney.com/a/202611273941564650.html",
    "source": "东财国际"
   },
   {
-   "title": "11月27日午间收评：创业板指半日涨3.79%，华为昇腾概念集体爆发",
-   "summary": "1、市场早间震荡走强，创业板指、科创50盘中均涨超4%。华为昇腾概念集体爆发，常山北明、拓维信息、华胜天成、法本信息等多股涨停。半导体芯片股拉升，华海诚科、灿芯股份、京仪装备均20cm涨停。算力硬件股走强，深南电路、腾景科技、意华股份、兴森科技等涨停。下跌方面，银行板块下挫，南京银行、渝农商行、宁波银行跌超3%。个股呈现普涨态势，沪深京三市超4600股飘红，上午半天成交9270亿。午间收盘沪指涨0",
-   "time": "2026-11-27 11:30",
-   "url": "https://wallstreetcn.com/livenews/3206747",
-   "source": "华尔街见闻"
+   "title": "特朗普指政府蓄意低报经济增长 要求展开调查 - 新浪财经_金融信息服务商",
+   "summary": "",
+   "time": "2026-11-27 12:09",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBVSmdPQjZRWHFXMEZIWFQwLURMUlJmd1UzZDRCTVAzellocUwzOFY2eW8zb01FYXU5UXlra2RGTUpxcGZBMlZ0U3VJU0lXSmhXUVhWcFV5em9hV2xkd0hUbnJQRTNKdHNyV3JGYlJQY1ZTQ1JoUjQxdA?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "英伟达，又有坏消息 - 新浪财经_金融信息服务商",
@@ -1931,13 +1960,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "美联储12月或被迫放弃加息！前高盛策略师重磅预警：风险资产恐全面崩跌 - 财联社",
-   "summary": "",
-   "time": "2026-11-27 10:49",
-   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIdjlMQjdHYkRtTFZGM1F5WFltSWVUZ0FMLTZHZmlQd0VIc1I1T2ROc3ZlU0QxNnlkMVdiU19nRnpVX01qOVdJNA?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "东方财富财经早餐 11月26日周四",
    "summary": "【东方财富财经早餐 11月26日周四】1、美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄。2、多只宽基ETF尾盘放量！近两个月股票型ETF净流入超7600亿元。3、美媒：美政府正重新考虑或将伊朗高层列为打击目标。",
    "time": "2026-11-26 06:00:37",
@@ -1945,39 +1967,46 @@
    "source": "东财早报"
   },
   {
-   "title": "港股午评：恒生指数涨0.85%，恒生科技指数涨3.25%",
+   "title": "亚美尼亚总理：俄军将逐步向亚方移交边境管控",
    "summary": "",
-   "time": "2026-11-27 04:01:12",
-   "url": "https://news.10jqka.com.cn/20261127/c682286854.shtml",
+   "time": "2026-11-27 04:34:54",
+   "url": "https://news.10jqka.com.cn/20261127/c682288437.shtml",
    "source": "同花顺"
   },
   {
-   "title": "AI投资情绪回暖推动反弹 亚洲新兴市场股市有望录得周涨幅",
+   "title": "李强主持召开国务院常务会议，研究持续深化资本市场投融资综合改革工作",
    "summary": "",
-   "time": "2026-11-27 03:46:54",
-   "url": "https://news.futunn.com/flash/1005804373/improving-sentiment-toward-ai-investments-drives-rebound-asian-emerging-market",
+   "time": "2026-11-27 04:25:00",
+   "url": "https://news.futunn.com/flash/1005807283/li-qiang-presided-over-an-executive-meeting-of-the-state",
    "source": "富途"
   },
   {
-   "title": "华为芯片产业链全线爆发",
+   "title": "预计美联储12月加息，通胀回归2%目标或至少需要两至三年",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-27/102509184.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-27/102509206.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "特朗普说美国不需要中东的石油",
-   "summary": "【特朗普说美国不需要中东的石油】美国总统特朗普当地时间26日在佛罗里达州海湖庄园回答媒体提问时说，美国没有使用并且也不需要中东的石油，美国在中东驻军和行动是为了保护以色列和中东地区。特朗普强调，算上委内瑞拉，美国拥有的石油比任何国家都多，是沙特阿拉伯和俄罗斯石油总和的两倍，可能接近全球石油总量的50%。",
-   "time": "2026-11-27 11:48:25",
-   "url": "https://finance.eastmoney.com/a/202611273941551740.html",
+   "title": "提醒：日内请重点关注（以下均为北京时间）",
+   "summary": "① 15:45 法国三季度GDP终值，11月CPI初值；\n\n② 16:55 德国11月失业人数，失业率；\n\n③ 17:00 欧洲央行1/3年期CPI预期；\n\n④ 18:00 欧元区11月消费者信心指数终值；\n\n⑤ 20:15 欧洲央行首席经济学家Lane在爱尔兰与原欧洲央行行长德拉吉讨论欧洲的经济未来和欧洲大陆面临的挑战；\n\n⑥ 20:50 欧洲央行管委兼德国央行行长Nagel在法兰克福euro2",
+   "time": "2026-11-27 12:30",
+   "url": "https://wallstreetcn.com/livenews/3206760",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "云南：到2030年文山三七市场年交易额突破100亿元",
+   "summary": "【云南：到2030年文山三七市场年交易额突破100亿元】云南省农业农村厅、云南省发展和改革委员会、云南省商务厅、云南省市场监督管理局日前印发《省部共建文山三七产地市场实施方案》提出，到2030年，建成中药材GAP规范化种植基地30个以上，三七在地面积稳定在11万亩左右，年产量1.5万吨以上，市场年交易额突破100亿元。",
+   "time": "2026-11-27 12:29:00",
+   "url": "https://finance.eastmoney.com/a/202611273941564745.html",
    "source": "东财国际"
   },
   {
-   "title": "上证指数早盘收报3486.76点，涨0.28%。\n\n深证成指早盘收报10301.40点，涨2.16%。\n\n创业板指早盘收报2272.72点，涨3.79%。\n\n沪深300早盘收报3909.93点，涨0.24%。\n\n科创50早盘收报1221.7",
-   "summary": "上证指数早盘收报3486.76点，涨0.28%。\n\n深证成指早盘收报10301.40点，涨2.16%。\n\n创业板指早盘收报2272.72点，涨3.79%。\n\n沪深300早盘收报3909.93点，涨0.24%。\n\n科创50早盘收报1221.79点，涨4.43%。\n\n中证500早盘收报6018.34点，涨2.64%。\n\n中证1000早盘收报5714.69点，涨3.31%。",
-   "time": "2026-11-27 11:30",
-   "url": "https://wallstreetcn.com/livenews/3206748",
-   "source": "华尔街见闻"
+   "title": "国台办发言人：特朗普表示不支持“台独” - 广州日报新花城",
+   "summary": "",
+   "time": "2026-11-27 12:05",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUU1FOXpodUVMSkhlSVlMLWo3Z2lkcno4OERMRTEwRWFxaWs5SWtSNEh5SFZDbWhZWndJaFFmUEdEZ2RNV0kyZU11ejBicEF1ZjNCamFNZnZZZmF6OEczQ0l1WjFhblBxMUREZEwxNlFPXzdWcUo1UE1reW1vTEZFY2hlNXFEQjROQVE?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
    "title": "3公司获得推荐评级-更新中 - 中财网",
@@ -1987,13 +2016,6 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "特朗普新关税再将矛头指向北京，旨在削弱中国供应链优势 - 纽约时报中文网",
-   "summary": "",
-   "time": "2026-11-27 10:47",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ydzhuMUxXVGdSWk1lZHIyblBkR2t6aE5QVEt6QUxQZWF2Rml4VUtNczNPUE9neEJLOTZEM0hDR1RFbGQ4cnRCQ0NiSXZubjJFMWdVRkt5Nmtvam1tbnlneVZRRF84S2s0cDBxQw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
    "title": "东方财富财经早餐 11月25日周三",
    "summary": "【东方财富财经早餐 11月25日周三】1、8000亿元MLF+5000亿元逆回购，央行长短“组合拳”今日落地。2、商务部：《关于加强相关两用物项对美国出口管制的公告》第二款暂停实施。3、欧盟宣布对混动汽车采取临时保障措施，商务部回应：坚决维护中国相关产业正当权益。",
    "time": "2026-11-25 06:00:58",
@@ -2001,24 +2023,24 @@
    "source": "东财早报"
   },
   {
-   "title": "方邦股份：可剥离铜箔产品9月以来订单量逐月有所提升",
+   "title": "泰国SET指数上涨1%至1428.88",
    "summary": "",
-   "time": "2026-11-27 04:00:15",
-   "url": "https://news.10jqka.com.cn/20261127/c682286838.shtml",
+   "time": "2026-11-27 04:32:27",
+   "url": "https://news.10jqka.com.cn/20261127/c682288328.shtml",
    "source": "同花顺"
   },
   {
-   "title": "伊拉克数千万桶原油装船延迟 亚洲买家转寻替代货源",
+   "title": "中航周期研选领航混合基金募集失败",
    "summary": "",
-   "time": "2026-11-27 03:45:01",
-   "url": "https://news.futunn.com/flash/1005804318/delay-in-loading-tens-of-millions-of-barrels-of-iraqi",
+   "time": "2026-11-27 04:17:57",
+   "url": "https://news.futunn.com/flash/1005806796/fundraising-for-the-zhonghang-cycle-research-selection-navigator-hybrid-fund",
    "source": "富途"
   },
   {
-   "title": "企业通常会公布理论性的芯片设计，以推动研究并交流突破技术前沿的思路",
+   "title": "英特尔曾经是不可战胜的名字，如今在AI牌桌上要靠代工和补贴找位置；英伟达眼下握着一手好牌，但客户已经在讨论“第二个供应商”。苏姿丰的12年说明，牌桌上的位置从来不是天生的，是一代产品一代产品打回来的",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-27/102509137.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-27/102509186.html?cxapp_link=true",
    "source": "财新"
   }
  ],
@@ -2026,7 +2048,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(24)",
+   "富途": "ok(25)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -2035,10 +2057,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
+   "谷歌新闻·研报": 6,
    "东财早报": 3,
    "同花顺": 6,
    "富途": 6,
