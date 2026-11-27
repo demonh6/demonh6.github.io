@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-28 05:58:33 CST",
- "generated_at_iso": "2026-11-28T05:58:33+08:00",
+ "generated_at": "2026-11-28 06:06:47 CST",
+ "generated_at_iso": "2026-11-28T06:06:47+08:00",
  "date": "2026-11-28",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -719,7 +719,7 @@
     "price": 24129.5005,
     "change": 543.6982,
     "change_pct": 2.31,
-    "quote_time": "2026-11-28 05:58:00",
+    "quote_time": "2026-11-28 06:00:30",
     "hist": [
      27477.3105,
      27599.791,
@@ -1128,9 +1128,9 @@
      8040.49,
      7980.57,
      8108.74,
-     8157.97
+     8156.09
     ],
-    "sigma": 1.023,
+    "sigma": 1.022,
     "volume": 0.0,
     "vol_pctile": 100.0,
     "vol_hist": [
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59832.0,
-    "change": -1022.2,
-    "change_pct": -1.68,
-    "source": "okx"
+    "price": 59770.3,
+    "change": -888.7,
+    "change_pct": -1.47,
+    "source": "okx",
+    "hist": [
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     60123.3,
+     59721.5
+    ],
+    "sigma": 2.542
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1664.94,
-    "change": -41.01,
-    "change_pct": -2.4,
-    "source": "okx"
+    "price": 1660.54,
+    "change": -39.48,
+    "change_pct": -2.32,
+    "source": "okx",
+    "hist": [
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1672.3,
+     1659.24
+    ],
+    "sigma": 3.001
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.98,
-    "change": 0.32,
-    "change_pct": 0.45,
-    "source": "okx"
+    "price": 71.73,
+    "change": 0.44,
+    "change_pct": 0.62,
+    "source": "okx",
+    "hist": [
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     72.16,
+     71.66
+    ],
+    "sigma": 4.212
    }
   ],
   "fx": [
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6552,
-    "change": -0.0061,
+    "price": 6.6551,
+    "change": -0.0062,
     "change_pct": -0.09,
     "dec": 4,
     "date": "",
@@ -1364,11 +1463,11 @@
    "source": "alternative.me"
   },
   "a_share_breadth": {
-   "up": 5382,
-   "down": 181,
+   "up": 5099,
+   "down": 182,
    "flat": 15,
-   "total": 5578,
-   "breadth_pct": 96.5,
+   "total": 5296,
+   "breadth_pct": 96.3,
    "score": 100.0,
    "source": "东财"
   },
@@ -1385,6 +1484,17 @@
  },
  "speakers": [
   {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "交易员缩减对美联储加息押注 明年晚些转向宽松",
+   "summary": "【交易员缩减对美联储加息押注 明年晚些转向宽松】隔夜指数互换合约显示，美联储到明年3月两次加息的可能性为100%，到明年年中第三次加息的可能性接近90%。两周前，互换合约显示，预计美联储到明年9月将加息三次，并显示第四次加息的可能性为35%。一些交易员目前预计，随着加息的影响以及股市下跌拖累这个全球最大经济体，美联储将在明年晚些时候转向宽松。",
+   "time": "2026-11-28 06:01:20",
+   "url": "https://finance.eastmoney.com/a/202611283942138131.html",
+   "source": "东财国际",
+   "mentions": 1
+  },
+  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
@@ -1394,17 +1504,6 @@
    "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxNdXZQM1JTaFRUWjFqYVkzblh4M3JldDg4LWZKZ2NvSmtheDFlWkdrQkMyb0ljbjFNX3RRVFpqRUtFOU5LYWIteHZnRW9IYzE0YmRiUWNHN25SZWxCMUJaWVEydHBCZDRldlBGOGY3QnI5eFFwR0YyLWJDd3A0azVpQlk4Z2hTaDhUWDR0b0RoYjk4dVVkSEtpS1FnSWpMZENyQl9iR3d2dzc2ejVQSW9MTEtTRU9EekRKcWFOcWhxLWpVTVlzdzJyRlNqMFNPUE9yaDhGampUSlNrWGhkbVNYVzdvRzVjM2hDUFpnWG02NHBqMVg2VHBnalg4TmdkN2JtcHpYSTV6YlJocEJadUgyTVRNS1NyYk5rSk9NNHk0X2Q0RnhXekthb21GS25yZFdqYlY1U2c3MWdON2pVdE04U1N4QTNzLVlzdVRzRXA3cDlwd3pOMXFMWGlTdw?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 3
-  },
-  {
-   "keyword": "欧洲央行",
-   "label": "欧洲央行",
-   "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "欧洲央行副行长武伊契奇：下月利率决议或符合市场加息预期",
-   "summary": "",
-   "time": "2026-11-27 20:42:15",
-   "url": "https://news.futunn.com/flash/1005876658/ecb-vice-president-vuj-i-next-month-s-interest-rate",
-   "source": "富途",
-   "mentions": 1
   }
  ],
  "research": {
@@ -1468,6 +1567,16 @@
   ],
   "reports": [
    {
+    "title": "美元避险属性与美股联动交织，汇丰称外汇市场走势愈发难以解读",
+    "org": "汇丰",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-27",
+    "url": "https://news.futunn.com/flash/1005879148/the-interplay-between-the-us-dollar-s-safe-haven-attributes",
+    "source": "机构观点"
+   },
+   {
     "title": "东方财富财经早餐 11月27日周五",
     "org": "摩根大通",
     "rating": "",
@@ -1475,6 +1584,16 @@
     "industry": "",
     "date": "2026-11-27",
     "url": "http://finance.eastmoney.com/a/202611263940986188.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "惠誉将Stellantis的信用评级定为“BBB” 展望为负面 - 东方财富",
+    "org": "惠誉",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-27",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xTnFvNjE3T0Z6TzdvNFMxUUgzWnFybFhKRmYxeHZjQl9uak03T2toUkMtVVhhdEFTcWtUQW81cG5VSHhLYmxmalgtZmM0eFZGSnNrWF9yMWVMR0RmejVYbWUzX1U0UQ?oc=5",
     "source": "机构观点"
    },
    {
@@ -1604,86 +1723,86 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日涨8.70%，达20日历史波动率的 4.8 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-28 05:58",
+   "time": "2026-11-28 06:07",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "法国财长Lescure回应标普评级调整：标普认为亟需确保预算案获得通过。\n\n法国经济前景仍不明朗。",
-   "summary": "法国财长Lescure回应标普评级调整：标普认为亟需确保预算案获得通过。\n\n法国经济前景仍不明朗。",
-   "time": "2026-11-28 05:24",
-   "url": "https://wallstreetcn.com/livenews/3207276",
+   "title": "周五（11月27日）纽约尾盘，标普500股指期货最终涨1.71%，道指期货涨1.31%，纳斯达克100股指期货涨2.5%。\n\n罗素2000股指期货涨1.45%。",
+   "summary": "周五（11月27日）纽约尾盘，标普500股指期货最终涨1.71%，道指期货涨1.31%，纳斯达克100股指期货涨2.5%。\n\n罗素2000股指期货涨1.45%。",
+   "time": "2026-11-28 06:03",
+   "url": "https://wallstreetcn.com/livenews/3207281",
    "source": "华尔街见闻"
   },
   {
-   "title": "富时A50期指连续夜盘微跌0.09% 报13051点",
-   "summary": "富时A50期指连续夜盘微跌0.09%，报13051点。",
-   "time": "2026-11-28 05:18:36",
-   "url": "https://finance.eastmoney.com/a/202611283942133458.html",
+   "title": "交易员缩减对美联储加息押注 明年晚些转向宽松",
+   "summary": "【交易员缩减对美联储加息押注 明年晚些转向宽松】隔夜指数互换合约显示，美联储到明年3月两次加息的可能性为100%，到明年年中第三次加息的可能性接近90%。两周前，互换合约显示，预计美联储到明年9月将加息三次，并显示第四次加息的可能性为35%。一些交易员目前预计，随着加息的影响以及股市下跌拖累这个全球最大经济体，美联储将在明年晚些时候转向宽松。",
+   "time": "2026-11-28 06:01:20",
+   "url": "https://finance.eastmoney.com/a/202611283942138131.html",
    "source": "东财国际"
   },
   {
@@ -1694,24 +1813,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "廊坊银行主动终止委托评级 行方回应：系战略调整下的主动管理举措 - 新浪财经",
+   "title": "标普将法国评级展望下调至负面，原因是预算整顿风险；确认“A+/A-1”评级。 - 新浪网",
    "summary": "",
-   "time": "2026-11-28 03:07",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS2JpVGRHdFdhVWVpb2VFRjRscndYYzd2dnlCTnZGSFoxUDVJRXkxN3huSkNGOGo0S2E5OHNiY1JaVjhiU0doZG9KZjBLTDE2RVVSVlJSQ2kxNGozQ3VaaXRHM1VzOHpiendGVW10ZzlXS1Z6b3hrX2tmNlFRWUZJM1Jad3JqcHNBUUZEb3VPMA?oc=5",
+   "time": "2026-11-28 05:12",
+   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xbTNZZVN4Y002TmZXYnViVkptNHo4elZxTThIRFBTLTJYdVIyb1lPUXJGNDRrTDlMZzg2Y1dUWWVhNXBndy1wNTdERQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "标普将法国的信用评级展望下调至负面",
+   "title": "美元避险属性与美股联动交织，汇丰称外汇市场走势愈发难以解读",
    "summary": "",
-   "time": "2026-11-27 21:22:18",
-   "url": "https://news.futunn.com/flash/1005877881/s-p-downgrades-france-s-credit-rating-outlook-to-negative",
+   "time": "2026-11-27 21:51:47",
+   "url": "https://news.futunn.com/flash/1005879148/the-interplay-between-the-us-dollar-s-safe-haven-attributes",
    "source": "富途"
   },
   {
-   "title": "美国财政部：美国政府距离41.1万亿美元借款上限还差5328亿美元",
+   "title": "Anterix考虑大规模出售900MHz频谱 SpaceX已表达收购兴趣",
    "summary": "",
-   "time": "2026-11-27 21:07:13",
-   "url": "https://news.10jqka.com.cn/20261128/c682321495.shtml",
+   "time": "2026-11-27 21:41:55",
+   "url": "https://news.10jqka.com.cn/20261128/c682321511.shtml",
    "source": "同花顺"
   },
   {
@@ -1729,17 +1848,17 @@
    "source": "财新"
   },
   {
-   "title": "富时A50期指连续夜盘收跌0.09%，报13051点。",
-   "summary": "富时A50期指连续夜盘收跌0.09%，报13051点。",
-   "time": "2026-11-28 05:15",
-   "url": "https://wallstreetcn.com/livenews/3207274",
+   "title": "国际金价周五涨超2.4%，本周现货白银涨6.3%",
+   "summary": "周五（11月27日）纽约尾盘，现货黄金涨2.43%，报3653.53美元/盎司，本周累计上涨3.25%，整体呈现出V形反转行情，11月25日美股早盘曾跌至3426.77美元。\n\nCOMEX黄金期货累涨3.87%，报3681.10美元/盎司。\n\n现货白银涨5.32%，报43.7545美元/盎司，本周累涨6.30%，11月25日美股早盘曾跌至38.2115美元。\n\nCOMEX白银期货累涨5.84%，报",
+   "time": "2026-11-28 06:02",
+   "url": "https://wallstreetcn.com/livenews/3207280",
    "source": "华尔街见闻"
   },
   {
-   "title": "标普将法国评级展望调整至负面；确认“A+/A-1”评级",
-   "summary": "标普将法国评级展望调整至负面；确认“A+/A-1”评级。",
-   "time": "2026-11-28 05:14:48",
-   "url": "https://finance.eastmoney.com/a/202611283942131523.html",
+   "title": "手握稀缺900兆赫频谱 美股小公司Anterix年内大涨280",
+   "summary": "【Anterix考虑大规模出售900MHz频谱 SpaceX已表达收购兴趣】美国无线频谱公司Anterix正考虑大规模地出售手中900兆赫频谱，而正在拓展卫星直连终端业务的SpaceX，已经表明对这一频段感兴趣。",
+   "time": "2026-11-28 05:44:20",
+   "url": "https://finance.eastmoney.com/a/202611283942116686.html",
    "source": "东财国际"
   },
   {
@@ -1750,24 +1869,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "惠誉将Stellantis的信用评级定为“BBB” 展望为负面 - 东方财富",
+   "title": "廊坊银行主动终止委托评级 行方回应：系战略调整下的主动管理举措 - 新浪财经",
    "summary": "",
-   "time": "2026-11-27 23:57",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xTnFvNjE3T0Z6TzdvNFMxUUgzWnFybFhKRmYxeHZjQl9uak03T2toUkMtVVhhdEFTcWtUQW81cG5VSHhLYmxmalgtZmM0eFZGSnNrWF9yMWVMR0RmejVYbWUzX1U0UQ?oc=5",
+   "time": "2026-11-28 03:07",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS2JpVGRHdFdhVWVpb2VFRjRscndYYzd2dnlCTnZGSFoxUDVJRXkxN3huSkNGOGo0S2E5OHNiY1JaVjhiU0doZG9KZjBLTDE2RVVSVlJSQ2kxNGozQ3VaaXRHM1VzOHpiendGVW10ZzlXS1Z6b3hrX2tmNlFRWUZJM1Jad3JqcHNBUUZEb3VPMA?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "Anthropic股价重回IPO发行价上方，AI股反弹提振市场",
+   "title": "标普上调匈牙利评级展望至稳定，财政整顿与加入欧元区计划获认可",
    "summary": "",
-   "time": "2026-11-27 21:20:07",
-   "url": "https://news.futunn.com/flash/1005877693/anthropic-s-share-price-returns-above-ipo-offering-level-ai",
+   "time": "2026-11-27 21:35:13",
+   "url": "https://news.futunn.com/flash/1005878457/s-p-upgrades-hungary-s-rating-outlook-to-stable-fiscal",
    "source": "富途"
   },
   {
-   "title": "美国（WTI）原油期货结算价报每桶83.08美元，跌幅0.72%",
+   "title": "美国财政部：美国政府距离41.1万亿美元借款上限还差5328亿美元",
    "summary": "",
-   "time": "2026-11-27 19:33:16",
-   "url": "https://news.10jqka.com.cn/20261128/c682321422.shtml",
+   "time": "2026-11-27 21:07:13",
+   "url": "https://news.10jqka.com.cn/20261128/c682321495.shtml",
    "source": "同花顺"
   },
   {
@@ -1785,17 +1904,17 @@
    "source": "财新"
   },
   {
-   "title": "标普：下调法国评级的展望至负面",
-   "summary": "标普：确认法国A+/A-评级，前景展望由稳定下调至负面。\n\n原因是预算整顿风险；确认“A+/A-1”评级。\n\n反映出在经济增长前景低迷的背景下政府债务不断上升。\n\n认为2027年总统选举后政治碎片化持续存在的高风险较大，将继续制约政策有效性。\n\n预计法国赤字仍将承压。\n\n在连续两年经济表现疲软之后，法国2027年实际GDP增长可能仍将低迷。\n\n法国政府债务将在整个预测期内持续增加，到2029年利息",
-   "time": "2026-11-28 05:14",
-   "url": "https://wallstreetcn.com/livenews/3207273",
+   "title": "伊朗革命卫队海军称，两艘油轮在霍尔木兹海峡附近“未经授权的航线”上触雷。",
+   "summary": "伊朗革命卫队海军称，两艘油轮在霍尔木兹海峡附近“未经授权的航线”上触雷。",
+   "time": "2026-11-28 05:54",
+   "url": "https://wallstreetcn.com/livenews/3207279",
    "source": "华尔街见闻"
   },
   {
-   "title": "标普将匈牙利评级展望从负面调整为稳定",
-   "summary": "标普将匈牙利评级展望从负面调整为稳定。",
-   "time": "2026-11-28 05:11:40",
-   "url": "https://finance.eastmoney.com/a/202611283942131282.html",
+   "title": "富时A50期指连续夜盘微跌0.09% 报13051点",
+   "summary": "富时A50期指连续夜盘微跌0.09%，报13051点。",
+   "time": "2026-11-28 05:18:36",
+   "url": "https://finance.eastmoney.com/a/202611283942133458.html",
    "source": "东财国际"
   },
   {
@@ -1806,24 +1925,24 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "“浙”一周第244期｜本周精选研报/重磅推荐/人气路演 - 新浪财经",
+   "title": "惠誉将Stellantis的信用评级定为“BBB” 展望为负面 - 东方财富",
    "summary": "",
-   "time": "2026-11-27 23:30",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUm8xUHVMNVUySEY3VkNDVTVGMmRNQThyVnRjcjhsb3FyYjAzeHRRRjZVMXFCM0dwOHpRcll3V0tnaF8xb19hdkNscFEtbkhzYkVxNW43Y2lUMUFMaW1OLWlRSlJkQ1d4WVgxNVJHUzNRdnB6cDJBTTVhdHFWVHJRWlh5U0twdw?oc=5",
+   "time": "2026-11-27 23:57",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xTnFvNjE3T0Z6TzdvNFMxUUgzWnFybFhKRmYxeHZjQl9uak03T2toUkMtVVhhdEFTcWtUQW81cG5VSHhLYmxmalgtZmM0eFZGSnNrWF9yMWVMR0RmejVYbWUzX1U0UQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "欧洲央行副行长武伊契奇：下月利率决议或符合市场加息预期",
+   "title": "标普上调南非信用评级，距离重返投资级仅差一步",
    "summary": "",
-   "time": "2026-11-27 20:42:15",
-   "url": "https://news.futunn.com/flash/1005876658/ecb-vice-president-vuj-i-next-month-s-interest-rate",
+   "time": "2026-11-27 21:34:09",
+   "url": "https://news.futunn.com/flash/1005878372/s-p-upgrades-south-africa-s-credit-rating-one-step",
    "source": "富途"
   },
   {
-   "title": "消息人士称，依视路陆逊梯卡集团目标收购阿玛尼2%至3%的股份",
+   "title": "美国（WTI）原油期货结算价报每桶83.08美元，跌幅0.72%",
    "summary": "",
-   "time": "2026-11-27 18:59:34",
-   "url": "https://news.10jqka.com.cn/20261128/c682321407.shtml",
+   "time": "2026-11-27 19:33:16",
+   "url": "https://news.10jqka.com.cn/20261128/c682321422.shtml",
    "source": "同花顺"
   },
   {
@@ -1834,10 +1953,10 @@
    "source": "财新"
   },
   {
-   "title": "普京：俄新型核潜艇“彼尔姆”号将加入太平洋舰队",
-   "summary": "俄罗斯总统普京27日在新型核动力潜艇“彼尔姆”号入列升旗仪式上表示，该核潜艇将加入俄太平洋舰队并执行战斗值班任务。“彼尔姆”号入列升旗仪式当天在俄西北部阿尔汉格尔斯克州北德文斯克市举行。普京发表讲话称，“彼尔姆”号是俄海军过去6年间接收的第5艘“亚森-M”级核潜艇。他说，俄罗斯是世界上少数有能力建造此类先进核潜艇的国家之一，这类核潜艇属于具备全球战略意义的武器装备。（新华社）",
-   "time": "2026-11-28 05:11",
-   "url": "https://wallstreetcn.com/livenews/3207272",
+   "title": "明晟公司MSCI新兴市场股票指数涨2%，发展中国家外汇指数涨0.3%。",
+   "summary": "明晟公司MSCI新兴市场股票指数涨2%，发展中国家外汇指数涨0.3%。",
+   "time": "2026-11-28 05:46",
+   "url": "https://wallstreetcn.com/livenews/3207278",
    "source": "华尔街见闻"
   }
  ],
@@ -1845,7 +1964,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(18)",
+   "富途": "ok(19)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
