@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 21:27:14 CST",
- "generated_at_iso": "2026-11-27T21:27:14+08:00",
+ "generated_at": "2026-11-27 21:35:36 CST",
+ "generated_at_iso": "2026-11-27T21:35:36+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10678.22,
-    "change": 68.92,
-    "change_pct": 0.65,
+    "price": 10672.55,
+    "change": 63.25,
+    "change_pct": 0.6,
     "hist": [
      10881.9,
      10764.69,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8120.21,
-    "change": 11.47,
-    "change_pct": 0.14,
+    "price": 8134.39,
+    "change": 25.65,
+    "change_pct": 0.32,
     "hist": [
      7956.7,
      7868.05,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6075.16,
-    "change": 60.42,
-    "change_pct": 1.0,
+    "price": 6088.27,
+    "change": 73.53,
+    "change_pct": 1.22,
     "hist": [
      6204.24,
      6144.82,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3678.33,
-    "change": 113.73,
-    "change_pct": 3.19,
-    "quote_time": "21:27:18 2026-11-27"
+    "price": 3676.26,
+    "change": 111.66,
+    "change_pct": 3.13,
+    "quote_time": "21:35:39 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.068,
-    "change": 3.53,
-    "change_pct": 8.71,
-    "quote_time": "21:27:13 2026-11-27"
+    "price": 44.138,
+    "change": 3.6,
+    "change_pct": 8.88,
+    "quote_time": "21:35:37 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.654,
-    "change": 0.974,
-    "change_pct": 1.16,
-    "quote_time": "21:27:18 2026-11-27"
+    "price": 84.447,
+    "change": 0.767,
+    "change_pct": 0.92,
+    "quote_time": "21:35:40 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.702,
-    "change": 0.032,
-    "change_pct": 0.03,
-    "quote_time": "21:27:16 2026-11-27"
+    "price": 91.565,
+    "change": -0.105,
+    "change_pct": -0.11,
+    "quote_time": "21:35:38 2026-11-27"
    }
   ],
   "crypto": [
@@ -1294,17 +1294,17 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61438.6,
-    "change": 613.0,
-    "change_pct": 1.01,
+    "price": 61419.1,
+    "change": 567.1,
+    "change_pct": 0.93,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1719.98,
-    "change": 14.98,
+    "price": 1719.64,
+    "change": 15.01,
     "change_pct": 0.88,
     "source": "okx"
    },
@@ -1312,9 +1312,9 @@
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.25,
-    "change": 2.31,
-    "change_pct": 3.26,
+    "price": 73.29,
+    "change": 2.37,
+    "change_pct": 3.34,
     "source": "okx"
    }
   ],
@@ -1322,9 +1322,9 @@
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.95,
-    "change": 0.16,
-    "change_pct": 0.15,
+    "price": 103.97,
+    "change": 0.18,
+    "change_pct": 0.17,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1333,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6567,
-    "change": -0.0046,
+    "price": 6.6566,
+    "change": -0.0047,
     "change_pct": -0.07,
     "dec": 4,
     "date": "",
@@ -1362,30 +1362,49 @@
    "color": "#f04a3d",
    "timestamp": "2026-11-27",
    "source": "alternative.me"
+  },
+  "a_share_breadth": {
+   "up": 5099,
+   "down": 182,
+   "flat": 15,
+   "total": 5296,
+   "breadth_pct": 96.3,
+   "score": 100.0,
+   "source": "东财"
+  },
+  "composite": {
+   "score": 91.9,
+   "label": "过热",
+   "color": "#26a56b",
+   "basis": "A股广度 60% + 盘面结构 40%",
+   "parts": {
+    "breadth": 100.0,
+    "structure": 79.8
+   }
   }
  },
  "speakers": [
   {
-   "keyword": "欧洲央行",
-   "label": "欧洲央行",
-   "hint": "欧央行政策影响欧元区与全球流动性",
-   "title": "欧洲央行管委内格尔：预计2027年通胀率将持续高于3%",
-   "summary": "欧洲央行管委内格尔表示，预计2027年通胀率将持续高于3%。",
-   "time": "2026-11-27 21:05:51",
-   "url": "https://finance.eastmoney.com/a/202611273941928134.html",
-   "source": "东财国际",
-   "mentions": 1
-  },
-  {
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普：如果奥巴马当年不把普京踢出八国集团，可能都不会有俄乌冲突，普京当时觉得自己被狠狠羞辱了 - 21财经",
+   "summary": "",
+   "time": "2026-11-27 20:04",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOE9ISTU5QmVaUFRmb2RTT0dUM0NrNjlDdy1sOXd0Qk5LNm54SGFBU0ZVYUljSVdoUUtSVmJmMnNuTWZqWFpWZUhUVDNIcjZBWVVyaFRVWFkxcHNCbVFfd2wzTnFhUTlUN2ptNVdqUS02bHNad3RhRGxDSGxMMElWcGl6Nm5HVHpsZkxtQl9hbw?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
+  },
+  {
+   "keyword": "黄仁勋",
+   "label": "黄仁勋",
+   "hint": "英伟达动向是全球AI行情的风向标",
    "title": "特朗普称他掌握“信息”表明 黄仁勋不会构成安全威胁 - RFI",
    "summary": "",
    "time": "2026-11-27 19:57",
    "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxNbVpXc2NjM1RIeUZNRDRobXN2bVpreVJJQlNVcWNVQlBJQ3B3eEd5ekVBeVV6ZzF2anhIVU0wM1dtNFVoSkktekNDQ0Rnd1VFejE1Y2lUenB3YV81Y1VTUzhNYmZEbTRCbUlxdkFKR1g0X3hfa3ZRUFhzaGkwRldtamdBSmNld3JEYXNNdXlvdkQ1U2dGMFA5RkdzcGFyLTJOWVpjcFVnQjBKY0ZST20xc0lVR0xWMmlpSlRPU25wQTY5dVZHa2I1dVh6eHM4OXBRX191Y3pMZnp5QzNFeDlSbHA2Z1pHaFJtcmtUX3lMV2RUX21aOUhSbnA1RDUzaG15SUFMUWpmMjdQSFlwNWhzaWlqQTJXSXNLNWcxUG5Va0hDc3BlN214VWQ0Sk5JaEJ2LV9Lbkl5UkJIcmIyMU1WQkQtQ3BQWHZTLU1sNkNVd0NXZVVDaXNQNV9TSlV2SWhScUlLbkdNX21QM2c?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 1
   }
  ],
  "research": {
@@ -1615,86 +1634,142 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日涨8.71%，达20日历史波动率的 4.8 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 21:27",
+   "message": "COMEX白银单日涨8.88%，达20日历史波动率的 4.9 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-27 21:36",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 21:27",
+   "time": "2026-11-27 21:36",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "千里科技印奇：智驾业务将聚焦两至三家头部车企",
-   "summary": "千里科技董事长、阶跃星辰董事长印奇在投资者交流会上表示，千里科技未来将聚焦两至三家头部车企客户，从车型定义阶段参与开发，与车企共同设计智驾算法及芯片、传感器、域控制器等硬件配置。印奇称，吉利是这一合作模式的代表性客户。",
-   "time": "2026-11-27 21:09",
-   "url": "https://wallstreetcn.com/livenews/3207122",
+   "title": "周五美股盘前你需要了解的全球要闻",
+   "summary": "美股盘前科技股集体大涨，闪迪大涨10%，纳指100期货盘前涨约2.5%。\n\n国常会：加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能。\n\n中国证监会：抓紧研究出台相关增量政策，壮大中长期资金入市力量。\n\n外卖大战降温，美团Q3营收同比增长21.6%超预期，营业利润连续两个季度盈利，核心业务扭亏为盈。\n\n美团王兴：预计明年AI相关的资本支出将低于今年。\n\n报道：美国曾敦促委内瑞",
+   "time": "2026-11-27 21:32",
+   "url": "https://wallstreetcn.com/livenews/3207135",
    "source": "华尔街见闻"
   },
   {
-   "title": "欧洲央行管委内格尔：预计2027年通胀率将持续高于3%",
-   "summary": "欧洲央行管委内格尔表示，预计2027年通胀率将持续高于3%。",
-   "time": "2026-11-27 21:05:51",
-   "url": "https://finance.eastmoney.com/a/202611273941928134.html",
+   "title": "美国10月商品贸易逆差初值1495亿美元",
+   "summary": "美国10月商品贸易逆差初值1495亿美元，预期逆差1360亿美元。",
+   "time": "2026-11-27 21:31:37",
+   "url": "https://finance.eastmoney.com/a/202611273941957075.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "近90天4家机构对我武生物给出评级_公司新闻 - 证券之星",
+   "summary": "",
+   "time": "2026-11-27 21:26",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCQklkbW9TOGhaMllkdm8xNEVNSU8wSllscmt0RGhpdHlDMHZhRGFWSXF0OXJiQXladTNrUmw2eWlmVUdXZzlsSkE1eHg3cDlRZVZkVUxGQUdQVmJvdjRZcg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "特朗普：如果奥巴马当年不把普京踢出八国集团，可能都不会有俄乌冲突，普京当时觉得自己被狠狠羞辱了 - 21财经",
+   "summary": "",
+   "time": "2026-11-27 20:04",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOE9ISTU5QmVaUFRmb2RTT0dUM0NrNjlDdy1sOXd0Qk5LNm54SGFBU0ZVYUljSVdoUUtSVmJmMnNuTWZqWFpWZUhUVDNIcjZBWVVyaFRVWFkxcHNCbVFfd2wzTnFhUTlUN2ptNVdqUS02bHNad3RhRGxDSGxMMElWcGl6Nm5HVHpsZkxtQl9hbw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "捷克众议院批准对炼油厂征收“暴利税”",
+   "summary": "",
+   "time": "2026-11-27 13:35:15",
+   "url": "https://news.futunn.com/flash/1005857876/czech-chamber-of-deputies-approves-windfall-tax-on-refineries",
+   "source": "富途"
+  },
+  {
+   "title": "支付宝发布车载助手3.0 AI原生智能体",
+   "summary": "",
+   "time": "2026-11-27 13:29:07",
+   "url": "https://news.10jqka.com.cn/20261127/c682319879.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "东方财富财经早餐 11月27日周五",
+   "summary": "【东方财富财经早餐 11月27日周五】1、商务部：坚决反对美对中国等经济体加征301关税。2、广东：鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模。3、摩根大通将贵州茅台评级上调至超配，目标价1800元。",
+   "time": "2026-11-27 06:00:36",
+   "url": "http://finance.eastmoney.com/a/202611263940986188.html",
+   "source": "东财早报"
+  },
+  {
+   "title": "供应低位叠加冬储补库预期，焦煤价格大幅上行",
+   "summary": "",
+   "time": "",
+   "url": "https://database.caixin.com/2026-11-27/102509366.html?cxapp_link=true",
+   "source": "财新"
+  },
+  {
+   "title": "加拿大三季度经常帐 44.82亿加元，预期 94亿加元，前值 88.36亿加元。",
+   "summary": "加拿大三季度经常帐 44.82亿加元，预期 94亿加元，前值 88.36亿加元。",
+   "time": "2026-11-27 21:30",
+   "url": "https://wallstreetcn.com/livenews/3207132",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "美国天然气期货跌超5%",
+   "summary": "【美国天然气期货跌超5%】美国天然气期货跌超5%，现报3.475美元/百万英热。",
+   "time": "2026-11-27 21:31:03",
+   "url": "https://finance.eastmoney.com/a/202611273941955545.html",
    "source": "东财国际"
   },
   {
@@ -1712,45 +1787,45 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "天津出台文商旅融合发展促进条例",
+   "title": "国家能源局主要负责人会见蒙古国能源部部长",
    "summary": "",
-   "time": "2026-11-27 13:06:19",
-   "url": "https://news.10jqka.com.cn/20261127/c682319578.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "复旦微电：参与设立产业基金认缴出资额调减8500万元",
-   "summary": "",
-   "time": "2026-11-27 13:03:24",
-   "url": "https://news.futunn.com/flash/1005855844/fudan-microelectronics-committed-capital-for-participation-in-industrial-fund-reduced",
+   "time": "2026-11-27 13:34:53",
+   "url": "https://news.futunn.com/flash/1005857847/head-of-the-national-energy-administration-meets-with-minister-of",
    "source": "富途"
   },
   {
-   "title": "东方财富财经早餐 11月27日周五",
-   "summary": "【东方财富财经早餐 11月27日周五】1、商务部：坚决反对美对中国等经济体加征301关税。2、广东：鼓励算力中心优先使用国产算力芯片，提升国产化替代水平和应用规模。3、摩根大通将贵州茅台评级上调至超配，目标价1800元。",
-   "time": "2026-11-27 06:00:36",
-   "url": "http://finance.eastmoney.com/a/202611263940986188.html",
+   "title": "美团：Keeta短期不会在巴西全国快速铺开",
+   "summary": "",
+   "time": "2026-11-27 13:27:49",
+   "url": "https://news.10jqka.com.cn/20261127/c682319870.shtml",
+   "source": "同花顺"
+  },
+  {
+   "title": "东方财富财经早餐 11月26日周四",
+   "summary": "【东方财富财经早餐 11月26日周四】1、美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄。2、多只宽基ETF尾盘放量！近两个月股票型ETF净流入超7600亿元。3、美媒：美政府正重新考虑或将伊朗高层列为打击目标。",
+   "time": "2026-11-26 06:00:37",
+   "url": "http://finance.eastmoney.com/a/202611253939893751.html",
    "source": "东财早报"
   },
   {
-   "title": "供应低位叠加冬储补库预期，焦煤价格大幅上行",
+   "title": "韩国央行11月的调查显示，受访民众对当前的经济形势和未来的消费预期信心下降；韩国三季度零售额在连续四个季度同比上涨后转为下降",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-27/102509366.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-27/102509287.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "Adobe：预计Cyber Monday将成为今年最大线上购物日，线上消费将创纪录达到151亿美元，同比增长6.2%；\n\n预计Cyber Week期间线上消费将创纪录，达到475亿美元，同比增长7.4%。",
-   "summary": "Adobe：预计Cyber Monday将成为今年最大线上购物日，线上消费将创纪录达到151亿美元，同比增长6.2%；\n\n预计Cyber Week期间线上消费将创纪录，达到475亿美元，同比增长7.4%。",
-   "time": "2026-11-27 21:08",
-   "url": "https://wallstreetcn.com/livenews/3207121",
+   "title": "美国10月批发库存环比初值 0.9%，预期 0.5%，前值 0.7%。",
+   "summary": "美国10月批发库存环比初值 0.9%，预期 0.5%，前值 0.7%。",
+   "time": "2026-11-27 21:30",
+   "url": "https://wallstreetcn.com/livenews/3207131",
    "source": "华尔街见闻"
   },
   {
-   "title": "波罗的海干散货运价指数跌0.48%",
-   "summary": "波罗的海干散货运价指数跌0.48%，至3137点。",
-   "time": "2026-11-27 21:02:53",
-   "url": "https://finance.eastmoney.com/a/202611273941927835.html",
+   "title": "加拿大第三季度经常帐顺差44.8亿加元",
+   "summary": "【加拿大第三季度经常帐顺差44.8亿加元】加拿大第三季度经常帐顺差44.8亿加元，预期94亿加元，前值由88.4亿加元修正为61亿加元。",
+   "time": "2026-11-27 21:30:29",
+   "url": "https://finance.eastmoney.com/a/202611273941955764.html",
    "source": "东财国际"
   },
   {
@@ -1768,74 +1843,18 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "Nu Holdings美股盘前涨超10%",
+   "title": "美股抛售引发美元出现一种新的反弹模式",
    "summary": "",
-   "time": "2026-11-27 13:03:45",
-   "url": "https://news.10jqka.com.cn/20261127/c682319535.shtml",
-   "source": "同花顺"
-  },
-  {
-   "title": "美国假日季消费额预计增长5.4%，黑五线上销售有望达130亿美元",
-   "summary": "",
-   "time": "2026-11-27 12:46:27",
-   "url": "https://news.futunn.com/flash/1005854736/us-holiday-season-spending-is-projected-to-grow-by-5",
+   "time": "2026-11-27 13:27:13",
+   "url": "https://news.futunn.com/flash/1005857385/us-equity-sell-off-triggers-a-new-rebound-pattern-for",
    "source": "富途"
   },
   {
-   "title": "东方财富财经早餐 11月26日周四",
-   "summary": "【东方财富财经早餐 11月26日周四】1、美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄。2、多只宽基ETF尾盘放量！近两个月股票型ETF净流入超7600亿元。3、美媒：美政府正重新考虑或将伊朗高层列为打击目标。",
-   "time": "2026-11-26 06:00:37",
-   "url": "http://finance.eastmoney.com/a/202611253939893751.html",
-   "source": "东财早报"
-  },
-  {
-   "title": "韩国央行11月的调查显示，受访民众对当前的经济形势和未来的消费预期信心下降；韩国三季度零售额在连续四个季度同比上涨后转为下降",
+   "title": "NYMEX天然气主力合约大跌5%",
    "summary": "",
-   "time": "",
-   "url": "https://database.caixin.com/2026-11-27/102509287.html?cxapp_link=true",
-   "source": "财新"
-  },
-  {
-   "title": "巴西雷亚尔上涨3.3%，因巴西总统卢拉任命特拉布科为财政部长。",
-   "summary": "巴西雷亚尔上涨3.3%，因巴西总统卢拉任命特拉布科为财政部长。",
-   "time": "2026-11-27 21:06",
-   "url": "https://wallstreetcn.com/livenews/3207119",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "国内商品期货夜盘开盘 主力合约多数上涨",
-   "summary": "【国内商品期货夜盘开盘 主力合约多数上涨】国内商品期货夜盘开盘，主力合约多数上涨。涨幅方面，沪银涨近5%，沪锡涨超4%，沪金、烧碱、铸造铝、纯碱、苯乙烯等涨超1%；跌幅方面，甲醇、低硫燃油、PTA、乙二醇跌超1%。",
-   "time": "2026-11-27 21:00:04",
-   "url": "https://finance.eastmoney.com/a/202611273941927715.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "诚通证券：首次覆盖达仁堂给予增持评级_券商研报_数据解析 - 证券之星",
-   "summary": "",
-   "time": "2026-11-27 20:03",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90ckt5OXo4cVFQRkZ6b3pUc0hhaEJ1RzVWX3MzTTljNnlPcTRucHIwOXhCN3dsVWlnd0VkM1BRRU1ZS3FsTDBNejNPbU9mXy1mVWFON1VGckJSTEpEclFhODhR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普入住深圳酒店后，留下了这样一个礼物...... - 手机新浪网",
-   "summary": "",
-   "time": "2026-11-27 19:28",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0tZ21OT3ZObU5iamU5ck93cEw0UUxLUzgtSVctNDhsVHV0cC1vSmtrRnZURFFiNFVXNXl2OTk5WEhmVjNvelZvWXpVbFFBQWMtdVpWdTlPQ0lTM2NmZ0M1S1RBLXlJOU5DbC1wX3ZfVmE?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "Ambev美股盘前涨超10%",
-   "summary": "",
-   "time": "2026-11-27 13:03:11",
-   "url": "https://news.10jqka.com.cn/20261127/c682319497.shtml",
+   "time": "2026-11-27 13:24:50",
+   "url": "https://news.10jqka.com.cn/20261127/c682319837.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "当前全国小麦冬前田管有序开展",
-   "summary": "",
-   "time": "2026-11-27 12:40:11",
-   "url": "https://news.futunn.com/flash/1005854327/pre-winter-field-management-for-wheat-is-currently-proceeding-in",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月25日周三",
@@ -1856,7 +1875,7 @@
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(29)",
+   "富途": "ok(27)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1869,8 +1888,8 @@
    "东财国际": 7,
    "谷歌新闻·研报": 7,
    "谷歌新闻·国际": 6,
-   "同花顺": 6,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 3,
    "财新": 6
   }
