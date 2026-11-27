@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 21:52:39 CST",
- "generated_at_iso": "2026-11-27T21:52:39+08:00",
+ "generated_at": "2026-11-27 22:00:59 CST",
+ "generated_at_iso": "2026-11-27T22:00:59+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1021,9 +1021,9 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10672.55,
-    "change": 63.25,
-    "change_pct": 0.6,
+    "price": 10667.24,
+    "change": 57.94,
+    "change_pct": 0.55,
     "hist": [
      10881.9,
      10764.69,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8134.39,
-    "change": 25.65,
-    "change_pct": 0.32,
+    "price": 8129.41,
+    "change": 20.67,
+    "change_pct": 0.25,
     "hist": [
      7956.7,
      7868.05,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6088.27,
-    "change": 73.53,
-    "change_pct": 1.22,
+    "price": 6083.19,
+    "change": 68.45,
+    "change_pct": 1.14,
     "hist": [
      6204.24,
      6144.82,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3675.854,
-    "change": 111.254,
-    "change_pct": 3.12,
-    "quote_time": "21:52:42 2026-11-27"
+    "price": 3676.08,
+    "change": 111.48,
+    "change_pct": 3.13,
+    "quote_time": "22:01:02 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.127,
-    "change": 3.589,
-    "change_pct": 8.85,
-    "quote_time": "21:52:42 2026-11-27"
+    "price": 44.228,
+    "change": 3.69,
+    "change_pct": 9.1,
+    "quote_time": "22:01:02 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 84.188,
-    "change": 0.508,
-    "change_pct": 0.61,
-    "quote_time": "21:52:42 2026-11-27"
+    "price": 84.461,
+    "change": 0.781,
+    "change_pct": 0.93,
+    "quote_time": "22:01:02 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.43,
-    "change": -0.24,
-    "change_pct": -0.26,
-    "quote_time": "21:52:38 2026-11-27"
+    "price": 91.679,
+    "change": 0.009,
+    "change_pct": 0.01,
+    "quote_time": "22:00:57 2026-11-27"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61555.4,
-    "change": 638.7,
-    "change_pct": 1.05,
-    "source": "okx"
+    "price": 61448.8,
+    "change": 607.0,
+    "change_pct": 1.0,
+    "source": "okx",
+    "hist": [
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     61452.6
+    ],
+    "sigma": 2.619
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1727.06,
-    "change": 22.96,
-    "change_pct": 1.35,
-    "source": "okx"
+    "price": 1723.79,
+    "change": 20.84,
+    "change_pct": 1.22,
+    "source": "okx",
+    "hist": [
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1724.09
+    ],
+    "sigma": 3.103
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.43,
-    "change": 2.22,
-    "change_pct": 3.12,
-    "source": "okx"
+    "price": 73.35,
+    "change": 2.16,
+    "change_pct": 3.03,
+    "source": "okx",
+    "hist": [
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     73.36
+    ],
+    "sigma": 4.286
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.91,
-    "change": 0.12,
-    "change_pct": 0.12,
+    "price": 103.9,
+    "change": 0.11,
+    "change_pct": 0.11,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6561,
-    "change": -0.0052,
+    "price": 6.6558,
+    "change": -0.0055,
     "change_pct": -0.08,
     "dec": 4,
     "date": "",
@@ -1388,12 +1487,12 @@
    "keyword": "特朗普",
    "label": "特朗普",
    "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：如果奥巴马当年不把普京踢出八国集团，可能都不会有俄乌冲突，普京当时觉得自己被狠狠羞辱了 - 21财经",
+   "title": "特朗普承认：美国刺探中国情报，多少年了一直都这样 - 新浪新闻",
    "summary": "",
-   "time": "2026-11-27 20:04",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOE9ISTU5QmVaUFRmb2RTT0dUM0NrNjlDdy1sOXd0Qk5LNm54SGFBU0ZVYUljSVdoUUtSVmJmMnNuTWZqWFpWZUhUVDNIcjZBWVVyaFRVWFkxcHNCbVFfd2wzTnFhUTlUN2ptNVdqUS02bHNad3RhRGxDSGxMMElWcGl6Nm5HVHpsZkxtQl9hbw?oc=5",
+   "time": "2026-11-27 21:41",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXRyQkRuYk94V01TN0VDMWFjRHZnYldZbTh2N3hmdVRxeEVESXBwZnRpeTk0M1BvbTVLM0kwbE5xY0MxUXZWZlpxOFV5UWlpUDJQenJ4SmduSkJWVEd2d2Q2ZFNPOXZ0aVRET3VoYVN3NkZlMmpiRDFXWXNveEF3VHVvR2pxYkNkSkl0NVBUQ3o3NUIzY2QyVQ?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 4
   },
   {
    "keyword": "黄仁勋",
@@ -1468,16 +1567,6 @@
   ],
   "reports": [
    {
-    "title": "华鑫证券：给予康尼机电买入评级_券商研报_数据解析 - 证券之星",
-    "org": "华鑫证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-27",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJcFEwb0lfaFk5Y1JHR0hEeFhNaDZQMTRhM2RaR0F4Uk92Nmx1U2RIQkhvaUswLWNlYnFnT28tNkZHMnVzX0xfeHNrSUFUcHlHU0Ywb2VXLW9ZMzh5Ymk2VnlR?oc=5",
-    "source": "机构观点"
-   },
-   {
     "title": "东方财富财经早餐 11月27日周五",
     "org": "摩根大通",
     "rating": "",
@@ -1488,23 +1577,13 @@
     "source": "机构观点"
    },
    {
-    "title": "开源证券：首次覆盖博杰股份给予买入评级_券商研报_数据解析 - 证券之星",
-    "org": "开源证券",
+    "title": "德国通过预算案，净新增借款2100亿欧元。（彭博）",
+    "org": "彭博",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-27",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FNTlJb0Z3bXlwN3ZPWEpxOW1tOERxZ3RKakVGdXRkVVRRWnBLVzhvWmxUb1g2ZjFzODFBb3dtQ1dkOU5adkJ5U2ZlamN3aTM0X0tUY1dtVUkxRmZRQXBSWFZB?oc=5",
-    "source": "机构观点"
-   },
-   {
-    "title": "诚通证券：首次覆盖达仁堂给予增持评级_券商研报_数据解析 - 证券之星",
-    "org": "诚通证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-27",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE90ckt5OXo4cVFQRkZ6b3pUc0hhaEJ1RzVWX3MzTTljNnlPcTRucHIwOXhCN3dsVWlnd0VkM1BRRU1ZS3FsTDBNejNPbU9mXy1mVWFON1VGckJSTEpEclFhODhR?oc=5",
+    "url": "https://wallstreetcn.com/livenews/3207145",
     "source": "机构观点"
    },
    {
@@ -1634,115 +1713,108 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日涨8.85%，达20日历史波动率的 4.9 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 21:52",
+   "message": "COMEX白银单日涨9.10%，达20日历史波动率的 5.1 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-27 22:02",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 21:52",
+   "time": "2026-11-27 22:02",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "周五美股盘前你需要了解的全球要闻",
-   "summary": "美股盘前科技股集体大涨，闪迪大涨10%，纳指100期货盘前涨约2.5%。\n\n国常会：加力发挥“国家队”稳市作用，进一步优化中央汇金公司的类“平准基金”功能。\n\n中国证监会：抓紧研究出台相关增量政策，壮大中长期资金入市力量。\n\n外卖大战降温，美团Q3营收同比增长21.6%超预期，营业利润连续两个季度盈利，核心业务扭亏为盈。\n\n美团王兴：预计明年AI相关的资本支出将低于今年。\n\n报道：美国曾敦促委内瑞",
-   "time": "2026-11-27 21:32",
-   "url": "https://wallstreetcn.com/livenews/3207135",
+   "title": "SovEcon：将乌克兰2026-27年玉米产量预期下调180万吨。",
+   "summary": "SovEcon：将乌克兰2026-27年玉米产量预期下调180万吨。",
+   "time": "2026-11-27 22:00",
+   "url": "https://wallstreetcn.com/livenews/3207150",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国10月商品贸易逆差初值1495亿美元",
-   "summary": "美国10月商品贸易逆差初值1495亿美元，预期逆差1360亿美元。",
-   "time": "2026-11-27 21:31:37",
-   "url": "https://finance.eastmoney.com/a/202611273941957075.html",
+   "title": "日本流感扩散 近九成地区报告病例数显著增加",
+   "summary": "【日本流感扩散 近九成地区报告病例数显著增加】日本厚生劳动省27日发布的数据显示，截至本月22日的一周内，日本全国定点医疗机构报告新增流感病例逾5万例，连续5周增加，全国47个都道府县中有42个流感疫情呈扩散趋势。",
+   "time": "2026-11-27 21:57:07",
+   "url": "https://finance.eastmoney.com/a/202611273941995735.html",
    "source": "东财国际"
   },
   {
-   "title": "近90天4家机构对我武生物给出评级_公司新闻 - 证券之星",
+   "title": "特朗普承认：美国刺探中国情报，多少年了一直都这样 - 新浪新闻",
    "summary": "",
-   "time": "2026-11-27 21:26",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBCQklkbW9TOGhaMllkdm8xNEVNSU8wSllscmt0RGhpdHlDMHZhRGFWSXF0OXJiQXladTNrUmw2eWlmVUdXZzlsSkE1eHg3cDlRZVZkVUxGQUdQVmJvdjRZcg?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普：如果奥巴马当年不把普京踢出八国集团，可能都不会有俄乌冲突，普京当时觉得自己被狠狠羞辱了 - 21财经",
-   "summary": "",
-   "time": "2026-11-27 20:04",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOE9ISTU5QmVaUFRmb2RTT0dUM0NrNjlDdy1sOXd0Qk5LNm54SGFBU0ZVYUljSVdoUUtSVmJmMnNuTWZqWFpWZUhUVDNIcjZBWVVyaFRVWFkxcHNCbVFfd2wzTnFhUTlUN2ptNVdqUS02bHNad3RhRGxDSGxMMElWcGl6Nm5HVHpsZkxtQl9hbw?oc=5",
+   "time": "2026-11-27 21:41",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXRyQkRuYk94V01TN0VDMWFjRHZnYldZbTh2N3hmdVRxeEVESXBwZnRpeTk0M1BvbTVLM0kwbE5xY0MxUXZWZlpxOFV5UWlpUDJQenJ4SmduSkJWVEd2d2Q2ZFNPOXZ0aVRET3VoYVN3NkZlMmpiRDFXWXNveEF3VHVvR2pxYkNkSkl0NVBUQ3o3NUIzY2QyVQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "捷克众议院批准对炼油厂征收“暴利税”",
+   "title": "国家能源局主要负责人会见南非电力和能源部部长",
    "summary": "",
-   "time": "2026-11-27 13:35:15",
-   "url": "https://news.futunn.com/flash/1005857876/czech-chamber-of-deputies-approves-windfall-tax-on-refineries",
-   "source": "富途"
+   "time": "2026-11-27 14:00:47",
+   "url": "https://news.10jqka.com.cn/20261127/c682320271.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "支付宝发布车载助手3.0 AI原生智能体",
+   "title": "伊拉克石油部长：正与欧佩克协商提高石油产量上限",
    "summary": "",
-   "time": "2026-11-27 13:29:07",
-   "url": "https://news.10jqka.com.cn/20261127/c682319879.shtml",
-   "source": "同花顺"
+   "time": "2026-11-27 13:58:33",
+   "url": "https://news.futunn.com/flash/1005859124/iraqi-oil-minister-negotiating-with-opec-to-raise-oil-production",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月27日周五",
@@ -1759,46 +1831,39 @@
    "source": "财新"
   },
   {
-   "title": "加拿大三季度经常帐 44.82亿加元，预期 94亿加元，前值 88.36亿加元。",
-   "summary": "加拿大三季度经常帐 44.82亿加元，预期 94亿加元，前值 88.36亿加元。",
-   "time": "2026-11-27 21:30",
-   "url": "https://wallstreetcn.com/livenews/3207132",
+   "title": "如祺出行：Robotaxi运营规模较2025年底翻倍",
+   "summary": "如祺出行在第24届广州车展上公布自动驾驶运营进展，截至2026年11月，该平台运营的Robotaxi已累计超600辆，较2025年底翻倍，服务范围覆盖广州、深圳及横琴粤澳深度合作区。其中，在广州自营的Robotaxi车队每月订单量已超过1万单，首个三级运维网络也已落地使用。（证券时报）",
+   "time": "2026-11-27 22:00",
+   "url": "https://wallstreetcn.com/livenews/3207149",
    "source": "华尔街见闻"
   },
   {
-   "title": "美国天然气期货跌超5%",
-   "summary": "【美国天然气期货跌超5%】美国天然气期货跌超5%，现报3.475美元/百万英热。",
-   "time": "2026-11-27 21:31:03",
-   "url": "https://finance.eastmoney.com/a/202611273941955545.html",
+   "title": "美国商品贸易逆差连续第四个月扩大 资本品进口继续增长",
+   "summary": "【美国商品贸易逆差连续第四个月扩大 资本品进口继续增长】随着资本品进口继续增长，美国10月商品贸易逆差连续第四个月扩大。美国商务部周五公布的数据显示，10月商品贸易逆差较前月扩大10.7%，至1495亿美元，为2025年3月以来最高。",
+   "time": "2026-11-27 21:52:24",
+   "url": "https://finance.eastmoney.com/a/202611273941992352.html",
    "source": "东财国际"
   },
   {
-   "title": "华鑫证券：给予康尼机电买入评级_券商研报_数据解析 - 证券之星",
+   "title": "特朗普：如果奥巴马当年不把普京踢出八国集团，可能都不会有俄乌冲突，普京当时觉得自己被狠狠羞辱了 - 21财经",
    "summary": "",
-   "time": "2026-11-27 20:03",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBJcFEwb0lfaFk5Y1JHR0hEeFhNaDZQMTRhM2RaR0F4Uk92Nmx1U2RIQkhvaUswLWNlYnFnT28tNkZHMnVzX0xfeHNrSUFUcHlHU0Ywb2VXLW9ZMzh5Ymk2VnlR?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普称他掌握“信息”表明 黄仁勋不会构成安全威胁 - RFI",
-   "summary": "",
-   "time": "2026-11-27 19:57",
-   "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxNbVpXc2NjM1RIeUZNRDRobXN2bVpreVJJQlNVcWNVQlBJQ3B3eEd5ekVBeVV6ZzF2anhIVU0wM1dtNFVoSkktekNDQ0Rnd1VFejE1Y2lUenB3YV81Y1VTUzhNYmZEbTRCbUlxdkFKR1g0X3hfa3ZRUFhzaGkwRldtamdBSmNld3JEYXNNdXlvdkQ1U2dGMFA5RkdzcGFyLTJOWVpjcFVnQjBKY0ZST20xc0lVR0xWMmlpSlRPU25wQTY5dVZHa2I1dVh6eHM4OXBRX191Y3pMZnp5QzNFeDlSbHA2Z1pHaFJtcmtUX3lMV2RUX21aOUhSbnA1RDUzaG15SUFMUWpmMjdQSFlwNWhzaWlqQTJXSXNLNWcxUG5Va0hDc3BlN214VWQ0Sk5JaEJ2LV9Lbkl5UkJIcmIyMU1WQkQtQ3BQWHZTLU1sNkNVd0NXZVVDaXNQNV9TSlV2SWhScUlLbkdNX21QM2c?oc=5",
+   "time": "2026-11-27 20:04",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOE9ISTU5QmVaUFRmb2RTT0dUM0NrNjlDdy1sOXd0Qk5LNm54SGFBU0ZVYUljSVdoUUtSVmJmMnNuTWZqWFpWZUhUVDNIcjZBWVVyaFRVWFkxcHNCbVFfd2wzTnFhUTlUN2ptNVdqUS02bHNad3RhRGxDSGxMMElWcGl6Nm5HVHpsZkxtQl9hbw?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "国家能源局主要负责人会见蒙古国能源部部长",
+   "title": "湖北能源与宜昌市政府座谈",
    "summary": "",
-   "time": "2026-11-27 13:34:53",
-   "url": "https://news.futunn.com/flash/1005857847/head-of-the-national-energy-administration-meets-with-minister-of",
-   "source": "富途"
+   "time": "2026-11-27 13:55:09",
+   "url": "https://news.10jqka.com.cn/20261127/c682320203.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "美团：Keeta短期不会在巴西全国快速铺开",
+   "title": "德国联邦议院通过2027年预算案 增加国防等开支",
    "summary": "",
-   "time": "2026-11-27 13:27:49",
-   "url": "https://news.10jqka.com.cn/20261127/c682319870.shtml",
-   "source": "同花顺"
+   "time": "2026-11-27 13:52:34",
+   "url": "https://news.futunn.com/flash/1005858819/german-bundestag-passes-2027-budget-increases-defense-and-other-spending",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月26日周四",
@@ -1815,46 +1880,39 @@
    "source": "财新"
   },
   {
-   "title": "美国10月批发库存环比初值 0.9%，预期 0.5%，前值 0.7%。",
-   "summary": "美国10月批发库存环比初值 0.9%，预期 0.5%，前值 0.7%。",
-   "time": "2026-11-27 21:30",
-   "url": "https://wallstreetcn.com/livenews/3207131",
+   "title": "德国通过预算案，净新增借款2100亿欧元。（彭博）",
+   "summary": "德国通过预算案，净新增借款2100亿欧元。（彭博）",
+   "time": "2026-11-27 21:53",
+   "url": "https://wallstreetcn.com/livenews/3207145",
    "source": "华尔街见闻"
   },
   {
-   "title": "加拿大第三季度经常帐顺差44.8亿加元",
-   "summary": "【加拿大第三季度经常帐顺差44.8亿加元】加拿大第三季度经常帐顺差44.8亿加元，预期94亿加元，前值由88.4亿加元修正为61亿加元。",
-   "time": "2026-11-27 21:30:29",
-   "url": "https://finance.eastmoney.com/a/202611273941955764.html",
+   "title": "国家能源局主要负责人会见缅甸电力和能源部部长",
+   "summary": "【国家能源局主要负责人会见缅甸电力和能源部部长】11月25日，中国国家能源局局长王宏志在青岛会见缅甸电力和能源部部长戈戈伦，双方就电力、可再生能源、油气等领域合作交换意见。",
+   "time": "2026-11-27 21:48:37",
+   "url": "https://finance.eastmoney.com/a/202611273941989069.html",
    "source": "东财国际"
   },
   {
-   "title": "开源证券：首次覆盖博杰股份给予买入评级_券商研报_数据解析 - 证券之星",
+   "title": "特朗普称他掌握“信息”表明 黄仁勋不会构成安全威胁 - RFI",
    "summary": "",
-   "time": "2026-11-27 20:03",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5FNTlJb0Z3bXlwN3ZPWEpxOW1tOERxZ3RKakVGdXRkVVRRWnBLVzhvWmxUb1g2ZjFzODFBb3dtQ1dkOU5adkJ5U2ZlamN3aTM0X0tUY1dtVUkxRmZRQXBSWFZB?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "特朗普淡化北京和莫斯科对德黑兰的情报支持 - RFI",
-   "summary": "",
-   "time": "2026-11-27 19:41",
-   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPOTU3cVQ5eWN3bzBFbHIwc0JOX3RSMjNwa0tmaFRtR2FBcXhRQmM0cGlIaFNUOE8xMkpDZm43VGRmVGpMUTV1S1pPS3JmOHFNYTV6OURvNFJodnJyci1sYnp3MnV4YnJ1N0VLYzJ1OEJGSzZwcFJPTGVMSUZlY1NmSlktUU50WHlkSW9sUHRtUVlDUDJXTjNXa3VyVnduS1hpTzJBMmdrSTNiYXV0dDNtY1l0ZjRZTHFDR29pdkExSzFiYXdzTHFqNGhlZ1JxWkxTOWJ1TERsdGdUaE5GM2NfNHRrcl80aDIxXzhIdFJsN0FFUzNlR3B6SUw0ZWFpMVV2c3RXcmpRMkg5YTA4V28zRGRjQ1FUTlQxNmQwb0hKTC1pbHUyM3p0Mm5BTUZrb1NId1E3SmwzZEpnU0VfeXF3UVI3QXNILVYxUkxHRTNydw?oc=5",
+   "time": "2026-11-27 19:57",
+   "url": "https://news.google.com/rss/articles/CBMi6wJBVV95cUxNbVpXc2NjM1RIeUZNRDRobXN2bVpreVJJQlNVcWNVQlBJQ3B3eEd5ekVBeVV6ZzF2anhIVU0wM1dtNFVoSkktekNDQ0Rnd1VFejE1Y2lUenB3YV81Y1VTUzhNYmZEbTRCbUlxdkFKR1g0X3hfa3ZRUFhzaGkwRldtamdBSmNld3JEYXNNdXlvdkQ1U2dGMFA5RkdzcGFyLTJOWVpjcFVnQjBKY0ZST20xc0lVR0xWMmlpSlRPU25wQTY5dVZHa2I1dVh6eHM4OXBRX191Y3pMZnp5QzNFeDlSbHA2Z1pHaFJtcmtUX3lMV2RUX21aOUhSbnA1RDUzaG15SUFMUWpmMjdQSFlwNWhzaWlqQTJXSXNLNWcxUG5Va0hDc3BlN214VWQ0Sk5JaEJ2LV9Lbkl5UkJIcmIyMU1WQkQtQ3BQWHZTLU1sNkNVd0NXZVVDaXNQNV9TSlV2SWhScUlLbkdNX21QM2c?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "美股抛售引发美元出现一种新的反弹模式",
+   "title": "阿根廷YPF美股盘前涨超10%",
    "summary": "",
-   "time": "2026-11-27 13:27:13",
-   "url": "https://news.futunn.com/flash/1005857385/us-equity-sell-off-triggers-a-new-rebound-pattern-for",
-   "source": "富途"
+   "time": "2026-11-27 13:37:05",
+   "url": "https://news.10jqka.com.cn/20261127/c682319953.shtml",
+   "source": "同花顺"
   },
   {
-   "title": "NYMEX天然气主力合约大跌5%",
+   "title": "美国商品贸易逆差连续第四个月扩大",
    "summary": "",
-   "time": "2026-11-27 13:24:50",
-   "url": "https://news.10jqka.com.cn/20261127/c682319837.shtml",
-   "source": "同花顺"
+   "time": "2026-11-27 13:43:34",
+   "url": "https://news.futunn.com/flash/1005858244/the-us-goods-trade-deficit-widened-for-the-fourth-consecutive",
+   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月25日周三",
@@ -1869,29 +1927,49 @@
    "time": "",
    "url": "https://database.caixin.com/2026-11-27/102509229.html?cxapp_link=true",
    "source": "财新"
+  },
+  {
+   "title": "法国糖业集团向受旱农户提供援助以保障种植面积",
+   "summary": "有信函显示，随着欧洲面临食糖供应短缺，法国主要糖业集团泰莱（Tereos）和水晶联合（Cristal Union）已向遭受干旱和热浪打击的甜菜种植户提供财政支持，力求维持2027年作物的种植规模。\n\n欧盟农民今年收获了多年来最糟糕的甜菜收成之一，其中法国的产量预计将比去年下降33%。欧盟产量的下滑加剧了全球食糖预计出现供需缺口的局面，并推动糖价在过去几个月出现反弹。",
+   "time": "2026-11-27 21:48",
+   "url": "https://wallstreetcn.com/livenews/3207141",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "中国有望建成全球首个核聚变能源工程供热示范堆先导堆型",
+   "summary": "【中国有望建成全球首个核聚变能源工程供热示范堆先导堆型】27日在成都召开的“Z箍缩聚变裂变混合堆供热示范堆(ZFFR-Dt)工程专家会”透露，该工程倡议分两阶段实施：第一阶段为2026年至2030年，完成聚变点火验证及核心工艺验证；第二阶段为2031年至2035年建造示范堆，设计聚变功率200兆瓦、热功率大于2000兆瓦，有望成为全球首个核聚变能源工程供热示范堆先导堆型。",
+   "time": "2026-11-27 21:46:44",
+   "url": "https://finance.eastmoney.com/a/202611273941987848.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "特朗普淡化北京和莫斯科对德黑兰的情报支持 - RFI",
+   "summary": "",
+   "time": "2026-11-27 19:41",
+   "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPOTU3cVQ5eWN3bzBFbHIwc0JOX3RSMjNwa0tmaFRtR2FBcXhRQmM0cGlIaFNUOE8xMkpDZm43VGRmVGpMUTV1S1pPS3JmOHFNYTV6OURvNFJodnJyci1sYnp3MnV4YnJ1N0VLYzJ1OEJGSzZwcFJPTGVMSUZlY1NmSlktUU50WHlkSW9sUHRtUVlDUDJXTjNXa3VyVnduS1hpTzJBMmdrSTNiYXV0dDNtY1l0ZjRZTHFDR29pdkExSzFiYXdzTHFqNGhlZ1JxWkxTOWJ1TERsdGdUaE5GM2NfNHRrcl80aDIxXzhIdFJsN0FFUzNlR3B6SUw0ZWFpMVV2c3RXcmpRMkg5YTA4V28zRGRjQ1FUTlQxNmQwb0hKTC1pbHUyM3p0Mm5BTUZrb1NId1E3SmwzZEpnU0VfeXF3UVI3QXNILVYxUkxHRTNydw?oc=5",
+   "source": "谷歌新闻·国际"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(27)",
+   "富途": "ok(28)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
    "谷歌新闻·国际": "ok(30)",
-   "谷歌新闻·研报": "ok(30)"
+   "谷歌新闻·研报": "FAIL:HTTPError"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "东财国际": 7,
-   "谷歌新闻·研报": 7,
-   "谷歌新闻·国际": 6,
-   "富途": 6,
-   "同花顺": 6,
+   "华尔街见闻": 8,
+   "东财国际": 8,
+   "谷歌新闻·国际": 8,
+   "同花顺": 7,
+   "富途": 7,
    "东财早报": 3,
-   "财新": 6
+   "财新": 7
   }
  },
  "wuxing": {
