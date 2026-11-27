@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-28 00:52:10 CST",
- "generated_at_iso": "2026-11-28T00:52:10+08:00",
+ "generated_at": "2026-11-28 01:00:33 CST",
+ "generated_at_iso": "2026-11-28T01:00:33+08:00",
  "date": "2026-11-28",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -639,10 +639,10 @@
     "name": "道琼斯",
     "code": "gb_dji",
     "sym": ".DJI",
-    "price": 50811.7617,
-    "change": 628.81,
-    "change_pct": 1.25,
-    "quote_time": "2026-11-28 00:52:04",
+    "price": 50745.4883,
+    "change": 562.54,
+    "change_pct": 1.12,
+    "quote_time": "2026-11-28 01:00:05",
     "hist": [
      51267.8984,
      51521.2812,
@@ -716,10 +716,10 @@
     "name": "纳斯达克",
     "code": "gb_ixic",
     "sym": ".IXIC",
-    "price": 24057.2234,
-    "change": 471.4211,
-    "change_pct": 2.0,
-    "quote_time": "2026-11-28 00:52:12",
+    "price": 24014.3982,
+    "change": 428.5959,
+    "change_pct": 1.82,
+    "quote_time": "2026-11-28 01:00:34",
     "hist": [
      27477.3105,
      27599.791,
@@ -793,10 +793,10 @@
     "name": "标普500",
     "code": "gb_inx",
     "sym": ".INX",
-    "price": 7291.6401,
-    "change": 108.86,
-    "change_pct": 1.52,
-    "quote_time": "2026-11-28 00:52:04",
+    "price": 7280.4199,
+    "change": 97.64,
+    "change_pct": 1.36,
+    "quote_time": "2026-11-28 01:00:05",
     "hist": [
      7773.9502,
      7818.9302,
@@ -1025,7 +1025,6 @@
     "change": 89.51,
     "change_pct": 0.84,
     "hist": [
-     10881.9,
      10764.69,
      10733.0,
      10752.88,
@@ -1054,9 +1053,10 @@
      10480.82,
      10467.07,
      10426.94,
-     10609.3
+     10609.3,
+     10701.79
     ],
-    "sigma": 0.983,
+    "sigma": 1.004,
     "volume": 0.0,
     "vol_pctile": 100.0,
     "vol_hist": [
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8161.42,
-    "change": 52.68,
-    "change_pct": 0.65,
+    "price": 8156.09,
+    "change": 47.35,
+    "change_pct": 0.58,
     "hist": [
      7868.05,
      7838.49,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6087.67,
-    "change": 72.93,
-    "change_pct": 1.21,
+    "price": 6085.87,
+    "change": 71.13,
+    "change_pct": 1.18,
     "hist": [
      6204.24,
      6144.82,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3664.11,
-    "change": 99.51,
-    "change_pct": 2.79,
-    "quote_time": "00:52:12 2026-11-28"
+    "price": 3666.99,
+    "change": 102.39,
+    "change_pct": 2.87,
+    "quote_time": "01:00:37 2026-11-28"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 43.899,
-    "change": 3.361,
+    "price": 43.897,
+    "change": 3.359,
     "change_pct": 8.29,
-    "quote_time": "00:52:14 2026-11-28"
+    "quote_time": "01:00:37 2026-11-28"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 82.799,
-    "change": -0.881,
-    "change_pct": -1.05,
-    "quote_time": "00:52:14 2026-11-28"
+    "price": 82.853,
+    "change": -0.827,
+    "change_pct": -0.99,
+    "quote_time": "01:00:35 2026-11-28"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 89.98,
-    "change": -1.69,
-    "change_pct": -1.84,
-    "quote_time": "00:52:13 2026-11-28"
+    "price": 90.002,
+    "change": -1.668,
+    "change_pct": -1.82,
+    "quote_time": "01:00:35 2026-11-28"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60228.1,
-    "change": -287.5,
-    "change_pct": -0.48,
-    "source": "okx"
+    "price": 59938.4,
+    "change": -678.6,
+    "change_pct": -1.12,
+    "source": "okx",
+    "hist": [
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     60123.3,
+     59968.8
+    ],
+    "sigma": 2.547
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1678.7,
-    "change": -12.47,
-    "change_pct": -0.74,
-    "source": "okx"
+    "price": 1668.92,
+    "change": -26.41,
+    "change_pct": -1.56,
+    "source": "okx",
+    "hist": [
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1672.3,
+     1670.16
+    ],
+    "sigma": 3.012
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.43,
-    "change": 1.55,
-    "change_pct": 2.19,
-    "source": "okx"
+    "price": 71.99,
+    "change": 0.88,
+    "change_pct": 1.24,
+    "source": "okx",
+    "hist": [
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     72.16,
+     72.07
+    ],
+    "sigma": 4.216
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 104.01,
-    "change": 0.22,
-    "change_pct": 0.21,
+    "price": 103.99,
+    "change": 0.2,
+    "change_pct": 0.19,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.6553,
-    "change": -0.006,
+    "price": 6.6552,
+    "change": -0.0061,
     "change_pct": -0.09,
     "dec": 4,
     "date": "",
@@ -1385,14 +1484,14 @@
  },
  "speakers": [
   {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "瑞银建议逢低买入白银 预计2027年将大幅反弹",
-   "summary": "【瑞银建议逢低买入白银 预计2027年将大幅反弹】瑞银认为，白银近期跌幅过大。该行指出，白银价格较2026年高点暴跌近70%，此次抛售是数十年来最严重的跌势之一。瑞银策略师多米尼克·施尼德表示，白银价格已出现过度下跌。与此同时，金银比升至88，意味着白银的相对估值有所改善。瑞银预计，美联储将在2027年第一季度结束加息周期，随后通胀将逐步回落，市场对降息的预期也将重新升温。该行倾向于在未来数月做多白银，并预计受价格波动性更高的影响，白银的反弹幅度可能超过黄金。",
-   "time": "2026-11-28 00:04:16",
-   "url": "https://finance.eastmoney.com/a/202611283942106327.html",
-   "source": "东财国际",
+   "keyword": "外交部",
+   "label": "外交部",
+   "hint": "地缘政治表态影响风险偏好",
+   "title": "巴基斯坦外交部：土耳其、巴基斯坦和沙特国防部长及外交部长今日在伊斯兰堡举行了麦加联盟会议。",
+   "summary": "巴基斯坦外交部：土耳其、巴基斯坦和沙特国防部长及外交部长今日在伊斯兰堡举行了麦加联盟会议。",
+   "time": "2026-11-28 00:53",
+   "url": "https://wallstreetcn.com/livenews/3207212",
+   "source": "华尔街见闻",
    "mentions": 1
   },
   {
@@ -1404,7 +1503,7 @@
    "time": "2026-11-28 00:04",
    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NS2VqaG1DeTJ1eWZEWUFEQTNwV0cycDMtSTgyNVdJTm85RnRuT19GLS1rUW9SLVpnaHpVRU10cEJEdFdKakMyZDh0SnY?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 3
+   "mentions": 2
   }
  ],
  "research": {
@@ -1468,16 +1567,6 @@
   ],
   "reports": [
    {
-    "title": "瑞银建议逢低买入白银 预计2027年将大幅反弹",
-    "org": "瑞银",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-28",
-    "url": "https://finance.eastmoney.com/a/202611283942106327.html",
-    "source": "机构观点"
-   },
-   {
     "title": "东方财富财经早餐 11月27日周五",
     "org": "摩根大通",
     "rating": "",
@@ -1488,13 +1577,23 @@
     "source": "机构观点"
    },
    {
-    "title": "惠誉将Stellantis的信用评级定为“BBB” 展望为负面",
+    "title": "德国商业银行：央行利率预期分化，2027年外汇市场波动性或上升",
+    "org": "德国商业银行",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-27",
+    "url": "https://news.futunn.com/flash/1005869262/commerzbank-diverging-central-bank-rate-expectations-could-lead-to-higher",
+    "source": "机构观点"
+   },
+   {
+    "title": "惠誉确认欧洲通信卫星公司评级为BB，展望稳定",
     "org": "惠誉",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-27",
-    "url": "https://finance.eastmoney.com/a/202611273942106087.html",
+    "url": "https://news.10jqka.com.cn/20261128/c682321207.shtml",
     "source": "机构观点"
    },
    {
@@ -1624,114 +1723,114 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日涨8.29%，达20日历史波动率的 4.6 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-28 00:52",
+   "time": "2026-11-28 01:01",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "以军袭击加沙地带多地 造成1死多伤",
-   "summary": "【以军袭击加沙地带多地 造成1死多伤】当地时间27日，据总台记者消息，以色列国防军当天傍晚在加沙地带多地发动军事袭击，造成1名巴勒斯坦人死亡、多人受伤。",
-   "time": "2026-11-28 00:33:19",
-   "url": "https://finance.eastmoney.com/a/202611283942109251.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "英国股市本周涨超3%",
-   "summary": "德国DAX 30指数初步收涨0.89%，报25440.73点，本周累涨约2.5%。\n\n法国股指初步收涨0.69%，本周累涨约2.8%。\n\n意大利股指初步收涨1.86%、本周累涨1.1%，银行指数涨2.66%、本周累跌1.7%。\n\n英国股指初步收涨0.92%，本周累涨3.5%。",
-   "time": "2026-11-28 00:30",
-   "url": "https://wallstreetcn.com/livenews/3207207",
+   "title": "央企专业化整合取得积极进展，项目超1100个",
+   "summary": "27日，国务院国资委对外通报了央企专业化整合工作新进展，并为下一步中央企业专业化整合工作做出部署。去年以来，各央企共开展整合项目1100余个，涉及资产规模约6.8万亿元。其中，战新领域整合项目共380余个，占比35%，资产规模2.3万亿元，主要涉及生物医药、人工智能、新能源汽车等领域。\n\n专业化整合呈现出增强核心功能和提高核心竞争力的导向，进一步推动产业升级和科技创新。国务院国资委相关负责人指出，",
+   "time": "2026-11-28 01:00",
+   "url": "https://wallstreetcn.com/livenews/3207215",
    "source": "华尔街见闻"
   },
   {
-   "title": "日媒大骂特朗普政府：美方做法令人难以理解，弊端十分突出 - 凤凰网",
+   "title": "费城半导体指数涨4% 报9130.25点",
+   "summary": "【费城半导体指数涨4% 报9130.25点】费城半导体指数涨4%，报9130.25点。纳斯达克综合指数涨幅扩大，现涨2.0%，最新报24073.26点。",
+   "time": "2026-11-28 00:56:48",
+   "url": "https://finance.eastmoney.com/a/202611283942112496.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "中国学者：中美俄“三国协调”可替代特朗普G2构想 - 联合早报",
    "summary": "",
-   "time": "2026-11-28 00:04",
-   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NS2VqaG1DeTJ1eWZEWUFEQTNwV0cycDMtSTgyNVdJTm85RnRuT19GLS1rUW9SLVpnaHpVRU10cEJEdFdKakMyZDh0SnY?oc=5",
+   "time": "2026-11-28 00:24",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE05ejRuRTNYWng2eURjTFFQenBfTURoeEN0M0RJRjVzV256X3VVc1oteG8zV0laalNPOUhmVTQ5RlNXQkRMY19vbDFUNXpkbTB1aTBXdDgyTG5ZdW9uZ2Zza095aC03WU5uMlF3NGpaR0U?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "全国首批首家！商汤大装置获Token工厂智算能力最高评级 - 中国科技网",
+   "title": "“浙”一周第244期｜本周精选研报/重磅推荐/人气路演 - 新浪财经",
    "summary": "",
-   "time": "2026-11-27 22:26",
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LQTM2LUlVMlhvTG1PSnBtelFVdUNyUFo3TXFtWWpXV0dqR0NEc2tIRF9Ed0Z4R3RvQjBnc2Z1QlU5ckFzeW5TaEVnQnJwVkEwUmQzUEJ0QnhyZmYwVmJ1YUtGd3hkb0g4QzVTcVFRNzg?oc=5",
+   "time": "2026-11-27 23:30",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUm8xUHVMNVUySEY3VkNDVTVGMmRNQThyVnRjcjhsb3FyYjAzeHRRRjZVMXFCM0dwOHpRcll3V0tnaF8xb19hdkNscFEtbkhzYkVxNW43Y2lUMUFMaW1OLWlRSlJkQ1d4WVgxNVJHUzNRdnB6cDJBTTVhdHFWVHJRWlh5U0twdw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "伊朗冲突引发油价飙升，欧洲又一家航空公司破产",
+   "title": "美国中央司令部：击中试图突破封锁的一艘商船",
    "summary": "",
-   "time": "2026-11-27 16:00:07",
-   "url": "https://news.futunn.com/flash/1005867789/surge-in-oil-prices-triggered-by-iran-conflict-leads-to",
+   "time": "2026-11-27 16:58:39",
+   "url": "https://news.futunn.com/flash/1005870261/us-central-command-merchant-vessel-attempting-to-breach-blockade-struck",
    "source": "富途"
   },
   {
-   "title": "特斯拉涨幅扩大至5%",
+   "title": "美国国债收益率延续涨势，10年期收益率升至日内高点4.93%",
    "summary": "",
-   "time": "2026-11-27 15:37:06",
-   "url": "https://news.10jqka.com.cn/20261127/c682321039.shtml",
+   "time": "2026-11-27 16:54:59",
+   "url": "https://news.10jqka.com.cn/20261128/c682321216.shtml",
    "source": "同花顺"
   },
   {
@@ -1749,45 +1848,45 @@
    "source": "财新"
   },
   {
-   "title": "美国空军旗舰云计算平台遭黑客入侵",
-   "summary": "【美国空军旗舰云计算平台遭黑客入侵】美国空军旗舰云平台Cloud One据报遭入侵，部分应用迁移及更新受到影响，黑客身份与数据失窃情况尚不明确。",
-   "time": "2026-11-28 00:20:43",
-   "url": "https://finance.eastmoney.com/a/202611283942108750.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "欧洲STOXX 600指数初步收涨1.11%，报644.02点，本周累涨约2.9%。\n\n欧元区STOXX 50指数初步收涨1.22%，报6088.33点，本周累涨约2.4%。\n\n富时泛欧绩优300指数初步收涨1.12%，报2566.85点。",
-   "summary": "欧洲STOXX 600指数初步收涨1.11%，报644.02点，本周累涨约2.9%。\n\n欧元区STOXX 50指数初步收涨1.22%，报6088.33点，本周累涨约2.4%。\n\n富时泛欧绩优300指数初步收涨1.12%，报2566.85点。",
-   "time": "2026-11-28 00:30",
-   "url": "https://wallstreetcn.com/livenews/3207206",
+   "title": "美国10年期国债收益率涨至4.93%，刷新日高；标普涨1.5%，刷新日高。\n\n费城半导体指数涨4%，英伟达涨0.11%，博通涨3.89%，美光涨7.46%，英特尔涨4.01%，AMD涨3.77%，高通涨6.83%，台积电涨3.29%，阿斯麦",
+   "summary": "美国10年期国债收益率涨至4.93%，刷新日高；标普涨1.5%，刷新日高。\n\n费城半导体指数涨4%，英伟达涨0.11%，博通涨3.89%，美光涨7.46%，英特尔涨4.01%，AMD涨3.77%，高通涨6.83%，台积电涨3.29%，阿斯麦涨0.87%。",
+   "time": "2026-11-28 00:54",
+   "url": "https://wallstreetcn.com/livenews/3207214",
    "source": "华尔街见闻"
   },
   {
-   "title": "东西问｜普京与特朗普都爱中国菜：美食，是亚太相知最好的语言 - 新浪财经",
+   "title": "美国国债收益率继续攀升 10年期收益率升至当日高点4.93%",
+   "summary": "美国国债收益率继续攀升，10年期收益率升至当日高点4.93%。",
+   "time": "2026-11-28 00:54:06",
+   "url": "https://finance.eastmoney.com/a/202611283942112081.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "日媒大骂特朗普政府：美方做法令人难以理解，弊端十分突出 - 凤凰网",
    "summary": "",
-   "time": "2026-11-27 23:49",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZHo3RERISjlrTXRTczFkcldLaVNfU1ZDbFZUTEhUN3JVbk1sWS1jb3R2bzVwNjZnVVJiZGxxNEtCaGVTam41N3hkWEJHVnBMblRyc09QaFJLTEdfSTJiMjNyTnI1RWJKVG5aWTRNa3hzZHFRcHV6blpWTjBQRm5jam13ZnhWajhoem5EOHJQZjluWlU5c0M3Ul9sWnJBdVoyNm9OZ09FQ1M5dWd4cHJwNU9WMDdsUXo5aC1EdVpFSEgzcjRLLUFvSmZLVndEQmdMR1pmS0F6cDQ?oc=5",
+   "time": "2026-11-28 00:04",
+   "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5NS2VqaG1DeTJ1eWZEWUFEQTNwV0cycDMtSTgyNVdJTm85RnRuT19GLS1rUW9SLVpnaHpVRU10cEJEdFdKakMyZDh0SnY?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "里昂：周大福维持“持有”评级 目标价上调6.5%至11.4港元 - 新浪财经_金融信息服务商",
+   "title": "全国首批首家！商汤大装置获Token工厂智算能力最高评级 - 新浪新闻",
    "summary": "",
-   "time": "2026-11-27 22:02",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLVFkU0FHZ3FrTXdBcVBIM1FEbzU2NW0tN0U2dldaNjlWUkQ2QW9UbnB3N1FHcFlLNFFkX3dIbC1pUUZnbTZMWkZOLVdYZktHeHFzY1VudkJVU2tEX1lyNEJNazhiaWFHdXB2aEVnTmdhcWgxYlhDa1ktLS10eEd0Z0FfRU9nWWY3MGNjMzgyNUtWVE1UYkdPZ09yVWRwazBNazh3U19WNUh3QQ?oc=5",
+   "time": "2026-11-27 22:04",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5ESXlUOEdZNjdTWmgyVVdLcFFQNExTSEszbl9xanV1SXhrYksxUHc5emJXVjYxQ3VORmkxNW9NMDItcEtna0ZPWWZqTk9xbzhuTU02WTU5Z2U4TmM3TF9JTWJabGNQM2MzT2kzbnB2RjJOTW84OFBtXw?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "伊朗革命卫队：任何封锁都无法阻挡伊朗的国家意志",
+   "title": "德国商业银行：央行利率预期分化，2027年外汇市场波动性或上升",
    "summary": "",
-   "time": "2026-11-27 15:58:45",
-   "url": "https://news.futunn.com/flash/1005867714/iran-s-islamic-revolutionary-guard-corps-no-blockade-can-halt",
+   "time": "2026-11-27 16:37:29",
+   "url": "https://news.futunn.com/flash/1005869262/commerzbank-diverging-central-bank-rate-expectations-could-lead-to-higher",
    "source": "富途"
   },
   {
-   "title": "美国联邦通信委员会主席卡尔：希望SpaceX全力推进太空数据中心建设",
+   "title": "惠誉确认欧洲通信卫星公司评级为BB，展望稳定",
    "summary": "",
-   "time": "2026-11-27 15:19:34",
-   "url": "https://news.10jqka.com.cn/20261127/c682320951.shtml",
+   "time": "2026-11-27 16:42:56",
+   "url": "https://news.10jqka.com.cn/20261128/c682321207.shtml",
    "source": "同花顺"
   },
   {
@@ -1805,45 +1904,45 @@
    "source": "财新"
   },
   {
-   "title": "据法庭文件和消息显示：特斯拉计划收购德国机床制造商EMAG 并将其纳入人形机器人Optimus的供应链之中",
-   "summary": "据法庭文件和消息显示，特斯拉计划收购德国机床制造商EMAG，并将其纳入人形机器人Optimus的供应链之中。",
-   "time": "2026-11-28 00:12:08",
-   "url": "https://finance.eastmoney.com/a/202611283942107278.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "尼日利亚将12月夸伊博原油价格上调至即期布伦特升水1.15美元/桶。",
-   "summary": "尼日利亚将12月夸伊博原油价格上调至即期布伦特升水1.15美元/桶。",
-   "time": "2026-11-28 00:27",
-   "url": "https://wallstreetcn.com/livenews/3207205",
+   "title": "巴基斯坦外交部：土耳其、巴基斯坦和沙特国防部长及外交部长今日在伊斯兰堡举行了麦加联盟会议。",
+   "summary": "巴基斯坦外交部：土耳其、巴基斯坦和沙特国防部长及外交部长今日在伊斯兰堡举行了麦加联盟会议。",
+   "time": "2026-11-28 00:53",
+   "url": "https://wallstreetcn.com/livenews/3207212",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普承认：美国刺探中国情报，多少年了一直都这样 - 21财经",
+   "title": "美国联邦通信委员会主席卡尔表示：市场对地面数据中心的悲观情绪已经见顶 太空数据中心很可能成为地球的绝佳补充",
+   "summary": "美国联邦通信委员会（FCC）主席卡尔表示，市场对地面数据中心的悲观情绪已经见顶，太空数据中心很可能成为地球（数据中心）的绝佳补充。",
+   "time": "2026-11-28 00:50:01",
+   "url": "https://finance.eastmoney.com/a/202611283942111769.html",
+   "source": "东财国际"
+  },
+  {
+   "title": "东西问｜普京与特朗普都爱中国菜：美食，是亚太相知最好的语言 - 新浪财经",
    "summary": "",
-   "time": "2026-11-27 22:19",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUWQxWUdOeHBoVWQ2SWJ6UnVMVU1PODFfcVc4d2FnVml0ZE9jRF9LZG84NXdqbEVLRzRpZXVUR082bXlsZE1DWENUOExPVDdQamZHdlVWTzJzaFhwVmJ1VkUwSTI0TUxmZnlvUEVCNFJLSVMzWjlWRXlNci1LazY4WDkyc2g4SzE4NXhJeXpCVQ?oc=5",
+   "time": "2026-11-27 23:49",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZHo3RERISjlrTXRTczFkcldLaVNfU1ZDbFZUTEhUN3JVbk1sWS1jb3R2bzVwNjZnVVJiZGxxNEtCaGVTam41N3hkWEJHVnBMblRyc09QaFJLTEdfSTJiMjNyTnI1RWJKVG5aWTRNa3hzZHFRcHV6blpWTjBQRm5jam13ZnhWajhoem5EOHJQZjluWlU5c0M3Ul9sWnJBdVoyNm9OZ09FQ1M5dWd4cHJwNU9WMDdsUXo5aC1EdVpFSEgzcjRLLUFvSmZLVndEQmdMR1pmS0F6cDQ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "S&B 研究 - 行业评级 - 情绪评级 - Moomoo",
+   "title": "里昂：周大福维持“持有”评级 目标价上调6.5%至11.4港元 - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-27 21:55",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb0VyRm1GTGhScnZ4eG11ZWpJRDVOWlNvMnZ2NmpBdFVLX0FJWVdGMWM4Nm9RSXVLQVZ5QjZ4OU05VGJ3Tmo1MHpGM1M5ZzlJX09LeXFDNFUyWXhEQVdtVEM4OFUxaEJXMGJkQkxHUVVqQkVfd0JCRXNRNDFMelNaeUhZRG0wOE9pUVdpWFNEQkdzYURjTWlfb1NTVEwxZllOM2x5MQ?oc=5",
+   "time": "2026-11-27 22:02",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOLVFkU0FHZ3FrTXdBcVBIM1FEbzU2NW0tN0U2dldaNjlWUkQ2QW9UbnB3N1FHcFlLNFFkX3dIbC1pUUZnbTZMWkZOLVdYZktHeHFzY1VudkJVU2tEX1lyNEJNazhiaWFHdXB2aEVnTmdhcWgxYlhDa1ktLS10eEd0Z0FfRU9nWWY3MGNjMzgyNUtWVE1UYkdPZ09yVWRwazBNazh3U19WNUh3QQ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "印尼警方逮捕三人，涉嫌恶意操纵股价",
+   "title": "伊朗冲突引发油价飙升，欧洲又一家航空公司破产",
    "summary": "",
-   "time": "2026-11-27 15:49:16",
-   "url": "https://news.futunn.com/flash/1005867211/indonesian-police-arrest-three-individuals-suspected-of-maliciously-manipulating-stock",
+   "time": "2026-11-27 16:00:07",
+   "url": "https://news.futunn.com/flash/1005867789/surge-in-oil-prices-triggered-by-iran-conflict-leads-to",
    "source": "富途"
   },
   {
-   "title": "期市夜盘收盘，国内期货主力合约多数上涨，烧碱涨超3%",
+   "title": "纳斯达克100指数涨幅扩大至2%，创下盘中新高",
    "summary": "",
-   "time": "2026-11-27 15:00:28",
-   "url": "https://news.10jqka.com.cn/20261127/c682320844.shtml",
+   "time": "2026-11-27 16:38:02",
+   "url": "https://news.10jqka.com.cn/20261128/c682321202.shtml",
    "source": "同花顺"
   },
   {
@@ -1854,18 +1953,18 @@
    "source": "财新"
   },
   {
-   "title": "瑞银建议逢低买入白银 预计2027年将大幅反弹",
-   "summary": "【瑞银建议逢低买入白银 预计2027年将大幅反弹】瑞银认为，白银近期跌幅过大。该行指出，白银价格较2026年高点暴跌近70%，此次抛售是数十年来最严重的跌势之一。瑞银策略师多米尼克·施尼德表示，白银价格已出现过度下跌。与此同时，金银比升至88，意味着白银的相对估值有所改善。瑞银预计，美联储将在2027年第一季度结束加息周期，随后通胀将逐步回落，市场对降息的预期也将重新升温。该行倾向于在未来数月做多白银，并预计受价格波动性更高的影响，白银的反弹幅度可能超过黄金。",
-   "time": "2026-11-28 00:04:16",
-   "url": "https://finance.eastmoney.com/a/202611283942106327.html",
-   "source": "东财国际"
+   "title": "美国联邦通信委员会（FCC）主席Carr： 市场对地面数据中心的悲观情绪已经见顶。",
+   "summary": "美国联邦通信委员会（FCC）主席Carr： 市场对地面数据中心的悲观情绪已经见顶。",
+   "time": "2026-11-28 00:45",
+   "url": "https://wallstreetcn.com/livenews/3207211",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(22)",
+   "富途": "ok(23)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1874,8 +1973,8 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
+   "东财国际": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
    "富途": 6,
