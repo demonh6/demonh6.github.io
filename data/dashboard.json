@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 11:44:44 CST",
- "generated_at_iso": "2026-11-27T11:44:44+08:00",
+ "generated_at": "2026-11-27 11:52:58 CST",
+ "generated_at_iso": "2026-11-27T11:52:58+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -409,9 +409,9 @@
     "name": "恒生指数",
     "code": "hkHSI",
     "sym": "HSI",
-    "price": 22368.48,
-    "change": 141.6,
-    "change_pct": 0.64,
+    "price": 22377.24,
+    "change": 150.359,
+    "change_pct": 0.68,
     "hist": [
      23972.2891,
      24040.3398,
@@ -485,9 +485,9 @@
     "name": "恒生科技指数",
     "code": "hkHSTECH",
     "sym": "HSTECH",
-    "price": 3521.22,
-    "change": 103.84,
-    "change_pct": 3.04,
+    "price": 3517.02,
+    "change": 99.64,
+    "change_pct": 2.92,
     "hist": [
      4157.9399,
      4183.6802,
@@ -561,9 +561,9 @@
     "name": "恒生中国企业指数",
     "code": "hkHSCEI",
     "sym": "HSCEI",
-    "price": 7542.84,
-    "change": 49.5,
-    "change_pct": 0.66,
+    "price": 7545.12,
+    "change": 51.78,
+    "change_pct": 0.69,
     "hist": [
      8030.54,
      8051.6704,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3657.502,
-    "change": 92.902,
+    "price": 3657.58,
+    "change": 92.98,
     "change_pct": 2.61,
-    "quote_time": "11:44:38 2026-11-27"
+    "quote_time": "11:52:43 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 43.88,
-    "change": 3.342,
-    "change_pct": 8.24,
-    "quote_time": "11:44:33 2026-11-27"
+    "price": 43.805,
+    "change": 3.267,
+    "change_pct": 8.06,
+    "quote_time": "11:52:49 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.709,
-    "change": 2.029,
+    "price": 85.702,
+    "change": 2.022,
     "change_pct": 2.42,
-    "quote_time": "11:44:33 2026-11-27"
+    "quote_time": "11:52:51 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 92.225,
-    "change": 0.555,
-    "change_pct": 0.61,
-    "quote_time": "11:43:41 2026-11-27"
+    "price": 92.27,
+    "change": 0.6,
+    "change_pct": 0.65,
+    "quote_time": "11:51:48 2026-11-27"
    }
   ],
   "crypto": [
@@ -1294,27 +1294,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61496.2,
-    "change": 765.3,
-    "change_pct": 1.26,
+    "price": 61510.8,
+    "change": 685.1,
+    "change_pct": 1.13,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1728.73,
-    "change": 31.6,
-    "change_pct": 1.86,
+    "price": 1729.52,
+    "change": 29.34,
+    "change_pct": 1.73,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.87,
-    "change": 1.74,
-    "change_pct": 2.45,
+    "price": 72.71,
+    "change": 1.54,
+    "change_pct": 2.16,
     "source": "okx"
    }
   ],
@@ -1344,9 +1344,9 @@
    {
     "name": "AH股溢价",
     "sym": "HSAHP",
-    "price": 136.29,
-    "change": -2.11,
-    "change_pct": -1.52,
+    "price": 136.34,
+    "change": -2.06,
+    "change_pct": -1.49,
     "dec": 2,
     "date": "2026-11-27",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
@@ -1605,21 +1605,21 @@
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨3.79%，达20日历史波动率的 3.2 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 11:44",
+   "time": "2026-11-27 11:53",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日涨8.24%，达20日历史波动率的 4.6 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 11:44",
+   "message": "COMEX白银单日涨8.06%，达20日历史波动率的 4.5 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-27 11:53",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "深证成指、创业板指、英国富时100等 4 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 11:44",
+   "time": "2026-11-27 11:53",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
@@ -1889,9 +1889,9 @@
   "date": "2026-11-27",
   "zt_count": 92,
   "dt_count": 0,
-  "zb_count": 15,
-  "qs_count": 59,
-  "seal_rate": 86.0,
+  "zb_count": 0,
+  "qs_count": 0,
+  "seal_rate": 100.0,
   "first_board": 74,
   "continued": 18,
   "max_streak": 4,
@@ -2028,11 +2028,11 @@
   ],
   "dt_leaders": [],
   "index_pct": 0.28,
-  "score": 84.9,
+  "score": 91.2,
   "score_label": "过热",
   "source": "东方财富涨停板专题（涨停/炸板/跌停/强势池）",
   "insights": [
-   "封板率 86%（炸板 15 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
+   "封板率 100%（炸板 0 家）：封板意愿较强，涨停质量偏好，次日溢价的概率通常高于炸板率高的日子。",
    "无跌停且涨停 92 家：当日风险偏好偏高，属于普涨式做多环境。",
    "最高 4 连板：有一定高度但未成绝对主线，属于分歧中前行的阶段。",
    "连板 18 家 / 涨停 92 家（20%）：以首板为主，持续性待验证",
@@ -2297,10 +2297,10 @@
     "date": "2026-11-27",
     "zt": 92,
     "dt": 0,
-    "zb": 15,
-    "seal": 86.0,
+    "zb": 0,
+    "seal": 100.0,
     "max_streak": 4,
-    "score": 84.9,
+    "score": 91.2,
     "index_pct": 0.28
    }
   ],
