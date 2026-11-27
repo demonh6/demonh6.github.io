@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-27 18:55:58 CST",
- "generated_at_iso": "2026-11-27T18:55:58+08:00",
+ "generated_at": "2026-11-27 19:04:19 CST",
+ "generated_at_iso": "2026-11-27T19:04:19+08:00",
  "date": "2026-11-27",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -904,7 +904,7 @@
      58644.63,
      57011.62,
      57499.16,
-     58711.1094
+     58711.11
     ],
     "sigma": 2.466,
     "volume": 0.0,
@@ -1021,8 +1021,8 @@
    {
     "name": "英国富时100",
     "sym": "FTSE",
-    "price": 10690.71,
-    "change": 81.41,
+    "price": 10691.18,
+    "change": 81.88,
     "change_pct": 0.77,
     "hist": [
      10881.9,
@@ -1095,9 +1095,9 @@
    {
     "name": "法国CAC40",
     "sym": "CAC40",
-    "price": 8140.1,
-    "change": 31.36,
-    "change_pct": 0.39,
+    "price": 8144.94,
+    "change": 36.2,
+    "change_pct": 0.45,
     "hist": [
      7956.7,
      7868.05,
@@ -1169,9 +1169,9 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6092.98,
-    "change": 78.24,
-    "change_pct": 1.3,
+    "price": 6097.0,
+    "change": 82.26,
+    "change_pct": 1.37,
     "hist": [
      6204.24,
      6144.82,
@@ -1256,37 +1256,37 @@
     "name": "COMEX黄金",
     "code": "hf_GC",
     "sym": "GC",
-    "price": 3707.46,
-    "change": 142.86,
-    "change_pct": 4.01,
-    "quote_time": "18:55:59 2026-11-27"
+    "price": 3705.769,
+    "change": 141.169,
+    "change_pct": 3.96,
+    "quote_time": "19:04:21 2026-11-27"
    },
    {
     "name": "COMEX白银",
     "code": "hf_SI",
     "sym": "SI",
-    "price": 44.644,
-    "change": 4.106,
-    "change_pct": 10.13,
-    "quote_time": "18:55:48 2026-11-27"
+    "price": 44.578,
+    "change": 4.04,
+    "change_pct": 9.97,
+    "quote_time": "19:04:18 2026-11-27"
    },
    {
     "name": "WTI原油",
     "code": "hf_CL",
     "sym": "CL",
-    "price": 85.439,
-    "change": 1.759,
-    "change_pct": 2.1,
-    "quote_time": "18:56:01 2026-11-27"
+    "price": 85.398,
+    "change": 1.718,
+    "change_pct": 2.05,
+    "quote_time": "19:04:20 2026-11-27"
    },
    {
     "name": "布伦特原油",
     "code": "hf_OIL",
     "sym": "BRN",
-    "price": 91.893,
-    "change": 0.223,
-    "change_pct": 0.24,
-    "quote_time": "18:55:56 2026-11-27"
+    "price": 91.943,
+    "change": 0.273,
+    "change_pct": 0.3,
+    "quote_time": "19:04:16 2026-11-27"
    }
   ],
   "crypto": [
@@ -1294,37 +1294,136 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 61673.1,
-    "change": 1157.0,
-    "change_pct": 1.91,
-    "source": "okx"
+    "price": 61550.1,
+    "change": 1050.1,
+    "change_pct": 1.74,
+    "source": "okx",
+    "hist": [
+     81776.2,
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     61543.6
+    ],
+    "sigma": 2.626
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1729.8,
-    "change": 35.08,
-    "change_pct": 2.07,
-    "source": "okx"
+    "price": 1725.09,
+    "change": 30.95,
+    "change_pct": 1.83,
+    "source": "okx",
+    "hist": [
+     2368.95,
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1724.85
+    ],
+    "sigma": 3.105
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 73.41,
-    "change": 2.88,
-    "change_pct": 4.08,
-    "source": "okx"
+    "price": 73.16,
+    "change": 2.68,
+    "change_pct": 3.8,
+    "source": "okx",
+    "hist": [
+     102.68,
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     73.14
+    ],
+    "sigma": 4.272
    }
   ],
   "fx": [
    {
     "name": "美元指数",
     "sym": "DXY",
-    "price": 103.82,
-    "change": 0.03,
-    "change_pct": 0.03,
+    "price": 103.79,
+    "change": 0.0,
+    "change_pct": 0.0,
     "dec": 2,
     "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
@@ -1333,8 +1432,8 @@
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
-    "price": 6.654,
-    "change": -0.0073,
+    "price": 6.6543,
+    "change": -0.007,
     "change_pct": -0.11,
     "dec": 4,
     "date": "",
@@ -1385,59 +1484,26 @@
  },
  "speakers": [
   {
-   "keyword": "人民银行",
-   "label": "人民银行",
-   "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
-   "title": "【中国人民银行：将引导金融机构平衡好防范道德风险和兼顾借款人偿付能力的关系 预计罚息利率总体将有所下行】中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问：《规定》取消了贷款罚息利率的上下限，这一变动有什么考虑？是否会导致出",
-   "summary": "【中国人民银行：将引导金融机构平衡好防范道德风险和兼顾借款人偿付能力的关系 预计罚息利率总体将有所下行】中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问：《规定》取消了贷款罚息利率的上下限，这一变动有什么考虑？是否会导致出现过高的罚息利率？\n\n答：贷款罚息利率是利率体系的重要组成部分，目的是鼓励借款人履约守信，防范贷款逾期的道德风险。在利率管制时期，罚息利率由中国人民银行直接确定",
-   "time": "2026-11-27 18:35",
-   "url": "https://wallstreetcn.com/livenews/3207043",
-   "source": "华尔街见闻",
-   "mentions": 2
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普：黄仁勋重返英伟达是件“好事”，他本人也很高兴回归 - 中国新闻网",
+   "summary": "",
+   "time": "2026-11-27 18:43",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkUmZvWTJRSWFPU295R01TNVhJa3VCQy04SThjMm5zcW9xMW9oNUxEMGRrYkVxd05iblRFMDR4aVFKSHdVR2JwMVhRMnJMWlNBTnJpRFQ0NWdrNUZzTjl5SGtHWHM2UFZJ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 3
   },
   {
    "keyword": "中国央行",
    "label": "中国央行",
    "hint": "货币政策工具（降准/MLF/LPR）决定A股流动性",
-   "title": "中国央行明确大额存单发行利率以市场化方式确定",
-   "summary": "为促进大额存单市场健康发展，中国人民银行制定了《大额存单管理办法》，现予公布，自2027年3月21日起施行。第八条规定：大额存单发行利率以市场化方式确定。固定利率存单采用票面年化收益率的形式计息，浮动利率存单以上海银行间同业拆放利率（Shibor）、存款类金融机构债券回购利率（DR）或其他中国人民银行认可的利率为浮动利率基准计息。",
-   "time": "2026-11-27 18:31",
-   "url": "https://wallstreetcn.com/livenews/3207039",
+   "title": "中国央行：将着手研究第三方平台等相关配套安排，保障大额存单转让有序开展",
+   "summary": "中国人民银行有关部门负责人就 《大额存单管理办法》答记者问。\n\n大额存单的可转让功能有什么特点？《办法》中加入对发行人开展转让业务的规范约束有什么考虑？\n\n答：大额存单可转让属性是区别于普通定期存款的核心特征，也是吸引各类投资人的重要因素之一。大额存单在存续期间可以通过银行自有渠道或中国人民银行认可的第三方平台进行转让流通，持有人在不提前支取的前提下即可实现资产变现，这一设计有效兼顾了长期限产品的",
+   "time": "2026-11-27 18:41",
+   "url": "https://wallstreetcn.com/livenews/3207049",
    "source": "华尔街见闻",
-   "mentions": 1
-  },
-  {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "特朗普：我们支持伊拉克Al-Zaidi确立权威的努力。",
-   "summary": "特朗普：我们支持伊拉克Al-Zaidi确立权威的努力。",
-   "time": "2026-11-27 18:30",
-   "url": "https://wallstreetcn.com/livenews/3207038",
-   "source": "华尔街见闻",
-   "mentions": 5
-  },
-  {
-   "keyword": "美联储",
-   "label": "美联储",
-   "hint": "FOMC决定与官员讲话是全球利率锚",
-   "title": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升 - Sohu",
-   "summary": "",
-   "time": "2026-11-27 16:48",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYy1UT3c4RVhDX2d2czRfVzgzc0t6eWNUcmhZa3JqMjBMSjA2MlZqYTlIOVNqc0JfLXJWeEd4cDBVSjVocTMwY0hSdF9kcWNUa2dGem8tbldPQ0h4VE9JU29sdHc4S0E5LXA3VFMtb3hpZlBRVEFGOU9QRnAtcy15WG1BMjZoZ2Fa?oc=5",
-   "source": "谷歌新闻·国际",
-   "mentions": 1
-  },
-  {
-   "keyword": "证监会",
-   "label": "证监会",
-   "hint": "A股核心监管机构的政策直接影响市场情绪",
-   "title": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
-   "summary": "",
-   "time": "2026-11-27 10:38:54",
-   "url": "https://news.10jqka.com.cn/20261127/c682313453.shtml",
-   "source": "同花顺",
-   "mentions": 1
+   "mentions": 2
   }
  ],
  "research": {
@@ -1501,16 +1567,6 @@
   ],
   "reports": [
    {
-    "title": "摩根大通下调阿迪达斯评级至中性 目标价降至184欧元 - 新浪财经",
-    "org": "摩根大通",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-27",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMUpRU2FnSWk0NXZXWFYyeW5pTFAwamYxdTdKZWFwZmZEdjlGOWgzOHAyV2Q2S2ZscGQ4R1ozdWpiSDd1X0MtaTZuWnlETXNZbVZKZVlETEpjVjU2alh3eDNHSDliOFpyS1hiMzhzMkxydUQxWTJYT2tsWU0tWlRVTlRWeUpBZkppS1E?oc=5",
-    "source": "机构观点"
-   },
-   {
     "title": "东方财富财经早餐 11月27日周五",
     "org": "摩根大通",
     "rating": "",
@@ -1519,6 +1575,26 @@
     "date": "2026-11-27",
     "url": "http://finance.eastmoney.com/a/202611263940986188.html",
     "source": "机构观点"
+   },
+   {
+    "title": "公司动态研究报告：轨交海外收获，新能源减亏验证",
+    "org": "华鑫证券",
+    "rating": "买入",
+    "stock": "康尼机电",
+    "industry": "轨交设备Ⅱ",
+    "date": "2026-11-27",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611271832116174",
+    "source": "东财研报·个股"
+   },
+   {
+    "title": "电子洁净新势力",
+    "org": "国信证券",
+    "rating": "增持",
+    "stock": "华康洁净",
+    "industry": "医疗器械",
+    "date": "2026-11-27",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611271832115916",
+    "source": "东财研报·个股"
    },
    {
     "title": "中小盘首次覆盖报告：AI测试晋级业绩主引擎，磷化铟衬底卡位供需缺口",
@@ -1581,16 +1657,6 @@
     "source": "东财研报·个股"
    },
    {
-    "title": "公司动态研究报告：以IP为支点聚传奇本源 借AI探索新应用",
-    "org": "华鑫证券",
-    "rating": "买入",
-    "stock": "恺英网络",
-    "industry": "游戏Ⅱ",
-    "date": "2026-11-27",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611271832098309",
-    "source": "东财研报·个股"
-   },
-   {
     "title": "订单交付带动业绩增长，OCS打开成长空间",
     "org": "太平洋",
     "rating": "买入",
@@ -1629,16 +1695,6 @@
     "date": "2026-11-27",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611271832089146",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "机构持仓视角下的东莞机械产业：持仓分化与赛道机会",
-    "org": "东莞证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-27",
-    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611271832114481",
-    "source": "东财研报·行业"
    }
   ]
  },
@@ -1647,121 +1703,121 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
-   "message": "COMEX白银单日涨10.13%，达20日历史波动率的 5.6 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-27 18:56",
+   "message": "COMEX白银单日涨9.97%，达20日历史波动率的 5.5 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
+   "time": "2026-11-27 19:05",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "COMEX黄金",
-   "message": "COMEX黄金单日涨4.01%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
-   "time": "2026-11-27 18:56",
+   "message": "COMEX黄金单日涨3.96%，达20日历史波动率的 2.2 倍（σ=1.80%，突破 2σ 警戒线，σ按长期均值估算）",
+   "time": "2026-11-27 19:05",
    "chain": "避险资金涌入黄金ETF与期货 → 金价上行压低实际利率预期 → 美元信用担忧升温 → 黄金股/贵金属板块联动走强 → 通胀对冲需求进一步放大涨幅"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-27 18:56",
+   "time": "2026-11-27 19:05",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "【中国人民银行：将引导金融机构平衡好防范道德风险和兼顾借款人偿付能力的关系 预计罚息利率总体将有所下行】中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问：《规定》取消了贷款罚息利率的上下限，这一变动有什么考虑？是否会导致出",
-   "summary": "【中国人民银行：将引导金融机构平衡好防范道德风险和兼顾借款人偿付能力的关系 预计罚息利率总体将有所下行】中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问：《规定》取消了贷款罚息利率的上下限，这一变动有什么考虑？是否会导致出现过高的罚息利率？\n\n答：贷款罚息利率是利率体系的重要组成部分，目的是鼓励借款人履约守信，防范贷款逾期的道德风险。在利率管制时期，罚息利率由中国人民银行直接确定",
-   "time": "2026-11-27 18:35",
-   "url": "https://wallstreetcn.com/livenews/3207043",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "光模块行业脱水研报：订单能见度至2027年，供给瓶颈在电芯片与光芯片，毛利率改善来自结构迁移 - 同花顺财经",
-   "summary": "",
-   "time": "2026-11-27 18:34",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GR21SVnhJVGlpZUR2S3B5eVRWdU9fUHctZkxMTGs0RTgtZVpyY0NMRHdSY3ljQzNkRkoxR292VVlocVpQUWUxOVRRZmlYa1h1ajMtUVZKbWtMRVBDWVE?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "欧洲投资银行与裕信银行合作 撬动最高16亿欧元投资支持欧洲风电产业链",
-   "summary": "【欧洲投资银行与裕信银行合作 撬动最高16亿欧元投资支持欧洲风电产业链】欧洲投资银行（EIB）与意大利裕信银行（UniCredit）签署协议，计划通过提供最高16亿欧元投资支持欧洲风电产业链。",
-   "time": "2026-11-27 18:32:39",
-   "url": "https://finance.eastmoney.com/a/202611273941802461.html",
+   "title": "伊朗海军司令称夺回两艘被美军劫持的油轮",
+   "summary": "【伊朗海军司令称夺回两艘被美军劫持的油轮】据法尔斯通讯社等伊朗媒体27日报道，伊朗海军司令沙赫拉姆·伊拉尼当天说，伊朗海军突击队夺回两艘此前被美军劫持的油轮。",
+   "time": "2026-11-27 19:03:58",
+   "url": "https://finance.eastmoney.com/a/202611273941819664.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普：美国不需要中东的石油，“我们的石油是沙特和俄罗斯总和的两倍” - 上观新闻",
+   "title": "特朗普：黄仁勋重返英伟达是件“好事”，他本人也很高兴回归 - 中国新闻网",
    "summary": "",
-   "time": "2026-11-27 17:16",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JR09GSGQxUG5SOTNCVEZZZkJsdVJycS1BOFlwRkxLdHUxeTQ0d3gwRTEtRHEtRGFtUnpyNzRkNU50MmRTNHJwMXJwbkVha3BZWFlpQzRva3dtNTM5TUE?oc=5",
+   "time": "2026-11-27 18:43",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBkUmZvWTJRSWFPU295R01TNVhJa3VCQy04SThjMm5zcW9xMW9oNUxEMGRrYkVxd05iblRFMDR4aVFKSHdVR2JwMVhRMnJMWlNBTnJpRFQ0NWdrNUZzTjl5SGtHWHM2UFZJ?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "中国证监会严肃查处两起编造传播证券市场误导性信息案件",
+   "title": "中国央行：将着手研究第三方平台等相关配套安排，保障大额存单转让有序开展",
+   "summary": "中国人民银行有关部门负责人就 《大额存单管理办法》答记者问。\n\n大额存单的可转让功能有什么特点？《办法》中加入对发行人开展转让业务的规范约束有什么考虑？\n\n答：大额存单可转让属性是区别于普通定期存款的核心特征，也是吸引各类投资人的重要因素之一。大额存单在存续期间可以通过银行自有渠道或中国人民银行认可的第三方平台进行转让流通，持有人在不提前支取的前提下即可实现资产变现，这一设计有效兼顾了长期限产品的",
+   "time": "2026-11-27 18:41",
+   "url": "https://wallstreetcn.com/livenews/3207049",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "METROPOLIS CAP(08621)附属就若干经评级的体育交易卡订立融资租赁_经济时评_财经 - 证券之星",
    "summary": "",
-   "time": "2026-11-27 10:38:54",
-   "url": "https://news.10jqka.com.cn/20261127/c682313453.shtml",
+   "time": "2026-11-27 18:38",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YTnRwWE9tel9tSVZpSTVyQ3JVeTViMVk1dThBYmlQUFI1MHI2bWdUZTd5N3A4cm5sYmU4NGNXbTJrVWRWQUd1Z1BBT3VPdElGd01PZExaX2h5STdZallBbw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "十一部门联合公布《分布式数字身份互通互认应用规定》",
+   "summary": "",
+   "time": "2026-11-27 11:04:21",
+   "url": "https://news.10jqka.com.cn/20261127/c682313989.shtml",
    "source": "同花顺"
   },
   {
-   "title": "中国人民银行：将引导金融机构平衡好防范道德风险和兼顾借款人偿付能力的关系 预计罚息利率总体将有所下行",
+   "title": "中华人民共和国国际贸易谈判副代表张力会见德国拜耳集团处方药事业部全球总裁斯蒂芬·奥尔里奇",
    "summary": "",
-   "time": "2026-11-27 10:32:47",
-   "url": "https://news.futunn.com/flash/1005844184/people-s-bank-of-china-will-guide-financial-institutions-to",
+   "time": "2026-11-27 10:58:34",
+   "url": "https://news.futunn.com/flash/1005845921/zhang-li-deputy-chief-negotiator-for-international-trade-of-the",
    "source": "富途"
   },
   {
@@ -1779,45 +1835,45 @@
    "source": "财新"
   },
   {
-   "title": "中国央行明确大额存单发行利率以市场化方式确定",
-   "summary": "为促进大额存单市场健康发展，中国人民银行制定了《大额存单管理办法》，现予公布，自2027年3月21日起施行。第八条规定：大额存单发行利率以市场化方式确定。固定利率存单采用票面年化收益率的形式计息，浮动利率存单以上海银行间同业拆放利率（Shibor）、存款类金融机构债券回购利率（DR）或其他中国人民银行认可的利率为浮动利率基准计息。",
-   "time": "2026-11-27 18:31",
-   "url": "https://wallstreetcn.com/livenews/3207039",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "廊坊银行主动终止委托评级 - 新浪财经",
-   "summary": "",
-   "time": "2026-11-27 18:20",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQjk2U3JFQzQyLU1oY0ZFc0o3ZjFUeFBxekp5eUotNVRFWFV1YUwyNUlLS05vVWRxeld3dm9sanRfazJ6TmFqUUdxNmRTS3huend3SFdyM2t1TEllZDh0cHQydUxWdFhvUWhVb21UZFcyZFVJR1lxdUxxR0J0cXhnTG9nSHVYZkhDM3dYS1QybjN2NzhsWmNtSg?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "深交所：调整深证成指、创业板指、深证100、创业板50等指数样本股",
-   "summary": "【深交所：调整深证成指、创业板指、深证100、创业板50等指数样本股】根据指数编制规则，深圳证券交易所和深圳证券信息有限公司决定于2026年12月14日对深证成指、创业板指、深证100、创业板50等指数实施样本股定期调整。",
-   "time": "2026-11-27 18:31:44",
-   "url": "https://finance.eastmoney.com/a/202611273941802692.html",
+   "title": "冷战结束后首次！英国通知10万名预备役人员做好战时动员准备",
+   "summary": "【冷战结束后首次！英国通知10万名预备役人员做好战时动员准备】据媒体报道，英国国防部已联系约10万名战略预备役人员，要求他们为可能发生的战时动员做好准备，这是英国自冷战结束以来规模最大的一次此类动员准备行动。",
+   "time": "2026-11-27 18:58:15",
+   "url": "https://finance.eastmoney.com/a/202611273941819334.html",
    "source": "东财国际"
   },
   {
-   "title": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升 - Sohu",
+   "title": "特朗普：美国不需要中东的石油，“我们的石油是沙特和俄罗斯总和的两倍” - 上观新闻",
    "summary": "",
-   "time": "2026-11-27 16:48",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYy1UT3c4RVhDX2d2czRfVzgzc0t6eWNUcmhZa3JqMjBMSjA2MlZqYTlIOVNqc0JfLXJWeEd4cDBVSjVocTMwY0hSdF9kcWNUa2dGem8tbldPQ0h4VE9JU29sdHc4S0E5LXA3VFMtb3hpZlBRVEFGOU9QRnAtcy15WG1BMjZoZ2Fa?oc=5",
+   "time": "2026-11-27 17:16",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ha3BqcTBvcG1qOU1sOFdRSjhFQWhwZFNTWnhhLTYtTDd1T1Q2R25mLU9sVFBXZmRvOVVRSUpSLXFaQm8tOWg0Wlc4bEgtMWgxRHdsT2xoMVM1czN0?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "广州港：马士基受让南沙国际通用码头公司40%股权",
+   "title": "宁德时代：拟由境外全资子公司香港时代作为有限合伙人参与投资境外私募股权投资基金Lochpine Lush Limited Partnership，认缴出资不超过2.99亿美元，占基金认缴总额的99.90%；基金主要围绕储能、矿山微电网、零碳",
+   "summary": "宁德时代：拟由境外全资子公司香港时代作为有限合伙人参与投资境外私募股权投资基金Lochpine Lush Limited Partnership，认缴出资不超过2.99亿美元，占基金认缴总额的99.90%；基金主要围绕储能、矿山微电网、零碳项目及相关产业链开展投资。",
+   "time": "2026-11-27 18:39",
+   "url": "https://wallstreetcn.com/livenews/3207048",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "光模块行业脱水研报：订单能见度至2027年，供给瓶颈在电芯片与光芯片，毛利率改善来自结构迁移 - 同花顺财经",
    "summary": "",
-   "time": "2026-11-27 10:36:45",
-   "url": "https://news.10jqka.com.cn/20261127/c682313408.shtml",
+   "time": "2026-11-27 18:34",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GR21SVnhJVGlpZUR2S3B5eVRWdU9fUHctZkxMTGs0RTgtZVpyY0NMRHdSY3ljQzNkRkoxR292VVlocVpQUWUxOVRRZmlYa1h1ajMtUVZKbWtMRVBDWVE?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "小鹏汽车：MONA全系累计交付突破40万台",
+   "summary": "",
+   "time": "2026-11-27 11:04:03",
+   "url": "https://news.10jqka.com.cn/20261127/c682313985.shtml",
    "source": "同花顺"
   },
   {
-   "title": "国产人工心脏刷新世界纪录 全磁悬浮人工心脏新突破",
+   "title": "深交所：本周共对170起证券异常交易行为采取了自律监管措施 涉及盘中拉抬打压、虚假申报等异常交易情形",
    "summary": "",
-   "time": "2026-11-27 10:26:50",
-   "url": "https://news.futunn.com/flash/1005843700/domestically-produced-artificial-heart-sets-world-record-new-breakthrough-in",
+   "time": "2026-11-27 10:55:22",
+   "url": "https://news.futunn.com/flash/1005845745/szse-this-week-self-disciplinary-regulatory-measures-were-taken-against",
    "source": "富途"
   },
   {
@@ -1835,24 +1891,10 @@
    "source": "财新"
   },
   {
-   "title": "特朗普：我们支持伊拉克Al-Zaidi确立权威的努力。",
-   "summary": "特朗普：我们支持伊拉克Al-Zaidi确立权威的努力。",
-   "time": "2026-11-27 18:30",
-   "url": "https://wallstreetcn.com/livenews/3207038",
-   "source": "华尔街见闻"
-  },
-  {
-   "title": "大行评级｜高盛：维持新东方“买入”评级，目标价54港元_市场分析 - 中金在线",
-   "summary": "",
-   "time": "2026-11-27 17:36",
-   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95UTNaRnZ4dEpHQW9CQ0xwRnlsQm1DQWc2eHVOcE0tRndBWDNvQUVMTjYxbDgzN19tVTZ3WFVfci1GbVpqelJJNURfUlExeWZCcmxtUktTSU9MdjhGdzZqQ1RTdDNjY3p0MmE0RGNmZw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "央行明确大额存单发行利率以市场化方式确定",
-   "summary": "【央行明确大额存单发行利率以市场化方式确定】为促进大额存单市场健康发展，中国人民银行制定了《大额存单管理办法》，现予公布，自2027年3月21日起施行。第八条规定：大额存单发行利率以市场化方式确定。固定利率存单采用票面年化收益率的形式计息，浮动利率存单以上海银行间同业拆放利率（Shibor）、存款类金融机构债券回购利率（DR）或其他中国人民银行认可的利率为浮动利率基准计息。",
-   "time": "2026-11-27 18:29:22",
-   "url": "https://finance.eastmoney.com/a/202611273941802297.html",
+   "title": "伊拉克正式重启停运12年的伊土输油管道",
+   "summary": "【伊拉克正式重启停运12年的伊土输油管道】当地时间27日，伊拉克石油部长巴西姆·穆罕默德·胡达伊尔·阿巴迪在基尔库克省启用IT1泵站，标志着停运12年的伊拉克基尔库克-土耳其杰伊汉输油管道正式重启。",
+   "time": "2026-11-27 18:58:03",
+   "url": "https://finance.eastmoney.com/a/202611273941818972.html",
    "source": "东财国际"
   },
   {
@@ -1863,17 +1905,31 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "中关村：盐酸丁螺环酮片通过一致性评价，新增10mg规格获批",
+   "title": "中国央行：不再对罚息利率区间进行具体规定，由金融机构跟借款人协商确定具体的罚息利率",
+   "summary": "中国人民银行有关部门负责人就 《人民币存贷款利率管理规定》答记者问。\n\n《规定》取消了贷款罚息利率的上下限，这一变动有什么考虑？是否会导致出现过高的罚息利率？\n\n答：贷款罚息利率是利率体系的重要组成部分，目的是鼓励借款人履约守信，防范贷款逾期的道德风险。在利率管制时期，罚息利率由中国人民银行直接确定。2003年，罚息利率由日利率万分之2.1调整为在原有贷款利率水平上加收30%-50%，具体幅度由金",
+   "time": "2026-11-27 18:35",
+   "url": "https://wallstreetcn.com/livenews/3207043",
+   "source": "华尔街见闻"
+  },
+  {
+   "title": "廊坊银行主动终止委托评级 - 新浪财经",
    "summary": "",
-   "time": "2026-11-27 10:34:59",
-   "url": "https://news.10jqka.com.cn/20261127/c682313371.shtml",
+   "time": "2026-11-27 18:20",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQjk2U3JFQzQyLU1oY0ZFc0o3ZjFUeFBxekp5eUotNVRFWFV1YUwyNUlLS05vVWRxeld3dm9sanRfazJ6TmFqUUdxNmRTS3huend3SFdyM2t1TEllZDh0cHQydUxWdFhvUWhVb21UZFcyZFVJR1lxdUxxR0J0cXhnTG9nSHVYZkhDM3dYS1QybjN2NzhsWmNtSg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "字节跳动澄清“三人行成为A股首家与其达成AI深度合作的公司”报道：相关合作被夸大",
+   "summary": "",
+   "time": "2026-11-27 11:03:50",
+   "url": "https://news.10jqka.com.cn/20261127/c682313981.shtml",
    "source": "同花顺"
   },
   {
-   "title": "特朗普：支持伊拉克总理制止石油走私",
+   "title": "智飞生物：司美格鲁肽注射液体重管理适应症生产注册获受理",
    "summary": "",
-   "time": "2026-11-27 10:25:10",
-   "url": "https://news.futunn.com/flash/1005843591/trump-supports-iraqi-prime-minister-in-curbing-oil-smuggling",
+   "time": "2026-11-27 10:50:10",
+   "url": "https://news.futunn.com/flash/1005845360/zhifei-biological-production-registration-application-for-weight-management-indication-of",
    "source": "富途"
   },
   {
@@ -1904,10 +1960,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
-   "谷歌新闻·研报": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 6,
+   "谷歌新闻·国际": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·研报": 6,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 3,
