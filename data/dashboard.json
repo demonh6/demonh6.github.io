@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-28 09:54:09 CST",
- "generated_at_iso": "2026-11-28T09:54:09+08:00",
+ "generated_at": "2026-11-28 10:02:31 CST",
+ "generated_at_iso": "2026-11-28T10:02:31+08:00",
  "date": "2026-11-28",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 60216.3,
-    "change": -423.0,
-    "change_pct": -0.7,
-    "source": "okx"
+    "price": 60180.7,
+    "change": -736.1,
+    "change_pct": -1.21,
+    "source": "okx",
+    "hist": [
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     60123.3,
+     60194.0
+    ],
+    "sigma": 2.555
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1670.91,
-    "change": -28.02,
-    "change_pct": -1.65,
-    "source": "okx"
+    "price": 1668.95,
+    "change": -36.05,
+    "change_pct": -2.11,
+    "source": "okx",
+    "hist": [
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1672.3,
+     1669.2
+    ],
+    "sigma": 3.011
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 72.27,
-    "change": 0.9,
-    "change_pct": 1.26,
-    "source": "okx"
+    "price": 72.18,
+    "change": 0.48,
+    "change_pct": 0.67,
+    "source": "okx",
+    "hist": [
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     72.16,
+     72.16
+    ],
+    "sigma": 4.217
    }
   ],
   "fx": [
@@ -1384,6 +1483,17 @@
   }
  },
  "speakers": [
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "特朗普：老有人说中国刺探美国情报，说不定美国刺探得更狠 - ThePaper.cn",
+   "summary": "",
+   "time": "2026-11-28 09:50",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYelU1alBuS0tnMnN3N3hmYmh0NjRCWmd1bjJuVmhTcjBYS1MxV1Nta1JvQk9leHFtNGxPM0lwVG0wbXB0WUtpQ3NNaUhTYmpjRVVSd2ZEQ2JicndtS1lUeQ?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
   {
    "keyword": "美联储",
    "label": "美联储",
@@ -1467,14 +1577,34 @@
     "source": "机构观点"
    },
    {
-    "title": "花旗350亿美元记账失误引发高层人事震荡",
-    "org": "花旗",
+    "title": "被印度追税12亿美元 大众把奔驰、宝马、起亚写进法庭文件",
+    "org": "路透",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-28",
-    "url": "https://news.futunn.com/flash/1005884559/citi-s-35-billion-accounting-error-triggers-senior-leadership-shakeup",
+    "url": "https://finance.eastmoney.com/a/202611283942336583.html",
     "source": "机构观点"
+   },
+   {
+    "title": "保险行业10月保费：寿险业务增速继续提升，对开门红表现持乐观预期",
+    "org": "东吴证券",
+    "rating": "增持",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-28",
+    "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202611281832128778",
+    "source": "东财研报·行业"
+   },
+   {
+    "title": "全球一体化CRDMO龙头，小分子与TIDES双轮驱动业绩高增",
+    "org": "东吴证券",
+    "rating": "买入",
+    "stock": "药明康德",
+    "industry": "医疗服务",
+    "date": "2026-11-27",
+    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611271832128276",
+    "source": "东财研报·个股"
    },
    {
     "title": "公司动态研究报告：轨交海外收获，新能源减亏验证",
@@ -1575,26 +1705,6 @@
     "date": "2026-11-27",
     "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611271832089547",
     "source": "东财研报·个股"
-   },
-   {
-    "title": "保健品将迎拐点，新收购再拓空间",
-    "org": "国金证券",
-    "rating": "买入",
-    "stock": "若羽臣",
-    "industry": "互联网电商",
-    "date": "2026-11-27",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611271832089158",
-    "source": "东财研报·个股"
-   },
-   {
-    "title": "深度协同腾讯，国产AI芯片加速放量",
-    "org": "国金证券",
-    "rating": "买入",
-    "stock": "燧原科技",
-    "industry": "半导体",
-    "date": "2026-11-27",
-    "url": "https://data.eastmoney.com/report/zw_stock.jshtml?infocode=AP202611271832089146",
-    "source": "东财研报·个股"
    }
   ]
  },
@@ -1603,80 +1713,94 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日涨8.70%，达20日历史波动率的 4.8 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-28 09:54",
+   "time": "2026-11-28 10:03",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "老挝发生4.9级地震，震源深度15千米",
-   "summary": "【老挝发生4.9级地震，震源深度15千米】中国地震台网正式测定：11月28日09时17分在老挝（北纬22.39度，东经101.74度）发生4.9级地震，震源深度15千米。",
-   "time": "2026-11-28 09:31:19",
-   "url": "https://finance.eastmoney.com/a/202611283942334172.html",
+   "title": "今年前10个月物流业总收入12.3万亿元 同比增长4.2%",
+   "summary": "【今年前10个月物流业总收入12.3万亿元 同比增长4.2%】中国物流与采购联合会今天（28日）发布今年前10个月物流运行数据。今年1月至10月，我国物流市场呈现规模稳中有进、结构持续向优的良好态势，物流供给端积极变革，综合效能和韧性有所增强，国际物流通道高效畅通。从市场规模看，1月至10月，物流业总收入12.3万亿元，同比增长4.2%。",
+   "time": "2026-11-28 09:55:12",
+   "url": "https://finance.eastmoney.com/a/202611283942336881.html",
    "source": "东财国际"
+  },
+  {
+   "title": "特朗普：老有人说中国刺探美国情报，说不定美国刺探得更狠 - ThePaper.cn",
+   "summary": "",
+   "time": "2026-11-28 09:50",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYelU1alBuS0tnMnN3N3hmYmh0NjRCWmd1bjJuVmhTcjBYS1MxV1Nta1JvQk9leHFtNGxPM0lwVG0wbXB0WUtpQ3NNaUhTYmpjRVVSd2ZEQ2JicndtS1lUeQ?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "图说研报 | 国产算力网带来的价值重估 - Sohu",
+   "summary": "",
+   "time": "2026-11-28 09:45",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbEx2V0lHUldLdGVaZDRlSnROeXMyd1lyX2lldWg1MjFpMmtZeDIwUFpNa2ZfTnBSY3VUcU9XZ2tFemZ3bkJHcVphOE83QUFJbHViRFc0MHBvdWJwUGR3TVV0elNNX0NOR2hLZ3d1c2VESkRISDhiQ25aWHVHeUl6R3JucUd3RHRfWVZpTw?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "德国联邦议院通过2027年预算案 高额军费遭反对党质疑",
@@ -1686,31 +1810,17 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "美股三大指数全线收涨，大型科技股齐涨，芯片、光通信股上涨，闪迪涨近16%，中概股普涨；交易员缩减对美联储加息押注，预计明年晚些转向宽松；国际金价大涨 - 东方财富",
+   "title": "全国首部促进文商旅融合发展的省级地方性法规在津出台",
    "summary": "",
-   "time": "2026-11-28 08:50",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SOS1hWExyS20tX1R1MWQ0SV9Dd3NXeUZfLVVzbzJKWEtBb3FUOEZ6bXd6eWJhX2E5ejVQaUUwaDMxTm9FRmF1WjloRlgtbGNROXpLaEFHNC1GUUtqLWQ4SmlyeWhmZw?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "摩根大通将ONEOK的目标价从$95调整至$106，维持中性评级 - Moomoo",
-   "summary": "",
-   "time": "2026-11-28 05:45",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcmpERVVwV29EeVk1THJiWlFNUklXaVVySlNJcm5zTnFuVWlxdnpQWlpCSkFyTV9sbTZKSzBzTzFlQTlTVVRKNGhBdHNkWTRxRVhOYUNLMGFRakk2c19BdHJ6d2JlaGJiYlM0ek85dnV5SF90ZHdhdGdnekpmenBNbDluX3VDQXBVU3lTcFl1Q00zci1fSEdIVmRnR3RSa3FfNW5RQW9TcFNCWlNGNWRhQlpjR251dTJTcEktT3VkMThxV3FSVmx5TUsyM0dNQ3J1?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "稳中有进、持续向优 今年前10个月物流业总收入12.3万亿元",
-   "summary": "",
-   "time": "2026-11-28 01:36:52",
-   "url": "https://news.10jqka.com.cn/20261128/c682324662.shtml",
+   "time": "2026-11-28 02:02:09",
+   "url": "https://news.10jqka.com.cn/20261128/c682324798.shtml",
    "source": "同花顺"
   },
   {
-   "title": "转债市场估值回调 当前可转债整体配置性价比逐步显现",
+   "title": "稳中有进、持续向优，今年前10个月物流业总收入12.3万亿元",
    "summary": "",
-   "time": "2026-11-28 00:39:21",
-   "url": "https://news.futunn.com/flash/1005886301/valuation-correction-in-the-convertible-bond-market-overall-cost-effectiveness",
+   "time": "2026-11-28 01:46:13",
+   "url": "https://news.futunn.com/flash/1005888580/steady-progress-and-continuous-optimization-total-revenue-of-the-logistics",
    "source": "富途"
   },
   {
@@ -1721,18 +1831,32 @@
    "source": "东财早报"
   },
   {
-   "title": "【本文系数据通用户提前专享】过往发展模式留下诸多经验教训，未来这类机构是否存续，如何实现差异化发展",
+   "title": "【本文系数据通用户提前专享】特朗普介入，董事会立场反转，黄仁勋重返英伟达，但风波并未结束，AI行业的尴尬处境也才开始",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-28/102509500.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-28/102509487.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "600095、601519 ，突然终止合并",
-   "summary": "【600095、601519 ，突然终止合并】11月27日晚间，湘财股份与大智慧公告，两家公司董事会分别审议通过撤回换股吸收合并并募集配套资金暨关联交易申请的议案，湘财股份与大智慧同时将签署《吸收合并协议之解除协议》。此时距上交所受理该申请已过去13个月，期间交易两次因申报文件估值、财务数据过有效期被中止审核。对于撤回原因，湘财股份公告称“鉴于外部环境变化和公司发展需要，经双方审慎研究、协商一致”。公司承诺至少1个月内不再筹划重大资产重组。",
-   "time": "2026-11-28 09:28:11",
-   "url": "https://finance.eastmoney.com/a/202611283942333153.html",
+   "title": "海南自贸港封关后药企如何获益？海关揭晓三大“密码”",
+   "summary": "【海南自贸港封关后药企如何获益？海关揭晓三大“密码”】海南自贸港封关运作即将满一年，自贸港红利如何赋能生物医药产业？海口海关关税处副处长辜振成27日揭晓三大“密码”：信用监管赋能、便利化监管举措支撑、加工增值政策助力。",
+   "time": "2026-11-28 09:52:43",
+   "url": "https://finance.eastmoney.com/a/202611283942336754.html",
    "source": "东财国际"
+  },
+  {
+   "title": "美股三大指数全线收涨，大型科技股齐涨，芯片、光通信股上涨，闪迪涨近16%，中概股普涨；交易员缩减对美联储加息押注，预计明年晚些转向宽松；国际金价大涨 - 东方财富",
+   "summary": "",
+   "time": "2026-11-28 08:50",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SOS1hWExyS20tX1R1MWQ0SV9Dd3NXeUZfLVVzbzJKWEtBb3FUOEZ6bXd6eWJhX2E5ejVQaUUwaDMxTm9FRmF1WjloRlgtbGNROXpLaEFHNC1GUUtqLWQ4SmlyeWhmZw?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "央行发布2026年金融稳定报告！银行业风险收敛，公募流动性承压能力较强 - Sohu",
+   "summary": "",
+   "time": "2026-11-28 09:35",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNXzNhNmxBaDdxTU9lcmh6WE9MZmhUM0otUzBNdFo5a1JzSVVLTXZUaDMzR0hmSzZRdEVOOXIweWpJUVZXTDc2UUczOTQzdEFoS09SdndVaXNSVDZoSloxVEQtTHdYdXJWOXBnMUJhUUxCY2xURmNQdnV2LXFaQnRjeWhRMHJVOElDQzZV?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "秘鲁一架军用直升机坠毁 致8人死亡",
@@ -1742,31 +1866,17 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "一觉醒来！霍尔木兹海峡突传大消息！特朗普：如果能达成协议最好 - 东方财富",
+   "title": "2026年能源行业“诚信兴商宣传月”工作会议在京召开",
    "summary": "",
-   "time": "2026-11-28 08:44",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRemNta3ZoWTVtZGdkNXloVEY4VldRdGoxM191emxSTVlVZEN0b2IzSUZ4TnVHdzVCQjRlY2R3QmtGdEYtakpaUVdyWlZrbkFWX3NqYWJJczFwRXhuOUc2UA?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "标普将匈牙利的评级展望从负面调整为稳定 - 新浪财经",
-   "summary": "",
-   "time": "2026-11-28 05:33",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQclpuTG43c0o0NzRDZmxCVWtPa2pTRlVQdTJvZmJGQ1ZjWmp0SDhqcUwwX0JwaDZCVUhSc0hhN2ctVmp4bmJzLXUzTFhwd2dTQ24wRmRvelpPT0VqbF9MNE8wRG42WS03dF9fM3JqRTlmc0pqVXVZR3ZvcmtzMncxS2JXWm91ZnRMSWNBUVA4SVJvcXMxM0ZvQ1l5LVU?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "上汽集团MG事业部：2027年1月1日起在中国大陆停产纯燃油车型",
-   "summary": "",
-   "time": "2026-11-28 01:36:45",
-   "url": "https://news.10jqka.com.cn/20261128/c682324661.shtml",
+   "time": "2026-11-28 01:58:26",
+   "url": "https://news.10jqka.com.cn/20261128/c682324775.shtml",
    "source": "同花顺"
   },
   {
-   "title": "以色列正直党领导人指责利库德集团拖延组阁谈判",
+   "title": "转债市场估值回调 当前可转债整体配置性价比逐步显现",
    "summary": "",
-   "time": "2026-11-28 00:23:42",
-   "url": "https://news.futunn.com/flash/1005885555/leader-of-israel-s-national-unity-party-accuses-likud-of",
+   "time": "2026-11-28 00:39:21",
+   "url": "https://news.futunn.com/flash/1005886301/valuation-correction-in-the-convertible-bond-market-overall-cost-effectiveness",
    "source": "富途"
   },
   {
@@ -1777,18 +1887,32 @@
    "source": "东财早报"
   },
   {
-   "title": "【本文系数据通用户提前专享】气候治理需要更强的政治意愿，尤其需要那些拥有更多资源、更有能力改变谈判条件的国家率先行动",
+   "title": "【本文系数据通用户提前专享】电影、长剧大幅减产，AI应用更极致，短剧流水线化，传统影视业出路何在？",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-28/102509498.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-28/102509494.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "金饰克价涨到1092元 金饰价一夜涨22元",
-   "summary": "【金饰克价涨到1092元 金饰价一夜涨22元】国际贵金属大涨，COMEX黄金期货涨2.44%，报3681.1美元/盎司；COMEX白银期货涨5.35%，报43.985美元/盎司。查询国内金饰价格，老凤祥黄金报价1092元/克，较昨日大涨22元。",
-   "time": "2026-11-28 09:27:54",
-   "url": "https://finance.eastmoney.com/a/202611283942333933.html",
+   "title": "仅今年第三季度SK海力士员工人均绩效奖金预估可达2.3亿韩元",
+   "summary": "【仅今年第三季度SK海力士员工人均绩效奖金预估可达2.3亿韩元】11 月 28 日消息，据韩媒 ChosunBiz 昨天（27 日）报道，SK 海力士员工的绩效奖金规模正迅速攀升。据估算，仅今年第三季度，公司计提的员工绩效奖金就折合人均 2.3 亿韩元（现汇率约合 114.2 万元人民币）。",
+   "time": "2026-11-28 09:47:17",
+   "url": "https://finance.eastmoney.com/a/202611283942336681.html",
    "source": "东财国际"
+  },
+  {
+   "title": "一觉醒来！霍尔木兹海峡突传大消息！特朗普：如果能达成协议最好 - 东方财富",
+   "summary": "",
+   "time": "2026-11-28 08:44",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBRemNta3ZoWTVtZGdkNXloVEY4VldRdGoxM191emxSTVlVZEN0b2IzSUZ4TnVHdzVCQjRlY2R3QmtGdEYtakpaUVdyWlZrbkFWX3NqYWJJczFwRXhuOUc2UA?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "标普将法国主权信用评级展望下调至“负面” - Sohu",
+   "summary": "",
+   "time": "2026-11-28 07:38",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNcmNsTFZ6emVVWTNXYlBYU043dGhkUHVUWi1kRVlvUm8xS2ttc0h2dTJhaS1qSndCUFpid09vVUdWdlNzSnlwRjhxVzI5VkYxVTRVOFNUdERSTjNrWXcta0V0bHFkcnhnVG5EelZnQ2EzN2N1TXRObm1CeEJRNWo1ZVRfZ0dUZWxoX3VB?oc=5",
+   "source": "谷歌新闻·研报"
   },
   {
    "title": "美国西好莱坞一加油站发生车祸引发爆炸、大火",
@@ -1798,45 +1922,31 @@
    "source": "华尔街见闻"
   },
   {
-   "title": "四方安全对话是一股良善力量 - VOA - Voice of America English News",
+   "title": "稳中有进、持续向优 今年前10个月物流业总收入12.3万亿元",
    "summary": "",
-   "time": "2026-11-28 07:51",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYnR2S1NRYXlLelJWa2d4eEk5Z2tUSHY1WWFMazU1NDM1SlFIY2RsUFV0WmUxUEljYlBmSTctMERma2NNbllVRUJiUktwdnIyYVppMGp1Qi1aUFhIbDZocE4yZUx3LVVXWk9UTGd5bkVfakRzS3ZaRk9jRnYtVnNBekNfQ2tFdUlETHQ5WF80bWVIa1hWcFpsVUJEMC1BSXVUaTI1LdIBpwFBVV95cUxOd0lvYl9QTEo0VXBhb0UzTGliY0V4bjItTVZfRlZqVEh3dTRwek4xR1p4bVV6bU9wRy1uV1lwOGZaMUtpR0JvTjhnOTBSUGRNeURhYWZYVTktSEU3dTVHMXNIbEp6WGF6SXVFRGxsUV9LSGp3U25oajktV0l2V1A3UVU1ejd5bS1Cb2JKWjlNRzBUeE1ManVQLXNSY2lWM1BESXVoTFJfWQ?oc=5",
-   "source": "谷歌新闻·国际"
-  },
-  {
-   "title": "NIPPON STEEL CORP. 12个月目标价上调至753.33日元，隐含11%上涨空间 - TradingView",
-   "summary": "",
-   "time": "2026-11-28 03:20",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fdUNINWFJanltSzZnOUVndVRnbEtVNE5pYVNqQUN2Mi1hWjVhMTRXOFY3UkJhbjBmak1aY2NsXzUwUHNOUmJxMmEyQldNSFM5MDdLamg1dWZqWnFXSHJ0Q0ROUk1xY3B5M3pDeQ?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "昨日ETF资金整体净流入229.89亿元",
-   "summary": "",
-   "time": "2026-11-28 01:29:15",
-   "url": "https://news.10jqka.com.cn/20261128/c682324621.shtml",
+   "time": "2026-11-28 01:36:52",
+   "url": "https://news.10jqka.com.cn/20261128/c682324662.shtml",
    "source": "同花顺"
   },
   {
-   "title": "花旗350亿美元记账失误引发高层人事震荡",
+   "title": "以色列正直党领导人指责利库德集团拖延组阁谈判",
    "summary": "",
-   "time": "2026-11-28 00:07:21",
-   "url": "https://news.futunn.com/flash/1005884559/citi-s-35-billion-accounting-error-triggers-senior-leadership-shakeup",
+   "time": "2026-11-28 00:23:42",
+   "url": "https://news.futunn.com/flash/1005885555/leader-of-israel-s-national-unity-party-accuses-likud-of",
    "source": "富途"
   },
   {
-   "title": "【本文系数据通用户提前专享】博士求职竞争白热化，象牙塔尖出路何寻？",
+   "title": "【本文系数据通用户提前专享】汽车企业和宁德时代需要找到新的利益平衡点",
    "summary": "",
    "time": "",
-   "url": "https://database.caixin.com/2026-11-28/102509496.html?cxapp_link=true",
+   "url": "https://database.caixin.com/2026-11-28/102509490.html?cxapp_link=true",
    "source": "财新"
   },
   {
-   "title": "“50万亿”定存到期潮年末交卷 九成资金没有“出笼”",
-   "summary": "【“50万亿”定存到期潮年末交卷 九成资金没有“出笼”】174.38万亿元。这是2026年10月末全国住户存款的余额，较2025年末多出8.49万亿元；同一时点，住户定期及其他存款占比升至75%，创下有数据以来的最高值。近年来，存款利率一路下行，2026年总量高达50万亿元的高息定期存款集中到期，“继续存银行，还是买理财、转进股市”的选择题摆在千万储户面前。本应是一场“搬家”的大考，答卷却恰恰相反，存款总量没有减少，反而越存越多、越存越“定”。",
-   "time": "2026-11-28 09:26:00",
-   "url": "https://finance.eastmoney.com/a/202611283942325373.html",
+   "title": "被印度追税12亿美元 大众把奔驰、宝马、起亚写进法庭文件",
+   "summary": "【被印度追税12亿美元 大众把奔驰、宝马、起亚写进法庭文件】11月28日，据路透社报道，在与印度政府围绕约12亿美元关税追缴要求展开诉讼之际，大众汽车将奔驰、宝马、起亚等同行的零部件进口数据提交给孟买一家法院，称生产同类汽车的制造商均采用类似进口模式并按10%的税率缴税，印度税务部门不应只对大众追缴更高关税。",
+   "time": "2026-11-28 09:44:37",
+   "url": "https://finance.eastmoney.com/a/202611283942336583.html",
    "source": "东财国际"
   }
  ],
@@ -1854,9 +1964,9 @@
   },
   "counts": {
    "东财国际": 7,
-   "华尔街见闻": 7,
    "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
    "同花顺": 6,
    "富途": 6,
    "东财早报": 2,
