@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-28 20:52:25 CST",
- "generated_at_iso": "2026-11-28T20:52:25+08:00",
+ "generated_at": "2026-11-28 21:00:46 CST",
+ "generated_at_iso": "2026-11-28T21:00:46+08:00",
  "date": "2026-11-28",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59223.4,
-    "change": -2252.7,
-    "change_pct": -3.66,
-    "source": "okx"
+    "price": 59209.4,
+    "change": -2416.0,
+    "change_pct": -3.92,
+    "source": "okx",
+    "hist": [
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     60123.3,
+     59241.8
+    ],
+    "sigma": 2.54
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1647.38,
-    "change": -72.5,
-    "change_pct": -4.22,
-    "source": "okx"
+    "price": 1647.21,
+    "change": -77.79,
+    "change_pct": -4.51,
+    "source": "okx",
+    "hist": [
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1672.3,
+     1648.21
+    ],
+    "sigma": 2.998
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
     "price": 70.86,
-    "change": -2.2,
-    "change_pct": -3.01,
-    "source": "okx"
+    "change": -2.32,
+    "change_pct": -3.17,
+    "source": "okx",
+    "hist": [
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     72.16,
+     70.91
+    ],
+    "sigma": 4.214
    }
   ],
   "fx": [
@@ -1383,7 +1482,30 @@
    }
   }
  },
- "speakers": [],
+ "speakers": [
+  {
+   "keyword": "特朗普",
+   "label": "特朗普",
+   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
+   "title": "泰总理给特朗普递便条争取关税豁免 内阁剧本精心布局 - 中华军事",
+   "summary": "",
+   "time": "2026-11-28 19:35",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fTldqc3VVN21QN1QtckFQLW5FV3dQM1Q3UE1IX2VGU0lpVURBb1BYb1o4aXNZMnNGWENCVWljTkFHUkRVYkt6bzZ6WEZNak4wUGhMTzQtcHp4R2tyczR4NElPcHRTU19paXlkcnpOeTA?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  },
+  {
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "美联储转鸽的催化剂：一家小型新云公司倒闭，引爆一场“小型金融危机”？ - 华尔街见闻",
+   "summary": "",
+   "time": "2026-11-28 19:31",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZYzBDREJxaXVDSi1JZl96cE5iZVMwLUZmRDBqQV9PRW10Yi1JX0c1VDNqNUxWUjNBWXJfdlV0bEFjT0p5NTl3VlRaTWVDN3J3QXR3?oc=5",
+   "source": "谷歌新闻·国际",
+   "mentions": 1
+  }
+ ],
  "research": {
   "digest": [
    {
@@ -1452,6 +1574,16 @@
     "industry": "",
     "date": "2026-11-27",
     "url": "http://finance.eastmoney.com/a/202611263940986188.html",
+    "source": "机构观点"
+   },
+   {
+    "title": "高盛给宇树浇了盆冷水：卖出的理由藏在2035年的份额与利润率里 - 同花顺财经",
+    "org": "高盛",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-28",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zLWpMOWluNkE2aEFqNWdIcDNBVk9EYm9XUy1PZEloWFpnaW9vbmpZeVA4dnRZSE9qUUM1bC1SSXVwQW1mT0pyUjlqRGdDSlhybk5IOF9xUWV1QnBaSUlGUg?oc=5",
     "source": "机构观点"
    },
    {
@@ -1581,94 +1713,108 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日涨8.70%，达20日历史波动率的 4.8 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-28 20:52",
+   "time": "2026-11-28 21:01",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "联合富达银行被关闭，成美国两年来最大规模银行倒闭事件",
-   "summary": "美国联邦监管机构周五关闭了总部位于印第安纳州的联合富达银行（United Fidelity Bank），此前监管机构认定该行可能已无法履行其债务义务。\n\n美国联邦存款保险公司（FDIC）表示，第一公民银行（First Citizens）已同意承接联合富达银行的全部存款与资产。\n\n联合富达银行的关闭是美国两年来（2024年4月共和国第一银行（Republic First Bank）被关闭以来）最大规",
-   "time": "2026-11-28 20:29",
-   "url": "https://wallstreetcn.com/livenews/3207368",
+   "title": "澳门金管局：截至今年9月底，发行或挂牌上市债券累计近1.2万亿等值澳门元",
+   "summary": "11月28日，澳门金管局行政管理委员会主席黄善文在第八届粤港澳大湾区金融发展论坛上致辞时表示，澳门金管局以债券市场和投资基金等新金融业态为切入点，致力培育特色金融业的发展。在债券市场方面，澳门实现了从无到有的跨越式增长。截至今年9月底，在澳门发行或挂牌上市的债券累计规模接近1.2万亿等值澳门元。（上证报）",
+   "time": "2026-11-28 21:00",
+   "url": "https://wallstreetcn.com/livenews/3207372",
    "source": "华尔街见闻"
   },
   {
-   "title": "2026广州车展变化：新势力上新集体进入“换挡时刻”",
-   "summary": "【2026广州车展变化：新势力上新集体进入“换挡时刻”】年末压轴的A级车展——第二十四届广州国际汽车展览会正在进行中，这成为市场观察年底和明年车市竞争的重要窗口。今年广州车展有个重要特点：造车新势力几乎都没有带来独立的全新车系，这与组委会公布的115辆首发新车这个数字形成鲜明对照。",
-   "time": "2026-11-28 20:23:00",
-   "url": "https://finance.eastmoney.com/a/202611283942392072.html",
+   "title": "杨超越董思成新剧今天是太阳雨云合评级S+ - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-28 20:57",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yRXltQkI2dGU0U3lLSFVTQktwTUM2SHRTeUxGcmhQX3RfOE14RFZiRm9KQWZOcUhJUWcwMkxLd1BTWkxSTU1jd09VT2RKMUxhSlgtUnZzZ1BySFVjZ05WWHA2VmtOS0ZURlBKZ2RKdHc?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "澳门金管局：截至今年9月底 发行或挂牌上市债券累计近1.2万亿等值澳门元",
+   "summary": "【澳门金管局：截至今年9月底 发行或挂牌上市债券累计近1.2万亿等值澳门元】11月28日，澳门金管局行政管理委员会主席黄善文在第八届粤港澳大湾区金融发展论坛上致辞时表示，澳门金管局以债券市场和投资基金等新金融业态为切入点，致力培育特色金融业的发展。在债券市场方面，澳门实现了从无到有的跨越式增长。",
+   "time": "2026-11-28 20:53:00",
+   "url": "https://finance.eastmoney.com/a/202611283942395549.html",
    "source": "东财国际"
   },
   {
-   "title": "留学生金融求职机构怎么挑？嗨职(TalentLand)的券商投行资源盘点 - 手机新浪网",
+   "title": "赞普京是“政治大师” 特朗普女婿引欧洲不满 - 联合早报",
    "summary": "",
-   "time": "2026-11-28 19:11",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CS0xpTE5Peld1a1F1U18wMTRtdnZzTm9kRHhNeUNUOVhjUVIzX2tYYUktYVpsYUtoek05UnJ6R1F4U29BTGl4WkI5Q0NtUFZHQVpsZE1mcmxHQXM2bWJWLTVTbzJuVjJjZExNbm1QVHl5dw?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-28 19:37",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xbGo5Y2hYdXNTMlo1UHk1b1hDWFRhbk1Xa21GdTlUdlU2bktVTEpsdGRDZjY2ako3eEhwa1dLSFJEWmk5ejMwUGllc1ozQXhkXzd2bUg2VXNiODF3R21XVXV1eXp1MENwc25B?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "伊朗称所有正式边境口岸保持通行",
+   "summary": "",
+   "time": "2026-11-28 12:57:12",
+   "url": "https://news.futunn.com/flash/1005904849/iran-states-that-all-official-border-crossings-remain-open",
+   "source": "富途"
   },
   {
    "title": "广西海岛低空物流支线完成首飞",
@@ -1676,13 +1822,6 @@
    "time": "2026-11-28 12:32:02",
    "url": "https://news.10jqka.com.cn/20261128/c682327100.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "伊朗副防长：美以发动战争以来，伊朗导弹实力进一步增强",
-   "summary": "",
-   "time": "2026-11-28 12:25:08",
-   "url": "https://news.futunn.com/flash/1005904436/iranian-deputy-defense-minister-iran-s-missile-strength-further-enhanced",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月27日周五",
@@ -1699,25 +1838,39 @@
    "source": "财新"
   },
   {
-   "title": "苏州光通信产业基地二期启动，计划总投资150亿元",
-   "summary": "苏州光通信产业基地二期启动活动11月28日在苏州工业园区举行。今年4月，总投资50亿元的苏州光通信产业基地项目落户苏州工业园区，目前已建成投用，今年将实现新增产值超150亿元。今天启动的基地二期，计划总投资150亿元，将进一步拓展产业承载空间，聚焦光通信、光传感、光计算等细分赛道，落地一批核心器件、芯片封装测试及终端设备等关键环节优质项目，达产后可实现年产值300亿元。同时，一批产业链、供应链企业",
-   "time": "2026-11-28 20:22",
-   "url": "https://wallstreetcn.com/livenews/3207367",
+   "title": "农业农村部：加强小麦冬春田管，全力夯实明年夏粮生产基础",
+   "summary": "从农业农村部了解到，当前全国冬小麦播种进入扫尾阶段，冬前田间管理有序展开。受超强厄尔尼诺影响，今年冬季我国气温总体偏高、寒潮频次偏多，冷暖起伏大、阶段性低温雨雪冰冻风险突出，给粮食生产带来不利影响。目前，农业农村部已发布《应对超强厄尔尼诺强化农业防灾减灾技术意见》，指导各地抢抓冬前窗口期，提前研判、主动应对，千方百计培育冬前壮苗；分区域分类型推进冬春田管，落实落细高产栽培技术措施，全力夯实明年夏粮",
+   "time": "2026-11-28 20:45",
+   "url": "https://wallstreetcn.com/livenews/3207370",
    "source": "华尔街见闻"
   },
   {
-   "title": "国家能源局负责人会见世界能源理事会董事会主席",
-   "summary": "【国家能源局负责人会见世界能源理事会董事会主席】11月26日，中国国家能源局副局长汪剑波在青岛会见世界能源理事会董事会主席阿德南·阿敏，双方就加强中国与世界能源理事会合作等议题开展交流。",
-   "time": "2026-11-28 20:12:00",
-   "url": "https://finance.eastmoney.com/a/202611283942391010.html",
+   "title": "留学生金融求职机构怎么挑？嗨职(TalentLand)的券商投行资源盘点 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-28 19:11",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CS0xpTE5Peld1a1F1U18wMTRtdnZzTm9kRHhNeUNUOVhjUVIzX2tYYUktYVpsYUtoek05UnJ6R1F4U29BTGl4WkI5Q0NtUFZHQVpsZE1mcmxHQXM2bWJWLTVTbzJuVjJjZExNbm1QVHl5dw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "农业农村部：加强小麦冬春田管 全力夯实明年夏粮生产基础",
+   "summary": "【农业农村部：加强小麦冬春田管 全力夯实明年夏粮生产基础】记者从农业农村部了解到，当前全国冬小麦播种进入扫尾阶段，冬前田间管理有序展开。受超强厄尔尼诺影响，今年冬季我国气温总体偏高、寒潮频次偏多，冷暖起伏大、阶段性低温雨雪冰冻风险突出，给粮食生产带来不利影响。",
+   "time": "2026-11-28 20:43:00",
+   "url": "https://finance.eastmoney.com/a/202611283942394789.html",
    "source": "东财国际"
   },
   {
-   "title": "高盛给宇树浇了盆冷水：卖出的理由藏在2035年的份额与利润率里 - 同花顺财经",
+   "title": "泰总理给特朗普递便条争取关税豁免 内阁剧本精心布局 - 中华军事",
    "summary": "",
-   "time": "2026-11-28 18:56",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zLWpMOWluNkE2aEFqNWdIcDNBVk9EYm9XUy1PZEloWFpnaW9vbmpZeVA4dnRZSE9qUUM1bC1SSXVwQW1mT0pyUjlqRGdDSlhybk5IOF9xUWV1QnBaSUlGUg?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-28 19:35",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fTldqc3VVN21QN1QtckFQLW5FV3dQM1Q3UE1IX2VGU0lpVURBb1BYb1o4aXNZMnNGWENCVWljTkFHUkRVYkt6bzZ6WEZNak4wUGhMTzQtcHp4R2tyczR4NElPcHRTU19paXlkcnpOeTA?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "印度监管机构酝酿新交易平台，IPO前股票灰色交易或迎整顿",
+   "summary": "",
+   "time": "2026-11-28 12:39:54",
+   "url": "https://news.futunn.com/flash/1005904628/indian-regulators-mull-new-trading-platform-gray-market-trading-of",
+   "source": "富途"
   },
   {
    "title": "下周A股解禁市值逾430亿元",
@@ -1725,13 +1878,6 @@
    "time": "2026-11-28 11:15:47",
    "url": "https://news.10jqka.com.cn/20261128/c682326845.shtml",
    "source": "同花顺"
-  },
-  {
-   "title": "印度政府预计经济增长势头强劲，但警惕厄尔尼诺及中东风险",
-   "summary": "",
-   "time": "2026-11-28 12:07:56",
-   "url": "https://news.futunn.com/flash/1005904242/the-indian-government-anticipates-robust-economic-growth-but-remains-wary",
-   "source": "富途"
   },
   {
    "title": "东方财富财经早餐 11月26日周四",
@@ -1748,25 +1894,39 @@
    "source": "财新"
   },
   {
-   "title": "国际法庭驳回阿根廷关于叫停英国在马岛附近石油开采活动的请求",
-   "summary": "一家国际法庭周六驳回了阿根廷提出的采取临时措施、叫停英国授权在福克兰群岛（Falkland Islands，阿方称“马岛”）附近进行石油钻探的请求。\n\n国际海洋法法庭（International Tribunal for the Law of the Sea）作出的这一裁决，令布宜诺斯艾利斯方面旨在挑战这一争议领土周边经济活动的最新努力受挫。",
-   "time": "2026-11-28 20:08",
-   "url": "https://wallstreetcn.com/livenews/3207366",
+   "title": "印度考虑设立一个针对IPO前股票的交易平台，以遏制“灰市交易”",
+   "summary": "印度市场监管机构正在考虑建立一个专门的交易平台，旨在加强对即将进行首次公开募股（IPO）的公司股票的“灰市交易”的管控。印度证券交易委员会（SEBI）主席图欣·坎塔·潘迪（Tuhin Kanta Pandey）周六在一次会议上表示，该机构正在研究设立一个独立交易平台的提案，并即将发布一份征求意见稿。",
+   "time": "2026-11-28 20:38",
+   "url": "https://wallstreetcn.com/livenews/3207369",
    "source": "华尔街见闻"
   },
   {
-   "title": "超强厄尔尼诺影响预计持续至明年",
-   "summary": "【超强厄尔尼诺影响预计持续至明年】世界气象组织近期发布报告指出，超强厄尔尼诺预计将进一步加剧全球高温与极端天气，影响将持续至2027年。报告显示，今年1月至9月，全球平均地表温度比工业化前平均水平高出约1.47摄氏度。受厄尔尼诺增暖效应影响，这一数值在年底前很可能继续上升。",
-   "time": "2026-11-28 20:08:28",
-   "url": "https://finance.eastmoney.com/a/202611283942390771.html",
+   "title": "高盛给宇树浇了盆冷水：卖出的理由藏在2035年的份额与利润率里 - 同花顺财经",
+   "summary": "",
+   "time": "2026-11-28 18:56",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zLWpMOWluNkE2aEFqNWdIcDNBVk9EYm9XUy1PZEloWFpnaW9vbmpZeVA4dnRZSE9qUUM1bC1SSXVwQW1mT0pyUjlqRGdDSlhybk5IOF9xUWV1QnBaSUlGUg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "002080，葛卫东7个交易日卖了10万股",
+   "summary": "【002080，葛卫东7个交易日卖了10万股】11月27日晚间，中材科技(002080)披露前十名股东和前十名无限售条件股东持股情况。公告显示，截至11月24日，葛卫东持有中材科技1721.48万股，占公司总股数的0.98%，位列公司第三大股东。",
+   "time": "2026-11-28 20:37:00",
+   "url": "https://finance.eastmoney.com/a/202611283942392226.html",
    "source": "东财国际"
   },
   {
-   "title": "一周热门研报精读：通信订单能见度延至2028，券商机构看多光通信赛道 - 手机新浪网",
+   "title": "美联储转鸽的催化剂：一家小型新云公司倒闭，引爆一场“小型金融危机”？ - 华尔街见闻",
    "summary": "",
-   "time": "2026-11-28 17:48",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTS04R3BCbHM4RmNJZGh4SXZDYUV6QVN5bmhkdHR1U051dnIzOVNyOFVLdGtOUWRnNWhxNEpLc2owWHJKZy1nQ2tHNGRqUkFjeGdHT01ScmZLb1dPT3YtVjNqRlhfT05MQkNHUmU5WXdkd2I1UHpNdjFjdlVOOGF2U3FGUQ?oc=5",
-   "source": "谷歌新闻·研报"
+   "time": "2026-11-28 19:31",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZYzBDREJxaXVDSi1JZl96cE5iZVMwLUZmRDBqQV9PRW10Yi1JX0c1VDNqNUxWUjNBWXJfdlV0bEFjT0p5NTl3VlRaTWVDN3J3QXR3?oc=5",
+   "source": "谷歌新闻·国际"
+  },
+  {
+   "title": "伊朗副防长：美以发动战争以来，伊朗导弹实力进一步增强",
+   "summary": "",
+   "time": "2026-11-28 12:25:08",
+   "url": "https://news.futunn.com/flash/1005904436/iranian-deputy-defense-minister-iran-s-missile-strength-further-enhanced",
+   "source": "富途"
   },
   {
    "title": "意向成交与投融资额超1750亿元，第二十八届高交会今天闭幕",
@@ -1776,13 +1936,6 @@
    "source": "同花顺"
   },
   {
-   "title": "泰国总理：力争在2027年底前与欧盟达成贸易协议",
-   "summary": "",
-   "time": "2026-11-28 12:05:51",
-   "url": "https://news.futunn.com/flash/1005904220/thai-prime-minister-striving-to-reach-trade-agreement-with-eu",
-   "source": "富途"
-  },
-  {
    "title": "【本文系数据通用户提前专享】汽车企业和宁德时代需要找到新的利益平衡点",
    "summary": "",
    "time": "",
@@ -1790,54 +1943,34 @@
    "source": "财新"
   },
   {
-   "title": "泰国总理称预计明年底前完成与欧盟自由贸易协定谈判",
-   "summary": "泰国总理阿努廷表示，泰国预计将在2027年底前完成与欧盟的自由贸易协定谈判。他还提到，近期与美国贸易谈判的顺利达成，促使其他合作伙伴也纷纷寻求与泰国建立贸易协定。阿努廷表示，如果这一目标得以实现，在欧洲的许多泰国企业将能够以更低的成本从泰国采购原材料。他补充说，这些企业目前面临着20%的进口关税。\n\n据欧盟贸易委员马罗什·谢夫乔维奇（Maros Sefcovic）在社交平台X上发布的消息，此前他于",
-   "time": "2026-11-28 19:36",
-   "url": "https://wallstreetcn.com/livenews/3207364",
+   "title": "联合富达银行被关闭，成美国两年来最大规模银行倒闭事件",
+   "summary": "美国联邦监管机构周五关闭了总部位于印第安纳州的联合富达银行（United Fidelity Bank），此前监管机构认定该行可能已无法履行其债务义务。\n\n美国联邦存款保险公司（FDIC）表示，第一公民银行（First Citizens）已同意承接联合富达银行的全部存款与资产。\n\n联合富达银行的关闭是美国两年来（2024年4月共和国第一银行（Republic First Bank）被关闭以来）最大规",
+   "time": "2026-11-28 20:29",
+   "url": "https://wallstreetcn.com/livenews/3207368",
    "source": "华尔街见闻"
-  },
-  {
-   "title": "苏州光通信产业基地二期启动",
-   "summary": "【苏州光通信产业基地二期启动】据苏州日报，11月28日，苏州光通信产业基地二期启动活动在苏州工业园区举行。今年4月，总投资50亿元的苏州光通信产业基地项目落户苏州工业园区，目前已建成投用，今年将实现新增产值超150亿元。",
-   "time": "2026-11-28 20:08:00",
-   "url": "https://finance.eastmoney.com/a/202611283942390685.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "央行发布《中国金融稳定报告（2026）》 金融机构评级结果公布！ - Sohu",
-   "summary": "",
-   "time": "2026-11-28 17:32",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVjhBWElyaEJ6UEx2VjM3SEpPcmNmZGY0SmlySWtPWUVKUWxJd3JkY1lIaktVeTdTOWF6aGJkRUhJcC05cGxjZExOWktteGVxdVg1VDVzMFJEQVRaRmRtWUllSDJmbHdjQk9zSFZuYXY5bG1LeVgzSllFdE1peTg1MU01TnNHX3k3?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "加密货币市场集体跳水 近24小时10万人爆仓",
-   "summary": "",
-   "time": "2026-11-28 10:49:32",
-   "url": "https://news.10jqka.com.cn/20261128/c682326764.shtml",
-   "source": "同花顺"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(27)",
+   "富途": "ok(28)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
    "华尔街见闻": "ok(30)",
-   "谷歌新闻·国际": "FAIL:HTTPError",
+   "谷歌新闻·国际": "ok(30)",
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 8,
-   "东财国际": 8,
-   "谷歌新闻·研报": 8,
-   "同花顺": 8,
-   "富途": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·研报": 7,
+   "东财国际": 7,
+   "谷歌新闻·国际": 7,
+   "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
-   "财新": 7
+   "财新": 6
   }
  },
  "wuxing": {
