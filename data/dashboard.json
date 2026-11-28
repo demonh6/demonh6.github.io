@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-28 19:26:57 CST",
- "generated_at_iso": "2026-11-28T19:26:57+08:00",
+ "generated_at": "2026-11-28 19:35:15 CST",
+ "generated_at_iso": "2026-11-28T19:35:15+08:00",
  "date": "2026-11-28",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -946,7 +946,7 @@
    {
     "name": "韩国KOSPI",
     "sym": "KS11",
-    "price": 4915.68,
+    "price": 4915.6802,
     "change": 204.47,
     "change_pct": 4.34,
     "hist": [
@@ -1017,6 +1017,27 @@
      171000.0,
      187600.0
     ]
+   },
+   {
+    "name": "印度SENSEX",
+    "sym": "BSESN",
+    "price": 83339.2578,
+    "change": -989.34,
+    "change_pct": -1.17
+   },
+   {
+    "name": "台湾加权",
+    "sym": "TWII",
+    "price": 39308.08,
+    "change": 156.27,
+    "change_pct": 0.4
+   },
+   {
+    "name": "德国DAX",
+    "sym": "DAX",
+    "price": 25441.24,
+    "change": 225.72,
+    "change_pct": 0.9
    },
    {
     "name": "英国富时100",
@@ -1169,7 +1190,7 @@
    {
     "name": "欧洲斯托克50",
     "sym": "SX5E",
-    "price": 6089.2,
+    "price": 6089.21,
     "change": 74.46,
     "change_pct": 1.24,
     "hist": [
@@ -1205,6 +1226,13 @@
      6089.21
     ],
     "sigma": 1.426
+   },
+   {
+    "name": "俄罗斯MOEX",
+    "sym": "MOEX",
+    "price": 2364.93,
+    "change": 33.17,
+    "change_pct": 1.42
    }
   ]
  },
@@ -1294,27 +1322,27 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59266.3,
-    "change": -2459.2,
-    "change_pct": -3.98,
+    "price": 59158.8,
+    "change": -2639.2,
+    "change_pct": -4.27,
     "source": "okx"
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1647.78,
-    "change": -80.58,
-    "change_pct": -4.66,
+    "price": 1644.76,
+    "change": -85.0,
+    "change_pct": -4.91,
     "source": "okx"
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 70.83,
-    "change": -2.47,
-    "change_pct": -3.37,
+    "price": 70.8,
+    "change": -2.6,
+    "change_pct": -3.54,
     "source": "okx"
    }
   ],
@@ -1393,7 +1421,7 @@
    "time": "2026-11-28 18:46",
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQjlfZ1JucF9FS0laaUFjZTVORmduM0xWdm1TVXQ3Z2dTUGxpT3U1ZXJJMUVzbmY2c2dxNFVKYXNEcGEtQkxNY1FMREEtSzBXX1VpNDFINFZxYmVRVm5FUExVLVFkUW53T3NNeTNCdG1jTk45YWp1enVwenF3aHhNSDVGdUgzUHRsVV9iTGI5Zm84aTg5Z05zUk42SHZRM1g2M3l3ZE5GLWV3dmNLNnItVzB5SEFwaEQxaUE?oc=5",
    "source": "谷歌新闻·国际",
-   "mentions": 2
+   "mentions": 3
   }
  ],
  "research": {
@@ -1623,87 +1651,94 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日涨8.70%，达20日历史波动率的 4.8 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-28 19:27",
+   "time": "2026-11-28 19:36",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "国家能源局主要负责人会见伊朗能源部部长",
-   "summary": "11月26日，中国国家能源局局长王宏志在青岛会见伊朗能源部部长阿巴斯·阿里阿巴迪，双方就电力、可再生能源、金砖机制等领域合作交换意见。",
-   "time": "2026-11-28 19:08",
-   "url": "https://wallstreetcn.com/livenews/3207359",
-   "source": "华尔街见闻"
+   "title": "中国神华67亿港元配售落定 多家国际长线基金与大型对冲基金踊跃认购",
+   "summary": "【中国神华67亿港元配售落定 多家国际长线基金与大型对冲基金踊跃认购】11月26日港股收市后，中国神华（1088.HK）签署H股新股配售协议：以每股38.10港元配售1.77亿股，募集资金总额约67.44亿港元。对此，中国神华相关负责人对记者表示，这是公司在港上市21年来的首次H股配售，交易在一个盘后窗口内完成定价，多家国际长线基金与大型对冲基金踊跃认购——机构用真金白银，对公司投出了信任票。",
+   "time": "2026-11-28 19:30:00",
+   "url": "https://finance.eastmoney.com/a/202611283942387364.html",
+   "source": "东财国际"
   },
   {
-   "title": "山西省政府与中国移动举行工作会谈 唐登杰卢东亮会见陈忠岳一行",
-   "summary": "【山西省政府与中国移动举行工作会谈 唐登杰卢东亮会见陈忠岳一行】11月27日，山西省委书记唐登杰，省委副书记、省长卢东亮在太原会见了中国移动通信集团有限公司党组书记、董事长陈忠岳一行，就加快推动新一代通信网建设、深化数字经济领域合作等进行深入交流。",
-   "time": "2026-11-28 19:03:00",
-   "url": "https://finance.eastmoney.com/a/202611283942384389.html",
-   "source": "东财国际"
+   "title": "留学生金融求职机构怎么挑？嗨职(TalentLand)的券商投行资源盘点 - 手机新浪网",
+   "summary": "",
+   "time": "2026-11-28 19:11",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CS0xpTE5Peld1a1F1U18wMTRtdnZzTm9kRHhNeUNUOVhjUVIzX2tYYUktYVpsYUtoek05UnJ6R1F4U29BTGl4WkI5Q0NtUFZHQVpsZE1mcmxHQXM2bWJWLTVTbzJuVjJjZExNbm1QVHl5dw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "俄称打击乌能源设施 乌称打击俄无人机控制点",
+   "summary": "俄国防部11月28日发布的战报显示，俄军打击了156处区域的乌方能源和燃料基础设施、无人机组装储存和发射点、军用机场、乌武装部队和外国雇佣兵临时部署点。俄军无人机当天凌晨命中基辅州1座为乌军工企业供电的110千伏变电站、敖德萨州1处储油罐，分布于第聂伯罗彼得罗夫斯克州、日托米尔州等地运送武器和军事装备的4台机车，以及敖德萨市以南海域1艘运送军用物资的干货船。",
+   "time": "2026-11-28 18:50",
+   "url": "https://wallstreetcn.com/livenews/3207355",
+   "source": "华尔街见闻"
   },
   {
    "title": "随着特朗普支持的走廊在亚美尼亚成形，伊朗予以反击 - Al-Monitor",
@@ -1713,24 +1748,17 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "五连A！电投绿能蝉联深交所信息披露最高评级 - Sohu",
+   "title": "泰国总理阿努廷给特朗普递了张手写便条，为泰国香米和玉米争取关税豁免",
    "summary": "",
-   "time": "2026-11-28 17:41",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV01DczZGaTJRSVpjT2szeW5tdWpmalgzX1BQRm5nWlBSalVGT2pnMlFJMmNFWlJPVTAwaDhBZnRHclc1Y1pJYnZHV3V0ZnNjaUFER2ZKRDFDSEN1UEptSjN6YnlTSlByd1lUbEtUV1Z2aWdxa2xrSUVxS3pWZ082Z2d5NTFxdk1TMm4xNw?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
-   "title": "伊朗伊斯兰革命卫队推出新型无人机",
-   "summary": "",
-   "time": "2026-11-28 11:02:54",
-   "url": "https://news.futunn.com/flash/1005903337/iran-s-islamic-revolutionary-guard-corps-unveils-new-uavs",
+   "time": "2026-11-28 11:30:24",
+   "url": "https://news.futunn.com/flash/1005903773/thai-prime-minister-anutin-handed-a-handwritten-note-to-trump",
    "source": "富途"
   },
   {
-   "title": "意向成交与投融资额超1750亿元，第二十八届高交会今天闭幕",
+   "title": "下周A股解禁市值逾430亿元",
    "summary": "",
-   "time": "2026-11-28 10:53:03",
-   "url": "https://news.10jqka.com.cn/20261128/c682326768.shtml",
+   "time": "2026-11-28 11:15:47",
+   "url": "https://news.10jqka.com.cn/20261128/c682326845.shtml",
    "source": "同花顺"
   },
   {
@@ -1748,18 +1776,25 @@
    "source": "财新"
   },
   {
-   "title": "有监测记录以来最强！超强厄尔尼诺影响正加强",
-   "summary": "据气象部门消息，已发展为有监测记录以来最强的厄尔尼诺事件，将对我国今冬明春气候产生明显影响。\n\n事实上，当前厄尔尼诺已给我国气候带来一定影响。本月上旬，随着第32号台风“查帕卡”在西北太平洋洋面生成，今年台风生成数量创下21世纪以来最高纪录。",
-   "time": "2026-11-28 19:00",
-   "url": "https://wallstreetcn.com/livenews/3207357",
-   "source": "华尔街见闻"
+   "title": "第12批集采月末全国落地 上海定额报销药品增至约100种",
+   "summary": "【第12批集采月末全国落地 上海定额报销药品增至约100种】从11月30日起，上海在原有44种药品按“定额报销”的基础上，又将第十二批国家集采药品纳入其中，定额报销药品范围进一步扩大到约100种。11月27日，上海医保局官网发布上海市医保局、卫健委、药监局三部门《关于本市做好第十二批国家组织药品集中带量采购有关工作的通知》，明确上海市从11月30日起正式执行中选结果。",
+   "time": "2026-11-28 19:23:27",
+   "url": "https://finance.eastmoney.com/a/202611283942386512.html",
+   "source": "东财国际"
   },
   {
-   "title": "特斯拉年度股东会在即 大股东将再次投票反对马斯克万亿美元薪酬方案",
-   "summary": "【特斯拉年度股东会在即 大股东将再次投票反对马斯克万亿美元薪酬方案】据彭博消息，挪威规模达2.2万亿美元的主权财富基金表示，在特斯拉（TSLA.US）公司下周（12月3日）召开的年度股东大会上，将投票反对马斯克的2025年薪酬方案。该基金是全球最大的基金，其指出，需要提高总薪酬的透明度，并表示“董事会应确保所有福利都有明确的商业理由”。",
-   "time": "2026-11-28 18:58:00",
-   "url": "https://finance.eastmoney.com/a/202611283942382838.html",
-   "source": "东财国际"
+   "title": "高盛给宇树浇了盆冷水：卖出的理由藏在2035年的份额与利润率里 - 同花顺财经",
+   "summary": "",
+   "time": "2026-11-28 18:56",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zLWpMOWluNkE2aEFqNWdIcDNBVk9EYm9XUy1PZEloWFpnaW9vbmpZeVA4dnRZSE9qUUM1bC1SSXVwQW1mT0pyUjlqRGdDSlhybk5IOF9xUWV1QnBaSUlGUg?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "多平台已下架“纸质短剧”，法律人士：仍处于监管灰色地带",
+   "summary": "最近，正在中小学生群体中悄然风靡的“纸质短剧”引发热议。记者注意到，目前多个电商平台上已搜不到纸质短剧商品链接，以“纸质短剧”为关键词搜索，显示为其他无关商品。虽然一些平台上还能够看到极少数此前纸质短剧广告推荐视频，但相关的购物链接也已失效。",
+   "time": "2026-11-28 18:47",
+   "url": "https://wallstreetcn.com/livenews/3207354",
+   "source": "华尔街见闻"
   },
   {
    "title": "泰总理：我给特朗普递了手写便条，为香米和玉米争取关税豁免 - 凤凰网",
@@ -1769,13 +1804,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "央行发布《中国金融稳定报告（2026）》 金融机构评级结果公布！ - Sohu",
-   "summary": "",
-   "time": "2026-11-28 17:32",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVjhBWElyaEJ6UEx2VjM3SEpPcmNmZGY0SmlySWtPWUVKUWxJd3JkY1lIaktVeTdTOWF6aGJkRUhJcC05cGxjZExOWktteGVxdVg1VDVzMFJEQVRaRmRtWUllSDJmbHdjQk9zSFZuYXY5bG1LeVgzSllFdE1peTg1MU01TnNHX3k3?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
    "title": "挪威财富基金称将再次投票反对马斯克的特斯拉薪酬方案",
    "summary": "",
    "time": "2026-11-28 10:30:00",
@@ -1783,10 +1811,10 @@
    "source": "富途"
   },
   {
-   "title": "加密货币市场集体跳水 近24小时10万人爆仓",
+   "title": "意向成交与投融资额超1750亿元，第二十八届高交会今天闭幕",
    "summary": "",
-   "time": "2026-11-28 10:49:32",
-   "url": "https://news.10jqka.com.cn/20261128/c682326764.shtml",
+   "time": "2026-11-28 10:53:03",
+   "url": "https://news.10jqka.com.cn/20261128/c682326768.shtml",
    "source": "同花顺"
   },
   {
@@ -1804,18 +1832,25 @@
    "source": "财新"
   },
   {
-   "title": "俄称打击乌能源设施 乌称打击俄无人机控制点",
-   "summary": "俄国防部11月28日发布的战报显示，俄军打击了156处区域的乌方能源和燃料基础设施、无人机组装储存和发射点、军用机场、乌武装部队和外国雇佣兵临时部署点。俄军无人机当天凌晨命中基辅州1座为乌军工企业供电的110千伏变电站、敖德萨州1处储油罐，分布于第聂伯罗彼得罗夫斯克州、日托米尔州等地运送武器和军事装备的4台机车，以及敖德萨市以南海域1艘运送军用物资的干货船。",
-   "time": "2026-11-28 18:50",
-   "url": "https://wallstreetcn.com/livenews/3207355",
-   "source": "华尔街见闻"
+   "title": "西班牙加那利群岛附近发现的移民船已有14人死亡",
+   "summary": "【西班牙加那利群岛附近发现的移民船已有14人死亡】记者28日获悉，一艘从冈比亚出发、在海上漂流约10天的移民船于27日在西班牙加那利群岛埃尔耶罗岛附近被救援人员发现，船上14人死亡，84名幸存者被送上岸，另有6人因伤病严重由直升机转运。此前一天，埃尔耶罗岛还接连接收两艘移民船，岛上接收和救援压力持续加大。",
+   "time": "2026-11-28 19:16:00",
+   "url": "https://finance.eastmoney.com/a/202611283942386352.html",
+   "source": "东财国际"
   },
   {
-   "title": "韩国总理敦促三星、SK海力士扩大招聘",
-   "summary": "【韩国总理敦促三星、SK海力士扩大招聘】首尔经济日报报道，韩国总理韩成淑（Han Seong-sook）11月28日在首尔广津区Pie Factory举行的“青年未来演唱会（就业·创业专场）”上，敦促三星电子（005930.KS）、SK海力士（000660.KS）等主要企业增加招聘。",
-   "time": "2026-11-28 18:57:06",
-   "url": "https://finance.eastmoney.com/a/202611283942382769.html",
-   "source": "东财国际"
+   "title": "布鲁可(00325)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+   "summary": "",
+   "time": "2026-11-28 17:54",
+   "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE5lcjVrNk0yRmJOZFNDMWN0T2JZX1pfZkhmanFWWGx4WGc0eHhJYjc3bXFRNFJtN1pjNTZxWmZwYw?oc=5",
+   "source": "谷歌新闻·研报"
+  },
+  {
+   "title": "挪威主权财富基金将再次投票反对马斯克万亿美元薪酬方案",
+   "summary": "挪威规模达2.2万亿美元的主权财富基金表示，在特斯拉公司下周（12月3日）召开的年度股东大会上，将投票反对隆·马斯克的2025年薪酬方案。该基金是全球最大的基金，其指出，需要提高总薪酬的透明度，并表示“董事会应确保所有福利都有明确的商业理由”。今年的投票是对马斯克2025年薪酬方案的非约束性表决，该方案被广泛认为是史上规模最大的企业高管薪酬方案，最终可能在未来十年内给马斯克带来价值高达1万亿美元的",
+   "time": "2026-11-28 18:22",
+   "url": "https://wallstreetcn.com/livenews/3207350",
+   "source": "华尔街见闻"
   },
   {
    "title": "特朗普又连发深圳APEC照片：一周过去了，他还沉浸其中 - Sohu",
@@ -1825,13 +1860,6 @@
    "source": "谷歌新闻·国际"
   },
   {
-   "title": "全球七大投行最新黄金预测出炉！高盛两度下调目标价金价恐要等到2028年才能再创新高_金市直播 - 黄金网",
-   "summary": "",
-   "time": "2026-11-28 16:43",
-   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82ZjdVeWdhOGxqYlpZT0NJaWhvcG8wOEZoSnpsLUlubWpxVWFHR3FJZkM0bkc2X1B2VVppcHFUWXdsRk5kb3FxaHN3V1lTc2JFdXpabGppMFBQazNnTU54cHp6OFA2SE9Y?oc=5",
-   "source": "谷歌新闻·研报"
-  },
-  {
    "title": "泽连斯基改口：袭击利比亚俄军舰艇前未与欧洲伙伴协调",
    "summary": "",
    "time": "2026-11-28 10:07:35",
@@ -1839,10 +1867,10 @@
    "source": "富途"
   },
   {
-   "title": "天有为：收到福田汽车多款仪表及显示屏项目定点通知",
+   "title": "加密货币市场集体跳水 近24小时10万人爆仓",
    "summary": "",
-   "time": "2026-11-28 09:14:38",
-   "url": "https://news.10jqka.com.cn/20261128/c682326405.shtml",
+   "time": "2026-11-28 10:49:32",
+   "url": "https://news.10jqka.com.cn/20261128/c682326764.shtml",
    "source": "同花顺"
   },
   {
@@ -1853,11 +1881,11 @@
    "source": "财新"
   },
   {
-   "title": "多平台已下架“纸质短剧”，法律人士：仍处于监管灰色地带",
-   "summary": "最近，正在中小学生群体中悄然风靡的“纸质短剧”引发热议。记者注意到，目前多个电商平台上已搜不到纸质短剧商品链接，以“纸质短剧”为关键词搜索，显示为其他无关商品。虽然一些平台上还能够看到极少数此前纸质短剧广告推荐视频，但相关的购物链接也已失效。",
-   "time": "2026-11-28 18:47",
-   "url": "https://wallstreetcn.com/livenews/3207354",
-   "source": "华尔街见闻"
+   "title": "有监测记录以来最强！超强厄尔尼诺影响正加强",
+   "summary": "【有监测记录以来最强！超强厄尔尼诺影响正加强】据气象部门消息，已发展为有监测记录以来最强的厄尔尼诺事件，将对我国今冬明春气候产生明显影响。事实上，当前厄尔尼诺已给我国气候带来一定影响。本月上旬，随着第32号台风“查帕卡”在西北太平洋洋面生成，今年台风生成数量创下21世纪以来最高纪录。",
+   "time": "2026-11-28 19:11:02",
+   "url": "https://finance.eastmoney.com/a/202611283942384484.html",
+   "source": "东财国际"
   }
  ],
  "news_meta": {
@@ -1873,10 +1901,10 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "华尔街见闻": 7,
    "东财国际": 7,
-   "谷歌新闻·国际": 7,
    "谷歌新闻·研报": 7,
+   "华尔街见闻": 7,
+   "谷歌新闻·国际": 7,
    "富途": 6,
    "同花顺": 6,
    "东财早报": 2,
