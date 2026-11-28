@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-28 07:56:59 CST",
- "generated_at_iso": "2026-11-28T07:56:59+08:00",
+ "generated_at": "2026-11-28 08:05:19 CST",
+ "generated_at_iso": "2026-11-28T08:05:19+08:00",
  "date": "2026-11-28",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59908.1,
-    "change": -643.7,
+    "price": 59984.6,
+    "change": -641.9,
     "change_pct": -1.06,
-    "source": "okx"
+    "source": "okx",
+    "hist": [
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     60123.3,
+     59990.9
+    ],
+    "sigma": 2.548
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1662.39,
-    "change": -26.63,
-    "change_pct": -1.58,
-    "source": "okx"
+    "price": 1664.44,
+    "change": -28.25,
+    "change_pct": -1.67,
+    "source": "okx",
+    "hist": [
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1672.3,
+     1664.94
+    ],
+    "sigma": 3.006
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.66,
-    "change": 0.66,
-    "change_pct": 0.93,
-    "source": "okx"
+    "price": 71.73,
+    "change": 0.57,
+    "change_pct": 0.8,
+    "source": "okx",
+    "hist": [
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     72.16,
+     71.72
+    ],
+    "sigma": 4.212
    }
   ],
   "fx": [
@@ -1356,11 +1455,11 @@
  },
  "sentiment": {
   "fear_greed": {
-   "value": 12,
+   "value": 10,
    "classification": "Extreme Fear",
    "label": "极度恐惧",
    "color": "#f04a3d",
-   "timestamp": "2026-11-27",
+   "timestamp": "2026-11-28",
    "source": "alternative.me"
   },
   "a_share_breadth": {
@@ -1457,6 +1556,16 @@
   ],
   "reports": [
    {
+    "title": "花旗集团350亿美元记账失误引发高层人事震荡",
+    "org": "花旗",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-28",
+    "url": "https://news.10jqka.com.cn/20261128/c682322536.shtml",
+    "source": "机构观点"
+   },
+   {
     "title": "美元避险属性与美股联动交织，汇丰称外汇市场走势愈发难以解读",
     "org": "汇丰",
     "rating": "",
@@ -1477,13 +1586,23 @@
     "source": "机构观点"
    },
    {
-    "title": "周六你需要知道的隔夜全球要闻：AI交易回暖纳指涨超2%；交易员削减美联储加息押注 预计明年晚些转向宽松；瑞银建议逢低买入白银",
-    "org": "瑞银",
+    "title": "港股大模型双雄集体上攻 高盛看多MINIMAX目标价760港元 - 东方财富",
+    "org": "高盛",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-28",
-    "url": "https://finance.eastmoney.com/a/202611283942144154.html",
+    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kUDkxSk1HRUdlUGxOM2NpREhTZXU0NkY4TUtoamFWRHp0MHBJZDBLUU5IMlRucWhvblJJMjFMSk1pbkRPTExyUVBCRFk5WmctMDhlc1RvbHJVSWxCblpuV0otZ2wwUQ?oc=5",
+    "source": "机构观点"
+   },
+   {
+    "title": "分析师“组团”转会 卖方研究生态加速重塑",
+    "org": "兴业证券",
+    "rating": "",
+    "stock": "",
+    "industry": "",
+    "date": "2026-11-28",
+    "url": "https://finance.eastmoney.com/a/202611283942148221.html",
     "source": "机构观点"
    },
    {
@@ -1613,79 +1732,79 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日涨8.70%，达20日历史波动率的 4.8 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-28 07:57",
+   "time": "2026-11-28 08:06",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "机器人、空间相机业务 打开激光雷达赛道增长空间",
-   "summary": "【机器人、空间相机业务 打开激光雷达赛道增长空间】记者近日采访获悉，车载端，价格下探接近尾声，行情逐步企稳，头部激光雷达厂商告别“以价换量”，迈入“守毛利，抢海外定点”的新阶段。机器人业务扛起利润增量重任，成为实打实的第二增长曲线。数据层面，真实世界高质量三维数据供给稀缺，空间相机由此成为头部厂商切入物理AI赛道的新入口。受访业内人士判断，行业机会将集中在机器人场景渗透、海外订单兑现、空间智能产品量产交付三大主线。",
-   "time": "2026-11-28 07:30:07",
-   "url": "https://finance.eastmoney.com/a/202611283942117945.html",
+   "title": "银价跌破40美元关口后反弹 上行弹性尚待工业需求驱动",
+   "summary": "【银价跌破40美元关口后反弹 上行弹性尚待工业需求驱动】“长期来看，公司比较看好银价上涨趋势，近年来白银趋势中枢上移。一方面，白银有工业需求；另一方面，白银也有金融属性。对于白银产品来说，货是不愁卖的，无论是白银价格高还是低，需求一直都在。公司也会根据市场情况灵活调整销售节奏。”盛达资源方面告诉记者。",
+   "time": "2026-11-28 07:58:20",
+   "url": "https://finance.eastmoney.com/a/202611283942147573.html",
    "source": "东财国际"
   },
   {
@@ -1710,10 +1829,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "普京：俄新型核潜艇“彼尔姆”号将加入太平洋舰队",
+   "title": "花旗集团350亿美元记账失误引发高层人事震荡",
    "summary": "",
-   "time": "2026-11-27 23:28:38",
-   "url": "https://news.10jqka.com.cn/20261128/c682322250.shtml",
+   "time": "2026-11-28 00:05:20",
+   "url": "https://news.10jqka.com.cn/20261128/c682322536.shtml",
    "source": "同花顺"
   },
   {
@@ -1738,17 +1857,17 @@
    "source": "财新"
   },
   {
-   "title": "沪深交易所系列指数迎来重大调整 引导资金流向国家重点支持领域",
-   "summary": "【沪深交易所系列指数迎来重大调整 引导资金流向国家重点支持领域】11月27日，上海证券交易所和中证指数公司宣布，决定调整沪深300、上证50、上证180、上证380、科创50、科创100等指数样本，于12月11日收市后生效。业内人士表示，指数调样是常规制度性安排，通过定期调整吐故纳新，保持指数生命力。此次样本调整后，上证50、上证180指数新经济行业权重提升，更好表征新质生产力发展方向，引导资金流向国家重点支持领域。",
-   "time": "2026-11-28 07:28:08",
-   "url": "https://finance.eastmoney.com/a/202611283942118037.html",
+   "title": "锻造核电“钢铁心脏”： “华龙一号”开启迭代新征程",
+   "summary": "【锻造核电“钢铁心脏”： “华龙一号”开启迭代新征程】核反应堆压力容器是压水堆核电站的“心脏”，也是全服役周期内唯一无法更换的关键主设备，对制造精度、工艺可靠性有着极严苛的要求。近日记者走进中国一重大连核电石化基地实地调研。企业以毫米级精度攻克焊接难题，依托工艺迭代压缩制造周期，在完成“华龙一号”首台装备突破后，稳步推进批量化生产与“华龙一号”2.0版本协同创新，持续夯实核电主设备国产化根基。",
+   "time": "2026-11-28 07:57:21",
+   "url": "https://finance.eastmoney.com/a/202611283942147897.html",
    "source": "东财国际"
   },
   {
-   "title": "VOA今日焦点 (2026年11月27日) 特朗普总统：与习近平的会晤非常棒，两人关系融洽 - 美国之音",
+   "title": "指示专机提前抵达深圳，以便“偶遇”特朗普总统? 高市早苗亲自反驳：不实报道 - 美国之音",
    "summary": "",
-   "time": "2026-11-28 06:25",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HckNVWmlPNDZWZG53by1XRWpEcS1WZk5sS1JjemlnTUxEUmJnTk0wZWRtazl0akV1MEwtZU9MaTJnaVU0YU1paW1mRUsyUmxHR0FGdkM5OFRYYTFHcnFHUkpwd09DUEtsdHBN0gFuQVVfeXFMTk1JU3RVdDdLdHdzbjhOdXZlYmRMZGJVV1d3Y2xKZl9pdlUyYXFYazhSbktqeGZpYlhSOUx2SklUS2FnVmFMbmdwMGRfaDNaSDcta3ZLeU52ckVpOV92YUVvZlh3SksxZ0lpNUxBbHc?oc=5",
+   "time": "2026-11-28 07:19",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVE9XY2JYMi1YcHNXODIzZmhpbkJtRUVrWloxZDU2ZGlmR1JLMEpjdV9VblpYVG94MHBEZlZwR0F2S3diVElOd2RmQ0NuUl91TnhjRHV1TWdxTmwzLUR6OWtJM2tPQ25BWmk1M1RYaE5wX1hTcWxFRkxGRV8tRDE1empFM3h1WkRFWm1RWjZCWkdjNE5GR1dBb29XSGFJSG1teW5VV2NyYTY3YnU5UkHSAbABQVVfeXFMTnZsTFJkQk9BYl9VcXp2WmVocGlUdnlQSFlCeTB5WU5KaE0ycnFnaE1mY0JmY0NOTkZmR1dPRWs5LVZPYTFQdEN1c0p0ckpCei04RW9lcGdwaFJ3UnZUVnhoMkgzczl1bDRSSVZpV2I1bU9keUpRQWJrejFUVjByUlVXRUJpY1RCbUY4TUlZVzFkeW5zVktwNnNlS1AzQW91ZDRHVkNrUEstaUdYeTZLOUE?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1766,10 +1885,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "经济日报金观平：中国AI发展决不是“少数人的盛宴”",
+   "title": "美国强风暴影响持续 数十万用户停电",
    "summary": "",
-   "time": "2026-11-27 23:27:38",
-   "url": "https://news.10jqka.com.cn/20261128/c682322249.shtml",
+   "time": "2026-11-27 23:58:14",
+   "url": "https://news.10jqka.com.cn/20261128/c682322445.shtml",
    "source": "同花顺"
   },
   {
@@ -1794,17 +1913,17 @@
    "source": "财新"
   },
   {
-   "title": "滑雪装备消费火起来了",
-   "summary": "【滑雪装备消费火起来了】近期，多地陆续启动2026年至2027年冰雪季活动，北方主要雪场密集开板，各地配套的冰雪文旅节庆、赛事和惠民消费措施同步展开。上海证券报记者走访上海多家户外用品门店了解到，随着冰雪运动客群持续扩容，新雪季的到来正集中带动相关运动装备消费热度走高。",
-   "time": "2026-11-28 07:23:09",
-   "url": "https://finance.eastmoney.com/a/202611283942118126.html",
+   "title": "分析师“组团”转会 卖方研究生态加速重塑",
+   "summary": "【分析师“组团”转会 卖方研究生态加速重塑】近日记者从获悉，兴业证券原策略首席分析师张启尧已离职，其带领的策略团队部分成员同步离职。据悉，张启尧已加盟国联民生证券，担任研究所副所长兼首席策略官，其在中国证券业协会的执业信息已于近日完成变更登记。这位1992年出生的“90后”明星首席带队“组团”转会，成为2026年卖方研究人才加速流动的又一注脚。",
+   "time": "2026-11-28 07:54:32",
+   "url": "https://finance.eastmoney.com/a/202611283942148221.html",
    "source": "东财国际"
   },
   {
-   "title": "美农民忧特朗普关税措施将使出口受阻及成本上升 - RFI",
+   "title": "VOA今日焦点 (2026年11月27日) 特朗普总统：与习近平的会晤非常棒，两人关系融洽 - 美国之音",
    "summary": "",
-   "time": "2026-11-28 06:02",
-   "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxPd3dGdXYxd2E2dUpIemRFMGNJSHpjNUlNXzZOTWRBM3h0Nmp3XzRtYWhjVmFpN1lWQ1dYcm9mMjh3QjJDS2ZoMml5VzVHSkxDT3hNckxsS3ZyUmhkdmZxTS0tcDd5Y3d4TE15SFo3LVhkZzNRN2V0YlN3RWR1SVF4VGhKWnlUbnZ6NmZvaXViV1lEZTM5RW0yYlhjOEUzREtRU2VXLTl5MjlOWHp2bVM4bDZ3RmJNZ1g0V25oRDlvZG8yclM5bHVMTTFzT2U2WDFQcUZrRldwOWhNU3hmYjQ5dzI1SWZxeGtBVHlJR0d1bzBjMzVwYm03MlZlYVFES2ZKV0FUNkJaU0hmQUpjWXdTMExUWDZVd3p4cUg0VVVHR3BHU3J0a0gwMHhBMkNHRGxiU1hKaEdQMDhxUThmRHQyUHRTTlNuX1NnNmF4TUNIN1N5ai1lVGhVYVp2Y1NPNGJtaUFtSll6bw?oc=5",
+   "time": "2026-11-28 06:25",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1HckNVWmlPNDZWZG53by1XRWpEcS1WZk5sS1JjemlnTUxEUmJnTk0wZWRtazl0akV1MEwtZU9MaTJnaVU0YU1paW1mRUsyUmxHR0FGdkM5OFRYYTFHcnFHUkpwd09DUEtsdHBN0gFuQVVfeXFMTk1JU3RVdDdLdHdzbjhOdXZlYmRMZGJVV1d3Y2xKZl9pdlUyYXFYazhSbktqeGZpYlhSOUx2SklUS2FnVmFMbmdwMGRfaDNaSDcta3ZLeU52ckVpOV92YUVvZlh3SksxZ0lpNUxBbHc?oc=5",
    "source": "谷歌新闻·国际"
   },
   {
@@ -1822,10 +1941,10 @@
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "上交所调整多项指数样本",
+   "title": "我国加快构建汽车行业智能制造标准体系",
    "summary": "",
-   "time": "2026-11-27 22:58:29",
-   "url": "https://news.10jqka.com.cn/20261128/c682322154.shtml",
+   "time": "2026-11-27 23:56:38",
+   "url": "https://news.10jqka.com.cn/20261128/c682322435.shtml",
    "source": "同花顺"
   },
   {
@@ -1843,10 +1962,10 @@
    "source": "财新"
   },
   {
-   "title": "新雪季，冷资源释放“热”动能",
-   "summary": "【新雪季，冷资源释放“热”动能】随着新一轮冰雪季到来，冰雪文旅市场进入旺季窗口期。美团数据显示，11月1日至15日，平台含“滑雪”关键词的搜索量同比增长141%，南方用户购买北方雪场雪票的订单量同比增长逾四成。多地抢抓消费机遇，密集推出系列主题活动及配套保障方案，激活冬季冰雪消费潜力。",
-   "time": "2026-11-28 07:19:09",
-   "url": "https://finance.eastmoney.com/a/202611283942118289.html",
+   "title": "转债市场成交额创年内新高 资金布局意愿增强",
+   "summary": "【转债市场成交额创年内新高 资金布局意愿增强】11月27日，受权益市场反弹带动，中证转债指数收涨3.77%，录得年内最大单日涨幅；同日市场成交额达1424.03亿元，刷新年内单日成交纪录。记者梳理行情数据发现，成交放量并非单日脉冲行情，11月下旬以来转债市场流动性持续走高：11月23日成交额率先突破千亿元，11月26日再度站上千亿元关口，11月27日进一步冲高至1400亿元以上，交投热度持续抬升。",
+   "time": "2026-11-28 07:53:28",
+   "url": "https://finance.eastmoney.com/a/202611283942120022.html",
    "source": "东财国际"
   }
  ],
