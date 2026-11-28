@@ -1,7 +1,7 @@
 {
  "schema_version": 13,
- "generated_at": "2026-11-28 14:52:19 CST",
- "generated_at_iso": "2026-11-28T14:52:19+08:00",
+ "generated_at": "2026-11-28 15:00:36 CST",
+ "generated_at_iso": "2026-11-28T15:00:36+08:00",
  "date": "2026-11-28",
  "interval": "10min",
  "update_frequency_note": "每10分钟更新 · 实时行情每次拉取，限流敏感信源按30分钟/1小时/2小时分级降频",
@@ -976,10 +976,10 @@
      5137.89,
      4869.96,
      4708.54,
-     5006.0298,
-     4697.5098,
+     5006.03,
+     4697.51,
      4711.21,
-     4915.6802
+     4915.68
     ],
     "sigma": 3.613,
     "volume": 187600.0,
@@ -1294,28 +1294,127 @@
     "name": "比特币",
     "code": "BTC",
     "sym": "BTC",
-    "price": 59813.9,
-    "change": -1876.6,
-    "change_pct": -3.04,
-    "source": "okx"
+    "price": 59769.6,
+    "change": -1892.1,
+    "change_pct": -3.07,
+    "source": "okx",
+    "hist": [
+     77593.7,
+     77558.2,
+     77982.5,
+     77515.6,
+     77698.6,
+     80299.9,
+     76038.5,
+     75861.6,
+     75764.6,
+     76074.8,
+     75524.4,
+     73205.4,
+     74005.5,
+     71716.8,
+     68897.3,
+     65739.7,
+     64747.7,
+     64466.2,
+     64112.8,
+     63123.6,
+     63100.1,
+     59474.3,
+     59938.8,
+     60890.5,
+     62892.8,
+     59718.6,
+     58339.9,
+     60627.6,
+     60123.3,
+     59777.5
+    ],
+    "sigma": 2.543
    },
    {
     "name": "以太坊",
     "code": "ETH",
     "sym": "ETH",
-    "price": 1659.12,
-    "change": -74.63,
-    "change_pct": -4.3,
-    "source": "okx"
+    "price": 1658.25,
+    "change": -74.16,
+    "change_pct": -4.28,
+    "source": "okx",
+    "hist": [
+     2226.72,
+     2249.92,
+     2266.85,
+     2273.65,
+     2299.61,
+     2426.44,
+     2252.59,
+     2230.92,
+     2237.32,
+     2242.0,
+     2147.53,
+     2023.79,
+     2075.65,
+     2009.48,
+     1934.8,
+     1841.26,
+     1811.03,
+     1820.08,
+     1785.28,
+     1768.48,
+     1781.89,
+     1655.58,
+     1684.69,
+     1718.38,
+     1773.75,
+     1677.67,
+     1648.69,
+     1692.56,
+     1672.3,
+     1658.4
+    ],
+    "sigma": 3.001
    },
    {
     "name": "Solana",
     "code": "SOL",
     "sym": "SOL",
-    "price": 71.49,
-    "change": -1.53,
-    "change_pct": -2.1,
-    "source": "okx"
+    "price": 71.46,
+    "change": -1.52,
+    "change_pct": -2.08,
+    "source": "okx",
+    "hist": [
+     94.89,
+     95.89,
+     94.78,
+     93.53,
+     93.76,
+     96.7,
+     90.21,
+     90.76,
+     89.56,
+     89.73,
+     87.93,
+     82.29,
+     84.84,
+     81.72,
+     80.03,
+     73.89,
+     71.24,
+     70.79,
+     72.46,
+     73.48,
+     73.56,
+     68.37,
+     70.42,
+     70.33,
+     75.67,
+     69.06,
+     67.72,
+     71.06,
+     72.16,
+     71.44
+    ],
+    "sigma": 4.211
    }
   ],
   "fx": [
@@ -1323,23 +1422,23 @@
     "name": "美元指数",
     "sym": "DXY",
     "price": 104.04,
-    "change": 0.257,
-    "change_pct": 0.25,
+    "change": 0.25,
+    "change_pct": 0.24,
     "dec": 2,
-    "date": "2026-11-28",
+    "date": "",
     "hint": "全球流动性与风险偏好的锚，走强通常压制新兴市场与商品",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "离岸人民币",
     "sym": "USDCNH",
     "price": 6.6551,
-    "change": null,
-    "change_pct": null,
+    "change": -0.0062,
+    "change_pct": -0.09,
     "dec": 4,
-    "date": "2026-11-28",
+    "date": "",
     "hint": "数值上行 = 人民币贬值，常伴随外资流出压力",
-    "source": "新浪"
+    "source": "东财"
    },
    {
     "name": "AH股溢价",
@@ -1348,9 +1447,9 @@
     "change": -0.5,
     "change_pct": -0.36,
     "dec": 2,
-    "date": "2026-11-27",
+    "date": "",
     "hint": "A股相对H股的溢价，>130 属历史偏高区间",
-    "source": "新浪"
+    "source": "东财"
    }
   ]
  },
@@ -1385,13 +1484,13 @@
  },
  "speakers": [
   {
-   "keyword": "特朗普",
-   "label": "特朗普",
-   "hint": "白宫言论（含Truth Social）对全球风险资产冲击最大",
-   "title": "对特朗普称普京“朋友”作何感想？泽连斯基愣了3秒：这很奇怪 - ThePaper.cn",
+   "keyword": "美联储",
+   "label": "美联储",
+   "hint": "FOMC决定与官员讲话是全球利率锚",
+   "title": "下调押注！美联储加息，有变数！ - 证券之星",
    "summary": "",
-   "time": "2026-11-28 12:05",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40dzQ5bTFTVGpycEFWYmFyLW1fSjJGZjVaZExENVI5WDRzcDJxSWd5Qy0zelZSSDdKaHg2cmNCSFNLeFNyNmU5UG5DWjg1Mm1DbVZMQ0UycjlUV0F6S1pJSg?oc=5",
+   "time": "2026-11-28 14:04",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nV1ZpeWVwVWhoSFdyNjhuLVpjeUp5VzMyd000cDZzV1FvSXlDSFF6c0U1ZzZudWdRWUtnSjFwT2VXNktndWQtb2h4NmEzMWxwRXJYYWFfeU52YmxjTUdrdDVR?oc=5",
    "source": "谷歌新闻·国际",
    "mentions": 1
   }
@@ -1457,16 +1556,6 @@
   ],
   "reports": [
    {
-    "title": "全球七大投行最新黄金预测出炉！高盛两度下调目标价 金价恐要等到2028年才能再创新高 - Sohu",
-    "org": "高盛",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-28",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbHZCTF84Z0RzLWJUZjZVSmFKV3FvN1pPZExWdVZ6S21ReGVsQ2hzb01XeFRRTVBCNTk5MWJGV3I3aGNOWEpyVC1JN0hGU0Y4SlZWRXB4WDNvMXZoNU9renRKRDFnNjU1SWZGSG9rTXRMaWlVWlNKdkthNDY2dnVVeHJoZUhkRzRZ?oc=5",
-    "source": "机构观点"
-   },
-   {
     "title": "东方财富财经早餐 11月27日周五",
     "org": "摩根大通",
     "rating": "",
@@ -1477,43 +1566,13 @@
     "source": "机构观点"
    },
    {
-    "title": "赶在民主党州长上任前，得州紧急“解冻”1800多个数据中心项目，开发商争分夺秒抢许可",
-    "org": "金融时报",
+    "title": "全球七大投行最新黄金预测出炉！高盛两度下调目标价 金价恐要等到2028年才能再创新高 - Sohu",
+    "org": "高盛",
     "rating": "",
     "stock": "",
     "industry": "",
     "date": "2026-11-28",
-    "url": "https://wallstreetcn.com/livenews/3207322",
-    "source": "机构观点"
-   },
-   {
-    "title": "中信证券：AH上市仍处于火热状态，两地上市公司数量或仍将快速提升",
-    "org": "中信证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-28",
-    "url": "https://news.futunn.com/flash/1005891434/citic-securities-the-dual-listing-a-h-market-remains-robust",
-    "source": "机构观点"
-   },
-   {
-    "title": "华源证券：二级债基规模再创新高，债券配置占比回升",
-    "org": "华源证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-28",
-    "url": "https://news.futunn.com/flash/1005891276/huayuan-securities-secondary-bond-fund-aum-hits-new-record-high",
-    "source": "机构观点"
-   },
-   {
-    "title": "中信证券：AH两地上市公司数量或仍将快速提升",
-    "org": "中信证券",
-    "rating": "",
-    "stock": "",
-    "industry": "",
-    "date": "2026-11-28",
-    "url": "https://news.10jqka.com.cn/20261128/c682325443.shtml",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbHZCTF84Z0RzLWJUZjZVSmFKV3FvN1pPZExWdVZ6S21ReGVsQ2hzb01XeFRRTVBCNTk5MWJGV3I3aGNOWEpyVC1JN0hGU0Y4SlZWRXB4WDNvMXZoNU9renRKRDFnNjU1SWZGSG9rTXRMaWlVWlNKdkthNDY2dnVVeHJoZUhkRzRZ?oc=5",
     "source": "机构观点"
    },
    {
@@ -1643,115 +1702,115 @@
    "level": "danger",
    "asset": "上证指数",
    "message": "上证指数单日涨3.73%，达20日历史波动率的 4.0 倍（σ=0.94%，突破 3σ 高危线）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "深证成指",
    "message": "深证成指单日涨7.24%，达20日历史波动率的 6.0 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "创业板指",
    "message": "创业板指单日涨11.61%，达20日历史波动率的 9.7 倍（σ=1.20%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "科创50",
    "message": "科创50单日涨15.07%，达20日历史波动率的 4.3 倍（σ=3.54%，突破 3σ 高危线）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "沪深300",
    "message": "沪深300单日涨4.17%，达20日历史波动率的 4.0 倍（σ=1.04%，突破 3σ 高危线）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "上证50",
    "message": "上证50单日涨2.94%，达20日历史波动率的 4.6 倍（σ=0.64%，突破 3σ 高危线）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "中证500",
    "message": "中证500单日涨7.68%，达20日历史波动率的 3.6 倍（σ=2.13%，突破 3σ 高危线）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "权重股(券商/银行)拉升指数 → 两融余额追高、杠杆资金进场 → 量化趋势策略跟随买入 → 行业ETF获净申购 → 中小盘跟涨，但获利盘随时可能兑现"
   },
   {
    "level": "danger",
    "asset": "COMEX白银",
    "message": "COMEX白银单日涨8.70%，达20日历史波动率的 4.8 倍（σ=1.80%，突破 3σ 高危线，σ按长期均值估算）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "白银急涨（贵金属避险+光伏工业双重买盘）→ 金银比价回落 → 工业采购成本抬升 → 光伏/电子产业链成本传导"
   },
   {
    "level": "warning",
    "asset": "恒生科技指数",
    "message": "恒生科技指数单日涨6.54%，达20日历史波动率的 2.8 倍（σ=2.31%，突破 2σ 警戒线）",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "恒指急涨带动牛熊证发行商对冲买盘 → 空头被轧平进一步推升指数 → 南向资金加速流入 → AH溢价收窄，A股联动走强"
   },
   {
    "level": "warning",
    "asset": "全球股指",
    "message": "上证指数、深证成指、创业板指等 8 个主要股指单日齐涨且均超1.5倍σ，风险偏好显著升温，注意追高风险。",
-   "time": "2026-11-28 14:52",
+   "time": "2026-11-28 15:01",
    "chain": "多市场共振上涨 → 隐含波动率下降，杠杆与趋势策略同步加仓 → 仓位高度同向拥挤 → 一旦逆转将触发集体减仓放大回撤——警惕追高与对冲成本抬升"
   }
  ],
  "news": [
   {
-   "title": "一汽解放首台1000公里J7氢燃料电池牵引车顺利下线",
-   "summary": "【一汽解放首台1000公里J7氢燃料电池牵引车顺利下线】据一汽解放消息，11月26日，一汽解放首台1000公里J7氢燃料电池牵引车在解放有限制造中心四川厂顺利下线。该车型的成功下线，是一汽解放布局氢能商用车赛道、加速新能源转型的关键实践。",
-   "time": "2026-11-28 14:32:00",
-   "url": "https://finance.eastmoney.com/a/202611283942362469.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "以色列政坛现新动向 埃森科特承诺不单方面同利库德集团组阁",
-   "summary": "据以色列方面27日消息，受命组建新政府的以色列正直党领导人埃森科特向已与其签署组阁协议的“以色列是我们的家园”党和以色列民主党作出承诺，未经对方同意，他不会单方面推进同看守政府总理内塔尼亚胡领导的利库德集团组建跨阵营大联合政府。与此同时，阿拉伯裔政党联合阿拉伯党表态，愿在新政府四年任期内提供全面支持。",
-   "time": "2026-11-28 14:06",
-   "url": "https://wallstreetcn.com/livenews/3207325",
+   "title": "巴基斯坦卡拉奇楼房坍塌事故已致11人丧生",
+   "summary": "巴基斯坦官方紧急救援组织“救援1122”28日说，该国南部信德省首府卡拉奇发生的楼房坍塌事故已造成11人丧生。",
+   "time": "2026-11-28 14:57",
+   "url": "https://wallstreetcn.com/livenews/3207330",
    "source": "华尔街见闻"
   },
   {
-   "title": "特朗普又连发深圳APEC照片，一周过去了，他还沉浸其中！ - 新浪财经_金融信息服务商",
-   "summary": "",
-   "time": "2026-11-28 13:43",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OTzdoeGtfay1ZYVVHMXdDd2xNNDByQk9vV1d5WVpKOXVFZXVfVG9ObVNVdFJ0cTRZX2NlOHBlWndTbWJFM25jWHREbUVVQnNUTlQ4V0phTFY1c2NjQ1A0SFdWVlhlTEJjYkRCNGJ5RzhjZw?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "金价回调带动购金热 黄金迎来抢购潮",
+   "summary": "【金价回调带动购金热 黄金迎来抢购潮】27日，现货黄金价格出现较大幅度的反弹，和年初每盎司5596.33美元的高点相比，下跌幅度仍然超过30%。记者在各地走访时发现，金价回调不仅没有影响消费者的购金热情，黄金市场上反而呈现出一种越跌越买的消费行情。",
+   "time": "2026-11-28 14:56:17",
+   "url": "https://finance.eastmoney.com/a/202611283942364735.html",
+   "source": "东财国际"
   },
   {
-   "title": "全球七大投行最新黄金预测出炉！高盛两度下调目标价 金价恐要等到2028年才能再创新高 - Sohu",
+   "title": "东微半导（688261.SH）脱水研报：慧能泰并表驱动第三季度营收大增42.88%，收入预测上调与盈利预测下调并行 - Sohu",
    "summary": "",
-   "time": "2026-11-28 13:09",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbHZCTF84Z0RzLWJUZjZVSmFKV3FvN1pPZExWdVZ6S21ReGVsQ2hzb01XeFRRTVBCNTk5MWJGV3I3aGNOWEpyVC1JN0hGU0Y4SlZWRXB4WDNvMXZoNU9renRKRDFnNjU1SWZGSG9rTXRMaWlVWlNKdkthNDY2dnVVeHJoZUhkRzRZ?oc=5",
+   "time": "2026-11-28 14:45",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObnZrUUJyY3J3bl85RzlhRHN2eFlWUkc4dnluUk5LY2dfTzVSdjZiUUltVjJBa1NUYmpETU5LbC1feHZvaUx5Mk9UcVR2SnJSS3BEay1EVlN5a0Vha2liSHpHSzFtUEtKSEdjOGZuTmNURjJsYVhhMHRwVjRNODhYTnpFU2xGcmI4?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "国内首次 青海发现南方猛犸象完整头骨化石",
+   "title": "下调押注！美联储加息，有变数！ - 证券之星",
    "summary": "",
-   "time": "2026-11-28 06:12:17",
-   "url": "https://news.10jqka.com.cn/20261128/c682325818.shtml",
-   "source": "同花顺"
+   "time": "2026-11-28 14:04",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9nV1ZpeWVwVWhoSFdyNjhuLVpjeUp5VzMyd000cDZzV1FvSXlDSFF6c0U1ZzZudWdRWUtnSjFwT2VXNktndWQtb2h4NmEzMWxwRXJYYWFfeU52YmxjTUdrdDVR?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "李在明出席数据中心奠基仪式，承诺全力助推韩国AI领先",
+   "title": "地缘政治风险上升之际海湾地区IPO活动大幅下滑",
    "summary": "",
-   "time": "2026-11-28 06:03:17",
-   "url": "https://news.futunn.com/flash/1005896686/lee-jae-myung-attends-data-center-groundbreaking-ceremony-pledges-full",
+   "time": "2026-11-28 06:56:29",
+   "url": "https://news.futunn.com/flash/1005897563/gulf-region-ipo-activity-drops-sharply-amid-rising-geopolitical-risks",
    "source": "富途"
+  },
+  {
+   "title": "降温、腌腊启动消费边际回暖，生猪价格反弹至10元/公斤",
+   "summary": "",
+   "time": "2026-11-28 06:56:01",
+   "url": "https://news.10jqka.com.cn/20261128/c682325966.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月27日周五",
@@ -1768,46 +1827,46 @@
    "source": "财新"
   },
   {
-   "title": "中集车辆东莞LTP中心A3机器人产线正式投产",
-   "summary": "【中集车辆东莞LTP中心A3机器人产线正式投产】据中集车辆消息，11月26日，中集车辆东莞LTP中心第二条机器人产线A3正式点火投产。按照规划，东莞LTP中心将建设A5、A3、A1三条机器人产线，去年底，首条A5机器人产线建成投产，生产效率提升30%以上。",
-   "time": "2026-11-28 14:27:00",
-   "url": "https://finance.eastmoney.com/a/202611283942361972.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "巴基斯坦总理和国防军司令兼陆军参谋长同正在中国空间站执行任务的巴方航天员天地通话。（央视）",
-   "summary": "巴基斯坦总理和国防军司令兼陆军参谋长同正在中国空间站执行任务的巴方航天员天地通话。（央视）",
-   "time": "2026-11-28 13:55",
-   "url": "https://wallstreetcn.com/livenews/3207324",
+   "title": "金价回调带动购金热，黄金迎来抢购潮",
+   "summary": "自今年9月以来，国际黄金价格已经连续3个月下跌。25日，现货黄金价格一度跌破每盎司3500美元的整数关口，创下自2025年9月以来的新低。随着金价出现较大幅度的回调，消费者购金热情明显上涨。27日，现货黄金价格出现较大幅度的反弹，和年初每盎司5596.33美元的高点相比，下跌幅度仍然超过30%。记者在各地走访时发现，金价回调不仅没有影响消费者的购金热情，黄金市场上反而呈现出一种越跌越买的消费行情。",
+   "time": "2026-11-28 14:52",
+   "url": "https://wallstreetcn.com/livenews/3207329",
    "source": "华尔街见闻"
   },
   {
-   "title": "一周过去了，特朗普还沉浸其中 - 观察者网",
-   "summary": "",
-   "time": "2026-11-28 13:19",
-   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCcHhQakhYSU93WVA5Snp0STRvN3B5emdfMXhtWld5d3FrUlJsMTBqbGo2WU5fYzdKVHcxUGlTa2NSSUJFZE5FTkczNGFtQkVJX0xQTXZRb0QzVnJjUUhaVDlrUUVtaXhaaExqM1gzS29ES1U?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "西部证券孙寅：资本市场定位再强化 多渠道资金合力托底",
+   "summary": "【西部证券孙寅：资本市场定位再强化 多渠道资金合力托底】11月27日召开的国务院常务会议对资本市场工作作出部署。西部证券研发中心负责人孙寅在接受上证报记者采访时表示，本次国常会进一步抬升资本市场在宏观经济框架中的战略定位，强调投融资两端均衡发展，以资本市场功能发挥服务实体经济大局。",
+   "time": "2026-11-28 14:48:00",
+   "url": "https://finance.eastmoney.com/a/202611283942364124.html",
+   "source": "东财国际"
   },
   {
-   "title": "标普将法国主权信用评级展望下调至“负面” - 联合早报",
+   "title": "标普下调法国评级展望至负面：经济衰退、赤字高企、政局动荡三座大山压顶 - 华尔街见闻",
    "summary": "",
-   "time": "2026-11-28 13:06",
-   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXaW5QYnh5c3JpM0h6VDdVQUl0LW5RSDAtZkF4Yzl1Z3VGQUg4RmUtbldtMl8yUXNfWWJwQmhJZldVN2doU0xWUnc2V3h4WmtXb2g2V0JZR3pJYmhDRTJibmxzNkpTeWFzX0JV?oc=5",
+   "time": "2026-11-28 14:36",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4ybHhoWVpSeWswbUdSMjRFXzYzZUFZRGRKRzBZSnRqZUN3X1hfOTc4cVp0MW5neHdTTURWcFg5RV9IelhIZlBCbW9Gakgyams5Z29r?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "李在明：将打造亚洲最大的AI基础设施",
+   "title": "特朗普又连发深圳APEC照片，一周过去了，他还沉浸其中！ - 新浪财经_金融信息服务商",
    "summary": "",
-   "time": "2026-11-28 06:02:55",
-   "url": "https://news.10jqka.com.cn/20261128/c682325787.shtml",
-   "source": "同花顺"
+   "time": "2026-11-28 13:43",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OTzdoeGtfay1ZYVVHMXdDd2xNNDByQk9vV1d5WVpKOXVFZXVfVG9ObVNVdFJ0cTRZX2NlOHBlWndTbWJFM25jWHREbUVVQnNUTlQ4V0phTFY1c2NjQ1A0SFdWVlhlTEJjYkRCNGJ5RzhjZw?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "崔东树：1-10月汽车行业利润率3.2%、收入增1.9%、成本增3.2%、利润降26%",
+   "title": "李在明出席数据中心奠基仪式，承诺全力助推韩国AI领先",
    "summary": "",
-   "time": "2026-11-28 04:38:19",
-   "url": "https://news.futunn.com/flash/1005892677/cui-dongshu-from-january-to-october-the-automotive-industry-s",
+   "time": "2026-11-28 06:03:17",
+   "url": "https://news.futunn.com/flash/1005896686/lee-jae-myung-attends-data-center-groundbreaking-ceremony-pledges-full",
    "source": "富途"
+  },
+  {
+   "title": "国内首次 青海发现南方猛犸象完整头骨化石",
+   "summary": "",
+   "time": "2026-11-28 06:12:17",
+   "url": "https://news.10jqka.com.cn/20261128/c682325818.shtml",
+   "source": "同花顺"
   },
   {
    "title": "东方财富财经早餐 11月26日周四",
@@ -1824,46 +1883,46 @@
    "source": "财新"
   },
   {
-   "title": "高盛首次覆盖宇树给予“卖出”评级：股价已提前透支未来十年的增长预期",
-   "summary": "【高盛首次覆盖宇树给予“卖出”评级：股价已提前透支未来十年的增长预期】高盛看好人形机器人行业的长期增长前景，也认可宇树在硬件、运动控制等方面的优势，称其为机器人“实验室里的iPhone”，预计公司未来十年收入年复合增长率达到37%。但从实验室走向工业场景，宇树的市场份额与盈利韧性仍有待验证。高盛认为，当前估值已提前计入其跻身全球前三、2035年销量份额达到15%及长期维持高利润率的乐观预期，而高盛基准预测中，宇树2035年全球市场份额仅为6%。",
-   "time": "2026-11-28 14:25:16",
-   "url": "https://finance.eastmoney.com/a/202611283942361874.html",
-   "source": "东财国际"
-  },
-  {
-   "title": "赶在民主党州长上任前，得州紧急“解冻”1800多个数据中心项目，开发商争分夺秒抢许可",
-   "summary": "据英国《金融时报》，得克萨斯州突然重启此前暂停的数据中心项目审批，超过1800个项目重新获得推进机会。随着民主党籍新州长吉娜·希诺霍萨（Gina Hinojosa）明年1月即将上任，且其已承诺收紧数据中心建设，开发商正争分夺秒，试图赶在新政府上台前拿到审批许可。今年8月，应时任州长格雷格·阿博特（Greg Abbott）办公室要求，得州暂停了新数据中心项目的审批。当时，涉及新增电力需求的申请规模达",
-   "time": "2026-11-28 13:36",
-   "url": "https://wallstreetcn.com/livenews/3207322",
+   "title": "以色列政坛现新动向 埃森科特承诺不单方面同利库德集团组阁",
+   "summary": "据以色列方面27日消息，受命组建新政府的以色列正直党领导人埃森科特向已与其签署组阁协议的“以色列是我们的家园”党和以色列民主党作出承诺，未经对方同意，他不会单方面推进同看守政府总理内塔尼亚胡领导的利库德集团组建跨阵营大联合政府。与此同时，阿拉伯裔政党联合阿拉伯党表态，愿在新政府四年任期内提供全面支持。",
+   "time": "2026-11-28 14:06",
+   "url": "https://wallstreetcn.com/livenews/3207325",
    "source": "华尔街见闻"
   },
   {
-   "title": "对特朗普称普京“朋友”作何感想？泽连斯基愣了3秒：这很奇怪 - ThePaper.cn",
-   "summary": "",
-   "time": "2026-11-28 12:05",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE40dzQ5bTFTVGpycEFWYmFyLW1fSjJGZjVaZExENVI5WDRzcDJxSWd5Qy0zelZSSDdKaHg2cmNCSFNLeFNyNmU5UG5DWjg1Mm1DbVZMQ0UycjlUV0F6S1pJSg?oc=5",
-   "source": "谷歌新闻·国际"
+   "title": "OpenAI反诉苹果窃取机密 人工智能设备开发竞赛愈发白热化",
+   "summary": "【OpenAI反诉苹果窃取机密 人工智能设备开发竞赛愈发白热化】周五，OpenAI起诉苹果，称苹果窃取OpenAI的商业机密，并阻止硬件供应商参与OpenAI未来的设备研发。苹果公司于7月起诉OpenAI及其前员工Tang Tan和Chang Liu，指控他们盗用苹果的商业机密，以帮助OpenAI进军消费硬件市场。",
+   "time": "2026-11-28 14:38:00",
+   "url": "https://finance.eastmoney.com/a/202611283942363280.html",
+   "source": "东财国际"
   },
   {
-   "title": "三大信用评级机构全部亮“负面”，标普补上最后一刀：法国迎选举，财政修复恐成空谈_滚动新闻_财经 - 证券之星",
+   "title": "全球七大投行最新黄金预测出炉！高盛两度下调目标价 金价恐要等到2028年才能再创新高 - Sohu",
    "summary": "",
-   "time": "2026-11-28 12:00",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93c2tfeHBUd3p6RGh2MXl3WkpmZEZQRndJYkNySlRWUG12UDQyTGNHTjNDZTFvZWNPcVhEZFU1dFRYTzhlUWdWVnVKY0UyZXkxRE5ybnJaUXJPcTJTdHJtZg?oc=5",
+   "time": "2026-11-28 13:09",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbHZCTF84Z0RzLWJUZjZVSmFKV3FvN1pPZExWdVZ6S21ReGVsQ2hzb01XeFRRTVBCNTk5MWJGV3I3aGNOWEpyVC1JN0hGU0Y4SlZWRXB4WDNvMXZoNU9renRKRDFnNjU1SWZGSG9rTXRMaWlVWlNKdkthNDY2dnVVeHJoZUhkRzRZ?oc=5",
    "source": "谷歌新闻·研报"
   },
   {
-   "title": "广电总局公布网络视听节目不良传播行为治理典型案例",
+   "title": "一周过去了，特朗普还沉浸其中 - 观察者网",
    "summary": "",
-   "time": "2026-11-28 05:35:55",
-   "url": "https://news.10jqka.com.cn/20261128/c682325710.shtml",
-   "source": "同花顺"
+   "time": "2026-11-28 13:19",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCcHhQakhYSU93WVA5Snp0STRvN3B5emdfMXhtWld5d3FrUlJsMTBqbGo2WU5fYzdKVHcxUGlTa2NSSUJFZE5FTkczNGFtQkVJX0xQTXZRb0QzVnJjUUhaVDlrUUVtaXhaaExqM1gzS29ES1U?oc=5",
+   "source": "谷歌新闻·国际"
   },
   {
-   "title": "前10个月黑龙江省货物贸易进出口总值同比增长9.7%",
+   "title": "崔东树：1-10月汽车行业利润率3.2%、收入增1.9%、成本增3.2%、利润降26%",
    "summary": "",
-   "time": "2026-11-28 04:35:53",
-   "url": "https://news.futunn.com/flash/1005892632/in-the-first-ten-months-the-total-value-of-goods",
+   "time": "2026-11-28 04:38:19",
+   "url": "https://news.futunn.com/flash/1005892677/cui-dongshu-from-january-to-october-the-automotive-industry-s",
    "source": "富途"
+  },
+  {
+   "title": "李在明：将打造亚洲最大的AI基础设施",
+   "summary": "",
+   "time": "2026-11-28 06:02:55",
+   "url": "https://news.10jqka.com.cn/20261128/c682325787.shtml",
+   "source": "同花顺"
   },
   {
    "title": "【本文系数据通用户提前专享】汽车企业和宁德时代需要找到新的利益平衡点",
@@ -1873,18 +1932,18 @@
    "source": "财新"
   },
   {
-   "title": "赶在民主党州长上任前 得州紧急“解冻”1800多个数据中心项目 开发商争分夺秒抢许可",
-   "summary": "【赶在民主党州长上任前 得州紧急“解冻”1800多个数据中心项目 开发商争分夺秒抢许可】据英国《金融时报》，得克萨斯州突然重启此前暂停的数据中心项目审批，超过1800个项目重新获得推进机会。随着民主党籍新州长吉娜·希诺霍萨（Gina Hinojosa）明年1月即将上任，且其已承诺收紧数据中心建设，开发商正争分夺秒，试图赶在新政府上台前拿到审批许可。",
-   "time": "2026-11-28 14:21:04",
-   "url": "https://finance.eastmoney.com/a/202611283942361666.html",
-   "source": "东财国际"
+   "title": "巴基斯坦总理和国防军司令兼陆军参谋长同正在中国空间站执行任务的巴方航天员天地通话。（央视）",
+   "summary": "巴基斯坦总理和国防军司令兼陆军参谋长同正在中国空间站执行任务的巴方航天员天地通话。（央视）",
+   "time": "2026-11-28 13:55",
+   "url": "https://wallstreetcn.com/livenews/3207324",
+   "source": "华尔街见闻"
   }
  ],
  "news_meta": {
   "sources": {
    "东财国际": "ok(30)",
    "东财早报": "ok(30)",
-   "富途": "ok(29)",
+   "富途": "ok(30)",
    "同花顺": "ok(20)",
    "财新": "ok(30)",
    "百度财经": "ok(30)",
@@ -1893,12 +1952,12 @@
    "谷歌新闻·研报": "ok(30)"
   },
   "counts": {
-   "东财国际": 7,
    "华尔街见闻": 7,
-   "谷歌新闻·国际": 7,
+   "东财国际": 7,
    "谷歌新闻·研报": 7,
-   "同花顺": 6,
+   "谷歌新闻·国际": 7,
    "富途": 6,
+   "同花顺": 6,
    "东财早报": 2,
    "财新": 6
   }
